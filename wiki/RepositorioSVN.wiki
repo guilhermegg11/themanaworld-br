@@ -1,0 +1,9 @@
+#summary One-sentence summary of this page.
+
+= Introdução =
+
+Esta página fornece algumas informações sobre como como utilizar nosso repositório SVN.
+Se você puder observar você pode navegar pela árvore de diretórios acessando [http://code.google.com/p/themanaworld-br/source/browse/ Souce > Browser] ou ainda [http://themanaworld-br.googlecode.com/svn diretamente]. Mas como copiar todos os arquivos de uma só vez ?
+
+|| Projeto || Comando ||
+|| tmwdata || svn checkout http://themanaworld-br.googlecode.com/svn/tmwdata tmwdata-read-only ||
