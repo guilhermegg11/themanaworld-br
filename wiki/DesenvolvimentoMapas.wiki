@@ -1,0 +1,10 @@
+#summary One-sentence summary of this page.
+
+= Introdução =
+
+Este artigo consta os primeiros passos para se construir um mapa que possa ser facilmente aproveitado pelo *The Mana World BR*
+Se você não sabe como editar mapas, recomendo que leia alguns tutorias:
+  * [http://mapeditor.org/wiki/Creating_a_simple_map_with_Tiled Creating a simple map with Tiled (Wiki Tiled)]
+  * [http://wiki.themanaworld.org/index.php/Mapping_Tutorial Mapping Tutorial (Wike The Mana World)]
+  * [http://silveiraneto.net/2009/01/11/game-map-edition-using-tiled/ Game map edition using Tiled (Blog Silveira Neto)]
+  * [http://diogorbg.blogspot.com/2009/03/construindo-um-mmorpg-parte-3.html Construindo um MMORPG - Parte 3 (Blog Diogo_RBG)]
