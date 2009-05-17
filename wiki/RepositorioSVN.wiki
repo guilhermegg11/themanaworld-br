@@ -1,4 +1,5 @@
 #summary Informações sobre como utilizar o Repositório Subversion.
+#labels Featured
 
 = Introdução =
 
