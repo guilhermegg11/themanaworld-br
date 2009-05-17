@@ -1,10 +1,38 @@
-#summary One-sentence summary of this page.
+#summary Primeiros passos para edição de mapas.
+#labels Featured
 
 = Introdução =
 
-Este artigo consta os primeiros passos para se construir um mapa que possa ser facilmente aproveitado pelo *The Mana World BR*
+Nesta página consta os primeiros passos para se construir um mapa que possa ser facilmente aproveitado pelo *The Mana World BR*.
+
 Se você não sabe como editar mapas, recomendo que leia alguns tutorias:
   * [http://mapeditor.org/wiki/Creating_a_simple_map_with_Tiled Creating a simple map with Tiled (Wiki Tiled)]
-  * [http://wiki.themanaworld.org/index.php/Mapping_Tutorial Mapping Tutorial (Wike The Mana World)]
+  * [http://wiki.themanaworld.org/index.php/Mapping_Tutorial Mapping Tutorial (Wiki The Mana World)]
   * [http://silveiraneto.net/2009/01/11/game-map-edition-using-tiled/ Game map edition using Tiled (Blog Silveira Neto)]
   * [http://diogorbg.blogspot.com/2009/03/construindo-um-mmorpg-parte-3.html Construindo um MMORPG - Parte 3 (Blog Diogo_RBG)]
+
+= Medias e Configurações =
+
+Nem preciso dizer que você não deve criar mapas com tiles de medidas diferentes de 32x32 em tilesets normais e tiles de altura múltipla de 32 em tilesets de objetos "altos", por assim dizer.
+
+Existem outras tantas configurações que deveriam ser levadas em consideração... por enquanto use o [http://wiki.themanaworld.org/index.php/Mapping_Tutorial Wiki do The Mana World] para se orientar.
+
+Peço que respeitem a margem de 20 tiles de borda na edição de uma mapa... estes 20 tiles possuem senário, mas o usuário, por um obstáculo ou outro, é impedido de ultrapassar esta margem. Esta margem é uma medida que assegura o realismo do mapa... a rolagem tem 20 tiles livres para expandir em qualquer direção.
+
+|| *AVISO*: No TMW seu mapa deve estar no diretório *maps* e seus tilesets em *graphics/tiles*. Qualquer arquivo fora deste esquema não é carregado. ||
+
+= Em ação =
+
+Estando familiarizado com o editor [http://mapeditor.org/ Tiled] e tendo conhecimento das medidas e configurações que devem ser adotadas na edição de mapas.. é hora de trabalhar com sua dedicação e criatividade na edição de mapas.
+
+Comece carregando os tilesets, mapas e outros arquivos do diretório *tmwdata* em noso Repositório ([RepositorioSVN]).
+
+Comando:
+{{{
+svn checkout http://themanaworld-br.googlecode.com/svn/tmwdata tmwdata-read-only
+}}}
+Renomeie-o como quiser. Sugestão: tmwdata.
+
+Agora crie um novo mapa em *maps* e comece a edição.
+
+Quando terminar abra um tópico de discussão no [http://www.themanaworld.com.br/ fórum TMW-BR] e mostre seu trabalho. Nós receberemos agradecidos !
