@@ -1,15 +1,22 @@
-#summary One-sentence summary of this page.
+#summary Informações sobre como utilizar o Repositório Subversion.
 
 = Introdução =
 
 Esta página fornece algumas informações sobre como utilizar nosso repositório SVN.
-Se você puder observar em [http://code.google.com/p/themanaworld-br/source/browse/ Source > Browser] é possível navegar pela árvore de diretórios ou ainda pela url [http://themanaworld-br.googlecode.com/svn]
-Mas como copiar todos os arquivos de uma só vez ?
+Se você puder observar em [http://code.google.com/p/themanaworld-br/source/browse/ Source > Browser] é possível navegar pela árvore de diretórios ou ainda pela url [http://themanaworld-br.googlecode.com/svn]. Mas como copiar todos os arquivos de uma só vez ?
 
 Para copiar arquivos de um *Repositório Subversion* você precisará do programa *svn*. Ele está disponível em: [http://subversion.tigris.org/getting.html Getting Subversion].
+
 Instalado o programa é só fazer uma cópia de um dos diretórios disponíveis no repositório. Esta cópia é feita por linha de comando utilizando a opção *checkout*.
 
 Esta tabela possui uma lista de diretórios e seus respectivos comandos.
 
 || Projeto || Comando ||
 || tmwdata || svn checkout http://themanaworld-br.googlecode.com/svn/tmwdata tmwdata-read-only ||
+|| eathena || svn checkout http://themanaworld-br.googlecode.com/svn/eathena eathena-read-only ||
+|| eathena-data || svn checkout http://themanaworld-br.googlecode.com/svn/eathena-data eathena-data-read-only ||
+|| art || svn checkout http://themanaworld-br.googlecode.com/svn/art art-read-only ||
+
+Todos possuem sufixo *read-only* que quer dizer *somente leitura*. Isso é porque "svn checkout http://..." só permite fazer cópias anônimas. Se você é um membro você pode usar seu login e senha (disponibilizada pelo Google) para fazer cópias que permitam alteração.
+
+O comando seria algo como "svn checkout https://... --username *seu_nome_de_usuário*". O Google fornece mais informações em [http://code.google.com/p/themanaworld-br/source/checkout Source > Checkout]
