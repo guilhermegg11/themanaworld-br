@@ -19,9 +19,11 @@ Existem outras tantas configurações que deveriam ser levadas em consideração
 
 Peço que respeitem a margem de 20 tiles de borda na edição de uma mapa... estes 20 tiles possuem senário, mas o usuário, por um obstáculo ou outro, é impedido de ultrapassar esta margem. Esta margem é uma medida que assegura o realismo do mapa... a rolagem tem 20 tiles livres para expandir em qualquer direção.
 
-|| *AVISO*: No TMW seu mapa deve estar no diretório *maps* e seus tilesets em *graphics/tiles*. Qualquer arquivo fora deste esquema não é carregado. ||
+|| *AVISO*: No TMW seu mapa deve estar no diretório *maps/* e seus tilesets em *graphics/tiles/*. Qualquer arquivo fora deste esquema não é carregado. ||
 
-= Em ação =
+Mais detalhes logo abaixo.
+
+= Mapeamento em ação =
 
 Estando familiarizado com o editor [http://mapeditor.org/ Tiled] e tendo conhecimento das medidas e configurações que devem ser adotadas na edição de mapas.. é hora de trabalhar com sua dedicação e criatividade na edição de mapas.
 
@@ -29,10 +31,25 @@ Comece carregando os tilesets, mapas e outros arquivos do diretório *tmwdata* e
 
 Comando:
 {{{
-svn checkout http://themanaworld-br.googlecode.com/svn/tmwdata tmwdata-read-only
+svn checkout http://themanaworld-br.googlecode.com/svn/tmwdata tmwdata
 }}}
-Renomeie-o como quiser. Sugestão: tmwdata.
+O comando irá criar um diretório chamado *tmwdata*. No diretório tmwdata se encontram todos os dados de customizados para o TMW-BR. Estes são os mesmos dados de update baixados após a conexão com nosso servidor *server.themanaworld.com.br*. (obs.: ainda não trabalhamos o servidor... por isso esta informação é uma meia verdade !)
 
-Agora crie um novo mapa em *maps* e comece a edição.
+De toda a estrutura em tmwdata o que importa para nós são apenas dois diretórios: *tiles* e *maps*. Veja a estrutura logo abaixo:
+{{{
+tmwdata/
+|_ graphics/
+|  |_ tiles/
+|     |_ arena.png
+|     |_ block_walls-0043.png
+|     |_ cave_bilevel.png
+|     |_ ...
+|     |_ Woodland_x8.png
+|_ maps/
+   |_ meu_mapa.tmx
+}}}
+O arquivo *meu_mapa.tmx* é uma sugestão para nome de arquivo para o mapa que você irá fazer. O importante é que, dentro do diretório *tmwdata/*, ele esteja em *maps/* e também que utilize apenas os tiles do diretório *graphics/tiles/*.
+
+Sim... agora você já pode construir seu novo mapa !
 
 Quando terminar abra um tópico de discussão no [http://www.themanaworld.com.br/ fórum TMW-BR] e mostre seu trabalho. Nós receberemos agradecidos !
