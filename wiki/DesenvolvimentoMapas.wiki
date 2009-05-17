@@ -11,7 +11,7 @@ Se você não sabe como editar mapas, recomendo que leia alguns tutorias:
   * [http://silveiraneto.net/2009/01/11/game-map-edition-using-tiled/ Game map edition using Tiled (Blog Silveira Neto)]
   * [http://diogorbg.blogspot.com/2009/03/construindo-um-mmorpg-parte-3.html Construindo um MMORPG - Parte 3 (Blog Diogo_RBG)]
 
-= Medias e Configurações =
+= Medidas e Configurações =
 
 Nem preciso dizer que você não deve criar mapas com tiles de medidas diferentes de 32x32 em tilesets normais e tiles de altura múltipla de 32 em tilesets de objetos "altos", por assim dizer.
 
