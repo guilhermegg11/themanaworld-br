@@ -22,9 +22,11 @@ Peço que respeitem a margem de 20 tiles de borda na edição de uma mapa... est
 == "Tiles altos" ==
 
 Por falta de uma nomenclatura melhor resolvi chamar os tiles agrupados de *tiles altos*. Mas o que seria um tiles alto? São os tiles dos tilesets terminados com `_`x2.png, `_`x3.png... exemplo:
+
 [http://themanaworld-br.googlecode.com/svn/tmwdata/graphics/tiles/desert_x2.png]
 
 Existe uma configuração especial para utilizar estes tilestes. Um tileset `_`x2.png precisa ter altuta 32`*`2 = *64*. Um `_`x3.png precisa ter altura 32`*`3 = *96*. Isto é configurado dessa forma:
+
 [http://themanaworld-br.googlecode.com/svn/wiki/imgs/novo-tileset-x2.png] *==>* [http://themanaworld-br.googlecode.com/svn/wiki/imgs/usando-tile-x2.png]
 
 == Camadas ==
