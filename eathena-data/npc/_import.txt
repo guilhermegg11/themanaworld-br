@@ -1,0 +1,2 @@
+import: npc/002_Fortaleza/_import.txt
+import: npc/005_Fortaleza_entrada/_import.txt

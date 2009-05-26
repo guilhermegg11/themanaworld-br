@@ -1,0 +1,7 @@
+// 005 Fortaleza (entrada) warps
+
+005.gat,178,19	warp	paraCima	0,-1,002.gat,177,119
+005.gat,22,19	warp	paraCima	0,-1,002.gat,21,119
+005.gat,28,19	warp	paraCima	0,-1,002.gat,27,119
+005.gat,100,21	warp	paraFortaleza	2,-1,002.gat,97,121
+005.gat,172,19	warp	paraCima	0,-1,002.gat,171,119

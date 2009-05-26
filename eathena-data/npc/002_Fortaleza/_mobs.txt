@@ -1,0 +1,7 @@
+// 002 Fortaleza mobs
+
+
+
+002.gat,0,0,0	script	Mob002	-1,{
+	end;
+}

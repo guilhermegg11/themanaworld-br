@@ -1,0 +1,7 @@
+// 002 Fortaleza warps
+
+002.gat,22,119	warp	paraBaixo	0,-1,005.gat,21,19
+002.gat,28,119	warp	paraBaixo	0,-1,005.gat,27,19
+002.gat,100,121	warp	paraBaixo	2,-1,005.gat,99,21
+002.gat,172,119	warp	paraBaixo	0,-1,005.gat,171,19
+002.gat,178,119	warp	paraBaixo	0,-1,005.gat,177,19
