@@ -1,0 +1,19 @@
+Mundo Tux !!!
+ 
+* Mapas
+  - Fortaleza (001.gat)
+  - Vila (vila.gat)
+  - Casa (casa.gat)
+  - Hotel (hotel.gat)
+ 
+* Alguns NPC's
+  - Sebastiao - Conhece um otimo local para testar mapas.
+  - Sonia - Viajante.
+  - Shell 0xff - Pode te informar sobre tudo no jogo.
+  - Manuel - Pode te vender alguns itens básicos.
+  - Jack - O cabeleiro da região.
+  - Adan e Jorge - Tomam conta de uma horta de repolhos.
+    Eles podem te vender alguns itens energéticos.
+  - Rafael - Arqueito em constante vigilância da fortaleza.
+  - Robson - Um curioso. Ele conhece muitas das pasagens secretas da
+    fortaleza.
