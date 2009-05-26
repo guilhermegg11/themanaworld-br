@@ -1,7 +1,7 @@
 // Athena Ladmin local configuration file.
  
 // Login Server IP
-login_ip:217.172.177.27
+login_ip: 217.172.177.27
 // Login Server Port
 login_port: 6900
 
