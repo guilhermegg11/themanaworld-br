@@ -5,6 +5,10 @@
   <property name="minimap" value="/graphics/minimaps/002.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
   <property name="name" value="Fortaleza"/>
+  <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset name="Colisao" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
@@ -35,7 +39,44 @@
  </layer>
  <layer name="Collision" width="200" height="140" visible="0">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraBaixo" type="warp" x="672" y="3808" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="672"/>
+    <property name="dest_y" value="608"/>
+   </properties>
+  </object>
+  <object name="paraBaixo" type="warp" x="864" y="3808" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="864"/>
+    <property name="dest_y" value="608"/>
+   </properties>
+  </object>
+  <object name="paraBaixo" type="warp" x="3136" y="3872" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="3168"/>
+    <property name="dest_y" value="672"/>
+   </properties>
+  </object>
+  <object name="paraBaixo" type="warp" x="5472" y="3808" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="5472"/>
+    <property name="dest_y" value="608"/>
+   </properties>
+  </object>
+  <object name="paraBaixo" type="warp" x="5664" y="3808" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="5664"/>
+    <property name="dest_y" value="608"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

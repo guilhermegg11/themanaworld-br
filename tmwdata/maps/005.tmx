@@ -2,9 +2,13 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="200" height="140" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="/graphics/minimaps/modelo.png"/>
+  <property name="minimap" value="/graphics/minimaps/005.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
-  <property name="name" value="Modelo"/>
+  <property name="name" value="Fortaleza (entrada)"/>
+  <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset name="Colision" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
@@ -38,7 +42,64 @@
  </layer>
  <layer name="Collision" width="200" height="140" visible="0">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraBaixo" x="3072" y="3840" width="256" height="32">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Morcego (5)" type="spawn" x="800" y="3616" width="1312" height="224">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="paraEsq" x="5760" y="3680" width="32" height="128"/>
+  <object name="Morcego (5)" type="spawn" x="4032" y="3616" width="1568" height="224">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="paraCima" type="warp" x="5664" y="608" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002"/>
+    <property name="dest_x" value="5664"/>
+    <property name="dest_y" value="3808"/>
+   </properties>
+  </object>
+  <object name="paraCima" type="warp" x="672" y="608" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002"/>
+    <property name="dest_x" value="672"/>
+    <property name="dest_y" value="3808"/>
+   </properties>
+  </object>
+  <object name="paraCima" type="warp" x="864" y="608" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002"/>
+    <property name="dest_x" value="864"/>
+    <property name="dest_y" value="3808"/>
+   </properties>
+  </object>
+  <object name="paraFortaleza" type="warp" x="3136" y="672" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="002"/>
+    <property name="dest_x" value="3104"/>
+    <property name="dest_y" value="3872"/>
+   </properties>
+  </object>
+  <object name="paraCima" type="warp" x="5472" y="608" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002"/>
+    <property name="dest_x" value="5472"/>
+    <property name="dest_y" value="3808"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
