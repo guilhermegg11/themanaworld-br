@@ -13,11 +13,12 @@ Instalado o programa é só fazer uma cópia de um dos diretórios disponíveis 
 Esta tabela possui uma lista de diretórios e seus respectivos comandos.
 
 || Projeto || Comando ||
-|| tmwdata || svn checkout http://themanaworld-br.googlecode.com/svn/tmwdata tmwdata-read-only ||
-|| eathena || svn checkout http://themanaworld-br.googlecode.com/svn/eathena eathena-read-only ||
-|| eathena-data || svn checkout http://themanaworld-br.googlecode.com/svn/eathena-data eathena-data-read-only ||
-|| art || svn checkout http://themanaworld-br.googlecode.com/svn/art art-read-only ||
+|| tmwdata || svn checkout http://themanaworld-br.googlecode.com/svn/tmwdata tmwdata ||
+|| eathena || svn checkout http://themanaworld-br.googlecode.com/svn/eathena eathena ||
+|| eathena-data || svn checkout http://themanaworld-br.googlecode.com/svn/eathena-data eathena-data ||
+|| updates || svn checkout http://themanaworld-br.googlecode.com/svn/updates updates ||
+|| art || svn checkout http://themanaworld-br.googlecode.com/svn/art art ||
 
-Todos possuem sufixo *read-only* que quer dizer *somente leitura*. Isso é porque "svn checkout http://..." só permite fazer cópias anônimas. Se você é um membro você pode usar seu login e senha (disponibilizada pelo Google) para fazer cópias que permitam alteração.
+Todos os comandos fazer uma cópia de *somente leitura*. Isso é porque "svn checkout http://..." só permite fazer cópias anônimas. Se você é um membro você pode usar seu login e senha (disponibilizada pelo Google) para fazer cópias que permitam alteração.
 
 O comando seria algo como "svn checkout https://... --username *seu_nome_de_usuário*". O Google fornece mais informações em [http://code.google.com/p/themanaworld-br/source/checkout Source > Checkout]
