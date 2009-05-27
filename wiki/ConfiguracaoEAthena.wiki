@@ -1,5 +1,42 @@
-#summary Como configurar nosso servidor eAthena.
+#summary Como configurar e rodar nosso servidor eAthena em sua própria máquina.
 
 = Indrodução =
 
-...
+Esta página irá lhe orientar a como configurar e rodar nosso servidor eAthena em sua máquina.
+
+Antes eu disse "nosso servidor eAthena", mas o termo correto seria "o servidor eAthena com nossas customizações". O eAthena é um servidor para jogos do tipo RPG online. Inicialmente ele era utilizado apenas pelo jogo Ragnarok, mas hoje é utilizado pelo jogo The Mana World e também em nosso servidor !
+
+Os desenvolvedores do The Mana World criaram um novo servidor chamado tmwServ. Este será o novo servidor do The Mana World. Por enquanto ele não está totalmente pronto para uso, mas assim que estiver ele será utilizado pelo TMW e também pelo TMW-BR.
+
+= Configuração =
+
+É relativamente simples configurar e rodar nosso servidor eAthena. Ele inclusive já vem configurado para rodar localmente (IP 127.0.0.1).
+
+|| *Obs:* É recomendado o uso do sistema operacional Linux, pois iremos fazer uso de recursos não existentes no Windows. ||
+
+Primeiro baixe o servidor do repositório:
+
+{{{
+svn checkout http://themanaworld-br.googlecode.com/svn/eathena-data eathena-data
+}}}
+
+No diretório *eathena-data/conf* existem diversos arquivos com a terminação *.example* em seu nome. Esta terminação deve ser retirada. Para facilitar o serviço use os comandos:
+
+{{{
+mv atcommand_local.conf.example atcommand_local.conf
+mv battle_local.conf.example battle_local.conf
+mv char_local.conf.example char_local.conf
+mv eathena-monitor.conf.example eathena-monitor.conf
+mv gm_account.txt.example gm_account.txt
+mv help.txt.example help.txt
+mv ladmin_local.conf.example ladmin_local.conf
+mv login_local.conf.example login_local.conf
+mv map_local.conf.example map_local.conf
+mv motd.txt.example motd.txt
+}}}
+
+Deste arquivos, *char_local.conf* e *map_local.conf* necessitam de configuração, caso você queira rodar o servidor em rede. Para isso basta trocar o ip 127.0.0.1 por seu IP. Para rodar localmente não é necessário fazer nada.
+
+No diretório *eathena-data/save*...
+
+= Execução =
