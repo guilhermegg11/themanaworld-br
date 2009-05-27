@@ -4,7 +4,7 @@
 
 Esta página irá lhe orientar a como configurar e rodar nosso servidor eAthena em sua máquina.
 
-Antes eu disse "nosso servidor eAthena", mas o termo correto seria "o servidor eAthena com nossas customizações". O eAthena é um servidor para jogos do tipo RPG online. Inicialmente ele era utilizado apenas pelo jogo Ragnarok, mas hoje é utilizado pelo jogo The Mana World e também em nosso servidor !
+Eu disse "nosso servidor eAthena", mas o termo correto seria "o servidor eAthena com nossas customizações". O eAthena é um servidor para jogos do tipo RPG online. Inicialmente ele era utilizado apenas pelo jogo Ragnarok, mas hoje é utilizado pelo jogo The Mana World e também em nosso servidor !
 
 Os desenvolvedores do The Mana World criaram um novo servidor chamado tmwServ. Este será o novo servidor do The Mana World. Por enquanto ele não está totalmente pronto para uso, mas assim que estiver ele será utilizado pelo TMW e também pelo TMW-BR.
 
@@ -12,7 +12,7 @@ Os desenvolvedores do The Mana World criaram um novo servidor chamado tmwServ. E
 
 É relativamente simples configurar e rodar nosso servidor eAthena. Ele inclusive já vem configurado para rodar localmente (IP 127.0.0.1).
 
-|| *Obs:* É recomendado o uso do sistema operacional Linux, pois iremos fazer uso de recursos não existentes no Windows. ||
+|| *Obs:* É recomendado o uso do sistema operacional *Linux*, pois iremos fazer uso de recursos não existentes no Windows. ||
 
 Primeiro baixe o servidor do repositório:
 
@@ -35,7 +35,7 @@ mv map_local.conf.example map_local.conf
 mv motd.txt.example motd.txt
 }}}
 
-Destes arquivos, *char_local.conf* e *map_local.conf* necessitam de configuração, caso você queira rodar o servidor em rede. Para isso basta trocar o ip *127.0.0.1* por seu IP. Para rodar localmente não é necessário fazer nada.
+Destes arquivos, *char_local.conf* e *map_local.conf* necessitam de configuração caso você queira rodar o servidor em rede. Para isso basta trocar o IP *127.0.0.1* por seu IP. Para rodar localmente (apenas na sua máquina) não é necessário fazer nada.
 
 No diretório *eathena-data/save* existe um outro arquivo com a terminação *.example* no nome. Este arquivo também precisa ser renomeado.
 
@@ -90,4 +90,14 @@ Starting:
 * char_server: /home/diogorbg/tmwserver/char-server
 }}}
 
-Agora o servidor está rodando em sua máquina. O próximo passo é abrir o cliente The Mana World e se conectar com o IP 127.0.0.1 (ou o IP de rede da máquina em que se encontra o servidor) para jogar. É claro que você deve criar uma conta no novo servidor primeiro !
+Agora o servidor está rodando em sua máquina. O próximo passo é abrir o cliente The Mana World e se conectar com o IP *127.0.0.1* (ou o IP de rede da máquina em que se encontra o servidor) para jogar. É claro que você deve criar uma conta no novo servidor primeiro !
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/login-local.png]
+
+Para parar a execução do servidor use *stop* e para reiniciar o servidor use *restart*:
+
+{{{
+./eathena.sh stop
+}}}
+
+Ainda não há muito para ser visto ! Estamos em fase de teste.
