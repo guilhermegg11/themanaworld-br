@@ -43,7 +43,7 @@ No diretório *eathena-data/save* existe um outro arquivo com a terminação *.e
 
 Os binário do servidor não estão disponíveis com o *eathena-data* do repositório. Eles não estão disponíveis em lugar algum. E só podem ser obtidos através da compilação do eAthena.
 
-Baixe o [http://themanaworld-br.googlecode.com/svn/eathena/eathena.zip eAthena] e extráia para um diretório chamado *eathena*. Em seguida compile o projeto com o comando make.
+Baixe o [http://themanaworld-br.googlecode.com/svn/eathena/eathena.zip eAthena] e o extráia para um diretório chamado *eathena*. Em seguida compile o projeto com o comando make.
 
 {{{
 make
