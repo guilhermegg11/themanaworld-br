@@ -397,7 +397,7 @@
             />
     </monster>
 
-    <monster id="12" name="Flower">
+    <monster id="12" name="Flor">
         <sprite>monster-flower.xml</sprite>
         <sound event="hit">flower-hit1.ogg</sound>
         <sound event="hit">flower-hit2.ogg</sound>
@@ -478,7 +478,7 @@
             />
     </monster>
 
-    <monster id="15" name="Bat">
+    <monster id="15" name="Morcego">
         <sprite>monster-bat.xml</sprite>
         <sound event="die">bat-dying1.ogg</sound>
         <sound event="hit">bat-hit1.ogg</sound>
@@ -644,7 +644,7 @@
             />
     </monster>
 
-    <monster id="23" name="Log Head">
+    <monster id="23" name="Lenha Dura">
         <sprite>monster-logmonster.xml</sprite>
         <sound event="hurt">loghead-hurt1.ogg</sound>
         <sound event="hurt">loghead-hurt2.ogg</sound>
@@ -723,7 +723,7 @@
             />
     </monster>
 
-    <monster id="27" name="Mauve Plant">
+    <monster id="27" name="Planta Malva">
         <sprite>resource-plant.xml|#e0b0ff</sprite>
         <attributes
             hp="20"
@@ -740,7 +740,7 @@
             />
     </monster>
 
-    <monster id="28" name="Cobalt Plant">
+    <monster id="28" name="Planta Cobalto">
         <sprite>resource-plant.xml|#0047ab</sprite>
         <attributes
             hp="20"
@@ -757,7 +757,7 @@
             />
     </monster>
 
-    <monster id="29" name="Gamboge Plant">
+    <monster id="29" name="Planta Gamboge">
         <sprite>resource-plant.xml|#ef9b0f</sprite>
         <attributes
             hp="20"
@@ -774,7 +774,7 @@
             />
     </monster>
 
-    <monster id="30" name="Alizarin Plant">
+    <monster id="30" name="Planta Alizarina">
         <sprite>resource-plant.xml|#e32636</sprite>
         <attributes
             hp="20"
@@ -826,7 +826,7 @@
             />
     </monster>
 
-    <monster id="33" name="Silkworm">
+    <monster id="33" name="Bicho-da-seda">
         <sprite>monster-silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
         <attributes
             hp="20"
