@@ -153,7 +153,7 @@
             />
     </monster>
 
-    <monster id="3" name="Green Slime">
+    <monster id="3" name="Limo Verde">
         <sprite>monster-slime.xml|#72982c,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
         <drop item="502" percent="2"/>
@@ -188,7 +188,7 @@
             />
     </monster>
 
-    <monster id="4" name="Giant Maggot" targetCursor="large">
+    <monster id="4" name="Verme Gigante" targetCursor="large">
         <sprite>monster-maggot-giant.xml</sprite>
         <sound event="hit">maggot-hit1.ogg</sound>
         <sound event="hit">maggot-hit2.ogg</sound>
@@ -216,7 +216,7 @@
             />
     </monster>
 
-    <monster id="5" name="Yellow Slime">
+    <monster id="5" name="Limo Dourado">
         <sprite>monster-slime.xml|#b47f00,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
         <drop item="534" percent="2"/>
@@ -239,7 +239,7 @@
             />
     </monster>
 
-    <monster id="6" name="Red Slime">
+    <monster id="6" name="Limo Vermelho">
         <sprite>monster-slime.xml|#7e0000,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
         <drop item="1201" percent="3"/>
@@ -570,7 +570,7 @@
             />
     </monster>
 
-    <monster id="19" name="Cave Snake">
+    <monster id="19" name="Cobra da Caverna">
         <sprite>monster-snake-cave.xml</sprite>
         <drop item="612" percent="8"/>
         <drop item="610" percent="0.1"/>
@@ -667,7 +667,7 @@
             />
     </monster>
 
-    <monster id="24" name="Mountain Snake">
+    <monster id="24" name="Cobra da Montanha">
         <sprite>monster-snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
         <attributes
             hp="20"
@@ -809,7 +809,7 @@
             />
     </monster>
 
-    <monster id="32" name="Grass Snake">
+    <monster id="32" name="Cobra da Grama">
         <sprite>monster-snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
         <attributes
             hp="20"
@@ -877,7 +877,7 @@
             />
     </monster>
 
-    <monster id="36" name="Squirrel">
+    <monster id="36" name="Esquilo">
         <sprite>monster-squirrel.xml</sprite>
         <attributes
             hp="20"
