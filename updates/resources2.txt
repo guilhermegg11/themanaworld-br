@@ -2,4 +2,4 @@ graphics.zip debdc5b0
 maps3.zip ad28a696
 raiz2.zip a6bb20b4
 sfx.zip db3980e0
-tiles2.zip acbd2daa
+tiles2.zip a8cdb0c4
