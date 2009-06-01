@@ -1,2 +1,5 @@
 import: npc/002_Fortaleza/_import.txt
 import: npc/005_Fortaleza_entrada/_import.txt
+import: npc/008-1_Caverna/_import.txt
+import: npc/008-2_Caverna/_import.txt
+import: npc/008_Ilha_Fortaleza/_import.txt

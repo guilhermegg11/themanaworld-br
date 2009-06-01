@@ -1,0 +1,8 @@
+// 008-2 Caverna warps
+
+008-2.gat,117,21	warp	paraDentro	-1,-1,008-2.gat,210,58
+008-2.gat,171,52	warp	paraFora	-1,-1,008.gat,171,37
+008-2.gat,172,42	warp	paraFora	-1,-1,008.gat,172,27
+008-2.gat,65,52	warp	paraFora	-1,-1,008.gat,65,37
+008-2.gat,35,40	warp	paraFora	-1,-1,008.gat,35,25
+008-2.gat,210,58	warp	paraFora	-1,-1,008-2.gat,117,21

@@ -1,0 +1,88 @@
+// 008 Ilha Fortaleza mobs
+
+008.gat,42,29,23,11	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
+008.gat,172,45,13,18	monster	Planta Malva (1)	1029,1,240000,120000,Mob008::On1029
+008.gat,171,46,13,18	monster	Planta Cobalto (1)	1030,1,240000,120000,Mob008::On1030
+008.gat,171,67,13,18	monster	Planta Gamboge (1)	1031,1,240000,120000,Mob008::On1031
+008.gat,170,68,13,18	monster	Planta Alizarina (1)	1032,1,240000,120000,Mob008::On1032
+008.gat,69,45,47,18	monster	Flor (5)	1014,5,0,0,Mob008::On1014
+008.gat,126,44,48,17	monster	Flor (5)	1014,5,0,0,Mob008::On1014
+008.gat,104,30,55,7	monster	Bicho-da-seda (5)	1035,5,0,0,Mob008::On1035
+008.gat,167,30,23,10	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
+008.gat,157,45,43,18	monster	Lenha Dura (5)	1025,5,0,0,Mob008::On1025
+008.gat,33,45,23,12	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
+008.gat,60,82,23,12	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
+008.gat,49,95,6,3	monster	Verme (2)	1002,2,45000,15000,Mob008::On1002
+008.gat,169,100,15,8	monster	Verme (5)	1002,5,0,0,Mob008::On1002
+008.gat,162,103,28,12	monster	Escorpião (3)	1003,3,30000,15000,Mob008::On1003
+008.gat,137,90,39,15	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob008::On1011
+008.gat,46,64,40,17	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob008::On1011
+008.gat,156,71,43,22	monster	Lenha Dura (5)	1025,5,0,0,Mob008::On1025
+008.gat,116,68,34,25	monster	Flor (5)	1014,5,0,0,Mob008::On1014
+008.gat,84,93,22,20	monster	Flor (5)	1014,3,0,0,Mob008::On1014
+008.gat,158,97,1,4	monster	Escorpião Vermelho (1)	1004,1,90000,30000,Mob008::On1004
+
+
+008.gat,0,0,0	script	Mob008	-1,{
+On1002:
+	set @mobID, 1002;
+	callfunc "MobPoints";
+	break;
+
+On1003:
+	set @mobID, 1003;
+	callfunc "MobPoints";
+	break;
+
+On1004:
+	set @mobID, 1004;
+	callfunc "MobPoints";
+	break;
+
+On1011:
+	set @mobID, 1011;
+	callfunc "MobPoints";
+	break;
+
+On1014:
+	set @mobID, 1014;
+	callfunc "MobPoints";
+	break;
+
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+	break;
+
+On1025:
+	set @mobID, 1025;
+	callfunc "MobPoints";
+	break;
+
+On1029:
+	set @mobID, 1029;
+	callfunc "MobPoints";
+	break;
+
+On1030:
+	set @mobID, 1030;
+	callfunc "MobPoints";
+	break;
+
+On1031:
+	set @mobID, 1031;
+	callfunc "MobPoints";
+	break;
+
+On1032:
+	set @mobID, 1032;
+	callfunc "MobPoints";
+	break;
+
+On1035:
+	set @mobID, 1035;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}
