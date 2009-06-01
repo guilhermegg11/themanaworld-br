@@ -1,5 +1,5 @@
 graphics.zip debdc5b0
-maps2.zip f3bb0681
-raiz.zip aab16b0
+maps3.zip ad28a696
+raiz2.zip a6bb20b4
 sfx.zip db3980e0
-tiles.zip a73f0294
+tiles2.zip acbd2daa

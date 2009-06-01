@@ -1,0 +1,65 @@
+HOW TO RELEASE AN UPDATE (31-10-2007)
+
+1. Place the update in this directory. The client downloads the updates from
+   here using the address updates.themanaworld.org.
+
+2. Run the following command to add the update to the end of the list of
+   updates the client will download:
+
+    adler32 myupdate.zip >> resources2.txt
+
+3. Open up resources2.txt to check the file was added correctly at the bottom.
+
+   Optionally reorder the updates as necessary or remove obsolete ones. The
+   client loads data from the updates by searching them last to first, so any
+   file that is in multiple updates is loaded from the last one on the list.
+
+   You can use analyze.php for checking obsoleteness.
+
+4. Check that the client is loading the update correctly and that it works.
+   Don't forget to check with the latest supported release as well as with the
+   latest development client.
+
+   WARNING: When something went wrong and you're fixing an update, note that
+    as of version 0.0.23, the client is NOT checking updates that it already
+    downloaded against their adler32 checksum. Always pick a new name when
+    replacing or fixing an older update!
+
+5. If you removed any obsolete updates from the list in step 3, move the
+   relates files to the 'old' folder to keep down the mess.
+
+========================================================================
+
+Tradução via Google Tradutor.
+
+COMO LIBERAR UM UPDATE (01/06/2008)
+
+1. Coloque a atualização (update) neste diretório. O cliente fará o download
+   da atualização a partir daqui usando o endereço themanaworld-br.googlecode.com/svn/updates.
+
+2. Execute o seguinte comando para adicionar a atualização para o final da lista de
+   atualizações que o cliente fará o download:
+
+   adler32 minha_atualizacao.zip >> resources2.txt 
+
+3. Abra resources2.txt para verificar se o arquivo de atualização foi adicionado
+   corretamente no final do arquivo.
+
+   Você pode reordenar as atualizações, e conforme o necessário, remover
+   atualizações obsoletas. O cliente carregará os dados pesquisando do
+   ultimo ao primeiro, por qualquer arquivo que está em várias atualizações
+   para carregá-lo a partir do último da lista.
+
+   Você pode utilisar analyze.php para verificar obsoletos. (por enquanto só no TMW oficial !)
+
+4. Verifique se o cliente está a carregar a atualização corretamente e se
+   ele funciona. Não se esqueça de verificar com a recente libertação apoiados,
+   bem como com a últimas desenvolvimento cliente.
+
+   AVISO: Quando algo deu errado e você, que fixa uma atualização, note que
+   da versão 0.0.23, o cliente não é verificar atualizações que já baixadas
+   contra a sua adler32 checksum. Sempre escolher um novo nome quando substituição
+   ou fixação de uma atualização mais velhos!
+
+5. Se você removeu qualquer atualização obsoleta a partir da lista no passo
+   3, mova o relaciona os arquivos para a "velha" pasta para manter uma organização.
