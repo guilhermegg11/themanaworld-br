@@ -7,6 +7,3 @@
 008.gat,41,39	warp	paraCaverna	-1,-1,008-1.gat,51,55
 008.gat,25,42	warp	paraCaverna	-1,-1,008-1.gat,30,57
 008.gat,100,20	warp	paraCima	6,-1,005.gat,99,119
-008.gat,20,94	warp	paraEsquerda	-1,-1,008.gat,24,93
-008.gat,179,70	warp	paraDireita	-1,1,008.gat,175,65
-008.gat,19,50	warp	paraEsquerda	-1,-1,008.gat,0,0

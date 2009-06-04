@@ -1,3 +1,12 @@
 map: 008.gat
+
+npc: npc/008_Ilha_Fortaleza/igor.conf
+npc: npc/008_Ilha_Fortaleza/veronica.conf
+npc: npc/008_Ilha_Fortaleza/nestor.conf
+npc: npc/008_Ilha_Fortaleza/eliana.conf
+npc: npc/008_Ilha_Fortaleza/menir_alma.conf
+npc: npc/008_Ilha_Fortaleza/guardas.conf
+npc: npc/008_Ilha_Fortaleza/operarios.conf
+
 npc: npc/008_Ilha_Fortaleza/_mobs.txt
 npc: npc/008_Ilha_Fortaleza/_warps.txt
