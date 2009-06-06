@@ -1,5 +1,7 @@
 map: 008.gat
 
+npc: npc/008_Ilha_Fortaleza/juliana.conf
+npc: npc/008_Ilha_Fortaleza/joana.conf
 npc: npc/008_Ilha_Fortaleza/igor.conf
 npc: npc/008_Ilha_Fortaleza/veronica.conf
 npc: npc/008_Ilha_Fortaleza/nestor.conf
