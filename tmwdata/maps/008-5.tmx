@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Caverna do Eremita"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0parallax" value="0.0"/>
+ </properties>
+ <tileset name="Cave" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="Collision" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="Cave x2" firstgid="131" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <layer name="Ground" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2YyU7DQAxA51C4sKpQjoBKxSJWFULhCpTAPyDgA9i+APrp2GJGWEOSmbSJYhcfnqK0h86z3bFnOsaYjqIoiqIoiqIoiqIoiqIQdoDdAHsM1lmV6xaQABf2iSwCS8Cyfe8KdXa5bBPXU2AI3Nknsg5sAJv2vS/UeWDz2CWu18CMxxFwDJzY9yuhzqnNY7/ANQ+Jzmtk7WVcpTo730mgzm0GTnX7UudLBk4U2ltd/c1W6HzPwJGC+3Fifnsoem+XcGoF4tMzvGoa92PXU7H+sBedBxzngHlgwfoUxefM8KhpV8d0rTfmpxfdevnza3wfOAAOrU9RfLjUtJsrQrnsZcTF9wn1rVUGvm6uoLnMq8ckIi7cfWP7Dtb4MCIuRTTtmuWb9T+dlFbB7zdBVs1VNW9w9I2Jw3/wrcpbmu+kzhJ9Q874fd4e1/S66yJvr59GVszf2YvDfFEXOJf6sxe3M1GV4Fzqz144g0q424gB65fes2edI3AGlXKfE3J1d++OvHME1/ucMvmkd+8Ov5YfgWfizOHsO24+Q/fR6PoKfBiZe/XAy2foXP8GvAMvJMeSfNMIR5fXJ5tb9H0ARvY7SfWcRrjSvDpcPUubs8bxlZrbMr6fwJdlRD6fVt88pPn6lHFteq11+ze9FvVVFP58AwEqkAxAOAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ZoQ0AIAxFwc7BqkgEsDVoFmiAu+Sn9vlGAAAAAABEtOwAAPhIOS4AAADAi378PdTsAAB4UN8bezM7BC61AJU8BRNAOAAA
+  </data>
+ </layer>
+ <layer name="Over" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XQQqAIBAFULd1ger+Fy2hSCKjFqHiezCbVn5ltAkBAAAAAACgrGGrpfQiKjYF+9OyeH5zcIYQxX4YSy/ixh99WlPWHt/ZmHnea0y+9boPPeaW+fR0x9V0V32V9nlauTwtZwUAqJn/LCjnOhe9nYWPObH13s3NhW/nRICerGLHOxRAOAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="60" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SwQ6DIBBFUb6dL3driDAq4zwYL8lNm7aLd7C1lFKJiIiIiIiIiIiIEmcd9b5I6+7m0rx/ctTbv3yeWcweR23A7OO1fq92eHjr6XVH79W20WdXnh291t433hXNM947R+17sn/Wqzb29ns8x5Wtre0v3pn/eiavh1u9Pdqs3u1tHn2v3ht5H+otePHifWf9oze7Obuzd9S7Iq2ZvNZR74u09ry73gNe2zu6h9WbOertquedqew+IvLrAI3qSVhAOAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="960" width="32" height="32"/>
+  <object name="paraFora" type="warp" x="1024" y="1760" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x" value="1984"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="Morcego (10)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="15"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Bicho-da-seda (10)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="33"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
