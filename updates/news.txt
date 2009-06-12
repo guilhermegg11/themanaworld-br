@@ -1,8 +1,48 @@
-Servidor The Mana World BR
- 
-* Mapas
-  - Fortaleza (002.gat)
-  - Fortaleza Entrada (002.gat)
- 
-* NPC's
-  - npcTeste - So' para testes mesmo !
+##3 Conteúdo personalizado
+##3 28/05/2009
+##0
+##0 Estamos reconstruindo um servidor totalmente
+##0 personalizado com conteúdo próprio, caso queira
+##0 contribuir ajudando a criar os mapas, as quests
+##0 e os NPCs do nosso servidor entre em contato
+##0 com alguém do desenvolvimento. Para mais
+##0 informações acesse:
+##0 http://code.google.com/p/themanaworld-br
+##0
+##2 Administração
+##0
+##3 Opinem sobre o reset do servidor
+##3 30/06/2008
+##0
+##0 Você acha que devemos ou não fazer o reset do
+##0 servidor? Dê sua opinião votando em nosso
+##0 forum no endereço:
+##0 http://themanaworld.com.br/viewtopic.php?f=5&t=31
+##0
+##2 Administração
+##0
+##3 Dominio próprio
+##3 21/06/2008
+##0
+##0 Nosso servidor agora está com dominio
+##0 próprio, confiram. themanaworld.com.br
+##0 Endereço do forum:
+##0 http://www.themanaworld.com.br
+##0 Endereço do servidor:
+##0 http://server.themanaworld.com.br
+##0 Os endereços antigos foram direcionados para
+##0 os novos, esses redirecionamentos ficaram
+##0 temporariamente ativos até que todos mudem e
+##0 se acostumem com os endereços de nosso
+##0 dominio
+##0
+##2 TMW-BR Noticias
+##0
+##3 Novo servidor Brasileiro do The Mana World
+##3 20/05/2008
+##0
+##0 Bem vindos ao novo servidor brasileiro do
+##0 The Mana World. Visitem também nosso forum no
+##0 endereço http://rootbsd.info/tmw
+##0
+##2 TMW-BR Noticias
