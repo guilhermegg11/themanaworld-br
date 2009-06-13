@@ -2,4 +2,86 @@
 
 = Introdução =
 
-Em construção...
+Todas as falas dos NPCs, itens adicionados ou removidos, controle de quests e até transporte... tudo é desenvolvido em script.
+
+== Exemplo 1 - Script simples ==
+
+Para criar um personagem que diz algo é simples, basta criar um código como este:
+
+{{{
+008.gat,108,23,0	script	Roger	104,{
+	mes "[Roger (Guarda da Torre)]";
+	mes "ZzzZzzZ...";
+	next;
+	mes "Hã!!! Eu não estava dormindo.";
+	close;
+}
+}}}
+
+Logo de cara temos muitas informações que não fazem sentido... mas elas vão fazer:
+
+ * *008.gat* - Diz respeito ao mapa onde será criado o NPC.
+ * *108,23* - São as coordenadas onde o NPC irá aparecer neste mapa.
+ * *0* - É a orientação do NPC... não importa muito.
+ * TAB - Deve existir uma tabulação aqui.
+ * *script* - Significa que iremos escrever um script
+ * TAB - Deve existir uma tabulação aqui.
+ * *Roger* - O nome do nosso NPC. Pode conter espaços ou acentos.
+ * TAB - Deve existir uma tabulação aqui.
+ * *104* - O id da imagem do nosso NPC. Neste caso, o guarda.
+ * *{* - Início do bloco script.
+ * INSTRUÇÕES - O script em si estará entre as chaves. *{* e *}*.
+ * *}* - Fim do bloco scritp.
+
+Entre os delimitadores *{* e *}* escrevemos instruções... tais instruções podem ser:
+
+ * *mes* - Mensagem que será impressa para o jogador.
+ * *next* - Uma pausa. Mostra o botão *próximo* para que o jogador não veja todo o texto de uma só vez.
+ * *close* - Finaliza o script. Mostra o batão *fechar*.
+
+Outras coisas que podem ser observadas:
+ * Todo texto deve estar entre aspas. *"* e *"*.
+ * Toda linha deve ser finalizada com *;*.
+ * Toda linha é iniciada por uma tabulação. Mas isso serve apenas para organizar o código. Camada de identação de código.
+
+== Exemplo 2 - Falas aleatórias ===
+
+{{{
+008.gat,45,81,0	script	Juliana	114,{
+	set @tmp,rand(5);
+	if(@tmp==0) goto _1;
+	if(@tmp==1) goto _2;
+	if(@tmp==2) goto _3;
+	if(@tmp==3) goto _4;
+	if(@tmp==4) goto _5;
+
+_1:
+	mes "[Juliana]";
+	mes "\"Este é meu jardim secreto.\"";
+	close;
+_2:
+	mes "[Juliana]";
+	mes "\"Eu adoro sentir o aroma das flores.\"";
+	close;
+_3:
+	mes "[Juliana]";
+	mes "\"Cuide bem da natureza e ela te recompensará em dobro.\"";
+	close;
+_4:
+	mes "[Juliana]";
+	mes "\"Uma vez eu ví um Escorpião Vermelho!\"";
+	close;
+_5:
+	mes "[Juliana]";
+	mes "\"A brisa daqui é muito agradável.\"";
+	close;
+}
+}}}
+
+== Exemplo 2 - Exemplo de vendedor ==
+
+
+
+{{{
+008.gat,161,98,0	shop	Ronaldo	109,525:800,531:3000,530:8000,1199:3,603:-1
+}}}
