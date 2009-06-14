@@ -1,3 +1,0 @@
-map: 005.gat
-npc: npc/005_Fortaleza_entrada/_mobs.txt
-npc: npc/005_Fortaleza_entrada/_warps.txt

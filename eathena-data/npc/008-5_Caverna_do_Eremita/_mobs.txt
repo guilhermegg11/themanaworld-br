@@ -1,0 +1,19 @@
+// 008-5 Caverna do Eremita mobs
+
+008-5.gat,0,0,0,0	monster	Morcego (10)	1017,10,0,0,Mob008-5::On1017
+008-5.gat,0,0,0,0	monster	Bicho-da-seda (10)	1035,5,0,0,Mob008-5::On1035
+
+
+008-5.gat,0,0,0	script	Mob008-5	-1,{
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+	break;
+
+On1035:
+	set @mobID, 1035;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

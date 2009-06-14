@@ -1,0 +1,10 @@
+map: 005.gat
+
+npc: npc/005_Fortaleza/alan.conf
+npc: npc/005_Fortaleza/nicolas.conf
+npc: npc/005_Fortaleza/marina.conf
+npc: npc/005_Fortaleza/vendedores.conf
+npc: npc/005_Fortaleza/guardas.conf
+
+npc: npc/005_Fortaleza/_mobs.txt
+npc: npc/005_Fortaleza/_warps.txt
