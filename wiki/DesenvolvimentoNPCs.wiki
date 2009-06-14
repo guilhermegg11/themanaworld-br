@@ -3,7 +3,9 @@
 
 = Introdução =
 
-Todas as falas dos NPCs, itens adicionados ou removidos, controle de quests e até transporte... tudo é desenvolvido em script.
+Todas as falas dos NPCs, itens adicionados ou removidos, controle de quests e até posições iniciais e quantidade de monstros... tudo é desenvolvido em script. Conhecido como *eAthena Script*.
+
+Parte de sua sintaxe é parecida com a sintaxe da linguagem C... já a outra parte nem tanto !
 
 == Exemplo 1 - Script simples ==
 
@@ -184,3 +186,8 @@ obs.: Os valores de venda estão no banco de dados do servidor.
 == Exemplos de scripts mais complexos ==
 
 Para saber como escrever scripts mais complexos estude pelos scripts já implementados. [http://themanaworld-br.googlecode.com/svn/eathena-data/npc Neste link] você irá encontrar alguns exemplos.
+
+Links:
+
+ * [http://wiki.themanaworld.org/index.php/EAthena_Scripting_Standards Wiki The Mana World]
+ * [http://www.valholl.ca/ref/eAthenaScriptCommands.html#Introduction Manual de referências]
