@@ -1,4 +1,5 @@
 #summary Algumas explicações de como compilar programas no Linux.
+#labels Featured
 
 == Introdução ==
 
