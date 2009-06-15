@@ -36,10 +36,40 @@ Tudo se simplifica quando temos a lista de todas as dependências... e no arquiv
 * libcurl           http://curl.haxx.se/libcurl/
 }}}
 
-Se você utiliza a distribuição Ubuntu você pode resolver todas estas dependências com um único comando:
+Se você utiliza a distribuição *Ubuntu* você pode resolver todas estas dependências com um único comando:
 
 {{{
-sudo apt-get install libsdl1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl-net1.2-dev libsdl-ttf2.0-dev libenet1-dev libguichan-dev libxml2-dev libphysfs-dev zlib1g-dev libcurl4-openssl-dev
+sudo apt-get install libsdl1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev \
+libsdl-net1.2-dev libsdl-ttf2.0-dev libenet1-dev libguichan-dev libxml2-dev \
+libphysfs-dev zlib1g-dev libcurl4-openssl-dev
 }}}
 
+Caso alguma destas dependências não possa ser instalada por este comando recorra a seu Gerenciador de pacotes. No *Ubuntu* temos o *Synaptic* (*Menu > Sistema > Administração > Gerenciador de pacotes Synaptic*). Instale os pacotes dev... exemplo: *libsdl`*`-dev*.
+
+Agora sim... vamos à compilação.
+
 == Compilando e instalando ==
+
+Para compilar abra o terminal de comandos, acesse o diretório onde você extraiu e compile utilizando os comandos *./configure*, *make* e *make install*.
+
+Acessando o diretório:
+
+{{{
+cd /home/seu_usuário/tmw-0.0.29.1
+}}}
+
+Compilando e instalando:
+
+{{{
+./configure
+make
+sudo make install
+}}}
+
+O make costuma demorar ! Mas feito isso você terá a ultima versão do jogo pronta para usar, bastando executá-la com o comando *tmw*, ou seja, pressione *Alt+F2* e digite *tmw* na caixa de texto... só isso. O atalho do antigo TMW também poderá ser utilizado.
+
+== Solucionando problemas ==
+
+E se a compilação falhar ?! Isso geralmente acontece quando você não tem a versão correta de uma determinada dependência. O comando *./configure* irá alertá-lo sobre isso. É comum versões antigas (Ubuntu 8.04 por exemplo) terem este tipo de problema... mas tudo pode ser resolvido instalando a dependência por seu código fonte.
+
+Caso você tenha problemas entre em contato conosco em [http://www.themanaworld.com.br nosso fórum]. Use a sessão [http://www.themanaworld.com.br/viewforum.php?f=26&sid=d79886de37a5b2eae11f88835c0b1e1a Suportes Operacionais].
