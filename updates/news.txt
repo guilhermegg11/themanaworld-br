@@ -1,4 +1,5 @@
-##3 Updates: http://themanaworld-br.googlecode.com/svn/updates
+##3 Updates:
+##3 http://themanaworld-br.googlecode.com/svn/updates
 ##0
 ##3 Conteúdo personalizado
 ##3 28/05/2009
