@@ -1,0 +1,6 @@
+// 007 Práia do Porto warps
+
+007.gat,180,50	warp	paraDir	-1,-1,008.gat,20,50
+007.gat,180,94	warp	paraDir	-1,-1,008.gat,20,94
+007.gat,169,75	warp	paraCaverna	-1,-1,007-1.gat,44,56
+007.gat,179,78	warp	caraCaverna	-1,-1,007-1.gat,54,59

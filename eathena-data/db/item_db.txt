@@ -367,3 +367,7 @@
 2167,OrangeCottonGloves,Orange Cotton Gloves,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{},,
 2168,PurpleCottonGloves,Purple Cotton Gloves,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{},,
 2169,DarkGreenCottonGloves,Dark Green Cotton Gloves,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{},,
+// ,,,,,,,,,,,,,,,,,,,,
+// AQUI ESTAO OS ITENS CRIADOS PELA EQUIPE DO TMW-BR,,,,,,,,,,,,,,,,,,,,
+// ,,,,,,,,,,,,,,,,,,,,
+3000,PirateHatBR,Pirate Hat BR,5,2000,1000,10,,4,,-8,0,2,256,,0,0,{},{},,
