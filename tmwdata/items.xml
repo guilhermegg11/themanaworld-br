@@ -3877,4 +3877,19 @@
         <sprite gender="male">hands-gloves-generic-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
     </item>
+
+    <!-- AQUI ESTAO OS ITENS CRIADOS PELA EQUIPE DO TMW-BR -->
+
+    <item id="3000"
+        image="armor-head-piratehat-br.png"
+        name="Chapéu de Pirata"
+        description="Um chapéu de Pirata."
+        effect="+4% Defense"
+        type="equip-head"
+        weight="25"
+        defense="4"
+        max-per-slot="1">
+        <sprite>head-piratehat-br.xml</sprite>
+    </item>
+
 </items>

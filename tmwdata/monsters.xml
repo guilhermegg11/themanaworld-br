@@ -241,6 +241,7 @@
 
     <monster id="6" name="Limo Vermelho">
         <sprite>monster-slime.xml|#7e0000,ffffff</sprite>
+        <!--sprite>monster-esqueleto.xml|#7e0000,ffffff</sprite-->
         <sound event="hit">slime-hit1.ogg</sound>
         <drop item="1201" percent="3"/>
         <drop item="509" percent="1.1"/>
@@ -879,6 +880,28 @@
 
     <monster id="36" name="Esquilo">
         <sprite>monster-squirrel.xml</sprite>
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+
+	<!-- AQUI ESTAO OS MONSTROS CRIADOS PELA EQUIPE DO TMW-BR -->
+
+    <monster id="300" name="Esqueleto">
+        <sprite>monster-esqueleto.xml</sprite>
+        <drop item="523" percent="1.5"/>
+        <drop item="509" percent="1.0"/>
+        <drop item="518" percent="8"/>
         <attributes
             hp="20"
             size="4"

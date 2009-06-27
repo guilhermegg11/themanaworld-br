@@ -87,6 +87,12 @@
 <npc id="173"><sprite variant="73">npc.xml</sprite></npc><!-- Easter Bunny -->
 <npc id="174"><sprite variant="74">npc.xml</sprite></npc><!-- Aisha, Omar's daughter -->
 
+<npc id="184"><sprite variant="84">npc.xml</sprite></npc>
+<npc id="185"><sprite variant="85">npc.xml</sprite></npc>
+<npc id="186"><sprite variant="86">npc.xml</sprite></npc>
+<npc id="187"><sprite variant="87">npc.xml</sprite></npc>
+<npc id="188"><sprite variant="88">npc.xml</sprite></npc>
+
 <npc id="200">
    <sprite>npc-test.xml</sprite>
    <particlefx>graphics/particles/circle.particle.xml</particlefx>
@@ -105,5 +111,29 @@
    <!-- An NPC made only from a particle effect. -->
    <particlefx>graphics/particles/hellblaze.particle.xml</particlefx>
 </npc>
+
+<!-- Todos os NPCs do servidor TMW-BR serão definidos a partir do id 300. -->
+
+<npc id="300"><sprite variant="0">npcs-br.xml</sprite></npc>
+<npc id="301"><sprite variant="1">npcs-br.xml</sprite></npc>
+<npc id="302"><sprite variant="2">npcs-br.xml</sprite></npc>
+<npc id="303"><sprite variant="3">npcs-br.xml</sprite></npc>
+<npc id="304"><sprite variant="4">npcs-br.xml</sprite></npc>
+<npc id="305"><sprite variant="5">npcs-br.xml</sprite></npc>
+<npc id="306"><sprite variant="6">npcs-br.xml</sprite></npc>
+<npc id="307"><sprite variant="7">npcs-br.xml</sprite></npc>
+<npc id="308"><sprite variant="8">npcs-br.xml</sprite></npc>
+<npc id="309"><sprite variant="9">npcs-br.xml</sprite></npc>
+<npc id="310"><sprite variant="10">npcs-br.xml</sprite></npc>
+<npc id="311"><sprite variant="11">npcs-br.xml</sprite></npc>
+<npc id="312"><sprite variant="12">npcs-br.xml</sprite></npc>
+<npc id="313"><sprite variant="13">npcs-br.xml</sprite></npc>
+<npc id="314"><sprite variant="14">npcs-br.xml</sprite></npc>
+<npc id="315"><sprite variant="15">npcs-br.xml</sprite></npc>
+<npc id="316"><sprite variant="16">npcs-br.xml</sprite></npc>
+<npc id="317"><sprite variant="17">npcs-br.xml</sprite></npc>
+<npc id="318"><sprite variant="18">npcs-br.xml</sprite></npc>
+<npc id="319"><sprite variant="19">npcs-br.xml</sprite></npc>
+<npc id="320"><sprite variant="20">npcs-br.xml</sprite></npc>
 
 </npcs>
