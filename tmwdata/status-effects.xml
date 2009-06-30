@@ -45,4 +45,13 @@
     <status-effect name="spell-shearing" id="2001"
                    icon="icon-spell-shearing.xml"
 		 />
+
+	<!-- AQUI ESTAO OS EFEITOS CRIADOS PELA EQUIPE TMW-BR -->
+
+	<status-effect name="strength" id="186"
+		icon="icon-poison.xml"
+		persistent-particle-effect="true"
+		start-particle="graphics/particles/aura-negra.xml"
+	/>
+
 </status-effects>

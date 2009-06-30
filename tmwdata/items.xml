@@ -121,8 +121,8 @@
         max-per-slot="10"/>
     <item id="503"
         image="generic-casinocoins.png"
-        name="Casino Coins"
-        description="Just some casino coins."
+        name="Moedas de Cassino"
+        description="Apenas algumas moedas de cassino."
         effect=""
         type="generic"
         weight="10"
@@ -333,9 +333,8 @@
     </item>
     <item id="526"
         image="generic-coinbag.png"
-        name="Coin Bag"
-        description="A bag used to hold coins."
-        effect=""
+        name="Bolsa de Moedas"
+        description="Uma bolsa usada para guardar moedas."
         type="generic"
         weight="20"
         max-per-slot="1"/>
@@ -362,9 +361,9 @@
     </item>
     <item id="529"
         image="weapon-arrow-iron.png"
-        name="Iron Arrow"
-        description="A hard arrow made of iron."
-        effect="+50 Damage"
+        name="Flecha de Ferro"
+        description="Uma resistente flecha feita de ferro."
+        effect="+50 Dano"
         type="equip-ammo"
         weight="12"
         max-per-slot="100"/>
@@ -425,8 +424,8 @@
         max-per-slot="10"/>
     <item id="535"
         image="use-food-apple.png"
-        name="Apple"
-        description="A healthy apple."
+        name="Maçã"
+        description="Uma saldável Maçã."
         effect="+50 HP"
         script="apple.lua"
         type="usable"
@@ -435,9 +434,9 @@
         max-per-slot="10"/>
     <item id="536"
         image="weapon-dagger-shortsword.png"
-        name="Short Sword"
-        description="A small but sharp sword."
-        effect="+100 Damage, 1 Range"
+        name="Espada Curta"
+        description="Uma pequena, porém afiada espada."
+        effect="+100 Dano, 1 Range"
         type="equip-1hand"
         weapon_type="2"
         weight="1025"
@@ -1221,9 +1220,9 @@
     </item>
     <item id="621"
         image="armor-head-eyepatch.png"
-        name="Eyepatch"
-        description="What really makes you a pirate."
-        effect="+3% Defense"
+        name="Tapa Olho"
+        description="Ele fará de você um pirata de verdade."
+        effect="+3% Defesa"
         type="equip-head"
         weight="15"
         defense="3"
@@ -1243,9 +1242,9 @@
     </item>
     <item id="623"
         image="weapon-polearm-scythe.png"
-        name="Scythe"
-        description="Usually used for farming but also usable as a weapon. Slow but deadly."
-        effect="+75 Damage, 1 Range"
+        name="Foice"
+        description="Geralmente utilizada para a agricultura, mas também pode ser uma arma. Lenta, porém mortal."
+        effect="+75 Dano, 1 Range"
         type="equip-2hand"
         weapon_type="11"
         weapon-type="polearm"
@@ -1945,15 +1944,15 @@
         max-per-slot="10"/>
     <item id="700"
         image="generic-pearl.png"
-        name="Pearl"
-        description="A pearl, round and shiny."
+        name="Pérola"
+        description="Uma pérola, redonda e brilhante."
         type="generic"
         weight="5"
         max-per-slot="10"/>
     <item id="701"
         image="generic-powder.png"
-        name="Pile of Ash"
-        description="A pile of ash similar to volcanic ash."
+        name="Pilha de cinzas"
+        description="Um monte de cinzas."
         type="generic"
         weight="3"
         max-per-slot="10"/>
@@ -2074,8 +2073,8 @@
         weight="2"/>
     <item id="718"
         image="generic-cocoon-silk.png"
-        name="Silk Cocoon"
-        description="A silkworm's cocoon."
+        name="Casulo de seda"
+        description="Um casulo do Bicho-da-seda."
         effect=""
         type="generic"
         weight="1"/>
@@ -2273,8 +2272,8 @@
     </item>
     <item id="740"
         image="generic-root.png"
-        name="Root"
-        description="A root from a plant."
+        name="Raiz"
+        description="Uma raiz de uma planta."
         type="generic"
         weight="5">
     </item>
@@ -2367,9 +2366,9 @@
         weight="1"/>
     <item id="1199"
         image="weapon-arrow-arrow.png"
-        name="Arrow"
-        description="A standard arrow."
-        effect="+25 Damage"
+        name="Flecha"
+        description="Uma flecha simples."
+        effect="+25 Dano"
         type="equip-ammo"
         weight="8"
         max-per-slot="100"/>
@@ -3878,7 +3877,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
     </item>
 
-    <!-- AQUI ESTAO OS ITENS CRIADOS PELA EQUIPE DO TMW-BR -->
+    <!-- AQUI ESTAO OS ITENS CRIADOS PELA EQUIPE TMW-BR -->
 
     <item id="3000"
         image="armor-head-piratehat-br.png"
@@ -3890,6 +3889,74 @@
         defense="4"
         max-per-slot="1">
         <sprite>head-piratehat-br.xml</sprite>
+    </item>
+    <item id="3001"
+        image="armor-chest-capa.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Capa da Morte"
+        description="A mesma capa vestida pela Morte."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="10"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">chest-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">chest-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="3002"
+        image=""
+        name="Capus da Morte"
+        description=""
+        effect="+4% Defense"
+        type="equip-head"
+        weight="25"
+        defense="4"
+        max-per-slot="1">
+    </item>
+    <item id="3003"
+        image="use-potion-morte.png"
+        name="Poção da Morte"
+        description="Uma poção que irá matá-lo."
+        effect="Aumenta M. Ataque (temporário)"
+        type="usable"
+        weight="25"
+        max-per-slot="10"/>
+    <item id="3004"
+        image="weapon-polearm-foice-morte.png"
+        name="Foice da Morte"
+        description="A arma da Morte !!!"
+        effect="+115 Dano, 1 Range"
+        type="equip-2hand"
+        weapon_type="11"
+        weapon-type="polearm"
+        weight="400"
+        attack-min="0"
+        attack-delta="115"
+        max-per-slot="1">
+        <sprite>weapon-scythe.xml</sprite>
+    </item>
+    <item id="3005"
+        image="generic-perola-negra.png"
+        name="Pérola Negra"
+        description="Uma pérola muito rara."
+        type="generic"
+        weight="5"
+        max-per-slot="10"/>
+    <item id="3006"
+        image="generic-mapa-tesouro.png"
+        name="Mapa do Tesouro"
+        description="Um mapa com um X marcando o local do tesouro... ao lado de duas cachoeiras !"
+        type="generic"
+        weight="18"/>
+    <item id="3007"
+        image="armor-head-capacete-lord.png"
+        name="Capacete de Lord"
+        description="Um capacete de Lord."
+        effect="+20% Defense"
+        type="equip-head"
+        defense="20"
+        weight="40"
+        max-per-slot="1">
+        <sprite>head-capacete-lord.xml</sprite>
     </item>
 
 </items>
