@@ -1,3 +1,0 @@
-// 008-5 Caverna do Eremita warps
-
-008-5.gat,32,55	warp	paraFora	-1,-1,008.gat,62,76

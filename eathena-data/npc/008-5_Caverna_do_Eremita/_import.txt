@@ -1,6 +1,0 @@
-map: 008-5.gat
-
-npc: npc/008-5_Caverna_do_Eremita/velho_eremita.conf
-
-npc: npc/008-5_Caverna_do_Eremita/_mobs.txt
-npc: npc/008-5_Caverna_do_Eremita/_warps.txt

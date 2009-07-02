@@ -1,3 +1,7 @@
 map: 008-2.gat
+
+npc: npc/008-2_Caverna/arnaldo.conf
+npc: npc/008-2_Caverna/warp_arena.conf
+
 npc: npc/008-2_Caverna/_mobs.txt
 npc: npc/008-2_Caverna/_warps.txt
