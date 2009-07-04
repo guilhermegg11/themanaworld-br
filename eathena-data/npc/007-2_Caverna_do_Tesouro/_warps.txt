@@ -1,2 +1,3 @@
 // 007-2 Caverna do Tesouro warps
 
+007-2.gat,163,105	warp	ParaFora	-1,-1,007-1.gat,63,57
