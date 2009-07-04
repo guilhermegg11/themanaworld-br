@@ -916,7 +916,7 @@
 
     <!--monster id="303" name="Esqueleto Pirata"-->
     <!--monster id="21" name="Esqueleto Pirata"-->
-    <monster id="21" name="Esqueleto Pirata">
+    <monster id="303" name="Esqueleto Pirata">
         <sprite>monster-skeleton.xml</sprite>
         <sprite>head-piratehat-br.xml</sprite>
         <sprite>head-eyepatch.xml</sprite>

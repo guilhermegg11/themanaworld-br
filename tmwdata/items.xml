@@ -1387,9 +1387,9 @@
         image="armor-head-warlordhelm.png"
         name="Warlord Helmet"
         description="Worn by great warriors."
-        effect="+18% Defense"
+        effect="+18% Defesa"
         type="equip-head"
-        defense="25"
+        defense="18"
         weight="40">
         <sprite>head-warlordhelm.xml</sprite>
     </item>
@@ -3892,8 +3892,8 @@
     </item>
     <item id="3001"
         image="armor-chest-capa.png|W:#111111,222222,333333,444444,555555,aaaaaa"
-        name="Capa da Morte"
-        description="A mesma capa vestida pela Morte."
+        name="Manto da Morte"
+        description="O mesmo manto vestido pela Morte."
         effect="+5% Defense"
         type="equip-torso"
         weight="10"
@@ -3903,9 +3903,9 @@
         <sprite gender="female">chest-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="3002"
-        image=""
-        name="Capus da Morte"
-        description=""
+        image="armor-head-capuz-morte.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Capuz da Morte"
+        description="O mesmo capuz usado pela Morte."
         effect="+4% Defense"
         type="equip-head"
         weight="25"
