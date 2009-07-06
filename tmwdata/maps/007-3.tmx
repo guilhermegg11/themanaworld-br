@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="200" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Caverna"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0parallax" value="0.0"/>
+ </properties>
+ <tileset name="Colision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="Woodland Ground" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png"/>
+ </tileset>
+ <tileset name="Cave" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset name="Cave X2" firstgid="387" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <layer name="Ground" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cTW7UMACA0XoDHKDQHgCoEFtghNgCFeIQQA+AgBMAJycRtchEdv6HJO5bvE2rRDNSPtnJOL4IZ2cXAAAAAAAAAAAAAAAAAMzysHKVcb6Bzwdrqdt4UjlkPA5a4W6KbbysXGe8CMetPN/A54ZTa7bxrnI/4204buXNBj47zNV1T1Eb0kaqlY8b+G4wR989RW1sG9HTYI7FPsUxo++eojaljdqrYI7F/jTHjKljwxDvgzkW+/IsHI8Zp2ojerSB7wxDvQ7Ljhn3bs/7IPN/fbAnH8LybUSpRvTBnlyG5eZOqedT7Ub0wZ4s2Ufq+VTz/O3xBbZuaB/Nazt3b5F6PnWZOB72oq+P3HWda6Q9x4rnN69ij/r66LquU42051j6YM+6+uibE6WO9RsgJcn1MfR+wTNcSpbrY+xawmYn+qAUuT7GriVsnkcflCQ1Rxp7H+E5LqXqmmNdJaTeJfecilJ1zbEOCXHfhfPEOfRBaXJ91HOs64S470KqEyjN2DVYcd+FdidaoURT1yi2O6nVrWiE0uTWU43pJLYydDzp2yfFeMRWLLXOvW6lPZ6krvMh+6R0HQ//09B1JkPGmfZ4cgjHY0ptyD4p7eM1wlpSfXT91jd0Ppa6R6l1vfP+ufKlctM63h6lrCXVx5DfMsZ2EnW98/6t8r3yNRx3Yo9S1jTnXfE59/dtPyufwt9Gaj/Cv8asnWdN8Tqfso5q6UZ+3frd+Lvf51nTEutEluxkypwPTmXJdVSn6EQflGbJTvRBiZZqRB+UbE4n3r2idFPWseiCu2JMH7rgLuqbY+kC0p1oAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg9P4AcZtPQoA4AQA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3bMQ6AIBAEQPiHX6VWfw09sSJGzptJ6Ok2C3elAAAAAAAAAAAAAAAAAAAAABBRq1/fAIA/OeQKQEp6BQBv0C8AAGY6OAA7OUcuXePc8gkAAAAAYEvecQHyMocLAAAAAACw5um/xa4vQDzmqACIROcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAy6bCLj8CAOAEA
+  </data>
+ </layer>
+ <layer name="Top" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cSw6CMBQF0DLGDaj736caJTahacvHqLxzEoYkDLhpb1tICQAAAAAAAAAAAAAAAAAAAAAAAADqzkNKl/t1Hb79JPBbHtk4vXIxyghUyQj0y8cXOJKpV6ztFrLBEU25yN/tJfOmsXA/HJ1uQXTmRFDWkw1jCNSNGzo7AP9r7zmSzgJz1nEBAABgG/t8AOwtP9dunxzeSnt9zpNAm5wQydqOLidEkWdk6Tkqa2BEsOUclbEE2uQE2uQE2nQTqNtjLPHtFcyV/sEF0ckF0fR0EbkgsloX0THgacpJfskGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDn3QCkKw0ogDgBAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Q24qEMBRFQfH/P3qYNwnxkpi47e5aUMhMm0OO67IsKwAAAAAAAAAAAAAAAAAAALzMXul7Qdq28u/yN/glraXvC09pad084RvMKL0TjFBW+19v6d2g14jO5qV3hB53WjfPs7npPaHVqK7MT+8KrUZ1Nj+9J/RYNs+9amfO3innwyc6qvXc3nvpHaHXUa1n07vAaHv1nE3vAqPVunM+vQ+MVOvOnPQ+MFKtO3PS+8BoZb0z0nvADLV6ZqT3gBlqpe8Eb1ErfSd4i2XzPCt9V3haT+k7w5N6S98bnjCi9A4wS62r752dgU9X1vp+rZ4Z6e8ANWW952q1nEt/B9iz7c7ZO+3NTn8b+LfcPHu1vfeP5qa/DSyDZswo/W1gpNGl94EZRpXeA2Y56uz37XvwzXpL3xue0Fr6vvCkq6XvCSlHpe8Gb1GWvg8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwC/4A66WB8iAOAEA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="1600" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="704" y="1344" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1152" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1408" y="768" width="32" height="32"/>
+  <object name="paraCima" type="warp" x="1408" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4736"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1216" y="1216" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4544"/>
+    <property name="dest_y" value="1056"/>
+   </properties>
+  </object>
+  <object name="paraBaixo" type="warp" x="768" y="1600" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4096"/>
+    <property name="dest_y" value="1440"/>
+   </properties>
+  </object>
+  <object name="Limo Vermelho (5)" type="spawn" x="1440" y="1344" width="672" height="576">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Escorpiao (8)" type="spawn" x="608" y="576" width="800" height="1088">
+   <properties>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

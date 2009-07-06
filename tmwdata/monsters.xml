@@ -376,7 +376,7 @@
             />
     </monster>
 
-    <monster id="11" name="Evil Mushroom">
+    <monster id="11" name="Cogumelo Maligno">
         <sprite>monster-mushroom-red.xml</sprite>
         <sound event="hit">shroom-hit1.ogg</sound>
         <drop item="535" percent="5"/>
@@ -504,7 +504,7 @@
             />
     </monster>
 
-    <monster id="16" name="Pinkie" targetCursor="small">
+    <monster id="16" name="Trasgo Rosa" targetCursor="small">
         <sprite>monster-pinkie.xml</sprite>
         <sound event="hit">pinkie-hit1.ogg</sound>
         <sound event="miss">pinkie-miss1.ogg</sound>
@@ -524,7 +524,7 @@
             />
     </monster>
 
-    <monster id="17" name="Spiky Mushroom">
+    <monster id="17" name="Cogumelo">
         <sprite>monster-mushroom-spiky.xml</sprite>
         <sound event="hit">shroom-hit1.ogg</sound>
         <drop item="567" percent="8"/>
@@ -546,7 +546,7 @@
             />
     </monster>
 
-    <monster id="18" name="Fluffy">
+    <monster id="18" name="Tufo">
         <sprite>monster-fluffy.xml</sprite>
         <sound event="hit">fluffy-hit1.ogg</sound>
         <sound event="hit">fluffy-hit2.ogg</sound>
@@ -571,7 +571,7 @@
             />
     </monster>
 
-    <monster id="19" name="Cobra da Caverna">
+    <monster id="19" name="Cobra Luminosa">
         <sprite>monster-snake-cave.xml</sprite>
         <drop item="612" percent="8"/>
         <drop item="610" percent="0.1"/>
@@ -607,7 +607,7 @@
             />
     </monster>
 
-    <monster id="21" name="Fire Skull">
+    <monster id="21" name="Caveira de Fogo">
         <sprite>monster-skull-fire.xml</sprite>
         <drop item="621" percent="0.1"/>
         <drop item="540" percent="1.5"/>
@@ -626,7 +626,7 @@
             />
     </monster>
 
-    <monster id="22" name="Poison Skull">
+    <monster id="22" name="Caveira Envenenada">
         <sprite>monster-skull-poison.xml</sprite>
         <drop item="621" percent="0.1"/>
         <drop item="540" percent="1.5"/>
@@ -685,7 +685,7 @@
             />
     </monster>
 
-    <monster id="25" name="Easter Fluffy">
+    <monster id="25" name="Easter Tufo">
         <sprite>monster-fluffy.xml</sprite>
         <sound event="hit">fluffy-hit1.ogg</sound>
         <sound event="hit">fluffy-hit2.ogg</sound>
