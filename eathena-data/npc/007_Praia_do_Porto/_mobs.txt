@@ -1,0 +1,56 @@
+// 007 Praia do Porto mobs
+
+007.gat,166,54,24,27	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
+007.gat,168,60,27,17	monster	Trasgo Violeta (5)	1018,5,0,0,Mob007::On1018
+007.gat,108,26,34,12	monster	Trasgo Violeta (10)	1018,10,0,0,Mob007::On1018
+007.gat,115,31,33,15	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
+007.gat,167,31,26,15	monster	Cogumelo (6)	1019,6,0,0,Mob007::On1019
+007.gat,143,41,18,35	monster	Trasgo Violeta (10)	1018,10,0,0,Mob007::On1018
+007.gat,125,52,34,13	monster	Cogumelo (8)	1019,8,0,0,Mob007::On1019
+007.gat,168,77,23,11	monster	Limo Vermelho (3)	1008,3,0,0,Mob007::On1008
+007.gat,68,39,20,19	monster	Verme (10)	1002,10,0,0,Mob007::On1002
+007.gat,89,41,14,11	monster	Verme (5)	1002,5,0,0,Mob007::On1002
+007.gat,70,56,13,9	monster	Verme (5)	1002,5,0,0,Mob007::On1002
+007.gat,38,38,21,21	monster	Verme (10)	1002,10,0,0,Mob007::On1002
+007.gat,29,76,10,8	monster	Verme (5)	1002,5,0,0,Mob007::On1002
+007.gat,140,100,31,17	monster	Verme (10)	1002,10,0,0,Mob007::On1002
+007.gat,117,112,12,8	monster	Verme (5)	1002,5,0,0,Mob007::On1002
+007.gat,85,23,8,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
+007.gat,152,72,3,10	monster	Escorpião (3)	1003,3,0,0,Mob007::On1003
+007.gat,93,49,11,6	monster	Escorpião (3)	1003,5,0,0,Mob007::On1003
+007.gat,114,64,15,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
+
+
+007.gat,0,0,0	script	Mob007	-1,{
+On1002:
+	set @mobID, 1002;
+	callfunc "MobPoints";
+	break;
+
+On1003:
+	set @mobID, 1003;
+	callfunc "MobPoints";
+	break;
+
+On1008:
+	set @mobID, 1008;
+	callfunc "MobPoints";
+	break;
+
+On1018:
+	set @mobID, 1018;
+	callfunc "MobPoints";
+	break;
+
+On1019:
+	set @mobID, 1019;
+	callfunc "MobPoints";
+	break;
+
+On1020:
+	set @mobID, 1020;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

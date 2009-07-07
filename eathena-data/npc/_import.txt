@@ -1,8 +1,9 @@
 import: npc/002_Fortaleza/_import.txt
 import: npc/005_Fortaleza/_import.txt
-import: npc/007_Pria_do_Porto/_import.txt
+import: npc/007_Praia_do_Porto/_import.txt
 import: npc/007-1_Caverna_do_Eremita/_import.txt
 import: npc/007-2_Caverna_do_Tesouro/_import.txt
+import: npc/007-3_Caverna/_import.txt
 import: npc/008-1_Caverna/_import.txt
 import: npc/008-2_Caverna/_import.txt
 import: npc/008-3_Mina_da_Areia/_import.txt

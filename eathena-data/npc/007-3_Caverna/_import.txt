@@ -1,0 +1,3 @@
+map: 007-3.gat
+npc: npc/007-3_Caverna/_mobs.txt
+npc: npc/007-3_Caverna/_warps.txt

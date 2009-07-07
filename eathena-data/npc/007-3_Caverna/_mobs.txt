@@ -1,0 +1,19 @@
+// 007-3 Caverna mobs
+
+007-3.gat,55,50,20,17	monster	Limo Vermelho (5)	1008,5,0,0,Mob007-3::On1008
+007-3.gat,31,34,24,33	monster	Escorpiao (8)	1003,8,0,0,Mob007-3::On1003
+
+
+007-3.gat,0,0,0	script	Mob007-3	-1,{
+On1003:
+	set @mobID, 1003;
+	callfunc "MobPoints";
+	break;
+
+On1008:
+	set @mobID, 1008;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

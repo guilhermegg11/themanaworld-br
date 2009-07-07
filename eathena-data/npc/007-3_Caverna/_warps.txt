@@ -1,0 +1,5 @@
+// 007-3 Caverna warps
+
+007-3.gat,44,31	warp	paraCima	-1,-1,007.gat,148,26
+007-3.gat,38,38	warp	paraFora	-1,-1,007.gat,142,33
+007-3.gat,24,50	warp	paraBaixo	-1,-1,007.gat,128,45
