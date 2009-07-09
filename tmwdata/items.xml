@@ -2354,8 +2354,30 @@
         description="You can dry yourself off with it if it still seems to be clean enough. - Douglas Adams"
         type="generic"
         weight="20"/>
+	<item id="751"
+		image="armor-head-pinkiehat.png"
+		name="Haste Rosa"
+		description="Uns dizem ser uma homenagem outros um troféu."
+		effect="+1% Defense"
+		type="equip-head"
+		weight="5"
+		defense="1"
+		max-per-slot="1">
+		<sprite>head-pinkiehat.xml</sprite>
+	</item>
+	<item id="752"
+		image="armor-head-fluffyhat.png"
+		name="Chapéu de Tufo"
+		description="Agora você pode usar a pele branca do Tufo em sua cabeça."
+		effect="+2% Defense"
+		type="equip-head"
+		weight="10"
+		defense="2"
+		max-per-slot="1">
+		<sprite>head-fluffyhat.xml</sprite>
+	</item>
 
-    <!-- HERE ARE SOME UNUSED ITEM IDS -->
+	<!-- HERE ARE SOME UNUSED ITEM IDS -->
 
     <item id="1198"
         image="generic-spectral-orb.png|R:#FF6600,FF9933,FFFF33"
