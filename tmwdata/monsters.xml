@@ -645,7 +645,7 @@
             />
     </monster>
 
-    <monster id="23" name="Lenha Dura">
+    <monster id="23" name="Tronco Vivo">
         <sprite>monster-logmonster.xml</sprite>
         <sound event="hurt">loghead-hurt1.ogg</sound>
         <sound event="hurt">loghead-hurt2.ogg</sound>
