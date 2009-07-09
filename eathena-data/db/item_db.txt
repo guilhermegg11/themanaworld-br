@@ -379,3 +379,4 @@
 3006,mapaTesouro,Mapa do Tesouro,3,300,150,18,,,,,,,,,,,{},{},,
 3007,capaceteLord,Capacete de Lord,5,30000,3000,10,,20,,-36,0,2,256,,0,0,{},{},,
 3008,arcoReis,Arco dos Reis,4,10000,5000,300,110,,6,,0,2,34,1,0,11,{},{},,
+3009,armaduraCelestial,Armadura Celestial,5,100000,3000,275,,27,,-170,0,2,512,,0,0,{},{},,
