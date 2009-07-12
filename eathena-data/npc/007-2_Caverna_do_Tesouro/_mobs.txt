@@ -1,24 +1,28 @@
 // 007-2 Caverna do Tesouro mobs
 
-007-2.gat,117,27,31,15	monster	Morte (1)	1313,1,0,0,Mob007-2::On1313
+007-2.gat,117,27,31,15	monster	Morte (2)	1313,2,0,0,Mob007-2::On1313
 007-2.gat,154,100,13,30	monster	Esqueleto (6)	1302,6,0,0,Mob007-2::On1302
 007-2.gat,161,73,36,14	monster	Esqueleto (5)	1302,5,0,0,Mob007-2::On1302
 007-2.gat,170,90,15,16	monster	Esqueleto (2)	1302,2,0,0,Mob007-2::On1302
 007-2.gat,161,57,36,13	monster	Esqueleto (5)	1302,5,0,0,Mob007-2::On1302
-007-2.gat,130,65,21,29	monster	Esqueleto Arqueiro (8)	1304,8,0,0,Mob007-2::On1304
+007-2.gat,130,65,21,29	monster	Esqueleto Arqueiro (6)	1304,6,0,0,Mob007-2::On1304
 007-2.gat,132,98,18,33	monster	Esqueleto (5)	1302,5,0,0,Mob007-2::On1302
 007-2.gat,151,89,17,14	monster	Esqueleto Adaga (5)	1303,5,0,0,Mob007-2::On1303
-007-2.gat,83,104,33,29	monster	Esqueleto Arqueiro (10)	1304,10,0,0,Mob007-2::On1304
+007-2.gat,83,104,33,29	monster	Esqueleto Arqueiro (6)	1304,6,0,0,Mob007-2::On1304
 007-2.gat,114,91,14,18	monster	Esqueleto Adaga (3)	1303,3,0,0,Mob007-2::On1303
 007-2.gat,99,78,37,19	monster	Esqueleto (5)	1302,5,0,0,Mob007-2::On1302
 007-2.gat,127,43,27,12	monster	Esqueleto (5)	1302,5,0,0,Mob007-2::On1302
-007-2.gat,155,32,41,25	monster	Esqueleto Arqueiro (10)	1304,10,0,0,Mob007-2::On1304
+007-2.gat,155,32,41,25	monster	Esqueleto Arqueiro (6)	1304,6,0,0,Mob007-2::On1304
 007-2.gat,91,52,30,30	monster	Esqueleto Adaga (6)	1303,6,0,0,Mob007-2::On1303
-007-2.gat,43,102,37,24	monster	Esqueleto Arqueiro (8)	1304,8,0,0,Mob007-2::On1304
+007-2.gat,43,102,37,24	monster	Esqueleto Arqueiro (6)	1304,6,0,0,Mob007-2::On1304
 007-2.gat,53,78,51,19	monster	Esqueleto Adaga (8)	1303,8,0,0,Mob007-2::On1303
 007-2.gat,42,29,39,12	monster	Esqueleto (8)	1302,8,0,0,Mob007-2::On1302
 007-2.gat,48,44,51,14	monster	Esqueleto Arqueiro (8)	1304,8,0,0,Mob007-2::On1304
 007-2.gat,48,60,51,14	monster	Esqueleto (8)	1302,8,0,0,Mob007-2::On1302
+007-2.gat,98,25,67,9	monster	Esqueleto Arqueiro (3)	1304,3,0,0,Mob007-2::On1304
+007-2.gat,156,38,41,12	monster	Esqueleto (4)	1302,4,0,0,Mob007-2::On1302
+007-2.gat,85,110,35,15	monster	Esqueleto (4)	1302,4,0,0,Mob007-2::On1302
+007-2.gat,53,102,23,22	monster	Esqueleto (4)	1302,4,0,0,Mob007-2::On1302
 
 
 007-2.gat,0,0,0	script	Mob007-2	-1,{
