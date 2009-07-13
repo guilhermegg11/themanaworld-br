@@ -53,6 +53,12 @@ Agora sim... vamos à compilação.
 
 Para compilar abra o terminal de comandos, acesse o diretório onde você extraiu e compile utilizando os comandos *./configure*, *make* e *make install*.
 
+Dica para usuários do Ubuntu. Você provavelmente irá precisar de um outro pacote para usar os comandos ./configure e make. Se trata de outras dependências para compilação.
+
+{{{
+sudo apt-get install build-essential
+}}}
+
 Acessando o diretório:
 
 {{{
