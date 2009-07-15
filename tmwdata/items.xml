@@ -452,9 +452,8 @@
         view="521"/>
     <item id="537"
         image="generic-treasurekey.png"
-        name="Treasure Key"
-        description="A rusty key."
-        effect="Opens chests"
+        name="Chave do Tesouro"
+        description="Um chave velha e enferrujada."
         type="generic"
         weight="35"
         max-per-slot="10"/>
@@ -3945,7 +3944,7 @@
 	<item id="3004"
 		image="weapon-polearm-foice-morte.png"
 		name="Foice da Morte"
-		description="A arma da Morte !!!"
+		description="A mesma arma empunhada pelos mensageiros do submundo."
 		effect="+115 Dano, 1 Range"
 		type="equip-2hand"
 		weapon_type="11"
@@ -4009,5 +4008,23 @@
 		<sprite gender="male">chest-saviorarmor-male.xml</sprite>
 		<sprite gender="female">chest-saviorarmor-female.xml</sprite>
 	</item>
+	<item id="3010"
+		image="generic-05moedas.png"
+		name="Moedas de Ouro (5)"
+		description="Algumas moedas de ouro separadas em montes de 5."
+		type="generic"
+		weight="25"/>
+	<item id="3011"
+		image="generic-10moedas.png"
+		name="Moedas de Ouro (10)"
+		description="Algumas moedas de ouro separadas em montes de 10."
+		type="generic"
+		weight="50"/>
+	<item id="3012"
+		image="generic-15moedas.png"
+		name="Moedas de Ouro (15)"
+		description="Muitas moedas de ouro separadas em montes de 15."
+		type="generic"
+		weight="75"/>
 
 </items>

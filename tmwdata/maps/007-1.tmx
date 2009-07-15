@@ -118,9 +118,11 @@
     <property name="dest_y" value="2496"/>
    </properties>
   </object>
-  <object name="paraDentro" x="2016" y="1824" width="32" height="32">
+  <object name="paraDentro" type="warp" x="2016" y="1824" width="32" height="32">
    <properties>
-    <property name="nível 2" value=""/>
+    <property name="dest_map" value="007-2"/>
+    <property name="dest_x" value="5216"/>
+    <property name="dest_y" value="3360"/>
    </properties>
   </object>
   <object name="Morcego (35)" type="spawn" x="2176" y="640" width="1280" height="1248">
