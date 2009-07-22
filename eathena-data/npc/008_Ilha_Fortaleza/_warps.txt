@@ -1,6 +1,7 @@
 // 008 Ilha Fortaleza warps
 
 008.gat,20,50	warp	paraEsq	-1,-1,007.gat,180,50
+008.gat,20,94	warp	paraEsq	-1,-1,007.gat,180,94
 008.gat,158,98	warp	paraCaverna	-1,-1,008-3.gat,86,103
 008.gat,171,36	warp	paraCaverna	-1,-1,008-2.gat,171,52
 008.gat,172,26	warp	paraCaverna	-1,-1,008-2.gat,172,42
