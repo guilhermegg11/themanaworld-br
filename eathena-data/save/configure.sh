@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mv -uv account.txt.example account.txt
+mv -uv save/account.txt.example save/account.txt
