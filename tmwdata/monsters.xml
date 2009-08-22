@@ -897,37 +897,48 @@
 
 	<!-- AQUI ESTAO OS MONSTROS CRIADOS PELA EQUIPE DO TMW-BR -->
 
-    <monster id="300" name="Esqueleto">
-        <sprite>monster-skeleton.xml</sprite>
-    </monster>
+	<monster id="300" name="Esqueleto">
+		<sprite>monster-skeleton.xml</sprite>
+	</monster>
 
-    <monster id="301" name="Esqueleto Adaga">
-        <sprite>monster-skeleton.xml</sprite>
-        <sprite>head-infantryhelm.xml</sprite>
-        <!--sprite>chest-leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite-->
-        <sprite>weapon-dagger-attack.xml</sprite>
-    </monster>
+	<monster id="301" name="Esqueleto Adaga">
+		<sprite>monster-skeleton.xml</sprite>
+		<sprite>head-infantryhelm.xml</sprite>
+		<!--sprite>chest-leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite-->
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</monster>
 
-    <monster id="302" name="Esqueleto Arqueiro">
-        <sprite>monster-skeleton.xml</sprite>
-        <sprite gender="male">chest-leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
-        <sprite>weapon-bow-attack.xml</sprite>
-    </monster>
+	<monster id="302" name="Esqueleto Arqueiro">
+		<sprite>monster-skeleton.xml</sprite>
+		<sprite gender="male">chest-leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+		<sprite>weapon-bow-attack.xml</sprite>
+	</monster>
 
-    <!--monster id="303" name="Esqueleto Pirata"-->
-    <!--monster id="21" name="Esqueleto Pirata"-->
-    <monster id="303" name="Esqueleto Pirata">
-        <sprite>monster-skeleton.xml</sprite>
-        <sprite>head-piratehat-br.xml</sprite>
-        <sprite>head-eyepatch.xml</sprite>
-    </monster>
+	<monster id="303" name="Esqueleto Pirata">
+		<sprite>monster-skeleton.xml</sprite>
+		<sprite>head-piratehat-br.xml</sprite>
+		<sprite>head-eyepatch.xml</sprite>
+	</monster>
 
-    <monster id="311" name="Morte">
-        <sprite>monster-skeleton.xml</sprite>
-        <!--sprite>chest-capa.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite-->
-        <sprite>chest-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite>weapon-scythe.xml</sprite>
-        <particlefx>graphics/particles/aura-negra.xml</particlefx>
-    </monster>
+	<monster id="304" name="Fada Banida">
+		<sprite>monstro-fada.xml</sprite>
+	</monster>
+
+	<monster id="305" name="Fada Traidora">
+		<sprite>monstro-fada.xml</sprite>
+	</monster>
+
+	<monster id="306" name="Dragão Verde">
+		<sprite>monstro-dragao_sombra.xml</sprite>
+		<sprite>monstro-dragao.xml</sprite>
+	</monster>
+
+	<monster id="311" name="Morte">
+		<sprite>monster-skeleton.xml</sprite>
+		<!--sprite>chest-capa.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite-->
+		<sprite>chest-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite>weapon-scythe.xml</sprite>
+		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+	</monster>
 
 </monsters>

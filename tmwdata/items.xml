@@ -1382,53 +1382,53 @@
         type="generic"
         weight="1"
         max-per-slot="1"/>
-    <item id="636"
-        image="armor-head-warlordhelm.png"
-        name="Warlord Helmet"
-        description="Worn by great warriors."
-        effect="+18% Defesa"
-        type="equip-head"
-        defense="18"
-        weight="40">
-        <sprite>head-warlordhelm.xml</sprite>
-    </item>
-    <item id="637"
-        image="armor-head-knighthelm.png"
-        name="Knight's Helmet"
-        description="A helmet with two small wings on it."
-        effect="+15% Defense"
-        type="equip-head"
-        defense="20"
-        weight="35">
-        <sprite>head-knighthelm.xml</sprite>
-    </item>
-    <item id="638"
-        image="armor-head-infantryhelm.png"
-        name="Infantry Helmet"
-        description="A helmet for soldiers and guards."
-        effect="+15% Defense"
-        type="equip-head"
-        defense="20"
-        weight="35">
-        <sprite>head-infantryhelm.xml</sprite>
-    </item>
-    <item id="639"
-        image="armor-head-crusadehelm.png"
-        name="Crusade Helmet"
-        description="Start your own crusade."
-        effect="+18% Defense"
-        type="equip-head"
-        defense="25"
-        weight="40">
-        <sprite>head-crusadehelm.xml</sprite>
-    </item>
-    <item id="640"
-        image="generic-ironore.png"
-        name="Iron Ore"
-        description="A lump of iron ore."
-        effect=""
-        type="generic"
-        weight="40"/>
+	<item id="636"
+		image="armor-head-warlordhelm.png"
+		name="Elmo do Lorde da Guerra"
+		description="Usado pelos mais poderosos comandantes de batalha!"
+		effect="+18% Defesa"
+		type="equip-head"
+		defense="18"
+		weight="40">
+		<sprite>head-warlordhelm.xml</sprite>
+	</item>
+	<item id="637"
+		image="armor-head-knighthelm.png"
+		name="Elmo do Cavaleiro Alado"
+		description="Elmo usado pelos poucos batedores que possuem o título de Cavaleiro Alado."
+		effect="+15% Defesa"
+		type="equip-head"
+		defense="20"
+		weight="35">
+		<sprite>head-knighthelm.xml</sprite>
+	</item>
+	<item id="638"
+		image="armor-head-infantryhelm.png"
+		name="Capacete da Infantaria"
+		description="Proteção feita especialmente para as tropas de infantaria."
+		effect="+15% Defesa"
+		type="equip-head"
+		defense="20"
+		weight="35">
+		<sprite>head-infantryhelm.xml</sprite>
+	</item>
+	<item id="639"
+		image="armor-head-crusadehelm.png"
+		name="Elmo das Cruzadas"
+		description="Um elmo usado por guerreiros no tempo das cruzadas."
+		effect="+18% Defesa"
+		type="equip-head"
+		defense="25"
+		weight="40">
+		<sprite>head-crusadehelm.xml</sprite>
+	</item>
+	<item id="640"
+		image="generic-ironore.png"
+		name="Minério de Ferro"
+		description="Ferro em sua forma bruta."
+		effect=""
+		type="generic"
+		weight="40"/>
     <item id="641"
         image="generic-snakeskin.png"
         name="Snake Skin"
@@ -1817,7 +1817,7 @@
         max-per-slot="10"/>
 	<item id="684"
 		image="use-potion-a.png|G:#b03678,ffffff"
-		name="Poção Mínima de cura"
+		name="Poção Mínima de Cura"
 		description="Uma minúscula poção de cura feita a partir de ervas."
 		effect="+100 HP"
 		type="usable"
@@ -1826,7 +1826,7 @@
 		max-per-slot="10"/>
 	<item id="685"
 		image="use-potion-d.png|G:#b03678,ffffff"
-		name="Poção Pequena de cura"
+		name="Poção Pequena de Cura"
 		description="Uma pequena poção de cura feita a partir de ervas."
 		effect="+200 HP"
 		type="usable"
@@ -1835,7 +1835,7 @@
 		max-per-slot="10"/>
 	<item id="686"
 		image="use-potion-b.png|G:#b03678,ffffff"
-		name="Poção Média de cura"
+		name="Poção Média de Cura"
 		description="Uma poção média de cura feita a partir de ervas."
 		effect="+400 HP"
 		type="usable"
@@ -1844,7 +1844,7 @@
 		max-per-slot="10"/>
 	<item id="687"
 		image="use-potion-c.png|G:#b03678,ffffff"
-		name="Poção Grande de cura"
+		name="Poção Grande de Cura"
 		description="Uma poção média de cura feita a partir de ervas."
 		effect="+800 HP"
 		type="usable"
@@ -4026,5 +4026,51 @@
 		description="Muitas moedas de ouro separadas em montes de 15."
 		type="generic"
 		weight="75"/>
+	<item id="3013"
+		image="generic-escama-dragao.png"
+		name="Escamas de Dragão"
+		description="Escamas do Dragão Verde. Muito resistentes."
+		type="generic"
+		weight="10"/>
+	<item id="3014"
+		image="armor-head-oculos-olho-dragao.png"
+		name="Óculos Olho de Dragão"
+		description="Óculos do poderoso Dragão Verde."
+		effect="Destreza +3"
+		type="equip-head"
+		defense="5"
+		weight="15"
+		max-per-slot="1">
+		<sprite>head-oculos-olho-dragao.xml</sprite>
+	</item>
+	<item id="3015"
+		image="armor-chest-robe.png|W:#115511,22aa22,99dd99"
+		name="Manto Encantado"
+		description="Manto encantado por fadas da floresta."
+		effect="M. Defesa +20"
+		type="equip-torso"
+		weight="10"
+		defense="5"
+		max-per-slot="1">
+		<sprite gender="male">chest-robe-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">chest-robe-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="3016"
+		image="generic-heartnecklace.png"
+		name="Colar Horcrux (Vazio)"
+		description="Tem o poder de capturar almas."
+		type="generic"
+		weight="10"
+		max-per-slot="1"/>
+	<item id="3017"
+		image="armor-ring-colar-horcrux-fada.png"
+		name="Colar Horcrux (Fada)"
+		description="Colar com uma alma de Fada Aprisionada."
+		effect="Dano +50, HP +100"
+		type="equip-ring"
+		weight="1"
+		max-per-slot="1">
+		<sprite>pet-fada.xml</sprite>
+	</item>
 
 </items>
