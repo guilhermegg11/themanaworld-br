@@ -190,4 +190,4 @@ Para saber como escrever scripts mais complexos estude pelos scripts já impleme
 Links:
 
  * [http://wiki.themanaworld.org/index.php/EAthena_Scripting_Standards Wiki The Mana World]
- * [http://www.valholl.ca/ref/eAthenaScriptCommands.html#Introduction Manual de referências]
+ * [http://themanaworld-br.googlecode.com/svn/wiki/arquivos/eAthena.html Manual de referências]
