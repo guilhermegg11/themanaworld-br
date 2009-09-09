@@ -206,6 +206,7 @@
   </object>
   <object name="Fada Traidora (1)" type="spawn" x="608" y="544" width="1824" height="2560">
    <properties>
+    <property name="eA_death" value="120000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="305"/>
    </properties>
