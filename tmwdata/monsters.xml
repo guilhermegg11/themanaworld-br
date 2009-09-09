@@ -571,7 +571,7 @@
             />
     </monster>
 
-    <monster id="19" name="Cobra Luminosa">
+    <monster id="19" name="Cobra da Caverna">
         <sprite>monster-snake-cave.xml</sprite>
         <drop item="612" percent="8"/>
         <drop item="610" percent="0.1"/>
@@ -920,17 +920,25 @@
 		<sprite>head-eyepatch.xml</sprite>
 	</monster>
 
-	<monster id="304" name="Fada Banida">
+	<monster id="304" name="Fada Furiosa">
 		<sprite>monstro-fada.xml</sprite>
 	</monster>
 
 	<monster id="305" name="Fada Traidora">
-		<sprite>monstro-fada.xml</sprite>
+		<sprite>monstro-fada-2.xml</sprite>
 	</monster>
 
 	<monster id="306" name="Dragão Verde">
 		<sprite>monstro-dragao_sombra.xml</sprite>
 		<sprite>monstro-dragao.xml</sprite>
+	</monster>
+
+	<monster id="307" name="Fada Guardiã">
+		<sprite>monstro-fada.xml</sprite>
+	</monster>
+
+	<monster id="308" name="Aranha Rainha">
+		<sprite>monstro-aranha-rainha.xml</sprite>
 	</monster>
 
 	<monster id="311" name="Morte">

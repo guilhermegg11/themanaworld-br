@@ -137,15 +137,9 @@
     <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object name="Esqueleto (3)" type="spawn" x="864" y="896" width="672" height="704">
+  <object name="Esqueleto (6)" type="spawn" x="992" y="1152" width="1056" height="704">
    <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="300"/>
-   </properties>
-  </object>
-  <object name="Esqueleto (3)" type="spawn" x="1568" y="1248" width="576" height="576">
-   <properties>
-    <property name="max_beings" value="3"/>
+    <property name="max_beings" value="6"/>
     <property name="monster_id" value="300"/>
    </properties>
   </object>

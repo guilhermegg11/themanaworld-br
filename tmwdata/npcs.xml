@@ -8,6 +8,7 @@
     IDs 100-199 should be used for unanimated NPCs (100 is added for 0.0 client compatibility)
 -->
 <npcs>
+
 <npc id="48"><sprite variant="61">npc.xml</sprite></npc><!-- Storage Master -->
 <npc id="49"><sprite variant="49">npc.xml</sprite></npc><!-- Storage Master (desert) -->
 
@@ -114,6 +115,8 @@
 
 <!-- Todos os NPCs do servidor TMW-BR serão definidos a partir do id 300. -->
 
+<npc id="0"/> <!-- Vazio -->
+
 <npc id="300"><sprite variant="0">npcs-br.xml</sprite></npc>
 <npc id="301"><sprite variant="1">npcs-br.xml</sprite></npc>
 <npc id="302"><sprite variant="2">npcs-br.xml</sprite></npc>
@@ -135,5 +138,10 @@
 <npc id="318"><sprite variant="18">npcs-br.xml</sprite></npc>
 <npc id="319"><sprite variant="19">npcs-br.xml</sprite></npc>
 <npc id="320"><sprite variant="20">npcs-br.xml</sprite></npc>
+
+<npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
+
+<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc>
+<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc>
 
 </npcs>

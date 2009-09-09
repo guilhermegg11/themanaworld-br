@@ -164,6 +164,7 @@
   </object>
   <object name="Limo Vermelho (3)" type="spawn" x="5024" y="2304" width="768" height="384">
    <properties>
+    <property name="eA_spawn" value="60000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="6"/>
    </properties>
