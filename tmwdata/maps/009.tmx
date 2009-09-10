@@ -64,6 +64,7 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/waterfall-1x3.particle.xml" type="PARTICLE_EFFECT" x="4012" y="3914"/>
   <object name="Morte" x="2752" y="2688" width="96" height="32">
    <properties>
     <property name="cliente" value="deve ter colisão"/>
