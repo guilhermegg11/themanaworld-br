@@ -1,0 +1,10 @@
+map: 009.gat
+
+npc: npc/009_Ilha_Fortaleza/arvore_encantada.conf
+npc: npc/009_Ilha_Fortaleza/pedra_encantada.conf
+npc: npc/009_Ilha_Fortaleza/aviso.conf
+npc: npc/009_Ilha_Fortaleza/salto_perigoso.conf
+npc: npc/009_Ilha_Fortaleza/operarios.conf
+
+npc: npc/009_Ilha_Fortaleza/_mobs.txt
+npc: npc/009_Ilha_Fortaleza/_warps.txt

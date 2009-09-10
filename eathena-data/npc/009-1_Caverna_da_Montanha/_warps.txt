@@ -1,0 +1,5 @@
+// 009-1 Caverna da Montanha warps
+
+009-1.gat,36,99	warp	paraPraia	-1,-1,009.gat,111,114
+009-1.gat,79,68	warp	paraDragoes	-1,-1,009.gat,154,82
+009-1.gat,77,54	warp	paraFadas	-1,-1,009.gat,152,68

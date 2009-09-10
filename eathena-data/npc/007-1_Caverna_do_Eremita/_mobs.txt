@@ -2,8 +2,7 @@
 
 007-1.gat,87,39,39,38	monster	Morcego (35)	1017,35,0,0,Mob007-1::On1017
 007-1.gat,88,38,39,38	monster	Bicho-da-seda (15)	1035,15,0,0,Mob007-1::On1035
-007-1.gat,37,38,20,21	monster	Esqueleto (3)	1302,3,0,0,Mob007-1::On1302
-007-1.gat,57,47,17,17	monster	Esqueleto (3)	1302,3,0,0,Mob007-1::On1302
+007-1.gat,47,46,32,21	monster	Esqueleto (6)	1302,6,0,0,Mob007-1::On1302
 
 
 007-1.gat,0,0,0	script	Mob007-1	-1,{

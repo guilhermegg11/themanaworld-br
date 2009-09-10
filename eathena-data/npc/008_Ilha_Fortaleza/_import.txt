@@ -14,7 +14,6 @@ npc: npc/008_Ilha_Fortaleza/vendedores.conf
 npc: npc/008_Ilha_Fortaleza/guardas.conf
 npc: npc/008_Ilha_Fortaleza/jack.conf
 npc: npc/008_Ilha_Fortaleza/info.conf
-npc: npc/008_Ilha_Fortaleza/operarios.conf
 
 npc: npc/008_Ilha_Fortaleza/_mobs.txt
 npc: npc/008_Ilha_Fortaleza/_warps.txt
