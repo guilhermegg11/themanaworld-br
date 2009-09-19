@@ -16,7 +16,10 @@
    inkscape:version="0.46"
    version="1.0"
    sodipodi:docname="mapaMundi.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/smb/themanaworld-br/art/mapaMundi/mapaMundi.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -68,6 +71,13 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 526.18109 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2858"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -77,10 +87,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="362.28231"
-     inkscape:cy="272.32084"
+     inkscape:cx="440.40236"
+     inkscape:cy="316.77262"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="966"
@@ -2324,8 +2334,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Mapas"
-     style="opacity:1;display:inline"
-     sodipodi:insensitive="true">
+     style="opacity:1;display:inline">
     <image
        y="99"
        x="318"
@@ -2333,7 +2342,10 @@
        height="140"
        width="200"
        sodipodi:absref="/home/smb/themanaworld-br/art/mapaMundi/002.png"
-       xlink:href="002.png" />
+       xlink:href="002.png"
+       inkscape:export-filename="/home/smb/themanaworld-br/art/mapaMundi/ilhaFortaleza.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <image
        y="199"
        x="318"
@@ -2341,7 +2353,10 @@
        height="140"
        width="200"
        sodipodi:absref="/home/smb/themanaworld-br/art/mapaMundi/005.png"
-       xlink:href="005.png" />
+       xlink:href="005.png"
+       inkscape:export-filename="/home/smb/themanaworld-br/art/mapaMundi/ilhaFortaleza.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <image
        y="299"
        x="318"
@@ -2349,7 +2364,10 @@
        height="140"
        width="200"
        sodipodi:absref="/home/smb/themanaworld-br/art/mapaMundi/008.png"
-       xlink:href="008.png" />
+       xlink:href="008.png"
+       inkscape:export-filename="/home/smb/themanaworld-br/art/mapaMundi/ilhaFortaleza.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <image
        y="299"
        x="158"
@@ -2357,7 +2375,22 @@
        height="140"
        width="200"
        sodipodi:absref="/home/smb/themanaworld-br/art/mapaMundi/007.png"
-       xlink:href="007.png" />
+       xlink:href="007.png"
+       inkscape:export-filename="/home/smb/themanaworld-br/art/mapaMundi/ilhaFortaleza.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       style="display:inline"
+       y="299"
+       x="478"
+       id="image2860"
+       height="140"
+       width="200"
+       sodipodi:absref="/home/smb/themanaworld-br/art/mapaMundi/009.png"
+       xlink:href="009.png"
+       inkscape:export-filename="/home/smb/themanaworld-br/art/mapaMundi/ilhaFortaleza.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:label="Divisas"
