@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="200" height="140" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/007-4.png"/>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+ </properties>
+ <tileset name="Colision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="Cabana_in" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/praia_vila_in.png"/>
+ </tileset>
+ <tileset name="Canana_in X3" firstgid="67" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/praia_vila_in_x3.png"/>
+ </tileset>
+ <tileset name="In" firstgid="83" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <layer name="Ground" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dsWrcUABEURWJ7bhOsJM6JpDaJv//Z1lYbyP0XHjlNyNzDjwk1GwzlwU1ul+W5f6THrhWesP6oFl6w/qgWXrD+qBZesP6oFl6w/qgWXrD+qBZesP6oFl6w/qgWXrD+qBZesP6oFl6w/qgWXrD+qBZesP6oFl6w/qgWXrD+qBZesP6oFl6w/qg2d6bvD2dr6vrt9fr7cbzy70+aLT3Jh9O58fq+vP1+rDx/HKvDxrtvck/p/O0uq7P08a9Pmi09yZ/vfPog0b6gDF9wJg+YGxmH1+W87tcfXAUM/v4vpzf5eqDo5jZx+/l/C5XHxzFjD5uBs/1QbuZ/x/64Gj0AWMfscu32pn5e3AtfcDYzL3OPnCt9Ib1QbP0hvVBs/SG9UGz9Ib1QbP0hvVBs/SG9UGz9Ib1QbP0hvVBs/SG9UGz9Ib1QbP0hvVBs/SG9UGz9Ib1QbP0hvVBs/SG9UGz9Ib1QbP0hvVBs/SG9UGz9Ib1QbP0hvVBs703ufX9wbtl+/uDd4vvD9Jt701ufX/wcdn+/uDj4vuDdNt7k/9O52V1XZ+XjXt90GjvTf5959EHjfQBY/qAMX3A2Mw+Lt8f1AdHMbOPy/cH9cFRzOzjeTm/y9UHRzGjj5vBc33Qbub/hz44Gn3A2Efs8q12Zv4eXEsfMDZzr7MPXCu9YX3QLL1hfdAsvWF90Cy9YX3QLL1hfdAsvWF90Cy9YX3QLL1hfdAsvWF90Cy9YX3QLL1hfdAsvWF90Cy9YX3QLL1hfdAsvWF90Cy9YX3QLL1hfdAsvWF90Cy9YX0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR/cftlZeDYC1AQA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dy0rDUBQF0AT8A3XkCzqtD3CqrWCtSH19pN/m4zPc0EgjqShSWshdCzYJpy1kcA8lo11VAAAAAAAAAAAAAAAAAADAKh3WVXVUd+d7me0nB0s+g767bs79aa5n9WK229wPcz1OTuwHBRvn/F81O/Daml9kdpmM7AcFe8r5f16yA/eZPSSP9oNCzJJJcrfpBwEAKMTAuwYFmzW5ad1/zbezG+f193eT29Z3gK4t/ykU4iV5S96Tjz/+Zsd+AAD8y3TTDwAAAAAAAAAAAAAAAAAAAAAAAD2ifxC69A/C7/QPws/0D8Kc/kEAgPXSP0jJ9A/CaukfpBT6BwEA1kf/IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB99QmUtDCngLUBAA==
+  </data>
+ </layer>
+ <layer name="Top" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dTU7DMBAG0LCG0tJt+TFsYcEJyjXg4sBlkHAkR3iRKUEKwajvSV+dxrI0m1GS1XQdAAAAAAAAAAAAAAAAAKucTcltdX3o3pDzP6gXlrSuru9H9sfuDdK8pUBz9AfE7nIeSvYj+/qDY7b+Zl9/cMz0B8T0B8Tq7486T2V9LOtpdeay3LtYtFJYXv/82Jx8/X/OeekOPzcG6VcqgnZE71f6A+L+OJtwNs1YB7Ro6I/XnLec9x+cTbNXA22pnx8f/U/5FtlNOJtmrwbacpVzM5JtWbtgv8/10sUCAAAAAAAAAAAAAAAAAAAAAMA/Yf4gxMxXg5j+gJj5gxAzPwpi+gNi+gNi5g9CzPxBiJk/CDHzByFm/iDEzB+EmPmDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA030CSVBK3IC1AQA=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="140" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OQQrDMAwEQJP/P7qngBGKmkutYs/CYCPpsNcY4wIAAAAAAAAAAAAAAAAAAIAfm5PN4g5OcSebxTmcJiabzTvYXZVq390bVqhS7bt7wwpVqpvu3rDSeLH/dgO7yXI9/OMN7C7L0zzewGneprsndBjTW6W7J3Qbf9ABAAAAAAAAAAAAAAAAAAAAAAAA4FRzslncwSnuZLM4h9PEZLN5B7urUu27e8MKVap9d29YoUp1090bVhov9t9uYDdZrod/vIHdZXmaxxs4zdt094QOY3qrdPeEbuMPOgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsNYHUaIeeIC1AQA=
+  </data>
+ </layer>
+</map>
