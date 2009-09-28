@@ -19,6 +19,7 @@
 007.gat,152,72,3,10	monster	Escorpião (3)	1003,3,0,0,Mob007::On1003
 007.gat,93,49,11,6	monster	Escorpião (3)	1003,5,0,0,Mob007::On1003
 007.gat,114,64,15,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
+007.gat,152,100,52,30	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob007::On1011
 
 
 007.gat,0,0,0	script	Mob007	-1,{
@@ -34,6 +35,11 @@ On1003:
 
 On1008:
 	set @mobID, 1008;
+	callfunc "MobPoints";
+	break;
+
+On1011:
+	set @mobID, 1011;
 	callfunc "MobPoints";
 	break;
 

@@ -1,0 +1,3 @@
+map: 005-2.gat
+npc: npc/005-2/_mobs.txt
+npc: npc/005-2/_warps.txt

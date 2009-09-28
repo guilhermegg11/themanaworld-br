@@ -1,0 +1,4 @@
+// 005-1 Fortaleza warps
+
+005-1.gat,1,31	warp	ParaBaixo	-1,-1,005-2.gat,1,0
+005-1.gat,35,59	warp	ParaFora	5,-1,005-dev.gat,1,2

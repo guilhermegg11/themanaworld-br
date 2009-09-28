@@ -4,7 +4,5 @@
 009.gat,120,32	warp	paraCavernaIlha	-1,-1,009.gat,65,69
 009.gat,27,90	warp	para009-2	-1,-1,009-2.gat,72,83
 009.gat,111,114	warp	paraCavernaMontanha	-1,-1,009-1.gat,36,99
-009.gat,154,82	warp	paraCavernaMontanha	-1,-1,009-1.gat,79,68
-009.gat,152,68	warp	paraCavernaMontanha	-1,-1,009-1.gat,77,54
 009.gat,19,70	warp	para008	-1,0,008.gat,179,69
 009.gat,19,43	warp	para008 (de cima)	-1,0,008.gat,179,42
