@@ -39,7 +39,7 @@
    H4sIAAAAAAAAAO2TW24kMQwDg7n/ofd30eiH7KZEtV0ECkgmY5kind/f398PAAAAAAAAAAAAAAAAAAAAAAAAAACWZFZu35Df8Z3cO8Fzz4rur+ZCr66r5N57R7rIncMuKKSc6c5jdWaUfY87k5UZVdWd7lxWJirHve5sVsWdu/v+3eiSdxcfq9Mp505eVuX/LLtkfObB6Wc17oSvNemabVdfK9A5187evkxWrqoZGd52R52pclaGP9BkGhWd9+BtpqOicz9vM706fyc679f5SK5R/Q4/0/n6nc/MpnM6n50B8c46dv6bmAHjvb3t+/hdhTd3Zl/nLM9IxpFzZ6JzP1HNnrubQeff6n1GdN6LCtF5XVcdelfu5s68Q6dRdb5z985nFTlb5SMzB3c/nTqPSuXp7DvZObi7qeg88w249xztu7tn9a6Zcu88koHbm6tv90z6ruu74+zKDNz+vtD1yF3dM3B7rNy38r7sO2Z2z/DnJrL33dkunVfJ3Vd238cdVTkcz87Oqe77jccOjO6ozEM1JzpLKXdvXf8vFPd32eWNt05kS+WhepfobHd/6r4VOSq7UveuyMrdobJvtap7enN21d4VGpk34uVp3uie2Zm5uxz1P9P/zDtSv0F3bh28KLw/KTOXWXXIzd1lRucVuTzdr/SnyO348xeISpWP8g2qfb7Nzd2lsvNufjp4dd5N5/VenXdn+D9+5vZz5SXyner36O7yy3uMeKnwGpW7y106H5mV1fUbf53yde6h8nI342ne1dk7ubv8cueKbKvl7pHO6+Xu0dm5av+3niJ7KeXusTLfzCzezs7Scba7v8psZ1TZeWbvoz46MrrXG836OvtduePdTNU+nRjN4/j5iKp6qsrH3V1V72+U4WtmrsKDu7OKzkd1NjfTG5336P2oCl8VObi7+lLvGb6u/t75XXUkSy5Pyt3c3Tj7f8rv7O+d32NE7i469D6jaj/R70fe8G4o1dFTttevolZXX0pvXydLDl9P59xZdyGaz6wUvhRv051zJ0YzmpXKV/a9OzCT1Ywqe47etzszOT3lHelALXeOu3CX+V0Xarlz2JGR3K96GpF7X9C+j6PcfgEAAAAAAAAAAAAAAAAAAAAAAAAAAHbhH4UV+5Mk9AAA
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="paraPraia" type="warp" x="1152" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="009"/>
@@ -49,14 +49,14 @@
   </object>
   <object name="paraDragoes" type="warp" x="2528" y="2176" width="32" height="32">
    <properties>
-    <property name="dest_map" value="009"/>
+    <property name="dest_map" value="009-3"/>
     <property name="dest_x" value="4928"/>
     <property name="dest_y" value="2624"/>
    </properties>
   </object>
   <object name="paraFadas" type="warp" x="2464" y="1728" width="32" height="32">
    <properties>
-    <property name="dest_map" value="009"/>
+    <property name="dest_map" value="009-3"/>
     <property name="dest_x" value="4864"/>
     <property name="dest_y" value="2176"/>
    </properties>

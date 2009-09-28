@@ -293,18 +293,17 @@
         attack-range="32"
         attack-angle="135"
         view="521"/>
-    <item id="523"
-        image="armor-chest-leathershirt.png"
-        name="Leather Shirt"
-        description="A shirt made of hardened leather."
-        effect="+4% Defense"
-        type="equip-torso"
-        weight="30"
-        defense="4"
-        max-per-slot="1">
-        <sprite gender="male">chest-leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
-        <sprite gender="female">chest-leather-female.xml|#412300,603100,8d4900;#ffff00</sprite>
-    </item>
+	<item id="523"
+		image="armor-chest-leathershirt.png"
+		name="Camisa de Couro"
+		description="Uma camisa feita de couro endurecido."
+		type="equip-torso"
+		weight="30"
+		defense="4"
+		max-per-slot="1">
+		<sprite gender="male">chest-leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+		<sprite gender="female">chest-leather-female.xml|#412300,603100,8d4900;#ffff00</sprite>
+	</item>
 	<item id="524"
 		image="armor-head-fancyhat.png"
 		name="Chapéu Fantasia"
@@ -316,52 +315,50 @@
 		max-per-slot="1">
 		<sprite>head-fancyhat.xml</sprite>
 	</item>
-    <item id="525"
-        image="armor-head-minershat.png"
-        name="Capacete de Mineiro"
-        description="Um capacete usado por mineiros."
-        effect="+4% Defense"
-        type="equip-head"
-        weight="25"
-        defense="4"
-        max-per-slot="1">
-        <sprite>head-minershat.xml</sprite>
-    </item>
-    <item id="526"
-        image="generic-coinbag.png"
-        name="Bolsa de Moedas"
-        description="Uma bolsa usada para guardar moedas."
-        type="generic"
-        weight="20"
-        max-per-slot="1"/>
-    <item id="527"
-        image="use-food-milk.png"
-        name="Leite"
-        description="Um refrescante litro de leite frio."
-        effect="+150 HP"
-        type="usable"
-        hp="150"
-        weight="300"
-        max-per-slot="10"/>
-    <item id="528"
-        image="armor-feet-boots.png|W:#4f2d29,c89078"
-        name="Botas"
-        description="Um par de botas. Ideais para viajar."
-        type="equip-feet"
-        weight="15"
-        defense="2"
-        max-per-slot="1">
-        <sprite gender="male">feet-boots-male.xml|#623a34,f0c2b4</sprite>
-        <sprite gender="female">feet-boots-female.xml|#623a34,f0c2b4</sprite>
-    </item>
-    <item id="529"
-        image="weapon-arrow-iron.png"
-        name="Flecha de Ferro"
-        description="Uma resistente flecha feita de ferro."
-        effect="+50 Dano"
-        type="equip-ammo"
-        weight="12"
-        max-per-slot="100"/>
+	<item id="525"
+		image="armor-head-minershat.png"
+		name="Capacete de Mineiro"
+		description="Um capacete usado por mineiros."
+		type="equip-head"
+		weight="25"
+		defense="4"
+		max-per-slot="1">
+		<sprite>head-minershat.xml</sprite>
+	</item>
+	<item id="526"
+		image="generic-coinbag.png"
+		name="Bolsa de Moedas"
+		description="Uma bolsa usada para guardar moedas."
+		type="generic"
+		weight="20"
+		max-per-slot="1"/>
+	<item id="527"
+		image="use-food-milk.png"
+		name="Leite"
+		description="Um refrescante litro de leite fresco."
+		type="usable"
+		hp="150"
+		weight="300"
+		max-per-slot="10"/>
+	<item id="528"
+		image="armor-feet-boots.png|W:#4f2d29,c89078"
+		name="Botas"
+		description="Um par de botas. Ideais para viajar."
+		type="equip-feet"
+		weight="15"
+		defense="2"
+		max-per-slot="1">
+		<sprite gender="male">feet-boots-male.xml|#623a34,f0c2b4</sprite>
+		<sprite gender="female">feet-boots-female.xml|#623a34,f0c2b4</sprite>
+	</item>
+	<item id="529"
+		image="weapon-arrow-iron.png"
+		name="Flecha de Ferro"
+		description="Uma resistente flecha feita de ferro."
+		effect="+50 Dano"
+		type="equip-ammo"
+		weight="12"
+		max-per-slot="100"/>
     <item id="530"
         image="weapon-bow-shortbow.png"
         name="Short Bow"
@@ -375,29 +372,28 @@
         damage-min="50"
         damage-delta="0"
         view="1200"/>
-    <item id="531"
-        image="armor-hands-minergloves.png"
-        name="Luvas de Mireiro"
-        description="Luvas usadas por mineiros. Muito úteis."
-        type="equip-arms"
-        weight="10"
-        defense="2"
-        max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#202020,505050</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#202020,505050</sprite>
-    </item>
-    <item id="532"
-        image="armor-hands-leathergloves.png"
-        name="Leather Gloves"
-        description="Gloves made of hardened leather."
-        effect="+4% Defense"
-        type="equip-arms"
-        weight="25"
-        defense="3"
-        max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,c8752f</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#4e2e18,c8752f</sprite>
-    </item>
+	<item id="531"
+		image="armor-hands-minergloves.png"
+		name="Luvas de Mireiro"
+		description="Luvas usadas por mineiros. Muito úteis."
+		type="equip-arms"
+		weight="10"
+		defense="2"
+		max-per-slot="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#202020,505050</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#202020,505050</sprite>
+	</item>
+	<item id="532"
+		image="armor-hands-leathergloves.png"
+		name="Luvas de Couro"
+		description="Luvas feitas de couro endurecido."
+		type="equip-arms"
+		weight="25"
+		defense="4"
+		max-per-slot="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,c8752f</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#4e2e18,c8752f</sprite>
+	</item>
     <item id="533"
         image="use-food-roastedmaggot.png"
         name="Verme Torrado"
@@ -458,15 +454,14 @@
         type="generic"
         weight="25"
         max-per-slot="10"/>
-    <item id="539"
-        image="use-food-beer.png"
-        name="Beer"
-        description="A fresh beer."
-        effect="+200 HP"
-        type="usable"
-        hp="200"
-        weight="400"
-        max-per-slot="10"/>
+	<item id="539"
+		image="use-food-beer.png"
+		name="Cerveja"
+		description="Um copo de cerveja."
+		type="usable"
+		hp="200"
+		weight="400"
+		max-per-slot="10"/>
     <item id="540"
         image="generic-emptybottle.png"
         name="Empty Bottle"
@@ -676,18 +671,17 @@
         type="generic"
         weight="10"
         max-per-slot="10"/>
-    <item id="563"
-        image="armor-hands-gloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
-        name="Winter Gloves"
-        description="A pair of soft, warm gloves."
-        effect="+3% Defense"
-        type="equip-arms"
-        weight="15"
-        defense="2"
-        max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
-    </item>
+	<item id="563"
+		image="armor-hands-gloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
+		name="Luvas de Inverno"
+		description="Um par de macias e quentes luvas."
+		type="equip-arms"
+		weight="15"
+		defense="3"
+		max-per-slot="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
+	</item>
     <item id="564"
         image="armor-chest-tnecksweater.png|W:#A4B2B2,FFFFFF"
         name="Turtleneck Sweater"
@@ -887,18 +881,17 @@
         type="equip-arms"
         weight="10"
         max-per-slot="1"/>
-    <item id="586"
-        image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
-        name="Cotton Shorts"
-        description="Shorts made of 100% cotton."
-        effect="+2% Defense"
-        type="equip-legs"
-        weight="10"
-        defense="2"
-        max-per-slot="1">
-        <sprite gender="male">leg-shorts-male.xml|#A4B2B2,FFFFFF</sprite>
-        <sprite gender="female">leg-shorts-female.xml|#A4B2B2,FFFFFF</sprite>
-    </item>
+	<item id="586"
+		image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
+		name="Short de Algodão"
+		description="Um short feito de 100% algodão."
+		type="equip-legs"
+		weight="10"
+		defense="2"
+		max-per-slot="1">
+		<sprite gender="male">leg-shorts-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
     <item id="587"
         image="weapon-sword-sword.png"
         name="Sword"
@@ -1024,30 +1017,30 @@
         type="equip-shield"
         weight="10"
         max-per-slot="1"/>
-    <item id="601"
-        image="armor-shield-steelshield.png"
-        name="Steel Shield"
-        description="A shield made of steel."
-        effect="+20% Defense"
-        type="equip-shield"
-        weight="10"
-        max-per-slot="1"/>
-    <item id="602"
-        image="armor-shield-woodenshield.png"
-        name="Wooden Shield"
-        description="A shield made of wood."
-        effect="+14% Defense"
-        type="equip-shield"
-        weight="10"
-        max-per-slot="1"/>
-    <item id="603"
-        image="armor-shield-leathershield.png"
-        name="Leather Shield"
-        description="A shield made of leather on a wooden frame."
-        effect="+7% Defense"
-        type="equip-shield"
-        weight="10"
-        max-per-slot="1"/>
+	<item id="601"
+		image="armor-shield-steelshield.png"
+		name="Escudo de Aço"
+		description="Um escudo feito de aço."
+		defense="20"
+		type="equip-shield"
+		weight="10"
+		max-per-slot="1"/>
+	<item id="602"
+		image="armor-shield-woodenshield.png"
+		name="Escudo de Madeira"
+		description="Um escudo feito de madeira."
+		defense="14"
+		type="equip-shield"
+		weight="10"
+		max-per-slot="1"/>
+	<item id="603"
+		image="armor-shield-leathershield.png"
+		name="Escudo de Couro"
+		description="Um escudo feito de couro sobre uma armação de madeira."
+		defense="7"
+		type="equip-shield"
+		weight="10"
+		max-per-slot="1"/>
     <item id="604"
         image="armor-shield-knightshield.png"
         name="Knight Shield"
@@ -1100,25 +1093,24 @@
         weapon-type="mace"
         weight="10"
         max-per-slot="1"/>
-    <item id="610"
-        image="armor-legs-shorts.png|W:#255367,266c84,68b0c5,ffffff"
-        name="Short Jeans"
-        description="Um short feito de jeans."
-        type="equip-legs"
-        weight="30"
-        defense="4"
-        max-per-slot="1">
-        <sprite gender="male">leg-shorts-male.xml|#255367,266c84,68b0c5,ffffff</sprite>
-        <sprite gender="female">leg-shorts-female.xml|#255367,266c84,68b0c5,ffffff</sprite>
-    </item>
-    <item id="611"
-        image="generic-whitefur.png"
-        name="Pêlo Branco"
-        description="Um tufo de Pêlo Branco de Tufo."
-        effect=""
-        type="generic"
-        weight="10"
-        max-per-slot="10"/>
+	<item id="610"
+		image="armor-legs-shorts.png|W:#255367,266c84,68b0c5,ffffff"
+		name="Short Jeans"
+		description="Um short feito de jeans."
+		type="equip-legs"
+		weight="30"
+		defense="4"
+		max-per-slot="1">
+		<sprite gender="male">leg-shorts-male.xml|#255367,266c84,68b0c5,ffffff</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#255367,266c84,68b0c5,ffffff</sprite>
+	</item>
+	<item id="611"
+		image="generic-whitefur.png"
+		name="Pêlo Branco"
+		description="Um tufo de Pêlo Branco de Tufo."
+		type="generic"
+		weight="10"
+		max-per-slot="10"/>
 	<item id="612"
 		image="generic-cavesnakelamp.png"
 		name="Antena Luminosa"
@@ -1208,17 +1200,16 @@
         max-per-slot="1">
         <sprite>head-circlet.xml</sprite>
     </item>
-    <item id="621"
-        image="armor-head-eyepatch.png"
-        name="Tapa Olho"
-        description="Ele fará de você um pirata de verdade."
-        effect="+3% Defesa"
-        type="equip-head"
-        weight="15"
-        defense="3"
-        max-per-slot="1">
-        <sprite>head-eyepatch.xml</sprite>
-    </item>
+	<item id="621"
+		image="armor-head-eyepatch.png"
+		name="Tapa Olho"
+		description="Ele fará de você um pirata de verdade."
+		type="equip-head"
+		weight="15"
+		defense="3"
+		max-per-slot="1">
+		<sprite>head-eyepatch.xml</sprite>
+	</item>
     <item id="622"
         image="armor-head-bandana.png"
         name="Bandana"
@@ -1377,7 +1368,6 @@
 		image="armor-head-warlordhelm.png"
 		name="Elmo do Lorde da Guerra"
 		description="Usado pelos mais poderosos comandantes de batalha!"
-		effect="+18% Defesa"
 		type="equip-head"
 		defense="18"
 		weight="40">
@@ -1387,9 +1377,8 @@
 		image="armor-head-knighthelm.png"
 		name="Elmo do Cavaleiro Alado"
 		description="Elmo usado pelos poucos batedores que possuem o título de Cavaleiro Alado."
-		effect="+15% Defesa"
 		type="equip-head"
-		defense="20"
+		defense="15"
 		weight="35">
 		<sprite>head-knighthelm.xml</sprite>
 	</item>
@@ -1397,9 +1386,8 @@
 		image="armor-head-infantryhelm.png"
 		name="Capacete da Infantaria"
 		description="Proteção feita especialmente para as tropas de infantaria."
-		effect="+15% Defesa"
 		type="equip-head"
-		defense="20"
+		defense="15"
 		weight="35">
 		<sprite>head-infantryhelm.xml</sprite>
 	</item>
@@ -1407,9 +1395,8 @@
 		image="armor-head-crusadehelm.png"
 		name="Elmo das Cruzadas"
 		description="Um elmo usado por guerreiros no tempo das cruzadas."
-		effect="+18% Defesa"
 		type="equip-head"
-		defense="25"
+		defense="18"
 		weight="40">
 		<sprite>head-crusadehelm.xml</sprite>
 	</item>
@@ -1420,44 +1407,40 @@
 		effect=""
 		type="generic"
 		weight="40"/>
-    <item id="641"
-        image="generic-snakeskin.png"
-        name="Couro de Cobra da Montanha"
-        description="Um resistente couro de Cobra da Montanha."
-        effect=""
-        type="generic"
-        weight="20"/>
-    <item id="642"
-        image="armor-legs-chaps.png"
-        name="Jeans Chaps"
-        description="Jeans with snake skin chaps."
-        effect="+6% Defense"
-        type="equip-legs"
-        defense="6"
-        weight="40">
-        <sprite gender="male">leg-chaps-male.xml</sprite>
-        <sprite gender="female">leg-chaps-female.xml</sprite>
-    </item>
-    <item id="643"
-        image="armor-head-cowboywhite.png"
-        name="White Cowboy Hat"
-        description="A white cowboy hat with a band."
-        effect="+6% Defense"
-        type="equip-head"
-        defense="6"
-        weight="30">
-        <sprite>head-cowboywhite.xml</sprite>
-    </item>
-    <item id="644"
-        image="armor-head-cowboyblack.png"
-        name="Black Cowboy Hat"
-        description="A black cowboy hat with shiny buckles."
-        effect="+6% Defense"
-        type="equip-head"
-        defense="6"
-        weight="30">
-        <sprite>head-cowboyblack.xml</sprite>
-    </item>
+	<item id="641"
+		image="generic-snakeskin.png"
+		name="Couro de Cobra da Montanha"
+		description="Um resistente couro de Cobra da Montanha."
+		type="generic"
+		weight="20"/>
+	<item id="642"
+		image="armor-legs-chaps.png"
+		name="Calça de Couro de Cobra"
+		description="Uma calça jeans reforçada com couro de cobra."
+		type="equip-legs"
+		defense="6"
+		weight="40">
+		<sprite gender="male">leg-chaps-male.xml</sprite>
+		<sprite gender="female">leg-chaps-female.xml</sprite>
+	</item>
+	<item id="643"
+		image="armor-head-cowboywhite.png"
+		name="Chapéu Branco de Vaqueiro."
+		description="Um chapéu de vaqueiro da cor branca."
+		type="equip-head"
+		defense="6"
+		weight="30">
+		<sprite>head-cowboywhite.xml</sprite>
+	</item>
+	<item id="644"
+		image="armor-head-cowboyblack.png"
+		name="Chapéu Preto de Vaqueiro"
+		description="Um chapéu de vaqueiro da cor preta."
+		type="equip-head"
+		defense="6"
+		weight="30">
+		<sprite>head-cowboyblack.xml</sprite>
+	</item>
     <item id="645"
         image="armor-chest-lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
         name="Golden Platemail"
@@ -1553,51 +1536,47 @@
         weight="20">
         <sprite>head-cap.xml|#d94800</sprite>
     </item>
-    <item id="655"
-        image="armor-feet-furboots.png"
-        name="Fur Boots"
-        description="A pair of warm winter boots."
-        effect="+3% Defense"
-        type="equip-feet"
-        weight="25"
-        defense="3"
-        max-per-slot="1">
-        <sprite gender="male">feet-furboots-male.xml</sprite>
-        <sprite gender="female">feet-furboots-female.xml</sprite>
-    </item>
-    <item id="656"
-        image="armor-head-serf.png"
-        name="Serf Hat"
-        description="A simple hat made from cloth."
-        effect="+2% Defense"
-        type="equip-head"
-        weight="25"
-        defense="2"
-        max-per-slot="1">
-        <sprite>head-serf.xml</sprite>
-    </item>
-    <item id="657"
-        image="use-food-orange.png"
-        name="Orange"
-        description="A juicy orange."
-        effect="+60 HP"
-        type="usable"
-        hp="60"
-        weight="80"
-        max-per-slot="10"/>
-    <item id="658"
-        image="armor-chest-warlordplate.png"
-        name="Warlord Plate"
-        description="Strong and decorative armor."
-        effect="+27% Defense"
-        type="equip-torso"
-        weight="275"
-        defense="27"
-        max-per-slot="1">
-        <sprite gender="male">chest-warlordplate-male.xml</sprite>
-        <sprite gender="female">chest-warlordplate-female.xml</sprite>
-    </item>
-        <item id="659"
+	<item id="655"
+		image="armor-feet-furboots.png"
+		name="Botas de Pele"
+		description="Um par de botas de inverno quentinhas."
+		type="equip-feet"
+		weight="25"
+		defense="3"
+		max-per-slot="1">
+		<sprite gender="male">feet-furboots-male.xml</sprite>
+		<sprite gender="female">feet-furboots-female.xml</sprite>
+	</item>
+	<item id="656"
+		image="armor-head-serf.png"
+		name="Chapéu de Servo"
+		description="Um simples chapéu feito de tecido."
+		type="equip-head"
+		weight="25"
+		defense="2"
+		max-per-slot="1">
+		<sprite>head-serf.xml</sprite>
+	</item>
+	<item id="657"
+		image="use-food-orange.png"
+		name="Laranja"
+		description="Uma laranja suculenta."
+		type="usable"
+		hp="60"
+		weight="80"
+		max-per-slot="10"/>
+	<item id="658"
+		image="armor-chest-warlordplate.png"
+		name="Armadura do Lord da Guerra"
+		description="Uma armadura brilhante e resistente."
+		type="equip-torso"
+		weight="275"
+		defense="27"
+		max-per-slot="1">
+		<sprite gender="male">chest-warlordplate-male.xml</sprite>
+		<sprite gender="female">chest-warlordplate-female.xml</sprite>
+	</item>
+    <item id="659"
         image="armor-chest-warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
         name="Golden Warlord Plate"
         description="Strong and decorative armor made from gold."
@@ -1617,22 +1596,20 @@
         type="generic"
         weight="10"
         max-per-slot="10"/>
-    <item id="661"
-        image="generic-rose.png|W:#bb2222,ff8888"
-        name="Red Rose"
-        description="A red rose. A symbol for romantic love."
-        effect=""
-        type="generic"
-        weight="1"
-        max-per-slot="1" />
-    <item id="662"
-        image="generic-rose.png|W:#dddddd,ffffff"
-        name="White Rose"
-        description="A white rose. A symbol for everlasting love."
-        effect=""
-        type="generic"
-        weight="1"
-        max-per-slot="1" />
+	<item id="661"
+		image="generic-rose.png|W:#bb2222,ff8888"
+		name="Rosa Vermelha"
+		description="Uma rosa de cor vermelha. Um símbolo para amor romântico."
+		type="generic"
+		weight="1"
+		max-per-slot="1" />
+	<item id="662"
+		image="generic-rose.png|W:#dddddd,ffffff"
+		name="Rosa Branca"
+		description="Uma rosa de cor branca. Um símbolo para amor eterno."
+		type="generic"
+		weight="1"
+		max-per-slot="1" />
     <item id="663"
         image="generic-rose.png|W:#bb0022"
         name="Dark Red Rose"
@@ -1641,22 +1618,20 @@
         type="generic"
         weight="1"
         max-per-slot="1" />
-    <item id="664"
-        image="generic-rose.png|W:#dd88aa,ffdddd"
-        name="Pink Rose"
-        description="A pink rose. A symbol for innocent love."
-        effect=""
-        type="generic"
-        weight="1"
-        max-per-slot="1" />
-    <item id="665"
-        image="generic-rose.png|W:#dddd00,ffff00"
-        name="Yellow Rose"
-        description="A yellow rose. A symbol for platonic love and friendship."
-        effect=""
-        type="generic"
-        weight="1"
-        max-per-slot="1" />
+	<item id="664"
+		image="generic-rose.png|W:#dd88aa,ffdddd"
+		name="Rosa Rosa"
+		description="Uma rosa de cor rosa. Um símbolo para amor inocente."
+		type="generic"
+		weight="1"
+		max-per-slot="1" />
+	<item id="665"
+		image="generic-rose.png|W:#dddd00,ffff00"
+		name="Rosa Amarela"
+		description="Uma rosa de cor amarela. Um símbolo para amor platônico e amizade."
+		type="generic"
+		weight="1"
+		max-per-slot="1" />
     <item id="666"
         image="generic-rose.png|W:#111111,444444,555555,ffffff"
         name="Black Rose"
@@ -1729,17 +1704,16 @@
         type="generic"
         weight="1"
         max-per-slot="1" />
-    <item id="675"
-        image="armor-head-gradcap.png"
-        name="Graduation Cap"
-        description="A traditional cap which a university student may wear upon graduating."
-        effect="+2% Defense"
-        type="equip-head"
-        weight="20"
-        defense="2"
-        max-per-slot="1">
-        <sprite>head-gradcap.xml</sprite>
-    </item>
+	<item id="675"
+		image="armor-head-gradcap.png"
+		name="Chapéu de Graduação"
+		description="Um chapéu tradicional, que um estudante universitário pode usar depois de se graduar."
+		type="equip-head"
+		weight="20"
+		defense="2"
+		max-per-slot="1">
+		<sprite>head-gradcap.xml</sprite>
+	</item>
     <item id="676"
         image="use-food-steak.png"
         name="Filé"
@@ -1991,13 +1965,12 @@
         type="generic"
         weight="50"
         max-per-slot="10"/>
-    <item id="708"
-        image="generic-patch-leather.png"
-        name="Leather Patch"
-        description="A patch of tanned leather."
-        effect=""
-        type="generic"
-        weight="18"/>
+	<item id="708"
+		image="generic-patch-leather.png"
+		name="Retalho de Couro"
+		description="Um retalho de couro de cobra curtido."
+		type="generic"
+		weight="18"/>
     <item id="709"
         image="generic-scorpionstinger.png|W:#a08040"
         name="Black Scorpion Stinger"
@@ -2009,28 +1982,24 @@
 		image="generic-snake-tongue.png|W:#e04020"
 		name="Língua de Cobra"
 		description="Uma língua de Cobra."
-		effect=""
 		type="generic"
 		weight="1"/>
 	<item id="711"
 		image="generic-snake-tongue.png|W:#706060"
 		name="Língua de Cobra da Montanha"
 		description="Uma língua de Cobra da Montanha."
-		effect=""
 		type="generic"
 		weight="1"/>
 	<item id="712"
 		image="generic-snake-tongue.png|W:#a05050,e08080"
 		name="Língua de Cobra da Grama"
 		description="Uma língua de Cobra da Grama."
-		effect=""
 		type="generic"
 		weight="1"/>
 	<item id="713"
 		image="generic-snake-tongue.png|W:#907070,d0a0a0"
 		name="Língua de Cobra da Caverna"
 		description="Uma língua de Cobra da Caverna."
-		effect=""
 		type="generic"
 		weight="1"/>
 	<item id="714"
@@ -2113,21 +2082,19 @@
         weight="10">
         <sprite>head-deserthat.xml|#FFFFFF</sprite>
     </item>
-    <item id="724"
-        image="armor-head-standardheadband.png|W:#A4B2B2,FFFFFF"
-        name="Cotton Headband"
-        description="Just a cotton headband."
-        effect="+1% Defense"
-        type="equip-head"
-        defense="2"
-        weight="5">
-        <sprite>head-standardheadband.xml|#A4B2B2,FFFFFF</sprite>
-    </item>
+	<item id="724"
+		image="armor-head-standardheadband.png|W:#A4B2B2,FFFFFF"
+		name="Faixa de Algodão"
+		description="Apenas uma faixa de por na cabeça feita de algodão."
+		type="equip-head"
+		defense="2"
+		weight="5">
+		<sprite>head-standardheadband.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
     <item id="725"
         image="armor-head-gmcap.png|R:#BF0E08"
         name="GM Cap"
         description="A cap which identifies you as a GM."
-        effect="+5% Defense"
         type="equip-head"
         defense="5"
         weight="10">
@@ -2201,29 +2168,27 @@
         mp="0"
         weight="5"
         max-per-slot="10"/>
-    <item id="734"
-        image="armor-feet-boots.png|W:#505050"
-        name="Black Boots"
-        description="Steel toe capped boots, designed to keep your feet very well protected."
-        effect="+4% Defense"
-        type="equip-feet"
-        weight="35"
-        defense="4"
-        max-per-slot="1">
-        <sprite gender="male">feet-boots-male.xml|#505050</sprite>
-        <sprite gender="female">feet-boots-female.xml|#505050</sprite>
-    </item>
-    <item id="735"
-        image="armor-feet-boots.png|#A4B2B2,FFFFFF"
-        name="Cotton Boots"
-        description="A pair of quality cotton boots."
-        effect="+1% Defense"
-        type="equip-head"
-        defense="1"
-        weight="10">
-        <sprite gender="male">feet-boots-male.xml|#A4B2B2,FFFFFF</sprite>
-        <sprite gender="female">feet-boots-female.xml|#A4B2B2,FFFFFF</sprite>
-    </item>
+	<item id="734"
+		image="armor-feet-boots.png|W:#505050"
+		name="Botas Pretas"
+		description="Botas com bico de aço. Mantém os pés bem protegidos."
+		type="equip-feet"
+		weight="35"
+		defense="4"
+		max-per-slot="1">
+		<sprite gender="male">feet-boots-male.xml|#505050</sprite>
+		<sprite gender="female">feet-boots-female.xml|#505050</sprite>
+	</item>
+	<item id="735"
+		image="armor-feet-boots.png|#A4B2B2,FFFFFF"
+		name="Botas de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		type="equip-head"
+		defense="1"
+		weight="10">
+		<sprite gender="male">feet-boots-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">feet-boots-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
     <item id="736"
         image="use-cake-a.png|R:#EDE5B2,FFF7BF;G:#CCCCCC,FFFFFF"
         name="White Cake"
@@ -2403,35 +2368,34 @@
 		<sprite>weapon-bow.xml</sprite>
 		<sound event="swing">bow_shoot_1.ogg</sound>
 	</item>
-    <item id="1201"
-        image="weapon-dagger-knive.png"
-        name="Faca"
-        description="Uma pequena faca. A arma perfeita para um iniciante."
-        effect="+5 Dano, 1 Range"
-        type="equip-1hand"
-        weapon_type="1"
-        weight="20"
-        attack-min="0"
-        attack-delta="5"
-        attack-target="multi"
-        attack-shape="cone"
-        attack-range="32"
-        attack-angle="135"
-        max-per-slot="1"
-        weapon-type="knife"
-        view="521"/>
-    <item id="1202"
-        image="armor-chest-cottonshirt.png|W:#A4B2B2,FFFFFF"
-        name="Cotton Shirt"
-        description="A shirt made of 100% cotton."
-        effect="+2% Defense"
-        type="equip-torso"
-        weight="15"
-        defense="2"
-        max-per-slot="1">
-        <sprite gender="male">chest-cotton-male.xml|#A4B2B2,FFFFFF</sprite>
-        <sprite gender="female">chest-cotton-female.xml|#A4B2B2,FFFFFF</sprite>
-    </item>
+	<item id="1201"
+		image="weapon-dagger-knive.png"
+		name="Faca"
+		description="Uma pequena faca. A arma perfeita para um iniciante."
+		effect="+5 Dano, 1 Range"
+		type="equip-1hand"
+		weapon_type="1"
+		weight="20"
+		attack-min="0"
+		attack-delta="5"
+		attack-target="multi"
+		attack-shape="cone"
+		attack-range="32"
+		attack-angle="135"
+		max-per-slot="1"
+		weapon-type="knife"
+		view="521"/>
+	<item id="1202"
+		image="armor-chest-cottonshirt.png|W:#A4B2B2,FFFFFF"
+		name="Camisa de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		type="equip-torso"
+		weight="15"
+		defense="2"
+		max-per-slot="1">
+		<sprite gender="male">chest-cotton-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
     <item id="1203"
         image="armor-head-rangerhat.png"
         name="Ranger Hat"
@@ -3991,7 +3955,6 @@
 		image="armor-chest-saviorarmor.png"
 		name="Armadura Celestial"
 		description="A armadura dos deuses."
-		effect="+27% Defesa"
 		type="equip-torso"
 		weight="275"
 		defense="27"
@@ -4047,9 +4010,9 @@
 		<sprite gender="female">chest-robe-female.xml|#115511,22aa22,99dd99</sprite>
 	</item>
 	<item id="3016"
-		image="generic-heartnecklace.png"
-		name="Colar Horcrux (sem alma)"
-		description="Colocar que tem o poder de aprisionar almas."
+			image="generic-heartnecklace.png"
+		name="Colar de Ninfas"
+		description="Colar que tem o poder de aprisionar almas."
 		type="generic"
 		weight="10"
 		max-per-slot="1"/>
@@ -4072,5 +4035,32 @@
 		weight="10">
 		<sprite>head-afkcap.xml</sprite>
 	</item>
+	<item id="3019"
+		image="generic-snakeskin-verde.png"
+		name="Couro de Cobra da Grama"
+		description="Um resistente couro de Cobra da Grama."
+		type="generic"
+		weight="20"/>
+	<item id="3020"
+		image="generic-po-encantado.png"
+		name="Pó Encantado"
+		description="Um pó encantado usado pelas fadas."
+		type="generic"
+		weight="3"
+		max-per-slot="10"/>
+	<item id="3021"
+		image="generic-asas-fada.png"
+		name="Asas de Fada"
+		description="Um par de asas de fada."
+		type="generic"
+		weight="3"
+		max-per-slot="10"/>
+	<item id="3022"
+		image="generic-treasurekey.png"
+		name="Chave do Baú de Achados e Perdidos"
+		description="Camélia lhe deu esta chave para pegar algo em seu baú."
+		type="generic"
+		weight="35"
+		max-per-slot="10"/>
 
 </items>

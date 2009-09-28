@@ -941,6 +941,10 @@
 		<sprite>monstro-aranha-rainha.xml</sprite>
 	</monster>
 
+	<monster id="309" name="Cachorrinho">
+		<sprite>monstro-cachorro.xml</sprite>
+	</monster>
+
 	<monster id="311" name="Morte">
 		<sprite>monster-skeleton.xml</sprite>
 		<!--sprite>chest-capa.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite-->
