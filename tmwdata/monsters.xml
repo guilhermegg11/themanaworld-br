@@ -941,8 +941,11 @@
 		<sprite>monstro-aranha-rainha.xml</sprite>
 	</monster>
 
-	<monster id="309" name="Cachorrinho">
+	<monster id="309" name="Cachorro">
 		<sprite>monstro-cachorro.xml</sprite>
+		<sound event="hit" >cachorro_ataque.ogg</sound> <!-- Cachorro atacando -->
+		<sound event="miss">cachorro_ataque.ogg</sound> <!-- Cachorro erra ataque -->
+		<sound event="die" >cachorro_morte.ogg</sound>  <!-- Cachorro Morre -->
 	</monster>
 
 	<monster id="311" name="Morte">
