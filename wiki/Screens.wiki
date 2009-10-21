@@ -1,0 +1,14 @@
+#summary Screen do jogo The Mana World BR.
+#labels Featured
+
+= Screens do The Mana World BR =
+
+*Ponto de Nascimento*
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/tmw-br-screen1.png]
+
+No The Mana World BR você "nasce" em um hospital e ao sair verá os NPCs:
+* Jaime - Que irá informas as regras do jogo
+* Fred - Que irá dar informações importantes sobre como funciona o jogo.
+* Luiz - Que poderá mudar seu visual a qualquer instante.
+* Nestor - Que estará lhe oferecendo alguns produtos.
