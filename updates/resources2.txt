@@ -16,3 +16,5 @@ update7..8.zip d0e5348
 update8..9.zip 26432136
 update9..10.zip fc224cdb
 update10..11.zip 6026d728
+update11..12.zip 3a4f1f04
+halloween1.zip 5cda6dc0
