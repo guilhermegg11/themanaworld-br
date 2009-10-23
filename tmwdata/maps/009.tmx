@@ -3,12 +3,17 @@
 <map version="1.0" orientation="orthogonal" width="200" height="140" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="/graphics/minimaps/009.png"/>
-  <property name="music" value="The Mana World - The Forest.ogg"/>
   <property name="name" value="Ilha Fortaleza"/>
+  <property name="music" value="Clouds Calling.ogg"/>
+  <property name="overlay0image" value="graphics/images/ambient/noite-chuva.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="8"/>
+  <property name="overlay0scrollY" value="28"/>
+  <!--property name="music" value="Clouds Calling.ogg"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
-  <property name="overlay0scrollY" value="0.1"/>
+  <property name="overlay0scrollY" value="0.1"/-->
  </properties>
  <tileset name="Colision" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
