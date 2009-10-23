@@ -4,6 +4,10 @@ map: 005-dev.gat
 npc: npc/005-dev_Fortaleza/agostine.conf
 npc: npc/005-dev_Fortaleza/melquior.conf
 
+npc: npc/005-dev_Fortaleza/menir_alma.conf
+npc: npc/005-dev_Fortaleza/ismael.conf
+npc: npc/005-dev_Fortaleza/valdete.conf
+npc: npc/005-dev_Fortaleza/info.conf
 npc: npc/005-dev_Fortaleza/alan.conf
 npc: npc/005-dev_Fortaleza/nicolas.conf
 npc: npc/005-dev_Fortaleza/marina.conf
@@ -14,15 +18,9 @@ npc: npc/005-dev_Fortaleza/guardas.conf
 npc: npc/005-dev_Fortaleza/operarios.conf
 
 #### Transferidos de 008 -> 005
-npc: npc/005-dev_Fortaleza/menir_alma.conf
 npc: npc/005-dev_Fortaleza/fred.conf
 npc: npc/005-dev_Fortaleza/jaime.conf
 npc: npc/005-dev_Fortaleza/luiz.conf
-npc: npc/005-dev_Fortaleza/juliana.conf
-npc: npc/005-dev_Fortaleza/igor.conf
-npc: npc/005-dev_Fortaleza/veronica.conf
-npc: npc/005-dev_Fortaleza/joaozinho.conf
-npc: npc/005-dev_Fortaleza/info.conf
 npc: npc/005-dev_Fortaleza/vendedores2.conf
 
 ########### PLACAS #####################

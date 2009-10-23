@@ -1,10 +1,12 @@
 map: 007.gat
 
+npc: npc/007_Praia_do_Porto/halloween.conf
 npc: npc/007_Praia_do_Porto/capitao.conf
 npc: npc/007_Praia_do_Porto/marujo.conf
 npc: npc/007_Praia_do_Porto/pirata.conf
 npc: npc/007_Praia_do_Porto/fazendeiro.conf
 npc: npc/007_Praia_do_Porto/pescadores.conf
+npc: npc/007_Praia_do_Porto/pablo.conf
 npc: npc/007_Praia_do_Porto/vendedores.conf
 npc: npc/007_Praia_do_Porto/luiz.conf
 npc: npc/007_Praia_do_Porto/igor.conf

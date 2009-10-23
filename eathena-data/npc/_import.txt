@@ -18,3 +18,5 @@ import: npc/009_Ilha_Fortaleza/_import.txt
 import: npc/009-1_Caverna_da_Montanha/_import.txt
 import: npc/009-2_Caverna/_import.txt
 import: npc/009-3_Reino_de_Lilit/_import.txt
+
+//npc: npc/+/mercado.conf
