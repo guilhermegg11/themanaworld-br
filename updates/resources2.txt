@@ -18,3 +18,5 @@ update9..10.zip fc224cdb
 update10..11.zip 6026d728
 update11..12.zip 43d26daf
 halloween1.zip 6d9a73b7
+update_2009-10-22.zip b2a55d10
+halloween2.zip e5d006f4
