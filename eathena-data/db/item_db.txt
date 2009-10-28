@@ -406,3 +406,4 @@
 3031,cuteloCego,Cutelo Cego,4,150,75,100,40,,1,,0,2,2,1,1,1,{},{},,
 3032,cuteloAfiado,Cutelo Afiado,4,150,75,100,65,,1,,0,2,2,1,1,1,{},{},,
 3033,sementesAbobora,sementesAbobora,3,100,50,10,,,,,,,,,,,{},{},,
+3034,cachecolJoana,cachecolJoana,3,200,100,100,,,,,,,,,,,{},{},,

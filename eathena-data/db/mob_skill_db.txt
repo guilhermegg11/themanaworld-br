@@ -61,3 +61,9 @@
 1015,SantaSlime@NPC_EMOTION,walk,197,1,100,0,10000,yes,self,always,0,5,,,,,
 1015,SantaSlime@NPC_SUMMONSLAVE,attack,196,5,10000,2000,60000,no,self,slavele,3,1016,,,,,
 1015,SantaSlime@NPC_SUMMONSLAVE,idle,196,5,10000,2000,60000,no,self,slavele,3,1016,,,,,
+1015,SantaSlime@NPC_EMOTION,idle,197,1,200,0,5000,yes,self,always,0,7,,,,,
+
+//= Desenvolvido pela Equipe TMW-BR ===================================
+
+1315,cabecaoAbobora@NPC_EMOTION,attack,197,1,10000,0,30000,no,self,slavele,3,5,,,,,
+1315,cabecaoAbobora@NPC_SUMMONSLAVE,attack,196,3,10000,1000,30000,no,self,slavele,3,1314,,,,,
