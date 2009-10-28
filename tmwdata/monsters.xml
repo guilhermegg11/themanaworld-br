@@ -956,4 +956,19 @@
 		<particlefx>graphics/particles/aura-negra.xml</particlefx>
 	</monster>
 
+	<monster id="312" name="Cabeça de Abóbora">
+		<sprite>monstro-cabeca-abobora-sombra.xml</sprite>
+		<sprite>monstro-cabeca-abobora.xml</sprite>
+	</monster>
+
+	<monster id="313" name="Cabeção de Abóbora">
+		<sprite>monstro-cabecao-abobora-sombra.xml</sprite>
+		<sprite>monstro-cabecao-abobora.xml</sprite>
+	</monster>
+
+	<monster id="314" name="Cabeça de Abóbora">
+		<sprite>monstro-cabeca-abobora-sombra.xml</sprite>
+		<sprite>monstro-cabeca-abobora.xml</sprite>
+	</monster>
+
 </monsters>

@@ -4160,5 +4160,12 @@
 		type="generic"
 		weight="35"
 		max-per-slot="10"/>
+	<item id="3034"
+		image="generic-cachecol.png"
+		name="Cachecol da Joana"
+		description="Joana perdeu este cachecol quando lutava contra um monstro."
+		type="generic"
+		weight="100"
+		max-per-slot="10"/>
 
 </items>
