@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="110" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/005-1.png"/>
+  <property name="music" value="Clouds Calling.ogg"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="name" value="Quartel General"/>
+ </properties>
+ <tileset name="Colisao" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="Block Walls" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png"/>
+ </tileset>
+ <tileset name="Block Walls 2" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls2.png"/>
+ </tileset>
+ <tileset name="Block Walls X2" firstgid="323" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/blockWalls_x2.png"/>
+ </tileset>
+ <tileset name="grade" firstgid="339" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/grade_x3.png"/>
+ </tileset>
+ <tileset name="Woodland_swamp" firstgid="342" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_swamp.png"/>
+ </tileset>
+ <tileset name="Hotel (Interno)" firstgid="438" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="concrete_walls" firstgid="694" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/concreteWalls.png"/>
+ </tileset>
+ <tileset name="Sombras" firstgid="1030" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/sombras.png"/>
+ </tileset>
+ <tileset name="Placas_x3" firstgid="1054" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/placas_x2.png"/>
+ </tileset>
+ <layer name="Ground" width="110" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cTU7CQBiA4aGNF/AInsEbqCdQN4hujX9rI+IN9AxuWXAp9ARq3DsNaai0MuPMtPNN+y6exCAQ4M3XaZvCIlNqAQAAAAAAAAAAAAAAkJgDpdQ+amJ3MZnnSh0qVB0l0q0U+/OSIrVupRM1bKeJdivtqjQs9ft4C+Q9Wz1n7C5D6Pah38dnIF896Db2bDcO8Bx0c5s3n3XiNV9xfTzd3LvteSi7uT6ebnG6+aIb3Ybe7XJk50q7trxvyaZb034O3er7ky7dimYP2rSFbsxbu9vJ6ZYetujWfbcz3WtCNzHdbLd1M/33eOM2tpPyuz023EY3+d1Mt9EtXrfN/4W+H8cB/enGvNFt6N2a1qrqccB/10G6xet2o93SrTXFa5zoRufaRcBuxXHAjG6tuc9X7vJ6P2nr2zJrviZkJx9ut5n2tNHPdF65624h56oP3Ypez9pL/nv+pM0b3daK11jtVeVzvsTUyOV8Cd3W5n80o5tspusk6SaTTzfbRq73o9v2bq7XKdBNZjdp8zbSrylr8E23YOdLbNcyzpfI6ma6Do9uMruZrsOjW/xuTdpY3+iWbjeuU0izG/Pm3+2/65Zp/4Vu6XSr7r/QLZ1ubCe76WbLdn3bhm50G3o307bOB936243jN3M31++bMm/y5q1LdKMb3egmAd3oRjc53Y5VvN/upJtbty5+gzAEutXnLQV0s+tmO4chfneUbsxbn7rF/szpRje6IXYXAAAAAAAAAAAAAAAAAGn4AUIcL2PgqwAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="110" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2bQXLTMBSGXZKUA9DCDF10QQsbjgA3IMMZOAIrbsAVeoWumOEQ3IBuu4GDoAz2oHgU672HZEn29838nqRxPLa+yH6V7K4DAAAAAAAAAAAAAAAAAAAAaI+zPv7rlnKeYZs7e3POxt2m6965vN+Ud2DJbaZt1s5hPz84Z/tG/a3Z25AW/eHtOHu8VU3pdsebjdLtjjcbpdsdbzZytOX1tutee+/fuNxs8ZaS0v1lnP0Z3iRoj+ncLW4y5KnSF950uTS2byzP8KZCe0zP3WIryK73sBGu/wJvKnL0nUOGfmntR3ibBm/r8DZVl/i1Rcib9Lt4i2PtR6H4jkLepN/FWxyrt1C94dcWIW+hmmYXWA9vcbTzptLrVur18HbM/eZvpPNueKuDe8+TZN60Nm+fMswTtuZt7E/azqE68bb//FXgs1jdmdrbxdZt38tlZIy7VW/a/qEd+4rVnam9HVxd9a5e9u5a9/Y2gbepOtFSd4byxe3nN5fHJ//y3b3/rNz/i4V40/6+a7u+WZxd4a0pbxJna/c2nDtj4/xze5Os14K3uxPXh59u8TvQlkM7x+rEUKbqzjm8SdOCt3E9+cMtfvXOprwFf8+Rts8xPqnJkvrb2NuD52zKW6xODCXH+GSOtOhtiOb/7lCGc2Ls3Ml4iY1T3k79vbZ6cq3eWp8PWKu3FPMBuccnv/bjIinGS5bizd9f63xA7vHJ60z3Oi/F29if1Nsc45N4O0Z7TLVd3/CGN7zhLTdWb5Y6kfHJdFi9hVLi/km8yTL1XIfl/sn/fa4Db2lT43ULb3grjfaYpM+bTo1zpXyuA2+6fpQ6NfXLJXqTPm+qDXWJjtJtVGOW5u1jRX0CbwRvywje2gze2gze2gze2gzedJn7/h+8LSt4aze1U7p9ak3tlG6fWgMAAAAAAAAAAAAAAAAAAAAAACDhD6BPKX3gqwAA
+  </data>
+ </layer>
+ <layer name="Top1" width="110" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2cy0rDQBhGRxI3ChYtFNFu3blTn8DL3o37bry8gL6+CTUYm0w6jZ3ON3/PgZ9CKCaZk5NgFnUOAAAAAAAAAAAAAAAAAAAAID9OS+cOXN5zHOkclJmW8c57VxPr2lOm9pZ7c7GuPWXqc869uVjXnjKNt7PMvU3x1pkjz/Z1s6uG8dadh2oueraHTHPvGnMPq/cb6h1v/Wsy9h7arOXY52eob7x1Z/bzzJ9v+Hle/vW26d9oe8dbl1i9zVtrORu5rqH7xVv/mmx7PUKH3vzEfL79d+jND73Z9UZvetCbXW/0pge92fVGb3rQm11vqXt7Kpy7Lvq/U2/Hm2ZvL5Wbr5af9tCbbm993k6qmeyxt9BrXqm3y7L7vdVteNPorXHY52cS6fiUyaW3WPdCy95UesPbL6HXfIqhNz8ha0dveoRe8ymG3vyErF3q3l4rb29FvzffexS8pXHW3vdn5ebZ877kyvF/t2pvtbeF530J3rR7W3jel+yrtxzeT7Zn9X0J3nR7Gxq85dEb3pbQm11v9KYHvdn1Rm960Jtdb/SmB73Z9UZvetCbXW/0pge92fVGb3rQm11v9KYHvdn1Rm96rPOWcujNzzpvY39XbRufePOj3FvI4C29A7yFg7c8vd1Uc5toDt3wuhWJjuvO6Xu7d8vfMk4xH27Y23ui43p0eMMbAAAAAAAAAAAAAAAAAAAAAABY5hucKOHx4KsAAA==
+  </data>
+ </layer>
+ <layer name="Top2" width="110" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2cvUrDUBiGj01d7CTi4uIgbm7WTScVFHTXO9Cb8OcGBG9AcOuqu4pegNfkOdSQaNPE1DZ5z9fngZdTCGk/8vA2TQpxDgAAAAAAAAAAAAAAAAAAACA+Ep8FUhhlNlz7x0c1yuANb9aiDN5selvtDte+z1KNdTH3HknNffu/9sfbKFXeVry3ns+Bf73m/r5e5t7joua+YT2umAtv5bOfVWwfl83c60m+i88n/Fy8DXNUsX1WoW/lzKpv/w19K4e+2fRG3zShbza90TdN6JtNb/RNE/pm0xt904S+2fSm1LetZDTrCd6KotK38L/ElXd07XPzndsZOovdm0rfgrc77+ml49yrz5vP/Zx7S1Hv24P39NnJ8jjn3mLoWxtRJpbzG95+Qt9seqNvmgRvu/78vjfmHE/fNAneBt7ZaVLsj75pknoLOSnwp9K3cB3A/ZKMvLe8P8W+cb8ko8jbIHc8VPoWwv2SjJh+T3K/JIPrN5velPqGtwz6ZtMbfdOEvtn0Rt80oW82vdE3TeibTW/0TRP6ZtMbfdOEvtn0Rt80oW82vdE3TeibTW/brv4z0aax7lTMhbfy2fdd/WeiTWM9rJgLb+0fH9Uogze8WYsyeMObtSjT9rHpddufwZK3J5/nBrYtV3hLvTY1T+ze3n0+GtiWPnd73Byp16bmicUbAAAAAAAAAAAAAAAAAAAAAABo8AVgF+7E4KsAAA==
+  </data>
+ </layer>
+ <layer name="Top3" width="110" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3RwQnCUBQFUUV3rtSmLMES7L8CBVF0IYmCmUmYA7ML5HPfapUkSZIkSZIkSZIkSTI/6/qYGb2NOTN6G3Nm9DbmzOhtzJkNvX0z4pulZjb09tOIb5aaGb2NOTN6G3Nm9DbmzOhtzJnR25gzo7cxZ0ZvY86M3sacGb2NOTN6G3Nm9DbmzOhtzJnR24zttOlur+h7jO18u9tu290e6Ht8c7d9d3s6bu8dJt7kl7sdu9tTd+tu/77b1P80627drbtNp7t1t+42nbnc7dLd3szlbkRm3a27LS0zehtzZvQ25szobcyZ0duYM6O3MWdGb2POjN7GnBm9jTkzehtzZvQ25szobcyZ0duYM6O3MWdGb2POjN7GnBm9jTkzehtzZvQ25szobcyZ0duYM6O3MWdGb2POjN7GnBm9jTkzehtzZvQ25szobcwlSZIkSZIkSZIkSZIkyZAr3XObG+CrAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="110" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2SUarEMAgAl97/0O9r4SGJNtqNpo4wLJQ2hpm9Pp/PBQAAAAAAAAAAAAAAAAAAAAAAoPCd7HuArxv9zuLkyXZHN99ku6Obb7LdVe32xLm//D9lu6vcbXVm3VbPWNnVkTv+PP08s7ov2131bjs8aXu1+3XF8rLLk7ZXu19XLC+7PGl7tft1xfLimbvnR/dmu6Obb2+2u1O63T3Lembdg250eyuWlxVPo/dWvx3t1e7XGc3LzJM20ffoFutHt7OY+aNbfUb+Zm0j/wu60Q3G/jK6ZXs4DelP8ywn+h7d6NYN6U/zLIdudbvNvpnNyrd08/Ua+Yu4j3yb7eME5ETcj86i22+bXeJ35FCb6Ht0W+/1/zndzkP60zzLoduePiM/0t/M81M75Z7I+R2QU7HbbLLdVeo28yc9Rdxp5432avfriuVl5sn6LvIe3ej2ViwvM0/Wd3Sr2U07y3pm3YNudHsrlpcVT6P3Vr8d7dXu1xXLi2funh/dm+2Obr692e5O6bbrHnSj21uxvOzypO3V7tcVy0vG0O25bjsaXuL3zvtdsbxkDN3o9lae8Pf00C3ereK9Ktwvm5Mn2x3dfJPtjm6+u2S7o5tvst1V4MTJdlaJkybbVVdoAgAAAAAAAAAAAAAAAAAAAAAAJ/MHkCHdH+CrAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraFora" type="warp" x="1632" y="2496" width="224" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="1984"/>
+    <property name="dest_y" value="2752"/>
+   </properties>
+  </object>
+  <object name="paraPrisao" type="warp" x="640" y="1600" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="prisao"/>
+    <property name="dest_x" value="1248"/>
+    <property name="dest_y" value="672"/>
+   </properties>
+  </object>
+  <object name="Menir Alpha" x="928" y="896" width="32" height="32"/>
+  <object name="Menir Gama" x="1344" y="1504" width="32" height="32"/>
+  <object name="Menir Beta" x="1760" y="2144" width="32" height="32"/>
+  <object name="PvP OFF" x="1344" y="832" width="64" height="32">
+   <properties>
+    <property name="Comentário" value="Desativar PvP se menor ou igual a 1"/>
+   </properties>
+  </object>
+  <object name="PvP ON" x="1344" y="864" width="64" height="32">
+   <properties>
+    <property name="Comentário" value="Ativar PvP se maior ou igual a 2"/>
+   </properties>
+  </object>
+  <object name="Comentário" x="2336" y="1408" width="32" height="32">
+   <properties>
+    <property name="Comentario" value="Essa área precisa ser melhor utilizada..."/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

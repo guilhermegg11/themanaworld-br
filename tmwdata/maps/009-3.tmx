@@ -4,20 +4,11 @@
  <properties>
   <property name="minimap" value="/graphics/minimaps/009.png"/>
   <property name="name" value="Reino de Lilit"/>
-  <property name="music" value="Clouds Calling.ogg"/>
-  <property name="overlay0image" value="graphics/images/ambient/noite-chuva.png"/>
-  <property name="overlay0parallax" value="1.0"/>
-  <property name="overlay0scrollX" value="8"/>
-  <property name="overlay0scrollY" value="28"/>
-  <property name="overlay1image" value="graphics/images/ambient/fog.png"/>
-  <property name="overlay1parallax" value="1.0"/>
-  <property name="overlay1scrollX" value="0.2"/>
-  <property name="overlay1scrollY" value="0.1"/>
-  <!--property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
   <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
-  <property name="overlay0scrollY" value="0.1"/-->
+  <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset name="Colision" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>

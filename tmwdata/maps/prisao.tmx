@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="60" height="51" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/prisao.png"/>
+  <property name="music" value="Clouds Calling.ogg"/>
+  <property name="name" value="Prisão"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+ </properties>
+ <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="blockWalls" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png"/>
+ </tileset>
+ <tileset name="desert1" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert1.png"/>
+ </tileset>
+ <tileset name="cave" firstgid="515" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset name="Inn" firstgid="643" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="numeros x32" firstgid="899" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png"/>
+ </tileset>
+ <tileset name="Grade" firstgid="1009" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/grade_x3.png"/>
+ </tileset>
+ <layer name="Ground" width="60" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3PQQqCQBiG4Z+iC3gYYdYtvEDkBYLOUKdPwYUxmpCCig/MwzAfzOJ9nSNeAAAAAD80J9JCLrF+z5QycmnGtnbPlEfkUnffG3Wn3Z7dXvW2qveud9B7i1z6c7vuoLeIXNvxPn0b2/r/jtZb6N2cod5yoG1s07tteudZu0ev3iP1AgAAAMCSPjrAXwHQLwAA
+  </data>
+ </layer>
+ <layer name="piso" width="60" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3PsQ2AMAxFQUuMBEwATABMy0gsQcqUKYgC0Z30G1d+EQAAAABA7iq8wR/chTe+Zxwipmzz0PqjupbUt2bb9HZFb+uP6tpT35Ht7LwXAAAAAN70ABnidfPQLwAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="60" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UTw7BQBQG8GkbJFYssOlWnMAJHMFR2LgIcQHiKMINrIiVFQ2b2nhJp+kobZQ+L+X7JS9pZqbJ96V/lIJPjJzH+WXoK52IF/pKJ+KFvtKJeKGvdCJe6CudiBf6Sifihb7SiXj9W194X1s6wBdUjPe/KxcjE98OpkTZyzr/wdhfq+S1lj6/pft3Nm/OvFSdYBo0TZ3fp7nq/ZVKXuvQ+SP1PNF4Bei7fyHjxrhe0nkrtqaos0VjF+DffrajuSR0d411S4+5VqOedZoeZ9AcuSnP2Ipdm2PqFKhv3FhFncL3d6KijuHeNHZf/2sJ8zWj8Zz7mT9ZW0gHhdykfeMDetbDAvybAQAAAAAAAAAAALK4AXZTCCDQLwAA
+  </data>
+ </layer>
+ <layer name="Top" width="60" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3TsQ3CMBCF4cNWxAgZAGUCwgSQScImMF7mIBuk5goKS7hA0dmW8f9JrzlF1j05FgEAAAAAAEDoVHqBzOj731rs+3Iim2Z18W+WH2ZHL9IZ75aC1f322ncwOisly/+55r4P/z17Rmahmvvu0UrfWe/93tD7PXxSQ9+zZjTKJfPue1w1N6NMmXcHAAAAAAAASnsDz+d0WdAvAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="51" visible="0" opacity="0.65">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SQQrAIAwAQfH/j+5dqtbUkgojzCX0kCWtpZQKAAAAACwrP9jh6Z7tru3rzdp5dstK76xtNsvuiLb3Okaz7L3f3Dhy3+z9o63R3pOa7zqi/8UJdr3sjp29o++y93dfAAAAAOALF2OLFSXQLwAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraCima" type="warp" x="1248" y="640" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="005-1"/>
+    <property name="dest_x" value="640"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
