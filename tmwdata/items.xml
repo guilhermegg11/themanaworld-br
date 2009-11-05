@@ -4167,5 +4167,15 @@
 		type="generic"
 		weight="100"
 		max-per-slot="10"/>
+	<item id="3035"
+		image="armor-head-lamafia-hat.png"
+		name="La Mafia Top Hat"
+		description="Chapéu exclusivo dos membros do clan La Mafia."
+		type="equip-head"
+		weight="20"
+		defense="15"
+		max-per-slot="1">
+		<sprite>head-lamafia-hat.xml</sprite>
+	</item>
 
 </items>
