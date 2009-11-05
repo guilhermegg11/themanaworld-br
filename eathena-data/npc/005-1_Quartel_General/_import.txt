@@ -1,0 +1,3 @@
+map: 005-1.gat
+npc: npc/005-1_Quartel_General/_mobs.txt
+npc: npc/005-1_Quartel_General/_warps.txt

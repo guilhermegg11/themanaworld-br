@@ -1,8 +1,6 @@
 002.gat#002.wlk#
 005.gat#005.wlk#
-005-dev.gat#005-dev.wlk#
 005-1.gat#005-1.wlk#
-005-2.gat#005-2.wlk#
 007.gat#007.wlk#
 007-1.gat#007-1.wlk#
 007-2.gat#007-2.wlk#
@@ -18,3 +16,4 @@
 009-1.gat#009-1.wlk#
 009-2.gat#009-2.wlk#
 009-3.gat#009-3.wlk#
+prisao.gat#prisao.wlk#

@@ -1,3 +1,0 @@
-// 005-2 warps
-
-005-2.gat,19,0	warp	paraCima	-1,1,005-1.gat,0,0

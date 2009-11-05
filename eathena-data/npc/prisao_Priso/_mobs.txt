@@ -1,0 +1,7 @@
+// prisao Prisão mobs
+
+
+
+prisao.gat,0,0,0	script	Mobprisao	-1,{
+	end;
+}

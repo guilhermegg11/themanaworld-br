@@ -1,17 +1,8 @@
 map: 008.gat
 
-// movidos para o mapa 007
-#npc: npc/008_Ilha_Fortaleza/fred.conf
-#npc: npc/008_Ilha_Fortaleza/jaime.conf
-#npc: npc/008_Ilha_Fortaleza/luiz.conf
-#npc: npc/008_Ilha_Fortaleza/igor.conf
-#npc: npc/008_Ilha_Fortaleza/veronica.conf
-#npc: npc/008_Ilha_Fortaleza/jornaleiro.conf
-
 // Move o antigo star point
 npc: npc/008_Ilha_Fortaleza/menir_alma.conf
 
-npc: npc/008_Ilha_Fortaleza/halloween.conf
 npc: npc/008_Ilha_Fortaleza/juliana.conf
 npc: npc/008_Ilha_Fortaleza/joana.conf
 npc: npc/008_Ilha_Fortaleza/eliana.conf
