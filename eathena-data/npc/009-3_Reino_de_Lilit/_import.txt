@@ -1,5 +1,8 @@
 map: 009-3.gat
 
+//npc: npc/009-3_Reino_de_Lilit/ninfa_ivanize.conf
+//npc: npc/009-3_Reino_de_Lilit/ninfa_leona.conf
+npc: npc/009-3_Reino_de_Lilit/ninfa_sonia.conf
 npc: npc/009-3_Reino_de_Lilit/arvore_encantada.conf
 npc: npc/009-3_Reino_de_Lilit/pedra_encantada.conf
 npc: npc/009-3_Reino_de_Lilit/aviso.conf

@@ -1,5 +1,6 @@
 map: 005.gat
 
+//npc: npc/005_Fortaleza/anselmo.conf
 npc: npc/005_Fortaleza/warps_pensao.conf
 npc: npc/005_Fortaleza/wendy.conf
 npc: npc/005_Fortaleza/placas.conf

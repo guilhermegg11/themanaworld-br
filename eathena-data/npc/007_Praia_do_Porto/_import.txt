@@ -1,5 +1,6 @@
 map: 007.gat
 
+npc: npc/007_Praia_do_Porto/gismo.conf
 npc: npc/007_Praia_do_Porto/capitao.conf
 npc: npc/007_Praia_do_Porto/marujo.conf
 npc: npc/007_Praia_do_Porto/pirata.conf
