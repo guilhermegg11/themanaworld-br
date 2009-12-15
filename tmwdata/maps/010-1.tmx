@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="90" height="80" tilewidth="32" tileheight="32">
+ <tileset name="Colisão" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="Caverna Gelo" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png"/>
+ </tileset>
+ <layer name="Ground" width="90" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YOU/EMBQE4FdwbMPSsTRAt7sIAd0CouAoOISEgP//Y7AFlp5e7MRO7I1jT/FVXMkwTBwWRLQAAAAAAAAAAAAAAABI7FxZMRcZXFOJ7pQb5j6Da5oS2VOXtfLKfGRw7VMie+pyq+wzS8KGtJH9lT11eRM5bwgb0kb2V/bU1wthQwzb9sr+mp7uemTr+pwl1X0WsW1v3/622VB9ZxHeYdv28p316XDohtSyI7zDKbrrQ+5IiVvyTu4zwrbIHdFK2hK9GetE2e1Zft7s/2M74nPljpS2JXozUm3FkeXnHQd8fUlbojcj9lbYetwn51K2JNVm2HpsM+v4PqVsSddm9DnDtXV5SLenvCUpNsO3y76dLmFL+vTJp28h/Qq9hiluSYqcdd98+2XeQ13PCN/dCtmqKefM89B98+2XeQ8deq4M3apt49vo2x35fuHajhW5n1O8x/rvfugzIvecU+yG2Y5H5Ul5puaOxOox/73mfuaQYty33o4v5Vv5oeaOmP+nxDrrhDwTchajb3xHQt+NujYt5JkwBSHZHChz5ZCaZ94YeyGzz/3MkSrrE+VUOaPmmVfvhc/zNETuz8JUWfOch3a11px9sjY5f9LfdsTsbk05d+V9qTywrOcOsX4HpefclrXpdJs+u1Jrzprt/26601cOpuvIOUzou+WQ56Qmn5W15OzqtCufoTlzpZ2dY3Y6Zs41ddnom7PtvcX3HD32Peecdaw+j32vY9tGzmPfYy5S5Tz2feXIlZU5W18j4+RZI99x8x77OkuCXAEAAAAAAAAAAAAAAAAA6vILgfW+dYBwAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="90" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YwRGAIAwEQAqyBPqvy7/KQwdEvN0KAoEkk1IAAAAAAAAAAOCszg4ABtlmBwAQRM1lRebgPMk5Tz77CPpeHjmHHHpmXz3qp5wA/EdyTU8+O1zxJ+7puZew44Actai3b3HP3ydHz7TmBvMEqzq+XW8ZAAAAAAAAAFjJDtMr4vWAcAAA
+  </data>
+ </layer>
+ <layer name="Top" width="90" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3aSwrCMBSG0cx1A9r971M7CEgf0EByrzTnQOfl46cETSkAAAAAAAAAAAAwxuv7vDfPkvpG0K7u+Jn9IhN7FN+QHtYt2/F/Wbdt09yJTQPs/Z5lnWljaZ+nttc7hjNYHK3jaB3HNzuWbcfRmrvJ3LT/FhghY9Ozbjmy9ayNq4jWszeuRrV2N2Svd2sbPtejtQ1f0/JbyNHdR33bHN352nbVtK/aXFcAAAAAAACAOXwA3Qc2woBwAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="90" height="80" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3S24rDMAxF0ZD//+i+lpDWN0lHsrdgwQyldrSb+7quGwAAAAAAAAAAAAAS+h71s+yMznb9ekf9zBWtjvr5s+rpNjLqfbKyHvU+GazOzBnqnSt2nhn1zpXbjtyl3v+UziPfr6xnZ6s+VudUYz1Wd6u7eHZe7e79G6tbZXmfLe9/+0zdKqpx6zvez6DuZd159j2P+r0t7szQOXrn1pked1buPLt39H2ndY6+L5PIvS1G3Suqfc/nrfNWmqvbZHnXvd7j1h3VWTSwHnWTLK29R91j59b34+/d/do9ctQNTnq3T2E1M2epd1d2jmyv3l3dOmLUO9N5b28NvEa9q9qzhceod8zCYn6do94tm5FuPaPeJzOrUe9RwbPXv//pa9ubpnHN1c8AAAAAAAAAAAAAAIjxAYrAmvSAcAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraFora" type="-warp" x="1632" y="1856" width="32" height="32">
+   <properties>
+    <property name="map" value="010"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
