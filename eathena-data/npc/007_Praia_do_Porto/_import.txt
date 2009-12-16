@@ -17,6 +17,7 @@ npc: npc/007_Praia_do_Porto/jornaleiro.conf
 npc: npc/007_Praia_do_Porto/placas.conf
 npc: npc/007_Praia_do_Porto/menir_alma.conf
 npc: npc/007_Praia_do_Porto/operarios.conf
+npc: npc/007_Praia_do_Porto/guia_natal.conf
 
 npc: npc/007_Praia_do_Porto/_mobs.txt
 npc: npc/007_Praia_do_Porto/_warps.txt

@@ -16,6 +16,7 @@ npc: npc/005_Fortaleza/menir_alma.conf
 npc: npc/005_Fortaleza/jornaleiro.conf
 npc: npc/005_Fortaleza/guardas.conf
 npc: npc/005_Fortaleza/operarios.conf
+npc: npc/005_Fortaleza/guia_natal.conf
 
 npc: npc/005_Fortaleza/_mobs.txt
 npc: npc/005_Fortaleza/_warps.txt

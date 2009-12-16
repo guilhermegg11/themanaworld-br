@@ -1,6 +1,8 @@
 map: 010.gat
 
 npc: npc/010_Ilha_Congelada/menir_alma.conf
+npc: npc/010_Ilha_Congelada/duende_faisca.conf
+npc: npc/010_Ilha_Congelada/papai_noel.conf
 
 npc: npc/010_Ilha_Congelada/_mobs.txt
 npc: npc/010_Ilha_Congelada/_warps.txt

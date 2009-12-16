@@ -11,6 +11,9 @@ npc: npc/008_Ilha_Fortaleza/vendedores.conf
 npc: npc/008_Ilha_Fortaleza/guardas.conf
 npc: npc/008_Ilha_Fortaleza/jack.conf
 npc: npc/008_Ilha_Fortaleza/florencia.conf
+npc: npc/008_Ilha_Fortaleza/guia_natal.conf
+
+//npc: npc/008_Ilha_Fortaleza/duende_faisca.conf
 
 npc: npc/008_Ilha_Fortaleza/_mobs.txt
 npc: npc/008_Ilha_Fortaleza/_warps.txt
