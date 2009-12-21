@@ -2,6 +2,7 @@ import: npc/002_Fortaleza/_import.txt
 import: npc/005_Fortaleza/_import.txt
 import: npc/005-1_Quartel_General/_import.txt
 import: npc/005-2_Penso_Bhramir/_import.txt
+import: npc/005-3_Estabelecimento/_import.txt
 import: npc/007_Praia_do_Porto/_import.txt
 import: npc/007-1_Caverna_do_Eremita/_import.txt
 import: npc/007-2_Caverna_do_Tesouro/_import.txt

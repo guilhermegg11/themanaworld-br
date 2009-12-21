@@ -11,8 +11,6 @@ npc: npc/005_Fortaleza/nicolas.conf
 npc: npc/005_Fortaleza/marina.conf
 npc: npc/005_Fortaleza/jose_guloso.conf
 npc: npc/005_Fortaleza/vendedores.conf
-npc: npc/005_Fortaleza/banco.conf
-npc: npc/005_Fortaleza/agirrab.conf
 npc: npc/005_Fortaleza/menir_alma.conf
 npc: npc/005_Fortaleza/jornaleiro.conf
 npc: npc/005_Fortaleza/guardas.conf
