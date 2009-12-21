@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="95" height="93" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/010-3.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Caverna Gelada"/>
+ </properties>
+ <tileset name="icecave" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png"/>
+ </tileset>
+ <tileset name="collision" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="200" height="140" x="-20" y="-17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dAYqcMBQG4GFLjzDXa/cEbU/Q9ug1UEHEZIxGnxO/wAfLzk4c5f2TRMV9Ph6PJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwS18zoj8XrJWr4Vq1fUbvN+S0ykTLTEG06DzICFcQXfMywhWdWdNfGvYVfdzoX8uar639j8rfywdnip4f7R1joo8f/Tqr1lttc2lMiT6G9KvVd/i3wffB58JrNdsdt7d2biUfHCm1FmPCj8HPwa+KbR8xNkFLqUXWpHxwZXvmVK1qUy64stRyOTk6KzV5mK5xoo8Z95Faq7VAbU6W3p9bm29Z48Bea2p+el5p1CIj5lK8i9RerT/WZKOmpmWDd1Ga7x8111ozr4o+LjB6Nd9vnRPzK3oyr9k99d16LIKr2VrbR8zV4IrkA/Ja5GO+NnefLr2Y1/HS+eFX7zF20Kut40fp/PH8teh9hK1yY8f056X3zc8fT/txLwm92Do/kgHuQD4gb2mtsGZtLR/cwdY6lw/I+z34M/h7gc8CZ9pyfTxnbNH7BC20zMY0I9H7BXu0uPbtGjo9aX1viHzwzlLbc+/UnjlW9L5DydjOzMdHph+4mtT2fu9bo9Or1CLzYQzhylJ7NQ9aev7P2J6F98sH7y610vqgNC96/O9DPuhVqW7XPKd33keuz9K2oo8B5Oz97l9qpb9bGp+ijwGUzJ+hXlqLrM3H/P746WvGD97J2mcq1vx/tGmf1h/06sg5l3zQg1d5yJ37nTbZoGd71/FyQe9qxhD54I62jBXO53I35lRQlmo+Xef4fMgEzI3XOXLXTaI/HwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQKR/pQyZCoC1AQA=
+  </data>
+ </layer>
+ <layer name="Ground2" width="200" height="140" x="-20" y="-17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dzZLcNBQGUC8J2xBC1vyvIUA2QBVJIBvg/Z8GqxhVbim+blnjSds951Spaqan29MLfW1ZUl9PE2fw7NpvAA5MPiAnH5CTD8jJB+TkA3LyATn5gJx8QE4+ICcfkJMPyMkH5OQDcvIBOfmAnHxATj4gJx+Qkw/IyQfk5ANy8gE5+YCcfEBOPiAnH5CTD8jJBwAAAAAAAFzft3P7umnfX/UdwTalD393z9b2+XrML+f269x+m9vvc3s5t68Wng9HEjNR+vAv92ylz9fzQzzmD3P7e27/zO3fub2Z24+TjHBM8XO99u3Sh/+6Zyt9/uVdi8d8u/AeXk8ywnVlY6b4uV779lIf3qr0+TehXTqmjHAN9Xo4GzOtfa5/bDUjr679RngUnk7/56KMcbIx0xFyEZWMvLv2m+Dm1WyUXPSMb7Z6PrcvQnux47E/2/FY0CpjqpqNvXJR8vAi/Pxp8/cn034ZkQ8e0s/TWDayc0LNw5O7x9tsVHtlRD54SH9OY9nI+v0We2REPnhInw+8Zs8+OZqRev7aI6eQGemfZd1haV/IqK0Z3ev8BT229s+y7lD3hazto+pR5ge+6Xje84Fjwx625qOsO9R9IXH/4Mh6dpkf+OnCc5wvuKY617R1nFVyEvcPjuz5KNlcmx+QDY5i5Fo9GtkXtfY/ZYMjidfq7Rpf79r31oyU//lJ8jf7DzmauK5XP9vjfG59rGZmKS8xI5eu28veluz63B5dzqZdF8/GRzUjZZ4rWy+p+76y63P72Dm7tfWTOs+1lI+4J3Lt+rxmxDo5Z3Xpun6pb5fXlGz80XH818kx4AxG89GTjcI8Fmc2mo9ezh2c2Ug+njS/t3vk174/Amcyko8ll+aW4Yz2ygfcopiPdt3Q+IjHLq6p1yzEsVJWVzSKj6uzyy2J1wpl3a+37mgUH691duWEW9HmoqfuaBQfr3V21aPm7J5O7/eKxFz0rv1las1R+684o+x80eairQN0qbV7uey/4mxqTbme88XWfr00V2z/FWdR6yn0jqO29uvsu77ywRnUegq91xdtv+6531S51mjPI/LB0dVzx5Z6i22/Lv2+zuPG2idxfvfVJB+cT08tntZSPuo8bqx9Eud3300f5sMcFkd3qRbPkqV89LymfZ45LI5upP5Puw4+mg9zWBzdSD7qOnjt25fqn9Q9XEv/Sz44spF81HXwNh/197bm1lpdFPngyNq+vKUmabzHeWxxLrf0/zr/u1QTSz44urXP/zXxHuexxWuN8nOZIytzvEvzZPLB0S1977WnvnV7j/Pa2nzU+d+leTL54MxG77UTx1tZrVHfQ+QWbM1IO+5qx1Xuo8at2ZKRdtzVjquMqbhFe9yb1piKWzZ6XypjKh6TnnNJ/J6hXPDYtPtK1MiC95b2i7T32gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANY9u2vAh+QDcvIBOfmAnHx8fP8BnrsEzYC1AQA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="95" height="93">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WQQqAMAwEwL7D/z/UgwcvCiUY0tSZe6FsyJIxAAAAAAAAAACAvzmK3gL76NAFHf5YRTbAE90Aa7KbwFf0yU0W6zIbyGO/8skYqKJ/gCj9AQBAlFsSAOASuYvcUjLoxrxyyRfmvO2KHQIAduCmAQAAAAAAAIA1nah0pKYMigAA
+  </data>
+ </layer>
+ <layer name="Top" width="200" height="140" x="-20" y="-17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3bsQ2DMBAFULekR5ANMgXJBMD+03BFCiiMoiiRwbwnfbm9xtL5bKcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA59BE+sitdCEAAHysT3o4yGlXAQAA6uJOAwAAAIAru7/XrmgVcEx782OzZa7OeyrIsz8g77EK1Orbs8IQeUZevy4IKjBGpshcuhAAAAAAAAAAAA7Dvw4AgK1/9Ed6LgAAAAAA4IzccQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOQt83Ba2oC1AQA=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="140" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3azXaDIBCAUV89efLsbTQUBgbwLu4mbf3pme+omPdxHG8AAAAAAAAAAAAAAAAAAAAAAIq9JjgGmNHrJPt4oMZ5jkvVbC/7XOGX2h6iZJ8/fJPdhUaYRc851gcrGjm3GmElEdeEnvvUB1kiZrJ2XvXB7LJnUhfMLHs2s/cPd7Lns3Sf+iDDzH2cfy/7f8Vz1XQSMbPupVhB1lqSNljRtznt0Yg+WFHJnEbMtT7YWets64Od6QOutT6TjF5PhpFq5zvrfQuMVDPfI9aNYQYt14+an8FK9AHXevQBu2hZ180+duit5b159rFDb/qAePrgqUrfb3jnwZNEfpc3+1wgStR1wLWE3fS4T9IIK+v9HKEPVjXiOVsfrChyHar0+73Z5wylWvso/Rt9sJqI9xj6YFdRfVxts+RzmFl0H3efaYTVRFxDvm3z136yzxtK1DxX1GxTH6yodE1WH/BXxH2XNthZ1Ppv9nlAL/qAe/9d69IGT6QLuKcJuKYDuKYPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO58AJeBN3qAtQEA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0" x="-20" y="-17">
+  <object name="graphics/particles/snow.particle.xml" type="PARTICLE_EFFECT" x="0" y="0"/>
+  <object name="graphics/particles/snow.particle.xml" type="PARTICLE_EFFECT" x="0" y="0" width="32" height="32"/>
+  <object name="F(paraE)" type="warp" x="1856" y="1656" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="34"/>
+    <property name="dest_y" value="63"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1568" y="1760" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="49"/>
+    <property name="dest_y" value="56"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="2560" y="1984" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="80"/>
+    <property name="dest_y" value="66"/>
+   </properties>
+  </object>
+  <object name="C(paraD)" type="warp" x="1888" y="2112" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="62"/>
+    <property name="dest_y" value="23"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="2240" y="2496" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="73"/>
+    <property name="dest_y" value="63"/>
+   </properties>
+  </object>
+  <object name="B(paraA)" type="warp" x="2720" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="53"/>
+    <property name="dest_y" value="58"/>
+   </properties>
+  </object>
+  <object name="A(paraB)" type="warp" x="2336" y="2368" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="65"/>
+    <property name="dest_y" value="33"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="2176" y="2848" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="68"/>
+    <property name="dest_y" value="91"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="2400" y="2592" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="70"/>
+    <property name="dest_y" value="82"/>
+   </properties>
+  </object>
+  <object name="D(paraC)" type="warp" x="2624" y="1248" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="39"/>
+    <property name="dest_y" value="48"/>
+   </properties>
+  </object>
+  <object name="Object" x="1312" y="320" width="32" height="32"/>
+  <object name="E(paraF)" type="warp" x="1728" y="2592" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="38"/>
+    <property name="dest_y" value="36"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1920" y="1504" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="58"/>
+    <property name="dest_y" value="53"/>
+   </properties>
+  </object>
+  <object name="Rudolph Slime (15)" type="spawn" x="1664" y="2144" width="1056" height="672">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="1016"/>
+   </properties>
+  </object>
+  <object name="Santa Slime (25)" type="spawn" x="1312" y="1280" width="1696" height="768">
+   <properties>
+    <property name="max_beings" value="25"/>
+    <property name="monster_id" value="1015"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

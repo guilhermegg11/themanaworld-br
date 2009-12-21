@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="200" height="172" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Estabelecimento"/>
+ </properties>
+ <tileset name="Collision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="indoor" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="indoor_x3" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <tileset name="indoor_x2" firstgid="307" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset name="inn" firstgid="339" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="village" firstgid="595" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png"/>
+ </tileset>
+ <tileset name="village_x2" firstgid="851" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Woodland_village_x2.png"/>
+ </tileset>
+ <tileset name="cabana_in" firstgid="867" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png"/>
+ </tileset>
+ <tileset name="cabana_in_x3" firstgid="947" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png"/>
+ </tileset>
+ <tileset name="numeros" firstgid="963" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png"/>
+ </tileset>
+ <tileset name="blockWalls" firstgid="1073" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png"/>
+ </tileset>
+ <tileset name="blockWalls_in_x3" firstgid="1329" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/blockWalls_in_x3.png"/>
+ </tileset>
+ <tileset name="placas_x2" firstgid="1345" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/placas_x2.png"/>
+ </tileset>
+ <layer name="Ground" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3TT0rEMBiH4RR6lLmA9A7qAfy3VtFZqwvX4h08gtc0oNChzNdJA9PA+CweUgJZ/KDvkFIaAAAAAAAAAACysz6l+yMb+vY7ocZLv47WO6GGPiD20a+j9U6ocZ5dFLrMNn+Wvmu9E2rcZLeF7tLYx9J3rXdCDX1ATB8Q0wfE9AExfUDsKXsutE1jH0vftd4JNTYrab0TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADglFx1Za4n56H7Oa03Q6nHrszD5Dx0P6f1ZihV+k9Pe/jSB//AW/dr243f+7zunO/Z9577ufe7Wm+GUp/d+lpvhlL6gJg+IKYPiOkDYvqAmD4gdqz/WB+cAn1ATB8Q0wfE9AExfUBMHxDTB8T0ATF9AAAAAAAAAAAAAAAAAGv4Ac1UeWOAGQIA
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ZyWoUQRgH8O6RiQviBsY9LmA0otG43PSkB9cHUZ9AfQLjUVzu4vICPoRvkIPnJOg9CXrxa7qaNMHJzGF6kh5+P/hTNbV8zKGKoZgsAwAAAAAAAAAAgOHYmWfZrrxsC0V/d2RP+nwg2oMph9JYfX4i7YdxsxA5Emf7aF62haJ/LHI8L+fPRHs25Vwaq+YLk7W9VU0YB8VZvhBn+2JetoWiPxO5lO7CtWjnUq6nsWq+Wj8dudvJsnsd94PxsRhZ2iTLkc+134Yf+WB7YBysRFY3ydqQ9kAb/cz7Zxh7AAAAgP7mull2M3IrcqPb/D4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYHT25Vm2Py/7E9F2I08jzyLP8639brCVFiJTcQdOp3swGe3hyIvIy8irvFxT+BX93xvuSzV2orO+7n58fhB5GHkUeRx5UqsDbVGc2dk4u1fTuZ+O9nzkdWQ+8qZ2rv9E/++G+1Ef63f+i/m9neF9d2jaYmSpT5bT2ttxtu9ETkZORaY662OD1KrqQFusRFb7ZC2tvRz34Mp/MtsZrFZVB9rmXS1tqAuj9D7yIfJxBHVnvEFomS+Rr5FvLakLo/S2lkF839FMXdiOvD+gt09ZM++PpurCKHl/QG9NvRO8PxgH3h/Qm/cH9Ob9AQAwfIP+J75d6gIAAAAAAAAAAAAAAADt8Q/EUrvJgBkCAA==
+  </data>
+ </layer>
+ <layer name="Top1" width="200" height="172" y="-4" opacity="0.98">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ZvW7TUBgGYLvN0DZ069AOlRgQ94N6DwwsTMDEz9RWbCABA7CCisTPihASF8BNACMs7Ax8VoPqRjm1E2wrJ3oe6VXiHOfzct7WVooCAAAAAAAAAAAAAABYFk9H3czZvmDtWUfXgKHV+/FzvSjKON6ZfHZ1jn29H9mN7EW2IuPamn6Qq1cNe3cU65dnnHNSnr6+nKRuI7JZO36tH2Tq2hx790l59v5jmT5v2oF+kKl5+rEo/SBX//rxtWzOtLbf0Q9y5f8HpOkHpH2Lvfu95/zQDzL1e3Q+TeupzDsXcqAfkKYfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwKq4ud79zI3IZmQrMo5szzjnQQ/Xha5N9+NLcba/626VRXEYOYocR+6Up59fj9fNtehCZBy5Hce78fle7bv7kUuTVH6V+kEeqn68b3HepzlmrpUXr//RDzJR9eNti/M+dHCtg9p7/SAHfTx/tKEf5EA/IK3ej8PIUeS442vMmqsf5KDejzeRh8X5Z/FHsX4/kUpq7XHDXMhB0/1V9Xf+RiI7ZXqtzVxYdv/Tj4p+sMqanj8W3cd9zYUh1ffxi8hJ5HltvYt+dDkXhtTXfZD7K1aBfkCa5w9Iq+/jd5HPU+td9KPLuTAk91eQdrfhN/F7C+7jvubCkNr8Jr5Mc2FI03v2Sk/96GouAAAAAAAAAAAA0L2/R4DwHYAZAgA=
+  </data>
+ </layer>
+ <layer name="Top2" width="200" height="172" y="-4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3TOw5AUBRF0etNicI3GAHmPxm3FSXJa9ZKdn+aEwEAAAAAAAAAAAAAAAAAT22J6ErtFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwF/6JmLIxmzK5mxpaq+C+tb8wZbt/gAvR/7izC7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjsBsJJ4iOAGQIA
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="172" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VSw7DIAwFQNL7H7ordgmQnzHtPGk2TvoiJKx+SikfAAAAAAAAAAAAAIBg26LdEOHMHd4uvD/7fHDH9rLZ54M7Ru/wlXtvP1id/w84Zj/gmP2AY/YDxl291/YBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgP5Wbz+GXlZvPz74HGczI7DPDqBmZfWYYVbM3eyJHvbPPDSNq9mZPpPctyKyV3u/e6IVMWsnYC5FqerMsvRCppjfL0guRWsnYC5FaydgLkWp6syy9EKmmN8vSC5FaydgLkVrJ2AuzlMV6AQAAAAAAAAAAAAAAgHV8AYOWB0KAGQIA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="890" y="4477"/>
+  <object name="sairBar1" type="warp" x="768" y="4960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="800"/>
+    <property name="dest_y" value="3008"/>
+   </properties>
+  </object>
+  <object name="sairBar2" type="warp" x="1120" y="4640" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="2816"/>
+   </properties>
+  </object>
+  <object name="sairBar3" type="warp" x="1472" y="4960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="3008"/>
+   </properties>
+  </object>
+  <object name="sairBanco1" type="warp" x="2272" y="704" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="1952"/>
+    <property name="dest_y" value="800"/>
+   </properties>
+  </object>
+  <object name="sairBanco2" type="warp" x="2720" y="704" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="2240"/>
+    <property name="dest_y" value="800"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

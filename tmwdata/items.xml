@@ -182,17 +182,16 @@
 		hp="5"
 		weight="10"
 		max-per-slot="10"/>
-    <item id="511"
-        image="armor-head-santahat.png"
-        name="Santa Hat"
-        description="Ask Santa about this hat."
-        effect="+2% Defense"
-        type="equip-head"
-        weight="15"
-        defense="2"
-        max-per-slot="1">
-        <sprite>head-santahat.xml</sprite>
-    </item>
+	<item id="511"
+		image="armor-head-santahat.png"
+		name="Gorro de Natal"
+		description="Um gorro vermelho com uma bolinha na ponta usado no Natal."
+		type="equip-head"
+		weight="15"
+		defense="2"
+		max-per-slot="1">
+		<sprite>head-santahat.xml</sprite>
+	</item>
     <item id="512"
         image="use-food-gingerbreadman.png"
         name="Ginger Bread Man"
@@ -214,20 +213,18 @@
         effect="+10 HP"
         type="usable"
         weight="15"/>
-    <item id="515"
-        image="generic-purplepresentbox.png"
-        name="Purple Present Box"
-        description="Something mysterious inside."
-        effect=""
-        type="generic"
-        weight="20"/>
-    <item id="516"
-        image="generic-bluepresentbox.png"
-        name="Blue Present Box"
-        description="Something mysterious inside."
-        effect=""
-        type="generic"
-        weight="20"/>
+	<item id="515"
+		image="generic-purplepresentbox.png"
+		name="Presente Rosa"
+		description="Um dos presentes de natal perdidos."
+		type="generic"
+		weight="20"/>
+	<item id="516"
+		image="generic-bluepresentbox.png"
+		name="Presente Azul"
+		description="Um dos presentes de natal perdidos."
+		type="generic"
+		weight="20"/>
 	<item id="517"
 		image="generic-scorpionstinger.png|W:#e04040,f0f0f0"
 		name="Ferrão de Escorpião Vermelho"
@@ -420,39 +417,38 @@
 		hp="50"
 		weight="70"
 		max-per-slot="10"/>
-    <item id="536"
-        image="weapon-dagger-shortsword.png"
-        name="Espada Curta"
-        description="Uma pequena, porém afiada espada."
-        effect="+100 Dano, 1 Range"
-        type="equip-1hand"
-        weapon_type="2"
-        weight="1025"
-        slot ="0"
-        weapon-type="sword"
-        attack-min="20"
-        attack-delta="30"
-        attack-target="multi"
-        attack-shape="cone"
-        attack-range="32"
-        attack-angle="135"
-        max-per-slot="1"
-        view="521"/>
-    <item id="537"
-        image="generic-treasurekey.png"
-        name="Chave do Tesouro"
-        description="Um chave velha e enferrujada."
-        type="generic"
-        weight="35"
-        max-per-slot="10"/>
-    <item id="538"
-        image="generic-greenpresentbox.png"
-        name="Green Present Box"
-        description="Something mysterious inside."
-        effect=""
-        type="generic"
-        weight="25"
-        max-per-slot="10"/>
+	<item id="536"
+		image="weapon-dagger-shortsword.png"
+		name="Espada Curta"
+		description="Uma pequena, porém afiada espada."
+		effect="+100 Dano, 1 Range"
+		type="equip-1hand"
+		weapon_type="2"
+		weight="1025"
+		slot ="0"
+		weapon-type="sword"
+		attack-min="20"
+		attack-delta="30"
+		attack-target="multi"
+		attack-shape="cone"
+		attack-range="32"
+		attack-angle="135"
+		max-per-slot="1"
+		view="521"/>
+	<item id="537"
+		image="generic-treasurekey.png"
+		name="Chave do Tesouro"
+		description="Um chave velha e enferrujada."
+		type="generic"
+		weight="35"
+		max-per-slot="10"/>
+	<item id="538"
+		image="generic-greenpresentbox.png"
+		name="Presente Verde"
+		description="Um dos presentes de natal perdidos."
+		type="generic"
+		weight="25"
+		max-per-slot="10"/>
 	<item id="539"
 		image="use-food-beer.png"
 		name="Cerveja"
@@ -662,14 +658,14 @@
         weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
-    <item id="562"
-        image="use-food-chickenleg.png"
-        name="Chicken Leg"
-        description="A well cooked chicken leg."
-        effect="+500 HP"
-        type="generic"
-        weight="10"
-        max-per-slot="10"/>
+	<item id="562"
+		image="use-food-chickenleg.png"
+		name="Cocha de Frango"
+		description="A well cooked chicken leg."
+		effect="+500 HP"
+		type="generic"
+		weight="10"
+		max-per-slot="10"/>
 	<item id="563"
 		image="armor-hands-gloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
 		name="Luvas de Inverno"
@@ -1333,17 +1329,16 @@
         max-per-slot="1">
         <sprite>leg-skirt.xml|#A4B2B2,FFFFFF</sprite>
     </item>
-    <item id="633"
-        image="armor-head-xmaself.png"
-        name="Christmas Elf Hat"
-        description="A hat worn by Christmas elves."
-        effect="+13% Defense"
-        defense="18"
-        type="equip-head"
-        weight="20"
-        max-per-slot="1">
-        <sprite>head-xmaself.xml</sprite>
-    </item>
+	<item id="633"
+		image="armor-head-xmaself.png"
+		name="Gorro dos Elfos do Natal"
+		description="Um gorro usado por elfos do Natal."
+		defense="10"
+		type="equip-head"
+		weight="20"
+		max-per-slot="1">
+		<sprite>head-xmaself.xml</sprite>
+	</item>
     <item id="634"
         image="armor-head-mask.png"
         name="Face Mask"
@@ -1355,14 +1350,13 @@
         max-per-slot="1">
         <sprite>head-mask.xml</sprite>
     </item>
-    <item id="635"
-        image="generic-santacookie.png"
-        name="Santa Cookie"
-        description="This isn't for you to eat, it is for Santa Claus!"
-        effect=""
-        type="generic"
-        weight="1"
-        max-per-slot="1"/>
+	<item id="635"
+		image="generic-santacookie.png"
+		name="Biscoito de Natal"
+		description="Isto não é para você comer... é para o Papai Noel!"
+		type="generic"
+		weight="1"
+		max-per-slot="1"/>
 	<item id="636"
 		image="armor-head-warlordhelm.png"
 		name="Elmo do Lorde da Guerra"
@@ -2406,39 +2400,36 @@
         max-per-slot="1">
         <sprite>head-rangerhat.xml</sprite>
     </item>
-    <item id="1204"
-        image="armor-head-antlerhat.png"
-        name="Antler Hat"
-        description="A hat with antlers sticking out of it."
-        effect="+4% Defense"
-        type="equip-head"
-        weight="20"
-        defense="4"
-        max-per-slot="1">
-        <sprite>head-antlerhat.xml</sprite>
-    </item>
-    <item id="1205"
-        image="armor-head-christmastree.png"
-        name="Christmas Tree Hat"
-        description="A hat shaped like a Christmas tree."
-        effect="+2% Defense"
-        type="equip-head"
-        weight="25"
-        defense="2"
-        max-per-slot="1">
-        <sprite>head-christmastree.xml</sprite>
-    </item>
-    <item id="1206"
-        image="armor-head-santabeardhat.png"
-        name="Santa Beard Hat"
-        description="Now you will look just like Santa Claus!"
-        effect="+5% Defense"
-        type="equip-head"
-        weight="30"
-        defense="5"
-        max-per-slot="1">
-        <sprite>head-santabeardhat.xml</sprite>
-    </item>
+	<item id="1204"
+		image="armor-head-antlerhat.png"
+		name="Chapéu Chifres de Rena"
+		description="Um chapéu fantasia de chifres de rena."
+		type="equip-head"
+		weight="20"
+		defense="4"
+		max-per-slot="1">
+		<sprite>head-antlerhat.xml</sprite>
+	</item>
+	<item id="1205"
+		image="armor-head-christmastree.png"
+		name="Chapéu Árvore de Natal"
+		description="Um chapéu em forma de árvore de Natal."
+		type="equip-head"
+		weight="25"
+		defense="2"
+		max-per-slot="1">
+		<sprite>head-christmastree.xml</sprite>
+	</item>
+	<item id="1206"
+		image="armor-head-santabeardhat.png"
+		name="Gorro de Papai Noel"
+		description="Gorro que vai te deixar igualzinho ao Papai Noel."
+		type="equip-head"
+		weight="30"
+		defense="5"
+		max-per-slot="1">
+		<sprite>head-santabeardhat.xml</sprite>
+	</item>
     <item id="1207"
         image="generic-redstocking.png"
         name="Red Christmas Stocking"
@@ -4177,5 +4168,99 @@
 		max-per-slot="1">
 		<sprite>head-lamafia-hat.xml</sprite>
 	</item>
+	<item id="3036"
+		image="armor-head-bordado-f.png"
+		name="Boné Amarelo Bordado"
+		description="Um boné amarelo bordado com a letra F. (presente do Papai Noel)"
+		type="equip-head"
+		weight="30"
+		defense="5"
+		max-per-slot="1">
+		<sprite>head-bordado-f.xml</sprite>
+	</item>
+	<item id="3037"
+		image="armor-head-bordado-l.png"
+		name="Boné Verde Bordado"
+		description="Um boné verde bordado com a letra L. (presente do Papai Noel)"
+		type="equip-head"
+		weight="30"
+		defense="5"
+		max-per-slot="1">
+		<sprite>head-bordado-l.xml</sprite>
+	</item>
+	<item id="3038"
+		image="armor-head-bordado-m.png"
+		name="Boné Vermelho Bordado"
+		description="Um boné vermelho bordado com a letra M. (presente do Papai Noel)"
+		type="equip-head"
+		weight="30"
+		defense="5"
+		max-per-slot="1">
+		<sprite>head-bordado-m.xml</sprite>
+	</item>
+	<item id="3039"
+		image="armor-head-bordado-p.png"
+		name="Boné Azul Bordado"
+		description="Um boné azul bordado com a letra P. (presente do Papai Noel)"
+		type="equip-head"
+		weight="30"
+		defense="5"
+		max-per-slot="1">
+		<sprite>head-bordado-p.xml</sprite>
+	</item>
+	<item id="3040"
+		image="armor-head-gorro-couro.png"
+		name="Gorro de couro de Cobra"
+		description="Um gorro feito de couro de Cobra. (presente do Papai Noel)"
+		type="equip-head"
+		weight="75"
+		defense="10"
+		max-per-slot="1">
+		<sprite>head-gorro-couro.xml</sprite>
+	</item>
+	<item id="3041"
+		image="armor-head-gorro-couro2.png"
+		name="Gorro de couro de Cobra da Grama"
+		description="Um gorro feito de couro de Cobra da Grama. (presente do Papai Noel)"
+		type="equip-head"
+		weight="75"
+		defense="10"
+		max-per-slot="1">
+		<sprite>head-gorro-couro2.xml</sprite>
+	</item>
+	<item id="3042"
+		image="armor-head-gorro-cerebro.png"
+		name="Gorro Cérebro"
+		description="Um divertido gorro que parece expor seu cérebro. (presente do Papai Noel)"
+		type="equip-head"
+		weight="35"
+		defense="5"
+		max-per-slot="1">
+		<sprite>head-gorro-cerebro.xml</sprite>
+	</item>
+	<item id="3043"
+		image="armor-head-gorro-duende.png"
+		name="Gorro dos Duendes do Natal"
+		description="Um gorro usado por duendes do Natal."
+		type="equip-head"
+		weight="15"
+		defense="2"
+		max-per-slot="1">
+		<sprite>head-gorro-duende.xml</sprite>
+	</item>
+	<item id="3044"
+		image="generic-presente-prateado.png"
+		name="Presente Prateado"
+		description="Item do Evento de Natal (Não pode ser transferido)."
+		type="generic"
+		weight="25"
+		max-per-slot="10"/>
+	<item id="3045"
+		image="use-presente-dourado.png"
+		name="Presente Dourado"
+		description="Abra esta caixa para ganhar uma surpresa de natal!"
+		type="usable"
+		weight="25"
+		max-per-slot="10"/>
 
 </items>

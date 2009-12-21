@@ -138,6 +138,16 @@
 <npc id="318"><sprite variant="18">npcs-br.xml</sprite></npc>
 <npc id="319"><sprite variant="19">npcs-br.xml</sprite></npc>
 <npc id="320"><sprite variant="20">npcs-br.xml</sprite></npc>
+<npc id="321"><sprite variant="21">npcs-br.xml</sprite></npc>
+<npc id="322"><sprite variant="22">npcs-br.xml</sprite></npc>
+<npc id="323"><sprite variant="23">npcs-br.xml</sprite></npc>
+<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc>
+<npc id="325"><sprite variant="25">npcs-br.xml</sprite></npc>
+<npc id="326"><sprite variant="26">npcs-br.xml</sprite></npc>
+<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
+<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
+<npc id="329"><sprite variant="29">npcs-br.xml</sprite></npc>
+<npc id="330"><sprite variant="30">npcs-br.xml</sprite></npc>
 
 <npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="200" height="172" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="Ground0parallax" value="0.0"/>
+  <property name="Ground0scrollX" value="0.2"/>
+  <property name="music-off" value="Faith.ogg"/>
+  <property name="name" value="Pensão Bhramir"/>
+ </properties>
+ <tileset name="Collision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="woodland_indoor" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="woodland_indoor_x3" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <tileset name="woodland_indoor_x2" firstgid="307" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset name="inn" firstgid="339" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="Woodland_village" firstgid="595" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png"/>
+ </tileset>
+ <tileset name="cabana_in" firstgid="851" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png"/>
+ </tileset>
+ <tileset name="cabana_in_x3" firstgid="931" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png"/>
+ </tileset>
+ <tileset name="numeros" firstgid="947" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png"/>
+ </tileset>
+ <layer name="Ground" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dO44TURCG0SsZVmBYgREz+UiwAh4rABIeEZCAZh2smrZkJGTNNMn9x3TVCY6a7KNQXYnIdTPGuAEAAAAAAAAAAAAAAKCVL7v76c7xcaV59CnU7tZNWP6q49Hp+/jsW717/k01P+/Wu7ehfenWTdgvnpy+T8++1bvn31TzuC9r3eSeduomHFboztuXtW5yTzt1E14v3tzhbdHusxWp5nFf1uZN7mmnbsK7xfs7fCja/fMWni+uxsO9j7V5k3vaqZvQ9X28WLwc3kelbkLX9/HQ/7/qtKfex3a73kfdboL3kX8fP/6xLz9D+9Ktm/B18e0O34t2L/E+Ov47X6o726/d/Sp2L/U+rpa5rk9e/fXn6/C83boAAAAAAAAAAAAAAAAAAAAwW7f7ELq1u7N1uw+hW7ubmGM/+tyH0K3dTcxxGH3uQ+jW7ibm6HQfQrd2NzFHp98v1q3drTKHrm5yr7c+h65ucq+3PoeubnKvZ+l2H0K3djeh230I3drd2brdh9Ct3QUAAAAAAAAAAAAAAAAAAIDZut2H0K3dna3bfQjd2t3EHPvR5z6Ebu1uYo7D6HMfQrd2NzFHp/sQurW7iTk6/X6xbu1ulTl0dZN7vfU5dHWTe731OXR1k3s9S7f7ELq1uwnd7kPo1u7O1u0+hG7tLgAAAAAAAAAAAAAAAAAAAMzW7T6Ebu3ubN3uQ+jW7ibm2I8+9yF0a3cTcxxGn/sQurW7iTk63YfQrd1NzNHp94t1a3erzKGrm9zrrc+hq5vc663Poaub3OtZut2H0K3dTeh2H0K3dne2bvchdGt3AQAAAAAAAAAAAAAAAAAAYLZu9yF0a3dn63YfQrd2NzHHfvS5D6Fbu5uY4zD63IfQrd1NzNHpPoRu7W5ijk6/X6xbu1tlDl3d5F5vfQ5d3eReb30OXd3kXs/S7T6Ebu1uQrf7ELq1u7N1uw+hW7sLAAAAAAAAAAAAAADA/+s3z/tYOIAZAgA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="172">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WvWtTURzH4RtErZ1UsDr5BlUntf6rootrWvsHBO1uLfg2O7TaoS0OWjuoONS3b/EEQriDIPckKc8DH06aIb9TOOcmTQMAAAAAAAAAAAAAAADA0Nle05xL53vTMfdtx/s4WT7/VFlPl3Wu8v/PbLiac3EtXS/n41V6nd5UnPsgPUxzef9Dx+f0Qj7/TNaFMu9i1vmsl9wPWtzNuVhK98r52Exb6V3FuctpJfXT947P6eLRfcx6o6w3sz7Kesv94B98TJ/SfsWZ/ebvWR3WtSfpaWktPa8wk+PhMP1IPzueM/o9NUg7aTftdTz3yEbqlTYqzGN2jT+7+xPYw3r6kr6mbxXmvRx5/SJdzkW54vcVLcaf3YNKc1fS47Ra/r4/Upeetbx3O3fjjvtBi/Fn9/pkt9O5fss9eJ+2q++EWVHr2T2tPqeDSW8CptSv9HvSm2DqLZ8wFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOB//AE5I0dDgBkCAA==
+  </data>
+ </layer>
+ <layer name="Top1" width="200" height="172" y="-4" opacity="0.98">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UO07EMBQFUIdp+bRQsCUWgAQU1HwklsAaKGnogYXwWwiwBxyhSB4pGRrsyPE50lMycXE10n0OAQAAAAAAAAAAAAAAAAAAAP7fyWrz+ekf53JZsrORPuwk79eZ+jKWmyqRux/nIDnbzphLncZ6epi8L3k/SuZSp9Z62ueez5BLnebs6Ut8vsZ5K5x7E59PybfnArnUaa77dGwvj7ZCeOhCeMycext+Mwb3cXZj7l5nP1g33KdTcvb0Mz6/4nwXzt3EfpAa7tP07k4tradTue9xPjLmUqe+L3fd9PkS96P/v8OUyqVOF7EPV8n00t+XmfrSWi51Ol6tz9Q3ubSotZ7aDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGjXD8hlnQSAGQIA
+  </data>
+ </layer>
+ <layer name="Top2" width="200" height="172" y="-4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OQQEAIAgEMLoSwQgWtwMPj8eWYFUAAAAAAAAAAAAAAAAAAAAAAADARKcDsNhJB2Cxmw4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF89o4FJs4AZAgA=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="172" visible="0" opacity="0.58">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WQQqAIBQEUPP+h24bkVAUjtpbPGjV78OMVkspFQAAAAAAAAAAAAAAAAAA+MR2kv6eHjuuvi/vJDOSyOnV+3WDlhHO08SsrfEMR6lupLuoE9xxzkgqsz3/r9L3JfNI9SOVU73gqVFyuvJc5vTnnOoFT6Sy8re5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwLp2gMLhLoAZAgA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="sair01" type="-warp" x="768" y="864" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="3680"/>
+    <property name="dest_y" value="3296"/>
+   </properties>
+  </object>
+  <object name="sair02" type="-warp" x="1728" y="864" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="3776"/>
+    <property name="dest_y" value="3296"/>
+   </properties>
+  </object>
+  <object name="sair03" type="-warp" x="2688" y="864" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="3872"/>
+    <property name="dest_y" value="3296"/>
+   </properties>
+  </object>
+  <object name="Baú" x="2784" y="640" width="32" height="32"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="2672" y="726"/>
+  <object name="Baú" x="864" y="704" width="32" height="32"/>
+  <object name="Baú" x="1632" y="640" width="32" height="32"/>
+ </objectgroup>
+</map>
