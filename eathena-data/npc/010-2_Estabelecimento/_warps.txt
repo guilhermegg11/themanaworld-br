@@ -1,0 +1,5 @@
+// 010-2 Estabelecimento warps
+
+010-2.gat,60,29	warp	paraFora	0,-1,010.gat,4,2
+010-2.gat,29,30	warp	paraFora	-1,-1,010.gat,4,3
+010-2.gat,23,30	warp	paraFora	-1,-1,010.gat,4,3

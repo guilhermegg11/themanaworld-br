@@ -1,0 +1,38 @@
+// 010 Polo Norte mobs
+
+010.gat,72,71,10,14	monster	Rudolph Slime (15)	1016,15,0,0,Mob010::On1016
+010.gat,94,105,96,28	monster	Sea Slime (30)	2035,30,0,0,Mob010::On2035
+010.gat,141,57,28,10	monster	Mouboo (7)	2030,7,0,0,Mob010::On2030
+010.gat,128,75,59,23	monster	Sea Slime (20)	2035,1,0,0,Mob010::On2035
+010.gat,53,69,25,26	monster	Limo Amarelo (15)	2009,15,0,0,Mob010::On2009
+010.gat,65,44,48,13	monster	Santa Slime (25)	2017,25,0,0,Mob010::On2017
+
+
+010.gat,0,0,0	script	Mob010	-1,{
+On1016:
+	set @mobID, 1016;
+	callfunc "MobPoints";
+	break;
+
+On2009:
+	set @mobID, 2009;
+	callfunc "MobPoints";
+	break;
+
+On2017:
+	set @mobID, 2017;
+	callfunc "MobPoints";
+	break;
+
+On2030:
+	set @mobID, 2030;
+	callfunc "MobPoints";
+	break;
+
+On2035:
+	set @mobID, 2035;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

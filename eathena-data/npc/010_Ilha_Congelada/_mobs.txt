@@ -1,7 +1,0 @@
-// 010 Ilha Congelada mobs
-
-
-
-010.gat,0,0,0	script	Mob010	-1,{
-	end;
-}

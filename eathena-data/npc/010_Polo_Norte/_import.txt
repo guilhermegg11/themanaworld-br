@@ -1,0 +1,11 @@
+map: 010.gat
+
+npc: npc/010_Polo_Norte/menir_alma.conf
+npc: npc/010_Polo_Norte/duende_faisca.conf
+npc: npc/010_Polo_Norte/duende_lulu.conf
+npc: npc/010_Polo_Norte/duende_tunico.conf
+npc: npc/010_Polo_Norte/papai_noel.conf
+npc: npc/010_Polo_Norte/boneco_neve.conf
+
+npc: npc/010_Polo_Norte/_mobs.txt
+npc: npc/010_Polo_Norte/_warps.txt

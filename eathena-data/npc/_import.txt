@@ -1,6 +1,7 @@
 import: npc/002_Fortaleza/_import.txt
 import: npc/005_Fortaleza/_import.txt
 import: npc/005-1_Quartel_General/_import.txt
+import: npc/005-2_Penso_Bhramir/_import.txt
 import: npc/007_Praia_do_Porto/_import.txt
 import: npc/007-1_Caverna_do_Eremita/_import.txt
 import: npc/007-2_Caverna_do_Tesouro/_import.txt
@@ -16,6 +17,10 @@ import: npc/009_Ilha_Fortaleza/_import.txt
 import: npc/009-1_Caverna_da_Montanha/_import.txt
 import: npc/009-2_Caverna/_import.txt
 import: npc/009-3_Reino_de_Lilit/_import.txt
+import: npc/010_Polo_Norte/_import.txt
+import: npc/010-1_Caverna_Gelada/_import.txt
+import: npc/010-2_Estabelecimento/_import.txt
+import: npc/010-3_Caverna_Gelada/_import.txt
 import: npc/prisao_Priso/_import.txt
 
 //npc: npc/+/mercado.conf

@@ -1,0 +1,4 @@
+// 010-1 Caverna Gelada warps
+
+010-1.gat,51,58	warp	paraFora	-1,-1,010.gat,4,2
+010-1.gat,45,19	warp	paraFora	-1,-1,010.gat,4,1

@@ -1,0 +1,14 @@
+// 010 Polo Norte warps
+
+010.gat,73,62	warp	paraDentro	-1,-1,010-3.gat,1,1
+010.gat,80,65	warp	paraDentro	-1,-1,010-3.gat,1,1
+010.gat,70,81	warp	paraDentro	-1,-1,010-3.gat,1,1
+010.gat,68,90	warp	paraDentro	-1,-1,010-3.gat,1,2
+010.gat,145,72	warp	paraDentro	-1,-1,010-1.gat,1,1
+010.gat,142,63	warp	paraDentro	-1,-1,010-1.gat,1,0
+010.gat,156,93	warp	paraDentro	-1,-1,010-2.gat,1,0
+010.gat,148,106	warp	paraDentro	-1,-1,010-2.gat,0,0
+010.gat,152,106	warp	paraDentro	-1,-1,010-2.gat,0,0
+010.gat,142,47	warp	paraDentro	-1,-1,010-1.gat,1,0
+010.gat,58,52	warp	paraDentro	-1,-1,010-3.gat,1,0
+010.gat,49,55	warp	paraDentro	-1,-1,010-3.gat,0,1
