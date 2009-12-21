@@ -16,7 +16,7 @@ maps. Most people think it sucks.
 			<property name="momentum" value="0.97"/>
 			<!--<property name="randomnes" value="100"/>-->
 			<property name="image" value="graphics/particles/snowflake.png"/>
-			<property name="output" min="0" max="3"/>
+			<property name="output" min="0" max="6"/>
 			<property name="fade-in" value="100"/>
 		</emitter>
 
