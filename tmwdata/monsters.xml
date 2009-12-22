@@ -432,52 +432,13 @@
             />
     </monster>
 
-    <monster id="13" name="Santa Slime">
-        <sprite>monster-slime-santa.xml</sprite>
-        <drop item="512" percent="8"/>
-        <drop item="513" percent="7"/>
-        <drop item="514" percent="6"/>
-        <drop item="519" percent="5"/>
-        <drop item="527" percent="4"/>
-        <drop item="538" percent="5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-    </monster>
+	<monster id="13" name="Limo Noel">
+		<sprite>monster-slime-santa.xml</sprite>
+	</monster>
 
-    <monster id="14" name="Rudolph Slime">
-        <sprite>monster-slime-rudolph.xml</sprite>
-        <drop item="504" percent="8"/>
-        <drop item="506" percent="5"/>
-        <drop item="508" percent="2"/>
-        <drop item="509" percent="3"/>
-        <drop item="510" percent="6"/>
-        <drop item="515" percent="8"/>
-        <drop item="516" percent="5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-    </monster>
+	<monster id="14" name="Limo Rodolfo">
+		<sprite>monster-slime-rudolph.xml</sprite>
+	</monster>
 
     <monster id="15" name="Morcego">
         <sprite>monster-bat.xml</sprite>
@@ -709,105 +670,27 @@
 
     <monster id="26" name="Mouboo">
         <sprite>monster-mouboo.xml</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="27" name="Planta Malva">
         <sprite>resource-plant.xml|#e0b0ff</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="28" name="Planta Cobalto">
         <sprite>resource-plant.xml|#0047ab</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="29" name="Planta Gamboge">
         <sprite>resource-plant.xml|#ef9b0f</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="30" name="Planta Alizarina">
         <sprite>resource-plant.xml|#e32636</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
     
     <monster id="31" name="Sea Slime">
         <sprite>monster-slime.xml|#4ca1a0,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="32" name="Cobra da Grama">
@@ -895,6 +778,21 @@
             />
     </monster>
 
+	<!--monster id="38" name="Espéctro do Arrepio">
+		<sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
+		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+	</monster-->
+
+	<!--monster id="40" name="Espéctro do Arrepio">
+		<sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
+		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+	</monster-->
+
+	<monster id="45" name="Espectro do Arrepio">
+		<sprite>monster-wisp.xml|#77ffdd,77ddff</sprite>
+		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+	</monster>
+
 	<!-- AQUI ESTAO OS MONSTROS CRIADOS PELA EQUIPE DO TMW-BR -->
 
 	<monster id="300" name="Esqueleto">
@@ -969,6 +867,14 @@
 	<monster id="314" name="Cabeça de Abóbora">
 		<sprite>monstro-cabeca-abobora-sombra.xml</sprite>
 		<sprite>monstro-cabeca-abobora.xml</sprite>
+	</monster>
+
+	<monster id="315" name="Mouboo Rena">
+		<sprite>monstro-mouboo-rena.xml</sprite>
+	</monster>
+
+	<monster id="316" name="Limo de Gelo">
+		<sprite>monstro-limo-gelo.xml</sprite>
 	</monster>
 
 </monsters>

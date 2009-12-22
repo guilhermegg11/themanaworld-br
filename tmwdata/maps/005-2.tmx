@@ -2,9 +2,7 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="200" height="172" tilewidth="32" tileheight="32">
  <properties>
-  <property name="Ground0parallax" value="0.0"/>
-  <property name="Ground0scrollX" value="0.2"/>
-  <property name="music-off" value="Faith.ogg"/>
+  <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Pensão Bhramir"/>
  </properties>
  <tileset name="Collision" firstgid="1" tilewidth="32" tileheight="32">

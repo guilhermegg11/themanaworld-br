@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="90" height="51" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="123" height="51" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Estabelecimento"/>
@@ -17,51 +17,58 @@
  <tileset name="woodland_inn_x2" firstgid="275" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/woodland_indoor_x2.png"/>
  </tileset>
- <layer name="Ground" width="90" height="51">
+ <layer name="Ground" width="123" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3UO0oEQRSF4YaRUUfRQFFGAwNFUdEJZNbgElyQ7kBzn7mPQEMfge5A1zJGnobbcCkosGHKfvgHH0VVX6jTh6ZHWZaNAAAAAAAAAAAApCOTMmFrV6alJzO298+nEuboOvk953Ihl3IV5Oq4uao7/I0Fs2XrsvRlRVZl086X3GyqHIty6O66lTu5l4cgVzGfKs+4rZsNmbd1W3ZkNzgvZlPlyO84sjX3LC/yKm9BrmI+VZ5xO3DWgn3sPHWOsqrukJ7rowk9P8qT8+HQczmncha5/z3otok97zmDyHsO3Mx+ohzXchO5/1O+nCb2XJf/4X/6P9e551mZi+yr7rBNPbfpex7WrOdjOWlhz6FY73+V7dtU3VGK9ypzDgAAAAAAAAAAAABt8ANEHVPhuEcAAA==
+   H4sIAAAAAAAAAO3VOUoEQRTG8YaRcUUDRVEDA0VR0QnEM3gED6Q30Nw1dwk0dAn0BnqWMfJrqIZHQSEzdHXXlP/gR9E1D97WQ/eLougDAAAAAAAAAAAAAACMqI6My5g7uzIpUzLtnu3vExHr6Bplngu5lCu59urqmLhcZ1K3eWfLnUuyLCuyKpvuftHExqpjQY5Mrju5lwd59Oqq4mPUk8pM6rbubMicO7dlR3a9+yo2Vh1ljmN3ll7kVd7k3aurio9RTyozqduBseY9h+5j1zGoXGeSa1/sml2XnuTZ+DTY9ej1dSbngfwf3n7Z9XD2jF6gr56J2Y9Ux43cBvJ/ybcRe9epzCTmO9zW93HYOpr4Xrc5k1z7+ivnjMwGnnOdSa598b9udteHie36RE5b3nWbM2nyHQ712VRtPw4ziTPbQe7/G+YAAAAAAAAAAAAAAAAAAEjRL2un6XQEYgAA
   </data>
  </layer>
- <layer name="Ground2" width="90" height="51">
+ <layer name="Ground2" width="123" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Tvw7BUBiH4V4I7gNDV90NRgOJHXfDHTBhYxKz/1eAK8Du1ziSpqlWJD2Nep/kzWnTI740p44DAAAAAAAAAAAAJBuqgVnxvVrC87EamfVXlVVFVSOe3S3N0FBrtVFbtQvNtVBzs/6Cq7plPUQE/z17aqKmMc2yGjBFJ3W29F8Nsy4T9q3SHiQDNs/+6zz/43u2KW/nuaCKqqTcN3vc0L40tAK1Vcd5nue9OsR0TGmevOqrruqZ637EnkvgumlhprzyQmuQ/z2VYu7xmbql3wAAAAAAAAAAAAAAkGcPsnZ2GbhHAAA=
+   H4sIAAAAAAAAAO3UPUoDQRiA4T2I5h5qkdb0FiktFOxjbqM30ErttBJrf6InUE+g9n7BEZZl3Yg4ExOfB15mw86SD5bZqgIAAAAAAAAAAHI5jA7SymLbnHH/ODpKKz+3Fq1HGy333grNMIyuo5voNrprzHURnaeV73mJXuc9RIvpux5EJ9FpR2fzGnDJPUZPhf5rmNbLGfuucg/yT5X8Bnyea+96+TnXv28lWo16Uf+LPf3Gvhx2au1Ge9XHuZ5E9x09ZJqHfMbRKNpP1+OWPc+16+0CM5HPoLHWTb8rvY7fLI6tQs8AAAAAAAAAAAAAwF/3Dl7bxfwEYgAA
   </data>
  </layer>
- <layer name="Fringe" width="90" height="51">
+ <layer name="Fringe" width="123" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3WQU7CQBjF8c7SoCtJsIa06F0w6R5JPII30APg1pXeAE+DXADkBHgDNLyGadKMaSXEmVLz/yUv5css+lqGCVEEAAAAAAAAAADQDn0labrEPzJRnmrW70IVCWTozDeB7vuivNZ0uQ/Uw5fY6LepXJjdfOusj+31XOtdJTF+ekyVN/t5pDw7XR793LYx2S8zDlPs00L+Xnt2Ts1uXgTocap7nZV6PDjrWcW1rar2c+rpvNhH3mGtfCoz5V2ZR+1+13n34qwemOae5duZN8qXslQ+lFXwRn+L8zmc2O7n6wbPCoR3Uvq+O+bn3BaXtmvfXov9fFX635FjfwMAAAAAAAAAAAAAcNy2fWcMwLhHAAA=
+   H4sIAAAAAAAAAO3WT0rDQBQH4GQp6kpBK6VV76LQvQoewRvoAXTrqt5AT6NewD8n0Buo+EITCJHWoibB5vvgx+Qxi3lMOpMmCQAAAAAAAAAAdelHBm03wZ86j1zMmD9uqpEO2avU+w2tO45czejlpKE+FlkvjXsysplO6sPK/FE+rsX8emSQ1tPHdeQmfz6IXFZ6Oatn2U4bfVPzfxXntZC92428HqaT+qGBPlZirdVSH6eV+dGUkZ+bdq6HNd3d88h6eIm8Rm4jd5H7xPv+rWz/im/3dtrefn5U6rfIe+Qx8hR5bryjxeN73S29/Fzvtnhv001Lpd/ccvq1Zn5b+X7187E41zul/+MZ5xwAAAAAAAAAAAAA6vcJhQ1rLARiAAA=
   </data>
  </layer>
- <layer name="Top" width="150" height="150">
+ <layer name="Top" width="123" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3OwQkAAAjEsNt/TR1EtxAkgf6bAAAAAAAAAAAAAADAP7X19QQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADnBnDmls6QXwEA
+   H4sIAAAAAAAAAO3OMQ0AAAjAMPzbBCEggsDTJvsXAQAAAAAAAAAAAPdyqu8JAAAAAAAAAAAAAAAAAABY1OkbuusEYgAA
   </data>
  </layer>
- <layer name="Collision" width="90" height="51" visible="0">
+ <layer name="Collision" width="123" height="51" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3S0QrCMAwF0LD//2hfFEZxarVtYjmBQ9n2sJu7HRFxAAAAAAAAwN1jsnPsbueez1MlS7VcIzuusNMnk93Zt3s9O6t2nJlv9G4V8vQ+qy4uzuxvvmPP7VTLUynfr73Gm+ers7X3ztfZHY76X9qZneeq43/W7vPqnL1372R3N3O3lfutft/KvXruAwAAAAAAAOzgBoCgrIW4RwAA
+   H4sIAAAAAAAAAO3RQQqFMAwFwNL7H9qVIFL0W2sT/RMYSuvCl6SWUioAAAAAAAAAAHDLWtE5sOu321aWLDNz9VT0nEb1mSnLjHw9Fb233j5bp13PzRA13wxZjr7bdX+frdOujyt6b6P6zJRlRr6eit7bnd2Wk++zs+3ftne7fldfv/6zdf/qTJ7sq56cT/d1tez6O31FzTHzTEb2eOX935gDAAAAAAAAAAAAGS3YWKf7BGIAAA==
   </data>
  </layer>
  <objectgroup name="Object" width="0" height="0">
   <object name="paraFora" type="warp" x="1888" y="928" width="64" height="32">
    <properties>
     <property name="dest_map" value="010"/>
-    <property name="dest_x" value="156"/>
-    <property name="dest_y" value="94"/>
+    <property name="dest_x" value="4992"/>
+    <property name="dest_y" value="3008"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="928" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
-    <property name="dest_x" value="152"/>
-    <property name="dest_y" value="107"/>
+    <property name="dest_x" value="4864"/>
+    <property name="dest_y" value="3424"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="736" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
-    <property name="dest_x" value="148"/>
-    <property name="dest_y" value="107"/>
+    <property name="dest_x" value="4736"/>
+    <property name="dest_y" value="3424"/>
+   </properties>
+  </object>
+  <object name="sairNoel" type="warp" x="3040" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="2240"/>
+    <property name="dest_y" value="1664"/>
    </properties>
   </object>
  </objectgroup>

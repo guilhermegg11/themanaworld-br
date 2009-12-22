@@ -155,15 +155,14 @@
 		type="generic"
 		weight="12"
 		max-per-slot="10"/>
-    <item id="508"
-        image="use-food-xmascake.png"
-        name="Xmas Cake"
-        description="A sweet xmas cake."
-        effect="+10 HP"
-        type="usable"
-        hp="10"
-        weight="20"
-        max-per-slot="10"/>
+	<item id="508"
+		image="use-food-xmascake.png"
+		name="Bolo de Natal"
+		description="Um bolo com o doce sabor do natal."
+		type="usable"
+		hp="10"
+		weight="20"
+		max-per-slot="10"/>
 	<item id="509"
 		image="use-food-chocolatebar.png"
 		name="Barra de Chocolate"
@@ -185,20 +184,20 @@
 	<item id="511"
 		image="armor-head-santahat.png"
 		name="Gorro de Natal"
-		description="Um gorro vermelho com uma bolinha na ponta usado no Natal."
+		description="Um gorro vermelho com uma bolinha na ponta usado no Natal. (presente do Papai Noel)"
 		type="equip-head"
 		weight="15"
 		defense="2"
 		max-per-slot="1">
 		<sprite>head-santahat.xml</sprite>
 	</item>
-    <item id="512"
-        image="use-food-gingerbreadman.png"
-        name="Ginger Bread Man"
-        description="A tasty ginger bread man."
-        effect="+25 HP"
-        type="usable"
-        weight="30"/>
+	<item id="512"
+		image="use-food-gingerbreadman.png"
+		name="Biscoito de Gengibre"
+		description="Um saboroso biscoito de gengibre em forma de um bonequinho."
+		hp="25"
+		type="usable"
+		weight="30"/>
 	<item id="513"
 		image="use-food-cake.png"
 		name="Bolo"
@@ -457,23 +456,21 @@
 		hp="200"
 		weight="400"
 		max-per-slot="10"/>
-    <item id="540"
-        image="generic-emptybottle.png"
-        name="Empty Bottle"
-        description="An empty bottle."
-        effect=""
-        type="generic"
-        weight="20"
-        max-per-slot="10"/>
-    <item id="541"
-        image="use-food-bottleofwater.png"
-        name="Bottle of Water"
-        description="A bottle of water."
-        effect="+250 HP"
-        type="usable"
-        hp="250"
-        weight="495"
-        max-per-slot="10"/>
+	<item id="540"
+		image="generic-emptybottle.png"
+		name="Garrafa Vazia"
+		description="Uma garrafa de água vazia."
+		type="generic"
+		weight="20"
+		max-per-slot="10"/>
+	<item id="541"
+		image="use-food-bottleofwater.png"
+		name="Garrafa d'água"
+		description="Uma garrafa de água."
+		type="usable"
+		hp="250"
+		weight="495"
+		max-per-slot="10"/>
     <item id="542"
         image="generic-bottleofsand.png"
         name="Bottle of Sand"
@@ -2324,6 +2321,25 @@
 		max-per-slot="1">
 		<sprite>head-fluffyhat.xml</sprite>
 	</item>
+	<item id="753"
+		image="generic-batwing.png"
+		name="Asa de Morcego"
+		description="A asa de um morcego."
+		type="generic"
+		weight="3"/>
+	<item id="754"
+		image="generic-batteeth.png"
+		name="Dentes de Morcego"
+		description="Os dentes de um morcego. Bastante afiados."
+		type="generic"
+		weight="2"/>
+	<item id="774"
+		image="generic-spice.png|R:#00FFFF"
+		name="Pó de Fantasma"
+		description="Pó de um Fantasma."
+		type="generic"
+		weight="1"
+		max-per-slot="30"/>
 
 	<!-- HERE ARE SOME UNUSED ITEM IDS -->
 
@@ -2403,7 +2419,7 @@
 	<item id="1204"
 		image="armor-head-antlerhat.png"
 		name="Chapéu Chifres de Rena"
-		description="Um chapéu fantasia de chifres de rena."
+		description="Um chapéu fantasia de chifres de rena. (presente do Papai Noel)"
 		type="equip-head"
 		weight="20"
 		defense="4"
@@ -2413,7 +2429,7 @@
 	<item id="1205"
 		image="armor-head-christmastree.png"
 		name="Chapéu Árvore de Natal"
-		description="Um chapéu em forma de árvore de Natal."
+		description="Um chapéu em forma de árvore de Natal. (presente do Papai Noel)"
 		type="equip-head"
 		weight="25"
 		defense="2"
@@ -2423,7 +2439,7 @@
 	<item id="1206"
 		image="armor-head-santabeardhat.png"
 		name="Gorro de Papai Noel"
-		description="Gorro que vai te deixar igualzinho ao Papai Noel."
+		description="Gorro que vai te deixar igualzinho ao Papai Noel. (presente do Papai Noel)"
 		type="equip-head"
 		weight="30"
 		defense="5"
@@ -4241,7 +4257,7 @@
 	<item id="3043"
 		image="armor-head-gorro-duende.png"
 		name="Gorro dos Duendes do Natal"
-		description="Um gorro usado por duendes do Natal."
+		description="Um gorro usado por duendes do Natal. (presente do Papai Noel)"
 		type="equip-head"
 		weight="15"
 		defense="2"
