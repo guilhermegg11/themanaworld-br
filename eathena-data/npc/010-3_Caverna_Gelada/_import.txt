@@ -1,3 +1,0 @@
-map: 010-3.gat
-npc: npc/010-3_Caverna_Gelada/_mobs.txt
-npc: npc/010-3_Caverna_Gelada/_warps.txt

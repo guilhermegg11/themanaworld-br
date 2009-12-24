@@ -1,0 +1,16 @@
+// 010-3 Caverna Congelada warps
+
+010-3.gat,26,36	warp	paraFora	-1,-1,010.gat,49,55
+010-3.gat,57,43	warp	paraFora	-1,-1,010.gat,80,65
+010-3.gat,47,59	warp	paraFora	-1,-1,010.gat,73,62
+010-3.gat,45,70	warp	paraFora	-1,-1,010.gat,68,90
+010-3.gat,52,62	warp	paraFora	-1,-1,010.gat,70,81
+010-3.gat,37,28	warp	paraFora	-1,-1,010.gat,58,52
+010-3.gat,50,55	warp	A(paraB)	-1,-1,010-3.gat,62,32
+010-3.gat,62,32	warp	B(paraA)	-1,-1,010-3.gat,50,55
+010-3.gat,36,47	warp	C(paraD)	-1,-1,010-3.gat,59,20
+010-3.gat,59,20	warp	D(paraC)	-1,-1,010-3.gat,36,47
+010-3.gat,31,62	warp	E(paraF)	-1,-1,010-3.gat,35,33
+010-3.gat,35,33	warp	F(paraE)	-1,-1,010-3.gat,31,62
+010-3.gat,50,48	warp	G(paraH)	-1,-1,010-3.gat,50,43
+010-3.gat,50,43	warp	H(paraG)	-1,-1,010-3.gat,50,48

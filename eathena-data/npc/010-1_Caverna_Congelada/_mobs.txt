@@ -1,0 +1,19 @@
+// 010-1 Caverna Congelada mobs
+
+010-1.gat,0,0,0,0	monster	Morcego (15)	1017,15,0,0,Mob010-1::On1017
+010-1.gat,0,0,0,0	monster	Spectro do Calafrio (3)	1047,3,0,0,Mob010-1::On1047
+
+
+010-1.gat,0,0,0	script	Mob010-1	-1,{
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+	break;
+
+On1047:
+	set @mobID, 1047;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

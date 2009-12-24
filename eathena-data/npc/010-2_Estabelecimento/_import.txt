@@ -1,3 +1,7 @@
 map: 010-2.gat
+
+npc: npc/010-2_Estabelecimento/vendedores.conf
+npc: npc/010-2_Estabelecimento/papai_noel.conf
+
 npc: npc/010-2_Estabelecimento/_mobs.txt
 npc: npc/010-2_Estabelecimento/_warps.txt

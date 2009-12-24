@@ -19,9 +19,9 @@ import: npc/009-1_Caverna_da_Montanha/_import.txt
 import: npc/009-2_Caverna/_import.txt
 import: npc/009-3_Reino_de_Lilit/_import.txt
 import: npc/010_Polo_Norte/_import.txt
-import: npc/010-1_Caverna_Gelada/_import.txt
+import: npc/010-1_Caverna_Congelada/_import.txt
 import: npc/010-2_Estabelecimento/_import.txt
-import: npc/010-3_Caverna_Gelada/_import.txt
+import: npc/010-3_Caverna_Congelada/_import.txt
 import: npc/prisao_Priso/_import.txt
 
 //npc: npc/+/mercado.conf
