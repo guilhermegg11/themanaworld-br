@@ -10,7 +10,7 @@
 009.gat,60,55,28,22	monster	Fada Furiosa (3)	1306,3,0,0,Mob009::On1306
 009.gat,29,67,29,31	monster	Fada Furiosa (3)	1306,3,0,0,Mob009::On1306
 009.gat,106,49,35,23	monster	Cobra das Montanhas (6)	1026,6,120000,0,Mob009::On1026
-009.gat,47,56,56,79	monster	Fada Traidora (1)	1307,1,0,120000,Mob009::On1307
+//009.gat,47,56,56,79	monster	Fada Traidora (1)	1307,1,0,120000,Mob009::On1307
 
 
 009.gat,0,0,0	script	Mob009	-1,{

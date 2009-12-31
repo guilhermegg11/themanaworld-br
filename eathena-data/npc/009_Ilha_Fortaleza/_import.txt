@@ -5,5 +5,7 @@ npc: npc/009_Ilha_Fortaleza/salto_perigoso.conf
 npc: npc/009_Ilha_Fortaleza/lobo_solitario.conf
 npc: npc/009_Ilha_Fortaleza/operarios.conf
 
+npc: npc/009_Ilha_Fortaleza/mob_fada_traidora.conf
+
 npc: npc/009_Ilha_Fortaleza/_mobs.txt
 npc: npc/009_Ilha_Fortaleza/_warps.txt

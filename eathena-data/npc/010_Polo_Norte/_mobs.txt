@@ -1,15 +1,18 @@
 // 010 Polo Norte mobs
 
-010.gat,141,58,28,13	monster	Mouboo (5)	1028,6,0,0,Mob010::On1028
 010.gat,0,0,0,0	monster	Limo de Neve (15)	1319,15,0,0,Mob010::On1319
+010.gat,141,58,28,13	monster	Mouboo (5)	1028,6,0,0,Mob010::On1028
 010.gat,136,59,55,55	monster	Limo de Neve (15)	1319,15,0,0,Mob010::On1319
-010.gat,77,104,62,31	monster	Limo de Gelo (10)	1318,10,0,0,Mob010::On1318
-010.gat,96,42,15,44	monster	Limo de Gelo (15)	1318,15,0,0,Mob010::On1318
-010.gat,54,29,68,17	monster	Limo de Gelo (20)	1318,15,0,0,Mob010::On1318
-010.gat,30,73,21,69	monster	Limo de Gelo (25)	1318,20,0,0,Mob010::On1318
-010.gat,69,75,27,13	monster	Limo Rodolfo (10)	1016,10,0,0,Mob010::On1016
+010.gat,77,104,62,31	monster	Limo Rodolfo (8)	1016,8,0,0,Mob010::On1016
+010.gat,96,42,15,44	monster	Limo de Gelo (8)	1318,8,0,0,Mob010::On1318
+010.gat,54,29,68,17	monster	Limo Rodolfo (8)	1016,8,0,0,Mob010::On1016
+010.gat,30,73,21,69	monster	Limo Rodolfo (8)	1016,8,0,0,Mob010::On1016
+010.gat,69,75,27,13	monster	Limo Rodolfo (8)	1016,8,0,0,Mob010::On1016
 010.gat,68,61,21,43	monster	Mouboo Rena (6)	1317,8,0,0,Mob010::On1317
-010.gat,65,53,46,29	monster	Limo Noel (4)	1015,4,0,0,Mob010::On1015
+010.gat,65,53,46,29	monster	Limo Noel (3)	1015,3,0,0,Mob010::On1015
+010.gat,53,28,68,17	monster	Limo Noel (3)	1015,3,0,0,Mob010::On1015
+010.gat,29,72,21,69	monster	Limo Noel (3)	1015,3,0,0,Mob010::On1015
+010.gat,78,105,62,31	monster	Limo Noel (3)	1015,3,0,0,Mob010::On1015
 
 
 010.gat,0,0,0	script	Mob010	-1,{

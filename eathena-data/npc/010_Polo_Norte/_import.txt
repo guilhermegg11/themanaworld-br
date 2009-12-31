@@ -5,7 +5,8 @@ npc: npc/010_Polo_Norte/duende_faisca.conf
 npc: npc/010_Polo_Norte/duende_lulu.conf
 npc: npc/010_Polo_Norte/duende_tunico.conf
 npc: npc/010_Polo_Norte/boneco_neve.conf
-npc: npc/010_Polo_Norte/guia_natal.conf
+
+npc: npc/010_Polo_Norte/ano_novo.conf
 
 npc: npc/010_Polo_Norte/_mobs.txt
 npc: npc/010_Polo_Norte/_warps.txt
