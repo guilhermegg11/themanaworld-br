@@ -1,0 +1,3 @@
+map: 004.gat
+npc: npc/004_Ilha_Fortaleza/_mobs.txt
+npc: npc/004_Ilha_Fortaleza/_warps.txt

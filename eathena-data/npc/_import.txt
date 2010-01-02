@@ -1,4 +1,5 @@
 import: npc/002_Fortaleza/_import.txt
+import: npc/004_Ilha_Fortaleza/_import.txt
 import: npc/005_Fortaleza/_import.txt
 import: npc/005-1_Quartel_General/_import.txt
 import: npc/005-2_Penso_Bhramir/_import.txt

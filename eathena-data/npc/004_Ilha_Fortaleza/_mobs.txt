@@ -1,0 +1,7 @@
+// 004 Ilha Fortaleza mobs
+
+
+
+004.gat,0,0,0	script	Mob004	-1,{
+	end;
+}
