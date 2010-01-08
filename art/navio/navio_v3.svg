@@ -109,10 +109,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="387.66019"
-     inkscape:cy="417.24325"
+     inkscape:cx="375.66019"
+     inkscape:cy="411.24325"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="966"
@@ -479,6 +479,23 @@
          sodipodi:nodetypes="ccccc"
          transform="matrix(0.9902681,0.139173,-0.139173,0.9902681,0,0)" />
     </g>
+    <path
+       id="path2500"
+       style="fill:#b59e75;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 532.9375,121.03198 C 535.44539,115.6558 543.04855,116.3195 543.0625,131.53198 C 540.21489,127.03048 539.147,118.38312 532.9375,121.03198 z M 164.84911,219.20876 C 167.357,213.83258 174.96016,214.49628 174.97411,229.70876 C 172.1265,225.20726 171.05861,216.5599 164.84911,219.20876 z" />
+    <image
+       y="104.09448"
+       x="160"
+       id="image3576"
+       height="352"
+       width="416"
+       sodipodi:absref="/home/smb/themanaworld-br/art/navio/vela.png"
+       xlink:href="vela.png" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 171.06349,222.28521 C 317.66836,210.74574 437.46008,182.03379 540.88034,121.16894 C 565.9514,170.38344 580.4334,247.53753 566.7504,319.58168 C 536.54107,385.68125 396.68831,433.50778 256.18838,454.59448 C 222.5,414.75095 183.5,314.65573 171.06349,222.28521 z"
+       id="path2556"
+       sodipodi:nodetypes="ccccc" />
     <g
        id="g4061"
        style="fill:#866940;fill-opacity:1"
@@ -609,10 +626,22 @@
        d="M 347.75714,12.749996 L 356.24285,12.749996 L 357.49999,160.1957 C 354.00809,162.19197 350.41988,162.88416 346.49999,160.1957 L 347.75714,12.749996 z"
        style="opacity:1;fill:#685232;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
+       sodipodi:nodetypes="cccc"
+       id="path2558"
+       d="M 540.88034,121.16894 C 565.9514,170.38344 580.4334,247.53753 566.7504,319.58168 C 536.54107,385.68125 396.68831,433.50778 256.18838,454.59448 C 529.03341,380.65879 564.29853,315.19562 540.88034,121.16894 z"
+       style="opacity:0.15;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
        style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 352,18.25 C 393.86681,10.12913 414.27109,36.894544 454,18.25 C 462.5024,42.941047 465.21711,66.254074 454,86.25 C 418.66698,94.253729 389.28888,69.896811 352,86.25 C 357.71037,66.21889 358.53458,43.932626 352,18.25 z"
        id="rect4049"
        sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/smb/themanaworld-br/art/navio/mastro.png"
+       d="M 568,8.094482 L 576,8.094482 L 576,16.094482 L 568,16.094482 L 568,8.094482 z M 160,544.09448 L 168,544.09448 L 168,552.09448 L 160,552.09448 L 160,544.09448 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3557" />
     <path
        sodipodi:type="arc"
        style="opacity:1;fill:#685232;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.95114565;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -623,35 +652,6 @@
        sodipodi:ry="41"
        d="M 377,124 A 41,41 0 1 1 295,124 A 41,41 0 1 1 377,124 z"
        transform="matrix(0.1027632,0,0,6.869122e-2,317.47156,4.1072846)" />
-    <path
-       id="path2500"
-       style="fill:#b59e75;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 532.9375,121.03198 C 535.44539,115.6558 543.04855,116.3195 543.0625,131.53198 C 540.21489,127.03048 539.147,118.38312 532.9375,121.03198 z M 164.84911,219.20876 C 167.357,213.83258 174.96016,214.49628 174.97411,229.70876 C 172.1265,225.20726 171.05861,216.5599 164.84911,219.20876 z" />
-    <image
-       y="104.09448"
-       x="160"
-       id="image3576"
-       height="352"
-       width="416"
-       sodipodi:absref="/home/smb/themanaworld-br/art/navio/vela.png"
-       xlink:href="vela.png" />
-    <path
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 171.06349,222.28521 C 317.66836,210.74574 437.46008,182.03379 540.88034,121.16894 C 565.9514,170.38344 580.4334,247.53753 566.7504,319.58168 C 536.54107,385.68125 396.68831,433.50778 256.18838,454.59448 C 222.5,414.75095 183.5,314.65573 171.06349,222.28521 z"
-       id="path2556"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       sodipodi:nodetypes="cccc"
-       id="path2558"
-       d="M 540.88034,121.16894 C 565.9514,170.38344 580.4334,247.53753 566.7504,319.58168 C 536.54107,385.68125 396.68831,433.50778 256.18838,454.59448 C 529.03341,380.65879 564.29853,315.19562 540.88034,121.16894 z"
-       style="opacity:0.15;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/smb/themanaworld-br/art/navio/mastro.png"
-       d="M 568,8.094482 L 576,8.094482 L 576,16.094482 L 568,16.094482 L 568,8.094482 z M 160,544.09448 L 168,544.09448 L 168,552.09448 L 160,552.09448 L 160,544.09448 z"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path3557" />
     <path
        style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 359.96096,37.524372 C 358.63617,37.532637 357.29572,37.527348 355.93422,37.555588 C 357.09386,47.142975 357.16884,56.230305 356.34002,64.899942 C 393.33348,61.789231 423.99309,69.255329 460.3791,66.647983 C 461.72819,57.716887 461.14991,48.320285 459.25537,38.616898 C 420.09735,44.602319 397.30083,37.291396 359.96096,37.524372 z"
