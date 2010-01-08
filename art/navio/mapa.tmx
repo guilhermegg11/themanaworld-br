@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="64" height="48" tilewidth="32" tileheight="32">
+ <tileset name="Mastro" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="tileset.png"/>
+ </tileset>
+ <tileset name="Mastro x3" firstgid="161" tilewidth="32" tileheight="96">
+  <image source="tileset_x3.png"/>
+ </tileset>
+ <layer name="chao" width="64" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAgHcD7IoligAwAAA=
+  </data>
+ </layer>
+ <layer name="fringe" width="64" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3LMQ0AAAjAMPy7AKWggYOHNtm5CAAAAOCrnOrwAwAAAAAAAAD2GoWHddIAMAAA
+  </data>
+ </layer>
+ <layer name="top" width="64" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3R108UURiG8UORJgIJHUR6MaF3EgVEagIoBO5soStF6UWKSi8S6VIU/1Sei71ZMsuuy5zJXHxP8sskJO/mI0cpyahSlFm4s1v1aLBwZ7e60G3hzk75wBd+8Hf8LQGJeIxcL3Yruo7V0AMEIBBBCEYIHiIUjzzYfcQn7GAXe3pPNqVIRCEaMYhFHOJRjBLHN+nWbhxrWMcGNrGFbVzgElf6z/e6VKQhHRnIRBZeos7gm+fYfccPrOIYJzjFGX7j3LL/4H4VKef3vev7DM8duwMc4gif8QVhCEeEdeffuxfK+J2Nvq1oc/E73/AEyUjRebDJdaBTefb+b/DWxe/8Qj4KUKj3ZNPrUe7ffxgjGDXYX+MfqlGDWt0Hm9yEcv3u81jAVyy62C9hGe14hdea7zW7PvQq5/fuxwAGMeRm/xP7eIf3+KDrUI1NYgrTmMEs5jzc/sFfjOk5zbKykYOnFu3sVDkqUIkqC3Z2qxFNaEbLf+6UFztJkiRJkiRJkiRJkiRJkiRJkiRJkiRJMqsb8GdbAQAwAAA=
+  </data>
+ </layer>
+</map>
