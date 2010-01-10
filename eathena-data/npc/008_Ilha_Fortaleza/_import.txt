@@ -4,7 +4,6 @@ map: 008.gat
 npc: npc/008_Ilha_Fortaleza/menir_alma.conf
 
 npc: npc/008_Ilha_Fortaleza/juliana.conf
-npc: npc/008_Ilha_Fortaleza/joana.conf
 npc: npc/008_Ilha_Fortaleza/eliana.conf
 npc: npc/008_Ilha_Fortaleza/joaozinho.conf
 npc: npc/008_Ilha_Fortaleza/vendedores.conf

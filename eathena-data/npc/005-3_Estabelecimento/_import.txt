@@ -4,5 +4,8 @@ npc: npc/005-3_Estabelecimento/banco.conf
 npc: npc/005-3_Estabelecimento/vendedores.conf
 npc: npc/005-3_Estabelecimento/agirrab.conf
 
+// traduzindo...
+npc: npc/005-3_Estabelecimento/kfahr.conf
+
 npc: npc/005-3_Estabelecimento/_mobs.txt
 npc: npc/005-3_Estabelecimento/_warps.txt

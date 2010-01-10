@@ -13,3 +13,4 @@
 005.gat,71,25	warp	paraBanco2	0,-1,005-3.gat,85,22
 005.gat,178,19	warp	paraCima	0,-1,002.gat,177,118
 005.gat,22,19	warp	paraCima	0,-1,002.gat,21,118
+005.gat,39,87	warp	paraBar4	-1,-1,005-3.gat,50,143

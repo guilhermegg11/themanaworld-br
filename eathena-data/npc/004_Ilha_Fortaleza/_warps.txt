@@ -1,2 +1,9 @@
 // 004 Ilha Fortaleza warps
 
+004.gat,79,119	warp	paraPraia	3,-1,007.gat,79,19
+004.gat,109,120	warp	sairFazenda	0,-1,007.gat,108,20
+004.gat,151,19	warp	caverna2	-1,-1,004.gat,144,25
+004.gat,136,83	warp	caverna3	-1,-1,004.gat,144,25
+004.gat,137,88	warp	caverna4	-1,-1,004.gat,144,25
+004.gat,47,109	warp	paraCasaJoana1	-1,-1,004.gat,45,105
+004.gat,45,105	warp	paraCasaJoana2	-1,-1,004.gat,47,109

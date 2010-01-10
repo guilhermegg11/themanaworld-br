@@ -1,12 +1,14 @@
 // 007 Praia do Porto warps
 
+007.gat,180,50	warp	paraDir	-1,-1,008.gat,20,50
+007.gat,180,94	warp	paraDir	-1,-1,008.gat,20,94
+007.gat,79,19	warp	paraPraia	3,-1,004.gat,79,119
+007.gat,109,20	warp	paraFazenda	0,-1,004.gat,108,120
 007.gat,63,29	warp	paraHospital	-1,-1,007-4.gat,100,31
 007.gat,37,38	warp	paraCabana1	-1,-1,007-4.gat,27,31
 007.gat,30,67	warp	paraCabana2	-1,-1,007-4.gat,63,31
 007.gat,134,108	warp	paraCabana3	-1,-1,007-4.gat,26,67
 007.gat,73,47	warp	paraCabana4	-1,-1,007-4.gat,63,67
-007.gat,180,50	warp	paraDir	-1,-1,008.gat,20,50
-007.gat,180,94	warp	paraDir	-1,-1,008.gat,20,94
 007.gat,169,75	warp	paraCaverna	-1,-1,007-1.gat,44,56
 007.gat,179,78	warp	caraCaverna	-1,-1,007-1.gat,54,59
 007.gat,148,26	warp	paraCaverna	-1,-1,007-3.gat,44,31
