@@ -38,114 +38,120 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="F(paraE)" type="warp" x="1120" y="1056" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1088"/>
-    <property name="dest_y" value="2016"/>
-   </properties>
-  </object>
   <object name="paraFora" type="warp" x="832" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
     <property name="dest_x" value="1568"/>
-    <property name="dest_y" value="1792"/>
+    <property name="dest_y" value="1760"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="1824" y="1376" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
     <property name="dest_x" value="2560"/>
-    <property name="dest_y" value="2112"/>
-   </properties>
-  </object>
-  <object name="C(paraD)" type="warp" x="1152" y="1504" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1984"/>
-    <property name="dest_y" value="736"/>
+    <property name="dest_y" value="2080"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="1504" y="1888" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
     <property name="dest_x" value="2336"/>
-    <property name="dest_y" value="2016"/>
-   </properties>
-  </object>
-  <object name="B(paraA)" type="warp" x="1984" y="1024" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1696"/>
-    <property name="dest_y" value="1856"/>
-   </properties>
-  </object>
-  <object name="A(paraB)" type="warp" x="1600" y="1760" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="2080"/>
-    <property name="dest_y" value="1056"/>
+    <property name="dest_y" value="1984"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="1440" y="2240" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
     <property name="dest_x" value="2176"/>
-    <property name="dest_y" value="2912"/>
+    <property name="dest_y" value="2880"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="1664" y="1984" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
     <property name="dest_x" value="2240"/>
-    <property name="dest_y" value="2624"/>
-   </properties>
-  </object>
-  <object name="D(paraC)" type="warp" x="1888" y="640" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1248"/>
-    <property name="dest_y" value="1536"/>
-   </properties>
-  </object>
-  <object name="E(paraF)" type="warp" x="992" y="1984" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1216"/>
-    <property name="dest_y" value="1152"/>
+    <property name="dest_y" value="2592"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="1184" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
     <property name="dest_x" value="1856"/>
-    <property name="dest_y" value="1696"/>
+    <property name="dest_y" value="1664"/>
    </properties>
   </object>
-  <object name="Rudolph Slime (15)" type="spawn" x="928" y="1568" width="1056" height="640">
+  <object name="A(paraB)" type="warp" x="1600" y="1760" width="32" height="32">
    <properties>
-    <property name="max_beings" value="15"/>
-    <property name="monster_id" value="14"/>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="1984"/>
+    <property name="dest_y" value="1024"/>
    </properties>
   </object>
-  <object name="Santa Slime (25)" type="spawn" x="576" y="672" width="1696" height="704">
+  <object name="B(paraA)" type="warp" x="1984" y="1024" width="32" height="32">
    <properties>
-    <property name="max_beings" value="25"/>
-    <property name="monster_id" value="13"/>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="1760"/>
+   </properties>
+  </object>
+  <object name="C(paraD)" type="warp" x="1152" y="1504" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="1888"/>
+    <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="D(paraC)" type="warp" x="1888" y="640" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="1504"/>
+   </properties>
+  </object>
+  <object name="E(paraF)" type="warp" x="992" y="1984" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="1120"/>
+    <property name="dest_y" value="1056"/>
+   </properties>
+  </object>
+  <object name="F(paraE)" type="warp" x="1120" y="1056" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="1984"/>
    </properties>
   </object>
   <object name="G(paraH)" type="warp" x="1600" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1696"/>
-    <property name="dest_y" value="1408"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="1376"/>
    </properties>
   </object>
   <object name="H(paraG)" type="warp" x="1600" y="1376" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1696"/>
-    <property name="dest_y" value="1632"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="1536"/>
+   </properties>
+  </object>
+  <object name="Limo Rodolfo (15)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="14"/>
+   </properties>
+  </object>
+  <object name="Limos Noel (4)" type="spawn" x="608" y="640" width="1536" height="896">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="13"/>
+   </properties>
+  </object>
+  <object name="Espectro do Calafrio (4)" type="spawn" x="576" y="608" width="1536" height="896">
+   <properties>
+  <property name="max_beings" value="4"/>
+  <property name="monster_id" value="45"/>
    </properties>
   </object>
  </objectgroup>

@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="240" height="80" tilewidth="32" tileheight="32">
  <properties>
+  <property name="minimap" value="/graphics/minimaps/008-2.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Caverna"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
@@ -47,6 +48,9 @@
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5280" y="1568" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5568" y="1152" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1344" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="6624" y="768" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="6816" y="768" width="32" height="32"/>
+
   <object name="paraDentro" type="warp" x="3744" y="672" width="32" height="32">
    <properties>
     <property name="dest_map" value="008-2"/>
@@ -82,6 +86,14 @@
     <property name="dest_y" value="800"/>
    </properties>
   </object>
+  <object name="paraFora" type="warp" x="6720" y="1856" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-2"/>
+    <property name="dest_x" value="3744"/>
+    <property name="dest_y" value="672"/>
+   </properties>
+  </object>
+
   <object name="Aranha (5)" type="spawn" x="3264" y="672" width="960" height="608">
    <properties>
     <property name="eA_death" value="30000"/>
@@ -122,16 +134,21 @@
     <property name="monster_id" value="6"/>
    </properties>
   </object>
-  <object name="paraFora" type="warp" x="6720" y="1856" width="32" height="32">
+  <object name="Caveira de Fogo (1) [3min]" type="spawn" x="6432" y="672" width="576" height="512">
    <properties>
-    <property name="dest_map" value="008-2"/>
-    <property name="dest_x" value="3744"/>
-    <property name="dest_y" value="672"/>
+    <property name="eA_spawn" value="180000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="21"/>
    </properties>
   </object>
+  <object name="Caveira Envenenada (1) [3min]" type="spawn" x="6464" y="704" width="576" height="512">
+   <properties>
+    <property name="eA_spawn" value="180000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="22"/>
+   </properties>
+  </object>
+
   <object name="Passagem Condicional - Tem que fazer quest" x="6720" y="640" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="6624" y="768" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="6816" y="768" width="32" height="32"/>
-  <object name="NPC que permite ou não a passagem" x="6688" y="736" width="32" height="32"/>
  </objectgroup>
 </map>

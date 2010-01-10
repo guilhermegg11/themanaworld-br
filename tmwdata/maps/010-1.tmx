@@ -37,27 +37,33 @@
    <properties>
     <property name="dest_map" value="010"/>
     <property name="dest_x" value="4640"/>
-    <property name="dest_y" value="2336"/>
+    <property name="dest_y" value="2304"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="1472" y="896" width="32" height="32">
    <properties>
-    <property name="dast_map" value="010"/>
+    <property name="dest_map" value="010"/>
     <property name="dest_x" value="4544"/>
-    <property name="dest_y" value="2048"/>
+    <property name="dest_y" value="2016"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="1440" y="608" width="32" height="32">
    <properties>
     <property name="dest_map" value="010"/>
     <property name="dest_x" value="4544"/>
-    <property name="dest_y" value="1472"/>
+    <property name="dest_y" value="1504"/>
    </properties>
   </object>
-  <object name="Morcego (15)" type="spawn" x="672" y="928" width="1600" height="896">
+  <object name="Morcego (15)" type="spawn" x="0" y="0">
    <properties>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Spectro do Calafrio (3)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="45"/>
    </properties>
   </object>
  </objectgroup>
