@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="61" height="57" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Igreja"/>
+ </properties>
+ <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="blockWalls" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png"/>
+ </tileset>
+ <tileset name="blockWalls_in_x3" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls_in_x3.png"/>
+ </tileset>
+ <tileset name="inn" firstgid="307" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="sombras" firstgid="563" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/sombras.png"/>
+ </tileset>
+ <tileset name="numeros" firstgid="587" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png"/>
+ </tileset>
+ <tileset name="escada_madeir" firstgid="697" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/escada_madeira.png"/>
+ </tileset>
+ <tileset name="Woodland_ground" firstgid="753" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png"/>
+ </tileset>
+ <tileset name="Pots_x2" firstgid="1009" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Pots_x2.png"/>
+ </tileset>
+ <layer name="Ground" width="61" height="57">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3TwQkCMRRF0QS1AWuyBEuwB0uwIO1gGnPAAbNxZH6ExHAWZxUI7y7+lFKaAAAAoBO72X6jQwe7a5xyTOvdWx0L0ebyj9Y9muPN18UozaVPTbfFKPdcOueY1rtrXHJM692/6qx5653mt283PGLzyLetWbNmzZo1907zy332WOlae2/dAwAAAAD8nyeSyr2RVDYAAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="61" height="57">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WQU7CQBTG8fYVthxBOItH8ATqCZT7QcDowuhKExPcAivYEcISXjOaTMrM1GgDnfH/S76QNMPkfZkWmmUAAAAAAODUCk3nK7/1/f1uIxMBzRiJyVjOu8cpPYrJU2XeyzzLFp58yM/2aKsXMXm15r3WXleanSdTXfsg4T3a7E1M3q1577TXTU3nZwnv0WYzMfn8Q2fXHrEpO98GOk8qnVMwKc9S0xF3Vpp1Yp1tc+v3epmfe5pmXOh59T0ZaDbWPb3N69fH4l5fuofF8efe0bm85lsfk1CHaue69bHwdegVx517jnUpdS79t3NO+XkOcZ1z6grrXaQb0X8RAAAAAAAAALTZAZbxnLhUNgAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="61" height="57">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UTQrCMBCG4VrvoEt3eg0PJR6h6gVsXft/RjdaEBo+piUUUxN9HxhIZ+gwISFZBgAAAAAAvq2Q762z3kltE3iWUJZ5E7W91CtnfZBa2dIjdjrvReo3Z32X2rWlR+y65l2P/HKp7XmWN6EKY39WrqsH4jPt8c/k41MMa2Hkjq+7fHrH2bjX8+BTDcv3Dfsl9Xu1krDeMCA1j7FfDmnjnP8D5wwAAAAAAAAAQH9Phzyh4lQ2AAA=
+  </data>
+ </layer>
+ <layer name="Top " width="61" height="57">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3W7Q2CMBSF4SICA/g1QFMd1BF0E3UC5tJ4f2CCtYgXEaF5n+QkpKXknh9NMAYAAAAAAAwtlcyrFB3O57XzWY9z/dKyFtvhvPO+MQW24flTruF5zOisR+dpaOt5SIw5Vtkn79+NpbMGnceLzt+JofN19rp2C6w9xNBZi87jRednobsbw30+Sc495TLw7F2VXlL5v8wlhSRL9Pvlf2qo+PMupMdaspGsAp3a9qfAn9lKj61kJ3GBTm37AAAAAAAAAKB1B9ayO3hUNgAA
+  </data>
+ </layer>
+ <layer name="Top2" width="61" height="57">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3MMREAAAgEILt49q9oiXcSAlAFAAAAcK+D1wQvAAAAAAAAAACAbxYA1cKfVDYAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="61" height="57" visible="0" opacity="0.52">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SMQ6AIBREQeT+h7axsBAJECN8pphGQuL6zCmlDAAAAADQ4Lg8PSup3Z/d/Z2ftrWcr6K26a3/6ptH/b1jZPPX92awY+eoLXs6lzZH6Lzjv62zzjrH7xx5c+kb9J4DAAAAALQ4AZt1E9RUNgAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="Margem" x="0" y="0" width="640" height="640"/>
+  <object name="paraCima" x="672" y="640" width="64" height="32"/>
+  <object name="paraCima" x="1184" y="640" width="64" height="32"/>
+  <object name="Object" x="1280" y="1152" width="672" height="672"/>
+  <object name="paraFora" type="warp" x="800" y="1120" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="4928"/>
+    <property name="dest_y" value="768"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1056" y="1120" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005"/>
+    <property name="dest_x" value="5088"/>
+    <property name="dest_y" value="768"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
