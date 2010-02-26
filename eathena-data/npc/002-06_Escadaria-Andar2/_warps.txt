@@ -1,0 +1,8 @@
+// 002-06_Escadaria-Andar2
+
+002-06.gat,52,27	warp	paraCima1	2,-1,002-07.gat,32,30
+002-06.gat,52,29	warp	paraBaixo	2,-1,002-05.gat,52,26
+
+002-06.gat,44,33	warp	paraFora1	2,-1,002.gat,97,44
+002-06.gat,50,33	warp	paraFora2	2,-1,002.gat,102,44
+
