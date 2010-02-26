@@ -437,3 +437,4 @@
 3045,presenteDourado,presenteDourado,0,99,1,25,,,,,,2,,,0,,{callfunc "presenteSurpresa";},{},
 3046,verdadeiroTrevo,verdadeiroTrevo,5,10000,5000,1,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 10; bonus bMdef, 25; },
 3047,machadinhaThomasHawk,machadinhaThomasHawk,4,16000,8000,120,150,,1,,0,2,2,1,1,1,{},{},,
+3048,CottonSkirtMini,Mini Cotton Skirt,5,1200,600,20,,3,,-8,0,2,1,,1,0,{},{},,

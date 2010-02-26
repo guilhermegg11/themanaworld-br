@@ -1,28 +1,43 @@
 import: npc/002_Fortaleza/_import.txt
+import: npc/002-01_Sala_de_Festas/_import.txt
+import: npc/002-02_Quartos_Femininos/_import.txt
+import: npc/002-03_Quartos_Marculinos/_import.txt
+import: npc/002-04_Escadaria-Terrea/_import.txt
+import: npc/002-05_Escadaria-Andar1/_import.txt
+import: npc/002-06_Escadaria-Andar2/_import.txt
+import: npc/002-07_Escadaria-Andar3e4/_import.txt
+
 import: npc/004_Ilha_Fortaleza/_import.txt
+
 import: npc/005_Fortaleza/_import.txt
 import: npc/005-1_Quartel_General/_import.txt
 import: npc/005-2_Penso_Bhramir/_import.txt
 import: npc/005-3_Estabelecimento/_import.txt
+import: npc/005-4_Igreja/_import.txt
+
 import: npc/007_Praia_do_Porto/_import.txt
 import: npc/007-1_Caverna_do_Eremita/_import.txt
 import: npc/007-2_Caverna_do_Tesouro/_import.txt
 import: npc/007-3_Caverna/_import.txt
 import: npc/007-4/_import.txt
+
 import: npc/008_Ilha_Fortaleza/_import.txt
 import: npc/008-1_Caverna/_import.txt
 import: npc/008-2_Caverna/_import.txt
 import: npc/008-3_Mina_da_Areia/_import.txt
 import: npc/008-4_Mina_da_Areia/_import.txt
 import: npc/008-5_Arena_de_Combate/_import.txt
+
 import: npc/009_Ilha_Fortaleza/_import.txt
 import: npc/009-1_Caverna_da_Montanha/_import.txt
 import: npc/009-2_Caverna/_import.txt
 import: npc/009-3_Reino_de_Lilit/_import.txt
+
 import: npc/010_Polo_Norte/_import.txt
 import: npc/010-1_Caverna_Congelada/_import.txt
 import: npc/010-2_Estabelecimento/_import.txt
 import: npc/010-3_Caverna_Congelada/_import.txt
+
 import: npc/prisao_Priso/_import.txt
 
 //npc: npc/+/mercado.conf
