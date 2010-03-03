@@ -1,5 +1,11 @@
-##3 Updates:
-##3 http://themanaworld-br.googlecode.com/svn/updates
+##3 O TMW-BR precisa de sua ajuda
+##3 06/01/2010
+##0
+##0 Contribua com o The Mana World Brasil.
+##0 Faça sua doação e ajude a manter o nosso
+##0 servidor vivo. Mais informações acesse:
+##0 http://forums.themanaworld.com.br/
+##0 viewtopic.php?f=3&t=1110
 ##0
 ##3 Conteúdo personalizado
 ##3 28/05/2009
@@ -20,7 +26,8 @@
 ##0 Você acha que devemos ou não fazer o reset do
 ##0 servidor? Dê sua opinião votando em nosso
 ##0 forum no endereço:
-##0 http://themanaworld.com.br/viewtopic.php?f=5&t=31
+##0 http://themanaworld.com.br/
+##0 viewtopic.php?f=5&t=31
 ##0
 ##2 Administração
 ##0
