@@ -4289,4 +4289,16 @@
         max-per-slot="1">
         <sprite>leg-skirt-mini.xml|#A4B2B2,FFFFFF</sprite>
     </item>
+    
+	<item id="3049"
+		image="armor-head-masc-ninja.png"
+		name="Máscara Ninja"
+		description="Mascara para que não reconheçam seu rosto."
+		type="equip-head"
+		weight="15"
+		defense="3"
+		max-per-slot="1">
+		<sprite>head-masc-ninja.xml</sprite>
+	</item>
+	    
 </items>
