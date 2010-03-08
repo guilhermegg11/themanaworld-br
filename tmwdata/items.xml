@@ -2282,8 +2282,7 @@
         hp="11"
         effect="+11 HP"
         type="useable"
-        weight="10">
-    </item>
+        weight="10"/>
     <item id="748"
         image="use-food-orangecupcake.png"
         name="Laced Orange Cupcake"
@@ -4418,7 +4417,6 @@
 		attack-angle="135"
 		max-per-slot="1"
 		view="521"/>
-
 	<item id="3057"
 		image="espada-zambacutou-pedra.png"
 		name="Zambacutou de Pedra"
@@ -4437,7 +4435,6 @@
 		attack-angle="135"
 		max-per-slot="1"
 		view="521"/>
-
 	<item id="3058"
 		image="espada-zambacutou-velha.png"
 		name="Zambacutou Velha"
@@ -4456,5 +4453,52 @@
 		attack-angle="135"
 		max-per-slot="1"
 		view="521"/>
-
+    <item id="3059"
+        image="generic-barra-cobre.png"
+        name="Barra de Cobre"
+        description="Usada como Tesouro ou para fazer objetos de cobre."
+        effect=""
+        type="generic"
+        weight="3000"
+        max-per-slot="10"/>
+    <item id="3060"
+        image="generic-barra-prata.png"
+        name="Barra de Prata"
+        description="Usada como Tesouro ou para fazer objetos de prata."
+        effect=""
+        type="generic"
+        weight="3000"
+        max-per-slot="10"/>
+    <item id="3061"
+        image="generic-barra-ouro.png"
+        name="Barra de Ouro"
+        description="Usada como Tesouro ou para fazer objetos de ouro."
+        effect=""
+        type="generic"
+        weight="3000"
+        max-per-slot="10"/>
+    <item id="3062"
+        image="generic-gema-safira.png"
+        name="Gema de Safira"
+        description="Usada como Tesouro."
+        effect=""
+        type="generic"
+        weight="300"
+        max-per-slot="10"/>
+    <item id="3063"
+        image="generic-gema-esmeralda.png"
+        name="Gema de Esmeralda"
+        description="Usada como Tesouro."
+        effect=""
+        type="generic"
+        weight="300"
+        max-per-slot="10"/>
+    <item id="3064"
+        image="generic-gema-diamante.png"
+        name="Gema de Diamante"
+        description="Usada como Tesouro."
+        effect=""
+        type="generic"
+        weight="300"
+        max-per-slot="10"/>
 </items>
