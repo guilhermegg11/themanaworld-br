@@ -4501,4 +4501,35 @@
         type="generic"
         weight="300"
         max-per-slot="10"/>
+	<item id="3065"
+		image="armor-head-bruxa.png"
+		name="Chapeu Mágico"
+		description="Chapéu de quem tem apitidão mágica."
+		type="equip-head"
+		weight="25"
+		defense="4"
+		max-per-slot="1">
+		<sprite>head-bruxa.xml</sprite>
+	</item>
+	<item id="3066"
+		image="armor-head-masc-ninja2.png"
+		name="Máscara Ninja Estilizada"
+		description="Mascara Estilizada para que não reconheçam seu rosto."
+		type="equip-head"
+		weight="15"
+		defense="3"
+		max-per-slot="1">
+		<sprite>head-masc-ninja2.xml</sprite>
+	</item>
+    <item id="3067"
+        image="armor-head-admcap.png"
+        name="ADM Cap"
+        description="Boné dos Administradores."
+        type="equip-head"
+        defense="5"
+        weight="10">
+        <sprite>head-admcap.xml</sprite>
+    </item>
+
+
 </items>
