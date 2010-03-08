@@ -458,3 +458,8 @@
 3062,GemaSafira,Gema de Safira,3,1000000,990000,300,,,,,,,,,,,{},{},,
 3063,GemaEsmeralda,Gema Esmeralda,3,10000000,9900000,300,,,,,,,,,,,{},{},,
 3064,GemaDiamante,Gema Diamante,3,100000000,99000000,300,,,,,,,,,,,{},{},,
+//2010-03-08: Lunovox
+3065,ChapeuMagico,Chapeu Mágico,5,3000,1500,300,,5,,2,0,2,256,,0,0,{},{},,
+3066,MascaraNinjaEstilizada,Máscara Ninja Estilizada,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{},,
+3067,ADMcap,ADM Cap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{},,
+
