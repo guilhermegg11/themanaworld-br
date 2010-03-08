@@ -440,7 +440,6 @@
 3046,verdadeiroTrevo,verdadeiroTrevo,5,10000,5000,1,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 10; bonus bMdef, 25; },
 3047,machadinhaThomasHawk,machadinhaThomasHawk,4,16000,8000,120,150,,1,,0,2,2,1,1,1,{},{},,
 3048,MiniSaia,Mini Saia,5,1200,600,20,,3,,-8,0,2,1,,1,0,{},{},,
-//ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
 3049,MascaraNinja,Máscara Ninja,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{},,
 3050,BoneDoador2010,Bone de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{},,
 3051,EspadaAprendiz,Espada Aprendiz,4,4000,2000,1500,40,,1,,0,2,2,1,1,1,{},{},,
@@ -452,3 +451,10 @@
 3057,ZambacutouPedra,Zambacutou de Pedra,4,175000,97500,15000,160,,1,,0,2,34,1,2,1,{},{},,
 3058,ZambacutouVelha,Zambacutou Velha,4,115000,57500,12000,115,,1,,0,2,34,1,2,1,{},{},,
 
+//ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
+3059,BarraCobre,Barra de Cobre,3,1000,990,3000,,,,,,,,,,,{},{},,
+3060,BarraPrata,Barra de Prata,3,10000,9900,3000,,,,,,,,,,,{},{},,
+3061,BarraOuro,Barra de Ouro,3,100000,99000,3000,,,,,,,,,,,{},{},,
+3062,GemaSafira,Gema de Safira,3,1000000,990000,300,,,,,,,,,,,{},{},,
+3063,GemaEsmeralda,Gema Esmeralda,3,10000000,9900000,300,,,,,,,,,,,{},{},,
+3064,GemaDiamante,Gema Diamante,3,100000000,99000000,300,,,,,,,,,,,{},{},,
