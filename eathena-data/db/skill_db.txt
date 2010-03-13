@@ -20,3 +20,13 @@
 343,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//TMW_MAGIC_TRANSMUTE
 344,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//TMW_MAGIC_NATURE
 345,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//TMW_MAGIC_ASTRAL
+
+
+//ID,	Alcance,	hit,	inf,	pl,	nk,	max,	list_num,	castcancel,	cast_defence_rate,	inf2,	maxcount,	skill_type,	blow_count
+400,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Cavaleiro
+401,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Druida
+402,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Mago
+403,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Ninja
+404,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Clérigo
+405,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Necromante
+
