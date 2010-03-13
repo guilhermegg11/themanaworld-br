@@ -1,3 +1,5 @@
 map: 002-01.gat
 npc: npc/002-01_Sala_de_Festas/_mobs.txt
 npc: npc/002-01_Sala_de_Festas/_warps.txt
+
+npc: npc/002-01_Sala_de_Festas/governanta.txt
