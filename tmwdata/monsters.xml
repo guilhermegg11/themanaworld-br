@@ -398,8 +398,16 @@
             />
     </monster>
 
-    <monster id="12" name="Flor">
-        <sprite>monster-flower.xml</sprite>
+	<monster id="12" name="Flor">
+		<sprite>monster-flower.xml|#a60e88,ffffff</sprite>
+		<!--Lilás #7b0ea6,ffffff -->
+		<!--<normal> #a60e88,ffffff -->
+		<!--Azul #0ea6a6,80ffff -->
+		<!--do Campo #2c0ea6,9980ff -->
+		<!--amarela #a6a60e,ffff80 -->
+		<!--laranja #a6410e,ffaa80 -->
+		<!--vermelha #a60e0e,ff8080 -->
+		<!--branca #dddddd,ffffff -->
         <sound event="hit">flower-hit1.ogg</sound>
         <sound event="hit">flower-hit2.ogg</sound>
         <sound event="miss">flower-miss1.ogg</sound>
@@ -466,7 +474,7 @@
     </monster>
 
     <monster id="16" name="Trasgo Rosa" targetCursor="small">
-        <sprite>monster-pinkie.xml</sprite>
+        <sprite>monster-pinkie.xml|#f737b8,ffffff</sprite> <!--ffb2dd-->
         <sound event="hit">pinkie-hit1.ogg</sound>
         <sound event="miss">pinkie-miss1.ogg</sound>
         <drop item="614" percent="8"/>
@@ -846,8 +854,8 @@
 		<sound event="die" >cachorro_morte.ogg</sound>  <!-- Cachorro Morre -->
 	</monster>
 
-	<monster id="310" name="Trasgo Violeta">
-		<sprite>monster-pinkie.xml|#eff1f1,ffffff</sprite>
+	<monster id="310" name="Trasgo Roxo">
+		<sprite>monster-pinkie.xml|#70003f,ffbfe3</sprite> <!--ff80c8-->
 		<sound event="hit">pinkie-hit1.ogg</sound>
 		<sound event="miss">pinkie-miss1.ogg</sound>
 	</monster>
@@ -885,6 +893,39 @@
 
 	<monster id="317" name="Limo de Neve">
 		<sprite>monster-slime.xml|#eff1f1,ffffff</sprite>
+	</monster>
+
+	<monster id="318" name="Flor Lilás">
+		<sprite>monster-flower.xml|#7b0ea6,ffffff</sprite>
+		<sound event="hit">flower-hit1.ogg</sound>
+		<sound event="hit">flower-hit2.ogg</sound>
+		<sound event="miss">flower-miss1.ogg</sound>
+	</monster>
+
+	<monster id="319" name="Florzinha Azul">
+		<sprite>monster-flower.xml|#0ea6a6,80ffff</sprite>
+		<sound event="hit">flower-hit1.ogg</sound>
+		<sound event="hit">flower-hit2.ogg</sound>
+		<sound event="miss">flower-miss1.ogg</sound>
+	</monster>
+
+	<monster id="320" name="Florzinha do Campo">
+		<sprite>monster-flower.xml|#2c0ea6,9980ff</sprite>
+		<!--amarela #a6a60e,ffff80 -->
+		<!--laranja #a6410e,ffaa80 -->
+		<!--vermelha #a60e0e,ff8080 -->
+		<!--branca #dddddd,ffffff -->
+		<sound event="hit">flower-hit1.ogg</sound>
+		<sound event="hit">flower-hit2.ogg</sound>
+		<sound event="miss">flower-miss1.ogg</sound>
+	</monster>
+
+	<monster id="321" name="Rato">
+		<sprite>monstro-rato.xml|#333b4f,757a8f,99a1b3,ffffff</sprite>
+		<sound event="hit">bat-hit1.ogg</sound> <!-- Rato atacando -->
+		<sound event="miss">fluffy-miss1.ogg</sound> <!-- Rato erra ataque -->
+		<sound event="die">bat-dying1.ogg</sound>  <!-- Rato Morre -->
+		<!-- DROPS: Dente de Rato, Pata de Rato, Calda de Rato, Queijo -->
 	</monster>
 
 </monsters>
