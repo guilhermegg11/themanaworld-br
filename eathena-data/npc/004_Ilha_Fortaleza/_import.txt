@@ -1,5 +1,6 @@
 map: 004.gat
 
+npc: npc/004_Ilha_Fortaleza/zeca.conf
 npc: npc/004_Ilha_Fortaleza/chico.conf
 npc: npc/004_Ilha_Fortaleza/joana.conf
 npc: npc/004_Ilha_Fortaleza/terezinha.conf
