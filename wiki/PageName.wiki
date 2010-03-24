@@ -1,5 +1,5 @@
  =BANCO DE DADOS DE ITENS=
-|| IMAGEM || ID || NOME || TIPO || COMPET�NCIA || PESO || EFEITO || DESCRI��O ||
+|| IMAGEM || ID || NOME || TIPO || COMPETÊNCIA || PESO || EFEITO || DESCRIÇÃO ||
 || http://themanaworld-br.googlecode.com/svn/tmwdata/graphics/items/weapon-dagger-dagger.png || 521 || Adaga || equip-1hand || knife || 60g || +15 Dano, 1 Range || Uma simples adaga. ||
 || http://themanaworld-br.googlecode.com/svn/tmwdata/graphics/items/weapon-dagger-sharpknife.png || 522 || Faca Afiada || equip-1hand || knife || 45g || +10 Dano, 1 Range || Uma faca realmente afiada. Cuidado para não se ferir! ||
 || http://themanaworld-br.googlecode.com/svn/tmwdata/graphics/items/weapon-dagger-shortsword.png || 536 || Espada Curta || equip-1hand || sword || 1025g || +100 Dano, 1 Range || Uma pequena, porém afiada espada. ||
