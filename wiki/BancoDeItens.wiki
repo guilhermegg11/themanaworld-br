@@ -1,5 +1,8 @@
 #labels BancoDeItens
  =BANCO DE DADOS DE ITENS=
+
+Tabela gerada automaticamente através da junção de "items.xml" e "items.xsl"...
+
 || IMAGEM || ID || NOME || TIPO || COMPETÊNCIA || PESO || EFEITO || DESCRIÇÃO ||
 || http://themanaworld-br.googlecode.com/svn/tmwdata/graphics/items/weapon-dagger-dagger.png || 521 || Adaga || equip-1hand || knife || 60g || +15 Dano, 1 Range || Uma simples adaga. ||
 || http://themanaworld-br.googlecode.com/svn/tmwdata/graphics/items/weapon-dagger-sharpknife.png || 522 || Faca Afiada || equip-1hand || knife || 45g || +10 Dano, 1 Range || Uma faca realmente afiada. Cuidado para não se ferir! ||
