@@ -463,4 +463,6 @@
 3066,MascaraNinjaEstilizada,Máscara Ninja Estilizada,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{},,
 3067,ADMcap,ADM Cap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{},,
 3068,BarbaAureola,Barba com Auréola,5,400,200,200,,2,,-2,0,2,256,,0,0,{},{},,
-
+//2010-03-24: Diogo_RBG
+3069,antenaRoxa,antenaRoxa,3,100,50,10,,,,,,,,,,,{},{},,
+3070,hasteRoxa,hasteRoxa,5,5000,1000,5,,1,,1,0,2,256,,0,0,{},{},
