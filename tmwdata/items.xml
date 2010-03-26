@@ -1118,14 +1118,14 @@
         type="generic"
         weight="10"
         max-per-slot="10"/>
-    <item id="614"
-        image="generic-pinkantennae.png"
-        name="Antena Rosa"
-        description="Não se sabe porquê os Trasgos Rosa possuem esta antena sobre suas cabeças."
-        effect=""
-        type="generic"
-        weight="10"
-        max-per-slot="10"/>
+	<item id="614"
+		image="generic-pinkantennae.png|W:#f737b8,ffffff"
+		name="Antena Rosa"
+		description="Não se sabe porquê os Trasgos Rosa possuem esta antena sobre suas cabeças."
+		effect=""
+		type="generic"
+		weight="10"
+		max-per-slot="10"/>
     <item id="615"
         image="armor-head-pumpkinhelmet.png"
         name="Pumpkin Helmet"
@@ -2299,7 +2299,7 @@
         type="generic"
         weight="20"/>
 	<item id="751"
-		image="armor-head-pinkiehat.png"
+		image="armor-head-pinkiehat.png|W:#f737b8,ffffff"
 		name="Haste Rosa"
 		description="Uns dizem ser uma homenagem outros um troféu."
 		effect="+1% Defense"
@@ -4556,6 +4556,23 @@
         weight="10">
         <sprite>head-aureola-barba.xml</sprite>
     </item>
-
-
+	<item id="3069"
+		image="generic-pinkantennae.png|W:#70003f,ffbfe3"
+		name="Antena Roxa"
+		description="Uma antena com um pompom roxo da cor de uma beterraba."
+		effect=""
+		type="generic"
+		weight="10"
+		max-per-slot="10"/>
+	<item id="3070"
+		image="armor-head-pinkiehat.png|W:#70003f,ffbfe3"
+		name="Haste Roxa"
+		description="Um argradin de Terezinha, mulher do cumpade Chico."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="1"
+		max-per-slot="1">
+		<sprite>head-pinkiehat.xml</sprite>
+	</item>
 </items>
