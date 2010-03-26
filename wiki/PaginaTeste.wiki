@@ -1,13 +1,12 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
-
-Add your co[editei aki]ntent here.
+Add your co[easdasdki]ntent here.
 
 
 = Details =
 
 Add your content here.  Format your content with:
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-  * adicionei aki.
+  * Heaasdaphs, and lists
+  * Automatic lasdasdasdadspages
+  * ashjdsjdh
+  * adiciasddsaki.
