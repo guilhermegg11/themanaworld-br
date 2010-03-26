@@ -1,4 +1,6 @@
-#labels BancoDeItens
+#summary BANCO DE DADOS DE ITENS
+#labels Featured
+
  =BANCO DE DADOS DE ITENS=
 
 Tabela gerada automaticamente através da junção de "items.xml" e "items.xsl"...
