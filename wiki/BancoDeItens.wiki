@@ -1,4 +1,4 @@
-#summary BANCO DE DADOS DE ITENS
+#summary Tabela com todos os itens do jogo!
 #labels Featured
 
  =BANCO DE DADOS DE ITENS=
