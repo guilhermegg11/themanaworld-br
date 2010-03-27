@@ -33,25 +33,52 @@ svn commit <arquivo_modificado> -m "<uma mensagem descrevendo as modificações>
 
 Mas não se preocupe com os comandos... se você estiver utilizando uma ferramenta gráfica isso fica transparente.
 
-= Usando o RapidSVN =
+= Apresentando o RapidSVN =
 
 Podem até existir ferramentas melhores, mas o RapidSVN se destaca por ser uma ferramente muito fácil de de configurar e utilizar.
 
 [http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/rapidSVN.png]
 
-Ele será o seu navegador de arquivos e irá destacar o status de cada arquivo. Além de te dar comandos para:
- * adicionar - Adiciona um arquivo para versionamento. Apenas arquivos versionados serão enviados ao repositório.
- * remover - remove um arquivo versionado.
- * update - irá trazer as novas modificações de arquivos no repositório. Se por acaso existir uma modificação em um mesmo arquivo que você estiver editando, e o subversion não puder tratar estas modificações, irá ocorrer um conflito e então serão gerados mais 3 arquivos: arquivo.mine (com as modificações mescadas), arquivo.versaoAntiga e arquivo.versaoNova... necessitando de correções manuais.
+Ele será o seu navegador de arquivos e irá destacar o status de cada arquivo. Além de te dar vários comandos:
+ * *add* - Adiciona um arquivo para versionamento. Apenas arquivos versionados serão enviados ao repositório.
+ * *delete* - remove um arquivo versionado.
+ * *update* - irá trazer as novas modificações de arquivos no repositório. Se por acaso existir uma modificação em um mesmo arquivo que você estiver editando, e o subversion não puder tratar estas modificações, irá ocorrer um conflito e então serão gerados mais 3 arquivos: arquivo.mine (com as modificações mescadas), arquivo.versaoAntiga e arquivo.versaoNova... necessitando de correções manuais.
 
 [http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo4.png]
 
- * commit - onde você poderá escolher um ou mais arquivos para serem sincronizados no repositório. Aqui é interessante descrever as alterações feitas em detalhes.
- * revert - aqui vc ignora as suas modificações e o sobrescreve com a versão do repositório. Isso também irá apagar os 3 arquivos gerados no update conflitoso.
- * info - para ter detalhes da localização exata do arquivo... entre outras coisas.
- * log - para ter detalhes de todos os logs de alteração do arquivo.
- * diff - para fazer uma comparação entre duas versões diferentes de um mesmo arquivo. Para funcionar é preciso configuração.
+ * *commit* - onde você poderá escolher um ou mais arquivos para serem sincronizados no repositório. Aqui é interessante descrever as alterações feitas em detalhes.
+ * *revert* - aqui vc ignora as suas modificações e o sobrescreve com a versão do repositório. Isso também irá apagar os 3 arquivos gerados no update conflitoso.
+ * *info* - para ter detalhes da localização exata do arquivo... entre outras coisas.
+ * *log* - para ter detalhes de todos os logs de alteração do arquivo.
+ * *diff* - para fazer uma comparação entre duas versões diferentes de um mesmo arquivo. Para funcionar é preciso configuração.
 
 = Configurando o RapidSVN =
+
+Legal, mas como eu faço para configurar o RapidSVN?
+
+Primeiro vamos adicionar nossas cópias de trabalho a ele. Clique em *Bookmarks* com o direito e depois em *Add Existing working Copy...*.
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo02.png]
+
+Em seguida basta selecionar o diretório para onde acabamos de fazer checkout e clica em ok.
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo03.png]
+
+Agora é só adicionar os demais. Clicando no botão *refresh* o programa ira comparar seu arquivos aos do repositório. É muito simples.
+
+E seguida devemos configurar os programas padrões:
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo6.png]
+
+Vá em *View > Preferences...* e na janela vá em *Programs* pra configurar suas ferramentas padrões.
+ * *Standard Editor* - para configurar o editor padrão. Aqui eu uso o geany e configuro escrevendo *geany* na primeira caixa e *%1* na segunda.
+ * *Standard Explorer* - Como uso Ubuntu Linux escrevo *nautilus* na primeira e *%1* na segunda.
+ * *Diff Tool* - para que ao pedir um diff de um arquivo ele possa abrir um programa que irá compara as duas versões de um mesmo arquivo. Configure com os parâmetros *meld* na primeira e *%1 %2* na segunda.
+
+= Usando o Meld =
+
+Meld é um programa que permite visualizar de forma clara as diferenças entre dois arquivos de texto. Além de dar opções de desfazer alterações ou adicionar bastando clicar nas setas do centro.
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo5.png]
 
 ...
