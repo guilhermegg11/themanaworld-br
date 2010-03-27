@@ -1,0 +1,17 @@
+#summary Algumas dicas de de como utilizar o RapidSVN para gerenciar commits e updates graficamente.
+#labels devs
+
+= Introducão =
+
+Este documento é destinado a aqueles que foram convidados a contribuir diretamente com o jogo. E que vão passar a enviar modificações de arquivos diretamente ao nosso repositório de arquivos. Este é um grupo seleto por vários motivos:
+
+ * Trabalhos aqui enviados devem estar lives de bugs, pois a partir do momento que são enviados vão passar a fazer parte do projeto. Por isso os membros que aqui contribuem devem estar cientes de que devem ser feitos vários testes para qualquer alteração feita.
+ * Devem ter um profundo conhecimento do projeto e ajudar a desenvolver melhorias no jogo respeitando prioridades, necessidades, normas, convenções, objetos gerais e tarefas discutidas em reuniões.
+ * E seleto também pela dificuldade em coordenar várias mentes criativas. Onde a qualquer momento duas ou mais pessoas pode estar trabalhando em um mesmo arquivo. Causando inconsistência nos arquivos do repositório e perdas de trabalhos.
+ * Tais membros devem ter uma boa comunicação se manter em contato constante, pois desenvolver pela internet requer o domínio de grupos de discussão, e-mail e demais ferramentes de comunicação.
+
+Mas isso não significa que qualquer pessoa não possa contribuir com o jogo, para isso basta enviar suas sugestões, imagens, esboços e histórias para [http://forums.themanaworld.com.br/ nosso fórum]. 
+
+= Fazendo Checkout =
+
+...
