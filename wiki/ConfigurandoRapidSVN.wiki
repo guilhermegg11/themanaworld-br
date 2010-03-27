@@ -37,4 +37,21 @@ Mas não se preocupe com os comandos... se você estiver utilizando uma ferramen
 
 Podem até existir ferramentas melhores, mas o RapidSVN se destaca por ser uma ferramente muito fácil de de configurar e utilizar.
 
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/rapidSVN.png]
+
+Ele será o seu navegador de arquivos e irá destacar o status de cada arquivo. Além de te dar comandos para:
+ * adicionar - Adiciona um arquivo para versionamento. Apenas arquivos versionados serão enviados ao repositório.
+ * remover - remove um arquivo versionado.
+ * update - irá trazer as novas modificações de arquivos no repositório. Se por acaso existir uma modificação em um mesmo arquivo que você estiver editando, e o subversion não puder tratar estas modificações, irá ocorrer um conflito e então serão gerados mais 3 arquivos: arquivo.mine (com as modificações mescadas), arquivo.versaoAntiga e arquivo.versaoNova... necessitando de correções manuais.
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo4.png]
+
+ * commit - onde você poderá escolher um ou mais arquivos para serem sincronizados no repositório. Aqui é interessante descrever as alterações feitas em detalhes.
+ * revert - aqui vc ignora as suas modificações e o sobrescreve com a versão do repositório. Isso também irá apagar os 3 arquivos gerados no update conflitoso.
+ * info - para ter detalhes da localização exata do arquivo... entre outras coisas.
+ * log - para ter detalhes de todos os logs de alteração do arquivo.
+ * diff - para fazer uma comparação entre duas versões diferentes de um mesmo arquivo. Para funcionar é preciso configuração.
+
+= Configurando o RapidSVN =
+
 ...
