@@ -14,4 +14,27 @@ Mas isso não significa que qualquer pessoa não possa contribuir com o jogo, pa
 
 = Fazendo Checkout =
 
+Para fazer checkout dos dados do repositório habilitado para edição, primeiro é preciso ter uma conta do Google (um GMail por exemplo) e em seguida gerar sua senha em [http://code.google.com/p/themanaworld-br/source/checkout source/checkout] clicando no link [https://code.google.com/hosting/settings googlecode.com password].
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo01.png]
+
+Feito isso basta fazer um (ou vários) checkout do repositório usando o programa svn e o protocolo http*s*:
+
+{{{
+svn checkout https://themanaworld-br.googlecode.com/svn/eathena-data eathena-data --username <nome_usuário>
+svn checkout https://themanaworld-br.googlecode.com/svn/tmwdata tmwdata --username <nome_usuário>
+}}}
+
+Feito o checkout você já estará apto a fazer alterações em arquivos e enviá-las diretamente ao servidor através de um commit:
+
+{{{
+svn commit <arquivo_modificado> -m "<uma mensagem descrevendo as modificações>"
+}}}
+
+Mas não se preocupe com os comandos... se você estiver utilizando uma ferramenta gráfica isso fica transparente.
+
+= Usando o RapidSVN =
+
+Podem até existir ferramentas melhores, mas o RapidSVN se destaca por ser uma ferramente muito fácil de de configurar e utilizar.
+
 ...
