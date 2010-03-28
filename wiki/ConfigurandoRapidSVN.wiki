@@ -81,4 +81,30 @@ Meld é um programa que permite visualizar de forma clara as diferenças entre d
 
 [http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo5.png]
 
-...
+Não tem segredo. tudo que estiver marcado de azul claro teve alguma alteração em sua linha, e o que estiver em um azul mais escuro com letras vermelhas é o que realmente foi mudado.
+
+O programa Meld pode ser encontrado no repositório do ubuntu... o que torna a instalação dele muito prática.
+
+= Dicas Para Desenvolvedores =
+
+Os conflitos devem ser reduzidos ao máximo, para que ninguém tenha seu trabalho perdido ao fim do dia... ou tenha dificuldades para mesclar alterações de um outro membro. O próprio repositório é uma ferramenta para unir esforços colaborativos, mas ele só se torna realmente eficiente se forem seguidas algumas regras:
+ * Antes de pensar em fazer uma alteração em um arquivo certifique-se que ninguém está editando o mesmo. Um modo de fazer isso é avisando através do fórum.
+ * Faça um update diariamente. Isso vai reduzir sua chance de editar a versão antiga de um arquivo que outra pessoa editou. Por convenção, devemos fazer updates todas as manhãs. Você também verificar os logs no repositório [http://code.google.com/p/themanaworld-br/source/list neste link] isso certamente irá lhe trazer garantias sobre a possível consequência de um update.
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo1.png]
+
+Na lista de logs você, ao ver uma nova alteração, poderá ver quais arquivos foram alterados:
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo2.png]
+
+E ainda tirar um diff ali mesmo:
+
+[http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo3.png]
+
+ * Outra coisa é enviar commits diários também. Na medida do possível é claro. Não é interessante enviar arquivos que ao serem utilizados geram um bug em todo o projeto. Isso iria tomar tempo de outro membro, que levaria algum tempo até descobrir o problema. Nestes casos envie as modificações comentadas ou só um comentário:
+{{{
+// Fazendo grandes alterações neste arquivo.
+}}}
+ * Toda alteração que possa ter um grande impacto no jogo devem estar previamente aprovadas.
+
+É isso ! ;)
