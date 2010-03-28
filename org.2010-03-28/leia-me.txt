@@ -1,0 +1,10 @@
+=== Introdução ===
+
+Este é um backup dos dados do servidor .org feito no dia 28/03/2010.
+Dentre as várias serventias deste backup se destacam:
+
+=== Traduções ===
+
+Os arquivos para traduções devem ser retirados daqui. Isto irá garantir
+que uma variável de controle seja a mesma em um outro NPC. Evitando o NPC
+pedir item que não existam ou esperar por condições que nunca poderão ocorrer.
