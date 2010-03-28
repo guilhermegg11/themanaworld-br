@@ -77,19 +77,20 @@ Vá em *View > Preferences...* e na janela vá em *Programs* pra configurar suas
 
 = Usando o Meld =
 
-Meld é um programa que permite visualizar de forma clara as diferenças entre dois arquivos de texto. Além de dar opções de desfazer alterações ou adicionar bastando clicar nas setas do centro.
+Meld é um programa que permite visualizar de forma clara as diferenças entre dois arquivos de texto. Além de dar opções de desfazer ou adicionar alterações bastando clicar nas setas do centro.
 
 [http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo5.png]
 
-Não tem segredo. tudo que estiver marcado de azul claro teve alguma alteração em sua linha, e o que estiver em um azul mais escuro com letras vermelhas é o que realmente foi mudado.
+Não tem segredo. tudo que estiver marcado de azul claro teve alguma alteração em sua linha. O que estiver em um azul mais escuro com letras vermelhas é o que realmente foi mudado.
 
-O programa Meld pode ser encontrado no repositório do ubuntu... o que torna a instalação dele muito prática.
+O programa Meld pode ser encontrado no repositório do Ubuntu... o que torna a instalação dele muito prática.
 
 = Dicas Para Desenvolvedores =
 
 Os conflitos devem ser reduzidos ao máximo, para que ninguém tenha seu trabalho perdido ao fim do dia... ou tenha dificuldades para mesclar alterações de um outro membro. O próprio repositório é uma ferramenta para unir esforços colaborativos, mas ele só se torna realmente eficiente se forem seguidas algumas regras:
+
  * Antes de pensar em fazer uma alteração em um arquivo certifique-se que ninguém está editando o mesmo. Um modo de fazer isso é avisando através do fórum.
- * Faça um update diariamente. Isso vai reduzir sua chance de editar a versão antiga de um arquivo que outra pessoa editou. Por convenção, devemos fazer updates todas as manhãs. Você também verificar os logs no repositório [http://code.google.com/p/themanaworld-br/source/list neste link] isso certamente irá lhe trazer garantias sobre a possível consequência de um update.
+ * Faça um update diariamente. Isso vai reduzir sua chance de editar a versão antiga de um arquivo que outra pessoa editou. Por convenção, devemos fazer updates todas as manhãs. Você também pode verificar os logs no repositório [http://code.google.com/p/themanaworld-br/source/list neste link] isso certamente irá lhe trazer garantias sobre a possível consequência de um update.
 
 [http://themanaworld-br.googlecode.com/svn/wiki/imgs/rapidsvn_meld/passo1.png]
 
@@ -105,6 +106,6 @@ E ainda tirar um diff ali mesmo:
 {{{
 // Fazendo grandes alterações neste arquivo.
 }}}
- * Toda alteração que possa ter um grande impacto no jogo devem estar previamente aprovadas.
+ * Toda alteração que possa ter um grande impacto no jogo deve estar previamente aprovadas.
 
 É isso ! ;)
