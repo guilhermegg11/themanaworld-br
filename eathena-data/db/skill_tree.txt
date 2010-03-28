@@ -13,3 +13,10 @@
 1,38,10,0,0,0,0,0,0,0,0,0,0//MC_OVERCHARGE	# sell stuff for better price to npc
 1,48,10,2,5,0,0,0,0,0,0,0,0//TF_DOUBLE		# a chance for double hits, requires sword damage add lvl 5
 1,49,10,2,10,0,0,0,0,0,0,0,0//TF_MISS		# increased chance of dodging, requires backsliding
+
+0,400,5,0,0,0,0,0,0,0,0,0,0//Cavaleiro 	#Poderes de Cavaleiro
+0,401,5,0,0,0,0,0,0,0,0,0,0//Druida 	#Poderes de Cavaleiro
+0,402,5,0,0,0,0,0,0,0,0,0,0//Mago 	#Poderes de Cavaleiro
+0,403,5,0,0,0,0,0,0,0,0,0,0//Ninja 	#Poderes de Cavaleiro
+0,404,5,0,0,0,0,0,0,0,0,0,0//Clérigo 	#Poderes de Cavaleiro
+0,405,5,0,0,0,0,0,0,0,0,0,0//Necromante 	#Poderes de Cavaleiro
