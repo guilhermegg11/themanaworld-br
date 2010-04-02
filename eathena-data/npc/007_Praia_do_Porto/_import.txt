@@ -12,7 +12,7 @@ npc: npc/007_Praia_do_Porto/igor.conf
 npc: npc/007_Praia_do_Porto/veronica.conf
 npc: npc/007_Praia_do_Porto/fred.conf
 npc: npc/007_Praia_do_Porto/jaime.conf
-npc: npc/007_Praia_do_Porto/dalila.conf
+//npc: npc/007_Praia_do_Porto/dalila.conf
 npc: npc/007_Praia_do_Porto/eliana.conf
 npc: npc/007_Praia_do_Porto/animadora.conf
 npc: npc/007_Praia_do_Porto/negociante.conf

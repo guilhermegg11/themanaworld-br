@@ -20,6 +20,9 @@
 198,	0,	0,	4,	0,	1,	0,	10,	1,		no,		0,			2,	0,		magic,		0,		no,	none,	X15	//NPC_SUMMONSLAVE
 199,	0,	0,	4,	0,	1,	0,	10,	1,		no,		0,			2,	0,		none,		0,		no,	none,	X16	//NPC_EMOTION
 339	0,	0,	0,	0,	0,	0,	3,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Skill_Pool		//TMW_SKILLPOOL
+
+
+// Magia de Spell do ORG
 340,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0,		no,	none,	Magic			//TMW_MAGIC
 341,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0,		no,	none,	Life_Magic		//TMW_MAGIC_LIFE
 342,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0,		no,	none,	War_Magic		//TMW_MAGIC_WAR
@@ -32,16 +35,28 @@
 353,	0,	0,	0,	0,	0,	9,	10,	0,		no,		0,			0,	0,		none,		0,		passive,vit,	Poison_Resistance	//TMW_POISON_RESISTANCE
 354,	0,	0,	0,	0,	0,	9,	10,	0,		no,		0,			0,	0,		magic,		0,		passive,int,	Astral_Soul		//TMW_ASTRAL_SOUL
 45,	0,	0,	0,	0,	0,	9,	10,	0,		no,		0,			0,	0,		weapon,		0,		passive,dex,	Mallard's_Eye		//AC_OWL
+
 // maxrse describes the max. level that the skill can be raised to through the `raise skill' option.  Further raising has to happen via quests.
 // maxrse < max.
 // `pool' can be `no', `active', or `passive'.
 // `stat' can be `none', `str', `dex', `agi', `vit', `int', `luk'.
 
 // Diogo_RBG: infelismente vc terá que rever isso. Tem uma nova coluna [maxrse]... sem contar as outras no final.
-//ID,	Alcance,	hit,	inf,	pl,	nk,	max,	list_num,	castcancel,	cast_defence_rate,	inf2,	maxcount,	skill_type,	blow_count
-//400,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Cavaleiro
-//401,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Druida
-//402,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Mago
-//403,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Ninja
-//404,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Clérigo
-//405,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		magic,		0	//Necromante
+// Lunovox: Já adicionei as colunas e descomentei as linhas, pois o Localhost já está ok!
+
+//TRADUÇÃO:
+// "maxrse" descreve o nível máximo que a habilidade pode ser aumentada através de "Incremento de Skill". O aumento ainda tem que acontecer via quests.
+// A coluna 'maxrse' deve ter valor menor que a coluna 'max'.
+// A coluna 'pool' pode ser 'no', 'active', or 'passive'.
+// A coluna 'stat' pode ser 'none', 'str', 'dex', 'agi', 'vit', 'int', 'luk'.
+
+
+//id,	range,	hit,	inf,	pl,	nk,	maxrse,	max,	list_num,	castcancel,	cast_defence_rate,	inf2,	maxcount, skill_type,	blow_count,	pool,	stat,	name
+
+400,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Cavaleiro	//Cavaleiro
+401,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Druida		//Druida
+402,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Mago			//Mago
+403,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Ninja			//Ninja
+404,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Clerigo		//Clérigo
+405,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Necromante	//Necromante
+
