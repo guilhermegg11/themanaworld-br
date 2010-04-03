@@ -1,0 +1,4 @@
+// 004 Ilha Fortaleza warps de Páscoa
+
+// Leva para cima... onde tem o mob 'Coelho de Olhos Vermelhos'
+004.gat,144,25	warp	caverna4	-1,-1,004.gat,137,88
