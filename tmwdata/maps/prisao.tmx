@@ -51,11 +51,16 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="paraCima" type="warp" x="1248" y="640" width="32" height="64">
+  <object name="[passagem desativada]" type="-warp" x="1248" y="640" width="32" height="64">
    <properties>
     <property name="dest_map" value="005-1"/>
     <property name="dest_x" value="640"/>
     <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+  <object name="Moscego (1) [15min]" type="-spawn" x="672" y="832" width="576" height="128">
+   <properties>
+    <property name="a" value=""/>
    </properties>
   </object>
  </objectgroup>

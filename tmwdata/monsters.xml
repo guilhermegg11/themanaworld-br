@@ -896,7 +896,7 @@
 	</monster>
 
 	<monster id="318" name="Coelho de Olhos Vermelhos">
-		<sprite>monstro-coelho-olho-vermelho.xml</sprite>
+		<sprite>monstro-coelho.xml|#ff0000</sprite>
 		<sound event="hit">fluffy-hit1.ogg</sound>
 		<sound event="hit">fluffy-hit2.ogg</sound>
 		<sound event="hit">fluffy-hit3.ogg</sound>
@@ -905,7 +905,7 @@
 	</monster>
 
 	<monster id="319" name="Coelho de Páscoa">
-		<sprite>monstro-coelho-olho-azul.xml</sprite>
+		<sprite>monstro-coelho.xml</sprite>
 		<sound event="hit">fluffy-hit1.ogg</sound>
 		<sound event="hit">fluffy-hit2.ogg</sound>
 		<sound event="hit">fluffy-hit3.ogg</sound>
