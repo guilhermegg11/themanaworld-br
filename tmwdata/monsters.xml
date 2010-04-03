@@ -895,7 +895,26 @@
 		<sprite>monster-slime.xml|#eff1f1,ffffff</sprite>
 	</monster>
 
-	<monster id="318" name="Flor Lilás">
+	<monster id="318" name="Coelho de Olhos Vermelhos">
+		<sprite>monster-fluffy.xml</sprite>
+		<sound event="hit">fluffy-hit1.ogg</sound>
+		<sound event="hit">fluffy-hit2.ogg</sound>
+		<sound event="hit">fluffy-hit3.ogg</sound>
+		<sound event="miss">fluffy-miss1.ogg</sound>
+		<sound event="hurt">fluffy-hurt1.ogg</sound>
+	</monster>
+
+	<monster id="319" name="Coelho de Páscoa">
+		<sprite>monster-fluffy.xml</sprite>
+		<sound event="hit">fluffy-hit1.ogg</sound>
+		<sound event="hit">fluffy-hit2.ogg</sound>
+		<sound event="hit">fluffy-hit3.ogg</sound>
+		<sound event="miss">fluffy-miss1.ogg</sound>
+		<sound event="hurt">fluffy-hurt1.ogg</sound>
+	</monster>
+
+	<!-- Tem um monte de monstro sobrando aqui... lembrar de corrigir isto -->
+	<!--monster id="318" name="Flor Lilás">
 		<sprite>monster-flower.xml|#7b0ea6,ffffff</sprite>
 		<sound event="hit">flower-hit1.ogg</sound>
 		<sound event="hit">flower-hit2.ogg</sound>
@@ -907,7 +926,7 @@
 		<sound event="hit">flower-hit1.ogg</sound>
 		<sound event="hit">flower-hit2.ogg</sound>
 		<sound event="miss">flower-miss1.ogg</sound>
-	</monster>
+	</monster-->
 
 	<monster id="320" name="Florzinha do Campo">
 		<sprite>monster-flower.xml|#2c0ea6,9980ff</sprite>
