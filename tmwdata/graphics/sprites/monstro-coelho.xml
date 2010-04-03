@@ -2,7 +2,7 @@
 <sprite>
 
 	<!-- Editado por Lunovox em 03/04/2010 para o evento de Páscoa -->
-	<imageset name="base" src="graphics/sprites/monstro-coelho.png|C" width="28" height="32" />
+	<imageset name="base" src="graphics/sprites/monstro-coelho.png|W;C" width="28" height="32" />
 
 	<action name="stand" imageset="base">
 		<animation direction="down">
