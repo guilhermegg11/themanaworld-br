@@ -2307,7 +2307,7 @@
 		weight="5"
 		defense="1"
 		max-per-slot="1">
-		<sprite>head-pinkiehat.xml</sprite>
+		<sprite>head-pinkiehat.xml|#f737b8,ffffff</sprite>
 	</item>
 	<item id="752"
 		image="armor-head-fluffyhat.png"
@@ -4567,7 +4567,7 @@
 		weight="5"
 		defense="1"
 		max-per-slot="1">
-		<sprite>head-pinkiehat.xml</sprite>
+		<sprite>head-pinkiehat.xml|#70003f,ffbfe3</sprite>
 	</item>
 
 	<item id="3071"
