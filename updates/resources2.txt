@@ -19,4 +19,7 @@ update10..11.zip 6026d728
 update11..12.zip 43d26daf
 update_2009-10-22.zip b2a55d10
 update_2009-11-10.zip d5a3c4ce
-update_2009-12-31.zip 9d590015
+update_2009-12-31.zip 2ac6f6a0
+update_2010-02-21.zip 22d6ab7f
+update_2010-03-10.zip 5e9d3a79
+update_pascoa2010.zip b03b520e
