@@ -25,3 +25,6 @@ gm_pass: gm
 // Tells the client that an alternative updatehost is available if the client
 // supports this. If left out nothing will be sent. max length 127.
 update_host: http://update.themanaworld.com.br/
+
+// Servidor de updates de testes:
+// update_host: http://themanaworld-br.googlecode.com/svn/updates/
