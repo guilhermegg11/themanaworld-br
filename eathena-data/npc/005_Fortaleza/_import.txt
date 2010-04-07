@@ -17,7 +17,8 @@ npc: npc/005_Fortaleza/operarios.conf
 npc: npc/005_Fortaleza/anselmo.conf
 
 // Avaliando...
-//npc: npc/005_Fortaleza/elric.conf
+npc: npc/005_Fortaleza/elric.conf
+//npc: npc/005_Fortaleza/carlos.conf
 
 npc: npc/005_Fortaleza/_mobs.txt
 npc: npc/005_Fortaleza/_warps.txt
