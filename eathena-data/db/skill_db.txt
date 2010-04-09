@@ -41,9 +41,6 @@
 // `pool' can be `no', `active', or `passive'.
 // `stat' can be `none', `str', `dex', `agi', `vit', `int', `luk'.
 
-// Diogo_RBG: infelismente vc terá que rever isso. Tem uma nova coluna [maxrse]... sem contar as outras no final.
-// Lunovox: Já adicionei as colunas e descomentei as linhas, pois o Localhost já está ok!
-
 //TRADUÇÃO:
 // "maxrse" descreve o nível máximo que a habilidade pode ser aumentada através de "Incremento de Skill". O aumento ainda tem que acontecer via quests.
 // A coluna 'maxrse' deve ter valor menor que a coluna 'max'.
@@ -52,6 +49,10 @@
 
 
 //id,	range,	hit,	inf,	pl,	nk,	maxrse,	max,	list_num,	castcancel,	cast_defence_rate,	inf2,	maxcount, skill_type,	blow_count,	pool,	stat,	name
+
+// Skills para uso no evento de páscoa. (Única forma de ter variáveis de controle nas SPELLs)
+398,	0,	0,	0,	0,	0,	0,	99,	0,		no,		0,			0,	0,		none,		0,		no,	none,	OvoTem
+399,	0,	0,	0,	0,	0,	0,	1,	0,		no,		0,			0,	0,		none,		0,		no,	none,	OvoGanhou
 
 400,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Cavaleiro	//Cavaleiro
 401,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Druida		//Druida
