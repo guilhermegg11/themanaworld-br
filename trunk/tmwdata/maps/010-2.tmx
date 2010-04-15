@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="123" height="51" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Estabelecimento"/>
+ </properties>
+ <tileset name="Col" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="Interno" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="Inn_x2" firstgid="259" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/inn_x2.png"/>
+ </tileset>
+ <tileset name="woodland_inn_x2" firstgid="275" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset name="woodland_indoor" firstgid="291" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="Woodland_village" firstgid="547" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png"/>
+ </tileset>
+ <tileset name="cabana_in" firstgid="803" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png"/>
+ </tileset>
+ <tileset name="cabana_in_x3" firstgid="883" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png"/>
+ </tileset>
+ <layer name="Ground" width="123" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Vu0oDQRTG8YWEeEULJaIWFoqioinEZ8gj5IH0DbT32nsptPRSmDfQZ0nnF5iFYdgxCWQyM/Ff/Bh2cuCcnW930yuKogcAAAAAAAAAAAAAAJCpmsxI3awNmZN5WTDX9u+zAedoWPp9ruRabuTWmatm1Y17Frdv3eldr6iJneMwVow9s67JumzIpuya/aZVG2qOVWlbvR7kUZ7k2ZmrrA8xj9u36fRuV9TEznEY28aOLJt1Xw7k0Nkva0PN0e/RMWvfm7zLh3w6c5X1IeZx+7pn0qmoiZ3jME4sW861bz/0HKNKYZbYOZI1WeeW9Yu8WroWss4v6wu59PT/cvKdZNa+vt0iv6yPLC3PWbesmuNAc9zJvaf/t/xYUsq6fEZj5zjqfcX8XqX6fz0o6/IZjZ3jNGW9KEue65hZ5/QNzyXrVN/rXLM+JeukzmSSZ+y7z/+UtX0WpWnMOvZ7fSbniWQ9aJbYOeaU9V+zxT6j1GYZ1/2Msg8AAAAAAAAAAAAAAAAgP79iJITEBGIAAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="123" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VO07DQBSF4ck+iPcBKdLiniIlBZHSk+wGdgAVzwIqlIQuD2AFwAqAnmMxlkbGOAiYGRP/n3Q0jjzRvcrN2MYAAAAAAAAAAAAAAAAA8OVQObAr/rftFfePlSO74uc2lS2lU3LvLVAPPWWmzJWFsiz0da1c2fWvFesa8/k3KdtTdy/Ka+wmSmSzTpUT5bQiZ7EaXHOPylOgWj273qzYN/bYQ5P/ZyGfAfm5jjnrmLWbpA7nOq993jLmwslly39tHzaUtpIo3S/2dAv7fNhz0lcG5uNc3yn3FXnw1E9m3WZdFyNlXxna61HJnmfnejdAT/msJ5rt1Mkts/61tLC6sudKUvHZB97XfuwE/t53xHx/AAAAAAAAAAAAAAAAAAAAoLneAW2dlHEEYgAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="123" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XQU7CQBiG4ZZuJMpKE8UQUNe614VLTdijiUfwACYS3apLV+oJ1Ft4AsEDiJ5AbiCGf8I0GWuGorRTWt8n+dIOnWT+zjAteB4AAAAAAAAAAAAATK5fyroCuDJgrf8N1jpdNUl9RsatBPF9EO9Ccjnm+pGrQsTVL/u7rC1Je5H2vqNxbyS3Y2o5dlSHcmepwcZlbdOo+vIskqz4o/aB/vxJHw/1cVGuL0nqfjp13Ese9HlLcm3UorQjdaXp0Tg3azDHbhnnbS+fmjFt5Fe4X0NqbZd1u+GP2q8O6liQsSpGHaeR603LEX9n29eNlJ7dk1A1fEj6kmdJR9L10lvvUuS/1Zz/M+P654Wav/DdveZnt3++Iu1PyUDSk7xJ3h3VUZY56Em2JF3JpuRFMp/hdz8pvK+/U2vdkexKtiU7eo2LsNZKVd/HRkHuZxplyxwUZa1njTnfao6j7aQV+X29qmuv6WO4r9eN3+MK+xwAMKmzwPPOg/h+LsxSLUk4sdyL7XMAAAAAAAAAAAAAAAAA+TMEhVxUGwRiAAA=
+  </data>
+ </layer>
+ <layer name="Top" width="123" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3V2wnCQBAFUB/d+GMFPqpVwQ5sRyuwAhMwEHVFDDs6yjmw5CPZMNdrktEIAAAAAAAAAABym0+H7VsP3Fd7jk7NebL8JrVlyaXreG2uY3M8vblP17EzRMiSS9fxsuTK1vV5/N6e9npdx87RiX6uN02X297aFf4Luo6do+Md/lqWXL/Q9eH6LO8n8TNE0PUj3+tb/971t2eIkCWXruNlybVo7rcqrE7pXH8tK84zdJaaM0S4z9V6ljMy12xaXq/Ol6795iyZlWZ9liEyl67jZekaAAAAAAAAAAD4nAt6eSx2BGIAAA==
+  </data>
+ </layer>
+ <layer name="Top2" width="123" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3RQQ0AIAwAsU07EpAwo1jgsYwHrYJLLgIAAAAAAAAAAAAAALix8nUBU7bX3yivAQAAAAAAAAAAAABodADmH204BGIAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="123" height="51" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3S0QqDMAwF0OL/f/SeBJFutlqb6E7gIKtjvUm2lFIWAAAAAAAAAADgkrUy3huV7a2i5tlyb1S2O/rM0Mc2x8xc3+6tnUfPaMSeo3tprah778wwa761p13PzRA13wxZfr2P/J9FzmdEj7XnP+16X2e/k12tMmWZka/l97PMaMRuy8H72dn2Z9vPdn1+10cVkWPmrnvnEr3Dnp7OPKPnu9abc7y1ryuVIUv0Hp/U15XKkCV6j0/vK9McM2UZ1U/POQAAAAAAAAAA8DwfRQywqwRiAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="832" y="672" width="32" height="32"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="2048" y="672" width="32" height="32"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="3040" y="672" width="32" height="32"/>
+  <object name="paraFora1" type="warp" x="736" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4736"/>
+    <property name="dest_y" value="3424"/>
+   </properties>
+  </object>
+  <object name="paraFora2" type="warp" x="928" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4864"/>
+    <property name="dest_y" value="3424"/>
+   </properties>
+  </object>
+  <object name="paraFora3" type="warp" x="1888" y="992" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4992"/>
+    <property name="dest_y" value="3008"/>
+   </properties>
+  </object>
+  <object name="sairNoel4" type="warp" x="3008" y="992" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="2240"/>
+    <property name="dest_y" value="1664"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

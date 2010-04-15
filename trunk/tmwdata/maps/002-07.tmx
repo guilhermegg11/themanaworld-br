@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="95" height="80" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Escada - 1º Andar"/>
+ </properties>
+ <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="blockWalls" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png"/>
+ </tileset>
+ <tileset name="blockWalls_in_x3" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls_in_x3.png"/>
+ </tileset>
+ <tileset name="inn" firstgid="307" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="sombras" firstgid="563" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/sombras.png"/>
+ </tileset>
+ <tileset name="numeros" firstgid="587" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png"/>
+ </tileset>
+ <tileset name="escada_madeira" firstgid="697" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/escada_madeira.png"/>
+ </tileset>
+ <tileset name="cave" firstgid="753" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset name="woodland_indoor" firstgid="881" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <layer name="Ground" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Vuw3CQBBFUa9EBdRECZRAiXTgGqjFKQkB2FiYlezZzwlO/nQnmHEYhhEAAAAAAIBdnDJF7rz/8Cig6xaXTIduTJ+im/XSft69pfbnTEftu6al6Ga9tL+lpehmvbWfXtZ+f403qaX9u297tN+nfWmbemq/VXTLVttPK2q+Q0vto1v23L62O2ivvfbaa699Se3/Fd0VAAAAAAAAAAAAAAAAAAAAACjTE+OzPeXAdgAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WOU7DQBiGYdtJKCKxSYECie0AbAUlm8IRuAbbAdgOwHIBlpoOSpYCTgICBB0FoucbKZJRsLEhyUxiv4/0Shk5xZ9f0SSeBwAAAAAAgCTdqkf1qj7V73acXBlWI2pUjalxp9Pky4SaVFNqWs24HSdX5tS8WlCLasnpNPmyqtbUutpQm27HyZUtta121K7aczpNvmR99xfqMuJ10jMbsr77O3Uf8TrpmQ1Z3n3ln9mS5d0b5YLnnfthxvezee5K1ndvXPlhUecuR3PV777oaI5WudZ+i/pQJdVV/Hm+1bmq9z0GYbbsqwN1qI7UckxVeyM1ldl1RTseUIO1XdefzWd7C8JsOVYn6lSdqZWYOnX3xo0fFnU2v6/vQZhNT5rhOaYXNVSw+/vfbEn3/aznbvcffvyzzzaYrxFp7/vXIMymNLvv1Dsn7X3/EITZlLR7c+e4nK8R5v/7b3dOuXaftvP33uV8WZZm92gNdu8Ou3enoPu7GFOJux0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAH3wBijon3sB2AAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UTS4EYRQF0Gp6wgpMzLACwdAUK8AKsBCxArEC8bcVzMywAgwNPT+dLlJVElWV70s7J7lJvR506t1UXlEAAAAAAAD8bn2q2/wX5V0PS78fVcxN/6H7do5LzycVcx3dt3daej6rmOvoPh3dt3M+GKdqbqL7v7sYNM9Xv/Tfd/fXkZvIbZslM/Xe9fywKF6nP+dR17PD73Odvru/jzxEHjvaNzeXg3Gq5iZ9d/8UeY68dLlwRtz7NHK/95Ns1PXMj/s+l8m934j32IxsRRYii5GlYTe75yDnm7MdPe9EdiPLkbt4p5UJ6r6Nvrvfi573IweRta/vflX3H/runnq6T0f36eg+Hd2no/t0dA8AAAAAAAAAAAAAAAAAAAC08QarfaJtwHYAAA==
+  </data>
+ </layer>
+ <layer name="Top " width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3W3U3DMBiF4aRp6QD8DVBaVuBHQlxwxQ4gGIACswFiAC5YCLjmRK2FC44UN5bt0PeRjuQojXL8KUpaFAAAAAAAAACAnFwp18v1jXKbrsrGuVPmyr3yoDymrYN/olrjmlHwFptpssY10+Atwsq9n8Hs02H26TD7dMzsP/TR/VS+Kvex/X2Nube2z0Yfv/9t91bP+2jws47Fp59rnTOfvZ0x+6B89nY+WDz7zD6Mtu/72tBKzH7HuuGJcrq88Wvp/m2Kfl34/M/ZsRKLq997w+xT9OvCZ/YXGb/vayn6deGzt8vMZ5+iXxdPyrNnXugXRKV351AZlavrt2KRpvOx2D22lLHVz9XXpA8m6n2gTMvVtdlD0/lYTI9t3XNP2Vd2y7/d+jj7353bJna/es4z5bBh1n2cPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID4vgEbZkugwHYAAA==
+  </data>
+ </layer>
+ <layer name="Top2" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UsQ3AIAxFQZRVUMYh+49DQUUVCQnxo9w1bp9duBQAAAAAAAAA2K+eDvgxt5/dpwNepPcBfEX6P03vW9GuMVN3e8L7AAAAAAAAAAAAAAAAAAAAAAAAAHbpEUi+ccB2AAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WMQ6AMAgF0Or9D+1uIprYpEDf8IbWBT4p8RxjnAAAAAAAAADAb0fg/n11rZ1EuT/NgnnZfznLfs/su878655ZlX3nHVg9+8r5V9g5bzPJWN/M7LOpmHXUR/SeM+yc6L7iLLL/32evr3Nv2evr3Fv2+nYgWwAAAAAAAAAAAAAAAAAAAADgrwvGDRe6wHYAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="Margem" x="0" y="0" width="640" height="640"/>
+  <object name="Margem" x="2368" y="1888" width="672" height="672"/>
+  <object name="paraBaixo" type="warp" x="992" y="928" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002-06"/>
+    <property name="dest_x" value="1664"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="paraCima" type="warp" x="992" y="864" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002-07"/>
+    <property name="dest_x" value="2304"/>
+    <property name="dest_y" value="960"/>
+   </properties>
+  </object>
+  <object name="paraBaixo" type="warp" x="2272" y="928" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002-07"/>
+    <property name="dest_x" value="1024"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="paraVaranda" type="warp" x="2016" y="1056" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="002"/>
+    <property name="dest_x" value="3104"/>
+    <property name="dest_y" value="1120"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="672" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="704" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="672" y="704" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2208" y="832" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2208" y="928" width="32" height="32"/>
+  <object name="paraCima" type="warp" x="1984" y="768" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="002"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

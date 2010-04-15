@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="90" height="80" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/010-1.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Caverna Congelada"/>
+ </properties>
+ <tileset name="Colisão" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="Caverna Gelo" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png"/>
+ </tileset>
+ <layer name="Ground" width="90" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3bvU7DMBQFYA9QOgIDZQSGtogFGFoQe2nFQ1B4AAQ8AY/OtWiE5dqJb2In/jnDt5SfJLeHYycqEyHEBAAAAAAAAAAAAAAAILBrMlPcRHBOOXokx+SEnJKnCM4pJXpObebkglySK/ISwbmnROZ06eCB3JI7ck+mAh1SR8+vzOmzgzXZkjfyThbKe4AO2afnV+b0yNEn+SLfZKW8B6V3iKl79fyudzM8ZM5ZfX0qyt6LmLqXk1/bnD/EX3dUry+0Y5TQI2qGTd1b5dc1w6of8ir2M73SjlFCj6gZ7pJdbnfU9UiOXbIR5uz2OWe9R6ScukR2xjzAbKXR7hjqnMe7rx1o36v3SG5dIjsjRFdIZ4bjnTN+PqcukZ3huytGNcfjzDmXLgnVGaYcm4wbfk8uXdLUGdw9XFOWu2Q75S4J0RmuWXbNdA5d0iZPLnnj5It7Dil2SYg5y7y55qu6D7WtEa69xemqlOeszkPmzTVf1X1o130lt6v6pnaja3b0+wtbd8yEfZ1Scyz/7ruuEbHPOURvVN2xFPZ1yleO1fc19j2Hzsd1Nz2Lq56n+NrrcNaEmPnIm9oj3Hujpk7jrAkp8NUjPvpCn33se44+Zq33iOwLl/WUI/a1sM9c++qJUubcx6wx5zjnnfucY5l1CXOWuM/dMOd2Qt1b2uhrZSlzds10m71Ek9z2zrFlusQsV9rOynTf4pr9oa85tVm3MfS1Dg0zTn/WQ19XjDDjYWe9Ff//T4H5hpt33WdIhz7PnKhzHvpcAAAAAAAAAAAAAAAAAAAgvF+TvH31gHAAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="90" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Y2RGAIAwFQAqyBPqvy3+PceQQM9mtAEh4ZCgFAAAAAAAAAADO6uoFwCTb6gVAA5lMVDKXiGRuPplrnnnvM3j38lFzgDYj8tMcs87V2asH0CNzhmTeOzk99bw78c7Ifwl/HP30L1HUol+/4pz/T43a3M0N5gmiOvauXgYAAAAAAAAAItkByeQ5HIBwAAA=
+  </data>
+ </layer>
+ <layer name="Top" width="90" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3aQQrCMBRF0c51A9r979MWCQRrocHkR5JzIAOhA7k8StEuCwAAAAAAAAAAALTx2M5zO2v2eT2/nB/dlnfve+8vMpi0Y137SdvO7yeU27dsx/9l37ZNMxKbBjjKn2U908bSvp/UXu8YnsHiaB1H6zju2bFsO47WjKbnpv23QAs9Nj3rliNbz9o4iWg9e+OkVWvvhhzVbm3D52q0tuFrSn4LSU3zo2+Zb+98fXbVtC7vkAIAAAAAAADM5QUdh3JKgHAAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="90" height="80" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SWw7DIAxEUZT9L7q/FWrKw8Zj4I50pFZRAA95SikPAAAAAAAAAAAAgGElwRlO9x31WU5Gz3799UZ95h1Zoz5/Vj29jUQ9T1beUc+TgTUza6hn3rHnmahnztxt6716/X97qefP3HMr1r3UnSh69uzHa53deMdrb3UvK3u29r76jtVdZfmePff/9UzdVVTHrXdWn0Hdl3fPs9951H177Jmh5+iZW2uu2HPnnmfnjt7vtp6j98skcm6PqPuK6r7neWs9S+fqbrJ867PrjNyHupcMXXvd1+geJ8gWdR8nd/1Uv0/3Nntk1B3c9G3fYqQTy/O3d27h0ddbeu7mJjOx3od65l16tkY9c4auV/evnlWt7mJF1DNm4ZG3ddSzZTPSW0/U82TmFfUcO6j7+veffn37ptO4ztVnAAAAAAAAAAAAAADE+ACiqmWBgHAAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraFora" type="warp" x="1632" y="1856" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4640"/>
+    <property name="dest_y" value="2304"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1472" y="896" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4544"/>
+    <property name="dest_y" value="2016"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1440" y="608" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4544"/>
+    <property name="dest_y" value="1504"/>
+   </properties>
+  </object>
+  <object name="Morcego (15)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Spectro do Calafrio (3)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="45"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
