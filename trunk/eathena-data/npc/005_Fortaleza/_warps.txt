@@ -1,0 +1,18 @@
+// 005 Fortaleza warps
+
+005.gat,62,86	warp	paraQuartel	0,-1,005-1.gat,54,78
+005.gat,111,102	warp	subirEscada	-1,-1,005.gat,112,99
+005.gat,142,98	warp	subirEscada2	-1,-1,005.gat,143,95
+005.gat,112,99	warp	descerEscada	-1,-1,005.gat,111,102
+005.gat,143,95	warp	descerEscada2	-1,-1,005.gat,142,98
+005.gat,100,120	warp	paraBaixo	6,-1,008.gat,99,21
+005.gat,25,94	warp	paraBar1	-1,-1,005-3.gat,24,155
+005.gat,31,88	warp	paraBar2	-1,-1,005-3.gat,35,145
+005.gat,38,94	warp	paraBar3	-1,-1,005-3.gat,46,155
+005.gat,62,25	warp	paraBanco1	0,-1,005-3.gat,71,22
+005.gat,71,25	warp	paraBanco2	0,-1,005-3.gat,85,22
+005.gat,178,19	warp	paraCima	0,-1,002.gat,177,118
+005.gat,22,19	warp	paraCima	0,-1,002.gat,21,118
+
+005.gat,154,23	warp	paraIgreja	1,-1,005-4.gat,26,34
+005.gat,159,23	warp	paraIgreja	1,-1,005-4.gat,33,34

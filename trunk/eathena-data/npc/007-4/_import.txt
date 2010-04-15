@@ -1,0 +1,9 @@
+map: 007-4.gat
+
+npc: npc/007-4/bau.conf
+npc: npc/007-4/camelia.conf
+npc: npc/007-4/cornelia.conf
+npc: npc/007-4/party.conf
+
+npc: npc/007-4/_mobs.txt
+npc: npc/007-4/_warps.txt

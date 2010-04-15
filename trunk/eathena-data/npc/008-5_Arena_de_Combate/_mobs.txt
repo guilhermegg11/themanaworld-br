@@ -1,0 +1,7 @@
+// 008-5 Arena de Combate mobs
+
+
+
+008-5.gat,0,0,0	script	Mob008-5	-1,{
+	end;
+}

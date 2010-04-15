@@ -1,0 +1,6 @@
+map: 008-5.gat
+
+npc: npc/008-5_Arena_de_Combate/pvpflag.conf
+
+npc: npc/008-5_Arena_de_Combate/_mobs.txt
+npc: npc/008-5_Arena_de_Combate/_warps.txt

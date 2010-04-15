@@ -1,0 +1,4 @@
+// 008-1 Caverna warps
+
+008-1.gat,30,57	warp	paraFora	-1,-1,008.gat,25,43
+008-1.gat,51,55	warp	paraFora	-1,-1,008.gat,41,40

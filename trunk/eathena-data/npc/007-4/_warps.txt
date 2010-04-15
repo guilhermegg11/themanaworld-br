@@ -1,0 +1,7 @@
+// 007-4 warps
+
+007-4.gat,100,31	warp	sairHospital	-1,-1,007.gat,63,29
+007-4.gat,27,31	warp	sair1	-1,-1,007.gat,37,38
+007-4.gat,63,31	warp	sair2	-1,-1,007.gat,30,67
+007-4.gat,26,67	warp	sair3	-1,-1,007.gat,134,108
+007-4.gat,63,67	warp	sair4	-1,-1,007.gat,73,47

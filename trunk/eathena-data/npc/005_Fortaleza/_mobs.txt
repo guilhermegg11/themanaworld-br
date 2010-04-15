@@ -1,0 +1,33 @@
+// 005 Fortaleza mobs
+
+005.gat,45,116,40,6	monster	Bicho-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,42,115,31,8	monster	Morcego (3)	1017,1,0,0,Mob005::On1017
+005.gat,154,116,40,6	monster	Bicho-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,78,38,24,32	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,121,38,24,32	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,121,87,24,31	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,78,87,24,31	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,44,93,39,20	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+005.gat,44,33,39,22	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+005.gat,154,93,39,20	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+005.gat,154,32,39,21	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+
+
+005.gat,0,0,0	script	Mob005	-1,{
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+	break;
+
+On1035:
+	set @mobID, 1035;
+	callfunc "MobPoints";
+	break;
+
+On1038:
+	set @mobID, 1038;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

@@ -1,0 +1,13 @@
+// 002 Fortaleza mobs
+
+002.gat,99,24,11,9	monster	Morcego (5)	1017,5,0,0,Mob002::On1017
+
+
+002.gat,0,0,0	script	Mob002	-1,{
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

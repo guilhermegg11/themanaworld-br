@@ -1,0 +1,5 @@
+// 002-04_Escadaria-Terrea
+
+002-04.gat,47,33	warp	SalaDeFestas	2,-1,002-01.gat,47,33
+002-04.gat,52,25	warp	paraCima	2,-1,002-05.gat,52,30
+
