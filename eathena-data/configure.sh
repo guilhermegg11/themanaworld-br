@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Scripts para configurar o localhost
+# @autor Diogo_RBG - http://diogorbg.blogspot.com
+
 echo ".:: Renomeando arquivos do diretório conf ::.";
 mv -uv conf/atcommand_local.conf.example conf/atcommand_local.conf
 mv -uv conf/battle_local.conf.example conf/battle_local.conf
@@ -33,3 +36,8 @@ echo "";
 echo ".:: Instruções ::.";
 echo "Se tudo foi configurado com sucesso basta você rodar o servidor com o comando:";
 echo "./eathena.sh start";
+echo "";
+echo "Ou se preferir execute cada servidor separadamente, pois você verá as mensagens de erro dos mesmos:";
+echo "./login-server";
+echo "./char-server";
+echo "./map-server";
