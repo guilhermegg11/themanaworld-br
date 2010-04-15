@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="129" height="89" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/007-4.png"/>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+ </properties>
+ <tileset name="colision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="cabana_in" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png"/>
+ </tileset>
+ <tileset name="canana_in X3" firstgid="83" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png"/>
+ </tileset>
+ <tileset name="in" firstgid="99" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="in X3" firstgid="355" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <tileset name="pots" firstgid="371" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Pots_x2.png"/>
+ </tileset>
+ <layer name="Ground" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cTU5bMRDAcUulQcm2VChdg7jD27ZSD9JyAuAEqFdpOQHlBNBj9Y3wSI6xQ/jwm3Hef/FT/CElo5lJ9LyIVyGEFQAAAAAAAAAAAAAAAAC8o4+jw0jHy2QtX9dxq3jkvQ8KMZTWlnG9ZTziR/QzGafOK2Pr2u7q8+g40vE6WcvXddwqHnnvo0IMpbV1XG8Zj7iILpNx6qoytq7trk5HZ1E6Pqus67hVPPLeJ4UYSmvpesscXb+SdW139eWV5hKPGKJfyXiorKdj69r2mnNv8aQ98FLWte01597ioQd89sDBhPEIfc4fwuZ5YA49oOcubz1wNGE8Qp/zh7B5HphDD+i5y1sPnEwYj9Dn/CFsPvfL/PfoplD/fekBPXd564Ep41lV6qtuR3fJXHriT3jsC+vaviXnC8Oc994DMv8b16xr22vOvcXz0h64Hz2M/jmoba859xbPrj1wV9izru171cM6Bs/xiHsHMcwp597iEfvyfQcAAAAAAAAAAAAAAAAAAMC8pff9lO4iWlb2W8WTf47Oc/m+dR57lt73U7qLaF3ZbxVP/jk6z+X71nns2XP3/dT2W8XzbfQ9kc9zum+dx555+2/Xtv91HW7Zs85jz3rogUV8Pa7s0wP73wNKfvMXlT3rPPasVuPSnT/WPbCNdR57Vqtx6c4fDz3wITw9z3I2bNMDpTt/PPTAp/D0PMvZsE0PeHweEF9D+dxonceePVfr2t1EU/aAxKB3PeX0TjDrPPasl98Bvespp3fAWOexZ/QAtvWGdQy5BwcxzInHHuD7DgAAAAAAAAAAAAAAAAAA8Og/gmS/DWSzAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3c207bQBDGcVuIJwCeALgCyuEKqUApB4HUcj4E2kJbCYEo14AQUpH6SjxbgEvGyi4dmbUJIru28f8njZwMITveuA25yBdFAAAAAAAAAAAAAAAAAAD49yGOotH4eX9IesNSI46f+Vzb1Zsw98fkOO5xnjx6Lj1H1v5VwaaZe0aOn+L/vUFz+6Mcp6SmPZ5feu2s3pw5zsrxs+f9PpXn/2PWOJbjiWMuPYfuV9WqzL9mzqGp+l+k91VqxeP56bXzeta69DcC7/e8WU/PpefIm7cqDmX+n45z+C69H1IHHs/PtXbWPIlf0v/teb8XU89vrwE9l54jb94y+ia1JbVX9CAAgNKaCPy+1oha709Jbafu29553DraXsPzTMdmD47UXlzJ7TNTR+q2vl8Vem/tbdvvj1ufwfTfCrvqMSH1F7inlxlrT6r+YIVe807o9Xi+9t+1vi4TRV4DS7G7lt/JNXArdSd1L/XQ5u8MeD7fHnn+Bam+nHVC7nkjdtfeO7kGqi75XFvEexNQFztFD5BStnkSZZwJAAAAAAAAAAAAAAAAAAAAAF4rL2NIZ+yEyv9pJ8vHzhIiH6kO0hlDyff6bOaPzdix3z1tRv7zf7KykDSbRRQiH6kO8jKGXFk/vvN/2snysRlJIfKR6iAvY8iV9eM7/+c1WT4h8pFQHsl3Sy94rQHAC53po3Np/pnMn6zHoH7mTTZIOq+x01663v7K+jfmc6qta/5OCGIr+X9BaifQfjdffsgTcmA6a7/oAURX3MpH6m7zteUaeBud/QUAWhlzdso4EwAAAAAAAAAAAAAAAAAAQBEeAUBNKcBkswAA
+  </data>
+ </layer>
+ <layer name="Top" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cyW7bMBDGcercJk59rZNMc+0KdDkVbR8nSfsA6Qt3eYZeStpmzRIaSQaGWsz/DyDs0BbwSZjQ0oHjHAAAAAAAAAAAAAAAAGDnzI+L/XiWvO+ai+O8cJ5jc5XIo2XquzalM1laJe+ft3zeNheJbZStVcvc0FxiG+WftkxahpwY5iiFGuh36jVw48eL/fjU8jk10J7pbXM6NaDVeEQN7DK9b/6f+6NkyIl9HHPUQL+Q6SqrgXPWgS0xzBGlv01xvBk496RAHi2TluHzSJksaecXzyWe56PkmI0rd359NdlFrEJkjsmU/8+IYY5SwvlJss7d+nHnplvntJp8NVGeoIYaaDNVDaQ1ebefu50wT9BVAx+y+4RTqoHHA44VwxzRsTX50pX/7a1lHfjhx08/fh1xrJinOeQJz9/vmsMzmVYD6XyJPGmmIZZcA8GZv94X+2v+dMCxUjhPeP66pgaKu/TjumWs969O+TyMqxnkWbuyeboyxZFmWrvy1wgAAAAAAAAAAAAAAAAAAAAArGm9dob02xmrH1GeRcu1hN4/c9S1f6Jvj58Y5oiG7DXTcoltlGpQA1hKDXxxh72lr0fMU4Ol1EC6D5p1wNZSaiCl7YsXwxw10fp+pH1o8h47Jff7azUw1T7oGsRr/uDHd+U7YT346nb9QEKPkHu36xEiBfJoNZneA2yU7yyh/9McDVl7x/z9TXvRxN5I9x0ZSuepQVsNfMz+jtc/7w0iI+VJM3QRwxw1Sdfe2PvrW/adeA/2249Vs3sNpECeufVHqkFfz+ouYpgjmlt/pBoMqQHtnlxso2zFPJd+vdk0hx6xPBeUk/bayXvpOGV+Tv2I6P0DAAAAAAAAAAAAAAAAAAAAoFZ/AVekcjJkswAA
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="140" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3S4aqEIBAG0PD9H/r+CkI0a2/OuO0ZOGSO0MdY2batAAAAAAAAAAAAAAAAAAAAwGTHau3Vvejvj85mzSpyRuTed+8fWCVLr585t9aad6mrtXfsZWXo7WXPa4VMxN3xWT8qz529lWaXlYm4Oz7rR+W5s7fS7LIyEXfHZ2eisvX2ojJ8knOlbMy541Z/dOapHKNqncucWy9X9p3y7P3uVTrr+kxEtrOc0XlG82u9891a1duvz/xCnjt5S+PJu1ytmd9vvUdm+M9MMvIR+y9c+Sdmf/9KnsiZXKn6bPZdMv+/yM6wcp5VMwEAAAAAAAAAAAAAAAAAAAAAAADfqVWtXut9dp5yeI5yZ8+R9zvWlf2MLOVkH57Wq7Pe3o/K88kZeEKvznp7PzLPNjiTPUfeqVdnvb0flWeUZWYeqG3VM/rbdZVqDVF6Vapnq5+RM3te/JZRlcOzdN5n5ynVuj6XPUPeq656rxyepfM+M08rU+8MPG2r1lcrIs+dTNlz5J32Oq63i/uz8rTeR5U9R37LtkCGb8gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA2f2WpwIOAtQEA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="sairHospital" type="warp" x="3200" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="2016"/>
+    <property name="dest_y" value="928"/>
+   </properties>
+  </object>
+  <object name="sair1" type="warp" x="864" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="1184"/>
+    <property name="dest_y" value="1216"/>
+   </properties>
+  </object>
+  <object name="sair2" type="warp" x="2016" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="2144"/>
+   </properties>
+  </object>
+  <object name="sair3" type="warp" x="832" y="2144" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4288"/>
+    <property name="dest_y" value="3456"/>
+   </properties>
+  </object>
+  <object name="sair4" type="warp" x="2016" y="2144" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="2336"/>
+    <property name="dest_y" value="1504"/>
+   </properties>
+  </object>
+  <object name="20x20" x="1126" y="1048" width="640" height="640"/>
+ </objectgroup>
+</map>

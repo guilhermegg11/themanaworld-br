@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="95" height="80" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Quarto Masculino"/>
+ </properties>
+ <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="blockWalls" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png"/>
+ </tileset>
+ <tileset name="blockWalls_in_x3" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls_in_x3.png"/>
+ </tileset>
+ <tileset name="inn" firstgid="307" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="sombras" firstgid="563" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/sombras.png"/>
+ </tileset>
+ <tileset name="escada_madeira" firstgid="587" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/escada_madeira.png"/>
+ </tileset>
+ <tileset name="numeros" firstgid="643" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png"/>
+ </tileset>
+ <layer name="Ground" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WsQ3AIBAEQdyrO6Uop64A8YEtDjTB5PsnAnprrQMAAAAAAAAAAAAAAAAAAAAwdF91Wv+555lIuKfamdBq+2y2t73tc2/apfOLm9L+D6Oek7df3Xdad+U9pd+wazcAAAAAAAAAAACw3gsWWBNWwHYAAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ay03DQBQFUOdXAVAHGzrAVEDoAeoGKkDsmUixQCycGcmjyRufI91FJEu578bLDAMAAAAAwLrsUvad5bDoQvW8poyd5W3RheqxfTtLbH9fENv/qvXet/wN1r59y0TZ/ibltrPcLboQAAAAAAAA9G3ctG6wXj1uH+WmKD1LRLkpSs8SUW46bvLTWqSuud5T148L+byCe6L0LPGV0ff7Cm6K0rNEzk0nD3VrLPLdvW7/VLfGrMfM53rc/vQf09bbjxnP9bT9dHPO3bVNPebegR62n254Tjme09rU4+X8ea53FFFviNr7r912GPb/cti2bnVZ1N4AAAAAAAAAAABAWz8mHMWbwHYAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UsU5CMRgF4HuJD+bb4IQuygIuJE4y6KyJ8ATqE6hP5iGRAUPKIrktfl9yknbq35OmXQcAAAAAAAAAAAAAAAAAAADAIbO+6+Z9eV2T1uYtuc+8y768rklr85Y8Zd7nvryuSWvz/oXFaLiz7wY8+5ha/jNbnn3j0J/5kP1jcj7g29ucPU4ufs3Q+n+/z9nPHV9yl1WyrqD7SXKZXI12ZzxVr+n8LXmv4D1dp+ubZHrinW99pPPP5KuC7mfpfJ7c/pPuAQAAAAAAAAAAgOP4BrAl5DrAdgAA
+  </data>
+ </layer>
+ <layer name="Top " width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ZMU7DMBgF4ERtuUjpAisLsPYU5ZjACXoxbKFKFCmJjVR+O/o+6UkZPDy/KVGGAQAAAAAAAADg2iG6AAAAAAAAANU2KduUp4LsgzpmdzO9fmcX1LFW3vM4liVy+0NFz17+Gdo+ju3j1OwZvf0tzkayfRzbxynZ82H4fnd7vnGXOZf3x8eCs2vZPu/+knL8hy5LcofXYXn/tWx/GtrY/SJ3eVs4s5bte9TL9u8pHxNp3VTvz8hSFc4pm/Q9sk3ZjdfPrZvqfY4uVij33Ke+9/l7cLx+bt1U7562n8vPcy0p7d2ypTu0cqdeetbo5U699AQAAAAAAAAAAP7mC3r3bmzAdgAA
+  </data>
+ </layer>
+ <layer name="Top2" width="95" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3PsQ2AMAwEwKSByRATIDYA9p8AFzQ0EQ2yotxJX7n4dykAAAAAAAAAAAAAAAAAAIxkTuyeErsZw1KzF3zTy86WI344I1dkj2zPT2t937L1shMAAAAAAAAAAAAAAAAA/nIDuPWoVsB2AAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="95" height="80" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UOQ7AIAwEQOD/j84LOAoS29EUI0HFeoU8WmsDAAAAAAAAAAAAAAAAAAAAgCN9ce4fvH+Sb5UxOp/ua9J93Ew7cr4722zO6Gy7XJky3up+do/qfHWP7u9291n+/y5P1e4r7c+/7fuKc1TMDAAAAAAAAAAAAOTwAO5ORvfAdgAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="Margem" x="0" y="0" width="640" height="640"/>
+  <object name="Margem" x="2368" y="1888" width="672" height="672"/>
+  <object name="SalaDeFestas" type="warp" x="992" y="1568" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="002-01"/>
+    <property name="dest_x" value="1024"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+  <object name="SalaDeFestas" type="warp" x="1984" y="1568" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="002-01"/>
+    <property name="dest_x" value="1952"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
