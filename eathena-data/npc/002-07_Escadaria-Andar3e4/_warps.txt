@@ -1,0 +1,11 @@
+// 002-07_Escadaria-Andar3e4
+
+002-07.gat,32,29	warp	paraBaixo	2,-1,002-06.gat,52,26
+002-07.gat,32,27	warp	paraCima1	2,-1,002-07.gat,72,30
+
+002-07.gat,72,29	warp	paraBaixo	2,-1,002-07.gat,32,26
+
+
+002-07.gat,64,33	warp	paraVaranda	2,-1,002.gat,97,35
+002-07.gat,62,24	warp	paraTerraco	2,-1,002.gat,96,22
+

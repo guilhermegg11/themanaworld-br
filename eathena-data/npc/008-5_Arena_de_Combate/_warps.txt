@@ -1,0 +1,3 @@
+// 008-5 Arena de Combate warps
+
+008-5.gat,78,129	warp	paraFora	-1,-1,008-2.gat,66,29

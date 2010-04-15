@@ -1,0 +1,4 @@
+// 002-02_Quartos_Femininos
+
+002-02.gat,31,40	warp	SalaDeFestas	-1,2,002-01.gat,31,40
+002-02.gat,62,40	warp	SalaDeFestas	-1,2,002-01.gat,62,40

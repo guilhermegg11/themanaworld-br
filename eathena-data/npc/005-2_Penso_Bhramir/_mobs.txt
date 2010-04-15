@@ -1,0 +1,7 @@
+// 005-2 Pensão Bhramir mobs
+
+
+
+005-2.gat,0,0,0	script	Mob005-2	-1,{
+	end;
+}
