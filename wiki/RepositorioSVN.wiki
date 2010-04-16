@@ -13,7 +13,7 @@ Instalado o programa é só fazer uma cópia de um dos diretórios disponíveis 
 Esta tabela possui uma lista de diretórios e seus respectivos comandos.
 
 || Projeto || Comando ||
-|| localhost || svn checkout http://themanaworld-br.googlecode.com/svn/trunk ||
+|| localhost || svn checkout http://themanaworld-br.googlecode.com/svn/trunk tmw-br ||
 || updates || svn checkout http://themanaworld-br.googlecode.com/svn/updates updates ||
 || art || svn checkout http://themanaworld-br.googlecode.com/svn/art art ||
 
