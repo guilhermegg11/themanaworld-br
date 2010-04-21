@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monsters>
+
+<monsters offset="1002">
 
     <monster id="0" name="Verme" targetCursor="small">
         <sprite>monster-maggot.xml</sprite>
