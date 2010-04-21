@@ -24,6 +24,6 @@
 	<update type="data" file="update_2009-12-31.zip" hash="2ac6f6a0"/>
 	<update type="data" file="update_2010-02-21.zip" hash="22d6ab7f"/>
 	<update type="data" file="update_2010-03-10.zip" hash="5e9d3a79"/>
-	<update type="data" file="update_2010-04-21.zip" hash="83419ae3"/>
+	<update type="data" file="update_2010-04-21.zip" hash="8e5c16e5"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 </updates>
