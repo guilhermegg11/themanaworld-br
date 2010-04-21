@@ -407,7 +407,7 @@
 3014,oculosOlhoDragao,oculosOlhoDragao,5,1000,500,10,,5,,-36,0,2,256,,0,0,{},{bonus bDex, 3; },,
 3015,mantoEncantado,mantoEncantado,5,8000,4000,5,,5,,0,0,2,512,,0,0,{},{bonus bMdef, 20; },,
 3016,colarHorcrux,colarHorcrux,3,1000,500,10,,,,,,,,,,,{},{},,
-3017,colarHorcruxFada,colarHorcruxFada,5,8000,4000,5,0,,,0,0,2,128,,0,0,{},{ bonus bMaxHP, BaseLevel*2; bonus bMaxSP, BaseLevel; bonus bAtk, BaseLevel/2; },,
+3017,colarHorcruxFada,colarHorcruxFada,5,8000,4000,5,0,,,0,0,2,128,,0,0,{},{ bonus bAtk, BaseLevel/2+1; bonus bMaxHP, BaseLevel*2; bonus bMaxSP, BaseLevel; },,
 3018,AFKCap,AFKCap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{},,
 3019,couroCobraGrama,couroCobraGrama,3,300,150,20,,,,,,,,,,,{},{},,
 3020,poEncantado,poEncantado,3,500,250,5,,,,,,2,,,0,,{},{},,
