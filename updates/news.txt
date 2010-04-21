@@ -21,7 +21,7 @@
 ##0 Estamos reconstruindo um servidor totalmente
 ##0 personalizado com conteúdo próprio, caso queira
 ##0 contribuir ajudando a criar os mapas, as quests
-##0 e os NPCs do nosso servidor acesse nosso fórum:
+##0 e os NPCs do nosso servidor acesse o fórum:
 ##0 http://forums.themanaworld.com.br
 ##0
 ##2 Administração
