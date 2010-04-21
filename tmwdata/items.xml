@@ -4019,7 +4019,7 @@
 		image="armor-ring-colar-horcrux-fada.png"
 		name="Colar Horcrux (alma de fada)"
 		description="Colar com uma alma de fada Aprisionada."
-		effect="Dano +50, HP +100"
+		effect="Dano +1..50, HP +2..198, MP +1..99"
 		type="equip-ring"
 		weight="1"
 		max-per-slot="1">
