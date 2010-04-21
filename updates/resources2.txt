@@ -22,6 +22,4 @@ update_2009-11-10.zip d5a3c4ce
 update_2009-12-31.zip 2ac6f6a0
 update_2010-02-21.zip 22d6ab7f
 update_2010-03-10.zip 5e9d3a79
-update_pascoa2010.zip 18879df3
-update_pascoa2010_2.zip 693bd48c
-update_pascoa2010_3.zip 71b1c178
+update_2010-04-21.zip 83419ae3

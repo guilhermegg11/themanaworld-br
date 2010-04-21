@@ -24,8 +24,6 @@
 	<update type="data" file="update_2009-12-31.zip" hash="2ac6f6a0"/>
 	<update type="data" file="update_2010-02-21.zip" hash="22d6ab7f"/>
 	<update type="data" file="update_2010-03-10.zip" hash="5e9d3a79"/>
-	<update type="data" file="update_pascoa2010.zip" hash="18879df3"/>
-	<update type="data" file="update_pascoa2010_2.zip" hash="693bd48c"/>
-	<update type="data" file="update_pascoa2010_3.zip" hash="71b1c178"/>
+	<update type="data" file="update_2010-04-21.zip" hash="83419ae3"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 </updates>
