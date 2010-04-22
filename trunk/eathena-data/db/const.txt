@@ -1,5 +1,8 @@
 // Constants usable in scripts
 
+// This constant is used to define whether unreleased items are equippable. This defaults to on, but should be disabled on the official server.
+debug		1
+
 mf_nomemo	0
 mf_noteleport	1
 mf_nosave	2
@@ -51,6 +54,7 @@ bFlee		50
 bFlee2		51
 bCritical	52
 bAspd		53
+bDeaf		70
 
 bAtkRange	1000
 bAtkEle		1001
@@ -151,6 +155,24 @@ cOrange 7
 cPurple 8
 cDarkGreen 9
 
+sc_poison		132
+sc_slowpoison		14
+sc_raiseattackspeed0	37
+sc_raiseattackstrength	185
+
+// Marriage-related
+WEDDING_FEE		100
+DIVORCE_FEE_PER_LEVEL	500
+WEDDING_MIN_LEVEL	32
+
+sfx_skillup			1
+sfx_magic_generic		2
+sfx_magic_life			3
+sfx_magic_war			4
+sfx_magic_transmute		5
+sfx_magic_nature		6
+sfx_magic_astral		7
+
 NIBBLE_0_SHIFT 0
 NIBBLE_0_MASK 15
 
@@ -172,5 +194,46 @@ NIBBLE_5_MASK 15728640
 NIBBLE_6_SHIFT 24
 NIBBLE_6_MASK 251658240
 
-NIBBLE_7_SHIFT 28
-NIBBLE_7_MASK 4026531840
+NIBBLE_7_SHIFT 28        // Only three bits available in this one
+NIBBLE_7_MASK 1879048192 // should be 4026531840
+
+// Skill pools
+SKILL_FOCUS		339
+SKILL_MALLARDS_EYE	45
+SKILL_BRAWLING		350
+SKILL_LUCKY_COUNTER	351
+SKILL_SPEED		352
+SKILL_RESIST_POISON	353
+SKILL_ASTRAL_SOUL	354
+
+// Magic skills
+SKILL_MAGIC		340
+SKILL_MAGIC_LIFE	341
+SKILL_MAGIC_WAR		342
+SKILL_MAGIC_TRANSMUTE	343
+SKILL_MAGIC_NATURE	344
+SKILL_MAGIC_ASTRAL	345
+
+// Flags for the magic quests
+MFLAG_DRANK_POTION	1	// Character drank at least one magic potion as prerequisite for the mana seed quest
+MFLAG_KNOWS_MANASEED	2	// Character has found the Mana Seed
+MFLAG_TOUCHED_MANASEED	4	// Character has touched the Mana Seed
+MFLAG_MANASEED_MAXEDOUT	8	// Character has touched the Mana Seed while maxed out on magic
+
+MFLAG_KNOWS_AULDSBEL	16	// Character has met Auldsbel
+MFLAG_KNOWS_WYARA	32	// Character has met Wyara
+MFLAG_KNOWS_SAGATHA	64	// Character has met Sagatha
+MFLAG_KNOWS_MANAPOTION	128	// Has heard about the mana potion
+
+MFLAG_MANASEED_RUMOUR	256	// Has heard rumour about mana seed
+MFLAG_KNOWS_CUTTREE	512	// Knows about the `cut the tree' quest
+MFLAG_DID_CUTTREE	1024	// Did cut off a branch from the druid tree
+MFLAG_KNOWS_DRUIDTREE	2048	// Knows about the druid tree quest
+
+MFLAG_KNOWS_IMP		4096	// Knows about the imprisoned forest spirit
+MFLAG_KNOWS_OLD_WIZARD	8192	// Knows Bjorn's old wizard
+MFLAG_MADE_CONC_POTION	16384	// Made a concentration potion with T15 and/or T16
+MFLAG_ELANORE_OMAR	32768	// Told Omar about Elanore's involvement
+
+DOCK_tulimshar	1
+DOCK_hurnscald	2
