@@ -1,0 +1,3 @@
+map: calabouco.gat
+npc: npc/calabouco_Calabouo_das_Feras/_mobs.txt
+npc: npc/calabouco_Calabouo_das_Feras/_warps.txt
