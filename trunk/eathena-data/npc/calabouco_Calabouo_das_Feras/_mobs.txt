@@ -1,0 +1,7 @@
+// calabouco Calabouço das Feras mobs
+
+
+
+calabouco.gat,0,0,0	script	Mobcalabouco	-1,{
+	end;
+}
