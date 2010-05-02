@@ -1,7 +1,7 @@
 map: 005-1.gat
 
-
-npc: npc/005-1_Quartel_General/juiz_rafael.conf
+// Desativado até que seu bug seja resolvido.
+//npc: npc/005-1_Quartel_General/juiz_rafael.conf
 
 npc: npc/005-1_Quartel_General/menir_alma.conf
 //npc: npc/005-1_Quartel_General/placas.conf
