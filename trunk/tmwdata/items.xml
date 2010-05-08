@@ -4686,5 +4686,12 @@
 		max-per-slot="10"/>
 
 	<!-- reservado do 3086 ao 3089-->
-
+	<item id="3090"
+		image="generic-pedra.png"
+		name="Lasca de rocha"
+		description="Um pequeno pedaço de rocha que emana uma estranha energia."
+		type="generic"
+		weight="100"
+		max-per-slot="1"
+	/><!-- 3090 Reservado por alastrim -->
 </items>

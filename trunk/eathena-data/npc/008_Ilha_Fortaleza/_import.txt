@@ -13,7 +13,7 @@ npc: npc/008_Ilha_Fortaleza/florencia.conf
 npc: npc/008_Ilha_Fortaleza/duende_faisca.conf
 
 //Avaliando
-//npc: npc/008_Ilha_Fortaleza/espada.conf
+npc: npc/008_Ilha_Fortaleza/espada008.conf
 
 npc: npc/008_Ilha_Fortaleza/_mobs.txt
 npc: npc/008_Ilha_Fortaleza/_warps.txt
