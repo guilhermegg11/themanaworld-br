@@ -21,5 +21,10 @@ npc: npc/007_Praia_do_Porto/placas.conf
 npc: npc/007_Praia_do_Porto/menir_alma.conf
 npc: npc/007_Praia_do_Porto/operarios.conf
 
+//Avaliando
+npc: npc/007_Praia_do_Porto/espada007.conf
+
 npc: npc/007_Praia_do_Porto/_mobs.txt
 npc: npc/007_Praia_do_Porto/_warps.txt
+
+
