@@ -4,8 +4,8 @@
 ##0 quarto o quanto antes.
 ##0 * Missão do óleo de monstro disponível.
 ##0 * Acho que o mapa 005 foi reflorestado! Oo
-##0 - Aquele que ficar peso no mapa chame por
-##0 um GM digotando o comando:
+##0 - Aquele que ficar preso no mapa chame por
+##0 um GM digitando o comando:
 ##3 @wgm socorro!
 ##0
 ##3 .:: Atualização 21/04/2010 ::.
