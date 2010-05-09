@@ -1,5 +1,4 @@
-##3 .:: Atualização ::.
-##3 09/05/2010
+##3 .:: Atualização 09/05/2010 ::.
 ##0
 ##0 * A Pensão Bhramir foi ampliada. Alugue o seu
 ##0 quarto o quanto antes.
@@ -9,8 +8,7 @@
 ##0 um GM digotando o comando:
 ##3 @wgm socorro!
 ##0
-##3 .:: Atualização ::.
-##3 21/04/2010
+##3 .:: Atualização 21/04/2010 ::.
 ##0
 ##0 * O TMW-BR agora funciona no Mana Source.
 ##0 * Novo mapa acima da praia e acima da fazenda.
