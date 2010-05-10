@@ -1,0 +1,32 @@
+<project name="ParserTMW-BR" default="dist">
+
+	<!--
+		Para compilar este projeto use o programa ant.
+		./ant
+	-->
+	<description>Um conjunto de ferramentas para analisar/gerar informações a partir dos scripts do eAthena.</description>
+
+	<target name="init">
+		<tstamp/>
+		<mkdir dir="build"/>
+	</target>
+
+	<target name="compile" depends="init" description="Compile the source">
+		<javac source="1.5" target="1.5" srcdir="src" destdir="build"
+			deprecation="on" classpath="tmw.jar;tiled-core.jar;"/>
+		<copy file="build/Conversor.class" todir="."/>
+	</target>
+
+	<target name="dist" depends="compile" description="Generate the distribution">
+		<jar jarfile="conversor.jar" basedir="build">
+			<manifest>
+				<attribute name="Main-Class" value="Conversor" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="clean" description="Clean up the build directory" >
+		<delete dir="build"/>
+	</target>
+
+</project>
