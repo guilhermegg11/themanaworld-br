@@ -4,21 +4,22 @@
  * @data 10/05/2010
  * @author Diogo_RBG - http://diogorbg.blogspot.com/
  * 
- * Wikipédia: Token em computação é um segmento de texto ou símbolo que pode ser manipulado por
- * um parser, que fornece um significado ao texto; em outras palavras, é um conjunto de caracteres
+ * WikipÃ©dia: Token em computaÃ§Ã£o Ã© um segmento de texto ou sÃ­mbolo que pode ser manipulado por
+ * um parser, que fornece um significado ao texto; em outras palavras, Ã© um conjunto de caracteres
  * (de um alfabeto, por exemplo) com um significado coletivo.
  */
 
 package parser;
 
-enum TipoToken{
-	CMD, // Comando
-	TXT, // Texto
-	VLR, // Valor
-	VAR  // Variável ou constante
-}
-
 public class Token {
+
+	public enum TipoToken{
+		CMD, // Comando
+		TXT, // Texto
+		NUM, // NÃºmero
+		VAR  // VariÃ¡vel ou constante
+	}
+
 	private TipoToken tipo;
 	private String valor;
 
@@ -28,7 +29,7 @@ public class Token {
 	}
 
 	/**
-	 * O tipo de token. Que pode ser comando, texto, valor ou variável/constante.
+	 * O tipo de token. Que pode ser comando, texto, valor ou variÃ¡vel/constante.
 	 * @return Um objeto do tipo TipoToken.
 	 */
 	public TipoToken getTipo() {
@@ -36,7 +37,7 @@ public class Token {
 	}
 
 	/**
-	 * Retorna o valor do token. Tokens do tipo TXT não possuem aspas duplas >> " << e nem caracteres de escape >> \ <<.
+	 * Retorna o valor do token. Tokens do tipo TXT nÃ£o possuem aspas duplas >> " << e nem caracteres de escape >> \ <<.
 	 * @return Uma string contendo o token em si.
 	 */
 	public String getValor() {

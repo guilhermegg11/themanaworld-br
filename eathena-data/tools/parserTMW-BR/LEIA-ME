@@ -16,8 +16,6 @@
 
 	* Execute o pacote jar:
 		java -jar conversor.jar
-	* Ou ainda o arquivo class
-		java Conversor
 
 .:: Para Desenvolvedores ::.
 
