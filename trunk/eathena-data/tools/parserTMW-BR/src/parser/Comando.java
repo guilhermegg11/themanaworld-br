@@ -7,7 +7,7 @@
  * O comando "itemheal 25,0;" seria dividido em:
  * { {"cmd", itemheal}, {"vlr", "25"}, {"vlr", "0"} }
  * 
- * Já o comando "callfunc "presenteSurpresa";" seria dividido em:
+ * JÃ¡ o comando "callfunc "presenteSurpresa";" seria dividido em:
  * { {"cmd", "callfunc"}, {"txt", "presenteSurpresa"} }
  * 
  * E o comando "bonus bLuk, 10;" dividido em:
@@ -18,6 +18,8 @@
 package parser;
 
 import java.util.ArrayList;
+
+import parser.Token.TipoToken;
 
 public class Comando {
 
@@ -42,6 +44,27 @@ public class Comando {
 	 */
 	public boolean addToken(Token token){
 		return tokens.add(token);
+	}
+
+	/**
+	 * Retorna sempre o primeiro valor da lista.
+	 */
+	public String getComando(){
+		return tokens.get(0).getValor();
+	}
+
+	/**
+	 * Retorna o valor em forma de String.
+	 */
+	public String getString(int indice){
+		return tokens.get(indice).getValor();
+	}
+
+	/**
+	 * Retorna o tipo do tokem.
+	 */
+	public TipoToken getTipo(int indice){
+		return tokens.get(indice).getTipo();
 	}
 
 }

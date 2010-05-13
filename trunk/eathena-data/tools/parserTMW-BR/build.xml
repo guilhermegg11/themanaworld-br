@@ -12,9 +12,7 @@
 	</target>
 
 	<target name="compile" depends="init" description="Compile the source">
-		<javac source="1.5" target="1.5" srcdir="src" destdir="build"
-			deprecation="on" classpath="tmw.jar;tiled-core.jar;"/>
-		<copy file="build/Conversor.class" todir="."/>
+		<javac srcdir="src" destdir="build" deprecation="on" classpath="tmw.jar;tiled-core.jar;"/>
 	</target>
 
 	<target name="dist" depends="compile" description="Generate the distribution">

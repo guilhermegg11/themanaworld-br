@@ -1,29 +1,84 @@
 /**
- * Classe parser genérica que será utilizada por todas as outras.
+ * Classe parser genÃ©rica que serÃ¡ utilizada por todas as outras.
  * 
  * @data 10/05/2010
  * @author Diogo_RBG - http://diogorbg.blogspot.com/
  * 
- * Wikipédia: Em ciência da computação e linguística, análise sintática (também conhecida pelo termo
- * em inglês parsing) é o processo de analisar uma sequência de entrada (lida de um arquivo de computador
- * ou do teclado, por exemplo) para determinar sua estrutura gramatical segundo uma determinada gramática
- * formal. Essa análise faz parte de um compilador, junto com a análise léxica e análise semântica.
+ * WikipÃ©dia: Em ciÃªncia da computaÃ§Ã£o e linguÃ­stica, anÃ¡lise sintÃ¡tica (tambÃ©m conhecida pelo termo
+ * em inglÃªs parsing) Ã© o processo de analisar uma sequÃªncia de entrada (lida de um arquivo de computador
+ * ou do teclado, por exemplo) para determinar sua estrutura gramatical segundo uma determinada gramÃ¡tica
+ * formal. Essa anÃ¡lise faz parte de um compilador, junto com a anÃ¡lise lÃ©xica e anÃ¡lise semÃ¢ntica.
  */
 
 package parser;
 
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Parser {
 
-	private HashMap<String,String[]> dados = new HashMap<String,String[]>();
+	private ArrayList<Item> itens = new ArrayList<Item>();
+	private Iterator<Item> it = null;
 
 	public Parser() {
 		// constructor
 	}
 
-	public HashMap<String, String[]> getDados() {
-		return dados;
+	public ArrayList<Item> getItens() {
+		return itens;
+	}
+
+	public int cont(){
+		return itens.size();
+	}
+
+	/**
+	 * Apenas retorna o iterator interno do parser.
+	 */
+	public Iterator<Item> getIterator() {
+		return it;
+	}
+
+	/**
+	 * Apenas seta o iterator interno do parser.
+	 */
+	public void setIterator(Iterator<Item> it) {
+		this.it = it;
+	}
+
+	/**
+	 * Prepara o iterator interno do parser para que ele liste toda a lista de itens.
+	 */
+	public void initIterator(){
+		it = itens.iterator();
+	}
+
+	/**
+	 * Retorna a existÃªncia ou nÃ£o de um prÃ³ximo item. AlÃ©m de nÃ£o mover o iterator.
+	 * @return Retorna null caso o iterator interno nÃ£o tenha sido inicializado.
+	 */
+	public boolean seProx(){
+		if(it==null)
+			return false;
+		return it.hasNext();
+	}
+
+	/**
+	 * Retorna o prÃ³ximo item ao mesmo tempo que move o iterator interno para o prÃ³xmo item.
+	 * @return Retorna null caso o iterator interno nÃ£o tenha sido inicializado.
+	 */
+	public Item getProx(){
+		if(it==null)
+			return null;
+		return it.next();
+	}
+
+	public void addItem(Item item) {
+		itens.add(item);
+	}
+
+	public Item getItem(int lin) {
+		return itens.get(lin);
 	}
 
 }
