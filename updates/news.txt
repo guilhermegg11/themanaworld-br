@@ -1,3 +1,13 @@
+##3 .:: Novo Servidor ::.
+##3 18/05/2010
+##0
+##0 O The Mana World Brasil agora esta com um
+##0 servidor novo, devemos agradecer a todos que
+##0 doaram para a aquisição desse novo server.
+##0 Basicamente o que melhora é que teremos
+##0 menos lag, maior uptime e esperamos não ter
+##0 mais as instabilidades do servidor antigo
+##0
 ##3 .:: Atualização 09/05/2010 ::.
 ##0
 ##0 * A Pensão Bhramir foi ampliada. Alugue o seu
