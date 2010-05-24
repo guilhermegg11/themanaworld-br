@@ -18,12 +18,14 @@ enum Est{
 	VLR1,    //< valor... pode ser qualquer coisa L,N,_,ã,ç...
 	VLR2,
 	SCRIPT,  //< script
+	SCRIPT2,
 	SINAL,   //< + e -
 	VAR,     //< variavel
 	NUM,     //< número
 	EXP,     //< Expressão não reconhecida pelo analisador
 	TXT1,    //< texto com áspas
 	TXT2,
+	TXT3,
 	TOKEN    //< token qualquer não identificado.
 }
 
@@ -111,6 +113,7 @@ public class ParserItens {
 					est = Est.COMENT;
 				else if(c=='{')
 					est = Est.SCRIPT;
+				else if( esp(c) || c=='\n' );
 				else{
 					est = Est.VLR1;
 					movVaz = true;
@@ -137,12 +140,12 @@ public class ParserItens {
 					est = Est.INICIAL;
 					itens.add(str);
 					str = new String();
-				}else if(c=='\n' || c==0){
+				}else if(c=='\n'){
 					est = Est.INICIAL;
 					itens.add(str);
 					str = new String();
 					parser.addItem( new Item(itens.toArray()) );
-					System.out.println("itens: "+ itens.toString() );
+					//System.out.println("itens: "+ itens.toString() );
 					itens = new ArrayList<Object>();
 				}else if( esp(c) ){
 					est = Est.VLR2;
@@ -152,7 +155,7 @@ public class ParserItens {
 				break;
 
 			case VLR2: //= adiciona espaços e tabulações entre valores ============================
-				if(c==',' || c=='\r' || c=='\n' || c==0){
+				if(c==',' || c=='\r' || c=='\n'){
 					est = Est.VLR1;
 					movVaz = true;
 				}else if( esp(c) ){
@@ -176,15 +179,16 @@ public class ParserItens {
 						script.addComando(cmd);
 						cmd = null;
 					}
-				}
-				if( c=='}' ){
-					est = Est.INICIAL;
-					itens.add(script);
-					script = new Script();
 				}else if(c==',' || c==';'){
 					erro("Nenhum tokem lido antes de encerrar.", c);
-				}else if( esp(c) ){
-					//< espaços e tabulações entre comandos.
+				}
+				if( c=='}' ){
+					est = Est.SCRIPT2;
+					str = "";
+					itens.add(script);
+					script = new Script();
+				}else if( esp(c) || c==',' || c==';'){
+					//< espaços, tabulações e separadores entre comandos.
 				}else if(c=='+' || c=='-'){
 					est = Est.SINAL;
 					str = ""+c;
@@ -194,9 +198,23 @@ public class ParserItens {
 				}else if( num(c) ){
 					est = Est.NUM;
 					str = ""+c;
+				}else if( c=='"' ){
+					est = Est.TXT1;
+					str = "";
 				}else{
 					est = Est.EXP;
 					str = ""+c;
+				}
+				break;
+
+			case SCRIPT2: //= Estado para o encerramento do script ================================
+				if( c==',' )
+					est = Est.INICIAL;
+				else if( c=='\n' ){
+					est = Est.INICIAL;
+					parser.addItem( new Item(itens.toArray()) );
+					//System.out.println("itens: "+ itens.toString() );
+					itens = new ArrayList<Object>();
 				}
 				break;
 
@@ -224,9 +242,10 @@ public class ParserItens {
 					movVaz = true;
 					tok = new Token(TipoToken.VAR, str);
 				}else{
-					est = est.SCRIPT;
-					movVaz = true;
-					aviso("Caractere nao pode ser uma variavel.", c);
+					est = Est.EXP;
+					str += c;
+					//movVaz = true;
+					//aviso("Caractere nao pode ser uma variavel.", c);
 				}
 				break;
 
@@ -238,9 +257,10 @@ public class ParserItens {
 					movVaz = true;
 					tok = new Token(TipoToken.NUM, str);
 				}else{
-					est = est.SCRIPT;
-					movVaz = true;
-					aviso("Caractere nao pode ser um numero.", c);
+					est = Est.EXP;
+					str += c;
+					//movVaz = true;
+					//aviso("Caractere nao pode ser um numero.", c);
 				}
 				break;
 
@@ -253,14 +273,47 @@ public class ParserItens {
 					str += c;
 				break;
 
+			case TXT1: //==========================================================================
+				if( c=='\n' ){
+					est = Est.SCRIPT2;
+					movVaz = true;
+					erro("String foi interrompida por um \n.", c);
+				}else if( c=='"' ){
+					est = Est.TXT3;
+					tok = new Token(TipoToken.TXT, str);
+				}else if( c=='\\' )
+					est = Est.TXT2;
+				else
+					str += c;
+				break;
+
+			case TXT2: //==========================================================================
+				if( c=='\n' ){
+					est = Est.SCRIPT2;
+					movVaz = true;
+					erro("String foi interrompida por um \n.", c);
+				}else{
+					est = Est.TXT1;
+					str += c;
+				}
+				break;
+
+			case TXT3: //==========================================================================
+				if( c==',' || c==';' || c=='}'){
+					est = Est.SCRIPT;
+					movVaz = true;
+				}else if( !esp(c) )
+					aviso("Caractere nao esperado apos string.", c);
+				break;
+
 			default: //============================================================================
 				erro("Erro interno!", c);
 				break;
 			}
 
 		}
-		if( est!=Est.COMENT && est!=Est.COMENT2 && est!=Est.VLR1 && est!=Est.VLR2 )
-			System.out.println("lin:"+lin+" col:"+col+" tok:'"+str+"' '"+c+"' est:"+est.toString());
+		//if( est!=Est.COMENT && est!=Est.COMENT2 && est!=Est.VLR1 && est!=Est.VLR2 )
+		//	System.out.println("lin:"+lin+" col:"+col+" tok:'"+str+"' '"+c+"' est:"+est.toString());
 	}
 
 	boolean var(char c){
