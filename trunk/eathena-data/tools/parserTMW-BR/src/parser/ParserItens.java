@@ -244,8 +244,6 @@ public class ParserItens {
 				}else{
 					est = Est.EXP;
 					str += c;
-					//movVaz = true;
-					//aviso("Caractere nao pode ser uma variavel.", c);
 				}
 				break;
 
@@ -259,8 +257,6 @@ public class ParserItens {
 				}else{
 					est = Est.EXP;
 					str += c;
-					//movVaz = true;
-					//aviso("Caractere nao pode ser um numero.", c);
 				}
 				break;
 
@@ -277,7 +273,7 @@ public class ParserItens {
 				if( c=='\n' ){
 					est = Est.SCRIPT2;
 					movVaz = true;
-					erro("String foi interrompida por um \n.", c);
+					erro("String foi interrompida por um \\n.", c);
 				}else if( c=='"' ){
 					est = Est.TXT3;
 					tok = new Token(TipoToken.TXT, str);
@@ -291,7 +287,7 @@ public class ParserItens {
 				if( c=='\n' ){
 					est = Est.SCRIPT2;
 					movVaz = true;
-					erro("String foi interrompida por um \n.", c);
+					erro("String foi interrompida por um \\n.", c);
 				}else{
 					est = Est.TXT1;
 					str += c;

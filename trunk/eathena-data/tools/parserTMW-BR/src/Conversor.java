@@ -13,11 +13,7 @@
 
 import java.io.PrintStream;
 
-import parser.Comando;
-import parser.Item;
-import parser.Parser;
-import parser.Script;
-import parser.Token;
+import parser.*;
 import parser.ParserItens.ColItem;
 import parser.Token.TipoToken;
 
@@ -29,15 +25,6 @@ public class Conversor {
 
 		try{
 			tabelaItens();
-
-			//out.println("123... testando...");
-
-			/*for(int i=0; i<a.length; i++){
-				if(item.getColTipo(i)==TipoCol.VLR)
-					out.println("VLR");
-				else
-					out.println("outro");
-			}*/
 		}catch (Exception e) {
 			e.printStackTrace();
 		}

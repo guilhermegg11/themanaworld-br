@@ -84,7 +84,13 @@ public class Parser {
 		return itens.get(lin);
 	}
 
-	public boolean carregarItens(String arquivo) throws Exception {
+	/**
+	 * Carrega um arquivo de texto com a formatação do script de item_db.txt do eAthena e o trasnforma
+	 * em uma árvore de objetos.
+	 * @param arquivo Endereço do arquivo.
+	 * @throws Exception Dispara Exception caso o arquivo não exista ou não possa ser lido.
+	 */
+	public void carregarItens(String arquivo) throws Exception {
 		try {
 			int rc;
 			ParserItens parser = new ParserItens(this);
@@ -100,7 +106,6 @@ public class Parser {
 		}catch(Exception ex){
 			ex.printStackTrace();
 		}
-		return true;
 	}
 
 }
