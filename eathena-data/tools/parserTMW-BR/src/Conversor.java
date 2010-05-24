@@ -116,13 +116,17 @@ public class Conversor {
 					while( script.seProx() ){
 						cmd = script.getProx();
 						if( cmd.getComando().equals("itemheal") ){
-							out.print(" HP: +" +cmd.getString(1)+ " MP: +" +cmd.getString(2));
+							if( !cmd.getString(1).equals("0") )
+								out.print(" HP: +" +cmd.getString(1));
+							if( !cmd.getString(2).equals("0") )
+								out.print(" MP: +" +cmd.getString(2));
 						}else if( cmd.getComando().equals("bonus") ){
 							if( cmd.getString(1).equals("bLuk") ){
 								out.print(" Sorte: +" +cmd.getString(2));
 							}else if( cmd.getString(1).equals("bMdef") ){
 								out.print(" Def.Mag: +" +cmd.getString(2));
-							}
+							}else
+								out.print(" +");
 						}else{
 							out.print(" *");
 						}
