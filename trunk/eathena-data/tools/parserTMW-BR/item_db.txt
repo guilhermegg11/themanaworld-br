@@ -1,0 +1,5 @@
+// item_db.txt, Item Database
+#ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
+512,biscoitoGengibre,biscoitoGengibre,0,50,25,1,,,,,,2,,,0,,{ itemheal 25,0; },{}
+//3017,colarHorcruxFada,colarHorcruxFada,5,8000,4000,5,0,,,0,0,2,128,,0,0,{},{ bonus bAtk, BaseLevel/2+1; bonus bMaxHP, BaseLevel*2; bonus bMaxSP, BaseLevel; }
+3046,verdadeiroTrevo,Verdadeiro Trevo,5,50000,25000,10,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 10; bonus bMdef, 25; }

@@ -47,6 +47,14 @@ public class Comando {
 	}
 
 	/**
+	 * Retorna a quantidade de tokens do comando.
+	 * @return
+	 */
+	public int cont(){
+		return tokens.size();
+	}
+
+	/**
 	 * Retorna sempre o primeiro valor da lista.
 	 */
 	public String getComando(){
