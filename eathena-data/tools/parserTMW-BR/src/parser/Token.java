@@ -17,7 +17,8 @@ public class Token {
 		CMD, // Comando
 		TXT, // Texto
 		NUM, // Número
-		VAR  // Variável ou constante
+		VAR, // Variável ou constante
+		EXP  // Uma expressão complexa.
 	}
 
 	private TipoToken tipo;
@@ -34,6 +35,22 @@ public class Token {
 	 */
 	public TipoToken getTipo() {
 		return tipo;
+	}
+
+	/**
+	 * Converte o tipo do token para CMD.
+	 * @return Retorna true caso seja possível converter para CMD.
+	 */
+	public boolean paraComando(){
+		if(tipo==TipoToken.VAR){
+			String sub = valor.substring(0,1);
+			if( sub.equals("@") ) return false;
+			if( sub.equals("#") ) return false;
+			if( sub.equals("$") ) return false;
+			tipo = TipoToken.CMD;
+			return true;
+		}
+		return false;
 	}
 
 	/**

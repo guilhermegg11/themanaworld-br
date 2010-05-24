@@ -13,7 +13,11 @@
 
 import java.io.PrintStream;
 
-import parser.*;
+import parser.Comando;
+import parser.Item;
+import parser.Parser;
+import parser.Script;
+import parser.Token;
 import parser.ParserItens.ColItem;
 import parser.Token.TipoToken;
 
@@ -82,7 +86,14 @@ public class Conversor {
 		Script script = null;
 		Comando cmd = null;
 
-		Parser itens = geraExemplo();
+		//Parser itens = geraExemplo();
+		Parser itens = new Parser();
+		try {
+			itens.carregarItens("item_db.txt");
+			//itens.carregarItens("/home/tmw-br/trunk/eathena-data/tools/parserTMW-BR/item_db.txt");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		ColItem[] cols = { ColItem.ID, ColItem.NOME, ColItem.DESC, ColItem.TIPO, ColItem.COMP, ColItem.VEND, ColItem.USO, ColItem.EQP };
 
 		out.println("| ID | NOME | DESCRICAO | TIPO | COMPRA | VENDA | USO | EQUIP |");
@@ -112,6 +123,8 @@ public class Conversor {
 							}else if( cmd.getString(1).equals("bMdef") ){
 								out.print(" Def.Mag: +" +cmd.getString(2));
 							}
+						}else{
+							out.print(" *");
 						}
 					}
 					out.print(" |");

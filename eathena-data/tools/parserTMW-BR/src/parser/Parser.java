@@ -12,6 +12,9 @@
 
 package parser;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -79,6 +82,25 @@ public class Parser {
 
 	public Item getItem(int lin) {
 		return itens.get(lin);
+	}
+
+	public boolean carregarItens(String arquivo) throws Exception {
+		try {
+			int rc;
+			ParserItens parser = new ParserItens(this);
+			File file = new File(arquivo);
+
+			if( !file.exists() )
+				throw new Exception("Arquivo '"+arquivo+"'não encontrado.");
+
+			BufferedReader br = new BufferedReader (new FileReader (file));
+			while ((rc = br.read()) != -1) {
+				parser.analisar((char)rc);
+			}
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+		return true;
 	}
 
 }

@@ -1,11 +1,31 @@
 /**
- * 
- * @data 10/05/2010
+ * Nesta classe é escrito o código que realmente irá parsear o arquivo de itens do eAthena.
+ * @date 10/05/2010
  * @author Diogo_RBG - http://diogorbg.blogspot.com/
  * 
  */
 
 package parser;
+
+import java.util.ArrayList;
+
+import parser.Token.TipoToken;
+
+enum Est{
+	INICIAL, //< estado inicial
+	COMENT,  //< comentário
+	COMENT2,
+	VLR1,    //< valor... pode ser qualquer coisa L,N,_,ã,ç...
+	VLR2,
+	SCRIPT,  //< script
+	SINAL,   //< + e -
+	VAR,     //< variavel
+	NUM,     //< número
+	EXP,     //< Expressão não reconhecida pelo analisador
+	TXT1,    //< texto com áspas
+	TXT2,
+	TOKEN    //< token qualquer não identificado.
+}
 
 public class ParserItens {
 	
@@ -30,6 +50,249 @@ public class ParserItens {
 		VIEW,   //< ?
 		USO,    //< Script de uso
 		EQP     //< Script de equip
+	}
+
+	int lin;       //< linha atual
+	int col;       //< coluna atual
+	Est est;       //< estado atual
+	String str;    //< string formada
+	String aux;    //< string auxiliar
+
+	Parser parser; //< parser pai
+	ArrayList<Object> itens;
+	Script script;
+	Comando cmd;
+	Token tok;
+
+	public ParserItens(Parser pai) {
+		init(pai);
+	}
+
+	/**
+	 * Inicializa todas as variáveis internas de controle do analisador.
+	 * @param pai Objeto Parser que chamou o analisador ParserItens.
+	 */
+	public void init(Parser pai){
+		lin = 1;
+		col = 0;
+		est = Est.INICIAL;
+		str = "";
+
+		parser = pai;
+		itens = new ArrayList<Object>();
+		script = new Script();
+		cmd = null;
+		tok = null;
+	}
+
+	/**
+	 * Coração do parser. Analisa um caractere por vez modificando os estados da máquina de estados.
+	 * @param c
+	 */
+	public void analisar(char c){
+		boolean movVaz = true;
+
+		//= Contagem de linhas e colunas
+		col++;
+		if(c=='\n'){
+			lin++;
+			col = 0;
+		}
+
+		while( movVaz ){
+			movVaz = false;
+
+			switch(est){
+
+			case INICIAL: //= Estado inicial do analisador ========================================
+				if(c=='/')
+					est = Est.COMENT2;
+				else if(c=='#')
+					est = Est.COMENT;
+				else if(c=='{')
+					est = Est.SCRIPT;
+				else{
+					est = Est.VLR1;
+					movVaz = true;
+				}
+				break;
+
+			case COMENT: //= Estado de comentário =================================================
+				if(c=='\n')
+					est = Est.INICIAL;
+				break;
+
+			case COMENT2: //= O estado espera o caractere '/' para se sertificar que se trata de um comentário.
+				if(c=='/')
+					est = Est.COMENT;
+				else{
+					est = Est.INICIAL;
+					movVaz = true;
+					aviso("Era esperado o caractere '/' para completar o comentario.", c);
+				}
+				break;
+
+			case VLR1: //= Analisa valores entre vírgulas =========================================
+				if(c==','){
+					est = Est.INICIAL;
+					itens.add(str);
+					str = new String();
+				}else if(c=='\n' || c==0){
+					est = Est.INICIAL;
+					itens.add(str);
+					str = new String();
+					parser.addItem( new Item(itens.toArray()) );
+					System.out.println("itens: "+ itens.toString() );
+					itens = new ArrayList<Object>();
+				}else if( esp(c) ){
+					est = Est.VLR2;
+					aux = ""+c;
+				}else
+					str += c;
+				break;
+
+			case VLR2: //= adiciona espaços e tabulações entre valores ============================
+				if(c==',' || c=='\r' || c=='\n' || c==0){
+					est = Est.VLR1;
+					movVaz = true;
+				}else if( esp(c) ){
+					aux += c;
+				}else{
+					est = Est.VLR1;
+					str += aux;
+					str += c;
+				}
+				break;
+
+			case SCRIPT: //========================================================================
+				if( tok!=null ){ // c==' ' c=='\t' c==',' c==';' c=='}'
+					if(cmd==null){
+						cmd = new Comando();
+						tok.paraComando();
+					}
+					cmd.addToken(tok);
+					tok = null;
+					if( c==';' || c=='}'){
+						script.addComando(cmd);
+						cmd = null;
+					}
+				}
+				if( c=='}' ){
+					est = Est.INICIAL;
+					itens.add(script);
+					script = new Script();
+				}else if(c==',' || c==';'){
+					erro("Nenhum tokem lido antes de encerrar.", c);
+				}else if( esp(c) ){
+					//< espaços e tabulações entre comandos.
+				}else if(c=='+' || c=='-'){
+					est = Est.SINAL;
+					str = ""+c;
+				}else if( let(c) || var(c) ){
+					est = Est.VAR;
+					str = ""+c;
+				}else if( num(c) ){
+					est = Est.NUM;
+					str = ""+c;
+				}else{
+					est = Est.EXP;
+					str = ""+c;
+				}
+				break;
+
+			case SINAL: //=========================================================================
+				if( let(c) || var(c) ){
+					est = Est.VAR;
+					str += c;
+				}else if( num(c) ){
+					est = Est.NUM;
+					str += c;
+				}else if(c==',' || c==';' || c=='}'){
+					est = Est.SCRIPT;
+					movVaz = true;
+				}else{
+					est = Est.EXP;
+					str += c;
+				}
+				break;
+
+			case VAR: //===========================================================================
+				if( let(c) || num(c) || c=='_'){
+					str += c;
+				}else if(esp(c) || c==',' || c==';' || c=='}'){
+					est = Est.SCRIPT;
+					movVaz = true;
+					tok = new Token(TipoToken.VAR, str);
+				}else{
+					est = est.SCRIPT;
+					movVaz = true;
+					aviso("Caractere nao pode ser uma variavel.", c);
+				}
+				break;
+
+			case NUM: //===========================================================================
+				if( num(c) ){
+					str += c;
+				}else if(esp(c) || c==',' || c==';' || c=='}'){
+					est = Est.SCRIPT;
+					movVaz = true;
+					tok = new Token(TipoToken.NUM, str);
+				}else{
+					est = est.SCRIPT;
+					movVaz = true;
+					aviso("Caractere nao pode ser um numero.", c);
+				}
+				break;
+
+			case EXP: //===========================================================================
+				if(c==',' || c==';' || c=='}'){
+					est = Est.SCRIPT;
+					movVaz = true;
+					tok = new Token(TipoToken.EXP, str.trim());
+				}else
+					str += c;
+				break;
+
+			default: //============================================================================
+				erro("Erro interno!", c);
+				break;
+			}
+
+		}
+		if( est!=Est.COMENT && est!=Est.COMENT2 && est!=Est.VLR1 && est!=Est.VLR2 )
+			System.out.println("lin:"+lin+" col:"+col+" tok:'"+str+"' '"+c+"' est:"+est.toString());
+	}
+
+	boolean var(char c){
+		if(c=='_' || c=='@' || c=='#' || c=='$')
+			return true;
+		return false;
+	}
+
+	boolean let(char c){
+		if(c>='a'&&c<='z' || c>='A'&&c<='Z')
+			return true;
+		return false;
+	}
+
+	boolean num(char c){
+		if(c>='0'&&c<='9')
+			return true;
+		return false;
+	}
+
+	boolean esp(char c){
+		if(c==' ' || c=='\t')
+			return true;
+		return false;
+	}
+
+	void aviso(String msg, char c){
+		System.out.println("#aviso ParserItens. "+msg+" lin:"+lin+" col:"+col+" tok:'"+str+"' '"+c+"'");
+	}
+
+	void erro(String msg, char c){
+		System.out.println("#erro ParserItens. "+msg+" lin:"+lin+" col:"+col+" tok:'"+str+"' '"+c+"'");
 	}
 
 }
