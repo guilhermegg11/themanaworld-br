@@ -4714,5 +4714,6 @@
 		<sprite>weapon-staff.xml</sprite>
 		<sound event="strike">short-sword-miss1.ogg</sound>
 		<sound event="hit">short-sword-hit1.ogg</sound>
-   </item><!-- Pq esse item só funciona no Cliente TMW e não no cliente ManaPlus?  -->
+	</item><!-- Pq esse item só funciona no Cliente TMW e não no cliente ManaPlus? -->
+
 </items>
