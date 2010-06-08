@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <status-effects>
-    <status-effect name="item-healing" id="70"
+    <status-effect name="Curando" id="70"
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/circle.particle.xml"
 		 />
 
-    <status-effect name="speed" id="37" block-id="21"
+    <status-effect name="Agilizado" id="37" block-id="21"
                    icon="icon-haste-potion.xml"
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/pink-violent-glow.particle.xml"
 		 />
-    <status-effect name="strength" id="185" block-id="23"
+    <status-effect name="Forticado" id="185" block-id="23"
                    icon="icon-iron-potion.xml"
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/orange-violent-glow.particle.xml"
 		 />
-    <status-effect name="invisibility" id="4096" block-id="12"
+    <status-effect name="Invisivel" id="4096" block-id="12"
                    icon="icon-invisible.xml"
                    start-message="You are now invisible."
                    end-message="You are no longer invisible."
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/sphere-white.particle.xml"
 		 />
-    <status-effect name="poison" id="132" block-id="16"
+    <status-effect name="Envenenado" id="132" block-id="16"
                    icon="icon-poison.xml"
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/green-bubbles.particle.xml"
 		 />
-    <status-effect name="hide" id="194"
+    <status-effect name="Intangível" id="194"
                    icon="icon-hidden.xml"
 		 />
-    <status-effect name="flying-backpack" id="196"
+    <status-effect name="Mochxila Flutuante" id="196"
                    icon="icon-feather.xml"
 		 />
-    <status-effect name="barrier" id="197"
+    <status-effect name="Bebado" id="197"
                    icon="icon-green-barrier.xml"
 		 />
     <status-effect name="phys-shield" id="199"
@@ -48,7 +48,7 @@
 
 	<!-- AQUI ESTAO OS EFEITOS CRIADOS PELA EQUIPE TMW-BR -->
 
-	<status-effect name="strength" id="186"
+	<status-effect name="Irado" id="186"
 		icon="icon-poison.xml"
 		persistent-particle-effect="true"
 		start-particle="graphics/particles/aura-negra.xml"

@@ -469,7 +469,7 @@
 
 //2170,RedMiniskirt,Red Miniskirt,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
 //2171,GreenMiniskirt,Green Miniskirt,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2172,DarkBlueMiniskirt,Dark Blue Miniskirt,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
+//2172,DarkBlueMiniskirt,Dark Blue Miniskirt,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}//Reservado 3091 até 3110 por Lunovox
 //2173,YellowMiniskirt,Yellow Miniskirt,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
 //2174,LightBlueMiniskirt,Light Blue Miniskirt,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
 //2175,PinkMiniskirt,Pink Miniskirt,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
@@ -568,6 +568,7 @@
 3070,hasteRoxa,hasteRoxa,5,5000,1000,5,,1,,1,0,2,256,,0,0,{},{}
 
 //2010-03-28: Diogo_RBG
+#ID,Name,Etiqueta,Tipo,Venda,Compra,Peso,Ataque,Defesa,Alcance,MagBonus,Slot,Sexo,LocalDoCorpo,wLV,Elemento,View,{ScriptAoUsar},{ScriptAoEquipar}
 3071,cupulateEsp,cupulateEsp,0,80,40,25,,,,,,2,,,0,,{ itemheal 20,0; },{}
 3072,chocolateEsp,chocolateEsp,0,80,40,25,,,,,,2,,,0,,{ itemheal 20,0; },{}
 3073,chocolateAmargoEsp,chocolateAmargoEsp,0,80,40,25,,,,,,2,,,0,,{ itemheal 20,0; },{}
@@ -588,3 +589,4 @@
 //3088,guacheRoxo,guacheRoxo,3,100,50,100,,,,,,2,,,0,,{},{}
 //3089,guacheVerde2,guacheVerde2,3,100,50,100,,,,,,2,,,0,,{},{}
 3090,lascaderocha,lascaderocha,3,1,1,100,,,,,,2,,,0,,{},{}
+3091,BastaoMadeira,Bastão de Madeira,4,6000,3000,100,50,,1,,0,2,34,1,1,1,{},{}

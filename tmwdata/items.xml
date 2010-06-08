@@ -12,52 +12,52 @@
 <items>
     <version revision="$Revision$" />
 
-    <item id="-1" type="hairsprite" name="Flat ponytail">
+    <item id="-1" type="hairsprite" name="Rabo-de-Cavalo">
         <sprite>hairstyle1.xml</sprite>
     </item>
-    <item id="-2" type="hairsprite" name="Bowl cut">
+    <item id="-2" type="hairsprite" name="Corte-de-Tigela">
         <sprite>hairstyle2.xml</sprite>
     </item>
-    <item id="-3" type="hairsprite" name="Combed back">
+    <item id="-3" type="hairsprite" name="Peteado para atraz">
         <sprite>hairstyle3.xml</sprite>
     </item>
     <item id="-4" type="hairsprite" name="Emo">
         <sprite>hairstyle4.xml</sprite>
     </item>
-    <item id="-5" type="hairsprite" name="Mohawk">
+    <item id="-5" type="hairsprite" name="Maicano">
         <sprite>hairstyle5.xml</sprite>
     </item>
-    <item id="-6" type="hairsprite" name="Pompadour">
+    <item id="-6" type="hairsprite" name="Pomposo">
         <sprite>hairstyle6.xml</sprite>
     </item>
-    <item id="-7" type="hairsprite" name="Center parting/Short and slick">
+    <item id="-7" type="hairsprite" name="Curto, Liso e Partido">
         <sprite>hairstyle7.xml</sprite>
     </item>
-    <item id="-8" type="hairsprite" name="Long and slick">
+    <item id="-8" type="hairsprite" name="Longo e Liso">
         <sprite>hairstyle8.xml</sprite>
     </item>
-    <item id="-9" type="hairsprite" name="Short and curly">
+    <item id="-9" type="hairsprite" name="Curto e Encaracolado">
         <sprite>hairstyle9.xml</sprite>
     </item>
-    <item id="-10" type="hairsprite" name="Pigtails">
+    <item id="-10" type="hairsprite" name="Rabos-de-Porco">
         <sprite>hairstyle10.xml</sprite>
     </item>
-    <item id="-11" type="hairsprite" name="Long and curly">
+    <item id="-11" type="hairsprite" name="Encaracolado longo">
         <sprite>hairstyle11.xml</sprite>
     </item>
-    <item id="-12" type="hairsprite" name="Parted">
+    <item id="-12" type="hairsprite" name="Partido">
         <sprite>hairstyle12.xml</sprite>
     </item>
-    <item id="-13" type="hairsprite" name="Perky ponytail">
+    <item id="-13" type="hairsprite" name="Rabo-de-Cavalo Volumoso">
         <sprite>hairstyle13.xml</sprite>
     </item>
-    <item id="-14" type="hairsprite" name="Wave">
+    <item id="-14" type="hairsprite" name="Ondulado">
         <sprite>hairstyle14.xml</sprite>
     </item>
-    <item id="-15" type="hairsprite" name="Mane">
+    <item id="-15" type="hairsprite" name="Juba">
         <sprite>hairstyle15.xml</sprite>
     </item>
-    <item id="-16" type="hairsprite" name="Bun">
+    <item id="-16" type="hairsprite" name="Espetado">
         <sprite>hairstyle16.xml</sprite>
     </item>
 
@@ -74,31 +74,36 @@
 
     <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
 
-
-    <item id="30"
-        weapon_type="1">
+    <!-- 
+		 	OBS: Eu adicionae a propriedade type="weaponsprite" para poder fazer o 
+			tmw-maker separar o grupo de itens(geral) do grupo de movimentos(Itens ID:30-35).
+			Peço que não retire isto, ou se retirar, pelo menos retira para um outro 
+			arquivo fora do item.xml
+	 -->
+    <item id="30" type="weaponsprite" weapon_type="1">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
-    <item id="31"
-        weapon_type="10">
+    <item id="31" type="weaponsprite" weapon_type="10">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
     </item>
-    <item id="32"
-        weapon_type="11">
+    <item id="32" type="weaponsprite" weapon_type="11">
         <sprite>weapon-scythe.xml</sprite>
     </item>
-    <item id="33"
-        weapon_type="1">
+    <item id="33" type="weaponsprite" weapon_type="1">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
-    <item id="34"
-        weapon_type="1"> <!-- magic fist -->
+    <item id="34" type="weaponsprite" weapon_type="1"> <!-- magic fist -->
         <sprite>weapon-fist.xml</sprite>
+    </item>
+    <item id="35" type="weaponsprite" weapon_type="12">
+		<sprite>weapon-staff.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="hit">short-sword-hit1.ogg</sound>
     </item>
 
 	<item id="501"
@@ -815,7 +820,7 @@
         image="weapon-dagger-rockknive.png"
         name="Rock Knife"
         description="A knife made of stone."
-        effect="+300 Damage, 1 Range"
+        effect="+300 Dano, 1 Alcance, Bidestra"
         type="equip-1hand"
         weapon-type="knife"
         weight="10"
@@ -4569,7 +4574,6 @@
 		max-per-slot="1">
 		<sprite>head-pinkiehat.xml|#70003f,ffbfe3</sprite>
 	</item>
-
 	<item id="3071"
 		image="use-food-chocolatebar.png"
 		name="Barra de Cupulate Especial"
@@ -4641,7 +4645,6 @@
 		type="generic"
 		weight="1000"
 		max-per-slot="10"/>
-
 	<item id="3080"
 		image="generic-guache.png|W:#ff4848"
 		name="Tinta Guache Vermelha"
@@ -4684,14 +4687,32 @@
 		type="generic"
 		weight="100"
 		max-per-slot="10"/>
-
-	<!-- reservado do 3086 ao 3089-->
+	<!-- reservado do 3086 ao 3089 por Diogo para Pascoa-->
 	<item id="3090"
 		image="generic-pedra.png"
 		name="Lasca de rocha"
 		description="Um pequeno pedaço de rocha que emana uma estranha energia."
 		type="generic"
 		weight="100"
-		max-per-slot="1"
-	/><!-- 3090 Reservado por alastrim -->
+		max-per-slot="1"/><!-- por Alastrim -->
+	<item id="3091"
+		image="weapon-staff-woodstaff.png"
+		name="Bastão de Madeira"
+		description="Bastão usado por ninjas."
+		effect="+50 Dano, 1 Alcance, Bidestra"
+		type="equip-1hand"
+		weight="100"
+		weapon_type="12"
+		weapon-type="staff"
+		attack-min="15"
+		attack-delta="40"
+		attack-target="multi"
+		attack-shape="cone"
+		attack-range="1"
+		attack-angle="135"
+		max-per-slot="1">
+		<sprite>weapon-staff.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="hit">short-sword-hit1.ogg</sound>
+   </item><!-- Pq esse item só funciona no Cliente TMW e não no cliente ManaPlus?  -->
 </items>
