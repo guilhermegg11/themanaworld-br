@@ -23,6 +23,14 @@
 		</jar>
 	</target>
 
+	<target name="xmlReader" description="XMLRead">
+		<jar jarfile="xmlReader.jar" basedir="build">
+			<manifest>
+				<attribute name="Main-Class" value="XMLReader" />
+			</manifest>
+		</jar>
+	</target>
+
 	<target name="clean" description="Clean up the build directory" >
 		<delete dir="build"/>
 	</target>
