@@ -11,7 +11,7 @@
 //
 // Location(Loc): 1: Pernas(Calças), 2: MãoDireita(Arma), 4: Mãos(Luvas), 16: Torso1(Limalhas), 
 //                32: MãoEsqueda(Escudo), 64: Pés(Sapatos), 128: Acessórios, 256: Cabeça(Chapeus), 
-//                512: Torso2(Armaduras)
+//                512: Torso2(Armaduras), 32768: Munição(Arrows)
 //        OBS:  Se quise ocupar as 2 mãos(MãoDireita[2] + MãoEsqueda[32] ponha 2+32="34")
 //        DÚVIDA: Pq o nº8 e o nº16 não estão sendo usados em nada?
 //
@@ -605,4 +605,4 @@
 //3088,guacheRoxo,guacheRoxo,3,100,50,100,,,,,,2,,,0,,{},{}
 //3089,guacheVerde2,guacheVerde2,3,100,50,100,,,,,,2,,,0,,{},{}
 3090,lascaderocha,Lasca de Rocha,3,1,1,100,,,,,,2,,,0,,{},{}
-3091,BastaoMadeira,Bastão de Madeira,4,6000,3000,100,50,,1,,0,2,34,1,1,1,{},{}
+3091,BastaoMadeira,Bastão de Madeira,4,6000,3000,100,50,0,1,0,0,2,34,0,0,0,{},{}
