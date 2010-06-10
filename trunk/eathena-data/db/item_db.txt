@@ -588,5 +588,5 @@
 //3087,guacheLaranja,guacheLaranja,3,100,50,100,,,,,,2,,,0,,{},{}
 //3088,guacheRoxo,guacheRoxo,3,100,50,100,,,,,,2,,,0,,{},{}
 //3089,guacheVerde2,guacheVerde2,3,100,50,100,,,,,,2,,,0,,{},{}
-3090,lascaderocha,lascaderocha,3,1,1,100,,,,,,2,,,0,,{},{}
+3090,lascaderocha,Lasca de Rocha,3,1,1,100,,,,,,2,,,0,,{},{}
 3091,BastaoMadeira,Bastão de Madeira,4,6000,3000,100,50,,1,,0,2,34,1,1,1,{},{}
