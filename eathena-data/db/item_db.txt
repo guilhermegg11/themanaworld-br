@@ -10,7 +10,7 @@
 // Gender(Generos Sexual): 0: Feminino, 1: Masculino, 2: Comum p/ 2 Gêneros (No TMW só  usado o padrão 2)
 //
 // Location(Loc): 1: Pernas(Calças), 2: MãoDireita(Arma), 4: Mãos(Luvas), 16: Torso1(Limalhas), 
-//                32: MãoEsqueda(Escudo), 64: Pés(Sapatos), 128: Acessórios, 256: Cabeça(Chapeus), 
+//                32: MãoEsqueda(Escudo), 64: Pés(Sapatos), 128: Acessórios, 256: Cabeça(Chapéus), 
 //                512: Torso2(Armaduras), 32768: Munição(Arrows)
 //        OBS:  Se quise ocupar as 2 mãos(MãoDireita[2] + MãoEsqueda[32] ponha 2+32="34")
 //        DÚVIDA: Pq o nº8 e o nº16 não estão sendo usados em nada?
@@ -66,7 +66,7 @@
 533,RoastedMaggot,Roasted Maggot,0,110,55,5,,,,,,2,,,0,,{ itemheal 150,0; },{}
 534,OrangeCupcake,Orange Cupcake,0,90,45,5,,,,,,2,,,0,,{ itemheal 100,10; },{}
 535,Apple,Apple,0,10,5,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
-536,ShortSword,Short Sword,4,8000,4000,100,100,,1,,0,2,2,1,1,1,{},{}
+536,ShortSword,Short Sword,4,8000,4000,e100,100,,1,,0,2,2,1,1,1,{},{}
 537,TreasureKey,Treasure Key,3,100,50,5,,,,,,,,,,,{},{}
 538,GreenPresentBox,Green Present Box,3,20,10,10,,,,,,2,,,0,,{},{}
 539,Beer,Beer,0,175,87,10,,,,,,2,,,0,,{ itemheal 200,5; },{}
@@ -559,14 +559,14 @@
 3048,MiniSaia,Mini Saia,5,1200,600,20,,3,,-8,0,2,1,,1,0,{},{}
 3049,MascaraNinja,Máscara Ninja,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
 3050,BoneDoador2010,Bone de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
-3051,EspadaAprendiz,Espada Aprendiz,4,4000,2000,1500,40,,1,,0,2,2,1,1,1,{},{}
-3052,EspadaCavaleiroLider,Espada Cavaleiro Lider,4,7000,3500,3500,65,,1,,0,2,2,1,0,1,{},{}
-3053,EspadaMiguelArcanjo,Espada Miguel Arcanjo,4,200000,100000,3450,175,,1,,0,2,2,1,6,1,{},{}
-3054,EspadaDemoniaca,Espada Demoniaca,4,200000,100000,3450,175,,1,,0,2,2,1,7,1,{},{}
-3055,EspadaKurogane,Espada de Kurogane,4,250000,125000,3200,200,,1,,0,2,2,1,4,1,{},{}
-3056,EspadaImortal,Espada dos Imortal,4,300000,150000,3600,225,,1,,0,2,2,1,9,1,{},{}
-3057,ZambacutouPedra,Zambacutou de Pedra,4,175000,97500,15000,160,,1,,0,2,34,1,2,1,{},{}
-3058,ZambacutouVelha,Zambacutou Velha,4,115000,57500,12000,115,,1,,0,2,34,1,2,1,{},{}
+3051,EspadaAprendiz,Espada Aprendiz,4,4000,2000,150,40,,1,,0,2,2,1,1,1,{},{}
+3052,EspadaCavaleiroLider,Espada Cavaleiro Lider,4,7000,3500,350,65,,1,,0,2,2,1,0,1,{},{}
+3053,EspadaMiguelArcanjo,Espada Miguel Arcanjo,4,200000,100000,345,175,,1,,0,2,2,1,6,1,{},{}
+3054,EspadaDemoniaca,Espada Demoniaca,4,200000,100000,345,175,,1,,0,2,2,1,7,1,{},{}
+3055,EspadaKurogane,Espada de Kurogane,4,250000,125000,320,200,,1,,0,2,2,1,4,1,{},{}
+3056,EspadaImortal,Espada dos Imortal,4,300000,150000,360,225,,1,,0,2,2,1,9,1,{},{}
+3057,ZambacutouPedra,Zambacutou de Pedra,4,175000,97500,1500,160,,1,,0,2,34,1,2,1,{},{}
+3058,ZambacutouVelha,Zambacutou Velha,4,115000,57500,1200,115,,1,,0,2,34,1,2,1,{},{}
 
 //ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
 3059,BarraCobre,Barra de Cobre,3,1000,990,3000,,,,,,,,,,,{},{}
@@ -606,3 +606,5 @@
 //3089,guacheVerde2,guacheVerde2,3,100,50,100,,,,,,2,,,0,,{},{}
 3090,lascaderocha,Lasca de Rocha,3,1,1,100,,,,,,2,,,0,,{},{}
 3091,BastaoMadeira,Bastão de Madeira,4,6000,3000,100,50,0,1,0,0,2,34,0,0,0,{},{}
+3092,GorroFloresta,Gorro da Floresta,5,2000,1000,25,0,6,0,0,0,2,256,0,0,0,{},{}
+3093,MascaraNecromante,Máscara Necromante,5,10000,5000,25,0,25,0,-15,0,2,256,0,0,0,{},{ bonus bMdef, 15; }
