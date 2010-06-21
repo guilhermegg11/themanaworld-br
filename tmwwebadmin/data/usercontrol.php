@@ -18,6 +18,8 @@ if (@session_start() && isset($_SESSION['auth']) && $_SESSION['auth'] &&
             $valid = 'Erro ao conectar no servidor MySQL';
         else if (!$ladmin->verify_email($_POST['email']))
             $valid = 'O e-mail informado não parece ser um e-mail válido';
+        else if (email_exists($_POST['email'], $sqlconn))
+            $valid = 'Algum outro player já tem cadastro neste servidor usando este e-mail. Por favor escolha outro';
         else
         {
             if ($sqlconn->delete_email_code($_SESSION['name']) === FALSE ||

@@ -67,6 +67,41 @@ function validate_login(&$ladmin = FALSE)
     return TRUE;
 }
 
+class EAthenaEmailVerify {
+    public $email;
+    public $found;
+
+    public function __construct($email)
+    {
+        $this->email = (string)$email;
+        $this->found = FALSE;
+    }
+}
+
+function __email_exists_eathena($account, &$userdata)
+{
+    if ($account->getEMail() === $userdata->email)
+    {
+        $userdata->found = TRUE;
+        return FALSE;
+    }
+    return TRUE;
+}
+
+function email_exists($email, &$sqlconn = FALSE)
+{
+    require_once '../parsers.php';
+
+    $obj = new EAthenaEmailVerify($email);
+    AccountParser::forEachExec(EA_ACCOUNT_TXT, '__email_exists_eathena', $obj);
+    if ($obj->found) return TRUE;
+    if ($sqlconn !== FALSE &&
+        get_class($sqlconn) == 'TMW_MySQL' &&
+        $sqlconn->has_email($email))
+        return TRUE;
+    return FALSE;
+}
+
 function javascript_string_encode($input_str)
 {
     $ret = '"';

@@ -56,6 +56,9 @@ class TMW_MySQL extends mysqli {
         		'SELECT `verification_code`, `error_count`, `email`
         FROM `confirm_email`
         WHERE `login` = ?');
+        $this->prepStmt['HAS_EMAIL'] =& $this->prepare('SELECT COUNT(`login`)
+        FROM `confirm_email`
+        WHERE `email` = ?');
     }
 
     private function get_random()
@@ -166,6 +169,17 @@ class TMW_MySQL extends mysqli {
         }
         $stmt->free_result();
         return $code;
+    }
+    
+    public function has_email($email)
+    {
+        $stmt =& $this->prepStmt['HAS_EMAIL'];
+        $stmt->bind_param('s', $email);
+        if (!$stmt->execute()) return FALSE;
+        $stmt->bind_result($count);
+        if (!$stmt->fetch()) return FALSE;
+        $stmt->free_result();
+        return $count;
     }
 };
 
