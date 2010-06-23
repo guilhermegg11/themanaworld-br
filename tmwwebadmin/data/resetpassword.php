@@ -54,6 +54,8 @@ if (is_string($login) && is_string($verifycode))
                         $valid = 'Conta de usuário não encontrada no servidor';
                     $sqlconn->delete_recover_password_code($login);
                 }
+                if ($valid === TRUE)
+                    $sqlconn->set_operation_log($login, 'CFM_CHPASS');
             }
         }
     }

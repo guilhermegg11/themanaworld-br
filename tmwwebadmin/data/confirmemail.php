@@ -42,7 +42,8 @@ if ($valid === TRUE)
                 $valid = 'Conexão com o servidor terminada inexperadamente';
             else if ($valid === FALSE)
                 $valid = 'Conta de usuário não encontrada no servidor';
-            else if ($sqlconn->delete_email_code($_GET['login']) === FALSE)
+            else if ($sqlconn->delete_email_code($_GET['login']) === FALSE ||
+                     $sqlconn->set_operation_log($_GET['login'], 'CFM_CHMAIL', $getmail) === FALSE)
                 $valid = 'Requisição finalizada, porem houve um erro na consulta MySQL';
         }
     }

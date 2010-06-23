@@ -19,6 +19,20 @@ On MySQL:
   	`error_count` INT NOT NULL DEFAULT 0
   );
 
+  CREATE TABLE `operation_log` (
+  	`login` VARCHAR(23) NOT NULL,
+  	`operation_date` DATETIME NOT NULL,
+  	`operation_action` ENUM(
+  		'REQ_CHMAIL',
+  		'CFM_CHMAIL',
+  		'REQ_CHPASS',
+  		'CFM_CHPASS'
+  	) NOT NULL,
+  	`ip` VARCHAR(40) NOT NULL,
+  	`extra_data` VARCHAR(255) DEFAULT NULL,
+  	INDEX `idx_operation_log1` (`login` ASC),
+  	INDEX `idx_operation_log2` (`operation_date` ASC)
+  );
  */
 
 class TMW_MySQL extends mysqli {
@@ -59,6 +73,14 @@ class TMW_MySQL extends mysqli {
         $this->prepStmt['HAS_EMAIL'] =& $this->prepare('SELECT COUNT(`login`)
         FROM `confirm_email`
         WHERE `email` = ?');
+        $this->prepStmt['SET_OPER_LOG'] =& $this->prepare('INSERT INTO `operation_log`
+        (`login`, `operation_date`, `operation_action`, `ip`)
+        	VALUES
+        (?, NOW(), ?, ?)');
+        $this->prepStmt['SET_OPER_LOG_DATA'] =& $this->prepare('INSERT INTO `operation_log`
+        (`login`, `operation_date`, `operation_action`, `ip`, `extra_data`)
+        	VALUES
+        (?, NOW(), ?, ?, ?)');
     }
 
     private function get_random()
@@ -180,6 +202,23 @@ class TMW_MySQL extends mysqli {
         if (!$stmt->fetch()) return FALSE;
         $stmt->free_result();
         return $count;
+    }
+    
+    public function set_operation_log($login, $action, $data = FALSE)
+    {
+        if ($data === FALSE)
+        {
+            $stmt =& $this->prepStmt['SET_OPER_LOG'];
+            $stmt->bind_param('sss', $login, $action, $_SERVER['REMOTE_ADDR']);
+            if (!$stmt->execute()) return FALSE;
+        }
+        else
+        {
+            $stmt =& $this->prepStmt['SET_OPER_LOG_DATA'];
+            $stmt->bind_param('ssss', $login, $action, $_SERVER['REMOTE_ADDR'], $data);
+            if (!$stmt->execute()) return FALSE;
+        }
+        return TRUE;
     }
 };
 

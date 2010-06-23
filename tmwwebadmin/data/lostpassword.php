@@ -1,18 +1,5 @@
 <?php
 
-/*
-
-On MySQL:
-  CREATE TABLE `reset_password` (
-  	`login` VARCHAR(23) NOT NULL PRIMARY KEY,
-  	`request_date` DATETIME NOT NULL,
-  	`request_count` INT NOT NULL DEFAULT 1,
-  	`verification_code` CHAR(64) NOT NULL,
-  	`error_count` INT NOT NULL DEFAULT 0
-  );
-
- */
-
 require_once '../defs.php';
 require_once '../functions.php';
 require_once '../ladmin.php';
@@ -100,6 +87,8 @@ if ($valid === TRUE && !headers_sent())
             if (PEAR::isError($mail) ||
                 PEAR::isError($mail->send($to, $headers, $message)))
                 $valid = 'Erro ao enviar e-mail de confirmação';
+            if ($valid === TRUE)
+                $sqlconn->set_operation_log($_POST['login'], 'REQ_CHPASS');
         }
     }
     else

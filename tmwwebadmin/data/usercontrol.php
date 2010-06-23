@@ -50,7 +50,11 @@ if (@session_start() && isset($_SESSION['auth']) && $_SESSION['auth'] &&
                     $valid = 'Erro ao enviar e-mail de confirmação';
             }
         }
-        if ($valid === FALSE) $valid = TRUE;
+        if ($valid === FALSE)
+        {
+            $valid = TRUE;
+            $sqlconn->set_operation_log($_SESSION['name'], 'REQ_CHMAIL', $_POST['email']);
+        }
     }
     $account = $ladmin->info_account($_SESSION['id']);
 }
