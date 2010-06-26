@@ -829,10 +829,16 @@
 
 	<monster id="304" name="Fada Furiosa">
 		<sprite>monstro-fada.xml</sprite>
+		<sound event="hit" >fire-goblin-hit1.ogg</sound> <!-- ataque 1 -->
+		<sound event="miss">flower-miss1.ogg</sound> <!-- erra ataque -->
+		<sound event="die" >fada-die1.ogg</sound>  <!-- Morre -->
 	</monster>
 
 	<monster id="305" name="Fada Traidora">
 		<sprite>monstro-fada-2.xml</sprite>
+		<sound event="hit" >fire-goblin-hit1.ogg</sound> <!-- ataque 1 -->
+		<sound event="miss">flower-miss1.ogg</sound> <!-- erra ataque -->
+		<sound event="die" >fada-die2.ogg</sound>  <!-- Morre -->
 	</monster>
 
 	<monster id="306" name="Dragão Verde">
