@@ -4737,5 +4737,57 @@
 		max-per-slot="1">
 		<sprite>head-mascara-flamejante.xml</sprite>
 	</item>
+	<item id="3094"
+		image="armor-chest-greendragon.png"
+		name="Armadura do Dragão"
+		description="Armadura inquebrável feita de escamas e ossos de Dragão Ancestral."
+		effect="Defesa+40, M.Defesa+15, M.Bonus+100"
+		type="equip-torso"
+		weight="150"
+		max-per-slot="1">
+		<sprite>chest-greendragon.xml</sprite>
+	</item>
+	<item id="3095"
+		image="armor-legs-greendragon.png"
+		name="Calça do Dragão"
+		description="Armadura feita de escamas de Dragão Ancestral."
+		effect="Defesa+30, M.Defesa+15, M.Bonus+75"
+		type="equip-legs"
+		weight="100"
+		max-per-slot="1">
+		<sprite>leg-greendragon.xml</sprite>
+	</item>
+	<item id="3096"
+		image="armor-head-greendradon.png"
+		name="Elmo do Dragão"
+		description="Elmo inquebrável feita de ossos de Dragão Ancestral."
+		effect="Defesa+20, M.Defesa+15, M.Bonus+50"
+		type="equip-head"
+		weight="75"
+		max-per-slot="1">
+		<sprite>head-greendragon.xml</sprite>
+	</item>
+	<item id="3097"
+		image="armor-feet-greendragonboots.png"
+		name="Botas do Dragão"
+		description="Botas feita de escamas e ossos de Dragão Ancestral."
+		effect="Defesa+15, M.Defesa+15, M.Bonus+35"
+		type="equip-feet"
+		weight="50"
+		max-per-slot="1">
+		<sprite gender="male">feet-greendragonboots-male.xml</sprite>
+		<sprite gender="female">feet-greendragonboots-female.xml</sprite>
+	</item>
+	<item id="3098"
+		image="armor-hands-greendragongloves.png"
+		name="Luvas do Dragão"
+		description="Luvas feita de escamas de Dragão Ancestral."
+		effect="Defesa+10, M.Defesa+15, M.Bonus+15"
+		type="equip-arms"
+		weight="25"
+		max-per-slot="1">
+		<sprite gender="male">hands-greendragongloves-male.xml</sprite>
+		<sprite gender="female">hands-greendragongloves-female.xml</sprite>
+	</item>
 
 </items>
