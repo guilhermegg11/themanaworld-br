@@ -842,7 +842,7 @@
 	</monster>
 
 	<monster id="306" name="Dragão Verde">
-		<sprite>monstro-dragao.xml</sprite>
+		<sprite>monstro-fafidragon.xml</sprite>
 		<sound event="hit" >dragao-hit1.ogg</sound> <!-- ataque -->
 		<sound event="miss">fire-goblin-hit1.ogg</sound> <!-- erra ataque -->
 		<sound event="die" >dragao-die1.ogg</sound>  <!-- Morre -->
