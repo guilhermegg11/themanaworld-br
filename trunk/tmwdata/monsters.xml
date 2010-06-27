@@ -842,12 +842,17 @@
 	</monster>
 
 	<monster id="306" name="Dragão Verde">
-		<sprite>monstro-dragao_sombra.xml</sprite>
 		<sprite>monstro-dragao.xml</sprite>
+		<sound event="hit" >dragao-hit1.ogg</sound> <!-- ataque -->
+		<sound event="miss">fire-goblin-hit1.ogg</sound> <!-- erra ataque -->
+		<sound event="die" >dragao-die1.ogg</sound>  <!-- Morre -->
 	</monster>
 
 	<monster id="307" name="Fada Guardiã">
 		<sprite>monstro-fada.xml</sprite>
+		<sound event="hit" >fire-goblin-hit1.ogg</sound> <!-- ataque 1 -->
+		<sound event="miss">flower-miss1.ogg</sound> <!-- erra ataque -->
+		<sound event="die" >fada-die1.ogg</sound>  <!-- Morre -->
 	</monster>
 
 	<monster id="308" name="Aranha Rainha">
