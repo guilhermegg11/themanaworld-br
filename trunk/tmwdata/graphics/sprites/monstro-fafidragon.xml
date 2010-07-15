@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sprite>
 
-	<imageset name="base" src="graphics/sprites/monstro-fafidragon.png" width="256" height="128" offsetY="10"/>
+	<imageset name="base" src="graphics/sprites/monstro-fafidragon.png" width="256" height="128"/>
 
 	<action name="stand" imageset="base">
 		<animation direction="down">
