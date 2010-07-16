@@ -622,3 +622,4 @@
 3105,VestidoAmarelo,Vestido Amarelo,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
 3106,VestidoRosaChoque,Vestido Rosa Choque,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
 3107,VestidoRosaClaro,Vestido Rosa Claro,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
+// teste...
