@@ -90,7 +90,7 @@
 		<sound event="swing">bow_shoot_1.ogg</sound>
 	</item>
 	<item id="32" type="weaponsprite" weapon_type="11">
-		<sprite>weapon-scythe.xml</sprite>
+		<sprite>weapon-scythe2.xml</sprite>
 	</item>
 	<item id="33" type="weaponsprite" weapon_type="1">
 		<sprite>weapon-dagger.xml</sprite>
@@ -102,6 +102,11 @@
 	</item>
 	<item id="35" type="weaponsprite" weapon_type="12">
 		<sprite>weapon-staff.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="hit">short-sword-hit1.ogg</sound>
+	</item>
+	<item id="36" type="weaponsprite" weapon_type="14">
+		<sprite>weapon-lidersword.xml</sprite>
 		<sound event="strike">short-sword-miss1.ogg</sound>
 		<sound event="hit">short-sword-hit1.ogg</sound>
 	</item>
@@ -1230,7 +1235,7 @@
 		attack-min="0"
 		attack-delta="75"
 		max-per-slot="1">
-		<sprite>weapon-scythe.xml</sprite>
+		<sprite>weapon-scythe2.xml</sprite>
 	</item>
 	<item id="624"
 		image="armor-chest-vnecksweater.png|W:#A4B2B2,FFFFFF"
@@ -4333,13 +4338,13 @@
 		type="equip-1hand"
 		weapon_type="2"
 		weight="350"
-		slot ="0"
+		slot="0"
 		weapon-type="sword"
 		attack-min="10"
 		attack-delta="40"
 		attack-target="multi"
 		attack-shape="cone"
-		attack-range="32"
+		attack-range="2"
 		attack-angle="135"
 		max-per-slot="1"
 		view="521"/>
@@ -4349,18 +4354,20 @@
 		description="Espada para Cavaleiros Lideres de Recrutas."
 		effect="+65 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="2"
 		weight="350"
-		slot ="0"
-		weapon-type="sword"
-		attack-min="12"
-		attack-delta="65"
+		weapon_type="12"
+		weapon-type="staff"
+		attack-min="15"
+		attack-delta="40"
 		attack-target="multi"
 		attack-shape="cone"
-		attack-range="32"
+		attack-range="0"
 		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		max-per-slot="1">
+		<sprite>weapon-lidersword.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="hit">short-sword-hit1.ogg</sound>
+	</item>
 	<item id="3053"
 		image="espada-michael-arcanjo.png"
 		name="Espada Miguel Arcanjo"
