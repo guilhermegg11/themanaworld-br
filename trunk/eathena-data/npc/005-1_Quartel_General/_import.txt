@@ -9,4 +9,4 @@ npc: npc/005-1_Quartel_General/menir_alma.conf
 
 
 //Necessitando de Reparos...
-//npc: npc/005-1_Quartel_General/parua.conf
+npc: npc/005-1_Quartel_General/parua.conf
