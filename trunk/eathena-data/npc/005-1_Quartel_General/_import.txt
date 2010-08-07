@@ -1,8 +1,12 @@
 map: 005-1.gat
 
-// Desativado até que seu bug seja resolvido.
+npc: npc/005-1_Quartel_General/_mobs.txt
+npc: npc/005-1_Quartel_General/_warps.txt
 npc: npc/005-1_Quartel_General/juiz_miguel.conf
 npc: npc/005-1_Quartel_General/menir_alma.conf
 
-npc: npc/005-1_Quartel_General/_mobs.txt
-npc: npc/005-1_Quartel_General/_warps.txt
+//Em avaliação...
+
+
+//Necessitando de Reparos...
+//npc: npc/005-1_Quartel_General/parua.conf
