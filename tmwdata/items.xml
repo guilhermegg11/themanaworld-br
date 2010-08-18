@@ -684,9 +684,10 @@
 		<sprite gender="male">hands-gloves-generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
 		<sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
 	</item>
+	<!-- Turtleneck Sweater-->
 	<item id="564"
 		image="armor-chest-tnecksweater.png|W:#A4B2B2,FFFFFF"
-		name="Turtleneck Sweater"
+		name="Suéter de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -1239,7 +1240,7 @@
 	</item>
 	<item id="624"
 		image="armor-chest-vnecksweater.png|W:#A4B2B2,FFFFFF"
-		name="V-Neck Sweater"
+		name="Suéter com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2687,7 +2688,7 @@
 
 	<item id="2060"
 		image="armor-chest-vnecksweater.png|W:#580000,A40000,C02020,ff6060"
-		name="Red V-Neck Sweater"
+		name="Suéter Vermelho com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2697,7 +2698,7 @@
 	</item>
 	<item id="2061"
 		image="armor-chest-vnecksweater.png|W:#115511,22aa22,99dd99"
-		name="Green V-Neck Sweater"
+		name="Suéter Verde com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2707,7 +2708,7 @@
 	</item>
 	<item id="2062"
 		image="armor-chest-vnecksweater.png|W:#222255,6666ff"
-		name="Dark Blue V-Neck Sweater"
+		name="Suéter Azul Escuro com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2717,7 +2718,7 @@
 	</item>
 	<item id="2063"
 		image="armor-chest-vnecksweater.png|W:#846211,dab333,fffb93,ffffff"
-		name="Yellow V-Neck Sweater"
+		name="Suéter Amarelo com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2727,7 +2728,7 @@
 	</item>
 	<item id="2064"
 		image="armor-chest-vnecksweater.png|W:#16486e,498ec5,e4f2fc"
-		name="Light Blue V-Neck Sweater"
+		name="Suéter Azul Claro com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2737,7 +2738,7 @@
 	</item>
 	<item id="2065"
 		image="armor-chest-vnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
-		name="Pink V-Neck Sweater"
+		name="Suéter Rosa com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2747,7 +2748,7 @@
 	</item>
 	<item id="2066"
 		image="armor-chest-vnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
-		name="Black V-Neck Sweater"
+		name="Suéter Preto com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2757,7 +2758,7 @@
 	</item>
 	<item id="2067"
 		image="armor-chest-vnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
-		name="Orange V-Neck Sweater"
+		name="Suéter Laranja com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2767,7 +2768,7 @@
 	</item>
 	<item id="2068"
 		image="armor-chest-vnecksweater.png|W:#4f0a76,8010c0,d699f7"
-		name="Purple V-Neck Sweater"
+		name="Suéter Púrpura com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2777,7 +2778,7 @@
 	</item>
 	<item id="2069"
 		image="armor-chest-vnecksweater.png|W:#104010,208020,30c030"
-		name="Dark Green V-Neck Sweater"
+		name="Suéter Verde Escuro com Decote em V"
 		description="A soft, warm sweater."
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2788,7 +2789,7 @@
 
 	<item id="2070"
 		image="armor-chest-tnecksweater.png|W:#580000,A40000,C02020,ff6060"
-		name="Red Turtleneck Sweater"
+		name="Suéter Vermelho de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2798,7 +2799,7 @@
 	</item>
 	<item id="2071"
 		image="armor-chest-tnecksweater.png|W:#115511,22aa22,99dd99"
-		name="Green Turtleneck Sweater"
+		name="Suéter Verde de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2808,7 +2809,7 @@
 	</item>
 	<item id="2072"
 		image="armor-chest-tnecksweater.png|W:#222255,6666ff"
-		name="Dark Blue Turtleneck Sweater"
+		name="Suéter Azul Escuro de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2818,7 +2819,7 @@
 	</item>
 	<item id="2073"
 		image="armor-chest-tnecksweater.png|W:#846211,dab333,fffb93,ffffff"
-		name="Yellow Turtleneck Sweater"
+		name="Suéter Amarelo de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2828,7 +2829,7 @@
 	</item>
 	<item id="2074"
 		image="armor-chest-tnecksweater.png|W:#16486e,498ec5,e4f2fc"
-		name="Light Blue Turtleneck Sweater"
+		name="Suéter Azul Claro de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2838,7 +2839,7 @@
 	</item>
 	<item id="2075"
 		image="armor-chest-tnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
-		name="Pink Turtleneck Sweater"
+		name="Suéter Rosa de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2848,7 +2849,7 @@
 	</item>
 	<item id="2076"
 		image="armor-chest-tnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
-		name="Black Turtleneck Sweater"
+		name="Suéter Preto de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2858,7 +2859,7 @@
 	</item>
 	<item id="2077"
 		image="armor-chest-tnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
-		name="Orange Turtleneck Sweater"
+		name="Suéter Laranja de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2868,7 +2869,7 @@
 	</item>
 	<item id="2078"
 		image="armor-chest-tnecksweater.png|W:#4f0a76,8010c0,d699f7"
-		name="Purple Turtleneck Sweater"
+		name="Suéter Purpura de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
@@ -2878,7 +2879,7 @@
 	</item>
 	<item id="2079"
 		image="armor-chest-tnecksweater.png|W:#104010,208020,30c030"
-		name="Dark Green Turtleneck Sweater"
+		name="Suéter Verde Escuro de Gola Alta"
 		description="A soft, warm sweater."
 		effect="+6% Defense"
 		type="equip-torso"
