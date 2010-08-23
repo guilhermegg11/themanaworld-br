@@ -736,7 +736,7 @@
             />
     </monster>
 
-    <monster id="34" name="Zombie">
+    <monster id="34" name="Zumbi">
         <sprite>monster-zombie.xml</sprite>
         <attributes
             hp="20"
@@ -753,7 +753,7 @@
             />
     </monster>
 
-    <monster id="35" name="Clover Patch">
+    <monster id="35" name="Trevos">
         <sprite>resource-clover.xml</sprite>
         <attributes
             hp="1"
