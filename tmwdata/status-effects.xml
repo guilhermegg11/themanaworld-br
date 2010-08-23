@@ -10,7 +10,7 @@
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/pink-violent-glow.particle.xml"
 		 />
-    <status-effect name="Forticado" id="185" block-id="23"
+    <status-effect name="Fortificado" id="185" block-id="23"
                    icon="icon-iron-potion.xml"
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/orange-violent-glow.particle.xml"
@@ -30,7 +30,7 @@
     <status-effect name="Intangível" id="194"
                    icon="icon-hidden.xml"
 		 />
-    <status-effect name="Mochxila Flutuante" id="196"
+    <status-effect name="Mochila Flutuante" id="196"
                    icon="icon-feather.xml"
 		 />
     <status-effect name="Bebado" id="197"
