@@ -81,6 +81,9 @@
  80:@zeny <quantidade> - Te dá a quantidade desejada de dinheiro.
  60:@str,@agi,@vit,@int,@dex,@luk <quantidade> - Aumenta a quantidade informada em cada stat especificado.
  60:@allstats [quantidade] - Adiciona o valor informado em todos os stats (o máximo se não for informado um valor).
+ 99:@memo [memo_position] - set/change a memo location (no position: display memo points).
+ 99:@questskill <#> - Gives you the specified quest skill
+ 80:@lostskill <#> - Takes away the specified quest skill from you
  60:@skillid <nome> - Procura o ID de uma skill a partir de um nome.
  60:@useskill <skillid> <skillv> <target> - usa uma skill em um alvo.
  80:@addwarp <Nome do Mapa> <x> <y>
