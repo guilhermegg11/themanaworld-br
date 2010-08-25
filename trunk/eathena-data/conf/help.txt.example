@@ -40,6 +40,10 @@
  40:@goto <Nome_do_Jogador> - Te transporta para a localidade do jogador indicado.
  40:@follow <Nome_do_jogador> - Segue o jogador indicado.
  40:@go <number/city_name> - Warps you to a city. -- Não tem suporte no TMW
+ 40:  -3: (Memo point 2)  1: morocc   5: izlude         9: yuno     13: niflheim
+ 40:  -2: (Memo point 1)  2: geffen   6: aldebaran     10: amatsu   14: louyang
+ 40:  -1: (Memo point 0)  3: payon    7: xmas (lutie)  11: gonryun  15: start point
+ 40:   0: prontera        4: alberta  8: comodo        12: umbala   16: prison/jail
  60:@hugo - Transporta o GM de Jogador para Jogador
  60:@linus - Transporta o GM de Jogador para Jogador na ordem inversa do comando @hugo
  40:
@@ -53,10 +57,18 @@
  60:@jlvl <numero_de_levels> - Aumenta o seu jlvl atual com a quantidade indicada. O máximo é 50 para classes básicas. Para "Super Novice" e classes avançadas o máximo é 70.
  60:@allskills - Você recebe todas as "Skills".
  80:@option <param1> <param2> <param3> - Adds different visual effects on or around your character  -- Não tem suporte no TMW
+ 80:	<param1>      <param2>      <p3>(stackable)   <param3>               <param3>
+ 80:	1 Petrified   (stackable)   01 Sight           32 Peco Peco riding   2048 Orc Head
+ 80:	2 Frozen      01 Poison     02 Hide            64 GM Perfect Hide    4096 Wedding Sprites
+ 80:	3 Stunned     02 Cursed     04 Cloak          128 Level 2 Cart       8192 Ruwach
+ 80:	4 Sleeping    04 Silenced   08 Level 1 Cart   256 Level 3 Cart
+ 80:	6 darkness    08 ???        16 Falcon         512 Level 4 Cart
+ 80:	              16 darkness                    1024 Level 5 Cart
  99:@mountpeco - Give/remove you a peco (Class is required, but not skill) -- Não tem suporte no TMW
  99:@disguise <monster_name_or_monster_ID> - Change your appearence to other players to a mob. -- Não tem suporte no TMW
  99:@undisguise - Restore your normal appearance. -- Não tem suporte no TMW
  99:@model <ID_cabelo: 0-17> <Cor_Cabelo: 0-8> <Cor_roupa: 0-4> - Muda sua aparência.
+ 40:@dye/@ccolor <clothes color: 0-4> - Changes your characters appearence (only clothes color).
  40:@hairstyle <ID_cabelo: 0-17> - Muda o estilo de cabelo.
  40:@haircolor <Cor_cabelo: 0-8> - Muda a cor do cabelo.
  40:@speed <1-1000> - Muda sua velocidade. 1 é o mais rápido e 1000 o mais lento. O normal é 150.
