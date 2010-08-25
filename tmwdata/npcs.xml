@@ -131,9 +131,11 @@
 	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
 	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
 	<npc id="329"><sprite variant="29">npcs-br.xml</sprite></npc>
-	<npc id="330"><sprite variant="30">npcs-br.xml</sprite></npc>
 
 	<npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
+	<npc id="333"><sprite variant="0">npc-cartola.xml</sprite></npc> <!-- cartola -->
+	<npc id="334"><sprite variant="1">npc-cartola.xml</sprite></npc> <!-- cartola vazia -->
+	<npc id="335"><sprite variant="2">npc-cartola.xml</sprite></npc> <!-- cartola coelho -->
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc>
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc>
