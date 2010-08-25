@@ -1,4 +1,5 @@
 map: 005.gat
+npc: npc/005_Fortaleza/padredonatelo.conf
 npc: npc/005_Fortaleza/_mobs.txt
 npc: npc/005_Fortaleza/_warps.txt
 
