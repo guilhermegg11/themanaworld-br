@@ -940,15 +940,24 @@
 		<sound event="miss">flower-miss1.ogg</sound>
 	</monster-->
 
-	<monster id="320" name="Florzinha do Campo">
+	<!--monster id="320" name="Florzinha do Campo">
 		<sprite>monster-flower.xml|#2c0ea6,9980ff</sprite>
-		<!--amarela #a6a60e,ffff80 -->
-		<!--laranja #a6410e,ffaa80 -->
-		<!--vermelha #a60e0e,ff8080 -->
-		<!--branca #dddddd,ffffff -->
+		<amarela #a6a60e,ffff80>
+		<laranja #a6410e,ffaa80>
+		<vermelha #a60e0e,ff8080>
+		<branca #dddddd,ffffff>
 		<sound event="hit">flower-hit1.ogg</sound>
 		<sound event="hit">flower-hit2.ogg</sound>
 		<sound event="miss">flower-miss1.ogg</sound>
+	</monster-->
+
+	<monster id="320" name="Coelho">
+		<sprite>monstro-coelho.xml|#ece6ff</sprite>
+		<sound event="hit">fluffy-hit1.ogg</sound>
+		<sound event="hit">fluffy-hit2.ogg</sound>
+		<sound event="hit">fluffy-hit3.ogg</sound>
+		<sound event="miss">fluffy-miss1.ogg</sound>
+		<sound event="hurt">fluffy-hurt1.ogg</sound>
 	</monster>
 
 	<monster id="321" name="Rato">
@@ -971,6 +980,5 @@
 		<sound event="miss">knife-miss1.ogg</sound> <!-- erra ataque -->
 		<sound event="die">short-sword-die1.ogg</sound>  <!-- Rato Morre -->
 	</monster>
-
 
 </monsters>
