@@ -87,56 +87,56 @@
 	<npc id="173"><sprite variant="73">npc.xml</sprite></npc><!-- Easter Bunny -->
 	<npc id="174"><sprite variant="74">npc.xml</sprite></npc><!-- Aisha, Omar's daughter -->
 
-	<npc id="184"><sprite variant="84">npc.xml</sprite></npc>
-	<npc id="185"><sprite variant="85">npc.xml</sprite></npc>
-	<npc id="186"><sprite variant="86">npc.xml</sprite></npc>
-	<npc id="187"><sprite variant="87">npc.xml</sprite></npc>
-	<npc id="188"><sprite variant="88">npc.xml</sprite></npc>
+	<npc id="184"><sprite variant="84">npc.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="185"><sprite variant="85">npc.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="186"><sprite variant="86">npc.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="187"><sprite variant="87">npc.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="188"><sprite variant="88">npc.xml</sprite></npc> <!-- Espaço Disponível -->
 
-	<npc id="200"><sprite>npc-test.xml</sprite><particlefx>graphics/particles/circle.particle.xml</particlefx></npc>
-	<npc id="201"><sprite>player_female_base.xml</sprite><sprite>feet-boots-female.xml|#4f2d29,c89078</sprite><sprite>leg-chaps-female.xml</sprite><sprite>chest-shorttanktop-female.xml</sprite><sprite>hairstyle11.xml|#bb2222,ffee33</sprite></npc><!-- This entry demonstrates that an NPC can be constructed from multiple preexisting spritesets. While using the default player sprite and normal player equipment can save time it is usually better to create a new NPC as one graphic from scratch. -->
+	<npc id="200"><sprite>npc-test.xml</sprite><particlefx>graphics/particles/circle.particle.xml</particlefx></npc> <!-- NPC de Teste -->
+	<npc id="201"><sprite>player_female_base.xml</sprite><sprite>feet-boots-female.xml|#4f2d29,c89078</sprite><sprite>leg-chaps-female.xml</sprite><sprite>chest-shorttanktop-female.xml</sprite><sprite>hairstyle11.xml|#bb2222,ffee33</sprite></npc><!-- Demonstração de um NPC quepode ser construído a partir de múltiplas sprites pré-existente. Ao usar o sprite player padrão e equipamentos player normal pode economizar tempo, é geralmente melhor criar um novo NPC como um gráfico a partir do zero. -->
 	<npc id="202"><particlefx>graphics/particles/hellblaze.particle.xml</particlefx></npc><!-- An NPC made only from a particle effect. -->
 
 	<!-- Todos os NPCs do servidor TMW-BR serão definidos a partir do id 300. -->
 
 	<npc id="0"/> <!-- Vazio -->
 
-	<npc id="300"><sprite variant="0">npcs-br.xml</sprite></npc>
-	<npc id="301"><sprite variant="1">npcs-br.xml</sprite></npc>
-	<npc id="302"><sprite variant="2">npcs-br.xml</sprite></npc>
-	<npc id="303"><sprite variant="3">npcs-br.xml</sprite></npc>
-	<npc id="304"><sprite variant="4">npcs-br.xml</sprite></npc>
-	<npc id="305"><sprite variant="5">npcs-br.xml</sprite></npc>
-	<npc id="306"><sprite variant="6">npcs-br.xml</sprite></npc>
-	<npc id="307"><sprite variant="7">npcs-br.xml</sprite></npc>
-	<npc id="308"><sprite variant="8">npcs-br.xml</sprite></npc>
-	<npc id="309"><sprite variant="9">npcs-br.xml</sprite></npc>
-	<npc id="310"><sprite variant="10">npcs-br.xml</sprite></npc>
-	<npc id="311"><sprite variant="11">npcs-br.xml</sprite></npc>
-	<npc id="312"><sprite variant="12">npcs-br.xml</sprite></npc>
-	<npc id="313"><sprite variant="13">npcs-br.xml</sprite></npc>
-	<npc id="314"><sprite variant="14">npcs-br.xml</sprite></npc>
-	<npc id="315"><sprite variant="15">npcs-br.xml</sprite></npc>
-	<npc id="316"><sprite variant="16">npcs-br.xml</sprite></npc>
-	<npc id="317"><sprite variant="17">npcs-br.xml</sprite></npc>
-	<npc id="318"><sprite variant="18">npcs-br.xml</sprite></npc>
-	<npc id="319"><sprite variant="19">npcs-br.xml</sprite></npc>
-	<npc id="320"><sprite variant="20">npcs-br.xml</sprite></npc>
-	<npc id="321"><sprite variant="21">npcs-br.xml</sprite></npc>
-	<npc id="322"><sprite variant="22">npcs-br.xml</sprite></npc>
-	<npc id="323"><sprite variant="23">npcs-br.xml</sprite></npc>
-	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc>
-	<npc id="325"><sprite variant="25">npcs-br.xml</sprite></npc>
-	<npc id="326"><sprite variant="26">npcs-br.xml</sprite></npc>
-	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
-	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
-	<npc id="329"><sprite variant="29">npcs-br.xml</sprite></npc>
+	<npc id="300"><sprite variant="0">npcs-br.xml</sprite></npc> <!-- Invisivel -->
+	<npc id="301"><sprite variant="1">npcs-br.xml</sprite></npc> <!-- Aviadora: Loira de verstido Rosa -->
+	<npc id="302"><sprite variant="2">npcs-br.xml</sprite></npc> <!-- Guarda Real: Loiro de Farda Vermelha -->
+	<npc id="303"><sprite variant="3">npcs-br.xml</sprite></npc> <!-- Guarda Real: Idoso de Farda Preta -->
+	<npc id="304"><sprite variant="4">npcs-br.xml</sprite></npc> <!-- Pirata: Perna de Pau e Tapa-olho -->
+	<npc id="305"><sprite variant="5">npcs-br.xml</sprite></npc> <!-- Lutador de Kung-Fu -->
+	<npc id="306"><sprite variant="6">npcs-br.xml</sprite></npc> <!-- Soldado: Elmo Escaravelho e Espada -->
+	<npc id="307"><sprite variant="7">npcs-br.xml</sprite></npc> <!-- Soldado: Elmo Escaravelho, Lança e Escudo -->
+	<npc id="308"><sprite variant="8">npcs-br.xml</sprite></npc> <!-- Soldado: Elmo Escaravelho e Arco -->
+	<npc id="309"><sprite variant="9">npcs-br.xml</sprite></npc> <!-- Menino: Jornaleiro -->
+	<npc id="310"><sprite variant="10">npcs-br.xml</sprite></npc> <!-- Pescador: Careca -->
+	<npc id="311"><sprite variant="11">npcs-br.xml</sprite></npc> <!-- Pescador: Chapéu de Palha -->
+	<npc id="312"><sprite variant="12">npcs-br.xml</sprite></npc> <!-- Bruxa -->
+	<npc id="313"><sprite variant="13">npcs-br.xml</sprite></npc> <!-- Careca Cabeludo e Troncudo -->
+	<npc id="314"><sprite variant="14">npcs-br.xml</sprite></npc> <!-- Indigena Jovem -->
+	<npc id="315"><sprite variant="15">npcs-br.xml</sprite></npc> <!-- Cidadão de Terno Colonial-->
+	<npc id="316"><sprite variant="16">npcs-br.xml</sprite></npc> <!-- Fada Vespa Loira com Chifre de Rena-->
+	<npc id="317"><sprite variant="17">npcs-br.xml</sprite></npc> <!-- Fada Vespa Ruiva com vestido verde-->
+	<npc id="318"><sprite variant="18">npcs-br.xml</sprite></npc> <!-- Fada Borboleta Castanha com vestido purpura-->
+	<npc id="319"><sprite variant="19">npcs-br.xml</sprite></npc> <!-- Duende Loiro -->
+	<npc id="320"><sprite variant="20">npcs-br.xml</sprite></npc> <!-- Duende Ruivo -->
+	<npc id="321"><sprite variant="21">npcs-br.xml</sprite></npc> <!-- Duende Samambaia -->
+	<npc id="322"><sprite variant="22">npcs-br.xml</sprite></npc> <!-- Eremita sentado e encapusado de verde -->
+	<npc id="323"><sprite variant="23">npcs-br.xml</sprite></npc> <!-- Mágico com Capa Longa -->
+	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="325"><sprite variant="25">npcs-br.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="326"><sprite variant="26">npcs-br.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc> <!-- Espaço Disponível -->
+	<npc id="329"><sprite variant="29">npcs-br.xml</sprite></npc> <!-- Espaço Disponível -->
 
 	<npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
 	<npc id="333"><sprite variant="0">npc-cartola.xml</sprite></npc> <!-- cartola -->
 	<npc id="334"><sprite>npc-cartola-puft.xml</sprite></npc> <!-- cartola puft -->
 
-	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc>
-	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc>
-	<npc id="402"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/espada.particle.xml</particlefx></npc>
+	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
+	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->
+	<npc id="402"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/espada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Espada -->
 </npcs>
