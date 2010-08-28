@@ -25,7 +25,8 @@ npc: npc/007_Praia_do_Porto/selim.conf
 
 //Avaliando
 npc: npc/007_Praia_do_Porto/bardo_do_deserto.conf
-npc: npc/007_Praia_do_Porto/cartolas.conf
+npc: npc/007_Praia_do_Porto/magico.conf
+npc: npc/007_Praia_do_Porto/magico_cartolas.conf
 
 npc: npc/007_Praia_do_Porto/_mobs.txt
 npc: npc/007_Praia_do_Porto/_warps.txt
