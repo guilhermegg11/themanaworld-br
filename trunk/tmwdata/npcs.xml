@@ -134,7 +134,7 @@
 
 	<npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
 	<npc id="333"><sprite variant="0">npc-cartola.xml</sprite></npc> <!-- cartola -->
-	<npc id="334"><sprite>npc-cartola-puft.xml</sprite></npc> <!-- cartola puft -->
+	<npc id="334"><sprite>npc-cartola-puft.xml</sprite><particlefx>graphics/particles/magica-cartola.particle.xml</particlefx></npc> <!-- cartola puft -->
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->

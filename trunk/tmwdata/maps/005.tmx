@@ -28,13 +28,13 @@
   <image source="../graphics/tiles/casa.png"/>
  </tileset>
  <tileset firstgid="670" name="Cemiterio x32" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cemiterio.png" trans="#000000"/>
+  <image source="../graphics/tiles/cemiterio.png"/>
  </tileset>
  <tileset firstgid="712" name="Cemiterio x64" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/cemiterio_x2.png" trans="#000000"/>
+  <image source="../graphics/tiles/cemiterio_x2.png"/>
  </tileset>
  <tileset firstgid="722" name="Cemiterio x96" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/cemiterio_x3.png" trans="#000000"/>
+  <image source="../graphics/tiles/cemiterio_x3.png"/>
  </tileset>
  <tileset firstgid="754" name="Colisao" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
@@ -49,7 +49,7 @@
   <image source="../graphics/tiles/desert_x3.png"/>
  </tileset>
  <tileset firstgid="1364" name="Forca" tilewidth="32" tileheight="160">
-  <image source="../graphics/tiles/forca_x5.png" trans="#000000"/>
+  <image source="../graphics/tiles/forca_x5.png"/>
  </tileset>
  <tileset firstgid="1368" name="grade" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/grade_x3.png"/>
@@ -58,22 +58,22 @@
   <image source="../graphics/tiles/inn.png"/>
  </tileset>
  <tileset firstgid="1627" name="Igrejas x32" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/igrejas.png" trans="#000000"/>
+  <image source="../graphics/tiles/igrejas.png"/>
  </tileset>
  <tileset firstgid="1753" name="Numeros" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/numeros.png" trans="#000000"/>
+  <image source="../graphics/tiles/numeros.png"/>
  </tileset>
  <tileset firstgid="1863" name="Placas_x3" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/placas_x2.png"/>
  </tileset>
  <tileset firstgid="1879" name="Portal x128" tilewidth="32" tileheight="128">
-  <image source="../graphics/tiles/portal_x4.png" trans="#000000"/>
+  <image source="../graphics/tiles/portal_x4.png"/>
  </tileset>
  <tileset firstgid="1915" name="Portal x224" tilewidth="32" tileheight="224">
-  <image source="../graphics/tiles/portal_x7.png" trans="#000000"/>
+  <image source="../graphics/tiles/portal_x7.png"/>
  </tileset>
  <tileset firstgid="1927" name="Pots_x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Pots_x2.png" trans="#000000"/>
+  <image source="../graphics/tiles/Pots_x2.png"/>
  </tileset>
  <tileset firstgid="1943" name="Sombras" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/sombras.png"/>
@@ -97,10 +97,10 @@
   <image source="../graphics/tiles/Woodland_swamp.png"/>
  </tileset>
  <tileset firstgid="2775" name="Woodland_village_x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_village_x2.png" trans="#000000"/>
+  <image source="../graphics/tiles/Woodland_village_x2.png"/>
  </tileset>
  <tileset firstgid="2791" name="Woodland_x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_x2.png" trans="#000000"/>
+  <image source="../graphics/tiles/Woodland_x2.png"/>
  </tileset>
  <tileset firstgid="2823" name="Woodland X3" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/Woodland_x3.png"/>
