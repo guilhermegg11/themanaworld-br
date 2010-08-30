@@ -33,4 +33,9 @@
 <!--  <effect id="112" particle="graphics/particles/magic.haste-ends.xml"/>-->
 <!--  <effect id="120" particle="graphics/particles/magic.barrier-ends.xml"/> -->
 <effect id="150" particle="graphics/particles/hellblaze.particle.xml" />
+
+	<!-- Todos os efeitos do servidor TMW-BR serão definidos a partir do id 300. -->
+
+	<effect id="300" audio="sfx/puft.ogg" /> <!-- som da explosão da cartola -->
+
 </being-effects>
