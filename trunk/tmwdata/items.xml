@@ -586,7 +586,7 @@
 		max-per-slot="10"/>
 	<item id="552"
 		image="generic-magentahint.png"
-		name="Pista Magenta"
+		name="Pista Rosa-Choque"
 		description="Uma pista."
 		effect=""
 		type="generic"
