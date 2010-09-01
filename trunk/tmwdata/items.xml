@@ -18,13 +18,13 @@
 	<item id="-2" type="hairsprite" name="Corte-de-Tigela">
 		<sprite>hairstyle2.xml</sprite>
 	</item>
-	<item id="-3" type="hairsprite" name="Peteado para atraz">
+	<item id="-3" type="hairsprite" name="Penteado para traz">
 		<sprite>hairstyle3.xml</sprite>
 	</item>
 	<item id="-4" type="hairsprite" name="Emo">
 		<sprite>hairstyle4.xml</sprite>
 	</item>
-	<item id="-5" type="hairsprite" name="Maicano">
+	<item id="-5" type="hairsprite" name="Moicano">
 		<sprite>hairstyle5.xml</sprite>
 	</item>
 	<item id="-6" type="hairsprite" name="Pomposo">
@@ -699,7 +699,7 @@
 	</item>
 	<item id="565"
 		image="generic-petal.png"
-		name="Petala"
+		name="Pétala"
 		description="Uma pétala de uma flor agressiva."
 		effect=""
 		type="generic"
@@ -4038,8 +4038,8 @@
 	</item>
 	<item id="3018"
 		image="armor-head-afkcap.png"
-		name="AFK Cap"
-		description="Boné para informar que você está offline."
+		name="Boné Longe do Teclado"
+		description="Boné para informar que você está ausente."
 		type="equip-head"
 		defense="5"
 		weight="10">
@@ -4180,7 +4180,7 @@
 		max-per-slot="10"/>
 	<item id="3035"
 		image="armor-head-lamafia-hat.png"
-		name="La Mafia Top Hat"
+		name="Cartola La Mafia"
 		description="Chapéu exclusivo dos membros do clan La Mafia."
 		type="equip-head"
 		weight="20"
@@ -4547,7 +4547,7 @@
 	</item>
 	<item id="3067"
 		image="armor-head-admcap.png"
-		name="ADM Cap"
+		name="Boné ADM"
 		description="Boné dos Administradores."
 		type="equip-head"
 		defense="5"
