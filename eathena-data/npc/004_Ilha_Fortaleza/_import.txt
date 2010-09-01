@@ -1,5 +1,5 @@
 map: 004.gat
-
+npc: npc/004_Ilha_Fortaleza/joao.conf
 npc: npc/004_Ilha_Fortaleza/zeca.conf
 npc: npc/004_Ilha_Fortaleza/chico.conf
 npc: npc/004_Ilha_Fortaleza/joana.conf
@@ -9,3 +9,6 @@ npc: npc/004_Ilha_Fortaleza/operarios.conf
 npc: npc/004_Ilha_Fortaleza/mob_trasgo_roxo.conf
 npc: npc/004_Ilha_Fortaleza/_mobs.txt
 npc: npc/004_Ilha_Fortaleza/_warps.txt
+
+
+
