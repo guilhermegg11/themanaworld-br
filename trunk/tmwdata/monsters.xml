@@ -655,7 +655,7 @@
             />
     </monster>
 
-    <monster id="25" name="Easter Tufo">
+    <monster id="25" name="Tufo da Páscoa">
         <sprite>monster-fluffy.xml</sprite>
         <sound event="hit">fluffy-hit1.ogg</sound>
         <sound event="hit">fluffy-hit2.ogg</sound>
@@ -719,7 +719,7 @@
             />
     </monster>
 
-    <monster id="33" name="Bicho-da-seda">
+    <monster id="33" name="Bicho da Seda">
         <sprite>monster-silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
         <attributes
             hp="20"
