@@ -3,5 +3,6 @@
 005-3.gat,24,155	warp	sairBar1	-1,-1,005.gat,25,94
 005-3.gat,35,145	warp	sairBar2	-1,-1,005.gat,31,88
 005-3.gat,46,155	warp	sairBar3	-1,-1,005.gat,38,94
+005-3.gat,50,143	warp	sairBar4	-1,-1,005.gat,40,87
 005-3.gat,72,22	warp	sairBanco1	0,-1,005.gat,61,25
 005-3.gat,86,22	warp	sairBanco2	0,-1,005.gat,70,25
