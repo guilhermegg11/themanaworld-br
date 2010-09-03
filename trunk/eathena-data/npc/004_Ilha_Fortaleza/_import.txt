@@ -11,5 +11,5 @@ npc: npc/004_Ilha_Fortaleza/_mobs.txt
 npc: npc/004_Ilha_Fortaleza/_warps.txt
 
 //Em avaliação:
-//npc: npc/004_Ilha_Fortaleza/joao.conf
+npc: npc/004_Ilha_Fortaleza/joao.conf
 
