@@ -160,7 +160,7 @@
 627,TopHat,Top Hat,5,2500,1250,10,,10,,2,0,2,256,,0,0,{},{}
 628,FunkyHat,Funky Hat,5,3000,1500,10,,13,,2,0,2,256,,0,0,{},{}
 629,MushHat,Mush Hat,5,2500,1250,10,,10,,0,0,2,256,,0,0,{},{}
-630,ShroomHat,Shroom Hat,5,3000,1500,10,,13,,0,0,2,256,,0,0,{},{}
+630,ChapeuCogumelo,Chapéu Cogumelo,5,3000,1500,10,,13,,0,0,2,256,,0,0,{},{}
 631,DarkCrystal,Dark Crystal,3,100,50,10,,,,,,,,,,,{},{}
 632,CottonSkirt,Cotton Skirt,5,1000,500,10,,4,,-8,0,2,1,,1,0,{},{}
 633,ChristmasElfHat,Christmas Elf Hat,5,3000,1500,10,,10,,2,0,2,256,,0,0,{},{}

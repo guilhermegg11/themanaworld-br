@@ -1309,8 +1309,8 @@
 	</item>
 	<item id="630"
 		image="armor-head-shroomhat.png"
-		name="Chapéu de Cogumelo"
-		description="Macio e na moda."
+		name="Chapéu Cogumelo"
+		description="Chapeú macio feito de cogumelo cogumelo."
 		effect="+13% Defense"
 		type="equip-head"
 		weight="20"
