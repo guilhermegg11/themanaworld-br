@@ -554,7 +554,7 @@
 3047,machadinhaThomasHawk,Machadinha de Thomas Hawk,4,16000,8000,2000,150,,1,,0,2,2,1,1,1,{},{bonus bMdef, 5; }
 3048,MiniSaia,Mini Saia,5,1200,600,20,,3,,-8,0,2,1,,1,0,{},{}
 3049,MascaraNinja,Máscara Ninja,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
-3050,BoneDoador2010,Bone de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
+3050,BoneDoador2010,Boné de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 3051,EspadaAprendiz,Espada Aprendiz,4,4000,2000,150,40,,1,,0,2,2,1,1,1,{},{}
 3052,EspadaCavaleiroLider,Espada Cavaleiro Lider,4,7000,3500,350,65,,1,,0,2,2,1,0,1,{},{}
 3053,EspadaMiguelArcanjo,Espada Miguel Arcanjo,4,200000,100000,345,175,,1,,0,2,2,1,6,1,{},{}
@@ -618,4 +618,5 @@
 3105,VestidoAmarelo,Vestido Amarelo,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
 3106,VestidoRosaChoque,Vestido Rosa Choque,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
 3107,VestidoRosaClaro,Vestido Rosa Claro,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
+3108,BoneDoador2011,Boné de Doador 2011,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 // teste...
