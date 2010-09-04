@@ -4323,8 +4323,8 @@
 	</item>
 	<item id="3050"
 		image="armor-head-donatecap2010.png"
-		name="Doadores 2010"
-		description="Maior doadores do TMW-Brasil em 2010."
+		name="Boné Doador 2010"
+		description="Símbolo dos doadores ao TMW-Brasil em 2010."
 		type="equip-head"
 		weight="15"
 		defense="3"
@@ -4893,6 +4893,16 @@
 		max-per-slot="1">
 		<sprite gender="male">chest-dress-valentine.xml|#884488,bb55bb,ff88ff</sprite>
 		<sprite gender="female">chest-dress-valentine.xml|#884488,bb55bb,ff88ff</sprite>
+	</item>
+	<item id="3108"
+		image="armor-head-donatecap2011.png"
+		name="Boné Doador 2011"
+		description="Símbolo dos doadores ao TMW-Brasil em 2011."
+		type="equip-head"
+		weight="15"
+		defense="3"
+		max-per-slot="1">
+		<sprite>head-donatecap2011.xml</sprite>
 	</item>
 
 </items>
