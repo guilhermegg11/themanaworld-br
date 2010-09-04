@@ -779,8 +779,8 @@
 		max-per-slot="1"/>
 	<item id="574"
 		image="weapon-polearm-scorpion.png"
-		name="Scorpion"
-		description="Uma espada de lâmina longa, muito bem trabalhada."
+		name="Lança Rei Escorpião"
+		description="Uma lança com uma lâmina longa, muito bem trabalhada."
 		effect="??? Damage, ??? Range"
 		type="equip-2hand"
 		weapon-type="polearm"
@@ -1539,7 +1539,7 @@
 	</item>
 	<item id="655"
 		image="armor-feet-furboots.png"
-		name="Botas de Pele"
+		name="Botas de Pêlo"
 		description="Um par de botas de inverno quentinhas."
 		type="equip-feet"
 		weight="25"
@@ -1568,7 +1568,7 @@
 		max-per-slot="10"/>
 	<item id="658"
 		image="armor-chest-warlordplate.png"
-		name="Armadura do Lord da Guerra"
+		name="Armadura do Lorde da Guerra"
 		description="Uma armadura brilhante e resistente."
 		type="equip-torso"
 		weight="275"
@@ -1635,7 +1635,7 @@
 		max-per-slot="1" />
 	<item id="666"
 		image="generic-rose.png|W:#111111,444444,555555,ffffff"
-		name="Rosa Negra"
+		name="Rosa Preta"
 		description="Uma rosa de cor preta. Um símbolo do amor que se transformou em ódio."
 		effect=""
 		type="generic"
@@ -2768,7 +2768,7 @@
 	</item>
 	<item id="2068"
 		image="armor-chest-vnecksweater.png|W:#4f0a76,8010c0,d699f7"
-		name="Suéter Púrpura com Decote em V"
+		name="Suéter Roxo com Decote em V"
 		description="Um suéter macio e confortável"
 		effect="+8% Defense"
 		type="equip-torso"
@@ -2869,7 +2869,7 @@
 	</item>
 	<item id="2078"
 		image="armor-chest-tnecksweater.png|W:#4f0a76,8010c0,d699f7"
-		name="Suéter Purpura de Gola Alta"
+		name="Suéter Roxo de Gola Alta"
 		description="Um suéter macio e confortável"
 		effect="+6% Defense"
 		type="equip-torso"
