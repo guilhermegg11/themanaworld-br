@@ -2343,6 +2343,188 @@
 		description="Os dentes de um morcego. Bastante afiados."
 		type="generic"
 		weight="2"/>
+
+	<!-- IDs 756 até 783 (exceto o pó de fantasma - 774) tem valores apenas provisórios. Mudar quando for introduzir no jogo definitivamente -->
+
+	<item id="755"
+	        image="armor-chest-assassintop.png|R"
+	        name="Camisa de Assassino"
+	        description="Uma camisa feita para assassinos profissionais."
+	        effect="+10% Defense, +10 Agility"
+	        type="equip-torso"
+	        weight="15"
+	        defense="10"
+	        max-per-slot="1">
+        <sprite gender="male">chest-assassin-male.xml</sprite>
+        <sprite gender="female">chest-assassin-female.xml</sprite>
+	</item>
+	<item id="756"
+	        image="armor-hands-assassingloves.png|R"
+	        name="Luvas de Assassino"
+	        description="Luvas feitas para assassinos profissionais."
+	        effect="+5% Defense, +5 Agility"
+	        type="equip-arms"
+	        weight="9"
+	        defense="5"
+	        max-per-slot="1">
+        <sprite gender="male">hands-gloves-assassin-male.xml</sprite>
+        <sprite gender="female">hands-gloves-assassin-female.xml</sprite>
+	</item>
+	<item id="757"
+        	image="armor-feet-assassinboots.png"
+        	name="Botas de Assassino"
+        	description="Botas feitas para assassinos profissionais."
+        	effect="+5% Defense, +5 Agility"
+        	type="equip-feet"
+        	weight="10"
+        	defense="5"
+        	max-per-slot="1">
+        <sprite gender="male">feet-assassin-boots-male.xml</sprite>
+        <sprite gender="female">feet-assassin-boots-female.xml</sprite>
+	</item>
+	<item id="758"
+        	image="weapon-staff-woodstaff.png"
+        	name="Cajado de Madeira"
+        	description="Um cajado de madeira básico."
+        	effect="+25 Damage, 1 Range"
+        	type="equip-2hand"
+        	weapon_type="11"
+        	weapon-type="polearm"
+        	attack-action="attack"
+        	weight="10"
+        	attack-min="0"
+        	attack-delta="75"
+        	attack-range="32"
+        	max-per-slot="1">
+        <sprite>weapon-staff.xml</sprite>
+	</item>
+	<item id="759"
+        	image="armor-head-paladinhelm.png"
+        	name="Elmo de Paladino"
+        	description="Um excelente elmo, tipicamente usado por paladinos."
+        	effect="+19% Defense"
+        	type="equip-head"
+        	defense="19"
+        	weight="43"
+		max-per-slot="1">
+        <sprite>head-paladinhelm.xml</sprite>
+	</item>
+	<item id="760"
+        	image="armor-head-overlordhelm.png"
+        	name="Elmo do Soberano"
+        	description="Um elmo lendário, usado somente pelos guerreiros mais fortes."
+        	effect="+20% Defense"
+        	type="equip-head"
+        	defense="20"
+        	weight="45"
+		max-per-slot="1">
+        <sprite>head-overlordhelm.xml</sprite>
+	</item>
+	<item id="761"
+        	image="armor-head-desert-helmet.png"
+        	name="Elmo do Deserto"
+        	description="Um elmo perfeito para as longas e perigosas viagens pelo deserto."
+        	effect="+21% Defense"
+        	type="equip-head"
+        	weight="48"
+        	defense="21"
+        	max-per-slot="1">
+        <sprite>head-desert-helmet.xml</sprite>
+	</item>
+	<item id="762"
+	        image="weapon-arrow-arrow.png|W:#8B4513"
+	        name="Flecha de Terranite"
+	        description="Uma flecha de terranite."
+	        effect="+50 Damage"
+	        type="equip-ammo"
+	        weight="1"
+	        max-per-slot="100"/>
+	<item id="763"
+	        image="generic-terraniteore.png"
+	        name="Minério de Terranite"
+	        description="Terranite em sua forma bruta."
+	        effect=""
+	        type="generic"
+	        weight="40"
+	        max-per-slot="10"/>
+	<item id="764"
+        	image="armor-head-sailor_hat.png"
+        	name="Chapéu de Marinheiro"
+        	description="Um chapéu de marinheiro."
+        	effect="+5% Defense"
+        	type="equip-head"
+        	weight="5"
+        	defense="5"
+        	max-per-slot="1">
+        <sprite>head-sailor_hat.xml</sprite>
+	</item>
+	<item id="765"
+        	image="armor-head-captain_hat.png"
+        	name="Chapéu de Capitão"
+        	description="Um típico chapéu usado pelos capitães de grandes navios."
+        	effect="+15% Defense"
+        	type="equip-head"
+        	weight="8"
+        	defense="15"
+        	max-per-slot="1">
+        <sprite>head-captain_hat.xml</sprite>
+	</item>
+	<item id="766"
+	        image="armor-head-terranitehelm.png"
+	        name="Elmo de Terranite"
+	        description="Um elmo mágico, feito a partir de terranite semi-polido e bem leve. Excelente para os magos no campo de batalha."
+	        effect="+15% Defense"
+	        type="equip-head"
+	        defense="15"
+	        weight="300">
+        <sprite>head-terranitehelm.xml</sprite>
+	</item>
+	<item id="767"
+	        image="armor-chest-terranite.png"
+	        name="Armadura de Terranite"
+	        description="Uma ótima armadura feita de terranite."
+	        effect="+20% Defense"
+	        type="equip-torso"
+	        weight="800"
+	        defense="30"
+	        max-per-slot="1">
+        <sprite gender="male">chest-terranite-male.xml</sprite>
+        <sprite gender="female">chest-terranite-female.xml</sprite>
+	</item>
+	<item id="768"
+	        image="armor-legs-terranite.png"
+	        name="Calça de Terranite"
+	        description="Uma calça feita de terranite."
+	        effect="+5% Defense"
+	        type="equip-legs"
+	        weight="30"
+	        defense="8"
+	        max-per-slot="1">
+        <sprite gender="male">leg-terranite-male.xml</sprite>
+        <sprite gender="female">leg-terranite-female.xml</sprite>
+	</item>
+	<item id="769"
+	        image="armor-head-guyfawkes.png"
+	        name="Máscara Guy Fawkes"
+	        description="A máscara de Guy Fawkes, um famoso personagem do folclore do mundo de mana."
+	        effect="+14% Defense"
+	        type="equip-head"
+	        weight="12"
+	        defense="14"
+	        max-per-slot="1">
+        <sprite>head-guyfawkes.xml</sprite>
+	</item>
+	<item id="770"
+	        image="armor-head-fairy_hat.png"
+	        name="Chapéu da Floresta"
+	        description="Um chapéu encantado pelas fadas do reino de Lilith."
+	        effect="+8% Defense"
+	        type="equip-head"
+	        weight="18"
+		defense="8"
+		max-per-slot="1">
+	<sprite>head-fairy_hat.xml</sprite>
+	</item>
 	<item id="774"
 		image="generic-spice.png|R:#00FFFF"
 		name="Pó de Fantasma"
@@ -2350,7 +2532,90 @@
 		type="generic"
 		weight="1"
 		max-per-slot="30"/>
+	<item id="775"
+	        image="generic-bone.png"
+	        name="Osso"
+	        description="Um osso."
+	        effect=""
+	        type="generic"
+	        weight="10"
+	        max-per-slot="5"/>
+	<item id="776"
+	        image="generic-skull.png"
+	        name="Crânio"
+	        description="Um crânio."
+	        effect=""
+	        type="generic"
+	        weight="30"
+	        max-per-slot="2"/>
+	<item id="777"
+		image="generic-rags-rotten.png"
+	        name="Farrapos"
+	        description="Farrapos velhos e fedorentos usados por mortos-vivos."
+	        effect=""
+	        type="generic"
+	        weight="15"
+	        max-per-slot="40"/>
+	<item id="778"
+	        image="generic-heart-diseased.png"
+	        name="Coração de Zumbi"
+	        description="Um coração de zumbi."
+	        effect=""
+	        type="generic"
+	        weight="10"
+	        max-per-slot="15"/>
+	<item id="779"
+	        image="generic-ear-zombie.png"
+	        name="Orelha de Zumbi"
+	        description="Uma orelha de zumbi."
+	        effect=""
+	        type="generic"
+	        weight="5"
+	        max-per-slot="25"/>
+	<item id="780"
+	        image="generic-eyeball.png"
+	        name="Olho de Zumbi"
+	        description="Um olho de zumbi."
+	        effect=""
+	        type="generic"
+	        weight="3"
+	        max-per-slot="20"/>
+	<item id="781"
+        	image="armor-head-witch-doctor-mask.png"
+        	name="Máscara Voodoo"
+        	description="Uma estranha máscara. Provavelmente era usada em rituais Voodoo."
+        	effect="+3% Defense"
+        	defense="3"
+        	type="equip-head"
+        	weight="20"
+        	max-per-slot="1">
+        <sprite>head-witch-doctor-mask.xml</sprite>
+	</item>
+	<item id="782"
+	        image="armor-chest-forest-armor.png"
+	        name="Armadura da Floresta"
+	        description="Uma armadura resistente e confortável. Perfeita para caçadas e tocaias em florestas."
+	        effect="+6% Defense"
+	        type="equip-torso"
+	        weight="30"
+	        defense="6"
+	        max-per-slot="1">
+        <sprite gender="male">chest-forest-armor-male.xml</sprite>
+        <sprite gender="female">chest-forest-armor-female.xml</sprite>
+	</item>
+	<item id="783"
+	        image="armor-chest-valentine-dress.png|R:#BF0E08"
+	        name="Vestido Vermelho"
+	        description="Um luxuoso vestido de seda vermelho. Cuidado para não amassar!"
+	        effect="Defense: +15"
+	        type="equip-torso"
+	        weight="35"
+	        defense="15"
+	        max-per-slot="1">
+        <sprite gender="female">chest-valentine-dress.xml|#BF0E08</sprite>
+	</item>
 
+	<!-- IDs 756 até 783 (exceto o pó de fantasma - 774) tem valores apenas provisórios. Mudar quando for introduzir no jogo definitivamente -->
 	<!-- HERE ARE SOME UNUSED ITEM IDS -->
 
 	<item id="1198"
