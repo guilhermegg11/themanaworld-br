@@ -1,6 +1,7 @@
 map: 008-4.gat
 
-npc: npc/008-4_Mina_da_Areia/bau.conf
+//Desabilitada por Substituição de quest (João);
+//npc: npc/008-4_Mina_da_Areia/bau.conf
 
 npc: npc/008-4_Mina_da_Areia/_mobs.txt
 npc: npc/008-4_Mina_da_Areia/_warps.txt
