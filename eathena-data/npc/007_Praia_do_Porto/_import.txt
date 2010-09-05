@@ -1,11 +1,13 @@
 map: 007.gat
+npc: npc/007_Praia_do_Porto/_mobs.txt
+npc: npc/007_Praia_do_Porto/_warps.txt
+npc: npc/007_Praia_do_Porto/_shops.txt
 
 npc: npc/007_Praia_do_Porto/gismo.conf
 npc: npc/007_Praia_do_Porto/capitao.conf
 npc: npc/007_Praia_do_Porto/marujo.conf
 npc: npc/007_Praia_do_Porto/pescadores.conf
 npc: npc/007_Praia_do_Porto/pablo.conf
-npc: npc/007_Praia_do_Porto/vendedores.conf
 npc: npc/007_Praia_do_Porto/luiz.conf
 npc: npc/007_Praia_do_Porto/igor.conf
 npc: npc/007_Praia_do_Porto/veronica.conf
@@ -27,5 +29,4 @@ npc: npc/007_Praia_do_Porto/bardo_do_deserto.conf
 npc: npc/007_Praia_do_Porto/magico.conf
 npc: npc/007_Praia_do_Porto/magico_cartolas.conf
 
-npc: npc/007_Praia_do_Porto/_mobs.txt
-npc: npc/007_Praia_do_Porto/_warps.txt
+
