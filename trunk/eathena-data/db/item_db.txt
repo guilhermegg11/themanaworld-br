@@ -285,35 +285,37 @@
 752,chapeufofinho,Chapeu Fofinho,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 753,asademorcego,Asa de Morcego,3,500,100,3,,,,,,,,,,,{},{}
 754,dentesdemorcego,Dentes de Morcego,3,600,150,2,,,,,,,,,,,{},{}
-//755,camisadeassassino,Camisa de Assassino,5,10000,3000,15,,10,,-5,0,2,512,,0,0,{},{ callfunc "UnreleasedItem"; bonus bAgi,10; }
-//756,luvasdeassassino,Luvas de Assassino,5,7000,2000,9,,5,,-3,0,2,4,,0,0,{},{ callfunc "UnreleasedItem"; bonus bAgi,5; }
-//757,botasdeassassino,Botas de Assassino,5,7000,2000,10,,5,,-3,0,2,64,,0,0,{},{ callfunc "UnreleasedItem"; bonus bAgi,5; }
-//758,WoodenStaff,Wooden Staff,,,,,,,,,,,,,,,{},{}
-//759,PaladinsHelmet,Paladin's Helmet,,,,,,,,,,,,,,,{},{}
-//760,OverlordsHelmet,Overlord's Helmet,,,,,,,,,,,,,,,{},{}
-//761,DesertHelmet,Desert Helmet,,,,,,,,,,,,,,,{},{}
-//762,TerraniteArrow,Terranite Arrow,,,,,,,,,,,,,,,{},{}
-//763,TerraniteOre,Terranite Ore,,,,,,,,,,,,,,,{},{}
-//764,SailorHat,Sailor Hat,,,,,,,,,,,,,,,{},{}
-//765,CaptainsHat,Captain's Hat,,,,,,,,,,,,,,,{},{}
-//766,TerraniteHelmet,Terranite Helmet,,,,,,,,,,,,,,,{},{}
-//767,TerraniteChestArmor,Terranite Chest Armor,,,,,,,,,,,,,,,{},{}
-//768,TerraniteLegsArmor,Terranite Legs Armor,,,,,,,,,,,,,,,{},{}
-//769,GuyFawkesMask,Guy Fawkes' Mask,,,,,,,,,,,,,,,{},{}
-//770,FairyHat,Fairy Hat,,,,,,,,,,,,,,,{},{}
+// Daqui para baixo há apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
+755,camisadeassassino,Camisa de Assassino,5,10000,3000,15,,10,,-5,0,2,512,,0,0,{},{}
+756,luvasdeassassino,Luvas de Assassino,5,7000,2000,9,,5,,-3,0,2,4,,0,0,{},{}
+757,botasdeassassino,Botas de Assassino,5,7000,2000,10,,5,,-3,0,2,64,,0,0,{},{}
+758,cajadodemadeira,Cajado de Madeira,4,50,25,100,5,,1,,0,2,2,1,1,1,{},{}
+759,elmodepaladino,Elmo de Paladino,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+760,elmodosoberano,Elmo do Soberano,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+761,elmododeserto,Elmo do Deserto,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+762,flechadeterranite,Flecha de Terranite,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
+763,mineriodeterranite,Minério de Terranite,3,250,100,40,,,,,,,,,,,{},{}
+764,chapeudemarinheiro,Chapéu de Marinheiro,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+765,chapeudecapitao,Chapéu de Capitão,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+766,elmodeterranite,elmodeterranite,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+767,armaduradeterranite,Armadura de Terranite,5,9999000,3000,240,,25,,-100,0,2,512,,0,0,{},{}
+768,calcadeterranite,Calça de Terranite,5,2000,1000,15,,4,,-8,0,2,1,,0,0,{},{}
+769,mascaraguyfawkes,Máscara Guy Fawkes,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+770,chapeudafloresta,Chapéu da Floresta,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 //(já add)771,minisaia,minisaia,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
 //772,WispPowder,Wisp Powder,3,700,350,40,,,,,,,,,,,{},{}
 //773,SpectrePowder,Spectre Powder,3,700,350,40,,,,,,,,,,,{},{}
 774,PoltergeistPowder,Poltergeist Powder,3,700,350,60,,,,,,,,,,,{},{}
-//775,Bone,Bone,3,140,70,80,,,,,,,,,,,{},{}
-//776,Skull,Skull,3,900,450,110,,,,,,,,,,,{},{}
-//777,RottenRags,Rotten Rags,3,100,50,95,,,,,,,,,,,{},{}
-//778,DiseasedHeart,Diseased Heart,3,180,90,35,,,,,,,,,,,{},{}
-//779,UndeadEar,Undead Ear,3,30,15,15,,,,,,,,,,,{},{}
-//780,UndeadEye,Undead Eye,3,30,15,8,,,,,,,,,,,{},{}
-//781,WitchDoctorsMask,Witch Doctor's Mask,,,,,,,,,,,,,,,{},{}
-//782,ForestArmor,Forest Armor,,,,,,,,,,,,,,,{},{}
-//783,ValentineDress,Valentine Dress,5,100000,50000,25,,15,,3,0,2,512,,0,0,{},{}
+775,osso,Osso,3,140,70,80,,,,,,,,,,,{},{}
+776,caveira,Caveira,3,900,450,110,,,,,,,,,,,{},{}
+777,farrapos,Farrapos,3,100,50,95,,,,,,,,,,,{},{}
+778,coracaodezumbi,Coração de Zumbi,3,180,90,35,,,,,,,,,,,{},{}
+779,orelhadezumbi,Orelha de Zumbi,3,30,15,15,,,,,,,,,,,{},{}
+780,olhodezumbi,Olho de Zumbi,3,30,15,8,,,,,,,,,,,{},{}
+781,mascaravoodoo,Máscara Voodoo,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,-100,0,2,512,,0,0,{},{}
+783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,15,,3,0,2,512,,0,0,{},{}
+// Daqui para cima há apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
 1198,almadejacko,Alma de JackO,3,100000,1,1,,,,,,,,,,,{},{}
 1199,flecha,Flecha,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
 1200,arco,Arco,4,1000,500,200,20,,5,,0,2,34,1,4,11,{},{}
