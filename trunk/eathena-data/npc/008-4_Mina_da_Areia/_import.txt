@@ -1,6 +1,6 @@
 map: 008-4.gat
 
-//Desabilitada por Substituição de quest (João);
+//Baú retirado por motivo de subtituição de quests.
 //npc: npc/008-4_Mina_da_Areia/bau.conf
 
 npc: npc/008-4_Mina_da_Areia/_mobs.txt
