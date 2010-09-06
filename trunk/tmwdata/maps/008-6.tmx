@@ -5,7 +5,7 @@
   <property name="name" value="Caverna"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
  </properties>
- <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
  <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
@@ -17,225 +17,9 @@
  <tileset firstgid="147" name="Woodland" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_ground.png"/>
  </tileset>
- <tileset firstgid="403" name="animated wetwall" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_ani_wetwall.png"/>
-  <tile id="0">
-   <properties>
-    <property name="animation-delay0" value="10"/>
-    <property name="animation-delay1" value="10"/>
-    <property name="animation-delay10" value="10"/>
-    <property name="animation-delay11" value="10"/>
-    <property name="animation-delay12" value="10"/>
-    <property name="animation-delay13" value="10"/>
-    <property name="animation-delay14" value="10"/>
-    <property name="animation-delay15" value="10"/>
-    <property name="animation-delay2" value="10"/>
-    <property name="animation-delay3" value="10"/>
-    <property name="animation-delay4" value="10"/>
-    <property name="animation-delay5" value="10"/>
-    <property name="animation-delay6" value="10"/>
-    <property name="animation-delay7" value="10"/>
-    <property name="animation-delay8" value="10"/>
-    <property name="animation-delay9" value="10"/>
-    <property name="animation-frame0" value="0"/>
-    <property name="animation-frame1" value="1"/>
-    <property name="animation-frame10" value="10"/>
-    <property name="animation-frame11" value="11"/>
-    <property name="animation-frame12" value="12"/>
-    <property name="animation-frame13" value="13"/>
-    <property name="animation-frame14" value="14"/>
-    <property name="animation-frame15" value="15"/>
-    <property name="animation-frame2" value="2"/>
-    <property name="animation-frame3" value="3"/>
-    <property name="animation-frame4" value="4"/>
-    <property name="animation-frame5" value="5"/>
-    <property name="animation-frame6" value="6"/>
-    <property name="animation-frame7" value="7"/>
-    <property name="animation-frame8" value="8"/>
-    <property name="animation-frame9" value="9"/>
-   </properties>
-  </tile>
-  <tile id="16">
-   <properties>
-    <property name="animation-delay0" value="10"/>
-    <property name="animation-delay1" value="10"/>
-    <property name="animation-delay10" value="10"/>
-    <property name="animation-delay11" value="10"/>
-    <property name="animation-delay12" value="10"/>
-    <property name="animation-delay13" value="10"/>
-    <property name="animation-delay14" value="10"/>
-    <property name="animation-delay15" value="10"/>
-    <property name="animation-delay2" value="10"/>
-    <property name="animation-delay3" value="10"/>
-    <property name="animation-delay4" value="10"/>
-    <property name="animation-delay5" value="10"/>
-    <property name="animation-delay6" value="10"/>
-    <property name="animation-delay7" value="10"/>
-    <property name="animation-delay8" value="10"/>
-    <property name="animation-delay9" value="10"/>
-    <property name="animation-frame0" value="16"/>
-    <property name="animation-frame1" value="17"/>
-    <property name="animation-frame10" value="26"/>
-    <property name="animation-frame11" value="27"/>
-    <property name="animation-frame12" value="28"/>
-    <property name="animation-frame13" value="29"/>
-    <property name="animation-frame14" value="30"/>
-    <property name="animation-frame15" value="31"/>
-    <property name="animation-frame2" value="18"/>
-    <property name="animation-frame3" value="19"/>
-    <property name="animation-frame4" value="20"/>
-    <property name="animation-frame5" value="21"/>
-    <property name="animation-frame6" value="22"/>
-    <property name="animation-frame7" value="23"/>
-    <property name="animation-frame8" value="24"/>
-    <property name="animation-frame9" value="25"/>
-   </properties>
-  </tile>
-  <tile id="32">
-   <properties>
-    <property name="animation-delay0" value="100"/>
-    <property name="animation-delay1" value="10"/>
-    <property name="animation-delay10" value="10"/>
-    <property name="animation-delay11" value="10"/>
-    <property name="animation-delay12" value="10"/>
-    <property name="animation-delay13" value="10"/>
-    <property name="animation-delay14" value="10"/>
-    <property name="animation-delay2" value="10"/>
-    <property name="animation-delay3" value="50"/>
-    <property name="animation-delay4" value="70"/>
-    <property name="animation-delay5" value="10"/>
-    <property name="animation-delay6" value="10"/>
-    <property name="animation-delay7" value="10"/>
-    <property name="animation-delay8" value="10"/>
-    <property name="animation-delay9" value="10"/>
-    <property name="animation-frame0" value="32"/>
-    <property name="animation-frame1" value="33"/>
-    <property name="animation-frame10" value="41"/>
-    <property name="animation-frame11" value="42"/>
-    <property name="animation-frame12" value="43"/>
-    <property name="animation-frame13" value="44"/>
-    <property name="animation-frame14" value="45"/>
-    <property name="animation-frame2" value="34"/>
-    <property name="animation-frame3" value="32"/>
-    <property name="animation-frame4" value="35"/>
-    <property name="animation-frame5" value="36"/>
-    <property name="animation-frame6" value="37"/>
-    <property name="animation-frame7" value="38"/>
-    <property name="animation-frame8" value="39"/>
-    <property name="animation-frame9" value="40"/>
-   </properties>
-  </tile>
-  <tile id="48">
-   <properties>
-    <property name="animation-delay0" value="100"/>
-    <property name="animation-delay1" value="10"/>
-    <property name="animation-delay10" value="10"/>
-    <property name="animation-delay11" value="10"/>
-    <property name="animation-delay12" value="10"/>
-    <property name="animation-delay13" value="10"/>
-    <property name="animation-delay14" value="10"/>
-    <property name="animation-delay2" value="10"/>
-    <property name="animation-delay3" value="50"/>
-    <property name="animation-delay4" value="70"/>
-    <property name="animation-delay5" value="10"/>
-    <property name="animation-delay6" value="10"/>
-    <property name="animation-delay7" value="10"/>
-    <property name="animation-delay8" value="10"/>
-    <property name="animation-delay9" value="10"/>
-    <property name="animation-frame0" value="48"/>
-    <property name="animation-frame1" value="49"/>
-    <property name="animation-frame10" value="57"/>
-    <property name="animation-frame11" value="58"/>
-    <property name="animation-frame12" value="59"/>
-    <property name="animation-frame13" value="60"/>
-    <property name="animation-frame14" value="61"/>
-    <property name="animation-frame2" value="50"/>
-    <property name="animation-frame3" value="48"/>
-    <property name="animation-frame4" value="51"/>
-    <property name="animation-frame5" value="52"/>
-    <property name="animation-frame6" value="53"/>
-    <property name="animation-frame7" value="54"/>
-    <property name="animation-frame8" value="55"/>
-    <property name="animation-frame9" value="56"/>
-   </properties>
-  </tile>
-  <tile id="64">
-   <properties>
-    <property name="animation-delay0" value="100"/>
-    <property name="animation-delay1" value="10"/>
-    <property name="animation-delay10" value="10"/>
-    <property name="animation-delay11" value="10"/>
-    <property name="animation-delay12" value="10"/>
-    <property name="animation-delay13" value="10"/>
-    <property name="animation-delay14" value="10"/>
-    <property name="animation-delay2" value="10"/>
-    <property name="animation-delay3" value="50"/>
-    <property name="animation-delay4" value="70"/>
-    <property name="animation-delay5" value="10"/>
-    <property name="animation-delay6" value="10"/>
-    <property name="animation-delay7" value="10"/>
-    <property name="animation-delay8" value="10"/>
-    <property name="animation-delay9" value="10"/>
-    <property name="animation-frame0" value="64"/>
-    <property name="animation-frame1" value="65"/>
-    <property name="animation-frame10" value="73"/>
-    <property name="animation-frame11" value="74"/>
-    <property name="animation-frame12" value="75"/>
-    <property name="animation-frame13" value="76"/>
-    <property name="animation-frame14" value="77"/>
-    <property name="animation-frame2" value="66"/>
-    <property name="animation-frame3" value="64"/>
-    <property name="animation-frame4" value="67"/>
-    <property name="animation-frame5" value="68"/>
-    <property name="animation-frame6" value="69"/>
-    <property name="animation-frame7" value="70"/>
-    <property name="animation-frame8" value="71"/>
-    <property name="animation-frame9" value="72"/>
-   </properties>
-  </tile>
-  <tile id="80">
-   <properties>
-    <property name="animation-delay0" value="100"/>
-    <property name="animation-delay1" value="10"/>
-    <property name="animation-delay10" value="10"/>
-    <property name="animation-delay11" value="10"/>
-    <property name="animation-delay12" value="10"/>
-    <property name="animation-delay13" value="10"/>
-    <property name="animation-delay14" value="10"/>
-    <property name="animation-delay2" value="10"/>
-    <property name="animation-delay3" value="50"/>
-    <property name="animation-delay4" value="70"/>
-    <property name="animation-delay5" value="10"/>
-    <property name="animation-delay6" value="10"/>
-    <property name="animation-delay7" value="10"/>
-    <property name="animation-delay8" value="10"/>
-    <property name="animation-delay9" value="10"/>
-    <property name="animation-frame0" value="80"/>
-    <property name="animation-frame1" value="81"/>
-    <property name="animation-frame10" value="89"/>
-    <property name="animation-frame11" value="90"/>
-    <property name="animation-frame12" value="91"/>
-    <property name="animation-frame13" value="92"/>
-    <property name="animation-frame14" value="93"/>
-    <property name="animation-frame2" value="82"/>
-    <property name="animation-frame3" value="80"/>
-    <property name="animation-frame4" value="83"/>
-    <property name="animation-frame5" value="84"/>
-    <property name="animation-frame6" value="85"/>
-    <property name="animation-frame7" value="86"/>
-    <property name="animation-frame8" value="87"/>
-    <property name="animation-frame9" value="88"/>
-   </properties>
-  </tile>
- </tileset>
  <layer name="Ground" width="200" height="200">
   <data encoding="base64" compression="gzip">
    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
-  </data>
- </layer>
- <layer name="Water shimmer" width="200" height="200">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3cW4qDMBiA0br/x8JsQJgNuIRsbAhVxrZmbK3m4pwDAR/7kI9fxfRyAQAAAAAAAAAAAAAAAAAAgPyu3W19db/XoSv9q6Csobutflzfs+swdhLphf9mamNI7PswdhJNvWiEsxvGufBXG0vCbKaYJ5zNvIv+zTYm4eH+a2sj1+5+aY2Shg+7WPI4T6K1vT7vs++en3U0Qwnv3ku9aj5PotReX5tbIdGMRsjhiDZSlvb6lrkVNEImOfvYkz7IodU+Io1wNH1AWst9RPqANH1wtJZniD44Wst9AAAA7M1zOKTpg9rU9F5r+vZXJ9Sitj58204tjjoX8il9UNLWM+g56YNS9j5rewQzhBJqnhlzzg+S29p/XtVGH+TUUhsTfZBLa21E+gCoQ4szBAAAOJfpucT7InimDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDX/QAFWSX2AHECAA==
   </data>
  </layer>
  <layer name="Fringe" width="200" height="200">
@@ -288,6 +72,6 @@
     <property name="dest_y" value="1280"/>
    </properties>
   </object>
-  <object name="" x="9" y="2065" width="665" height="668"/>
+  <object name="Margem" x="9" y="2065" width="665" height="668"/>
  </objectgroup>
 </map>
