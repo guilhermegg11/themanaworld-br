@@ -1,9 +1,9 @@
 <?php
 
 
-if (!is_string($_GET['login']) || !strlen($_GET['login']))
+if (!isset($_GET['login']) || !is_string($_GET['login']) || !strlen($_GET['login']))
     $valid = 'Login incompleto, não foi possível completar a operação';
-else if (!is_string($_GET['verifycode']) || strlen($_GET['verifycode']) != 64)
+else if (!isset($_GET['verifycode']) || !is_string($_GET['verifycode']) || strlen($_GET['verifycode']) != 64)
     $valid = 'Código de verificação incompleto, não foi possível completar a operação';
 else
 {
@@ -74,7 +74,7 @@ div.ui-widget-content span.success {
 }
     /* ]]> */
     </style>
-    <title>Reset de Senha</title>
+    <title>Alteração de E-Mail</title>
 </head>
 <body>
 <?php

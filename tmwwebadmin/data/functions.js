@@ -40,6 +40,17 @@ function verify_password(pass)
 	return verify_account_namepass("Password", pass);
 }
 
+function verify_sex(obj)
+{
+        if (!(obj instanceof jQuery)) obj = $(obj);
+        if (obj.val() != "M" && obj.val() != "F")
+        {
+                append_error(obj, "Você deve selecionar o sexo de seu personagem");
+                return false;
+        }
+        return true;
+}
+
 function verify_email(email)
 {
 	if (!(email instanceof jQuery)) email = $(email);

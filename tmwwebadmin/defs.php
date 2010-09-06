@@ -2,6 +2,9 @@
 
 define('SERVER_DOMAIN', 'server.themanaworld.com.br');
 
+define('RECAPTCHA_PUBLIC_KEY', 'Your reCAPTCHA public key here');
+define('RECAPTCHA_PRIVATE_KEY', 'Your reCAPTCHA private key here');
+
 define('LADMIN_HOST', '127.0.0.1');
 define('LADMIN_PORT', 6901);
 define('LADMIN_PASS', 'admin');
