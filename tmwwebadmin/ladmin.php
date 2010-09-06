@@ -469,6 +469,54 @@ class eAthenaLAdmin {
             return FALSE;
         return $account['id'];
     }
+
+    /**
+     * Create new account on server
+     *
+     * @param string $name Account name
+     * @param string $sex M for male character or F for female character
+     * @param string $email E-Mail associated to this account
+     * @param string $pass Account password
+     *
+     * @return mixed FALSE if account already exists, NULL if a connection 
+     *               problem happened or account ID on success
+     */
+    public function create_account($name, $sex, $email, $pass)
+    {
+        if (!$this->is_auth) throw new Exception('You are not autheticated');
+        $name = (string)$name;
+        if (!strlen($name)) throw new Exception('Invalid zero-length account name');
+        if (!self::verify_account_name($name)) throw new Exception('Invalid account name');
+        if (!preg_match('/^[MF]$/', $sex)) throw new Exception('Sex must be M or F');
+        $email = preg_replace('/\.\@/', '@', (string)$email);
+        if (strlen($email) < 3) throw new Exception('E-Mail address to short');
+        if (strlen($email) > 39) throw new Exception('E-Mail address to long');
+        if (!self::verify_email($email)) throw new Exception('Invalid e-mail address');
+        $pass = (string)$pass;
+        if (!self::verify_account_name($pass)) throw new Exception('Invalid account password');
+        if (!socket_write($this->connfd, pack('va24a24a1a40', 0x7930, $name, $pass, $sex, $email)))
+        {
+            $this->disconnect();
+            return NULL;
+        }
+        if (($buf=socket_read($this->connfd, 2)) === FALSE || !strlen($buf))
+        {
+            $this->disconnect();
+            return NULL;
+        }
+        $buf = unpack('vreply', $buf);
+        if ($buf['reply'] != 0x7931)
+            throw new Exception('Incorrect answer from server');
+        if (($buf=socket_read($this->connfd, 28)) === FALSE || !strlen($buf))
+        {
+            $this->disconnect();
+            return NULL;
+        }
+        $account = unpack('Vid/a24name', $buf);
+        if ($account['id'] == -1 || $account['id'] == 4294967295)
+            return FALSE;
+        return $account['id'];
+    }
 }
 
 ?>
