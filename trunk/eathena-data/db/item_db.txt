@@ -621,4 +621,5 @@
 3106,VestidoRosaChoque,Vestido Rosa Choque,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
 3107,VestidoRosaClaro,Vestido Rosa Claro,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
 3108,BoneDoador2011,Boné de Doador 2011,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
+3109,escudotupiguarani,Escudo Tupiguarani,5,7000,1700,300,,14,,-50,0,2,32,,,0,{},{}
 // teste...
