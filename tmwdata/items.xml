@@ -5169,5 +5169,14 @@
 		max-per-slot="1">
 		<sprite>head-donatecap2011.xml</sprite>
 	</item>
-
+	<item id="3109"
+		image="weapon-shield-tupiguarani.png"
+		name="Escudo Tupiguaraní"
+		description="Escudo usado pelo indígenas Tupiguaranis"
+		effect="50 Defesa"
+		type="equip-shield"
+		weight="300"
+		max-per-slot="1">
+		<sprite>weapon-shield-tupiguarani.xml</sprite>
+	</item>
 </items>
