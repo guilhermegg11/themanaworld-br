@@ -5193,4 +5193,13 @@
 		max-per-slot="1">
 		<sprite>weapon-shield-tupiguarani.xml</sprite>
 	</item>
+	<item id="3110"
+		image="armor-ring-colar-monge.png"
+		name="Colar de Monge"
+		description="Um colar concentração de força usado por monges."
+		effect="Força +3"
+		type="equip-ring"
+		weight="200"
+		max-per-slot="1"
+		strength="3"/>
 </items>
