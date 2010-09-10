@@ -204,7 +204,7 @@
 	<npc id="554"><sprite variant="54">npcs-br2.xml</sprite></npc> <!-- Anão Engenheiro Infantil -->
 	<npc id="555"><sprite variant="55">npcs-br2.xml</sprite></npc> <!-- Anão Engenheiro Adulto -->
 	<npc id="556"><sprite variant="56">npcs-br2.xml</sprite></npc> <!-- Anão Engenheiro Idoso -->
-	<npc id="557"><sprite variant="57">npcs-br2.xml</sprite></npc>
+	<npc id="557"><sprite variant="57">npcs-br2.xml</sprite></npc> <!-- Anão Mercador -->
 	<npc id="558"><sprite variant="58">npcs-br2.xml</sprite></npc>
 	<npc id="559"><sprite variant="59">npcs-br2.xml</sprite></npc>
 	<npc id="560"><sprite variant="60">npcs-br2.xml</sprite></npc> <!-- Anão idoso -->
@@ -212,9 +212,9 @@
 	<npc id="562"><sprite variant="62">npcs-br2.xml</sprite></npc> <!-- Anão Pescador -->
 	<npc id="563"><sprite variant="63">npcs-br2.xml</sprite></npc> <!-- Anão guarda (tipo fortaleza) -->
 	<npc id="564"><sprite variant="64">npcs-br2.xml</sprite></npc> <!-- Anão Marujo -->
-	<npc id="565"><sprite variant="65">npcs-br2.xml</sprite></npc>
-	<npc id="566"><sprite variant="66">npcs-br2.xml</sprite></npc>
-	<npc id="567"><sprite variant="67">npcs-br2.xml</sprite></npc>
+	<npc id="565"><sprite variant="65">npcs-br2.xml</sprite></npc> <!-- Anão Forjador -->
+	<npc id="566"><sprite variant="66">npcs-br2.xml</sprite></npc> <!-- Anã Infermeira -->
+	<npc id="567"><sprite variant="67">npcs-br2.xml</sprite></npc> <!-- Anã Joalheira -->
 	<npc id="568"><sprite variant="68">npcs-br2.xml</sprite></npc>
 	<npc id="569"><sprite variant="69">npcs-br2.xml</sprite></npc>
 	<!-- Espaço disponívels no sprite "npcs-br2.png" -->
