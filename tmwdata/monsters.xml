@@ -981,4 +981,33 @@
 		<sound event="die">short-sword-die1.ogg</sound>  <!-- Rato Morre -->
 	</monster>
 
+	<!-- Jazidas -->
+	<monster id="323" name="1">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+	<monster id="324" name="2">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+	<monster id="325" name="3">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+	<monster id="326" name="4">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+	<monster id="327" name="5">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+	<monster id="328" name="6">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+	<monster id="329" name="7">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+	<monster id="330" name="8">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+	<monster id="331" name="9">
+		<sprite>monster-slime.xml</sprite>
+	</monster>
+
 </monsters>
