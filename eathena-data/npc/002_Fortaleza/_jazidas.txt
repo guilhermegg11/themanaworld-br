@@ -14,238 +14,109 @@
 
 002.gat,0,0,0	script	mobJazidas	-1,{
 
+
+SUB_variaveis:
+	set @picareta, 521;
+	set @picaretaprof, 522;
+	set @cobre, 551;
+	set @estanho, 552;
+	set @chumbo, 553;
+	set @prata, 554;
+	set @ouro, 555;
+	set @platina, 556;
+	set @iridio, 557;
+	set @titanio, 558;
+	set @diamante, 559;
+	return;
+
 On1323:
 	callsub SUB_cobre;
-	break;
 
 On1324:
 	callsub SUB_chumbo;
-	break;
 
 On1325:
 	callsub SUB_estanho;
-	break;
 
 On1326:
 	callsub SUB_prata;
-	break;
 
 On1327:
 	callsub SUB_ouro;
-	break;
 
 On1328:
 	callsub SUB_platina;
-	break;
 
 On1329:
 	callsub SUB_iridio;
-	break;
 
 On1330:
 	callsub SUB_titanio;
-	break;
 
 On1331:
 	callsub SUB_dimantis;
-	break;
+
+_check:
+	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto _normal;
+	if getequipid(equip_hand1)==@picareta goto _picareta;
+	if getequipid(equip_hand1)==@picaretaprof goto _picareta2;
+
+_normal:	
+	message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
 	end;
 
-SUB_variaveis:
-	set @picareta, 0;
-	set @picaretaprof, 0;
-	set @cobre, 0;
-	set @estanho, 0;
-	set @chumbo, 0;
-	set @prata, 0;
-	set @ouro, 0;
-	set @platina, 0;
-	set @iridio, 0;
-	set @titanio, 0;
-	set @diamante, 0;
-	return;
+_picareta:
+	set @item, Rand(1000);
+	if (@item >= 0  && @item <= 49) getitem @fragmento, 1;
+	end;
+
+_picareta2:
+	set @item, Rand(1000);
+	if (@item >= 0  && @item <= 99) getitem @fragmento, 1;
+	end;
 
 SUB_cobre:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto A_normal;
-	if getequipid(equip_hand1)==@picareta goto A_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto A_picareta2;
-
-		A_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		A_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 49) getitem @cobre, 1;
-			return;
-
-		A_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 99) getitem @cobre, 1;
-			return;
+	set @fragmento, @cobre;
+	goto _check;
 
 SUB_estanho:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto B_normal;
-	if getequipid(equip_hand1)==@picareta goto B_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto B_picareta2;
-
-		B_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		B_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 49) getitem @estanho, 1;
-			return;
-
-		B_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 99) getitem @estanho, 1;
-			return;
+	set @fragmento, @estanho;
+	goto _check;
 
 SUB_chumbo:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto C_normal;
-	if getequipid(equip_hand1)==@picareta goto C_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto C_picareta2;
-
-		C_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		C_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 49) getitem @chumbo, 1;
-			return;
-
-		C_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 99) getitem @chumbo, 1;
-			return;
+	set @fragmento, @chumbo;
+	goto _check;
 
 SUB_prata:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto D_normal;
-	if getequipid(equip_hand1)==@picareta goto D_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto D_picareta2;
-
-		D_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		D_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 19) getitem @prata, 1;
-			return;
-
-		D_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 39) getitem @prata, 1;
-			return;
-
+	set @fragmento, @prata;
+	goto _check;
 
 SUB_ouro:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto E_normal;
-	if getequipid(equip_hand1)==@picareta goto E_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto E_picareta2;
-
-		E_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		E_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 19) getitem @ouro, 1;
-			return;
-
-		E_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 39) getitem @ouro, 1;
-			return;
-
+	set @fragmento, @ouro;
+	goto _check;
 
 SUB_platina:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto F_normal;
-	if getequipid(equip_hand1)==@picareta goto F_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto F_picareta2;
-
-		F_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		F_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 19) getitem @platina, 1;
-			return;
-
-		F_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 39) getitem @platina, 1;
-			return;
+	set @fragmento, @platina;
+	goto _check;
 
 SUB_iridio:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto G_normal;
-	if getequipid(equip_hand1)==@picareta goto G_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto G_picareta2;
-
-		G_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		G_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 19) getitem @iridio, 1;
-			return;
-
-		G_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 39) getitem @iridio, 1;
-			return;
+	set @fragmento, @iridio;
+	goto _check;
 
 SUB_titanio:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto H_normal;
-	if getequipid(equip_hand1)==@picareta goto H_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto H_picareta2;
-
-		H_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		H_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 19) getitem @titanio, 1;
-			return;
-
-		H_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 39) getitem @titanio, 1;
-			return;
-
+	set @fragmento, @titanio;
+	goto _check;
 
 SUB_diamante:
 	callsub SUB_variaveis;
-	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto I_normal;
-	if getequipid(equip_hand1)==@picareta goto I_picareta;
-	if getequipid(equip_hand1)==@picaretaprof goto I_picareta2;
-
-		I_normal:	
-			message strcharinfo(0), "Você precisa de uma ferramenta adequada para conseguir minérios.";
-			return;
-
-		I_picareta:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 4) getitem @diamante, 1;
-			return;
-
-		I_picareta2:
-			set @item, Rand(1000);
-			if (@item >= 0  && @item <= 9) getitem @diamante, 1;
-			return;
-
+	set @fragmento, @diamante;
+	goto _check;
 }
