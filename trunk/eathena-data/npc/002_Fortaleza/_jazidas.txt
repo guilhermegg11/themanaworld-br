@@ -30,31 +30,31 @@ SUB_variaveis:
 	return;
 
 On1323:
-	callsub SUB_cobre;
+	goto _cobre;
 
 On1324:
-	callsub SUB_chumbo;
+	goto _chumbo;
 
 On1325:
-	callsub SUB_estanho;
+	goto _estanho;
 
 On1326:
-	callsub SUB_prata;
+	goto _prata;
 
 On1327:
-	callsub SUB_ouro;
+	goto _ouro;
 
 On1328:
-	callsub SUB_platina;
+	goto _platina;
 
 On1329:
-	callsub SUB_iridio;
+	goto _iridio;
 
 On1330:
-	callsub SUB_titanio;
+	goto _titanio;
 
 On1331:
-	callsub SUB_dimantis;
+	goto _diamante;
 
 _check:
 	if getequipid(equip_hand1)!=@picareta && getequipid(equip_hand1)!=@picaretaprof goto _normal;
@@ -68,54 +68,56 @@ _normal:
 _picareta:
 	set @item, Rand(1000);
 	if (@item >= 0  && @item <= 49) getitem @fragmento, 1;
+	message strcharinfo(0), @item;
 	end;
 
 _picareta2:
 	set @item, Rand(1000);
 	if (@item >= 0  && @item <= 99) getitem @fragmento, 1;
+	message strcharinfo(0), @item;
 	end;
 
-SUB_cobre:
+_cobre:
 	callsub SUB_variaveis;
 	set @fragmento, @cobre;
 	goto _check;
 
-SUB_estanho:
+_estanho:
 	callsub SUB_variaveis;
 	set @fragmento, @estanho;
 	goto _check;
 
-SUB_chumbo:
+_chumbo:
 	callsub SUB_variaveis;
 	set @fragmento, @chumbo;
 	goto _check;
 
-SUB_prata:
+_prata:
 	callsub SUB_variaveis;
 	set @fragmento, @prata;
 	goto _check;
 
-SUB_ouro:
+_ouro:
 	callsub SUB_variaveis;
 	set @fragmento, @ouro;
 	goto _check;
 
-SUB_platina:
+_platina:
 	callsub SUB_variaveis;
 	set @fragmento, @platina;
 	goto _check;
 
-SUB_iridio:
+_iridio:
 	callsub SUB_variaveis;
 	set @fragmento, @iridio;
 	goto _check;
 
-SUB_titanio:
+_titanio:
 	callsub SUB_variaveis;
 	set @fragmento, @titanio;
 	goto _check;
 
-SUB_diamante:
+_diamante:
 	callsub SUB_variaveis;
 	set @fragmento, @diamante;
 	goto _check;
