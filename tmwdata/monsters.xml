@@ -1001,12 +1001,14 @@
 
 	<monster id="322" name="Guarda">
 		<sprite>player_male_base.xml</sprite>
-		<sprite gender="male">chest-warlordplate-male.xml|#580000,A40000,C02020,ff6060</sprite>
-		<sprite gender="male">leg-assassin-male.xml|#580000,A40000,C02020,ff6060</sprite>
-		<sprite gender="male">feet-furboots-male.xml|#580000,A40000,C02020,ff6060</sprite>
-		<sprite gender="male">hands-gloves-generic-male.xml|#580000,A40000,C02020,ff60600</sprite>
-		<sprite>head-capacete-lord.xml|#580000,A40000,C02020,ff6060</sprite>
-		<sprite>weapon-lidersword.xml|#580000,A40000,C02020,ff6060</sprite>
+		<!-- Esse || serve para desligar o recolor -->
+		<sprite gender="male">leg-assassin-male.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="male">feet-furboots-male.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="male">hands-gloves-generic-male.xml||#580000,A40000,C02020,ff60600</sprite>
+		<!-- <sprite>head-capacete-lord.xml|#580000,A40000,C02020,ff6060</sprite> -->
+		<sprite>hairstyle15.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite>weapon-lidersword.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="male">chest-warlordplate-male.xml||#580000,A40000,C02020,ff6060</sprite>
 		<sound event="hit">short-sword-hit2.ogg</sound> <!-- atacando -->
 		<sound event="miss">knife-miss1.ogg</sound> <!-- erra ataque -->
 		<sound event="die">short-sword-die1.ogg</sound>  <!-- Rato Morre -->
@@ -1039,6 +1041,34 @@
 	</monster>
 	<monster id="331" name="9">
 		<sprite>monster-slime.xml</sprite>
+	</monster>
+
+	<monster id="332" name="Captão da Guarda">
+		<sprite>player_male_base.xml</sprite>
+		<sprite gender="male">leg-assassin-male.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="male">feet-furboots-male.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="male">hands-gloves-generic-male.xml||#580000,A40000,C02020,ff60600</sprite>
+		<!-- <sprite>head-capacete-lord.xml|#580000,A40000,C02020,ff6060</sprite>-->
+		<sprite>head-captain_hat.xml||#000000,880000,CC0000,FF0000</sprite>
+		<sprite>weapon-lidersword.xml||#580000,A40000,C02020,ff6060</sprite>
+		<!-- <sprite gender="male">chest-warlordplate-male.xml|#580000,A40000,C02020,ff6060</sprite> -->
+		<sprite gender="male">chest-saviorarmor-male.xml||#000000,880000,CC0000,FF0000</sprite>
+		<sound event="hit">short-sword-hit2.ogg</sound> <!-- atacando -->
+		<sound event="miss">knife-miss1.ogg</sound> <!-- erra ataque -->
+		<sound event="die">short-sword-die1.ogg</sound>  <!-- Rato Morre -->
+	</monster>
+	<monster id="333" name="Tenente">
+		<sprite>player_male_base.xml</sprite>
+		<!-- Esse || serve para desligar o recolor -->
+		<sprite gender="male">leg-assassin-male.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="male">feet-furboots-male.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="male">hands-gloves-generic-male.xml||#580000,A40000,C02020,ff60600</sprite>
+		<sprite>head-capacete-lord.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite>weapon-lidersword.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="male">chest-warlordplate-male.xml||#580000,A40000,C02020,ff6060</sprite>
+		<sound event="hit">short-sword-hit2.ogg</sound> <!-- atacando -->
+		<sound event="miss">knife-miss1.ogg</sound> <!-- erra ataque -->
+		<sound event="die">short-sword-die1.ogg</sound>  <!-- Rato Morre -->
 	</monster>
 
 </monsters>
