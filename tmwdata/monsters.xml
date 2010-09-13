@@ -738,19 +738,6 @@
 
     <monster id="34" name="Zumbi">
         <sprite>monster-zombie.xml</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="64"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="35" name="Trevos">
@@ -787,20 +774,64 @@
             />
     </monster>
 
-	<!--monster id="38" name="Espéctro do Arrepio">
-		<sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
-		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
-	</monster-->
+    <monster id="37" name="Dragão de Fogo">
+        <sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+        <attack id="1"
+            priority="1"
+            type="magical"
+            element="fire"
+            pre-delay="10"
+            aft-delay="5"
+            damage-factor="1"
+            range="32"
+            action="attack"
+            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
+            />
+    </monster>
 
-	<!--monster id="40" name="Espéctro do Arrepio">
-		<sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
-		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
-	</monster-->
+    <monster id="38" name="Wisp">
+        <sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
+	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+    </monster>
+
+    <monster id="39" name="Lesma">
+        <sprite>monster-snail.xml</sprite>
+    </monster>
+
+    <monster id="40" name="Espectro">
+        <sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
+	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+    </monster>
+
+    <monster id="43" name="Guerreiro Caído">
+        <sprite>monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>leg-chaps-male.xml</sprite>
+        <sprite>chest-warlordplate-male.xml</sprite>
+        <sprite>head-warlordhelm.xml</sprite>
+    </monster>
 
 	<monster id="45" name="Espectro do Calafrio">
 		<sprite>monster-wisp.xml|#77ffdd,77ddff</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
+
+    <monster id="47" name="Abelha" targetCursor="small">
+        <sprite>monster-bee.xml</sprite>
+	<sprite>generic-shadow-small-circle.xml</sprite>
+    </monster>
+
+    <monster id="53" name="Borboleta" targetCursor="small">
+        <sprite>monster-butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+	<sprite>generic-shadow-small-circle.xml</sprite>
+    </monster>
+
+    <monster id="59" name="Moggun">
+        <sprite>monster-moggun.xml</sprite>
+    </monster>
+
+    <monster id="60" name="Terranite">
+	<sprite>monster-terranite.xml</sprite>
+    </monster>
 
 	<!-- AQUI ESTAO OS MONSTROS CRIADOS PELA EQUIPE DO TMW-BR -->
 
