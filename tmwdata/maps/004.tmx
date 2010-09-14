@@ -273,7 +273,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object name="EscorpiÃ£o Vermelho (8) [45s]" type="spawn" x="2112" y="1344" width="704" height="2432">
+  <object name="Escorpião Vermelho (8) [45s]" type="spawn" x="2112" y="1344" width="704" height="2432">
    <properties>
     <property name="eA_spawn" value="45000"/>
     <property name="max_beings" value="8"/>
@@ -287,7 +287,7 @@
     <property name="monster_id" value="4"/>
    </properties>
   </object>
-  <object name="EscorpiÃ£o (3) [45s]" type="spawn" x="928" y="3424" width="1952" height="416">
+  <object name="Escorpião (3) [45s]" type="spawn" x="928" y="3424" width="1952" height="416">
    <properties>
     <property name="eA_spawn" value="45000"/>
     <property name="max_beings" value="5"/>
