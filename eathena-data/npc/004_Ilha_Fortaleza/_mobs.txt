@@ -45,6 +45,9 @@ On1013:
 On1018:
 	set @mobID, 1018;
 	callfunc "MobPoints";
+	callfunc "mobContagem", QUEST_trasgo==8, 35, MOBS_trasgo, @FLAG_trasgo;
+	if(QUEST_trasgo==8) set MOBS_trasgo, @mobs;
+	if(QUEST_trasgo==8) set @FLAG_trasgo, @flag;
 	break;
 
 On1019:
