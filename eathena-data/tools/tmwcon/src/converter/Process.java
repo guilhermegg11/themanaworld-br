@@ -171,14 +171,33 @@ public class Process {
         warpOut.flush();
         warpOut.close();
 
-        System.out.println("Starting mob points");
-        mobOut.printf("\n\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n", name);
-        for (int mob : mobs) {
-            if (mob == -1) continue;
-            mobOut.printf("On%d:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n\tbreak;\n\n", mob, mob);
-        }
-        mobOut.printf("\tend;\n}\n");
-        System.out.println("Finished mob points");
+		List<Integer> mobsContagem = new ArrayList<Integer>();
+
+		System.out.println("Starting mob points");
+		mobOut.printf("\n\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n", name);
+		for (int mob : mobs) {
+			if (mob == -1) continue;
+			mobOut.printf("On%d:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob, mob);
+			//if( mobsContagem.contains(mob) ){
+			if(mob==1018){
+				mobOut.printf("\tcallsub _MOBS_trasgo;\n");
+				mobsContagem.add(1018);
+			}
+			mobOut.printf("\tbreak;\n\n");
+		}
+		Iterator<Integer> it = mobsContagem.iterator();
+		while(it.hasNext()){
+			if(it.next()==1018){
+				mobOut.printf("_MOBS_trasgo:\n"+
+					"\tif(QUEST_trasgo!=8) return;\n"+
+					"\tcallfunc \"mobContagem\", 35, MOBS_trasgo, @FLAG_trasgo;\n"+
+					"\tset MOBS_trasgo, @mobs;\n"+
+					"\tset @FLAG_trasgo, @flag;\n"+
+					"\treturn;\n\n");
+			}
+		}
+		mobOut.printf("}\n");
+		System.out.println("Finished mob points");
 
         mobOut.flush();
         mobOut.close();
