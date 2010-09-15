@@ -1,0 +1,32 @@
+.:: Dependências ::.
+
+	* ant (versão mais recente)
+	* J2SE 5 (Java e seu compilador javac)
+	* tiled-core.jar (já incluído)
+	* tmw.jar (já incluído)
+
+.:: Compilação ::.
+
+	* Para compilar este projeto use o programa ant.
+	ant
+
+.:: Modo de Usar ::.
+
+	* Crie um diretório chamado tmwdata com seu respectivos dados
+	( pode ser um link simbólico: ln -s ../../../tmwdata )
+
+	* A saída será gerada no diretório chamado server-data
+	( pode ser feito um link, mas não é recomendado. )
+
+	* Execute a classe java:
+		java Converter
+	* Execute o pacote jar:
+		java -jar converter.jar
+
+.:: Para Desenvolvedores ::.
+
+	Para Utilizar este projeto no Eclipse basta utilizar a opção [File > New > Project...]
+	e na janela Wizard escolher [Java Project from Existing Ant Buildfile]
+	E então selecionar o arquivo [build.xml] e então criar o Projeto.
+
+	Para compilar use o ./ant

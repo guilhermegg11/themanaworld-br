@@ -1,30 +1,29 @@
 <project name="TMWServ to eAthena Converter" default="dist">
-  <description>
-    A tool to convert map data from TMWServ format to eAthena format
-  </description>
-  <!-- set global properties for this build -->
 
-  <target name="init">
-    <!-- Create the time stamp -->
-    <tstamp/>
-    <!-- Create the build directory structure used by compile -->
-    <mkdir dir="build"/>
-  </target>
+	<description>A tool to convert map data from TMWServ format to eAthena format</description>
 
-  <target name="compile" depends="init" description="Compile the source">
-    <javac srcdir="src" destdir="build" deprecation="on" classpath="tmw.jar;tiled-core.jar;"/>
-    <copy file="build/Converter.class" todir="."/>
-  </target>
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="build"/>
+	</target>
 
-  <target name="dist" depends="compile" description="Generate the distribution">
-    <jar
-      jarfile="converter.jar"
-      manifest="MANIFEST.MF"
-      basedir="build"
-      />
-  </target>
+	<target name="compile" depends="init" description="Compile the source">
+		<javac srcdir="src" destdir="build" deprecation="on" classpath="tmw.jar;tiled-core.jar;"/>
+		<copy file="build/Converter.class" todir="."/>
+	</target>
 
-  <target name="clean" description="Clean up the build directory" >
-    <delete dir="build"/>
-  </target>
+	<target name="dist" depends="compile" description="Generate the distribution">
+		<jar jarfile="converter.jar" basedir="build">
+			<manifest>
+				<attribute name="Main-Class" value="Converter" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="clean" description="Clean up the build directory" >
+		<delete dir="build"/>
+	</target>
+
 </project>
