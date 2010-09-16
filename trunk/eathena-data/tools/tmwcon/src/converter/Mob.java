@@ -1,51 +1,40 @@
 package converter;
 
-//import java.util.ArrayList;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Mob implements Comparable<Mob>{
 
-	private int mob = -1;
-	private String script;
-	private List<MobContagem> lMobContagem = new ArrayList<MobContagem>();
+	private int id = -1;
+	private List<String> scripts = new ArrayList<String>();
+	private List<MobContagem> mobContagems = new ArrayList<MobContagem>();
 
 	public Mob() {}
 
 	public Mob(int mob) {
-		this.mob = mob;
+		this.id = mob;
 	}
 
 	public int compareTo(Mob mob) {
-		if( getMob()<mob.getMob() ) return -1;  
-		else if( getMob()>mob.getMob() ) return +1;  
+		if( getId()<mob.getId() ) return -1;  
+		else if( getId()>mob.getId() ) return +1;  
 		else return 0;
 	}
 
-	//static public void carregarlMobComtagem(TreeSet<Integer> mobs){}
-
-	public int getMob() {
-		return mob;
+	public int getId() {
+		return id;
 	}
 
-	public void setMob(int mob) {
-		this.mob = mob;
+	public void setId(int mob) {
+		this.id = mob;
 	}
 
-	public String getScript() {
-		return script;
+	public List<String> getScripts() {
+		return scripts;
 	}
 
-	public void setScript(String script) {
-		this.script = script;
-	}
-
-	public List<MobContagem> getlMobContagem() {
-		return lMobContagem;
-	}
-
-	public void setlMobContagem(List<MobContagem> lMobComtagem) {
-		this.lMobContagem = lMobComtagem;
+	public List<MobContagem> getMobContagems() {
+		return mobContagems;
 	}
 
 }

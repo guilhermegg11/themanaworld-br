@@ -1,4 +1,4 @@
-<project name="TMWServ to eAthena Converter" default="dist">
+<project name="tmwcon" default="dist">
 
 	<description>A tool to convert map data from TMWServ format to eAthena format</description>
 
