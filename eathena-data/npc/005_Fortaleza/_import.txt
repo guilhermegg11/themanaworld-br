@@ -4,7 +4,7 @@ npc: npc/005_Fortaleza/_warps.txt
 npc: npc/005_Fortaleza/_shops.txt
 
 npc: npc/005_Fortaleza/warps_pensao.conf
-npc: npc/005_Fortaleza/wendy.conf
+//npc: npc/005_Fortaleza/wendy.conf
 npc: npc/005_Fortaleza/placas.conf
 npc: npc/005_Fortaleza/ismael.conf
 npc: npc/005_Fortaleza/valdete.conf
