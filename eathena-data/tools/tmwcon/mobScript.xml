@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
 
-	<jazida id="" nome=""></jazida>
-
 	<monstro id="1018" nome="Trasgo Rosa">
 		<contagem
 			callsub="_MOBS_trasgo"
@@ -14,7 +12,20 @@
 			return="QUEST_trasgo!=0"
 			max="15" var_mobs="MOBS_trasgo" var_flag="@MOBS_trasgo"
 		/>
-		</contagem>
+		<script>
+	// Posso escrever um script aki.
+	// Ele será colocado em todas as ocorrências do id deste monstro.
+		</script>
+	</monstro>
+
+	<monstro id="1019" nome="Trasgo Rosa">
+		<!-- _MOBS_trasgo2 jà foi definido acima -->
+		<contagem callsub="_MOBS_trasgo2"/>
+		<contagem
+			callsub="_MOBS_trasgo3"
+			return="QUEST_trasgo!=3"
+			max="15" var_mobs="MOBS_trasgo" var_flag="@MOBS_trasgo"
+		/>
 	</monstro>
 
 </xml>

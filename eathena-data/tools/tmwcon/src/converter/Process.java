@@ -7,12 +7,13 @@ package converter;
 
 import java.awt.*;
 import java.io.*;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Properties;
-import java.util.TreeSet;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
+import java.util.TreeSet;
 
 import tiled.core.*;
 //import tiled.plugins.tmw.*;
@@ -102,7 +103,8 @@ public class Process {
 
 		Mob retMob = new Mob(mob);
 		String script = getProp(props, "script", null);
-		retMob.setScript(script);
+		if(script!=null)
+			retMob.getScripts().add(script);
 		return retMob;
 	}
 
@@ -139,7 +141,7 @@ public class Process {
         }
     }
 
-    public static String processMap(String name, Map map, PrintWriter summary) {
+    static public String processMap(String name, Map map, PrintWriter summary, HashMap<Integer, Mob> hash) {
         if (name == null) return null;
         if (map == null) return null;
 
@@ -181,46 +183,36 @@ public class Process {
         warpOut.flush();
         warpOut.close();
 
-        MobContagem cont = null;
+        TreeSet<MobContagem> lCont = new TreeSet<MobContagem>();
 
 		System.out.println("Starting mob points");
-		mobOut.printf("\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n", name);
+		mobOut.printf("\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n\n", name);
 		for( Mob mob : mobs ) {
-			if( mob.getMob()==-1) continue;
-			mobOut.printf("On%d:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob.getMob(), mob.getMob());
-			if(mob.getMob()==1018){
-				mobOut.printf("\tcallsub _MOBS_trasgo;\n");
-				mobOut.printf("\tcallsub _MOBS_trasgo2;\n");
-
-				cont = new MobContagem();
-				cont.callsub = "_MOBS_trasgo";
-				cont._return = "QUEST_trasgo!=8";
-				cont.max = 35;
-				cont.varMobs = "MOBS_trasgo";
-				cont.varFlag = "@MOBS_trasgo";
-				mob.getlMobContagem().add(cont);
-				cont = new MobContagem();
-				cont.callsub = "_MOBS_trasgo2";
-				cont._return = "QUEST_trasgo!=0";
-				cont.max = 15;
-				cont.varMobs = "MOBS_trasgo";
-				cont.varFlag = "@MOBS_trasgo";
-				mob.getlMobContagem().add(cont);
+			if( mob.getId()==-1) continue;
+			mobOut.printf("On%d:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob.getId(), mob.getId());
+			Mob mob2 = hash.get(mob.getId());
+			if(mob2!=null) {
+				for( MobContagem mob3 : mob2.getMobContagems() ) {
+					mobOut.printf("\tcallsub %s;\n", mob3.getCallsub());
+					if(lCont.contains(mob3)==false)
+						lCont.add(mob3);
+				}
+				for( String script : mob2.getScripts() ) {
+					mobOut.printf("\t%s\n", script);
+				}
 			}
-			if( mob.getScript()!=null ){
-				mobOut.printf("\t%s\n", mob.getScript());
+			for( String script : mob.getScripts() ) {
+				mobOut.printf("\t%s\n", script);
 			}
 			mobOut.printf("\tbreak;\n\n");
 		}
-		for( Mob mob : mobs ) {
-			for( MobContagem cont2 : mob.getlMobContagem() ) {
-				mobOut.printf("%s:\n", cont2.callsub);
-				mobOut.printf("\tif(%s) return;\n", cont2._return);
-				mobOut.printf("\tcallfunc \"mobContagem\", %d, %s, %s;\n", cont2.max, cont2.varMobs, cont2.varFlag);
-				mobOut.printf("\tset %s, @mobs;\n", cont2.varMobs);
-				mobOut.printf("\tset %s, @flag;\n", cont2.varFlag);
-				mobOut.printf("\treturn;\n\n");
-			}
+		for( MobContagem cont : lCont ) {
+			mobOut.printf("%s:\n", cont.getCallsub());
+			mobOut.printf("\tif(%s) return;\n", cont.getReturn());
+			mobOut.printf("\tcallfunc \"mobContagem\", %d, %s, %s;\n", cont.getMax(), cont.getVarMobs(), cont.getVarFlag());
+			mobOut.printf("\tset %s, @mobs;\n", cont.getVarMobs());
+			mobOut.printf("\tset %s, @flag;\n", cont.getVarFlag());
+			mobOut.printf("\treturn;\n\n");
 		}
 		mobOut.printf("}\n");
 		System.out.println("Finished mob points");
@@ -261,4 +253,5 @@ public class Process {
         out.flush();
         out.close();
     }
+
 }
