@@ -97,7 +97,7 @@
    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
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="paraPraia" type="warp" x="2464" y="3808" width="160" height="32">
    <properties>
     <property name="dest_map" value="007"/>
@@ -223,15 +223,15 @@
   <object name="paraCasaJoana1" type="warp" x="1504" y="3488" width="32" height="32">
    <properties>
     <property name="dest_map" value="004"/>
-    <property name="dest_x" value="1440"/>
-    <property name="dest_y" value="3360"/>
+    <property name="dest_x32" value="45"/>
+    <property name="dest_y32" value="105"/>
    </properties>
   </object>
   <object name="paraCasaJoana2" type="warp" x="1440" y="3360" width="32" height="32">
    <properties>
     <property name="dest_map" value="004"/>
-    <property name="dest_x" value="1504"/>
-    <property name="dest_y" value="3488"/>
+    <property name="dest_x32" value="47"/>
+    <property name="dest_y32" value="109"/>
    </properties>
   </object>
   <object name="Trasgo Rosa (10)" type="spawn" x="2944" y="1696" width="1120" height="2176">
@@ -240,18 +240,20 @@
     <property name="monster_id" value="16"/>
    </properties>
   </object>
-  <object name="Trasgo Roxo (6) [5min]" type="-spawn" x="2912" y="1728" width="1408" height="736">
+  <object name="Trasgo Roxo (6) [5min]" type="spawn" x="2912" y="1728" width="1408" height="736">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="max_beings" value="6"/>
     <property name="monster_id" value="310"/>
+    <property name="script" value="callfunc &quot;mateTodos&quot;;"/>
    </properties>
   </object>
-  <object name="Trasgo Roxo (4) [5min]" type="-spawn" x="3552" y="3200" width="480" height="704">
+  <object name="Trasgo Roxo (4) [5min]" type="spawn" x="3552" y="3200" width="480" height="704">
    <properties>
     <property name="eA_death" value="300000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="310"/>
+    <property name="script" value="callfunc &quot;mateTodos&quot;;"/>
    </properties>
   </object>
   <object name="Limo do Mar (16)" type="spawn" x="672" y="576" width="1856" height="2528">

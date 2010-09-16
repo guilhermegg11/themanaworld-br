@@ -29,7 +29,7 @@
   <image source="../graphics/tiles/cabana_in_x3.png"/>
  </tileset>
  <tileset firstgid="947" name="Numeros" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/numeros.png" trans="#000000"/>
+  <image source="../graphics/tiles/numeros.png"/>
  </tileset>
  <layer name="Ground" width="200" height="172">
   <data encoding="base64" compression="gzip">
