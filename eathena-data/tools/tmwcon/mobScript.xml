@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<jazida id="" nome=""></jazida>
+
+	<monstro id="1018" nome="Trasgo Rosa">
+		<contagem
+			callsub="_MOBS_trasgo"
+			return="QUEST_trasgo!=8"
+			max="35" var_mobs="MOBS_trasgo" var_flag="@MOBS_trasgo"
+		/>
+		<contagem
+			callsub="_MOBS_trasgo2"
+			return="QUEST_trasgo!=0"
+			max="15" var_mobs="MOBS_trasgo" var_flag="@MOBS_trasgo"
+		/>
+		</contagem>
+	</monstro>
+
+</xml>

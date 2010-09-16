@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Collections;
 
 import tiled.core.*;
-import tiled.plugins.tmw.*;
+//import tiled.plugins.tmw.*;
 
 public class Process {
     private static final String baseFolder = "server-data/";
@@ -69,34 +69,44 @@ public class Process {
         return new int[]{x, y, width, height};
     }
 
-    private static void handleWarp(PrintWriter out, String map, String name, Rectangle bounds, Properties props) {
-        if (out == null) return;
-        String dest = getProp(props, "dest_map", null);
-        if (dest == null) return;
-        int x = getProp(props, "dest_x", -1);
-        if (x < 0) return;
-        int y = getProp(props, "dest_y", -1);
-        if (y < 0) return;
-        int[] shape = resolveBounds(bounds, true);
-        System.out.printf("Usable warp found: %s\n", name);
-        out.printf("%s.gat,%d,%d\twarp\t%s\t%d,%d,%s.gat,%d,%d\n", map, shape[0], shape[1], name, shape[2], shape[3], dest, x / 32, y / 32);
-    }
+	private static void handleWarp(PrintWriter out, String map, String name, Rectangle bounds, Properties props) {
+		if (out == null) return;
+		String dest = getProp(props, "dest_map", null);
+		if (dest == null) return;
+		int x = getProp(props, "dest_x", -1);
+		int x32 = getProp(props, "dest_x32", -1);
+		if( x>=0 ) x /= 32;
+		else if( x32>=0 ) x = x32;
+		else return;
+		int y = getProp(props, "dest_y", -1);
+		int y32 = getProp(props, "dest_y32", -1);
+		if( y>=0 ) y /= 32;
+		else if( y32>=0 ) y = y32;
+		else return;
+		int[] shape = resolveBounds(bounds, true);
+		System.out.printf("Usable warp found: %s\n", name);
+		out.printf("%s.gat,%d,%d\twarp\t%s\t%d,%d,%s.gat,%d,%d\n", map, shape[0], shape[1], name, shape[2], shape[3], dest, x, y);
+	}
 
-    private static int handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props) {
-        if (out == null) return -1;
-        int mob = getProp(props, "monster_id", -1);
-        if (mob < 0) return -1;
-        mob += 1002;
-        int max = getProp(props, "max_beings", 1);
-        int time1 = getProp(props, "eA_spawn", 0);
-        int time2 = getProp(props, "eA_death", 0);
-        int[] shape = resolveBounds(bounds, false);
-        System.out.printf("Usable mob found: %s (%d)\n", name, mob);
-        out.printf("%s.gat,%d,%d,%d,%d\tmonster\t%s\t%d,%d,%d,%d,Mob%s::On%d\n", map, shape[0], shape[1], shape[2], shape[3], name, mob, max, time1, time2, map, mob);
-        return mob;
-    }
+	private static Mob handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props) {
+		if (out == null) return new Mob(-1);
+		int mob = getProp(props, "monster_id", -1);
+		if (mob < 0) return new Mob(-1);
+		mob += 1002;
+		int max = getProp(props, "max_beings", 1);
+		int time1 = getProp(props, "eA_spawn", 0);
+		int time2 = getProp(props, "eA_death", 0);
+		int[] shape = resolveBounds(bounds, false);
+		System.out.printf("Usable mob found: %s (%d)\n", name, mob);
+		out.printf("%s.gat,%d,%d,%d,%d\tmonster\t%s\t%d,%d,%d,%d,Mob%s::On%d\n", map, shape[0], shape[1], shape[2], shape[3], name, mob, max, time1, time2, map, mob);
 
-    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Integer> mobs) {
+		Mob retMob = new Mob(mob);
+		String script = getProp(props, "script", null);
+		retMob.setScript(script);
+		return retMob;
+	}
+
+    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs) {
         if (mo == null) return;
         String name = mo.getName();
         String type = mo.getType();
@@ -110,7 +120,7 @@ public class Process {
         }
     }
 
-    private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Integer> mobs) {
+    private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs) {
         MapObject mo;
         while (objs.hasNext()) {
             mo = objs.next();
@@ -160,7 +170,7 @@ public class Process {
         warpOut.printf("// %s warps\n\n", title);
         mobOut.printf("// %s mobs\n\n", title);
 
-        TreeSet<Integer> mobs = new TreeSet<Integer>();
+        TreeSet<Mob> mobs = new TreeSet<Mob>();
         processObjects(map.getObjects(), name, warpOut, mobOut, mobs);
         for (MapLayer layer : map) {
             if (layer instanceof ObjectGroup) {
@@ -171,29 +181,45 @@ public class Process {
         warpOut.flush();
         warpOut.close();
 
-		List<Integer> mobsContagem = new ArrayList<Integer>();
+        MobContagem cont = null;
 
 		System.out.println("Starting mob points");
-		mobOut.printf("\n\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n", name);
-		for (int mob : mobs) {
-			if (mob == -1) continue;
-			mobOut.printf("On%d:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob, mob);
-			//if( mobsContagem.contains(mob) ){
-			if(mob==1018){
+		mobOut.printf("\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n", name);
+		for( Mob mob : mobs ) {
+			if( mob.getMob()==-1) continue;
+			mobOut.printf("On%d:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob.getMob(), mob.getMob());
+			if(mob.getMob()==1018){
 				mobOut.printf("\tcallsub _MOBS_trasgo;\n");
-				mobsContagem.add(1018);
+				mobOut.printf("\tcallsub _MOBS_trasgo2;\n");
+
+				cont = new MobContagem();
+				cont.callsub = "_MOBS_trasgo";
+				cont._return = "QUEST_trasgo!=8";
+				cont.max = 35;
+				cont.varMobs = "MOBS_trasgo";
+				cont.varFlag = "@MOBS_trasgo";
+				mob.getlMobContagem().add(cont);
+				cont = new MobContagem();
+				cont.callsub = "_MOBS_trasgo2";
+				cont._return = "QUEST_trasgo!=0";
+				cont.max = 15;
+				cont.varMobs = "MOBS_trasgo";
+				cont.varFlag = "@MOBS_trasgo";
+				mob.getlMobContagem().add(cont);
+			}
+			if( mob.getScript()!=null ){
+				mobOut.printf("\t%s\n", mob.getScript());
 			}
 			mobOut.printf("\tbreak;\n\n");
 		}
-		Iterator<Integer> it = mobsContagem.iterator();
-		while(it.hasNext()){
-			if(it.next()==1018){
-				mobOut.printf("_MOBS_trasgo:\n"+
-					"\tif(QUEST_trasgo!=8) return;\n"+
-					"\tcallfunc \"mobContagem\", 35, MOBS_trasgo, @FLAG_trasgo;\n"+
-					"\tset MOBS_trasgo, @mobs;\n"+
-					"\tset @FLAG_trasgo, @flag;\n"+
-					"\treturn;\n\n");
+		for( Mob mob : mobs ) {
+			for( MobContagem cont2 : mob.getlMobContagem() ) {
+				mobOut.printf("%s:\n", cont2.callsub);
+				mobOut.printf("\tif(%s) return;\n", cont2._return);
+				mobOut.printf("\tcallfunc \"mobContagem\", %d, %s, %s;\n", cont2.max, cont2.varMobs, cont2.varFlag);
+				mobOut.printf("\tset %s, @mobs;\n", cont2.varMobs);
+				mobOut.printf("\tset %s, @flag;\n", cont2.varFlag);
+				mobOut.printf("\treturn;\n\n");
 			}
 		}
 		mobOut.printf("}\n");

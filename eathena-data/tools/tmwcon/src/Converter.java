@@ -10,7 +10,7 @@ import java.util.*;
 
 public abstract class Converter {
     static String[] tiledJars = {"tiled-core.jar", "tiled.jar"};
-    static String[] wlkJars = {"plugins/tmw.jar", "tmw.jar"};
+    static String[] wlkJars = {"tmw.jar", "tmw.jar"};
 
     public static void main(String[] args) throws Exception {
         List<URL> urls = new ArrayList<URL>();
