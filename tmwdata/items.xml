@@ -113,6 +113,11 @@
 	<item id="37" type="weaponsprite" weapon_type="15">
 		<sprite>weapon-shield-tupiguarani.xml</sprite>
 	</item>
+	<item id="38" type="weaponsprite" weapon_type="16">
+		<sprite>weapon-picareta-arqueologo.xml</sprite>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="miss">short-sword-miss1.ogg</sound>
+	</item>
 
 	<item id="501"
 		image="use-potion-a.png|G:#22ff22"
@@ -5186,9 +5191,9 @@
 		name="Escudo Tupiguaraní"
 		description="Escudo usado pelo indígenas Tupiguaranis"
 		effect="50 Defesa"
-		type="equip-shield"
 		weapon_type="12"
 		weapon-type="staff"
+		type="equip-shield"
 		weight="300"
 		max-per-slot="1">
 		<sprite>weapon-shield-tupiguarani.xml</sprite>
@@ -5202,4 +5207,32 @@
 		weight="200"
 		max-per-slot="1"
 		strength="3"/>
+	<item id="3111"
+		image="weapon-pick-arqueologo.png"
+		name="Picareta"
+		description="Picareta comum para uso geral em escavações"
+		effect="Dano+60, Alcance 1 "
+		weapon_type="12"
+		weapon-type="staff"
+		type="equip-2hand"
+		weight="2000"
+		attack-min="0"
+		attack-delta="75"
+		max-per-slot="1">
+		<sprite>weapon-picareta-arqueologo.xml</sprite>
+	</item>
+	<item id="3112"
+		image="weapon-pick-arqueologo.png"
+		name="Picareta Profissional"
+		description="Picareta profissional usa por Arqueologista em escavações"
+		effect="Dano+80, Alcance 1 "
+		weapon_type="12"
+		weapon-type="staff"
+		type="equip-2hand"
+		weight="2000"
+		attack-min="0"
+		attack-delta="75"
+		max-per-slot="1">
+		<sprite>weapon-picareta-arqueologo.xml</sprite>
+	</item>
 </items>
