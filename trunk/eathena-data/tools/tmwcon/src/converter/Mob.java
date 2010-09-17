@@ -6,8 +6,7 @@ import java.util.List;
 public class Mob implements Comparable<Mob>{
 
 	private int id = -1;
-	private List<String> scripts = new ArrayList<String>();
-	private List<MobContagem> mobContagems = new ArrayList<MobContagem>();
+	private List<Object> scripts = new ArrayList<Object>();
 
 	public Mob() {}
 
@@ -29,12 +28,26 @@ public class Mob implements Comparable<Mob>{
 		this.id = mob;
 	}
 
-	public List<String> getScripts() {
+	public List<Object> getScripts() {
 		return scripts;
 	}
 
-	public List<MobContagem> getMobContagems() {
-		return mobContagems;
+	static public MobContagem paraMobContagem(Object obj){
+		if(obj instanceof MobContagem)
+			return (MobContagem) obj;
+		return null;
+	}
+
+	static public String paraString(Object obj){
+		if(obj instanceof String)
+			return (String) obj;
+		return null;
+	}
+
+	static public MobCallsub paraMobCallsub(Object obj){
+		if(obj instanceof MobCallsub)
+			return (MobCallsub) obj;
+		return null;
 	}
 
 }
