@@ -1,31 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
 
+	<script id="callfunc_mobContagem">
+	if(%return%) return;
+	callfunc "mobContagem", %max%, %mobs%, %flag%;
+	set %mobs%, @mobs;
+	set %flag%, @flag;
+	</script>
+
+	<script id="script">// Um script setado com um id... %valor%...</script>
+
+	<script></script>
+
 	<monstro id="1018" nome="Trasgo Rosa">
+		<script>//- maneira antiga:</script>
 		<contagem
-			callsub="_MOBS_trasgo"
+			callsub="_MOBS_trasgo_antigo"
 			return="QUEST_trasgo!=8"
 			max="35" var_mobs="MOBS_trasgo" var_flag="@MOBS_trasgo"
 		/>
-		<contagem
-			callsub="_MOBS_trasgo2"
-			return="QUEST_trasgo!=0"
-			max="15" var_mobs="MOBS_trasgo" var_flag="@MOBS_trasgo"
-		/>
-		<script>
-	// Posso escrever um script aki.
-	// Ele será colocado em todas as ocorrências do id deste monstro.
-		</script>
+		<script>//- maneira nova:</script>
+		<callsub label="_MOBS_trasgo">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="QUEST_trasgo!=8"/>
+				<var id="%max%" valor="35"/>
+				<var id="%mobs%" valor="MOBS_trasgo"/>
+				<var id="%flag%" valor="@MOBS_trasgo"/>
+			</gerar_label>
+		</callsub>
 	</monstro>
 
-	<monstro id="1019" nome="Trasgo Rosa">
-		<!-- _MOBS_trasgo2 jà foi definido acima -->
-		<contagem callsub="_MOBS_trasgo2"/>
-		<contagem
-			callsub="_MOBS_trasgo3"
-			return="QUEST_trasgo!=3"
-			max="15" var_mobs="MOBS_trasgo" var_flag="@MOBS_trasgo"
-		/>
+	<monstro id="1019" nome="?">
+		<script>//- O mesmo label pode ser chamado por outro.</script>
+		<script>//- Exemplo de uso: Pontos de monstro apenas para: 'Jack O', Morte e 'Dragão Verde'</script>
+		<callsub label="_MOBS_trasgo" args="1, 2, 3"/>
+		<script>//- Outra sugestão é chamar uma função:</script>
+		<script>//- callfunc "mobPointsEspecial", 1, 2, 3;</script>
+		<gerar_script script="script">
+			<var id="%valor%" valor="(posso trocar %valor% por qualquer coisa)... %de novo%"/>
+			<var id="%de novo%" valor="(posso vazer isso várias vezes)"/>
+		</gerar_script>
+	</monstro>
+
+	<!-- ==================== Scripts das Jazidas ==================== -->
+
+	<script id="callfunc_minerarJadiza">
+	// Script da jazida %jazida%.
+	</script>
+
+	<monstro id="1325" nome="Jazida de Cobre">
+		<span mapa="todos" tempo_spawn="0" tempo_morte="120"/>
+		<callsub label="_jazidaCobre">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="1"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1326" nome="Jazida de Chumbo">
+		<span mapa="todos" tempo_spawn="0" tempo_morte="120"/>
+		<callsub label="_jazidaChumbo">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="2"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1327" nome="Jazida de Estanho">
+		<span mapa="todos" tempo_spawn="0" tempo_morte="180"/>
+		<callsub label="_jazidaEstanho">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="3"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1328" nome="Jazida de Prata">
+		<span mapa="todos" tempo_spawn="0" tempo_morte="180"/>
+		<callsub label="_jazidaPrata">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="4"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1329" nome="Jazida de Ouro">
+		<span mapa="todos" tempo_spawn="0" tempo_morte="180"/>
+		<callsub label="_jazidaOuro">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="5"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1330" nome="Jazida de Platina">
+		<callsub label="_jazidaPlatina">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="6"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1331" nome="Jazida de Iridio">
+		<callsub label="_jazidaIridio">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="7"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1332" nome="Jazida de Titanio">
+		<callsub label="_jazidaTitanio">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="8"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1333" nome="Jazida de Diamante">
+		<callsub label="_jazidaDiamante">
+			<gerar_label script="callfunc_minerarJadiza">
+				<var id="%jazida%" valor="9"/>
+			</gerar_label>
+		</callsub>
 	</monstro>
 
 </xml>

@@ -86,7 +86,7 @@ public class Main {
         folder = new File("tmwdata/maps/");
 
         MobScript mobScript = new MobScript();
-    	mobScript.carregarXML("mobScript.xml");
+		mobScript.carregarXML("mobScript.xml");
 
         Collection<File> tmxs = getTMXFiles(folder);
         Vector<String> folders = new Vector<String>();
@@ -95,7 +95,7 @@ public class Main {
             name = getName(folder, f);
             System.out.printf("== %s ==\n", name);
             if (summary != null) summary.printf("== %s ==\n", name);
-            folders.add(Process.processMap(name, loadMap(f), summary, mobScript.getMobs()));
+            folders.add(Process.processMap(name, loadMap(f), summary, mobScript));
         }
 
         if (summary != null) {

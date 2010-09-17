@@ -141,7 +141,7 @@ public class Process {
         }
     }
 
-    static public String processMap(String name, Map map, PrintWriter summary, HashMap<Integer, Mob> hash) {
+    static public String processMap(String name, Map map, PrintWriter summary, MobScript mobScript) {
         if (name == null) return null;
         if (map == null) return null;
 
@@ -183,7 +183,11 @@ public class Process {
         warpOut.flush();
         warpOut.close();
 
-        TreeSet<MobContagem> lCont = new TreeSet<MobContagem>();
+        HashMap<Integer, Mob> hash = mobScript.getMobs();
+        TreeSet<Object> lCont = new TreeSet<Object>();
+		MobContagem cont;
+		MobCallsub sub;
+		String script;
 
 		System.out.println("Starting mob points");
 		mobOut.printf("\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n\n", name);
@@ -192,27 +196,43 @@ public class Process {
 			mobOut.printf("On%d:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob.getId(), mob.getId());
 			Mob mob2 = hash.get(mob.getId());
 			if(mob2!=null) {
-				for( MobContagem mob3 : mob2.getMobContagems() ) {
-					mobOut.printf("\tcallsub %s;\n", mob3.getCallsub());
-					if(lCont.contains(mob3)==false)
-						lCont.add(mob3);
+				for( Object obj : mob2.getScripts() ) {
+					if( (script=Mob.paraString(obj))!=null ){
+						mobOut.printf("\t%s\n", script);
+					} else if( (sub=Mob.paraMobCallsub(obj))!=null ){
+						if( sub.getArgs()!=null && !sub.getArgs().equals("") )
+							mobOut.printf("\tcallsub %s, %s;\n", sub.getCallsub(), sub.getArgs());
+						else
+							mobOut.printf("\tcallsub %s;\n", sub.getCallsub());
+						if(lCont.contains(sub)==false)
+							lCont.add(sub);
+					} else if( (cont=Mob.paraMobContagem(obj))!=null ){
+						mobOut.printf("\tcallsub %s;\n", cont.getCallsub());
+						if(lCont.contains(cont)==false)
+							lCont.add(cont);
+					}
 				}
-				for( String script : mob2.getScripts() ) {
+			}
+			for( Object obj : mob.getScripts() ) {
+				if( (script=Mob.paraString(obj))!=null ){
 					mobOut.printf("\t%s\n", script);
 				}
 			}
-			for( String script : mob.getScripts() ) {
-				mobOut.printf("\t%s\n", script);
-			}
 			mobOut.printf("\tbreak;\n\n");
 		}
-		for( MobContagem cont : lCont ) {
-			mobOut.printf("%s:\n", cont.getCallsub());
-			mobOut.printf("\tif(%s) return;\n", cont.getReturn());
-			mobOut.printf("\tcallfunc \"mobContagem\", %d, %s, %s;\n", cont.getMax(), cont.getVarMobs(), cont.getVarFlag());
-			mobOut.printf("\tset %s, @mobs;\n", cont.getVarMobs());
-			mobOut.printf("\tset %s, @flag;\n", cont.getVarFlag());
-			mobOut.printf("\treturn;\n\n");
+		for( Object obj : lCont ) {
+			if( (sub=Mob.paraMobCallsub(obj))!=null ){
+				script = mobScript.getCallsubs().get(sub.getCallsub());
+				if(script!=null)
+					mobOut.printf("%s\n\n", script);
+			} else if( (cont=Mob.paraMobContagem(obj))!=null ){
+				mobOut.printf("%s:\n", cont.getCallsub());
+				mobOut.printf("\tif(%s) return;\n", cont.getReturn());
+				mobOut.printf("\tcallfunc \"mobContagem\", %d, %s, %s;\n", cont.getMax(), cont.getVarMobs(), cont.getVarFlag());
+				mobOut.printf("\tset %s, @mobs;\n", cont.getVarMobs());
+				mobOut.printf("\tset %s, @flag;\n", cont.getVarFlag());
+				mobOut.printf("\treturn;\n\n");
+			}
 		}
 		mobOut.printf("}\n");
 		System.out.println("Finished mob points");
@@ -227,7 +247,7 @@ public class Process {
         importOut.printf("map: %s.gat\n", name);
         Collections.sort(output_elements);
         for (String s : output_elements)
-                importOut.println(s);
+        	importOut.println(s);
         importOut.flush();
         importOut.close();
 

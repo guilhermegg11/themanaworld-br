@@ -1,6 +1,6 @@
 package converter;
 
-public class MobContagem implements Comparable<MobContagem> {
+public class MobContagem implements Comparable<Object> {
 
 	private int idMob;
 	private String callsub;
@@ -11,8 +11,12 @@ public class MobContagem implements Comparable<MobContagem> {
 	
 	public MobContagem() {}
 
-	public int compareTo(MobContagem cont) {
-		return getCallsub().compareTo(cont.getCallsub());
+	public int compareTo(Object obj) {
+		if( obj instanceof MobContagem )
+			return getCallsub().compareTo( ((MobContagem)obj).getCallsub() );
+		else if( obj instanceof MobCallsub )
+			return getCallsub().compareTo( ((MobCallsub)obj).getCallsub() );
+		return 0;
 	}
 
 	public String getCallsub() {
