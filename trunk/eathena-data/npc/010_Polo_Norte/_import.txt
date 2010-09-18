@@ -12,3 +12,4 @@ npc: npc/010_Polo_Norte/guardadonavio.conf
 
 npc: npc/010_Polo_Norte/_mobs.txt
 npc: npc/010_Polo_Norte/_warps.txt
+npc: npc/010_Polo_Norte/_functions.txt

@@ -14,37 +14,3 @@
 010.gat,29,72,21,69	monster	Limo Noel (3)	1015,3,0,0,Mob010::On1015
 010.gat,78,105,62,31	monster	Limo Noel (3)	1015,3,0,0,Mob010::On1015
 
-
-010.gat,0,0,0	script	Mob010	-1,{
-On1015:
-	set @mobID, 1015;
-	callfunc "MobPoints";
-	break;
-
-On1016:
-	set @mobID, 1016;
-	callfunc "MobPoints";
-	break;
-
-On1028:
-	set @mobID, 1028;
-	callfunc "MobPoints";
-	break;
-
-On1317:
-	set @mobID, 1317;
-	callfunc "MobPoints";
-	break;
-
-On1318:
-	set @mobID, 1318;
-	callfunc "MobPoints";
-	break;
-
-On1319:
-	set @mobID, 1319;
-	callfunc "MobPoints";
-	break;
-
-	end;
-}
