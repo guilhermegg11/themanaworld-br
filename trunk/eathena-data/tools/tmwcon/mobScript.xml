@@ -45,82 +45,85 @@
 	<!-- ==================== Scripts das Jazidas ==================== -->
 
 	<script id="callfunc_minerarJadiza">
-	// Script da jazida %jazida%.
+	message strcharinfo(0), "Você minerou uma jazida de %jazida%";
 	</script>
 
 	<monstro id="1325" nome="Jazida de Cobre">
-		<span mapa="todos" tempo_spawn="0" tempo_morte="120"/>
-		<callsub label="_jazidaCobre">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="120"/>
+		<callsub label="_jazida1_Cobre">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="1"/>
+				<var id="%jazida%" valor="Cobre"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
-
 	<monstro id="1326" nome="Jazida de Chumbo">
-		<span mapa="todos" tempo_spawn="0" tempo_morte="120"/>
-		<callsub label="_jazidaChumbo">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="120"/>
+		<callsub label="_jazida2_Chumbo">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="2"/>
+				<var id="%jazida%" valor="Chumbo"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
 
 	<monstro id="1327" nome="Jazida de Estanho">
-		<span mapa="todos" tempo_spawn="0" tempo_morte="180"/>
-		<callsub label="_jazidaEstanho">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="180"/>
+		<callsub label="_jazida3_Estanho">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="3"/>
+				<var id="%jazida%" valor="Estanho"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
 
 	<monstro id="1328" nome="Jazida de Prata">
-		<span mapa="todos" tempo_spawn="0" tempo_morte="180"/>
-		<callsub label="_jazidaPrata">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="180"/>
+		<callsub label="_jazida4_Prata">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="4"/>
+				<var id="%jazida%" valor="Prata"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
 
 	<monstro id="1329" nome="Jazida de Ouro">
-		<span mapa="todos" tempo_spawn="0" tempo_morte="180"/>
-		<callsub label="_jazidaOuro">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="240"/>
+		<callsub label="_jazida5_Ouro">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="5"/>
+				<var id="%jazida%" valor="Ouro"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
 
 	<monstro id="1330" nome="Jazida de Platina">
-		<callsub label="_jazidaPlatina">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="240"/>
+		<callsub label="_jazida6_Platina">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="6"/>
+				<var id="%jazida%" valor="Platina"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
 
 	<monstro id="1331" nome="Jazida de Iridio">
-		<callsub label="_jazidaIridio">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="300"/>
+		<callsub label="_jazida7_Iridio">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="7"/>
+				<var id="%jazida%" valor="Iridio"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
 
 	<monstro id="1332" nome="Jazida de Titanio">
-		<callsub label="_jazidaTitanio">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="300"/>
+		<callsub label="_jazida8_Titanio">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="8"/>
+				<var id="%jazida%" valor="Titanio"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
 
 	<monstro id="1333" nome="Jazida de Diamante">
-		<callsub label="_jazidaDiamante">
+		<span grupo="jazidas" tempo_spawn="0" tempo_morte="360"/>
+		<callsub label="_jazida9_Diamante">
 			<gerar_label script="callfunc_minerarJadiza">
-				<var id="%jazida%" valor="9"/>
+				<var id="%jazida%" valor="Diamante"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
