@@ -12,22 +12,3 @@
 005.gat,154,93,39,20	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
 005.gat,154,32,39,21	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
 
-
-005.gat,0,0,0	script	Mob005	-1,{
-On1017:
-	set @mobID, 1017;
-	callfunc "MobPoints";
-	break;
-
-On1035:
-	set @mobID, 1035;
-	callfunc "MobPoints";
-	break;
-
-On1038:
-	set @mobID, 1038;
-	callfunc "MobPoints";
-	break;
-
-	end;
-}
