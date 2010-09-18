@@ -13,27 +13,3 @@
 008-3.gat,67,91,11,12	monster	Escorpião Preto (2)	1009,2,0,0,Mob008-3::On1009
 008-3.gat,58,95,6,13	monster	Limo Vermelho (4)	1008,4,0,0,Mob008-3::On1008
 
-
-008-3.gat,0,0,0	script	Mob008-3	-1,{
-On1007:
-	set @mobID, 1007;
-	callfunc "MobPoints";
-	break;
-
-On1008:
-	set @mobID, 1008;
-	callfunc "MobPoints";
-	break;
-
-On1009:
-	set @mobID, 1009;
-	callfunc "MobPoints";
-	break;
-
-On1010:
-	set @mobID, 1010;
-	callfunc "MobPoints";
-	break;
-
-	end;
-}
