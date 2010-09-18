@@ -2,6 +2,7 @@ map: 008.gat
 npc: npc/008_Ilha_Fortaleza/_mobs.txt
 npc: npc/008_Ilha_Fortaleza/_warps.txt
 npc: npc/008_Ilha_Fortaleza/_shops.txt
+npc: npc/008_Ilha_Fortaleza/_functions.txt
 
 // Move o antigo star point
 npc: npc/008_Ilha_Fortaleza/menir_alma.conf
