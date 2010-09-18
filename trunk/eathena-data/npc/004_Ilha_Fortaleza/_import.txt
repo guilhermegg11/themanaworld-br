@@ -6,9 +6,9 @@ npc: npc/004_Ilha_Fortaleza/joana.conf
 npc: npc/004_Ilha_Fortaleza/terezinha.conf
 npc: npc/004_Ilha_Fortaleza/operarios.conf
 
-npc: npc/004_Ilha_Fortaleza/mob_trasgo_roxo.conf
 npc: npc/004_Ilha_Fortaleza/_mobs.txt
 npc: npc/004_Ilha_Fortaleza/_warps.txt
+npc: npc/004_Ilha_Fortaleza/_functions.txt
 
 //Em avaliação:
 npc: npc/004_Ilha_Fortaleza/joao.conf
