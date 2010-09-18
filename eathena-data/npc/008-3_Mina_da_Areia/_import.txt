@@ -1,3 +1,4 @@
 map: 008-3.gat
 npc: npc/008-3_Mina_da_Areia/_mobs.txt
 npc: npc/008-3_Mina_da_Areia/_warps.txt
+npc: npc/008-3_Mina_da_Areia/_functions.txt
