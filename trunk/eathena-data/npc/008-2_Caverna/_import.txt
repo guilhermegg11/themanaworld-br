@@ -5,3 +5,4 @@ npc: npc/008-2_Caverna/warp_arena.conf
 
 npc: npc/008-2_Caverna/_mobs.txt
 npc: npc/008-2_Caverna/_warps.txt
+npc: npc/008-2_Caverna/_functions.txt
