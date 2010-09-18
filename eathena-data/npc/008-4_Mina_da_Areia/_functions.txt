@@ -1,0 +1,13 @@
+008-4.gat,0,0,0	script	Mob008-4	-1,{
+On1007:
+	set @mobID, 1007;
+	callfunc "MobPoints";
+	break;
+
+On1012:
+	set @mobID, 1012;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

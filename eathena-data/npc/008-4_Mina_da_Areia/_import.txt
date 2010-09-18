@@ -5,3 +5,4 @@ map: 008-4.gat
 
 npc: npc/008-4_Mina_da_Areia/_mobs.txt
 npc: npc/008-4_Mina_da_Areia/_warps.txt
+npc: npc/008-4_Mina_da_Areia/_functions.txt
