@@ -74,4 +74,60 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="Jazidas" width="0" height="0">
+  <object name="jazida1" type="spawn" x="1152" y="2144" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="323"/>
+   </properties>
+  </object>
+  <object name="jazida2" type="spawn" x="800" y="1600" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="324"/>
+   </properties>
+  </object>
+  <object name="jazida3" type="spawn" x="1600" y="1920" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="325"/>
+   </properties>
+  </object>
+  <object name="jazida4" type="spawn" x="1664" y="1280" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="326"/>
+   </properties>
+  </object>
+  <object name="jazida5" type="spawn" x="1088" y="1312" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="327"/>
+   </properties>
+  </object>
+  <object name="jazida6" type="spawn" x="1920" y="2400" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="328"/>
+   </properties>
+  </object>
+  <object name="jazida7" type="spawn" x="2272" y="1664" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="329"/>
+   </properties>
+  </object>
+  <object name="jazida8" type="spawn" x="1984" y="1856" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="330"/>
+   </properties>
+  </object>
+  <object name="jazida9" type="spawn" x="1984" y="1408" width="32" height="32">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="331"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
