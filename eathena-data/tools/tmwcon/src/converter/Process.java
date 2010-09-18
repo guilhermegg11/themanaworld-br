@@ -170,7 +170,10 @@ public class Process {
         PrintWriter mobOut = Main.getWriter(new File(folder, mobFile));
 
         warpOut.printf("// %s warps\n\n", title);
-        mobOut.printf("// %s mobs\n\n", title);
+		mobOut.printf("//\n");
+        mobOut.printf("// Monstros do mapa: %s\n", title);
+		mobOut.printf("// Script gerado automaticamente pela ferramenta TMW Converter...\n");
+		mobOut.printf("//\n\n");
 
         TreeSet<Mob> mobs = new TreeSet<Mob>();
         processObjects(map.getObjects(), name, warpOut, mobOut, mobs);
@@ -220,6 +223,8 @@ public class Process {
 			}
 			mobOut.printf("\tbreak;\n\n");
 		}
+		if(lCont.size()>0)
+			mobOut.printf("\n//= Callsubs ==========================================================\n\n");
 		for( Object obj : lCont ) {
 			if( (sub=Mob.paraMobCallsub(obj))!=null ){
 				script = mobScript.getCallsubs().get(sub.getCallsub());

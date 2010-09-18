@@ -99,13 +99,43 @@ public class MobScript {
 				continue;
 			Element tag2 = (Element) nd;
 			if( tag2.getNodeName().equals("gerar_label") ){
-				popularGerarLabel(mob, tag2, sub.getCallsub());
+				try {
+					popularGerarLabel(mob, tag2, sub.getCallsub());
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 			}
 		}
 	}
 
-	private void popularGerarLabel(Mob mob, Element tag2, String callsub) {
-		// FIXME: continuar daki...
+	private void popularGerarLabel(Mob mob, Element tag, String callsub) throws Exception {
+		String idKey = getAtributo(tag, "script", null);
+		if(idKey==null)
+			throw new Exception("Impossível gerar_label para o monstro: " +mob.getId()+ ". Tag 'gerar_label' não possui atributo 'script'.");
+
+		String script = scripts.get(idKey);
+		if(script==null)
+			throw new Exception("Impossível gerar_label para o monstro: " +mob.getId()+ ". Não foi possível encontrar o script '" +idKey+ "'.");
+
+		if(callsubs.containsKey(callsub))
+			throw new Exception("Impossível gerar_label para o monstro: " +mob.getId()+ ". Já existe uma label com o nome '" +callsub+ "'.");
+
+		script = new String(callsub+":\n\t"+script+"\n\treturn;");
+
+		NodeList nl = tag.getChildNodes();
+		for( int i=0; i<nl.getLength(); i++ ) {
+			if( nl.item(i).getNodeType()!=Node.ELEMENT_NODE )
+				continue;
+			Element tagVar = (Element) nl.item(i);
+			if( tagVar.getNodeName().equals("var") ){
+				try {
+					script = popularVar(script, tagVar);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		callsubs.put(callsub, script);
 	}
 
 	private void popularGerarScript(Mob mob, Element tag) throws Exception {
