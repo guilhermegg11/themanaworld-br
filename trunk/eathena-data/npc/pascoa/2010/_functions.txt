@@ -1,0 +1,14 @@
+
+004.gat,0,0,0	script	Mobpascoa	-1,{
+On1320:
+	set @mobID, 1320;
+	callfunc "MobPoints";
+	break;
+
+On1321:
+	set @mobID, 1321;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

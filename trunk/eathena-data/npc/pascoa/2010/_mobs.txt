@@ -4,17 +4,3 @@
 004.gat,166,47,25,53	monster	Coelho de Olhos Vermelhos (20)	1320,20,0,0,Mobpascoa::On1320
 004.gat,153,103,52,30	monster	Coelho de Páscoa (15)	1321,15,0,0,Mobpascoa::On1321
 
-
-004.gat,0,0,0	script	Mobpascoa	-1,{
-On1320:
-	set @mobID, 1320;
-	callfunc "MobPoints";
-	break;
-
-On1321:
-	set @mobID, 1321;
-	callfunc "MobPoints";
-	break;
-
-	end;
-}
