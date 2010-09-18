@@ -6,3 +6,4 @@ npc: npc/pascoa/2010/funcoes.conf
 
 npc: npc/pascoa/2010/_mobs.txt
 npc: npc/pascoa/2010/_warps.txt
+npc: npc/pascoa/2010/_functions.txt
