@@ -1,10 +1,22 @@
-// 009-2 Caverna mobs
+//
+// Monstros do mapa: 009-2 Caverna
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 009-2.gat,0,0,0,0	monster	Cobra da Caverna (10)	1021,10,0,0,Mob009-2::On1021
 009-2.gat,0,0,0,0	monster	Morcego (10)	1017,10,0,0,Mob009-2::On1017
-
+009-2.gat,36,67,1,1	monster	jazida1	1325,1,0,0,Mob009-2::On1325
+009-2.gat,25,50,1,1	monster	jazida2	1326,1,0,0,Mob009-2::On1326
+009-2.gat,50,60,1,1	monster	jazida3	1327,1,0,0,Mob009-2::On1327
+009-2.gat,52,40,1,1	monster	jazida4	1328,1,0,0,Mob009-2::On1328
+009-2.gat,34,41,1,1	monster	jazida5	1329,1,0,0,Mob009-2::On1329
+009-2.gat,60,75,1,1	monster	jazida6	1330,1,0,0,Mob009-2::On1330
+009-2.gat,71,52,1,1	monster	jazida7	1331,1,0,0,Mob009-2::On1331
+009-2.gat,62,58,1,1	monster	jazida8	1332,1,0,0,Mob009-2::On1332
+009-2.gat,62,44,1,1	monster	jazida9	1333,1,0,0,Mob009-2::On1333
 
 009-2.gat,0,0,0	script	Mob009-2	-1,{
+
 On1017:
 	set @mobID, 1017;
 	callfunc "MobPoints";
@@ -15,5 +27,97 @@ On1021:
 	callfunc "MobPoints";
 	break;
 
-	end;
+On1325:
+	set @mobID, 1325;
+	callfunc "MobPoints";
+	callsub _jazida1_Cobre;
+	break;
+
+On1326:
+	set @mobID, 1326;
+	callfunc "MobPoints";
+	callsub _jazida2_Chumbo;
+	break;
+
+On1327:
+	set @mobID, 1327;
+	callfunc "MobPoints";
+	callsub _jazida3_Estanho;
+	break;
+
+On1328:
+	set @mobID, 1328;
+	callfunc "MobPoints";
+	callsub _jazida4_Prata;
+	break;
+
+On1329:
+	set @mobID, 1329;
+	callfunc "MobPoints";
+	callsub _jazida5_Ouro;
+	break;
+
+On1330:
+	set @mobID, 1330;
+	callfunc "MobPoints";
+	callsub _jazida6_Platina;
+	break;
+
+On1331:
+	set @mobID, 1331;
+	callfunc "MobPoints";
+	callsub _jazida7_Iridio;
+	break;
+
+On1332:
+	set @mobID, 1332;
+	callfunc "MobPoints";
+	callsub _jazida8_Titanio;
+	break;
+
+On1333:
+	set @mobID, 1333;
+	callfunc "MobPoints";
+	callsub _jazida9_Diamante;
+	break;
+
+
+//= Callsubs ==========================================================
+
+_jazida1_Cobre:
+	message strcharinfo(0), "Você minerou uma jazida de Cobre";
+	return;
+
+_jazida2_Chumbo:
+	message strcharinfo(0), "Você minerou uma jazida de Chumbo";
+	return;
+
+_jazida3_Estanho:
+	message strcharinfo(0), "Você minerou uma jazida de Estanho";
+	return;
+
+_jazida4_Prata:
+	message strcharinfo(0), "Você minerou uma jazida de Prata";
+	return;
+
+_jazida5_Ouro:
+	message strcharinfo(0), "Você minerou uma jazida de Ouro";
+	return;
+
+_jazida6_Platina:
+	message strcharinfo(0), "Você minerou uma jazida de Platina";
+	return;
+
+_jazida7_Iridio:
+	message strcharinfo(0), "Você minerou uma jazida de Iridio";
+	return;
+
+_jazida8_Titanio:
+	message strcharinfo(0), "Você minerou uma jazida de Titanio";
+	return;
+
+_jazida9_Diamante:
+	message strcharinfo(0), "Você minerou uma jazida de Diamante";
+	return;
+
 }
