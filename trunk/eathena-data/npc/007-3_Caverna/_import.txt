@@ -5,3 +5,4 @@ npc: npc/007-3_Caverna/lilia.conf
 
 npc: npc/007-3_Caverna/_mobs.txt
 npc: npc/007-3_Caverna/_warps.txt
+npc: npc/007-3_Caverna/_functions.txt
