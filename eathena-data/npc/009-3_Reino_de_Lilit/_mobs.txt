@@ -5,27 +5,3 @@
 009-3.gat,121,84,50,37	monster	Cobra da Grama (10)	1034,10,0,0,Mob009-3::On1034
 009-3.gat,123,87,51,33	monster	Cogumelo Malígno (10)	1013,10,0,0,Mob009-3::On1013
 
-
-009-3.gat,0,0,0	script	Mob009-3	-1,{
-On1013:
-	set @mobID, 1013;
-	callfunc "MobPoints";
-	break;
-
-On1034:
-	set @mobID, 1034;
-	callfunc "MobPoints";
-	break;
-
-On1308:
-	set @mobID, 1308;
-	callfunc "MobPoints";
-	break;
-
-On1309:
-	set @mobID, 1309;
-	callfunc "MobPoints";
-	break;
-
-	end;
-}
