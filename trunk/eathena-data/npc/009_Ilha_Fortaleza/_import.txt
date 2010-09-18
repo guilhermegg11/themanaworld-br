@@ -9,3 +9,4 @@ npc: npc/009_Ilha_Fortaleza/mob_fada_traidora.conf
 
 npc: npc/009_Ilha_Fortaleza/_mobs.txt
 npc: npc/009_Ilha_Fortaleza/_warps.txt
+npc: npc/009_Ilha_Fortaleza/_functions.txt
