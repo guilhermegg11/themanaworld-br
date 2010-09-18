@@ -1,6 +1,6 @@
 map: 002.gat
 npc: npc/002_Fortaleza/_mobs.txt
 npc: npc/002_Fortaleza/_warps.txt
+npc: npc/002_Fortaleza/_functions.txt
 
-npc: npc/002_Fortaleza/jazidas.conf
 //npc: npc/002_Fortaleza/premios.conf

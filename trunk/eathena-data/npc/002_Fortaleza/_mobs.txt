@@ -2,12 +2,16 @@
 
 002.gat,99,24,11,9	monster	Morcego (5)	1017,5,0,0,Mob002::On1017
 
+// Chamada de Subrotinas para as Jazidas: Alastrim
+// Arquivo _mobs.txt
+// Aqui é definido o spawn permanente das Jazidas, cada uma com sua ID e com a definição de um evento "OnmobMina::OnID" que se refere ao script que vai vir abaixo chamando a subrotina relevante. Os mapas e IDS que eu usei são apenas para efeitos de teste em meu localhost, depois eles devem ser mudados de acordo com o que for definido para o servidor.
 
-002.gat,0,0,0	script	Mob002	-1,{
-On1017:
-	set @mobID, 1017;
-	callfunc "MobPoints";
-	break;
-
-	end;
-}
+002.gat,95,50,0,0	monster	Jazida de Cobre	1325,1,0,0,mobJazidas::On1323
+002.gat,96,50,0,0	monster	Jazida de Chumbo	1326,1,0,0,mobJazidas::On1324
+002.gat,97,50,0,0	monster	Jazida de Estanho	1327,1,0,0,mobJazidas::On1325
+002.gat,98,50,0,0	monster	Jazida de Prata	1328,1,0,0,mobJazidas::On1326
+002.gat,99,50,0,0	monster	Jazida de Ouro	1329,1,0,0,mobJazidas::On1327
+002.gat,100,50,0,0	monster	Jazida de Platina	1330,1,0,0,mobJazidas::On1328
+002.gat,101,50,0,0	monster	Jazida de Iridio	1331,1,0,0,mobJazidas::On1329
+002.gat,102,50,0,0	monster	Jazida de Titanio	1332,1,0,0,mobJazidas::On1330
+002.gat,103,50,0,0	monster	Jazida de Diamante	1333,1,0,0,mobJazidas::On1331
