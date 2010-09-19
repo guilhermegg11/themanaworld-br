@@ -205,11 +205,10 @@
 		image="armor-head-santahat.png"
 		name="Gorro de Natal"
 		description="Um gorro vermelho com uma bolinha na ponta usado no Natal. (presente do Papai Noel)"
-		effect="+2 Defesa"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="2"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-santahat.xml</sprite>
 	</item>
 	<item id="512"
@@ -311,21 +310,20 @@
 		image="armor-head-fancyhat.png"
 		name="Chapéu Fantasia"
 		description="Um chapeu de fantasia."
-		effect="+5% Defense"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="5"
-		max-per-slot="1">
+		defense="5">
 		<sprite>head-fancyhat.xml</sprite>
 	</item>
 	<item id="525"
 		image="armor-head-minershat.png"
 		name="Capacete de Mineiro"
 		description="Um capacete usado por mineiros."
+		effect=""
 		type="equip-head"
 		weight="40"
-		defense="4"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-minershat.xml</sprite>
 	</item>
 	<item id="526"
@@ -483,10 +481,9 @@
 		image="armor-head-standardheadband.png|W:#291e16,99784c,d8bd86,ffffff"
 		name="Faixa tradicional"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
 		weight="10"
-		max-per-slot="1"
 		defense="3">
 		<sprite>head-standardheadband.xml|#563f25,99784c,d8bd86,ffffff</sprite>
 	</item>
@@ -494,11 +491,10 @@
 		image="armor-head-silkheadband.png"
 		name="Faixa de seda"
 		description="Uma bela faixa feita de seda."
-		effect="+10% Defense"
+		effect=""
 		type="equip-head"
 		weight="10"
-		defense="10"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-silkheadband.xml</sprite>
 	</item>
 	<item id="545"
@@ -1131,66 +1127,60 @@
 		image="armor-head-pumpkinhelmet.png"
 		name="Capacete de Abóbora"
 		description="Um capacete feito de abóbora."
-		effect="+4% Defense"
+		effect=""
 		type="equip-head"
 		weight="60"
-		defense="4"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-pumpkinhelmet.xml</sprite>
 	</item>
 	<item id="616"
 		image="armor-head-axehat.png"
 		name="Chapéu de Machado"
 		description="Uma piada bem legal."
-		effect="+4% Defense"
+		effect=""
 		type="equip-head"
 		weight="50"
-		defense="4"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-axehat.xml</sprite>
 	</item>
 	<item id="617"
 		image="armor-head-piratehat.png"
 		name="Chapéu Azul de Pirata"
 		description="Um chapéu de Pirata na cor azul."
-		effect="+4% Defense"
+		effect=""
 		type="equip-head"
 		weight="40"
-		defense="4"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-piratehat.xml</sprite>
 	</item>
 	<item id="618"
 		image="armor-head-goggles.png"
 		name="Óculos"
 		description="Óculos feitos para proteger seus olhos."
-		effect="+2% Defense"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="2"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-goggles.xml|#787878,f7f7f7</sprite>
 	</item>
 	<item id="619"
 		image="armor-head-leathergoggles.png"
 		name="Óculos de Couro"
 		description="Óculos feitos para proteger seus olhos em tempestades de areia."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="3"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-goggles.xml|#783c00,ff973b</sprite>
 	</item>
 	<item id="620"
 		image="armor-head-circlet.png"
 		name="Coroa"
 		description="Uma bela jóia."
-		effect="+4% Defense"
+		effect=""
 		type="equip-head"
 		weight="25"
-		defense="4"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-circlet.xml</sprite>
 	</item>
 	<item id="621"
@@ -1199,19 +1189,17 @@
 		description="Ele fará de você um pirata de verdade."
 		type="equip-head"
 		weight="5"
-		defense="3"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-eyepatch.xml</sprite>
 	</item>
 	<item id="622"
 		image="armor-head-bandana.png"
 		name="Bandana"
 		description="Uma bandana listrada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="3"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-bandana.xml</sprite>
 	</item>
 	<item id="623"
@@ -1268,44 +1256,40 @@
 		image="armor-head-tophat.png"
 		name="Cartola"
 		description="Para a alta classe do Mundo de Mana."
-		effect="+10% Defense"
+		effect=""
 		type="equip-head"
 		weight="30"
-		defense="15"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-tophat.xml</sprite>
 	</item>
 	<item id="628"
 		image="armor-head-funkyhat.png"
 		name="Gorro de Dormir"
 		description="Que sono!"
-		effect="+13% Defense"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="15"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-funkywinter.xml</sprite>
 	</item>
 	<item id="629"
 		image="armor-head-mushroomhat.png"
 		name="Chapéu de Cogumelo Maligno"
 		description="Maligno e na moda."
-		effect="+10% Defense"
+		effect=""
 		type="equip-head"
 		weight="30"
-		defense="15"
-		max-per-slot="1">
+		defense="5">
 		<sprite>head-mushroom.xml</sprite>
 	</item>
 	<item id="630"
 		image="armor-head-shroomhat.png"
 		name="Chapéu Cogumelo"
 		description="Chapéu macio feito de cogumelo."
-		effect="+13% Defense"
+		effect=""
 		type="equip-head"
 		weight="30"
-		defense="18"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-shroom.xml</sprite>
 	</item>
 	<item id="631"
@@ -1330,21 +1314,20 @@
 		image="armor-head-xmaself.png"
 		name="Gorro dos Elfos do Natal"
 		description="Um gorro usado por elfos do Natal."
-		defense="10"
+		effect=""
 		type="equip-head"
 		weight="30"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-xmaself.xml</sprite>
 	</item>
 	<item id="634"
 		image="armor-head-mask.png"
 		name="Máscara de Madeira"
 		description="Uma máscara de madeira para ocultar sua face."
-		effect="+10% Defense"
-		defense="15"
+		effect=""
 		type="equip-head"
 		weight="50"
-		max-per-slot="1">
+		defense="7">
 		<sprite>head-mask.xml</sprite>
 	</item>
 	<item id="635"
@@ -1358,36 +1341,40 @@
 		image="armor-head-warlordhelm.png"
 		name="Elmo do Lorde da Guerra"
 		description="Usado pelos mais poderosos comandantes de batalha!"
+		effect=""
 		type="equip-head"
-		defense="18"
-		weight="900">
+		weight="900"
+		defense="18">
 		<sprite>head-warlordhelm.xml</sprite>
 	</item>
 	<item id="637"
 		image="armor-head-knighthelm.png"
 		name="Elmo do Cavaleiro Alado"
 		description="Elmo usado pelos poucos batedores que possuem o título de Cavaleiro Alado."
+		effect=""
 		type="equip-head"
-		defense="15"
-		weight="600">
+		weight="600"
+		defense="15">
 		<sprite>head-knighthelm.xml</sprite>
 	</item>
 	<item id="638"
 		image="armor-head-infantryhelm.png"
 		name="Capacete da Infantaria"
 		description="Proteção feita especialmente para as tropas de infantaria."
+		effect=""
 		type="equip-head"
-		defense="15"
-		weight="400">
+		weight="400"
+		defense="15">
 		<sprite>head-infantryhelm.xml</sprite>
 	</item>
 	<item id="639"
 		image="armor-head-crusadehelm.png"
 		name="Elmo das Cruzadas"
-		description="Um elmo usado por guerreiros no tempo das cruzadas."
+		description="Um elmo muito pesado, usado por guerreiros no tempo das cruzadas."
+		effect="-1 Agilidade"
 		type="equip-head"
-		defense="18"
-		weight="1300">
+		weight="1500"
+		defense="18">
 		<sprite>head-crusadehelm.xml</sprite>
 	</item>
 	<item id="640"
@@ -1416,18 +1403,20 @@
 		image="armor-head-cowboywhite.png"
 		name="Chapéu Branco de Vaqueiro"
 		description="Um chapéu de vaqueiro da cor branca."
+		effect=""
 		type="equip-head"
-		defense="6"
-		weight="30">
+		weight="30"
+		defense="6">
 		<sprite>head-cowboywhite.xml</sprite>
 	</item>
 	<item id="644"
 		image="armor-head-cowboyblack.png"
 		name="Chapéu Preto de Vaqueiro"
 		description="Um chapéu de vaqueiro da cor preta."
+		effect=""
 		type="equip-head"
-		defense="6"
-		weight="30">
+		weight="30"
+		defense="6">
 		<sprite>head-cowboyblack.xml</sprite>
 	</item>
 	<item id="645"
@@ -1445,20 +1434,20 @@
 		image="armor-head-crown.png"
 		name="Coroa Real"
 		description="Uma coroa cravejada com pedras preciosas, ideal para os governantes."
-		effect="+4% Defense"
+		effect=""
 		type="equip-head"
-		defense="4"
-		weight="240">
+		weight="240"
+		defense="4">
 		<sprite>head-crown.xml</sprite>
 	</item>
 	<item id="647"
 		image="armor-head-devcap.png|R:#9999ff"
 		name="Boné de Desenvolvedor"
 		description="Um boné que te identifica como um desenvolvedor."
-		effect="+5% Defense"
+		effect=""
 		type="equip-head"
-		defense="5"
-		weight="20">
+		weight="20"
+		defense="5">
 		<sprite>head-devcap.xml|#9999ff</sprite>
 	</item>
 	<item id="648"
@@ -1519,10 +1508,10 @@
 		image="armor-head-cap.png|R:#d94800"
 		name="Boné"
 		description="Um boné para proteger seus olhos do sol."
-		effect="+5% Defense"
+		effect=""
 		type="equip-head"
-		defense="5"
-		weight="20">
+		weight="20"
+		defense="5">
 		<sprite>head-cap.xml|#d94800</sprite>
 	</item>
 	<item id="655"
@@ -1540,10 +1529,10 @@
 		image="armor-head-serf.png"
 		name="Chapéu de Servo"
 		description="Um simples chapéu feito de tecido."
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="2"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-serf.xml</sprite>
 	</item>
 	<item id="657"
@@ -1686,10 +1675,10 @@
 		image="armor-head-gradcap.png"
 		name="Chapéu de Graduação"
 		description="Um chapéu tradicional, que um estudante universitário pode usar depois de se graduar."
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="2"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-gradcap.xml</sprite>
 	</item>
 	<item id="676"
@@ -1712,22 +1701,20 @@
 		image="armor-head-nohmask.png"
 		name="Máscara Noh"
 		description="Uma máscara tradicional de um antigo povo do leste, usado em peças de teatro."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
 		weight="18"
-		defense="3"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-nohmask.xml</sprite>
 	</item>
 	<item id="679"
 		image="armor-head-demonmask.png"
 		name="Máscara Demoniaca"
 		description="Uma máscara assustadora, para fazer você parecer um demônio."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
 		weight="23"
-		defense="3"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-demonmask.xml</sprite>
 	</item>
 	<item id="680"
@@ -2034,36 +2021,37 @@
 		image="armor-head-highpriest-crown.png"
 		name="Coroa dos Sacerdotes"
 		description="Uma coroa dourada, cravada com um rubi encantado."
-		effect="+4% Defense, +20 SP"
+		effect="+20 MP"
 		type="equip-head"
-		defense="4"
-		weight="400">
+		weight="400"
+		defense="4">
 		<sprite>head-highpriest-crown.xml</sprite>
 	</item>
 	<item id="722"
 		image="armor-head-monster-skull-helm.png"
 		name="Capacete de Fóssil"
 		description="Um capacete feito do crânio de um misterioso monstro ancestral."
-		effect="+7% Defense, +20% Magic Defense"
+		effect="+20 Defesa Mágica"
 		type="equip-head"
-		defense="7"
-		weight="250">
+		weight="250"
+		defense="7">
 		<sprite>head-monster-skull-helm.xml</sprite>
 	</item>
 	<item id="723"
 		image="armor-head-deserthat.png|R:#FFFFFF"
 		name="Chapéu do Deserto"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada.."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#FFFFFF</sprite>
 	</item>
 	<item id="724"
 		image="armor-head-standardheadband.png|W:#A4B2B2,FFFFFF"
 		name="Faixa de Algodão"
 		description="Apenas uma faixa de por na cabeça feita de algodão."
+		effect=""
 		type="equip-head"
 		defense="2"
 		weight="5">
@@ -2073,6 +2061,7 @@
 		image="armor-head-gmcap.png|R:#BF0E08"
 		name="Boné GM"
 		description="Um boné que te identifica como GM."
+		effect=""
 		type="equip-head"
 		defense="5"
 		weight="20">
@@ -2156,7 +2145,7 @@
 		image="armor-feet-boots.png|#A4B2B2,FFFFFF"
 		name="Botas de Algodão"
 		description="Um par de botas de algodão de alta qualidade."
-		type="equip-head"
+		type="equip-feet"
 		defense="1"
 		weight="10">
 		<sprite gender="male">feet-boots-male.xml|#A4B2B2,FFFFFF</sprite>
@@ -2285,22 +2274,20 @@
 		image="armor-head-pinkiehat.png|W:#f737b8,ffffff"
 		name="Haste Rosa"
 		description="Uns dizem ser uma homenagem, outros um troféu."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
 		weight="5"
-		defense="1"
-		max-per-slot="1">
+		defense="1">
 		<sprite>head-pinkiehat.xml|#f737b8,ffffff</sprite>
 	</item>
 	<item id="752"
 		image="armor-head-fluffyhat.png"
 		name="Chapéu Fofinho"
 		description="Agora você pode usar a pele branca do Tufo em sua cabeça."
-		effect="+2% Defense"
+		effect=""
 		type="equip-head"
 		weight="10"
-		defense="2"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-fluffyhat.xml</sprite>
 	</item>
 	<item id="753"
@@ -2376,9 +2363,8 @@
 		description="Um excelente elmo, tipicamente usado por paladinos."
 		effect=""
 		type="equip-head"
-		defense="1"
 		weight="1"
-		max-per-slot="1">
+		defense="1">
 		<sprite>head-paladinhelm.xml</sprite>
 	</item>
 	<item id="760"
@@ -2387,9 +2373,8 @@
 		description="Um elmo lendário, usado somente pelos guerreiros mais fortes."
 		effect=""
 		type="equip-head"
-		defense="1"
 		weight="1"
-		max-per-slot="1">
+		defense="1">
 		<sprite>head-overlordhelm.xml</sprite>
 	</item>
 	<item id="761"
@@ -2399,8 +2384,7 @@
 		effect=""
 		type="equip-head"
 		weight="1"
-		defense="1"
-		max-per-slot="1">
+		defense="1">
 		<sprite>head-desert-helmet.xml</sprite>
 	</item>
 	<item id="762"
@@ -2422,22 +2406,20 @@
 		image="armor-head-sailor_hat.png"
 		name="Chapéu de Marinheiro"
 		description="Um chapéu de marinheiro."
-		effect="+5 Defesa"
+		effect=""
 		type="equip-head"
-		weight="5"
-		defense="5"
-		max-per-slot="1">
+		weight="1"
+		defense="1">
 		<sprite>head-sailor_hat.xml</sprite>
 	</item>
 	<item id="765"
 		image="armor-head-captain_hat.png"
 		name="Chapéu de Capitão"
 		description="Um típico chapéu usado pelos capitães de grandes navios."
-		effect="+6 Defesa"
+		effect=""
 		type="equip-head"
-		weight="10"
-		defense="6"
-		max-per-slot="1">
+		weight="1"
+		defense="1">
 		<sprite>head-captain_hat.xml</sprite>
 	</item>
 	<item id="766"
@@ -2446,8 +2428,8 @@
 		description="Um elmo mágico, feito a partir de terranite semi-polido e bem leve. Excelente para os magos no campo de batalha."
 		effect=""
 		type="equip-head"
-		defense="1"
-		weight="300">
+		weight="1"
+		defense="1">
 		<sprite>head-terranitehelm.xml</sprite>
 	</item>
 	<item id="767"
@@ -2480,9 +2462,8 @@
 		description="A máscara de Guy Fawkes, um famoso personagem do folclore do mundo de mana."
 		effect=""
 		type="equip-head"
-		weight="12"
-		defense="1"
-		max-per-slot="1">
+		weight="1"
+		defense="1">
 		<sprite>head-guyfawkes.xml</sprite>
 	</item>
 	<item id="770"
@@ -2491,9 +2472,8 @@
 		description="Um chapéu encantado pelas fadas do reino de Lilith."
 		effect=""
 		type="equip-head"
-		weight="18"
-		defense="1"
-		max-per-slot="1">
+		weight="1"
+		defense="1">
 	<sprite>head-fairy_hat.xml</sprite>
 	</item>
 	<item id="774"
@@ -2550,10 +2530,9 @@
 		name="Máscara Voodoo"
 		description="Uma estranha máscara. Provavelmente era usada em rituais Voodoo."
 		effect=""
-		defense="1"
 		type="equip-head"
-		weight="20"
-		max-per-slot="1">
+		weight="1"
+		defense="1">
 		<sprite>head-witch-doctor-mask.xml</sprite>
 	</item>
 	<item id="782"
@@ -2643,41 +2622,40 @@
 		image="armor-head-rangerhat.png"
 		name="Chapéu de Patrulheiro"
 		description="Um chapéu de couro, tradicionalmente usado por patrulheiros."
-		effect="+2% Defense"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="2"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-rangerhat.xml</sprite>
 	</item>
 	<item id="1204"
 		image="armor-head-antlerhat.png"
 		name="Chapéu Chifres de Rena"
 		description="Um chapéu fantasia de chifres de rena. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="15"
-		defense="4"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-antlerhat.xml</sprite>
 	</item>
 	<item id="1205"
 		image="armor-head-christmastree.png"
 		name="Chapéu Árvore de Natal"
 		description="Um chapéu em forma de árvore de Natal. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="2"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-christmastree.xml</sprite>
 	</item>
 	<item id="1206"
 		image="armor-head-santabeardhat.png"
 		name="Gorro de Papai Noel"
 		description="Gorro que vai te deixar igualzinho ao Papai Noel. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="5"
-		max-per-slot="1">
+		defense="5">
 		<sprite>head-santabeardhat.xml</sprite>
 	</item>
 	<item id="1207"
@@ -2733,10 +2711,10 @@
 		image="armor-head-bunnyears.png"
 		name="Orelhas de Coelho"
 		description="Um par de orelhas para você se fantasiar de coelho."
-		effect="+10% Defense"
+		effect=""
 		type="equip-head"
-		defense="10"
-		weight="20">
+		weight="20"
+		defense="1">
 		<sprite>head-bunnyears.xml</sprite>
 	</item>
 	<item id="1215"
@@ -2753,40 +2731,40 @@
 		image="armor-head-mouboohead.png"
 		name="Cabeça de Mouboo"
 		description="Um capacete na forma da cabeça de um Mouboo."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="1"
-		weight="80">
+		weight="80"
+		defense="6">
 		<sprite>head-mouboohead.xml</sprite>
 	</item>
 	<item id="1217"
 		image="armor-head-catears.png|M:#774444;W:#777777"
 		name="Orelhas de Gato"
 		description="Um par de orelhas de gato de pelúcia. Meow!"
-		effect="+1% Defense, +3 Agility"
+		effect="+3 Agilidade"
 		type="equip-head"
-		defense="1"
-		weight="20">
+		weight="20"
+		defense="1">
 		<sprite>head-catears.xml</sprite>
 	</item>
 	<item id="1218"
 		image="armor-head-paperbag.png"
 		name="Saco de Papel"
-		description="Um saco de papel marrom com dois furos para você poder enxergar."
-		effect="+1% Defense, -1 Agility"
+		description="Um saco de papel marrom com dois furos para você poder enxergar. Parece bem desconfortável."
+		effect="-1 Agilidade"
 		type="equip-head"
-		defense="1"
-		weight="10">
+		weight="10"
+		defense="1">
 		<sprite>head-paperbag.xml</sprite>
 	</item>
 	<item id="1219"
 		image="armor-head-moubootaurhead.png"
 		name="Cabeça de Moubootauro"
 		description="Um capacete na forma da cabeça de um ancestral Moubootauro."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="1"
-		weight="80">
+		weight="80"
+		defense="6">
 		<sprite>head-moubootaurhead.xml</sprite>
 	</item>
 
@@ -3657,100 +3635,100 @@
 		image="armor-head-deserthat.png|R:#580000,A40000,C02020,ff6060"
 		name="Chapéu do Deserto Vermelho"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#580000,A40000,C02020,ff6060</sprite>
 	</item>
 	<item id="2131"
 		image="armor-head-deserthat.png|R:#115511,22aa22,99dd99"
 		name="Chapéu do Deserto Verde"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#115511,22aa22,99dd99</sprite>
 	</item>
 	<item id="2132"
 		image="armor-head-deserthat.png|R:#222255,6666ff"
 		name="Chapéu do Deserto Azul Escuro"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#222255,6666ff</sprite>
 	</item>
 	<item id="2133"
 		image="armor-head-deserthat.png|R:#846211,dab333,fffb93,ffffff"
 		name="Chapéu do Deserto Amarelo"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#846211,dab333,fffb93,ffffff</sprite>
 	</item>
 	<item id="2134"
 		image="armor-head-deserthat.png|R:#16486e,498ec5,e4f2fc"
 		name="Chapéu do Deserto Azul Claro"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#16486e,498ec5,e4f2fc</sprite>
 	</item>
 	<item id="2135"
 		image="armor-head-deserthat.png|R:#56002f,930050,fe70bd,feb7de,ffffff"
 		name="Chapéu do Deserto Rosa"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
 	</item>
 	<item id="2136"
 		image="armor-head-deserthat.png|R:#111111,222222,333333,444444,555555,aaaaaa"
 		name="Chapéu do Deserto Preto"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
 	</item>
 	<item id="2137"
 		image="armor-head-deserthat.png|R:#80280f,b04810,ef681f,ffb830"
 		name="Chapéu do Deserto Laranja"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#80280f,b04810,ef681f,ffb830</sprite>
 	</item>
 	<item id="2138"
 		image="armor-head-deserthat.png|R:#4f0a76,8010c0,d699f7"
 		name="Chapéu do Deserto Roxo"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#4f0a76,8010c0,d699f7</sprite>
 	</item>
 	<item id="2139"
 		image="armor-head-deserthat.png|R:#104010,208020,30c030"
 		name="Chapéu do Deserto Verde Escuro"
 		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
-		effect="+3% Defense"
+		effect=""
 		type="equip-head"
-		defense="3"
-		weight="20">
+		weight="20"
+		defense="3">
 		<sprite>head-deserthat.xml|#104010,208020,30c030</sprite>
 	</item>
 
@@ -3758,100 +3736,100 @@
 		image="armor-head-standardheadband.png|W:#580000,A40000,C02020,ff6060"
 		name="Faixa Tradicional Vermelha"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#580000,A40000,C02020,ff6060</sprite>
 	</item>
 	<item id="2141"
 		image="armor-head-standardheadband.png|W:#115511,22aa22,99dd99"
 		name="Faixa Tradicional Verde"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#115511,22aa22,99dd99</sprite>
 	</item>
 	<item id="2142"
 		image="armor-head-standardheadband.png|W:#222255,6666ff"
 		name="Faixa Tradicional Azul Escura"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#222255,6666ff</sprite>
 	</item>
 	<item id="2143"
 		image="armor-head-standardheadband.png|W:#846211,dab333,fffb93,ffffff"
 		name="Faixa Tradicional Amarela"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#846211,dab333,fffb93,ffffff</sprite>
 	</item>
 	<item id="2144"
 		image="armor-head-standardheadband.png|W:#16486e,498ec5,e4f2fc"
 		name="Faixa Tradicional Azul Clara"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#16486e,498ec5,e4f2fc</sprite>
 	</item>
 	<item id="2145"
 		image="armor-head-standardheadband.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
 		name="Faixa Tradicional Rosa"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
 	</item>
 	<item id="2146"
 		image="armor-head-standardheadband.png|W:#111111,222222,333333,444444,555555,aaaaaa"
 		name="Faixa Tradicional Preta"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
 	</item>
 	<item id="2147"
 		image="armor-head-standardheadband.png|W:#80280f,b04810,ef681f,ffb830"
 		name="Faixa Tradicional Laranja"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#80280f,b04810,ef681f,ffb830</sprite>
 	</item>
 	<item id="2148"
 		image="armor-head-standardheadband.png|W:#4f0a76,8010c0,d699f7"
 		name="Faixa Tradicional Roxa"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#4f0a76,8010c0,d699f7</sprite>
 	</item>
 	<item id="2149"
 		image="armor-head-standardheadband.png|W:#104010,208020,30c030"
 		name="Faixa Tradicional Verde Escura"
 		description="Uma faixa tradicional, para usar na testa."
-		effect="+1% Defense"
+		effect=""
 		type="equip-head"
-		defense="2"
-		weight="5">
+		weight="5"
+		defense="2">
 		<sprite>head-standardheadband.xml|#104010,208020,30c030</sprite>
 	</item>
 
@@ -4083,11 +4061,10 @@
 		image="armor-head-piratehat-br.png"
 		name="Chapéu Preto de Pirata"
 		description="Um chapéu de Pirata na cor preta."
-		effect="+4% Defense"
+		effect=""
 		type="equip-head"
 		weight="40"
-		defense="4"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-piratehat-br.xml</sprite>
 	</item>
 	<item id="3001"
@@ -4106,12 +4083,10 @@
 		image="armor-head-capuz-morte.png|W:#111111,222222,333333,444444,555555,aaaaaa"
 		name="Capuz da Morte"
 		description="O mesmo capuz usado pela Morte."
-		effect="+4% Defense"
+		effect=""
 		type="equip-head"
 		weight="25"
-		defense="4"
-		max-per-slot="1">
-	</item>
+		defense="4"/>
 	<item id="3003"
 		image="use-potion-morte.png"
 		name="Poção da Morte"
@@ -4151,11 +4126,10 @@
 		image="armor-head-capacete-lord.png"
 		name="Capacete de Lord"
 		description="Um capacete de Lord."
-		effect="+20% Defense"
+		effect=""
 		type="equip-head"
-		defense="20"
 		weight="1500"
-		max-per-slot="1">
+		defense="20">
 		<sprite>head-capacete-lord.xml</sprite>
 	</item>
 	<item id="3008"
@@ -4215,12 +4189,11 @@
 	<item id="3014"
 		image="armor-head-oculos-olho-dragao.png"
 		name="Óculos Olho de Dragão"
-		description="Óculos do poderoso Dragão Verde."
+		description="Óculos feito a partir de escamas polidas de dragão verde. Com ele você enxerga muito melhor."
 		effect="Destreza +3"
 		type="equip-head"
-		defense="5"
 		weight="15"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-oculos-olho-dragao.xml</sprite>
 	</item>
 	<item id="3015"
@@ -4256,9 +4229,10 @@
 		image="armor-head-afkcap.png"
 		name="Boné Longe do Teclado"
 		description="Boné para informar que você está ausente."
+		effect=""
 		type="equip-head"
-		defense="5"
-		weight="10">
+		weight="10"
+		defense="5">
 		<sprite>head-afkcap.xml</sprite>
 	</item>
 	<item id="3019"
@@ -4392,90 +4366,90 @@
 		image="armor-head-lamafia-hat.png"
 		name="Cartola La Mafia"
 		description="Chapéu exclusivo dos membros do clan La Mafia."
+		effect=""
 		type="equip-head"
 		weight="20"
-		defense="1"
-		max-per-slot="1">
+		defense="1">
 		<sprite>head-lamafia-hat.xml</sprite>
 	</item>
 	<item id="3036"
 		image="armor-head-bordado-f.png"
 		name="Boné Amarelo Bordado"
 		description="Um boné amarelo bordado com a letra F. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="30"
-		defense="5"
-		max-per-slot="1">
+		defense="5">
 		<sprite>head-bordado-f.xml</sprite>
 	</item>
 	<item id="3037"
 		image="armor-head-bordado-l.png"
 		name="Boné Verde Bordado"
 		description="Um boné verde bordado com a letra L. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="30"
-		defense="5"
-		max-per-slot="1">
+		defense="5">
 		<sprite>head-bordado-l.xml</sprite>
 	</item>
 	<item id="3038"
 		image="armor-head-bordado-m.png"
 		name="Boné Vermelho Bordado"
 		description="Um boné vermelho bordado com a letra M. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="30"
-		defense="5"
-		max-per-slot="1">
+		defense="5">
 		<sprite>head-bordado-m.xml</sprite>
 	</item>
 	<item id="3039"
 		image="armor-head-bordado-p.png"
 		name="Boné Azul Bordado"
 		description="Um boné azul bordado com a letra P. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="30"
-		defense="5"
-		max-per-slot="1">
+		defense="5">
 		<sprite>head-bordado-p.xml</sprite>
 	</item>
 	<item id="3040"
 		image="armor-head-gorro-couro.png"
 		name="Gorro de couro de Cobra"
 		description="Um gorro feito de couro de Cobra. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="75"
-		defense="10"
-		max-per-slot="1">
+		defense="6">
 		<sprite>head-gorro-couro.xml</sprite>
 	</item>
 	<item id="3041"
 		image="armor-head-gorro-couro2.png"
 		name="Gorro de couro de Cobra da Grama"
 		description="Um gorro feito de couro de Cobra da Grama. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="75"
-		defense="10"
-		max-per-slot="1">
+		defense="6">
 		<sprite>head-gorro-couro2.xml</sprite>
 	</item>
 	<item id="3042"
 		image="armor-head-gorro-cerebro.png"
 		name="Gorro Cérebro"
 		description="Um divertido gorro que parece expor seu cérebro. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="35"
-		defense="5"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-gorro-cerebro.xml</sprite>
 	</item>
 	<item id="3043"
 		image="armor-head-gorro-duende.png"
 		name="Gorro dos Duendes do Natal"
 		description="Um gorro usado por duendes do Natal. (presente do Papai Noel)"
+		effect=""
 		type="equip-head"
 		weight="15"
-		defense="2"
-		max-per-slot="1">
+		defense="2">
 		<sprite>head-gorro-duende.xml</sprite>
 	</item>
 	<item id="3044"
@@ -4524,20 +4498,20 @@
 		image="armor-head-masc-ninja.png"
 		name="Máscara Ninja"
 		description="Mascara para que não reconheçam seu rosto."
+		effect=""
 		type="equip-head"
 		weight="15"
-		defense="3"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-masc-ninja.xml</sprite>
 	</item>
 	<item id="3050"
 		image="armor-head-donatecap2010.png"
 		name="Boné Doador 2010"
 		description="Símbolo dos doadores ao TMW-Brasil em 2010."
+		effect=""
 		type="equip-head"
 		weight="15"
-		defense="3"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-donatecap2010.xml</sprite>
 	</item>
 	<item id="3051"
@@ -4661,39 +4635,41 @@
 	<item id="3065"
 		image="armor-head-bruxa.png"
 		name="Chapéu Mágico"
-		description="Chapéu de quem tem apitidão mágica."
+		description="Chapéu de quem tem aptidão mágica."
+		effect=""
 		type="equip-head"
 		weight="25"
-		defense="4"
-		max-per-slot="1">
+		defense="4">
 		<sprite>head-bruxa.xml</sprite>
 	</item>
 	<item id="3066"
 		image="armor-head-masc-ninja2.png"
 		name="Máscara Ninja Estilizada"
 		description="Mascara Estilizada para que não reconheçam seu rosto."
+		effect=""
 		type="equip-head"
 		weight="15"
-		defense="3"
-		max-per-slot="1">
+		defense="3">
 		<sprite>head-masc-ninja2.xml</sprite>
 	</item>
 	<item id="3067"
 		image="armor-head-admcap.png"
 		name="Boné ADM"
 		description="Boné dos Administradores."
+		effect=""
 		type="equip-head"
-		defense="5"
-		weight="10">
+		weight="10"
+		defense="5">
 		<sprite>head-admcap.xml</sprite>
 	</item>
 	<item id="3068"
 		image="armor-head-aureola-barba.png"
 		name="Barba com Auréola"
-		description="Hat usado por São Pedro"
+		description="Para você se disfarçar de anjo."
+		effect=""
 		type="equip-head"
-		defense="5"
-		weight="10">
+		weight="10"
+		defense="5">
 		<sprite>head-aureola-barba.xml</sprite>
 	</item>
 	<item id="3069"
@@ -4707,10 +4683,10 @@
 		image="armor-head-pinkiehat.png|W:#70003f,ffbfe3"
 		name="Haste Roxa"
 		description="Um argradin de Terezinha, mulher do cumpade Chico."
+		effect=""
 		type="equip-head"
 		weight="5"
-		defense="1"
-		max-per-slot="1">
+		defense="1">
 		<sprite>head-pinkiehat.xml|#70003f,ffbfe3</sprite>
 	</item>
 	<item id="3071"
@@ -4847,23 +4823,21 @@
 	<item id="3092"
 		image="armor-head-fairy.png"
 		name="Gorro da Floresta"
-		description="Gorro usado por aqueles que vivem na floresta."
-		effect="Defesa+6"
+		description="Gorro especial usado por aqueles que vivem na floresta."
+		effect=""
 		type="equip-head"
 		weight="25"
-		defense="6"
-		max-per-slot="1">
+		defense="6">
 		<sprite>head-fairy_hat.xml</sprite>
 	</item>
 	<item id="3093"
 		image="armor-head-mascara-flamejante.png"
 		name="Máscara Necromante"
 		description="Máscar em chamas usada por necromantes poderosos."
-		effect="Defesa+25, M.Defesa+15"
+		effect="+15 Defesa Mágica"
 		type="equip-head"
 		weight="25"
-		defense="25"
-		max-per-slot="1">
+		defense="15">
 		<sprite>head-mascara-flamejante.xml</sprite>
 	</item>
 	<item id="3094"
