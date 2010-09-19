@@ -75,58 +75,112 @@
   </object>
  </objectgroup>
  <objectgroup name="Jazidas" width="0" height="0">
-  <object name="jazida1" type="spawn" x="1152" y="2144" width="32" height="32">
+  <object name="jazida1 t1" type="spawn" x="1152" y="2144" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="323"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="1"/>
    </properties>
   </object>
-  <object name="jazida2" type="spawn" x="800" y="1600" width="32" height="32">
+  <object name="jazida2 t1" type="spawn" x="800" y="1600" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="324"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="2"/>
    </properties>
   </object>
-  <object name="jazida3" type="spawn" x="1600" y="1920" width="32" height="32">
+  <object name="jazida3 t1" type="spawn" x="1600" y="1920" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="325"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="3"/>
    </properties>
   </object>
-  <object name="jazida4" type="spawn" x="1664" y="1280" width="32" height="32">
+  <object name="jazida4 t1" type="spawn" x="1664" y="1280" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="326"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="4"/>
    </properties>
   </object>
-  <object name="jazida5" type="spawn" x="1088" y="1312" width="32" height="32">
+  <object name="jazida5 t1" type="spawn" x="1088" y="1312" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="327"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="5"/>
    </properties>
   </object>
-  <object name="jazida6" type="spawn" x="1920" y="2400" width="32" height="32">
+  <object name="jazida6 t1" type="spawn" x="1920" y="2400" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="328"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="6"/>
    </properties>
   </object>
-  <object name="jazida7" type="spawn" x="2272" y="1664" width="32" height="32">
+  <object name="jazida7 t1" type="spawn" x="2272" y="1664" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="329"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="7"/>
    </properties>
   </object>
-  <object name="jazida8" type="spawn" x="1984" y="1856" width="32" height="32">
+  <object name="jazida8 t1" type="spawn" x="1984" y="1856" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="330"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="8"/>
    </properties>
   </object>
-  <object name="jazida9" type="spawn" x="1984" y="1408" width="32" height="32">
+  <object name="jazida9 t1" type="spawn" x="1984" y="1408" width="32" height="32">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="331"/>
+    <property name="grupo" value="t1"/>
+    <property name="jazida" value="9"/>
+   </properties>
+  </object>
+  <object name="jazida1 t2" type="spawn" x="704" y="1888" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="1"/>
+   </properties>
+  </object>
+  <object name="jazida2 t2" type="spawn" x="1536" y="1600" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="2"/>
+   </properties>
+  </object>
+  <object name="jazida3 t2" type="spawn" x="896" y="992" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="3"/>
+   </properties>
+  </object>
+  <object name="jazida4 t2" type="spawn" x="1952" y="768" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="4"/>
+   </properties>
+  </object>
+  <object name="jazida5 t2" type="spawn" x="2592" y="704" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="5"/>
+   </properties>
+  </object>
+  <object name="jazida6 t2" type="spawn" x="2336" y="2528" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="6"/>
+   </properties>
+  </object>
+  <object name="jazida7 t2" type="spawn" x="2144" y="2240" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="7"/>
+   </properties>
+  </object>
+  <object name="jazida8 t2" type="spawn" x="2304" y="1856" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="8"/>
+   </properties>
+  </object>
+  <object name="jazida9 t2" type="spawn" x="2144" y="1280" width="32" height="32">
+   <properties>
+    <property name="grupo" value="t2"/>
+    <property name="jazida" value="9"/>
    </properties>
   </object>
  </objectgroup>
