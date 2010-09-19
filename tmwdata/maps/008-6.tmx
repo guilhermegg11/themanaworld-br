@@ -11,7 +11,7 @@
  <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset firstgid="131" name="cave X2" tilewidth="32" tileheight="64">
+ <tileset firstgid="131" name="Cave X2" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/cave_x2.png"/>
  </tileset>
  <tileset firstgid="147" name="Woodland" tilewidth="32" tileheight="32">
