@@ -6,7 +6,9 @@ import java.util.List;
 public class Mob implements Comparable<Mob>{
 
 	private int id = -1;
+	private String grupo; //< Uso indevidual
 	private List<Object> scripts = new ArrayList<Object>();
+	private List<MobSpawn> spawns = new ArrayList<MobSpawn>(); //< Uso genérico
 
 	public Mob() {}
 
@@ -15,9 +17,11 @@ public class Mob implements Comparable<Mob>{
 	}
 
 	public int compareTo(Mob mob) {
-		if( getId()<mob.getId() ) return -1;  
-		else if( getId()>mob.getId() ) return +1;  
-		else return 0;
+		return getIdGrupo().compareTo(mob.getIdGrupo());
+	}
+
+	public String getIdGrupo(){
+		return id + (grupo!=null&&!grupo.equals("") ? "_"+grupo : "");
 	}
 
 	public int getId() {
@@ -32,10 +36,8 @@ public class Mob implements Comparable<Mob>{
 		return scripts;
 	}
 
-	static public MobContagem paraMobContagem(Object obj){
-		if(obj instanceof MobContagem)
-			return (MobContagem) obj;
-		return null;
+	public List<MobSpawn> getSpawns() {
+		return spawns;
 	}
 
 	static public String paraString(Object obj){
@@ -48,6 +50,14 @@ public class Mob implements Comparable<Mob>{
 		if(obj instanceof MobCallsub)
 			return (MobCallsub) obj;
 		return null;
+	}
+
+	public String getGrupo() {
+		return grupo;
+	}
+
+	public void setGrupo(String grupo) {
+		this.grupo = grupo;
 	}
 
 }

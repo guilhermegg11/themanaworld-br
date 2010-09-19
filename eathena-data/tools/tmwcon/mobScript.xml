@@ -8,18 +8,7 @@
 	set %flag%, @flag;
 	</script>
 
-	<script id="script">// Um script setado com um id... %valor%...</script>
-
-	<script></script>
-
 	<monstro id="1018" nome="Trasgo Rosa">
-		<script>//- maneira antiga:</script>
-		<contagem
-			callsub="_MOBS_trasgo_antigo"
-			return="QUEST_trasgo!=8"
-			max="35" var_mobs="MOBS_trasgo" var_flag="@MOBS_trasgo"
-		/>
-		<script>//- maneira nova:</script>
 		<callsub label="_MOBS_trasgo">
 			<gerar_label script="callfunc_mobContagem">
 				<var id="%return%" valor="QUEST_trasgo!=8"/>
@@ -30,18 +19,6 @@
 		</callsub>
 	</monstro>
 
-	<monstro id="1019" nome="?">
-		<script>//- O mesmo label pode ser chamado por outro.</script>
-		<script>//- Exemplo de uso: Pontos de monstro apenas para: 'Jack O', Morte e 'Dragão Verde'</script>
-		<callsub label="_MOBS_trasgo" args="1, 2, 3"/>
-		<script>//- Outra sugestão é chamar uma função:</script>
-		<script>//- callfunc "mobPointsEspecial", 1, 2, 3;</script>
-		<gerar_script script="script">
-			<var id="%valor%" valor="(posso trocar %valor% por qualquer coisa)... %de novo%"/>
-			<var id="%de novo%" valor="(posso vazer isso várias vezes)"/>
-		</gerar_script>
-	</monstro>
-
 	<!-- ==================== Scripts das Jazidas ==================== -->
 
 	<script id="callfunc_minerarJadiza">
@@ -49,7 +26,8 @@
 	</script>
 
 	<monstro id="1325" nome="Jazida de Cobre">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="120"/>
+		<spawn grupos="asdf,t1" tempo_spawn="0" tempo_morte="120"/>
+		<spawn grupos="qwer,t2" tempo_spawn="0" tempo_morte="240"/>
 		<callsub label="_jazida1_Cobre">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Cobre"/>
@@ -57,7 +35,8 @@
 		</callsub>
 	</monstro>
 	<monstro id="1326" nome="Jazida de Chumbo">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="120"/>
+		<spawn grupos="t1" tempo_spawn="0" tempo_morte="120"/>
+		<spawn grupos="t2" tempo_spawn="0" tempo_morte="240"/>
 		<callsub label="_jazida2_Chumbo">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Chumbo"/>
@@ -66,7 +45,8 @@
 	</monstro>
 
 	<monstro id="1327" nome="Jazida de Estanho">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="180"/>
+		<spawn grupos="t1" tempo_spawn="0" tempo_morte="180"/>
+		<spawn grupos="t2" tempo_spawn="0" tempo_morte="360"/>
 		<callsub label="_jazida3_Estanho">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Estanho"/>
@@ -75,7 +55,8 @@
 	</monstro>
 
 	<monstro id="1328" nome="Jazida de Prata">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="180"/>
+		<spawn grupos="t1" tempo_spawn="0" tempo_morte="180"/>
+		<spawn grupos="t2" tempo_spawn="0" tempo_morte="360"/>
 		<callsub label="_jazida4_Prata">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Prata"/>
@@ -84,7 +65,8 @@
 	</monstro>
 
 	<monstro id="1329" nome="Jazida de Ouro">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="240"/>
+		<spawn grupos="t1" tempo_spawn="0" tempo_morte="240"/>
+		<spawn grupos="t2" tempo_spawn="0" tempo_morte="480"/>
 		<callsub label="_jazida5_Ouro">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Ouro"/>
@@ -93,7 +75,8 @@
 	</monstro>
 
 	<monstro id="1330" nome="Jazida de Platina">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="240"/>
+		<spawn grupos="t1" tempo_spawn="0" tempo_morte="240"/>
+		<spawn grupos="t2" tempo_spawn="0" tempo_morte="480"/>
 		<callsub label="_jazida6_Platina">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Platina"/>
@@ -102,7 +85,8 @@
 	</monstro>
 
 	<monstro id="1331" nome="Jazida de Iridio">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="300"/>
+		<spawn grupos="t1" tempo_spawn="0" tempo_morte="300"/>
+		<spawn grupos="t2" tempo_spawn="0" tempo_morte="600"/>
 		<callsub label="_jazida7_Iridio">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Iridio"/>
@@ -111,7 +95,8 @@
 	</monstro>
 
 	<monstro id="1332" nome="Jazida de Titanio">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="300"/>
+		<spawn grupos="t1" tempo_spawn="0" tempo_morte="300"/>
+		<spawn grupos="t2" tempo_spawn="0" tempo_morte="600"/>
 		<callsub label="_jazida8_Titanio">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Titanio"/>
@@ -120,7 +105,8 @@
 	</monstro>
 
 	<monstro id="1333" nome="Jazida de Diamante">
-		<span grupo="jazidas" tempo_spawn="0" tempo_morte="360"/>
+		<spawn grupos="t1" tempo_spawn="0" tempo_morte="360"/>
+		<spawn grupos="t2" tempo_spawn="0" tempo_morte="720"/>
 		<callsub label="_jazida9_Diamante">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Diamante"/>

@@ -8,10 +8,10 @@ public class MobCallsub implements Comparable<Object> {
 	public MobCallsub() {}
 
 	public int compareTo(Object obj) {
-		if( obj instanceof MobContagem )
-			return getCallsub().compareTo( ((MobContagem)obj).getCallsub() );
-		else if( obj instanceof MobCallsub )
+		if( obj instanceof MobCallsub )
 			return getCallsub().compareTo( ((MobCallsub)obj).getCallsub() );
+		else if( obj instanceof String )
+			return getCallsub().compareTo( (String)obj );
 		return 0;
 	}
 

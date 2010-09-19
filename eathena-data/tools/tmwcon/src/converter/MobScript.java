@@ -38,7 +38,7 @@ public class MobScript {
 		// pega todos os elementos 'script' do XML ====================
 		NodeList nl = elem.getElementsByTagName("script");
 
-		// percorre cada elemento 'monstro' encontrado
+		// percorre cada elemento 'script' encontrado
 		for( int i=0; i<nl.getLength(); i++ ) {
 			Element tag = (Element) nl.item(i);
 
@@ -66,24 +66,50 @@ public class MobScript {
 				if( nd2.getNodeType()!=Node.ELEMENT_NODE)
 					continue;
 				Element tag = (Element) nd2;
-				if( tag.getNodeName().equals("contagem") ){
-					popularContagem(mob, tag, mob.getId());
-				} else if( tag.getNodeName().equals("callsub") ){
-					popularCallsub(mob, tag);
-				} else if( tag.getNodeName().equals("script") ){
-					popularScript(mob, tag);
-				} else if( tag.getNodeName().equals("gerar_script") ){
-					try {
+				try {
+					if( tag.getNodeName().equals("spawn") ){
+						popularSpawn(mob, tag);
+					} else if( tag.getNodeName().equals("callsub") ){
+						popularCallsub(mob, tag);
+					} else if( tag.getNodeName().equals("script") ){
+						popularScript(mob, tag);
+					} else if( tag.getNodeName().equals("gerar_script") ){
 						popularGerarScript(mob, tag);
-					} catch (Exception e) {
-						e.printStackTrace();
 					}
+				} catch (Exception e) {
+					e.printStackTrace();
 				}
 			}
 
 			mobs.put(mob.getId(), mob);
 		 }
 
+	}
+
+	private void popularSpawn(Mob mob, Element tag) {
+		MobSpawn spawn = new MobSpawn();
+		spawn.settSpawn( getAtributoInteger(tag, "tempo_spawn", null) );
+		spawn.settMorte( getAtributoInteger(tag, "tempo_morte", null) );
+
+		String str;
+		String[] strs;
+		int i;
+
+		str = getAtributo(tag, "grupos", null);
+		if(str!=null && !str.equals("")) {
+			strs = str.split("\\,");
+			for(i=0; i<strs.length; i++){
+				spawn.getGrupos().add(strs[i]);
+			}
+		}
+		str = getAtributo(tag, "mapas", null);
+		if(str!=null && !str.equals("")) {
+			strs = str.split("\\,");
+			for(i=0; i<strs.length; i++){
+				spawn.getGrupos().add(strs[i]);
+			}
+		}
+		mob.getSpawns().add(spawn);
 	}
 
 	private void popularCallsub(Mob mob, Element tag) {
@@ -185,17 +211,18 @@ public class MobScript {
 	}
 
 	/**
-	 * Popula um objeto MobContagem com os dados da tag XML e insere na lista do objeto Mob.
+	 * Retorna uma propriedade da tag XML como Integer.
+	 * @param elem Tag XML do tipo Node.ELEMENT_NODE
+	 * @param atributo O nome do atributo
+	 * @param padrao Valor padrão retornado caso a atributo não exista
 	 */
-	private void popularContagem(Mob mob, Element tag, int idMob) {
-		MobContagem cont = new MobContagem();
-		cont.setIdMob(idMob);
-		cont.setCallsub( getAtributo(tag, "callsub", "?") );
-		cont.setReturn( getAtributo(tag, "return", "?") );
-		cont.setMax( getAtributo(tag, "max", 0) );
-		cont.setVarMobs( getAtributo(tag, "var_mobs", "?") );
-		cont.setVarFlag( getAtributo(tag, "var_flag", "?") );
-		mob.getScripts().add(cont);
+	static public Integer getAtributoInteger(Element elem, String atributo, Integer padrao){
+		Integer num = padrao;
+		try{
+			num = Integer.parseInt( elem.getAttribute(atributo) );
+		} catch(Exception e){}
+
+		return num;
 	}
 
 	/**
