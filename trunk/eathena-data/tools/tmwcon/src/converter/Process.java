@@ -89,26 +89,47 @@ public class Process {
 		out.printf("%s.gat,%d,%d\twarp\t%s\t%d,%d,%s.gat,%d,%d\n", map, shape[0], shape[1], name, shape[2], shape[3], dest, x, y);
 	}
 
-	private static Mob handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props) {
+	private static Mob handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props, MobScript mobScript) {
 		if (out == null) return new Mob(-1);
 		int mob = getProp(props, "monster_id", -1);
-		if (mob < 0) return new Mob(-1);
-		mob += 1002;
-		int max = getProp(props, "max_beings", 1);
-		int time1 = getProp(props, "eA_spawn", 0);
-		int time2 = getProp(props, "eA_death", 0);
-		int[] shape = resolveBounds(bounds, false);
-		System.out.printf("Usable mob found: %s (%d)\n", name, mob);
-		out.printf("%s.gat,%d,%d,%d,%d\tmonster\t%s\t%d,%d,%d,%d,Mob%s::On%d\n", map, shape[0], shape[1], shape[2], shape[3], name, mob, max, time1, time2, map, mob);
+		int jazida = getProp(props, "jazida", -1);
+		if (mob<0 && jazida<0) return new Mob(-1);
+		if(mob>=0)
+			mob += 1002;
+		else
+			mob = jazida+1324;
 
+		Integer tSpawn = null;
+		Integer tMorte = null;
 		Mob retMob = new Mob(mob);
+		retMob.setGrupo( getProp(props, "grupo", "") );
+
+		Mob mob2 = mobScript.getMobs().get(mob);
+		if(mob2!=null){
+			for( MobSpawn spawn : mob2.getSpawns() ){
+				if(spawn.getGrupos().contains( retMob.getGrupo() )){
+					if(tSpawn==null)
+						tSpawn = spawn.gettSpawn();
+					if(tMorte==null)
+						tMorte = spawn.gettMorte();
+				}
+			}
+		}
+
+		int max = getProp(props, "max_beings", 1);
+		int time1 = getProp(props, "eA_spawn", (tSpawn!=null?tSpawn*1000:0) );
+		int time2 = getProp(props, "eA_death", (tMorte!=null?tMorte*1000:0) );
+		int[] shape = resolveBounds(bounds, false);
+		System.out.printf("Usable mob found: %s (%d) grupo:%s\n", name, mob, retMob.getGrupo());
+		out.printf("%s.gat,%d,%d,%d,%d\tmonster\t%s\t%d,%d,%d,%d,Mob%s::On%s\n", map, shape[0], shape[1], shape[2], shape[3], name, mob, max, time1, time2, map, retMob.getIdGrupo());
+
 		String script = getProp(props, "script", null);
 		if(script!=null)
 			retMob.getScripts().add(script);
 		return retMob;
 	}
 
-    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs) {
+    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs, MobScript mobScript) {
         if (mo == null) return;
         String name = mo.getName();
         String type = mo.getType();
@@ -118,16 +139,16 @@ public class Process {
         if (type.equalsIgnoreCase("warp")) {
             handleWarp(warpOut, map, name, bounds, props);
         } else if (type.equalsIgnoreCase("spawn")) {
-            mobs.add(handleMob(mobOut, map, name, bounds, props));
+            mobs.add(handleMob(mobOut, map, name, bounds, props, mobScript));
         }
     }
 
-    private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs) {
+    private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs, MobScript mobScript) {
         MapObject mo;
         while (objs.hasNext()) {
             mo = objs.next();
             if (mo == null) continue;
-            processObject(mo, map, warpOut, mobOut, mobs);
+            processObject(mo, map, warpOut, mobOut, mobs, mobScript);
         }
     }
 
@@ -176,10 +197,10 @@ public class Process {
 		mobOut.printf("//\n\n");
 
         TreeSet<Mob> mobs = new TreeSet<Mob>();
-        processObjects(map.getObjects(), name, warpOut, mobOut, mobs);
+        processObjects(map.getObjects(), name, warpOut, mobOut, mobs, mobScript);
         for (MapLayer layer : map) {
             if (layer instanceof ObjectGroup) {
-                processObjects(((ObjectGroup) layer).getObjects(), name, warpOut, mobOut, mobs);
+                processObjects(((ObjectGroup) layer).getObjects(), name, warpOut, mobOut, mobs, mobScript);
             }
         }
 
@@ -188,7 +209,6 @@ public class Process {
 
         HashMap<Integer, Mob> hash = mobScript.getMobs();
         TreeSet<Object> lCont = new TreeSet<Object>();
-		MobContagem cont;
 		MobCallsub sub;
 		String script;
 
@@ -196,7 +216,7 @@ public class Process {
 		mobOut.printf("\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n\n", name);
 		for( Mob mob : mobs ) {
 			if( mob.getId()==-1) continue;
-			mobOut.printf("On%d:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob.getId(), mob.getId());
+			mobOut.printf("On%s:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob.getIdGrupo(), mob.getId());
 			Mob mob2 = hash.get(mob.getId());
 			if(mob2!=null) {
 				for( Object obj : mob2.getScripts() ) {
@@ -209,10 +229,6 @@ public class Process {
 							mobOut.printf("\tcallsub %s;\n", sub.getCallsub());
 						if(lCont.contains(sub)==false)
 							lCont.add(sub);
-					} else if( (cont=Mob.paraMobContagem(obj))!=null ){
-						mobOut.printf("\tcallsub %s;\n", cont.getCallsub());
-						if(lCont.contains(cont)==false)
-							lCont.add(cont);
 					}
 				}
 			}
@@ -230,13 +246,6 @@ public class Process {
 				script = mobScript.getCallsubs().get(sub.getCallsub());
 				if(script!=null)
 					mobOut.printf("%s\n\n", script);
-			} else if( (cont=Mob.paraMobContagem(obj))!=null ){
-				mobOut.printf("%s:\n", cont.getCallsub());
-				mobOut.printf("\tif(%s) return;\n", cont.getReturn());
-				mobOut.printf("\tcallfunc \"mobContagem\", %d, %s, %s;\n", cont.getMax(), cont.getVarMobs(), cont.getVarFlag());
-				mobOut.printf("\tset %s, @mobs;\n", cont.getVarMobs());
-				mobOut.printf("\tset %s, @flag;\n", cont.getVarFlag());
-				mobOut.printf("\treturn;\n\n");
 			}
 		}
 		mobOut.printf("}\n");
