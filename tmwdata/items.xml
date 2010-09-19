@@ -69,7 +69,7 @@
 	</item>
 
 	<item id="16">
-<!--		<sprite>weapon-dagger.xml</sprite>-->
+<!--		<sprite>weapon-dagger-attack.xml</sprite>-->
 	</item>
 
 	<!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
@@ -81,7 +81,7 @@
 			arquivo fora do item.xml
 	 -->
 	<item id="30" type="weaponsprite" weapon_type="1">
-		<sprite>weapon-dagger.xml</sprite>
+		<sprite>weapon-dagger-attack.xml</sprite>
 		<sound event="strike">short-sword-miss1.ogg</sound>
 		<sound event="hit">short-sword-hit1.ogg</sound>
 	</item>
@@ -93,7 +93,7 @@
 		<sprite>weapon-scythe2.xml</sprite>
 	</item>
 	<item id="33" type="weaponsprite" weapon_type="1">
-		<sprite>weapon-dagger.xml</sprite>
+		<sprite>weapon-dagger-attack.xml</sprite>
 		<sound event="strike">short-sword-miss1.ogg</sound>
 		<sound event="hit">short-sword-hit1.ogg</sound>
 	</item>
@@ -281,19 +281,9 @@
 		description="Uma simples adaga."
 		effect="+15 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="1"
-		weight="200"
 		weapon-type="knife"
-		attack-min="5"
-		attack-delta="10"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32"
-		attack-angle="135"
-		max-per-slot="1">
-		<sprite>weapon-dagger.xml</sprite>
-		<sound event="strike">short-sword-miss1.ogg</sound>
-		<sound event="hit">short-sword-hit1.ogg</sound>
+		weight="200">
+		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 	<item id="522"
 		image="weapon-dagger-sharpknife.png"
@@ -301,17 +291,11 @@
 		description="Uma faca realmente afiada. Cuidado para não se ferir!"
 		effect="+10 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="1"
-		weight="150"
-		max-per-slot="1"
-		weapon-type="knife"
-		attack-min="8"
-		attack-delta="2"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32"
-		attack-angle="135"
-		view="521"/>
+		weapon_type="knife"
+		weight="150">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+
 	<item id="523"
 		image="armor-chest-leathershirt.png"
 		name="Camisa de Couro"
@@ -447,18 +431,10 @@
 		description="Uma pequena, porém afiada espada."
 		effect="+100 Dano, 1 Range"
 		type="equip-1hand"
-		weapon_type="2"
-		weight="2000"
-		slot ="0"
-		weapon-type="sword"
-		attack-min="20"
-		attack-delta="30"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32"
-		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		weapon_type="sword"
+		weight="2000">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="537"
 		image="generic-treasurekey.png"
 		name="Chave do Tesouro"
@@ -669,8 +645,10 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+
 	<item id="562"
 		image="use-food-chickenleg.png"
 		name="Coxa de Frango"
@@ -746,11 +724,10 @@
 		description="Adaga que matou o mafioso casal de ladrões de banco."
 		effect="+90 Dano, +10 Agilidade, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="2"
 		weapon-type="knife"
-		weight="450"
-		max-per-slot="1"
-		view="521"/>
+		weight="450">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="571"
 		image="weapon-dagger-setzer.png"
 		name="Setzer"
@@ -758,10 +735,9 @@
 		effect="+110 Dano, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="knife"
-		weight="900"
-		max-per-slot="1"
-		weapon_type="2"
-		view="521"/>
+		weight="900">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="572"
 		image="weapon-sword-scimitar.png"
 		name="Scimitar"
@@ -769,17 +745,19 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="573"
 		image="weapon-sword-falchion.png"
 		name="Falchion"
 		description="Uma pesada espada de um fio, feita para ser usada com uma mão."
-		effect="??? Damage, ??? Range"
+		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="574"
 		image="weapon-polearm-scorpion.png"
 		name="Lança Rei Escorpião"
@@ -807,8 +785,9 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="577"
 		image="weapon-thrown-bonedarts.png"
 		name="Dardos de osso"
@@ -825,17 +804,19 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="579"
 		image="weapon-dagger-rockknive.png"
 		name="Rock Knife"
 		description="Uma faca forjada com uma resistente pedra."
 		effect="+300 Dano, 1 Alcance, Bidestra"
-		type="equip-1hand"
+		type="equip-2hand"
 		weapon-type="knife"
-		weight="3000"
-		max-per-slot="1"/>
+		weight="3000">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="580"
 		image="weapon-staff-staffoflife.png"
 		name="Cajado da Vida"
@@ -879,16 +860,16 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="585"
 		image="armor-hands-scarabarmlet.png"
 		name="Pulseira Escaravelho"
 		description="Uma pulseira com a forma de um escaravelho."
 		effect=""
 		type="equip-arms"
-		weight="200"
-		max-per-slot="1"/>
+		weight="200"/>
 	<item id="586"
 		image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
 		name="Short de Algodão"
@@ -907,8 +888,9 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="588"
 		image="weapon-sword-bastardsword.png"
 		name="Espada bastarda"
@@ -934,8 +916,9 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="591"
 		image="weapon-sword-longsword.png"
 		name="Espada Longa"
@@ -943,8 +926,9 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="592"
 		image="weapon-dagger-stiletto.png"
 		name="Stiletto"
@@ -952,8 +936,9 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="knife"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="593"
 		image="weapon-sword-rapier.png"
 		name="Rapier"
@@ -961,8 +946,9 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="594"
 		image="weapon-polearm-spear.png"
 		name="Lança"
@@ -1015,8 +1001,9 @@
 		effect=""
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		max-per-slot="1"/>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="600"
 		image="armor-shield-britshield.png"
 		name="Escudo Bretão"
@@ -1096,7 +1083,7 @@
 		image="weapon-mace-club.png"
 		name="Porrete"
 		description="Um pesado porrete de madeira."
-		effect="??? Damage, ??? Range"
+		effect=""
 		type="equip-1hand"
 		weapon-type="mace"
 		weight="1"
@@ -2635,19 +2622,12 @@
 		image="weapon-dagger-knive.png"
 		name="Faca"
 		description="Uma pequena faca. A arma perfeita para um iniciante."
-		effect="+5 Dano, 1 Range"
+		effect="+5 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="1"
-		weight="120"
-		attack-min="0"
-		attack-delta="5"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32"
-		attack-angle="135"
-		max-per-slot="1"
-		weapon-type="knife"
-		view="521"/>
+		weapon_type="knife"
+		weight="120">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="1202"
 		image="armor-chest-cottonshirt.png|W:#A4B2B2,FFFFFF"
 		name="Camisa de Algodão"
@@ -2766,17 +2746,8 @@
 		effect="+1 Damage, 1 Range"
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1"
-		attack-min="0"
-		attack-delta="1"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32"
-		attack-angle="135"
-		max-per-slot="1">
-		<sprite>weapon-dagger.xml</sprite>
-		<sound event="strike">short-sword-miss1.ogg</sound>
-		<sound event="hit">short-sword-hit1.ogg</sound>
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 	<item id="1216"
 		image="armor-head-mouboohead.png"
@@ -4369,46 +4340,40 @@
 		image="weapon-dagger-rolo-macarrao.png"
 		name="Rolo de Macarrão"
 		description="Não chega a ser uma arma, mas é muito útil."
-		effect="Dano +30"
+		effect="Dano +30, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="knife"
-		weight="300"
-		weapon_type="2"
-		max-per-slot="1"
-		view="521"/>
+		weight="300"/>
 	<item id="3030"
 		image="weapon-dagger-facao.png"
 		name="Facão"
 		description="Um baita de um facão. Esta sim é uma boa arma."
-		effect="Dano +50"
+		effect="Dano +50, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="knife"
-		weight="400"
-		weapon_type="2"
-		max-per-slot="1"
-		view="521"/>
+		weight="400">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3031"
 		image="weapon-dagger-cutelo.png"
 		name="Cutelo Cego"
 		description="Cutelo de cortar osso. Não oferece muito risco, pois está cego."
-		effect="Dano +40"
+		effect="Dano +40, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="knife"
-		weight="500"
-		weapon_type="2"
-		max-per-slot="1"
-		view="521"/>
+		weight="500">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3032"
 		image="weapon-dagger-cutelo.png"
 		name="Cutelo Afiado"
 		description="Cutelo de cortar osso. Após afiado se tornou uma arma perigosa."
-		effect="Dano +65"
+		effect="Dano +65, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="knife"
-		weight="500"
-		weapon_type="2"
-		max-per-slot="1"
-		view="521"/>
+		weight="500">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3033"
 		image="generic-sementes.png"
 		name="Sementes de Abóbora"
@@ -4581,37 +4546,19 @@
 		description="Espada de madeira usada para treinos."
 		effect="+40 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="2"
-		weight="350"
-		slot="0"
-		weapon-type="sword"
-		attack-min="10"
-		attack-delta="40"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="2"
-		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		weapon_type="sword"
+		weight="350">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3052"
 		image="espada-lider.png"
 		name="Espada Cavaleiro Lider"
 		description="Espada para Cavaleiros Lideres de Recrutas."
 		effect="+65 Dano, 1 Alcance"
 		type="equip-1hand"
-		weight="350"
-		weapon_type="12"
-		weapon-type="staff"
-		attack-min="15"
-		attack-delta="40"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="0"
-		attack-angle="135"
-		max-per-slot="1">
+		weapon_type="sword"
+		weight="350">
 		<sprite>weapon-lidersword.xml</sprite>
-		<sound event="strike">short-sword-miss1.ogg</sound>
-		<sound event="hit">short-sword-hit1.ogg</sound>
 	</item>
 	<item id="3053"
 		image="espada-michael-arcanjo.png"
@@ -4619,108 +4566,56 @@
 		description="Espada do Arcanjo Miguel."
 		effect="+175 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="2"
-		weight="345"
-		slot ="0"
-		weapon-type="sword"
-		attack-min="50"
-		attack-delta="175"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32"
-		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		weapon_type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3054"
 		image="espada-demoniaca.png"
 		name="Espada Demoniaca"
 		description="Espada usada por Demônios."
 		effect="+175 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="2"
-		weight="345"
-		slot ="0"
-		weapon-type="sword"
-		attack-min="50"
-		attack-delta="175"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32" 
-		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		weapon_type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3055"
 		image="espada-kurogane.png"
 		name="Espada de Kurogane"
 		description="Espada com lâmina negra do Guerreiro Kurogane."
 		effect="+200 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="2"
-		weight="320"
-		slot ="0"
-		weapon-type="sword"
-		attack-min="75"
-		attack-delta="200"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32" 
-		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		weapon_type="sword"
+		weight="320">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3056"
 		image="espada-imortal.png"
 		name="Espada dos Imortais"
 		description="Espada usadas por Guerreiro Imortais."
 		effect="+225 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="2"
-		weight="360"
-		slot ="0"
-		weapon-type="sword"
-		attack-min="85"
-		attack-delta="225"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32" 
-		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		weapon_type="sword"
+		weight="360">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3057"
 		image="espada-zambacutou-pedra.png"
 		name="Zambacutou de Pedra"
 		description="Espada de pedra usada na antiguidade contra as montarias adversárias."
 		effect="+160 Dano, 1 Alcance, 2 Mãos"
 		type="equip-2hand"
-		weapon_type="2"
-		weight="2500"
-		slot ="1"
-		weapon-type="sword"
-		attack-min="30"
-		attack-delta="160"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32" 
-		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		weapon_type="sword"
+		weight="2500"/>
 	<item id="3058"
 		image="espada-zambacutou-velha.png"
 		name="Zambacutou Velha"
 		description="Espada Zambacutou velha de partir cavalos."
 		effect="+115 Dano, 1 Alcance, 2 Mãos"
 		type="equip-2hand"
-		weapon_type="2"
-		weight="1200"
-		slot ="1"
-		weapon-type="sword"
-		attack-min="30"
-		attack-delta="115"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="32" 
-		attack-angle="135"
-		max-per-slot="1"
-		view="521"/>
+		weapon_type="sword"
+		weight="1200"/>
 	<item id="3059"
 		image="generic-barra-cobre.png"
 		name="Barra de Cobre"
@@ -4944,21 +4839,11 @@
 		name="Bastão de Madeira"
 		description="Bastão usado por ninjas."
 		effect="+50 Dano, 1 Alcance, Bidestra"
-		type="equip-1hand"
-		weight="100"
-		weapon_type="12"
-		weapon-type="staff"
-		attack-min="15"
-		attack-delta="40"
-		attack-target="multi"
-		attack-shape="cone"
-		attack-range="1"
-		attack-angle="135"
-		max-per-slot="1">
+		type="equip-2hand"
+		weapon_type="staff"
+		weight="100">
 		<sprite>weapon-staff.xml</sprite>
-		<sound event="strike">short-sword-miss1.ogg</sound>
-		<sound event="hit">short-sword-hit1.ogg</sound>
-	</item><!-- Pq esse item só funciona no Cliente TMW e não no cliente ManaPlus? -->
+	</item><!--Pq esse item só funciona no Cliente TMW e não no cliente ManaPlus?Alastrim:Aqui funciona no manaplus-->
 	<item id="3092"
 		image="armor-head-fairy.png"
 		name="Gorro da Floresta"
@@ -5155,38 +5040,28 @@
 	<item id="3110"
 		image="armor-ring-colar-monge.png"
 		name="Colar de Monge"
-		description="Um colar concentração de força usado por monges."
-		effect="Força +3"
+		description="Um colar que simboliza a eterna busca por auto-conhecimento."
+		effect="Inteligência +1"
 		type="equip-ring"
-		weight="200"
-		max-per-slot="1"
-		strength="3"/>
+		weight="200"/>
 	<item id="3111"
 		image="weapon-pick-arqueologo.png"
 		name="Picareta"
 		description="Picareta comum para uso geral em escavações"
-		effect="Dano+60, Alcance 1 "
-		weapon_type="12"
-		weapon-type="staff"
+		effect="Dano +60, Alcance 1 "
 		type="equip-2hand"
-		weight="2000"
-		attack-min="0"
-		attack-delta="75"
-		max-per-slot="1">
+		weapon-type="staff"
+		weight="2000">
 		<sprite>weapon-picareta-arqueologo.xml</sprite>
 	</item>
 	<item id="3112"
 		image="weapon-pick-arqueologo.png"
 		name="Picareta Profissional"
 		description="Picareta profissional usa por Arqueologista em escavações"
-		effect="Dano+80, Alcance 1 "
-		weapon_type="12"
-		weapon-type="staff"
+		effect="Dano +80, Alcance 1 "
 		type="equip-2hand"
-		weight="2000"
-		attack-min="0"
-		attack-delta="75"
-		max-per-slot="1">
+		weapon-type="staff"
+		weight="2000">
 		<sprite>weapon-picareta-arqueologo.xml</sprite>
 	</item>
 </items>
