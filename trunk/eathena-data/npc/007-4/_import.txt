@@ -1,4 +1,5 @@
 map: 007-4.gat
+npc: npc/007-4/_shops.txt
 
 npc: npc/007-4/bau.conf
 npc: npc/007-4/camelia.conf
