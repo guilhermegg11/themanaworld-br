@@ -256,7 +256,7 @@ public class Process {
 					mobOut.printf("%s\n\n", str);
 			}
 		}
-		mobOut.printf("}\n");
+		mobOut.printf("\tend;\n}\n");
 		System.out.println("Finished mob points");
 
         mobOut.flush();
