@@ -40,9 +40,9 @@ public class Mob implements Comparable<Mob>{
 		return spawns;
 	}
 
-	static public String paraString(Object obj){
-		if(obj instanceof String)
-			return (String) obj;
+	static public MobScript paraMobScript(Object obj){
+		if(obj instanceof MobScript)
+			return (MobScript) obj;
 		return null;
 	}
 
