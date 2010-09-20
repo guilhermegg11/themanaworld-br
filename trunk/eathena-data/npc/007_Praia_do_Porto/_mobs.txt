@@ -1,4 +1,7 @@
-// 007 Praia do Porto mobs
+//
+// Monstros do mapa: 007 Praia do Porto
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 007.gat,166,54,24,27	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
 007.gat,169,56,28,28	monster	Flor (5)	1014,5,0,0,Mob007::On1014
@@ -22,3 +25,79 @@
 007.gat,152,100,52,30	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob007::On1011
 007.gat,143,41,18,35	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
 
+007.gat,0,0,0	script	Mob007	-1,{
+
+On1002:
+	set @mobID, 1002;
+	callfunc "MobPoints";
+	callsub _MOBS_verme;
+	break;
+
+On1003:
+	set @mobID, 1003;
+	callfunc "MobPoints";
+	callsub _MOBS_escorpiao;
+	break;
+
+On1008:
+	set @mobID, 1008;
+	callfunc "MobPoints";
+	break;
+
+On1011:
+	set @mobID, 1011;
+	callfunc "MobPoints";
+	break;
+
+On1013:
+	set @mobID, 1013;
+	callfunc "MobPoints";
+	break;
+
+On1014:
+	set @mobID, 1014;
+	callfunc "MobPoints";
+	break;
+
+On1018:
+	set @mobID, 1018;
+	callfunc "MobPoints";
+	callsub _MOBS_trasgo;
+	break;
+
+On1019:
+	set @mobID, 1019;
+	callfunc "MobPoints";
+	break;
+
+On1020:
+	set @mobID, 1020;
+	callfunc "MobPoints";
+	break;
+
+
+//= Callsubs ==========================================================
+
+_MOBS_escorpiao:
+	if(QUEST_praia!=11||QUEST_contamobs<2) return;
+	callfunc "mobContagem", 32, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
+
+_MOBS_trasgo:
+	if(QUEST_trasgo!=8) return;
+	callfunc "mobContagem", 35, MOBS_trasgo, @MOBS_trasgo;
+	set MOBS_trasgo, @mobs;
+	set @MOBS_trasgo, @flag;
+	return;
+
+_MOBS_verme:
+	if(QUEST_praia!=7||QUEST_contamobs<2) return;
+	callfunc "mobContagem", 17, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
+
+	end;
+}

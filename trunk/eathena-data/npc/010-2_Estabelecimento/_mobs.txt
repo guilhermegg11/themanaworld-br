@@ -1,7 +1,10 @@
-// 010-2 Estabelecimento mobs
-
+//
+// Monstros do mapa: 010-2 Estabelecimento
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
 010-2.gat,0,0,0	script	Mob010-2	-1,{
+
 	end;
 }

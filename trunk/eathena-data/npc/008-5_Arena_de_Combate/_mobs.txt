@@ -1,7 +1,10 @@
-// 008-5 Arena de Combate mobs
-
+//
+// Monstros do mapa: 008-5 Arena de Combate
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
 008-5.gat,0,0,0	script	Mob008-5	-1,{
+
 	end;
 }

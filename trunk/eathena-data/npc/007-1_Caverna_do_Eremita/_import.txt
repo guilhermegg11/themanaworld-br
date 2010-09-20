@@ -5,4 +5,3 @@ npc: npc/007-1_Caverna_do_Eremita/warp_secreto.conf
 
 npc: npc/007-1_Caverna_do_Eremita/_mobs.txt
 npc: npc/007-1_Caverna_do_Eremita/_warps.txt
-npc: npc/007-1_Caverna_do_Eremita/_functions.txt

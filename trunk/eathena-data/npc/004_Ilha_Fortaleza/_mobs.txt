@@ -1,6 +1,11 @@
-// 004 Ilha Fortaleza mobs
+//
+// Monstros do mapa: 004 Ilha Fortaleza
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 004.gat,109,86,34,67	monster	Trasgo Rosa (10)	1018,10,0,0,Mob004::On1018
+004.gat,112,65,43,22	monster	Trasgo Roxo (6) [5min]	1312,6,0,300000,Mob004::On1312
+004.gat,118,110,14,21	monster	Trasgo Roxo (4) [5min]	1312,4,0,300000,Mob004::On1312
 004.gat,49,57,57,78	monster	Limo do Mar (16)	1033,16,0,0,Mob004::On1033
 004.gat,47,57,57,74	monster	Limo Alga Verde (10)	1005,10,0,0,Mob004::On1005
 004.gat,82,62,14,22	monster	Verme (5)[45]	1002,5,45000,0,Mob004::On1002
@@ -10,8 +15,84 @@
 004.gat,117,36,55,28	monster	Cogumelo Maligno (8)	1013,8,0,0,Mob004::On1013
 004.gat,119,38,54,25	monster	Cogumelo (6)	1019,6,0,0,Mob004::On1019
 
-004.gat,112,65,43,22	monster	Trasgo Roxo (6) [3min]	1312,6,0,180000,mobTrasgoRoxo::On1312
-004.gat,118,110,14,21	monster	Trasgo Roxo (4) [2min]	1312,4,0,120000,mobTrasgoRoxo::On1312
+004.gat,0,0,0	script	Mob004	-1,{
+
+On1002:
+	set @mobID, 1002;
+	callfunc "MobPoints";
+	callsub _MOBS_verme;
+	break;
+
+On1003:
+	set @mobID, 1003;
+	callfunc "MobPoints";
+	callsub _MOBS_escorpiao;
+	break;
+
+On1004:
+	set @mobID, 1004;
+	callfunc "MobPoints";
+	break;
+
+On1005:
+	set @mobID, 1005;
+	callfunc "MobPoints";
+	break;
+
+On1006:
+	set @mobID, 1006;
+	callfunc "MobPoints";
+	break;
+
+On1013:
+	set @mobID, 1013;
+	callfunc "MobPoints";
+	break;
+
+On1018:
+	set @mobID, 1018;
+	callfunc "MobPoints";
+	callsub _MOBS_trasgo;
+	break;
+
+On1019:
+	set @mobID, 1019;
+	callfunc "MobPoints";
+	break;
+
+On1033:
+	set @mobID, 1033;
+	callfunc "MobPoints";
+	break;
+
+On1312:
+	set @mobID, 1312;
+	callfunc "MobPoints";
+	break;
 
 
+//= Callsubs ==========================================================
 
+_MOBS_escorpiao:
+	if(QUEST_praia!=11||QUEST_contamobs<2) return;
+	callfunc "mobContagem", 32, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
+
+_MOBS_trasgo:
+	if(QUEST_trasgo!=8) return;
+	callfunc "mobContagem", 35, MOBS_trasgo, @MOBS_trasgo;
+	set MOBS_trasgo, @mobs;
+	set @MOBS_trasgo, @flag;
+	return;
+
+_MOBS_verme:
+	if(QUEST_praia!=7||QUEST_contamobs<2) return;
+	callfunc "mobContagem", 17, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
+
+	end;
+}

@@ -1,2 +1,10 @@
-// 005-4_Igreja
+//
+// Monstros do mapa: 005-4 Igreja
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
+
+005-4.gat,0,0,0	script	Mob005-4	-1,{
+
+	end;
+}

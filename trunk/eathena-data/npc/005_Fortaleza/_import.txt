@@ -2,7 +2,6 @@ map: 005.gat
 npc: npc/005_Fortaleza/_mobs.txt
 npc: npc/005_Fortaleza/_warps.txt
 npc: npc/005_Fortaleza/_shops.txt
-npc: npc/005_Fortaleza/_functions.txt
 
 npc: npc/005_Fortaleza/warps_pensao.conf
 //npc: npc/005_Fortaleza/wendy.conf

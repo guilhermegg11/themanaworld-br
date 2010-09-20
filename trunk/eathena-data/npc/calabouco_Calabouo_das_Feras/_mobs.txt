@@ -1,7 +1,10 @@
-// calabouco Calabouço das Feras mobs
-
+//
+// Monstros do mapa: calabouco Calabouço das Feras
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
 calabouco.gat,0,0,0	script	Mobcalabouco	-1,{
+
 	end;
 }

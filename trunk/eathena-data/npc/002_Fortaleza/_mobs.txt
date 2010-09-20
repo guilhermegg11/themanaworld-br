@@ -12,4 +12,5 @@ On1017:
 	callfunc "MobPoints";
 	break;
 
+	end;
 }

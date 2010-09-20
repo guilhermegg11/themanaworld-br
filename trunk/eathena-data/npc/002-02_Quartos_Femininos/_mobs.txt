@@ -1,4 +1,10 @@
-// 002-02_Quartos_Femininos
+//
+// Monstros do mapa: 002-02 Quarto Feminino
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
+002-02.gat,0,0,0	script	Mob002-02	-1,{
 
+	end;
+}

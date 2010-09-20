@@ -1,3 +1,10 @@
-// 002-03_Quartos_Marculinos
+//
+// Monstros do mapa: 002-03 Quarto Masculino
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
+002-03.gat,0,0,0	script	Mob002-03	-1,{
+
+	end;
+}

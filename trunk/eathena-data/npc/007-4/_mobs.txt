@@ -1,7 +1,10 @@
-// 007-4 mobs
-
+//
+// Monstros do mapa: 007-4
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
 007-4.gat,0,0,0	script	Mob007-4	-1,{
+
 	end;
 }
