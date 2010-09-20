@@ -5,8 +5,8 @@
 
 009-2.gat,0,0,0,0	monster	Cobra da Caverna (10)	1021,10,0,0,Mob009-2::On1021
 009-2.gat,0,0,0,0	monster	Morcego (10)	1017,10,0,0,Mob009-2::On1017
-009-2.gat,36,67,1,1	monster	jazida1 t1	1325,1,0,120000,Mob009-2::On1325_t1
-009-2.gat,25,50,1,1	monster	jazida2 t1	1326,1,0,120000,Mob009-2::On1326_t1
+009-2.gat,36,67,1,1	monster	jazida1 t1	1325,1,0,120000,Mob009-2::On1325_t1_x2
+009-2.gat,25,50,1,1	monster	jazida2 t1	1326,1,0,120000,Mob009-2::On1326_t1_x2
 009-2.gat,50,60,1,1	monster	jazida3 t1	1327,1,0,180000,Mob009-2::On1327_t1
 009-2.gat,52,40,1,1	monster	jazida4 t1	1328,1,0,180000,Mob009-2::On1328_t1
 009-2.gat,34,41,1,1	monster	jazida5 t1	1329,1,0,240000,Mob009-2::On1329_t1
@@ -14,8 +14,8 @@
 009-2.gat,71,52,1,1	monster	jazida7 t1	1331,1,0,300000,Mob009-2::On1331_t1
 009-2.gat,62,58,1,1	monster	jazida8 t1	1332,1,0,300000,Mob009-2::On1332_t1
 009-2.gat,62,44,1,1	monster	jazida9 t1	1333,1,0,360000,Mob009-2::On1333_t1
-009-2.gat,22,59,1,1	monster	jazida1 t2	1325,1,0,240000,Mob009-2::On1325_t2
-009-2.gat,48,50,1,1	monster	jazida2 t2	1326,1,0,240000,Mob009-2::On1326_t2
+009-2.gat,22,59,1,1	monster	jazida1 t2	1325,1,0,240000,Mob009-2::On1325_t2_x2
+009-2.gat,48,50,1,1	monster	jazida2 t2	1326,1,0,240000,Mob009-2::On1326_t2_x2
 009-2.gat,28,31,1,1	monster	jazida3 t2	1327,1,0,360000,Mob009-2::On1327_t2
 009-2.gat,61,24,1,1	monster	jazida4 t2	1328,1,0,360000,Mob009-2::On1328_t2
 009-2.gat,81,22,1,1	monster	jazida5 t2	1329,1,0,480000,Mob009-2::On1329_t2
@@ -36,27 +36,31 @@ On1021:
 	callfunc "MobPoints";
 	break;
 
-On1325_t1:
+On1325_t1_x2:
 	set @mobID, 1325;
 	callfunc "MobPoints";
+	set @drop, 2;
 	callsub _jazida1_Cobre;
 	break;
 
-On1325_t2:
+On1325_t2_x2:
 	set @mobID, 1325;
 	callfunc "MobPoints";
+	set @drop, 2;
 	callsub _jazida1_Cobre;
 	break;
 
-On1326_t1:
+On1326_t1_x2:
 	set @mobID, 1326;
 	callfunc "MobPoints";
+	set @drop, 2;
 	callsub _jazida2_Chumbo;
 	break;
 
-On1326_t2:
+On1326_t2_x2:
 	set @mobID, 1326;
 	callfunc "MobPoints";
+	set @drop, 2;
 	callsub _jazida2_Chumbo;
 	break;
 
@@ -148,39 +152,48 @@ On1333_t2:
 //= Callsubs ==========================================================
 
 _jazida1_Cobre:
-	message strcharinfo(0), "Você minerou uma jazida de Cobre";
+	set @minerio, 551;
+	callfunc "minerarJazida";
 	return;
 
 _jazida2_Chumbo:
-	message strcharinfo(0), "Você minerou uma jazida de Chumbo";
+	set @minerio, 552;
+	callfunc "minerarJazida";
 	return;
 
 _jazida3_Estanho:
-	message strcharinfo(0), "Você minerou uma jazida de Estanho";
+	set @minerio, 553;
+	callfunc "minerarJazida";
 	return;
 
 _jazida4_Prata:
-	message strcharinfo(0), "Você minerou uma jazida de Prata";
+	set @minerio, 554;
+	callfunc "minerarJazida";
 	return;
 
 _jazida5_Ouro:
-	message strcharinfo(0), "Você minerou uma jazida de Ouro";
+	set @minerio, 555;
+	callfunc "minerarJazida";
 	return;
 
 _jazida6_Platina:
-	message strcharinfo(0), "Você minerou uma jazida de Platina";
+	set @minerio, 556;
+	callfunc "minerarJazida";
 	return;
 
 _jazida7_Iridio:
-	message strcharinfo(0), "Você minerou uma jazida de Iridio";
+	set @minerio, 557;
+	callfunc "minerarJazida";
 	return;
 
 _jazida8_Titanio:
-	message strcharinfo(0), "Você minerou uma jazida de Titanio";
+	set @minerio, 558;
+	callfunc "minerarJazida";
 	return;
 
 _jazida9_Diamante:
-	message strcharinfo(0), "Você minerou uma jazida de Diamante";
+	set @minerio, 559;
+	callfunc "minerarJazida";
 	return;
 
 }
