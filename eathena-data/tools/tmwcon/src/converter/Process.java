@@ -89,7 +89,7 @@ public class Process {
 		out.printf("%s.gat,%d,%d\twarp\t%s\t%d,%d,%s.gat,%d,%d\n", map, shape[0], shape[1], name, shape[2], shape[3], dest, x, y);
 	}
 
-	private static Mob handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props, MobScript mobScript) {
+	private static Mob handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props, ReadMobScript mobScript) {
 		if (out == null) return new Mob(-1);
 		int mob = getProp(props, "monster_id", -1);
 		int jazida = getProp(props, "jazida", -1);
@@ -129,7 +129,7 @@ public class Process {
 		return retMob;
 	}
 
-    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs, MobScript mobScript) {
+    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript) {
         if (mo == null) return;
         String name = mo.getName();
         String type = mo.getType();
@@ -143,7 +143,7 @@ public class Process {
         }
     }
 
-    private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs, MobScript mobScript) {
+    private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript) {
         MapObject mo;
         while (objs.hasNext()) {
             mo = objs.next();
@@ -162,7 +162,7 @@ public class Process {
         }
     }
 
-    static public String processMap(String name, Map map, PrintWriter summary, MobScript mobScript) {
+    static public String processMap(String name, Map map, PrintWriter summary, ReadMobScript readMobScript) {
         if (name == null) return null;
         if (map == null) return null;
 
@@ -197,44 +197,52 @@ public class Process {
 		mobOut.printf("//\n\n");
 
         TreeSet<Mob> mobs = new TreeSet<Mob>();
-        processObjects(map.getObjects(), name, warpOut, mobOut, mobs, mobScript);
+        processObjects(map.getObjects(), name, warpOut, mobOut, mobs, readMobScript);
         for (MapLayer layer : map) {
             if (layer instanceof ObjectGroup) {
-                processObjects(((ObjectGroup) layer).getObjects(), name, warpOut, mobOut, mobs, mobScript);
+                processObjects(((ObjectGroup) layer).getObjects(), name, warpOut, mobOut, mobs, readMobScript);
             }
         }
 
         warpOut.flush();
         warpOut.close();
 
-        HashMap<Integer, Mob> hash = mobScript.getMobs();
+        HashMap<Integer, Mob> hash = readMobScript.getMobs();
         TreeSet<Object> lCont = new TreeSet<Object>();
 		MobCallsub sub;
-		String script;
+		MobScript script;
+		String str;
 
 		System.out.println("Starting mob points");
 		mobOut.printf("\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n\n", name);
 		for( Mob mob : mobs ) {
 			if( mob.getId()==-1) continue;
 			mobOut.printf("On%s:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob.getIdGrupo(), mob.getId());
+
+			// Stripts genéricos para um determinado id de monstro...
 			Mob mob2 = hash.get(mob.getId());
 			if(mob2!=null) {
 				for( Object obj : mob2.getScripts() ) {
-					if( (script=Mob.paraString(obj))!=null ){
-						mobOut.printf("\t%s\n", script);
+					if( (script=Mob.paraMobScript(obj))!=null ){
+						if( script.contemGrupo(mob.getGrupo()) ){
+							str = script.getScript().replace("%GRUPO%", mob.getGrupo());
+							mobOut.printf("\t%s\n", str);
+						}
 					} else if( (sub=Mob.paraMobCallsub(obj))!=null ){
 						if( sub.getArgs()!=null && !sub.getArgs().equals("") )
 							mobOut.printf("\tcallsub %s, %s;\n", sub.getCallsub(), sub.getArgs());
 						else
 							mobOut.printf("\tcallsub %s;\n", sub.getCallsub());
-						if(lCont.contains(sub)==false)
-							lCont.add(sub);
+						//if(lCont.contains(sub)==false) //< Não precisa deste teste. TreeSet não permite inserir objetos iguais.
+						lCont.add(sub);
 					}
 				}
 			}
+
 			for( Object obj : mob.getScripts() ) {
-				if( (script=Mob.paraString(obj))!=null ){
-					mobOut.printf("\t%s\n", script);
+				if( (script=Mob.paraMobScript(obj))!=null ){
+					// não precisa conferir se script pertence ao grupo
+					mobOut.printf("\t%s\n", script.getScript());
 				}
 			}
 			mobOut.printf("\tbreak;\n\n");
@@ -243,9 +251,9 @@ public class Process {
 			mobOut.printf("\n//= Callsubs ==========================================================\n\n");
 		for( Object obj : lCont ) {
 			if( (sub=Mob.paraMobCallsub(obj))!=null ){
-				script = mobScript.getCallsubs().get(sub.getCallsub());
-				if(script!=null)
-					mobOut.printf("%s\n\n", script);
+				str = readMobScript.getCallsubs().get(sub.getCallsub());
+				if(str!=null)
+					mobOut.printf("%s\n\n", str);
 			}
 		}
 		mobOut.printf("}\n");

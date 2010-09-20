@@ -26,8 +26,10 @@
 	</script>
 
 	<monstro id="1325" nome="Jazida de Cobre">
-		<spawn grupos="asdf,t1" tempo_spawn="0" tempo_morte="120"/>
-		<spawn grupos="qwer,t2" tempo_spawn="0" tempo_morte="240"/>
+		<spawn grupos="t1,t1_x2" tempo_spawn="0" tempo_morte="120"/>
+		<spawn grupos="t2,t2_x2" tempo_spawn="0" tempo_morte="240"/>
+		<script grupos="t2,t2_x2">set @tempo, 2;</script>
+		<script grupos="t1_x2,t2_x2">set @drop, 2;</script>
 		<callsub label="_jazida1_Cobre">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Cobre"/>
@@ -35,8 +37,10 @@
 		</callsub>
 	</monstro>
 	<monstro id="1326" nome="Jazida de Chumbo">
-		<spawn grupos="t1" tempo_spawn="0" tempo_morte="120"/>
-		<spawn grupos="t2" tempo_spawn="0" tempo_morte="240"/>
+		<spawn grupos="t1,t1_x2" tempo_spawn="0" tempo_morte="120"/>
+		<spawn grupos="t2,t2_x2" tempo_spawn="0" tempo_morte="240"/>
+		<script grupos="t2,t2_x2">set @tempo, 2;</script>
+		<script grupos="t1_x2,t2_x2">set @drop, 2;</script>
 		<callsub label="_jazida2_Chumbo">
 			<gerar_label script="callfunc_minerarJadiza">
 				<var id="%jazida%" valor="Chumbo"/>

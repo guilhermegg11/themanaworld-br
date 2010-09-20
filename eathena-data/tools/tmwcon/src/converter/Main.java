@@ -85,7 +85,7 @@ public class Main {
 
         folder = new File("tmwdata/maps/");
 
-        MobScript mobScript = new MobScript();
+        ReadMobScript mobScript = new ReadMobScript();
 		mobScript.carregarXML("mobScript.xml");
 
         Collection<File> tmxs = getTMXFiles(folder);
