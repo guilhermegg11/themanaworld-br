@@ -156,6 +156,7 @@
 
     <monster id="3" name="Limo Alga Verde">
         <sprite>monster-slime.xml|#72982c,ffffff</sprite>
+        <sprite>acessorios/slime-seajelly.xml|#72982c,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
         <drop item="502" percent="2"/>
         <drop item="513" percent="1"/>
@@ -219,6 +220,7 @@
 
     <monster id="5" name="Limo Dourado">
         <sprite>monster-slime.xml|#b47f00,ffffff</sprite>
+        <sprite>acessorios/slime-seajelly.xml|#b47f00,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
         <drop item="534" percent="2"/>
         <drop item="519" percent="1"/>
@@ -242,7 +244,7 @@
 
     <monster id="6" name="Limo Vermelho">
         <sprite>monster-slime.xml|#7e0000,ffffff</sprite>
-        <!--sprite>monster-esqueleto.xml|#7e0000,ffffff</sprite-->
+        <sprite>acessorios/slime-seajelly.xml|#7e0000,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
         <drop item="1201" percent="3"/>
         <drop item="509" percent="1.1"/>
@@ -442,11 +444,15 @@
     </monster>
 
 	<monster id="13" name="Limo Noel">
-		<sprite>monster-slime-santa.xml</sprite>
+       		<sprite>monster-slime.xml|#545166,66A9CD,C2F7FA</sprite>
+        	<sprite>/acessorios/slime-santa.xml</sprite>
+	        <sprite>acessorios/slime-seajelly.xml|#545166,66A9CD,C2F7FA</sprite>
 	</monster>
 
 	<monster id="14" name="Limo Rodolfo">
-		<sprite>monster-slime-rudolph.xml</sprite>
+        	<sprite>monster-slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+        	<sprite>/acessorios/slime-rudolph.xml</sprite>
+	        <sprite>acessorios/slime-seajelly.xml|#9092B9,9DB4D4,F8F9FA</sprite>
 	</monster>
 
     <monster id="15" name="Morcego">
@@ -699,6 +705,7 @@
     
     <monster id="31" name="Limo do Mar">
         <sprite>monster-slime.xml|#4ca1a0,ffffff</sprite>
+        <sprite>acessorios/slime-seajelly.xml|#4ca1a0,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
     </monster>
 
@@ -932,10 +939,12 @@
 
 	<monster id="316" name="Limo de Gelo">
 		<sprite>monster-slime.xml|#c6cdff,ffffff</sprite>
+        <sprite>acessorios/slime-seajelly.xml|#c6cdff,ffffff</sprite>
 	</monster>
 
 	<monster id="317" name="Limo de Neve">
 		<sprite>monster-slime.xml|#eff1f1,ffffff</sprite>
+        <sprite>acessorios/slime-seajelly.xml|#eff1f1,ffffff</sprite>
 	</monster>
 
 	<monster id="318" name="Coelho de Olhos Vermelhos">
