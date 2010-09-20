@@ -4818,7 +4818,7 @@
 		image="weapon-pick-arqueologo.png"
 		name="Picareta"
 		description="Picareta comum para uso geral em escavações"
-		effect="Dano +60, Alcance 1 "
+		effect="Dano +10, Alcance 1"
 		type="equip-2hand"
 		weapon-type="staff"
 		weight="2000">
@@ -4828,7 +4828,7 @@
 		image="weapon-pick-arqueologo.png"
 		name="Picareta Profissional"
 		description="Picareta profissional usa por Arqueologista em escavações"
-		effect="Dano +80, Alcance 1 "
+		effect="Dano +15, Alcance 1, Eficiência +5%, Agilidade +10"
 		type="equip-2hand"
 		weapon-type="staff"
 		weight="2000">
