@@ -5,7 +5,8 @@ npc: npc/008_Ilha_Fortaleza/_shops.txt
 npc: npc/008_Ilha_Fortaleza/_functions.txt
 
 // Move o antigo star point
-npc: npc/008_Ilha_Fortaleza/menir_alma.conf
+//npc: npc/008_Ilha_Fortaleza/menir_alma.conf
+//Comentei pq não precimamos mais disto! (Lunovox)
 
 npc: npc/008_Ilha_Fortaleza/juliana.conf
 //npc: npc/008_Ilha_Fortaleza/joana.conf
