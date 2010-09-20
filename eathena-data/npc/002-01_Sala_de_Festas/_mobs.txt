@@ -1,4 +1,10 @@
-// 002-01_Sala_de_Festas
+//
+// Monstros do mapa: 002-01 Sala_Principal
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
+002-01.gat,0,0,0	script	Mob002-01	-1,{
 
+	end;
+}

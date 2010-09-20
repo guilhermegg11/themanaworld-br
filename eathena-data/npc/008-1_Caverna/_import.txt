@@ -1,4 +1,3 @@
 map: 008-1.gat
 npc: npc/008-1_Caverna/_mobs.txt
 npc: npc/008-1_Caverna/_warps.txt
-npc: npc/008-1_Caverna/_functions.txt

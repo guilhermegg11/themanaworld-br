@@ -1,7 +1,10 @@
-// 005-3 Estabelecimento mobs
-
+//
+// Monstros do mapa: 005-3 Estabelecimento
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
 005-3.gat,0,0,0	script	Mob005-3	-1,{
+
 	end;
 }

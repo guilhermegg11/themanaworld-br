@@ -2,7 +2,6 @@ map: 007.gat
 npc: npc/007_Praia_do_Porto/_mobs.txt
 npc: npc/007_Praia_do_Porto/_warps.txt
 npc: npc/007_Praia_do_Porto/_shops.txt
-npc: npc/007_Praia_do_Porto/_functions.txt
 
 npc: npc/007_Praia_do_Porto/gismo.conf
 npc: npc/007_Praia_do_Porto/capitao.conf

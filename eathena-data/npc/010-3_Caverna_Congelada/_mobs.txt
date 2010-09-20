@@ -1,6 +1,28 @@
-// 010-3 Caverna Congelada mobs
+//
+// Monstros do mapa: 010-3 Caverna Congelada
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 010-3.gat,0,0,0,0	monster	Limo Rodolfo (15)	1016,15,0,0,Mob010-3::On1016
 010-3.gat,42,33,47,27	monster	Limos Noel (4)	1015,4,0,0,Mob010-3::On1015
 010-3.gat,41,32,47,27	monster	Espectro do Calafrio (4)	1047,4,0,0,Mob010-3::On1047
 
+010-3.gat,0,0,0	script	Mob010-3	-1,{
+
+On1015:
+	set @mobID, 1015;
+	callfunc "MobPoints";
+	break;
+
+On1016:
+	set @mobID, 1016;
+	callfunc "MobPoints";
+	break;
+
+On1047:
+	set @mobID, 1047;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

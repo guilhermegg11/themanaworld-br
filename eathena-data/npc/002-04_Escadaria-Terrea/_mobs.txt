@@ -1,3 +1,10 @@
-// 002-04_Escadaria-Terrea
+//
+// Monstros do mapa: 002-04 Escada - térrea
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
+002-04.gat,0,0,0	script	Mob002-04	-1,{
+
+	end;
+}

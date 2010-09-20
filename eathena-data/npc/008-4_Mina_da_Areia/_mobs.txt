@@ -1,4 +1,22 @@
-// 008-4 Mina da Areia mobs
+//
+// Monstros do mapa: 008-4 Mina da Areia
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 008-4.gat,0,0,0,0	monster	Spider	1012,20,0,0,Mob008-4::On1012
 008-4.gat,0,0,0,0	monster	Yellow Slime	1007,25,0,0,Mob008-4::On1007
+
+008-4.gat,0,0,0	script	Mob008-4	-1,{
+
+On1007:
+	set @mobID, 1007;
+	callfunc "MobPoints";
+	break;
+
+On1012:
+	set @mobID, 1012;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

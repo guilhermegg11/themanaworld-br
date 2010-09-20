@@ -1,4 +1,7 @@
-// 008-2 Caverna mobs
+//
+// Monstros do mapa: 008-2 Caverna
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 008-2.gat,116,30,29,18	monster	Aranha (5)	1012,5,90000,30000,Mob008-2::On1012
 008-2.gat,101,41,13,23	monster	Limo Dourado (9)	1007,9,0,0,Mob008-2::On1007
@@ -6,4 +9,40 @@
 008-2.gat,130,41,13,23	monster	Limo Dourado (9)	1007,9,0,0,Mob008-2::On1007
 008-2.gat,91,34,33,9	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-2::On1008
 008-2.gat,137,38,26,14	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-2::On1008
+008-2.gat,209,28,17,15	monster	Caveira de Fogo (1) [3min]	1023,1,180000,0,Mob008-2::On1023
+008-2.gat,210,29,17,15	monster	Caveira Envenenada (1) [3min]	1024,1,180000,0,Mob008-2::On1024
 
+008-2.gat,0,0,0	script	Mob008-2	-1,{
+
+On1007:
+	set @mobID, 1007;
+	callfunc "MobPoints";
+	break;
+
+On1008:
+	set @mobID, 1008;
+	callfunc "MobPoints";
+	break;
+
+On1009:
+	set @mobID, 1009;
+	callfunc "MobPoints";
+	break;
+
+On1012:
+	set @mobID, 1012;
+	callfunc "MobPoints";
+	break;
+
+On1023:
+	set @mobID, 1023;
+	callfunc "MobPoints";
+	break;
+
+On1024:
+	set @mobID, 1024;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

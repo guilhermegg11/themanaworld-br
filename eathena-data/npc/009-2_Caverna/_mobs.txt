@@ -46,6 +46,7 @@ On1325_t1_x2:
 On1325_t2_x2:
 	set @mobID, 1325;
 	callfunc "MobPoints";
+	set @tempo, 2;
 	set @drop, 2;
 	callsub _jazida1_Cobre;
 	break;
@@ -60,6 +61,7 @@ On1326_t1_x2:
 On1326_t2_x2:
 	set @mobID, 1326;
 	callfunc "MobPoints";
+	set @tempo, 2;
 	set @drop, 2;
 	callsub _jazida2_Chumbo;
 	break;
@@ -152,48 +154,40 @@ On1333_t2:
 //= Callsubs ==========================================================
 
 _jazida1_Cobre:
-	set @minerio, 551;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Cobre";
 	return;
 
 _jazida2_Chumbo:
-	set @minerio, 552;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Chumbo";
 	return;
 
 _jazida3_Estanho:
-	set @minerio, 553;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Estanho";
 	return;
 
 _jazida4_Prata:
-	set @minerio, 554;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Prata";
 	return;
 
 _jazida5_Ouro:
-	set @minerio, 555;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Ouro";
 	return;
 
 _jazida6_Platina:
-	set @minerio, 556;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Platina";
 	return;
 
 _jazida7_Iridio:
-	set @minerio, 557;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Iridio";
 	return;
 
 _jazida8_Titanio:
-	set @minerio, 558;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Titanio";
 	return;
 
 _jazida9_Diamante:
-	set @minerio, 559;
-	callfunc "minerarJazida";
+	message strcharinfo(0), "Você minerou uma jazida de Diamante";
 	return;
 
+	end;
 }

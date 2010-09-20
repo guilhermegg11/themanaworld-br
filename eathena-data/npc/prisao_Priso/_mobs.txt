@@ -1,5 +1,10 @@
-// prisao Prisão mobs
+//
+// Monstros do mapa: prisao Prisão
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
 
 prisao.gat,0,0,0	script	Mobprisao	-1,{
+
 	end;
 }

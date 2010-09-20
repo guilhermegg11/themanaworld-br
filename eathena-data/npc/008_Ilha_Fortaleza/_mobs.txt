@@ -1,4 +1,7 @@
-// 008 Ilha Fortaleza mobs
+//
+// Monstros do mapa: 008 Ilha Fortaleza
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 008.gat,42,29,23,11	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
 008.gat,172,45,13,18	monster	Planta Malva (1)	1029,1,240000,120000,Mob008::On1029
@@ -21,3 +24,87 @@
 008.gat,158,97,1,4	monster	Escorpião Vermelho (1)	1004,1,90000,30000,Mob008::On1004
 008.gat,134,42,56,13	monster	Bicho-da-ceda (10)	1035,5,0,0,Mob008::On1035
 008.gat,102,52,160,64	monster	Bixo-da-Seda (40)	1035,40,0,0,Mob008::On1035
+
+008.gat,0,0,0	script	Mob008	-1,{
+
+On1002:
+	set @mobID, 1002;
+	callfunc "MobPoints";
+	callsub _MOBS_verme;
+	break;
+
+On1003:
+	set @mobID, 1003;
+	callfunc "MobPoints";
+	callsub _MOBS_escorpiao;
+	break;
+
+On1004:
+	set @mobID, 1004;
+	callfunc "MobPoints";
+	break;
+
+On1011:
+	set @mobID, 1011;
+	callfunc "MobPoints";
+	break;
+
+On1014:
+	set @mobID, 1014;
+	callfunc "MobPoints";
+	break;
+
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+	break;
+
+On1025:
+	set @mobID, 1025;
+	callfunc "MobPoints";
+	break;
+
+On1029:
+	set @mobID, 1029;
+	callfunc "MobPoints";
+	break;
+
+On1030:
+	set @mobID, 1030;
+	callfunc "MobPoints";
+	break;
+
+On1031:
+	set @mobID, 1031;
+	callfunc "MobPoints";
+	break;
+
+On1032:
+	set @mobID, 1032;
+	callfunc "MobPoints";
+	break;
+
+On1035:
+	set @mobID, 1035;
+	callfunc "MobPoints";
+	break;
+
+
+//= Callsubs ==========================================================
+
+_MOBS_escorpiao:
+	if(QUEST_praia!=11||QUEST_contamobs<2) return;
+	callfunc "mobContagem", 32, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
+
+_MOBS_verme:
+	if(QUEST_praia!=7||QUEST_contamobs<2) return;
+	callfunc "mobContagem", 17, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
+
+	end;
+}

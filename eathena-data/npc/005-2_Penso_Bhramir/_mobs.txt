@@ -1,7 +1,10 @@
-// 005-2 Pensão Bhramir mobs
-
+//
+// Monstros do mapa: 005-2 Pensão Bhramir
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
 005-2.gat,0,0,0	script	Mob005-2	-1,{
+
 	end;
 }

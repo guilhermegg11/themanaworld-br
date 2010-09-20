@@ -1,7 +1,10 @@
-// 005-1 Quartel General mobs
-
+//
+// Monstros do mapa: 005-1 Quartel General
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
 005-1.gat,0,0,0	script	Mob005-1	-1,{
+
 	end;
 }

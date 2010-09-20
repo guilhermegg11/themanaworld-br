@@ -1,3 +1,10 @@
-// 002-05_Escadaria-Andar1
+//
+// Monstros do mapa: 002-05 Escada - 1º Andar
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 
+002-05.gat,0,0,0	script	Mob002-05	-1,{
+
+	end;
+}

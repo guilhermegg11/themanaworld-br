@@ -1,6 +1,34 @@
-// 009-1 Caverna da Montanha mobs
+//
+// Monstros do mapa: 009-1 Caverna da Montanha
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
 
 009-1.gat,0,0,0,0	monster	Cobra (10)	1010,10,0,0,Mob009-1::On1010
-009-1.gat,0,0,0,0	monster	Cobra das Montanhas (30)	1026,30,0,0,Mob009-1::On1026
+009-1.gat,0,0,0,0	monster	Cobra das Montanhas (30)	1026,20,0,0,Mob009-1::On1026
 009-1.gat,0,0,0,0	monster	Aranha (10)	1012,10,0,0,Mob009-1::On1012
-009-1.gat,0,0,0,0	monster	Aranha Rainha (10)	1310,10,0,0,Mob009-1::On1310
+009-1.gat,0,0,0,0	monster	Aranha Rainha (10)	1310,20,0,0,Mob009-1::On1310
+
+009-1.gat,0,0,0	script	Mob009-1	-1,{
+
+On1010:
+	set @mobID, 1010;
+	callfunc "MobPoints";
+	break;
+
+On1012:
+	set @mobID, 1012;
+	callfunc "MobPoints";
+	break;
+
+On1026:
+	set @mobID, 1026;
+	callfunc "MobPoints";
+	break;
+
+On1310:
+	set @mobID, 1310;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

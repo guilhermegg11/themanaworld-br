@@ -1,4 +1,3 @@
 map: 010-3.gat
 npc: npc/010-3_Caverna_Congelada/_mobs.txt
 npc: npc/010-3_Caverna_Congelada/_warps.txt
-npc: npc/010-3_Caverna_Congelada/_functions.txt
