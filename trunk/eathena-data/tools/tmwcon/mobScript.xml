@@ -17,8 +17,8 @@
 	<monstro id="1002" nome="Verme">
 		<callsub label="_MOBS_verme">
 			<gerar_label script="callfunc_mobContagem">
-				<var id="%return%" valor="QUEST_praia!=7||QUEST_contamobs&lt;2"/>
-				<var id="%max%" valor="17"/>
+				<var id="%return%" valor="QUEST_praia!=7"/>
+				<var id="%max%" valor="15"/>
 				<var id="%mobs%" valor="QUEST_contamobs"/>
 				<var id="%flag%" valor="@QUEST_contamobs"/>
 			</gerar_label>
@@ -27,8 +27,8 @@
 	<monstro id="1003" nome="Escorpiao">
 		<callsub label="_MOBS_escorpiao">
 			<gerar_label script="callfunc_mobContagem">
-				<var id="%return%" valor="QUEST_praia!=11||QUEST_contamobs&lt;2"/>
-				<var id="%max%" valor="32"/>
+				<var id="%return%" valor="QUEST_praia!=12"/>
+				<var id="%max%" valor="30"/>
 				<var id="%mobs%" valor="QUEST_contamobs"/>
 				<var id="%flag%" valor="@QUEST_contamobs"/>
 			</gerar_label>

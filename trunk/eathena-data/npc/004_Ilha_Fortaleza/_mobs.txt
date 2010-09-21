@@ -75,8 +75,8 @@ On1312:
 //= Callsubs ==========================================================
 
 _MOBS_escorpiao:
-	if(QUEST_praia!=11||QUEST_contamobs<2) return;
-	callfunc "mobContagem", 32, QUEST_contamobs, @QUEST_contamobs;
+	if(QUEST_praia!=12) return;
+	callfunc "mobContagem", 30, QUEST_contamobs, @QUEST_contamobs;
 	set QUEST_contamobs, @mobs;
 	set @QUEST_contamobs, @flag;
 	return;
@@ -95,8 +95,8 @@ _MOBS_trasgoRoxo:
 	return;
 
 _MOBS_verme:
-	if(QUEST_praia!=7||QUEST_contamobs<2) return;
-	callfunc "mobContagem", 17, QUEST_contamobs, @QUEST_contamobs;
+	if(QUEST_praia!=7) return;
+	callfunc "mobContagem", 15, QUEST_contamobs, @QUEST_contamobs;
 	set QUEST_contamobs, @mobs;
 	set @QUEST_contamobs, @flag;
 	return;
