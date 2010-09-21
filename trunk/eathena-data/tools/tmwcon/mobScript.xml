@@ -11,7 +11,7 @@
 	<script id="callfunc_mobExterminio">
 	if(%return%) return;
 	callfunc "mobExterminio", %mapa%, %label%;
-	if(@flag) set QUEST_trasgo, 4;
+	if(@flag==1) set QUEST_trasgo, 4;
 	</script>
 
 	<monstro id="1002" nome="Verme">
