@@ -3,6 +3,6 @@
 ==ISSUES==
 
 
-Vc pode avisar defeitos do nosso servidor clicando *[http://code.google.com/p/themanaworld-br/issues/entry AQUI]* para se conectar com sua conta do google e depois escrever sobre o defeito!
+Vc pode avisar defeitos do nosso servidor clicando *[http://code.google.com/p/themanaworld-br/issues/entry AQUI]* para depois escrever sobre o defeito! (Pode precisar conectar a sua conta do google)
 
 || Se vc só que ler os avisos de defeito que foram feitos clique *[http://code.google.com/p/themanaworld-br/issues/list AQUI]* ||
