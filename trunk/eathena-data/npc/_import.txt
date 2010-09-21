@@ -1,8 +1,8 @@
 import: npc/002_Fortaleza/_import.txt
-import: npc/002-01_Sala_de_Festas/_import.txt
-import: npc/002-02_Quartos_Femininos/_import.txt
-import: npc/002-03_Quartos_Marculinos/_import.txt
-import: npc/002-04_Escadaria-Terrea/_import.txt
+import: npc/002-01_Sala_Principal/_import.txt
+import: npc/002-02_Quarto_Feminino/_import.txt
+import: npc/002-03_Quarto_Masculino/_import.txt
+import: npc/002-04_Escada_-_trrea/_import.txt
 import: npc/002-05_Escadaria-Andar1/_import.txt
 import: npc/002-06_Escadaria-Andar2/_import.txt
 import: npc/002-07_Escadaria-Andar3e4/_import.txt
