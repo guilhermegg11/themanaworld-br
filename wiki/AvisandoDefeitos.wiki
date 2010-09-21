@@ -1,4 +1,8 @@
 #labels ISSUES,Defeitos
-= ISSUES - Avisando Defeitos =
+=Avisando Defeitos=
+==ISSUES==
 
-Vc pode avisar defeitos do nosso servidor. Para isso só vai precisar se [https://www.google.com/accounts/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fthemanaworld-br%2Fwiki%2FAvisandoDefeitos%3Ftm%3D3&followup=http%3A%2F%2Fcode.google.com%2Fp%2Fthemanaworld-br%2Fwiki%2FAvisandoDefeitos%3Ftm%3D3 AQUI] para se conectar com sua conta do google. e depois é só clicar [http://code.google.com/p/themanaworld-br/issues/list AQUI] para começar a escrever sobre o defeito!
+
+Vc pode avisar defeitos do nosso servidor. Para isso só vai precisar clicar  *[http://code.google.com/p/themanaworld-br/issues/entry AQUI]* para se conectar com sua conta do google e depois escrever sobre o defeito!
+
+|| Se vc só que ler os avisos de defeito que foram feitos clique *[http://code.google.com/p/themanaworld-br/issues/list AQUI]* ||
