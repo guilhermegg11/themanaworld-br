@@ -68,6 +68,7 @@ On1033:
 On1312:
 	set @mobID, 1312;
 	callfunc "MobPoints";
+	callsub _MOBS_trasgoRoxo;
 	break;
 
 
@@ -85,6 +86,12 @@ _MOBS_trasgo:
 	callfunc "mobContagem", 35, MOBS_trasgo, @MOBS_trasgo;
 	set MOBS_trasgo, @mobs;
 	set @MOBS_trasgo, @flag;
+	return;
+
+_MOBS_trasgoRoxo:
+	if(QUEST_trasgo!=3) return;
+	callfunc "mobExterminio", "004.gat", "Mob004::On1312";
+	if(@flag==1) set QUEST_trasgo, 4;
 	return;
 
 _MOBS_verme:
