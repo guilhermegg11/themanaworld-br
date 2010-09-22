@@ -9,23 +9,23 @@
 //
 // Gender(Generos Sexual): 0: Feminino, 1: Masculino, 2: Comum p/ 2 Gêneros (No TMW só  usado o padrão 2)
 //
-// Location(Loc): 1: Pernas(Calças), 2: MãoDireita(Arma), 4: Mãos(Luvas), 16: Torso1(Limalhas), 
-//                32: MãoEsqueda(Escudo), 64: Pés(Sapatos), 128: Acessórios, 256: Cabeça(Chapéus), 
+// Location(Loc): 1: Pernas(Calças), 2: MãoDireita(Arma), 4: Mãos(Luvas), 16: Torso1(Limalhas),
+//                32: MãoEsqueda(Escudo), 64: Pés(Sapatos), 128: Acessórios, 256: Cabeça(Chapéus),
 //                512: Torso2(Armaduras), 32768: Munição(Arrows)
 //        OBS:  Se quise ocupar as 2 mãos(MãoDireita[2] + MãoEsqueda[32] ponha 2+32="34")
 //        DÚVIDA: Pq o nº8 e o nº16 não estão sendo usados em nada?
 //
-// Refinamento(wLV): O nível de refinamento da arma. Pode ser 1, 2, 3 ou 4 por padrão. 
+// Refinamento(wLV): O nível de refinamento da arma. Pode ser 1, 2, 3 ou 4 por padrão.
 //                   Pode ir além dependendo do seu arquivo "refine_db.txt" (Não é usado no TMW. Padrão é "")
 //
-// Elements(eLV): 0 Nothing, 1 Water, 2 Earth ,3 Fire, 4 Wind, 5 Poison, 6 Saint, 7 Darkness, 8 Sense, 
+// Elements(eLV): 0 Nothing, 1 Water, 2 Earth ,3 Fire, 4 Wind, 5 Poison, 6 Saint, 7 Darkness, 8 Sense,
 //                9 Immortality (Não é usado no TMW. Padrão é "")
 //
 // Aparencia(View): Número da imagem que irá aparecer no inventário. (Não é usado no TMW. Padrão é "")
 //
 // 0,DEFAULT,Default,0,20,,10,,,,,0,2,0,0,,,{},{}
 //
-// MAIORES DETALHES: 
+// MAIORES DETALHES:
 //     * http://docs.google.com/Doc?docid=0AaRrmO-Uhm1tZGYyY2o1czJfMTk1Y2JudG5jZzM&hl=pt_BR
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -657,3 +657,4 @@
 //3141,fragmento titanio
 //3142,fragmento diamante
 // teste...
+3143,bilhetemagico,bilheteMagico,3,500,10,1,,,,,,,,,,,{},{}

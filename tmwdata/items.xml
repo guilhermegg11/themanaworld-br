@@ -74,10 +74,10 @@
 
 	<!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
 
-	<!-- 
-		 	OBS: Eu adicionei a propriedade type="weaponsprite" para poder fazer o 
+	<!--
+		 	OBS: Eu adicionei a propriedade type="weaponsprite" para poder fazer o
 			tmw-maker separar o grupo de itens(geral) do grupo de movimentos(Itens ID:30-35).
-			Peço que não retire isto, ou se retirar, pelo menos retira para um outro 
+			Peço que não retire isto, ou se retirar, pelo menos retira para um outro
 			arquivo fora do item.xml
 	 -->
 	<item id="30" type="weaponsprite" weapon_type="1">
@@ -950,7 +950,7 @@
 		image="armor-shield-steelshield.png"
 		name="Escudo de Aço"
 		description="Um escudo feito de aço."
-		effect=""	
+		effect=""
 		type="equip-shield"
 		weight="2500"
 		defense="20"/>
@@ -1686,7 +1686,7 @@
 		defense="2">
 		<sprite gender="male">chest-shorttanktop-male.xml|#A4B2B2,FFFFFF</sprite>
 		<sprite gender="female">chest-shorttanktop-female.xml|#A4B2B2,FFFFFF</sprite>
-	</item>	
+	</item>
 	<item id="690"
 		image="use-potion-d.png|G:#580000,A40000,C02020,ff6060"
 		name="Tinta Vermelha"
@@ -3259,7 +3259,7 @@
 		defense="4">
 		<sprite>leg-skirt.xml|#104010,208020,30c030</sprite>
 	</item>
-	
+
 	<item id="2110"
 		image="armor-legs-shorts.png|W:#580000,A40000,C02020,ff6060"
 		name="Short Vermelho de Algodão"
@@ -3370,7 +3370,7 @@
 		<sprite gender="male">leg-shorts-male.xml|#104010,208020,30c030</sprite>
 		<sprite gender="female">leg-shorts-female.xml|#104010,208020,30c030</sprite>
 	</item>
-	
+
 	<item id="2120"
 		image="armor-chest-tanktop-short.png|W:#580000,A40000,C02020,ff6060"
 		name="Camiseta Curta Vermelha"
@@ -5023,4 +5023,10 @@
 		type="generic"
 		weight="1"/>
 -->
+	<item id="3143"
+		image="generic-bluehint.png"
+		name="Bilhete Mágico"
+		description="Bilhete para participar do jogo da Cartola Mágica."
+		type="generic"
+		weight="1"/>
 </items>
