@@ -24,12 +24,20 @@
 007.gat,114,64,15,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
 007.gat,152,100,52,30	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob007::On1011
 007.gat,143,41,18,35	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
+007.gat,70,80,71,37	monster	Verme (1) grupo: guloso	1019,1,0,120000,Mob007::On1002_guloso
 
 007.gat,0,0,0	script	Mob007	-1,{
 
 On1002:
 	set @mobID, 1002;
 	callfunc "MobPoints";
+	callsub _MOBS_verme;
+	break;
+
+On1002_guloso:
+	set @mobID, 1002;
+	callfunc "MobPoints";
+	callfunc "bilheteVermeGuloso";
 	callsub _MOBS_verme;
 	break;
 

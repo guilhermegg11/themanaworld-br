@@ -15,6 +15,7 @@
 	</script>
 
 	<monstro id="1002" nome="Verme">
+		<script grupos="guloso">callfunc "bilheteVermeGuloso";</script>
 		<callsub label="_MOBS_verme">
 			<gerar_label script="callfunc_mobContagem">
 				<var id="%return%" valor="QUEST_praia!=7"/>
