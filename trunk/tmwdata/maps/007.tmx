@@ -299,6 +299,14 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
+  <object name="Verme (guloso)(1)" type="spawn" x="1120" y="1984" width="2304" height="1216">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="grupo" value="guloso"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
   <object name="Escorpião (5)" type="spawn" x="2592" y="640" width="288" height="256">
    <properties>
     <property name="max_beings" value="5"/>
@@ -336,12 +344,4 @@
     <property name="monster_id" value="16"/>
    </properties>
   </object>
-  <object name="Verme (1) grupo: guloso" type="spawn" x="1120" y="1984" width="2304" height="1216">
-   <properties>
-    <property name="eA_death" value="120000"/>
-    <property name="grupo" value="guloso"/>
-    <property name="monster_id" value="0"/>
-   </properties>
-  </object>
- </objectgroup>
 </map>
