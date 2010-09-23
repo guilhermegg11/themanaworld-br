@@ -47,6 +47,7 @@ On1006:
 On1013:
 	set @mobID, 1013;
 	callfunc "MobPoints";
+	callsub _MOBS_cogumelo;
 	break;
 
 On1018:
@@ -73,6 +74,13 @@ On1312:
 
 
 //= Callsubs ==========================================================
+
+_MOBS_cogumelo:
+	if(QUEST_trasgo!=10) return;
+	callfunc "mobContagem", 30, MOBS_cogumelo, @MOBS_cogumelo;
+	set MOBS_cogumelo, @mobs;
+	set @MOBS_cogumelo, @flag;
+	return;
 
 _MOBS_escorpiao:
 	if(QUEST_praia!=12) return;
