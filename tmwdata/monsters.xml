@@ -388,22 +388,22 @@
 	</monster>
 	<!-- Jazidas -->
 	<monster id="323" name="Jazida"> <!-- Jazida de Cobre -->
-		<sprite>resource-jazida.xml|#002200,004400,006600,008800</sprite>
+		<sprite>resource-jazida.xml|#556644,778866,99CC88,BBFFAA</sprite>
 		<sound event="hit">short-sword-hit2.ogg</sound>
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</monster>
 	<monster id="324" name="Jazida"> <!-- Jazida de Chumbo -->
-		<sprite>resource-jazida.xml|#224422,446644,668866,88CC88</sprite>
+		<sprite>resource-jazida.xml|#111111,333333,555555</sprite>
 		<sound event="hit">short-sword-hit2.ogg</sound>
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</monster>
 	<monster id="325" name="Jazida"> <!-- Jazida de Estanho -->
-		<sprite>resource-jazida.xml|#222222,444444,666666,888888</sprite>
+		<sprite>resource-jazida.xml|#555555,777777,999999</sprite>
 		<sound event="hit">short-sword-hit2.ogg</sound>
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</monster>
 	<monster id="326" name="Jazida"> <!-- Jazida de Prata -->
-		<sprite>resource-jazida.xml|#777777,999999,BBBBBB,DDDDDD</sprite>
+		<sprite>resource-jazida.xml</sprite>
 		<sound event="hit">short-sword-hit2.ogg</sound>
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</monster>
@@ -423,7 +423,7 @@
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</monster>
 	<monster id="330" name="Jazida"> <!-- Jazida de Titanio -->
-		<sprite>resource-jazida.xml|#442222,664444,886666,CC8888</sprite>
+		<sprite>resource-jazida.xml|#8888BB,AAAADD,CCCCFF</sprite>
 		<sound event="hit">short-sword-hit2.ogg</sound>
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</monster>
