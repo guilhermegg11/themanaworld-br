@@ -5039,7 +5039,7 @@
 		effect="Proteção:5MP"
 		type="equip-ring"
 		weight="10">
-		<sprite>rings_wings-demon.xml</sprite>
+		<sprite>rings-wings-demon.xml</sprite>
 	</item>
 
 </items>
