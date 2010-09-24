@@ -4817,7 +4817,7 @@
 		type="equip-ring"
 		weight="200"/>
 	<item id="3111"
-		image="weapon-pick-arqueologo.png"
+		image="weapon-pick-mineiro.png"
 		name="Picareta"
 		description="Picareta comum para uso geral em escavações"
 		effect="Dano +10, Alcance 1"
