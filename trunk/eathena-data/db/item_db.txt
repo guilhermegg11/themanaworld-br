@@ -567,17 +567,12 @@
 3058,ZambacutouVelha,Zambacutou Velha,4,115000,57500,1200,115,,1,,0,2,34,1,2,1,{},{}
 
 //ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
-
-/////////////////////////////////////////////////////////////////////////////////
-// Foi comentado pq queriam recriar os itens (3113~3142)
-/////////////////////////////////////////////////////////////////////////////////
-//3059,BarraCobre,Barra de Cobre,3,1000,990,3000,,,,,,,,,,,{},{}
-//3060,BarraPrata,Barra de Prata,3,10000,9900,3000,,,,,,,,,,,{},{}
-//3061,BarraOuro,Barra de Ouro,3,100000,99000,3000,,,,,,,,,,,{},{}
-//3062,GemaSafira,Gema de Safira,3,1000000,990000,300,,,,,,,,,,,{},{}
-//3063,GemaEsmeralda,Gema Esmeralda,3,10000000,9900000,300,,,,,,,,,,,{},{}
-//3064,GemaDiamante,Gema Diamante,3,100000000,99000000,300,,,,,,,,,,,{},{}
-////////////////////////////////////////////////////////////////////////////////
+3059,MarcaCobre,Marca de Cobre,3,1000,990,3000,,,,,,,,,,,{},{}
+3060,MarcaPrata,Marca de Prata,3,10000,9900,3000,,,,,,,,,,,{},{}
+3061,MarcaOuro,Marca de Ouro,3,100000,99000,3000,,,,,,,,,,,{},{}
+3062,GemaSafira,Gema de Safira,3,1000000,990000,300,,,,,,,,,,,{},{}
+3063,GemaEsmeralda,Gema Esmeralda,3,10000000,9900000,300,,,,,,,,,,,{},{}
+3064,GemaDiamante,Gema Diamante,3,100000000,99000000,300,,,,,,,,,,,{},{}
 
 //2010-03-08: Lunovox
 3065,ChapeuMagico,Chapeu Mágico,5,3000,1500,300,,5,,2,0,2,256,,0,0,{},{}
