@@ -77,7 +77,7 @@ On1312:
 
 _MOBS_cogumelo:
 	if(QUEST_trasgo!=10) return;
-	callfunc "mobContagem", 30, MOBS_cogumelo, @MOBS_cogumelo;
+	callfunc "mobContagem", 40, MOBS_cogumelo, @MOBS_cogumelo;
 	set MOBS_cogumelo, @mobs;
 	set @MOBS_cogumelo, @flag;
 	return;

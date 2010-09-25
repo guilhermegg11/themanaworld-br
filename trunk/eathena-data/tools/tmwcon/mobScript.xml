@@ -58,7 +58,7 @@
 		<callsub label="_MOBS_cogumelo">
 			<gerar_label script="callfunc_mobContagem">
 				<var id="%return%" valor="QUEST_trasgo!=10"/>
-				<var id="%max%" valor="30"/>
+				<var id="%max%" valor="40"/>
 				<var id="%mobs%" valor="MOBS_cogumelo"/>
 				<var id="%flag%" valor="@MOBS_cogumelo"/>
 			</gerar_label>
