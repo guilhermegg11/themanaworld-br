@@ -1,62 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="95" height="80" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Faith.ogg"/>
-  <property name="name" value="Escada - 1º Andar"/>
+  <property name="name" value="Escada - 2º Andar"/>
  </properties>
- <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <tileset name="blockWalls" firstgid="3" tilewidth="32" tileheight="32">
+ <tileset firstgid="3" name="blockWalls" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/blockWalls.png"/>
  </tileset>
- <tileset name="blockWalls_in_x3" firstgid="259" tilewidth="32" tileheight="32">
+ <tileset firstgid="259" name="blockWalls_in_x3" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/blockWalls_in_x3.png"/>
  </tileset>
- <tileset name="inn" firstgid="307" tilewidth="32" tileheight="32">
+ <tileset firstgid="307" name="inn" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/inn.png"/>
  </tileset>
- <tileset name="sombras" firstgid="563" tilewidth="32" tileheight="32">
+ <tileset firstgid="563" name="sombras" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/sombras.png"/>
  </tileset>
- <tileset name="numeros" firstgid="587" tilewidth="32" tileheight="32">
+ <tileset firstgid="587" name="numeros" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/numeros.png"/>
  </tileset>
- <tileset name="escada_madeira" firstgid="697" tilewidth="32" tileheight="32">
+ <tileset firstgid="697" name="escada_madeira" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/escada_madeira.png"/>
  </tileset>
- <tileset name="cave" firstgid="753" tilewidth="32" tileheight="32">
+ <tileset firstgid="753" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
  <layer name="Ground" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Y3Q2CMBSA0SbqAg7jBCZuoAP4MwIMyGJixEh8MWmEi+15OCG8XT5a0tCllDoAAAAAAAD+wjpT9Nwl2GeKnrsE2sfZZoqeuwTaa1+jcc/Pb/phuB57Z+0nb3/pNb3TcL8bvQvtp23/ckvPtd5qP2v7Jr33wFX7Wdt/O9NrP3/72tf9Kv32f0r0GfPxLJsFdI0Q3b5m2mtfI+0BAAAAAAAAAAAAAAAAAAAAgCW7A1fWLf/AdgAA
+   H4sIAAAAAAAAA+3Y3Q2CMBSA0SbqAg7jBCZuoAP4MwIMyGJixEh8MWmEi+15OCG8XT5a0tCllDoAAAAAAAD+wjpT9Nwl2GeKnrsE2sfZZoqeuwTaa1+jcc/Pb/phuB57Z+0nb3/pNb3TcL8bvQvtp23/ckvPtd5qP2v7Jr33wFX7Wdt/O9NrP3/72tf9Kv32f0r0GfPxLJsFdI0Q3b5m2mtfI+0BAAAAAAAAAAAAAAAAAAAAgCW7A1fWLf/AdgAA
   </data>
  </layer>
  <layer name="Ground2" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3UsU3DQBSAYesCExAoWAOYADYAdoDxYAAkkKjo6Oiggo4VuFQvRZIL3JlT5O+TfsmWLfv8ZN0wAAAAAABMyyy313sRDS2+Zb/3IrZ0k7vovYiGFt9y23sRWzL7fsy+nzFmf5e7X3FcutbC1Gf/mHtacVy61sIuzf4gN2/4vPkfa/n+w4bP2zXHs3HuZbOHFG1y9D/LmZTnFJV8pIh6Lykq+UoR9V5TVPKdIuot7zkn+fx0TWeD2bf2mz3nM0XUW95zzgv3vqeIem8pusznV2u6Hvz3AAAAAAAAAAAAAAAAAAAAAAAAjOMHshyoOMB2AAA=
+   H4sIAAAAAAAAA+3UsU3DQBSAYesCExAoWAOYADYAdoDxYAAkkKjo6Oiggo4VuFQvRZIL3JlT5O+TfsmWLfv8ZN0wAAAAAABMyyy313sRDS2+Zb/3IrZ0k7vovYiGFt9y23sRWzL7fsy+nzFmf5e7X3FcutbC1Gf/mHtacVy61sIuzf4gN2/4vPkfa/n+w4bP2zXHs3HuZbOHFG1y9D/LmZTnFJV8pIh6Lykq+UoR9V5TVPKdIuot7zkn+fx0TWeD2bf2mz3nM0XUW95zzgv3vqeIem8pusznV2u6Hvz3AAAAAAAAAAAAAAAAAAAAAAAAjOMHshyoOMB2AAA=
   </data>
  </layer>
  <layer name="Fringe" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3XwQmAMAwFUHEytxMnECcobulJiJCLtrWX96DQ5PgbCpkmAAAAAACAd5b526FezHEN/S2p6WcP9yOp6aeE+5nUtOW/H0f247zJU/ZtmfVxarL3HnXMPTx32Zud9h970rPT/qMkPTstAAAAAAAAAAAAAAAAAAAAAAAAPV2r9csfwHYAAA==
+   H4sIAAAAAAAAA+3XwQmAMAwFUHEytxMnECcobulJiJCLtrWX96DQ5PgbCpkmAAAAAACAd5b526FezHEN/S2p6WcP9yOp6aeE+5nUtOW/H0f247zJU/ZtmfVxarL3HnXMPTx32Zud9h970rPT/qMkPTstAAAAAAAAAAAAAAAAAAAAAAAAPV2r9csfwHYAAA==
   </data>
  </layer>
  <layer name="Top " width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3WDUqEQBgGYGXbOkB/BxDrAN1hO0l1hA5WnaCL9UUKsiTuul+JzPPAi8Ogw/gKalUBAAAAAACwFpsZ12zTd1GmZsY1bfouyqT75ej+cHO6yl4vu/u1PMvs7oe+v7tnI/nL72up3Tcj433tyDiD7nU/RffLye5++E7PPPcYpXZ/NUjvpTs+RnYT52Yotfvf1nuNPEWeu/G+Ut85D8nrLf1//x75SFxvTd6qn/s/JqV2le2zy6auqvPIRWRbT89zur7Ly+j1JnIbua6n5zld32UTvd5F7iNtPT0PAAAAAAAAAAAAAAAAAAAAAPAfvgAdcwPrwHYAAA==
+   H4sIAAAAAAAAA+3WDUqEQBgGYGXbOkB/BxDrAN1hO0l1hA5WnaCL9UUKsiTuul+JzPPAi8Ogw/gKalUBAAAAAACwFpsZ12zTd1GmZsY1bfouyqT75ej+cHO6yl4vu/u1PMvs7oe+v7tnI/nL72up3Tcj433tyDiD7nU/RffLye5++E7PPPcYpXZ/NUjvpTs+RnYT52Yotfvf1nuNPEWeu/G+Ut85D8nrLf1//x75SFxvTd6qn/s/JqV2le2zy6auqvPIRWRbT89zur7Ly+j1JnIbua6n5zld32UTvd5F7iNtPT0PAAAAAAAAAAAAAAAAAAAAAPAfvgAdcwPrwHYAAA==
   </data>
  </layer>
  <layer name="Top2" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3UwQkAIAwDwOIq4jbuP4+4QqmocPcNhZBHIwAAAAAAAAAA2HriZpS3AOA0//4e279htlwGAAAAAAAAAAAAAAAAAAAAAAAA/GkBdW+SFMB2AAA=
+   H4sIAAAAAAAAA+3UwQkAIAwDwOIq4jbuP4+4QqmocPcNhZBHIwAAAAAAAAAA2HriZpS3AOA0//4e279htlwGAAAAAAAAAAAAAAAAAAAAAAAA/GkBdW+SFMB2AAA=
   </data>
  </layer>
  <layer name="Collision" width="95" height="80" visible="0" opacity="0.52">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Wuw0AIAhAQXT/oZ3AxEKCnyuuoyCPhh4RHQAAAAAAAAA4TltUvedrVrvrn9d+1xza30B77X+k/fntqWvvRnnt/ffa/0T7erO2mgMAAAAAAAAAAAAAAAAAAAAAVQYGX+CkwHYAAA==
+   H4sIAAAAAAAAA+3Wuw0AIAhAQXT/oZ3AxEKCnyuuoyCPhh4RHQAAAAAAAAA4TltUvedrVrvrn9d+1xza30B77X+k/fntqWvvRnnt/ffa/0T7erO2mgMAAAAAAAAAAAAAAAAAAAAAVQYGX+CkwHYAAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
