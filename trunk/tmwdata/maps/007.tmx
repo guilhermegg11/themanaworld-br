@@ -306,7 +306,6 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
- </objectgroup>
   <object name="Escorpião (5)" type="spawn" x="2592" y="640" width="288" height="256">
    <properties>
     <property name="max_beings" value="5"/>
@@ -344,4 +343,5 @@
     <property name="monster_id" value="16"/>
    </properties>
   </object>
+ </objectgroup>
 </map>

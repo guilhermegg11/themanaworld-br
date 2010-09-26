@@ -19,6 +19,12 @@
 007.gat,140,100,31,17	monster	Verme (10)	1002,10,0,0,Mob007::On1002
 007.gat,117,112,12,8	monster	Verme (5)	1002,5,0,0,Mob007::On1002
 007.gat,70,80,71,37	monster	Verme (guloso)(1)	1002,1,0,120000,Mob007::On1002_guloso
+007.gat,85,23,8,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
+007.gat,152,72,3,10	monster	Escorpião (3)	1003,3,0,0,Mob007::On1003
+007.gat,93,49,11,6	monster	Escorpião (3)	1003,5,0,0,Mob007::On1003
+007.gat,114,64,15,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
+007.gat,152,100,52,30	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob007::On1011
+007.gat,143,41,18,35	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
 
 007.gat,0,0,0	script	Mob007	-1,{
 
@@ -35,8 +41,19 @@ On1002_guloso:
 	callsub _MOBS_verme;
 	break;
 
+On1003:
+	set @mobID, 1003;
+	callfunc "MobPoints";
+	callsub _MOBS_escorpiao;
+	break;
+
 On1008:
 	set @mobID, 1008;
+	callfunc "MobPoints";
+	break;
+
+On1011:
+	set @mobID, 1011;
 	callfunc "MobPoints";
 	break;
 
@@ -75,6 +92,13 @@ _MOBS_cogumelo:
 	callfunc "mobContagem", 40, MOBS_cogumelo, @MOBS_cogumelo;
 	set MOBS_cogumelo, @mobs;
 	set @MOBS_cogumelo, @flag;
+	return;
+
+_MOBS_escorpiao:
+	if(QUEST_praia!=12) return;
+	callfunc "mobContagem", 30, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
 	return;
 
 _MOBS_trasgo:
