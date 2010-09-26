@@ -285,8 +285,8 @@
 		<sound event="miss">pinkie-miss1.ogg</sound>
 	</monster>
 	<monster id="311" name="Morte">
-		<sprite>monster-reaper.xml</sprite>
 		<sprite>monster-reaper-somber.xml</sprite>
+		<sprite>monster-reaper.xml</sprite>
 		<!--<sprite>monster-skeleton.xml</sprite>
 		<sprite>chest-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
 		<sprite>weapon-scythe.xml</sprite>-->
