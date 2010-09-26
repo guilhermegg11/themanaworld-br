@@ -3,9 +3,9 @@
 
 	<script id="callfunc_mobContagem">
 	if(%return%) return;
-	callfunc "mobContagem", %max%, %mobs%, %flag%;
+	callfunc "mobContagem", %max%, %mobs%, @%mobs%;
 	set %mobs%, @mobs;
-	set %flag%, @flag;
+	set @%mobs%, @flag;
 	</script>
 
 	<script id="callfunc_mobExterminio">
@@ -21,7 +21,6 @@
 				<var id="%return%" valor="QUEST_praia!=7"/>
 				<var id="%max%" valor="15"/>
 				<var id="%mobs%" valor="QUEST_contamobs"/>
-				<var id="%flag%" valor="@QUEST_contamobs"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
@@ -31,7 +30,6 @@
 				<var id="%return%" valor="QUEST_praia!=12"/>
 				<var id="%max%" valor="30"/>
 				<var id="%mobs%" valor="QUEST_contamobs"/>
-				<var id="%flag%" valor="@QUEST_contamobs"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
@@ -41,7 +39,6 @@
 				<var id="%return%" valor="QUEST_trasgo!=8"/>
 				<var id="%max%" valor="35"/>
 				<var id="%mobs%" valor="MOBS_trasgo"/>
-				<var id="%flag%" valor="@MOBS_trasgo"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
@@ -57,10 +54,9 @@
 	<monstro id="1013" nome="Cogumelo Maligno">
 		<callsub label="_MOBS_cogumelo">
 			<gerar_label script="callfunc_mobContagem">
-				<var id="%return%" valor="QUEST_trasgo!=10"/>
+				<var id="%return%" valor="QUEST_cogumelo!=1"/>
 				<var id="%max%" valor="40"/>
 				<var id="%mobs%" valor="MOBS_cogumelo"/>
-				<var id="%flag%" valor="@MOBS_cogumelo"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
