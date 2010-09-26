@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<sprite name="reaper" action="stand">
+
+	<imageset name="base" src="graphics/sprites/monster-reaper.png" width="100" height="100" />
+
+	<action name="stand" imageset="base">
+		<animation direction="down">
+			<frame index="0" offsetY ="0" delay="70" />
+			<frame index="0" offsetY ="1" delay="90" />
+			<frame index="0" offsetY ="2" delay="120" />
+			<frame index="0" offsetY ="3" delay="140" />
+			<frame index="0" offsetY ="4" delay="150" />
+			<frame index="0" offsetY ="3" delay="140" />
+			<frame index="0" offsetY ="2" delay="120" />
+			<frame index="0" offsetY ="1" delay="90" />
+		</animation>
+		<animation direction="up">
+			<frame index="6" offsetY ="0" delay="70" />
+			<frame index="6" offsetY ="1" delay="90" />
+			<frame index="6" offsetY ="2" delay="120" />
+			<frame index="6" offsetY ="3" delay="140" />
+			<frame index="6" offsetY ="4" delay="150" />
+			<frame index="6" offsetY ="3" delay="140" />
+			<frame index="6" offsetY ="2" delay="120" />
+			<frame index="6" offsetY ="1" delay="90" />
+		</animation>
+		<animation direction="right">
+			<frame index="12" offsetY ="0" delay="70" />
+			<frame index="12" offsetY ="1" delay="90" />
+			<frame index="12" offsetY ="2" delay="120" />
+			<frame index="12" offsetY ="3" delay="140" />
+			<frame index="12" offsetY ="4" delay="150" />
+			<frame index="12" offsetY ="3" delay="140" />
+			<frame index="12" offsetY ="2" delay="120" />
+			<frame index="12" offsetY ="1" delay="90" />
+		</animation>
+		<animation direction="left">
+			<frame index="15" offsetY ="0" delay="70" />
+			<frame index="15" offsetY ="1" delay="90" />
+			<frame index="15" offsetY ="2" delay="120" />
+			<frame index="15" offsetY ="3" delay="140" />
+			<frame index="15" offsetY ="4" delay="150" />
+			<frame index="15" offsetY ="3" delay="140" />
+			<frame index="15" offsetY ="2" delay="120" />
+			<frame index="15" offsetY ="1" delay="90" />
+		</animation>
+	</action>
+
+	<action name="walk" imageset="base">
+		<animation direction="up">
+			<frame index="18" offsetY ="0" delay="70" />
+			<frame index="19" offsetY ="1" delay="90" />
+			<frame index="18" offsetY ="2" delay="120" />
+			<frame index="19" offsetY ="3" delay="140" />
+			<frame index="18" offsetY ="4" delay="150" />
+			<frame index="19" offsetY ="3" delay="140" />
+			<frame index="18" offsetY ="2" delay="120" />
+			<frame index="19" offsetY ="1" delay="90" />
+		</animation>
+		<animation direction="right">
+			<frame index="21" offsetY ="0" delay="70" />
+			<frame index="22" offsetY ="1" delay="90" />
+			<frame index="21" offsetY ="2" delay="120" />
+			<frame index="22" offsetY ="3" delay="140" />
+			<frame index="21" offsetY ="4" delay="150" />
+			<frame index="22" offsetY ="3" delay="140" />
+			<frame index="21" offsetY ="2" delay="120" />
+			<frame index="22" offsetY ="1" delay="90" />
+		</animation>
+		<animation direction="down">
+			<frame index="24" offsetY ="0" delay="70" />
+			<frame index="25" offsetY ="1" delay="90" />
+			<frame index="24" offsetY ="2" delay="120" />
+			<frame index="25" offsetY ="3" delay="140" />
+			<frame index="24" offsetY ="4" delay="150" />
+			<frame index="25" offsetY ="3" delay="140" />
+			<frame index="24" offsetY ="2" delay="120" />
+			<frame index="25" offsetY ="1" delay="90" />
+		</animation>
+		<animation direction="left">
+			<frame index="27" offsetY ="0" delay="70" />
+			<frame index="28" offsetY ="1" delay="90" />
+			<frame index="27" offsetY ="2" delay="120" />
+			<frame index="28" offsetY ="3" delay="140" />
+			<frame index="27" offsetY ="4" delay="150" />
+			<frame index="28" offsetY ="3" delay="140" />
+			<frame index="27" offsetY ="2" delay="120" />
+			<frame index="28" offsetY ="1" delay="90" />
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+		<animation direction="down">
+			<sequence start="0" end="5" delay="75" offsetY ="0" />
+			<frame index="5" delay="1000" offsetY ="0" />
+		  	<end />
+		</animation>
+		<animation direction="up">
+			<sequence start="6" end="11" delay="75" offsetY ="0" />
+			<frame index="11" delay="1000" offsetY ="0" />
+		  	<end />
+		</animation>
+		<animation direction="right">
+			<sequence start="12" end="14" delay="75" offsetY ="0" />
+			<frame index="14" delay="1000" offsetY ="0" />
+		  	<end />
+		</animation>
+		<animation direction="left">
+			<sequence start="15" end="17" delay="75" offsetY ="0" />
+			<frame index="17" delay="1000" offsetY ="0" />
+		  	<end />
+		</animation>
+	</action>
+
+	<action name="dead" imageset="base">
+		<animation>
+			<sequence start="30" end="44" delay="75" offsetY ="0" />
+			<frame index="46"/>
+		  	<end />
+		</animation>
+	</action>
+
+</sprite>
