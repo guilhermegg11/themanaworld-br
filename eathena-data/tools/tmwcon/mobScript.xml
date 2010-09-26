@@ -10,7 +10,7 @@
 
 	<script id="callfunc_mobExterminio">
 	if(%return%) return;
-	callfunc "mobExterminio", %mapa%, %label%;
+	callfunc "mobExterminio", "%mapa%", "%label%";
 	if(@flag==1) set QUEST_trasgo, 4;
 	</script>
 
@@ -49,8 +49,8 @@
 		<callsub label="_MOBS_trasgoRoxo">
 			<gerar_label script="callfunc_mobExterminio">
 				<var id="%return%" valor="QUEST_trasgo!=3"/>
-				<var id="%mapa%" valor="&quot;004.gat&quot;"/>
-				<var id="%label%" valor="&quot;Mob004::On1312&quot;"/>
+				<var id="%mapa%" valor="004.gat"/>
+				<var id="%label%" valor="Mob004::On1312"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
