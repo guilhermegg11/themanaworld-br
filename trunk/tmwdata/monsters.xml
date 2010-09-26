@@ -285,11 +285,15 @@
 		<sound event="miss">pinkie-miss1.ogg</sound>
 	</monster>
 	<monster id="311" name="Morte">
-		<sprite>monster-skeleton.xml</sprite>
-		<!--sprite>chest-capa.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite-->
+		<sprite>monster-reaper.xml</sprite>
+		<sprite>monster-reaper-somber.xml</sprite>
+		<!--<sprite>monster-skeleton.xml</sprite>
 		<sprite>chest-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-		<sprite>weapon-scythe.xml</sprite>
+		<sprite>weapon-scythe.xml</sprite>-->
 		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+		<sound event="hit" >fire-goblin-hit2.ogg</sound> <!-- Morte atacando -->
+		<sound event="miss">scorpion-hit2.ogg</sound> <!-- Morte erra ataque -->
+		<sound event="die" >reaper-die.ogg</sound>  <!-- Morte Morre -->
 	</monster>
 	<monster id="312" name="Cabeça de Abóbora">
 		<sprite>monstro-cabeca-abobora-sombra.xml</sprite>
