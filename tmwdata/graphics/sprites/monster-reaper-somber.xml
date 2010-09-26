@@ -37,12 +37,12 @@
 		  	<end />
 		</animation>
 	</action>
-
-	<!--<action name="dead" imageset="base">
+	
+		<action name="dead" imageset="base">
 		<animation>
-			<sequence start="45" end="45" delay="75" />
+			<frame index="46"/>
 		  	<end />
 		</animation>
-	</action>-->
+	</action>
 
 </sprite>
