@@ -33,7 +33,7 @@
 	<action name="attack" imageset="base">
 		<animation>
 			<sequence start="45" end="45" delay="75" />
-			<frame index="45" delay="1000" />
+			<frame index="45" delay="500" />
 		  	<end />
 		</animation>
 	</action>

@@ -92,29 +92,29 @@
 	<action name="attack" imageset="base">
 		<animation direction="down">
 			<sequence start="0" end="5" delay="75" offsetY ="0" />
-			<frame index="5" delay="1000" offsetY ="0" />
+			<frame index="5" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 		<animation direction="up">
 			<sequence start="6" end="11" delay="75" offsetY ="0" />
-			<frame index="11" delay="1000" offsetY ="0" />
+			<frame index="11" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 		<animation direction="right">
 			<sequence start="12" end="14" delay="75" offsetY ="0" />
-			<frame index="14" delay="1000" offsetY ="0" />
+			<frame index="14" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 		<animation direction="left">
 			<sequence start="15" end="17" delay="75" offsetY ="0" />
-			<frame index="17" delay="1000" offsetY ="0" />
+			<frame index="17" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 	</action>
 
 	<action name="dead" imageset="base">
 		<animation>
-			<sequence start="30" end="44" delay="75" offsetY ="0" />
+			<sequence start="30" end="44" delay="110" offsetY ="0" />
 			<frame index="46"/>
 		  	<end />
 		</animation>
