@@ -106,8 +106,8 @@
 		  	<end />
 		</animation>
 		<animation direction="left">
-			<sequence start="15" end="17" delay="75" offsetY ="0" />
-			<frame index="17" delay="500" offsetY ="0" />
+			<sequence start="17" end="15" delay="75" offsetY ="0" />
+			<frame index="15" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 	</action>
