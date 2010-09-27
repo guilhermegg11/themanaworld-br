@@ -166,47 +166,47 @@ On1333_t2:
 //= Callsubs ==========================================================
 
 _jazida1_Cobre:
-	set @minerio, 551;
+	set @minerio, 3134;
 	callfunc "minerarJazida";
 	return;
 
 _jazida2_Chumbo:
-	set @minerio, 552;
+	set @minerio, 3135;
 	callfunc "minerarJazida";
 	return;
 
 _jazida3_Estanho:
-	set @minerio, 553;
+	set @minerio, 3136;
 	callfunc "minerarJazida";
 	return;
 
 _jazida4_Prata:
-	set @minerio, 554;
+	set @minerio, 3137;
 	callfunc "minerarJazida";
 	return;
 
 _jazida5_Ouro:
-	set @minerio, 555;
+	set @minerio, 3138;
 	callfunc "minerarJazida";
 	return;
 
 _jazida6_Platina:
-	set @minerio, 556;
+	set @minerio, 3139;
 	callfunc "minerarJazida";
 	return;
 
 _jazida7_Iridio:
-	set @minerio, 557;
+	set @minerio, 3140;
 	callfunc "minerarJazida";
 	return;
 
 _jazida8_Titanio:
-	set @minerio, 558;
+	set @minerio, 3141;
 	callfunc "minerarJazida";
 	return;
 
 _jazida9_Diamante:
-	set @minerio, 559;
+	set @minerio, 3142;
 	callfunc "minerarJazida";
 	return;
 
