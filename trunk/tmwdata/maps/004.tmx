@@ -245,7 +245,6 @@
     <property name="eA_death" value="300000"/>
     <property name="max_beings" value="6"/>
     <property name="monster_id" value="310"/>
-    <property name="script" value="callfunc &quot;mateTodos&quot;;"/>
    </properties>
   </object>
   <object name="Trasgo Roxo (4) [5min]" type="spawn" x="3552" y="3200" width="480" height="704">
@@ -253,7 +252,6 @@
     <property name="eA_death" value="300000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="310"/>
-    <property name="script" value="callfunc &quot;mateTodos&quot;;"/>
    </properties>
   </object>
   <object name="Limo do Mar (16)" type="spawn" x="672" y="576" width="1856" height="2528">
