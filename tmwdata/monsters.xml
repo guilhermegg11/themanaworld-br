@@ -197,29 +197,32 @@
 	        <sprite>monster-snail.xml</sprite>
 	</monster>
 	<monster id="40" name="Espectro">
-	        <sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
+		<sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
 	<monster id="43" name="Guerreiro Caído">
-	        <sprite>monster-skeleton.xml|#ffe8bf</sprite>
-	        <sprite>leg-chaps-male.xml</sprite>
-	        <sprite>chest-warlordplate-male.xml</sprite>
-	        <sprite>head-warlordhelm.xml</sprite>
+		<sprite>monster-skeleton.xml|#ffe8bf</sprite>
+		<sprite>leg-chaps-male.xml</sprite>
+		<sprite>chest-warlordplate-male.xml</sprite>
+		<sprite>head-warlordhelm.xml</sprite>
 	</monster>
 	<monster id="45" name="Espectro do Calafrio">
 		<sprite>monster-wisp.xml|#77ffdd,77ddff</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
 	<monster id="47" name="Abelha" targetCursor="small">
-	        <sprite>monster-bee.xml</sprite>
+		<sprite>monster-bee.xml</sprite>
 		<sprite>generic-shadow-small-circle.xml</sprite>
+		<sound event="hit">abelha-hit1.ogg</sound> <!-- atacando -->
+		<sound event="miss">abelha-hit1.ogg</sound> <!-- erra ataque -->
+		<sound event="die">flower-miss1.ogg</sound>  <!-- Rato Morre -->
 	</monster>
 	<monster id="53" name="Borboleta" targetCursor="small">
-	        <sprite>monster-butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+		<sprite>monster-butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
 		<sprite>generic-shadow-small-circle.xml</sprite>
 	</monster>
 	<monster id="59" name="Moggun">
-        	<sprite>monster-moggun.xml</sprite>
+		<sprite>monster-moggun.xml</sprite>
 	</monster>
 	<monster id="60" name="Terranite">
 		<sprite>monster-terranite.xml</sprite>

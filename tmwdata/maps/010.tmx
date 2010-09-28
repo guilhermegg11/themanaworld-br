@@ -2,7 +2,8 @@
 <map version="1.0" orientation="orthogonal" width="200" height="140" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="/graphics/minimaps/010.png"/>
-  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="music" value="butterfly_tea_-_the_origins.ogg"/>
+  <property name="music-old" value="The Mana World - Snow Village.ogg"/>
   <property name="name" value="Polo Norte"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">

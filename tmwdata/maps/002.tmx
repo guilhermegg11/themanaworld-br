@@ -3,7 +3,8 @@
  <properties>
   <property name="background0image" value="graphics/images/panorams/spotlight.png"/>
   <property name="minimap" value="/graphics/minimaps/002.png"/>
-  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="music" value="baal_anamelech_-_pantalamo.ogg"/>
+  <property name="music-old" value="The Mana World - The Forest.ogg"/>
   <property name="name" value="Fortaleza"/>
   <property name="overlay0image-off" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>

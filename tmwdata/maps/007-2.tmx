@@ -2,8 +2,9 @@
 <map version="1.0" orientation="orthogonal" width="200" height="140" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="/graphics/minimaps/007-2.png"/>
-  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Caverna do Tesouro"/>
+  <property name="music" value="faradize_-_darknight_castle.ogg"/>
+  <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Caverna Assombrada"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0parallax" value="0.0"/>
  </properties>

@@ -42,7 +42,7 @@
    H4sIAAAAAAAAA+2S24rDMAwFQ/7/o/dhYemG2Dq6xHLbEQyFxpIsjc/jOE4AAAAAAAAAAAAAAAAAAAAAAAAAAPjj+LK+n35XZZbXWN13R09WdDur9L1qplmvqjtE51Gj213lbp6ex9pddK9WzPK8viP324nVs8x6Re+iRCY3Und3Vs5xHP97Zt+gEtn8TP1dWTWDsjPlzN3ZzDwV0e2wwkk0/ynns3PZOdSIvMt3QJ1B2Y2aF9n/rJ9yD88s6h273VV5Pyb/K+F9V5X11W+z/+56ee7yLljhdZP1Gq3tnS3rfNTzXagOxcsoT6m5wrkS3d528j6qHe1n3TkyS3b2bl9POvfs5Hz5rXJzl3fNVb9VRberFd5Hc2f3ovbxOh+9s6ro9tTp/am9KDWUXnffumfbkR12MqtR1a9zvt3IRsf9Vs/a7Wg37+/kXKm3ej6c++5U1WfUt9vLCu9e/4ora8fZdxitr/TtdrLCuTeUGqMzT9xn1hfn9o5nez9ffj3OZ/WqnVv1cR6LKud3tc7Lt2xE3/0nE4ls/qyep6by3qI76Paym/dr7l0dq8fpOBu9W2T+bhe7uldyPPWrnGfn7N7/ru4zZ0fnVzrP5n866l48e3z93zrjjYjnWd43Y+3Hs1Pr+6ye932p72eU1733bmb78biwvntcVdXB+bPOr2cj9ZQeGedWzW/C2oOy09m3Lufemt+Esgtrd569qhGZoarep6PuxDqn7leJipm697oz6n6Uc55dj2LlTLDWOa72Z4WPFT0AHwAAAAAAAAAAAAAAAAAAAAAAAADwyw8mntGTQJwAAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="graphics/particles/waterfall-1x2.particle.xml" type="PARTICLE_EFFECT" x="1792" y="704"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3008" y="960" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3072" y="960" width="32" height="32"/>
@@ -136,10 +136,16 @@
     <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object name="Esqueleto (6)" type="spawn" x="992" y="1152" width="1056" height="704">
+  <object name="Borboletas (10)" type="spawn" x="638" y="832" width="856" height="942">
    <properties>
-    <property name="max_beings" value="6"/>
-    <property name="monster_id" value="300"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="53"/>
+   </properties>
+  </object>
+  <object name="Abelhas (10)" type="spawn" x="1614" y="1322" width="490" height="466">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="47"/>
    </properties>
   </object>
  </objectgroup>
