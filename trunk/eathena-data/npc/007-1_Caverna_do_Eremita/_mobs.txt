@@ -5,7 +5,8 @@
 
 007-1.gat,87,39,39,38	monster	Morcego (35)	1017,35,0,0,Mob007-1::On1017
 007-1.gat,88,38,39,38	monster	Bicho-da-seda (15)	1035,15,0,0,Mob007-1::On1035
-007-1.gat,47,46,32,21	monster	Esqueleto (6)	1302,6,0,0,Mob007-1::On1302
+007-1.gat,19,26,26,29	monster	Borboleta (10)	1055,10,0,0,Mob007-1::On1055
+007-1.gat,51,41,15,14	monster	Abelha (10)	1049,10,0,0,Mob007-1::On1049
 
 007-1.gat,0,0,0	script	Mob007-1	-1,{
 
@@ -19,10 +20,14 @@ On1035:
 	callfunc "MobPoints";
 	break;
 
-On1302:
-	set @mobID, 1302;
+On1055:
+	set @mobID, 1055;
 	callfunc "MobPoints";
 	break;
 
+}On1049:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	break;
 	end;
 }
