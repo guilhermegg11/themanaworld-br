@@ -4,43 +4,53 @@
 	<imageset name="base" src="graphics/sprites/monster-reaper.png" width="100" height="100" />
 
 	<action name="stand" imageset="base">
-		<animation>
-			<frame index="45" delay="70" />
-			<frame index="45" delay="90" />
-			<frame index="45" delay="120" />
-			<frame index="45" delay="140" />
-			<frame index="45" delay="150" />
-			<frame index="45" delay="140" />
-			<frame index="45" delay="120" />
-			<frame index="45" delay="90" />
+		<animation direction="down">
+			<frame index="45" offsetX="-3" offsetY="-2"/>
+		</animation>
+		<animation direction="up">
+			<frame index="45" offsetX="-3" offsetY="-2"/>
+		</animation>
+		<animation direction="right">
+			<frame index="45" offsetX="-6" offsetY="-2"/>
+		</animation>
+		<animation direction="left">
+			<frame index="45" offsetX="-1" offsetY="-2"/>
 		</animation>
 	</action>
 
 	<action name="walk" imageset="base">
-		<animation>
-			<frame index="45" delay="70" />
-			<frame index="45" delay="90" />
-			<frame index="45" delay="120" />
-			<frame index="45" delay="140" />
-			<frame index="45" delay="150" />
-			<frame index="45" delay="140" />
-			<frame index="45" delay="120" />
-			<frame index="45" delay="90" />
+		<animation direction="down">
+			<frame index="45" offsetX="-3" offsetY="-2"/>
 		</animation>
-
+		<animation direction="up">
+			<frame index="45" offsetX="-3" offsetY="-2"/>
+		</animation>
+		<animation direction="right">
+			<frame index="45" offsetX="-6" offsetY="-2"/>
+		</animation>
+		<animation direction="left">
+			<frame index="45" offsetX="-1" offsetY="-2"/>
+		</animation>
 	</action>
 
 	<action name="attack" imageset="base">
-		<animation>
-			<sequence start="45" end="45" delay="75" />
-			<frame index="45" delay="500" />
-		  	<end />
+		<animation direction="down">
+			<frame index="45" offsetX="-3" offsetY="-2"/>
+		</animation>
+		<animation direction="up">
+			<frame index="45" offsetX="-3" offsetY="-2"/>
+		</animation>
+		<animation direction="right">
+			<frame index="45" offsetX="-6" offsetY="-2"/>
+		</animation>
+		<animation direction="left">
+			<frame index="45" offsetX="-1" offsetY="-2"/>
 		</animation>
 	</action>
 	
-		<action name="dead" imageset="base">
+	<action name="dead" imageset="base">
 		<animation>
-			<frame index="46"/>
+			<frame index="46"/><!-- Deixa invisivel -->
 		  	<end />
 		</animation>
 	</action>

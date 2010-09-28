@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<sprite name="reaper" action="stand">
+<sprite name_="reaper" action_="stand">
 
 	<imageset name="base" src="graphics/sprites/monster-reaper.png" width="100" height="100" />
 
@@ -91,23 +91,23 @@
 
 	<action name="attack" imageset="base">
 		<animation direction="down">
-			<sequence start="0" end="5" delay="75" offsetY ="0" />
+			<sequence start="0" end="5" delay="30" offsetY="0" />
 			<frame index="5" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 		<animation direction="up">
-			<sequence start="6" end="11" delay="75" offsetY ="0" />
+			<sequence start="6" end="11" delay="30" offsetY ="0" />
 			<frame index="11" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 		<animation direction="right">
-			<sequence start="12" end="14" delay="75" offsetY ="0" />
+			<sequence start="12" end="14" delay="30" offsetY ="0" />
 			<frame index="14" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 		<animation direction="left">
-			<sequence start="17" end="15" delay="75" offsetY ="0" />
-			<frame index="15" delay="500" offsetY ="0" />
+			<sequence start="15" end="17" delay="30" offsetY ="0" />
+			<frame index="17" delay="500" offsetY ="0" />
 		  	<end />
 		</animation>
 	</action>
