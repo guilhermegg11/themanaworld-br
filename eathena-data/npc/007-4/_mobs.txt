@@ -1,5 +1,5 @@
 //
-// Monstros do mapa: 007-4
+// Monstros do mapa: 007-4 Vila dos Pescadores
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
