@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <updates>
-	<update type="data" file="graphics.zip" hash="debdc5b0"/>
-	<update type="data" file="maps4.zip" hash="557e8cc5"/>
-	<update type="data" file="raiz3.zip" hash="8cbf1f7f"/>
-	<update type="data" file="sfx.zip" hash="db3980e0"/>
-	<update type="data" file="tiles2-1.zip" hash="fb55f84c"/>
-	<update type="data" file="tiles2.zip" hash="a8cdb0c4"/>
-	<update type="data" file="update0..1.zip" hash="11dd7b17"/>
-	<update type="data" file="update1..2.zip" hash="c9e00a"/>
-	<update type="data" file="update2..3.zip" hash="513484c0"/>
-	<update type="data" file="dev.zip" hash="38815eaf"/>
-	<update type="data" file="update3..4.zip" hash="bab1b488"/>
-	<update type="data" file="update4..5.zip" hash="dfc81a80"/>
-	<update type="data" file="update5..6.zip" hash="52f4a2eb"/>
-	<update type="data" file="update6..7.zip" hash="43a5a8"/>
-	<update type="data" file="update7..8.zip" hash="d0e5348"/>
-	<update type="data" file="update8..9.zip" hash="26432136"/>
-	<update type="data" file="update9..10.zip" hash="fc224cdb"/>
-	<update type="data" file="update10..11.zip" hash="6026d728"/>
-	<update type="data" file="update11..12.zip" hash="43d26daf"/>
-	<update type="data" file="update_2009-10-22.zip" hash="b2a55d10"/>
-	<update type="data" file="update_2009-11-10.zip" hash="d5a3c4ce"/>
-	<update type="data" file="update_2009-12-31.zip" hash="2ac6f6a0"/>
-	<update type="data" file="update_2010-02-21.zip" hash="22d6ab7f"/>
-	<update type="data" file="update_2010-03-10.zip" hash="5e9d3a79"/>
-	<update type="data" file="update_2010-04-21.zip" hash="8e5c16e5"/>
-	<update type="data" file="update_2010-05-09.zip" hash="9e8db336"/>
+	<update type="data" file="2010_geral.zip" hash="f3a22a1d"/>
+	<update type="data" file="2010_graphics.zip" hash="c22d1269"/>
+	<update type="data" file="2010_sprites.zip" hash="d30c7a3e"/>
+	<update type="data" file="2010_tiles.zip" hash="99a055a0"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 </updates>

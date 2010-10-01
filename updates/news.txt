@@ -1,3 +1,18 @@
+##3 .:: Atualização 30/09/2010 ::.
+##0
+##0 O The Mana World BR passou por uma grande
+##0 reforma. E após muitos dias de trabalho
+##0 tudo está disponível aos jogadores.
+##0 Confira as novidades com o jornaleiro.
+##3 Tá demorando baixar mas vale a pena !
+##0
+##3 .:: Atualização 19/07/2010 ::.
+##0
+##0 * Incluido do set do Dragão
+##0 * Novo sprite para o monstro dragão
+##0 * Corrigido bugs do banqueiro e do baú da
+##0 pensão
+##0
 ##3 .:: Novo Servidor ::.
 ##3 18/05/2010
 ##0
