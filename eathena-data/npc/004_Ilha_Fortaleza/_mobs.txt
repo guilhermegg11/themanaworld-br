@@ -76,7 +76,7 @@ On1312:
 //= Callsubs ==========================================================
 
 _MOBS_cogumelo:
-	if(QUEST_cogumelo!=1) return;
+	if(QUEST_cogumelo!=2) return;
 	callfunc "mobContagem", 40, MOBS_cogumelo, @MOBS_cogumelo;
 	set MOBS_cogumelo, @mobs;
 	set @MOBS_cogumelo, @flag;
