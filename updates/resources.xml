@@ -4,5 +4,7 @@
 	<update type="data" file="2010_graphics.zip" hash="c22d1269"/>
 	<update type="data" file="2010_sprites.zip" hash="d30c7a3e"/>
 	<update type="data" file="2010_tiles.zip" hash="99a055a0"/>
+	<update type="data" file="correcao_2010-10-01.zip" hash="f2d1cd4c"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
+	<update type="data" required="no" file="musicas_2010-09-28.zip" hash="6db7aab8" desciption="Novas músicas"/>
 </updates>
