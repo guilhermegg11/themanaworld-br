@@ -54,7 +54,7 @@
 	<monstro id="1013" nome="Cogumelo Maligno">
 		<callsub label="_MOBS_cogumelo">
 			<gerar_label script="callfunc_mobContagem">
-				<var id="%return%" valor="QUEST_cogumelo!=1"/>
+				<var id="%return%" valor="QUEST_cogumelo!=2"/>
 				<var id="%max%" valor="40"/>
 				<var id="%mobs%" valor="MOBS_cogumelo"/>
 			</gerar_label>
