@@ -176,7 +176,7 @@
 		hp="10"
 		weight="1"/>
 	<item id="509"
-		image="use-food-chocolatebar.png"
+		image="use-food-chocolatebar.png|W:#441e00,b36e36"
 		name="Barra de Chocolate"
 		description="Uma barra de chocolate feita do mais fino chocolate"
 		effect=""
