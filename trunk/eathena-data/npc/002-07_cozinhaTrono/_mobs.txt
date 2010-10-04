@@ -1,5 +1,5 @@
 //
-// Monstros do mapa: 002-07 Escada - 1º Andar
+// Monstros do mapa: 002-07 Cozinha e Trono
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
