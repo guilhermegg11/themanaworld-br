@@ -1,5 +1,4 @@
 map: 002-01.gat
 npc: npc/002-01_salaPrincipal/_mobs.txt
 npc: npc/002-01_salaPrincipal/_warps.txt
-
 npc: npc/002-01_salaPrincipal/governanta.conf

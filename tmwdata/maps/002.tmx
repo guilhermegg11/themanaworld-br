@@ -6,6 +6,7 @@
   <property name="music" value="baal_anamelech_-_pantalamo.ogg"/>
   <property name="music-old" value="The Mana World - The Forest.ogg"/>
   <property name="name" value="Fortaleza"/>
+  <property name="pasta" value="fortaleza"/>
   <property name="overlay0image-off" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>

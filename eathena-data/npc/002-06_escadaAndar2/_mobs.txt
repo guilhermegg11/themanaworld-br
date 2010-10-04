@@ -1,5 +1,5 @@
 //
-// Monstros do mapa: 002-06 Escada - 1º Andar
+// Monstros do mapa: 002-06 Escada - 2º Andar
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 

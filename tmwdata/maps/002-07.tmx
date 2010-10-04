@@ -3,6 +3,7 @@
  <properties>
   <property name="music" value="Faith.ogg"/>
   <property name="name" value="Cozinha e Trono"/>
+  <property name="pasta" value="cozinhaTrono"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
