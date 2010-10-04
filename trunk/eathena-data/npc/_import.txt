@@ -1,17 +1,17 @@
-import: npc/002_Fortaleza/_import.txt
+import: npc/002_fortaleza/_import.txt
 import: npc/002-01_salaPrincipal/_import.txt
 import: npc/002-02_quartoFeminino/_import.txt
 import: npc/002-03_quartoMasculino/_import.txt
 import: npc/002-04_escadaTerrea/_import.txt
-import: npc/002-05_Escadaria-Andar1/_import.txt
-import: npc/002-06_Escadaria-Andar2/_import.txt
-import: npc/002-07_Escadaria-Andar3e4/_import.txt
+import: npc/002-05_escadaAndar1/_import.txt
+import: npc/002-06_escadaAndar2/_import.txt
+import: npc/002-07_cozinhaTrono/_import.txt
 
-import: npc/004_Ilha_Fortaleza/_import.txt
+import: npc/004_IlhaFortaleza/_import.txt
 
 import: npc/005_Fortaleza/_import.txt
-import: npc/005-1_Quartel_General/_import.txt
-import: npc/005-2_Penso_Bhramir/_import.txt
+import: npc/005-1_QuartelGeneral/_import.txt
+import: npc/005-2_PensaoBhramir/_import.txt
 import: npc/005-3_Estabelecimento/_import.txt
 import: npc/005-4_Igreja/_import.txt
 
