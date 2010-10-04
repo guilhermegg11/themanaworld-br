@@ -5040,5 +5040,14 @@
 		weight="10">
 		<sprite>rings-wings-demon.xml</sprite>
 	</item>
+	<item id="3145"
+		image="armor-ring-dexterity-rough.png"
+		name="Anel do Dragão Verde"
+		description="Anel que fez crescer asas de Dragão Verde em suas costas."
+		effect="Def.Mag.:+40"
+		type="equip-ring"
+		weight="10">
+		<sprite>rings-wings-dragon.xml</sprite>
+	</item>
 
 </items>

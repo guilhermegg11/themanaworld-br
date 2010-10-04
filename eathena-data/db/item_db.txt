@@ -666,3 +666,4 @@
 3143,bilhetemagico,bilheteMagico,3,500,10,1,,,,,,,,,,,{},{}
 //ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
 3144,AnelDemonio,Anel do Demônio,5,16000,8000,10,0,0,0,0,0,2,128,0,0,0,{},{ bonus bMdef, 20; }
+3145,AnelDragaoVerde,Anel do Dragão Verde,5,32000,16000,10,0,0,0,0,0,2,128,0,0,0,{},{ bonus bMdef, 40; }
