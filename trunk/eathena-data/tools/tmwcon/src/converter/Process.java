@@ -155,7 +155,8 @@ public class Process {
     private static void processFiles(File folder, List<String> out) {
         for (File f : folder.listFiles()) {
             if (f.isDirectory()) {
-                processFiles(folder, out);
+            	if (!f.getName().equals(".svn"))
+            		processFiles(folder, out);
             } else if (!f.getName().equals(importFile)) {
                 out.add("npc: " + f.getPath().substring(_baseFolder.getPath().length() + 1));
             }
@@ -168,14 +169,15 @@ public class Process {
 
         Properties props = map.getProperties();
         String title = getProp(props, "name", "");
+        String pasta = getProp(props, "pasta", "");
         if (summary != null) {
             summary.printf("\tName: '%s'\n", title);
             summary.printf("\tMusic: '%s'\n", getProp(props, "music", ""));
             summary.printf("\tMinimap: '%s'\n", getProp(props, "minimap", ""));
         }
-        String folderName =  scriptDirectory + name;
+        String folderName =  scriptDirectory + name + (pasta.length()==0 ? "" : "_"+pasta);
         if (title.length() > 0) {
-            folderName += "_" + title.replaceAll("\\s", "_").replaceAll("[^A-Za-z0-9\\-_]", "");
+            //folderName += "_" + title.replaceAll("\\s", "_").replaceAll("[^A-Za-z0-9\\-_]", "");
             title = name + " " + title;
         } else {
             title = name;
@@ -262,6 +264,7 @@ public class Process {
         mobOut.flush();
         mobOut.close();
 
+        //- Gera o arquivo _import.txt
         File _import = new File(folder, importFile);
         List<String> output_elements = new ArrayList<String>();
         processFiles(folder, output_elements);
