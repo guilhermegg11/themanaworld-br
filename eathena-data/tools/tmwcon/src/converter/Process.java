@@ -158,7 +158,10 @@ public class Process {
             	if (!f.getName().equals(".svn"))
             		processFiles(folder, out);
             } else if (!f.getName().equals(importFile)) {
-                out.add("npc: " + f.getPath().substring(_baseFolder.getPath().length() + 1));
+            	if (f.getName().getBytes()[0]=='-')
+                    out.add("//npc: " + f.getPath().substring(_baseFolder.getPath().length() + 1));
+            	else
+            		out.add("npc: " + f.getPath().substring(_baseFolder.getPath().length() + 1));
             }
         }
     }
