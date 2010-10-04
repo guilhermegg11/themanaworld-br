@@ -6,6 +6,7 @@
   <property name="minimap" value="/graphics/minimaps/005-1.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Quartel General"/>
+  <property name="pasta" value="QuartelGeneral"/>
  </properties>
  <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>

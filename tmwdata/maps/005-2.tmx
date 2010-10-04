@@ -3,6 +3,7 @@
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Pensão Bhramir"/>
+  <property name="pasta" value="PensaoBhramir"/>
  </properties>
  <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>

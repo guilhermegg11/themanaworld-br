@@ -1,14 +1,9 @@
 map: 004.gat
-
-npc: npc/004_Ilha_Fortaleza/zeca.conf
-npc: npc/004_Ilha_Fortaleza/chico.conf
-npc: npc/004_Ilha_Fortaleza/joana.conf
-npc: npc/004_Ilha_Fortaleza/terezinha.conf
-npc: npc/004_Ilha_Fortaleza/operarios.conf
-
-npc: npc/004_Ilha_Fortaleza/_mobs.txt
-npc: npc/004_Ilha_Fortaleza/_warps.txt
-
-//Em avaliação:
-npc: npc/004_Ilha_Fortaleza/joao.conf
-
+npc: npc/004_IlhaFortaleza/_mobs.txt
+npc: npc/004_IlhaFortaleza/_warps.txt
+npc: npc/004_IlhaFortaleza/chico.conf
+npc: npc/004_IlhaFortaleza/joana.conf
+npc: npc/004_IlhaFortaleza/joao.conf
+npc: npc/004_IlhaFortaleza/operarios.conf
+npc: npc/004_IlhaFortaleza/terezinha.conf
+npc: npc/004_IlhaFortaleza/zeca.conf
