@@ -5,6 +5,7 @@
   <property name="music" value="syntharmony_-_fusion.ogg"/>
   <property name="music-old" value="Magick - Real.ogg"/>
   <property name="name" value="Fortaleza"/>
+  <property name="pasta" value="Fortaleza"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>

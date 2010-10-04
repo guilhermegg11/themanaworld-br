@@ -1,13 +1,7 @@
 map: 005-1.gat
-
-npc: npc/005-1_Quartel_General/_warps.txt
-npc: npc/005-1_Quartel_General/_mobs.txt
-npc: npc/005-1_Quartel_General/mapflags.txt
-npc: npc/005-1_Quartel_General/juiz_miguel.conf
-npc: npc/005-1_Quartel_General/menir_alma.conf
-
-//Em avaliação...
-
-
-//Necessitando de Reparos...
-npc: npc/005-1_Quartel_General/parua.conf
+npc: npc/005-1_QuartelGeneral/_mobs.txt
+npc: npc/005-1_QuartelGeneral/_warps.txt
+npc: npc/005-1_QuartelGeneral/juiz_miguel.conf
+npc: npc/005-1_QuartelGeneral/mapflags.txt
+npc: npc/005-1_QuartelGeneral/menir_alma.conf
+npc: npc/005-1_QuartelGeneral/parua.conf
