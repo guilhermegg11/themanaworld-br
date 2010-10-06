@@ -1,10 +1,8 @@
 map: 007-4.gat
-npc: npc/007-4/_shops.txt
-
-npc: npc/007-4/bau.conf
-npc: npc/007-4/camelia.conf
-npc: npc/007-4/cornelia.conf
-npc: npc/007-4/party.conf
-
-npc: npc/007-4/_mobs.txt
-npc: npc/007-4/_warps.txt
+npc: npc/007-4_VilaPescadores/_mobs.txt
+npc: npc/007-4_VilaPescadores/_shops.txt
+npc: npc/007-4_VilaPescadores/_warps.txt
+npc: npc/007-4_VilaPescadores/bau.conf
+npc: npc/007-4_VilaPescadores/camelia.conf
+npc: npc/007-4_VilaPescadores/cornelia.conf
+npc: npc/007-4_VilaPescadores/party.conf

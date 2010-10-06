@@ -1,4 +1,4 @@
-// 007-2 Caverna do Tesouro warps
+// 007-2 Caverna Assombrada warps
 
 007-2.gat,163,105	warp	ParaFora	-1,-1,007-1.gat,63,57
 007-2.gat,177,101	warp	paraSala	-1,-1,007-2.gat,177,98

@@ -4,6 +4,7 @@
   <property name="minimap" value="/graphics/minimaps/007-1.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Caverna do Eremita"/>
+  <property name="pasta" value="CavernaEremita"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0parallax" value="0.0"/>
  </properties>

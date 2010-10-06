@@ -15,11 +15,11 @@ import: npc/005-2_PensaoBhramir/_import.txt
 import: npc/005-3_Estabelecimento/_import.txt
 import: npc/005-4_Igreja/_import.txt
 
-import: npc/007_Praia_do_Porto/_import.txt
-import: npc/007-1_Caverna_do_Eremita/_import.txt
-import: npc/007-2_Caverna_do_Tesouro/_import.txt
-import: npc/007-3_Caverna/_import.txt
-import: npc/007-4/_import.txt
+import: npc/007_PraiaPorto/_import.txt
+import: npc/007-1_CavernaEremita/_import.txt
+import: npc/007-2_CavernaAssombrada/_import.txt
+import: npc/007-3_CavernaMonstruosa/_import.txt
+import: npc/007-4_VilaPescadores/_import.txt
 
 import: npc/008_Ilha_Fortaleza/_import.txt
 import: npc/008-1_Caverna/_import.txt

@@ -5,6 +5,7 @@
   <property name="music" value="butterfly_tea_-_heart_of_medieval_01.ogg"/>
   <property name="music-old" value="The Mana World - The Forest.ogg"/>
   <property name="name" value="Praia do Porto"/>
+  <property name="pasta" value="PraiaPorto"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
