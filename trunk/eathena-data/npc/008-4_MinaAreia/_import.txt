@@ -1,7 +1,4 @@
 map: 008-4.gat
-
-//Baú retirado por motivo de subtituição de quests.
-//npc: npc/008-4_Mina_da_Areia/bau.conf
-
-npc: npc/008-4_Mina_da_Areia/_mobs.txt
-npc: npc/008-4_Mina_da_Areia/_warps.txt
+//npc: npc/008-4_MinaAreia/-bau.conf
+npc: npc/008-4_MinaAreia/_mobs.txt
+npc: npc/008-4_MinaAreia/_warps.txt

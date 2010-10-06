@@ -4,6 +4,7 @@
   <property name="minimap" value="/graphics/minimaps/008-2.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Caverna"/>
+  <property name="pasta" value="Caverna"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
  </properties>
  <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
