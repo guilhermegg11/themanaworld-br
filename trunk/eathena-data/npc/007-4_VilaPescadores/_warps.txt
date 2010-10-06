@@ -1,4 +1,4 @@
-// 007-4 warps
+// 007-4 Vila dos Pescadores warps
 
 007-4.gat,100,31	warp	sairHospital	-1,-1,007.gat,63,29
 007-4.gat,27,31	warp	sair1	-1,-1,007.gat,37,38

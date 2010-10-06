@@ -5,6 +5,7 @@
   <property name="music" value="faradize_-_darknight_castle.ogg"/>
   <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Caverna Assombrada"/>
+  <property name="pasta" value="CavernaAssombrada"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0parallax" value="0.0"/>
  </properties>
