@@ -21,12 +21,13 @@ import: npc/007-2_CavernaAssombrada/_import.txt
 import: npc/007-3_CavernaMonstruosa/_import.txt
 import: npc/007-4_VilaPescadores/_import.txt
 
-import: npc/008_Ilha_Fortaleza/_import.txt
+import: npc/008_IlhaFortaleza/_import.txt
 import: npc/008-1_Caverna/_import.txt
 import: npc/008-2_Caverna/_import.txt
-import: npc/008-3_Mina_da_Areia/_import.txt
-import: npc/008-4_Mina_da_Areia/_import.txt
-import: npc/008-5_Arena_de_Combate/_import.txt
+import: npc/008-3_MinaAreia/_import.txt
+import: npc/008-4_MinaAreia/_import.txt
+import: npc/008-5_ArenaCombate/_import.txt
+import: npc/008-6_Caverna/_import.txt
 
 import: npc/009_Ilha_Fortaleza/_import.txt
 import: npc/009-1_Caverna_da_Montanha/_import.txt

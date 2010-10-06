@@ -1,18 +1,13 @@
 map: 008.gat
-npc: npc/008_Ilha_Fortaleza/_mobs.txt
-npc: npc/008_Ilha_Fortaleza/_warps.txt
-npc: npc/008_Ilha_Fortaleza/_shops.txt
-
-// Move o antigo star point
-//npc: npc/008_Ilha_Fortaleza/menir_alma.conf
-//Comentei pq não precimamos mais disto! (Lunovox)
-
-npc: npc/008_Ilha_Fortaleza/juliana.conf
-//npc: npc/008_Ilha_Fortaleza/joana.conf
-npc: npc/008_Ilha_Fortaleza/joaozinho.conf
-npc: npc/008_Ilha_Fortaleza/guardas.conf
-npc: npc/008_Ilha_Fortaleza/jack.conf
-npc: npc/008_Ilha_Fortaleza/florencia.conf
-npc: npc/008_Ilha_Fortaleza/duende_faisca.conf
-npc: npc/008_Ilha_Fortaleza/monge.conf
-npc: npc/008_Ilha_Fortaleza/espada008.conf
+npc: npc/008_IlhaFortaleza/_mobs.txt
+npc: npc/008_IlhaFortaleza/_shops.txt
+npc: npc/008_IlhaFortaleza/_warps.txt
+//npc: npc/008_IlhaFortaleza/-menir_alma.conf
+npc: npc/008_IlhaFortaleza/duende_faisca.conf
+npc: npc/008_IlhaFortaleza/espada008.conf
+npc: npc/008_IlhaFortaleza/florencia.conf
+npc: npc/008_IlhaFortaleza/guardas.conf
+npc: npc/008_IlhaFortaleza/jack.conf
+npc: npc/008_IlhaFortaleza/joaozinho.conf
+npc: npc/008_IlhaFortaleza/juliana.conf
+npc: npc/008_IlhaFortaleza/monge.conf

@@ -1,0 +1,22 @@
+//
+// Monstros do mapa: 008-6 Caverna
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+008-6.gat,45,46,44,9	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-6::On1008
+008-6.gat,33,27,25,10	monster	Aranha (3)	1012,3,90000,30000,Mob008-6::On1012
+
+008-6.gat,0,0,0	script	Mob008-6	-1,{
+
+On1008:
+	set @mobID, 1008;
+	callfunc "MobPoints";
+	break;
+
+On1012:
+	set @mobID, 1012;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}

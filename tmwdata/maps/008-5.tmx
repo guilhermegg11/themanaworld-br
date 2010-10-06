@@ -4,6 +4,7 @@
   <property name="minimap" value="/graphics/minimaps/008-5.png"/>
   <property name="music" value="Clouds Calling.ogg"/>
   <property name="name" value="Arena de Combate"/>
+  <property name="pasta" value="ArenaCombate"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
  </properties>
  <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
