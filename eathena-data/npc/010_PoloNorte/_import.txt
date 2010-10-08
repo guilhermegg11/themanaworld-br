@@ -1,14 +1,13 @@
 map: 010.gat
-
-npc: npc/010_Polo_Norte/menir_alma.conf
-npc: npc/010_Polo_Norte/duende_faisca.conf
-npc: npc/010_Polo_Norte/duende_lulu.conf
-npc: npc/010_Polo_Norte/duende_tunico.conf
-npc: npc/010_Polo_Norte/boneco_neve.conf
-npc: npc/010_Polo_Norte/jornaleiro.conf
-npc: npc/010_Polo_Norte/raquel.conf
-npc: npc/010_Polo_Norte/capitaoreal.conf
-npc: npc/010_Polo_Norte/guardadonavio.conf
-
-npc: npc/010_Polo_Norte/_mobs.txt
-npc: npc/010_Polo_Norte/_warps.txt
+//npc: npc/010_PoloNorte/-ano_novo.conf
+npc: npc/010_PoloNorte/_mobs.txt
+npc: npc/010_PoloNorte/_warps.txt
+npc: npc/010_PoloNorte/boneco_neve.conf
+npc: npc/010_PoloNorte/capitaoreal.conf
+npc: npc/010_PoloNorte/duende_faisca.conf
+npc: npc/010_PoloNorte/duende_lulu.conf
+npc: npc/010_PoloNorte/duende_tunico.conf
+npc: npc/010_PoloNorte/guardadonavio.conf
+npc: npc/010_PoloNorte/jornaleiro.conf
+npc: npc/010_PoloNorte/menir_alma.conf
+npc: npc/010_PoloNorte/raquel.conf
