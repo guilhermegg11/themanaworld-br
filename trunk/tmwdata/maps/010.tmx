@@ -5,6 +5,7 @@
   <property name="music" value="butterfly_tea_-_the_origins.ogg"/>
   <property name="music-old" value="The Mana World - Snow Village.ogg"/>
   <property name="name" value="Polo Norte"/>
+  <property name="pasta" value="PoloNorte"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
