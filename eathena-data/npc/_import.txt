@@ -29,10 +29,10 @@ import: npc/008-4_MinaAreia/_import.txt
 import: npc/008-5_ArenaCombate/_import.txt
 import: npc/008-6_Caverna/_import.txt
 
-import: npc/009_Ilha_Fortaleza/_import.txt
-import: npc/009-1_Caverna_da_Montanha/_import.txt
+import: npc/009_IlhaFortaleza/_import.txt
+import: npc/009-1_CavernaMontanha/_import.txt
 import: npc/009-2_Caverna/_import.txt
-import: npc/009-3_Reino_de_Lilit/_import.txt
+import: npc/009-3_ReinoLilit/_import.txt
 
 import: npc/010_Polo_Norte/_import.txt
 import: npc/010-1_Caverna_Congelada/_import.txt
