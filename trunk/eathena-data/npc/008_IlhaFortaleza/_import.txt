@@ -1,8 +1,8 @@
 map: 008.gat
+//npc: npc/008_IlhaFortaleza/-menir_alma.conf
 npc: npc/008_IlhaFortaleza/_mobs.txt
 npc: npc/008_IlhaFortaleza/_shops.txt
 npc: npc/008_IlhaFortaleza/_warps.txt
-//npc: npc/008_IlhaFortaleza/-menir_alma.conf
 npc: npc/008_IlhaFortaleza/duende_faisca.conf
 npc: npc/008_IlhaFortaleza/espada008.conf
 npc: npc/008_IlhaFortaleza/florencia.conf
