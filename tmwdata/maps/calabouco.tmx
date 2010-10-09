@@ -2,7 +2,8 @@
 <map version="1.0" orientation="orthogonal" width="243" height="173" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="/graphics/minimaps/calabouco.png"/>
-  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="music" value="faradize_-_darknight_castle.ogg"/>
+  <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Calabouço das Feras"/>
  </properties>
  <tileset firstgid="1" name="colisao" tilewidth="32" tileheight="32">
