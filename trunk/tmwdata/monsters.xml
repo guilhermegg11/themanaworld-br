@@ -273,8 +273,8 @@
 		<sound event="miss">flower-miss1.ogg</sound> <!-- erra ataque -->
 		<sound event="die" >fada-die1.ogg</sound>  <!-- Morre -->
 	</monster>
-	<monster id="308" name="Aranha Rainha">
-		<sprite>monstro-aranha-rainha.xml</sprite>
+	<monster id="308" name="Caranguejeira">
+		<sprite>monstro-aranha.xml|#000000,444444,000000;#00CC00,00FF00</sprite>
 	</monster>
 	<monster id="309" name="Cachorro">
 		<sprite>monstro-cachorro.xml</sprite>
