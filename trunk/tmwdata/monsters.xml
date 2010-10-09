@@ -469,7 +469,7 @@
 	<monster id="334" name="Tarantula (BOSS)"> <!-- Essa aranha será um BOSS.(Dificuldade não-testada) -->
 		<sprite>monstro-aranha-rainha.xml|#000000,888888,000000;#CC0000,FF0000</sprite>
 		<sound event="hit">snake-hit1.ogg</sound> <!-- Atacando -->
-		<sound event="miss">snake-hit1.ogg</sound> <!-- Atacando -->
+		<sound event="miss">snake-hit2.ogg</sound> <!-- Errando -->
 		<sound event="die">tarantula-die.ogg</sound>  <!-- Morrendo -->
 	</monster>
 </monsters>
