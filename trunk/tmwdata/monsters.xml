@@ -466,8 +466,11 @@
 		<sound event="miss">knife-miss1.ogg</sound> <!-- erra ataque -->
 		<sound event="die">short-sword-die1.ogg</sound>  <!-- Rato Morre -->
 	</monster>
-	<monster id="334" name="Aranha Rainha">
+	<monster id="334" name="Tarantula (BOSS)"> <!-- Essa aranha será um BOSS.(Dificuldade não-testada) -->
 		<sprite>monstro-aranha-rainha.xml|#000000,888888,000000;#CC0000,FF0000</sprite>
+		<sound event="hit">snake-hit1.ogg</sound> <!-- Atacando -->
+		<sound event="miss">snake-hit1.ogg</sound> <!-- Atacando -->
+		<sound event="die">tarantula-die.ogg</sound>  <!-- Morrendo -->
 	</monster>
 </monsters>
 

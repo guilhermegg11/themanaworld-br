@@ -78,4 +78,5 @@
 
 1315,cabecaoAbobora@NPC_EMOTION,attack,197,1,10000,0,30000,no,self,slavele,3,5,,,,,
 1315,cabecaoAbobora@NPC_SUMMONSLAVE,attack,196,3,10000,1000,30000,no,self,slavele,3,1314,,,,,
-//1336,AranhaRainha@NPC_SUMMONSLAVE,attack,196,3,1000,100,3000,no,self,slavele,3,1310,,,,,
+1336,Tarantula@NPC_SUMMONSLAVE,angry,80,1,10000,3000,30000,no,around5,slavelt,3,1310,,,,,
+1336,Tarantula@NPC_POISON,attack,80,60,100,0,300,yes,target,always,0,,30,,,,
