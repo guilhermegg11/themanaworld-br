@@ -111,3 +111,4 @@
 // ID,Name,Jname,LV,HP,SP,EXP,JEXP,Range1,ATK1,ATK2,DEF,MDEF,STR,AGI,VIT,INT,DEX,LUK,Range2,Range3,Scale,Race,Element,Mode,Speed,Adelay,Amotion,Dmotion,Drop1id,Drop1per,Drop2id,Drop2per,Drop3id,Drop3per,Drop4id,Drop4per,Drop5id,Drop5per,Drop6id,Drop6per,Drop7id,Drop7per,Drop8id,Drop8per,Item1,Item2,MEXP,ExpPer,MVP1id,MVP1per,MVP2id,MVP2per,MVP3id,MVP3per,mutiation count,mutation strength
 1334,CapitaoDaGuarda,Capitão da Guarda,80,1200,0,0,130,2,110,190,6,0,1,40,15,10,40,1,1,1,1,1,22,137,500,1600,672,480,,,,,3052,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,60
 1335,Tenente,Tenente,70,1100,0,0,130,2,110,190,6,0,1,40,15,10,40,1,1,1,1,1,22,137,500,1600,672,480,,,,,3052,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,60
+1336,AranhaRainha,Aranha Rainha,250,15000,0,0,5000,2,100,500,40,20,35,40,25,25,35,50,1,1,1,0,20,133,250,1500,672,480,701,1000,3003,10000,3001,400,3002,500,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2,30
