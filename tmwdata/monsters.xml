@@ -466,4 +466,8 @@
 		<sound event="miss">knife-miss1.ogg</sound> <!-- erra ataque -->
 		<sound event="die">short-sword-die1.ogg</sound>  <!-- Rato Morre -->
 	</monster>
+	<monster id="334" name="Caranguejeira">
+		<sprite>monstro-aranha-rainha.xml|#000000,888888,000000;#CC0000,FF0000</sprite>
+	</monster>
 </monsters>
+
