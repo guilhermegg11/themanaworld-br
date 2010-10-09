@@ -83,7 +83,9 @@
 	<item id="30" type="weaponsprite" weapon_type="1">
 		<sprite>weapon-dagger-attack.xml</sprite>
 		<sound event="strike">short-sword-miss1.ogg</sound>
-		<sound event="hit">short-sword-hit1.ogg</sound>
+		<sound event="miss">short-sword-hit1.ogg</sound>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="die">short-sword-die1.ogg</sound>
 	</item>
 	<item id="31" type="weaponsprite" weapon_type="10">
 		<sprite>weapon-bow.xml</sprite>
@@ -95,7 +97,9 @@
 	<item id="33" type="weaponsprite" weapon_type="1">
 		<sprite>weapon-dagger-attack.xml</sprite>
 		<sound event="strike">short-sword-miss1.ogg</sound>
-		<sound event="hit">short-sword-hit1.ogg</sound>
+		<sound event="miss">short-sword-hit1.ogg</sound>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="die">short-sword-die1.ogg</sound>
 	</item>
 	<item id="34" type="weaponsprite" weapon_type="1"> <!-- magic fist -->
 		<sprite>weapon-fist.xml</sprite>
@@ -105,10 +109,12 @@
 		<sound event="strike">short-sword-miss1.ogg</sound>
 		<sound event="hit">short-sword-hit1.ogg</sound>
 	</item>
-	<item id="36" type="weaponsprite" weapon_type="14">
+	<item id="36" type="weaponsprite" weapon_type="14" weapon-type="lider">
 		<sprite>weapon-lidersword.xml</sprite>
-		<sound event="strike">short-sword-miss1.ogg</sound>
-		<sound event="hit">short-sword-hit1.ogg</sound>
+		<sound event="strike">short-sword-hit2.ogg</sound>
+		<sound event="miss">short-sword-hit1.ogg</sound>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="die">short-sword-die1.ogg</sound>
 	</item>
 	<item id="37" type="weaponsprite" weapon_type="15">
 		<sprite>weapon-shield-tupiguarani.xml</sprite>
@@ -4354,9 +4360,14 @@
 		description="Espada para Cavaleiros Lideres de Recrutas."
 		effect="+65 Dano, 1 Alcance"
 		type="equip-1hand"
+		weapon-type="14"
 		weapon_type="sword"
 		weight="350">
 		<sprite>weapon-lidersword.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="miss">short-sword-hit1.ogg</sound>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="die">short-sword-die1.ogg</sound>
 	</item>
 	<item id="3053"
 		image="espada-michael-arcanjo.png"
