@@ -5060,5 +5060,19 @@
 		weight="10">
 		<sprite>rings-wings-dragon.xml</sprite>
 	</item>
+	<item id="3146"
+		image="generic-teia.png"
+		name="Teia de Aranha"
+		description="Teia Envenenada de Aranha."
+		type="generic"
+		weight="5"
+	/>
+	<item id="3147"
+		image="generic-chave-especial.png|W:#000000,880000,FF0000"
+		name="Chave nº1009"
+		description="Uma chave com o número 1009 escrito no punho."
+		type="generic"
+		weight="30"
+	/>
 
 </items>

@@ -3,9 +3,15 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-calabouco.gat,111,75,19,19	monster	BOSS Tarantula (1)	1336,1,0,0,Mobcalabouco::On1336
+calabouco.gat,72,69,98,32	monster	Caranguejeira(30)	1310,30,0,0,Mobcalabouco::On1310
+calabouco.gat,111,75,19,19	monster	BOSS Tarantula (1)	1336,1,60,3600,Mobcalabouco::On1336
 
 calabouco.gat,0,0,0	script	Mobcalabouco	-1,{
+On1310:
+	set @mobID, 1310;
+	callfunc "MobPoints";
+	break;
+
 On1336:
 	set @mobID, 1336;
 	callfunc "MobPoints";
