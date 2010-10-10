@@ -3957,7 +3957,7 @@
 		type="equip-2hand"
 		weapon-type="polearm"
 		weight="1600">
-		<sprite>weapon-scythe.xml</sprite>
+		<sprite>weapon-foice-morte.xml</sprite>
 	</item>
 	<item id="3005"
 		image="generic-perola-negra.png"
