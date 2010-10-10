@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //  IDE: TMW-Maker - Ferramenta Editora de Banco de Dados de Monstros
-//  MODIFICADO: 10/10/2010 5:09 PM
+//  MODIFICADO: 10/10/2010 5:16 PM
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //     ** ID,NomeSumonico,NomeTítulo,
@@ -13,15 +13,15 @@
 //     ** Item1,Item2,MEXP,ExpPer,MVP1id,MVP1per,MVP2id,MVP2per,MVP3id,MVP3per,mutiation count,mutation strength
 //
 //		 * NomeSumonico: Sem espaço e nem caracteres especiais. Exemplo: "CapitaoDaGuarda"
-//		 * NomeTítulo: Pode haver espaço e caracteres especiais no formato UTF-8. Exemplo: "Capitão da Guarda"
+//		 * NomeTítulo: Pode haver espaço e caracteres especiais noformato UTF-8. Exemplo: "Capitão da Guarda"
 //		 * LVL: Qual o nível do monstros. Exemplo: É preferivel que Jogadores LVL30 enfrente Monstros LVL30.
-//				  Monstros acima de nível maximo (LVL99) so BOSS.
-//		 * HP: So os pontos de saúde do monstro.
-//		 * SP: So os pontos de magia do monstro, que definem quantas vezes o monstro pode usar uma determinada magia.
+//				  Monstros acima de nível maximo (LVL99) são BOSS.
+//		 * HP: São os pontos de saúde do monstro.
+//		 * SP: São os pontos de magia do monstro, que definem quantas vezes o monstro pode usar uma determinada magia.
 //		 * EXP: Quanto de Experiencia o Monstro dará ao jogador quando for vencido.
 //				  Se for 0 a experiencia oferecida é calculada automaticamente.
 //		 * Escala: 0 se a sua pequena, 1 se a sua média, 2 se o seu grande
-//		 * Raça:  0 = sem forma, 1 = mortos-vivos, 2 = animais, 3 = planta, 4 = inseto, 5 = peixe, 6 = demônio, 7 Demihuman = 8 = anjo, 9 = drago.
+//		 * Raça:  0 = sem forma, 1 = mortos-vivos, 2 = animais, 3 = planta, 4 = inseto, 5 = peixe, 6 = demônio, 7 Demihuman = 8 = anjo, 9 = dragão.
 //		 * Elemento: Esta é a parte complicada. O número de elementos tem 2 partes, vamos chamá-los:
 //				 XY: X = nível do elemento, e Y = número do elemento
 //				     X: 2 = LVL1, 4 = LVL2, 6 = LVL3, 8 = LVL4.
@@ -30,11 +30,11 @@
 //						 o número do elemento que você quer que seja. Vamos dizer que queremos um Monstros de fogo lvl 3.
 //						 Capturamos o 6 para o primeiro número e os 3 para o segundo, sendo 6=lvl3, e 3=fogo.
 //						 Será algo como = 63
-//		 * Modo: Define o comportamento do Monstro. Os números so estes:
-//				1=SeMovimeta, 2=ColetaNoCho, 4=Agressivo, 8=AuxiliaEspecie, 16=MultiAdversario, 32=Boss, 64=Planta, 128=PodeRevidar, 256=Detector, 512=EscolheAlvo
+//		 * Modo: Define o comportamento do Monstro. Os números são estes:
+//				1=SeMovimeta, 2=ColetaNoChão, 4=Agressivo, 8=AuxiliaEspecie, 16=MultiAdversario, 32=Boss, 64=Planta, 128=PodeRevidar, 256=Detector, 512=EscolheAlvo
 //				Exemplos:
 //					* 133(A Morte)=128(PodeRevidar)+4(Agressivo)+1(SeMovimeta).
-//					* 135(LimoVermelho)=128(PodeRevidar)+4(Agressivo)+2(ColetaNoCho)+1(SeMovimeta)
+//					* 135(LimoVermelho)=128(PodeRevidar)+4(Agressivo)+2(ColetaNoChão)+1(SeMovimeta)
 //					* 137(FadaGuardia)=128(PodeRevidar)+8(AuxiliaEspecie)+1(SeMovimeta)
 //		 * Velocidade: Velocidade de caminhada da mob. 1 é o mais rápido, 3000 é o menor. 1000 é o caminhar normal de velocidade.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
