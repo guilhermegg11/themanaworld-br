@@ -5074,5 +5074,14 @@
 		type="generic"
 		weight="30"
 	/>
+	<item id="3148"
+		image="angel-wings.png"
+		name="Asas de Anjo"
+		description="Um par de asas de anjo. Não é posível voar com elas."
+		effect="Def.Mag.:+20"
+		type="equip-ring"
+		weight="10">
+		<sprite>angel-wings.xml</sprite>
+	</item>
 
 </items>
