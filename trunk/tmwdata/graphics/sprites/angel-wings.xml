@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-<!-- Original from tmw.ufbteam.org - Unknown Author-->
+<!-- Original from tmw.ufbteam.org - Authors: Varuna and Arikel-->
 	<imageset name="base" src="graphics/sprites/angel-wings.png|W" width="64" height="64" />
 	<action name="stand" imageset="base">
 		<animation direction="down">
