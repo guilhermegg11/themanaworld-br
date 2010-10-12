@@ -6,6 +6,8 @@
   <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Calabouço das Feras"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight2.png"/>
+  <property name="overlay0x" value="0"/>
+  <property name="overlay0y" value="0"/>
  </properties>
  <tileset firstgid="1" name="colisao" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
