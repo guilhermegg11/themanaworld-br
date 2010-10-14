@@ -670,3 +670,5 @@
 3146,TeiaDeAranha,Teia de Aranha,3,300,100,5,,,,,,,,,,,{},{}
 3147,chave1009,Chave nº1009,3,10000,5000,30,,,,,,,,,,,{},{}
 3148,asasdeanjo,Asas de Anjo,5,16000,8000,10,0,0,0,0,0,2,128,0,0,0,{},{ bonus bMdef, 20; }
+3149,favodemel,Favo de Mel,0,100,50,1,,,,,,2,,,0,,{ itemheal 75,0; },{}
+3150,ferraodeabelha,Ferrão de Abelha,3,75,50,1,,,,,,,,,,,{},{}
