@@ -5083,5 +5083,19 @@
 		weight="10">
 		<sprite>angel-wings.xml</sprite>
 	</item>
+	<item id="3149"
+		image="generic-honey.png"
+		name="Favo de Mel"
+		description="Um pequeno pedaço de colmeia cheio de mel."
+		type="generic"
+		weight="50"
+	/>
+	<item id="3150"
+		image="generic-scorpionstinger.png|W:#FF8888"
+		name="Ferrão de Abelha"
+		description="Um ferrão de abelha cheia de enzimas urticantes."
+		type="generic"
+		weight="1"
+	/>
 
 </items>
