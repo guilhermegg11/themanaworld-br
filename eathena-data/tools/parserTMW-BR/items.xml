@@ -1,0 +1,5087 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="items.xsl"?>
+<!--
+	Here are listed all the known items in The Mana World. This file defines
+	their name, icon, description, weight, etc. It also defines which sprite
+	to use in the case of visible equipment and which sounds to play on certain
+	events related to the item.
+
+	The 'weapon_type' attribute is kept for 0.0 client compatibility. Not to be
+	confused with 'weapon-type'.
+-->
+<items>
+	<version revision="$Revision$" />
+
+	<item id="-1" type="hairsprite" name="Rabo-de-Cavalo">
+		<sprite>hairstyle1.xml</sprite>
+	</item>
+	<item id="-2" type="hairsprite" name="Corte-de-Tigela">
+		<sprite>hairstyle2.xml</sprite>
+	</item>
+	<item id="-3" type="hairsprite" name="Penteado para traz">
+		<sprite>hairstyle3.xml</sprite>
+	</item>
+	<item id="-4" type="hairsprite" name="Emo">
+		<sprite>hairstyle4.xml</sprite>
+	</item>
+	<item id="-5" type="hairsprite" name="Moicano">
+		<sprite>hairstyle5.xml</sprite>
+	</item>
+	<item id="-6" type="hairsprite" name="Pomposo">
+		<sprite>hairstyle6.xml</sprite>
+	</item>
+	<item id="-7" type="hairsprite" name="Curto, Liso e Partido">
+		<sprite>hairstyle7.xml</sprite>
+	</item>
+	<item id="-8" type="hairsprite" name="Longo e Liso">
+		<sprite>hairstyle8.xml</sprite>
+	</item>
+	<item id="-9" type="hairsprite" name="Curto e Encaracolado">
+		<sprite>hairstyle9.xml</sprite>
+	</item>
+	<item id="-10" type="hairsprite" name="Rabos-de-Porco">
+		<sprite>hairstyle10.xml</sprite>
+	</item>
+	<item id="-11" type="hairsprite" name="Encaracolado longo">
+		<sprite>hairstyle11.xml</sprite>
+	</item>
+	<item id="-12" type="hairsprite" name="Partido">
+		<sprite>hairstyle12.xml</sprite>
+	</item>
+	<item id="-13" type="hairsprite" name="Rabo-de-Cavalo Volumoso">
+		<sprite>hairstyle13.xml</sprite>
+	</item>
+	<item id="-14" type="hairsprite" name="Ondulado">
+		<sprite>hairstyle14.xml</sprite>
+	</item>
+	<item id="-15" type="hairsprite" name="Juba">
+		<sprite>hairstyle15.xml</sprite>
+	</item>
+	<item id="-16" type="hairsprite" name="Espetado">
+		<sprite>hairstyle16.xml</sprite>
+	</item>
+
+	<!-- Treating the base sprite as equipment too will be useful when we
+		 implement other playable races -->
+	<item id="-100" type="racesprite" name="Human">
+		<sprite gender="male">player_male_base.xml</sprite>
+		<sprite gender="female">player_female_base.xml</sprite>
+	</item>
+
+	<item id="16">
+<!--		<sprite>weapon-dagger-attack.xml</sprite>-->
+	</item>
+
+	<!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
+
+	<!--
+		 	OBS: Eu adicionei a propriedade type="weaponsprite" para poder fazer o
+			tmw-maker separar o grupo de itens(geral) do grupo de movimentos(Itens ID:30-35).
+			Peço que não retire isto, ou se retirar, pelo menos retira para um outro
+			arquivo fora do item.xml
+	 -->
+	<item id="30" type="weaponsprite" weapon_type="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="miss">short-sword-hit1.ogg</sound>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="die">short-sword-die1.ogg</sound>
+	</item>
+	<item id="31" type="weaponsprite" weapon_type="10">
+		<sprite>weapon-bow.xml</sprite>
+		<sound event="swing">bow_shoot_1.ogg</sound>
+	</item>
+	<item id="32" type="weaponsprite" weapon_type="11">
+		<sprite>weapon-scythe2.xml</sprite>
+	</item>
+	<item id="33" type="weaponsprite" weapon_type="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="miss">short-sword-hit1.ogg</sound>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="die">short-sword-die1.ogg</sound>
+	</item>
+	<item id="34" type="weaponsprite" weapon_type="1"> <!-- magic fist -->
+		<sprite>weapon-fist.xml</sprite>
+	</item>
+	<item id="35" type="weaponsprite" weapon_type="12">
+		<sprite>weapon-staff.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="hit">short-sword-hit1.ogg</sound>
+	</item>
+	<item id="36" type="weaponsprite" weapon_type="14" weapon-type="lider">
+		<sprite>weapon-lidersword.xml</sprite>
+		<sound event="strike">short-sword-hit2.ogg</sound>
+		<sound event="miss">short-sword-hit1.ogg</sound>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="die">short-sword-die1.ogg</sound>
+	</item>
+	<item id="37" type="weaponsprite" weapon_type="15">
+		<sprite>weapon-shield-tupiguarani.xml</sprite>
+	</item>
+	<item id="38" type="weaponsprite" weapon_type="16">
+		<sprite>weapon-picareta-arqueologo.xml</sprite>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="miss">short-sword-miss1.ogg</sound>
+	</item>
+
+	<item id="501"
+		image="use-potion-a.png|G:#22ff22"
+		name="Bebida de Cactus"
+		description="Uma bebida muito refrescante."
+	        effect=""
+		type="usable"
+		hp="15"
+		weight="4"/>
+	<item id="502"
+		image="use-potion-a.png|G:#ff2222"
+		name="Poção de Cactus"
+		description="Uma poção muito refrescante."
+	        effect=""
+		type="usable"
+		hp="25"
+		weight="7"/>
+	<item id="503"
+		image="generic-casinocoins.png"
+		name="Moedas de Cassino"
+		description="Apenas algumas moedas de cassino."
+		type="generic"
+		weight="1"/>
+	<item id="504"
+		image="use-food-decorcandy.png"
+		name="Bala Decorativa"
+		description="Uma bala usada na decoração do natal passado."
+		type="generic"
+		weight="1"/>
+	<item id="505"
+		image="generic-maggotslime.png"
+		name="Gosma de Verme"
+		description="Uma viscosa gosma de verme."
+		type="generic"
+		weight="1"/>
+	<item id="506"
+		image="use-food-candycane.png"
+		name="Doce Bengala"
+		description="Um doce em formato de bengala."
+		effect=""
+		type="usable"
+		hp="5"
+		weight="1"/>
+	<item id="507"
+		image="generic-scorpionstinger.png|W:#a08040,e0e0e0"
+		name="Ferrão de Escorpião"
+		description="Um ferrão de Escorpião envenenado."
+		type="generic"
+		weight="1"/>
+	<item id="508"
+		image="use-food-xmascake.png"
+		name="Bolo de Natal"
+		description="Um bolo com o doce sabor do natal."
+		effect=""
+		type="usable"
+		hp="10"
+		weight="1"/>
+	<item id="509"
+		image="use-food-chocolatebar.png|W:#441e00,b36e36"
+		name="Barra de Chocolate"
+		description="Uma barra de chocolate feita do mais fino chocolate"
+		effect=""
+		type="usable"
+		hp="20"
+		weight="1"/>
+	<item id="510"
+		image="use-food-candy.png"
+		name="Balinha"
+		description="Uma balinha de açúcar."
+		effect=""
+		type="usable"
+		hp="5"
+		weight="1"/>
+	<item id="511"
+		image="armor-head-santahat.png"
+		name="Gorro de Natal"
+		description="Um gorro vermelho com uma bolinha na ponta usado no Natal. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>head-santahat.xml</sprite>
+	</item>
+	<item id="512"
+		image="use-food-gingerbreadman.png"
+		name="Biscoito de Gengibre"
+		description="Um saboroso biscoito de gengibre em forma de um bonequinho."
+		effect=""
+		type="usable"
+		hp="25"
+		weight="1"/>
+	<item id="513"
+		image="use-food-cake.png"
+		name="Bolo"
+		description="Uma fatia de bolo."
+		effect=""
+		type="usable"
+		hp="25"
+		weight="1"/>
+	<item id="514"
+		image="use-food-xmascandycane.png"
+		name="Doce Bengala Natalino"
+		description="Um doce em formato de bengala especial de natal."
+		effect=""
+		type="usable"
+		hp="10"
+		weight="1"/>
+	<item id="515"
+		image="generic-purplepresentbox.png"
+		name="Presente Rosa"
+		description="Um dos presentes de natal perdidos."
+		type="generic"
+		weight="10"/>
+	<item id="516"
+		image="generic-bluepresentbox.png"
+		name="Presente Azul"
+		description="Um dos presentes de natal perdidos."
+		type="generic"
+		weight="10"/>
+	<item id="517"
+		image="generic-scorpionstinger.png|W:#e04040,f0f0f0"
+		name="Ferrão de Escorpião Vermelho"
+		description="Um ferrão de Escorpião Vermelho altamente envenenado."
+		type="generic"
+		weight="1"/>
+	<item id="518"
+		image="generic-bugleg.png"
+		name="Pata de Inseto"
+		description="Isto é uma pata de inseto. Muito utilizada para alquimia."
+		type="generic"
+		weight="1"/>
+	<item id="519"
+		image="use-food-cherrycake.png"
+		name="Bolo de Cereja"
+		description="Um belo bolo de cereja."
+		effect="+35 HP"
+		type="usable"
+		weight="1"/>
+	<item id="520"
+		image="use-food-easteregg.png"
+		name="Ovo de Páscoa"
+		description="Um simples ovo de pascoa."
+		effect=""
+		type="usable"
+		hp="100"
+		weight="1"/>
+	<item id="521"
+		image="weapon-dagger-dagger.png"
+		name="Adaga"
+		description="Uma simples adaga."
+		effect="+15 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="knife"
+		weight="200">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="522"
+		image="weapon-dagger-sharpknife.png"
+		name="Faca Afiada"
+		description="Uma faca realmente afiada. Cuidado para não se ferir!"
+		effect="+10 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon_type="knife"
+		weight="150">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="523"
+		image="armor-chest-leathershirt.png"
+		name="Camisa de Couro"
+		description="Uma camisa feita de couro endurecido."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="4">
+		<sprite gender="male">chest-leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+		<sprite gender="female">chest-leather-female.xml|#412300,603100,8d4900;#ffff00</sprite>
+	</item>
+	<item id="524"
+		image="armor-head-fancyhat.png"
+		name="Chapéu Fantasia"
+		description="Um chapeu de fantasia."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="5">
+		<sprite>head-fancyhat.xml</sprite>
+	</item>
+	<item id="525"
+		image="armor-head-minershat.png"
+		name="Capacete de Mineiro"
+		description="Um capacete usado por mineiros."
+		effect=""
+		type="equip-head"
+		weight="40"
+		defense="4">
+		<sprite>head-minershat.xml</sprite>
+	</item>
+	<item id="526"
+		image="generic-coinbag.png"
+		name="Bolsa de Moedas"
+		description="Uma bolsa usada para guardar moedas."
+		type="generic"
+		weight="5"/>
+	<item id="527"
+		image="use-food-milk.png"
+		name="Leite"
+		description="Um refrescante litro de leite fresco."
+		effect=""
+		type="usable"
+		hp="150"
+		weight="5"/>
+	<item id="528"
+		image="armor-feet-boots.png|W:#4f2d29,c89078"
+		name="Botas"
+		description="Um par de botas. Ideais para viajar."
+		effect=""
+		type="equip-feet"
+		weight="80"
+		defense="2">
+		<sprite gender="male">feet-boots-male.xml|#623a34,f0c2b4</sprite>
+		<sprite gender="female">feet-boots-female.xml|#623a34,f0c2b4</sprite>
+	</item>
+	<item id="529"
+		image="weapon-arrow-iron.png"
+		name="Flecha de Ferro"
+		description="Uma resistente flecha feita de ferro."
+		effect="+50 Dano"
+		type="equip-ammo"
+		weight="1"/>
+	<item id="530"
+		image="weapon-bow-shortbow.png"
+		name="Arco de curto alcançe"
+		description="Um arco para pequenas distâncias."
+		effect="+50 Dano, 4 Alcance"
+		type="equip-2hand"
+		weight="600"
+		weapon-type="bow"
+		attack-action="attack_bow"
+		missile-particle="graphics/particles/arrow.particle.xml">
+		<sprite>weapon-bow.xml</sprite>
+	</item>
+	<item id="531"
+		image="armor-hands-minergloves.png"
+		name="Luvas de Mineiro"
+		description="Luvas usadas por mineiros. Muito úteis."
+		effect=""
+		type="equip-arms"
+		weight="30"
+		defense="2">
+		<sprite gender="male">hands-gloves-generic-male.xml|#202020,505050</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#202020,505050</sprite>
+	</item>
+	<item id="532"
+		image="armor-hands-leathergloves.png"
+		name="Luvas de Couro"
+		description="Luvas feitas de couro endurecido."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="4">
+		<sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,c8752f</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#4e2e18,c8752f</sprite>
+	</item>
+	<item id="533"
+		image="use-food-roastedmaggot.png"
+		name="Verme Torrado"
+		description="Um verme torrado no fogo."
+		effect=""
+		type="usable"
+		hp="150"
+		weight="5"/>
+	<item id="534"
+		image="use-food-orangecupcake.png"
+		name="Bolo de Laranja"
+		description="Uma fatia de bolo de laranja."
+		effect=""
+		type="usable"
+		hp="100"
+		weight="5"/>
+	<item id="535"
+		image="use-food-apple.png"
+		name="Maçã"
+		description="Uma saldável Maçã."
+		effect=""
+		type="usable"
+		hp="50"
+		weight="5"/>
+	<item id="536"
+		image="weapon-dagger-shortsword.png"
+		name="Espada Curta"
+		description="Uma pequena, porém afiada espada."
+		effect="+100 Dano, 1 Range"
+		type="equip-1hand"
+		weapon_type="sword"
+		weight="2000">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="537"
+		image="generic-treasurekey.png"
+		name="Chave do Tesouro"
+		description="Um chave velha e enferrujada."
+		type="generic"
+		weight="2"/>
+	<item id="538"
+		image="generic-greenpresentbox.png"
+		name="Presente Verde"
+		description="Um dos presentes de natal perdidos."
+		type="generic"
+		weight="10"/>
+	<item id="539"
+		image="use-food-beer.png"
+		name="Cerveja"
+		description="Um copo de cerveja."
+		effect=""
+		type="usable"
+		hp="200"
+		weight="10"/>
+	<item id="540"
+		image="generic-emptybottle.png"
+		name="Garrafa Vazia"
+		description="Uma garrafa de água vazia."
+		type="generic"
+		weight="1"/>
+	<item id="541"
+		image="use-food-bottleofwater.png"
+		name="Garrafa d'água"
+		description="Uma garrafa de água."
+		effect=""
+		type="usable"
+		hp="250"
+		weight="10"/>
+	<item id="542"
+		image="generic-bottleofsand.png"
+		name="Garrafa com areia"
+		description="Uma garrafa com areia dentro."
+		type="generic"
+		weight="10"/>
+	<item id="543"
+		image="armor-head-standardheadband.png|W:#291e16,99784c,d8bd86,ffffff"
+		name="Faixa tradicional"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="10"
+		defense="3">
+		<sprite>head-standardheadband.xml|#563f25,99784c,d8bd86,ffffff</sprite>
+	</item>
+	<item id="544"
+		image="armor-head-silkheadband.png"
+		name="Faixa de seda"
+		description="Uma bela faixa feita de seda."
+		effect=""
+		type="equip-head"
+		weight="10"
+		defense="3">
+		<sprite>head-silkheadband.xml</sprite>
+	</item>
+	<item id="545"
+		image="weapon-bow-forestbow.png"
+		name="Arco da Floresta"
+		description="Um arco geralmente utilizado para a caça."
+		effect="+70 Dano, 5 Range"
+		type="equip-2hand"
+		weight="1200"
+		weapon_type="bow"
+		attack-action="attack_bow"
+		missile-particle="graphics/particles/arrow.particle.xml">
+		<sprite>weapon-bow.xml</sprite>
+	</item>
+	<item id="546"
+		image="armor-chest-desertshirt.png"
+		name="Camisa do deserto"
+		description="Uma camisa apropriada para viagens no deserto."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="6">
+		<sprite gender="male">chest-leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+		<sprite gender="female">chest-leather-female.xml|#251e06,443c21,71653b,a0945e;#b6574a</sprite>
+	</item>
+	<item id="547"
+		image="weapon-polearm-bardiche.png"
+		name="Bardiche"
+		description="Arma de cabo longo e Lãmina grande e afiada."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="548"
+		image="weapon-polearm-halberd.png"
+		name="Halberd"
+		description="Arma de cabo longo, muito usada por guardas."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="549"
+		image="weapon-axe-axe.png"
+		name="Machado"
+		description="Um machado."
+		effect=""
+		type="equip-2hand"
+		weapon-type="axe"
+		weight="1"/>
+	<item id="550"
+		image="weapon-axe-blacksmithsaxe.png"
+		name="Machado de Ferreiro"
+		description="Um machado muito usado por ferreiros."
+		effect=""
+		type="equip-2hand"
+		weapon-type="axe"
+		weight="1"/>
+	<item id="551"
+		image="generic-bluehint.png"
+		name="Pista Aqua"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="552"
+		image="generic-magentahint.png"
+		name="Pista Rosa-Choque"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="553"
+		image="generic-yellowhint.png"
+		name="Pista Amarela"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="554"
+		image="generic-greenhint.png"
+		name="Pista Verde"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="555"
+		image="generic-tealhint.png"
+		name="Pista Verde-Azulada"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="556"
+		image="generic-purplehint.png"
+		name="Pista Roxa"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="557"
+		image="generic-redhint.png"
+		name="Pista Vermelha"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="558"
+		image="generic-otherbluehint.png"
+		name="Pista Azul"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="559"
+		image="generic-orangehint.png"
+		name="Pista Laranja"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="560"
+		image="generic-greyhint.png"
+		name="Pista Cinza"
+		description="Uma pista."
+		type="generic"
+		weight="10"/>
+	<item id="561"
+		image="weapon-sword-sabre.png"
+		name="Sabre"
+		description="Uma Espada com uma lâmina de um fio só, curvada e muito afiada."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="562"
+		image="use-food-chickenleg.png"
+		name="Coxa de Frango"
+		description="Uma coxa de frango bem cozida."
+		effect=""
+		type="usable"
+		hp="500"
+		weight="10"/>
+	<item id="563"
+		image="armor-hands-gloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
+		name="Luvas de Inverno"
+		description="Um par de luvas macias e quentes ."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="3">
+		<sprite gender="male">hands-gloves-generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
+	</item>
+	<item id="564"
+		image="armor-chest-tnecksweater.png|W:#A4B2B2,FFFFFF"
+		name="Suéter de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="565"
+		image="generic-petal.png"
+		name="Pétala"
+		description="Uma pétala de uma flor agressiva."
+		type="generic"
+		weight="10"/>
+	<item id="566"
+		image="generic-smallmushroom.png"
+		name="Cogumelo Pequeno"
+		description="Um cogumelo."
+		type="generic"
+		weight="10"/>
+	<item id="567"
+		image="use-potion-b.png|G:#c05000,f0a000,f0f09f"
+		name="Poção Energética"
+		description="Uma poção para revigorar suas energias."
+		effect="Aumenta força de ataque (temporário)"
+		type="usable"
+		hp=""
+		weight="10"/>
+	<item id="568"
+		image="use-potion-c.png|G:#da69e5,ffdaff"
+		name="Poção de Concentração"
+		description="Aumenta a sua velocidade de ataque."
+		effect="Aumenta velocidade de ataque (temporário)"
+		type="usable"
+		hp=""
+		weight="10"/>
+	<item id="569"
+		image="generic-rawlog.png"
+		name="Toco de Madeira"
+		description="Um toco de madeira."
+		type="generic"
+		weight="10"/>
+	<item id="570"
+		image="weapon-dagger-boneknife.png"
+		name="Adaga de Boni e Claide"
+		description="Adaga que matou o mafioso casal de ladrões de banco."
+		effect="+90 Dano, +10 Agilidade, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="knife"
+		weight="450">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="571"
+		image="weapon-dagger-setzer.png"
+		name="Setzer"
+		description="Uma faca afiada que leva o nome de um famoso apostador."
+		effect="+110 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="knife"
+		weight="900">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="572"
+		image="weapon-sword-scimitar.png"
+		name="Scimitar"
+		description="Uma espada com uma pesada lâmina curvada e de um só fio."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="573"
+		image="weapon-sword-falchion.png"
+		name="Falchion"
+		description="Uma pesada espada de um fio, feita para ser usada com uma mão."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="574"
+		image="weapon-polearm-scorpion.png"
+		name="Lança Rei Escorpião"
+		description="Uma lança com uma lâmina longa, muito bem trabalhada."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="575"
+		image="weapon-bow-desertbow.png"
+		name="Arco do deserto"
+		description="Um arco curto, típico do lendário povo do deserto."
+		effect="+100 Dano, 6 Alcance"
+		type="equip-2hand"
+		weight="1"
+		weapon-type="bow"
+		attack-action="attack_bow"
+		missile-particle="graphics/particles/arrow.particle.xml">
+		<sprite>weapon-bow.xml</sprite>
+	</item>
+	<item id="576"
+		image="weapon-sword-beheader.png"
+		name="Beheader"
+		description="Uma espada com uma forma bastante peculiar, designada para decapitar o inimigo."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="577"
+		image="weapon-thrown-bonedarts.png"
+		name="Dardos de osso"
+		description="Dardos feitos de osso."
+		effect=""
+		type="equip-1hand"
+		weapon-type="thrown"
+		weight="1"/>
+	<item id="578"
+		image="weapon-sword-sandcutter.png"
+		name="Cortadora de Areia"
+		description="Uma espada longa com ponta em forma de lua, muito usada por guerreiros noturnos do deserto."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="579"
+		image="weapon-dagger-rockknive.png"
+		name="Rock Knife"
+		description="Uma faca forjada com uma resistente pedra."
+		effect="+300 Dano, 1 Alcance, Bidestra"
+		type="equip-2hand"
+		weapon-type="knife"
+		weight="3000">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="580"
+		image="weapon-staff-staffoflife.png"
+		name="Cajado da Vida"
+		description="Um cajado que aumenta o poder das magias de cura."
+		effect=""
+		type="equip-1hand"
+		weapon-type="staff"
+		weight="1"/>
+	<item id="581"
+		image="weapon-staff-crescentrod.png"
+		name="Varinha Meia lua"
+		description="Uma varinha mágica com um formato em meia lua."
+		effect=""
+		type="equip-1hand"
+		weapon-type="staff"
+		weight="1"/>
+	<item id="582"
+		image="weapon-staff-staffoffire.png"
+		name="Cajado de Fogo"
+		description="Um cajado que aumenta o poder de magias de fogo."
+		effect=""
+		type="equip-1hand"
+		weapon-type="staff"
+		weight="1"/>
+	<item id="583"
+		image="weapon-staff-staffofice.png"
+		name="Cajado de Gelo"
+		description="Um cajado que aumenta o poder de magias de gelo."
+		effect=""
+		type="equip-1hand"
+		weapon-type="staff"
+		weight="1"/>
+	<item id="584"
+		image="weapon-sword-jackal.png"
+		name="Jackal"
+		description="Uma pequena e pesada espada chamada Jackal."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="585"
+		image="armor-hands-scarabarmlet.png"
+		name="Pulseira Escaravelho"
+		description="Uma pulseira com a forma de um escaravelho."
+		effect=""
+		type="equip-arms"
+		weight="200"/>
+	<item id="586"
+		image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
+		name="Short de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="587"
+		image="weapon-sword-sword.png"
+		name="Espada"
+		description="Uma espada simples, mas confiável."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="588"
+		image="weapon-sword-bastardsword.png"
+		name="Espada bastarda"
+		description="Uma espada enorme, para ser usada com as duas mãos."
+		effect=""
+		type="equip-2hand"
+		weapon-type="sword"
+		weight="1"/>
+	<item id="589"
+		image="weapon-sword-broadsword.png"
+		name="Espada ampla"
+		description="Uma espada com uma lâmina muito ampĺa, para ser usada com as duas mãos."
+		effect=""
+		type="equip-2hand"
+		weapon-type="sword"
+		weight="1"/>
+	<item id="590"
+		image="weapon-sword-baselard.png"
+		name="Baselard"
+		description="Uma espada curta, mas bastante poderosa."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="591"
+		image="weapon-sword-longsword.png"
+		name="Espada Longa"
+		description="Uma espada com uma lâmina longa e agil."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="592"
+		image="weapon-dagger-stiletto.png"
+		name="Stiletto"
+		description="Uma adaga com uma lâmina longa e fina."
+		effect=""
+		type="equip-1hand"
+		weapon-type="knife"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="593"
+		image="weapon-sword-rapier.png"
+		name="Rapier"
+		description="Uma espada leve, ideal para duelos."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="594"
+		image="weapon-polearm-spear.png"
+		name="Lança"
+		description="Uma lança leve com um cabo de madeira."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="595"
+		image="weapon-polearm-heavyspear.png"
+		name="Lança Pesada"
+		description="Uma lança pesada, com cabo de madeira."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="596"
+		image="weapon-polearm-pike.png"
+		name="Lança de Ferro"
+		description="Uma lança leve feita de ferro."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="597"
+		image="weapon-polearm-heavypike.png"
+		name="Lança pesada de ferro"
+		description="Uma lança pesada feita de ferro."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="598"
+		image="weapon-polearm-dualspear.png"
+		name="Lança Dupla"
+		description="Uma lança que pode ser usada em ambas as extremidades."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="599"
+		image="weapon-sword-firesword.png"
+		name="Espada Incandescente"
+		description="Uma espada mágica que emana o poder do fogo."
+		effect=""
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="600"
+		image="armor-shield-britshield.png"
+		name="Escudo Bretão"
+		description="Um escudo lendário, do qual se diz que é capaz de salvar rainhas e controlar as ondas do mar."
+		effect=""
+		type="equip-shield"
+		weight="1"
+		defense=""/>
+	<item id="601"
+		image="armor-shield-steelshield.png"
+		name="Escudo de Aço"
+		description="Um escudo feito de aço."
+		effect=""
+		type="equip-shield"
+		weight="2500"
+		defense="20"/>
+	<item id="602"
+		image="armor-shield-woodenshield.png"
+		name="Escudo de Madeira"
+		description="Um escudo feito de madeira."
+		effect=""
+		type="equip-shield"
+		weight="1500"
+		defense="14"/>
+	<item id="603"
+		image="armor-shield-leathershield.png"
+		name="Escudo de Couro"
+		description="Um escudo feito de couro sobre uma armação de madeira."
+		effect=""
+		type="equip-shield"
+		weight="1300"
+		defense="7"/>
+	<item id="604"
+		image="armor-shield-knightshield.png"
+		name="Escudo dos cavaleiros"
+		description="Um escudo de alta qualidade usado por cavaleiros."
+		effect=""
+		type="equip-shield"
+		weight="1"
+		defense=""/>
+	<item id="605"
+		image="weapon-axe-meatcleaver.png"
+		name="Cutelo de açougueiro"
+		description="Uma ferramenta que se mostra muito útil em batalha se usada como um machado."
+		effect=""
+		type="equip-1hand"
+		weapon-type="axe"
+		weight="1"/>
+	<item id="606"
+		image="weapon-axe-hatchet.png"
+		name="Machadinha"
+		description="Uma machadinha curta, normalmente usada com uma mão."
+		effect=""
+		type="equip-1hand"
+		weapon-type="axe"
+		weight="1"/>
+	<item id="607"
+		image="weapon-polearm-trident.png"
+		name="Tridente"
+		description="Uma lança com três pontas."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1"/>
+	<item id="608"
+		image="armor-shield-bladeshield.png"
+		name="Escudo de Lâminas"
+		description="Um escudo feito de lâminas."
+		effect=""
+		type="equip-shield"
+		weight="1"
+		defense=""/>
+	<item id="609"
+		image="weapon-mace-club.png"
+		name="Porrete"
+		description="Um pesado porrete de madeira."
+		effect=""
+		type="equip-1hand"
+		weapon-type="mace"
+		weight="1"/>
+	<item id="610"
+		image="armor-legs-shorts.png|W:#255367,266c84,68b0c5,ffffff"
+		name="Short Jeans"
+		description="Um short feito de jeans."
+		effect=""
+		type="equip-legs"
+		weight="25"
+		defense="4">
+		<sprite gender="male">leg-shorts-male.xml|#255367,266c84,68b0c5,ffffff</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#255367,266c84,68b0c5,ffffff</sprite>
+	</item>
+	<item id="611"
+		image="generic-whitefur.png"
+		name="Pêlo Branco"
+		description="Um tufo de Pêlo Branco de Tufo."
+		type="generic"
+		weight="8"/>
+	<item id="612"
+		image="generic-cavesnakelamp.png"
+		name="Antena Luminosa"
+		description="Antena brilhante da Cobra da Caverna."
+		type="generic"
+		weight="10"/>
+	<item id="613"
+		image="generic-hardspike.png"
+		name="Espinho"
+		description="Um rígido espinho de monstro."
+		type="generic"
+		weight="10"/>
+	<item id="614"
+		image="generic-pinkantennae.png|W:#f737b8,ffffff"
+		name="Antena Rosa"
+		description="Não se sabe porquê os Trasgos Rosa possuem esta antena sobre suas cabeças."
+		type="generic"
+		weight="10"/>
+	<item id="615"
+		image="armor-head-pumpkinhelmet.png"
+		name="Capacete de Abóbora"
+		description="Um capacete feito de abóbora."
+		effect=""
+		type="equip-head"
+		weight="60"
+		defense="4">
+		<sprite>head-pumpkinhelmet.xml</sprite>
+	</item>
+	<item id="616"
+		image="armor-head-axehat.png"
+		name="Chapéu de Machado"
+		description="Uma piada bem legal."
+		effect=""
+		type="equip-head"
+		weight="50"
+		defense="4">
+		<sprite>head-axehat.xml</sprite>
+	</item>
+	<item id="617"
+		image="armor-head-piratehat.png"
+		name="Chapéu Azul de Pirata"
+		description="Um chapéu de Pirata na cor azul."
+		effect=""
+		type="equip-head"
+		weight="40"
+		defense="4">
+		<sprite>head-piratehat.xml</sprite>
+	</item>
+	<item id="618"
+		image="armor-head-goggles.png"
+		name="Óculos"
+		description="Óculos feitos para proteger seus olhos."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>head-goggles.xml|#787878,f7f7f7</sprite>
+	</item>
+	<item id="619"
+		image="armor-head-leathergoggles.png"
+		name="Óculos de Couro"
+		description="Óculos feitos para proteger seus olhos em tempestades de areia."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-goggles.xml|#783c00,ff973b</sprite>
+	</item>
+	<item id="620"
+		image="armor-head-circlet.png"
+		name="Coroa"
+		description="Uma bela jóia."
+		effect=""
+		type="equip-head"
+		weight="25"
+		defense="4">
+		<sprite>head-circlet.xml</sprite>
+	</item>
+	<item id="621"
+		image="armor-head-eyepatch.png"
+		name="Tapa Olho"
+		description="Ele fará de você um pirata de verdade. Mas sua visão ficará prejudicada."
+		effect="-1 Destreza"
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-eyepatch.xml</sprite>
+	</item>
+	<item id="622"
+		image="armor-head-bandana.png"
+		name="Bandana"
+		description="Uma bandana listrada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-bandana.xml</sprite>
+	</item>
+	<item id="623"
+		image="weapon-polearm-scythe.png"
+		name="Foice"
+		description="Geralmente utilizada para a agricultura, mas também pode ser uma arma. Lenta, porém mortal."
+		effect="+75 Dano, 1 Alcance"
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1200">
+		<sprite>weapon-scythe2.xml</sprite>
+	</item>
+	<item id="624"
+		image="armor-chest-vnecksweater.png|W:#A4B2B2,FFFFFF"
+		name="Suéter com Decote em V"
+		description="Um suéter quente e macio."
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="625"
+		image="armor-chest-chainmail.png"
+		name="Camisa de correntes"
+		description="Uma camisa feita de correntes. Muito pesada, mas oferece boa proteção."
+		effect=""
+		type="equip-torso"
+		weight="800"
+		defense="20">
+		<sprite gender="male">chest-chainmail-male.xml</sprite>
+		<sprite gender="female">chest-chainmail-female.xml</sprite>
+	</item>
+	<item id="626"
+		image="armor-chest-lightplatemail.png|W:#ddeeff"
+		name="Armadura Leve"
+		description="Uma couraça leve com um reforço de aço, geralmente usada por soldados rasos."
+		effect=""
+		type="equip-torso"
+		weight="1200"
+		defense="25">
+		<sprite gender="male">chest-lightplatemail-male.xml|W:#ddeeff</sprite>
+		<sprite gender="female">chest-lightplatemail-female.xml|W:#ddeeff</sprite>
+	</item>
+	<item id="627"
+		image="armor-head-tophat.png"
+		name="Cartola"
+		description="Para a alta classe do Mundo de Mana."
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="4">
+		<sprite>head-tophat.xml</sprite>
+	</item>
+	<item id="628"
+		image="armor-head-funkyhat.png"
+		name="Gorro de Dormir"
+		description="Que sono!"
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-funkywinter.xml</sprite>
+	</item>
+	<item id="629"
+		image="armor-head-mushroomhat.png"
+		name="Chapéu de Cogumelo Maligno"
+		description="Maligno e na moda."
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="5">
+		<sprite>head-mushroom.xml</sprite>
+	</item>
+	<item id="630"
+		image="armor-head-shroomhat.png"
+		name="Chapéu Cogumelo"
+		description="Chapéu macio feito de cogumelo."
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="4">
+		<sprite>head-shroom.xml</sprite>
+	</item>
+	<item id="631"
+		image="generic-darkcrystal.png"
+		name="Crystal Escuro"
+		description="Um cristal escuro que emite uma aura demoníaca."
+		type="generic"
+		weight="10"/>
+	<item id="632"
+		image="armor-legs-skirt.png|W:#A4B2B2,FFFFFF"
+		name="Saia de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="10"
+		defense="4">
+		<sprite>leg-skirt.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="633"
+		image="armor-head-xmaself.png"
+		name="Gorro dos Elfos do Natal"
+		description="Um gorro usado por elfos do Natal."
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="3">
+		<sprite>head-xmaself.xml</sprite>
+	</item>
+	<item id="634"
+		image="armor-head-mask.png"
+		name="Máscara de Madeira"
+		description="Uma máscara de madeira para ocultar sua face."
+		effect=""
+		type="equip-head"
+		weight="50"
+		defense="7">
+		<sprite>head-mask.xml</sprite>
+	</item>
+	<item id="635"
+		image="generic-santacookie.png"
+		name="Biscoito de Natal"
+		description="Isto não é para você comer... é para o Papai Noel!"
+		type="generic"
+		weight="1"/>
+	<item id="636"
+		image="armor-head-warlordhelm.png"
+		name="Elmo do Lorde da Guerra"
+		description="Usado pelos mais poderosos comandantes de batalha!"
+		effect=""
+		type="equip-head"
+		weight="900"
+		defense="18">
+		<sprite>head-warlordhelm.xml</sprite>
+	</item>
+	<item id="637"
+		image="armor-head-knighthelm.png"
+		name="Elmo do Cavaleiro Alado"
+		description="Elmo usado pelos poucos batedores que possuem o título de Cavaleiro Alado."
+		effect=""
+		type="equip-head"
+		weight="600"
+		defense="15">
+		<sprite>head-knighthelm.xml</sprite>
+	</item>
+	<item id="638"
+		image="armor-head-infantryhelm.png"
+		name="Capacete da Infantaria"
+		description="Proteção feita especialmente para as tropas de infantaria."
+		effect=""
+		type="equip-head"
+		weight="400"
+		defense="15">
+		<sprite>head-infantryhelm.xml</sprite>
+	</item>
+	<item id="639"
+		image="armor-head-crusadehelm.png"
+		name="Elmo das Cruzadas"
+		description="Um elmo muito pesado, usado por guerreiros no tempo das cruzadas."
+		effect="-1 Agilidade"
+		type="equip-head"
+		weight="1500"
+		defense="18">
+		<sprite>head-crusadehelm.xml</sprite>
+	</item>
+	<item id="640"
+		image="generic-ironore.png"
+		name="Minério de Ferro"
+		description="Ferro em sua forma bruta."
+		type="generic"
+		weight="40"/>
+	<item id="641"
+		image="generic-snakeskin.png"
+		name="Pele de Cobra da Montanha"
+		description="Um resistente couro de Cobra da Montanha."
+		type="generic"
+		weight="15"/>
+	<item id="642"
+		image="armor-legs-chaps.png"
+		name="Calça de Couro de Cobra"
+		description="Uma calça jeans reforçada com couro de cobra."
+		effect=""
+		type="equip-legs"
+		weight="60"
+		defense="6">
+		<sprite gender="male">leg-chaps-male.xml</sprite>
+		<sprite gender="female">leg-chaps-female.xml</sprite>
+	</item>
+	<item id="643"
+		image="armor-head-cowboywhite.png"
+		name="Chapéu Branco de Vaqueiro"
+		description="Um chapéu de vaqueiro da cor branca."
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="6">
+		<sprite>head-cowboywhite.xml</sprite>
+	</item>
+	<item id="644"
+		image="armor-head-cowboyblack.png"
+		name="Chapéu Preto de Vaqueiro"
+		description="Um chapéu de vaqueiro da cor preta."
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="6">
+		<sprite>head-cowboyblack.xml</sprite>
+	</item>
+	<item id="645"
+		image="armor-chest-lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
+		name="Armadura Dourada Leve"
+		description="Uma leve armadura dourada banhada a ouro."
+		effect=""
+		type="equip-torso"
+		weight="1200"
+		defense="25">
+		<sprite gender="male">chest-lightplatemail-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+		<sprite gender="female">chest-lightplatemail-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+	</item>
+	<item id="646"
+		image="armor-head-crown.png"
+		name="Coroa Real"
+		description="Uma coroa cravejada com pedras preciosas, ideal para os governantes."
+		effect=""
+		type="equip-head"
+		weight="240"
+		defense="4">
+		<sprite>head-crown.xml</sprite>
+	</item>
+	<item id="647"
+		image="armor-head-devcap.png|R:#9999ff"
+		name="Boné de Desenvolvedor"
+		description="Um boné que te identifica como um desenvolvedor."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="5">
+		<sprite>head-devcap.xml|#9999ff</sprite>
+	</item>
+	<item id="648"
+		image="armor-ring-strength-rough.png"
+		name="Áspero Anel de Força"
+		description="Um anel áspero encantado com o atributo FORÇA que parece que foi feito as pressas."
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="649"
+		image="armor-ring-agility-rough.png"
+		name="Áspero Anel de Agilidade"
+		description="Um anel áspero encantado com o atributo AGILIDADE que parece que foi feito as pressas."
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="650"
+		image="armor-ring-dexterity-rough.png"
+		name="Áspero Anel de Destreza"
+		description="Um anel áspero encantado com o atributo DESTREZA que parece que foi feito as pressas."
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="651"
+		image="armor-ring-vitality-rough.png"
+		name="Áspero Anel de Vitalidade"
+		description="Um anel áspero encantado com o atributo VITALIDADE que parece que foi feito as pressas."
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="652"
+		image="armor-ring-intelligence-rough.png"
+		name="Áspero Anel de Inteligência"
+		description="Um anel áspero encantado com o atributo INTELIGÊNCIA que parece que foi feito as pressas."
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="653"
+		image="armor-ring-willpower-rough.png"
+		name="Áspero Anel de Sorte"
+		description="Um anel áspero encantado com o atributo SORTE que parece que foi feito as pressas."
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="654"
+		image="armor-head-cap.png|R:#d94800"
+		name="Boné"
+		description="Um boné para proteger seus olhos do sol."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="5">
+		<sprite>head-cap.xml|#d94800</sprite>
+	</item>
+	<item id="655"
+		image="armor-feet-furboots.png"
+		name="Botas de Pêlo"
+		description="Um par de botas de inverno quentinhas."
+		effect=""
+		type="equip-feet"
+		weight="50"
+		defense="3">
+		<sprite gender="male">feet-furboots-male.xml</sprite>
+		<sprite gender="female">feet-furboots-female.xml</sprite>
+	</item>
+	<item id="656"
+		image="armor-head-serf.png"
+		name="Chapéu de Servo"
+		description="Um simples chapéu feito de tecido."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>head-serf.xml</sprite>
+	</item>
+	<item id="657"
+		image="use-food-orange.png"
+		name="Laranja"
+		description="Uma laranja suculenta."
+		effect=""
+		type="usable"
+		hp="60"
+		weight="7"/>
+	<item id="658"
+		image="armor-chest-warlordplate.png"
+		name="Armadura do Lorde da Guerra"
+		description="Uma armadura brilhante e resistente."
+		effect=""
+		type="equip-torso"
+		weight="2600"
+		defense="27">
+		<sprite gender="male">chest-warlordplate-male.xml</sprite>
+		<sprite gender="female">chest-warlordplate-female.xml</sprite>
+	</item>
+	<item id="659"
+		image="armor-chest-warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
+		name="Armadura do Lord da Guerra Dourada"
+		description="Uma forte armadura banhada a ouro."
+		effect=""
+		type="equip-torso"
+		weight="2600"
+		defense="27">
+		<sprite gender="male">chest-warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+		<sprite gender="female">chest-warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+	</item>
+	<item id="660"
+		image="generic-fabric.png|W:#2b454d,72818c,b7c0c5,ffffff"
+		name="Tecido de Algodão"
+		description="Um pedaço de tecido de algodão."
+		type="generic"
+		weight="10"/>
+	<item id="661"
+		image="generic-rose.png|W:#bb2222,ff8888"
+		name="Rosa Vermelha"
+		description="Uma rosa de cor vermelha. Um símbolo para amor romântico."
+		type="generic"
+		weight="1"/>
+	<item id="662"
+		image="generic-rose.png|W:#dddddd,ffffff"
+		name="Rosa Branca"
+		description="Uma rosa de cor branca. Um símbolo para amor eterno."
+		type="generic"
+		weight="1"/>
+	<item id="663"
+		image="generic-rose.png|W:#bb0022"
+		name="Rosa Vermelha Escura"
+		description="Uma Rosa vermelha escura. Um símbolo de amor não correspondido."
+		type="generic"
+		weight="1"/>
+	<item id="664"
+		image="generic-rose.png|W:#dd88aa,ffdddd"
+		name="Rosa Rosa"
+		description="Uma rosa de cor rosa. Um símbolo para amor inocente."
+		type="generic"
+		weight="1"/>
+	<item id="665"
+		image="generic-rose.png|W:#dddd00,ffff00"
+		name="Rosa Amarela"
+		description="Uma rosa de cor amarela. Um símbolo para amor platônico e amizade."
+		type="generic"
+		weight="1"/>
+	<item id="666"
+		image="generic-rose.png|W:#111111,444444,555555,ffffff"
+		name="Rosa Preta"
+		description="Uma rosa de cor preta. Um símbolo do amor que se transformou em ódio."
+		type="generic"
+		weight="1"/>
+	<item id="667"
+		image="generic-rose.png|W:#dd8800,ffdd00"
+		name="Rosa Laranja"
+		description="Uma rosa de cor laranja. Um símbolo de amizade que está se transformando em amor."
+		type="generic"
+		weight="1"/>
+	<item id="668"
+		image="generic-rose.png|W:#6666aa,ccccff"
+		name="Rosa Azul"
+		description="Uma rosa azul. Um símbolo do mistério ou do impossível."
+		type="generic"
+		weight="1"/>
+	<item id="669"
+		image="generic-tulip.png|W:#ddaa22,eeee44"
+		name="Tulipa Amarela"
+		description="Uma tulipa amarela. Um simbolo do amor platônico."
+		type="generic"
+		weight="1"/>
+	<item id="670"
+		image="generic-tulip.png|W:#000088,dd88ff"
+		name="Tulipa Roxa"
+		description="Uma tulipa roxa. Um símbolo para a admiração."
+		type="generic"
+		weight="1"/>
+	<item id="671"
+		image="generic-tulip.png|W:#882288,dd4444"
+		name="Tulipa Vermelha"
+		description="Uma tulipa vermelha. Uma declaração de amor."
+		type="generic"
+		weight="1"/>
+	<item id="672"
+		image="generic-tulip.png|W:#8888dd,ffffff"
+		name="Tulipa Branca"
+		description="Uma tulipa branca. Um símbolo de amizade eterna."
+		type="generic"
+		weight="1"/>
+	<item id="673"
+		image="generic-tulip.png|W:#dd44dd,fff0f0"
+		name="Tulipa Rosa"
+		description="Uma tulipa rosa. Um símbolo de gratidão."
+		type="generic"
+		weight="1"/>
+	<item id="674"
+		image="generic-tulip.png|W:#aa2222,ffdd22"
+		name="Tulipe Laranja"
+		description="Uma tulipa laranja. Um símbolo de admiração."
+		type="generic"
+		weight="1"/>
+	<item id="675"
+		image="armor-head-gradcap.png"
+		name="Chapéu de Graduação"
+		description="Um chapéu tradicional, que um estudante universitário pode usar depois de se graduar."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>head-gradcap.xml</sprite>
+	</item>
+	<item id="676"
+		image="use-food-steak.png"
+		name="Filé"
+		description="Uma fatia de filé cru."
+		effect=""
+		type="usable"
+		hp="250"
+		weight="10"/>
+	<item id="677"
+		image="generic-heartnecklace.png"
+		name="Colar de Coração"
+		description="Um colão com um coração feito de ouro e rubis."
+		type="generic"
+		weight="10"/>
+	<item id="678"
+		image="armor-head-nohmask.png"
+		name="Máscara Noh"
+		description="Uma máscara tradicional de um antigo povo do leste, usado em peças de teatro."
+		effect=""
+		type="equip-head"
+		weight="18"
+		defense="3">
+		<sprite>head-nohmask.xml</sprite>
+	</item>
+	<item id="679"
+		image="armor-head-demonmask.png"
+		name="Máscara Demoniaca"
+		description="Uma máscara assustadora, para fazer você parecer um demônio."
+		effect=""
+		type="equip-head"
+		weight="23"
+		defense="3">
+		<sprite>head-demonmask.xml</sprite>
+	</item>
+	<item id="680"
+		image="generic-herb.png|W:#e0b0ff"
+		name="Erva Mauva"
+		description="Um ingrediente muito usado para fazer poções."
+		type="generic"
+		weight="1"/>
+	<item id="681"
+		image="generic-herb.png|W:#0047ab"
+		name="Erva Cobalto"
+		description="Um ingrediente muito usado para fazer poções."
+		type="generic"
+		weight="1"/>
+	<item id="682"
+		image="generic-herb.png|W:#ef9b0f"
+		name="Erva Gamboge"
+		description="Um ingrediente muito usado para fazer poções."
+		type="generic"
+		weight="1"/>
+	<item id="683"
+		image="generic-herb.png|W:#e32636"
+		name="Erva Alizarina"
+		description="Um ingrediente muito usado para fazer poções."
+		type="generic"
+		weight="1"/>
+	<item id="684"
+		image="use-potion-a.png|G:#b03678,ffffff"
+		name="Poção Mínima de Cura"
+		description="Uma minúscula poção de cura feita a partir de ervas."
+		effect=""
+		type="usable"
+		hp="100"
+		weight="5"/>
+	<item id="685"
+		image="use-potion-d.png|G:#b03678,ffffff"
+		name="Poção Pequena de Cura"
+		description="Uma pequena poção de cura feita a partir de ervas."
+		effect=""
+		type="usable"
+		hp="200"
+		weight="10"/>
+	<item id="686"
+		image="use-potion-b.png|G:#b03678,ffffff"
+		name="Poção Média de Cura"
+		description="Uma poção média de cura feita a partir de ervas."
+		effect=""
+		type="usable"
+		hp="400"
+		weight="15"/>
+	<item id="687"
+		image="use-potion-c.png|G:#b03678,ffffff"
+		name="Poção Grande de Cura"
+		description="Uma poção média de cura feita a partir de ervas."
+		effect=""
+		type="usable"
+		hp="800"
+		weight="25"/>
+	<item id="688"
+		image="armor-chest-tanktop.png|W:#A4B2B2,FFFFFF"
+		name="Camiseta"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="689"
+		image="armor-chest-tanktop-short.png|W:#A4B2B2,FFFFFF"
+		name="Camiseta Curta"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="690"
+		image="use-potion-d.png|G:#580000,A40000,C02020,ff6060"
+		name="Tinta Vermelha"
+		description="Um frasco contendo tinta vermelha."
+		type="generic"
+		weight="10"/>
+	<item id="691"
+		image="use-potion-d.png|G:#1f9c1f,89d689"
+		name="Tinta Verde"
+		description="Um frasco contendo tinta verde."
+		type="generic"
+		weight="10"/>
+	<item id="692"
+		image="use-potion-d.png|G:#4b4bbd,888af4"
+		name="Tinta Azul Escura"
+		description="Um frasco contendo tinta azul escura."
+		type="generic"
+		weight="10"/>
+	<item id="693"
+		image="use-potion-d.png|G:#ccb534,f1ea8e,ffffaa"
+		name="Tinta Amarela"
+		description="Um frasco contendo tinta amarela."
+		type="generic"
+		weight="10"/>
+	<item id="694"
+		image="use-potion-d.png|G:#62aaca,a3f4f8,d5fcfb"
+		name="Tinta Azul Clara"
+		description="Um frasco contendo tinta azul clara."
+		type="generic"
+		weight="10"/>
+	<item id="695"
+		image="use-potion-d.png|G:#c64abd,f9a5f2,fcd0fa"
+		name="Tinta Rosa"
+		description="Um frasco contendo tinta rosa."
+		type="generic"
+		weight="10"/>
+	<item id="696"
+		image="use-potion-d.png|G:#404040,c0c0c0"
+		name="Tinta Preta"
+		description="Um frasco contendo tinta preta."
+		type="generic"
+		weight="10"/>
+	<item id="697"
+		image="use-potion-d.png|G:#96370f,cc5616,f68d26,fcaa2d,fdd493"
+		name="Tinta Laranja"
+		description="Um frasco contendo tinta laranja."
+		type="generic"
+		weight="10"/>
+	<item id="698"
+		image="use-potion-d.png|G:#530a7c,b362e1,ca87ef"
+		name="Tinta Roxa"
+		description="Um frasco contendo tinta roxa."
+		type="generic"
+		weight="10"/>
+	<item id="699"
+		image="use-potion-d.png|G:#104010,208020,30c030"
+		name="Tinta Verde Escura"
+		description="Um frasco contendo tinta verde escura."
+		type="generic"
+		weight="10"/>
+	<item id="700"
+		image="generic-pearl.png"
+		name="Pérola"
+		description="Uma pérola, redonda e brilhante."
+		type="generic"
+		weight="5"/>
+	<item id="701"
+		image="generic-powder.png"
+		name="Pilha de cinzas"
+		description="Um monte de cinzas."
+		type="generic"
+		weight="5"/>
+	<item id="702"
+		image="armor-ring-wedding.png"
+		name="Anel de Casamento"
+		description="Seu anél de casamento."
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="703"
+		image="generic-powder.png|W:#606030,b0b090,e0e0a0,ffffe0"
+		name="Pó de Enxofre"
+		description="Uma pilha de pó de enxofre."
+		type="generic"
+		weight="2"/>
+	<item id="704"
+		image="generic-powder.png|W:#405060"
+		name="Pó de Ferro"
+		description="Uma pilha de ferro em pó."
+		type="generic"
+		weight="3"/>
+	<item id="705"
+		image="use-potion-e.png|R:#f04030;G:#ee8e5e"
+		name="Poção de Mana"
+		description="Uma mistura escura e viscosa, com um leve cheiro de manaframboesas..."
+		effect="Capacidade Mágica + 10 MP"
+		type="usable"
+		hp=""
+		weight="50"/>
+	<item id="706"
+		image="generic-scorpionstinger.png|W:#e0d080,fff0e0,ffffff"
+		name="Ferrão de Escorpião Dourado"
+		description="Um ferrão de escorpião dourado. Em sua ponta há um veneno letal."
+		type="generic"
+		weight="2"/>
+	<item id="707"
+		image="use-potion-e.png|R:#504030;G:#9e8e5e"
+		name="Poção de Óleo de Monstro"
+		description="Um líquido negro com um cheiro sinistro."
+		type="generic"
+		weight="50"/>
+	<item id="708"
+		image="generic-patch-leather.png"
+		name="Retalho de Couro"
+		description="Um retalho de couro de cobra curtido."
+		type="generic"
+		weight="18"/>
+	<item id="709"
+		image="generic-scorpionstinger.png|W:#a08040"
+		name="Ferrão de Escorpião Preto"
+		description="Um ferrão de escorpião preto cheio de veneno."
+		type="generic"
+		weight="1"/>
+	<item id="710"
+		image="generic-snake-tongue.png|W:#e04020"
+		name="Língua de Cobra"
+		description="Uma língua de Cobra."
+		type="generic"
+		weight="1"/>
+	<item id="711"
+		image="generic-snake-tongue.png|W:#706060"
+		name="Língua de Cobra da Montanha"
+		description="Uma língua de Cobra da Montanha."
+		type="generic"
+		weight="1"/>
+	<item id="712"
+		image="generic-snake-tongue.png|W:#a05050,e08080"
+		name="Língua de Cobra da Grama"
+		description="Uma língua de Cobra da Grama."
+		type="generic"
+		weight="1"/>
+	<item id="713"
+		image="generic-snake-tongue.png|W:#907070,d0a0a0"
+		name="Língua de Cobra da Caverna"
+		description="Uma língua de Cobra da Caverna."
+		type="generic"
+		weight="1"/>
+	<item id="714"
+		image="use-food-snake-egg.png|W:#c0c0a0;R:#b09070;G:#b8a888"
+		name="Ovo de Cobra"
+		description="Um delicioso ovo de Cobra."
+		effect=""
+		type="usable"
+		hp="30"
+		weight="4"/>
+	<item id="715"
+		image="use-food-snake-egg.png|W:#806020;R:#604010;G:#705018"
+		name="Ovo de Cobra da Montanha"
+		description="Um delicioso ovo de Cobra da Montanha."
+		effect=""
+		type="usable"
+		hp="40"
+		weight="4"/>
+	<item id="716"
+		image="use-food-snake-egg.png|W:#e0e0c0;R:#80f0a0;G:#b0e8b0"
+		name="Ovo de Cobra da Grama"
+		description="Um delicioso ovo de Cobra da Grama."
+		effect=""
+		type="usable"
+		hp="50"
+		weight="4"/>
+	<item id="717"
+		image="use-food-snake-egg.png|W:#c0c0c0;R:#c090c0;G:#c0a8c0"
+		name="Ovo de Cobra da Caverna"
+		description="Um delicioso ovo de Cobra da Caverna."
+		effect=""
+		type="usable"
+		hp="20"
+		weight="4"/>
+	<item id="718"
+		image="generic-cocoon-silk.png"
+		name="Casulo de seda"
+		description="Um casulo do Bicho-da-seda."
+		type="generic"
+		weight="1"/>
+	<item id="719"
+	        image="use-food-apple.png|R:#73E600;Y:#C1F102;G:#66CC33"
+	        name="Maçã Verde"
+	        description="Uma saudável maçã verde."
+	        effect=""
+	        type="usable"
+	        hp="45"
+	        weight="5"/>
+	<item id="720"
+		image="armor-chest-robe.png|W:#ffffff"
+		name="Túnica de Seda"
+		description="Uma brilhante túnica de seda."
+		effect=""
+		type="equip-torso"
+		weight="5"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#ffffff</sprite>
+		<sprite gender="female">chest-robe-female.xml|#ffffff</sprite>
+	</item>
+	<item id="721"
+		image="armor-head-highpriest-crown.png"
+		name="Coroa dos Sacerdotes"
+		description="Uma coroa dourada, cravada com um rubi encantado."
+		effect="+20 MP"
+		type="equip-head"
+		weight="400"
+		defense="4">
+		<sprite>head-highpriest-crown.xml</sprite>
+	</item>
+	<item id="722"
+		image="armor-head-monster-skull-helm.png"
+		name="Capacete de Fóssil"
+		description="Um capacete feito do crânio de um misterioso monstro ancestral."
+		effect="+20 Defesa Mágica"
+		type="equip-head"
+		weight="250"
+		defense="7">
+		<sprite>head-monster-skull-helm.xml</sprite>
+	</item>
+	<item id="723"
+		image="armor-head-deserthat.png|R:#FFFFFF"
+		name="Chapéu do Deserto"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada.."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#FFFFFF</sprite>
+	</item>
+	<item id="724"
+		image="armor-head-standardheadband.png|W:#A4B2B2,FFFFFF"
+		name="Faixa de Algodão"
+		description="Apenas uma faixa de por na cabeça feita de algodão."
+		effect=""
+		type="equip-head"
+		defense="2"
+		weight="5">
+		<sprite>head-standardheadband.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="725"
+		image="armor-head-gmcap.png|R:#BF0E08"
+		name="Boné GM"
+		description="Um boné que te identifica como GM."
+		effect=""
+		type="equip-head"
+		defense="5"
+		weight="20">
+		<sprite>head-gmcap.xml|#BF0E08</sprite>
+	</item>
+	<item id="726"
+		image="armor-chest-robe.png|W:#E40A0A"
+		name="Túnica GM"
+		description="Uma túnica feita para o uso exclusivo dos GMs."
+		effect=""
+		type="equip-torso"
+		defense="5"
+		weight="40">
+		<sprite gender="male">chest-robe-male.xml|#E40A0A</sprite>
+		<sprite gender="female">chest-robe-female.xml|#E40A0A</sprite>
+	</item>
+	<item id="727"
+		image="generic-iten.png|W:#ffe0f0"
+		name="Iten"
+		description="Um iten."
+		type="generic"
+		weight="8000"/>
+	<item id="728"
+		image="generic-wooden-mouboo.png"
+		name="Escultura de Mouboo"
+		description="Uma pequena escultura de Mouboo feita de madeira."
+		type="generic"
+		weight="9"/>
+	<item id="729"
+		image="generic-warped-log.png"
+		name="Toco Distorcido"
+		description="Um pedaço de madeira distorcido por uma força sobrenatural."
+		type="generic"
+		weight="8"/>
+	<item id="730"
+		image="generic-gemstone-a.png|W:#a0a010,ffffa0"
+		name="Cristal da Vida"
+		description="Um pequeno e brilhante pedaço de cristal."
+		type="generic"
+		weight="5"/>
+	<item id="731"
+		image="armor-legs-assassinpants.png|R"
+		name="Calça de Assassino"
+		description="Um tipo de calça usada por assassinos profissionais."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="5">
+		<sprite gender="male">leg-assassin-male.xml</sprite>
+		<sprite gender="female">leg-assassin-female.xml</sprite>
+	</item>
+	<item id="732"
+		image="generic-dry-branch.png"
+		name="Galho da Árvore Druida"
+		description="Um galho cortado da árvore druida. Ao toque, sente-se uma estranha sensação de couro."
+		type="generic"
+		weight="2"/>
+	<item id="733"
+		image="use-potion-e.png|R:#fff0ff;G:#d0c09f"
+		name="Poção de Purificação"
+		description="Um estranho líquido transparente e inodoro que parece mais leve que agua."
+		effect=""
+		type="usable"
+		hp=""
+		weight="15"/>
+	<item id="734"
+		image="armor-feet-boots.png|W:#505050"
+		name="Botas Pretas"
+		description="Botas com bico de aço. Mantém os pés bem protegidos."
+		effect=""
+		type="equip-feet"
+		weight="35"
+		defense="4">
+		<sprite gender="male">feet-boots-male.xml|#505050</sprite>
+		<sprite gender="female">feet-boots-female.xml|#505050</sprite>
+	</item>
+	<item id="735"
+		image="armor-feet-boots.png|#A4B2B2,FFFFFF"
+		name="Botas de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="10"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">feet-boots-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="736"
+		image="use-cake-a.png|R:#EDE5B2,FFF7BF;G:#CCCCCC,FFFFFF"
+		name="Bolo Branco"
+		description="Um delicioso bolo branco. Ficaria muito bom com framboesas."
+		effect=""
+		type="usable"
+		hp="10"
+		weight="10">
+	</item>
+	<item id="737"
+		image="use-cake-a.png|R:#9E6E3B,E39D52;G:#E29F57;W:#FFD5A8"
+		name="Bolo de Chocolate"
+		description="Um delicioso bolo de chocolate. Com chocolate de verdade!"
+		effect=""
+		type="usable"
+		hp="11"
+		weight="10">
+	</item>
+	<item id="738"
+		image="use-cake-a.png|R:#FED079,FFFFFF;G:#FED079,FFFFFF,FFFFFF;W:#856200,E68E00,FFA600"
+		name="Bolo Laranja"
+		description="Um bolo alaranjado. Feito a partir de laranjas de verdade."
+		effect=""
+		type="usable"
+		hp="12"
+		weight="10">
+	</item>
+	<item id="739"
+		image="use-cake-a.png|R:#CCC599,FFF8ED;G:#FFBABA,FFFEFE;W:#D91A1A,FF8F8F"
+		name="Bolo de Maça"
+		description="Um bolo crocante de maça. Com pedaços de maça dentro!"
+		effect=""
+		type="usable"
+		hp="12"
+		weight="10">
+	</item>
+	<item id="740"
+		image="generic-root.png"
+		name="Raiz"
+		description="Uma raiz de uma planta."
+		type="generic"
+		weight="5">
+	</item>
+	<item id="741"
+		image="armor-hands-gloves.png|W:#A4B2B2,FFFFFF"
+		name="Luvas de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="10"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="742"
+		image="generic-4leafclover.png"
+		name="Trevo de Quatro Folhas"
+		description="Um trevo de quatro folhas, para te dar muita sorte."
+		effect="+1 Sorte"
+		type="equip-charm"
+		weight="1"/>
+	<item id="743"
+		image="use-food-acorn.png"
+		name="Bolota"
+		description="Uma bolota."
+		effect=""
+		type="usable"
+		hp="3"
+		weight="1"/>
+	<item id="744"
+		image="use-potion-c.png|G:#f0e0fa,da69e5"
+		name="Poção de Concentração Diluída"
+		description="Um frasco de poção de concentração diluída."
+		effect="Aumenta velocidade de ataque (temporário)"
+		type="usable"
+		hp=""
+		weight="10"/>
+	<item id="745"
+		image="use-potion-c.png|G:#ff4aff"
+		name="Poção de Concentração Escura"
+		description="Esta poção tem cheio de açucar queimado."
+		effect="Aumenta velocidade de ataque (temporário)"
+		type="usable"
+		hp=""
+		weight="10"/>
+	<item id="746"
+		image="use-potion-e.png|R:#a0a0ff;G:#20409f"
+		name="Poção de Cura Mopox"
+		description="Uma mistura pegajosa com um cheiro terrível, supostamente é capaz de curar a doença Mopox."
+		effect=""
+		type="usable"
+		hp=""
+		weight="5"/>
+	<item id="747"
+		image="use-cake-a.png|R:#9E6E3B,E39D52;G:#E29F57;W:#FFD5A8"
+		name="Bolo de Chocolate com Glacê"
+		description="Um delicioso bolo de chocolate com uma pitada de poção Mopox em forma de glacê."
+		effect=""
+		type="usable"
+		hp="11"
+		weight="10"/>
+	<item id="748"
+		image="use-food-orangecupcake.png"
+		name="Bolo de Laranja com Creme"
+		description="Uma fatia de bolo de laranja com pequenas gotas de poção Mopox em forma de glacê."
+		effect=""
+		type="usable"
+		hp="100"
+		weight="5"/>
+	<item id="749"
+		image="generic-towel.png"
+		name="Toalha"
+		description="Você pode se secar com ela se ela estiver suficientemente limpa. - Douglas Adams"
+		effect=""
+		type="equip-charm"
+		weight="50"/>
+	<!-- ID 750 está livre -->
+	<item id="751"
+		image="armor-head-pinkiehat.png|W:#f737b8,ffffff"
+		name="Haste Rosa"
+		description="Uns dizem ser uma homenagem, outros um troféu."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="1">
+		<sprite>head-pinkiehat.xml|#f737b8,ffffff</sprite>
+	</item>
+	<item id="752"
+		image="armor-head-fluffyhat.png"
+		name="Chapéu Fofinho"
+		description="Agora você pode usar a pele branca do Tufo em sua cabeça."
+		effect=""
+		type="equip-head"
+		weight="10"
+		defense="2">
+		<sprite>head-fluffyhat.xml</sprite>
+	</item>
+	<item id="753"
+		image="generic-batwing.png"
+		name="Asa de Morcego"
+		description="A asa de um morcego."
+		type="generic"
+		weight="3"/>
+	<item id="754"
+		image="generic-batteeth.png"
+		name="Dentes de Morcego"
+		description="Os dentes de um morcego. Bastante afiados."
+		type="generic"
+		weight="2"/>
+	<!-- IDs 755 até 783 (exceto o pó de fantasma - 774) tem valores apenas provisórios. Mudar quando for introduzir no jogo definitivamente -->
+	<item id="755"
+		image="armor-chest-assassintop.png|R"
+		name="Camisa de Assassino"
+		description="Uma camisa feita para assassinos profissionais."
+		effect=""
+		type="equip-torso"
+		weight="1"
+		defense="1">
+		<sprite gender="male">chest-assassin-male.xml</sprite>
+		<sprite gender="female">chest-assassin-female.xml</sprite>
+	</item>
+	<item id="756"
+		image="armor-hands-assassingloves.png|R"
+		name="Luvas de Assassino"
+		description="Luvas feitas para assassinos profissionais."
+		effect=""
+		type="equip-arms"
+		weight="1"
+		defense="1">
+		<sprite gender="male">hands-gloves-assassin-male.xml</sprite>
+		<sprite gender="female">hands-gloves-assassin-female.xml</sprite>
+	</item>
+	<item id="757"
+		image="armor-feet-assassinboots.png"
+		name="Botas de Assassino"
+		description="Botas feitas para assassinos profissionais."
+		effect=""
+		type="equip-feet"
+		weight="1"
+		defense="1">
+		<sprite gender="male">feet-assassin-boots-male.xml</sprite>
+		<sprite gender="female">feet-assassin-boots-female.xml</sprite>
+	</item>
+	<item id="758"
+		image="weapon-staff-woodstaff.png"
+		name="Cajado de Madeira"
+		description="Um cajado de madeira básico."
+		effect=""
+		type="equip-2hand"
+		weapon-type="polearm"
+		attack-action="attack"
+		weight="1">
+		<sprite>weapon-staff.xml</sprite>
+	</item>
+	<item id="759"
+		image="armor-head-paladinhelm.png"
+		name="Elmo de Paladino"
+		description="Um excelente elmo, tipicamente usado por paladinos."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+		<sprite>head-paladinhelm.xml</sprite>
+	</item>
+	<item id="760"
+		image="armor-head-overlordhelm.png"
+		name="Elmo do Soberano"
+		description="Um elmo lendário, usado somente pelos guerreiros mais fortes."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+		<sprite>head-overlordhelm.xml</sprite>
+	</item>
+	<item id="761"
+		image="armor-head-desert-helmet.png"
+		name="Elmo do Deserto"
+		description="Um elmo perfeito para as longas e perigosas viagens pelo deserto."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+		<sprite>head-desert-helmet.xml</sprite>
+	</item>
+	<item id="762"
+		image="weapon-arrow-arrow.png|W:#8B4513"
+		name="Flecha de Terranite"
+		description="Uma flecha de terranite."
+		effect=""
+		type="equip-ammo"
+		weight="1"/>
+	<item id="763"
+		image="generic-terraniteore.png"
+		name="Minério de Terranite"
+		description="Terranite em sua forma bruta."
+		type="generic"
+		weight="40"/>
+	<item id="764"
+		image="armor-head-sailor_hat.png"
+		name="Chapéu de Marinheiro"
+		description="Um chapéu de marinheiro."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+		<sprite>head-sailor_hat.xml</sprite>
+	</item>
+	<item id="765"
+		image="armor-head-captain_hat.png"
+		name="Chapéu de Capitão"
+		description="Um típico chapéu usado pelos capitães de grandes navios."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+		<sprite>head-captain_hat.xml</sprite>
+	</item>
+	<item id="766"
+		image="armor-head-terranitehelm.png"
+		name="Elmo de Terranite"
+		description="Um elmo mágico, feito a partir de terranite semi-polido e bem leve. Excelente para os magos no campo de batalha."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+		<sprite>head-terranitehelm.xml</sprite>
+	</item>
+	<item id="767"
+		image="armor-chest-terranite.png"
+		name="Armadura de Terranite"
+		description="Uma ótima armadura feita de terranite."
+		effect=""
+		type="equip-torso"
+		weight="1"
+		defense="1">
+		<sprite gender="male">chest-terranite-male.xml</sprite>
+		<sprite gender="female">chest-terranite-female.xml</sprite>
+	</item>
+	<item id="768"
+		image="armor-legs-terranite.png"
+		name="Calça de Terranite"
+		description="Uma calça feita de terranite."
+		effect=""
+		type="equip-legs"
+		weight="1"
+		defense="1">
+		<sprite gender="male">leg-terranite-male.xml</sprite>
+		<sprite gender="female">leg-terranite-female.xml</sprite>
+	</item>
+	<item id="769"
+		image="armor-head-guyfawkes.png"
+		name="Máscara Guy Fawkes"
+		description="A máscara de Guy Fawkes, um famoso personagem do folclore do mundo de mana."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+		<sprite>head-guyfawkes.xml</sprite>
+	</item>
+	<item id="770"
+		image="armor-head-fairy_hat.png"
+		name="Chapéu da Floresta"
+		description="Um chapéu encantado pelas fadas do reino de Lilith."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+	<sprite>head-fairy_hat.xml</sprite>
+	</item>
+	<!-- ID 771 está livre -->
+	<!-- ID 772 - WispPowder -->
+	<!-- ID 773 - SpectrePowder -->
+	<item id="774"
+		image="generic-spice.png|R:#00FFFF"
+		name="Pó de Fantasma"
+		description="Pó de um Fantasma."
+		type="generic"
+		weight="3"/>
+	<item id="775"
+		image="generic-bone.png"
+		name="Osso"
+		description="Um osso."
+		type="generic"
+		weight="10"/>
+	<item id="776"
+		image="generic-skull.png"
+		name="Crânio"
+		description="Um crânio."
+		type="generic"
+		weight="30"/>
+	<item id="777"
+		image="generic-rags-rotten.png"
+		name="Farrapos"
+		description="Farrapos velhos e fedorentos usados por mortos-vivos."
+		type="generic"
+		weight="15"/>
+	<item id="778"
+		image="generic-heart-diseased.png"
+		name="Coração de Zumbi"
+		description="Um coração de zumbi."
+		type="generic"
+		weight="10"/>
+	<item id="779"
+		image="generic-ear-zombie.png"
+		name="Orelha de Zumbi"
+		description="Uma orelha de zumbi."
+		type="generic"
+		weight="5"/>
+	<item id="780"
+		image="generic-eyeball.png"
+		name="Olho de Zumbi"
+		description="Um olho de zumbi."
+		type="generic"
+		weight="3"/>
+	<item id="781"
+		image="armor-head-witch-doctor-mask.png"
+		name="Máscara Voodoo"
+		description="Uma estranha máscara. Provavelmente era usada em rituais Voodoo."
+		effect=""
+		type="equip-head"
+		weight="1"
+		defense="1">
+		<sprite>head-witch-doctor-mask.xml</sprite>
+	</item>
+	<item id="782"
+		image="armor-chest-forest-armor.png"
+		name="Armadura da Floresta"
+		description="Uma armadura resistente e confortável. Perfeita para caçadas e tocaias em florestas."
+		effect=""
+		type="equip-torso"
+		weight="1"
+		defense="1">
+		<sprite gender="male">chest-forest-armor-male.xml</sprite>
+		<sprite gender="female">chest-forest-armor-female.xml</sprite>
+	</item>
+	<item id="783"
+		image="armor-chest-valentine-dress.png|R:#BF0E08"
+		name="Vestido Vermelho"
+		description="Um luxuoso vestido de seda vermelho. Cuidado para não amassar!"
+		effect=""
+		type="equip-torso"
+		weight="1"
+		defense="1">
+		<sprite gender="female">chest-valentine-dress.xml|#BF0E08</sprite>
+	</item>
+
+	<!-- IDs 756 até 783 (exceto o pó de fantasma - 774) tem valores apenas provisórios. Mudar quando for introduzir no jogo definitivamente -->
+	<!-- IDS 784 até 1197 estão livres -->
+	<item id="1198"
+		image="generic-spectral-orb.png|R:#FF6600,FF9933,FFFF33"
+		name="Alma de Jack O"
+		description="A alma de um Jack O."
+		type="generic"
+		weight="1"/>
+	<item id="1199"
+		image="weapon-arrow-arrow.png"
+		name="Flecha"
+		description="Uma flecha simples."
+		effect="+25 Dano"
+		type="equip-ammo"
+		weight="1"/>
+	<item id="1200"
+		image="weapon-bow-bow.png"
+		name="Arco"
+		description="Uma arma de distância."
+		effect="+15 Dano, 5 Range"
+		type="equip-2hand"
+		weapon-type="bow"
+		attack-action="attack_bow"
+		missile-particle="graphics/particles/arrow.particle.xml"
+		weight="20">
+		<sprite>weapon-bow.xml</sprite>
+	</item>
+	<item id="1201"
+		image="weapon-dagger-knive.png"
+		name="Faca"
+		description="Uma pequena faca. A arma perfeita para um iniciante."
+		effect="+5 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon_type="knife"
+		weight="120">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="1202"
+		image="armor-chest-cottonshirt.png|W:#A4B2B2,FFFFFF"
+		name="Camisa de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="13"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="1203"
+		image="armor-head-rangerhat.png"
+		name="Chapéu de Patrulheiro"
+		description="Um chapéu de couro, tradicionalmente usado por patrulheiros."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="4">
+		<sprite>head-rangerhat.xml</sprite>
+	</item>
+	<item id="1204"
+		image="armor-head-antlerhat.png"
+		name="Chapéu Chifres de Rena"
+		description="Um chapéu fantasia de chifres de rena. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="15"
+		defense="4">
+		<sprite>head-antlerhat.xml</sprite>
+	</item>
+	<item id="1205"
+		image="armor-head-christmastree.png"
+		name="Chapéu Árvore de Natal"
+		description="Um chapéu em forma de árvore de Natal. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>head-christmastree.xml</sprite>
+	</item>
+	<item id="1206"
+		image="armor-head-santabeardhat.png"
+		name="Gorro de Papai Noel"
+		description="Gorro que vai te deixar igualzinho ao Papai Noel. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="5">
+		<sprite>head-santabeardhat.xml</sprite>
+	</item>
+	<item id="1207"
+		image="generic-redstocking.png"
+		name="Meia Natalina Vermelha"
+		description="Unfff, que fedor!"
+		type="generic"
+		weight="20"/>
+	<item id="1208"
+		image="generic-easteregg-red.png"
+		name="Ovo de Páscoa Vermelho"
+		description="Um ovo de páscoa vermelho. Saiba como presentear seu amigo falando com o Guia de Páscoa."
+		type="generic"
+		weight="10"/>
+	<item id="1209"
+		image="generic-easteregg-green.png"
+		name="Ovo de Páscoa Verde"
+		description="Um ovo de páscoa verde. Saiba como presentear seu amigo falando com o Guia de Páscoa."
+		type="generic"
+		weight="10"/>
+	<item id="1210"
+		image="generic-easteregg-blue.png"
+		name="Ovo de Páscoa Azul"
+		description="Um ovo de páscoa azul. Saiba como presentear seu amigo falando com o Guia de Páscoa."
+		type="generic"
+		weight="10"/>
+	<item id="1211"
+		image="generic-easteregg-yellow.png"
+		name="Ovo de Páscoa Amarelo"
+		description="Um ovo de páscoa amarelo. Saiba como presentear seu amigo falando com o Guia de Páscoa."
+		type="generic"
+		weight="10"/>
+	<item id="1212"
+		image="generic-easteregg-teal.png"
+		name="Ovo de Páscoa Azul Claro"
+		description="Um ovo de páscoa azul claro. Saiba como presentear seu amigo falando com o Guia de Páscoa."
+		type="generic"
+		weight="10"/>
+	<item id="1213"
+		image="generic-easteregg-pink.png"
+		name="Ovo de Páscoa Rosa"
+		description="Um ovo de páscoa rosa. Saiba como presentear seu amigo falando com o Guia de Páscoa."
+		type="generic"
+		weight="10"/>
+	<item id="1214"
+		image="armor-head-bunnyears.png"
+		name="Orelhas de Coelho"
+		description="Um par de orelhas para você se fantasiar de coelho."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>head-bunnyears.xml</sprite>
+	</item>
+	<item id="1215"
+		image="weapon-sword-sabre.png"
+		name="Sabre de Brinquedo"
+		description="Um item de brinquedo, não causa muito dano."
+		effect="+1 Damage, 1 Range"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="1216"
+		image="armor-head-mouboohead.png"
+		name="Cabeça de Mouboo"
+		description="Um capacete na forma da cabeça de um Mouboo."
+		effect=""
+		type="equip-head"
+		weight="80"
+		defense="6">
+		<sprite>head-mouboohead.xml</sprite>
+	</item>
+	<item id="1217"
+		image="armor-head-catears.png|M:#774444;W:#777777"
+		name="Orelhas de Gato"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+3 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>head-catears.xml</sprite>
+	</item>
+	<item id="1218"
+		image="armor-head-paperbag.png"
+		name="Saco de Papel"
+		description="Um saco de papel marrom com dois furos para você poder enxergar. Parece bem desconfortável."
+		effect="-1 Agilidade"
+		type="equip-head"
+		weight="10"
+		defense="1">
+		<sprite>head-paperbag.xml</sprite>
+	</item>
+	<item id="1219"
+		image="armor-head-moubootaurhead.png"
+		name="Cabeça de Moubootauro"
+		description="Um capacete na forma da cabeça de um ancestral Moubootauro."
+		effect=""
+		type="equip-head"
+		weight="80"
+		defense="6">
+		<sprite>head-moubootaurhead.xml</sprite>
+	</item>
+
+	<!-- The 2XXY IDs are used for recolored items on eAthena.
+		XX = item
+		Y = color variant
+		XXY = viewID
+
+		On the new server recolorable items should use the same item number
+		(as long as they are functionally identical while the color is sent as
+		an additional item property.
+	-->
+	<item id="2050"
+		image="armor-chest-cottonshirt.png|W:#580000,A40000,C02020,ff6060"
+		name="Camisa Vermelha de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2051"
+		image="armor-chest-cottonshirt.png|W:#115511,22aa22,99dd99"
+		name="Camisa Verde de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2052"
+		image="armor-chest-cottonshirt.png|W:#222255,6666ff"
+		name="Camisa Azul Escura de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2053"
+		image="armor-chest-cottonshirt.png|W:#846211,dab333,fffb93,ffffff"
+		name="Camisa Amarela de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2054"
+		image="armor-chest-cottonshirt.png|W:#16486e,498ec5,e4f2fc"
+		name="Camisa Azul Clara de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2055"
+		image="armor-chest-cottonshirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Camisa Rosa de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2056"
+		image="armor-chest-cottonshirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Camisa Preta de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2057"
+		image="armor-chest-cottonshirt.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Camisa Laranja de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2058"
+		image="armor-chest-cottonshirt.png|W:#4f0a76,8010c0,d699f7"
+		name="Camisa Roxa de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#4f0a76,8010c0,d699f7</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2059"
+		image="armor-chest-cottonshirt.png|W:#104010,208020,30c030"
+		name="Camisa Verde Escura de Algodão"
+		description="Uma camisa feita de 100% algodão."
+		effect=""
+		type="equip-torso"
+		weight="20"
+		defense="2">
+		<sprite gender="male">chest-cotton-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">chest-cotton-female.xml|#104010,208020,30c030</sprite>
+	</item>
+	<item id="2060"
+		image="armor-chest-vnecksweater.png|W:#580000,A40000,C02020,ff6060"
+		name="Suéter Vermelho com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2061"
+		image="armor-chest-vnecksweater.png|W:#115511,22aa22,99dd99"
+		name="Suéter Verde com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2062"
+		image="armor-chest-vnecksweater.png|W:#222255,6666ff"
+		name="Suéter Azul Escuro com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2063"
+		image="armor-chest-vnecksweater.png|W:#846211,dab333,fffb93,ffffff"
+		name="Suéter Amarelo com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2064"
+		image="armor-chest-vnecksweater.png|W:#16486e,498ec5,e4f2fc"
+		name="Suéter Azul Claro com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2065"
+		image="armor-chest-vnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Suéter Rosa com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2066"
+		image="armor-chest-vnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Suéter Preto com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2067"
+		image="armor-chest-vnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Suéter Laranja com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2068"
+		image="armor-chest-vnecksweater.png|W:#4f0a76,8010c0,d699f7"
+		name="Suéter Roxo com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#4f0a76,8010c0,d699f7</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2069"
+		image="armor-chest-vnecksweater.png|W:#104010,208020,30c030"
+		name="Suéter Verde Escuro com Decote em V"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="8">
+		<sprite gender="male">chest-vnecksweater-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">chest-vnecksweater-female.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<item id="2070"
+		image="armor-chest-tnecksweater.png|W:#580000,A40000,C02020,ff6060"
+		name="Suéter Vermelho de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2071"
+		image="armor-chest-tnecksweater.png|W:#115511,22aa22,99dd99"
+		name="Suéter Verde de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2072"
+		image="armor-chest-tnecksweater.png|W:#222255,6666ff"
+		name="Suéter Azul Escuro de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2073"
+		image="armor-chest-tnecksweater.png|W:#846211,dab333,fffb93,ffffff"
+		name="Suéter Amarelo de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2074"
+		image="armor-chest-tnecksweater.png|W:#16486e,498ec5,e4f2fc"
+		name="Suéter Azul Claro de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2075"
+		image="armor-chest-tnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Suéter Rosa de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2076"
+		image="armor-chest-tnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Suéter Preto de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2077"
+		image="armor-chest-tnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Suéter Laranja de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2078"
+		image="armor-chest-tnecksweater.png|W:#4f0a76,8010c0,d699f7"
+		name="Suéter Roxo de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#4f0a76,8010c0,d699f7</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2079"
+		image="armor-chest-tnecksweater.png|W:#104010,208020,30c030"
+		name="Suéter Verde Escuro de Gola Alta"
+		description="Um suéter macio e confortável"
+		effect=""
+		type="equip-torso"
+		weight="35"
+		defense="6">
+		<sprite gender="male">chest-tnecksweater-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">chest-tnecksweater-female.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<item id="2080"
+		image="armor-chest-robe.png|W:#580000,A40000,C02020,ff6060"
+		name="Túnica Vermelha de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">chest-robe-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2081"
+		image="armor-chest-robe.png|W:#115511,22aa22,99dd99"
+		name="Túnica Verde de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">chest-robe-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2082"
+		image="armor-chest-robe.png|W:#222255,6666ff"
+		name="Túnica Azul Escura de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">chest-robe-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2083"
+		image="armor-chest-robe.png|W:#846211,dab333,fffb93,ffffff"
+		name="Túnica Amarela de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">chest-robe-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2084"
+		image="armor-chest-robe.png|W:#16486e,498ec5,e4f2fc"
+		name="Túnica Azul Clara de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">chest-robe-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2085"
+		image="armor-chest-robe.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Túnica Rosa de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">chest-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2086"
+		image="armor-chest-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Túnica Preta de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">chest-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2087"
+		image="armor-chest-robe.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Túnica Laranja de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">chest-robe-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2088"
+		image="armor-chest-robe.png|W:#4f0a76,8010c0,d699f7"
+		name="Túnica Roxa de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#4f0a76,8010c0,d699f7</sprite>
+		<sprite gender="female">chest-robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2089"
+		image="armor-chest-robe.png|W:#104010,208020,30c030"
+		name="Túnica Verde Escura de Seda"
+		description="Uma brilhante túnica de seda.."
+		effect=""
+		type="equip-torso"
+		weight="30"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">chest-robe-female.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<item id="2090"
+		image="armor-chest-tanktop.png|W:#580000,A40000,C02020,ff6060"
+		name="Camiseta Vermelha"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2091"
+		image="armor-chest-tanktop.png|W:#115511,22aa22,99dd99"
+		name="Camiseta Verde"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2092"
+		image="armor-chest-tanktop.png|W:#222255,6666ff"
+		name="Camiseta Azul Escura"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2093"
+		image="armor-chest-tanktop.png|W:#846211,dab333,fffb93,ffffff"
+		name="Camiseta Amarela"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2094" image="armor-chest-tanktop.png|W:#16486e,498ec5,e4f2fc"
+		name="Camiseta Azul Clara"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2095" image="armor-chest-tanktop.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Camiseta Rosa"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2096"
+		image="armor-chest-tanktop.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Camiseta Preta"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2097"
+		image="armor-chest-tanktop.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Camiseta Laranja"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2098" image="armor-chest-tanktop.png|W:#4f0a76,8010c0,d699f7"
+		name="Camiseta Roxa"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#4f0a76,8010c0,d699f7</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2099"
+		image="armor-chest-tanktop.png|W:#104010,208020,30c030"
+		name="Camiseta Verde Escura"
+		description="Uma camisa sem manga para os dias quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="12"
+		defense="2">
+		<sprite gender="male">chest-tanktop-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">chest-tanktop-female.xml|#104010,208020,30c030</sprite>
+	</item>
+	<item id="2100"
+		image="armor-legs-skirt.png|W:#580000,A40000,C02020,ff6060"
+		name="Saia Vermelha de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2101"
+		image="armor-legs-skirt.png|W:#115511,22aa22,99dd99"
+		name="Saia Verde de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+	  <sprite>leg-skirt.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2102"
+		image="armor-legs-skirt.png|W:#222255,6666ff"
+		name="Saia Azul Escura de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2103"
+		image="armor-legs-skirt.png|W:#846211,dab333,fffb93,ffffff"
+		name="Saia Amarela de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2104"
+		image="armor-legs-skirt.png|W:#16486e,498ec5,e4f2fc"
+		name="Saia Azul Clara de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2105"
+		image="armor-legs-skirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Saia Rosa de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2106"
+		image="armor-legs-skirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Saia Preta de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2107"
+		image="armor-legs-skirt.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Saia Laranja de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2108"
+		image="armor-legs-skirt.png|W:#4f0a76,8010c0,d699f7"
+		name="Saia Roxa de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2109"
+		image="armor-legs-skirt.png|W:#104010,208020,30c030"
+		name="Saia Verde Escura de Algodão"
+		description="Uma saia feita de algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="4">
+		<sprite>leg-skirt.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<item id="2110"
+		image="armor-legs-shorts.png|W:#580000,A40000,C02020,ff6060"
+		name="Short Vermelho de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2111"
+		image="armor-legs-shorts.png|W:#115511,22aa22,99dd99"
+		name="Short Verde de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2112"
+		image="armor-legs-shorts.png|W:#222255,6666ff"
+		name="Short Azul Escuro de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2113"
+		image="armor-legs-shorts.png|W:#846211,dab333,fffb93,ffffff"
+		name="Short Amarelo de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2114"
+		image="armor-legs-shorts.png|W:#16486e,498ec5,e4f2fc"
+		name="Short Azul Claro de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2115"
+		image="armor-legs-shorts.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Short Rosa de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2116"
+		image="armor-legs-shorts.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Short Preto de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2117"
+		image="armor-legs-shorts.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Short Laranja de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2118"
+		image="armor-legs-shorts.png|W:#4f0a76,8010c0,d699f7"
+		name="Short Roxo de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#520a7b,8c23c7,ca87ef</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#520a7b,8c23c7,ca87ef</sprite>
+	</item>
+	<item id="2119"
+		image="armor-legs-shorts.png|W:#104010,208020,30c030"
+		name="Short Verde Escuro de Algodão"
+		description="Um short feito de 100% algodão."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite gender="male">leg-shorts-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">leg-shorts-female.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<item id="2120"
+		image="armor-chest-tanktop-short.png|W:#580000,A40000,C02020,ff6060"
+		name="Camiseta Curta Vermelha"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2121"
+		image="armor-chest-tanktop-short.png|W:#115511,22aa22,99dd99"
+		name="Camiseta Curta Verde"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2122"
+		image="armor-chest-tanktop-short.png|W:#222255,6666ff"
+		name="Camiseta Curta Azul Escura"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2123"
+		image="armor-chest-tanktop-short.png|W:#846211,dab333,fffb93,ffffff"
+		name="Camiseta Curta Amarela"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2124"
+		image="armor-chest-tanktop-short.png|W:#16486e,498ec5,e4f2fc"
+		name="Camiseta Curta Azul Clara"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2125"
+		image="armor-chest-tanktop-short.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Camiseta Curta Rosa"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2126"
+		image="armor-chest-tanktop-short.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Camiseta Curta Preta"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2127"
+		image="armor-chest-tanktop-short.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Camiseta Curta Laranja"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2128" image="armor-chest-tanktop-short.png|W:#4f0a76,8010c0,d699f7"
+		name="Camiseta Curta Roxa"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#4f0a76,8010c0,d699f7</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2129"
+		image="armor-chest-tanktop-short.png|W:#104010,208020,30c030"
+		name="Camiseta Curta Verde Escura"
+		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
+		effect=""
+		type="equip-torso"
+		weight="8"
+		defense="2">
+		<sprite gender="male">chest-shorttanktop-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">chest-shorttanktop-female.xml|#104010,208020,30c030</sprite>
+	</item>
+	<item id="2130"
+		image="armor-head-deserthat.png|R:#580000,A40000,C02020,ff6060"
+		name="Chapéu do Deserto Vermelho"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2131"
+		image="armor-head-deserthat.png|R:#115511,22aa22,99dd99"
+		name="Chapéu do Deserto Verde"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2132"
+		image="armor-head-deserthat.png|R:#222255,6666ff"
+		name="Chapéu do Deserto Azul Escuro"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2133"
+		image="armor-head-deserthat.png|R:#846211,dab333,fffb93,ffffff"
+		name="Chapéu do Deserto Amarelo"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2134"
+		image="armor-head-deserthat.png|R:#16486e,498ec5,e4f2fc"
+		name="Chapéu do Deserto Azul Claro"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2135"
+		image="armor-head-deserthat.png|R:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Chapéu do Deserto Rosa"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2136"
+		image="armor-head-deserthat.png|R:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Chapéu do Deserto Preto"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2137"
+		image="armor-head-deserthat.png|R:#80280f,b04810,ef681f,ffb830"
+		name="Chapéu do Deserto Laranja"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2138"
+		image="armor-head-deserthat.png|R:#4f0a76,8010c0,d699f7"
+		name="Chapéu do Deserto Roxo"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2139"
+		image="armor-head-deserthat.png|R:#104010,208020,30c030"
+		name="Chapéu do Deserto Verde Escuro"
+		description="Embora este chapéu seja útil em tempestades de areia, ele não te ajudará muito contra uma pancada."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-deserthat.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<item id="2140"
+		image="armor-head-standardheadband.png|W:#580000,A40000,C02020,ff6060"
+		name="Faixa Tradicional Vermelha"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2141"
+		image="armor-head-standardheadband.png|W:#115511,22aa22,99dd99"
+		name="Faixa Tradicional Verde"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2142"
+		image="armor-head-standardheadband.png|W:#222255,6666ff"
+		name="Faixa Tradicional Azul Escura"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2143"
+		image="armor-head-standardheadband.png|W:#846211,dab333,fffb93,ffffff"
+		name="Faixa Tradicional Amarela"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2144"
+		image="armor-head-standardheadband.png|W:#16486e,498ec5,e4f2fc"
+		name="Faixa Tradicional Azul Clara"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2145"
+		image="armor-head-standardheadband.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Faixa Tradicional Rosa"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2146"
+		image="armor-head-standardheadband.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Faixa Tradicional Preta"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2147"
+		image="armor-head-standardheadband.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Faixa Tradicional Laranja"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2148"
+		image="armor-head-standardheadband.png|W:#4f0a76,8010c0,d699f7"
+		name="Faixa Tradicional Roxa"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2149"
+		image="armor-head-standardheadband.png|W:#104010,208020,30c030"
+		name="Faixa Tradicional Verde Escura"
+		description="Uma faixa tradicional, para usar na testa."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="2">
+		<sprite>head-standardheadband.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<item id="2150"
+		image="armor-feet-boots.png|W:#580000,A40000,C02020,ff6060"
+		name="Botas Vermelhas de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">feet-boots-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2151"
+		image="armor-feet-boots.png|W:#115511,22aa22,99dd99"
+		name="Botas Verdes de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">feet-boots-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2152"
+		image="armor-feet-boots.png|W:#222255,6666ff"
+		name="Botas Azul Escuras de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">feet-boots-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2153"
+		image="armor-feet-boots.png|W:#846211,dab333,fffb93,ffffff"
+		name="Botas Amarelas de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">feet-boots-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2154"
+		image="armor-feet-boots.png|W:#16486e,498ec5,e4f2fc"
+		name="Botas Azul Claras de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">feet-boots-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2155"
+		image="armor-feet-boots.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Botas Rosas de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">feet-boots-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2156"
+		image="armor-feet-boots.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Botas Pretas de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">feet-boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2157"
+		image="armor-feet-boots.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Botas Laranjas de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">feet-boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2158"
+		image="armor-feet-boots.png|W:#4f0a76,8010c0,d699f7"
+		name="Botas Roxas de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#4f0a76,8010c0,d699f7</sprite>
+		<sprite gender="female">feet-boots-female.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2159"
+		image="armor-feet-boots.png|W:#104010,208020,30c030"
+		name="Botas Verde Escuras de Algodão"
+		description="Um par de botas de algodão de alta qualidade."
+		effect=""
+		type="equip-feet"
+		weight="30"
+		defense="1">
+		<sprite gender="male">feet-boots-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">feet-boots-female.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<item id="2160"
+		image="armor-hands-gloves.png|W:#580000,A40000,C02020,ff6060"
+		name="Luvas Vermelhas de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2161"
+		image="armor-hands-gloves.png|W:#115511,22aa22,99dd99"
+		name="Luvas Verdes de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2162"
+		image="armor-hands-gloves.png|W:#222255,6666ff"
+		name="Luvas Azul Escuras de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2163"
+		image="armor-hands-gloves.png|W:#846211,dab333,fffb93,ffffff"
+		name="Luvas Amarelas de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2164"
+		image="armor-hands-gloves.png|W:#16486e,498ec5,e4f2fc"
+		name="Luvas Azul Claras de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2165"
+		image="armor-hands-gloves.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Luvas Rosas de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2166"
+		image="armor-hands-gloves.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Luvas Pretas de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2167"
+		image="armor-hands-gloves.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Luvas Laranjas de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2168"
+		image="armor-hands-gloves.png|W:#4f0a76,8010c0,d699f7"
+		name="Luvas Roxas de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#4f0a76,8010c0,d699f7</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2169"
+		image="armor-hands-gloves.png|W:#104010,208020,30c030"
+		name="Luvas Verde Escuras de Algodão"
+		description="Um confortável par de luvas de algodão."
+		effect=""
+		type="equip-arms"
+		weight="20"
+		defense="1">
+		<sprite gender="male">hands-gloves-generic-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
+	</item>
+
+	<!-- AQUI ESTAO OS ITENS CRIADOS PELA EQUIPE TMW-BR -->
+
+	<item id="3000"
+		image="armor-head-piratehat-br.png"
+		name="Chapéu Preto de Pirata"
+		description="Um chapéu de Pirata na cor preta."
+		effect=""
+		type="equip-head"
+		weight="40"
+		defense="4">
+		<sprite>head-piratehat-br.xml</sprite>
+	</item>
+	<item id="3001"
+		image="armor-chest-capa.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Manto da Morte"
+		description="O mesmo manto vestido pela Morte."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">chest-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="3002"
+		image="armor-head-capuz-morte.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Capuz da Morte"
+		description="O mesmo capuz usado pela Morte."
+		effect=""
+		type="equip-head"
+		weight="25"
+		defense="4"/>
+	<item id="3003"
+		image="use-potion-morte.png"
+		name="Poção da Morte"
+		description="Uma poção que irá matá-lo."
+		effect="Aumenta Ataque Mágico (temporário)"
+		type="usable"
+		hp=""
+		weight="25"/>
+	<item id="3004"
+		image="weapon-polearm-foice-morte.png"
+		name="Foice da Morte"
+		description="A mesma arma empunhada pelos mensageiros do submundo."
+		effect="+115 Dano, 1 Alcance"
+		type="equip-2hand"
+		weapon-type="polearm"
+		weight="1600">
+		<sprite>weapon-foice-morte.xml</sprite>
+	</item>
+	<item id="3005"
+		image="generic-perola-negra.png"
+		name="Pérola Negra"
+		description="Uma pérola muito rara."
+		type="generic"
+		weight="5"/>
+	<item id="3006"
+		image="generic-mapa-tesouro.png"
+		name="Mapa do Tesouro"
+		description="Um mapa com um X marcando o local do tesouro... ao lado de duas cachoeiras !"
+		type="generic"
+		weight="18"/>
+	<item id="3007"
+		image="armor-head-capacete-lord.png"
+		name="Capacete de Lord"
+		description="Um capacete de Lord."
+		effect=""
+		type="equip-head"
+		weight="1500"
+		defense="20">
+		<sprite>head-capacete-lord.xml</sprite>
+	</item>
+	<item id="3008"
+		image="weapon-bow-kingbow.png"
+		name="Arco dos Reis"
+		description="O arco da realeza."
+		effect="+110 Dano, 6 Alcance"
+		type="equip-2hand"
+		weapon-type="bow"
+		attack-action="attack_bow"
+		missile-particle="graphics/particles/arrow.particle.xml"
+		weight="1400">
+		<sprite>weapon-bow.xml</sprite>
+	</item>
+	<item id="3009"
+		image="armor-chest-saviorarmor.png"
+		name="Armadura Celestial"
+		description="A armadura dos deuses."
+		effect=""
+		type="equip-torso"
+		weight="275"
+		defense="27">
+		<sprite gender="male">chest-saviorarmor-male.xml</sprite>
+		<sprite gender="female">chest-saviorarmor-female.xml</sprite>
+	</item>
+	<item id="3010"
+		image="generic-05moedas.png"
+		name="Moedas de Ouro (5)"
+		description="Algumas moedas de ouro separadas em montes de 5."
+		type="generic"
+		weight="25"/>
+	<item id="3011"
+		image="generic-10moedas.png"
+		name="Moedas de Ouro (10)"
+		description="Algumas moedas de ouro separadas em montes de 10."
+		type="generic"
+		weight="50"/>
+	<item id="3012"
+		image="generic-15moedas.png"
+		name="Moedas de Ouro (15)"
+		description="Muitas moedas de ouro separadas em montes de 15."
+		type="generic"
+		weight="75"/>
+	<item id="3013"
+		image="generic-escama-dragao.png"
+		name="Escamas de Dragão"
+		description="Escamas do Dragão Verde. Muito resistentes."
+		type="generic"
+		weight="10"/>
+	<item id="3014"
+		image="armor-head-oculos-olho-dragao.png"
+		name="Óculos Olho de Dragão"
+		description="Óculos feito a partir de escamas polidas de dragão verde. Com ele você enxerga muito melhor."
+		effect="Destreza +3"
+		type="equip-head"
+		weight="15"
+		defense="2">
+		<sprite>head-oculos-olho-dragao.xml</sprite>
+	</item>
+	<item id="3015"
+		image="armor-chest-robe.png|W:#115511,22aa22,99dd99"
+		name="Manto Encantado"
+		description="Manto encantado por fadas da floresta."
+		effect="Defesa Mágica +10"
+		type="equip-torso"
+		weight="10"
+		defense="5">
+		<sprite gender="male">chest-robe-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">chest-robe-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="3016"
+		image="generic-heartnecklace.png"
+		name="Colar de Ninfas"
+		description="Colar que tem o poder de aprisionar almas."
+		type="generic"
+		weight="10"/>
+	<item id="3017"
+		image="armor-ring-colar-horcrux-fada.png"
+		name="Colar Horcrux (alma de fada)"
+		description="Colar com uma alma de fada Aprisionada."
+		effect="Dano:+LVL/2, HP:+LVLx2, MP+LVL"
+		type="equip-ring"
+		weight="10">
+		<sprite>pet-fada.xml</sprite>
+	</item>
+	<item id="3018"
+		image="armor-head-afkcap.png"
+		name="Boné Longe do Teclado"
+		description="Boné para informar que você está ausente."
+		effect=""
+		type="equip-head"
+		weight="10"
+		defense="5">
+		<sprite>head-afkcap.xml</sprite>
+	</item>
+	<item id="3019"
+		image="generic-snakeskin-verde.png"
+		name="Pele de Cobra da Grama"
+		description="Um resistente couro de Cobra da Grama."
+		type="generic"
+		weight="20"/>
+	<item id="3020"
+		image="generic-po-encantado.png"
+		name="Pó Encantado"
+		description="Um pó encantado usado pelas fadas."
+		type="generic"
+		weight="3"/>
+	<item id="3021"
+		image="generic-asas-fada.png"
+		name="Asas de Fada"
+		description="Um par de asas de fada."
+		type="generic"
+		weight="3"/>
+	<item id="3022"
+		image="generic-treasurekey.png"
+		name="Chave do Baú de Achados e Perdidos"
+		description="Camélia lhe deu esta chave para pegar algo em seu baú."
+		type="generic"
+		weight="5"/>
+	<item id="3023"
+		image="generic-frasco-vazio.png"
+		name="Frasco de Poção Vazio"
+		description="Frasco vazio usado para guardar poções."
+		type="generic"
+		weight="10"/>
+	<item id="3024"
+		image="use-potion-rocha.png"
+		name="Veneno de Ninfas"
+		description="Frasco com veneno letal feito por fadas."
+		effect=""
+		type="usable"
+		hp=""
+		weight="20"/>
+	<item id="3025"
+		image="use-potion-verde.png"
+		name="Elixir de Fadas"
+		description="Porção de cura feito por fadas."
+		effect="HP +750, MP +750"
+		type="usable"
+		hp=""
+		weight="20"/>
+	<item id="3026"
+		image="armor-chest-couraca-cobra-montanha.png"
+		name="Couraça de Cobra da Montanha"
+		description="Uma couraça resistente de Pele de Cobra da Montanha."
+		effect=""
+		type="equip-torso"
+		weight="1"
+		defense="1">
+		<sprite gender="male">couraca_cobra_montanha_masculina.xml</sprite>
+		<sprite gender="female">couraca_cobra_montanha_feminina.xml</sprite>
+	</item>
+	<item id="3027"
+		image="generic-cesta-macas.png"
+		name="Cesta de Maçãs"
+		description="Joana lhe pediu para entregar esta cesta de maçãs a sua prima Cornélia."
+		type="generic"
+		weight="100"/>
+	<item id="3028"
+		image="use-food-xmascake.png"
+		name="Torta de Maçã"
+		description="Uma fatia de uma deliciosa torta de maçã."
+		effect=""
+		type="usable"
+		hp="75"
+		weight="10"/>
+	<item id="3029"
+		image="weapon-dagger-rolo-macarrao.png"
+		name="Rolo de Macarrão"
+		description="Não chega a ser uma arma, mas é muito útil."
+		effect="Dano +30, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="knife"
+		weight="300"/>
+	<item id="3030"
+		image="weapon-dagger-facao.png"
+		name="Facão"
+		description="Um baita de um facão. Esta sim é uma boa arma."
+		effect="Dano +50, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="knife"
+		weight="400">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3031"
+		image="weapon-dagger-cutelo.png"
+		name="Cutelo Cego"
+		description="Cutelo de cortar osso. Não oferece muito risco, pois está cego."
+		effect="Dano +40, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="knife"
+		weight="500">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3032"
+		image="weapon-dagger-cutelo.png"
+		name="Cutelo Afiado"
+		description="Cutelo de cortar osso. Após afiado se tornou uma arma perigosa."
+		effect="Dano +65, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="knife"
+		weight="500">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3033"
+		image="generic-sementes.png"
+		name="Sementes de Abóbora"
+		description="Item de Evento de Halloween (Não pode ser transferido)."
+		type="generic"
+		weight="35"/>
+	<item id="3034"
+		image="generic-cachecol.png"
+		name="Cachecol da Joana"
+		description="Joana perdeu este cachecol quando lutava contra um monstro."
+		type="generic"
+		weight="100"/>
+	<item id="3035"
+		image="armor-head-lamafia-hat.png"
+		name="Cartola La Mafia"
+		description="Chapéu exclusivo dos membros do clan La Mafia."
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>head-lamafia-hat.xml</sprite>
+	</item>
+	<item id="3036"
+		image="armor-head-bordado-f.png"
+		name="Boné Amarelo Bordado"
+		description="Um boné amarelo bordado com a letra F. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="5">
+		<sprite>head-bordado-f.xml</sprite>
+	</item>
+	<item id="3037"
+		image="armor-head-bordado-l.png"
+		name="Boné Verde Bordado"
+		description="Um boné verde bordado com a letra L. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="5">
+		<sprite>head-bordado-l.xml</sprite>
+	</item>
+	<item id="3038"
+		image="armor-head-bordado-m.png"
+		name="Boné Vermelho Bordado"
+		description="Um boné vermelho bordado com a letra M. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="5">
+		<sprite>head-bordado-m.xml</sprite>
+	</item>
+	<item id="3039"
+		image="armor-head-bordado-p.png"
+		name="Boné Azul Bordado"
+		description="Um boné azul bordado com a letra P. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="5">
+		<sprite>head-bordado-p.xml</sprite>
+	</item>
+	<item id="3040"
+		image="armor-head-gorro-couro.png"
+		name="Gorro de couro de Cobra"
+		description="Um gorro feito de couro de Cobra. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="75"
+		defense="6">
+		<sprite>head-gorro-couro.xml</sprite>
+	</item>
+	<item id="3041"
+		image="armor-head-gorro-couro2.png"
+		name="Gorro de couro de Cobra da Grama"
+		description="Um gorro feito de couro de Cobra da Grama. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="75"
+		defense="6">
+		<sprite>head-gorro-couro2.xml</sprite>
+	</item>
+	<item id="3042"
+		image="armor-head-gorro-cerebro.png"
+		name="Gorro Cérebro"
+		description="Um divertido gorro que parece expor seu cérebro. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="35"
+		defense="2">
+		<sprite>head-gorro-cerebro.xml</sprite>
+	</item>
+	<item id="3043"
+		image="armor-head-gorro-duende.png"
+		name="Gorro dos Duendes do Natal"
+		description="Um gorro usado por duendes do Natal. (presente do Papai Noel)"
+		effect=""
+		type="equip-head"
+		weight="15"
+		defense="2">
+		<sprite>head-gorro-duende.xml</sprite>
+	</item>
+	<item id="3044"
+		image="generic-presente-prateado.png"
+		name="Presente Prateado"
+		description="Item do Evento de Natal (Não pode ser transferido)."
+		type="generic"
+		weight="25"/>
+	<item id="3045"
+		image="use-presente-dourado.png"
+		name="Presente Dourado"
+		description="Abra esta caixa para ganhar uma surpresa de natal!"
+		effect="Uma surpresa!"
+		type="usable"
+		hp=""
+		weight="25"/>
+	<item id="3046"
+		image="generic-4leafclover.png"
+		name="Verdadeiro Trevo"
+		description="Trevo de 4 Folhas só encontrado na Cidade das Fadas."
+		effect="+10 Sorte, +25 Defesa Mágica"
+		type="equip-charm"
+		weight="10"/>
+	<item id="3047"
+		image="weapon-axe-tomahawk.png"
+		name="Machadinha de Thomas Hawk"
+		description="Machadinha monodestra do Cacique Thomas Hawk"
+		effect="+150 Dano, +5 Defesa Mágica, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="axe"
+		weight="2000"/>
+	<item id="3048"
+		image="armor-legs-skirt-mini.png|W:#A4B2B2,FFFFFF"
+		name="Cotton Skirt Mini"
+		description="Um mini saia feita de linhas de algodao."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="3">
+		<sprite>leg-skirt-mini.xml|#A4B2B2,FFFFFF</sprite>
+	</item>
+	<item id="3049"
+		image="armor-head-masc-ninja.png"
+		name="Máscara Ninja"
+		description="Mascara para que não reconheçam seu rosto."
+		effect=""
+		type="equip-head"
+		weight="15"
+		defense="3">
+		<sprite>head-masc-ninja.xml</sprite>
+	</item>
+	<item id="3050"
+		image="armor-head-donatecap2010.png"
+		name="Boné Doador 2010"
+		description="Símbolo dos doadores ao TMW-Brasil em 2010."
+		effect=""
+		type="equip-head"
+		weight="15"
+		defense="3">
+		<sprite>head-donatecap2010.xml</sprite>
+	</item>
+	<item id="3051"
+		image="espada-aprendiz.png"
+		name="Espada de Aprendizes"
+		description="Espada de madeira usada para treinos."
+		effect="+40 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon_type="sword"
+		weight="350">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3052"
+		image="espada-lider.png"
+		name="Espada Cavaleiro Lider"
+		description="Espada para Cavaleiros Lideres de Recrutas."
+		effect="+65 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="14"
+		weapon_type="sword"
+		weight="350">
+		<sprite>weapon-lidersword.xml</sprite>
+		<sound event="strike">short-sword-miss1.ogg</sound>
+		<sound event="miss">short-sword-hit1.ogg</sound>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="die">short-sword-die1.ogg</sound>
+	</item>
+	<item id="3053"
+		image="espada-michael-arcanjo.png"
+		name="Espada Miguel Arcanjo"
+		description="Espada do Arcanjo Miguel."
+		effect="+175 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon_type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3054"
+		image="espada-demoniaca.png"
+		name="Espada Demoniaca"
+		description="Espada usada por Demônios."
+		effect="+175 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon_type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3055"
+		image="espada-kurogane.png"
+		name="Espada de Kurogane"
+		description="Espada com lâmina negra do Guerreiro Kurogane."
+		effect="+200 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon_type="sword"
+		weight="320">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3056"
+		image="espada-imortal.png"
+		name="Espada dos Imortais"
+		description="Espada usadas por Guerreiro Imortais."
+		effect="+225 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon_type="sword"
+		weight="360">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3057"
+		image="espada-zambacutou-pedra.png"
+		name="Zambacutou de Pedra"
+		description="Espada de pedra usada na antiguidade contra as montarias adversárias."
+		effect="+160 Dano, 1 Alcance, 2 Mãos"
+		type="equip-2hand"
+		weapon_type="sword"
+		weight="2500"/>
+	<item id="3058"
+		image="espada-zambacutou-velha.png"
+		name="Zambacutou Velha"
+		description="Espada Zambacutou velha de partir cavalos."
+		effect="+115 Dano, 1 Alcance, 2 Mãos"
+		type="equip-2hand"
+		weapon_type="sword"
+		weight="1200"/>
+	<item id="3059"
+		image="generic-barra.png|W:#334422,556644,778866"
+		name="Marca de Cobre"
+		description="Usada como Tesouro"
+		type="generic"
+		weight="3000"/>
+	<item id="3060"
+		image="generic-barra.png"
+		name="Marca de Prata"
+		description="Usada como Tesouro"
+		type="generic"
+		weight="3000"/>
+	<item id="3061"
+		image="generic-barra.png|W:#888844,CCCC66,FFFF88"
+		name="Marca de Ouro"
+		description="Usada como Tesouro"
+		type="generic"
+		weight="3000"/>
+	<item id="3062"
+		image="generic-gema-safira.png"
+		name="Gema de Safira"
+		description="Usada como Tesouro."
+		type="generic"
+		weight="300"/>
+	<item id="3063"
+		image="generic-gema-esmeralda.png"
+		name="Gema de Esmeralda"
+		description="Usada como Tesouro."
+		type="generic"
+		weight="300"/>
+	<item id="3064"
+		image="generic-gema-diamante.png"
+		name="Gema de Diamante"
+		description="Usada como Tesouro."
+		type="generic"
+		weight="300"/>
+	<item id="3065"
+		image="armor-head-bruxa.png"
+		name="Chapéu Mágico"
+		description="Chapéu de quem tem aptidão mágica."
+		effect=""
+		type="equip-head"
+		weight="25"
+		defense="4">
+		<sprite>head-bruxa.xml</sprite>
+	</item>
+	<item id="3066"
+		image="armor-head-masc-ninja2.png"
+		name="Máscara Ninja Estilizada"
+		description="Mascara Estilizada para que não reconheçam seu rosto."
+		effect=""
+		type="equip-head"
+		weight="15"
+		defense="3">
+		<sprite>head-masc-ninja2.xml</sprite>
+	</item>
+	<item id="3067"
+		image="armor-head-admcap.png"
+		name="Boné ADM"
+		description="Boné dos Administradores."
+		effect=""
+		type="equip-head"
+		weight="10"
+		defense="5">
+		<sprite>head-admcap.xml</sprite>
+	</item>
+	<item id="3068"
+		image="armor-head-aureola-barba.png"
+		name="Barba com Auréola"
+		description="Para você se disfarçar de anjo."
+		effect=""
+		type="equip-head"
+		weight="10"
+		defense="5">
+		<sprite>head-aureola-barba.xml</sprite>
+	</item>
+	<item id="3069"
+		image="generic-pinkantennae.png|W:#70003f,ffbfe3"
+		name="Antena Roxa"
+		description="Uma antena com um pompom roxo da cor de uma beterraba."
+		type="generic"
+		weight="10"/>
+	<item id="3070"
+		image="armor-head-pinkiehat.png|W:#70003f,ffbfe3"
+		name="Haste Roxa"
+		description="Um argradin de Terezinha, mulher do cumpade Chico."
+		effect=""
+		type="equip-head"
+		weight="5"
+		defense="1">
+		<sprite>head-pinkiehat.xml|#70003f,ffbfe3</sprite>
+	</item>
+	<item id="3071"
+		image="use-food-chocolatebar.png"
+		name="Barra de Cupulate Especial"
+		description="Uma barra de um chocolate muito especial de cupuaçu."
+		effect=""
+		type="usable"
+		hp="20"
+		weight="25"/>
+	<item id="3072"
+		image="use-food-chocolatebar.png"
+		name="Barra de Chocolate Especial"
+		description="Uma barra de um chocolate muito especial."
+		effect=""
+		type="usable"
+		hp="20"
+		weight="25"/>
+	<item id="3073"
+		image="use-food-chocolatebar.png"
+		name="Barra de Chocolate Amargo Especial"
+		description="Uma barra de um chocolate amargo muito especial."
+		effect=""
+		type="usable"
+		hp="20"
+		weight="25"/>
+	<item id="3074"
+		image="use-food-chocolatebar.png"
+		name="Barra de Chocolate Branco Especial"
+		description="Uma barra de um chocolate branco muito especial."
+		effect=""
+		type="usable"
+		hp="20"
+		weight="25"/>
+	<item id="3075"
+		image="use-food-castanha-para.png"
+		name="Castanha do Pará"
+		description="Uma porção de Castanhas do Pará."
+		effect=""
+		type="usable"
+		hp="15"
+		weight="18"/>
+	<item id="3076"
+		image="use-food-amendoim.png"
+		name="Amendoim"
+		description="Uma porção de amendoim."
+		effect=""
+		type="usable"
+		hp="15"
+		weight="18"/>
+	<item id="3077"
+		image="use-food-castanha-caju.png"
+		name="Castanha de Caju"
+		description="Uma porção de Castanhas de Caju."
+		effect=""
+		type="usable"
+		hp="15"
+		weight="18"/>
+	<item id="3078"
+		image="use-food-coco.png"
+		name="Coco"
+		description="Alguns pedaços de Coco."
+		effect=""
+		type="usable"
+		hp="15"
+		weight="18"/>
+	<item id="3079"
+		image="generic-rolo-papel.png|W:#ffe7b2"
+		name="Rolo de Papel de Embrulho"
+		description="Um pesado rolo de papel de embrulho."
+		type="generic"
+		weight="1000"/>
+	<item id="3080"
+		image="generic-guache.png|W:#ff4848"
+		name="Tinta Guache Vermelha"
+		description="Um pote de tinta guache vermelha."
+		type="generic"
+		weight="100"/>
+	<item id="3081"
+		image="generic-guache.png|W:#48ff48"
+		name="Tinta Guache Verde"
+		description="Um pote de tinta guache verde."
+		type="generic"
+		weight="100"/>
+	<item id="3082"
+		image="generic-guache.png|W:#4848ff"
+		name="Tinta Guache Azul Escuro"
+		description="Um pote de tinta guache azul escuro."
+		type="generic"
+		weight="100"/>
+	<item id="3083"
+		image="generic-guache.png|W:#ffff48"
+		name="Tinta Guache Amarela"
+		description="Um pote de tinta guache amarela."
+		type="generic"
+		weight="100"/>
+	<item id="3084"
+		image="generic-guache.png|W:#48ffff"
+		name="Tinta Guache Azul Claro"
+		description="Um pote de tinta guache azul claro."
+		type="generic"
+		weight="100"/>
+	<item id="3085"
+		image="generic-guache.png|W:#ff48ff"
+		name="Tinta Guache Rosa"
+		description="Um pote de tinta guache rosa."
+		type="generic"
+		weight="100"/>
+	<!-- reservado do 3086 ao 3089 por Diogo para Pascoa-->
+	<item id="3090"
+		image="generic-pedra.png"
+		name="Lasca de rocha"
+		description="Um pequeno pedaço de rocha que emana uma estranha energia."
+		type="generic"
+		weight="100"/>
+	<item id="3091"
+		image="weapon-staff-woodstaff.png"
+		name="Bastão de Madeira"
+		description="Bastão usado por ninjas."
+		effect="+50 Dano, 1 Alcance, Bidestra"
+		type="equip-2hand"
+		weapon_type="staff"
+		weight="100">
+		<sprite>weapon-staff.xml</sprite>
+	</item><!--Pq esse item só funciona no Cliente TMW e não no cliente ManaPlus?Alastrim:Aqui funciona no manaplus-->
+	<item id="3092"
+		image="armor-head-fairy.png"
+		name="Gorro da Floresta"
+		description="Gorro especial usado por aqueles que vivem na floresta."
+		effect=""
+		type="equip-head"
+		weight="25"
+		defense="6">
+		<sprite>head-fairy_hat.xml</sprite>
+	</item>
+	<item id="3093"
+		image="armor-head-mascara-flamejante.png"
+		name="Máscara Necromante"
+		description="Máscar em chamas usada por necromantes poderosos."
+		effect="+15 Defesa Mágica"
+		type="equip-head"
+		weight="25"
+		defense="15">
+		<sprite>head-mascara-flamejante.xml</sprite>
+	</item>
+	<item id="3094"
+		image="armor-chest-greendragon.png"
+		name="Armadura do Dragão"
+		description="Armadura inquebrável feita de escamas e ossos de Dragão Ancestral."
+		effect="+15 Defesa Mágica"
+		type="equip-torso"
+		weight="150"
+		defense="20">
+		<sprite>chest-greendragon.xml</sprite>
+	</item>
+	<item id="3095"
+		image="armor-legs-greendragon.png"
+		name="Calça do Dragão"
+		description="Armadura feita de escamas de Dragão Ancestral."
+		effect="+5 Defesa Mágica"
+		type="equip-legs"
+		weight="100"
+		defense="7">
+		<sprite>leg-greendragon.xml</sprite>
+	</item>
+	<item id="3096"
+		image="armor-head-greendradon.png"
+		name="Elmo do Dragão"
+		description="Elmo inquebrável feita de ossos de Dragão Ancestral."
+		effect="+15 Defesa Mágica"
+		type="equip-head"
+		weight="1000"
+		defense="20">
+		<sprite>head-greendragon.xml</sprite>
+	</item>
+	<item id="3097"
+		image="armor-feet-greendragonboots.png"
+		name="Botas do Dragão"
+		description="Botas feita de escamas e ossos de Dragão Ancestral."
+		effect="+5 Defesa Mágica"
+		type="equip-feet"
+		weight="50"
+		defense="4">
+		<sprite gender="male">feet-greendragonboots-male.xml</sprite>
+		<sprite gender="female">feet-greendragonboots-female.xml</sprite>
+	</item>
+	<item id="3098"
+		image="armor-hands-greendragongloves.png"
+		name="Luvas do Dragão"
+		description="Luvas feita de escamas de Dragão Ancestral."
+		effect="+5 Defesa Mágica"
+		type="equip-arms"
+		weight="25"
+		defense="4">
+		<sprite gender="male">hands-greendragongloves-male.xml</sprite>
+		<sprite gender="female">hands-greendragongloves-female.xml</sprite>
+	</item>
+	<!-- 3099 está disponível! :) -->
+	<item id="3100"
+		image="armor-chest-dress-valentine.png|R:#000000,333333,555555;W:#444444"
+		name="Vestido Preto"
+		description="Vestido Preto muito usado em Funerais."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
+	</item>
+	<item id="3101"
+		image="armor-chest-dress-valentine.png|R:#888888,aaaaaa,dddddd;W:#b96b3d,fbf5f1"
+		name="Vestido Branco"
+		description="Vestido Branco muito usado em Casamentos."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-dress-valentine.xml|#888888,aaaaaa,dddddd;#b96b3d,fbf5f1</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#888888,aaaaaa,dddddd;#b96b3d,fbf5f1</sprite>
+	</item>
+	<item id="3102"
+		image="armor-chest-dress-valentine.png|R:#000044,000066,0000aa;W:#000000"
+		name="Vestido Azul"
+		description="Vestido Azul muito usado em festas."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-dress-valentine.xml|#000044,000066,0000aa;#000000</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#000044,000066,0000aa;#000000</sprite>
+	</item>
+	<item id="3103"
+		image="armor-chest-dress-valentine.png|R:;W:#000000"
+		name="Vestido Vermelho"
+		description="Vestido Vermelho muito usado em tabernas."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-dress-valentine.xml|;#000000</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|;#000000</sprite>
+	</item>
+	<item id="3104"
+		image="armor-chest-dress-valentine.png|R:#004400,006600,008800"
+		name="Vestido Verde"
+		description="Vestido Verde muito usado em festas."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-dress-valentine.xml|#004400,006600,008800</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#004400,006600,008800</sprite>
+	</item>
+	<item id="3105"
+		image="armor-chest-dress-valentine.png|R:#888800,aaaa00,cccc00"
+		name="Vestido Amarelo"
+		description="Vestido Amarelo muito usado em festas."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-dress-valentine.xml|#888800,aaaa00,cccc00</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#888800,aaaa00,cccc00</sprite>
+	</item>
+	<item id="3106"
+		image="armor-chest-dress-valentine.png|R:#880088,bb00bb,ff00ff"
+		name="Vestido Rosa Choque"
+		description="Vestido Rosa Choque muito usado em tabernas."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-dress-valentine.xml|#880088,bb00bb,ff00ff</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#880088,bb00bb,ff00ff</sprite>
+	</item>
+	<item id="3107"
+		image="armor-chest-dress-valentine.png|R:#884488,bb55bb,ff88ff"
+		name="Vestido Rosa Claro"
+		description="Vestido Rosa Claro muito usado por princesas."
+		effect=""
+		type="equip-torso"
+		weight="10"
+		defense="2">
+		<sprite gender="male">chest-dress-valentine.xml|#884488,bb55bb,ff88ff</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#884488,bb55bb,ff88ff</sprite>
+	</item>
+	<item id="3108"
+		image="armor-head-donatecap2011.png"
+		name="Boné Doador 2011"
+		description="Símbolo dos doadores ao TMW-Brasil em 2011."
+		effect=""
+		type="equip-head"
+		weight="15"
+		defense="3">
+		<sprite>head-donatecap2011.xml</sprite>
+	</item>
+	<item id="3109"
+		image="weapon-shield-tupiguarani.png"
+		name="Escudo Tupiguaraní"
+		description="Escudo usado pelo indígenas Tupiguaranis"
+		effect="50 Defesa"
+		type="equip-shield"
+		weight="300">
+		<sprite>weapon-shield-tupiguarani.xml</sprite>
+	</item>
+	<item id="3110"
+		image="armor-ring-colar-monge.png"
+		name="Colar de Monge"
+		description="Um colar que simboliza a eterna busca por auto-conhecimento."
+		effect="Inteligência +1"
+		type="equip-ring"
+		weight="200"/>
+	<item id="3111"
+		image="weapon-pick-mineiro.png"
+		name="Picareta"
+		description="Picareta comum para uso geral em escavações"
+		effect="Dano +10, Alcance 1"
+		type="equip-2hand"
+		weapon-type="staff"
+		weight="2000">
+		<sprite>weapon-picareta-arqueologo.xml</sprite>
+	</item>
+	<item id="3112"
+		image="weapon-pick-arqueologo.png"
+		name="Picareta Profissional"
+		description="Picareta profissional usada por Arqueologista em escavações"
+		effect="Dano +15, Alcance 1, Eficiência +5%, Agilidade +10"
+		type="equip-2hand"
+		weapon-type="staff"
+		weight="2000">
+		<sprite>weapon-picareta-arqueologo.xml</sprite>
+	</item>
+	<item id="3113"
+		image="generic-barra.png|W:#334422,556644,778866"
+		name="Barra de Cobre"
+		description="Usada para fazer objetos de cobre."
+		type="generic"
+		weight="3000"/>
+	<item id="3114"
+		image="generic-barra.png|W:#111111,333333,555555"
+		name="Barra de Chumbo"
+		description="Usada para fazer objetos de Chumbo."
+		type="generic"
+		weight="3000"/>
+	<item id="3115"
+		image="generic-barra.png|W:#555555,777777,999999"
+		name="Barra de Estanho"
+		description="Usada para fazer objetos de Estanho."
+		type="generic"
+		weight="3000"/>
+	<item id="3116"
+		image="generic-barra.png"
+		name="Barra de Prata"
+		description="Usada para fazer objetos de Prata."
+		type="generic"
+		weight="3000"/>
+	<item id="3117"
+		image="generic-barra.png|W:#888844,CCCC66,FFFF88"
+		name="Barra de Ouro"
+		description="Usada para fazer objetos de Ouro."
+		type="generic"
+		weight="3000"/>
+	<item id="3118"
+		image="generic-barra.png|W:#888888,AAAAAA,CCCCCC"
+		name="Barra de Platina"
+		description="Usada para fazer objetos de Platina."
+		type="generic"
+		weight="3000"/>
+	<item id="3119"
+		image="generic-barra.png|W:#884444,CC6666,FF8888"
+		name="Barra de Iridio"
+		description="Usada para fazer objetos de Irídio."
+		type="generic"
+		weight="3000"/>
+	<item id="3120"
+		image="generic-barra.png|W:#9999BB,BBBBDD,DDDDFF"
+		name="Barra de Titânio"
+		description="Usada para fazer objetos de Titânio."
+		type="generic"
+		weight="3000"/>
+<!--<item id="3121"
+		image=""
+		name="Barra de Ferro com Diamantes"
+		description="Uma barra de ferro encrustrada com minúsculos fragmentos de diamante."
+		type="generic"
+		weight="3000"/>
+	<item id="3122"
+		image=""
+		name="Barra de Ferro"
+		description="Usada para fazer objetos de Diamante."
+		type="generic"
+		weight="3000"/>
+	<item id="3123"
+		image=""
+		name="Anel sem a gema - Nome?"
+		description="Descrição do anel."
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="3124"
+		image=""
+		name="Anel com a gema de Rubi"
+		description="Descrição do anel. Escolher um dos 5 stats para o bonus"
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="3125"
+		image=""
+		name="Anel com a gema de Esmeralda"
+		description="Descrição do anel. Escolher um dos 5 stats para o bonus"
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="3126"
+		image=""
+		name="Anel com a gema de Safira"
+		description="Descrição do anel. Escolher um dos 5 stats para o bonus"
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="3127"
+		image=""
+		name="Anel com a gema de Topazio"
+		description="Descrição do anel. Escolher um dos 5 stats para o bonus"
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="3128"
+		image=""
+		name="Anel com a gema de Ametista"
+		description="Descrição do anel. Escolher um dos 5 stats para o bonus"
+		effect=""
+		type="equip-ring"
+		weight="1"/>
+	<item id="3129"
+		image=""
+		name="Gema de Rubi"
+		description="Descrição."
+		type="generic"
+		weight="1"/>
+	<item id="3130"
+		image=""
+		name="Gema de Esmeralda"
+		description="Descrição."
+		type="generic"
+		weight="1"/>
+	<item id="3131"
+		image=""
+		name="Gema de Safira"
+		description="Descrição."
+		type="generic"
+		weight="1"/>
+	<item id="3132"
+		image=""
+		name="Gema de Topazio"
+		description="Descrição."
+		type="generic"
+		weight="1"/>
+	<item id="3133"
+		image=""
+		name="Gema de Ametista"
+		description="Descrição."
+		type="generic"
+		weight="1"/>
+-->
+	<item id="3134"
+		image="generic-ore.png|W:#334422,556644,778866"
+		name="Minério de Cobre"
+		description="Cobre em sua forma bruta."
+		type="generic"
+		weight="3000"/>
+	<item id="3135"
+		image="generic-ore.png|W:#111111,333333,555555"
+		name="Minério de Chumbo"
+		description="Chumbo em sua forma bruta."
+		type="generic"
+		weight="3000"/>
+	<item id="3136"
+		image="generic-ore.png|W:#555555,777777,999999"
+		name="Minério de Estanho"
+		description="Estanho em sua forma bruta."
+		type="generic"
+		weight="3000"/>
+	<item id="3137"
+		image="generic-ore.png|W:#AAAAAA,CCCCCC,EEEEEE"
+		name="Minério de Prata"
+		description="Prata em sua forma bruta."
+		type="generic"
+		weight="3000"/>
+	<item id="3138"
+		image="generic-ore.png|W:#888844,CCCC66,FFFF88"
+		name="Minério de Ouro"
+		description="Ouro em sua forma bruta."
+		type="generic"
+		weight="3000"/>
+	<item id="3139"
+		image="generic-ore.png|W:#888888,AAAAAA,CCCCCC"
+		name="Minério de Platina"
+		description="Platina em sua forma bruta."
+		type="generic"
+		weight="3000"/>
+	<item id="3140"
+		image="generic-ore.png|W:#884444,CC6666,FF8888"
+		name="Minério de Iridio"
+		description="Iridio em sua forma bruta."
+		type="generic"
+		weight="3000"/>
+	<item id="3141"
+		image="generic-ore.png|W:#9999BB,BBBBDD,DDDDFF"
+		name="Minério de Titânio"
+		description="Titânio em sua forma bruta."
+		type="generic"
+		weight="3000"/>
+<!--
+	<item id="3142"
+		image="generic-ore.png|"
+		name="Minério de Diamante"
+		description="Diamante em sua forma bruta."
+		type="generic"
+		weight="1"/>
+-->
+	<item id="3143"
+		image="generic-bilhete.png"
+		name="Bilhete Mágico"
+		description="Bilhete para participar do jogo da Cartola Mágica."
+		type="generic"
+		weight="1"/>
+	<item id="3144"
+		image="armor-ring-strength-rough.png"
+		name="Anel do Demônio"
+		description="Anel que fez crescer asas de demônio em suas costas."
+		effect="Def.Mag.:+20"
+		type="equip-ring"
+		weight="10">
+		<sprite>rings-wings-demon.xml</sprite>
+	</item>
+	<item id="3145"
+		image="armor-ring-dexterity-rough.png"
+		name="Anel do Dragão Verde"
+		description="Anel que fez crescer asas de Dragão Verde em suas costas."
+		effect="Def.Mag.:+40"
+		type="equip-ring"
+		weight="10">
+		<sprite>rings-wings-dragon.xml</sprite>
+	</item>
+	<item id="3146"
+		image="generic-teia.png"
+		name="Teia de Aranha"
+		description="Teia Envenenada de Aranha."
+		type="generic"
+		weight="5"
+	/>
+	<item id="3147"
+		image="generic-chave-especial.png|W:#000000,880000,FF0000"
+		name="Chave nº1009"
+		description="Uma chave com o número 1009 escrito no punho."
+		type="generic"
+		weight="30"
+	/>
+	<item id="3148"
+		image="angel-wings.png"
+		name="Asas de Anjo"
+		description="Um par de asas de anjo. Não é posível voar com elas."
+		effect="Def.Mag.:+20"
+		type="equip-ring"
+		weight="10">
+		<sprite>angel-wings.xml</sprite>
+	</item>
+
+</items>
