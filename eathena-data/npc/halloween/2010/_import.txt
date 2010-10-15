@@ -1,6 +1,6 @@
 // Ativa todos os NPCs, warps e monstros do Halloween de 2010
 
-npc: npc/pascoa/2010/info.conf
+npc: npc/halloween/2010/info.conf
 
 npc: npc/halloween/2010/_mobs.txt
 npc: npc/halloween/2010/_warps.txt
