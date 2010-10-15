@@ -51,7 +51,7 @@
 518,patadeinseto,Pata de Inseto,3,60,20,1,,,,,,,,,,,{},{}
 519,bolodecereja,Bolo de Cereja,0,100,50,1,,,,,,2,,,0,,{ itemheal 35,0; },{}
 520,ovodepascoa,Ovo de Pascoa,0,200,100,1,,,,,,2,,,0,,{ itemheal 100,0; },{}
-521,adaga,Adaga,4,1000,500,100,200,,1,,0,2,2,1,1,1,{},{}
+521,adaga,Adaga,4,1000,500,100,15,,1,,0,2,2,1,1,1,{},{}
 522,facaafiada,Faca Afiada,4,100,50,150,10,,1,,0,2,2,1,1,1,{},{}
 523,camisadecouro,Camisa de Couro,5,2000,1000,20,,4,,-12,0,2,512,,0,0,{},{}
 524,chapeufantasia,Chapeu Fantasia,5,1600,800,20,,5,,0,0,2,256,,0,0,{},{}
