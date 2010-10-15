@@ -1,0 +1,8 @@
+.:: Halloween 2010 ::.
+
+A maior parte dos scripts referentes ao halloween devem ser escritos nesta
+pasta. Isso será útil para manter um histórico acessível de todos os eventos
+já realizados no servidor. Incluindo funções, mobs e NPCs.
+
+Para alterações que não puderam ser feitas aqui, deixe comentários neste
+arquivo.
