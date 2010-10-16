@@ -1,0 +1,4 @@
+Extraia todas as músicas baixadas do http://update.themanaworld.com.br/
+para esta pasta e poderá ouvi-las ao rodar o localhost.
+
+obs.: Não sincronize as músicas ao repositório.
