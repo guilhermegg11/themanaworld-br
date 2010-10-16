@@ -5098,4 +5098,53 @@
 		weight="1"
 	/>
 
+	<item id="3151"
+		image="generic-hitodama.png|W:#5E9726"
+		name="Hitodama Verde"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3152"
+		image="generic-hitodama.png|W:#264397"
+		name="Hitodama Azul"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3153"
+		image="generic-hitodama.png|W:#977B26"
+		name="Hitodama Amarela"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3154"
+		image="generic-hitodama.png|W:#972626"
+		name="Hitodama Vermelha"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3155"
+		image="generic-hitodama.png|W:#5C2697"
+		name="Hitodama Violeta"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3156"
+		image="generic-hitodama.png|W:#404040"
+		name="Hitodama Negra"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3157"
+		image="generic-hitodama2.png"
+		name="Hitodama Maligna"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
 </items>
