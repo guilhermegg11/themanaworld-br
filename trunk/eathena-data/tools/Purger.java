@@ -2,8 +2,8 @@
  * Purger (c) 2006 Eugenio Favalli
  * License: GPL, v2 or later
  */
- 
-import java.io.*; 
+
+import java.io.*;
 import java.text.*;
 import java.util.*;
 
@@ -83,12 +83,13 @@ import java.util.*;
                             if (date.after(purgeDate)) {
                                 activeAccounts.add(fields[0]);
                                 copy = true;
-                            }
+                                //System.out.println("add: "+fields[3]);
+                            } else {
+								System.out.println("del: "+fields[3]);
+							}
                         }
                         catch (ParseException e) {
-                            System.out.println(
-                                "ERROR: Wrong date format in account.txt. ("
-                                + accounts + ": " + line + ")");
+                            //System.out.println("ERROR: Wrong date format in account.txt. (" + accounts + ": " + line + ")");
                             //return;
                         }
                         catch (Exception e) {
@@ -175,6 +176,6 @@ import java.util.*;
             "Removed " + deletedCharacters + "/"
             + characters + " characters.");
     }
-    
+
 }
 
