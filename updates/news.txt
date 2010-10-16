@@ -1,3 +1,12 @@
+##3 .:: Evento de Halloween ::.
+##0
+##0 O evento de Halloween é um dos grandes
+##0 eventos aguardado por todos os jogadores.
+##0 Novas missões, novos itens, muitos prêmios,
+##0 competições e diversão.
+##0 Esteja aqui nos dias 27, 28, 29, 30 e 31
+##0 e não irá se arrepender.
+##0
 ##3 .:: Atualização 30/09/2010 ::.
 ##0
 ##0 O The Mana World BR passou por uma grande
