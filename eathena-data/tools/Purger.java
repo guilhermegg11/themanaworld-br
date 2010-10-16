@@ -83,10 +83,7 @@ import java.util.*;
                             if (date.after(purgeDate)) {
                                 activeAccounts.add(fields[0]);
                                 copy = true;
-                                //System.out.println("add: "+fields[3]);
-                            } else {
-								System.out.println("del: "+fields[3]);
-							}
+                            }
                         }
                         catch (ParseException e) {
                             //System.out.println("ERROR: Wrong date format in account.txt. (" + accounts + ": " + line + ")");
@@ -151,6 +148,7 @@ import java.util.*;
                         copy = true;
                     }
                     else {
+                        System.out.println(fields[2]);
                         deletedCharacters++;
                     }
                 }
