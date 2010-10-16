@@ -2,4 +2,5 @@ map: 007-3.gat
 npc: npc/007-3_CavernaMonstruosa/_mobs.txt
 npc: npc/007-3_CavernaMonstruosa/_warps.txt
 npc: npc/007-3_CavernaMonstruosa/lilia.conf
+npc: npc/007-3_CavernaMonstruosa/livros.conf
 npc: npc/007-3_CavernaMonstruosa/vendedores.conf
