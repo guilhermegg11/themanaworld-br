@@ -680,3 +680,4 @@
 3155,hitodamaVioleta,hitodamaVioleta,3,500,10,1,,,,,,,,,,,{},{}
 3156,hitodamaNegra,hitodamaNegra,3,500,10,1,,,,,,,,,,,{},{}
 3157,hitodamaMaligna,hitodamaMaligna,3,500,10,1,,,,,,,,,,,{},{}
+3158,queijo,Queijo,0,50,10,10,,,,,,2,,,0,,{ itemheal 40,0; },{}

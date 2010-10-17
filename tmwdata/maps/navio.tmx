@@ -76,5 +76,25 @@
  <objectgroup name="objects" width="67" height="53">
   <object name="Margem" x="0" y="0" width="640" height="640"/>
   <object name="Margem" x="1504" y="1056" width="640" height="640"/>
+  <object name="Rato (5)" type="spawn" x="832" y="768" width="352" height="192">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="321"/>
+   </properties>
+  </object>
+  <object name="paraDentro" type="-warp" x="1184" y="864" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="navio-1"/>
+    <property name="dest_x" value="?"/>
+    <property name="dest_y" value="?"/>
+   </properties>
+  </object>
+  <object name="paraDentro" type="-warp" x="800" y="832" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="navio-2"/>
+    <property name="dest_x" value="?"/>
+    <property name="dest_y" value="?"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
