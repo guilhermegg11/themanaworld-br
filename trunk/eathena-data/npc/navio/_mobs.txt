@@ -1,0 +1,14 @@
+//
+// Navio
+//
+
+navio.gat,26,24,11,06	monster	Rato(2)	1323,2,0,0,Mobnavio::On1323
+
+navio.gat,0,0,0	script	Mobnavio	-1,{
+On1323:
+	set @mobID, 1323;
+	callfunc "MobPoints";
+	break;
+
+end;
+}
