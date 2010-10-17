@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="67" height="53" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="background0image" value="graphics/images/ambient/water.png"/>
+  <property name="background0parallax" value="1.0"/>
+  <property name="background0scrollX" value="-1.5"/>
+  <property name="background0scrollY" value="0.0"/>
+  <property name="music" value="butterfly_tea_-_forest_dance.ogg"/>
+  <property name="name" value="Navio Intercontinental"/>
+  <property name="overlay1image" value="graphics/images/ambient/clouds.png"/>
+  <property name="overlay1parallax" value="1.0"/>
+  <property name="overley1scrollX" value="1.0"/>
+  <property name="overley1scrollY" value="1.0"/>
+  <property name="pasta" value="navio"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="trans_woodland-desert" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/trans_woodland-desert.png" width="512" height="352"/>
+ </tileset>
+ <tileset firstgid="179" name="navio-br" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/navio-br.png" width="768" height="320"/>
+ </tileset>
+ <tileset firstgid="419" name="navio-br2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/navio-br2.png" width="768" height="256"/>
+ </tileset>
+ <tileset firstgid="611" name="navio-br-mastro1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/navio-br-mastro1.png" width="416" height="544"/>
+ </tileset>
+ <layer name="ground" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DQQ0AAAwDoat/0/tNBSSsmqqqqqqqqqqqqqqqqqr6D6YOYQ98NwAA
+  </data>
+ </layer>
+ <layer name="ground2" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QxatVCxjGYY/d3e21u/NaN7x2N3Z3DOxuJ3b3X2GNjZGNAbZgdxfmc0DhDlU857Dh+7GfydoseNeXLl0URVEURVEURVEURVEURVEURb/SXvaxnwMc/MH3DnGYIxxNmWmp2jGOc4KTnOI0Z779f5ZznOfC/967yCUuc4WrXOM6N1Jhd0p0k1vc5g53ucd9HvCQRzzmCU95xnNe8JJXvOYNb3nH+9T8iN/UBz7yic98SX6Y5Ed6MpCRTGQmC1nJRnZykJNc5CYPeclH/qS0/LKfr4C9BSlEYYpQlGIUpwQlKUVpylCWcvxBeSpQkUpUpgpVqZZgt6hubw1qUova1KEu9ahPAxrSiMY0oSnN+JPmtKAlrWjNX/ydYLf4x95/acN/tKUd7elARzrRmS50pRvd6UFPetGbPvSlH/0T7A7JDbB5IIMYzBCGMozhjGAkoxjNGMYyjvFMYCKTmMwUpibgHb43zfbpzGAms5jNHOYyj/ksYCGLWMwSlrKM5axgZQLfIblV9q9mDWtZx3o2sJFNbGYLW9nGdnawk13sZk+C3yGKoiiKoiiKoiiKoiiKoihKu74CkRSrlXw3AAA=
+  </data>
+ </layer>
+ <layer name="ground3" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QwQmDQBCG0SEWYLrQBjRJ8YJd6FUrcY4LOYcJ+B58LMzpZyMAAAAAAADgN/pHxDNbmtuRnVWDCg35D2O2Vg/5A1u2Ny/fpi5izl7ZO/t01YsAAAAAAADu5wJ0xcYcfDcAAA==
+  </data>
+ </layer>
+ <layer name="fringe" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OMREAAAQAQP1bmdQSweQY/hN8BAAAAAAAAOyp6wAv5XUAAAAAAAAABg3J9RITfDcAAA==
+  </data>
+ </layer>
+ <layer name="top" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QOUoEQRhA4arxBkaKW2CkuOLOqKC4JCYyIGhkoHfRW+gVXCIDUx1X8AZGikcw8UEP2CPO0NIy0vI+eFR30wV/VQiSJEmSJEmSJKmVTmIIp3RG5/Gvp8nvIscZquy9oVu6o3t6oMeC3stTk7mvqdpk73ODvS98fy3gfbz9cOarL+/vBTxzI22lZL0M9WsW7ezt/+YuOvjeWco7Wet1MXM39VAv9WU8wwD/DVKZuxhiHaYRGqUxGi/gXUww8yRN0TTN0CzN1c5SZp2nBVpMnW+J52WqcBcrrKu0RusFvIO0DeY/iJ/t0mbtTBXWPd73aSt1zm2ed+gwJv0nR7G+rI5jkiRJkiRJkiRJ+h0f/GIjmnw3AAA=
+  </data>
+ </layer>
+ <layer name="top2" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XtU4EYRiF4dldrEJbpMUuDC4ALgAaKiRIg0OCu7u7uzsE1+CW8LJQwAUgmTlv8mTa/zvdGIZSSimllFJKWbcIu2FE2v/6Ff+jKHaI1hbOYtghVlsY8WyQgEQkfe6RzDcFqUiz0Ebp3JqBTGQhGznIRR7yLbBFATcWogjFKEEpylCOClSiysRbVHNbDWpRh3o0oBFNaEYLWtGGdhNv0cFtnehCN3rQiz70YwCDGMIwRky8xSi3jWEcE5jEFKYxg1nMYR4LWDTxFkvctowVrGIN69jAJrawjR3sYs/EW7y3z30HOMQRjnGCU5zhHBe4xJXJt7jmvhvc4g73eMAjnvCMF7yafAdnDsOwwQ4HXOAKN7jDw/HXD/zdPLnXC97wgS/8LLbB1/y5PQCBCLLwDsHcHoJQhCHcwluo78XZPij+R20flFJKKaWUUkoppZRSSin1870BxAfGzHw3AAA=
+  </data>
+ </layer>
+ <layer name="top3" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UyQ2DQBBFwYYUjO3cnDCB4CUIb/wMOKFBmirpHebW3YepAgAA6NcyVN3TIz3Ta2g9UTvv7P5J3/RL/45vcRqrpnROl3QdW08Ex3Dr+F8AAPYxb7x75AYAAAAAAABwHCtjARElfDcAAA==
+  </data>
+ </layer>
+ <layer name="top4" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OIQEAAAgDsFOZ/oIIODBbgiUAAAAAsOv6HgAAAAAAAAAAANwZ2SfNmHw3AAA=
+  </data>
+ </layer>
+ <layer name="collision" width="67" height="53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SMQrAMAwDQJP/P7prCfWUBpXmBDd4E8KjqgYAAAAAAACveEq6U3qL7j7JPd2fzEl33rlFt81pm6wk3f0L+6T7AQAAAAAA/3cBHQYnPXw3AAA=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="67" height="53">
+  <object name="Margem" x="0" y="0" width="640" height="640"/>
+  <object name="Margem" x="1504" y="1056" width="640" height="640"/>
+ </objectgroup>
+</map>

@@ -34,3 +34,4 @@
 010-3.gat#010-3.wlk#
 prisao.gat#prisao.wlk#
 calabouco.gat#calabouco.wlk#
+navio.gat#navio.wlk#
