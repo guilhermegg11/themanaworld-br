@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="50" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="background0image" value="graphics/images/ambient/water.png"/>
+  <property name="background0parallax" value="1.0"/>
+  <property name="background0scrollX" value="-1.5"/>
+  <property name="background0scrollY" value="0.0"/>
+  <property name="name" value="Navio - Quarto do Capitão"/>
+  <property name="pasta" value="navio-2"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="cabana_in_teto" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="43" name="navio-br-interno" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/navio-br-interno.png" width="320" height="224"/>
+ </tileset>
+ <tileset firstgid="113" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="369" name="escada_madeira" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/escada_madeira.png" width="224" height="256"/>
+ </tileset>
+ <layer name="ground" width="52" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3R0QkAIAhFUXdpovZfphWEAq2OcP7fxRERAwAAAIAt2ave+WvPTKreebLllp7X/qOnv9d6AAAAADpbsV+o7aAoAAA=
+  </data>
+ </layer>
+ <layer name="ground2" width="52" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QMQqAMBAEwHzJWgRFbRT//x0TvCJFCsHCFDOwsGx1SUoAAAAAfLVG5qq3tt5tOUvOkDOl5/Yh9j162cbovSt/Xt5zRY6qt7belRvPv48AAAAAAHjpBqTI8pegKAAA
+  </data>
+ </layer>
+ <layer name="fringe" width="52" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PMQ5AQBAFUHtlHRUVZ+IG3IDLmHJV0254L/nJn2Sa33UAAAAA8E19ed9bZE96y4bYM1abjsiZ9JZNsWWu9lyRO+ktW2LLWvI/AAAAAPiLBz4XTCGgKAAA
+  </data>
+ </layer>
+ <layer name="top" width="52" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ROwqEMBQF0DR+Gj+1pe7Keva/hkkQG0EwyExSnAMXUrziXhICAAAAwH81Mf3DtIU6PpU6rhn386+KFGJP3WrfM8UsGfe179liuoz72vckQzj+6cx+804ZC3XMsV3yuXmfAQAAAOCdLz982IegKAAA
+  </data>
+ </layer>
+ <layer name="collision" width="52" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RMQoAIAwEweD/H20lSIi1GuZgQDsXR0QMAAAAAGhsbb9X59fl/d6Tmzr0VP902u136unRAwAAAPCyCU+DeXqgKAAA
+  </data>
+ </layer>
+ <objectgroup name="object" width="52" height="50">
+  <object name="Margem" x="0" y="0" width="640" height="640"/>
+  <object name="Margem" x="1024" y="960" width="640" height="640"/>
+  <object name="paraFora" type="warp" x="608" y="768" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="navio"/>
+    <property name="dest_x" value="768"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="Rato(2)" type="spawn" x="672" y="736" width="320" height="128">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="321"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

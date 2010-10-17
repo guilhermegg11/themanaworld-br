@@ -1,0 +1,3 @@
+// navio warps
+
+navio.gat,25,26	warp	paraDentro	-1,-1,navio-2.gat,640,768
