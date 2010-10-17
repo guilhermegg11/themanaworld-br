@@ -328,6 +328,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Halloween" width="0" height="0" visible="0">
+  <object name="graphics/particles/circulo-vermelho.particle.xml" type="PARTICLE_EFFECT" x="3120" y="1600"/>
+  <object name="graphics/particles/circulo-violeta.particle.xml" type="PARTICLE_EFFECT" x="2928" y="1376"/>
+  <object name="graphics/particles/circulo-laranja.particle.xml" type="PARTICLE_EFFECT" x="3312" y="1376"/>
   <object name="Vitalidade" x="3041" y="1503" width="160" height="160"/>
   <object name="Agilidade" x="3233" y="1278" width="160" height="160"/>
   <object name="Força" x="2845" y="1280" width="160" height="160"/>
