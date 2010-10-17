@@ -125,8 +125,8 @@
 	<npc id="321"><sprite variant="21">npcs-br.xml</sprite></npc> <!-- Duende Samambaia -->
 	<npc id="322"><sprite variant="22">npcs-br.xml</sprite></npc> <!-- Eremita sentado e encapusado de verde -->
 	<npc id="323"><sprite variant="23">npcs-br.xml</sprite></npc> <!-- Mágico com Capa Longa -->
-	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc>
-	<npc id="325"><sprite variant="25">npcs-br.xml</sprite></npc>
+	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc> <!-- Servo de Hades -->
+	<npc id="325"><sprite variant="25">npcs-br.xml</sprite></npc> <!-- Vitalina: Bruxa vermelha -->
 	<npc id="326"><sprite variant="26">npcs-br.xml</sprite></npc>
 	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
 	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
@@ -214,7 +214,7 @@
 	<npc id="564"><sprite variant="64">npcs-br2.xml</sprite></npc> <!-- Anão Forjador -->
 	<npc id="565"><sprite variant="65">npcs-br2.xml</sprite></npc> <!-- Anã Infermeira -->
 	<npc id="566"><sprite variant="66">npcs-br2.xml</sprite></npc> <!-- Anã Joalheira -->
-	<npc id="567"><sprite variant="67">npcs-br2.xml</sprite></npc> 
+	<npc id="567"><sprite variant="67">npcs-br2.xml</sprite></npc>
 	<npc id="568"><sprite variant="68">npcs-br2.xml</sprite></npc>
 	<npc id="569"><sprite variant="69">npcs-br2.xml</sprite></npc>
 	<!-- Espaço disponívels no sprite "npcs-br2.png" -->
