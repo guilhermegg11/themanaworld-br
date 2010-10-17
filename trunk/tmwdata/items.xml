@@ -5151,7 +5151,7 @@
 		image="generic-queijo.png"
 		name="Queijo"
 		description="um pedaço de queijo velho"
-		type="generic"
+		type="usable"
 		weight="1"
 	/>
 
