@@ -686,7 +686,7 @@
 3161,cartaMago,cartaMago,3,500,10,1,,,,,,,,,,,{},{}
 3162,cartaNecromante,cartaNecromante,3,500,10,1,,,,,,,,,,,{},{}
 3163,cartaDruida,cartaDruida,3,500,10,1,,,,,,,,,,,{},{}
-3164,cartaAssassino,cartaAssassino,3,500,10,1,,,,,,,,,,,{},{}
+3164,cartaNinja,cartaNinja,3,500,10,1,,,,,,,,,,,{},{}
 3165,cartaClerico,cartaClerico,3,500,10,1,,,,,,,,,,,{},{}
 3166,cartaHeroi,cartaHeroi,3,500,10,1,,,,,,,,,,,{},{}
 3167,cartaMundoMana,cartaMundoMana,3,500,10,1,,,,,,,,,,,{},{}
