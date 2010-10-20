@@ -5154,5 +5154,68 @@
 		type="usable"
 		weight="1"
 	/>
+	<item id="3159"
+		image="generic-iten.png"
+		name="Boneca de pano"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3160"
+		image="generic-carta-cavaleiro.png"
+		name="Carta do Cavaleiro"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3161"
+		image="generic-carta-mago.png"
+		name="Carta do Mago"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3162"
+		image="generic-carta-necromante.png"
+		name="Carta do Necromante"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3163"
+		image="generic-carta-druida.png"
+		name="Carta do Druida"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3164"
+		image="generic-carta-assassino.png"
+		name="Carta do Assassino"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3165"
+		image="generic-carta-clerico.png"
+		name="Carta do Clérico"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3166"
+		image="generic-carta-heroi.png"
+		name="Carta do Heroi"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3167"
+		image="generic-carta-mundomana.png"
+		name="Carta do Mundo Mana"
+		description="..."
+		type="generic"
+		weight="1"
+	/>
 
 </items>

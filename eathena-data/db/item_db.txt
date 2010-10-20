@@ -681,3 +681,12 @@
 3156,hitodamaNegra,hitodamaNegra,3,500,10,1,,,,,,,,,,,{},{}
 3157,hitodamaMaligna,hitodamaMaligna,3,500,10,1,,,,,,,,,,,{},{}
 3158,queijo,Queijo,0,50,10,10,,,,,,2,,,0,,{ itemheal 40,0; },{}
+3159,bonecaPano,bonecaPano,3,500,10,1,,,,,,,,,,,{},{}
+3160,cartaCavaleiro,cartaCavaleiro,3,500,10,1,,,,,,,,,,,{},{}
+3161,cartaMago,cartaMago,3,500,10,1,,,,,,,,,,,{},{}
+3162,cartaNecromante,cartaNecromante,3,500,10,1,,,,,,,,,,,{},{}
+3163,cartaDruida,cartaDruida,3,500,10,1,,,,,,,,,,,{},{}
+3164,cartaAssassino,cartaAssassino,3,500,10,1,,,,,,,,,,,{},{}
+3165,cartaClerico,cartaClerico,3,500,10,1,,,,,,,,,,,{},{}
+3166,cartaHeroi,cartaHeroi,3,500,10,1,,,,,,,,,,,{},{}
+3167,cartaMundoMana,cartaMundoMana,3,500,10,1,,,,,,,,,,,{},{}
