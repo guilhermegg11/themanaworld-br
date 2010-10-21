@@ -51,7 +51,7 @@
  <objectgroup name="object" width="52" height="50">
   <object name="Margem" x="0" y="0" width="640" height="640"/>
   <object name="Margem" x="1024" y="960" width="640" height="640"/>
-  <object name="paraFora" type="warp" x="608" y="768" width="32" height="32">
+  <object name="paraFora" type="-warp" x="608" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="navio"/>
     <property name="dest_x" value="768"/>
