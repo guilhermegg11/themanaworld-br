@@ -5217,5 +5217,19 @@
 		type="generic"
 		weight="1"
 	/>
+	<item id="3168"
+		image="generic-mouse-tooth.png"
+		name="Dente de Rato"
+		description="O dente arrancado de um rato."
+		type="generic"
+		weight="2"
+	/>
+	<item id="3169"
+		image="generic-mouse-tail.png"
+		name="Calda de Rato"
+		description="Calda arrancada de um rato."
+		type="generic"
+		weight="2"
+	/>
 
 </items>
