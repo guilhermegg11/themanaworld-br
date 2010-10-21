@@ -6,6 +6,7 @@ npc: npc/halloween/2010/info.conf
 npc: npc/halloween/2010/morte.conf
 npc: npc/halloween/2010/vitalina.conf
 npc: npc/halloween/2010/bella.conf
+npc: npc/halloween/2010/nina.conf
 
 npc: npc/halloween/2010/_mobs.txt
 npc: npc/halloween/2010/_warps.txt
