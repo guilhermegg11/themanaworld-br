@@ -690,3 +690,5 @@
 3165,cartaClerico,cartaClerico,3,500,10,1,,,,,,,,,,,{},{}
 3166,cartaHeroi,cartaHeroi,3,500,10,1,,,,,,,,,,,{},{}
 3167,cartaMundoMana,cartaMundoMana,3,500,10,1,,,,,,,,,,,{},{}
+3168,dentesDeRato,Dentes de Rato,3,600,150,2,,,,,,,,,,,{},{}
+3169,caldaDeRato,Calda de Rato,3,600,150,2,,,,,,,,,,,{},{}
