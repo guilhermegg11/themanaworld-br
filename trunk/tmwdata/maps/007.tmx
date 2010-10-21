@@ -91,12 +91,12 @@
    H4sIAAAAAAAAA+3auQkCQQCF4QmEsUE78NgivIpYj2I8mlBsx4eCsJELghp8H/z5JI8JZkoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAfsa1lEmapllq6q9PBP9jnj0s0jKt0to+4KXNHjZpm3Zpbx/wVjP49QkAAAAAAACAbxp5I4SHdmgPAPTnzoCuQy3lmE7p7L8udFyyiWt93h03+wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAj9wBFTGNSYC1AQA=
   </data>
  </layer>
- <layer name="Collision" width="200" height="140" visible="0" opacity="0.74">
+ <layer name="Collision" width="200" height="140" opacity="0.74">
   <data encoding="base64" compression="gzip">
    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
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="graphics/particles/waterfall-1x3.particle.xml" type="PARTICLE_EFFECT" x="5964" y="746"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="5789" y="1355"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="5917" y="2507"/>
@@ -349,6 +349,20 @@
     <property name="eA_spawn" value="120000"/>
     <property name="max_beings" value="6"/>
     <property name="monster_id" value="16"/>
+   </properties>
+  </object>
+  <object name="paraNavio1" type="-warp" x="736" y="2976" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="navio-1"/>
+    <property name="dest_x" value="672"/>
+    <property name="dest_y" value="768"/>
+   </properties>
+  </object>
+  <object name="paraNavio2" type="-warp" x="352" y="2944" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="navio-2"/>
+    <property name="dest_x" value="640"/>
+    <property name="dest_y" value="768"/>
    </properties>
   </object>
  </objectgroup>

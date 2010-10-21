@@ -4,7 +4,6 @@ npc: npc/007_PraiaPorto/_shops.txt
 npc: npc/007_PraiaPorto/_warps.txt
 npc: npc/007_PraiaPorto/animadora.conf
 npc: npc/007_PraiaPorto/bardo_do_deserto.conf
-npc: npc/007_PraiaPorto/capitao.conf
 npc: npc/007_PraiaPorto/eliana.conf
 npc: npc/007_PraiaPorto/espada007.conf
 npc: npc/007_PraiaPorto/fred.conf
@@ -24,3 +23,4 @@ npc: npc/007_PraiaPorto/pescadores.conf
 npc: npc/007_PraiaPorto/placas.conf
 npc: npc/007_PraiaPorto/selim.conf
 npc: npc/007_PraiaPorto/veronica.conf
+npc: npc/007_PraiaPorto/warp_controlado.conf
