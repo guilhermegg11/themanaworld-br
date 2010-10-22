@@ -1,0 +1,39 @@
+//
+// Pontos de checagem do mapa: 008 Ilha Fortaleza
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+008.gat,97,38,0	script	#teste1	-1,7,1,{
+	message strcharinfo(0), "#teste1";
+	end;
+}
+
+008.gat,94,55,0	script	#teste2	-1,7,1,{
+	message strcharinfo(0), "#teste2";
+	end;
+}
+
+008.gat,84,45,0	script	#teste3	-1,1,6,{
+	message strcharinfo(0), "#teste3";
+	end;
+}
+
+008.gat,85,51,0	script	#teste4	-1,1,4,{
+	message strcharinfo(0), "#teste4";
+	end;
+}
+
+008.gat,111,40,0	script	#teste5	-1,1,2,{
+	message strcharinfo(0), "#teste5";
+	end;
+}
+
+008.gat,111,49,0	script	#teste6	-1,1,3,{
+	message strcharinfo(0), "#teste6";
+	end;
+}
+
+008.gat,85,39,0	script	#teste7	-1,1,4,{
+	message strcharinfo(0), "#teste7";
+	end;
+}
