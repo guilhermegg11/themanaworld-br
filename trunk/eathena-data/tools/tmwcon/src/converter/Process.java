@@ -93,23 +93,24 @@ public class Process {
 	private static void handleCheck(PrintWriter out, String map, String name, Rectangle bounds, Properties props) {
 		if (out == null)
 			return;
+		String end = getProp(props, "end", null);
 		String nameScript = getProp(props, "name", null);
-/*		if (dest == null) return;
-		int x = getProp(props, "dest_x", -1);
-		int x32 = getProp(props, "dest_x32", -1);
-		if( x>=0 ) x /= 32;
-		else if( x32>=0 ) x = x32;
-		else return;
-		int y = getProp(props, "dest_y", -1);
-		int y32 = getProp(props, "dest_y32", -1);
-		if( y>=0 ) y /= 32;
-		else if( y32>=0 ) y = y32;
-		else return;*/
+		String script1 = getProp(props, "script1", null);
+		String script2 = getProp(props, "script2", null);
+		String script3 = getProp(props, "script3", null);
 		int[] shape = resolveBounds(bounds, false);
-		System.out.printf("Usable check found: %s\n", name);
-		out.printf("\n%s.gat,%d,%d,0\tscript\t%s\t0,%d,%d,{\n", map, shape[0], shape[1], nameScript, shape[2], shape[3]);
-		out.printf("\tmessage strcharinfo(0), \"%s\";\n", nameScript);
-		out.printf("\tclose;\n}\n");
+		System.out.printf("Check Point: %s\n", name);
+		out.printf("\n%s.gat,%d,%d,0\tscript\t%s\t-1,%d,%d,{\n", map, shape[0], shape[1], nameScript, shape[2], shape[3]);
+		if(script1!=null)
+			out.printf("\t%s\n", script1);
+		if(script2!=null)
+			out.printf("\t%s\n", script2);
+		if(script3!=null)
+			out.printf("\t%s\n", script3);
+		if(end!=null)
+			out.printf("\t%s;\n}\n", end);
+		else
+			out.printf("\tend;\n}\n");
 	}
 
 	private static Mob handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props, ReadMobScript mobScript) {
