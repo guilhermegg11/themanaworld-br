@@ -50,6 +50,21 @@ public class ReadItemsXML {
 	}
 
 	/**
+	 * Retorna uma propriedade da tag XML como int.
+	 * @param elem Tag XML do tipo Node.ELEMENT_NODE
+	 * @param atributo O nome do atributo
+	 * @param padrao Valor padrão retornado caso a atributo não exista
+	 */
+	private int getAtributo(Element elem, String atributo, int padrao) {
+		int num = 1;
+		try{
+			num = Integer.parseInt( elem.getAttribute(atributo) );
+		} catch(Exception e){}
+
+		return num;
+	}
+
+	/**
 	 * Retorna uma propriedade do item como Integer.
 	 * @param item Objeto do tipo HashMap<String,String>.
 	 * @param atributo O nome do atributo
