@@ -125,7 +125,7 @@
 	<npc id="321"><sprite variant="21">npcs-br.xml</sprite></npc> <!-- Duende Samambaia -->
 	<npc id="322"><sprite variant="22">npcs-br.xml</sprite></npc> <!-- Eremita sentado e encapusado de verde -->
 	<npc id="323"><sprite variant="23">npcs-br.xml</sprite></npc> <!-- Mágico com Capa Longa -->
-	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc> <!-- Servo de Hades -->
+	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc> <!-- Bella: Ciagana -->
 	<npc id="325"><sprite variant="25">npcs-br.xml</sprite></npc> <!-- Vitalina: Bruxa vermelha -->
 	<npc id="326"><sprite variant="26">npcs-br.xml</sprite></npc>
 	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
@@ -141,6 +141,10 @@
 	<npc id="335"> <!-- Menina Fantasma -->
 		<sprite>npcs/npc-menina-fantasma.xml</sprite>
 		<sprite>generic-shadow-small-circle2.xml</sprite>
+		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+	</npc>
+	<npc id="336"> <!-- Morte de Férias -->
+		<sprite>npcs/npc-morteferias.xml</sprite>
 		<particlefx>graphics/particles/aura-negra.xml</particlefx>
 	</npc>
 
