@@ -24,6 +24,7 @@ public class Process {
     private static final String scriptDirectory = "npc/";
     private static final String mobFile = "_mobs.txt";
     private static final String warpFile = "_warps.txt";
+    private static final String checkFile = "_checks.txt";
     private static final String importFile = "_import.txt";
 
     private static WLKInterface wlk = null;
@@ -89,6 +90,28 @@ public class Process {
 		out.printf("%s.gat,%d,%d\twarp\t%s\t%d,%d,%s.gat,%d,%d\n", map, shape[0], shape[1], name, shape[2], shape[3], dest, x, y);
 	}
 
+	private static void handleCheck(PrintWriter out, String map, String name, Rectangle bounds, Properties props) {
+		if (out == null)
+			return;
+		String nameScript = getProp(props, "name", null);
+/*		if (dest == null) return;
+		int x = getProp(props, "dest_x", -1);
+		int x32 = getProp(props, "dest_x32", -1);
+		if( x>=0 ) x /= 32;
+		else if( x32>=0 ) x = x32;
+		else return;
+		int y = getProp(props, "dest_y", -1);
+		int y32 = getProp(props, "dest_y32", -1);
+		if( y>=0 ) y /= 32;
+		else if( y32>=0 ) y = y32;
+		else return;*/
+		int[] shape = resolveBounds(bounds, false);
+		System.out.printf("Usable check found: %s\n", name);
+		out.printf("\n%s.gat,%d,%d,0\tscript\t%s\t0,%d,%d,{\n", map, shape[0], shape[1], nameScript, shape[2], shape[3]);
+		out.printf("\tmessage strcharinfo(0), \"%s\";\n", nameScript);
+		out.printf("\tclose;\n}\n");
+	}
+
 	private static Mob handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props, ReadMobScript mobScript) {
 		if (out == null) return new Mob(-1);
 		int mob = getProp(props, "monster_id", -1);
@@ -129,7 +152,7 @@ public class Process {
 		return retMob;
 	}
 
-    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript) {
+    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter checkOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript) {
         if (mo == null) return;
         String name = mo.getName();
         String type = mo.getType();
@@ -138,17 +161,19 @@ public class Process {
 
         if (type.equalsIgnoreCase("warp")) {
             handleWarp(warpOut, map, name, bounds, props);
+        } else if (type.equalsIgnoreCase("check") && checkOut!=null) {
+            handleCheck(checkOut, map, name, bounds, props);
         } else if (type.equalsIgnoreCase("spawn")) {
             mobs.add(handleMob(mobOut, map, name, bounds, props, mobScript));
         }
     }
 
-    private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript) {
+	private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter checkOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript) {
         MapObject mo;
         while (objs.hasNext()) {
             mo = objs.next();
             if (mo == null) continue;
-            processObject(mo, map, warpOut, mobOut, mobs, mobScript);
+            processObject(mo, map, warpOut, checkOut, mobOut, mobs, mobScript);
         }
     }
 
@@ -193,24 +218,42 @@ public class Process {
         File folder = new File(baseFolder + folderName);
         folder.mkdirs();
         PrintWriter warpOut = Main.getWriter(new File(folder, warpFile));
+        PrintWriter checkOut = null;
         PrintWriter mobOut = Main.getWriter(new File(folder, mobFile));
 
-        warpOut.printf("// %s warps\n\n", title);
+		warpOut.printf("// %s warps\n\n", title);
+
+		File fCheck = new File(folder, checkFile);
+		if( !fCheck.exists() ){
+			checkOut = Main.getWriter(fCheck);
+			checkOut.printf("//\n");
+			checkOut.printf("// Pontos de checagem do mapa: %s\n", title);
+			checkOut.printf("// Script gerado automaticamente pela ferramenta TMW Converter...\n");
+			checkOut.printf("//\n");
+			System.out.println("* Arquivo _checks.txt criado.");
+		} else {
+			System.out.println("Arquivo _checks.txt existente e não será substituído.");
+		}
+
 		mobOut.printf("//\n");
         mobOut.printf("// Monstros do mapa: %s\n", title);
 		mobOut.printf("// Script gerado automaticamente pela ferramenta TMW Converter...\n");
 		mobOut.printf("//\n\n");
 
         TreeSet<Mob> mobs = new TreeSet<Mob>();
-        processObjects(map.getObjects(), name, warpOut, mobOut, mobs, readMobScript);
+        processObjects(map.getObjects(), name, warpOut, checkOut, mobOut, mobs, readMobScript);
         for (MapLayer layer : map) {
             if (layer instanceof ObjectGroup) {
-                processObjects(((ObjectGroup) layer).getObjects(), name, warpOut, mobOut, mobs, readMobScript);
+                processObjects(((ObjectGroup) layer).getObjects(), name, warpOut, checkOut, mobOut, mobs, readMobScript);
             }
         }
 
         warpOut.flush();
         warpOut.close();
+		if( checkOut!=null ){
+			checkOut.flush();
+			checkOut.close();
+		}
 
         HashMap<Integer, Mob> hash = readMobScript.getMobs();
         TreeSet<Object> lCont = new TreeSet<Object>();
