@@ -76,7 +76,7 @@
  </layer>
  <layer name="Collision" width="200" height="140" visible="0">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0" visible="0">
@@ -327,68 +327,82 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Halloween" width="0" height="0" visible="0">
+ <objectgroup name="Halloween" width="0" height="0">
   <object name="graphics/particles/circulo-vermelho.particle.xml" type="PARTICLE_EFFECT" x="3120" y="1600"/>
   <object name="graphics/particles/circulo-violeta.particle.xml" type="PARTICLE_EFFECT" x="2928" y="1376"/>
   <object name="graphics/particles/circulo-laranja.particle.xml" type="PARTICLE_EFFECT" x="3312" y="1376"/>
-  <object name="Vitalidade" x="3041" y="1503" width="160" height="160"/>
-  <object name="Agilidade" x="3233" y="1278" width="160" height="160"/>
-  <object name="Força" x="2845" y="1280" width="160" height="160"/>
-  <object name="entrar+y" x="3008" y="1152" width="256" height="32"/>
-  <object name="entrar-y" x="2912" y="1824" width="256" height="32"/>
-  <object name="entrar+x" x="2656" y="1184" width="32" height="160"/>
-  <object name="entrar+x" x="2624" y="1344" width="32" height="224"/>
-  <object name="entrar+x" x="2656" y="1568" width="32" height="160"/>
-  <object name="entrar-x" x="3616" y="1248" width="32" height="96"/>
-  <object name="entrar-x" x="3616" y="1536" width="32" height="128"/>
-  <object name="sair-y" type="check" x="3008" y="1216" width="256" height="32">
+  <object name="espectros" x="672" y="768" width="1920" height="2016"/>
+  <object name="espectros" x="3680" y="672" width="2144" height="2400"/>
+  <object name="espectros" x="1248" y="1888" width="2912" height="2016"/>
+  <object name="sair-y" type="check" x="2976" y="1216" width="288" height="32">
    <properties>
-    <property name="name" value="#teste1"/>
-    <property name="script1" value="message strcharinfo(0), &quot;#teste1&quot;;"/>
+    <property name="script" value="callfunc &quot;sairy&quot;, -3;"/>
    </properties>
   </object>
-  <object name="sair+y" type="check" x="2912" y="1760" width="256" height="32">
+  <object name="sair+y" type="check" x="2880" y="1760" width="288" height="32">
    <properties>
-    <property name="name" value="#teste2"/>
-    <property name="script1" value="message strcharinfo(0), &quot;#teste2&quot;;"/>
+    <property name="script" value="callfunc &quot;sairy&quot;, +3;"/>
+   </properties>
+  </object>
+  <object name="sair-x" type="check" x="2720" y="1120" width="32" height="224">
+   <properties>
+    <property name="script" value="callfunc &quot;sairx&quot;, -3;"/>
    </properties>
   </object>
   <object name="sair-x" type="check" x="2688" y="1344" width="32" height="224">
    <properties>
-    <property name="name" value="#teste3"/>
-    <property name="script1" value="message strcharinfo(0), &quot;#teste3&quot;;"/>
+    <property name="script" value="callfunc &quot;sairx&quot;, -3;"/>
    </properties>
   </object>
   <object name="sair-x" type="check" x="2720" y="1568" width="32" height="160">
    <properties>
-    <property name="name" value="#teste4"/>
-    <property name="script1" value="message strcharinfo(0), &quot;#teste4&quot;;"/>
+    <property name="script" value="callfunc &quot;sairx&quot;, -3;"/>
    </properties>
   </object>
   <object name="sair+x" type="check" x="3552" y="1248" width="32" height="96">
    <properties>
-    <property name="name" value="#teste5"/>
-    <property name="script1" value="message strcharinfo(0), &quot;#teste5&quot;;"/>
+    <property name="script" value="callfunc &quot;sairx&quot;, +3;"/>
    </properties>
   </object>
-  <object name="sair+x" type="check" x="3552" y="1536" width="32" height="128">
+  <object name="sair+x" type="check" x="3552" y="1536" width="32" height="160">
    <properties>
-    <property name="name" value="#teste6"/>
-    <property name="script1" value="message strcharinfo(0), &quot;#teste6&quot;;"/>
+    <property name="script" value="callfunc &quot;sairx&quot;, +3;"/>
    </properties>
   </object>
-  <object name="sair-x" type="check" x="2720" y="1184" width="32" height="160">
+  <object name="entrar+y" type="check" x="2976" y="1152" width="288" height="32">
    <properties>
-    <property name="name" value="#teste7"/>
-    <property name="script1" value="message strcharinfo(0), &quot;#teste7&quot;;"/>
+    <property name="script" value="callsub &quot;entrary&quot;, +3;"/>
    </properties>
   </object>
-  <object name="espectros" x="672" y="768" width="1920" height="2016"/>
-  <object name="espactros" x="3680" y="672" width="2144" height="2400"/>
-  <object name="espectros" x="1248" y="1888" width="2912" height="2016"/>
-  <object name="entrar-x" x="1184" y="2976" width="32" height="256"/>
-  <object name="sair+x" x="1120" y="2976" width="32" height="256"/>
-  <object name="entrar-x" x="1152" y="3264" width="32" height="160"/>
-  <object name="sair+x" x="1088" y="3264" width="32" height="160"/>
+  <object name="entrar-y" type="check" x="2880" y="1824" width="288" height="32">
+   <properties>
+    <property name="script" value="callsub &quot;entrary&quot;, -3;"/>
+   </properties>
+  </object>
+  <object name="entrar+x" type="check" x="2656" y="1120" width="32" height="224">
+   <properties>
+    <property name="script" value="callsub &quot;entrarx&quot;, +3;"/>
+   </properties>
+  </object>
+  <object name="entrar+x" type="check" x="2624" y="1344" width="32" height="224">
+   <properties>
+    <property name="script" value="callsub &quot;entrarx&quot;, +3;"/>
+   </properties>
+  </object>
+  <object name="entrar-x" type="check" x="2656" y="1568" width="32" height="160">
+   <properties>
+    <property name="script" value="callsub &quot;entrarx&quot;, +3;"/>
+   </properties>
+  </object>
+  <object name="entrar-x" type="check" x="3616" y="1248" width="32" height="96">
+   <properties>
+    <property name="script" value="callsub &quot;entrarx&quot;, -3;"/>
+   </properties>
+  </object>
+  <object name="entrar-x" type="check" x="3616" y="1536" width="32" height="160">
+   <properties>
+    <property name="script" value="callsub &quot;entrarx&quot;, -3;"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

@@ -3,37 +3,128 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-008.gat,97,38,0	script	#teste1	-1,7,1,{
-	message strcharinfo(0), "#teste1";
+// Ponto de checagem: sair-y
+008.gat,97,38,0	script	#008_97x38	0,4,0,{
+	set @map$, "008";
+	set @x, 97;
+	set @y, 38;
+	callfunc "sairy", -3;
 	end;
 }
 
-008.gat,94,55,0	script	#teste2	-1,7,1,{
-	message strcharinfo(0), "#teste2";
+// Ponto de checagem: sair+y
+008.gat,94,55,0	script	#008_94x55	0,4,0,{
+	set @map$, "008";
+	set @x, 94;
+	set @y, 55;
+	callfunc "sairy", +3;
 	end;
 }
 
-008.gat,84,45,0	script	#teste3	-1,1,6,{
-	message strcharinfo(0), "#teste3";
+// Ponto de checagem: sair-x
+008.gat,85,38,0	script	#008_85x38	0,0,3,{
+	set @map$, "008";
+	set @x, 85;
+	set @y, 38;
+	callfunc "sairx", -3;
 	end;
 }
 
-008.gat,85,51,0	script	#teste4	-1,1,4,{
-	message strcharinfo(0), "#teste4";
+// Ponto de checagem: sair-x
+008.gat,84,45,0	script	#008_84x45	0,0,3,{
+	set @map$, "008";
+	set @x, 84;
+	set @y, 45;
+	callfunc "sairx", -3;
 	end;
 }
 
-008.gat,111,40,0	script	#teste5	-1,1,2,{
-	message strcharinfo(0), "#teste5";
+// Ponto de checagem: sair-x
+008.gat,85,51,0	script	#008_85x51	0,0,2,{
+	set @map$, "008";
+	set @x, 85;
+	set @y, 51;
+	callfunc "sairx", -3;
 	end;
 }
 
-008.gat,111,49,0	script	#teste6	-1,1,3,{
-	message strcharinfo(0), "#teste6";
+// Ponto de checagem: sair+x
+008.gat,111,40,0	script	#008_111x40	0,0,1,{
+	set @map$, "008";
+	set @x, 111;
+	set @y, 40;
+	callfunc "sairx", +3;
 	end;
 }
 
-008.gat,85,39,0	script	#teste7	-1,1,4,{
-	message strcharinfo(0), "#teste7";
+// Ponto de checagem: sair+x
+008.gat,111,50,0	script	#008_111x50	0,0,2,{
+	set @map$, "008";
+	set @x, 111;
+	set @y, 50;
+	callfunc "sairx", +3;
+	end;
+}
+
+// Ponto de checagem: entrar+y
+008.gat,97,36,0	script	#008_97x36	0,4,0,{
+	set @map$, "008";
+	set @x, 97;
+	set @y, 36;
+	callsub "entrary", +3;
+	end;
+}
+
+// Ponto de checagem: entrar-y
+008.gat,94,57,0	script	#008_94x57	0,4,0,{
+	set @map$, "008";
+	set @x, 94;
+	set @y, 57;
+	callsub "entrary", -3;
+	end;
+}
+
+// Ponto de checagem: entrar+x
+008.gat,83,38,0	script	#008_83x38	0,0,3,{
+	set @map$, "008";
+	set @x, 83;
+	set @y, 38;
+	callsub "entrarx", +3;
+	end;
+}
+
+// Ponto de checagem: entrar+x
+008.gat,82,45,0	script	#008_82x45	0,0,3,{
+	set @map$, "008";
+	set @x, 82;
+	set @y, 45;
+	callsub "entrarx", +3;
+	end;
+}
+
+// Ponto de checagem: entrar-x
+008.gat,83,51,0	script	#008_83x51	0,0,2,{
+	set @map$, "008";
+	set @x, 83;
+	set @y, 51;
+	callsub "entrarx", +3;
+	end;
+}
+
+// Ponto de checagem: entrar-x
+008.gat,113,40,0	script	#008_113x40	0,0,1,{
+	set @map$, "008";
+	set @x, 113;
+	set @y, 40;
+	callsub "entrarx", -3;
+	end;
+}
+
+// Ponto de checagem: entrar-x
+008.gat,113,50,0	script	#008_113x50	0,0,2,{
+	set @map$, "008";
+	set @x, 113;
+	set @y, 50;
+	callsub "entrarx", -3;
 	end;
 }
