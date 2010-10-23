@@ -95,12 +95,21 @@ public class Process {
 			return;
 		String end = getProp(props, "end", null);
 		String nameScript = getProp(props, "name", null);
+		String script = getProp(props, "script", null);
 		String script1 = getProp(props, "script1", null);
 		String script2 = getProp(props, "script2", null);
 		String script3 = getProp(props, "script3", null);
 		int[] shape = resolveBounds(bounds, false);
+		if(nameScript==null)
+			nameScript = "#"+map+"_"+shape[0]+"x"+shape[1];
 		System.out.printf("Check Point: %s\n", name);
-		out.printf("\n%s.gat,%d,%d,0\tscript\t%s\t-1,%d,%d,{\n", map, shape[0], shape[1], nameScript, shape[2], shape[3]);
+		out.printf("\n// Ponto de checagem: %s\n", name);
+		out.printf("%s.gat,%d,%d,0\tscript\t%s\t0,%d,%d,{\n", map, shape[0], shape[1], nameScript, shape[2]/2, shape[3]/2);
+		out.printf("\tset @map$, \"%s\";\n", map);
+		out.printf("\tset @x, %d;\n", shape[0]);
+		out.printf("\tset @y, %d;\n", shape[1]);
+		if(script!=null)
+			out.printf("\t%s\n", script);
 		if(script1!=null)
 			out.printf("\t%s\n", script1);
 		if(script2!=null)
