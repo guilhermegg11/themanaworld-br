@@ -35,7 +35,7 @@
  </layer>
  <layer name="ground2" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QxatVCxjGYY/d3e21u/NaN7x2N3Z3DOxuJ3b3X2GNjZGNAbZgdxfmc0DhDlU857Dh+7GfydoseNeXLl0URVEURVEURVEURVEURVEURb/SXvaxnwMc/MH3DnGYIxxNmWmp2jGOc4KTnOI0Z779f5ZznOfC/967yCUuc4WrXOM6N1Jhd0p0k1vc5g53ucd9HvCQRzzmCU95xnNe8JJXvOYNb3nH+9T8iN/UBz7yic98SX6Y5Ed6MpCRTGQmC1nJRnZykJNc5CYPeclH/qS0/LKfr4C9BSlEYYpQlGIUpwQlKUVpylCWcvxBeSpQkUpUpgpVqZZgt6hubw1qUova1KEu9ahPAxrSiMY0oSnN+JPmtKAlrWjNX/ydYLf4x95/acN/tKUd7elARzrRmS50pRvd6UFPetGbPvSlH/0T7A7JDbB5IIMYzBCGMozhjGAkoxjNGMYyjvFMYCKTmMwUpibgHb43zfbpzGAms5jNHOYyj/ksYCGLWMwSlrKM5axgZQLfIblV9q9mDWtZx3o2sJFNbGYLW9nGdnawk13sZk+C3yGKoiiKoiiKoiiKoiiKoihKu74CkRSrlXw3AAA=
+   H4sIAAAAAAAAA+3QRatVARiGUa/d3d3d3d3dgd0dA7vbid39K4y5MbIxwBbs7sJcFxScKnrlwPdw1mQfNrz7S5UqiqIoiqIoiqIoiqIoiqIoiqI/6QAHOcTh33jvCEc5xvF/sCulO8FJTnGaM5zl3I//z3OBi1z65b3LXOEq17jODW5yKwV2/4tuc4e73OM+D3jIIx7zhKc84zkveMkrXvOGt7zjPR/4mJIf8Zf6xGe+8JVvyQ+T/EhNGtKSjvRkICOZyEwWspKN7OQgJ7nInfQ/v+z3y2NvXvKRnwIUpBCFKUJRilGcEpSkFKUpQ1nKUZ4KVKQSlRPsFlXsrUo1qlODmtSiNnWoSz3q04CGNKIxTWhKM5rTgpa0onWC3aKNvW1pR3s60JFOdKYLXelGd3rQk170pg996Ud/BjCQQQl2h+QG2zyEoQxjOCMYyShGM4axjGM8E5jIJCYzhalMYzozEvAOP5tp+yxmM4e5zGM+C1jIIhazhKUsYzkrWMkqVrMmge+Q3Fr717GeDWxkE5vZwla2sZ0d7GQXu9nDXvaxP8HvEEVRFEVRFEVRFEVRFEVRFP2/vgP3f9nrfDcAAA==
   </data>
  </layer>
  <layer name="ground3" width="67" height="53">
@@ -45,12 +45,12 @@
  </layer>
  <layer name="fringe" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OMREAAAQAQP1bmdQSweQY/hN8BAAAAAAAAOyp6wAv5XUAAAAAAAAABg3J9RITfDcAAA==
+   H4sIAAAAAAAAA+3RMQqAMAwF0Nz/SOri5LVsB0FEqYJQie/BX0qG/iQCAAAAAACALxhKxpKl90dedrfP2dy8S0bbzVtvVbZdHHtc9X46k8FferbUPUxhFwAAAAAAQD8rXp/P+Xw3AAA=
   </data>
  </layer>
  <layer name="top" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QOUoEQRhA4arxBkaKW2CkuOLOqKC4JCYyIGhkoHfRW+gVXCIDUx1X8AZGikcw8UEP2CPO0NIy0vI+eFR30wV/VQiSJEmSJEmSJKmVTmIIp3RG5/Gvp8nvIscZquy9oVu6o3t6oMeC3stTk7mvqdpk73ODvS98fy3gfbz9cOarL+/vBTxzI22lZL0M9WsW7ezt/+YuOvjeWco7Wet1MXM39VAv9WU8wwD/DVKZuxhiHaYRGqUxGi/gXUww8yRN0TTN0CzN1c5SZp2nBVpMnW+J52WqcBcrrKu0RusFvIO0DeY/iJ/t0mbtTBXWPd73aSt1zm2ed+gwJv0nR7G+rI5jkiRJkiRJkiRJ+h0f/GIjmnw3AAA=
+   H4sIAAAAAAAAA+3QOUoEQRhA4arxBkaKW+yuuKMOuCcmIggaGehd9BZ6BZfIwFTHFbyBkeIRTHzQA/aIPbSMqC3vg0d190xB/RWCJEmSJEmSJEn6SUcxhGM6odP426dp3FkDM1TYe0XXdEO3dEf3Bb2XhzrnvqRKnb2PGXuf+P5cwPt4+eKZLz68vxZw5ixNpWQ9D7VrHs2lz7+38L0147e/rI0zt1MHdVJXzhm6+V8P9VIf9dMADdIQDRfwLkY48yiN0ThN0CRNVWeZZp2hWSqn5pvjeZ4WaJGWaJlWCngHaaucfy++t01r1ZnWWXd436WN1JybPG/Rfkz6Tw5ibXkdxiRJkiRJkiRJkvQ93gAO69svfDcAAA==
   </data>
  </layer>
  <layer name="top2" width="67" height="53">
@@ -60,7 +60,7 @@
  </layer>
  <layer name="top3" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UyQ2DQBBFwYYUjO3cnDCB4CUIb/wMOKFBmirpHebW3YepAgAA6NcyVN3TIz3Ta2g9UTvv7P5J3/RL/45vcRqrpnROl3QdW08Ex3Dr+F8AAPYxb7x75AYAAAAAAABwHCtjARElfDcAAA==
+   H4sIAAAAAAAAA+3UyQ3DMBAEwZVS8JWbE1Ygluwg5GuSEEiAVUD/h/tgFQAAwLgeU9WatvRMr6n1onb2vP2dPumbfgPf4jRXndMlXdNtbr0I+nAf+F8AAI6xtB7QITcBAAAAAACAfvwBL4iaL3w3AAA=
   </data>
  </layer>
  <layer name="top4" width="67" height="53">
@@ -68,7 +68,7 @@
    H4sIAAAAAAAAA+3OIQEAAAgDsFOZ/oIIODBbgiUAAAAAsOv6HgAAAAAAAAAAANwZ2SfNmHw3AAA=
   </data>
  </layer>
- <layer name="collision" width="67" height="53">
+ <layer name="collision" width="67" height="53" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3SMQoAIQwEwOD/H20rYoo7lIDOwhR2m8UWEQ0AAAAAAIAtVqnuVL1F9n7JmOyfzKnufHKLbJvXNvl6981b/Nmnuh8AAAAAAHC/DrVPx7t8NwAA
   </data>
@@ -76,20 +76,20 @@
  <objectgroup name="objects" width="67" height="53">
   <object name="Margem" x="0" y="0" width="640" height="640"/>
   <object name="Margem" x="1504" y="1056" width="640" height="640"/>
-  <object name="Rato (2)" type="spawn" x="832" y="768" width="352" height="192">
+  <object name="RatosDeConves(2)" type="spawn" x="832" y="768" width="352" height="192">
    <properties>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="321"/>
    </properties>
   </object>
-  <object name="paraDentro" type="-warp" x="1184" y="864" width="32" height="32">
+  <object name="paraDentro" type="-warp-controlado" x="1184" y="864" width="32" height="64">
    <properties>
     <property name="dest_map" value="navio-1"/>
     <property name="dest_x" value="?"/>
     <property name="dest_y" value="?"/>
    </properties>
   </object>
-  <object name="paraDentro" type="warp" x="800" y="832" width="32" height="32">
+  <object name="paraDentro" type="-warp" x="800" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="navio-2"/>
     <property name="dest_x" value="640"/>
