@@ -14,7 +14,6 @@ npc: npc/007_PraiaPorto/jornaleiro.conf
 npc: npc/007_PraiaPorto/luiz.conf
 npc: npc/007_PraiaPorto/magico.conf
 npc: npc/007_PraiaPorto/magico_cartolas.conf
-npc: npc/007_PraiaPorto/marujo.conf
 npc: npc/007_PraiaPorto/menir_alma.conf
 npc: npc/007_PraiaPorto/negociante.conf
 npc: npc/007_PraiaPorto/operarios.conf
@@ -24,3 +23,4 @@ npc: npc/007_PraiaPorto/placas.conf
 npc: npc/007_PraiaPorto/selim.conf
 npc: npc/007_PraiaPorto/veronica.conf
 npc: npc/007_PraiaPorto/warp_controlado.conf
+npc: npc/007_PraiaPorto/guardadonavio.conf
