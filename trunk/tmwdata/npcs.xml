@@ -139,13 +139,16 @@
 		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 	</npc>
 	<npc id="335"> <!-- Menina Fantasma -->
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 80x50 -->
 		<sprite>npcs/npc-menina-fantasma.xml</sprite>
 		<sprite>generic-shadow-small-circle2.xml</sprite>
 		<particlefx>graphics/particles/aura-negra.xml</particlefx>
 	</npc>
 	<npc id="336"> <!-- Morte de Férias -->
-		<sprite>npcs/npc-morteferias.xml</sprite>
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 80x50 -->
 		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+		<sprite>npcs/npc-morteferias.xml</sprite>
+		<sprite>npcs/npc-morteferias-emote.xml</sprite>
 	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->

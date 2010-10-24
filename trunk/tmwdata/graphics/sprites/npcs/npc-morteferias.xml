@@ -1,10 +1,14 @@
 <?xml version="1.0"?>
 <sprite>
-	<imageset name="base" src="graphics/sprites/npcs/npc-morteferias.png" width="85" height="93" />
+	<imageset name="base" src="graphics/sprites/npcs/npc-morteferias.png" width="85" height="93"/>
+
 	<action name="stand" imageset="base">
 		<animation direction="default">
-			<frame index="0"/>
-			<end/>
+			<frame index="0" offsetX="-24" delay="6000"/>
+			<frame index="1" offsetX="-24" delay="200"/>
+			<frame index="2" offsetX="-24" delay="2000"/>
+			<frame index="1" offsetX="-24" delay="150"/>
 		</animation>
 	</action>
+
 </sprite>

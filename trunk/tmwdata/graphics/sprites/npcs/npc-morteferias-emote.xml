@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/emotions.png" width="30" height="32"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="12" offsetY="-96" delay="6200"/>
+			<frame index="2" offsetY="-96" delay="2000"/>
+			<frame index="12" offsetY="-96" delay="150"/>
+		</animation>
+	</action>
+
+</sprite>
