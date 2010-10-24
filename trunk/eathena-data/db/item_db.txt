@@ -339,7 +339,7 @@
 1218,sacodepapel,Saco de Papel,5,1000,5,10,,1,,-1,0,2,256,,0,0,{},{ bonus bAgi,-1; }
 1219,cabecademoubootauro,Cabeça de Moubootauro,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
 //1220,BunchOfParsley,Bunch of Parsley,5,3,1,1,,1,,0,0,2,256,,0,0,{},{ bonus bDeaf,1; }
-//1221,SkullMask,Skull Mask,5,10000,5000,15,,3,,5,0,2,256,,0,0,{},{}
+1221,mascaradeesqueleto,Máscara de Esqueleto,5,10000,5000,150,,2,,5,0,2,256,,0,0,{},{}
 //1222,SmallPieceOfClay,Small Piece of Clay,,,,,,,,,,,,,,,{},{}
 //1223,BigPieceOfWhiteClay,Big Piece of White Clay,,,,,,,,,,,,,,,{},{}
 //1224,ScrollOfPaper,Scroll of Paper,,,,,,,,,,,,,,,{},{}
