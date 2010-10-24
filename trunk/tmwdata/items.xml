@@ -2605,7 +2605,17 @@
 		defense="6">
 		<sprite>head-moubootaurhead.xml</sprite>
 	</item>
-
+	<!--ID 1220 Livre-->
+	<item id="1221"
+	        image="armor-head-skullmask.png"
+	        name="Máscara de Esqueleto"
+	        description="Uma máscara feita a partir de um crânio."
+	        effect=""
+	        type="equip-head"
+	        weight="150"
+	        defense="2">
+	        <sprite>head-skullmask.xml</sprite>
+	</item>
 	<!-- The 2XXY IDs are used for recolored items on eAthena.
 		XX = item
 		Y = color variant
