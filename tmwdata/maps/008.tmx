@@ -66,7 +66,7 @@
  </layer>
  <layer name="Fringe" width="200" height="140">
   <data encoding="base64" compression="gzip">
-   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
+   H4sIAAAAAAAAAO2dTaglxRXH7333DYxxEUJwEVwEkQiJhETG0UDIQnRWwYXEELIICWQkqEuXGiMjgaAQxMGVIkOGQMCPzWDIRJ18KZE4MI5MUFz59UbdxEBmhsku1d7beTU19XFO1amv7v8Pinffvd1V1dXn36c+TncvFrJc1D7/VzhvAExy2duZpWBmGnu1fK/IVAYAI7nsLZc+4D9ASWLs7W9bi8UrW5d+t6P08IqW/rn0b69/Z/vdtS/8ByhJrL359ADA3MnVf/JxTJX5R63c4+rzH6DL/zO0zwsq/V77O7TPy5Y2OrF0bw/WpNhbDX28aCnzuOUcz/Wvfi5HXvKcJ7Rnenu6xgZcffjGGNTtL9o3BR58Y0q0Jx/KGH0Ye+Qab/h0tDdTmVPGN6ZEe/KhjNFN38H1Dan7AdAyNcYePs4hfZakqH0craRYaunjP4vLj+G85bu5Jlf7uOav0J5x7Rki99jcta+rvttLpG2PvbtAe6a3p822Q/qg6CG0pm5jZTmGPYG6zAlu+9RuT4nxZ2oevv057aOvl/ewVh7TbtR9pLdL2T/HHIfEXHxqnqn7cfKLLSOkiZ7mn3qqawm2ttbn9VXGtW5sQ90uzmqffWksh3sezDimmOQ6Rk5dxnrcvFXPT0zdhl3HV/O4z0fY2wWVDmzqSx2LxpTDtcF9jjb0le3Sjiu+8OYM50nSp0kTqkepvhQVTqzziGv+Kra88wz7LdX/OxBZhks7ruPKoQ8wHW7KbB+5rzP7E6+Fpj5auc6DOPap6+CNjrS/g3mWFGC7AACQn5dVOqHSn1T6s0p/qVobANriR6qv9S/191OV/q3STybe9wIAzIeYsdbBDsdmGFOCUjzssLPjme3vBcE5QDOvqUJZv7C1Y+5zOWUOV4hd6o1U+2rNPsdz6lvnoDIc23B9GvO8t6FjlbDdo5v9HxE6rhKxctJ8T42z73Sk72sxUSXo/Xp0/8Ta6dimDFc/ixuf1xPUNqbG97lim3JQWkdjrFWIRwVjscf/W4jRPuyphy3+ZrAHTp1sca05UmwMbIjPq7y+rvJ+UKVDKj2k0g0qfWHr0jaitIt0G9iuX2YdqDEvrvNEjYF8kllOLxxl1lUi1jTHvT+UesX4wy+rMr6j9vu1So+r9JhKt6h0jScuMdQGUjYSey5y1PEZZlyoy2fo/7fAMUI9etO8C92eqAz6uF1t/7RKv1HpiEp3WPQhTQttbtbhgMeeXzT6ISH7D30f2q6F9gFrfZgx8CcK6KMUsLNLeSzjWKbF/FL5hqrLNy3pBk8dW7jfpSTc9w34xt+SfkJyfC/Z1q2cNxNuW9zY4DFwiZlLSc2fM/8kVc8WnjUALgXtt2Zsh0OCNpsyPreVe4/2f4+xVSUpdV/UKZXXG5t0ahn+vic413CbPyl9bdHXZx6uVIfa/HAPfTtfAjQk7J0yJpFAX58JxVal0qp/qmXbh7cXi1tVm9y25f58Wls/HD7r27QOdd72kMdH1PQdpZH0T2cF+xejPkq1fw499mo7vdY7Byn+yWzHM4z12tA2VHulxCVSmFJfLKb9ff9z/IVrLNMDtrrbYlJirx/nI+M+bEjZKzUWYyhPKm6KCteOU9atKWsZvu188Wbc8nqCG7MVQuKdECWv5Xeosq5Q6XOMdKVWP/14S9pEalncWFPpZ4xKrKf8Qn33kPG97bl2KW3F0QelHJ8+qPUs3df5kirv3SU9Xa3VLxRX+Gol/ejl+TTAsXvKvJTEmjllH+nYEReUmEYf1NhbXz/EzKOWPt4gJFMfIThxub64/ph+j64BbtxIqFzzt5hxCdiFYyfcsUAM+vmK0ceF1WJxcSXXPgMxMe6m7ce0gc0vmOvnnPzMz7GU0FSPuu2pf9UaknZps3du/ilzChL7xNKybqTXPkL5fFWV9zVGup6hD05fJjecvpP5nJXc64O5YntbsnOpWEyK/5A+7pbXP6h2ndL+pn9w9a8wzmiD0vbasj6kkVpTSdk+hX8sdxOFEmtZOfC1aW57rT1nVpuQLvT4K8kxhEQ931nuJsn6UNbuWvGP8B/8vpFUOTn781LH9K0MNsqJj6qBXi/dXkvUt0V92Ii1L4oPkJivah3f8UjEfvQSTzu18yoJ5kntSOgDXE4rNiA1f1iK1uo2FX3M+V2DLSJt5xIxXDFMRR+4p7YPctt1TAyMjzMJsTqAx1TbOWV9sEabcMrk+I+pnl9Ao9Tccq68YsqMibWOKWdK5DyuFmOXJGOreonhjUHiPqcQrR47lxzHUVqXoTFxjphEDpQy/65+f82xzUfbi8WFTXqb+fkty3NpzkXci1AqjkXqmQyp903kLicmT58dU+NEKPXNFW9L5XV1nk8yYrB2GM9eGut3bnudbPumzHVJrtNPxce0juScaqnrx0lLDJYLjj5GKPqIqXuOd72k3i840tr8ihQ57jeixpj00L98zaGPIwHdDPqw7TuFtZKe7D1HjCy3n5QSc5WrrTn5+rYdfcBLAT381fK7dP/KpCc77YlY2+GOvWPH5tLbUrY5qH6/y7KNqY8jxt8Rmz4+nJj/SO2/ueYXJM6h7ffQM0hKzbW3MO9Aydv3232O78c+0smA/3jT8TvlXael/EBtf5N7/GR7BokJZd3K1E2MfmPmwUwozxiSIlQXlz6o4/Nzm+1i3/3ro7ZdU+mlniEoz6bjroO7tpd6xpwEd6v6/WyThr7U77T63ufQ/s727nyUyd49l7/vtfQxpTIVmy6JpB+sbS8+v3evQx86ZxPWBz/u4L0VKeRa7yrVz28pf+q4oOT17H6CPqTAdboe3DEpdy6Akn/ptXQJbO9b65na7cmlt/qGMLUguXZeA8771no7tilT8lyUiOXh6gi2CHogpc8EG++DqcQ65jiOmLGJuZ1UHMtU49taosd2zKVfyRgNCTuWPjc9nuu5Mof+NCcOMuRbcuhI3++95TqNn1tlCnZho8fjkqyzq5/WervoujF5S9X77UbqXrsda5ffIjniq0Jl+L5PjdvX/ce4z/D5/U0aPp/abDM+k/e0pp1b1Xe3OcoZtXSP5feDM7QrKT31qssU+5XqS3HW73QfMfqM9w1t3G3Y90+J83KDhsb0gPr/50Z6MPP57dGGeqzzQOy4PnU+IIaY9TtTF6ZGzPVz02ecDoxdnrLU6ekEnxe7fU7wzFE7IT9gG3OM71ZL7RvZOErsU+n9qtDYnLN+PjDo5c3lrm6eVfs8Z6TnjXx89xe0pAPQNxR9lEDXyKOWOlH6gdx7CKEjGnNup1b0MTD6jyctdaL4Ie79A9T7UudsH3OnJX2MPGOpU456+vTU2rsPQR1a1sfZ1WLxkUofr/z1zHF9p9wLCqbPD2pXwIKU/6DOB8boq+fnpfjgxgmC8pTqX1Fw2QHleY1TsCGpOFlphvVi23OjUtHr/IHqt3yo0s6Kn49tX/M7vX+k4/p+ZNCHmVdr/cBU/yH1zGoOU9DrSM37UnXbDNly6PcYfmz5roV+oG5frfSvWr2+54Yyn5mCpD1TSPFVLSL1LBoqPdtyDkL9Ce44U6p9KXYe41PG91TW1lFOO2zx/u6dCK1yy7BxdeL5zdHfdh2Pzyap9jq890NPPnT9jPlP6T2uvVzrdyo+R+16YX38aos3Jkk9R0sj2dC1M7z3Q09cP9C7PlrWhOtZmzHakDjOq5RNfDuDPnKPSWrSqj5q2j03TsZW11gfIXXc163Weviipodfqs/fzaCPmnOcOeapdFrVRw/45gqo2sh1HbhW2ctXVuu/I08I2JA5nymtj1zj7Fh8+qg9ZpeghXsBa/jCfeqc7V+t/478NsN5rO0/ctOb/2h5vDFXcuqj9jVaWh+1j6e2fmqXX4Mp+A9KXMocaKG/VZtPhOt9Z6ftEKK3vhWYPqXG3RRK62OO/qoUJed05gL8xxo80wTY4OhDIhYGgJ5IjU2M9enoC4AeQP8KANAiLp/N9a3o204bnF8Apg/GVCCWufmIuR0v6A+OjdZ4pgkAYA36XmCq6LY9zIf7Ugrok4EUattPyP6xlgRy0nofBPoAc4Tql2z2r+8LfYA5A/8Bpkxq/w36AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyvE/fb7lxYC1AQA=
   </data>
  </layer>
  <layer name="Top" width="200" height="140">
@@ -76,10 +76,10 @@
  </layer>
  <layer name="Collision" width="200" height="140" visible="0">
   <data encoding="base64" compression="gzip">
-   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
+   H4sIAAAAAAAAAO2ajY7jOAyDu33/hz4sDgWyhn8kWRJlhwQ+7Ezr2LJMJu3cfT+fz5cQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCFQVkLXRwiSldD1EYJkJXR9hCBZCV0fwXpj9ntmHVJlr40+I4Jjpsx1JfVE1Ro5t2efJONW/SW+/piN0XjsZkl6qu17pDz8Mssl2s/ZGdGo+nxWZdVRZb87Qnu5cj5OUkSWs1T53NBerpIVzfjs84xYT9qrCt5ta8g6J7R3K+VjVx7rZdbs3asKOVrJcg98Czu9ulHP/Wf1okLP2xran98O9b/aXtzUG+tZo71ZjVWfpFrN2b6nralC1rPuSyfu7XY0PazaW2n9Vu+h6+/VsjMWfV4nohG6VmvdJ+3Le6/o2t9Kewars5hJM17jG7Q/0Wc02stzT+h6biRaqzVu2meFc0P7qSra3mRJspZ0jNVDo58/nbHSeqzyykTv3D3WuIFeD3p9q6DRGUav5z1npZ5KhfZpdiZW+7dqdP3o9T8PVmtn++pEH48kOdfV/RHt26wsSHrSXmvNzZ8FGr0hH1ofa+9H0jG9NU5E2guNNPlaaZUPKZle9bwXeZ/NTLtrra5He33nDLR7nUmz/modie+/wnGZ8job6TpZivJFJaK1W8NzzM7z4vu5Px/aelavWedc3X9PIkNedZz0+arnl6rns5K1FrS3K+RDOo9HPSfl46lTc9GTR31oz1c4h978u3V55yPrHrF7LrP3Z2tnZ81SW3Wk+1i9ZpHVJ5bv5Nrnh7e3rHNl3N+kvt7xAtrnO/lAS1qr1/Pjt2amNOudeo4/Se69aN+f0suftHuw/N0q8ztI2+vVered74m5WPUyo7+rNaz7OOE7eu+17DPurS+pfadfvXvFSXjLY97dPc2eJ5/Pv/Vl3he8zifqvK2ZGV3X9vxENIr20qjvHng+P1Z9yDoblA8kNUXXm52PaO/vKnLvlWobzZ21vqa+kYduIlKea/Q+KyH6Uf0M0H66DW3fIySZW/K3qpPIEnqfp+OpyLPX/n0qqh+n9xntt9OQ9NJblnk9/r+SrHycKLQPq7KjLD/81vH8b+jPeXfzsbuvCHnNveMltLfR+YjQqC7r82KWjxMUcU7ZuWxfQ3veko9Zzypk0OvZkZUP696112Xm5/m61D83ZGMly3lF5+M3t8fnKypWN2akvVdI9ta7XrrGSic8P2b7OTmLltolvTgFyV4lexv1waL22mr5OMnvGeezGoP2eGRmrPlox+/I8j0c+f3jdGnOrJeD9r0bmO1fst/VtTuq9vzwlsSPknPy6rf3Gr0MncZsb+0+2+t2z2VVg1c2MjxUXZYeWPI7ugbt88h8zBTpu1+N1Z8fb8qfdK9oX0fko302zO4FEWrXjPx89SZPVxDa5xHPj4h5LetUe35I9mjJnzWz0Vn3mB/t82gfW9WuY63T81lyOlLNzrj3nvSeqZn/dCIVUe/s+zfat1J2662mlbfQHo/MTS9H6H6g/Y3OVYY81nrOgfbzG0H7FQVao/uh5Bqyh6WXO/dij/s5Mh8Sb64k8bt0nd559l4ntmzs9LOaj6OyN+pRqx2fS8Y+35+NRfvqZGZqveKRlSoe38ntZ6On3pJmE+2zU5j1tFXPS5VzErnmTr9n8swUM+F7Nq3a6zx9IvEtIlOR2fA4l5HnR+NuY9WX0TWz17wU7Zcqz4t2HuS5a9SbC+3n7D6NxkX0u9XKi969iLrvR9Yc4QPpa63Qe0DkY0faNdrxqM8fkqygzw3lE+nvb2Ek6bjZtSshP6efkI9RXwn2HHpnEaHf3IjvtNXz0etT+zvBnsdsjIe032c9fVwtH8+1NXqeDdpDxFdR35e1fkTno117V2iPvAFJv9v3tfLOh8bjyHys1vYQ2j+3Y+n36JrRa5LPT1F5icqHV40rSce14wkuH9oz0/jF8n5W7rx5SttTy7Vor6F9PuqRxuceGXu7qvQF7ckq7PTLq6eequKvp3ZqQuwH7ckq9Poi7ZtkTGZ+K+jEmv8K7cOKPHuj6aPkmowcR/kw0+MZa2Xfz07Goue1ljmQtUvqeqPQPjyBT/OztK8W9dZEZOQtmejtE+230xj1dSZPb3nWfpLvPWuVzuXlF7RnK2RkpggPZtV+g7R7R3jEe3002v1a3pPMWyEnXnPuzFPBl59PvwZJbe0YtL8zs+LtR8n8O3VHZKi6su+ZWTVVYbVPT0nnizpfdH688o3OgqXnpzLaL9JHv/UR5+4xV4bPo3qzGl9tb6jeofPxV1778s6RhyplwlNoP2f1MrvHq6ze4CPkeX4W73kI7ePMvmZ7Z6UKPalU16hWxLmh943wg6bPs7He58V86GuMEHrP6H63/1plvX52XSXvVTirCKH3dQKn6JZ8SOf0Etpft3CCUHuPmHu1rvRMRuPQfrqdHWmu31lrVG+VfCCE9s1bOVnZ+UAJ7RFi88Dp+dJKmjnP9Uh9KqlaPRFCnze5IytVtNsX9JkSZmWk6H2OrkefHcnHol3/7Wq1vmd96PMhdWjVe62CVnVp60b3nZwHQtJ1e+O+gvcJiaKCvs2/s3GEVMKinesIuRGJ0DUSQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC3sd/vHanBoC1AQA=
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="graphics/particles/waterfall-1x3.particle.xml" type="PARTICLE_EFFECT" x="844" y="746"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="669" y="1355"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="797" y="2507"/>
@@ -333,75 +333,158 @@
   <object name="graphics/particles/circulo-laranja.particle.xml" type="PARTICLE_EFFECT" x="3312" y="1376"/>
   <object name="espectros" x="672" y="768" width="1920" height="2016"/>
   <object name="espectros" x="3680" y="672" width="2144" height="2400"/>
-  <object name="espectros" x="1248" y="1888" width="2912" height="2016"/>
-  <object name="sair-y" type="check" x="2976" y="1216" width="288" height="32">
+  <object name="sair-y" type="warp" x="2976" y="1216" width="288" height="32">
    <properties>
-    <property name="script" value="callfunc &quot;sairy&quot;, -3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="97"/>
+    <property name="dest_y32" value="36"/>
    </properties>
   </object>
-  <object name="sair+y" type="check" x="2880" y="1760" width="288" height="32">
+  <object name="sair+y" type="warp" x="2880" y="1760" width="288" height="32">
    <properties>
-    <property name="script" value="callfunc &quot;sairy&quot;, +3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="94"/>
+    <property name="dest_y32" value="57"/>
    </properties>
   </object>
-  <object name="sair-x" type="check" x="2720" y="1120" width="32" height="224">
+  <object name="sair-x" type="warp" x="2720" y="1120" width="32" height="224">
    <properties>
-    <property name="script" value="callfunc &quot;sairx&quot;, -3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="83"/>
+    <property name="dest_y32" value="38"/>
    </properties>
   </object>
-  <object name="sair-x" type="check" x="2688" y="1344" width="32" height="224">
+  <object name="sair-x" type="warp" x="2688" y="1344" width="32" height="224">
    <properties>
-    <property name="script" value="callfunc &quot;sairx&quot;, -3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="82"/>
+    <property name="dest_y32" value="45"/>
    </properties>
   </object>
-  <object name="sair-x" type="check" x="2720" y="1568" width="32" height="160">
+  <object name="sair-x" type="warp" x="2720" y="1568" width="32" height="160">
    <properties>
-    <property name="script" value="callfunc &quot;sairx&quot;, -3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="83"/>
+    <property name="dest_y32" value="51"/>
    </properties>
   </object>
-  <object name="sair+x" type="check" x="3552" y="1248" width="32" height="96">
+  <object name="sair+x" type="warp" x="3552" y="1248" width="32" height="96">
    <properties>
-    <property name="script" value="callfunc &quot;sairx&quot;, +3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="113"/>
+    <property name="dest_y32" value="40"/>
    </properties>
   </object>
-  <object name="sair+x" type="check" x="3552" y="1536" width="32" height="160">
+  <object name="sair+x" type="warp" x="3552" y="1536" width="32" height="160">
    <properties>
-    <property name="script" value="callfunc &quot;sairx&quot;, +3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="113"/>
+    <property name="dest_y32" value="50"/>
    </properties>
   </object>
-  <object name="entrar+y" type="check" x="2976" y="1152" width="288" height="32">
+  <object name="entrar+y" type="warp" x="2976" y="1152" width="288" height="32">
    <properties>
-    <property name="script" value="callsub &quot;entrary&quot;, +3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="97"/>
+    <property name="dest_y32" value="38"/>
    </properties>
   </object>
-  <object name="entrar-y" type="check" x="2880" y="1824" width="288" height="32">
+  <object name="entrar-y" type="warp" x="2880" y="1824" width="288" height="32">
    <properties>
-    <property name="script" value="callsub &quot;entrary&quot;, -3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="94"/>
+    <property name="dest_y32" value="55"/>
    </properties>
   </object>
-  <object name="entrar+x" type="check" x="2656" y="1120" width="32" height="224">
+  <object name="entrar+x" type="warp" x="2656" y="1120" width="32" height="224">
    <properties>
-    <property name="script" value="callsub &quot;entrarx&quot;, +3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="85"/>
+    <property name="dest_y32" value="38"/>
    </properties>
   </object>
-  <object name="entrar+x" type="check" x="2624" y="1344" width="32" height="224">
+  <object name="entrar+x" type="warp" x="2624" y="1344" width="32" height="224">
    <properties>
-    <property name="script" value="callsub &quot;entrarx&quot;, +3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="84"/>
+    <property name="dest_y32" value="45"/>
    </properties>
   </object>
-  <object name="entrar-x" type="check" x="2656" y="1568" width="32" height="160">
+  <object name="entrar-x" type="warp" x="2656" y="1568" width="32" height="160">
    <properties>
-    <property name="script" value="callsub &quot;entrarx&quot;, +3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="85"/>
+    <property name="dest_y32" value="51"/>
    </properties>
   </object>
-  <object name="entrar-x" type="check" x="3616" y="1248" width="32" height="96">
+  <object name="entrar-x" type="warp" x="3616" y="1248" width="32" height="96">
    <properties>
-    <property name="script" value="callsub &quot;entrarx&quot;, -3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="111"/>
+    <property name="dest_y32" value="40"/>
    </properties>
   </object>
-  <object name="entrar-x" type="check" x="3616" y="1536" width="32" height="160">
+  <object name="entrar-x" type="warp" x="3616" y="1536" width="32" height="160">
    <properties>
-    <property name="script" value="callsub &quot;entrarx&quot;, -3;"/>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="111"/>
+    <property name="dest_y32" value="50"/>
+   </properties>
+  </object>
+  <object name="entrar-x" type="warp" x="1184" y="2944" width="32" height="288">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="35"/>
+    <property name="dest_y32" value="96"/>
+   </properties>
+  </object>
+  <object name="sair+x" type="warp" x="1120" y="2944" width="32" height="288">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="37"/>
+    <property name="dest_y32" value="96"/>
+   </properties>
+  </object>
+  <object name="entrar-x" type="warp" x="1152" y="3232" width="32" height="224">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="34"/>
+    <property name="dest_y32" value="104"/>
+   </properties>
+  </object>
+  <object name="sair+x" type="warp" x="1088" y="3232" width="32" height="224">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="36"/>
+    <property name="dest_y32" value="104"/>
+   </properties>
+  </object>
+  <object name="entrar+x" type="warp" x="3488" y="3680" width="32" height="160">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="111"/>
+    <property name="dest_y32" value="117"/>
+   </properties>
+  </object>
+  <object name="sair-x" type="warp" x="3552" y="3680" width="32" height="160">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="109"/>
+    <property name="dest_y32" value="117"/>
+   </properties>
+  </object>
+  <object name="entrar-x" type="warp" x="3808" y="3648" width="32" height="160">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="117"/>
+    <property name="dest_y32" value="116"/>
+   </properties>
+  </object>
+  <object name="sair+x" type="warp" x="3744" y="3648" width="32" height="160">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x32" value="119"/>
+    <property name="dest_y32" value="116"/>
    </properties>
   </object>
  </objectgroup>
