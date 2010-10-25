@@ -14,6 +14,8 @@
 004.gat,59,113,60,12	monster	Escorpião (3) [45s]	1003,5,45000,0,Mob004::On1003
 004.gat,117,36,55,28	monster	Cogumelo Maligno (8)	1013,8,0,0,Mob004::On1013
 004.gat,119,38,54,25	monster	Cogumelo (6)	1019,6,0,0,Mob004::On1019
+004.gat,108,80,33,47	monster	Tufo (20)	1020,20,0,0,Mob004::On1020
+004.gat,107,79,31,49	monster	Trasgo Rosa (20)	1018,20,0,0,Mob004::On1018
 
 004.gat,0,0,0	script	Mob004	-1,{
 
@@ -58,6 +60,11 @@ On1018:
 
 On1019:
 	set @mobID, 1019;
+	callfunc "MobPoints";
+	break;
+
+On1020:
+	set @mobID, 1020;
 	callfunc "MobPoints";
 	break;
 
