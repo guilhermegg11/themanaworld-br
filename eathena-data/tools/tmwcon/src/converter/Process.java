@@ -234,15 +234,14 @@ public class Process {
 		warpOut.printf("// %s warps\n\n", title);
 
 		File fCheck = new File(folder, checkFile);
-		if( !fCheck.exists() ){
+		// Só cria o arquivo _checks.txt se ele já existir.
+		if( fCheck.exists() ){
 			checkOut = Main.getWriter(fCheck);
 			checkOut.printf("//\n");
 			checkOut.printf("// Pontos de checagem do mapa: %s\n", title);
 			checkOut.printf("// Script gerado automaticamente pela ferramenta TMW Converter...\n");
 			checkOut.printf("//\n");
 			System.out.println("* Arquivo _checks.txt criado.");
-		} else {
-			System.out.println("Arquivo _checks.txt existente e não será substituído.");
 		}
 
 		mobOut.printf("//\n");

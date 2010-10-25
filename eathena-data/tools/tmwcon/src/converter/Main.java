@@ -86,7 +86,7 @@ public class Main {
         folder = new File("tmwdata/maps/");
 
         ReadMobScript mobScript = new ReadMobScript();
-		mobScript.carregarXML("mobScript.xml");
+		mobScript.carregarXML("eathena-data/npc/functions/mobScript.xml");
 
         Collection<File> tmxs = getTMXFiles(folder);
         Vector<String> folders = new Vector<String>();
