@@ -9,6 +9,7 @@ npc: npc/halloween/2010/bella.conf
 npc: npc/halloween/2010/nina.conf
 npc: npc/halloween/2010/funcoes_barreira_magica.conf
 
-npc: npc/halloween/2010/_checks008.txt
+//npc: npc/halloween/2010/_checks008.txt
 npc: npc/halloween/2010/_mobs.txt
 npc: npc/halloween/2010/_warps.txt
+npc: npc/halloween/2010/_warps008.txt
