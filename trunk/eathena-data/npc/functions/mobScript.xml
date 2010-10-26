@@ -61,6 +61,12 @@
 		</callsub>
 	</monstro>
 
+	<!-- ==================== Scripts do Halloween ==================== -->
+
+	<monstro id="1319" nome="Limo de Neve">
+		<script grupos="guloso">callfunc "bonecaLimoGuloso";</script>
+	</monstro>
+
 	<!-- ==================== Scripts das Jazidas ==================== -->
 
 	<script id="callfunc_minerarJadiza">
