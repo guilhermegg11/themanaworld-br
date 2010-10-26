@@ -264,6 +264,15 @@
   <object name="Capitão Real" x="5665" y="2113" width="26" height="27"/>
   <object name="Guarda do Navio" x="5186" y="2499" width="27" height="26"/>
  </objectgroup>
+ <objectgroup name="Halloween" width="0" height="0">
+  <object name="Limo de Neve (guloso)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="grupo" value="guloso"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="317"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="transp" width="0" height="0" visible="0">
   <object name="Object" x="4320" y="1344" width="32" height="32"/>
   <object name="Object" x="4256" y="1280" width="160" height="160"/>
