@@ -403,15 +403,15 @@
     <property name="monster_id" value="338"/>
    </properties>
   </object>
-  <object name="Espectro Amarelo (20)" type="spawn" x="3680" y="672" width="2144" height="2016">
+  <object name="Espectro Amarelo (30)" type="spawn" x="3680" y="672" width="2144" height="2016">
    <properties>
-    <property name="max_beings" value="20"/>
+    <property name="max_beings" value="30"/>
     <property name="monster_id" value="337"/>
    </properties>
   </object>
-  <object name="Espectro Amarelo (20)" type="spawn" x="1248" y="1952" width="2016" height="1920">
+  <object name="Espectro Amarelo (30)" type="spawn" x="1248" y="1952" width="2016" height="1920">
    <properties>
-    <property name="max_beings" value="20"/>
+    <property name="max_beings" value="30"/>
     <property name="monster_id" value="337"/>
    </properties>
   </object>

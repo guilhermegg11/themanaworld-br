@@ -12,8 +12,8 @@
 008.gat,84,93,22,20	monster	Flor (5)	1014,3,0,0,Mob008::On1014
 008.gat,116,68,34,25	monster	Flor (5)	1014,5,0,0,Mob008::On1014
 008.gat,50,55,59,62	monster	Espectro Vermelho (20)	1340,20,0,0,Mob008::On1340
-008.gat,148,52,66,62	monster	Espectro Amarelo (20)	1339,20,0,0,Mob008::On1339
-008.gat,70,90,62,59	monster	Espectro Amarelo (20)	1339,20,0,0,Mob008::On1339
+008.gat,148,52,66,62	monster	Espectro Amarelo (30)	1339,30,0,0,Mob008::On1339
+008.gat,70,90,62,59	monster	Espectro Amarelo (30)	1339,30,0,0,Mob008::On1339
 008.gat,144,84,72,56	monster	Espectro Vermelho (20)	1340,20,0,0,Mob008::On1340
 
 008.gat,0,0,0	script	Mob008	-1,{
@@ -51,12 +51,27 @@ On1032:
 On1339:
 	set @mobID, 1339;
 	callfunc "MobPoints";
+	callsub _hitodamaAmarela;
 	break;
 
 On1340:
 	set @mobID, 1340;
 	callfunc "MobPoints";
+	callsub _hitodamaVermelha;
 	break;
+
+
+//= Callsubs ==========================================================
+
+_hitodamaAmarela:
+	if(morteferias!=5) return;
+	callfunc "dropHitodama", 3153;
+	return;
+
+_hitodamaVermelha:
+	if(morteferias!=7) return;
+	callfunc "dropHitodama", 3154;
+	return;
 
 	end;
 }

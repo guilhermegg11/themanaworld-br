@@ -58,12 +58,27 @@ On1306:
 On1341:
 	set @mobID, 1341;
 	callfunc "MobPoints";
+	callsub _hitodamaVioleta;
 	break;
 
 On1342:
 	set @mobID, 1342;
 	callfunc "MobPoints";
+	callsub _hitodamaNegra;
 	break;
+
+
+//= Callsubs ==========================================================
+
+_hitodamaNegra:
+	if(morteferias!=11) return;
+	callfunc "dropHitodama", 3156;
+	return;
+
+_hitodamaVioleta:
+	if(morteferias!=9) return;
+	callfunc "dropHitodama", 3155;
+	return;
 
 	end;
 }
