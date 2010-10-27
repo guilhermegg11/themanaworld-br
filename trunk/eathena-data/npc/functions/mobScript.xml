@@ -78,6 +78,8 @@
 				<var id="%hitodama%" valor="3151"/>
 			</gerar_label>
 		</callsub>
+		<script>callfunc "getEvento";</script>
+		<script>callfunc "dropHitodama2";</script>
 	</monstro>
 	<monstro id="1338" nome="Espectro Azul">
 		<callsub label="_hitodamaAzul">
@@ -86,6 +88,8 @@
 				<var id="%hitodama%" valor="3152"/>
 			</gerar_label>
 		</callsub>
+		<script>callfunc "getEvento";</script>
+		<script>callfunc "dropHitodama2";</script>
 	</monstro>
 	<monstro id="1339" nome="Espectro Amarelo">
 		<callsub label="_hitodamaAmarela">
@@ -94,6 +98,8 @@
 				<var id="%hitodama%" valor="3153"/>
 			</gerar_label>
 		</callsub>
+		<script>callfunc "getEvento";</script>
+		<script>callfunc "dropHitodama2";</script>
 	</monstro>
 	<monstro id="1340" nome="Espectro Vermelho">
 		<callsub label="_hitodamaVermelha">
@@ -102,6 +108,8 @@
 				<var id="%hitodama%" valor="3154"/>
 			</gerar_label>
 		</callsub>
+		<script>callfunc "getEvento";</script>
+		<script>callfunc "dropHitodama2";</script>
 	</monstro>
 	<monstro id="1341" nome="Espectro Violeta">
 		<callsub label="_hitodamaVioleta">
@@ -110,6 +118,8 @@
 				<var id="%hitodama%" valor="3155"/>
 			</gerar_label>
 		</callsub>
+		<script>callfunc "getEvento";</script>
+		<script>callfunc "dropHitodama2";</script>
 	</monstro>
 	<monstro id="1342" nome="Espectro Negra">
 		<callsub label="_hitodamaNegra">
@@ -118,6 +128,8 @@
 				<var id="%hitodama%" valor="3156"/>
 			</gerar_label>
 		</callsub>
+		<script>callfunc "getEvento";</script>
+		<script>callfunc "dropHitodama2";</script>
 	</monstro>
 
 	<!-- ==================== Scripts das Jazidas ==================== -->
