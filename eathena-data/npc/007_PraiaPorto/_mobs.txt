@@ -70,12 +70,16 @@ On1337:
 	set @mobID, 1337;
 	callfunc "MobPoints";
 	callsub _hitodamaVerde;
+	callfunc "getEvento";
+	callfunc "dropHitodama2";
 	break;
 
 On1338:
 	set @mobID, 1338;
 	callfunc "MobPoints";
 	callsub _hitodamaAzul;
+	callfunc "getEvento";
+	callfunc "dropHitodama2";
 	break;
 
 
