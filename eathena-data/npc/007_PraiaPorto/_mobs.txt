@@ -20,9 +20,9 @@
 007.gat,167,31,26,15	monster	Cogumelo (6)	1019,6,0,0,Mob007::On1019
 007.gat,162,28,37,11	monster	Cogumelo Maligno (3) [2min]	1013,3,120000,0,Mob007::On1013
 007.gat,112,31,38,22	monster	Espectro Verde (10)	1337,10,0,0,Mob007::On1337
-007.gat,137,47,60,23	monster	Espectro Verde (15)	1337,15,0,0,Mob007::On1337
 007.gat,169,55,28,30	monster	Espectro Azul (10)	1338,10,0,0,Mob007::On1338
-007.gat,139,48,60,21	monster	Espectro Azul (15)	1338,15,0,0,Mob007::On1338
+007.gat,137,47,60,23	monster	Espectro Verde (15)	1337,15,0,0,Mob007::On1337
+007.gat,120,38,22,41	monster	Espectro Azul(10)	1338,10,0,0,Mob007::On1338
 
 007.gat,0,0,0	script	Mob007	-1,{
 
@@ -69,11 +69,13 @@ On1019:
 On1337:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callsub _hitodamaVerde;
 	break;
 
 On1338:
 	set @mobID, 1338;
 	callfunc "MobPoints";
+	callsub _hitodamaAzul;
 	break;
 
 
@@ -98,6 +100,16 @@ _MOBS_verme:
 	callfunc "mobContagem", 15, QUEST_contamobs, @QUEST_contamobs;
 	set QUEST_contamobs, @mobs;
 	set @QUEST_contamobs, @flag;
+	return;
+
+_hitodamaAzul:
+	if(morteferias!=3) return;
+	callfunc "dropHitodama", 3152;
+	return;
+
+_hitodamaVerde:
+	if(morteferias!=1) return;
+	callfunc "dropHitodama", 3151;
 	return;
 
 	end;
