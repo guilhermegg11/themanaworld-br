@@ -692,3 +692,6 @@
 3167,cartaMundoMana,cartaMundoMana,3,500,10,1,,,,,,,,,,,{},{}
 3168,dentesDeRato,Dentes de Rato,3,600,150,2,,,,,,,,,,,{},{}
 3169,caldaDeRato,Calda de Rato,3,600,150,2,,,,,,,,,,,{},{}
+3170,cestaDoces,cestaDoces,3,600,300,100,,,,,,,,,,,{},{}
+3171,medalhaVelha,medalhaVelha,5,800,400,90,,,,5,0,2,8,,0,0,{},{ bonus bVit, 3; }
+3172,bussolaVentos,bussolaVentos,5,2400,1200,130,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 3; }
