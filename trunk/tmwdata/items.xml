@@ -5241,5 +5241,25 @@
 		type="generic"
 		weight="2"
 	/>
-
+	<item id="3170"
+		image="generic-cestadoces.png"
+		name="Cesta de doces do Halloween"
+		description="Cesta de doces pegos no Halloween de 2010 do TMW Brasil."
+		type="generic"
+		weight="100"
+	/>
+	<item id="3171"
+		image="generic-velhamedalha.png"
+		name="Medalha velha"
+		description="Medalha velha no qual se lê 'Honra ao mérito' no verso."
+		effect="+3 Vitalidade"
+		type="equip-charm"
+		weight="90"/>
+	<item id="3172"
+		image="generic-bussola.png"
+		name="Bússola dos Ventos"
+		description="Bússola cuja seta aponta sempre para lugares onde há tempos de paz."
+		effect="+3 Sorte"
+		type="equip-charm"
+		weight="130"/>
 </items>
