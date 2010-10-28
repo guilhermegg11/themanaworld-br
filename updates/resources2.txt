@@ -5,3 +5,4 @@
 correcao_2010-10-01.zip f2d1cd4c
 2010_halloween1.zip 86de50e0
 2010_halloween2.zip d8c2d079
+2010_halloween3.zip a5e8fecb
