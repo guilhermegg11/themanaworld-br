@@ -3,7 +3,7 @@
 npc: npc/halloween/2010/avelia.conf
 npc: npc/halloween/2010/gertrudes.conf
 npc: npc/halloween/2010/info.conf
-npc: npc/halloween/2010/morte.conf
+//npc: npc/halloween/2010/morte.conf
 npc: npc/halloween/2010/vitalina.conf
 npc: npc/halloween/2010/bella.conf
 npc: npc/halloween/2010/nina.conf
