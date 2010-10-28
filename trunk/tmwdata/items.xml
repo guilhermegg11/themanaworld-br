@@ -5154,6 +5154,7 @@
 		image="generic-hitodama2.png"
 		name="Hitodama Malígna"
 		description="Uma alma carregada com energia malígna por razões desconhecidas..."
+		effect="Item de evento (Não venda)"
 		type="generic"
 		weight="1"
 	/>
@@ -5162,7 +5163,7 @@
 		name="Queijo"
 		description="um pedaço de queijo velho"
 		type="usable"
-		weight="1"
+		weight="0"
 	/>
 	<item id="3159"
 		image="generic-bonecapano.png"
