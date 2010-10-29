@@ -172,24 +172,6 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Fada Furiosa (5)" type="spawn" x="1792" y="576" width="1792" height="800">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="304"/>
-   </properties>
-  </object>
-  <object name="Fada Furiosa (3)" type="spawn" x="1472" y="1408" width="928" height="736">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="304"/>
-   </properties>
-  </object>
-  <object name="Fada Furiosa (3)" type="spawn" x="480" y="1664" width="960" height="1024">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="304"/>
-   </properties>
-  </object>
   <object name="Cobra das Montanhas (6)" type="spawn" x="2848" y="1216" width="1152" height="768">
    <properties>
     <property name="eA_spawn" value="120000"/>
