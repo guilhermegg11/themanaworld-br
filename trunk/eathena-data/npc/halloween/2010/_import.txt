@@ -10,7 +10,7 @@ npc: npc/halloween/2010/nina.conf
 npc: npc/halloween/2010/funcoes.conf
 npc: npc/halloween/2010/mob_funcoes.conf
 
-//npc: npc/halloween/2010/_checks008.txt
+npc: npc/halloween/2010/_shops.txt
 npc: npc/halloween/2010/_mobs.txt
 npc: npc/halloween/2010/_warps.txt
 npc: npc/halloween/2010/_warps008.txt
