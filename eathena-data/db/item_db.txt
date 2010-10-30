@@ -673,12 +673,12 @@
 3149,favodemel,Favo de Mel,0,100,50,1,,,,,,2,,,0,,{ itemheal 75,0; },{}
 3150,ferraodeabelha,Ferrão de Abelha,3,75,50,1,,,,,,,,,,,{},{}
 
-3151,hitodamaVerde,hitodamaVerde,3,500,10,1,,,,,,,,,,,{},{}
-3152,hitodamaAzul,hitodamaAzul,3,500,10,1,,,,,,,,,,,{},{}
-3153,hitodamaAmarela,hitodamaAmarela,3,500,10,1,,,,,,,,,,,{},{}
-3154,hitodamaVermelha,hitodamaVermelha,3,500,10,1,,,,,,,,,,,{},{}
-3155,hitodamaVioleta,hitodamaVioleta,3,500,10,1,,,,,,,,,,,{},{}
-3156,hitodamaNegra,hitodamaNegra,3,500,10,1,,,,,,,,,,,{},{}
+3151,hitodamaVerde,hitodamaVerde,3,100,50,1,,,,,,,,,,,{},{}
+3152,hitodamaAzul,hitodamaAzul,3,200,100,1,,,,,,,,,,,{},{}
+3153,hitodamaAmarela,hitodamaAmarela,3,1000,500,1,,,,,,,,,,,{},{}
+3154,hitodamaVermelha,hitodamaVermelha,3,5000,2000,1,,,,,,,,,,,{},{}
+3155,hitodamaVioleta,hitodamaVioleta,3,10000,5000,1,,,,,,,,,,,{},{}
+3156,hitodamaNegra,hitodamaNegra,3,20000,10000,1,,,,,,,,,,,{},{}
 3157,hitodamaMaligna,hitodamaMaligna,3,500,10,0,,,,,,,,,,,{},{}
 3158,queijo,Queijo,0,50,10,10,,,,,,2,,,0,,{ itemheal 40,0; },{}
 3159,bonecaPano,bonecaPano,3,500,10,100,,,,,,,,,,,{},{}
