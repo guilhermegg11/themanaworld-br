@@ -724,7 +724,7 @@
 		description="Um arco curto, típico do lendário povo do deserto."
 		effect="+100 Dano, 7 Alcance"
 		type="equip-2hand"
-		weight="350"
+		weight="1150"
 		weapon-type="bow"
 		attack-action="attack_bow"
 		missile-particle="graphics/particles/arrow.particle.xml">
@@ -2229,8 +2229,8 @@
 		description="Um excelente elmo, tipicamente usado por paladinos."
 		effect=""
 		type="equip-head"
-		weight="1"
-		defense="1">
+		weight="500"
+		defense="19">
 		<sprite>head-paladinhelm.xml</sprite>
 	</item>
 	<item id="760"
@@ -2239,8 +2239,8 @@
 		description="Um elmo lendário, usado somente pelos guerreiros mais fortes."
 		effect=""
 		type="equip-head"
-		weight="1"
-		defense="1">
+		weight="500"
+		defense="20">
 		<sprite>head-overlordhelm.xml</sprite>
 	</item>
 	<item id="761"
@@ -4009,7 +4009,7 @@
 		description="A armadura dos deuses."
 		effect=""
 		type="equip-torso"
-		weight="275"
+		weight="2750"
 		defense="27">
 		<sprite gender="male">chest-saviorarmor-male.xml</sprite>
 		<sprite gender="female">chest-saviorarmor-female.xml</sprite>
@@ -5090,7 +5090,7 @@
 		description="Um par de asas de anjo. Não é posível voar com elas."
 		effect="Def.Mag.:+20"
 		type="equip-ring"
-		weight="10">
+		weight="100">
 		<sprite>angel-wings.xml</sprite>
 	</item>
 	<item id="3149"
