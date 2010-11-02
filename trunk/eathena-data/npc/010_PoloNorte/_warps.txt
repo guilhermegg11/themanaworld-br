@@ -12,4 +12,4 @@
 010.gat,142,47	warp	paraCaverna	-1,-1,010-1.gat,45,19
 010.gat,148,106	warp	paraDentro1	-1,-1,010-2.gat,23,31
 010.gat,152,106	warp	paraDentro2	-1,-1,010-2.gat,29,31
-010.gat,156,93	warp	paraDentro3	-1,-1,010-2.gat,60,30
+010.gat,156,93	warp	paraDentro3	-1,-1,010-2.gat,59,30

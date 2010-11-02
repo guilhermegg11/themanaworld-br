@@ -3,9 +3,8 @@
 <map version="1.0" orientation="orthogonal" width="200" height="140" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="/graphics/minimaps/009.png"/>
-  <property name="music" value="butterfly_tea_-_return_of_the_fantasy.ogg"/>
-  <property name="music-old" value="The Mana World - The Forest.ogg"/>
-  <property name="music-old2" value="butterfly_tea_-_forest_dance.ogg"/>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="music-old" value="butterfly_tea_-_forest_dance.ogg"/>
   <property name="name" value="Ilha Fortaleza"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>

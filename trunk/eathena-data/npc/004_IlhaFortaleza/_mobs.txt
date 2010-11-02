@@ -61,11 +61,6 @@ On1019:
 	callfunc "MobPoints";
 	break;
 
-On1020:
-	set @mobID, 1020;
-	callfunc "MobPoints";
-	break;
-
 On1033:
 	set @mobID, 1033;
 	callfunc "MobPoints";
