@@ -4,12 +4,7 @@
 	<update type="data" file="2010_graphics.zip" hash="c22d1269"/>
 	<update type="data" file="2010_sprites.zip" hash="d30c7a3e"/>
 	<update type="data" file="2010_tiles.zip" hash="99a055a0"/>
-	<update type="data" file="correcao_2010-10-01.zip" hash="f2d1cd4c"/>
-	<update type="data" file="2010_halloween1.zip" hash="86de50e0"/>
-	<update type="data" file="2010_halloween2.zip" hash="d8c2d079"/>
-	<update type="data" file="2010_halloween3.zip" hash="a5e8fecb"/>
-	<update type="data" file="2010_halloween4.zip" hash="83be8d84"/>
-	<update type="music" file="musicas_halloween.zip" hash="d82fc460"/>
+	<update type="data" file="update_2010-11-02.zip" hash="f8bac20d"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 	<update type="music" required="no" file="musicas_2010-09-28.zip" hash="6db7aab8" desciption="Novas músicas"/>
 </updates>
