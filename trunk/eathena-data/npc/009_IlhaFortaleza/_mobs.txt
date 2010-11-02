@@ -10,10 +10,6 @@
 009.gat,56,86,26,16	monster	Cobra da Grama (3)	1034,3,120000,0,Mob009::On1034
 009.gat,89,109,35,20	monster	Cobra das Montanhas (6)	1026,6,120000,0,Mob009::On1026
 009.gat,106,49,35,23	monster	Cobra das Montanhas (6)	1026,6,120000,0,Mob009::On1026
-009.gat,76,34,41,30	monster	Espectro Violeta (8)	1341,8,0,0,Mob009::On1341
-009.gat,37,65,37,26	monster	Espectro Violeta (8)	1341,8,0,0,Mob009::On1341
-009.gat,59,56,32,20	monster	Espectro Negro (5)	1342,5,0,0,Mob009::On1342
-009.gat,92,31,37,21	monster	Espectro Negro (5)	1342,5,0,0,Mob009::On1342
 
 009.gat,0,0,0	script	Mob009	-1,{
 

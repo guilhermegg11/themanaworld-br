@@ -1,16 +1,17 @@
 // Ativa todos os NPCs, warps e monstros do Halloween de 2010
 
-npc: npc/halloween/2010/avelia.conf
-npc: npc/halloween/2010/gertrudes.conf
-npc: npc/halloween/2010/info.conf
-npc: npc/halloween/2010/morte.conf
-npc: npc/halloween/2010/vitalina.conf
-npc: npc/halloween/2010/bella.conf
-npc: npc/halloween/2010/nina.conf
-npc: npc/halloween/2010/funcoes.conf
-npc: npc/halloween/2010/mob_funcoes.conf
+// NPC Pós Halloween
+npc: npc/halloween/2010/info_pos_evento.conf
 
-npc: npc/halloween/2010/_shops.txt
-npc: npc/halloween/2010/_mobs.txt
-npc: npc/halloween/2010/_warps.txt
-npc: npc/halloween/2010/_warps008.txt
+//npc: npc/halloween/2010/avelia.conf
+//npc: npc/halloween/2010/gertrudes.conf
+//npc: npc/halloween/2010/info.conf
+//npc: npc/halloween/2010/morte.conf
+//npc: npc/halloween/2010/vitalina.conf
+//npc: npc/halloween/2010/bella.conf
+//npc: npc/halloween/2010/nina.conf
+//npc: npc/halloween/2010/funcoes.conf
+//npc: npc/halloween/2010/mob_funcoes.conf
+
+//npc: npc/halloween/2010/_shops.txt
+//npc: npc/halloween/2010/_warps008.txt

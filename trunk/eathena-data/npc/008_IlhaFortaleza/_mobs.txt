@@ -11,10 +11,6 @@
 008.gat,156,71,43,22	monster	Lenha Dura (5)	1025,5,0,0,Mob008::On1025
 008.gat,84,93,22,20	monster	Flor (5)	1014,3,0,0,Mob008::On1014
 008.gat,116,68,34,25	monster	Flor (5)	1014,5,0,0,Mob008::On1014
-008.gat,50,55,59,62	monster	Espectro Vermelho (20)	1340,20,0,0,Mob008::On1340
-008.gat,148,52,66,62	monster	Espectro Amarelo (30)	1339,30,0,0,Mob008::On1339
-008.gat,70,90,62,59	monster	Espectro Amarelo (30)	1339,30,0,0,Mob008::On1339
-008.gat,144,84,72,56	monster	Espectro Vermelho (20)	1340,20,0,0,Mob008::On1340
 
 008.gat,0,0,0	script	Mob008	-1,{
 
