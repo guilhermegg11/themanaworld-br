@@ -679,7 +679,7 @@
 3154,hitodamaVermelha,hitodamaVermelha,3,5000,2000,1,,,,,,,,,,,{},{}
 3155,hitodamaVioleta,hitodamaVioleta,3,10000,5000,1,,,,,,,,,,,{},{}
 3156,hitodamaNegra,hitodamaNegra,3,20000,10000,1,,,,,,,,,,,{},{}
-3157,hitodamaMaligna,hitodamaMaligna,3,500,10,0,,,,,,,,,,,{},{}
+3157,hitodamaMaligna,hitodamaMaligna,3,500,200,0,,,,,,,,,,,{},{}
 3158,queijo,Queijo,0,50,10,10,,,,,,2,,,0,,{ itemheal 40,0; },{}
 3159,bonecaPano,bonecaPano,3,500,10,100,,,,,,,,,,,{},{}
 3160,cartaCavaleiro,cartaCavaleiro,3,500,10,1,,,,,,,,,,,{},{}

@@ -6,3 +6,5 @@ já realizados no servidor. Incluindo funções, mobs e NPCs.
 
 Para alterações que não puderam ser feitas aqui, deixe comentários neste
 arquivo.
+
+No diretório 'outros' temos configurações que foram feitas em outros arquivos. Além dos que se encontram aqui.
