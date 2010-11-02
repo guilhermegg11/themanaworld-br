@@ -9,6 +9,9 @@
 009.gat,92,32,29,24	monster	Planta Alizarina (1)	1032,1,0,120000,Mob009::On1032
 009.gat,56,86,26,16	monster	Cobra da Grama (3)	1034,3,120000,0,Mob009::On1034
 009.gat,89,109,35,20	monster	Cobra das Montanhas (6)	1026,6,120000,0,Mob009::On1026
+009.gat,83,30,55,24	monster	Fada Furiosa (5)	1306,5,0,0,Mob009::On1306
+009.gat,60,55,28,22	monster	Fada Furiosa (3)	1306,3,0,0,Mob009::On1306
+009.gat,29,67,29,31	monster	Fada Furiosa (3)	1306,3,0,0,Mob009::On1306
 009.gat,106,49,35,23	monster	Cobra das Montanhas (6)	1026,6,120000,0,Mob009::On1026
 
 009.gat,0,0,0	script	Mob009	-1,{
@@ -43,34 +46,10 @@ On1034:
 	callfunc "MobPoints";
 	break;
 
-On1341:
-	set @mobID, 1341;
+On1306:
+	set @mobID, 1306;
 	callfunc "MobPoints";
-	callsub _hitodamaVioleta;
-	callfunc "getEvento";
-	callfunc "dropHitodama2";
 	break;
-
-On1342:
-	set @mobID, 1342;
-	callfunc "MobPoints";
-	callsub _hitodamaNegra;
-	callfunc "getEvento";
-	callfunc "dropHitodama2";
-	break;
-
-
-//= Callsubs ==========================================================
-
-_hitodamaNegra:
-	if(morteferias!=11) return;
-	callfunc "dropHitodama", 3156;
-	return;
-
-_hitodamaVioleta:
-	if(morteferias!=9) return;
-	callfunc "dropHitodama", 3155;
-	return;
 
 	end;
 }

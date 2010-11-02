@@ -3,6 +3,13 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
+007.gat,166,54,24,27	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
+007.gat,169,56,28,28	monster	Flor (5)	1014,5,0,0,Mob007::On1014
+007.gat,108,26,34,12	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
+007.gat,115,31,33,15	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
+007.gat,162,28,37,11	monster	Cogumelo Maligno (3) [2min]	1013,3,120000,0,Mob007::On1013
+007.gat,167,31,26,15	monster	Cogumelo (6)	1019,6,0,0,Mob007::On1019
+007.gat,125,52,34,13	monster	Cogumelo (8)	1019,8,0,0,Mob007::On1019
 007.gat,168,77,23,11	monster	Limo Vermelho (3)	1008,3,60000,0,Mob007::On1008
 007.gat,68,39,20,19	monster	Verme (10)	1002,10,0,0,Mob007::On1002
 007.gat,89,41,14,11	monster	Verme (5)	1002,5,0,0,Mob007::On1002
@@ -17,8 +24,7 @@
 007.gat,93,49,11,6	monster	Escorpião (3)	1003,5,0,0,Mob007::On1003
 007.gat,114,64,15,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
 007.gat,152,100,52,30	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob007::On1011
-007.gat,167,31,26,15	monster	Cogumelo (6)	1019,6,0,0,Mob007::On1019
-007.gat,162,28,37,11	monster	Cogumelo Maligno (3) [2min]	1013,3,120000,0,Mob007::On1013
+007.gat,143,41,18,35	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
 
 007.gat,0,0,0	script	Mob007	-1,{
 
@@ -57,25 +63,25 @@ On1013:
 	callsub _MOBS_cogumelo;
 	break;
 
+On1014:
+	set @mobID, 1014;
+	callfunc "MobPoints";
+	break;
+
+On1018:
+	set @mobID, 1018;
+	callfunc "MobPoints";
+	callsub _MOBS_trasgo;
+	break;
+
 On1019:
 	set @mobID, 1019;
 	callfunc "MobPoints";
 	break;
 
-On1337:
-	set @mobID, 1337;
+On1020:
+	set @mobID, 1020;
 	callfunc "MobPoints";
-	callsub _hitodamaVerde;
-	callfunc "getEvento";
-	callfunc "dropHitodama2";
-	break;
-
-On1338:
-	set @mobID, 1338;
-	callfunc "MobPoints";
-	callsub _hitodamaAzul;
-	callfunc "getEvento";
-	callfunc "dropHitodama2";
 	break;
 
 
@@ -95,21 +101,18 @@ _MOBS_escorpiao:
 	set @QUEST_contamobs, @flag;
 	return;
 
+_MOBS_trasgo:
+	if(QUEST_trasgo!=8) return;
+	callfunc "mobContagem", 35, MOBS_trasgo, @MOBS_trasgo;
+	set MOBS_trasgo, @mobs;
+	set @MOBS_trasgo, @flag;
+	return;
+
 _MOBS_verme:
 	if(QUEST_praia!=7) return;
 	callfunc "mobContagem", 15, QUEST_contamobs, @QUEST_contamobs;
 	set QUEST_contamobs, @mobs;
 	set @QUEST_contamobs, @flag;
-	return;
-
-_hitodamaAzul:
-	if(morteferias!=3) return;
-	callfunc "dropHitodama", 3152;
-	return;
-
-_hitodamaVerde:
-	if(morteferias!=1) return;
-	callfunc "dropHitodama", 3151;
 	return;
 
 	end;
