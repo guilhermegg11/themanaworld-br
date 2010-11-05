@@ -695,3 +695,19 @@
 3170,cestaDoces,cestaDoces,3,600,300,100,,,,,,,,,,,{},{}
 3171,medalhaVelha,medalhaVelha,5,800,400,90,,,,5,0,2,8,,0,0,{},{ bonus bVit, 3; }
 3172,bussolaVentos,bussolaVentos,5,2400,1200,130,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 3; }
+
+3173,halloween2010ouro1,halloween2010ouro RooO,5,9000,3000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 3; }
+3174,halloween2010ouro2,halloween2010ouro Milwalke,5,9000,3000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 3; }
+3175,halloween2010ouro3,halloween2010ouro szCHINELO,5,9000,3000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 3; }
+3176,halloween2010ouro4,halloween2010ouro DarkSlayer,5,9000,3000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 3; }
+3177,halloween2010ouro5,halloween2010ouro Xtreem,5,9000,3000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 3; }
+3178,halloween2010prata1,halloween2010prata Katucha,5,6000,2000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 2; }
+3179,halloween2010prata2,halloween2010prata super caio,5,6000,2000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 2; }
+3180,halloween2010prata3,halloween2010prata Gladiador Flash,5,6000,2000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 2; }
+3181,halloween2010prata4,halloween2010prata Tarsan_br,5,6000,2000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 2; }
+3182,halloween2010prata5,halloween2010prata alasmirt,5,6000,2000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 2; }
+3183,halloween2010bronze1,halloween2010bronze arthurzinho,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
+3184,halloween2010bronze2,halloween2010bronze Lord,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
+3185,halloween2010bronze3,halloween2010bronze augustinho,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
+3186,halloween2010bronze4,halloween2010bronze ELLENBR,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
+3187,halloween2010bronze5,halloween2010bronze BRUNO Paz,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
