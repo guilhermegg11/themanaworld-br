@@ -1,0 +1,3 @@
+map: org025.gat
+npc: npc/org025_pantano/_mobs.txt
+npc: npc/org025_pantano/_warps.txt

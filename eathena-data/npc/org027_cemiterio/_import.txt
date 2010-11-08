@@ -1,0 +1,3 @@
+map: org027.gat
+npc: npc/org027_cemiterio/_mobs.txt
+npc: npc/org027_cemiterio/_warps.txt

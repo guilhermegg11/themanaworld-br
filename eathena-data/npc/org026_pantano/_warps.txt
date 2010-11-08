@@ -1,0 +1,4 @@
+// org026 Pântano warps
+
+org026.gat,63,16	warp	toGraveyard	-1,-1,org027.gat,63,105
+org026.gat,129,66	warp	toSwamp	-1,-1,org025.gat,20,66

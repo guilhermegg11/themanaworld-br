@@ -1,0 +1,10 @@
+//
+// Monstros do mapa: org027-1 Casa do Zelador
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+
+org027-1.gat,0,0,0	script	Moborg027-1	-1,{
+
+	end;
+}
