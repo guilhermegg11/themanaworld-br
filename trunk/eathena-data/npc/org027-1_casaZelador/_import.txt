@@ -1,0 +1,3 @@
+map: org027-1.gat
+npc: npc/org027-1_casaZelador/_mobs.txt
+npc: npc/org027-1_casaZelador/_warps.txt

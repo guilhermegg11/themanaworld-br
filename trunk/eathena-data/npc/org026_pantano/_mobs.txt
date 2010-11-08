@@ -1,0 +1,57 @@
+//
+// Monstros do mapa: org026 Pântano
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+org026.gat,70,58,111,83	monster	Wisp (34)	1040,34,120000,40000,Moborg026::On1040
+org026.gat,70,59,110,84	monster	Espectro (34)	1042,34,120000,40000,Moborg026::On1042
+org026.gat,69,59,109,85	monster	Espectro do Calafrio (34)	1047,34,120000,40000,Moborg026::On1047
+org026.gat,71,58,112,82	monster	Bicho da Seda (10)	1035,10,300000,60000,Moborg026::On1035
+org026.gat,69,60,108,86	monster	Escorpião (15)	1003,15,300000,30000,Moborg026::On1003
+org026.gat,68,60,107,87	monster	Tronco Vivo (8)	1025,8,300000,40000,Moborg026::On1025
+
+org026.gat,0,0,0	script	Moborg026	-1,{
+
+On1003:
+	set @mobID, 1003;
+	callfunc "MobPoints";
+	callsub _MOBS_escorpiao;
+	break;
+
+On1025:
+	set @mobID, 1025;
+	callfunc "MobPoints";
+	break;
+
+On1035:
+	set @mobID, 1035;
+	callfunc "MobPoints";
+	break;
+
+On1040:
+	set @mobID, 1040;
+	callfunc "MobPoints";
+	break;
+
+On1042:
+	set @mobID, 1042;
+	callfunc "MobPoints";
+	break;
+
+On1047:
+	set @mobID, 1047;
+	callfunc "MobPoints";
+	break;
+
+
+//= Callsubs ==========================================================
+
+_MOBS_escorpiao:
+	if(QUEST_praia!=12) return;
+	callfunc "mobContagem", 30, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
+
+	end;
+}

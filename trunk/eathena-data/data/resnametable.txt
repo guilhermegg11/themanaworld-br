@@ -37,3 +37,8 @@ calabouco.gat#calabouco.wlk#
 navio.gat#navio.wlk#
 navio-1.gat#navio-1.wlk#
 navio-2.gat#navio-2.wlk#
+org016.gat#org016.wlk#
+org025.gat#org025.wlk#
+org026.gat#org026.wlk#
+org027.gat#org027.wlk#
+org027-1.gat#org027-1.wlk#
