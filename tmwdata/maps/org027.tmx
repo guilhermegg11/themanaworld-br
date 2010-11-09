@@ -136,7 +136,7 @@
     <property name="monster_id" value="22"/>
    </properties>
   </object>
-  <object name="Skeleton (2)" type="-spawn" x="672" y="960" width="2144" height="1504">
+  <object name="Esqueleto Guerreiro (2)" type="spawn" x="672" y="960" width="2144" height="1504">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
@@ -144,7 +144,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="LadySkeleton (2)" type="-spawn" x="672" y="960" width="2144" height="1504">
+  <object name="Lady Esqueleto (2)" type="spawn" x="672" y="960" width="2144" height="1504">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
@@ -161,7 +161,7 @@
     <property name="monster_id" value="34"/>
    </properties>
   </object>
-  <object name="Skeleton (2)" type="-spawn" x="1792" y="960" width="1024" height="736">
+  <object name="Esqueleto Guerreiro (2)" type="spawn" x="1792" y="960" width="1024" height="736">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="175000"/>
@@ -169,7 +169,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="LadySkeleton (2)" type="-spawn" x="1792" y="960" width="1024" height="736">
+  <object name="Lady Esqueleto (2)" type="spawn" x="1792" y="960" width="1024" height="736">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="175000"/>
@@ -201,7 +201,7 @@
     <property name="monster_id" value="34"/>
    </properties>
   </object>
-  <object name="Skeleton (4)" type="-spawn" x="672" y="960" width="1088" height="736">
+  <object name="Esqueleto Guerreiro (4)" type="spawn" x="672" y="960" width="1088" height="736">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="180000"/>
@@ -209,7 +209,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="LadySkeleton (4)" type="-spawn" x="672" y="960" width="1088" height="736">
+  <object name="Lady Esqueleto (4)" type="spawn" x="672" y="960" width="1088" height="736">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="180000"/>
@@ -233,7 +233,7 @@
     <property name="monster_id" value="22"/>
    </properties>
   </object>
-  <object name="Skeleton (2)" type="-spawn" x="2848" y="960" width="1056" height="704">
+  <object name="Esqueleto Guerreiro (2)" type="spawn" x="2848" y="960" width="1056" height="704">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="35000"/>
@@ -241,7 +241,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="LadySkeleton (3)" type="-spawn" x="2848" y="960" width="1056" height="704">
+  <object name="Lady Esqueleto (3)" type="spawn" x="2848" y="960" width="1056" height="704">
    <properties>
     <property name="eA_death" value="25000"/>
     <property name="eA_spawn" value="33000"/>
@@ -257,7 +257,7 @@
     <property name="monster_id" value="34"/>
    </properties>
   </object>
-  <object name="Fallen" type="-spawn" x="672" y="1728" width="1088" height="736">
+  <object name="Guerreiro Caído (3)" type="spawn" x="672" y="1728" width="1088" height="736">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="120000"/>
