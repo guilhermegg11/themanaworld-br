@@ -306,12 +306,12 @@
 //772,WispPowder,Wisp Powder,3,700,350,40,,,,,,,,,,,{},{}
 //773,SpectrePowder,Spectre Powder,3,700,350,40,,,,,,,,,,,{},{}
 774,podefantasma,Pó de Fantasma,3,700,350,3,,,,,,,,,,,{},{}
-775,osso,Osso,3,140,70,80,,,,,,,,,,,{},{}
-776,caveira,Caveira,3,900,450,110,,,,,,,,,,,{},{}
-777,farrapos,Farrapos,3,100,50,95,,,,,,,,,,,{},{}
-778,coracaodezumbi,Coração de Zumbi,3,180,90,35,,,,,,,,,,,{},{}
-779,orelhadezumbi,Orelha de Zumbi,3,30,15,15,,,,,,,,,,,{},{}
-780,olhodezumbi,Olho de Zumbi,3,30,15,8,,,,,,,,,,,{},{}
+775,osso,Osso,3,140,70,10,,,,,,,,,,,{},{}
+776,caveira,Caveira,3,900,450,30,,,,,,,,,,,{},{}
+777,farrapos,Farrapos,3,100,50,15,,,,,,,,,,,{},{}
+778,coracaodezumbi,Coração de Zumbi,3,180,90,10,,,,,,,,,,,{},{}
+779,orelhadezumbi,Orelha de Zumbi,3,30,15,5,,,,,,,,,,,{},{}
+780,olhodezumbi,Olho de Zumbi,3,30,15,3,,,,,,,,,,,{},{}
 781,mascaravoodoo,Máscara Voodoo,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,-100,0,2,512,,0,0,{},{}
 783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,15,,3,0,2,512,,0,0,{},{}
