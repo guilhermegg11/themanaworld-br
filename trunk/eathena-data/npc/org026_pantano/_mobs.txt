@@ -8,6 +8,8 @@ org026.gat,70,59,110,84	monster	Espectro (34)	1042,34,120000,40000,Moborg026::On
 org026.gat,69,59,109,85	monster	Espectro do Calafrio (34)	1047,34,120000,40000,Moborg026::On1047
 org026.gat,71,58,112,82	monster	Bicho da Seda (10)	1035,10,300000,60000,Moborg026::On1035
 org026.gat,69,60,108,86	monster	Escorpião (15)	1003,15,300000,30000,Moborg026::On1003
+org026.gat,71,57,113,81	monster	Esqueleto Guerreiro (5)	1043,5,900000,10000,Moborg026::On1043
+org026.gat,68,61,106,88	monster	Lady Esqueleto (5)	1044,5,900000,20000,Moborg026::On1044
 org026.gat,68,60,107,87	monster	Tronco Vivo (8)	1025,8,300000,40000,Moborg026::On1025
 
 org026.gat,0,0,0	script	Moborg026	-1,{
@@ -35,6 +37,16 @@ On1040:
 
 On1042:
 	set @mobID, 1042;
+	callfunc "MobPoints";
+	break;
+
+On1043:
+	set @mobID, 1043;
+	callfunc "MobPoints";
+	break;
+
+On1044:
+	set @mobID, 1044;
 	callfunc "MobPoints";
 	break;
 

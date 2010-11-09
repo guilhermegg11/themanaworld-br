@@ -1,5 +1,5 @@
 //
-// Monstros do mapa: org025 Pântano
+// Monstros do mapa: org025 Floresta
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 

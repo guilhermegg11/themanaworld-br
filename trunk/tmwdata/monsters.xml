@@ -169,47 +169,47 @@
 	        <sound event="hit">slime-hit1.ogg</sound>
 	</monster>
 	<monster id="32" name="Cobra da Grama">
-	        <sprite>monster-snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
+		<sprite>monster-snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
 	</monster>
 	<monster id="33" name="Bicho da Seda">
-	        <sprite>monster-silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
+		<sprite>monster-silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
 	</monster>
 	<monster id="34" name="Zumbi">
-	        <sprite>monster-zombie.xml</sprite>
+		<sprite>monster-zombie.xml</sprite>
 	</monster>
 	<monster id="35" name="Trevos">
-	        <sprite>resource-clover.xml</sprite>
+		<sprite>resource-clover.xml</sprite>
 	</monster>
 	<monster id="36" name="Esquilo">
-	        <sprite>monster-squirrel.xml</sprite>
+		<sprite>monster-squirrel.xml</sprite>
 	</monster>
 	<monster id="37" name="Dragão de Fogo">
-	        <sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
-        <attack id="1"
-            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
-            />
+		<sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+		<attack id="1"
+		particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
+		/>
 	</monster>
 	<monster id="38" name="Wisp">
-	        <sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
+		<sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
 	<monster id="39" name="Lesma">
-	        <sprite>monster-snail.xml</sprite>
+		<sprite>monster-snail.xml</sprite>
 	</monster>
 	<monster id="40" name="Espectro">
 		<sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
 	<monster id="41" name="Esqueleto Guerreiro">
-	        <sprite>monster-skeleton.xml</sprite>
+		<sprite>monster-skeleton.xml</sprite>
 		<sprite>chest-warlordplate-male.xml</sprite>
 		<sprite>head-axehat.xml</sprite>
 	</monster>
 	<monster id="42" name="Lady Esqueleto">
-	        <sprite>monster-skeleton.xml</sprite>
-	        <sprite>hairstyle8.xml</sprite>
-		<sprite>chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
-<!-- <sprite>leg-skirt-mini.xml</sprite> -->
+		<sprite>monster-skeleton.xml</sprite>
+		<sprite>hairstyle8.xml</sprite>
+	<sprite>chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
+	<!-- <sprite>leg-skirt-mini.xml</sprite> -->
 	</monster>
 	<monster id="43" name="Guerreiro Caído">
 		<sprite>monster-skeleton.xml</sprite><!-- Retirei o recolor de #ffe8bf (Não estava funcionando) -->

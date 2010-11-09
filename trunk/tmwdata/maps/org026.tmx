@@ -116,7 +116,7 @@
     <property name="monster_id" value="1"/>
    </properties>
   </object>
-  <object name="Skeleton (5)" type="-spawn" x="480" y="544" width="3648" height="2624">
+  <object name="Esqueleto Guerreiro (5)" type="spawn" x="480" y="544" width="3648" height="2624">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="eA_spawn" value="900000"/>
@@ -124,7 +124,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="LadySkeleton (5)" type="-spawn" x="480" y="544" width="3424" height="2848">
+  <object name="Lady Esqueleto (5)" type="spawn" x="480" y="544" width="3424" height="2848">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="900000"/>
