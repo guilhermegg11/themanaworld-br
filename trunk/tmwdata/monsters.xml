@@ -200,6 +200,17 @@
 		<sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
+	<monster id="41" name="Esqueleto Guerreiro">
+	        <sprite>monster-skeleton.xml</sprite>
+		<sprite>chest-warlordplate-male.xml</sprite>
+		<sprite>head-axehat.xml</sprite>
+	</monster>
+	<monster id="42" name="Lady Esqueleto">
+	        <sprite>monster-skeleton.xml</sprite>
+	        <sprite>hairstyle8.xml</sprite>
+		<sprite>chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
+<!-- <sprite>leg-skirt-mini.xml</sprite> -->
+	</monster>
 	<monster id="43" name="Guerreiro Caído">
 		<sprite>monster-skeleton.xml</sprite><!-- Retirei o recolor de #ffe8bf (Não estava funcionando) -->
 		<sprite>leg-chaps-male.xml</sprite>
