@@ -1,11 +1,17 @@
-##3 .:: Evento de Halloween ::.
+##3 .:: Atualização 13/11/2010 ::.
 ##0
-##0 O evento de Halloween é um dos grandes
-##0 eventos aguardado por todos os jogadores.
-##0 Novas missões, novos itens, muitos prêmios,
-##0 competições e diversão.
-##0 Esteja aqui nos dias 27, 28, 29, 30 e 31
-##0 e não irá se arrepender.
+##0 Este update vem como um grande alívio aos mais
+##0 fortes. Já que agora é possível navegar até
+##0 terras desconhecidas e enfrentar monstros
+##0 realmente fortes.
+##3 Novatos... não arrisquem nesta viagem !
+##0
+##3 .:: Atualização 02/11/2010 ::.
+##0
+##0 Viaje em grande estilo no navio do capitão
+##0 Mirc. Por equanto ele não está cobrando por
+##0 seus serviços, mas a promoção é por tempo
+##0 limitado.
 ##0
 ##3 .:: Atualização 30/09/2010 ::.
 ##0
@@ -17,7 +23,7 @@
 ##0
 ##3 .:: Atualização 19/07/2010 ::.
 ##0
-##0 * Incluido do set do Dragão
+##0 * Incluído do set do Dragão
 ##0 * Novo sprite para o monstro dragão
 ##0 * Corrigido bugs do banqueiro e do baú da
 ##0 pensão
