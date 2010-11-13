@@ -65,11 +65,11 @@
 		<sound event="miss">fire-goblin-miss1.ogg</sound>
 	</monster>
 	<monster id="10" name="Aranha">
-	        <sprite>monster-spider.xml</sprite>
+		<sprite>monster-spider.xml</sprite>
 	</monster>
 	<monster id="11" name="Cogumelo Maligno">
-	        <sprite>monster-mushroom-red.xml</sprite>
-	        <sound event="hit">shroom-hit1.ogg</sound>
+		<sprite>monster-mushroom-red.xml</sprite>
+		<sound event="hit">shroom-hit1.ogg</sound>
 	</monster>
 	<monster id="12" name="Flor">
 		<sprite>monster-flower.xml|#a60e88,ffffff</sprite>
@@ -81,44 +81,45 @@
 		<!--laranja #a6410e,ffaa80 -->
 		<!--vermelha #a60e0e,ff8080 -->
 		<!--branca #dddddd,ffffff -->
-	        <sound event="hit">flower-hit1.ogg</sound>
-	        <sound event="hit">flower-hit2.ogg</sound>
-	        <sound event="miss">flower-miss1.ogg</sound>
+		<sound event="hit">flower-hit1.ogg</sound>
+		<sound event="hit">flower-hit2.ogg</sound>
+		<sound event="miss">flower-miss1.ogg</sound>
 	</monster>
 	<monster id="13" name="Limo Noel">
-       		<sprite>monster-slime.xml|#545166,66A9CD,C2F7FA</sprite>
-        	<sprite>acessorios/slime-santa.xml</sprite>
-	        <sprite>acessorios/slime-seajelly.xml|#545166,66A9CD,C2F7FA</sprite>
+		<sprite>monster-slime.xml|#545166,66A9CD,C2F7FA</sprite>
+		<sprite>acessorios/slime-santa.xml</sprite>
+		<sprite>acessorios/slime-seajelly.xml|#545166,66A9CD,C2F7FA</sprite>
 	</monster>
 	<monster id="14" name="Limo Rodolfo">
-        	<sprite>monster-slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
-        	<sprite>acessorios/slime-rudolph.xml</sprite>
-	        <sprite>acessorios/slime-seajelly.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+		<sprite>monster-slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+		<sprite>acessorios/slime-rudolph.xml</sprite>
+		<sprite>acessorios/slime-seajelly.xml|#9092B9,9DB4D4,F8F9FA</sprite>
 	</monster>
 	<monster id="15" name="Morcego">
-	        <sprite>monster-bat.xml</sprite>
-	        <sound event="die">bat-dying1.ogg</sound>
-	        <sound event="hit">bat-hit1.ogg</sound>
+		<sprite>monster-bat.xml</sprite>
+		<sound event="die">bat-dying1.ogg</sound>
+		<sound event="hit">bat-hit1.ogg</sound>
 	</monster>
 	<monster id="16" name="Trasgo Rosa" targetCursor="small">
-	        <sprite>monster-pinkie.xml|#f737b8,ffffff</sprite> <!--ffb2dd-->
-	        <sound event="hit">pinkie-hit1.ogg</sound>
-	        <sound event="miss">pinkie-miss1.ogg</sound>
+		<sprite>monster-pinkie.xml|#f737b8,ffffff</sprite> <!--ffb2dd-->
+		<sound event="hit">pinkie-hit1.ogg</sound>
+		<sound event="miss">pinkie-miss1.ogg</sound>
 	</monster>
 	<monster id="17" name="Cogumelo">
 	        <sprite>monster-mushroom-spiky.xml</sprite>
 	        <sound event="hit">shroom-hit1.ogg</sound>
 	</monster>
 	<monster id="18" name="Tufo">
-	        <sprite>monster-fluffy.xml</sprite>
-	        <sound event="hit">fluffy-hit1.ogg</sound>
-	        <sound event="hit">fluffy-hit2.ogg</sound>
-	        <sound event="hit">fluffy-hit3.ogg</sound>
-	        <sound event="miss">fluffy-miss1.ogg</sound>
-	        <sound event="hurt">fluffy-hurt1.ogg</sound>
+		<sprite>monster-fluffy.xml</sprite>
+		<sound event="hit">fluffy-hit1.ogg</sound>
+		<sound event="hit">fluffy-hit2.ogg</sound>
+		<sound event="hit">fluffy-hit3.ogg</sound>
+		<sound event="miss">fluffy-miss1.ogg</sound>
+		<sound event="hurt">fluffy-hurt1.ogg</sound>
 	</monster>
 	<monster id="19" name="Cobra da Caverna">
-	        <sprite>monster-snake-cave.xml</sprite>
+		<sprite>monster-snake-cave.xml</sprite>
+		<sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
 	</monster>
 	<monster id="20" name="Jack O">
 	        <sprite>monster-ghost-pumpkin.xml</sprite>
@@ -130,43 +131,43 @@
 	        <sprite>monster-skull-poison.xml</sprite>
 	</monster>
 	<monster id="23" name="Tronco Vivo">
-	        <sprite>monster-logmonster.xml</sprite>
-	        <sound event="hurt">loghead-hurt1.ogg</sound>
-	        <sound event="hurt">loghead-hurt2.ogg</sound>
-	        <sound event="hurt">loghead-hurt3.ogg</sound>
-	        <sound event="hurt">loghead-hurt4.ogg</sound>
-	        <sound event="hurt">loghead-hurt5.ogg</sound>
+		<sprite>monster-logmonster.xml</sprite>
+		<sound event="hurt">loghead-hurt1.ogg</sound>
+		<sound event="hurt">loghead-hurt2.ogg</sound>
+		<sound event="hurt">loghead-hurt3.ogg</sound>
+		<sound event="hurt">loghead-hurt4.ogg</sound>
+		<sound event="hurt">loghead-hurt5.ogg</sound>
 	</monster>
 	<monster id="24" name="Cobra da Montanha">
-	        <sprite>monster-snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
+		<sprite>monster-snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
 	</monster>
 	<monster id="25" name="Tufo da Páscoa">
-	        <sprite>monster-fluffy.xml</sprite>
-	        <sound event="hit">fluffy-hit1.ogg</sound>
-	        <sound event="hit">fluffy-hit2.ogg</sound>
-	        <sound event="hit">fluffy-hit3.ogg</sound>
-	        <sound event="miss">fluffy-miss1.ogg</sound>
-	        <sound event="hurt">fluffy-hurt1.ogg</sound>
+		<sprite>monster-fluffy.xml</sprite>
+		<sound event="hit">fluffy-hit1.ogg</sound>
+		<sound event="hit">fluffy-hit2.ogg</sound>
+		<sound event="hit">fluffy-hit3.ogg</sound>
+		<sound event="miss">fluffy-miss1.ogg</sound>
+		<sound event="hurt">fluffy-hurt1.ogg</sound>
 	</monster>
 	<monster id="26" name="Mouboo">
-	        <sprite>monster-mouboo.xml</sprite>
+		<sprite>monster-mouboo.xml</sprite>
 	</monster>
 	<monster id="27" name="Planta Malva">
-	        <sprite>resource-plant.xml|#e0b0ff</sprite>
+		<sprite>resource-plant.xml|#e0b0ff</sprite>
 	</monster>
 	<monster id="28" name="Planta Cobalto">
-	        <sprite>resource-plant.xml|#0047ab</sprite>
+		<sprite>resource-plant.xml|#0047ab</sprite>
 	</monster>
 	<monster id="29" name="Planta Gamboge">
-	        <sprite>resource-plant.xml|#ef9b0f</sprite>
+		<sprite>resource-plant.xml|#ef9b0f</sprite>
 	</monster>
 	<monster id="30" name="Planta Alizarina">
-	        <sprite>resource-plant.xml|#e32636</sprite>
+		<sprite>resource-plant.xml|#e32636</sprite>
 	</monster>
     	<monster id="31" name="Limo do Mar">
-	        <sprite>monster-slime.xml|#4ca1a0,ffffff</sprite>
-	        <sprite>acessorios/slime-seajelly.xml|#4ca1a0,ffffff</sprite>
-	        <sound event="hit">slime-hit1.ogg</sound>
+		<sprite>monster-slime.xml|#4ca1a0,ffffff</sprite>
+		<sprite>acessorios/slime-seajelly.xml|#4ca1a0,ffffff</sprite>
+		<sound event="hit">slime-hit1.ogg</sound>
 	</monster>
 	<monster id="32" name="Cobra da Grama">
 		<sprite>monster-snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
@@ -176,12 +177,22 @@
 	</monster>
 	<monster id="34" name="Zumbi">
 		<sprite>monster-zombie.xml</sprite>
+		<sound event="move">monsters/zombie/zombie-move1.ogg</sound>
+		<sound event="move">monsters/zombie/zombie-move2.ogg</sound>
+		<sound event="hit">monsters/zombie/zombie-hit1.ogg</sound>
+		<sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
+		<sound event="miss">monsters/zombie/zombie-miss1.ogg</sound>
+		<sound event="die">monsters/zombie/zombie-dying1.ogg</sound>
 	</monster>
 	<monster id="35" name="Trevos">
 		<sprite>resource-clover.xml</sprite>
 	</monster>
 	<monster id="36" name="Esquilo">
 		<sprite>monster-squirrel.xml</sprite>
+		<sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+		<sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+		<sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+		<sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
 	</monster>
 	<monster id="37" name="Dragão de Fogo">
 		<sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
@@ -189,14 +200,14 @@
 		particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
 		/>
 	</monster>
-	<monster id="38" name="Wisp">
+	<monster id="38" name="Espectro">
 		<sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
 	<monster id="39" name="Lesma">
 		<sprite>monster-snail.xml</sprite>
 	</monster>
-	<monster id="40" name="Espectro">
+	<monster id="40" name="Espectro Radiante">
 		<sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
@@ -217,7 +228,7 @@
 		<sprite>chest-warlordplate-male.xml</sprite>
 		<sprite>head-warlordhelm.xml</sprite>
 	</monster>
-	<monster id="45" name="Espectro do Calafrio">
+	<monster id="45" name="Espectro Calafrio">
 		<sprite>monster-wisp.xml|#77ffdd,77ddff</sprite>
 		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
 	</monster>
