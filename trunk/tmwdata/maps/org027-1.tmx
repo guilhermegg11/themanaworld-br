@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="55" height="55" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Casa do Zelador"/>
   <property name="pasta" value="casaZelador"/>
  </properties>
- <tileset name="Woodland indoor" firstgid="1" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png"/>
  </tileset>
- <tileset name="woodland_indoor_x2" firstgid="257" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="woodland_indoor_x2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor_x2.png"/>
  </tileset>
- <tileset name="Unbenannt2" firstgid="289" tilewidth="32" tileheight="32">
+ <tileset firstgid="289" name="Unbenannt2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor_x3.png"/>
  </tileset>
- <tileset name="collision" firstgid="337" tilewidth="32" tileheight="32">
+ <tileset firstgid="337" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" trans="000000"/>
  </tileset>
- <tileset name="Pots_x2" firstgid="339" tilewidth="32" tileheight="32">
+ <tileset firstgid="339" name="Pots_x2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Pots_x2.png" trans="000000"/>
  </tileset>
  <layer name="Ground" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3V2wnCQBCF4UQriFagaAERLUBQK1ArUPsvwRE2MAT3xj4Mu/wLH2RmX84hkIxd140AAAAAAKAKvbNUz9N+oXZ6ts6canDW6nnar9ROz9aZU23+8O31fQ224iKu4ubmae9jnTmn2108xNPN54a7tfzefvvQsc5c0q2PsM5c0m2IsM5c0i30/a/tHzDvFmOdOafbS7zFp8FuO7FP7FVbt6M4Ndotl3XmVL5zCNxZZwYAAAAAAED9vnk0sH1ELwAA
+   H4sIAAAAAAAAA+3V2wnCQBCF4UQriFagaAERLUBQK1ArUPsvwRE2MAT3xj4Mu/wLH2RmX84hkIxd140AAAAAAKAKvbNUz9N+oXZ6ts6canDW6nnar9ROz9aZU23+8O31fQ224iKu4ubmae9jnTmn2108xNPN54a7tfzefvvQsc5c0q2PsM5c0m2IsM5c0i30/a/tHzDvFmOdOafbS7zFp8FuO7FP7FVbt6M4Ndotl3XmVL5zCNxZZwYAAAAAAED9vnk0sH1ELwAA
   </data>
  </layer>
  <layer name="Lower" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3VOQrCQBjF8UmjokewdqnUxqVSG5fK5WweJdfQG2ihtYJLq+ALpFCxiEj8SPz/4JGZIcX7GEicAwAAAAAASVTynCt7z2cV7ave+/eTpKkZWuEcufCsrX1HyWu9VFZG3b410AzDlzsaaT9WjlqvlY1FsR/YKwfrEjG5KjfrEvhbhYd1Td+SutJIwb8gUAyfWaWrmXpKX8lYlvrQPMI7E800VWYpubc0iHJvgUWsLexslZ3iWxeJwUk5KxfrIgAAAAAAAABM3QHFtMBTRC8AAA==
+   H4sIAAAAAAAAA+3VOQrCQBjF8UmjokewdqnUxqVSG5fK5WweJdfQG2ihtYJLq+ALpFCxiEj8SPz/4JGZIcX7GEicAwAAAAAASVTynCt7z2cV7ave+/eTpKkZWuEcufCsrX1HyWu9VFZG3b410AzDlzsaaT9WjlqvlY1FsR/YKwfrEjG5KjfrEvhbhYd1Td+SutJIwb8gUAyfWaWrmXpKX8lYlvrQPMI7E800VWYpubc0iHJvgUWsLexslZ3iWxeJwUk5KxfrIgAAAAAAAABM3QHFtMBTRC8AAA==
   </data>
  </layer>
  <layer name="Fringe" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3OMQ0AAAjAMOQjAbnwoYDwtMn+RQAAAAAAAMDKqb4nAAAAAACONPJRzt1ELwAA
+   H4sIAAAAAAAAA+3OMQ0AAAjAMOQjAbnwoYDwtMn+RQAAAAAAAMDKqb4nAAAAAACONPJRzt1ELwAA
   </data>
  </layer>
  <layer name="Over" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3VwQkAIAwEwbRk/1WoDZkK8hBElBnY//0uAgAAAADgb60IYEfPRjZvD4HHVf/suwEAAAA4ZQH9FO8qRC8AAA==
+   H4sIAAAAAAAAA+3VwQkAIAwEwbRk/1WoDZkK8hBElBnY//0uAgAAAADgb60IYEfPRjZvD4HHVf/suwEAAAA4ZQH9FO8qRC8AAA==
   </data>
  </layer>
- <layer name="Collision" width="55" height="55" visible="0">
+ <layer name="Collision" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3SQQqAMAwAwfpF//8Y8SbFYhVLGjqBORg8ZNF9K2UHAAAAYLhz6uee3czuprXXNo/etusu+mbfLfftK7e1+lqtmdq/TPTNI/ui7/2zq34/+uY3bU+dmdtW/ieztgEAAAAwrwOwN56rRC8AAA==
+   H4sIAAAAAAAAA+3SSwrAIAxAQXtF73+Y0q1U+qFiTCcwC8VFHli3UioAAAAAwx3Tnu/cRXY2vXttcWjL1ZZB5rZeX691pfY3M3vnkX2z9/2yq30/e+cnbVedK7f9+U+u2gYAAABAXDuWaXDLRC8AAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
