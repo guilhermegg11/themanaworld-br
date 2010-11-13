@@ -149,12 +149,5 @@
     <property name="monster_id" value="13"/>
    </properties>
   </object>
-  <object name="Espectro do Calafrio (4)" type="spawn" x="576" y="608" width="1536" height="896">
-   <properties>
-    <property name="eA_spawn" value="180000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="45"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>
