@@ -1,52 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="55" height="55" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Casa do Zelador"/>
   <property name="pasta" value="casaZelador"/>
  </properties>
- <tileset firstgid="1" name="Woodland indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
- </tileset>
- <tileset firstgid="257" name="woodland_indoor_x2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
- </tileset>
- <tileset firstgid="289" name="Unbenannt2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
- </tileset>
- <tileset firstgid="337" name="collision" tilewidth="32" tileheight="32">
+ <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" trans="000000"/>
  </tileset>
- <tileset firstgid="339" name="Pots_x2" tilewidth="32" tileheight="32">
+ <tileset name="Woodland indoor" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="woodland_indoor_x2" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset name="Unbenannt2" firstgid="291" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <tileset name="Pots_x2" firstgid="339" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Pots_x2.png" trans="000000"/>
+ </tileset>
+ <tileset name="Teto" firstgid="371" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png"/>
+ </tileset>
+ <tileset name="porta_X3" firstgid="411" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png"/>
  </tileset>
  <layer name="Ground" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3V2wnCQBCF4UQriFagaAERLUBQK1ArUPsvwRE2MAT3xj4Mu/wLH2RmX84hkIxd140AAAAAAKAKvbNUz9N+oXZ6ts6canDW6nnar9ROz9aZU23+8O31fQ224iKu4ubmae9jnTmn2108xNPN54a7tfzefvvQsc5c0q2PsM5c0m2IsM5c0i30/a/tHzDvFmOdOafbS7zFp8FuO7FP7FVbt6M4Ndotl3XmVL5zCNxZZwYAAAAAAED9vnk0sH1ELwAA
+   H4sIAAAAAAAAAO3V0QnCMBSF4RZ1guoELTpAQTdQJ1AnUPefwPuQyK0kmqBwSfwLHyQ3L+dQSMamaUYAAAAAAFCEmbNQaz+fq5neW2dO1TkrtfbzpZrpvXXmVH1AbK7PSzCIvTiIo9v7eYx15pxuJ3EWF7qZZ/62Ww1C3fyd37fTN0C/ESUIdeucsZ2+Ac95IULd/F2v16W+Aa/dPrHOnNPtKm7iXmG3tdgk9iqt21bsKu2Wyzpzqtg3vDmzzvyL/2mdgW4AAAAAAODfPQBj3VdGRC8AAA==
   </data>
  </layer>
  <layer name="Lower" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VOQrCQBjF8UmjokewdqnUxqVSG5fK5WweJdfQG2ihtYJLq+ALpFCxiEj8SPz/4JGZIcX7GEicAwAAAAAASVTynCt7z2cV7ave+/eTpKkZWuEcufCsrX1HyWu9VFZG3b410AzDlzsaaT9WjlqvlY1FsR/YKwfrEjG5KjfrEvhbhYd1Td+SutJIwb8gUAyfWaWrmXpKX8lYlvrQPMI7E800VWYpubc0iHJvgUWsLexslZ3iWxeJwUk5KxfrIgAAAAAAAABM3QHFtMBTRC8AAA==
+   H4sIAAAAAAAAAO3Vu4rCQACF4aRbxX2Erb1UauNq5aXwUuna6xvo0+yjbC+Irb6BFloreGnVU4zgBglESUbl/+AwM5kUJwxkHAcAAAAAALyipOs4Kff/s7TWGff2+8+up959072g8dvM42a/qHVJSWg+VWYWOt5roN5D8z11jQ3PGTW1bilbzefKIuqCDxh71hOfd9fKJsQuNh2Vk+0SAQQ5NzwP77ldfF7Ns/qX5JS8MoqgU9i+zBhTyvqmilJVPmyWCqjrs1cz90FbY0f5edE7/B35ndu131Bb2LNUVsqf7SIh2Cl75WC7CAAAAAAAAACrzni9mPBELwAA
   </data>
  </layer>
  <layer name="Fringe" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OMQ0AAAjAMOQjAbnwoYDwtMn+RQAAAAAAAMDKqb4nAAAAAACONPJRzt1ELwAA
+   H4sIAAAAAAAAAO3OsQkAIAwAwbi+IwjuGru0diFwB99/BAAAAAAAAJT9Ot0TwDh3dR8AAAAA/Enetih6RC8AAA==
   </data>
  </layer>
- <layer name="Over" width="55" height="55">
+ <layer name="Top" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VwQkAIAwEwbRk/1WoDZkK8hBElBnY//0uAgAAAADgb60IYEfPRjZvD4HHVf/suwEAAAA4ZQH9FO8qRC8AAA==
+   H4sIAAAAAAAAAO3ROQ7CMBRF0Z81sTamgknQsjpgPxgJGsAxnbFzjvSK2I2vEgEAAAD9mA8Rqy87ZM5fWwy1X162zLzxWHj7XltV2j5pq2uKbed0fhrZuuG2kpb/W4m2urRFXNKuabfnd09t77TV1XPbJr1xl9lD7m7bQNtsZL/c/7Oe2wAAAIDpuAOR4N6dRC8AAA==
   </data>
  </layer>
- <layer name="Collision" width="55" height="55">
+ <layer name="Collision" width="55" height="55" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SSwrAIAxAQXtF73+Y0q1U+qFiTCcwC8VFHli3UioAAAAAwx3Tnu/cRXY2vXttcWjL1ZZB5rZeX691pfY3M3vnkX2z9/2yq30/e+cnbVedK7f9+U+u2gYAAABAXDuWaXDLRC8AAA==
+   H4sIAAAAAAAAAO3PwQqAIBBFUfH/P7p9aGkko8MZOIukxbu1lFIBAAAAWK40vkfedta63ru2fWjL1ZZB5rZeX6/1pPYvF715ZV/03j+77v9Hb55pe+s8uW32ojdry9321By9AQAAAGDEBd3r5+VELwAA
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="toGraveyard" type="warp" x="832" y="1056" width="39" height="37">
+  <object name="paraCemitério" type="warp" x="832" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="org027"/>
     <property name="dest_x" value="2816"/>

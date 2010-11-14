@@ -1,3 +1,3 @@
 // org027-1 Casa do Zelador warps
 
-org027-1.gat,26,33	warp	toGraveyard	-1,-1,org027.gat,88,85
+org027-1.gat,26,35	warp	paraCemitério	-1,-1,org027.gat,88,85
