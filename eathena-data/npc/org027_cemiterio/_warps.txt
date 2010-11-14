@@ -1,4 +1,4 @@
 // org027 Cemitério warps
 
-org027.gat,88,84	warp	toCaretaker's	-1,-1,org027-1.gat,26,32
+org027.gat,88,84	warp	toCaretaker's	-1,-1,org027-1.gat,26,34
 org027.gat,63,106	warp	toSwamp	-1,-1,org026.gat,63,17
