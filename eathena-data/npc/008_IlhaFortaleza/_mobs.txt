@@ -21,9 +21,9 @@
 008.gat,158,97,1,4	monster	Escorpião Vermelho (1)	1004,1,90000,30000,Mob008::On1004
 008.gat,134,42,56,13	monster	Bicho-da-ceda (10)	1035,5,0,0,Mob008::On1035
 008.gat,102,52,160,64	monster	Bixo-da-Seda (40)	1035,40,0,0,Mob008::On1035
-008.gat,37,46,0,0	monster	Colmeia	1337,1,0,0,Mob008::On1337
-008.gat,64,25,0,0	monster	Colmeia	1337,1,0,0,Mob008::On1337
-008.gat,148,29,0,0	monster	Colmeia	1337,1,0,0,Mob008::On1337
+008.gat,37,46,0,0	monster	Colmeia 1	1337,1,0,0,Mob008::On1337_1
+008.gat,64,25,0,0	monster	Colmeia 2	1337,1,0,0,Mob008::On1337_2
+008.gat,148,29,0,0	monster	Colmeia 3	1337,1,0,0,Mob008::On1337_3
 
 008.gat,0,0,0	script	Mob008	-1,{
 
@@ -89,9 +89,22 @@ On1035:
 	callfunc "MobPoints";
 	break;
 
-On1337:
+On1337_1:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "bilheteVermeGuloso", 37, 46;
+	break;
+
+On1337_2:
+	set @mobID, 1337;
+	callfunc "MobPoints";
+	callfunc "bilheteVermeGuloso", 64, 25;
+	break;
+
+On1337_3:
+	set @mobID, 1337;
+	callfunc "MobPoints";
+	callfunc "bilheteVermeGuloso", 148, 29;
 	break;
 
 

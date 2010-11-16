@@ -61,6 +61,10 @@
 		</callsub>
 	</monstro>
 
+	<monstro id="1337" nome="Colmeia">
+		<script>callfunc "bilheteVermeGuloso", %X%, %Y%;</script>
+	</monstro>
+
 	<!-- ==================== Scripts das Jazidas ==================== -->
 
 	<script id="callfunc_minerarJadiza">

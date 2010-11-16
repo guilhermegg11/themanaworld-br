@@ -304,20 +304,23 @@
   <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="1216" y="1504" width="32" height="32"/>
   <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="4768" y="960" width="32" height="32"/>
   <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="2080" y="832" width="32" height="32"/>
-  <object name="Colmeia" type="spawn" x="1184" y="1472" width="32" height="32">
+  <object name="Colmeia 1" type="spawn" x="1184" y="1472" width="32" height="32">
    <properties>
+    <property name="grupo" value="1"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="335"/>
    </properties>
   </object>
-  <object name="Colmeia" type="spawn" x="2048" y="800" width="32" height="32">
+  <object name="Colmeia 2" type="spawn" x="2048" y="800" width="32" height="32">
    <properties>
+    <property name="grupo" value="2"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="335"/>
    </properties>
   </object>
-  <object name="Colmeia" type="spawn" x="4736" y="928" width="32" height="32">
+  <object name="Colmeia 3" type="spawn" x="4736" y="928" width="32" height="32">
    <properties>
+    <property name="grupo" value="3"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="335"/>
    </properties>
