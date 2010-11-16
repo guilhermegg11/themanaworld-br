@@ -132,6 +132,8 @@ div.ui-widget-content {
 
 .logoff {
     float: right;
+    padding-left: 25px;
+    padding-right: 25px;
     font-weight: normal;
     color: #2f2e32;
     text-decoration: none;
@@ -156,8 +158,10 @@ div.ui-widget-content {
 </head>
 <body>
 <a href="logoff.php" class="logoff ui-state-activer">Deslogar-se</a>
-<?php if (is_array($account)) { 
-if (is_string($valid)) { ?>
+<?php if (is_array($account)) {
+if ($account['gm level'] >= 20) { ?>
+<a href="viewlog.php" class="logoff ui-state-activer">GM Logs</a>
+<?php } if (is_string($valid)) { ?>
 <div align="center" class="ui-state-error"><?php
     echo htmlspecialchars($valid, ENT_NOQUOTES, 'UTF-8'); ?></div>
 <?php } else if ($valid === TRUE) { ?>

@@ -10,6 +10,7 @@ define('LADMIN_PORT', 6901);
 define('LADMIN_PASS', 'admin');
 
 define('EA_ACCOUNT_TXT', '/home/eathena/eathena/save/account.txt');
+define('EA_GMLOG_DIR', '/home/eathena/eathena')
 
 define('MYSQL_HOST', 'localhost');
 define('MYSQL_PORT', 3306);
