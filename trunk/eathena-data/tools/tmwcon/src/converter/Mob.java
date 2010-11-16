@@ -6,6 +6,8 @@ import java.util.List;
 public class Mob implements Comparable<Mob>{
 
 	private int id = -1;
+	private int x;
+	private int y;
 	private String grupo; //< Uso indevidual
 	private List<Object> scripts = new ArrayList<Object>();
 	private List<MobSpawn> spawns = new ArrayList<MobSpawn>(); //< Uso genérico
@@ -30,6 +32,22 @@ public class Mob implements Comparable<Mob>{
 
 	public void setId(int mob) {
 		this.id = mob;
+	}
+
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
 	}
 
 	public List<Object> getScripts() {

@@ -59,11 +59,11 @@ public class Process {
         int width = in.width / 32;
         int height = in.height / 32;
         if (!warp) {
-            if (width > 1) --width;
-            if (height > 1) --height;
+            if (width > 0) --width;
+            if (height > 0) --height;
         }
-        x += width / 2;
-        y += height / 2;
+        x += (width>0?width:1) / 2;
+        y += (height>0?height:1) / 2;
         if (warp) {
             width -= 2;
             height -= 2;
@@ -153,12 +153,15 @@ public class Process {
 		int time1 = getProp(props, "eA_spawn", (tSpawn!=null?tSpawn*1000:0) );
 		int time2 = getProp(props, "eA_death", (tMorte!=null?tMorte*1000:0) );
 		int[] shape = resolveBounds(bounds, false);
-		System.out.printf("Usable mob found: %s (%d) grupo:%s\n", name, mob, retMob.getGrupo());
+		System.out.printf("Usable mob found: %s (%d)%s\n", name, mob, retMob.getGrupo().length()>0?" grupo:"+retMob.getGrupo():"");
 		out.printf("%s.gat,%d,%d,%d,%d\tmonster\t%s\t%d,%d,%d,%d,Mob%s::On%s\n", map, shape[0], shape[1], shape[2], shape[3], name, mob, max, time1, time2, map, retMob.getIdGrupo());
 
+		retMob.setX(shape[0]);
+		retMob.setY(shape[1]);
 		String script = getProp(props, "script", null);
-		if(script!=null)
+		if(script!=null) {
 			retMob.getScripts().add(script);
+		}
 		return retMob;
 	}
 
@@ -281,8 +284,10 @@ public class Process {
 			if(mob2!=null) {
 				for( Object obj : mob2.getScripts() ) {
 					if( (script=Mob.paraMobScript(obj))!=null ){
-						if( script.contemGrupo(mob.getGrupo()) ){
+						if( script.contemGrupo(mob.getGrupo()) || script.getGrupos().size()==0){
 							str = script.getScript().replace("%GRUPO%", mob.getGrupo());
+							str = str.replaceAll("%X%", String.valueOf(mob.getX()) );
+							str = str.replaceAll("%Y%", String.valueOf(mob.getY()) );
 							mobOut.printf("\t%s\n", str);
 						}
 					} else if( (sub=Mob.paraMobCallsub(obj))!=null ){
