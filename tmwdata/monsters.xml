@@ -495,29 +495,8 @@
 		<sound event="die">tarantula-die.ogg</sound>  <!-- Morrendo -->
 	</monster>
 
-	<monster id="335" name="Espectro Verde">
-		<sprite>monster-wisp.xml|#5E9726,72B82E</sprite>
-		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
-	</monster>
-	<monster id="336" name="Espectro Azul">
-		<sprite>monster-wisp.xml|#264397,3862DC</sprite>
-		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
-	</monster>
-	<monster id="337" name="Espectro Amarelo">
-		<sprite>monster-wisp.xml|#977B26,E2B11D</sprite>
-		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
-	</monster>
-	<monster id="338" name="Espectro Vermelho">
-		<sprite>monster-wisp.xml|#972626,E54343</sprite>
-		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
-	</monster>
-	<monster id="339" name="Espectro Violeta">
-		<sprite>monster-wisp.xml|#5C2697,965CD6</sprite>
-		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
-	</monster>
-	<monster id="340" name="Espectro Negro">
-		<sprite>monster-wisp.xml|#404040,737373</sprite>
-		<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+	<monster id="335" name="Colmeia" targetCursor="small">
+		<sprite>monsters/monstro-colmeia.xml</sprite>
 	</monster>
 </monsters>
 

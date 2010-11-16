@@ -3,15 +3,12 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-008.gat,42,29,23,11	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
 008.gat,172,45,13,18	monster	Planta Malva (1)	1029,1,240000,120000,Mob008::On1029
 008.gat,171,46,13,18	monster	Planta Cobalto (1)	1030,1,240000,120000,Mob008::On1030
 008.gat,171,67,13,18	monster	Planta Gamboge (1)	1031,1,240000,120000,Mob008::On1031
 008.gat,170,68,13,18	monster	Planta Alizarina (1)	1032,1,240000,120000,Mob008::On1032
 008.gat,69,45,47,18	monster	Flor (5)	1014,5,0,0,Mob008::On1014
-008.gat,167,30,23,10	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
 008.gat,157,45,43,18	monster	Lenha Dura (5)	1025,5,0,0,Mob008::On1025
-008.gat,33,45,23,12	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
 008.gat,60,82,23,12	monster	Morcego (5)	1017,5,0,0,Mob008::On1017
 008.gat,50,94,12,7	monster	Verme (5)	1002,5,0,0,Mob008::On1002
 008.gat,163,102,28,12	monster	Verme (10)	1002,10,0,0,Mob008::On1002
@@ -24,6 +21,9 @@
 008.gat,158,97,1,4	monster	Escorpião Vermelho (1)	1004,1,90000,30000,Mob008::On1004
 008.gat,134,42,56,13	monster	Bicho-da-ceda (10)	1035,5,0,0,Mob008::On1035
 008.gat,102,52,160,64	monster	Bixo-da-Seda (40)	1035,40,0,0,Mob008::On1035
+008.gat,37,46,0,0	monster	Colmeia	1337,1,0,0,Mob008::On1337
+008.gat,64,25,0,0	monster	Colmeia	1337,1,0,0,Mob008::On1337
+008.gat,148,29,0,0	monster	Colmeia	1337,1,0,0,Mob008::On1337
 
 008.gat,0,0,0	script	Mob008	-1,{
 
@@ -86,6 +86,11 @@ On1032:
 
 On1035:
 	set @mobID, 1035;
+	callfunc "MobPoints";
+	break;
+
+On1337:
+	set @mobID, 1337;
 	callfunc "MobPoints";
 	break;
 
