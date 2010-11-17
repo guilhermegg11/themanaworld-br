@@ -145,6 +145,7 @@
   </object>
   <object name="Abelhas (10)" type="spawn" x="1614" y="1322" width="490" height="466">
    <properties>
+    <property name="eA_spawn" value="240000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="47"/>
    </properties>

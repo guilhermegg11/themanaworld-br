@@ -14,6 +14,10 @@
 004.gat,59,113,60,12	monster	Escorpião (3) [45s]	1003,5,45000,0,Mob004::On1003
 004.gat,117,36,55,28	monster	Cogumelo Maligno (8)	1013,8,0,0,Mob004::On1013
 004.gat,119,38,54,25	monster	Cogumelo (6)	1019,6,0,0,Mob004::On1019
+004.gat,112,102,0,0	monster	Colmeia 1	1337,1,60000,0,Mob004::On1337_1
+004.gat,108,59,0,0	monster	Colmeia 2	1337,1,60000,0,Mob004::On1337_2
+004.gat,139,44,0,0	monster	Colmeia 3	1337,1,60000,0,Mob004::On1337_3
+004.gat,89,29,0,0	monster	Colmeia 4	1337,1,60000,0,Mob004::On1337_4
 
 004.gat,0,0,0	script	Mob004	-1,{
 
@@ -70,6 +74,38 @@ On1312:
 	set @mobID, 1312;
 	callfunc "MobPoints";
 	callsub _MOBS_trasgoRoxo;
+	break;
+
+On1337_1:
+	set @mobID, 1337;
+	callfunc "MobPoints";
+	callfunc "sumonaAbelhas", "004.gat", 112, 102, "Mob004::On1049_1";
+	break;
+On1049_1:
+	break;
+
+On1337_2:
+	set @mobID, 1337;
+	callfunc "MobPoints";
+	callfunc "sumonaAbelhas", "004.gat", 108, 59, "Mob004::On1049_2";
+	break;
+On1049_2:
+	break;
+
+On1337_3:
+	set @mobID, 1337;
+	callfunc "MobPoints";
+	callfunc "sumonaAbelhas", "004.gat", 139, 44, "Mob004::On1049_3";
+	break;
+On1049_3:
+	break;
+
+On1337_4:
+	set @mobID, 1337;
+	callfunc "MobPoints";
+	callfunc "sumonaAbelhas", "004.gat", 89, 29, "Mob004::On1049_4";
+	break;
+On1049_4:
 	break;
 
 

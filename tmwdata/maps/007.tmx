@@ -363,4 +363,55 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="Objects2" width="0" height="0">
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="5248" y="1408" width="32" height="32"/>
+  <object name="Colmeia 1" type="spawn" x="5216" y="1376" width="32" height="32">
+   <properties>
+    <property name="grupo" value="1"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="3904" y="832" width="32" height="32"/>
+  <object name="Colmeia 2" type="spawn" x="3872" y="800" width="32" height="32">
+   <properties>
+    <property name="grupo" value="2"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="5632" y="1120" width="32" height="32"/>
+  <object name="Colmeia 3" type="spawn" x="5600" y="1088" width="32" height="32">
+   <properties>
+    <property name="grupo" value="3"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="4576" y="864" width="32" height="32"/>
+  <object name="Colmeia 4" type="spawn" x="4544" y="832" width="32" height="32">
+   <properties>
+    <property name="grupo" value="4"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="4608" y="1824" width="32" height="32"/>
+  <object name="Colmeia 5" type="spawn" x="4576" y="1792" width="32" height="32">
+   <properties>
+    <property name="grupo" value="5"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="3488" y="1472" width="32" height="32"/>
+  <object name="Colmeia 6" type="spawn" x="3456" y="1440" width="32" height="32">
+   <properties>
+    <property name="grupo" value="6"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="5312" y="2496" width="32" height="32"/>
+  <object name="Colmeia 7" type="spawn" x="5280" y="2464" width="32" height="32">
+   <properties>
+    <property name="grupo" value="7"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
