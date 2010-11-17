@@ -62,7 +62,11 @@
 	</monstro>
 
 	<monstro id="1337" nome="Colmeia">
-		<script>callfunc "bilheteVermeGuloso", %X%, %Y%;</script>
+		<script>
+	callfunc "sumonaAbelhas", "%MAPA%.gat", %X%, %Y%, "Mob%MAPA%::On1049_%GRUPO%";
+	break;
+On1049_%GRUPO%:
+		</script>
 	</monstro>
 
 	<!-- ==================== Scripts das Jazidas ==================== -->
