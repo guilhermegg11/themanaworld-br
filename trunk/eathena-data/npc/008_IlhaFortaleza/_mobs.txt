@@ -92,19 +92,25 @@ On1035:
 On1337_1:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "bilheteVermeGuloso", 37, 46;
+	callfunc "sumonaAbelhas", "008.gat", 37, 46, "Mob008::On1049_1";
+	break;
+On1049_1:
 	break;
 
 On1337_2:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "bilheteVermeGuloso", 64, 25;
+	callfunc "sumonaAbelhas", "008.gat", 64, 25, "Mob008::On1049_2";
+	break;
+On1049_2:
 	break;
 
 On1337_3:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "bilheteVermeGuloso", 148, 29;
+	callfunc "sumonaAbelhas", "008.gat", 148, 29, "Mob008::On1049_3";
+	break;
+On1049_3:
 	break;
 
 

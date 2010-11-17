@@ -285,7 +285,8 @@ public class Process {
 				for( Object obj : mob2.getScripts() ) {
 					if( (script=Mob.paraMobScript(obj))!=null ){
 						if( script.contemGrupo(mob.getGrupo()) || script.getGrupos().size()==0){
-							str = script.getScript().replace("%GRUPO%", mob.getGrupo());
+							str = script.getScript().replace("%MAPA%", name);
+							str = str.replace("%GRUPO%", mob.getGrupo());
 							str = str.replaceAll("%X%", String.valueOf(mob.getX()) );
 							str = str.replaceAll("%Y%", String.valueOf(mob.getY()) );
 							mobOut.printf("\t%s\n", str);
