@@ -70,7 +70,7 @@
    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
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
+ <objectgroup name="Objects" width="0" height="0" visible="0">
   <object name="graphics/particles/waterfall-1x3.particle.xml" type="PARTICLE_EFFECT" x="844" y="746"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="669" y="1355"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="797" y="2507"/>
@@ -302,26 +302,37 @@
  </objectgroup>
  <objectgroup name="Object2" width="0" height="0">
   <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="1216" y="1504" width="32" height="32"/>
-  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="4768" y="960" width="32" height="32"/>
-  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="2080" y="832" width="32" height="32"/>
   <object name="Colmeia 1" type="spawn" x="1184" y="1472" width="32" height="32">
    <properties>
     <property name="grupo" value="1"/>
-    <property name="max_beings" value="1"/>
     <property name="monster_id" value="335"/>
    </properties>
   </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="2080" y="832" width="32" height="32"/>
   <object name="Colmeia 2" type="spawn" x="2048" y="800" width="32" height="32">
    <properties>
     <property name="grupo" value="2"/>
-    <property name="max_beings" value="1"/>
     <property name="monster_id" value="335"/>
    </properties>
   </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="4768" y="960" width="32" height="32"/>
   <object name="Colmeia 3" type="spawn" x="4736" y="928" width="32" height="32">
    <properties>
     <property name="grupo" value="3"/>
-    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="1344" y="1024" width="32" height="32"/>
+  <object name="Colmeia 4" type="spawn" x="1312" y="992" width="32" height="32">
+   <properties>
+    <property name="grupo" value="4"/>
+    <property name="monster_id" value="335"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="928" y="2240" width="32" height="32"/>
+  <object name="Colmeia 5" type="spawn" x="896" y="2208" width="32" height="32">
+   <properties>
+    <property name="grupo" value="5"/>
     <property name="monster_id" value="335"/>
    </properties>
   </object>
