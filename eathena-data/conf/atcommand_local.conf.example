@@ -35,6 +35,100 @@ email: 0
 // - and normal player must give correct password when he use the @gm command (gm_pass paramter in login_athena.conf)
 gm: 100
 
+//=====================================================================
+// GM 20 - DESENVOLVEDOR
+//=====================================================================
+
+// Returns list of logged in characters with their position.
+who: 20
+
+// GM Hide (hides you from monsters and most reporting functions).
+// To hide from other players use @invisible
+hide: 20
+
+// Sets your spawn point (aka save point).
+save: 20
+
+// Warps you to your last save point.
+return: 20
+
+// Send text to the GM log
+log: 20
+l: 20
+
+// Send text to the GM log and local chat
+tee: 20
+t: 20
+
+// Warp yourself to a person.
+goto: 20
+
+// iterate over players
+// forward
+hugo: 20
+// backward
+linus: 20
+
+// Enables a NPC.
+enablenpc: 20
+
+// Disables a NPC.
+disablenpc: 20
+
+// Warp yourself to a certain map, at (x,y) coordinates.
+warp: 20
+
+// Shows information about the map
+mapinfo: 20
+
+//=====================================================================
+// GM 40 - FISCAL
+//=====================================================================
+
+// Locate someone on a map, returns your coordinates if the person isn't on.
+where: 40
+
+// follow a player (including warping to them)
+follow: 40
+
+// Sets the speed you can walk/attack at. Default is 150.
+speed: 40
+
+// Enables you to view other characters stats.
+charstats: 40
+
+// Shows Stats Of All Characters Online
+charstatsall: 40
+
+// Display all items of a player (disabled due to reformed GM guidelines)
+charitemlist: 40
+
+// Display all items of a player's storage (disabled due to reformed GM guidelines)
+charstoragelist: 40
+
+// make yourself invisible to everyone
+invisible: 40
+
+// make yourself visible to everyone
+visible: 40
+
+// Sets another persons base level.
+charblvl: 40
+
+// Warps a character to you
+recall: 40
+
+// To block definitively a player
+block: 40
+
+// To ban a player for a limited time
+ban: 40
+
+//=====================================================================
+// GM 60 - ANIMADOR
+//=====================================================================
+
+//< parei aki
 
 //-------------------------
 // 40: "Dev"
@@ -48,23 +142,11 @@ local_broadcast: 40
 // Suicide your character.
 die: 40
 
-// Locate someone on a map, returns your coordinates if the person isn't on.
-where: 40
-
 // Spawns you to set points in major cities.
 go: 40
 
-// Warp yourself to a person.
-goto: 40
-
-// follow a player (including warping to them)
-follow: 40
-
 // Disconnects a user from the server (1 command + right click menu for GM "(name) force to quit").
 kick: 40
-
-// Returns list of logged in characters with their position.
-who: 40
 
 // Returns list of logged in characters with their party/guild.
 whogroup: 40
@@ -78,24 +160,11 @@ whomapgroup: 40
 // Like @who+@who2+who3, but only for GM.
 whogm: 40
 
-// Enables you to view other characters stats.
-charstats: 40
-
 // Heals a person to full HP/SP.
 heal: 40
 
-// GM Hide (hides you from monsters and most reporting functions).  
-// To hide from other players use @invisible
-hide: 40
-
 // Enables you to to jump randomly on a map (that you are already on).
 jump: 40
-
-// Warps you to your last save point.
-return: 40
-
-// Warp yourself to a certain map, at (x,y) coordinates.
-warp: 40
 
 // Changes GM clothes color (2 same commands)
 dye: 40
@@ -110,25 +179,8 @@ haircolor: 40
 // Deletes all your items.
 itemreset: 40
 
-// Sets your spawn point (aka save point).
-save: 40
-
-// Send text to the GM log
-log: 40
-l: 40
-
-// Send text to the GM log and local chat
-tee: 40
-t: 40
-
 //--------------------
 // 50: Event coordinators
-
-// make yourself invisible to everyone
-invisible: 50
-
-// make yourself visible to everyone
-visible: 50
 
 // Spawns a monster, and a certain amount
 spawn: 50
@@ -145,17 +197,11 @@ inall: 60
 // Disable all wispers for a player
 exall: 60
 
-// Shows Stats Of All Characters Online
-charstatsall: 60
-
 // Turns PVP (Person v. Person) off on a map.
 pvpoff: 60
 
 // Enables PVP on a map.
 pvpon: 60
-
-// Sets the speed you can walk/attack at. Default is 150.
-speed: 60
 
 // Kill all monsters in map (with drops)
 killmonster: 60
@@ -193,9 +239,6 @@ jlvl: 60
 // Unmute a player
 unmute: 60
 
-// Sets another persons base level.
-charblvl: 60
-
 // Changes the sex of an online player (all characters on the account)
 charchangesex: 60
 
@@ -230,9 +273,6 @@ kill: 60
 // Enable hitting a player even when not in pvp
 killer: 60
 
-// Warps a character to you
-recall: 60
-
 // Revives a character, and heals them.
 revive: 60
 
@@ -259,14 +299,8 @@ stpoint: 60
 // Gives you skill points of desired amount.
 skpoint: 60
 
-// To block definitively a player
-block: 60
-
 // To unblock a player
 unblock: 60
-
-// To ban a player for a limited time
-ban: 60
 
 // To unban a player
 unban: 60
@@ -282,12 +316,6 @@ chardropall: 60
 
 // put a players possessions in storage
 charstoreall: 60
-
-// iterate over players
-// forward
-hugo: 60
-// backward
-linus: 60
 
 //----------------------
 // 80: "eA Dev"
@@ -333,12 +361,6 @@ raisemap: 80
 
 // Revives all players on the server.
 raise: 80
-
-// Enables a NPC.
-enablenpc: 80
-
-// Disables a NPC.
-disablenpc: 80
 
 // Move a NPC
 npcmove: 80
@@ -438,12 +460,6 @@ undisguise: 99
 chardisguise: 99
 charundisguise: 99
 
-// Display all items of a player (disabled due to reformed GM guidelines)
-charitemlist: 99
-
-// Display all items of a player's storage (disabled due to reformed GM guidelines)
-charstoragelist: 99
-
 // Display all items of a player's cart (disabled due to reformed GM guidelines)
 charcartlist: 99
 
@@ -474,9 +490,6 @@ gat: 99
 
 // Enables debugging
 packet: 99
-
-// Shows information about the map
-mapinfo: 99
 
 // Re-load item database (admin command)
 reloaditemdb: 99
