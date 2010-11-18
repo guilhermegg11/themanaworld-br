@@ -35,6 +35,21 @@ email: 0
 // - and normal player must give correct password when he use the @gm command (gm_pass paramter in login_athena.conf)
 gm: 100
 
+//-------------------------
+// 20: "Dev TMW-BR"
+
+// Returns list of logged in characters with their position.
+who: 20
+
+// GM Hide (hides you from monsters and most reporting functions).  
+// To hide from other players use @invisible
+hide: 20
+
+// Warp yourself to a certain map, at (x,y) coordinates.
+warp: 20
+
+// Warp yourself to a person.
+goto: 20
 
 //-------------------------
 // 40: "Dev"
@@ -51,17 +66,11 @@ where: 40
 // Spawns you to set points in major cities.
 go: 40
 
-// Warp yourself to a person.
-goto: 40
-
 // follow a player (including warping to them)
 follow: 40
 
 // Disconnects a user from the server (1 command + right click menu for GM "(name) force to quit").
 kick: 40
-
-// Returns list of logged in characters with their position.
-who: 40
 
 // Returns list of logged in characters with their party/guild.
 whogroup: 40
@@ -81,18 +90,11 @@ charstats: 40
 // Heals a person to full HP/SP.
 heal: 40
 
-// GM Hide (hides you from monsters and most reporting functions).  
-// To hide from other players use @invisible
-hide: 40
-
 // Enables you to to jump randomly on a map (that you are already on).
 jump: 40
 
 // Warps you to your last save point.
 return: 40
-
-// Warp yourself to a certain map, at (x,y) coordinates.
-warp: 40
 
 // Changes GM clothes color (2 same commands)
 dye: 40
@@ -120,6 +122,15 @@ t: 40
 
 //--------------------
 // 60: "GM"
+
+// Warps a character to you
+recall: 60
+
+// make yourself invisible to everyone
+invisible: 60
+
+// make yourself visible to everyone
+visible: 60
 
 // Enable all wispers for a player
 inall: 60
@@ -238,10 +249,7 @@ kill: 60
 killer: 60
 
 // Creates weapon of desired element.
-produce: 60
-
-// Warps a character to you
-recall: 60
+produce: 90
 
 // Revives a character, and heals them.
 revive: 60
@@ -299,12 +307,6 @@ hugo: 60
 // backward
 linus: 60
 
-// make yourself invisible to everyone
-invisible: 60
-
-// make yourself visible to everyone
-visible: 60
-
 //----------------------
 // 80: "eA Dev"
 
@@ -318,10 +320,10 @@ magicinfo: 80
 option: 80
 
 // Gives you money (zeny) of desired amount.
-zeny: 80
+zeny: 90
 
 // Changes another character's zenny
-charzeny: 80
+charzeny: 90
 
 // Set options on another character.
 charoption: 80
@@ -372,7 +374,7 @@ lostskill: 80
 idsearch: 80
 
 // Creates an item of your choosing, either Item ID or Name (1 command + /item).
-item: 80
+item: 90
 
 // ??
 itemcheck: 80
