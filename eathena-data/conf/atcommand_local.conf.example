@@ -35,30 +35,18 @@ email: 0
 // - and normal player must give correct password when he use the @gm command (gm_pass paramter in login_athena.conf)
 gm: 100
 
-//-------------------------
-// 20: "Dev TMW-BR"
-
-// Returns list of logged in characters with their position.
-who: 20
-
-// GM Hide (hides you from monsters and most reporting functions).  
-// To hide from other players use @invisible
-hide: 20
-
-// Warp yourself to a certain map, at (x,y) coordinates.
-warp: 20
-
-// Warp yourself to a person.
-goto: 20
 
 //-------------------------
 // 40: "Dev"
 
+// Broadcast to the whole server
+broadcast: 40
+
+// Broadcast to the map you are on
+local_broadcast: 40
+
 // Suicide your character.
 die: 40
-
-// Brings up your personal storage wherever you are.
-storage: 40
 
 // Locate someone on a map, returns your coordinates if the person isn't on.
 where: 40
@@ -66,11 +54,17 @@ where: 40
 // Spawns you to set points in major cities.
 go: 40
 
+// Warp yourself to a person.
+goto: 40
+
 // follow a player (including warping to them)
 follow: 40
 
 // Disconnects a user from the server (1 command + right click menu for GM "(name) force to quit").
 kick: 40
+
+// Returns list of logged in characters with their position.
+who: 40
 
 // Returns list of logged in characters with their party/guild.
 whogroup: 40
@@ -90,11 +84,18 @@ charstats: 40
 // Heals a person to full HP/SP.
 heal: 40
 
+// GM Hide (hides you from monsters and most reporting functions).  
+// To hide from other players use @invisible
+hide: 40
+
 // Enables you to to jump randomly on a map (that you are already on).
 jump: 40
 
 // Warps you to your last save point.
 return: 40
+
+// Warp yourself to a certain map, at (x,y) coordinates.
+warp: 40
 
 // Changes GM clothes color (2 same commands)
 dye: 40
@@ -121,32 +122,28 @@ tee: 40
 t: 40
 
 //--------------------
-// 60: "GM"
-
-// Warps a character to you
-recall: 60
+// 50: Event coordinators
 
 // make yourself invisible to everyone
-invisible: 60
+invisible: 50
 
 // make yourself visible to everyone
-visible: 60
+visible: 50
+
+// Spawns a monster, and a certain amount
+spawn: 50
+
+//Summons a monster, and a certain amount
+summon: 50
+
+//--------------------
+// 60: "GM"
 
 // Enable all wispers for a player
 inall: 60
 
 // Disable all wispers for a player
 exall: 60
-
-// Broadcast to the whole server
-broadcast: 60
-
-// Broadcast to the map you are on
-local_broadcast: 60
-
-// Broadcast (with or without name).
-kami: 60
-kamib: 60
 
 // Shows Stats Of All Characters Online
 charstatsall: 60
@@ -166,17 +163,8 @@ killmonster: 60
 // Kill all monsters in map (without drops)
 killmonster2: 60
 
-// Display all items of a player
-charitemlist: 60
-
-// Display all items of a player's storage
-charstoragelist: 60
-
-// Display all items of a player's cart
-charcartlist: 60
-
-// drop all your items
-dropall: 60
+// Check which characters are online from a characters IP address
+ipcheck: 60
 
 // store all your items
 storeall: 60
@@ -192,12 +180,6 @@ useskill: 60
 
 // make another player killable
 charkillable: 60
-
-// Spawns a monster, and a certain amount
-spawn: 60
-
-//Summons a monster, and a certain amount
-summon: 60
 
 // Resurects yourself.
 alive: 60
@@ -248,8 +230,8 @@ kill: 60
 // Enable hitting a player even when not in pvp
 killer: 60
 
-// Creates weapon of desired element.
-produce: 90
+// Warps a character to you
+recall: 60
 
 // Revives a character, and heals them.
 revive: 60
@@ -295,7 +277,7 @@ jail: 60
 // To discharge a prisoner
 unjail: 60
 
-// drop a players possessions on the gruond
+// drop a players possessions on the ground
 chardropall: 60
 
 // put a players possessions in storage
@@ -320,10 +302,10 @@ magicinfo: 80
 option: 80
 
 // Gives you money (zeny) of desired amount.
-zeny: 90
+zeny: 80
 
 // Changes another character's zenny
-charzeny: 90
+charzeny: 80
 
 // Set options on another character.
 charoption: 80
@@ -374,7 +356,10 @@ lostskill: 80
 idsearch: 80
 
 // Creates an item of your choosing, either Item ID or Name (1 command + /item).
-item: 90
+item: 80
+
+// Creates weapon of desired element.
+produce: 80
 
 // ??
 itemcheck: 80
@@ -382,6 +367,9 @@ itemcheck: 80
 
 //---------------------------
 // 99: "Admin"
+
+// drop all your items
+dropall: 99
 
 // Enables GVG on a map (2 same commands).
 gvgon: 99
@@ -447,8 +435,17 @@ disguise: 99
 undisguise: 99
 
 // To change disguise of another player/GM
-chardisguise: 9
+chardisguise: 99
 charundisguise: 99
+
+// Display all items of a player (disabled due to reformed GM guidelines)
+charitemlist: 99
+
+// Display all items of a player's storage (disabled due to reformed GM guidelines)
+charstoragelist: 99
+
+// Display all items of a player's cart (disabled due to reformed GM guidelines)
+charcartlist: 99
 
 // Enables platinum skills of another player.
 charquestskill: 99
@@ -461,6 +458,10 @@ model: 99
 
 // To get a peco to (un)ride
 mountpeco: 99
+
+// Broadcast (with or without name).
+kami: 99
+kamib: 99
 
 // Disconnect all users from the server
 kickall: 99
@@ -491,3 +492,6 @@ reloadscript: 99
 
 // Re-load GM level (admin command)
 reloadgmdb: 99
+
+// Brings up your personal storage wherever you are.
+storage: 99
