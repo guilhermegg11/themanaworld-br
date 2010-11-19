@@ -124,78 +124,18 @@ block: 40
 // To ban a player for a limited time
 ban: 40
 
+// Check which characters are online from a characters IP address
+ipcheck: 40
+
 //=====================================================================
 // GM 60 - ANIMADOR
 //=====================================================================
 
-//< parei aki
+// Kills everyone on the map you are on.
+doommap: 60
 
-//-------------------------
-// 40: "Dev"
-
-// Broadcast to the whole server
-broadcast: 40
-
-// Broadcast to the map you are on
-local_broadcast: 40
-
-// Suicide your character.
-die: 40
-
-// Spawns you to set points in major cities.
-go: 40
-
-// Disconnects a user from the server (1 command + right click menu for GM "(name) force to quit").
-kick: 40
-
-// Returns list of logged in characters with their party/guild.
-whogroup: 40
-
-// Returns list of logged in characters with their position in a specifical map.
-whomap: 40
-
-// Returns list of logged in characters with their party/guild in a specifical map.
-whomapgroup: 40
-
-// Like @who+@who2+who3, but only for GM.
-whogm: 40
-
-// Heals a person to full HP/SP.
-heal: 40
-
-// Enables you to to jump randomly on a map (that you are already on).
-jump: 40
-
-// Changes GM clothes color (2 same commands)
-dye: 40
-ccolor: 40
-
-// Changes own hair style.
-hairstyle: 40
-
-// Changes own hair color.
-haircolor: 40
-
-// Deletes all your items.
-itemreset: 40
-
-//--------------------
-// 50: Event coordinators
-
-// Spawns a monster, and a certain amount
-spawn: 50
-
-//Summons a monster, and a certain amount
-summon: 50
-
-//--------------------
-// 60: "GM"
-
-// Enable all wispers for a player
-inall: 60
-
-// Disable all wispers for a player
-exall: 60
+// Recalls Everyone To Your Coordinates
+recallall: 60
 
 // Turns PVP (Person v. Person) off on a map.
 pvpoff: 60
@@ -203,188 +143,261 @@ pvpoff: 60
 // Enables PVP on a map.
 pvpon: 60
 
-// Kill all monsters in map (with drops)
-killmonster: 60
+// Spawns a monster, and a certain amount
+spawn: 60
+
+//Summons a monster, and a certain amount
+summon: 60
 
 // Kill all monsters in map (without drops)
 killmonster2: 60
 
-// Check which characters are online from a characters IP address
-ipcheck: 60
+// Broadcast to the whole server
+broadcast: 60
 
-// store all your items
-storeall: 60
+// Broadcast (with or without name).
+kami: 60
+kamib: 60
 
-// allow other players to hit you out of pvp
-killable: 60
+// Broadcast to the map you are on
+local_broadcast: 60
 
-// look up a skill by name
-skillid: 60
+//=====================================================================
+// GM 80 - PRIME
+//=====================================================================
 
-// use a skill by id
-useskill: 60
+// Returns list of logged in characters with their party/guild.
+whogroup: 80
 
-// make another player killable
-charkillable: 60
+// Like @who+@who2+who3, but only for GM.
+whogm: 80
 
-// Resurects yourself.
-alive: 60
-
-// Levels your character to specified level (adds to your level).
-blvl: 60
-
-// Raises your job level (3 same commands).
-jlvl: 60
-
-// Unmute a player
-unmute: 60
-
-// Changes the sex of an online player (all characters on the account)
-charchangesex: 60
-
-// Remove items from a character
-chardelitem: 60
-
-// Sets another persons job level.
-charjlvl: 60
-
-// Gives another character status points
-charstpoint: 60
-
-// Gives another character skill points
-charskpoint: 60
-
-// Resets another character's stats
-charreset: 60
-
-// Resets another character's status, skills
-charstreset: 60
-charskreset: 60
-
-// resets a char back to when it was first created
-charwipe: 60
-
-// Saves the respawn point of another character.
-charsave: 60
-
-// Kill another character without hitting them.
-kill: 60
-
-// Enable hitting a player even when not in pvp
-killer: 60
-
-// Revives a character, and heals them.
-revive: 60
-
-// Warp another person to a certain map, at (x,y) coordinates
-charwarp: 60
-
-// Change Status of your character
-str: 60
-agi: 60
-vit: 60
-int: 60
-dex: 60
-luk: 60
-
-// Gets all skills
-allskills: 60
-
-// sets GM stats to maximum
-allstats: 60
-
-// Gives you job points.
-stpoint: 60
-
-// Gives you skill points of desired amount.
-skpoint: 60
-
-// To unblock a player
-unblock: 60
-
-// To unban a player
-unban: 60
-
-// To send specified character in jails
-jail: 60
-
-// To discharge a prisoner
-unjail: 60
+// Disconnects a user from the server (1 command + right click menu for GM "(name) force to quit").
+kick: 80
 
 // drop a players possessions on the ground
-chardropall: 60
+chardropall: 80
 
 // put a players possessions in storage
-charstoreall: 60
+charstoreall: 80
+
+// To unblock a player
+unblock: 80
+
+// To unban a player
+unban: 80
+
+//Allows you to spy on any party's party chat. (at least one party member must be online.)
+partyspy: 80
+
+// Warps all online character of a party to you. (at least one party member must be online.)
+partyrecall: 80
+
+// ??
+itemcheck: 80
+
+//=====================================================================
+// GM 99 - ADMINISTRADOR
+//=====================================================================
+
+//-------------------------
+// 40: "Dev"
+
+// Suicide your character.
+die: 99
+
+// Spawns you to set points in major cities.
+go: 99
+
+// Returns list of logged in characters with their position in a specifical map.
+whomap: 99
+
+// Returns list of logged in characters with their party/guild in a specifical map.
+whomapgroup: 99
+
+// Heals a person to full HP/SP.
+heal: 99
+
+// Enables you to to jump randomly on a map (that you are already on).
+jump: 99
+
+// Changes GM clothes color (2 same commands)
+dye: 99
+ccolor: 99
+
+// Changes own hair style.
+hairstyle: 99
+
+// Changes own hair color.
+haircolor: 99
+
+// Deletes all your items.
+itemreset: 99
+
+//--------------------
+// 60: "GM"
+
+// Enable all wispers for a player
+inall: 99
+
+// Disable all wispers for a player
+exall: 99
+
+// Kill all monsters in map (with drops)
+killmonster: 99
+
+// store all your items
+storeall: 99
+
+// allow other players to hit you out of pvp
+killable: 99
+
+// look up a skill by name
+skillid: 99
+
+// use a skill by id
+useskill: 99
+
+// make another player killable
+charkillable: 99
+
+// Resurects yourself.
+alive: 99
+
+// Levels your character to specified level (adds to your level).
+blvl: 99
+
+// Raises your job level (3 same commands).
+jlvl: 99
+
+// Unmute a player
+unmute: 99
+
+// Changes the sex of an online player (all characters on the account)
+charchangesex: 99
+
+// Remove items from a character
+chardelitem: 99
+
+// Sets another persons job level.
+charjlvl: 99
+
+// Gives another character status points
+charstpoint: 99
+
+// Gives another character skill points
+charskpoint: 99
+
+// Resets another character's stats
+charreset: 99
+
+// Resets another character's status, skills
+charstreset: 99
+charskreset: 99
+
+// resets a char back to when it was first created
+charwipe: 99
+
+// Saves the respawn point of another character.
+charsave: 99
+
+// Kill another character without hitting them.
+kill: 99
+
+// Enable hitting a player even when not in pvp
+killer: 99
+
+// Revives a character, and heals them.
+revive: 99
+
+// Warp another person to a certain map, at (x,y) coordinates
+charwarp: 99
+
+// Change Status of your character
+str: 99
+agi: 99
+vit: 99
+int: 99
+dex: 99
+luk: 99
+
+// Gets all skills
+allskills: 99
+
+// sets GM stats to maximum
+allstats: 99
+
+// Gives you job points.
+stpoint: 99
+
+// Gives you skill points of desired amount.
+skpoint: 99
+
+// To send specified character in jails
+jail: 99
+
+// To discharge a prisoner
+unjail: 99
 
 //----------------------
 // 80: "eA Dev"
 
 // set magic properties on a char
-setmagic: 80
+setmagic: 99
 
 // list magic properties on a char
-magicinfo: 80
+magicinfo: 99
 
 // Set your character display options. (Visual effects of your character)
-option: 80
+option: 99
 
 // Gives you money (zeny) of desired amount.
-zeny: 80
+zeny: 99
 
 // Changes another character's zenny
-charzeny: 80
+charzeny: 99
 
 // Set options on another character.
-charoption: 80
+charoption: 99
 
 // Create a static warp portal that lasts until the next reboot
-addwarp: 80
+addwarp: 99
 
 // Set the map you are on to day.
-day: 80
+day: 99
 
 // Kills everyone on the server.
-doom: 80
-
-// Kills everyone on the map you are on.
-doommap: 80
+doom: 99
 
 // Set the map you are currently on to night.
-night: 80
-
-// Recalls Everyone To Your Coordinates
-recallall: 80
+night: 99
 
 // Revives all players on the map.
-raisemap: 80
+raisemap: 99
 
 // Revives all players on the server.
-raise: 80
+raise: 99
 
 // Move a NPC
-npcmove: 80
+npcmove: 99
 
 // turn skills on for a map
-skillon: 80
+skillon: 99
 
 // turn skills off for a map
-skilloff: 80
+skilloff: 99
 
 // Enables lost skills.
-lostskill: 80
+lostskill: 99
 
 // find id of item by name
-idsearch: 80
+idsearch: 99
 
 // Creates an item of your choosing, either Item ID or Name (1 command + /item).
-item: 80
+item: 99
 
 // Creates weapon of desired element.
-produce: 80
-
-// ??
-itemcheck: 80
+produce: 99
 
 
 //---------------------------
@@ -435,14 +448,8 @@ party: 99
 // Warps all online character of a guild to you. (at least one member of that guild must be on.)
 guildrecall: 99
 
-// Warps all online character of a party to you. (at least one party member must be online.)
-partyrecall: 99
-
 // Allows you to spy on any Guilds Guild chat. (at least one member of that guild must be on.)
 guildspy: 99
-
-//Allows you to spy on any party's party chat. (at least one party member must be online.)
-partyspy: 99
 
 // Saves a warp point.
 memo: 99
@@ -474,10 +481,6 @@ model: 99
 
 // To get a peco to (un)ride
 mountpeco: 99
-
-// Broadcast (with or without name).
-kami: 99
-kamib: 99
 
 // Disconnect all users from the server
 kickall: 99
