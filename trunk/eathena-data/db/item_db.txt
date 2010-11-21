@@ -711,3 +711,5 @@
 3185,halloween2010bronze3,halloween2010bronze augustinho,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
 3186,halloween2010bronze4,halloween2010bronze ELLENBR,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
 3187,halloween2010bronze5,halloween2010bronze BRUNO Paz,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
+
+3188,elmodoarcanjo,elmodoarcanjo,5,20000,2000,600,,15,,-30,0,2,256,,0,0,{},{}
