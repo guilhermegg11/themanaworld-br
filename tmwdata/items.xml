@@ -5089,7 +5089,7 @@
 		name="Asas de Anjo"
 		description="Um par de asas de anjo. Não é posível voar com elas."
 		effect="Def.Mag.:+20"
-		type="equip-ring"
+		type="equip-charm"
 		weight="100">
 		<sprite>angel-wings.xml</sprite>
 	</item>
@@ -5371,4 +5371,14 @@
 		effect="15ª posição, 112 pontos, +1 Sorte"
 		type="equip-charm"
 		weight="90"/>
+	<item id="3188"
+		image="equipment/head/elmo-arcanjo.png"
+		name="Elmo Arcanjo"
+		description="..."
+		effect=""
+		type="equip-head"
+		weight="600"
+		defense="15">
+		<sprite>equipment/head/head-elmo-arcanjo.xml</sprite>
+	</item>
 </items>
