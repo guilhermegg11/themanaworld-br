@@ -5381,4 +5381,13 @@
 		defense="15">
 		<sprite>equipment/head/head-elmo-arcanjo.xml</sprite>
 	</item>
+	<item id="3189"
+		image="bracelete-asas-borboleta.png"
+		name="Asas de Borboleta"
+		description="Asas de Borboleta."
+		effect=""
+		type="equip-charm"
+		weight="100">
+		<sprite>equipment/charm/charm-asas-borboleta.xml</sprite>
+	</item>
 </items>
