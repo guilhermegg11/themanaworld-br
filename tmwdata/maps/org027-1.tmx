@@ -27,19 +27,22 @@
  <tileset name="porta_X3" firstgid="411" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/cabana_in_x3.png"/>
  </tileset>
+ <tileset name="porta2_X3" firstgid="427" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
  <layer name="Ground" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3V0QnCMBSF4RZ1guoELTpAQTdQJ1AnUPefwPuQyK0kmqBwSfwLHyQ3L+dQSMamaUYAAAAAAFCEmbNQaz+fq5neW2dO1TkrtfbzpZrpvXXmVH1AbK7PSzCIvTiIo9v7eYx15pxuJ3EWF7qZZ/62Ww1C3fyd37fTN0C/ESUIdeucsZ2+Ac95IULd/F2v16W+Aa/dPrHOnNPtKm7iXmG3tdgk9iqt21bsKu2Wyzpzqtg3vDmzzvyL/2mdgW4AAAAAAODfPQBj3VdGRC8AAA==
+   H4sIAAAAAAAAAO3V0QnCMBSF4YA6QXUCiw5Q0A3UCdQJ1P0n8D4kcJC2JlS4pP6FD25uX86hkHYhhA4AAAAAAFRhEa1kTvul7PTsnTlXE21kTvu17PTsnTnXtsfQXt/XoDUnczaXeE77Id6ZS7pdzc3c6eaeeWq3Oejrlu58nZV35indmkhn5Z15Srd01+tc6z/gs9s33plLuj3M07xm2G1n9pm9aut2MMeZdivlnTnX0NOOvPPO/Ivv6Z2BbgAAAAAA4N+9AcSlsMBELwAA
   </data>
  </layer>
  <layer name="Lower" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Vu4rCQACF4aRbxX2Erb1UauNq5aXwUuna6xvo0+yjbC+Irb6BFloreGnVU4zgBglESUbl/+AwM5kUJwxkHAcAAAAAALyipOs4Kff/s7TWGff2+8+up959072g8dvM42a/qHVJSWg+VWYWOt5roN5D8z11jQ3PGTW1bilbzefKIuqCDxh71hOfd9fKJsQuNh2Vk+0SAQQ5NzwP77ldfF7Ns/qX5JS8MoqgU9i+zBhTyvqmilJVPmyWCqjrs1cz90FbY0f5edE7/B35ndu131Bb2LNUVsqf7SIh2Cl75WC7CAAAAAAAAACrzni9mPBELwAA
+   H4sIAAAAAAAAAO3Vv44BQQDH8d0O4RHUnIpr/KnQ3FFxet6Ap/EoeoloeQMKahJHi59kJGcjskvWcPl+kl9mZneK32SSXccBAAAAAADvKOU6Ttq9fPahdca9vv/VtdW7Y7rnNRbMPGbeF7UuKXHNJ8rUQsd7ddW7Z87zpfHbc0c1revKRvOZMn92wQeMPOvxjb0rZR1iF5v2ysF2iQCC3Bteh/fezhJ/5ll9S3LKpzJ8QqewJc0YVco6U0WpKhGbpQJq+djT0Jmays+b/sP/Iz/3dtIPtYU9C2WpDGwXCcGvslV2tosAAAAAAAAAsOoIhEJYOUQvAAA=
   </data>
  </layer>
  <layer name="Fringe" width="55" height="55">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3OsQkAIAwAwbi+IwjuGru0diFwB99/BAAAAAAAAJT9Ot0TwDh3dR8AAAAA/Enetih6RC8AAA==
+   H4sIAAAAAAAAAO3VwQkAIAwEwdi+JQhWYJOmAb+GwAzcf38XAQAAAAAA/HZGdQG8zdyqjgDa2b4NAAAAaOIC2TlxZkQvAAA=
   </data>
  </layer>
  <layer name="Top" width="55" height="55">
@@ -49,7 +52,7 @@
  </layer>
  <layer name="Collision" width="55" height="55" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3PwQqAIBBFUfH/P7p9aGkko8MZOIukxbu1lFIBAAAAWK40vkfedta63ru2fWjL1ZZB5rZeX6/1pPYvF715ZV/03j+77v9Hb55pe+s8uW32ojdry9321By9AQAAAGDEBd3r5+VELwAA
+   H4sIAAAAAAAAAO3PSwrAIAxAweD9D929WD/QooYJDKi4yCsRUQAAAAD4XTTuM28na83bu7ZzaMvVVqrzjXptGYym/rt736+6Rq2ny9q22nJb26jz5rbV2b2zttxtvebdOwAAAADMeADvsg6LRC8AAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
