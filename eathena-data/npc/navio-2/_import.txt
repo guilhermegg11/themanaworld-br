@@ -1,4 +1,6 @@
 map: navio-2.gat
 npc: npc/navio-2/_mobs.txt
 npc: npc/navio-2/_warps.txt
+
+npc: npc/navio-2/mercador_fugitivo.conf
 npc: npc/navio-2/warp_controlado.conf
