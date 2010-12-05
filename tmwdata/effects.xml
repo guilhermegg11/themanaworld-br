@@ -37,5 +37,6 @@
 	<!-- Todos os efeitos do servidor TMW-BR serão definidos a partir do id 300. -->
 
 	<effect id="300" audio="sfx/puft.ogg" /> <!-- som da explosão da cartola -->
+	<effect id="301" audio="sfx/monsters/zombie/zombie-gemido.ogg" /> <!-- som do Zumbi -->
 
 </being-effects>
