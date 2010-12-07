@@ -1,7 +1,0 @@
-map: 005-2.gat
-
-npc: npc/005-2_Penso_Bhramir/baus.conf
-npc: npc/005-2_Penso_Bhramir/warps_saida.conf
-
-npc: npc/005-2_Penso_Bhramir/_mobs.txt
-npc: npc/005-2_Penso_Bhramir/_warps.txt

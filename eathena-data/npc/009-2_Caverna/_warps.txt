@@ -1,4 +1,0 @@
-// 009-2 Caverna warps
-
-009-2.gat,33,78	warp	para008	-1,-1,008.gat,148,85
-009-2.gat,72,83	warp	para009	-1,-1,009.gat,27,90

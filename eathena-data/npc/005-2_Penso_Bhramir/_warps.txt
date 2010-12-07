@@ -1,5 +1,0 @@
-// 005-2 Pensão Bhramir warps
-
-//005-2.gat,24,27	warp	sair01	-1,-1,005.gat,115,103
-//005-2.gat,54,27	warp	sair02	-1,-1,005.gat,118,103
-//005-2.gat,84,27	warp	sair03	-1,-1,005.gat,121,103

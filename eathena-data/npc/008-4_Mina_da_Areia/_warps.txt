@@ -1,3 +1,0 @@
-// 008-4 Mina da Areia warps
-
-008-4.gat,34,100	warp	paraFora	-1,-1,008-3.gat,37,30

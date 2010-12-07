@@ -1,3 +1,0 @@
-// prisao Prisão warps
-
-//prisao.gat,39,21	warp	paraCima	-1,0,005-1.gat,20,50

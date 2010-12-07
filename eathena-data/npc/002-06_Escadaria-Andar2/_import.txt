@@ -1,3 +1,0 @@
-map: 002-06.gat
-npc: npc/002-06_Escadaria-Andar2/_mobs.txt
-npc: npc/002-06_Escadaria-Andar2/_warps.txt

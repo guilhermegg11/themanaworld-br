@@ -1,4 +1,0 @@
-##3 Servidor em estado de testes
-##3 26/05/2009
- 
-##0 Apenas para testes.

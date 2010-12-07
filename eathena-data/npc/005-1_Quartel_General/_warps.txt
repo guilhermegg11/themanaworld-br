@@ -1,4 +1,0 @@
-// 005-1 Quartel General warps
-
-005-1.gat,54,78	warp	paraFora	5,-1,005.gat,62,86
-//005-1.gat,20,50	warp	paraPrisao	-1,-1,prisao.gat,39,21

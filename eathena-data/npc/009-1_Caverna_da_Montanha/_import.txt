@@ -1,3 +1,0 @@
-map: 009-1.gat
-npc: npc/009-1_Caverna_da_Montanha/_mobs.txt
-npc: npc/009-1_Caverna_da_Montanha/_warps.txt

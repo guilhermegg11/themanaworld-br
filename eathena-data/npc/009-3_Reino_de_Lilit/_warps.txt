@@ -1,4 +1,0 @@
-// 009-3 Reino de Lilit warps
-
-009-3.gat,154,82	warp	paraCavernaMontanha	-1,-1,009-1.gat,79,68
-009-3.gat,152,68	warp	paraCavernaMontanha	-1,-1,009-1.gat,77,54

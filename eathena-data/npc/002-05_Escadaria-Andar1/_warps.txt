@@ -1,5 +1,0 @@
-// 002-05_Escadaria-Andar1
-
-002-05.gat,52,27	warp	paraCima	2,-1,002-06.gat,52,30
-002-05.gat,52,29	warp	paraBaixo	2,-1,002-04.gat,52,24
-

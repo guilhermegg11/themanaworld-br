@@ -1,3 +1,0 @@
-map: 007-2.gat
-npc: npc/007-2_Caverna_do_Tesouro/_mobs.txt
-npc: npc/007-2_Caverna_do_Tesouro/_warps.txt

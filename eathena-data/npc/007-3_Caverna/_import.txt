@@ -1,7 +1,0 @@
-map: 007-3.gat
-
-npc: npc/007-3_Caverna/vendedores.conf
-npc: npc/007-3_Caverna/lilia.conf
-
-npc: npc/007-3_Caverna/_mobs.txt
-npc: npc/007-3_Caverna/_warps.txt

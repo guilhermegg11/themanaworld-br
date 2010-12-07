@@ -1,4 +1,0 @@
-// 005-4_Igreja
-
-005-4.gat,26,35	warp	paraFora	2,-1,005.gat,154,24
-005-4.gat,34,35	warp	paraFora	2,-1,005.gat,159,24
