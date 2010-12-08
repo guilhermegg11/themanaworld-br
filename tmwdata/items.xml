@@ -5396,4 +5396,13 @@
 		description="Um pergaminho muito antigo com uma escrita estranha."
 		type="generic"
 		weight="10"/>
+	<item id="3191"
+		image="weapon-rede-captura.png"
+		name="Rede de Captura"
+		description="Rede para capturar borboletas e outros insetos."
+		effect="+10 Dano"
+		type="equip-2hand"
+		weapon-type="staff"
+		weight="100">
+	</item>
 </items>

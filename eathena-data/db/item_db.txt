@@ -715,3 +715,4 @@
 3188,elmodoarcanjo,elmodoarcanjo,5,20000,2000,600,,15,,-30,0,2,256,,0,0,{},{}
 3189,asasDeBorboleta,asasDeBorboleta,5,14000,7000,100,0,0,0,0,0,2,128,0,0,0,{},{}
 3190,pergaminhoVelho,pergaminhoVelho,3,600,300,10,,,,,,,,,,,{},{}
+3191,redeCaptura,redeCaptura,4,1500,750,100,10,,1,,0,2,2,1,1,3,{},{}
