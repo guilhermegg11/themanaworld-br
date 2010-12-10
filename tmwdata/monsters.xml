@@ -494,9 +494,12 @@
 		<sound event="miss">snake-hit2.ogg</sound> <!-- Errando -->
 		<sound event="die">tarantula-die.ogg</sound>  <!-- Morrendo -->
 	</monster>
-
 	<monster id="335" name="Colmeia" targetCursor="small">
 		<sprite>monsters/monstro-colmeia.xml</sprite>
+	</monster>
+	<monster id="336" name="Presente">
+		<sprite>resource-presente.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 	</monster>
 </monsters>
 
