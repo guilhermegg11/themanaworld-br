@@ -1,3 +1,4 @@
 // Ativa todos os NPCs, warps e monstros do Natal de 2010
 
 npc: npc/natal/2010/papai_noel.conf
+npc: npc/natal/2010/boneco_neve.conf
