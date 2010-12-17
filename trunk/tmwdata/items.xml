@@ -5405,4 +5405,16 @@
 		weapon-type="staff"
 		weight="100">
 	</item>
+	<item id="3192"
+		image="generic-globo-bneve.png"
+		name="Globo Boneco de Neve"
+		description="Uma pequena lembrança do natal de 2010."
+		type="generic"
+		weight="70"/>
+	<item id="3193"
+		image="generic-globo-noel.png"
+		name="Globo Natal Mágico"
+		description="Uma pequena lembrança do natal de 2010."
+		type="generic"
+		weight="70"/>
 </items>
