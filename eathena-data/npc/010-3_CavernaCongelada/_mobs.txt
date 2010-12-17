@@ -16,7 +16,19 @@ On1015:
 On1016:
 	set @mobID, 1016;
 	callfunc "MobPoints";
+	callfunc "docesLimosNeve";
+	callsub _MOBS_limosNeve;
 	break;
+
+
+//= Callsubs ==========================================================
+
+_MOBS_limosNeve:
+	if(NATAL2_noel!=2) return;
+	callfunc "mobContagem", 50, NATAL2_bneveMobs, @NATAL2_bneveMobs;
+	set NATAL2_bneveMobs, @mobs;
+	set @NATAL2_bneveMobs, @flag;
+	return;
 
 	end;
 }
