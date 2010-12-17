@@ -2,3 +2,4 @@
 
 npc: npc/natal/2010/papai_noel.conf
 npc: npc/natal/2010/boneco_neve.conf
+npc: npc/natal/2010/mob_funcoes.conf
