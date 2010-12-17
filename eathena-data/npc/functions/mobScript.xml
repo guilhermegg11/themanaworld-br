@@ -76,7 +76,7 @@ On1049_%GRUPO%:
 		<script>callfunc "docesLimosNeve";</script>
 		<callsub label="_MOBS_limosNeve">
 			<gerar_label script="callfunc_mobContagem">
-				<var id="%return%" valor="NATAL2_noel!=2"/>
+				<var id="%return%" valor="NATAL2_noel!=2 &amp;&amp; NATAL2_bneve!=1"/>
 				<var id="%max%" valor="50"/>
 				<var id="%mobs%" valor="NATAL2_bneveMobs"/>
 			</gerar_label>
@@ -86,7 +86,7 @@ On1049_%GRUPO%:
 		<script>callfunc "docesLimosNeve";</script>
 		<callsub label="_MOBS_limosNeve">
 			<gerar_label script="callfunc_mobContagem">
-				<var id="%return%" valor="NATAL2_noel!=2"/>
+				<var id="%return%" valor="NATAL2_noel!=2 &amp;&amp; NATAL2_bneve!=1"/>
 				<var id="%max%" valor="50"/>
 				<var id="%mobs%" valor="NATAL2_bneveMobs"/>
 			</gerar_label>
@@ -96,7 +96,7 @@ On1049_%GRUPO%:
 		<script>callfunc "docesLimosNeve";</script>
 		<callsub label="_MOBS_limosNeve">
 			<gerar_label script="callfunc_mobContagem">
-				<var id="%return%" valor="NATAL2_noel!=2"/>
+				<var id="%return%" valor="NATAL2_noel!=2 &amp;&amp; NATAL2_bneve!=1"/>
 				<var id="%max%" valor="50"/>
 				<var id="%mobs%" valor="NATAL2_bneveMobs"/>
 			</gerar_label>
