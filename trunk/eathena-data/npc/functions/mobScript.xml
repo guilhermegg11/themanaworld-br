@@ -72,6 +72,23 @@ On1049_%GRUPO%:
 
 	<!-- ======================= Scripts NATAL ======================= -->
 
+	<monstro id="1015" nome="Limo Noel">
+		<script>callfunc "presentesLimosGelo";</script>
+		<callsub label="_MOBS_limosGelo">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="NATAL2_noel!=5"/>
+				<var id="%max%" valor="100"/>
+				<var id="%mobs%" valor="NATAL2_noelMobs"/>
+			</gerar_label>
+		</callsub>
+		<callsub label="_MOBS_limosGelo2">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="NATAL2_noel!=7"/>
+				<var id="%max%" valor="200"/>
+				<var id="%mobs%" valor="NATAL2_noelMobs"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
 	<monstro id="1016" nome="Limo Rodolfo">
 		<script>callfunc "docesLimosNeve";</script>
 		<callsub label="_MOBS_limosNeve">
@@ -88,11 +105,17 @@ On1049_%GRUPO%:
 				<var id="%mobs%" valor="NATAL2_bneveMobs"/>
 			</gerar_label>
 		</callsub>
+		<script>callfunc "presentesLimosGelo";</script>
+		<callsub label="_MOBS_limosGelo"/>
+		<callsub label="_MOBS_limosGelo2"/>
 	</monstro>
 	<monstro id="1318" nome="Limo de Gelo">
 		<script>callfunc "docesLimosNeve";</script>
 		<callsub label="_MOBS_limosNeve"/>
 		<callsub label="_MOBS_limosNeve2"/>
+		<script>callfunc "presentesLimosGelo";</script>
+		<callsub label="_MOBS_limosGelo"/>
+		<callsub label="_MOBS_limosGelo2"/>
 	</monstro>
 	<monstro id="1319" nome="Limo de Neve">
 		<script>callfunc "docesLimosNeve";</script>

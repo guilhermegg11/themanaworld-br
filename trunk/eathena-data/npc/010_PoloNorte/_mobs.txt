@@ -22,6 +22,9 @@
 On1015:
 	set @mobID, 1015;
 	callfunc "MobPoints";
+	callfunc "presentesLimosGelo";
+	callsub _MOBS_limosGelo;
+	callsub _MOBS_limosGelo2;
 	break;
 
 On1016:
@@ -30,6 +33,9 @@ On1016:
 	callfunc "docesLimosNeve";
 	callsub _MOBS_limosNeve;
 	callsub _MOBS_limosNeve2;
+	callfunc "presentesLimosGelo";
+	callsub _MOBS_limosGelo;
+	callsub _MOBS_limosGelo2;
 	break;
 
 On1028:
@@ -48,6 +54,9 @@ On1318:
 	callfunc "docesLimosNeve";
 	callsub _MOBS_limosNeve;
 	callsub _MOBS_limosNeve2;
+	callfunc "presentesLimosGelo";
+	callsub _MOBS_limosGelo;
+	callsub _MOBS_limosGelo2;
 	break;
 
 On1319:
@@ -60,6 +69,20 @@ On1319:
 
 
 //= Callsubs ==========================================================
+
+_MOBS_limosGelo:
+	if(NATAL2_noel!=5) return;
+	callfunc "mobContagem", 100, NATAL2_noelMobs, @NATAL2_noelMobs;
+	set NATAL2_noelMobs, @mobs;
+	set @NATAL2_noelMobs, @flag;
+	return;
+
+_MOBS_limosGelo2:
+	if(NATAL2_noel!=7) return;
+	callfunc "mobContagem", 200, NATAL2_noelMobs, @NATAL2_noelMobs;
+	set NATAL2_noelMobs, @mobs;
+	set @NATAL2_noelMobs, @flag;
+	return;
 
 _MOBS_limosNeve:
 	if(NATAL2_noel!=2) return;
