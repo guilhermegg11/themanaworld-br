@@ -6,6 +6,7 @@
 	<update type="data" file="2010_tiles.zip" hash="99a055a0"/>
 	<update type="data" file="update_2010-11-02.zip" hash="f8bac20d"/>
 	<update type="data" file="update_2010-11-13.zip" hash="5d491b8b"/>
+	<update type="data" file="update_2010-12-20.zip" hash="fc5b6d9b"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 	<update type="music" required="no" file="musicas_2010-09-28.zip" hash="6db7aab8" desciption="Novas músicas"/>
 	<update type="music" required="no" file="musicas_2010-11-13.zip" hash="e108eee" desciption="Cemitério do Org"/>
