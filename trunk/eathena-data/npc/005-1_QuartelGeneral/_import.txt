@@ -5,5 +5,5 @@ npc: npc/005-1_QuartelGeneral/juiz_miguel.conf
 npc: npc/005-1_QuartelGeneral/mapflags.txt
 npc: npc/005-1_QuartelGeneral/menir_alma.conf
 npc: npc/005-1_QuartelGeneral/parua.conf
-npc: npc/005-1_QuartelGeneral/dropitem.conf
+//npc: npc/005-1_QuartelGeneral/dropitem.conf
 npc: npc/005-1_QuartelGeneral/halloween2010.conf
