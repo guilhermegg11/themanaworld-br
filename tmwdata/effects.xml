@@ -38,5 +38,12 @@
 
 	<effect id="300" audio="sfx/puft.ogg" /> <!-- som da explosão da cartola -->
 	<effect id="301" audio="sfx/monsters/zombie/zombie-gemido.ogg" /> <!-- som do Zumbi -->
+	<effect id="302" audio="sfx/sinos/nota1do.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Dó -->
+	<effect id="303" audio="sfx/sinos/nota2re.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Ré -->
+	<effect id="304" audio="sfx/sinos/nota3mi.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Mi -->
+	<effect id="305" audio="sfx/sinos/nota4fa.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Fá -->
+	<effect id="306" audio="sfx/sinos/nota5sol.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Sol -->
+	<effect id="307" audio="sfx/sinos/nota6la.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Lá -->
+	<effect id="308" audio="sfx/sinos/nota7si.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Si -->
 
 </being-effects>
