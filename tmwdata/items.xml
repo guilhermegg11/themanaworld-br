@@ -5374,7 +5374,7 @@
 	<item id="3188"
 		image="armor-head-elmo-arcanjo.png"
 		name="Elmo Arcanjo"
-		description="..."
+		description="(item em desenvolvimento)"
 		effect=""
 		type="equip-head"
 		weight="600"
@@ -5384,7 +5384,7 @@
 	<item id="3189"
 		image="bracelete-asas-borboleta.png"
 		name="Asas de Borboleta"
-		description="Asas de Borboleta."
+		description="Asas de Borboleta. (item em desenvolvimento)"
 		effect=""
 		type="equip-charm"
 		weight="100">
@@ -5417,4 +5417,14 @@
 		description="Uma pequena lembrança do natal de 2010 do TMW-BR."
 		type="generic"
 		weight="70"/>
+	<item id="3194"
+		image="armor-head-chapeu-presente.png"
+		name="Chapeu Presente Vermelho"
+		description="(item em desenvolvimento)"
+		effect=""
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-chapeu-presente.xml</sprite>
+	</item>
 </items>
