@@ -5389,6 +5389,7 @@
 		type="equip-charm"
 		weight="100">
 		<sprite>equipment/charm/charm-asas-borboleta.xml</sprite>
+		<sprite>em-desenvolvimento.xml</sprite>
 	</item>
 	<item id="3190"
 		image="generic-scroll2.png"
