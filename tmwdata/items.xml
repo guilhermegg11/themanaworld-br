@@ -5418,13 +5418,48 @@
 		type="generic"
 		weight="70"/>
 	<item id="3194"
-		image="armor-head-chapeu-presente.png"
-		name="Chapeu Presente Vermelho"
-		description="(item em desenvolvimento)"
-		effect=""
+		image="armor-head-chapeu-presente.png|W:#ff4b4b,ffcccc;R:#ff0000,ffffff"
+		name="Chapéu Presente Vermelho"
+		description="Um caixa de presente que serve como chapéu. (presente do Papai Noel)"
 		type="equip-head"
 		weight="60"
 		defense="1">
-		<sprite>equipment/head/head-chapeu-presente.xml</sprite>
+		<sprite>equipment/head/head-chapeu-presente.xml|#ff4b4b,ffcccc;#ff0000,ffffff</sprite>
+	</item>
+	<item id="3195"
+		image="armor-head-chapeu-presente.png|W:#4bff4b,ccffcc;R:#00ff00,ffffff"
+		name="Chapéu Presente Verde"
+		description="Um caixa de presente que serve como chapéu. (presente do Papai Noel)"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-chapeu-presente.xml|#4bff4b,ccffcc;#00ff00,ffffff</sprite>
+	</item>
+	<item id="3196"
+		image="armor-head-chapeu-presente.png|W:#4b99ff,cceeff;R:#0099ff,ffffff"
+		name="Chapéu Presente Azul"
+		description="Um caixa de presente que serve como chapéu. (presente do Papai Noel)"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-chapeu-presente.xml|#4b99ff,cceeff;#0099ff,ffffff</sprite>
+	</item>
+	<item id="3197"
+		image="armor-head-chapeu-presente.png|W:#ffee4b,ffeecc;R:#ffee00,ffffff"
+		name="Chapéu Presente Amarelo"
+		description="Um caixa de presente que serve como chapéu. (presente do Papai Noel)"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-chapeu-presente.xml|#ffee4b,ffeecc;#ffee00,ffffff</sprite>
+	</item>
+	<item id="3198"
+		image="armor-head-chapeu-presente.png|W:#ff4bff,ffccff;R:#ff00ff,ffffff"
+		name="Chapéu Presente Rosa"
+		description="Um caixa de presente que serve como chapéu. (presente do Papai Noel)"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-chapeu-presente.xml|#ff4bff,ffccff;#ff00ff,ffffff</sprite>
 	</item>
 </items>
