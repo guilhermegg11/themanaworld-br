@@ -38,6 +38,7 @@
 On1002:
 	set @mobID, 1002;
 	callfunc "MobPoints";
+	callfunc "acumularXP";
 	callsub _MOBS_verme;
 	break;
 

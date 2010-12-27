@@ -45,5 +45,6 @@
 	<effect id="306" audio="sfx/sinos/nota5sol.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Sol -->
 	<effect id="307" audio="sfx/sinos/nota6la.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Lá -->
 	<effect id="308" audio="sfx/sinos/nota7si.ogg" particle="graphics/particles/nota-musical.xml"/> <!-- Sino tocando Si -->
+	<effect id="309" particle="graphics/particles/emanar-alma.xml"/>
 
 </being-effects>
