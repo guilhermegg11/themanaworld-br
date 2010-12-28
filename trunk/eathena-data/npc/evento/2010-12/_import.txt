@@ -1,3 +1,4 @@
 // Evento de Férias Escolares... XP dobrado.
 
+npc: npc/evento/2010-12/pedra_emanar.conf
 npc: npc/evento/2010-12/mob_funcoes.conf

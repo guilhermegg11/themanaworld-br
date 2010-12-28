@@ -5463,4 +5463,17 @@
 		defense="1">
 		<sprite>equipment/head/head-chapeu-presente.xml|#ff4bff,ffccff;#ff00ff,ffffff</sprite>
 	</item>
+	<item id="3199"
+		image="generic-gemstone-a.png|W:#359b97,92ece9"
+		name="Fragmento da Pedra de Emanar Alma"
+		description="Um pequeno fragmento da Pedra de Emanar Alma."
+		type="generic"
+		weight="56"/>
+	<item id="3200"
+		image="armor-ring-intelligence-rough.png"
+		name="Anel de Emanar Alma"
+		description="Anel feito de um fragmento da Pedra de Emanar Alma."
+		effect="Emanar alma e absorvê-la."
+		type="equip-charm"
+		weight="50"/>
 </items>
