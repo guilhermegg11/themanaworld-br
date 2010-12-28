@@ -127,7 +127,9 @@
 	<npc id="323"><sprite variant="23">npcs-br.xml</sprite></npc> <!-- Mágico com Capa Longa -->
 	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc> <!-- Bella: Ciagana -->
 	<npc id="325"><sprite variant="25">npcs-br.xml</sprite></npc> <!-- Vitalina: Bruxa vermelha -->
-	<npc id="326"><sprite variant="26">npcs-br.xml</sprite></npc>
+	<npc id="326"><sprite variant="26">npcs-br.xml</sprite>
+		<particlefx>graphics/particles/emanar-alma-pedra.xml</particlefx>
+	</npc> <!-- Pedra de Emanar Alma -->
 	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
 	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
 	<npc id="329"><sprite variant="29">npcs-br.xml</sprite></npc>
