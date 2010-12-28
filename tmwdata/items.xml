@@ -5464,7 +5464,7 @@
 		<sprite>equipment/head/head-chapeu-presente.xml|#ff4bff,ffccff;#ff00ff,ffffff</sprite>
 	</item>
 	<item id="3199"
-		image="generic-gemstone-a.png|W:#359b97,92ece9"
+		image="generic-frag-emanar-alma.png"
 		name="Fragmento da Pedra de Emanar Alma"
 		description="Um pequeno fragmento da Pedra de Emanar Alma."
 		type="generic"
