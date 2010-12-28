@@ -5473,7 +5473,7 @@
 		image="armor-ring-intelligence-rough.png"
 		name="Anel de Emanar Alma"
 		description="Anel feito de um fragmento da Pedra de Emanar Alma."
-		effect="Emanar alma e absorvê-la."
+		effect="Emanar/Absorver alma, +3 Inteligência"
 		type="equip-charm"
 		weight="50"/>
 </items>
