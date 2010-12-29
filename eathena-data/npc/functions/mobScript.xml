@@ -14,6 +14,16 @@
 	if(@flag==1) set QUEST_trasgo, 4;
 	</script>
 
+	<monstro id="0" nome="Todos os Monstros">
+		<script>
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+		</script>
+	</monstro>
+
+	<!-- ===================== Scripts de QUESTS ===================== -->
+
 	<monstro id="1002" nome="Verme">
 		<script grupos="guloso">callfunc "bilheteVermeGuloso";</script>
 		<callsub label="_MOBS_verme">

@@ -275,9 +275,12 @@ public class Process {
 
 		System.out.println("Starting mob points");
 		mobOut.printf("\n%s.gat,0,0,0\tscript\tMob%1$s\t-1,{\n\n", name);
+
+		Mob all = hash.get(0);
+
 		for( Mob mob : mobs ) {
 			if( mob.getId()==-1) continue;
-			mobOut.printf("On%s:\n\tset @mobID, %d;\n\tcallfunc \"MobPoints\";\n", mob.getIdGrupo(), mob.getId());
+			mobOut.printf("On%s:\n\tset @mobID, %d;\n\t%s\n", mob.getIdGrupo(), mob.getId(), all.getScripts()); << terminar aki
 
 			// Stripts genéricos para um determinado id de monstro...
 			Mob mob2 = hash.get(mob.getId());
