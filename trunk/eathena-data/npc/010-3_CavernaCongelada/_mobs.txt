@@ -11,6 +11,8 @@
 On1015:
 	set @mobID, 1015;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "presentesLimosGelo";
 	callsub _MOBS_limosGelo;
 	callsub _MOBS_limosGelo2;
@@ -19,6 +21,8 @@ On1015:
 On1016:
 	set @mobID, 1016;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "docesLimosNeve";
 	callsub _MOBS_limosNeve;
 	callsub _MOBS_limosNeve2;

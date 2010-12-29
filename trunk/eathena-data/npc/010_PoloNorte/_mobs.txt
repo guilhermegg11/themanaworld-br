@@ -22,6 +22,8 @@
 On1015:
 	set @mobID, 1015;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "presentesLimosGelo";
 	callsub _MOBS_limosGelo;
 	callsub _MOBS_limosGelo2;
@@ -30,6 +32,8 @@ On1015:
 On1016:
 	set @mobID, 1016;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "docesLimosNeve";
 	callsub _MOBS_limosNeve;
 	callsub _MOBS_limosNeve2;
@@ -41,16 +45,22 @@ On1016:
 On1028:
 	set @mobID, 1028;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1317:
 	set @mobID, 1317;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1318:
 	set @mobID, 1318;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "docesLimosNeve";
 	callsub _MOBS_limosNeve;
 	callsub _MOBS_limosNeve2;
@@ -62,6 +72,8 @@ On1318:
 On1319:
 	set @mobID, 1319;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "docesLimosNeve";
 	callsub _MOBS_limosNeve;
 	callsub _MOBS_limosNeve2;

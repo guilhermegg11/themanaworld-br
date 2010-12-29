@@ -18,32 +18,44 @@
 On1003:
 	set @mobID, 1003;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callsub _MOBS_escorpiao;
 	break;
 
 On1008:
 	set @mobID, 1008;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1302:
 	set @mobID, 1302;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1303:
 	set @mobID, 1303;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1304:
 	set @mobID, 1304;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1305:
 	set @mobID, 1305;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 

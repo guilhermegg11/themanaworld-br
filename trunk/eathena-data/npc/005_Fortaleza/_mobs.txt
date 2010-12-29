@@ -4,7 +4,7 @@
 //
 
 005.gat,45,116,40,6	monster	Bicho-da-seda (5)	1035,5,0,0,Mob005::On1035
-005.gat,42,115,31,8	monster	Morcego (3)	1017,1,0,0,Mob005::On1017
+005.gat,42,115,31,8	monster	Morcego (3)	1017,3,0,0,Mob005::On1017
 005.gat,154,116,40,6	monster	Bicho-da-seda (5)	1035,5,0,0,Mob005::On1035
 005.gat,78,33,24,22	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
 005.gat,120,30,24,17	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
@@ -20,16 +20,22 @@
 On1017:
 	set @mobID, 1017;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1035:
 	set @mobID, 1035;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1038:
 	set @mobID, 1038;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 	end;
