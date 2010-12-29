@@ -5470,7 +5470,7 @@
 		type="generic"
 		weight="56"/>
 	<item id="3200"
-		image="armor-ring-intelligence-rough.png"
+		image="armor-ring-cristal.png|W:#339966,50f2a2"
 		name="Anel de Emanar Alma"
 		description="Anel feito de um fragmento da Pedra de Emanar Alma."
 		effect="Emanar/Absorver alma, +3 Inteligência"
