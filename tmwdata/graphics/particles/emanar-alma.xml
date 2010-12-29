@@ -35,7 +35,7 @@
 				<property name="horizontal-angle" min="0" max="360"/>
 				<property name="vertical-angle" min="60" max="120"/>
 				<property name="power" min="0.01" max="0.4"/>
-				<property name="image" value="graphics/particles/gloworb-small.png|W:#47cfca"/>
+				<property name="image" value="graphics/particles/gloworb-small.png|W:#44cc88"/>
 				<property name="lifetime" value="200"/>
 				<property name="fade-in" value="5"/>
 				<property name="fade-out" value="80"/>
