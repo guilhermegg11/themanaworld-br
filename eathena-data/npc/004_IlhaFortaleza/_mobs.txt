@@ -24,61 +24,83 @@
 On1002:
 	set @mobID, 1002;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callsub _MOBS_verme;
 	break;
 
 On1003:
 	set @mobID, 1003;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callsub _MOBS_escorpiao;
 	break;
 
 On1004:
 	set @mobID, 1004;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1005:
 	set @mobID, 1005;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1006:
 	set @mobID, 1006;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1013:
 	set @mobID, 1013;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callsub _MOBS_cogumelo;
 	break;
 
 On1018:
 	set @mobID, 1018;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callsub _MOBS_trasgo;
 	break;
 
 On1019:
 	set @mobID, 1019;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1033:
 	set @mobID, 1033;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
 On1312:
 	set @mobID, 1312;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callsub _MOBS_trasgoRoxo;
 	break;
 
 On1337_1:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "004.gat", 112, 102, "Mob004::On1049_1";
 	break;
 On1049_1:
@@ -87,6 +109,8 @@ On1049_1:
 On1337_2:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "004.gat", 108, 59, "Mob004::On1049_2";
 	break;
 On1049_2:
@@ -95,6 +119,8 @@ On1049_2:
 On1337_3:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "004.gat", 139, 44, "Mob004::On1049_3";
 	break;
 On1049_3:
@@ -103,6 +129,8 @@ On1049_3:
 On1337_4:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "004.gat", 89, 29, "Mob004::On1049_4";
 	break;
 On1049_4:
