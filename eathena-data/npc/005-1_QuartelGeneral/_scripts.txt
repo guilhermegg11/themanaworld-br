@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 005-1 Quartel General
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

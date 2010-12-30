@@ -1,5 +1,6 @@
 map: 007.gat
 npc: npc/007_PraiaPorto/_mobs.txt
+npc: npc/007_PraiaPorto/_scripts.txt
 npc: npc/007_PraiaPorto/_shops.txt
 npc: npc/007_PraiaPorto/_warps.txt
 npc: npc/007_PraiaPorto/animadora.conf
@@ -8,6 +9,7 @@ npc: npc/007_PraiaPorto/eliana.conf
 npc: npc/007_PraiaPorto/espada007.conf
 npc: npc/007_PraiaPorto/fred.conf
 npc: npc/007_PraiaPorto/gismo.conf
+npc: npc/007_PraiaPorto/guardadonavio.conf
 npc: npc/007_PraiaPorto/igor.conf
 npc: npc/007_PraiaPorto/jaime.conf
 npc: npc/007_PraiaPorto/jornaleiro.conf
@@ -20,7 +22,7 @@ npc: npc/007_PraiaPorto/operarios.conf
 npc: npc/007_PraiaPorto/pablo.conf
 npc: npc/007_PraiaPorto/pescadores.conf
 npc: npc/007_PraiaPorto/placas.conf
+//npc: npc/007_PraiaPorto/rei_comerciantes.conf //< Não está pronto ainda
 npc: npc/007_PraiaPorto/selim.conf
 npc: npc/007_PraiaPorto/veronica.conf
 npc: npc/007_PraiaPorto/warp_controlado.conf
-npc: npc/007_PraiaPorto/guardadonavio.conf

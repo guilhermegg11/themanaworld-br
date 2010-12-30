@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 010-1 Caverna Congelada
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

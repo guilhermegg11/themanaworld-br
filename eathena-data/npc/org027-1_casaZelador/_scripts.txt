@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: org027-1 Casa do Zelador
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

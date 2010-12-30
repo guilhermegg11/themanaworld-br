@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: org027 Cemitério
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

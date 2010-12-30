@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 002-04 Escada - térrea
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

@@ -1,4 +1,5 @@
 map: 009-2.gat
 npc: npc/009-2_Caverna/_mobs.txt
+npc: npc/009-2_Caverna/_scripts.txt
 npc: npc/009-2_Caverna/_warps.txt
 npc: npc/009-2_Caverna/operarios.conf

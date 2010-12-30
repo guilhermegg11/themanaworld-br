@@ -1,9 +1,10 @@
 map: 007-4.gat
 npc: npc/007-4_VilaPescadores/_mobs.txt
+npc: npc/007-4_VilaPescadores/_scripts.txt
 npc: npc/007-4_VilaPescadores/_shops.txt
 npc: npc/007-4_VilaPescadores/_warps.txt
+npc: npc/007-4_VilaPescadores/banco.conf
 npc: npc/007-4_VilaPescadores/bau.conf
 npc: npc/007-4_VilaPescadores/camelia.conf
 npc: npc/007-4_VilaPescadores/cornelia.conf
 npc: npc/007-4_VilaPescadores/party.conf
-npc: npc/007-4_VilaPescadores/banco.conf

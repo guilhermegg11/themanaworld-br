@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 002-01 Sala_Principal
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

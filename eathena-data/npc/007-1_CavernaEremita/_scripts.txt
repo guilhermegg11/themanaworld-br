@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 007-1 Caverna do Eremita
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

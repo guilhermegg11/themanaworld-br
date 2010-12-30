@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 002-05 Escada - 1º Andar
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

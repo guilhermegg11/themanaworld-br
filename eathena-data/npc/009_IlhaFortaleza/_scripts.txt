@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 009 Ilha Fortaleza
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

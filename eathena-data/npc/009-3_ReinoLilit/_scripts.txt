@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 009-3 Reino de Lilit
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

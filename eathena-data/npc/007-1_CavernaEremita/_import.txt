@@ -1,5 +1,6 @@
 map: 007-1.gat
 npc: npc/007-1_CavernaEremita/_mobs.txt
+npc: npc/007-1_CavernaEremita/_scripts.txt
 npc: npc/007-1_CavernaEremita/_warps.txt
 npc: npc/007-1_CavernaEremita/velho_eremita.conf
 npc: npc/007-1_CavernaEremita/warp_secreto.conf

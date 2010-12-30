@@ -1,5 +1,6 @@
 map: prisao.gat
 npc: npc/prisao/_mobs.txt
+npc: npc/prisao/_scripts.txt
 npc: npc/prisao/_warps.txt
 npc: npc/prisao/prisao.conf
 npc: npc/prisao/warp_prisao.conf

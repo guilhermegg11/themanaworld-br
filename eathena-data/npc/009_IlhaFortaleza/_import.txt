@@ -1,9 +1,10 @@
 map: 009.gat
 npc: npc/009_IlhaFortaleza/_mobs.txt
+npc: npc/009_IlhaFortaleza/_scripts.txt
 npc: npc/009_IlhaFortaleza/_warps.txt
 npc: npc/009_IlhaFortaleza/lobo_solitario.conf
 npc: npc/009_IlhaFortaleza/mob_fada_traidora.conf
 npc: npc/009_IlhaFortaleza/operarios.conf
 npc: npc/009_IlhaFortaleza/pedra_encantada.conf
-//npc: npc/009_IlhaFortaleza/questBorboletaPapilo.conf
+//npc: npc/009_IlhaFortaleza/questBorboletaPapilo.conf //< Não está pronta ainda
 npc: npc/009_IlhaFortaleza/salto_perigoso.conf

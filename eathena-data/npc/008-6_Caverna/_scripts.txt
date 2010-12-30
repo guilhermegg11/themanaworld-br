@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 008-6 Caverna da Asas
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

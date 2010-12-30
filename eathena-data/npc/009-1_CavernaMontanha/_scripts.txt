@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 009-1 Caverna da Montanha
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

@@ -1,3 +1,4 @@
 map: calabouco.gat
 npc: npc/calabouco/_mobs.txt
+npc: npc/calabouco/_scripts.txt
 npc: npc/calabouco/_warps.txt

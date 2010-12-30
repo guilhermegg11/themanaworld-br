@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 002-03 Quarto Masculino
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

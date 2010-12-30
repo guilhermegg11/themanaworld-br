@@ -1,4 +1,5 @@
 map: 005-4.gat
 npc: npc/005-4_Igreja/_mobs.txt
+npc: npc/005-4_Igreja/_scripts.txt
 npc: npc/005-4_Igreja/_warps.txt
 npc: npc/005-4_Igreja/wendy.conf

@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 008-1 Caverna
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 007 Praia do Porto
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

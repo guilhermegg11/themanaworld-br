@@ -1,5 +1,6 @@
 map: 004.gat
 npc: npc/004_IlhaFortaleza/_mobs.txt
+npc: npc/004_IlhaFortaleza/_scripts.txt
 npc: npc/004_IlhaFortaleza/_warps.txt
 npc: npc/004_IlhaFortaleza/chico.conf
 npc: npc/004_IlhaFortaleza/joana.conf

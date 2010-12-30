@@ -1,5 +1,6 @@
 map: navio-1.gat
+npc: npc/navio-1/_mobs.txt
+npc: npc/navio-1/_scripts.txt
+npc: npc/navio-1/_warps.txt
 npc: npc/navio-1/capitao_mirc.conf
 npc: npc/navio-1/warp_controlado.conf
-npc: npc/navio-1/_mobs.txt
-npc: npc/navio-1/_warps.txt

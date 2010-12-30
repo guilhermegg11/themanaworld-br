@@ -1,5 +1,6 @@
 map: 009-3.gat
 npc: npc/009-3_ReinoLilit/_mobs.txt
+npc: npc/009-3_ReinoLilit/_scripts.txt
 npc: npc/009-3_ReinoLilit/_warps.txt
 npc: npc/009-3_ReinoLilit/arvore_encantada.conf
 npc: npc/009-3_ReinoLilit/ninfa_ivanize.conf

@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: navio-2 Navio - Quarto dos Marujos
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 010-2 Estabelecimento
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

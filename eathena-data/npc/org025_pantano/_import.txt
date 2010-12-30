@@ -1,6 +1,5 @@
 map: org025.gat
-
-npc: npc/org025_pantano/mapflags.conf
-
 npc: npc/org025_pantano/_mobs.txt
+npc: npc/org025_pantano/_scripts.txt
 npc: npc/org025_pantano/_warps.txt
+npc: npc/org025_pantano/mapflags.conf

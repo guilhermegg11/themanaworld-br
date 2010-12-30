@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 007-2 Caverna Assombrada
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
