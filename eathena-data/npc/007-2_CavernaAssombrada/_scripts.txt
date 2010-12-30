@@ -4,51 +4,36 @@
 //
 
 // Script: Pedra de Emanar Alma
-007-2.gat,173,110,0	script	#007-2_173x110	326, {
-	set @map$, "007-2";
-	set @x, 173;
-	set @y, 110;
+007-2.gat,154,108,0	script	#007-2_154x108	326, {
 	callfunc "getTime";
-	callfunc "pedraEmanarAlma";
+	callfunc "pedraEmanarAlma", "007-2.gat", 154, 108;
 	close;
 }
 
 // Script: Pedra de Emanar Alma
 007-2.gat,170,30,0	script	#007-2_170x30	326, {
-	set @map$, "007-2";
-	set @x, 170;
-	set @y, 30;
 	callfunc "getTime";
-	callfunc "pedraEmanarAlma";
+	callfunc "pedraEmanarAlma", "007-2.gat", 170, 30;
 	close;
 }
 
 // Script: Pedra de Emanar Alma
-007-2.gat,88,112,0	script	#007-2_88x112	326, {
-	set @map$, "007-2";
-	set @x, 88;
-	set @y, 112;
+007-2.gat,29,32,0	script	#007-2_29x32	326, {
 	callfunc "getTime";
-	callfunc "pedraEmanarAlma";
+	callfunc "pedraEmanarAlma", "007-2.gat", 29, 32;
 	close;
 }
 
 // Script: Pedra de Emanar Alma
-007-2.gat,31,107,0	script	#007-2_31x107	326, {
-	set @map$, "007-2";
-	set @x, 31;
-	set @y, 107;
+007-2.gat,74,66,0	script	#007-2_74x66	326, {
 	callfunc "getTime";
-	callfunc "pedraEmanarAlma";
+	callfunc "pedraEmanarAlma", "007-2.gat", 74, 66;
 	close;
 }
 
 // Script: Pedra de Emanar Alma
-007-2.gat,26,29,0	script	#007-2_26x29	326, {
-	set @map$, "007-2";
-	set @x, 26;
-	set @y, 29;
+007-2.gat,90,94,0	script	#007-2_90x94	326, {
 	callfunc "getTime";
-	callfunc "pedraEmanarAlma";
+	callfunc "pedraEmanarAlma", "007-2.gat", 90, 94;
 	close;
 }

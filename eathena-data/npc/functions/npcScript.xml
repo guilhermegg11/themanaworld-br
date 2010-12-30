@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<npc id="pedraEmanar" nome="Pedra de Emanar Alma">
+		<var name="%NPC%" value="326"/>
+		<script>
+	callfunc "getTime";
+	callfunc "pedraEmanarAlma", "%MAPA%.gat", %X%, %Y%;
+		</script>
+	</npc>
+
+	<!-- Exemplo de como seria um script genérico para a Menir da Alma -->
+	<npc id="menir" nome="Menir da Alma">
+		<var name="%NAME%" value="Menir da Alma"/>
+		<var name="%NPC%" value="144"/>
+		<sum name="%y2%" value1="%Y%" value2="1"/> <!-- Soma os valores e grava o valor em uma variável -->
+		<script>
+	set @map$, "%MAP%.gat";
+	set @x, %X%;
+	set @y, %Y%;
+	callfunc "SoulMenhir";
+	close;
+}
+
+%MAPA%.gat,%X%,%y2%,0	script	#menir%MAPA%	0,1,1{
+	callfunc "limparDist";
+		</script>
+	</npc>
+
+</xml>

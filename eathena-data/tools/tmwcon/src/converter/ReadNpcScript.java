@@ -2,19 +2,23 @@ package converter;
 
 import java.util.HashMap;
 
-import javax.xml.parsers.*;
-import org.w3c.dom.*;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 
-public class ReadMobScript {
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
-	private HashMap<Integer, Mob> mobs = new HashMap<Integer, Mob>();
+public class ReadNpcScript {
+
+	private HashMap<String, Npc> npcs = new HashMap<String, Npc>();
 	private HashMap<String, String> scripts = new HashMap<String, String>();
-	private HashMap<String, String> callsubs = new HashMap<String, String>();
 
-	public ReadMobScript() {}
+	public ReadNpcScript() {}
 
 	/**
-	 * Carrega um arquivo XML e popula o objeto MobScript.
+	 * Carrega um arquivo XML e popula o objeto NpcScript.
 	 * @param nomeArquivo Nome do arquivo XMl.
 	 */
 	public void carregarXML(String nomeArquivo){
@@ -31,7 +35,7 @@ public class ReadMobScript {
 		}
 
 		Element elem = doc.getDocumentElement();
-		Mob mob = null;
+		Npc npc = null;
 		String idStr = null;
 		String script = null;
 
@@ -49,124 +53,60 @@ public class ReadMobScript {
 			}
 		}
 
-		// pega todos os elementos 'monstro' do XML ===================
-		nl = elem.getElementsByTagName("monstro");
+		// pega todos os elementos 'npc' do XML ===================
+		nl = elem.getElementsByTagName("npc");
 
-		// percorre cada elemento 'monstro' encontrado
+		// percorre cada elemento 'npc' encontrado
 		for( int i=0; i<nl.getLength(); i++ ) {
-			Element tagMob = (Element) nl.item(i);
+			Element tagNpc = (Element) nl.item(i);
 
-			mob = new Mob();
-			mob.setId( getAtributo(tagMob, "id", -1) );
-			if( mob.getId()<0 ) continue;
+			npc = new Npc();
+			npc.setId( getAtributo(tagNpc, "id", null) );
+			if( npc.getId()==null ) continue;
 
-			NodeList nl2 = tagMob.getChildNodes();
+			NodeList nl2 = tagNpc.getChildNodes();
 			for( int j=0; j<nl2.getLength(); j++ ) {
 				Node nd2 = nl2.item(j);
 				if( nd2.getNodeType()!=Node.ELEMENT_NODE)
 					continue;
 				Element tag = (Element) nd2;
 				try {
-					if( tag.getNodeName().equals("spawn") ){
-						popularSpawn(mob, tag);
-					} else if( tag.getNodeName().equals("callsub") ){
-						popularCallsub(mob, tag);
-					} else if( tag.getNodeName().equals("script") ){
-						popularScript(mob, tag);
+					if( tag.getNodeName().equals("script") ){
+						popularScript(npc, tag);
 					} else if( tag.getNodeName().equals("gerar_script") ){
-						popularGerarScript(mob, tag);
+						popularGerarScript(npc, tag);
+					} else if( tag.getNodeName().equals("var") ){
+						popularVar(npc, tag);
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}
 
-			mobs.put(mob.getId(), mob);
+			npcs.put(npc.getId(), npc);
 		 }
 
 	}
 
-	private void popularSpawn(Mob mob, Element tag) {
-		MobSpawn spawn = new MobSpawn();
-		spawn.settSpawn( getAtributoInteger(tag, "tempo_spawn", null) );
-		spawn.settMorte( getAtributoInteger(tag, "tempo_morte", null) );
+	private void popularVar(Npc npc, Element tag) throws Exception {
+		String name = getAtributo(tag, "name", null);
+		String value = getAtributo(tag, "value", null);
+		if(name==null || value==null)
+			throw new Exception("Não foi possível encontrar name ou value para a tag var.");
 
-		String str;
-		String[] strs;
-		int i;
-
-		str = getAtributo(tag, "grupos", null);
-		if(str!=null && !str.equals("")) {
-			strs = str.split("\\,");
-			for(i=0; i<strs.length; i++){
-				spawn.getGrupos().add(strs[i]);
-			}
-		}
-		mob.getSpawns().add(spawn);
+		npc.getVars().put(name, value);
 	}
 
-	private void popularCallsub(Mob mob, Element tag) {
-		MobCallsub sub = new MobCallsub();
-		sub.setCallsub( getAtributo(tag, "label", null) );
-		sub.setArgs( getAtributo(tag, "args", null) );
-		mob.getScripts().add(sub);
-
-		NodeList nl = tag.getChildNodes();
-		for( int i=0; i<nl.getLength(); i++ ) {
-			Node nd = nl.item(i);
-			if( nd.getNodeType()!=Node.ELEMENT_NODE)
-				continue;
-			Element tag2 = (Element) nd;
-			if( tag2.getNodeName().equals("gerar_label") ){
-				try {
-					popularGerarLabel(mob, tag2, sub.getCallsub());
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		}
-	}
-
-	private void popularGerarLabel(Mob mob, Element tag, String callsub) throws Exception {
+	private void popularGerarScript(Npc npc, Element tag) throws Exception {
 		String idKey = getAtributo(tag, "script", null);
 		if(idKey==null)
-			throw new Exception("Impossível gerar_label para o monstro: " +mob.getId()+ ". Tag 'gerar_label' não possui atributo 'script'.");
+			throw new Exception("Impossível gerar_script para o npc: " +npc.getId()+ ". Tag 'gerar_script' não possui atributo 'script'.");
 
 		String script = scripts.get(idKey);
 		if(script==null)
-			throw new Exception("Impossível gerar_label para o monstro: " +mob.getId()+ ". Não foi possível encontrar o script '" +idKey+ "'.");
+			throw new Exception("Impossível gerar_script para o npc: " +npc.getId()+ ". Não foi possível encontrar o script '" +idKey+ "'.");
 
-		if(callsubs.containsKey(callsub))
-			throw new Exception("Impossível gerar_label para o monstro: " +mob.getId()+ ". Já existe uma label com o nome '" +callsub+ "'.");
-
-		script = new String(callsub+":\n\t"+script+"\n\treturn;");
-
-		NodeList nl = tag.getChildNodes();
-		for( int i=0; i<nl.getLength(); i++ ) {
-			if( nl.item(i).getNodeType()!=Node.ELEMENT_NODE )
-				continue;
-			Element tagVar = (Element) nl.item(i);
-			if( tagVar.getNodeName().equals("var") ){
-				try {
-					script = popularVar(script, tagVar);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		}
-		callsubs.put(callsub, script);
-	}
-
-	private void popularGerarScript(Mob mob, Element tag) throws Exception {
-		String idKey = getAtributo(tag, "script", null);
-		if(idKey==null)
-			throw new Exception("Impossível gerar_script para o monstro: " +mob.getId()+ ". Tag 'gerar_script' não possui atributo 'script'.");
-
-		String script = scripts.get(idKey);
-		if(script==null)
-			throw new Exception("Impossível gerar_script para o monstro: " +mob.getId()+ ". Não foi possível encontrar o script '" +idKey+ "'.");
-
-		GrupoScript mobScript = new GrupoScript();
+		GrupoScript grupoScript = new GrupoScript();
 
 		script = new String(script);
 		NodeList nl = tag.getChildNodes();
@@ -182,17 +122,17 @@ public class ReadMobScript {
 				}
 			}
 		}
-		mobScript.setScript(script);
+		grupoScript.setScript(script);
 
 		String str = getAtributo(tag, "grupos", null);
 		if(str!=null && !str.equals("")) {
 			String[] strs = str.split("\\,");
 			for(int i=0; i<strs.length; i++){
-				mobScript.getGrupos().add(strs[i]);
+				grupoScript.getGrupos().add(strs[i]);
 			}
 		}
 
-		mob.getScripts().add(mobScript);
+		npc.getScripts().add(grupoScript);
 	}
 
 	private String popularVar(String script, Element var) throws Exception {
@@ -205,25 +145,25 @@ public class ReadMobScript {
 	}
 
 	/**
-	 * Popula um objeto String com os dados da tag XML e insere na lista do objeto Mob.
+	 * Popula um objeto String com os dados da tag XML e insere na lista do objeto Npc.
 	 */
-	private void popularScript(Mob mob, Element tag) {
+	private void popularScript(Npc npc, Element tag) {
 		String script = getValorTrim(tag);
 		if(script==null || (script!=null&&script.equals("")))
 			return;
 
-		GrupoScript mobScript = new GrupoScript();
-		mobScript.setScript(script);
+		GrupoScript grupoScript = new GrupoScript();
+		grupoScript.setScript(script);
 
 		String str = getAtributo(tag, "grupos", null);
 		if(str!=null && !str.equals("")) {
 			String[] strs = str.split("\\,");
 			for(int i=0; i<strs.length; i++){
-				mobScript.getGrupos().add(strs[i]);
+				grupoScript.getGrupos().add(strs[i]);
 			}
 		}
 
-		mob.getScripts().add( mobScript );
+		npc.getScripts().add( grupoScript );
 	}
 
 	/**
@@ -281,16 +221,12 @@ public class ReadMobScript {
 		return null;
 	}
 
-	public HashMap<Integer, Mob> getMobs() {
-		return mobs;
+	public HashMap<String, Npc> getNpcs() {
+		return npcs;
 	}
 
 	public HashMap<String, String> getScripts() {
 		return scripts;
-	}
-
-	public HashMap<String, String> getCallsubs() {
-		return callsubs;
 	}
 
 }
