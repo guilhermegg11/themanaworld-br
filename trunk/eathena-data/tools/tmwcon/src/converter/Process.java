@@ -106,7 +106,7 @@ public class Process {
 		System.out.printf("Script: %s\n", name);
 		out.printf("\n// Script: %s\n", name);
 		if(shape[2]==0 && shape[3]==0)
-			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s{\n", map, shape[0], shape[1], nameScript, npc);
+			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s, {\n", map, shape[0], shape[1], nameScript, npc);
 		else
 			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s,%d,%d,{\n", map, shape[0], shape[1], nameScript, npc, shape[2]/2, shape[3]/2);
 		out.printf("\tset @map$, \"%s\";\n", map);
