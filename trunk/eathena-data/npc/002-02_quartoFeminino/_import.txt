@@ -1,3 +1,4 @@
 map: 002-02.gat
 npc: npc/002-02_quartoFeminino/_mobs.txt
+npc: npc/002-02_quartoFeminino/_scripts.txt
 npc: npc/002-02_quartoFeminino/_warps.txt

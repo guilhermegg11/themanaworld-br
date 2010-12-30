@@ -1,5 +1,6 @@
 map: 008.gat
 npc: npc/008_IlhaFortaleza/_mobs.txt
+npc: npc/008_IlhaFortaleza/_scripts.txt
 npc: npc/008_IlhaFortaleza/_shops.txt
 npc: npc/008_IlhaFortaleza/_warps.txt
 npc: npc/008_IlhaFortaleza/espada008.conf
@@ -8,4 +9,4 @@ npc: npc/008_IlhaFortaleza/guardas.conf
 npc: npc/008_IlhaFortaleza/jack.conf
 npc: npc/008_IlhaFortaleza/joaozinho.conf
 npc: npc/008_IlhaFortaleza/juliana.conf
-//npc: npc/008_IlhaFortaleza/monge.conf
+//npc: npc/008_IlhaFortaleza/monge.conf //< continua desativado

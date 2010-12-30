@@ -1,3 +1,4 @@
 map: 002-05.gat
 npc: npc/002-05_escadaAndar1/_mobs.txt
+npc: npc/002-05_escadaAndar1/_scripts.txt
 npc: npc/002-05_escadaAndar1/_warps.txt

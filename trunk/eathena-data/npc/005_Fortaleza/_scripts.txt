@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 005 Fortaleza
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

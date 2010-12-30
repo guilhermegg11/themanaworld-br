@@ -1,3 +1,4 @@
 map: 002-04.gat
 npc: npc/002-04_escadaTerrea/_mobs.txt
+npc: npc/002-04_escadaTerrea/_scripts.txt
 npc: npc/002-04_escadaTerrea/_warps.txt

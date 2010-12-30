@@ -1,3 +1,4 @@
 map: 002-03.gat
 npc: npc/002-03_quartoMasculino/_mobs.txt
+npc: npc/002-03_quartoMasculino/_scripts.txt
 npc: npc/002-03_quartoMasculino/_warps.txt

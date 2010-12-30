@@ -1,4 +1,5 @@
 map: 008-4.gat
-npc: npc/008-4_MinaAreia/bau.conf
 npc: npc/008-4_MinaAreia/_mobs.txt
+npc: npc/008-4_MinaAreia/_scripts.txt
 npc: npc/008-4_MinaAreia/_warps.txt
+npc: npc/008-4_MinaAreia/bau.conf

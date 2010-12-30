@@ -1,4 +1,5 @@
 map: navio.gat
 npc: npc/navio/_mobs.txt
+npc: npc/navio/_scripts.txt
 npc: npc/navio/_warps.txt
 npc: npc/navio/guardadonavio.conf

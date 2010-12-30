@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: org016 Terra Desconhecida
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 010 Polo Norte
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

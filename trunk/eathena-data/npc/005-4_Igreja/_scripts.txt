@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 005-4 Igreja
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

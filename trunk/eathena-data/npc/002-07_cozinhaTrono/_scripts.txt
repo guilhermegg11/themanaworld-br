@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 002-07 Cozinha e Trono
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

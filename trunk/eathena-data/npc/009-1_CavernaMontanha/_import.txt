@@ -1,3 +1,4 @@
 map: 009-1.gat
 npc: npc/009-1_CavernaMontanha/_mobs.txt
+npc: npc/009-1_CavernaMontanha/_scripts.txt
 npc: npc/009-1_CavernaMontanha/_warps.txt

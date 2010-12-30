@@ -1,3 +1,4 @@
 map: 002-07.gat
 npc: npc/002-07_cozinhaTrono/_mobs.txt
+npc: npc/002-07_cozinhaTrono/_scripts.txt
 npc: npc/002-07_cozinhaTrono/_warps.txt

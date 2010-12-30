@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: prisao Prisão
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: navio-1 Navio - Quarto do Capitão
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

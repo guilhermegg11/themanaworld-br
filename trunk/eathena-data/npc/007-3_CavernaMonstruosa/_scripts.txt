@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 007-3 Caverna Monstruosa
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

@@ -1,10 +1,11 @@
 map: 010.gat
 npc: npc/010_PoloNorte/_mobs.txt
+npc: npc/010_PoloNorte/_scripts.txt
 npc: npc/010_PoloNorte/_warps.txt
-//npc: npc/010_PoloNorte/boneco_neve.conf //Modificado para o natal.
+npc: npc/010_PoloNorte/boneco_neve.conf
 npc: npc/010_PoloNorte/duende_faisca.conf
 npc: npc/010_PoloNorte/duende_lulu.conf
-//npc: npc/010_PoloNorte/duende_tunico.conf //Modificado para o natal.
+npc: npc/010_PoloNorte/duende_tunico.conf
 npc: npc/010_PoloNorte/guardadonavio.conf
 npc: npc/010_PoloNorte/jornaleiro.conf
 npc: npc/010_PoloNorte/menir_alma.conf
