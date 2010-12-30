@@ -86,7 +86,9 @@ public class Main {
         folder = new File("tmwdata/maps/");
 
         ReadMobScript mobScript = new ReadMobScript();
+        ReadNpcScript npcScript = new ReadNpcScript();
 		mobScript.carregarXML("eathena-data/npc/functions/mobScript.xml");
+        npcScript.carregarXML("eathena-data/npc/functions/npcScript.xml");
 
         Collection<File> tmxs = getTMXFiles(folder);
         Vector<String> folders = new Vector<String>();
@@ -95,7 +97,7 @@ public class Main {
             name = getName(folder, f);
             System.out.printf("== %s ==\n", name);
             if (summary != null) summary.printf("== %s ==\n", name);
-            folders.add(Process.processMap(name, loadMap(f), summary, mobScript));
+            folders.add(Process.processMap(name, loadMap(f), summary, mobScript, npcScript));
         }
 
         if (summary != null) {

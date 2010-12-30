@@ -90,12 +90,14 @@ public class Process {
 		out.printf("%s.gat,%d,%d\twarp\t%s\t%d,%d,%s.gat,%d,%d\n", map, shape[0], shape[1], name, shape[2], shape[3], dest, x, y);
 	}
 
-	private static void handleScript(PrintWriter out, String map, String name, Rectangle bounds, Properties props) {
+	private static void handleScript(PrintWriter out, String map, String name, Rectangle bounds, Properties props, ReadNpcScript npcScript) {
 		if (out == null)
 			return;
-		String close = getProp(props, "close", null);
-		String nameScript = getProp(props, "name", null);
-		String npc = getProp(props, "npc", "0");
+		String npcId = getProp(props, "npc_id", null);
+		Npc npc = npcScript.getNpcs().get(npcId);
+
+		String nameScript = getProp(props, "name", npc!=null ? npc.getVar("%NAME%", null) : null );
+		String npcIdx = getProp(props, "npc", npc!=null ? npc.getVar("%NPC%", "0") : "0" );
 		String script = getProp(props, "script", null);
 		String script1 = getProp(props, "script1", null);
 		String script2 = getProp(props, "script2", null);
@@ -106,12 +108,9 @@ public class Process {
 		System.out.printf("Script: %s\n", name);
 		out.printf("\n// Script: %s\n", name);
 		if(shape[2]==0 && shape[3]==0)
-			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s, {\n", map, shape[0], shape[1], nameScript, npc);
+			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s, {\n", map, shape[0], shape[1], nameScript, npcIdx);
 		else
-			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s,%d,%d,{\n", map, shape[0], shape[1], nameScript, npc, shape[2]/2, shape[3]/2);
-		out.printf("\tset @map$, \"%s\";\n", map);
-		out.printf("\tset @x, %d;\n", shape[0]);
-		out.printf("\tset @y, %d;\n", shape[1]);
+			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s,%d,%d,{\n", map, shape[0], shape[1], nameScript, npcIdx, shape[2]/2, shape[3]/2);
 		if(script!=null)
 			out.printf("\t%s\n", script);
 		if(script1!=null)
@@ -120,10 +119,23 @@ public class Process {
 			out.printf("\t%s\n", script2);
 		if(script3!=null)
 			out.printf("\t%s\n", script3);
-		if(close!=null)
-			out.printf("\t%s;\n}\n", close);
-		else
-			out.printf("\tclose;\n}\n");
+
+		GrupoScript scpt;
+		if(npc!=null) {
+			for( Object obj : npc.getScripts() ) {
+				if( (scpt=Npc.paraGrupoScript(obj))!=null ){
+					if( scpt.contemGrupo(npc.getGrupo()) || scpt.getGrupos().size()==0){
+						script = scpt.getScript().replace("%MAPA%", map);
+						//script = script.replace("%GRUPO%", npc.getGrupo());
+						script = script.replaceAll("%X%", String.valueOf(shape[0]) );
+						script = script.replaceAll("%Y%", String.valueOf(shape[1]) );
+						out.printf("\t%s\n", script);
+					}
+				}
+			}
+		}
+
+		out.printf("\tclose;\n}\n");
 	}
 
 	private static Mob handleMob(PrintWriter out, String map, String name, Rectangle bounds, Properties props, ReadMobScript mobScript) {
@@ -169,7 +181,7 @@ public class Process {
 		return retMob;
 	}
 
-    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter scriptOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript) {
+    private static void processObject(MapObject mo, String map, PrintWriter warpOut, PrintWriter scriptOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript, ReadNpcScript npcScript) {
         if (mo == null) return;
         String name = mo.getName();
         String type = mo.getType();
@@ -179,18 +191,18 @@ public class Process {
         if (type.equalsIgnoreCase("warp")) {
             handleWarp(warpOut, map, name, bounds, props);
         } else if (type.equalsIgnoreCase("script")) {
-            handleScript(scriptOut, map, name, bounds, props);
+            handleScript(scriptOut, map, name, bounds, props, npcScript);
         } else if (type.equalsIgnoreCase("spawn")) {
             mobs.add(handleMob(mobOut, map, name, bounds, props, mobScript));
         }
     }
 
-	private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter scriptOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript) {
+	private static void processObjects(Iterator<MapObject> objs, String map, PrintWriter warpOut, PrintWriter scriptOut, PrintWriter mobOut, TreeSet<Mob> mobs, ReadMobScript mobScript, ReadNpcScript npcScript) {
         MapObject mo;
         while (objs.hasNext()) {
             mo = objs.next();
             if (mo == null) continue;
-            processObject(mo, map, warpOut, scriptOut, mobOut, mobs, mobScript);
+            processObject(mo, map, warpOut, scriptOut, mobOut, mobs, mobScript, npcScript);
         }
     }
 
@@ -208,7 +220,7 @@ public class Process {
         }
     }
 
-    static public String processMap(String name, Map map, PrintWriter summary, ReadMobScript readMobScript) {
+    static public String processMap(String name, Map map, PrintWriter summary, ReadMobScript readMobScript, ReadNpcScript readNpcScript) {
         if (name == null) return null;
         if (map == null) return null;
 
@@ -251,10 +263,11 @@ public class Process {
 		mobOut.printf("//\n\n");
 
         TreeSet<Mob> mobs = new TreeSet<Mob>();
-        processObjects(map.getObjects(), name, warpOut, scriptOut, mobOut, mobs, readMobScript);
+        processObjects(map.getObjects(), name, warpOut, scriptOut, mobOut, mobs, readMobScript, readNpcScript);
         for (MapLayer layer : map) {
+        	//scriptOut.printf("//=== Layer: %s ==============================\n\n", layer.getName());
             if (layer instanceof ObjectGroup) {
-                processObjects(((ObjectGroup) layer).getObjects(), name, warpOut, scriptOut, mobOut, mobs, readMobScript);
+                processObjects(((ObjectGroup) layer).getObjects(), name, warpOut, scriptOut, mobOut, mobs, readMobScript, readNpcScript);
             }
         }
 
@@ -268,7 +281,7 @@ public class Process {
         HashMap<Integer, Mob> hash = readMobScript.getMobs();
         TreeSet<Object> lCont = new TreeSet<Object>();
 		MobCallsub sub;
-		MobScript script;
+		GrupoScript script;
 		String str;
 
 		System.out.println("Starting mob points");
@@ -282,7 +295,7 @@ public class Process {
 
 			// Stripts genéricos para qualquer id de monstro...
 			for( Object obj : all.getScripts() ) {
-				if( (script=Mob.paraMobScript(obj))!=null ){
+				if( (script=Mob.paraGrupoScript(obj))!=null ){
 					mobOut.printf("\t%s\n", script.getScript());
 				}
 			}
@@ -291,7 +304,7 @@ public class Process {
 			Mob mob2 = hash.get(mob.getId());
 			if(mob2!=null) {
 				for( Object obj : mob2.getScripts() ) {
-					if( (script=Mob.paraMobScript(obj))!=null ){
+					if( (script=Mob.paraGrupoScript(obj))!=null ){
 						if( script.contemGrupo(mob.getGrupo()) || script.getGrupos().size()==0){
 							str = script.getScript().replace("%MAPA%", name);
 							str = str.replace("%GRUPO%", mob.getGrupo());
@@ -311,7 +324,7 @@ public class Process {
 			}
 
 			for( Object obj : mob.getScripts() ) {
-				if( (script=Mob.paraMobScript(obj))!=null ){
+				if( (script=Mob.paraGrupoScript(obj))!=null ){
 					// não precisa conferir se script pertence ao grupo
 					mobOut.printf("\t%s\n", script.getScript());
 				}

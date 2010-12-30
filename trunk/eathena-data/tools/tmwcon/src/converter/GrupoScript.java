@@ -3,16 +3,16 @@ package converter;
 import java.util.TreeSet;
 
 /**
- * Objeto de uso individual da classe Mob. Para ser inserido em Mob.scripts do tipo List<Object>.
+ * Objeto de uso individual da classe Mob/Npc. Para ser inserido em Mob.scripts do tipo List<Object>.
  * Não é utilizado na classe ReadMobScript.
  * @author diogorbg - http://diogorbg.blogspot.com/
  */
-public class MobScript {
+public class GrupoScript {
 
 	String script;
 	TreeSet<String> grupos = new TreeSet<String>();
 
-	public MobScript() {}
+	public GrupoScript() {}
 
 	public String getScript() {
 		return script;

@@ -1,40 +1,41 @@
 package converter;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
-public class Mob implements Comparable<Mob>{
+public class Npc implements Comparable<Npc>{
 
-	private int id = -1;
-	private int x;
-	private int y;
+	private String id;
+//	private int x;
+//	private int y;
 	private String grupo; //< Uso individual
 	private List<Object> scripts = new ArrayList<Object>();
-	private List<MobSpawn> spawns = new ArrayList<MobSpawn>(); //< Uso genérico
+	private HashMap<String, String> vars = new HashMap<String, String>();
 
-	public Mob() {}
+	public Npc() {}
 
-	public Mob(int mob) {
-		this.id = mob;
+	public Npc(String id) {
+		this.id = id;
 	}
 
-	public int compareTo(Mob mob) {
-		return getIdGrupo().compareTo(mob.getIdGrupo());
+	public int compareTo(Npc npc) {
+		return getIdGrupo().compareTo(npc.getIdGrupo());
 	}
 
 	public String getIdGrupo(){
 		return id + (grupo!=null&&!grupo.equals("") ? "_"+grupo : "");
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int mob) {
-		this.id = mob;
+	public void setId(String id) {
+		this.id = id;
 	}
 
-	public int getX() {
+/*	public int getX() {
 		return x;
 	}
 
@@ -48,25 +49,15 @@ public class Mob implements Comparable<Mob>{
 
 	public void setY(int y) {
 		this.y = y;
-	}
+	}*/
 
 	public List<Object> getScripts() {
 		return scripts;
 	}
 
-	public List<MobSpawn> getSpawns() {
-		return spawns;
-	}
-
 	static public GrupoScript paraGrupoScript(Object obj){
 		if(obj instanceof GrupoScript)
 			return (GrupoScript) obj;
-		return null;
-	}
-
-	static public MobCallsub paraMobCallsub(Object obj){
-		if(obj instanceof MobCallsub)
-			return (MobCallsub) obj;
 		return null;
 	}
 
@@ -76,6 +67,20 @@ public class Mob implements Comparable<Mob>{
 
 	public void setGrupo(String grupo) {
 		this.grupo = grupo;
+	}
+
+	public HashMap<String, String> getVars() {
+		return vars;
+	}
+
+	/**
+	 * Retorna o valor de uma variável... ou o valor default caso ela não exista.
+	 */
+	public String getVar(String name, String def){
+		String ret = vars.get(name);
+		if(ret==null)
+			ret = def;
+		return ret;
 	}
 
 }
