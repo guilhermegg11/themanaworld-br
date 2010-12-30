@@ -280,7 +280,14 @@ public class Process {
 
 		for( Mob mob : mobs ) {
 			if( mob.getId()==-1) continue;
-			mobOut.printf("On%s:\n\tset @mobID, %d;\n\t%s\n", mob.getIdGrupo(), mob.getId(), all.getScripts()); << terminar aki
+			mobOut.printf("On%s:\n\tset @mobID, %d;\n", mob.getIdGrupo(), mob.getId());
+
+			// Stripts genéricos para qualquer id de monstro...
+			for( Object obj : all.getScripts() ) {
+				if( (script=Mob.paraMobScript(obj))!=null ){
+					mobOut.printf("\t%s\n", script.getScript());
+				}
+			}
 
 			// Stripts genéricos para um determinado id de monstro...
 			Mob mob2 = hash.get(mob.getId());
