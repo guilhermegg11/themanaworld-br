@@ -1,14 +1,18 @@
 //
-// Navio
+// Monstros do mapa: navio Navio Intercontinental
+// Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-navio.gat,26,24,11,06	monster	RatosDeConves(2)	1323,2,0,0,Mobnavio::On1323
+navio.gat,31,26,10,5	monster	RatosDeConves(2)	1323,2,0,0,Mobnavio::On1323
 
 navio.gat,0,0,0	script	Mobnavio	-1,{
+
 On1323:
 	set @mobID, 1323;
 	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 	break;
 
-end;
+	end;
 }

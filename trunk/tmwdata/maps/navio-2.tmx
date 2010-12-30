@@ -6,7 +6,6 @@
   <property name="background0scrollX" value="-1.5"/>
   <property name="background0scrollY" value="0.0"/>
   <property name="name" value="Navio - Quarto dos Marujos"/>
-  <property name="pasta" value="navio-2"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>

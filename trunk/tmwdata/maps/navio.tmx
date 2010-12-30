@@ -11,7 +11,6 @@
   <property name="overlay1parallax" value="1.0"/>
   <property name="overley1scrollX" value="1.0"/>
   <property name="overley1scrollY" value="1.0"/>
-  <property name="pasta" value="navio"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
