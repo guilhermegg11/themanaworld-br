@@ -2,3 +2,31 @@
 // Scripts do mapa: org027 Cemitério
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Pedra de Emanar Alma
+org027.gat,57,79,0	script	#org027_57x79	326, {
+	callfunc "getTime";
+	callfunc "pedraEmanarAlma", "org027.gat", 57, 79;
+	close;
+}
+
+// Script: Pedra de Emanar Alma
+org027.gat,48,59,0	script	#org027_48x59	326, {
+	callfunc "getTime";
+	callfunc "pedraEmanarAlma", "org027.gat", 48, 59;
+	close;
+}
+
+// Script: Pedra de Emanar Alma
+org027.gat,101,64,0	script	#org027_101x64	326, {
+	callfunc "getTime";
+	callfunc "pedraEmanarAlma", "org027.gat", 101, 64;
+	close;
+}
+
+// Script: Pedra de Emanar Alma
+org027.gat,85,50,0	script	#org027_85x50	326, {
+	callfunc "getTime";
+	callfunc "pedraEmanarAlma", "org027.gat", 85, 50;
+	close;
+}
