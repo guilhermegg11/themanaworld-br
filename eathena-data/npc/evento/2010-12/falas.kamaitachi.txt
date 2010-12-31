@@ -1,0 +1,74 @@
+Quest da pedra de emanar alma.
+
+Autor: Kamaitachi.
+
+Palavras-chave: pedra de emanar alma, cristalização da energia da alma, anel de absorção da energia da alma.
+
+Resumo da quest:
+
+"O alquimista falará sobre o processo natural de cristalização das almas das coisas vivas. Falará sobre como as pedras são formadas a partir do processo de cristalização da energia das almas. Falará também sobre o processo de se fabricar aneis que fazem com que se aborva mais experiência."
+
+
+Quest:
+
+Jogador anda pelo mundo Mana e de repente encontra um cristal emanando uma aura magnífica. Checa o que é, e vê que se faz necessário tirar uma lasca da pedra iluminada, uma vez que apenas o toque mostrou ser quente e nada mais.
+
+
+
+Alquimista: Oh! Espere! Sinto que você carrega algo muito valioso do ponto de vista alquímico!
+
+Jogador: Ah? Do que está falando?
+
+Alquimista: "Neste momento o alquimista coloca uma mão espalmada proximo a face, enquanto a outra percorre espalmada pelo seu corpo, como se tentasse encontrar algo de natureza energética."
+
+- Sim... estou sentindo... Algo de muito poderoso está em suas mãos. Há algo que lhe chamou a atenção recentemente?
+
+Jogador: Sim, encontrei um cristal enorme em uma de minhas aventuras mundo a fora. Ele brilhava intensamente, então pensando que fosse algo semelhante ao menir da alma, toquei, e o que senti foi apenas um calor, como se o cristal tivesse uma energia dentro dele.
+
+Alquimista: FASCINATE! Você, meu caro aventureiro(a), acabou de encontrar um fenômeno raríssimo no nosso mundo Mana! Cristalização da energia das almas! Mas me diga... o que você fez depois de tocar a pedra?
+
+Jogador: Eu...quebrei um pedaço para retirar o fragmento e procurar alguém que saiba a respeito disso...
+
+Alquimista: Atitude dígna de um verdadeiro explorador, posso dizer com certeza meu caro. ;-)
+
+Jogador: Mas me explique um pouco mais sobre essa tal "cristalização da energia das almas".
+
+Alquimista: Ah! claro, claro! Quase me esqueço de falar sobre este magnífico efeito natural. Raro, mas natural. Bem, não sei se você já sabe aventureiro(a), mas todas as coisas deste mundo, de uma forma ou de outra possuem algo que conhecemos como espírito, alma, anima, entre outros nomes. Esta entidade que se chama alma não possui matéria, isto é, não pode ser tocado, apenas sentido.
+Os deuses deste mundo concedem alma a todas as coisas, para que cupram o seu papel neste mundo e depois voltem para os seus criadores. Mas, as almas as vezes se acumulam neste planeta. O motivo, ainda não sabemos, mas suspeita-se que a energia Mana, a mesma da pedra menir, e a do planeta, forcem as almas a permanecerem aqui por algum tempo.
+Por este motivo, elas ao invéz de ascenderem a essência dos elementos, onde moram os deuses, as almas vão para o centro do mundo Mana, onde são misturadas a energia mana.
+Depois de muito tempo, essa energia das coisas vivas se acumulam tanto que se impreguinam nas rochas cristalinas, e por serem não-matéria cristalizada, elas emanam a aura que provavelmente você deve ter visto, como forma de voltar ao seu estado natural e ascender ao céu.
+
+Jogador: Interessante...mas é chato tambem... O que se pode fazer com elas?
+
+Alquimista: Ah! Excelente pergunta! Por serem a energia da alma no seu estado puro elas tem uma estranha tendência de absorver as almas assim que são libertadas dos seus corpos materiais, acumulando-as na forma cristalina para logo depois voltar ao seu estado etéreo. Por exemplo, se algum animal for morto próximo a pedra, ela absorverá a alma deste animal para o cristal para logo depois vaporizar a alma para o céu.
+
+Jogador: Nossa... mas e o que aconteceria se eu matasse um animal longe da pedra original, e eu com este fragmento?
+
+Alquimista: hum...a pedra tenderia a absorver a alma do animal, mas como ela foi separada da matriz cristalina, não fará muita coisa. Mas há um modo de fazer até um pequeno fragmento deste cristal absorver almas.
+
+Jogador: E qual seria a utilidade disso?
+
+Alquimista: É ai que está a grande importância deste fenômeno para o mundo Mana. O fragmento, se bem trabalhado faz com que o usuário absorva as almas dos mortos e incorpore a sua própria alma a energia contida nas almas que ele capturou. Resumindo, o cristal absorve a alma, converte em energia e lhe passa para que você fique com uma capacidade inigualável. Geralmente se coloca o fragmento lapidado em um anel, por ser de facil porte.
+
+Jogador: Acho que estou no lugar certo e na hora certa! Como posso fazer o melhoramento do cristal que tenho?
+
+Alquimista: Hahahaha. Nunca vi ser tão verdadeira a lei que reje o mundo: "Para se ter algo, é preciso dar algo em troca". Esta é a lei da troca equivalente aventureiro. Se deseja ter poderes nunca vistos, precisará sacrificar algo em troca. Por este motivo, me traga X, Y, Z materiais, além de W gp como custo inerente ao trabalho.
+
+Jogador: Me parece que nada vem de graça mesmo. Está bem para mim. Trarei os seus materiais, assim como o dinheiro.
+
+Alquimista: Boa sorte aventureiro.
+
+// Falta determinar os materiais envolvidos//
+
+--Jogador traz os materiais--
+
+Alquimista: Ah! vejo que trouxe tudo o que pedi. Farei imediatamente os seu anel com o cristal lapidado.
+
+"O alquimista recebe em mãos o material entregue por você e coloca em cima de uma pequena bancada. Trabalha o metal para formar o anel e logo depois lapida cuidadosamente o cristal para que se encaixe perfeitamente no anel recém criado".
+
+- Ufa! Aqui está! Espero que consiga atingir os seus objetivos com o poder que este anel lhe dará. Se não se importa, ficarei com algums pedaços do cristal que sobraram para um estudo mais aprofundado no assunto. Que ventos de boa sorte lhe acompanhem na sua jornada aventureir(a).
+
+
+Fim da quest.
+
+COMENTÁRIOS: Como nao sei bem o que se faz depois de pegar o cristal, então não me arrisco a continuar a quest.  Há a questão do jogador perder o MP quando for atacar, e recuperar ele por meio de tocar a pedra. Isso pode ser explicado pelo alquimista neste momento, ou depois que o jogador já estiver vivênciado a experiência. Fora tudo isso, falta ver a questão da história, se combina ou não, e se será modificada.
