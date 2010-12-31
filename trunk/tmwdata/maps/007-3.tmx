@@ -5,27 +5,27 @@
   <property name="music" value="faradize_-_darknight_castle.ogg"/>
   <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Caverna Monstruosa"/>
-  <property name="pasta" value="CavernaMonstruosa"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0parallax" value="0.0"/>
+  <property name="pasta" value="CavernaMonstruosa"/>
  </properties>
  <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+  <image source="../graphics/tiles/cave.png" trans="ff00ff" width="512" height="256"/>
  </tileset>
  <tileset firstgid="131" name="Cave x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/cave_x2.png"/>
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="147" name="Interno X2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="163" name="Interno X3" tilewidth="32" tileheight="94">
-  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
  </tileset>
  <tileset firstgid="179" name="Interno" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="200" height="100">
   <data encoding="base64" compression="gzip">
@@ -42,9 +42,9 @@
    H4sIAAAAAAAAA+3dUVKDMBQFUPqtG1DX5Bp0Ae5C3bd0poyIFEgaSnicM8OMP45tyc3jJVCbBgAAAAAAAAAAAAAAAAAAAAAAAACmPbXHc3u8bP1CCvo8Nc3X5fg+bf1q2KtzNh4vPz80cTLy0WbirT1e2+NdPigkUkZgbf36ApF0fUVub1F7NtQ6cnS56I/tlLH0MPL71D9fcJuI8+293pNsxOA8wrgl2VBD0plzjqXrLyLlpHRG+msbskEEXe5vXbOTiX1bY66MOB76eZn7vOSCIeu424vYDwIAMC9qj0r99CDl+UwBthft2qq/9xttnzzXVL2Ndv65buxcR7yfJMcwI/YE5x1p7pCTv3vqRznvufaejdweXU6Ys/dsdPoZSX1P1sDqM+wd79lDRr1n+Zb7qNSSOsz1QmueJ33YPDnZTkrdT7knecnflYs0crIfw+ddUq7JovQXW9GbrGfYY6w1Tp3DdZWoJeYp+M+1bR3UkLrIBUezZA6SizTm9VimepGj9RilxnaJ71uhLmNrikfKxprUFID41prr1RCiMJZhWur9UDnrfEdb/yCmufuhrGUAcC8511b6IgBy2ZuH5VxzQTnWlDnrP8tnfoXrIj57n1MH1A7Oro2Dkv/nc8nhO3vYsyX74rXsk0/lYkl9VDuozbX8pdSVW+uFesPepNSt1O+VraXeUSfXETC+LyYb8Gt4PSEbAAAAAAAAAAAAAAAAAAAAAOzNDwxtU9+AOAEA
   </data>
  </layer>
- <layer name="Collision" width="200" height="100" opacity="0.67">
+ <layer name="Collision" width="200" height="100" visible="0" opacity="0.67">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0" visible="0">
@@ -184,6 +184,18 @@
    <properties>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="200" height="100">
+  <object name="Pedra de Emanar Alma" type="script" x="4416" y="2240" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+  <object name="Pedra de Emanar Alma" type="script" x="768" y="896" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
    </properties>
   </object>
  </objectgroup>

@@ -4,20 +4,20 @@
   <property name="minimap" value="/graphics/minimaps/008-2.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Caverna"/>
-  <property name="pasta" value="Caverna"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="pasta" value="Caverna"/>
  </properties>
  <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png"/>
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="131" name="Cave Bilevel" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_bilevel.png"/>
+  <image source="../graphics/tiles/cave_bilevel.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="387" name="cave X2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/cave_x2.png"/>
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
  <layer name="Ground" width="240" height="80">
   <data encoding="base64" compression="gzip">
@@ -34,12 +34,12 @@
    H4sIAAAAAAAAA+3bWU7DMBQF0PINGyhdQIXY//5opUayguMMTeLpHMkfFKGmwdfPdtzLBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKM310b5yXwR05vPRbrkvAtjs3QyrvUArnuOZOQ1n2lqD1d446xJKV2N2S8vVR+4LoBml9e3auZ+c7dnnvl9tqu9dX7+vrfZCT8Ish6323A6fq9XaOIyvLX9Glvt5tHvQfvNezm6WzjVuo59jfxO+Ho5vZ82hU+8fG4NTTeb3V+NeUU1SOQszMJWNlv431u37sdbMo/f7LsPzUuuU3vtPDq3W061kOC6WzfE6pdT+Yx5Pz2rs/8Zhemc+3Kc1z6o89/kvvCe59tFrrLnsKzWHmVpP9ZLhVEbfyc3aezhcx/i5oOzy1Op5mJJtOatjH5M9TNWPWL3qpVZv1dN8hjKl9lCWnCUD8lizDmv9fDf0YLzeXprnuT1f40KaZ00Mhgzu0ReWfpdh7r2sJY/bM4czrJ2jt7DnNvUdL6jVOzW99D238ZhTe2Y9y+YoObM8NRfW12G9I7Mcy6qcwjFS8/O586hqKpTLedRl9nyGAQAAAAAAAAAAAAAAAAAAAAAAAAAAoT+G/f0lACwBAA==
   </data>
  </layer>
- <layer name="Collision" width="240" height="80" opacity="0.5">
+ <layer name="Collision" width="240" height="80" visible="0" opacity="0.5">
   <data encoding="base64" compression="gzip">
-   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
+   H4sIAAAAAAAAA+3T0YrDMAxE0dD//+h9KizGduRY8kjNHTjQ3aaJJCuf67o+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAyrgQ14DdcCWp4izbqelCLJeoafw0zxy6PqHuoqJ3faK7MGD276d1D3VMVT6OuGzn0Mvr/atS9Zbcbdf2ouzvWqPvM7Mks27/fZmVWv8jS98qMLNdgfA4r8+5F3cfpeb15NqMevTJ7Bvb3sRd1HxnmNft+95nqvr335UnUvWc0m5U16h5Oz2plNk9nFHHPiD05GfX5j+aSoYadqOuvMqe7WUXc83R/kVGfv2VOGWvKWK96Psp3YPaciDNW5tN8znD21rqz1phhpsr5RJ55hmSpo02W98E6H8WOrtSufqcyv79Z3wGvRPRn2T31u7vaj2pHs9VW7d3t/Y7sJds7MKvzdN2r9avfqQrv7+4+WO7ruXfZk2X325oy1G7tR/0uqedwaies9915TrWc3vUqtVv7U9eg6nvnPCx58uz2t6N7nYrns0b3UpzzXU3WZNhjdQ3K3nf6H8VjlyL7zZjoXiP6V+/vtyd1DVX7H+Xu+9nv2ntE9nv3LFV2+8tcn/dZZqupklF63/XmfRd1f71evWa0kuj7z55lrUO9f+paKvo/u3aWHlHswej5T2uqkrse1Lt2t3/w28vVvbXc72T9s/pWfrv6HFXUu7R7juoaKpolYm9P1G/5/0pvEXPwjHqHvM5RXUNlvXyaz3fXWxNd9+y5vc+jayzXnqp9FPXeeJ6juobq2qxevxqvOiOjPovV76r6tX4q8MzJZ3nWFT1b7zNS78ysTnUNb9TGel2GjOr6NJ9Pz7N9/mod1t4zyVjTG3zz5DeWrF7vHdUs28+eMz3dl7V3dQ1vtDP3qomc5TX47D039d547hFyzN2SJ/ex3ns1EbOMjnpfZn2r63ijrHPPmFM1Vjqn/3NQ14F8LNn57eh+p6Oes8cZqevA78oW9Ty8Z6uuAe9xMupeT81TXQPeyTPqXpQzVNcAtHpR15QRcwHquhLUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAyB+NyvWtACwBAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1408" y="1056" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3424" y="1248" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3424" y="928" width="32" height="32"/>
@@ -147,5 +147,17 @@
    </properties>
   </object>
   <object name="Passagem Condicional - Tem que fazer quest" x="6720" y="640" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="240" height="80">
+  <object name="Pedra de Emanar Alma" type="script" x="5408" y="1152" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+  <object name="Pedra de Emanar Alma" type="script" x="1216" y="960" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
