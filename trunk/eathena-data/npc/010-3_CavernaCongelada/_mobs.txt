@@ -13,9 +13,6 @@ On1015:
 	callfunc "MobPoints";
 	callfunc "getTime";
 	callfunc "emanarAlma";
-	callfunc "presentesLimosGelo";
-	callsub _MOBS_limosGelo;
-	callsub _MOBS_limosGelo2;
 	break;
 
 On1016:
@@ -23,44 +20,7 @@ On1016:
 	callfunc "MobPoints";
 	callfunc "getTime";
 	callfunc "emanarAlma";
-	callfunc "docesLimosNeve";
-	callsub _MOBS_limosNeve;
-	callsub _MOBS_limosNeve2;
-	callfunc "presentesLimosGelo";
-	callsub _MOBS_limosGelo;
-	callsub _MOBS_limosGelo2;
 	break;
-
-
-//= Callsubs ==========================================================
-
-_MOBS_limosGelo:
-	if(NATAL2_noel!=5) return;
-	callfunc "mobContagem", 100, NATAL2_noelMobs, @NATAL2_noelMobs;
-	set NATAL2_noelMobs, @mobs;
-	set @NATAL2_noelMobs, @flag;
-	return;
-
-_MOBS_limosGelo2:
-	if(NATAL2_noel!=7) return;
-	callfunc "mobContagem", 200, NATAL2_noelMobs, @NATAL2_noelMobs;
-	set NATAL2_noelMobs, @mobs;
-	set @NATAL2_noelMobs, @flag;
-	return;
-
-_MOBS_limosNeve:
-	if(NATAL2_noel!=2) return;
-	callfunc "mobContagem", 50, NATAL2_bneveMobs, @NATAL2_bneveMobs;
-	set NATAL2_bneveMobs, @mobs;
-	set @NATAL2_bneveMobs, @flag;
-	return;
-
-_MOBS_limosNeve2:
-	if(NATAL2_bneve!=1) return;
-	callfunc "mobContagem", 100, NATAL2_bneveMobs, @NATAL2_bneveMobs;
-	set NATAL2_bneveMobs, @mobs;
-	set @NATAL2_bneveMobs, @flag;
-	return;
 
 	end;
 }
