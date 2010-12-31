@@ -1,4 +1,5 @@
 map: 007.gat
+npc: npc/007_PraiaPorto/gaspar.conf
 npc: npc/007_PraiaPorto/_mobs.txt
 npc: npc/007_PraiaPorto/_scripts.txt
 npc: npc/007_PraiaPorto/_shops.txt
