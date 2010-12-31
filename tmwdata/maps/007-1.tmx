@@ -4,24 +4,24 @@
   <property name="minimap" value="/graphics/minimaps/007-1.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Caverna do Eremita"/>
-  <property name="pasta" value="CavernaEremita"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0parallax" value="0.0"/>
+  <property name="pasta" value="CavernaEremita"/>
  </properties>
  <tileset firstgid="1" name="Colisao" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+  <image source="../graphics/tiles/cave.png" trans="ff00ff" width="512" height="256"/>
  </tileset>
  <tileset firstgid="131" name="Cave x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/cave_x2.png"/>
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="147" name="Woodland" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png"/>
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="403" name="Cave 2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_bilevel.png"/>
+  <image source="../graphics/tiles/cave_bilevel.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="125" height="80">
   <data encoding="base64" compression="gzip">
@@ -38,12 +38,12 @@
    H4sIAAAAAAAAA+3aSW6DMBQAUBbtqrlAk/vfM6AqKkJhcLDx9J7EJorA+YPtugwDAAAAAAAAAAAAAED7fsbrkXsQQHK99PrveN1yD4Loprzeh7Aa7qXml6bfHRqr0mz1ccwen+5Vc5yWUtd8jp4yp++rMe+x+7j2OQ+OqGlfY+6OJ2XeY917L9856kENlivFut1CvlP3+n34PO6h8a1pvcrtiljN8792zcfwaT/Nn3ObfaYW0jkz973LVywtnEmVqIa1Ts//6ykWW791a99XQ02X6Gu8vnMPYljfX1xxnl+SM73eakwAiK+nvSVxvfbjKf72r12LfWV/ua+lMyv5DnM09+LanpC+b3Ft6NnR3Lec917ntKtz2nINtaSEPPXak6mkzKlc1StmXYTea61ulv9PO3rP15mOWty3zNX8POzMu3JbQuaJtRpYjlOu/4S+y7TVe4+d78yft1UjZ9eF1zPkOL2QWL973yH3fpHr6c+yyAcAAAAAAAAAAABAe54hVbl/QJwAAA==
   </data>
  </layer>
- <layer name="Collision" width="125" height="80" opacity="0.5">
+ <layer name="Collision" width="125" height="80" visible="0" opacity="0.5">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2S24rDMAwFQ/7/o/dhYemG2Dq6xHLbEQyFxpIsjc/jOE4AAAAAAAAAAAAAAAAAAAAAAAAAAPjj+LK+n35XZZbXWN13R09WdDur9L1qplmvqjtE51Gj213lbp6ex9pddK9WzPK8viP324nVs8x6Re+iRCY3Und3Vs5xHP97Zt+gEtn8TP1dWTWDsjPlzN3ZzDwV0e2wwkk0/ynns3PZOdSIvMt3QJ1B2Y2aF9n/rJ9yD88s6h273VV5Pyb/K+F9V5X11W+z/+56ee7yLljhdZP1Gq3tnS3rfNTzXagOxcsoT6m5wrkS3d528j6qHe1n3TkyS3b2bl9POvfs5Hz5rXJzl3fNVb9VRberFd5Hc2f3ovbxOh+9s6ro9tTp/am9KDWUXnffumfbkR12MqtR1a9zvt3IRsf9Vs/a7Wg37+/kXKm3ej6c++5U1WfUt9vLCu9e/4ora8fZdxitr/TtdrLCuTeUGqMzT9xn1hfn9o5nez9ffj3OZ/WqnVv1cR6LKud3tc7Lt2xE3/0nE4ls/qyep6by3qI76Paym/dr7l0dq8fpOBu9W2T+bhe7uldyPPWrnGfn7N7/ru4zZ0fnVzrP5n866l48e3z93zrjjYjnWd43Y+3Hs1Pr+6ye932p72eU1733bmb78biwvntcVdXB+bPOr2cj9ZQeGedWzW/C2oOy09m3Lufemt+Esgtrd569qhGZoarep6PuxDqn7leJipm697oz6n6Uc55dj2LlTLDWOa72Z4WPFT0AHwAAAAAAAAAAAAAAAAAAAAAAAADwyw8mntGTQJwAAA==
+   H4sIAAAAAAAAA+2S24rDMAwFQ/7/o/dhYemWWD66xHKbEQyFxpIsjc/jOE4AAAAAAAAAAAAAAAAAAAAAAAAAAPjjeFjfb7+rMstrrO67o6dZdDur9L1qJqtX1R2i86jR7a5yN3fPM9tddK+zsPK8viP324nVs1i9ondRIpMbqbs7K+c4jv89s29QiWx+pv6urJpB2Zly5upsZp6K6HZY4SSaf5dz61x2DjUi7/ITUGdQdqPmRfZv9VPu4ZlFvWO3uyrvh/G/Et53VVlf/Wb9d9XLc5dPYRZeN1mv0dre2bLORz0/hepQvIzylJornCvR7W0n76Pa0X6zO0dmyc7e7etO556dnC+/VW6u8t5z1W9V0e1qhffR3Nm9qH28zkfvrCq6PXV6v2svSg2l19W37tl2ZIedWDWq+nXOtxvZ6Ljf6lm7He3m/ZOcK/VWz4dz352q+oz6dntZ4d3rX3E123H2HUbrK327naxw7g2lxujMHfex+uJ8vmNr7+fLr8e5Va/a+aw+zmNR5fyq1vn2LRvRd//NRCKbb9Xz1FTeW3QH3V528/6ee1Vn1uN0nL3KUe4Wmb/bxa7uVT8el5k3aPXM3ONJePbqOTs6v9J5Nv/bUffi2ePr/7Mz3oh4tvKezGw/np3Ovlv1vO9LfT+jvO69d2Ptx+Ni9t3jqqoOzu91/n42Uk/pkXE+q/kkZntQdmp963LurfkklF3MdufZqxqRGarqfTvqTmbn1P0qUTFT9153Rt2Pcs6z61GsnAnWOsfV/qzwsaIH4AMAAAAAAAAAAAAAAAAAAAAAAAAAfvkBTEXX7kCcAAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
+ <objectgroup name="Objects" width="0" height="0" visible="0">
   <object name="graphics/particles/waterfall-1x2.particle.xml" type="PARTICLE_EFFECT" x="1792" y="704"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3008" y="960" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3072" y="960" width="32" height="32"/>
@@ -148,6 +148,13 @@
     <property name="eA_spawn" value="240000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="47"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="125" height="80">
+  <object name="Pedra de Emanar Alma" type="script" x="2432" y="1472" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
    </properties>
   </object>
  </objectgroup>

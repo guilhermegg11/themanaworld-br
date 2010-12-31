@@ -7,16 +7,16 @@
   <property name="pasta" value="MinaAreia"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" trans="000000"/>
+  <image source="../graphics/tiles/collision.png" trans="000000" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+  <image source="../graphics/tiles/cave.png" trans="ff00ff" width="512" height="256"/>
  </tileset>
  <tileset firstgid="131" name="Caverna X2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/cave_x2.png"/>
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="147" name="woodland_indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="128" height="128">
   <data encoding="base64" compression="gzip">
@@ -33,9 +33,9 @@
    H4sIAAAAAAAAA+3dQQ6CMBAAQO76AfX//1QODWhAt4iltjMJNwgku21K2dVhAAAAAAAAAAAAAAAAAAAAgMnlcdyC512D5wIAAABtSvsDpfYISt+PuNMwxUZ86hbd/wMAaM24Djof/RBAMfM9hB7G/ut7+ZajhXfFFPceYt6D3LwWdwAAAPgP6n8AAAAAAKAtavVhf/Nvar6r9WVpTk111Z/ywHzctjEP1nJA7Puw1mNRQ+y39DXV8NzkM998591cDgAAAAAAAABQO7Uj0Cdjn96p/WNeK51y4bXvRw01tC/NBcYxe/nlGmPrb75a+5cV7RuNWvq/pqV1TOQ6ylnqy8sdt5H41dybyLOcXk3xAwAAAAAAAAAAAAAAjnQHUtfcrwAAAQA=
   </data>
  </layer>
- <layer name="Collision" width="128" height="128">
+ <layer name="Collision" width="128" height="128" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2TW4rEMAwEw9z/0Mt8LITBTmRZcltJNRQLGT+7vJ/jOD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADccG5wB8h3fxTruPH7VWdX9VSYzK88afS+1F5V/a39eL7u+1VbUbp7g/3cs/veid+eRbiKT6f9ujd/f1W4U/tXJPmtvnav/hSezW3Y6q9oN/vGPf/zjH//V/Hv38Z7VOrb3W+u72s2T/I/4yfJvWcN6lqfQ6iDiXczsneV/NGo3T/bvmTeyX0TUbnbyb+30c/qL//25uvtM8F+DrFT3r/aCf/zjf61/tYuqeLscnXOVGf/q/qrj6bSXKP+Af8A/4B/wD8/x35o/8lZGzwrx/i0OZ5yORN1fdTyd9pLp3/vuYH//M29F3V91PJ32EuV/5C2o+6uOp9PzOOu8q8z4t5wXcvyPzLsK/vGP/zr+W/O8b+ZuriXqDivj6bMX/NfD02cv+NcTEfzXYzRej/jfj+jgvw4Z2dV/bx21g7f5b+2b8Was91M7eJt/z7yROdHnfTIjnViD/zp4+jgO/1z874W3j5keexkd35szGrWDiv6j97za9yrq/qqj6LSXqPEw52OnPa+i7u0prO62lyj/1qh734XV/Vj3u4t1/d5a6t534S7V/a+6V1VW92VZf+Y8599X3Kcq3mT7nz3HqntUJyL4r0tkZvf2nAf/uf6zuozK7Lrq/tVEBv/1iIxq35mo+1cTGfzXIzL4r0dkqrn/Rt2/msjgvx4RvbW+VXD/jbp/NRG9tb7hvgYR3bW+7e7+G3X3OxCZkT2y34V1/7cTmRV7eM9y9/ubiYpl/RXvwXJHdee7ktHN6tzdqzcGcrpZld75j5/vrTFQ3/9/LPure34bGfHuoe7izUTEu4/67jD3JtTnBAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAd/MHG0HaDQAAAQA=
+   H4sIAAAAAAAAA+2T24rsMAwEw/z/Rx/m4cCwxIksS24pqYZiIeNrl/dzHMcHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCGo8AZIN/xXazjfsfvOqu6v85kZudZo++l9qLyb+3P66XqWz2L2s0T/P8di/9ajO48001kMv3frfH3d7UbhX91ss86Wufqf+HJVEuls6rd4B//Ff1nusB/ff+ZqXRWtZvO/r37eM9qHTv67ey72s2T/M/4yfJvWcN6lqdw1kHEu1jZO8v/bNRunuzfM29mv4io3VTyb+308/MX//W5uvtK8N+DrHT3r/aCf/zjf69/tYuueLucnXOVFf/q/rrj6XSUKP+Af8A/4B/wD8/xfzZ/5q3MnhXi/Vscrjidibq/7ng6HSXTv/fdQX3/K29F3V93PJ2OEuV/5i2o++uOp9PfcdZ5V1nxbzkv5PifmXcV/OMf/338n83zvpm7uZaoO+yMp89R8N8PT5+j4F9PRPDfj9l4PeK/HtHBfx8yUtX/aB21g7f5P9s3481Y76d28Db/nnkzc6LP+2RmOrEG/33w9HEc/rn4r4W3j5UeR5kdP5ozG7WDjv6j97za9yrq/rqj6HSUqPGw5qPSnldR9/YUdnc7SpR/a9S9V2F3P9b97mJdf7SWuvcq3KW7/1336sruvizrr5zn9/cd9+mKN9n+V89xNyfqHt2JSDf/q2d/EpFZ3dtzHvzn+s/qMiqr66r7VxMZ/PcjMqp9V6LuX01k8N+PyOC/H5Hp5v4bdf9qIoP/fkT0dvatg/tv1P2riejt7BvuexDR3dm36u6/UXdfgcjM7JH9Lqz7v53I7NjDe5a7399MVCzr73gPljuqO69KRje7c3ev0RjI6WZXRuc//nw/GwP9/f+PZX91z28jI9491F28mYh491HfHdbehPqcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwbv4Bj7FCfQAAAQA=
   </data>
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
@@ -83,5 +83,17 @@
    </properties>
   </object>
   <object name="graphics/particles/pentagram-linedraw.particle.xml" type="PARTICLE_EFFECT" x="2993" y="1208" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="128" height="128">
+  <object name="Pedra de Emanar Alma" type="script" x="2912" y="2624" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+  <object name="Pedra de Emanar Alma" type="script" x="1376" y="1216" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

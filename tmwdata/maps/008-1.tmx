@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="90" height="80" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Caverna"/>
-  <property name="pasta" value="Caverna"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="pasta" value="Caverna"/>
  </properties>
- <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset name="Cave" firstgid="3" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png"/>
+ <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset name="cave X2" firstgid="131" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/cave_x2.png"/>
+ <tileset firstgid="131" name="cave X2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
- <tileset name="Woodland" firstgid="147" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png"/>
+ <tileset firstgid="147" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
  </tileset>
- <tileset name="animated wetwall" firstgid="403" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_ani_wetwall.png"/>
+ <tileset firstgid="403" name="animated wetwall" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_ani_wetwall.png" width="512" height="512"/>
   <tile id="0">
    <properties>
     <property name="animation-delay0" value="10"/>
@@ -232,27 +231,27 @@
  </tileset>
  <layer name="Ground" width="90" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3ZW04CMRhA4T6JC1BxASr6ro7GVxWJe0BwAXhZAbhy22CTWjqXTqdMC8fke6RxzvxTQmcohBgCAAAAAAAAAAAAe+RYGjkcJfC/7QrV+FwqHM7o3mnjG2nscO3oTmu/viOj8ZM0cHh0dDdnnOb1fYuaxmXdzRlvO9+u74NduWfmPqz3CZ/Grhm357uumX2fTT7rpOw+sG+T+a5qZj9Hdd8FIc9LnyYd9q3aw8uamX1fHOs8l6yTW+vTCI3LuJqV9a1bR7V+SKBf284zaW5497j+WYvPhNyzC5HPTJudVacP6cuw8Oj22eIzIW5FPjNtdtadbN8116vuz9y6RwvR7pnwnemTBBr6dJ6JzVm2m5m9dFu7b5v7FCK3zmWz7OrdpC2dNx027NxWzP06p85qppfSW8TWsWY6t86DyK1jde67XZu9I2brGJ37bhbau6vWU2n154fG/4TsIWbXrtseJNAmxkz7tp523NWmfmPrv777xOitWq9KesfcF2zqN3Yh1ud0u9T6Sro0rnNptY49vzZ91pfbOV1V35FYn73fWdeqWm9rfqt6vybQKZR6v1KI9dm777nwtui9uu9WIbOs9opxwo0VtVfnuk+rxq69IkU5vk/R9PvYlOfYbp3jPj3JqLGW0xmSts33sXTOS46dFf17Oxd99+prpvU6NI4z06516NvtTFetRdfmfcwZ7/IMeF9a+tAz3uX3O53p3Bea0BkAAAAAAAAAAAAAkIdfsVn6R4BwAAA=
+   H4sIAAAAAAAAA+3ZW04CMRhA4T6JC1BxASr6ro7GVxWJe0BwAXhZAbhy22CTWjqXTqdMC8fke6RxzvxTQmcohBgCAAAAAAAAAAAAe+RYGjkcJfC/7QrV+FwqHM7o3mnjG2nscO3oTmu/viOj8ZM0cHh0dDdnnOb1fYuaxmXdzRlvO9+u74NduWfmPqz3CZ/Grhm357uumX2fTT7rpOw+sG+T+a5qZj9Hdd8FIc9LnyYd9q3aw8uamX1fHOs8l6yTW+vTCI3LuJqV9a1bR7V+SKBf284zaW5497j+WYvPhNyzC5HPTJudVacP6cuw8Oj22eIzIW5FPjNtdtadbN8116vuz9y6RwvR7pnwnemTBBr6dJ6JzVm2m5m9dFu7b5v7FCK3zmWz7OrdpC2dNx027NxWzP06p85qppfSW8TWsWY6t86DyK1jde67XZu9I2brGJ37bhbau6vWU2n154fG/4TsIWbXrtseJNAmxkz7tp523NWmfmPrv777xOitWq9KesfcF2zqN3Yh1ud0u9T6Sro0rnNptY49vzZ91pfbOV1V35FYn73fWdeqWm9rfqt6vybQKZR6v1KI9dm777nwtui9uu9WIbOs9opxwo0VtVfnuk+rxq69IkU5vk/R9PvYlOfYbp3jPj3JqLGW0xmSts33sXTOS46dFf17Oxd99+prpvU6NI4z06516NvtTFetRdfmfcwZ7/IMeF9a+tAz3uX3O53p3Bea0BkAAAAAAAAAAAAAkIdfsVn6R4BwAAA=
   </data>
  </layer>
  <layer name="Water shimmer" width="90" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3aUY6CMBRAUbv/T5PZAMlsgCV0YxMizaADoigdXj0nacInuTyKAU8nAAAAAAAAgH2c02V9pd/jnP77rNrRp8vqxvU9Oc5j74Hu25XG/UK/PPYelO5aP64f5/Re4zl5MuPme9m0b/dk4yLf7CtbW5/T9WrlmvUv9p1zO9+DtWbT69ylv8+C6O2f3SMeNZ3vwVKztfsoL7SP1nqPxkvmmm25j3LA1jU7v5PO9URqrXMdkTsPonSOLlLnyDOtMwCfINLzLrKWOx/pd0h519di76N1jvpO9J693ku/qpXOW78R1tRK53d+w9pD9Jk+8gxPRfyeUqz9Z+NooneOJGrnaCJ2pp6IMw3wycq+7fm+L50BAAAAAAAAAKjtB1nBWS+AcAAA
+   H4sIAAAAAAAAA+3aUY6CMBRAUbv/T5PZAMlsgCV0YxMizaADoigdXj0nacInuTyKAU8nAAAAAAAAgH2c02V9pd/jnP77rNrRp8vqxvU9Oc5j74Hu25XG/UK/PPYelO5aP64f5/Re4zl5MuPme9m0b/dk4yLf7CtbW5/T9WrlmvUv9p1zO9+DtWbT69ylv8+C6O2f3SMeNZ3vwVKztfsoL7SP1nqPxkvmmm25j3LA1jU7v5PO9URqrXMdkTsPonSOLlLnyDOtMwCfINLzLrKWOx/pd0h519di76N1jvpO9J693ku/qpXOW78R1tRK53d+w9pD9Jk+8gxPRfyeUqz9Z+NooneOJGrnaCJ2pp6IMw3wycq+7fm+L50BAAAAAAAAAKjtB1nBWS+AcAAA
   </data>
  </layer>
  <layer name="Fringe" width="90" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3XsQkAIAwEQAdxX3VrHcBOUOHvIP0nfJNSAAAAAAAAAAAA4C/1dQAi6BkAAAC3+EH33AUAAAD+kvyrJ+8OkKyt6WvG6yDE0T0AAAAAAAAATk2WW8FlgHAAAA==
+   H4sIAAAAAAAAA+3XsQkAIAwEQAdxX3VrHcBOUOHvIP0nfJNSAAAAAAAAAAAA4C/1dQAi6BkAAAC3+EH33AUAAAD+kvyrJ+8OkKyt6WvG6yDE0T0AAAAAAAAATk2WW8FlgHAAAA==
   </data>
  </layer>
  <layer name="Top" width="90" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3YTQ6CMBAG0O5x6UY8gPe/oZDYWEw1Svhx6HvJLEgI7Xy0TSAlAAAAAAAAAAAAAIA2dUNd954EkC5DnfaexA8inh3RMs7GrPsUI++oGUcwZts/6ggZRzxDovrXM+Q21HnvSTRE1sAczo7tyBqApUT73m71X1L5n2ft9xU94zlrOudb9r3W3qiN1YJP62qJrMs9crR8y3xyn6/X3/bdpen9Zb175lFzrcn5rNnnFmNAjbUHAAAAAAAAAPB0BwYFcsGAcAAA
+   H4sIAAAAAAAAA+3YTQ6CMBAG0O5x6UY8gPe/oZDYWEw1Svhx6HvJLEgI7Xy0TSAlAAAAAAAAAAAAAIA2dUNd954EkC5DnfaexA8inh3RMs7GrPsUI++oGUcwZts/6ggZRzxDovrXM+Q21HnvSTRE1sAczo7tyBqApUT73m71X1L5n2ft9xU94zlrOudb9r3W3qiN1YJP62qJrMs9crR8y3xyn6/X3/bdpen9Zb175lFzrcn5rNnnFmNAjbUHAAAAAAAAAPB0BwYFcsGAcAAA
   </data>
  </layer>
  <layer name="Collision" width="90" height="80" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Ty47CMBAF0Sj//9EoCyRAQB7udrXjutLRLECMXYF1WZZVkiRJkiRJkiRJkiT99W30me7m6Ohzjuzs6POOJmL0HSqLXtQ56C6VG//a0TPsnYnuFdG55Tn0fHZ0s5bOe+85+z3LHt0tq3PLfTNGd7vSOfKZ9Op85RyjdG75Hxmj21WUMfpOFWWMvlNF0aPvU1Xk6LtUFjX6HhVFjb5HNdFbX/7qvUfG6Lv1+n7uvZ49ukOvzt/uSozu0aNzldFNZmi8je5y977P0X1m6byNbjRD4+foVjM03kb3snN9o4zuRHVu+Zwr77+DM3fv+dugu1Df6czfx9HPH93nPTPuPUtLuomdbWJnSZIkSZIkSZIkSZL0ywONrJ4DgHAAAA==
+   H4sIAAAAAAAAA+3Ty47CMBAF0Sj//9EoCyRAQB7udrXjutLRLECMXYF1WZZVkiRJkiRJkiRJkiT99W30me7m6Ohzjuzs6POOJmL0HSqLXtQ56C6VG//a0TPsnYnuFdG55Tn0fHZ0s5bOe+85+z3LHt0tq3PLfTNGd7vSOfKZ9Op85RyjdG75Hxmj21WUMfpOFe31ujL6ThVFj75PVZGj71JZ1Oh7VBQ1+h7VRG99+av3Hhmj79br+7n3evboDr06f7srMbpHj85VRjeZofE2usvd+z5H95ml8za60QyNn6NbzdB4G93LzvWNMroT1bnlc668/w7O3L3nb4PuQn2nM38fRz9/dJ/3zLj3LC3pJna2iZ0lSZIkSZIkSZIkSdIvD6D/XHGAcAAA
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
@@ -296,6 +295,13 @@
     <property name="dest_map" value="008"/>
     <property name="dest_x" value="1312"/>
     <property name="dest_y" value="1280"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="90" height="80">
+  <object name="Pedra de Emanar Alma" type="script" x="1728" y="1088" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
    </properties>
   </object>
  </objectgroup>

@@ -8,10 +8,10 @@
   <property name="pasta" value="CavernaCongelada"/>
  </properties>
  <tileset firstgid="1" name="icecave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/icecave.png"/>
+  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <layer name="Ground" width="86" height="90">
   <data encoding="base64" compression="gzip">
@@ -35,7 +35,7 @@
  </layer>
  <layer name="Collision" width="86" height="90" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YSRKCMBBAUa6uJ3dvlZKhSWd4i79xgPQTJeX7uq63JEmSJEmSJEmSpOl6TbCG3Xp9lb2e7PlLazle9qwzOkaVPf9unjvYPjn/aa4j5z3FNuIaHP05Zps9bdrq2mub7TbCddT5V/Bc0TXbaqW5Ss/JNe7836/LthrlGzHrDt/5KNdIg51Nf81bY8+13fXOhGusf48JV66ZrrU+o/d1q9TqkrVfXqUWlxH7t9XruV5bnjslrnO5qsw1ex27xZTrCfk82sxay177jPV48a3zrDFiG2/665jZ881k2WtyouuI+89prpH39dL/u7JnXsW15PUnuUbsQ0vfw7XeteS6PMm11rbE9d9jJ9lGXLNcywzuvLm2u/6z5Rrj3vv7wDTelme/LdfnbHv2EafHM8c2e20rx4+rJEmSJEmSJEmSYvsAXH6+OfB4AAA=
+   H4sIAAAAAAAAA+3YSRKCMBBAUa6uJ3dvlZihSWd4i79xgPQTJeX7uq63JEmSJEmSJEmSpOl6TbCG3Xp9lb2e7PlLazle9qwzOkaVPf9unjvYPjn/aa4j5z3FNuIaHP05Zps9bdrqenfuknVlu41wHXX+FTxXdM22Wmmu0nNyjTv/9+uyrUb5Rsy6w3c+yjXSYGfTX/PW2HNtd/1nwjXWv8eEK9dM11qf0fu6VWp1ydovr1KLy4j92+r1XK8tz50S17lcVeaavY7dYsr1hHwebWatZa99xnq8+NZ51hixjTf9dczs+Way7DU50XXE/ec018j7eun/Xdkzr+Ja8vqTXCP2oaXv4VrvWnJdnuRaa1vievfYSbYR1yzXMoN/3lzbXe9suca49/4+MI235dlvy/U52559xOnxzLHNXtvK8eMqSZIkSZIkSZKk2D4aQBpn8HgAAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
@@ -147,6 +147,13 @@
    <properties>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="13"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="86" height="90">
+  <object name="Pedra de Emanar Alma" type="script" x="1824" y="896" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
    </properties>
   </object>
  </objectgroup>
