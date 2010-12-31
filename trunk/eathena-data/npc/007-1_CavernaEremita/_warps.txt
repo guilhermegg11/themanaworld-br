@@ -11,3 +11,4 @@
 007-1.gat,44,56	warp	paraFora	-1,-1,007.gat,169,75
 007-1.gat,54,59	warp	paraFora	-1,-1,007.gat,179,78
 007-1.gat,63,57	warp	paraDentro	-1,-1,007-2.gat,163,105
+007-1.gat,83,41	warp	Para(008-6,156,109)	-1,-1,008-6.gat,156,109

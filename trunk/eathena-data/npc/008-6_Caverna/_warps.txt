@@ -1,4 +1,6 @@
 // 008-6 Caverna warps
 
-008-6.gat,30,57	warp	paraFora	-1,-1,008.gat,25,43
-008-6.gat,51,55	warp	paraFora	-1,-1,008.gat,41,40
+//008-6.gat,30,57	warp	paraFora	-1,-1,008.gat,25,43
+//008-6.gat,51,55	warp	paraFora	-1,-1,008.gat,41,40
+008-6.gat,156,110	warp	para(007-1,83,41)	-1,-1,007-1.gat,83,41
+008-6.gat,112,172	warp	para(007,179,90)	-1,-1,007.gat,179,90
