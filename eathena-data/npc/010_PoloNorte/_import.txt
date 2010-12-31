@@ -5,9 +5,11 @@ npc: npc/010_PoloNorte/_warps.txt
 npc: npc/010_PoloNorte/boneco_neve.conf
 npc: npc/010_PoloNorte/duende_faisca.conf
 npc: npc/010_PoloNorte/duende_lulu.conf
+npc: npc/010_PoloNorte/duende_tampinha.conf
 npc: npc/010_PoloNorte/duende_tunico.conf
 npc: npc/010_PoloNorte/guardadonavio.conf
 npc: npc/010_PoloNorte/jornaleiro.conf
 npc: npc/010_PoloNorte/menir_alma.conf
 npc: npc/010_PoloNorte/raquel.conf
+npc: npc/010_PoloNorte/sinos.conf
 npc: npc/010_PoloNorte/warp_controlado.conf
