@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--
 	IDE: TMW-Maker - Ferramenta Editora de Monstros
-	MODIFICADO: 30/12/2010 11:29 PM
+	MODIFICADO: 31/12/2010 12:08 AM
 -->
 <monsters offset="1002">
 <monster id="0" name="Verme">
@@ -368,47 +368,47 @@
 <sound event="miss">knife-miss1.ogg</sound>
 <sound event="die">short-sword-die1.ogg</sound>
 </monster>
-<monster id="323" name="Jazida de Cobre">
+<monster id="323" name="Jazida">
 <sprite>resource-jazida.xml|#556644,778866,99CC88,BBFFAA</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
 </monster>
-<monster id="324" name="Jazida de Chumbo">
+<monster id="324" name="Jazida">
 <sprite>resource-jazida.xml|#111111,333333,555555</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
 </monster>
-<monster id="325" name="Jazida de Estanho">
+<monster id="325" name="Jazida">
 <sprite>resource-jazida.xml|#555555,777777,999999</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
 </monster>
-<monster id="326" name="Jazida de Prata">
+<monster id="326" name="Jazida">
 <sprite>resource-jazida.xml</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
 </monster>
-<monster id="327" name="Jazida de Ouro">
+<monster id="327" name="Jazida">
 <sprite>resource-jazida.xml|#888800,AAAA00,CCCC00,FFFF00</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
 </monster>
-<monster id="328" name="Jazida de Platina">
+<monster id="328" name="Jazida">
 <sprite>resource-jazida.xml|#666666,888888,AAAAAA,CCCCCC</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
 </monster>
-<monster id="329" name="Jazida de Iridio">
+<monster id="329" name="Jazida">
 <sprite>resource-jazida.xml|#880000,AA0000,CC0000,FF0000</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
 </monster>
-<monster id="330" name="Jazida de Titanio">
+<monster id="330" name="Jazida">
 <sprite>resource-jazida.xml|#8888BB,AAAADD,CCCCFF</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
 </monster>
-<monster id="331" name="Jazida de Diamante">
+<monster id="331" name="Jazida">
 <sprite>resource-jazida.xml|#222244,444466,666688,8888CC</sprite>
 <sound event="hit">short-sword-hit2.ogg</sound>
 <sound event="miss">short-sword-miss1.ogg</sound>
