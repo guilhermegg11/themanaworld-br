@@ -9,6 +9,7 @@
 007.gat,30,67	warp	paraCabana2	-1,-1,007-4.gat,63,31
 007.gat,134,108	warp	paraCabana3	-1,-1,007-4.gat,26,67
 007.gat,85,74	warp	paraMercado1	-1,-1,007-4.gat,63,67
+007.gat,73,47	warp	paraCabana4	-1,-1,007-4.gat,99,68
 007.gat,169,75	warp	paraCaverna	-1,-1,007-1.gat,44,56
 007.gat,179,78	warp	caraCaverna	-1,-1,007-1.gat,54,59
 007.gat,148,26	warp	paraCaverna	-1,-1,007-3.gat,44,31
