@@ -23,3 +23,10 @@
 	callfunc "pedraEmanarAlma", "007.gat", 111, 115;
 	close;
 }
+
+// Script: Placa
+007.gat,83,75,0	script	[?]	300, {
+	mes "[Placa]";
+	mes "* Centro Comercial da Vila dos Pescadores.";
+	close;
+}
