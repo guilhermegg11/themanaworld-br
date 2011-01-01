@@ -3,24 +3,25 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-008-6.gat,45,46,44,9	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-6::On1008
-008-6.gat,33,27,25,10	monster	Aranha (3)	1012,3,90000,30000,Mob008-6::On1012
+008-6.gat,152,146,60,44	monster	Limo Vermelho (10)	1002,10,0,0,Mob008-6::On1002
 
 008-6.gat,0,0,0	script	Mob008-6	-1,{
 
-On1008:
-	set @mobID, 1008;
+On1002:
+	set @mobID, 1002;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
+	callsub _MOBS_verme;
 	break;
 
-On1012:
-	set @mobID, 1012;
-	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
-	break;
+
+//= Callsubs ==========================================================
+
+_MOBS_verme:
+	if(QUEST_praia!=7) return;
+	callfunc "mobContagem", 15, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
 
 	end;
 }

@@ -43,88 +43,7 @@
    H4sIAAAAAAAAA+2S24rDMAwFQ/7/o/dhYemWWD66xHKbEQyFxpIsjc/jOE4AAAAAAAAAAAAAAAAAAAAAAAAAAPjjeFjfb7+rMstrrO67o6dZdDur9L1qJqtX1R2i86jR7a5yN3fPM9tddK+zsPK8viP324nVs1i9ondRIpMbqbs7K+c4jv89s29QiWx+pv6urJpB2Zly5upsZp6K6HZY4SSaf5dz61x2DjUi7/ITUGdQdqPmRfZv9VPu4ZlFvWO3uyrvh/G/Et53VVlf/Wb9d9XLc5dPYRZeN1mv0dre2bLORz0/hepQvIzylJornCvR7W0n76Pa0X6zO0dmyc7e7etO556dnC+/VW6u8t5z1W9V0e1qhffR3Nm9qH28zkfvrCq6PXV6v2svSg2l19W37tl2ZIedWDWq+nXOtxvZ6Ljf6lm7He3m/ZOcK/VWz4dz352q+oz6dntZ4d3rX3E123H2HUbrK327naxw7g2lxujMHfex+uJ8vmNr7+fLr8e5Va/a+aw+zmNR5fyq1vn2LRvRd//NRCKbb9Xz1FTeW3QH3V528/6ee1Vn1uN0nL3KUe4Wmb/bxa7uVT8el5k3aPXM3ONJePbqOTs6v9J5Nv/bUffi2ePr/7Mz3oh4tvKezGw/np3Ovlv1vO9LfT+jvO69d2Ptx+Ni9t3jqqoOzu91/n42Uk/pkXE+q/kkZntQdmp963LurfkklF3MdufZqxqRGarqfTvqTmbn1P0qUTFT9153Rt2Pcs6z61GsnAnWOsfV/qzwsaIH4AMAAAAAAAAAAAAAAAAAAAAAAAAAfvkBTEXX7kCcAAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0" opacity="0.57">
-  <object name="graphics/particles/waterfall-1x2.particle.xml" type="PARTICLE_EFFECT" x="1792" y="704"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3008" y="960" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3072" y="960" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="800" y="800" width="32" height="32"/>
-  <object name="warp" type="warp" x="3072" y="672" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="2464"/>
-    <property name="dest_y" value="704"/>
-   </properties>
-  </object>
-  <object name="warp" type="warp" x="2464" y="704" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="3072"/>
-    <property name="dest_y" value="672"/>
-   </properties>
-  </object>
-  <object name="warp" type="warp" x="2624" y="1152" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="2048"/>
-    <property name="dest_y" value="1184"/>
-   </properties>
-  </object>
-  <object name="warp" type="warp" x="3040" y="1280" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="2528"/>
-    <property name="dest_y" value="1856"/>
-   </properties>
-  </object>
-  <object name="warp" type="warp" x="2528" y="1856" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="3040"/>
-    <property name="dest_y" value="1280"/>
-   </properties>
-  </object>
-  <object name="warp" type="warp" x="2048" y="1184" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="2624"/>
-    <property name="dest_y" value="1152"/>
-   </properties>
-  </object>
-  <object name="paraFora" type="warp" x="3104" y="1792" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="008"/>
-    <property name="dest_x" value="1984"/>
-    <property name="dest_y" value="2432"/>
-   </properties>
-  </object>
-  <object name="paraDentro" type="warp" x="736" y="672" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="1696"/>
-    <property name="dest_y" value="672"/>
-   </properties>
-  </object>
-  <object name="paraFora" type="warp" x="1408" y="1792" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007"/>
-    <property name="dest_x" value="5408"/>
-    <property name="dest_y" value="2400"/>
-   </properties>
-  </object>
-  <object name="paraFora" type="warp" x="1728" y="1888" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007"/>
-    <property name="dest_x" value="5728"/>
-    <property name="dest_y" value="2496"/>
-   </properties>
-  </object>
-  <object name="paraDentro" type="warp" x="2016" y="1824" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-2"/>
-    <property name="dest_x" value="5216"/>
-    <property name="dest_y" value="3360"/>
-   </properties>
-  </object>
+ <objectgroup name="spawns" width="125" height="80" visible="0">
   <object name="Morcego (35)" type="spawn" x="2176" y="640" width="1280" height="1248">
    <properties>
     <property name="max_beings" value="35"/>
@@ -137,12 +56,6 @@
     <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object name="Borboletas (10)" type="spawn" x="638" y="832" width="856" height="942">
-   <properties>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="53"/>
-   </properties>
-  </object>
   <object name="Abelhas (10)" type="spawn" x="1614" y="1322" width="490" height="466">
    <properties>
     <property name="eA_spawn" value="240000"/>
@@ -150,8 +63,20 @@
     <property name="monster_id" value="47"/>
    </properties>
   </object>
+  <object name="Borboletas (10)" type="spawn" x="638" y="832" width="856" height="942">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="53"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="pedraEmanar" width="125" height="80" visible="0">
+ <objectgroup name="particles" width="0" height="0" visible="0" opacity="0.56">
+  <object name="graphics/particles/waterfall-1x2.particle.xml" type="PARTICLE_EFFECT" x="1792" y="704"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3008" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3072" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="800" y="800" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="125" height="80">
   <object name="Pedra de Emanar Alma" type="script" x="2432" y="1472" width="32" height="32">
    <properties>
     <property name="npc_id" value="pedraEmanar"/>
@@ -159,11 +84,88 @@
   </object>
  </objectgroup>
  <objectgroup name="warps" width="125" height="80">
-  <object name="Para(008-6,156,109)" type="warp" x="2656" y="1312" width="32" height="32">
+  <object name="Para(008-6,156,110)" type="warp" x="2656" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="008-6"/>
     <property name="dest_x" value="4992"/>
-    <property name="dest_y" value="3488"/>
+    <property name="dest_y" value="3520"/>
+   </properties>
+  </object>
+  <object name="warp" type="warp" x="2528" y="1856" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-6"/>
+    <property name="dest_x" value="4896"/>
+    <property name="dest_y" value="3712"/>
+   </properties>
+  </object>
+  <object name="warp" type="warp" x="2624" y="1152" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-6"/>
+    <property name="dest_x" value="4992"/>
+    <property name="dest_y" value="3264"/>
+   </properties>
+  </object>
+  <object name="warp" type="warp" x="3040" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008-6"/>
+    <property name="dest_x" value="5312"/>
+    <property name="dest_y" value="3296"/>
+   </properties>
+  </object>
+  <object name="warp" type="warp" x="2464" y="704" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-1"/>
+    <property name="dest_x" value="3072"/>
+    <property name="dest_y" value="672"/>
+   </properties>
+  </object>
+  <object name="warp" type="warp" x="3072" y="672" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-1"/>
+    <property name="dest_x" value="2464"/>
+    <property name="dest_y" value="704"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="3104" y="1792" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="008"/>
+    <property name="dest_x" value="1984"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="paraDentro" type="warp" x="2016" y="1824" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-2"/>
+    <property name="dest_x" value="5216"/>
+    <property name="dest_y" value="3360"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1728" y="1888" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="5728"/>
+    <property name="dest_y" value="2496"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1408" y="1792" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="5408"/>
+    <property name="dest_y" value="2400"/>
+   </properties>
+  </object>
+  <object name="warp" type="warp" x="2048" y="1184" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-1"/>
+    <property name="dest_x" value="2624"/>
+    <property name="dest_y" value="1152"/>
+   </properties>
+  </object>
+  <object name="paraDentro" type="warp" x="736" y="672" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-1"/>
+    <property name="dest_x" value="1696"/>
+    <property name="dest_y" value="672"/>
    </properties>
   </object>
  </objectgroup>
