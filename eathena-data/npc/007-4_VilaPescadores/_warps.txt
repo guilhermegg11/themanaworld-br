@@ -4,4 +4,5 @@
 007-4.gat,27,32	warp	sair1	-1,-1,007.gat,37,38
 007-4.gat,63,32	warp	sair2	-1,-1,007.gat,30,67
 007-4.gat,26,68	warp	sair3	-1,-1,007.gat,134,108
-007-4.gat,63,68	warp	sair4	-1,-1,007.gat,85,74
+007-4.gat,63,68	warp	sairComercio1	-1,-1,007.gat,85,74
+007-4.gat,99,68	warp	sair4	-1,-1,007.gat,73,47
