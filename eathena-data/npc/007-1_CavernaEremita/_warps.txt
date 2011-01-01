@@ -1,9 +1,8 @@
 // 007-1 Caverna do Eremita warps
 
-007-1.gat,83,41	warp	Para(008-6,156,110)	-1,-1,008-6.gat,156,110
 007-1.gat,79,58	warp	warp	-1,-1,008-6.gat,153,116
-007-1.gat,82,36	warp	warp	-1,-1,008-6.gat,156,102
-007-1.gat,95,40	warp	warp	-1,-1,008-6.gat,166,103
+007-1.gat,82,36	warp	warp	-1,-1,008-6.gat,156,94
+007-1.gat,95,40	warp	warp	-1,-1,008-6.gat,169,98
 007-1.gat,77,22	warp	warp	-1,-1,007-1.gat,96,21
 007-1.gat,96,21	warp	warp	-1,-1,007-1.gat,77,22
 007-1.gat,97,56	warp	paraFora	-1,-1,008.gat,62,76
