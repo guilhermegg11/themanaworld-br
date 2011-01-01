@@ -1,7 +1,7 @@
 // 007 Praia do Porto warps
 
 007.gat,180,50	warp	paraDir	-1,-1,008.gat,20,50
-//007.gat,180,94	warp	paraDir	-1,-1,008.gat,20,94 //Esse warp foi desligado para tentar deixar o caminho até a capital maior! Mais tarde será almentado ainda mais! (Vide warp 007,179,89)
+007.gat,180,94	warp	paraDir	-1,-1,008.gat,20,94
 007.gat,179,89	warp	para(008-6,112,171)	-1,-1,008-6.gat,112,171
 
 007.gat,79,19	warp	paraPraia	3,-1,004.gat,79,119
