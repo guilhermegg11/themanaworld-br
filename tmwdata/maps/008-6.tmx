@@ -36,7 +36,7 @@
  </layer>
  <layer name="Collision" width="200" height="200" visible="0" opacity="0.37">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="warps" width="0" height="0">
@@ -123,7 +123,18 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="scripts" width="0" height="0"/>
+ <objectgroup name="scripts" width="0" height="0">
+  <object name="Pedra de Emanar Alma" type="script" x="5536" y="4288" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+  <object name="Pedra de Emanar Alma" type="script" x="2496" y="4032" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="particles" width="0" height="0">
   <object name="graphics/particles/flame.particle.xml" type="-PARTICLE_EFFECT" x="992" y="960" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="-PARTICLE_EFFECT" x="1824" y="896" width="32" height="32"/>
@@ -131,6 +142,18 @@
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2144" y="3616" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1664" y="3232" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="3232" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="5408" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3648" y="5408" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="5120" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3648" y="5120" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3648" y="4832" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="4832" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5344" y="3840" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5472" y="3552" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5344" y="3552" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5472" y="3264" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5344" y="3264" width="32" height="32"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="5392" y="4480" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Espaçador" width="0" height="0">
   <object name="Margem" x="9" y="2065" width="665" height="668"/>
