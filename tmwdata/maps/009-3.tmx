@@ -66,7 +66,7 @@
    H4sIAAAAAAAAA+3T646DIBAGUNP3f+hNf2xiCBdRcKieLznZrsCAQ/vZtu0DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALCw3kSfF2ZKU3p+ZE70u8AIdyb6XaHHf9L/R6e0H6wql9pYLbl1rVrR7w85R7Kf27Out/b+f4i2T+5ZK6PqlOpClFZa83rGj+6ZWw8RSmmNX02t/n4suj+8V2/2687WOFI79xzutE/u2UqJ7hXvU8uROa35PTVac6N7xftsyeet8Cw358hYa07v3tH94j3SlJ63xu5MdM94j1xa47m5PTmzJrceZsvlk/y9K7UzlebCbKMzao/a2uie8R5b8rmUdE5uTWuf2tqeRPeM9yjlyJzamp69emof2QdG2Wf/LDcntya3vrVPbl1PonvGu5xNur71f+lZOvZpzI3uF+8Smc/u7yd5ls5L58IdtuRzb46svVK/VAvu8p/95y15ns4rzb2afe3cHtG94n1yqY0dmb//v2ds/6z2HO7yC4nuEXzVcmTOiPXpvOieQClXx2s5sja6LzxbKa25rfVnU6pbOwOM0srV9Xcluo88x9n01jsynvt8tF50H3mWqzlS+8hetXU9a+GqkbmyX2t+bm1073iGnrTW1Mavnu/I2NW94F9EZr1DdC95lpHpqTny/J8JdeHrjuT2mnX26H7yHPvkntWej8ios4+sC1+1HJnTSs8+s84PZ5TSGh+dUe+S+wxnjM7VutH9aPUq+gzcf+crJbofrT5Fn4OYe+/N1fW1GtE9afUo+jzE3PvWGLsz0b1p9SH6XMTc+0qJ7k2tV9H3x/z7H5EZNXP1V+xJ9D0y/3vQ+n6c/f5c+d7V6s3sxQpnIs7TEt2D6PtkrBGZ8T0bsX/ve/e8x5k9+W2RSc8w8kz7WrPfM/oOedbvoieR5z2yd/Q98tzfx6yz3PWO0XfIPb+P9Fnr/1m5a59Rib5D7vl9zMhK3/VZZ4m+Q37397F6RvQh+g6J/32s+HvqOdOIua3nPE+anu+RxN8f9/9G3pAR7x59b7zzN7LCmVpniL4v7ncm6dortX4p0XdFrBEp1Rq5R0Si74ZYq6Z0vt7nV/aGr1xqY29I9J2wnp6cWfNLib4L1rRirpyttLZWM/oOWNvstPa56xy1vaFldGbVHbVvdL/5TVvyOZfW+OqJ7jHP0Juz667W7tk3uqc8z9W06ozap1UfZvuVRPcJ/q2Q6B5ASS5X6tTqXqkPEXKJPhOsZFvgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA7/AFindvJgLUBAA==
   </data>
  </layer>
- <objectgroup name="warps" width="0" height="0" visible="0">
+ <objectgroup name="warps" width="0" height="0">
   <object name="paraCavernaMontanha" type="warp" x="4928" y="2624" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-1"/>
@@ -82,7 +82,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="spawns" width="200" height="140" visible="0">
+ <objectgroup name="spawns" width="200" height="140">
   <object name="Cogumelo Malígno (10)" type="spawn" x="3136" y="2272" width="1664" height="1088">
    <properties>
     <property name="max_beings" value="10"/>
@@ -101,9 +101,9 @@
     <property name="monster_id" value="306"/>
    </properties>
   </object>
-  <object name="Fada Guardiã (15)" type="spawn" x="4224" y="1056" width="1472" height="1056">
+  <object name="Fada Guardiã (10)" type="spawn" x="4224" y="1056" width="1472" height="960">
    <properties>
-    <property name="max_beings" value="15"/>
+    <property name="max_beings" value="10"/>
     <property name="monster_id" value="307"/>
    </properties>
   </object>
