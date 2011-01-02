@@ -3,6 +3,7 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
+009-3.gat,132,33,46,33	monster	Fada Guardiã (15)	1309,15,0,0,Mob009-3::On1309
 009-3.gat,137,88,82,30	monster	Dragão Verde (10)	1308,8,0,0,Mob009-3::On1308
 009-3.gat,121,84,50,37	monster	Cobra da Grama (10)	1034,10,0,0,Mob009-3::On1034
 009-3.gat,123,87,51,33	monster	Cogumelo Malígno (10)	1013,10,0,0,Mob009-3::On1013
@@ -31,6 +32,12 @@ On1308:
 	callfunc "emanarAlma";
 	break;
 
+On1309:
+	set @mobID, 1309;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	break;
 
 //= Callsubs ==========================================================
 
