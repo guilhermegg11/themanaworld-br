@@ -9,4 +9,4 @@ npc: npc/008_IlhaFortaleza/guardas.conf
 npc: npc/008_IlhaFortaleza/jack.conf
 npc: npc/008_IlhaFortaleza/joaozinho.conf
 npc: npc/008_IlhaFortaleza/juliana.conf
-//npc: npc/008_IlhaFortaleza/monge.conf //< continua desativado
+npc: npc/008_IlhaFortaleza/monge.conf
