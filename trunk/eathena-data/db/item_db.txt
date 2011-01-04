@@ -725,3 +725,9 @@
 3198,chapeuPresenteRosa,chapeuPresenteRosa,5,2000,1000,60,,1,,0,0,2,256,,0,0,{},{}
 3199,fragPedraEmanarAlma,fragPedraEmanarAlma,3,10,5,56,,,,,,,,,,,{},{}
 3200,anelEmanarAlma,anelEmanarAlma,5,2000,1000,50,0,0,0,1,0,2,8,0,0,0,{},{ bonus bInt, 3; }
+3201,colarOlhoAguia,colarOlhoAguia,5,4000,2000,50,0,0,0,1,0,2,8,0,0,0,{},{ bonus bDex, 3; }
+3202,amostraVazia,amostraVazia,3,100,50,10,,,,,,,,,,,{},{}
+3203,amostraOvos,amostraOvos,3,100,50,11,,,,,,,,,,,{},{}
+3204,amostraLagarta,amostraLagarta,3,100,50,12,,,,,,,,,,,{},{}
+3205,amostraCasulo,amostraCasulo,3,100,50,12,,,,,,,,,,,{},{}
+3206,amostraBorboleta,amostraBorboleta,3,100,50,11,,,,,,,,,,,{},{}
