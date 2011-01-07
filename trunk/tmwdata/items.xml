@@ -5477,7 +5477,7 @@
 		type="equip-charm"
 		weight="50"/>
 	<item id="3201"
-		image="armor-ring-colar-olho-aguia"
+		image="armor-ring-colar-olho-aguia.png"
 		name="Colar Olho de Águia"
 		description="(item em desenvolvimento)"
 		effect="+3 Destreza"
