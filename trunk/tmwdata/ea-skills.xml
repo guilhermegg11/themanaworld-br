@@ -5,6 +5,14 @@
 		<skill id="2" name="Negociação" icon="graphics/skills/basic/trade.png"/>
 		<skill id="3" name="Grupos" icon="graphics/skills/basic/party.png"/>
 	</set>
+	<set name="Classes">
+		<skill id="400" name="Cavaleiro / Amazona" icon="graphics/items/generic-grimorium-cavaleiro.png"/>
+		<skill id="401" name="Druida / Druidesa" icon="graphics/items/generic-grimorium-druida.png"/>
+		<skill id="402" name="Mago / Feiticeira" icon="graphics/items/generic-grimorium-mago.png"/>
+		<skill id="403" name="Ninja / Kunoichi" icon="graphics/items/generic-grimorium-ninja.png"/>
+		<skill id="404" name="Clérigo / Sacerdotisa" icon="graphics/items/generic-grimorium-clerigo.png"/>
+		<skill id="405" name="Necromante" icon="graphics/items/generic-grimorium-necromante.png"/>
+	</set>
 	<!--set name="Mágica">
 		<skill id="340" name="Magic" icon="graphics/skills/magic/basic.png"/>
 		<skill id="341" name="Life Magic" icon="graphics/skills/magic/life.png"/>
