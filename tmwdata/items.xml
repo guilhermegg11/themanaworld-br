@@ -5513,4 +5513,56 @@
 		description="(em desenvolvimento)"
 		type="generic"
 		weight="11"/>
+		
+	<item id="3207"
+		image="generic-grimorium-cavaleiro.png"
+		name="Grimorium Azul"
+		description="Contem Magias de Poder usado por Cavaleiros e Amazonas."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3208"
+		image="generic-grimorium-mago.png"
+		name="Grimorium Púrpura"
+		description="Contem Magias Elementares usado por Magos e Feiticeiras."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3209"
+		image="generic-grimorium-necromante.png"
+		name="Grimorium Negro"
+		description="Contem Magias dos Mortos usado por Necromantes."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3210"
+		image="generic-grimorium-druida.png"
+		name="Grimorium Verde"
+		description="Contem Magias da Natureza usado por Druidas e Druidezas."
+		type="generic"
+		weight="1"
+	/>
+	<item id="3211"
+		image="generic-grimorium-ninja.png"
+		name="Grimorium Rubro"
+		description="Contem Magias da Furtividade usado por Ninjas e Kunoichis."
+		type="usable"
+		weight="1"
+	/>
+	<item id="3212"
+		image="generic-grimorium-clerigo.png"
+		name="Grimorium Branco"
+		description="Contem Magias dos Deuses usado por Clérigos e Sacerdotizas."
+		type="usable"
+		weight="1"
+	/>
+	<item id="3213"
+		image="generic-grimorium-prisma.png"
+		name="Grimorium Prisma"
+		description="Contem magias ancestrais esquecidas por guerreiros lendários."
+		type="generic"
+		weight="1"
+	/>
+
+
 </items>

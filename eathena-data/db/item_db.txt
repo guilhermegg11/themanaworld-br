@@ -731,3 +731,12 @@
 3204,amostraLagarta,amostraLagarta,3,100,50,12,,,,,,,,,,,{},{}
 3205,amostraCasulo,amostraCasulo,3,100,50,12,,,,,,,,,,,{},{}
 3206,amostraBorboleta,amostraBorboleta,3,100,50,11,,,,,,,,,,,{},{}
+
+3207,grimoriumAzul,Grimorium Azul,0,50000,10,1,,,,,,2,,,0,,{ getitem 3207,1; callfunc "openGrimorium",400; },{}
+3208,grimoriumPurtura,Grimorium Púrpura,0,50000,10,1,,,,,,2,,,0,,{ getitem 3208,1; callfunc "openGrimorium",402; },{}
+3209,grimoriumNegro,Grimorium Negro,0,50000,10,1,,,,,,2,,,0,,{ getitem 3209,1; callfunc "openGrimorium",405; },{}
+3210,grimoriumVerde,Grimorium Verde,0,50000,10,1,,,,,,2,,,0,,{ getitem 3210,1; callfunc "openGrimorium",401; },{}
+3211,grimoriumRubro,Grimorium Rubro,0,50000,10,1,,,,,,2,,,0,,{ getitem 3211,1; callfunc "openGrimorium",403; },{}
+3212,grimoriumBranco,Grimorium Branco,0,50000,10,1,,,,,,2,,,0,,{ getitem 3212,1; callfunc "openGrimorium",404; },{}
+3213,grimoriumPrisma,Grimorium Prisma,0,50000,10,1,,,,,,2,,,0,,{},{}
+
