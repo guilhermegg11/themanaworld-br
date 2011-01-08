@@ -5564,5 +5564,26 @@
 		weight="1"
 	/>
 
+	<item id="3214"
+		image="generic-madeira.png"
+		name="Madeira Resistente"
+		description="Um pedaço de madeira muito resistente."
+		type="generic"
+		weight="100"
+	/>
+	<item id="3215"
+		image="generic-ambar.png"
+		name="Pedra de Ambar"
+		description="Uma resina fóssil muito usada para a manufatura de ornamentos."
+		type="generic"
+		weight="60"
+	/>
+	<item id="3216"
+		image="generic-pedra-olho-aguia.png"
+		name="Pedra Olho de Águia"
+		description=""
+		type="generic"
+		weight="90"
+	/>
 
 </items>

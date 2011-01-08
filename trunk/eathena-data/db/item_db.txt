@@ -740,3 +740,6 @@
 3212,grimoriumBranco,Grimorium Branco,0,50000,10,1,,,,,,2,,,0,,{ getitem 3212,1; callfunc "openGrimorium",404; },{}
 3213,grimoriumPrisma,Grimorium Prisma,0,50000,10,1,,,,,,2,,,0,,{},{}
 
+3214,madeiraResistente,madeiraResistente,3,500,250,100,,,,,,,,,,,{},{}
+3215,pedraAmbar,pedraAmbar,3,500,250,60,,,,,,,,,,,{},{}
+3216,pedraOlhoAguia,pedraOlhoAguia,3,500,250,90,,,,,,,,,,,{},{}
