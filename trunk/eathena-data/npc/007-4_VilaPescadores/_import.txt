@@ -8,3 +8,4 @@ npc: npc/007-4_VilaPescadores/bau.conf
 npc: npc/007-4_VilaPescadores/camelia.conf
 npc: npc/007-4_VilaPescadores/cornelia.conf
 npc: npc/007-4_VilaPescadores/party.conf
+npc: npc/007-4_VilaPescadores/punicao_morte.conf
