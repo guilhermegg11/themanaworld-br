@@ -5581,7 +5581,14 @@
 	<item id="3216"
 		image="generic-pedra-olho-aguia.png"
 		name="Pedra Olho de Águia"
-		description=""
+		description="Um ornamento semelhante ao olho de uma águia. Suspeita-se que, em um passado remoto, alguns indios a usavam para melhorar sua habilidade no uso do arco e da flecha."
+		type="generic"
+		weight="90"
+	/>
+	<item id="3217"
+		image="generic-corda.png"
+		name="Corda"
+		description="Uma corda fina e resistente muito usada pelos pescadores da ilha de fortaleza."
 		type="generic"
 		weight="90"
 	/>
