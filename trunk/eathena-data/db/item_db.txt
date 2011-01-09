@@ -743,3 +743,4 @@
 3214,madeiraResistente,madeiraResistente,3,500,250,100,,,,,,,,,,,{},{}
 3215,pedraAmbar,pedraAmbar,3,500,250,60,,,,,,,,,,,{},{}
 3216,pedraOlhoAguia,pedraOlhoAguia,3,500,250,90,,,,,,,,,,,{},{}
+3217,corda,Corda,3,500,250,20,,,,,,,,,,,{},{}
