@@ -219,7 +219,7 @@ particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
 <sprite>hairstyle8.xml</sprite>
 <sprite>chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
 </monster>
-<monster id="43" name="Guerreiro Caido" summon="guerreirocaido">
+<monster id="43" name="Guerreiro Caído" summon="guerreirocaido">
 <sprite>monster-skeleton.xml</sprite>
 <sprite>leg-chaps-male.xml</sprite>
 <sprite>chest-warlordplate-male.xml</sprite>
@@ -444,13 +444,13 @@ particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
 <sound event="miss">knife-miss1.ogg</sound>
 <sound event="die">short-sword-die1.ogg</sound>
 </monster>
-<monster id="334" name="Tarantula (BOSS)" summon="Tarantula">
+<monster id="334" name="Tarântula (BOSS)" summon="Tarantula">
 <sprite>monstro-aranha-rainha.xml|#000000,888888,000000;#CC0000,FF0000</sprite>
 <sound event="hit">snake-hit1.ogg</sound>
 <sound event="miss">snake-hit2.ogg</sound>
 <sound event="die">tarantula-die.ogg</sound>
 </monster>
-<monster id="335" name="Colmeia" summon="colmeia" targetCursor="small">
+<monster id="335" name="Colméia" summon="colmeia" targetCursor="small">
 <sprite>monsters/monstro-colmeia.xml</sprite>
 </monster>
 <monster id="336" name="Presente" summon="presente">
