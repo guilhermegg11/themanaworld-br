@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <skills>
 	<set name="Básica">
-		<skill id="1" name="Emotions" icon="graphics/skills/basic/emote.png"/>
-		<skill id="2" name="Negociação" icon="graphics/skills/basic/trade.png"/>
-		<skill id="3" name="Grupos" icon="graphics/skills/basic/party.png"/>
+		<skill id="1" name="Emoticons" icon="graphics/skills/basic/emote.png"/>
+		<skill id="2" name="Negociação (Trade)" icon="graphics/skills/basic/trade.png"/>
+		<skill id="3" name="Grupo (Party)" icon="graphics/skills/basic/party.png"/>
 	</set>
 	<set name="Classes">
 		<skill id="400" name="Cavaleiro / Amazona" icon="graphics/items/generic-grimorium-cavaleiro.png"/>
