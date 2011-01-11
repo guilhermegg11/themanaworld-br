@@ -31,7 +31,7 @@ Ou um comentário de alguem.
 <sound event="hit">scorpion-hit4.ogg</sound>
 <sound event="miss">scorpion-miss1.ogg</sound>
 </monster>
-<monster id="3" name="Limo alga-verde" summon="limoalgaverde">
+<monster id="3" name="Limo Alga-Verde" summon="limoalgaverde">
 <sprite>monster-slime.xml|#72982c,ffffff</sprite>
 <sprite>acessorios/slime-seajelly.xml|#72982c,ffffff</sprite>
 <sound event="hit">slime-hit1.ogg</sound>
@@ -115,7 +115,7 @@ Ou um comentário de alguem.
 <sound event="miss">fluffy-miss1.ogg</sound>
 <sound event="hurt">fluffy-hurt1.ogg</sound>
 </monster>
-<monster id="19" name="Cobrada Caverna" summon="cobradaCaverna">
+<monster id="19" name="Cobra da Caverna" summon="cobradaCaverna">
 <sprite>monster-snake-cave.xml</sprite>
 <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
 </monster>
@@ -194,15 +194,18 @@ Ou um comentário de alguem.
 </monster>
 <monster id="37" name="Piron" summon="piron">
 <sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+<attack id="1"
+particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
+/>
 </monster>
-<monster id="38" name="espectro" summon="espectro">
+<monster id="38" name="Espectro" summon="espectro">
 <sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
 <particlefx>graphics/particles/wisp.particle.xml</particlefx>
 </monster>
 <monster id="39" name="Lesma" summon="lesma">
 <sprite>monster-snail.xml</sprite>
 </monster>
-<monster id="40" name="espectroRadiante" summon="espectroRadiante">
+<monster id="40" name="Espectro Radiante" summon="espectroRadiante">
 <sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
 <particlefx>graphics/particles/wisp.particle.xml</particlefx>
 </monster>
@@ -222,7 +225,7 @@ Ou um comentário de alguem.
 <sprite>chest-warlordplate-male.xml</sprite>
 <sprite>head-warlordhelm.xml</sprite>
 </monster>
-<monster id="45" name="EspectroCalafrio" summon="EspectroCalafrio">
+<monster id="45" name="Espectro Calafrio" summon="EspectroCalafrio">
 <sprite>monster-wisp.xml|#77ffdd,77ddff</sprite>
 <particlefx>graphics/particles/wisp.particle.xml</particlefx>
 </monster>
@@ -279,7 +282,7 @@ Ou um comentário de alguem.
 <sound event="miss">fire-goblin-hit1.ogg</sound>
 <sound event="die">dragao-die1.ogg</sound>
 </monster>
-<monster id="307" name="Fada Guardia" summon="FadaGuardia">
+<monster id="307" name="Fada Guardiã" summon="FadaGuardia">
 <sprite>monstro-fada.xml</sprite>
 <sound event="hit">fire-goblin-hit1.ogg</sound>
 <sound event="miss">flower-miss1.ogg</sound>
@@ -288,7 +291,7 @@ Ou um comentário de alguem.
 <monster id="308" name="Caranguejeira" summon="Caranguejeira">
 <sprite>monstro-aranha.xml|#000000,444444,000000;#00CC00,00FF00</sprite>
 </monster>
-<monster id="309" name="cachorro" summon="cachorro">
+<monster id="309" name="Cachorro" summon="cachorro">
 <sprite>monstro-cachorro.xml</sprite>
 <sound event="hit">cachorro_ataque.ogg</sound>
 <sound event="miss">cachorro_ataque.ogg</sound>
@@ -307,15 +310,15 @@ Ou um comentário de alguem.
 <sound event="die">reaper-die.ogg</sound>
 <particlefx>graphics/particles/aura-negra.xml</particlefx>
 </monster>
-<monster id="312" name="Cabeça de Aborora" summon="cabecadeAborora">
+<monster id="312" name="Cabeça de Abóbora" summon="cabecadeAborora">
 <sprite>monstro-cabeca-abobora-sombra.xml</sprite>
 <sprite>monstro-cabeca-abobora.xml</sprite>
 </monster>
-<monster id="313" name="Cabeção de Aborora" summon="cabecaodeAborora">
+<monster id="313" name="Cabeção de Abóbora" summon="cabecaodeAborora">
 <sprite>monstro-cabecao-abobora-sombra.xml</sprite>
 <sprite>monstro-cabecao-abobora.xml</sprite>
 </monster>
-<monster id="314" name="Cabeça de Aborora2" summon="cabecadeAborora2">
+<monster id="314" name="Cabeça de Abóbora" summon="cabecadeAborora2">
 <sprite>monstro-cabeca-abobora-sombra.xml</sprite>
 <sprite>monstro-cabeca-abobora.xml</sprite>
 </monster>
@@ -447,10 +450,10 @@ Ou um comentário de alguem.
 <sound event="miss">snake-hit2.ogg</sound>
 <sound event="die">tarantula-die.ogg</sound>
 </monster>
-<monster id="335" name="colmeia" summon="colmeia" targetCursor="small">
+<monster id="335" name="Colmeia" summon="colmeia" targetCursor="small">
 <sprite>monsters/monstro-colmeia.xml</sprite>
 </monster>
-<monster id="336" name="presente" summon="presente">
+<monster id="336" name="Presente" summon="presente">
 <sprite>resource-presente.xml</sprite>
 <particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 </monster>
