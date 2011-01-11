@@ -162,7 +162,7 @@ Ou um comentário de alguem.
 <monster id="30" name="Planta Alizarina" summon="plantaalizarina">
 <sprite>resource-plant.xml|#e32636</sprite>
 </monster>
-<monster id="31" name="limodomar" summon="limodomar">
+<monster id="31" name="Limo do Mar" summon="limodomar">
 <sprite>monster-slime.xml|#4ca1a0,ffffff</sprite>
 <sprite>acessorios/slime-seajelly.xml|#4ca1a0,ffffff</sprite>
 <sound event="hit">slime-hit1.ogg</sound>
