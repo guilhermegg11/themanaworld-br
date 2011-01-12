@@ -1145,6 +1145,7 @@
 		description="Geralmente utilizada para a agricultura, mas também pode ser uma arma. Lenta, porém mortal."
 		effect="+75 Dano, 1 Alcance"
 		type="equip-2hand"
+		weapon_type="11"
 		weapon-type="polearm"
 		weight="1200">
 		<sprite>weapon-scythe2.xml</sprite>
@@ -5513,7 +5514,7 @@
 		description="(em desenvolvimento)"
 		type="generic"
 		weight="11"/>
-		
+
 	<item id="3207"
 		image="generic-grimorium-cavaleiro.png"
 		name="Grimorium Azul"
