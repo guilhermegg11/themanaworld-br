@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="67" height="53" tilewidth="32" tileheight="32">
  <properties>
-  <property name="background0image" value="graphics/images/ambient/water.png"/>
-  <property name="background0parallax" value="1.0"/>
-  <property name="background0scrollX" value="-1.5"/>
-  <property name="background0scrollY" value="0.0"/>
+  <property name="-background0image" value="graphics/images/ambient/water.png"/>
+  <property name="-background0parallax" value="1.0"/>
+  <property name="-background0scrollX" value="-1.5"/>
+  <property name="-background0scrollY" value="0.0"/>
   <property name="music" value="butterfly_tea_-_forest_dance.ogg"/>
   <property name="name" value="Navio Intercontinental"/>
   <property name="overlay1image" value="graphics/images/ambient/clouds.png"/>
@@ -15,56 +15,127 @@
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="trans_woodland-desert" tilewidth="32" tileheight="32">
+ <tileset firstgid="3" name="sprite_agua" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/sprite_agua.png" width="512" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="1"/>
+    <property name="animation-delay1" value="1"/>
+    <property name="animation-delay2" value="1"/>
+    <property name="animation-delay3" value="1"/>
+    <property name="animation-delay4" value="1"/>
+    <property name="animation-delay5" value="1"/>
+    <property name="animation-delay6" value="1"/>
+    <property name="animation-delay7" value="1"/>
+    <property name="animation-delay8" value="1"/>
+    <property name="animation-delay9" value="1"/>
+    <property name="animation-delay10" value="1"/>
+    <property name="animation-delay11" value="1"/>
+    <property name="animation-delay12" value="1"/>
+    <property name="animation-delay13" value="1"/>
+    <property name="animation-delay14" value="1"/>
+    <property name="animation-delay15" value="1"/>
+    <property name="animation-delay16" value="1"/>
+    <property name="animation-delay17" value="1"/>
+    <property name="animation-delay18" value="1"/>
+    <property name="animation-delay19" value="1"/>
+    <property name="animation-delay20" value="1"/>
+    <property name="animation-delay21" value="1"/>
+    <property name="animation-delay22" value="1"/>
+    <property name="animation-delay23" value="1"/>
+    <property name="animation-delay24" value="1"/>
+    <property name="animation-delay25" value="1"/>
+    <property name="animation-delay26" value="1"/>
+    <property name="animation-delay27" value="1"/>
+    <property name="animation-delay28" value="1"/>
+    <property name="animation-delay29" value="1"/>
+    <property name="animation-delay30" value="1"/>
+    <property name="animation-delay31" value="1"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="3"/>
+    <property name="animation-frame4" value="4"/>
+    <property name="animation-frame5" value="5"/>
+    <property name="animation-frame6" value="6"/>
+    <property name="animation-frame7" value="7"/>
+    <property name="animation-frame8" value="8"/>
+    <property name="animation-frame9" value="9"/>
+    <property name="animation-frame10" value="10"/>
+    <property name="animation-frame11" value="11"/>
+    <property name="animation-frame12" value="12"/>
+    <property name="animation-frame13" value="13"/>
+    <property name="animation-frame14" value="14"/>
+    <property name="animation-frame15" value="15"/>
+    <property name="animation-frame16" value="16"/>
+    <property name="animation-frame17" value="17"/>
+    <property name="animation-frame18" value="18"/>
+    <property name="animation-frame19" value="19"/>
+    <property name="animation-frame20" value="20"/>
+    <property name="animation-frame21" value="21"/>
+    <property name="animation-frame22" value="22"/>
+    <property name="animation-frame23" value="23"/>
+    <property name="animation-frame24" value="24"/>
+    <property name="animation-frame25" value="25"/>
+    <property name="animation-frame26" value="26"/>
+    <property name="animation-frame27" value="27"/>
+    <property name="animation-frame28" value="28"/>
+    <property name="animation-frame29" value="29"/>
+    <property name="animation-frame30" value="30"/>
+    <property name="animation-frame31" value="31"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="35" name="trans_woodland-desert" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/trans_woodland-desert.png" width="512" height="352"/>
  </tileset>
- <tileset firstgid="179" name="navio-br" tilewidth="32" tileheight="32">
+ <tileset firstgid="211" name="navio-br" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/navio-br.png" width="768" height="320"/>
  </tileset>
- <tileset firstgid="419" name="navio-br2" tilewidth="32" tileheight="32">
+ <tileset firstgid="451" name="navio-br2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/navio-br2.png" width="768" height="256"/>
  </tileset>
- <tileset firstgid="611" name="navio-br-mastro1" tilewidth="32" tileheight="32">
+ <tileset firstgid="643" name="navio-br-mastro1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/navio-br-mastro1.png" width="416" height="544"/>
  </tileset>
  <layer name="ground" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3DQQ0AAAwDoat/0/tNBSSsmqqqqqqqqqqqqqqqqqr6D6YOYQ98NwAA
+   H4sIAAAAAAAAA+3DwQkAAAwDoYPsv3N/nULBVVNVVVVVVVVVVVVVVVVV/wHo3iKhfDcAAA==
   </data>
  </layer>
  <layer name="ground2" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QRatVARiGUa/d3d3d3d3dgd0dA7vbid39K4y5MbIxwBbs7sJcFxScKnrlwPdw1mQfNrz7S5UqiqIoiqIoiqIoiqIoiqIoiqI/6QAHOcTh33jvCEc5xvF/sCulO8FJTnGaM5zl3I//z3OBi1z65b3LXOEq17jODW5yKwV2/4tuc4e73OM+D3jIIx7zhKc84zkveMkrXvOGt7zjPR/4mJIf8Zf6xGe+8JVvyQ+T/EhNGtKSjvRkICOZyEwWspKN7OQgJ7nInfQ/v+z3y2NvXvKRnwIUpBCFKUJRilGcEpSkFKUpQ1nKUZ4KVKQSlRPsFlXsrUo1qlODmtSiNnWoSz3q04CGNKIxTWhKM5rTgpa0onWC3aKNvW1pR3s60JFOdKYLXelGd3rQk170pg996Ud/BjCQQQl2h+QG2zyEoQxjOCMYyShGM4axjGM8E5jIJCYzhalMYzozEvAOP5tp+yxmM4e5zGM+C1jIIhazhKUsYzkrWMkqVrMmge+Q3Fr717GeDWxkE5vZwla2sZ0d7GQXu9nDXvaxP8HvEEVRFEVRFEVRFEVRFEVRFP2/vgP3f9nrfDcAAA==
+   H4sIAAAAAAAAA+3QRasWUBSG0St2d2F3d3d3d3d3F3Z3DOxuJ3b3rzDmxsjGANt1QcGpwlU+2A+s0eHAy05KiqIoiqIoiqIoiqIoiqIoiqLob7rHfR7w8A/+PeIxT3iaArv+dc94zgte8orXvPn5/pZ3vOfDb/8+8onPfOEr3/ie/JjqHwxPgVLbnYa0pCM9GchIJjKThaxkIzs5yEkucpOHvOQjPwUomID3KGRzYYpQlGIUpwQlKUVpylCWcpSnAhWpRGWqUJVqVKcGNRPsHrXsrU0d6lKP+jSgIY1oTBOa0ozmtKAlrWhNG9rSjvZ0oGOC3aKTvZ3pQle60Z0e9KQXvelDX/rRnwEMZBCDGcJQhjGcEYxMsFuMsnc0YxjLOMYzgYlMYjJTmMo0pjODmcxiNnOYyzzmsyDB7pDcQpsXsZglLGUZy1nBSlaxmjWsZR3r2cBGNrGZLWxlWwLe4Vfbbd/BTnaxmz3sZR/7OcBBDnGYIxzlGMc5wUlOJfAdkjtt/xnOco7zXOAil7jMFa5yjevc4Ca3uM0d7ib4HaIoiqIoiqIoiqIoiqIoiqL/1w/1R0gAfDcAAA==
   </data>
  </layer>
  <layer name="ground3" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QwQmDQBCG0SEWYLrQBjRJ8YJd6FUrcY4LOYcJ+B58LMzpZyMAAAAAAADgN/pHxDNbmtuRnVWDCg35D2O2Vg/5A1u2Ny/fpi5izl7ZO/t01YsAAAAAAADu5wJ0xcYcfDcAAA==
+   H4sIAAAAAAAAA+3QwQkCMRRF0ZdMQdqFNuCoxQ/YhS79y4DrIcKcA5fAXz2SAAAAAAAAwD5OPTlX23BrLelt2qRpLvUP1+o1e8gfeFef4eXXbUnW6l49qucyexEAAAAAAMDxfAFC3DkLfDcAAA==
   </data>
  </layer>
  <layer name="fringe" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RMQqAMAwF0Nz/SOri5LVsB0FEqYJQie/BX0qG/iQCAAAAAACALxhKxpKl90dedrfP2dy8S0bbzVtvVbZdHHtc9X46k8FferbUPUxhFwAAAAAAQD8rXp/P+Xw3AAA=
+   H4sIAAAAAAAAA+3RMQqAMAwF0Nz/iOri5DVsB0FEqYJQie/BX0qG/iQCAAAAAACALxhKxpKl90dedrfP2dy8S0bbzVtvVbZdHHtc9X46k8FferbUPUxhFwAAAAAAQD8rPqyl3Xw3AAA=
   </data>
  </layer>
  <layer name="top" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QOUoEQRhA4arxBkaKW+yuuKMOuCcmIggaGehd9BZ6BZfIwFTHFbyBkeIRTHzQA/aIPbSMqC3vg0d190xB/RWCJEmSJEmSJEn6SUcxhGM6odP426dp3FkDM1TYe0XXdEO3dEf3Bb2XhzrnvqRKnb2PGXuf+P5cwPt4+eKZLz68vxZw5ixNpWQ9D7VrHs2lz7+38L0147e/rI0zt1MHdVJXzhm6+V8P9VIf9dMADdIQDRfwLkY48yiN0ThN0CRNVWeZZp2hWSqn5pvjeZ4WaJGWaJlWCngHaaucfy++t01r1ZnWWXd436WN1JybPG/Rfkz6Tw5ibXkdxiRJkiRJkiRJkvQ93gAO69svfDcAAA==
+   H4sIAAAAAAAAA+3QOUoEQRhA4aqJFI9g6A2MFB2N3RV3XMA9MRFB0MhA76K30Cu4RAamOq7gBXwwDfaIPbTMoLa8Dx7VXTMN9VcIkiRJkiRJkiTpJ13EEC7piq7jb5+mcTcNzFDh2wd6pCd6phd6Lei9vNU59z1V6nxbKn2938J+a8Zvf1nbN8989+m9vYAzZ+lIZrkNtWsenRn30MV+dwHvqIcz91KZ+qg/5wwD/G+QhmiYRmiUxmicJgp4F5OceYqmaYZmaY7mk1kWWBdpiZZT863wvEprtE4btElbBbyDtG3OfxI/OqSdZKZd1iPej2kvNec+zwd0Gqv9J2extrzOYzVJkiRJkiRJktQc7+9uIyl8NwAA
   </data>
  </layer>
  <layer name="top2" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XtU4EYRiF4dldrEJbpMUuDC4ALgAaKiRIg0OCu7u7uzsE1+CW8LJQwAUgmTlv8mTa/zvdGIZSSimllFJKWbcIu2FE2v/6Ff+jKHaI1hbOYtghVlsY8WyQgEQkfe6RzDcFqUiz0Ebp3JqBTGQhGznIRR7yLbBFATcWogjFKEEpylCOClSiysRbVHNbDWpRh3o0oBFNaEYLWtGGdhNv0cFtnehCN3rQiz70YwCDGMIwRky8xSi3jWEcE5jEFKYxg1nMYR4LWDTxFkvctowVrGIN69jAJrawjR3sYs/EW7y3z30HOMQRjnGCU5zhHBe4xJXJt7jmvhvc4g73eMAjnvCMF7yafAdnDsOwwQ4HXOAKN7jDw/HXD/zdPLnXC97wgS/8LLbB1/y5PQCBCLLwDsHcHoJQhCHcwluo78XZPij+R20flFJKKaWUUkoppZRSSin1870BxAfGzHw3AAA=
+   H4sIAAAAAAAAA+3XtU4EYRiF4dldgmtwS3Co0BZpsQuDC4ALgIYKCdLgkODu7u7u9i5LARdAIDPnTZ5M+3+nG8NQSimllFJKKetWZjeMcvtfv+J/VMEOldrisyp2qNYWRi0b1KEeDV97NPJtQjNaLLRRK7e2oR0d6EQXutGDXgts0ceN/RjAIIYwjBGMYgzjmDDxFpPcNoVpzGAWc5jHAhaxhGWsYNXEW6xx2zo2sIktbGMHu9jDPg5wiCMTb3HMbSc4xRnOcYFLXOEaN7jFHe5NvMUDtz3iCc94wSve8O6822EYNtjhgJvjr1/8u7lznwc84QVv+MAXfvBHAAIRZPItgrkvBKEIQzgiEIkoRCMGsSbfwVkcN8YjAYlIQjJSkIo0C2zwvXTuzUAmspCNHItt8L1cbs9DPgosvEMhtxehGCUotfAW6mc1NhfF/6jNRSmllFJKKaWUUkoppZRSv98HZ85PvHw3AAA=
   </data>
  </layer>
  <layer name="top3" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UyQ3DMBAEwZVS8JWbE1Ygluwg5GuSEEiAVUD/h/tgFQAAwLgeU9WatvRMr6n1onb2vP2dPumbfgPf4jRXndMlXdNtbr0I+nAf+F8AAI6xtB7QITcBAAAAAACAfvwBL4iaL3w3AAA=
+   H4sIAAAAAAAAA+3QwRGCQBBE0RURg1AkCEFyI2HSoI9msBT7XtW/z3QpAAAA7bp3pfTpkYb07GpfVM8rv7/TmD5paniLb36f05J+aW14C/i33WpfAABczV77gBOyCQAAAAAAAJzHAVZOLhJ8NwAA
   </data>
  </layer>
  <layer name="top4" width="67" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OIQEAAAgDsFOZ/oIIODBbgiUAAAAAsOv6HgAAAAAAAAAAANwZ2SfNmHw3AAA=
+   H4sIAAAAAAAAA+3OIQEAAAgDsNPfkZgIODBbgiUAAAAAsOv6HgAAAAAAAAAAANwZQXsKK3w3AAA=
   </data>
  </layer>
  <layer name="collision" width="67" height="53" visible="0">
