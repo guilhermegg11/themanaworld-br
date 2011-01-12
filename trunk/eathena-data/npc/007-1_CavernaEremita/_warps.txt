@@ -10,4 +10,4 @@
 007-1.gat,54,59	warp	paraFora	-1,-1,007.gat,179,78
 007-1.gat,44,56	warp	paraFora	-1,-1,007.gat,169,75
 007-1.gat,64,37	warp	warp	-1,-1,008-6.gat,138,95
-007-1.gat,23,21	warp	paraDentro	-1,-1,007-1.gat,53,21
+007-1.gat,23,21	warp	paraDentro	-1,-1,008-6.gat,127,77
