@@ -82,27 +82,6 @@
     <property name="dest_y" value="1280"/>
    </properties>
   </object>
-  <object name="para" type="warp" x="4832" y="2496" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="2464"/>
-    <property name="dest_y" value="704"/>
-   </properties>
-  </object>
-  <object name="para" type="warp" x="4064" y="2464" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="1696"/>
-    <property name="dest_y" value="672"/>
-   </properties>
-  </object>
-  <object name="para" type="warp" x="5440" y="2464" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="3072"/>
-    <property name="dest_y" value="672"/>
-   </properties>
-  </object>
   <object name="para" type="warp" x="4416" y="3040" width="32" height="32">
    <properties>
     <property name="dest_map" value="007-1"/>
