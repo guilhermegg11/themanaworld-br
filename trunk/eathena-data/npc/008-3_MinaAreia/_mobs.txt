@@ -11,7 +11,7 @@
 008-3.gat,38,76,15,22	monster	Escorpião Perto (4)	1009,4,0,0,Mob008-3::On1009
 008-3.gat,58,78,6,17	monster	Limo Vermelho (2)	1008,2,0,0,Mob008-3::On1008
 008-3.gat,89,68,11,32	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-3::On1008
-008-3.gat,83,93,19,17	monster	Limo Dourado (5)	1007,5,0,0,Mob008-3::On1007
+008-3.gat,83,93,19,17	monster	Limo Dourado (5)	1007,5,120000,0,Mob008-3::On1007
 008-3.gat,72,77,21,14	monster	Cobra (3)	1010,3,0,0,Mob008-3::On1010
 008-3.gat,67,91,11,12	monster	Escorpião Preto (2)	1009,2,0,0,Mob008-3::On1009
 008-3.gat,58,95,6,13	monster	Limo Vermelho (4)	1008,4,0,0,Mob008-3::On1008
