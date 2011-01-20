@@ -744,3 +744,5 @@
 3215,pedraAmbar,pedraAmbar,3,500,250,60,,,,,,,,,,,{},{}
 3216,pedraOlhoAguia,pedraOlhoAguia,3,500,250,90,,,,,,,,,,,{},{}
 3217,corda,Corda,3,500,250,20,,,,,,,,,,,{},{}
+3218,pelucia,pelucia,3,500,250,50,,,,,,,,,,,{},{}
+//reservado: 3219,orelhaUrso,orelhaUrso,5,2000,1000,60,,1,,0,0,2,256,,0,0,{},{}

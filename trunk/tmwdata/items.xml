@@ -5591,7 +5591,14 @@
 		name="Corda"
 		description="Uma corda fina e resistente muito usada pelos pescadores da ilha de fortaleza."
 		type="generic"
-		weight="90"
+		weight="20"
+	/>
+	<item id="3218"
+		image="generic-pelucia.png"
+		name="Retalho de Pelúcia"
+		description="Um retalho de pelúcia."
+		type="generic"
+		weight="50"
 	/>
 
 </items>
