@@ -68,9 +68,9 @@
 		<sprite gender="female">player_female_base.xml</sprite>
 	</item>
 
-	<item id="16">
-<!--		<sprite>weapon-dagger-attack.xml</sprite>-->
-	</item>
+<!--	<item id="16">
+	<sprite>weapon-dagger-attack.xml</sprite>
+	</item-->
 
 	<!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
 
@@ -1180,8 +1180,8 @@
 		type="equip-torso"
 		weight="1200"
 		defense="25">
-		<sprite gender="male">chest-lightplatemail-male.xml|W:#ddeeff</sprite>
-		<sprite gender="female">chest-lightplatemail-female.xml|W:#ddeeff</sprite>
+		<sprite gender="male">chest-lightplatemail-male.xml|#ddeeff</sprite>
+		<sprite gender="female">chest-lightplatemail-female.xml|#ddeeff</sprite>
 	</item>
 	<item id="627"
 		image="armor-head-tophat.png"
@@ -1984,7 +1984,7 @@
 		type="generic"
 		weight="5"/>
 	<item id="731"
-		image="armor-legs-assassinpants.png|R"
+		image="armor-legs-assassinpants.png"
 		name="Calça de Assassino"
 		description="Um tipo de calça usada por assassinos profissionais."
 		effect=""
@@ -2020,7 +2020,7 @@
 		<sprite gender="female">feet-boots-female.xml|#505050</sprite>
 	</item>
 	<item id="735"
-		image="armor-feet-boots.png|#A4B2B2,FFFFFF"
+		image="armor-feet-boots.png|W:#A4B2B2,FFFFFF"
 		name="Botas de Algodão"
 		description="Um par de botas de algodão de alta qualidade."
 		effect=""
@@ -2181,7 +2181,7 @@
 		weight="2"/>
 	<!-- IDs 755 até 783 (exceto o pó de fantasma - 774) tem valores apenas provisórios. Mudar quando for introduzir no jogo definitivamente -->
 	<item id="755"
-		image="armor-chest-assassintop.png|R"
+		image="armor-chest-assassintop.png"
 		name="Camisa de Assassino"
 		description="Uma camisa feita para assassinos profissionais."
 		effect=""
@@ -2192,7 +2192,7 @@
 		<sprite gender="female">chest-assassin-female.xml</sprite>
 	</item>
 	<item id="756"
-		image="armor-hands-assassingloves.png|R"
+		image="armor-hands-assassingloves.png"
 		name="Luvas de Assassino"
 		description="Luvas feitas para assassinos profissionais."
 		effect=""
@@ -2413,7 +2413,7 @@
 		type="equip-torso"
 		weight="1"
 		defense="1">
-		<sprite gender="female">chest-valentine-dress.xml|#BF0E08</sprite>
+		<sprite>chest-valentine-dress.xml|#BF0E08</sprite>
 	</item>
 
 	<!-- IDs 756 até 783 (exceto o pó de fantasma - 774) tem valores apenas provisórios. Mudar quando for introduzir no jogo definitivamente -->
@@ -2584,7 +2584,7 @@
 		type="equip-head"
 		weight="20"
 		defense="1">
-		<sprite>head-catears.xml</sprite>
+		<sprite>head-catears.xml|#774444;#777777</sprite>
 	</item>
 	<item id="1218"
 		image="armor-head-paperbag.png"
@@ -4136,11 +4136,9 @@
 		name="Couraça de Cobra da Montanha"
 		description="Uma couraça resistente de Pele de Cobra da Montanha."
 		effect=""
-		type="equip-torso"
+		type="generic"
 		weight="1"
 		defense="1">
-		<sprite gender="male">couraca_cobra_montanha_masculina.xml</sprite>
-		<sprite gender="female">couraca_cobra_montanha_feminina.xml</sprite>
 	</item>
 	<item id="3027"
 		image="generic-cesta-macas.png"
@@ -4376,9 +4374,7 @@
 		weight="350">
 		<sprite>weapon-lidersword.xml</sprite>
 		<sound event="strike">short-sword-miss1.ogg</sound>
-		<sound event="miss">short-sword-hit1.ogg</sound>
 		<sound event="hit">short-sword-hit2.ogg</sound>
-		<sound event="die">short-sword-die1.ogg</sound>
 	</item>
 	<item id="3053"
 		image="espada-michael-arcanjo.png"
@@ -4754,19 +4750,19 @@
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#000044,000066,0000aa;#000000</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#000044,000066,0000aa;#000000</sprite>
+		<sprite gender="male">chest-dress-valentine.xml|#000044,000066,0000aa;#000044,000066,0000aa</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#000044,000066,0000aa;#000044,000066,0000aa</sprite>
 	</item>
 	<item id="3103"
-		image="armor-chest-dress-valentine.png|R:;W:#000000"
+		image="armor-chest-dress-valentine.png"
 		name="Vestido Vermelho"
 		description="Vestido Vermelho muito usado em tabernas."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|;#000000</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|;#000000</sprite>
+		<sprite gender="male">chest-dress-valentine.xml|#580000,A40000,C02020,ff6060;#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#580000,A40000,C02020,ff6060;#580000,A40000,C02020,ff6060</sprite>
 	</item>
 	<item id="3104"
 		image="armor-chest-dress-valentine.png|R:#004400,006600,008800"
@@ -4776,8 +4772,8 @@
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#004400,006600,008800</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#004400,006600,008800</sprite>
+		<sprite gender="male">chest-dress-valentine.xml|#004400,006600,008800;#004400,006600,008800</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#004400,006600,008800;#004400,006600,008800</sprite>
 	</item>
 	<item id="3105"
 		image="armor-chest-dress-valentine.png|R:#888800,aaaa00,cccc00"
@@ -4787,8 +4783,8 @@
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#888800,aaaa00,cccc00</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#888800,aaaa00,cccc00</sprite>
+		<sprite gender="male">chest-dress-valentine.xml|#888800,aaaa00,cccc00;#888800,aaaa00,cccc00</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#888800,aaaa00,cccc00;#888800,aaaa00,cccc00</sprite>
 	</item>
 	<item id="3106"
 		image="armor-chest-dress-valentine.png|R:#880088,bb00bb,ff00ff"
@@ -4798,8 +4794,8 @@
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#880088,bb00bb,ff00ff</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#880088,bb00bb,ff00ff</sprite>
+		<sprite gender="male">chest-dress-valentine.xml|#880088,bb00bb,ff00ff;#880088,bb00bb,ff00ff</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#880088,bb00bb,ff00ff;#880088,bb00bb,ff00ff</sprite>
 	</item>
 	<item id="3107"
 		image="armor-chest-dress-valentine.png|R:#884488,bb55bb,ff88ff"
@@ -4809,8 +4805,8 @@
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#884488,bb55bb,ff88ff</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#884488,bb55bb,ff88ff</sprite>
+		<sprite gender="male">chest-dress-valentine.xml|#884488,bb55bb,ff88ff;#884488,bb55bb,ff88ff</sprite>
+		<sprite gender="female">chest-dress-valentine.xml|#884488,bb55bb,ff88ff;#884488,bb55bb,ff88ff</sprite>
 	</item>
 	<item id="3108"
 		image="armor-head-donatecap2011.png"
