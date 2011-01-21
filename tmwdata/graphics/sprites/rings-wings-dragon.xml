@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sprite>
 
-	<imageset name="base" src="graphics/sprites/rings-wings-dragon.png|G" width="128" height="128" />
+	<imageset name="base" src="graphics/sprites/rings-wings-dragon.png" width="128" height="128" />
 
 	<action name="default" imageset="base">
 	</action>
