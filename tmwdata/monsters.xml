@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--
 	IDE: TMW-Maker - Ferramenta Editora de Monstros
-	MODIFICADO: 31/12/2010 4:06 PM
+	MODIFICADO: 22/01/2011 1:11 PM
 -->
 <monsters offset="1002">
 <monster id="0" name="Verme" summon="verme">
@@ -194,9 +194,7 @@ Ou um comentário de alguem.
 </monster>
 <monster id="37" name="Piron" summon="piron">
 <sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
-<attack id="1"
-particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
-/>
+<attack id="1" particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"/>
 </monster>
 <monster id="38" name="Espectro" summon="espectro">
 <sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
