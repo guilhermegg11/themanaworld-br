@@ -123,6 +123,11 @@ On1337_1:
 	callfunc "sumonaAbelhas", "008.gat", 37, 46, "Mob008::On1049_1";
 	break;
 On1049_1:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_2:
@@ -133,6 +138,11 @@ On1337_2:
 	callfunc "sumonaAbelhas", "008.gat", 64, 25, "Mob008::On1049_2";
 	break;
 On1049_2:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_3:
@@ -143,6 +153,11 @@ On1337_3:
 	callfunc "sumonaAbelhas", "008.gat", 148, 29, "Mob008::On1049_3";
 	break;
 On1049_3:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_4:
@@ -153,6 +168,11 @@ On1337_4:
 	callfunc "sumonaAbelhas", "008.gat", 41, 31, "Mob008::On1049_4";
 	break;
 On1049_4:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_5:
@@ -163,10 +183,22 @@ On1337_5:
 	callfunc "sumonaAbelhas", "008.gat", 28, 69, "Mob008::On1049_5";
 	break;
 On1049_5:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 
 //= Callsubs ==========================================================
+
+_MOBS_abelha:
+	if(QUEST_ursinho!=1) return;
+	callfunc "mobContagem", 1125, QUEST_ursinhoAbelhas, @QUEST_ursinhoAbelhas;
+	set QUEST_ursinhoAbelhas, @mobs;
+	set @QUEST_ursinhoAbelhas, @flag;
+	return;
 
 _MOBS_escorpiao:
 	if(QUEST_praia!=12) return;

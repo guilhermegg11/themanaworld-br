@@ -3,28 +3,6 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-007.gat,166,54,24,27	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
-007.gat,169,56,28,28	monster	Flor (5)	1014,5,0,0,Mob007::On1014
-007.gat,108,26,34,12	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
-007.gat,115,31,33,15	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
-007.gat,162,28,37,11	monster	Cogumelo Maligno (3) [2min]	1013,3,120000,0,Mob007::On1013
-007.gat,167,31,26,15	monster	Cogumelo (6)	1019,6,0,0,Mob007::On1019
-007.gat,125,52,34,13	monster	Cogumelo (8)	1019,8,0,0,Mob007::On1019
-007.gat,168,77,23,11	monster	Limo Vermelho (3)	1008,3,60000,0,Mob007::On1008
-007.gat,68,39,20,19	monster	Verme (10)	1002,10,0,0,Mob007::On1002
-007.gat,89,41,14,11	monster	Verme (5)	1002,5,0,0,Mob007::On1002
-007.gat,70,56,13,9	monster	Verme (5)	1002,5,0,0,Mob007::On1002
-007.gat,38,38,21,21	monster	Verme (10)	1002,10,0,0,Mob007::On1002
-007.gat,29,76,10,8	monster	Verme (5)	1002,5,0,0,Mob007::On1002
-007.gat,140,100,31,17	monster	Verme (10)	1002,10,0,0,Mob007::On1002
-007.gat,117,112,12,8	monster	Verme (5)	1002,5,0,0,Mob007::On1002
-007.gat,70,80,71,37	monster	Verme (guloso)(1)	1002,1,0,120000,Mob007::On1002_guloso
-007.gat,85,23,8,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
-007.gat,152,72,3,10	monster	Escorpião (3)	1003,3,0,0,Mob007::On1003
-007.gat,93,49,11,6	monster	Escorpião (3)	1003,5,0,0,Mob007::On1003
-007.gat,114,64,15,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
-007.gat,152,100,52,30	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob007::On1011
-007.gat,143,41,18,35	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
 007.gat,163,43,0,0	monster	Colmeia 1	1337,1,60000,0,Mob007::On1337_1
 007.gat,121,25,0,0	monster	Colmeia 2	1337,1,60000,0,Mob007::On1337_2
 007.gat,175,34,0,0	monster	Colmeia 3	1337,1,60000,0,Mob007::On1337_3
@@ -32,6 +10,28 @@
 007.gat,143,56,0,0	monster	Colmeia 5	1337,1,60000,0,Mob007::On1337_5
 007.gat,108,45,0,0	monster	Colmeia 6	1337,1,60000,0,Mob007::On1337_6
 007.gat,165,77,0,0	monster	Colmeia 7	1337,1,60000,0,Mob007::On1337_7
+007.gat,152,100,52,30	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob007::On1011
+007.gat,140,100,31,17	monster	Verme (10)	1002,10,0,0,Mob007::On1002
+007.gat,70,80,71,37	monster	Verme (guloso)(1)	1002,1,0,120000,Mob007::On1002_guloso
+007.gat,70,56,13,9	monster	Verme (5)	1002,5,0,0,Mob007::On1002
+007.gat,68,39,20,19	monster	Verme (10)	1002,10,0,0,Mob007::On1002
+007.gat,38,38,21,21	monster	Verme (10)	1002,10,0,0,Mob007::On1002
+007.gat,29,76,10,8	monster	Verme (5)	1002,5,0,0,Mob007::On1002
+007.gat,89,41,14,11	monster	Verme (5)	1002,5,0,0,Mob007::On1002
+007.gat,93,49,11,6	monster	Escorpião (3)	1003,5,0,0,Mob007::On1003
+007.gat,85,23,8,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
+007.gat,115,31,33,15	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
+007.gat,108,26,34,12	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
+007.gat,125,52,34,13	monster	Cogumelo (8)	1019,8,0,0,Mob007::On1019
+007.gat,114,64,15,7	monster	Escorpião (5)	1003,5,0,0,Mob007::On1003
+007.gat,143,41,18,35	monster	Trasgo Rosa (6) [2min]	1018,6,120000,0,Mob007::On1018
+007.gat,169,56,28,28	monster	Flor (5)	1014,5,0,0,Mob007::On1014
+007.gat,167,31,26,15	monster	Cogumelo (6)	1019,6,0,0,Mob007::On1019
+007.gat,162,28,37,11	monster	Cogumelo Maligno (3) [2min]	1013,3,120000,0,Mob007::On1013
+007.gat,166,54,24,27	monster	Tufo (10)	1020,10,0,0,Mob007::On1020
+007.gat,152,72,3,10	monster	Escorpião (3)	1003,3,0,0,Mob007::On1003
+007.gat,168,77,23,11	monster	Limo Vermelho (3)	1008,3,60000,0,Mob007::On1008
+007.gat,117,112,12,8	monster	Verme (5)	1002,5,0,0,Mob007::On1002
 
 007.gat,0,0,0	script	Mob007	-1,{
 
@@ -119,6 +119,11 @@ On1337_1:
 	callfunc "sumonaAbelhas", "007.gat", 163, 43, "Mob007::On1049_1";
 	break;
 On1049_1:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_2:
@@ -129,6 +134,11 @@ On1337_2:
 	callfunc "sumonaAbelhas", "007.gat", 121, 25, "Mob007::On1049_2";
 	break;
 On1049_2:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_3:
@@ -139,6 +149,11 @@ On1337_3:
 	callfunc "sumonaAbelhas", "007.gat", 175, 34, "Mob007::On1049_3";
 	break;
 On1049_3:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_4:
@@ -149,6 +164,11 @@ On1337_4:
 	callfunc "sumonaAbelhas", "007.gat", 142, 26, "Mob007::On1049_4";
 	break;
 On1049_4:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_5:
@@ -159,6 +179,11 @@ On1337_5:
 	callfunc "sumonaAbelhas", "007.gat", 143, 56, "Mob007::On1049_5";
 	break;
 On1049_5:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_6:
@@ -169,6 +194,11 @@ On1337_6:
 	callfunc "sumonaAbelhas", "007.gat", 108, 45, "Mob007::On1049_6";
 	break;
 On1049_6:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 On1337_7:
@@ -179,10 +209,22 @@ On1337_7:
 	callfunc "sumonaAbelhas", "007.gat", 165, 77, "Mob007::On1049_7";
 	break;
 On1049_7:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
+	callsub _MOBS_abelha;
 	break;
 
 
 //= Callsubs ==========================================================
+
+_MOBS_abelha:
+	if(QUEST_ursinho!=1) return;
+	callfunc "mobContagem", 1125, QUEST_ursinhoAbelhas, @QUEST_ursinhoAbelhas;
+	set QUEST_ursinhoAbelhas, @mobs;
+	set @QUEST_ursinhoAbelhas, @flag;
+	return;
 
 _MOBS_cogumelo:
 	if(QUEST_cogumelo!=2) return;
