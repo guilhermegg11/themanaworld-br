@@ -5596,5 +5596,16 @@
 		type="generic"
 		weight="50"
 	/>
+	<!-- id 3219 revervado para orelhas de urso. -->
+	<item id="3220"
+		image="armor-head-elmo-taurus.png"
+		name="Elmo Taurus"
+		description="Um elmo escuro para os que carregam consigo o espírito de fúria do touro."
+		effect="+1 Força"
+		type="equip-head"
+		weight="2000"
+		defense="20">
+		<sprite>equipment/head/head-elmo-taurus.xml</sprite>
+	</item>
 
 </items>
