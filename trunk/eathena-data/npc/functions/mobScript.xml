@@ -77,7 +77,18 @@
 	callfunc "sumonaAbelhas", "%MAPA%.gat", %X%, %Y%, "Mob%MAPA%::On1049_%GRUPO%";
 	break;
 On1049_%GRUPO%:
+	set @mobID, 1049;
+	callfunc "MobPoints";
+	callfunc "getTime";
+	callfunc "emanarAlma";
 		</script>
+		<callsub label="_MOBS_abelha">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="QUEST_ursinho!=1"/>
+				<var id="%max%" valor="1125"/>
+				<var id="%mobs%" valor="QUEST_ursinhoAbelhas"/>
+			</gerar_label>
+		</callsub>
 	</monstro>
 
 	<!-- ==================== Scripts das Jazidas ==================== -->
