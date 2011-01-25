@@ -5596,7 +5596,15 @@
 		type="generic"
 		weight="50"
 	/>
-	<!-- id 3219 revervado para orelhas de urso. -->
+	<item id="3219"
+		image="armor-head-orelhas-urso.png"
+		name="Orelhas de Urso"
+		description="Um par de orelhas fofinhas e bem quentinhas."
+		type="equip-head"
+		weight="75"
+		defense="1">
+		<sprite>equipment/head/head-orelhas-urso.xml</sprite>
+	</item>
 	<item id="3220"
 		image="armor-head-elmo-taurus.png"
 		name="Elmo Taurus"
