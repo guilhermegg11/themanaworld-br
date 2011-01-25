@@ -745,5 +745,5 @@
 3216,pedraOlhoAguia,pedraOlhoAguia,3,500,250,90,,,,,,,,,,,{},{}
 3217,corda,Corda,3,500,250,20,,,,,,,,,,,{},{}
 3218,pelucia,pelucia,3,500,250,50,,,,,,,,,,,{},{}
-//reservado: 3219,orelhaUrso,orelhaUrso,5,2000,1000,60,,1,,0,0,2,256,,0,0,{},{}
+3219,orelhaUrso,orelhaUrso,5,2000,1000,75,,1,,0,0,2,256,,0,0,{},{}
 3220,elmoTaurus,elmoTaurus,5,200000,20000,2000,,20,,-30,0,2,256,,0,0,{ bonus bStr, 1; },{}
