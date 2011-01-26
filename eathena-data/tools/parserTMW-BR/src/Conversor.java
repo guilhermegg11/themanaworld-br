@@ -12,6 +12,8 @@
  */
 
 import java.io.PrintStream;
+import java.util.Collections;
+import java.util.Comparator;
 
 import parser.*;
 import parser.ParserItens.ColItem;
@@ -23,11 +25,56 @@ public class Conversor {
 
 	public static void main (String args[]) {
 
+		Parser itens = new Parser();
+		try {
+			itens.carregarItens("../../db/item_db.txt");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
 		try{
-			tabelaItens();
+			gerarGrupoItensXML(itens);
+			//tabelaItens();
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	private static void gerarGrupoItensXML(Parser itens) {
+		Item item = null;
+
+		Comparator<Item> comparator = new Comparator<Item>() {
+			public int compare(Item a, Item b) {
+				try {
+					if( a.getTipo().equals(b.getTipo()) ) {
+						return Integer.valueOf(a.getId()).compareTo( Integer.valueOf(b.getId()) );
+					}
+					return Integer.valueOf(a.getTipo()).compareTo( Integer.valueOf(b.getTipo()) );
+				} catch(Exception e) {
+					return -1;
+				}
+			}
+		};
+		Collections.sort(itens.getItens(), comparator);
+
+		String tipo = "";
+
+		out.println("<xml>");
+		itens.initIterator();
+		while( itens.seProx() ) {
+			item = itens.getProx();
+			if( item.getTipo().equals(tipo)==false ){
+				if(tipo.equals("")==false)
+					out.println("\t</grupo>");
+				out.println("\t<grupo tipo=\""+item.getTipo()+"\">");
+				tipo = item.getTipo();
+			}
+			out.print("\t\t<item");
+			out.print(" id=\""+item.getId()+"\"");
+			out.println(" nome=\""+item.getNome()+"\"/>");
+		}
+		out.println("\t</grupo>");
+		out.println("</xml>");
 	}
 
 	/**
@@ -76,8 +123,8 @@ public class Conversor {
 		//Parser itens = geraExemplo();
 		Parser itens = new Parser();
 		try {
-			itens.carregarItens("item_db.txt");
-			//itens.carregarItens("/home/tmw-br/trunk/eathena-data/tools/parserTMW-BR/item_db.txt");
+			//itens.carregarItens("item_db.txt");
+			itens.carregarItens("../../db/item_db.txt");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
