@@ -15,8 +15,11 @@ import java.io.PrintStream;
 import java.util.Collections;
 import java.util.Comparator;
 
-import parser.*;
-import parser.ParserItens.ColItem;
+import parser.Comando;
+import parser.Item;
+import parser.Parser;
+import parser.Script;
+import parser.Token;
 import parser.Token.TipoToken;
 
 public class Conversor {
@@ -47,7 +50,10 @@ public class Conversor {
 			public int compare(Item a, Item b) {
 				try {
 					if( a.getTipo().equals(b.getTipo()) ) {
-						return Integer.valueOf(a.getId()).compareTo( Integer.valueOf(b.getId()) );
+						if( a.getLoc().equals( b.getLoc() ) ) {
+							return Integer.valueOf(a.getId()).compareTo( Integer.valueOf(b.getId()) );
+						}
+						return Integer.valueOf(a.getLoc()).compareTo( Integer.valueOf(b.getLoc()) );
 					}
 					return Integer.valueOf(a.getTipo()).compareTo( Integer.valueOf(b.getTipo()) );
 				} catch(Exception e) {
@@ -58,20 +64,28 @@ public class Conversor {
 		Collections.sort(itens.getItens(), comparator);
 
 		String tipo = "";
+		String loc = "";
 
 		out.println("<xml>");
 		itens.initIterator();
 		while( itens.seProx() ) {
 			item = itens.getProx();
-			if( item.getTipo().equals(tipo)==false ){
+			if( item.getTipo().equals(tipo)==false || item.getLoc().equals(loc)==false ){
 				if(tipo.equals("")==false)
 					out.println("\t</grupo>");
-				out.println("\t<grupo tipo=\""+item.getTipo()+"\">");
+				out.println("\t<grupo tipo=\""+item.getTipo()+( item.getLoc().length()!=0?"-"+item.getLoc():"" )+"\" nome=\"...\">");
 				tipo = item.getTipo();
+				loc = item.getLoc();
 			}
 			out.print("\t\t<item");
 			out.print(" id=\""+item.getId()+"\"");
-			out.println(" nome=\""+item.getNome()+"\"/>");
+			out.print(" nome=\""+item.getDesc()+"\"");
+			try {
+				if( Integer.valueOf(item.getId()).intValue()>=3000 )
+					out.print(" tmwbr=\"true\"");
+			} catch(Exception e) {
+			}
+			out.println("/>");
 		}
 		out.println("\t</grupo>");
 		out.println("</xml>");
@@ -128,7 +142,7 @@ public class Conversor {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		ColItem[] cols = { ColItem.ID, ColItem.NOME, ColItem.DESC, ColItem.TIPO, ColItem.COMP, ColItem.VEND, ColItem.USO, ColItem.EQP };
+		int[] cols = { Item.ID, Item.NOME, Item.DESC, Item.TIPO, Item.COMP, Item.VEND, Item.USO, Item.EQP };
 
 		out.println("| ID | NOME | DESCRICAO | TIPO | COMPRA | VENDA | USO | EQUIP |");
 		itens.initIterator();
@@ -138,13 +152,13 @@ public class Conversor {
 			for(int i=0; i<cols.length; i++){
 
 				// Quando for do tipo String:
-				str = item.getColString( cols[i].ordinal() );
+				str = item.getColString( cols[i] );
 				if( str!=null ){
 					out.print(" "+str+" |");
 				}
 
 				// Quando for do tipo Script:
-				script = item.getColScript( cols[i].ordinal() );
+				script = item.getColScript( cols[i] );
 				if( script!=null ){
 					script.initIterator();
 					while( script.seProx() ){
@@ -173,12 +187,3 @@ public class Conversor {
 	}
 
 }
-
-
-
-
-
-
-
-
-
