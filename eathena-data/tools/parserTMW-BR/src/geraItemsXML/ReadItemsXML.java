@@ -49,6 +49,18 @@ public class ReadItemsXML {
 
 	}
 
+	public HashMap<Integer, HashMap<String, String>> getElementos() {
+		return elementos;
+	}
+
+	/**
+	 * Retorna um item. Contem a HashMap de atributos.
+	 * @param id id do item.
+	 */
+	public HashMap<String,String> getItem(String id) {
+		return elementos.get( Integer.parseInt(id) );
+	}
+
 	/**
 	 * Retorna uma propriedade da tag XML como int.
 	 * @param elem Tag XML do tipo Node.ELEMENT_NODE

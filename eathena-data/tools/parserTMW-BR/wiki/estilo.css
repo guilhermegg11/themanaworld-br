@@ -14,3 +14,7 @@ table.borda tr td {
 	padding: 2px 4px;
 	max-width: 500px;
 }
+
+table.borda img {
+	vertical-align:text-bottom;
+}
