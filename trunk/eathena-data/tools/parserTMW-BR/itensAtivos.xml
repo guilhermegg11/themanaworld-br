@@ -244,7 +244,7 @@
 		<item id="3217" nome="Corda" tmwbr="true"/>
 		<item id="3218" nome="pelucia" tmwbr="true"/>
 	</grupo>
-	<grupo tipo="4-2" nome="Armas uma mão">
+	<grupo tipo="4-2" id="armas1" nome="Armas 1" desc="Armas de uma mão (Podem ser usadas com escudo)">
 		<item id="521" nome="Adaga"/>
 		<item id="522" nome="Faca Afiada"/>
 		<item id="536" nome="Espada Curta"/>
@@ -284,7 +284,7 @@
 		<item id="3112" nome="Picareta Profissional" tmwbr="true"/>
 		<item id="3191" nome="redeCaptura" tmwbr="true"/>
 	</grupo>
-	<grupo tipo="4-34" nome="Armas duas mãos">
+	<grupo tipo="4-34" id="armas2" nome="Armas 2" desc="Armas duas mãos (Não podem ser usadas com escudo)">
 		<item id="530" nome="Arco de Curto Alcançe"/>
 		<item id="545" nome="Arco da Floresta"/>
 		<item id="574" nome="lancaReiEscorpiao"/>
@@ -517,7 +517,7 @@
 		<item id="3219" nome="orelhaUrso" tmwbr="true"/>
 		<item id="3220" nome="elmoTaurus" tmwbr="true"/>
 	</grupo>
-	<grupo tipo="5-512" nome="Armaduras">
+	<grupo tipo="5-512" id="Armaduras" nome="Armaduras" desc="Armaduras">
 		<item id="523" nome="Camisa de Couro"/>
 		<item id="546" nome="Camisa do Deserto"/>
 		<item id="564" nome="Suéter de Gola Alta"/>
@@ -609,7 +609,7 @@
 		<item id="3106" nome="Vestido Rosa Choque" tmwbr="false"/>
 		<item id="3107" nome="Vestido Rosa Claro" tmwbr="false"/>
 	</grupo>
-	<grupo tipo="10-32768" nome="Munição">
+	<grupo tipo="10-32768" id="municao" nome="Munição" desc="Munição (Flexas)">
 		<item id="529" nome="Flecha de Ferro"/>
 		<item id="762" nome="Flecha de Terranite"/>
 		<item id="1199" nome="Flecha"/>

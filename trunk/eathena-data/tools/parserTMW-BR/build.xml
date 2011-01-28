@@ -1,4 +1,4 @@
-<project name="ParserTMW-BR" default="dist">
+<project name="parserTMW-BR" default="dist">
 
 	<!--
 		Para compilar este projeto use o programa ant.
@@ -26,7 +26,7 @@
 	<target name="xmlReader" description="XMLRead">
 		<jar jarfile="xmlReader.jar" basedir="build">
 			<manifest>
-				<attribute name="Main-Class" value="XMLReader" />
+				<attribute name="Main-Class" value="GeraItemsXML" />
 			</manifest>
 		</jar>
 	</target>
