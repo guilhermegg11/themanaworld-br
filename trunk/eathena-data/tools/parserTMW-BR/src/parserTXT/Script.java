@@ -5,7 +5,7 @@
  * 
  */
 
-package parser;
+package parserTXT;
 
 import java.util.ArrayList;
 import java.util.Iterator;

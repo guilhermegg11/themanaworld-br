@@ -5,11 +5,11 @@
  * 
  */
 
-package parser;
+package parserTXT;
 
 import java.util.ArrayList;
 
-import parser.Token.TipoToken;
+import parserTXT.Token.TipoToken;
 
 enum Est{
 	INICIAL, //< estado inicial

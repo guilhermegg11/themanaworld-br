@@ -9,7 +9,7 @@
  * (de um alfabeto, por exemplo) com um significado coletivo.
  */
 
-package parser;
+package parserTXT;
 
 public class Token {
 

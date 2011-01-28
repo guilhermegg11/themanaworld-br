@@ -10,7 +10,7 @@
  * formal. Essa análise faz parte de um compilador, junto com a análise léxica e análise semântica.
  */
 
-package parser;
+package parserTXT;
 
 import java.io.BufferedReader;
 import java.io.File;
