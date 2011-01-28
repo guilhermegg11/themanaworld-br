@@ -1,4 +1,4 @@
-package geraItemsXML;
+package parserXML;
 
 import java.util.HashMap;
 import javax.xml.parsers.*;

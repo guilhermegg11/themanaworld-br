@@ -353,23 +353,57 @@
 		<item id="3046" nome="Terdadeiro Trevo" tmwbr="false"/>
 		<item id="3171" nome="medalhaVelha" tmwbr="true"/>
 		<item id="3172" nome="bussolaVentos" tmwbr="true"/>
-		<item id="3173" nome="halloween2010ouro RooO" tmwbr="true"/>
-		<item id="3174" nome="halloween2010ouro Milwalke" tmwbr="true"/>
-		<item id="3175" nome="halloween2010ouro szCHINELO" tmwbr="true"/>
-		<item id="3176" nome="halloween2010ouro DarkSlayer" tmwbr="true"/>
-		<item id="3177" nome="halloween2010ouro Xtreem" tmwbr="true"/>
-		<item id="3178" nome="halloween2010prata Katucha" tmwbr="true"/>
-		<item id="3179" nome="halloween2010prata super caio" tmwbr="true"/>
-		<item id="3180" nome="halloween2010prata Gladiador Flash" tmwbr="true"/>
-		<item id="3181" nome="halloween2010prata Tarsan_br" tmwbr="true"/>
-		<item id="3182" nome="halloween2010prata alasmirt" tmwbr="true"/>
-		<item id="3183" nome="halloween2010bronze arthurzinho" tmwbr="true"/>
-		<item id="3184" nome="halloween2010bronze Lord" tmwbr="true"/>
-		<item id="3185" nome="halloween2010bronze augustinho" tmwbr="true"/>
-		<item id="3186" nome="halloween2010bronze ELLENBR" tmwbr="true"/>
-		<item id="3187" nome="halloween2010bronze BRUNO Paz" tmwbr="true"/>
+		<item id="3173" nome="halloween2010ouro RooO" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3174" nome="halloween2010ouro Milwalke" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3175" nome="halloween2010ouro szCHINELO" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3176" nome="halloween2010ouro DarkSlayer" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3177" nome="halloween2010ouro Xtreem" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3178" nome="halloween2010prata Katucha" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3179" nome="halloween2010prata super caio" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3180" nome="halloween2010prata Gladiador Flash" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3181" nome="halloween2010prata Tarsan_br" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3182" nome="halloween2010prata alasmirt" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3183" nome="halloween2010bronze arthurzinho" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3184" nome="halloween2010bronze Lord" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3185" nome="halloween2010bronze augustinho" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3186" nome="halloween2010bronze ELLENBR" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3187" nome="halloween2010bronze BRUNO Paz" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
 		<item id="3200" nome="anelEmanarAlma" tmwbr="true"/>
-		<item id="3201" nome="colarOlhoAguia" tmwbr="true"/>
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3201" nome="colarOlhoAguia" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
 	</grupo>
 	<grupo tipo="5-32" nome="Escudos">
 		<item id="585" nome="Pulseira Escaravelho"/><!-- Não sabia que tinha essa pulseira de mão esquerda! -->
@@ -397,12 +431,22 @@
 	</grupo>
 	<grupo tipo="5-128" nome="Acessórios 2">
 		<item id="702" nome="Anél de Casamento"/>
-		<item id="3017" nome="colarHorcruxFada" tmwbr="true"/>
-		<item id="3110" nome="Colar de Monge" tmwbr="true"/>
-		<item id="3144" nome="Anel do Demônio" tmwbr="true"/>
-		<item id="3145" nome="Anel do Dragão Verde" tmwbr="true"/>
+		<item id="3017" nome="colarHorcruxFada" tmwbr="true">
+			<contrib nome="Diogo_RBG" data="??/??/2010" desc="Edição do ícone."/>
+		</item>
+		<item id="3110" nome="Colar de Monge" tmwbr="true">
+			<contrib nome="Kamaitachi" data="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3144" nome="Anel do Demônio" tmwbr="true">
+			<contrib nome="?" data="??/12/2010" desc="Autor do sprite."/>
+		</item>
+		<item id="3145" nome="Anel do Dragão Verde" tmwbr="true">
+			<contrib nome="?" data="??/12/2010" desc="Autor do sprite."/>
+		</item>
 		<item id="3148" nome="Asas de Anjo" tmwbr="false"/>
-		<item id="3189" nome="asasDeBorboleta" tmwbr="true"/>
+		<item id="3189" nome="asasDeBorboleta" tmwbr="true">
+			<contrib nome="Katucha" data="??/12/2010" desc="Autora do ícone e sprite."/>
+		</item>
 	</grupo>
 	<grupo tipo="5-256" nome="Chapéus">
 		<item id="511" nome="Gorro de Natal"/>
@@ -514,8 +558,14 @@
 		<item id="3196" nome="chapeuPresenteAzul" tmwbr="true"/>
 		<item id="3197" nome="chapeuPresenteAmarelo" tmwbr="true"/>
 		<item id="3198" nome="chapeuPresenteRosa" tmwbr="true"/>
-		<item id="3219" nome="orelhaUrso" tmwbr="true"/>
-		<item id="3220" nome="elmoTaurus" tmwbr="true"/>
+		<item id="3219" nome="orelhaUrso" tmwbr="true">
+			<contrib nome="Katucha" data="??/12/2010" desc="Autora do sprite / Sujestão da missão."/>
+			<contrib nome="Kamaitachi" data="??/01/2011" desc="Autor do ícone"/>
+		</item>
+		<item id="3220" nome="elmoTaurus" tmwbr="true">
+			<contrib nome="?" data="??/12/2010" desc="Autor do sprite-proposta."/>
+			<contrib nome="Kamaitachi" data="??/01/2011" desc="Autor do ícone e sprite."/>
+		</item>
 	</grupo>
 	<grupo tipo="5-512" id="Armaduras" nome="Armaduras" desc="Armaduras">
 		<item id="523" nome="Camisa de Couro"/>

@@ -5,7 +5,7 @@
  * 
  */
 
-package parser;
+package parserTXT;
 
 public class ParserMobs {
 

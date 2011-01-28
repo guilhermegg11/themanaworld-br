@@ -3,7 +3,7 @@
  * @author Diogo_RBG - http://diogorbg.blogspot.com/
  */
 
-package parser;
+package parserTXT;
 
 public class Item {
 
