@@ -1,5 +1,4 @@
 /**
- * 
  * Este programa pode ser utilizado para gerar uma lista de itens, monstros, informações sobre jogadores
  * e outras coisas mais complexas como criar um histórico de tudo que acontece no jogo. Por enquanto só
  * estou trabalhando nas classes.
@@ -8,19 +7,18 @@
  * 
  * @data 10/05/2010
  * @author Diogo_RBG - http://diogorbg.blogspot.com/
- * 
  */
 
 import java.io.PrintStream;
 import java.util.Collections;
 import java.util.Comparator;
 
-import parser.Comando;
-import parser.Item;
-import parser.Parser;
-import parser.Script;
-import parser.Token;
-import parser.Token.TipoToken;
+import parserTXT.Comando;
+import parserTXT.Item;
+import parserTXT.Parser;
+import parserTXT.Script;
+import parserTXT.Token;
+import parserTXT.Token.TipoToken;
 
 public class Conversor {
 
@@ -66,20 +64,21 @@ public class Conversor {
 		String tipo = "";
 		String loc = "";
 
-		out.println("<xml>");
+		out.println("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+		out.println("<items>");
 		itens.initIterator();
 		while( itens.seProx() ) {
 			item = itens.getProx();
 			if( item.getTipo().equals(tipo)==false || item.getLoc().equals(loc)==false ){
 				if(tipo.equals("")==false)
-					out.println("\t</grupo>");
-				out.println("\t<grupo tipo=\""+item.getTipo()+( item.getLoc().length()!=0?"-"+item.getLoc():"" )+"\" nome=\"...\">");
+					out.println("\t</group>");
+				out.println("\t<group type=\""+item.getTipo()+( item.getLoc().length()!=0?"-"+item.getLoc():"" )+"\" id=\"\" name=\"\" desc=\"\">");
 				tipo = item.getTipo();
 				loc = item.getLoc();
 			}
 			out.print("\t\t<item");
 			out.print(" id=\""+item.getId()+"\"");
-			out.print(" nome=\""+item.getDesc()+"\"");
+			out.print(" name=\""+item.getDesc()+"\"");
 			try {
 				if( Integer.valueOf(item.getId()).intValue()>=3000 )
 					out.print(" tmwbr=\"true\"");
@@ -87,8 +86,8 @@ public class Conversor {
 			}
 			out.println("/>");
 		}
-		out.println("\t</grupo>");
-		out.println("</xml>");
+		out.println("\t</group>");
+		out.println("</items>");
 	}
 
 	/**

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+	<group type="0" id="consumiveis" name="Comsumíveis" desc="Itens consumíveis">
+		<item id="501" name="Bebida de Cactus"/>
+		<item id="502" name="Poção de Cactus"/>
+		<item id="506" name="Doce Bengala"/>
+		<item id="508" name="Bolo de Natal"/>
+		<item id="509" name="Barra de Chocolate"/>
+		<item id="510" name="Balinha"/>
+		<item id="512" name="Biscoito de Gengibre"/>
+		<item id="513" name="Bolo"/>
+		<item id="514" name="Doce Bengala Natalino"/>
+		<item id="519" name="Bolo de Cereja"/>
+		<item id="520" name="Ovo de Pascoa"/>
+		<item id="527" name="Leite"/>
+		<item id="533" name="Verme Torrado"/>
+		<item id="534" name="Bolo de Laranja"/>
+		<item id="535" name="Maçã"/>
+		<item id="539" name="Cerveja"/>
+		<item id="541" name="Garrafa d'água"/>
+		<item id="562" name="Coxa de Frango"/>
+		<item id="565" name="Pétala"/>
+		<item id="566" name="Cogumelo Pequeno"/>
+		<item id="567" name="Poção Energética"/>
+		<item id="568" name="Poção de Concentração"/>
+		<item id="657" name="Laranja"/>
+		<item id="676" name="Filé"/>
+		<item id="684" name="Poção Mínima de Cura"/>
+		<item id="685" name="Poção Pequena de Cura"/>
+		<item id="686" name="Poção Média de Cura"/>
+		<item id="687" name="Poção Grande de Cura"/>
+		<item id="714" name="Ovo de Cobra"/>
+		<item id="715" name="Ovo de Cobra da Montanha"/>
+		<item id="716" name="Ovo de Cobra da Grama"/>
+		<item id="717" name="Ovo de Cobra da Caverna"/>
+		<item id="719" name="Maçã Verde"/>
+		<item id="736" name="Bolo Branco"/>
+		<item id="737" name="Bolo de Chocolate"/>
+		<item id="738" name="Bolo Laranja"/>
+		<item id="739" name="Bolo de Maçã"/>
+		<item id="743" name="Bolota"/>
+		<item id="1208" name="Ovo de Páscoa Vermelho"/>
+		<item id="1209" name="Ovo de Páscoa Verde"/>
+		<item id="1210" name="Ovo de Páscoa Azul"/>
+		<item id="1211" name="Ovo de Páscoa Amarelo"/>
+		<item id="1212" name="Ovo de Páscoa Azul Claro"/>
+		<item id="1213" name="Ovo de Páscoa Rosa"/>
+		<item id="3003" name="Poção da Morte" tmwbr="true"/>
+		<item id="3024" name="Veneno de Ninfas" tmwbr="true"/>
+		<item id="3028" name="Torta de Maçã" tmwbr="true"/>
+		<item id="3045" name="Presente Dourado" tmwbr="true"/>
+		<item id="3071" name="cupulateEsp" tmwbr="true"/>
+		<item id="3072" name="chocolateEsp" tmwbr="true"/>
+		<item id="3073" name="chocolateAmargoEsp" tmwbr="true"/>
+		<item id="3074" name="chocolateBrancoEsp" tmwbr="true"/>
+		<item id="3075" name="castanhaPara" tmwbr="true"/>
+		<item id="3076" name="amendoim" tmwbr="true"/>
+		<item id="3077" name="castanhaCaju" tmwbr="true"/>
+		<item id="3078" name="coco" tmwbr="true"/>
+		<item id="3149" name="Favo de Mel" tmwbr="true"/>
+		<item id="3158" name="Queijo" tmwbr="true"/>
+	</group>
+	<group type="0" id="livros" name="Livros" desc="Livros de Magia">
+		<item id="3207" name="Grimorium Azul" tmwbr="true"/>
+		<item id="3208" name="Grimorium Púrpura" tmwbr="true"/>
+		<item id="3209" name="Grimorium Negro" tmwbr="true"/>
+		<item id="3210" name="Grimorium Verde" tmwbr="true"/>
+		<item id="3211" name="Grimorium Rubro" tmwbr="true"/>
+		<item id="3212" name="Grimorium Branco" tmwbr="true"/>
+		<item id="3213" name="Grimorium Prisma" tmwbr="true"/>
+	</group>
+	<group type="3" id="genericos" name="Genéricos" desc="Itens Genéricos">
+		<item id="503" name="Moedas de Cassino"/>
+		<item id="504" name="Bala Decorativa"/>
+		<item id="505" name="Gosma de Verme"/>
+		<item id="507" name="Ferrão de Escorpião"/>
+		<item id="515" name="Presente Rosa"/>
+		<item id="516" name="Presente Azul"/>
+		<item id="517" name="Ferrão de Escorpião Vermelho"/>
+		<item id="518" name="Pata de Inseto"/>
+		<item id="526" name="Bolsa de Moedas"/>
+		<item id="537" name="Chave do Tesouro"/>
+		<item id="538" name="Presente Verde"/>
+		<item id="540" name="Garrafa Vazia"/>
+		<item id="542" name="Garrafa com Areia"/>
+		<item id="551" name="Pista Aqua"/>
+		<item id="552" name="Pista Rosa-Choque"/>
+		<item id="553" name="Pista Amarela"/>
+		<item id="554" name="Pista verde"/>
+		<item id="555" name="Pista Verde-Azulada"/>
+		<item id="556" name="Pista Roxa"/>
+		<item id="557" name="Pista Vermelha"/>
+		<item id="558" name="Pista Azul"/>
+		<item id="559" name="Pista Laranja"/>
+		<item id="560" name="Pista Cinza"/>
+		<item id="569" name="Toco de Madeira"/>
+		<item id="611" name="Pelo Branco"/>
+		<item id="612" name="Antena Luminosa"/>
+		<item id="613" name="Espinho"/>
+		<item id="614" name="Antena Rosa"/>
+		<item id="631" name="Cristal Escuro"/>
+		<item id="635" name="Biscoito de Natal"/>
+		<item id="640" name="Minério de Ferro"/>
+		<item id="641" name="Pele de Cobra da Montanha"/>
+		<item id="660" name="Tecido de Algodão"/>
+		<item id="661" name="Rosa Vermelha"/>
+		<item id="662" name="Rosa Branca"/>
+		<item id="663" name="Rosa Vermelha Escura"/>
+		<item id="664" name="Rosa Rosa"/>
+		<item id="665" name="Rosa Amarela"/>
+		<item id="666" name="Rosa Preta"/>
+		<item id="667" name="Rosa Laranja"/>
+		<item id="668" name="Rosa Azul"/>
+		<item id="669" name="Tulipa Amarela"/>
+		<item id="670" name="Tulipa Roxa"/>
+		<item id="671" name="Tulipa Vermelha"/>
+		<item id="672" name="Tulipa Branca"/>
+		<item id="673" name="Tulipa Rosa"/>
+		<item id="674" name="Tulipa Laranja"/>
+		<item id="677" name="Colar de Coração"/>
+		<item id="680" name="Erva Mauva"/>
+		<item id="681" name="Erva Cobalto"/>
+		<item id="682" name="Erva Gamboge"/>
+		<item id="683" name="Erva Alizarina"/>
+		<item id="690" name="Tinta Vermelha"/>
+		<item id="691" name="Tinta Verde"/>
+		<item id="692" name="Tinta Azul Escura"/>
+		<item id="693" name="Tinta Amarela"/>
+		<item id="694" name="Tinta Azul Clara"/>
+		<item id="695" name="Tinta Rosa"/>
+		<item id="696" name="Tinta Preta"/>
+		<item id="697" name="Tinta Laranja"/>
+		<item id="698" name="Tinta Roxa"/>
+		<item id="699" name="Tinta Verde Escura"/>
+		<item id="700" name="Pérola"/>
+		<item id="701" name="Pilha de Cinzas"/>
+		<item id="703" name="Pó de Enxofre"/>
+		<item id="704" name="Pó de Ferro"/>
+		<item id="706" name="Ferrão de Escorpião Dourado"/>
+		<item id="707" name="Poção de Óleo de Monstro"/>
+		<item id="708" name="Retalho de Couro"/>
+		<item id="709" name="Ferrão de Escorpião Preto"/>
+		<item id="710" name="Língua de Cobra"/>
+		<item id="711" name="Língua de Cobra da Montanha"/>
+		<item id="712" name="Língua de Cobra da Grama"/>
+		<item id="713" name="Língua de Cobra da Caverna"/>
+		<item id="718" name="Casulo de Seda"/>
+		<item id="727" name="Iten"/>
+		<item id="740" name="Raiz"/>
+		<item id="753" name="Asa de Morcego"/>
+		<item id="754" name="Dentes de Morcego"/>
+		<item id="763" name="Minério de Terranite"/>
+		<item id="774" name="Pó de Fantasma"/>
+		<item id="775" name="Osso"/>
+		<item id="776" name="Caveira"/>
+		<item id="777" name="Farrapos"/>
+		<item id="778" name="Coração de Zumbi"/>
+		<item id="779" name="Orelha de Zumbi"/>
+		<item id="780" name="Olho de Zumbi"/>
+		<item id="1198" name="Alma de JackO"/>
+		<item id="1207" name="Meia Natalina Vermelha"/>
+		<item id="3005" name="Perola Negra" tmwbr="true"/>
+		<item id="3006" name="Mapa do Tesouro" tmwbr="false"/>
+		<item id="3010" name="05 Moedas de Ouro" tmwbr="true"/>
+		<item id="3011" name="10 Moedas de Ouro" tmwbr="true"/>
+		<item id="3012" name="15 Moedas de Ouro" tmwbr="true"/>
+		<item id="3013" name="Escamas de Dragao" tmwbr="true"/>
+		<item id="3016" name="colarHorcrux" tmwbr="true"/>
+		<item id="3019" name="couroCobraGrama" tmwbr="true"/>
+		<item id="3020" name="poEncantado" tmwbr="true"/>
+		<item id="3021" name="asasFada" tmwbr="true"/>
+		<item id="3022" name="chaveBau" tmwbr="true"/>
+		<item id="3023" name="Frasco Vazio" tmwbr="true"/>
+		<item id="3026" name="Couraça de Cobra da Montanha" tmwbr="true"/>
+		<item id="3027" name="Cesta de Maçãs" tmwbr="true"/>
+		<item id="3033" name="sementesAbobora" tmwbr="true"/>
+		<item id="3034" name="cachecolJoana" tmwbr="true"/>
+		<item id="3044" name="Presente Prateado" tmwbr="true"/>
+		<item id="3059" name="Marca de Cobre" tmwbr="true"/>
+		<item id="3060" name="Marca de Prata" tmwbr="true"/>
+		<item id="3061" name="Marca de Ouro" tmwbr="true"/>
+		<item id="3062" name="Gema de Safira" tmwbr="true"/>
+		<item id="3063" name="Gema Esmeralda" tmwbr="true"/>
+		<item id="3064" name="Gema Diamante" tmwbr="true"/>
+		<item id="3069" name="antenaRoxa" tmwbr="true"/>
+		<item id="3079" name="roloPapel" tmwbr="true"/>
+		<item id="3080" name="guacheVermelho" tmwbr="true"/>
+		<item id="3081" name="guacheVerde" tmwbr="true"/>
+		<item id="3082" name="guacheAzul" tmwbr="true"/>
+		<item id="3083" name="guacheAmarelo" tmwbr="true"/>
+		<item id="3084" name="guacheAzul2" tmwbr="true"/>
+		<item id="3085" name="guacheRosa" tmwbr="true"/>
+		<item id="3090" name="Lasca de Rocha" tmwbr="true"/>
+		<item id="3113" name="Barra de Cobre" tmwbr="true"/>
+		<item id="3114" name="Barra de Chumbo" tmwbr="true"/>
+		<item id="3115" name="Barra de Estanho" tmwbr="true"/>
+		<item id="3116" name="Barra de Prata" tmwbr="true"/>
+		<item id="3117" name="Barra de Ouro" tmwbr="true"/>
+		<item id="3118" name="Barra de Platina" tmwbr="true"/>
+		<item id="3119" name="Barra de Irídio" tmwbr="true"/>
+		<item id="3120" name="Barra de Titânio" tmwbr="true"/>
+		<item id="3134" name="Minério de Cobre" tmwbr="true"/>
+		<item id="3135" name="Minério de Estanho" tmwbr="true"/>
+		<item id="3136" name="Minério de Chumbo" tmwbr="true"/>
+		<item id="3137" name="Minério de Prata" tmwbr="true"/>
+		<item id="3138" name="Minério de Ouro" tmwbr="true"/>
+		<item id="3139" name="Minério de Platina" tmwbr="true"/>
+		<item id="3140" name="Minério de Irídio" tmwbr="true"/>
+		<item id="3141" name="Minério de Titanio" tmwbr="true"/>
+		<item id="3143" name="bilheteMagico" tmwbr="true"/>
+		<item id="3146" name="Teia de Aranha" tmwbr="true"/>
+		<item id="3147" name="Chave nº1009" tmwbr="true"/>
+		<item id="3150" name="Ferrão de Abelha" tmwbr="true"/>
+		<item id="3151" name="hitodamaVerde" tmwbr="true"/>
+		<item id="3152" name="hitodamaAzul" tmwbr="true"/>
+		<item id="3153" name="hitodamaAmarela" tmwbr="true"/>
+		<item id="3154" name="hitodamaVermelha" tmwbr="true"/>
+		<item id="3155" name="hitodamaVioleta" tmwbr="true"/>
+		<item id="3156" name="hitodamaNegra" tmwbr="true"/>
+		<item id="3157" name="hitodamaMaligna" tmwbr="true"/>
+		<item id="3159" name="bonecaPano" tmwbr="true"/>
+		<item id="3160" name="cartaCavaleiro" tmwbr="true"/>
+		<item id="3161" name="cartaMago" tmwbr="true"/>
+		<item id="3162" name="cartaNecromante" tmwbr="true"/>
+		<item id="3163" name="cartaDruida" tmwbr="true"/>
+		<item id="3164" name="cartaNinja" tmwbr="true"/>
+		<item id="3165" name="cartaClerico" tmwbr="true"/>
+		<item id="3166" name="cartaHeroi" tmwbr="true"/>
+		<item id="3167" name="cartaMundoMana" tmwbr="true"/>
+		<item id="3168" name="Dentes de Rato" tmwbr="true"/>
+		<item id="3169" name="Calda de Rato" tmwbr="true"/>
+		<item id="3170" name="cestaDoces" tmwbr="true"/>
+		<item id="3190" name="pergaminhoVelho" tmwbr="true"/>
+		<item id="3192" name="globoBNeve" tmwbr="false"/>
+		<item id="3193" name="globoNoel" tmwbr="false"/>
+		<item id="3199" name="fragPedraEmanarAlma" tmwbr="true"/>
+		<item id="3202" name="amostraVazia" tmwbr="true"/>
+		<item id="3203" name="amostraOvos" tmwbr="true"/>
+		<item id="3204" name="amostraLagarta" tmwbr="true"/>
+		<item id="3205" name="amostraCasulo" tmwbr="true"/>
+		<item id="3206" name="amostraBorboleta" tmwbr="true"/>
+		<item id="3214" name="madeiraResistente" tmwbr="true"/>
+		<item id="3215" name="pedraAmbar" tmwbr="true"/>
+		<item id="3216" name="pedraOlhoAguia" tmwbr="true"/>
+		<item id="3217" name="Corda" tmwbr="true"/>
+		<item id="3218" name="pelucia" tmwbr="true"/>
+	</group>
+	<group type="4-2" id="armas1" name="Armas 1" desc="Armas de uma mão (Podem ser usadas com escudo)">
+		<item id="521" name="Adaga"/>
+		<item id="522" name="Faca Afiada"/>
+		<item id="536" name="Espada Curta"/>
+		<item id="548" name="Halberd"/>
+		<item id="549" name="Machado"/>
+		<item id="550" name="Machado de Ferreiro"/>
+		<item id="561" name="Sabre"/>
+		<item id="570" name="Adaga de Boni e Claide"/>
+		<item id="571" name="Setzer"/>
+		<item id="572" name="Scimitar"/>
+		<item id="573" name="Falchion"/>
+		<item id="576" name="Beheader"/>
+		<item id="577" name="Dardos de Osso"/>
+		<item id="578" name="Cortadora de Areia"/>
+		<item id="580" name="Cajado da Vida"/>
+		<item id="581" name="Varinha Meia Lua"/>
+		<item id="582" name="Cajado de Fogo"/>
+		<item id="583" name="Cajado de Gelo"/>
+		<item id="584" name="Jackal"/>
+		<item id="623" name="Foice"/>
+		<item id="758" name="Cajado de Madeira"/>
+		<item id="1201" name="Faca"/>
+		<item id="1215" name="Sabre de Brinquedo"/>
+		<item id="3004" name="Foice da Morte" tmwbr="true"/>
+		<item id="3029" name="Rolo de Macarrão" tmwbr="true"/>
+		<item id="3030" name="Facão" tmwbr="true"/>
+		<item id="3031" name="Cutelo Cego" tmwbr="true"/>
+		<item id="3032" name="Cutelo Afiado" tmwbr="true"/>
+		<item id="3047" name="Machadinha de Thomas Hawk" tmwbr="false"/>
+		<item id="3051" name="Espada Aprendiz" tmwbr="true"/>
+		<item id="3052" name="Espada Cavaleiro Lider" tmwbr="true"/>
+		<item id="3053" name="Espada Miguel Arcanjo" tmwbr="true"/>
+		<item id="3054" name="Espada Demoniaca" tmwbr="true"/>
+		<item id="3055" name="Espada de Kurogane" tmwbr="true"/>
+		<item id="3056" name="Espada dos Imortal" tmwbr="true"/>
+		<item id="3111" name="Picareta" tmwbr="true"/>
+		<item id="3112" name="Picareta Profissional" tmwbr="true"/>
+		<item id="3191" name="redeCaptura" tmwbr="true"/>
+	</group>
+	<group type="4-34" id="armas2" name="Armas 2" desc="Armas duas mãos (Não podem ser usadas com escudo)">
+		<item id="530" name="Arco de Curto Alcançe"/>
+		<item id="545" name="Arco da Floresta"/>
+		<item id="574" name="lancaReiEscorpiao"/>
+		<item id="575" name="Arco do Deserto"/>
+		<item id="579" name="Rock Knife"/>
+		<item id="1200" name="Arco"/>
+		<item id="3008" name="Arco dos Reis" tmwbr="true"/>
+		<item id="3057" name="Zambacutou de Pedra" tmwbr="true"/>
+		<item id="3058" name="Zambacutou Velha" tmwbr="true"/>
+		<item id="3091" name="Bastão de Madeira" tmwbr="false"/>
+	</group>
+	<group type="5-1" id="calcas" name="Calças" desc="Calcas">
+		<item id="586" name="Short de Algodão"/>
+		<item id="610" name="Short Jeans"/>
+		<item id="632" name="Saia de Algodão"/>
+		<item id="642" name="Calça de Couro de Cobra"/>
+		<item id="731" name="Calça de Assassino"/>
+		<item id="768" name="Calça de Terranite"/>
+		<item id="2100" name="Saia Vermelha de Algodão"/>
+		<item id="2101" name="Saia Verde de Algodão"/>
+		<item id="2102" name="Saia Azul Escura de Algodão"/>
+		<item id="2103" name="Saia Amarela de Algodão"/>
+		<item id="2104" name="Saia Azul Clara de Algodão"/>
+		<item id="2105" name="Saia Rosa de Algodão"/>
+		<item id="2106" name="Saia Preta de Algodão"/>
+		<item id="2107" name="Saia Laranja de Algodão"/>
+		<item id="2108" name="Saia Roxa de Algodão"/>
+		<item id="2109" name="Saia Verde Escura de Algodão"/>
+		<item id="2110" name="Short Vermelho de Algodão"/>
+		<item id="2111" name="Short Verde de Algodão"/>
+		<item id="2112" name="Short Azul Escuro de Algodão"/>
+		<item id="2113" name="Short Amarelo de Algodão"/>
+		<item id="2114" name="Short Azul Claro de Algodão"/>
+		<item id="2115" name="Short Rosa de Algodão"/>
+		<item id="2116" name="Short Preto de Algodão"/>
+		<item id="2117" name="Short Laranja de Algodão"/>
+		<item id="2118" name="Short Roxo de Algodão"/>
+		<item id="2119" name="Short Verde Escuro de Algodão"/>
+		<item id="3048" name="Mini Saia" tmwbr="false"/>
+		<item id="3095" name="Calça do Dragão" tmwbr="true"/>
+	</group>
+	<group type="5-2" id="bardiche" name="Bardiche" desc="Bardiche">
+		<item id="547" name="Bardiche"/>
+	</group>
+	<group type="5-4" id="luvas" name="Luvas" desc="Luvas">
+		<item id="531" name="Luvas de Mineiro"/>
+		<item id="532" name="Luvas de Couro"/>
+		<item id="563" name="Luvas de Inverno"/>
+		<item id="741" name="Luvas de Algodão"/>
+		<item id="756" name="Luvas de Assassino"/>
+		<item id="2160" name="Luvas Vermelhas de Algodão"/>
+		<item id="2161" name="Luvas Verdes de Algodão"/>
+		<item id="2162" name="Luvas Azul Escuras de Algodão"/>
+		<item id="2163" name="Luvas Amarelas de Algodão"/>
+		<item id="2164" name="Luvas Azul Claras de Algodão"/>
+		<item id="2165" name="Luvas Rosas de Algodão"/>
+		<item id="2166" name="Luvas Pretas de Algodão"/>
+		<item id="2167" name="Luvas Laranjas de Algodão"/>
+		<item id="2168" name="Luvas Roxas de Algodão"/>
+		<item id="2169" name="Luvas Verde Escuras de Algodão"/>
+		<item id="3098" name="Luvas do Dragão" tmwbr="true"/>
+	</group>
+	<group type="5-8" id="acessorios1" name="Acessórios 1" desc="Acessórios 1">
+		<item id="742" name="Trevo de Quatro Folhas"/>
+		<item id="749" name="Toalha"/>
+		<item id="3046" name="Terdadeiro Trevo" tmwbr="true"/>
+		<item id="3171" name="medalhaVelha" tmwbr="true"/>
+		<item id="3172" name="bussolaVentos" tmwbr="true"/>
+		<item id="3173" name="halloween2010ouro RooO" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3174" name="halloween2010ouro Milwalke" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3175" name="halloween2010ouro szCHINELO" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3176" name="halloween2010ouro DarkSlayer" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3177" name="halloween2010ouro Xtreem" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3178" name="halloween2010prata Katucha" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3179" name="halloween2010prata super caio" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3180" name="halloween2010prata Gladiador Flash" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3181" name="halloween2010prata Tarsan_br" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3182" name="halloween2010prata alasmirt" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3183" name="halloween2010bronze arthurzinho" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3184" name="halloween2010bronze Lord" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3185" name="halloween2010bronze augustinho" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3186" name="halloween2010bronze ELLENBR" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3187" name="halloween2010bronze BRUNO Paz" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3200" name="anelEmanarAlma" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3201" name="colarOlhoAguia" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+	</group>
+	<group type="5-32" id="escudos" name="Escudos" desc="Escudos">
+		<item id="585" name="Pulseira Escaravelho"/><!-- Não sabia que tinha essa pulseira de mão esquerda! -->
+		<item id="601" name="Escudo de Aço"/>
+		<item id="602" name="Escudo de Madeira"/>
+		<item id="603" name="Escudo de Couro"/>
+	</group>
+	<group type="5-64" id="botas" name="Botas" desc="Botas">
+		<item id="528" name="Botas"/>
+		<item id="655" name="Botas de Pêlo"/>
+		<item id="734" name="Botas Pretas"/>
+		<item id="735" name="Botas de Algodão"/>
+		<item id="757" name="Botas de Assassino"/>
+		<item id="2150" name="Botas Vermelhas de Algodão"/>
+		<item id="2151" name="Botas Verdes de Algodão"/>
+		<item id="2152" name="Botas Azul Escuras de Algodão"/>
+		<item id="2153" name="Botas Amarelas de Algodão"/>
+		<item id="2154" name="Botas Azul Claras de Algodão"/>
+		<item id="2155" name="Botas Rosas de Algodão"/>
+		<item id="2156" name="Botas Pretas de Algodão"/>
+		<item id="2157" name="Botas Laranjas de Algodão"/>
+		<item id="2158" name="Botas Roxas de Algodão"/>
+		<item id="2159" name="Botas Verde Escuras de Algodão"/>
+		<item id="3097" name="Botas do Dragão" tmwbr="true"/>
+	</group>
+	<group type="5-128" id="acessorios2" name="Acessórios 2" desc="Acessórios 2">
+		<item id="702" name="Anél de Casamento"/>
+		<item id="3017" name="colarHorcruxFada" tmwbr="true">
+			<contrib type="edt-ico" name="Diogo_RBG" date="??/??/2010" desc="Edição do ícone."/>
+		</item>
+		<item id="3110" name="Colar de Monge" tmwbr="true">
+			<contrib type="art-ico" name="Kamaitachi" date="??/12/2010" desc="Autor do ícone."/>
+		</item>
+		<item id="3144" name="Anel do Demônio" tmwbr="true">
+			<contrib type="art-spt" name="?" date="??/12/2010" desc="Autor do sprite."/>
+		</item>
+		<item id="3145" name="Anel do Dragão Verde" tmwbr="true">
+			<contrib type="art-spt" name="?" date="??/12/2010" desc="Autor do sprite."/>
+		</item>
+		<item id="3148" name="Asas de Anjo" tmwbr="false"/>
+		<item id="3189" name="asasDeBorboleta" tmwbr="true">
+			<contrib type="art" name="Katucha" date="??/12/2010" desc="Autora do ícone e sprite."/>
+		</item>
+	</group>
+	<group type="5-256" id="capacetes" name="Capacetes" desc="Capacetes/Chapéus">
+		<item id="511" name="Gorro de Natal"/>
+		<item id="524" name="Chapeu Fantasia"/>
+		<item id="525" name="Capacete de Mineiro"/>
+		<item id="543" name="Faixa Tradicional"/>
+		<item id="544" name="Faixa de Seda"/>
+		<item id="615" name="Capacete de Abóbora"/>
+		<item id="616" name="Chapéu de Machado"/>
+		<item id="617" name="Chapéu de Pirata"/>
+		<item id="618" name="Óculos"/>
+		<item id="619" name="Óculos de Couro"/>
+		<item id="620" name="Coroa"/>
+		<item id="621" name="Tapa Olho"/>
+		<item id="622" name="Bandana"/>
+		<item id="627" name="Cartola"/>
+		<item id="628" name="Gorro de Dormir"/>
+		<item id="629" name="Chapéu de Cogumelo Maligno"/>
+		<item id="630" name="Chapéu Cogumelo"/>
+		<item id="633" name="Gorro dos Elfos do Natal"/>
+		<item id="634" name="Mascara de Madeira"/>
+		<item id="636" name="Elmo do Lorde da Guerra"/>
+		<item id="637" name="Elmo do Cavaleiro Alado"/>
+		<item id="638" name="Capacete da Infantaria"/>
+		<item id="639" name="Elmo das Cruzadas"/>
+		<item id="643" name="Chapéu Branco de Vaqueiro"/>
+		<item id="644" name="Chapéu Preto de Vaqueiro"/>
+		<item id="646" name="Coroa Real"/>
+		<item id="647" name="Boné de Desenvolvedor"/>
+		<item id="654" name="Boné"/>
+		<item id="656" name="Chapéu de Servo"/>
+		<item id="675" name="Chapéu de Graduação"/>
+		<item id="678" name="Máscara Noh"/>
+		<item id="679" name="Máscara Demoníaca"/>
+		<item id="721" name="Coroa dos Sacerdotes"/>
+		<item id="722" name="Capacete de Fóssil"/>
+		<item id="723" name="Chapéu do Deserto"/>
+		<item id="724" name="Faixa de Algodão"/>
+		<item id="725" name="Boné GM"/>
+		<item id="751" name="Haste Rosa"/>
+		<item id="752" name="Chapeu Fofinho"/>
+		<item id="759" name="Elmo de Paladino"/>
+		<item id="760" name="Elmo do Soberano"/>
+		<item id="761" name="Elmo do Deserto"/>
+		<item id="764" name="Chapéu de Marinheiro"/>
+		<item id="765" name="Chapéu de Capitão"/>
+		<item id="766" name="elmodeterranite"/>
+		<item id="769" name="Máscara Guy Fawkes"/>
+		<item id="770" name="Chapéu da Floresta"/>
+		<item id="781" name="Máscara Voodoo"/>
+		<item id="1203" name="Chapéu de Patrulheiro"/>
+		<item id="1204" name="Chapéu Chifres de Rena"/>
+		<item id="1205" name="Chapéu Árvore de Natal"/>
+		<item id="1206" name="Gorro de Papai Noel"/>
+		<item id="1214" name="Orelhas de Coelho"/>
+		<item id="1216" name="Cabeça de Mouboo"/>
+		<item id="1217" name="Orelhas de Gato"/>
+		<item id="1218" name="Saco de Papel"/>
+		<item id="1219" name="Cabeça de Moubootauro"/>
+		<item id="1221" name="Máscara de Esqueleto"/>
+		<item id="2130" name="Chapéu do Deserto Vermelho"/>
+		<item id="2131" name="Chapéu do Deserto Verde"/>
+		<item id="2132" name="Chapéu do Deserto Azul Escuro"/>
+		<item id="2133" name="Chapéu do Deserto Amarelo"/>
+		<item id="2134" name="Chapéu do Deserto Azul Claro"/>
+		<item id="2135" name="Chapéu do Deserto Rosa"/>
+		<item id="2136" name="Chapéu do Deserto Preto"/>
+		<item id="2137" name="Chapéu do Deserto Laranja"/>
+		<item id="2138" name="Chapéu do Deserto Roxo"/>
+		<item id="2139" name="Chapéu do Deserto Verde Escuro"/>
+		<item id="2140" name="Faixa Tradicional Vermelha"/>
+		<item id="2141" name="Faixa Tradicional Verde"/>
+		<item id="2142" name="Faixa Tradicional Azul escura"/>
+		<item id="2143" name="Faixa Tradicional Amarela"/>
+		<item id="2144" name="Faixa Tradicional Azul Clara"/>
+		<item id="2145" name="Faixa Tradicional Rosa"/>
+		<item id="2146" name="Faixa Tradicional Preta"/>
+		<item id="2147" name="Faixa Tradicional Laranja"/>
+		<item id="2148" name="Faixa Tradicional Roxa"/>
+		<item id="2149" name="Faixa Tradicional Verde Escura"/>
+		<item id="3000" name="Pirate Hat BR" tmwbr="true"/>
+		<item id="3002" name="Capuz da Morte" tmwbr="true"/>
+		<item id="3007" name="Capacete de Lord" tmwbr="true"/>
+		<item id="3014" name="oculosOlhoDragao" tmwbr="true"/>
+		<item id="3018" name="AFKCap" tmwbr="true"/>
+		<item id="3035" name="lamafiaHat" tmwbr="true"/>
+		<item id="3036" name="bordadof" tmwbr="true"/>
+		<item id="3037" name="bordadof" tmwbr="true"/>
+		<item id="3038" name="bordadof" tmwbr="true"/>
+		<item id="3039" name="bordadof" tmwbr="true"/>
+		<item id="3040" name="Gorro 1 de Couro" tmwbr="true"/>
+		<item id="3041" name="Gorro 2 de Couro" tmwbr="true"/>
+		<item id="3042" name="Gorro de Cerebro" tmwbr="true"/>
+		<item id="3043" name="Gorro de Duende" tmwbr="true"/>
+		<item id="3049" name="Máscara Ninja" tmwbr="true"/>
+		<item id="3050" name="Boné de Doador 2010" tmwbr="true"/>
+		<item id="3065" name="Chapeu Mágico" tmwbr="true"/>
+		<item id="3066" name="Máscara Ninja Estilizada" tmwbr="true"/>
+		<item id="3067" name="ADM Cap" tmwbr="true"/>
+		<item id="3068" name="Barba com Auréola" tmwbr="true"/>
+		<item id="3070" name="hasteRoxa" tmwbr="true"/>
+		<item id="3092" name="Gorro da Floresta" tmwbr="true"/>
+		<item id="3093" name="Máscara Necromante" tmwbr="true"/>
+		<item id="3096" name="Elmo do Dragão" tmwbr="true"/>
+		<item id="3108" name="Boné de Doador 2011" tmwbr="true"/>
+		<item id="3188" name="elmodoarcanjo" tmwbr="true"/>
+		<item id="3194" name="chapeuPresenteVermelho" tmwbr="true"/>
+		<item id="3195" name="chapeuPresenteVerde" tmwbr="true"/>
+		<item id="3196" name="chapeuPresenteAzul" tmwbr="true"/>
+		<item id="3197" name="chapeuPresenteAmarelo" tmwbr="true"/>
+		<item id="3198" name="chapeuPresenteRosa" tmwbr="true"/>
+		<item id="3219" name="orelhaUrso" tmwbr="true">
+			<contrib type="art-spt" name="Katucha" date="??/12/2010" desc="Autora do sprite."/>
+			<contrib type="art-ico" name="Kamaitachi" date="??/01/2011" desc="Autor do ícone."/>
+		</item>
+		<item id="3220" name="elmoTaurus" tmwbr="true">
+			<contrib type="art-spt" name="?" date="??/12/2010" desc="Autor do sprite-proposta."/>
+			<contrib type="art" name="Kamaitachi" date="??/01/2011" desc="Autor do ícone e sprite."/>
+		</item>
+	</group>
+	<group type="5-512" id="armaduras" name="Armaduras" desc="Armaduras e Roupas">
+		<item id="523" name="Camisa de Couro"/>
+		<item id="546" name="Camisa do Deserto"/>
+		<item id="564" name="Suéter de Gola Alta"/>
+		<item id="624" name="Suéter com Decote em V"/>
+		<item id="625" name="Camisa de Correntes"/>
+		<item id="626" name="Armadura Leve"/>
+		<item id="645" name="Armadura Dourada Leve"/>
+		<item id="658" name="Armadura do Lorde da Guerra"/>
+		<item id="659" name="Armadura do Lorde da Guerra Dourada"/>
+		<item id="688" name="Camiseta"/>
+		<item id="689" name="Camiseta Curta"/>
+		<item id="720" name="Túnica de Seda"/>
+		<item id="726" name="Túnica GM"/>
+		<item id="755" name="Camisa de Assassino"/>
+		<item id="767" name="Armadura de Terranite"/>
+		<item id="782" name="Armadura da Floresta"/>
+		<item id="783" name="Vestido Vermelho"/>
+		<item id="1202" name="Camisa de Algodão"/>
+		<item id="2050" name="Camisa Vermelha de Algodão"/>
+		<item id="2051" name="Camisa Verde de Algodão"/>
+		<item id="2052" name="Camisa Azul Escura de Algodão"/>
+		<item id="2053" name="Camisa Amarela de Algodão"/>
+		<item id="2054" name="Camisa Azul Clara de Algodão"/>
+		<item id="2055" name="Camisa Rosa de Algodão"/>
+		<item id="2056" name="Camisa Preta de Algodão"/>
+		<item id="2057" name="Camisa Laranja de Algodão"/>
+		<item id="2058" name="Camisa Roxa de Algodão"/>
+		<item id="2059" name="Camisa Verde Escura de Algodão"/>
+		<item id="2060" name="Suéter Vermelho com Decote em V"/>
+		<item id="2061" name="Suéter Verde com Decote em V"/>
+		<item id="2062" name="Suéter Azul Escuro com Decote em V"/>
+		<item id="2063" name="Suéter Amarelo com Decote em V"/>
+		<item id="2064" name="Suéter Azul Claro com Decote em V"/>
+		<item id="2065" name="Suéter Rosa com Decote em V"/>
+		<item id="2066" name="Suéter Preto com Decote em V"/>
+		<item id="2067" name="Suéter Laranja com Decote em V"/>
+		<item id="2068" name="Suéter Roxo com Decote em V"/>
+		<item id="2069" name="Suéter Verde Escuro com Decote em V"/>
+		<item id="2070" name="Suéter Vermelho de Gola Alta"/>
+		<item id="2071" name="Suéter Verde de Gola Alta"/>
+		<item id="2072" name="Suéter Azul Escura de Gola Alta"/>
+		<item id="2073" name="Suéter Amarelo de Gola Alta"/>
+		<item id="2074" name="Suéter Azul Claro de Gola Alta"/>
+		<item id="2075" name="Suéter Rosa de Gola Alta"/>
+		<item id="2076" name="Suéter Preto de Gola Alta"/>
+		<item id="2077" name="Suéter Laranja de Gola Alta"/>
+		<item id="2078" name="Suéter Púrpura de Gola Alta"/>
+		<item id="2079" name="Suéter Verde Escuro de Gola Alta"/>
+		<item id="2080" name="Túnica Vermelha de Seda"/>
+		<item id="2081" name="Túnica Verde de Seda"/>
+		<item id="2082" name="Túnica Azul Escura de Seda"/>
+		<item id="2083" name="Túnica Amarela de Seda"/>
+		<item id="2084" name="Túnica Azul Clara de Seda"/>
+		<item id="2085" name="Túnica Rosa de Seda"/>
+		<item id="2086" name="Túnica Preta de Seda"/>
+		<item id="2087" name="Túnica Laranja de Seda"/>
+		<item id="2088" name="Túnica Roxa de Seda"/>
+		<item id="2089" name="Túnica Verde Escura de Seda"/>
+		<item id="2090" name="Camiseta Vermelha"/>
+		<item id="2091" name="Camiseta Verde"/>
+		<item id="2092" name="Camiseta Azul Escura"/>
+		<item id="2093" name="Camiseta Amarela"/>
+		<item id="2094" name="Camiseta Azul Clara"/>
+		<item id="2095" name="Camiseta Rosa"/>
+		<item id="2096" name="Camiseta Preta"/>
+		<item id="2097" name="Camiseta Laranja"/>
+		<item id="2098" name="Camiseta Roxa"/>
+		<item id="2099" name="Camiseta Verde Escura"/>
+		<item id="2120" name="Camiseta Curta Vermelha"/>
+		<item id="2121" name="Camiseta Curta Verde"/>
+		<item id="2122" name="Camiseta Curta Azul Escura"/>
+		<item id="2123" name="Camiseta Curta Amarela"/>
+		<item id="2124" name="Camiseta Curta Azul Clara"/>
+		<item id="2125" name="Camiseta Curta Rosa"/>
+		<item id="2126" name="Camiseta Curta Preta"/>
+		<item id="2127" name="Camiseta Curta Laranja"/>
+		<item id="2128" name="Camiseta Curta Roxa"/>
+		<item id="2129" name="Camiseta Curta Verde Escura"/>
+		<item id="3001" name="Manto da Morte" tmwbr="true"/>
+		<item id="3009" name="Armadura Celestial" tmwbr="false"/>
+		<item id="3015" name="mantoEncantado" tmwbr="false"/>
+		<item id="3094" name="Armadura do Dragão" tmwbr="true"/>
+		<item id="3100" name="Vestido Preto" tmwbr="false"/>
+		<item id="3101" name="Vestido Branco" tmwbr="false"/>
+		<item id="3102" name="Vestido Azul" tmwbr="false"/>
+		<item id="3103" name="Vestido Vermelho" tmwbr="false"/>
+		<item id="3104" name="Vestido Verde" tmwbr="false"/>
+		<item id="3105" name="Vestido Amarelo" tmwbr="false"/>
+		<item id="3106" name="Vestido Rosa Choque" tmwbr="false"/>
+		<item id="3107" name="Vestido Rosa Claro" tmwbr="false"/>
+	</group>
+	<group type="10-32768" id="municao" name="Munição" desc="Munição (Flexas)">
+		<item id="529" name="Flecha de Ferro"/>
+		<item id="762" name="Flecha de Terranite"/>
+		<item id="1199" name="Flecha"/>
+	</group>
+</items>

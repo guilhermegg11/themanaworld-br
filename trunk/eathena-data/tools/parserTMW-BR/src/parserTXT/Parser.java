@@ -97,7 +97,7 @@ public class Parser {
 			File file = new File(arquivo);
 
 			if( !file.exists() )
-				throw new Exception("Arquivo '"+arquivo+"'não encontrado.");
+				throw new Exception("Arquivo '"+arquivo+"' não encontrado.");
 
 			BufferedReader br = new BufferedReader (new FileReader (file));
 			while ((rc = br.read()) != -1) {

@@ -2,24 +2,36 @@ package parserXML;
 
 public class ItemInfoContrib {
 
-	private String nome;
-	private String data;
+	private String type;
+
+	private String name;
+
+	private String date;
+
 	private String desc;
 
-	public String getNome() {
-		return nome;
+	public String getType() {
+		return type;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setType(String type) {
+		this.type = type;
 	}
 
-	public String getData() {
-		return data;
+	public String getName() {
+		return name;
 	}
 
-	public void setData(String data) {
-		this.data = data;
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
 	}
 
 	public String getDesc() {
@@ -31,7 +43,7 @@ public class ItemInfoContrib {
 	}
 
 	public String toString() {
-		return nome +":"+ data +":"+ desc;
+		return type +":"+ name +":"+ date +":"+ desc;
 	}
 
 }
