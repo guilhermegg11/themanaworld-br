@@ -1,42 +1,77 @@
-import geraItemsXML.ReadItemsXML;
-
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintStream;
+import java.io.PrintWriter;
+import java.nio.channels.FileChannel;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
 
-import parser.Item;
-import parser.Parser;
+import parserTXT.Item;
+import parserTXT.Parser;
+import parserXML.GrupoItemInfo;
+import parserXML.ItemInfo;
+import parserXML.ItemInfoContrib;
+import parserXML.ReadItemsXML;
+import parserXML.ReadItensInfoXML;
 
 public class GeraItemsXML {
 
-	static PrintStream out = System.out;
+	static PrintStream log = System.out;
 
 	public static void main (String args[]) {
 		Parser txtItens = new Parser();
 		ReadItemsXML xmlItens = new ReadItemsXML();
+		ReadItensInfoXML xmlInfos = new ReadItensInfoXML();
 
 		try {
 			txtItens.carregarItens("../../db/item_db.txt");
 			xmlItens.carregarXML("../../../tmwdata/items.xml");
+			xmlInfos.carregarXML("itemsInfo.xml");
+
+			gerarConteudoHTML(xmlInfos, txtItens, xmlItens);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
-		try {
-			gerarConteudoHTML(txtItens, xmlItens);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
 	}
 
-	private static void gerarConteudoHTML(Parser txtItens, ReadItemsXML xmlItens) {
-		HashMap<String,String> item2;
+	private static void gerarConteudoHTML(ReadItensInfoXML xmlInfos, Parser txtItens, ReadItemsXML xmlItens) {
+		File file = null;
+		FileWriter fileW = null;
 
+		//- Gera um HashMap da lista txtItens para facilitar o aacesso direto.
+		HashMap<String,Item> hashTxtItens = new HashMap<String,Item>();
+		for( Item item : txtItens.getItens() ) {
+			hashTxtItens.put(item.getId(), item);
+		}
+
+		String links = "";
+		for( GrupoItemInfo grupo : xmlInfos.getGrupos() ) {
+			if(grupo.getId().length()==0)
+				grupo.setId( grupo.getType() );
+			links += "\t\t\t<td><a href=\""+grupo.getId()+".html\">"+grupo.getName()+"</a></td>\n";
+		}
+		for( GrupoItemInfo grupo : xmlInfos.getGrupos() ) {
+			file = new File("wiki/"+grupo.getId()+".html");
+			try {
+				fileW = new FileWriter(file);
+			} catch (IOException e1) {
+				log.println("Arquivo '"+file+"' não pode ser criado.");
+				e1.printStackTrace();
+			}
+			gerarConteudoHTML(new PrintWriter(fileW), links, grupo, hashTxtItens, xmlItens);
+		}
+	}
+
+	private static void gerarConteudoHTML(PrintWriter out, String links, GrupoItemInfo grupo, HashMap<String,Item> txtItens, ReadItemsXML xmlItens) {
 		out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">");
 		out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">");
 		out.println("");
 		out.println("<head>");
-		out.println("	<title>Armas de uma mão</title>");
+		out.println("	<title>"+grupo.getDesc()+"</title>");
 		out.println("	<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\" />");
 		out.println("	<meta name=\"generator\" content=\"Geany 0.18\" />");
 		out.println("	<link href=\"estilo.css\" type=\"text/css\" rel=\"stylesheet\"/>");
@@ -44,16 +79,15 @@ public class GeraItemsXML {
 		out.println("<body>");
 		out.println("	<table class=\"borda\">");
 		out.println("		<tr align=\"center\" style=\"font-weight:bold;\">");
-		out.println("			<td><a href=\"armas1.html\">Armas 1</a></td>");
-		out.println("			<td><a href=\"armas2.html\">Armas 2</a></td>");
+		out.print(links);
 		out.println("		</tr>");
 		out.println("	</table>");
 		out.println("	<table class=\"borda\">");
-		out.println("	<caption>Armas de uma mão</caption>");
+		out.println("	<caption>"+grupo.getDesc()+"</caption>");
 		out.println("		<tr align=\"center\" style=\"font-weight:bold;\">");
 		out.println("			<td></td>");
-		out.println("			<td>Id</td>");
 		out.println("			<td>Nome</td>");
+		out.println("			<td>Id</td>");
 		out.println("			<td>Dano</td>");
 		out.println("			<td>Alcance</td>");
 		out.println("			<td>Compra/Venda</td>");
@@ -61,16 +95,43 @@ public class GeraItemsXML {
 		out.println("			<td>Descrição</td>");
 		//out.println("			<td>Raridade</td>");
 		out.println("		</tr>");
-		for( Item item1 : txtItens.getItens() ){
-			if(item1.getTipo().equals("4")==false)
+
+		Item item1 = null;
+		HashMap<String,String> item2 = null;
+		String strTmwbr;
+		String strContrib;
+		for( ItemInfo item : grupo.getItems() ){
+			item1 = txtItens.get(item.getId());
+			if( item1==null ) {
+				log.println("# Item "+item.getId()+" '"+item.getName()+"' não encontrado em item_db.txt!");
 				continue;
-			item2 = xmlItens.getItem(item1.getId());
-			if(item2==null)
+			}
+			item2 = xmlItens.getItem(item.getId());
+			if( item2==null ) {
+				log.println("# Item "+item.getId()+" '"+item.getName()+"' não encontrado em items.xml!");
 				continue;
+			}
+
+			strTmwbr = "";
+			if( item.getTmwbr()!=null && item.getTmwbr()==Boolean.TRUE ) {
+				strTmwbr = "<br/><img src=\"icos/tmwbr.png\" title=\"Item exclusido do TMW-BR\"/>";
+			}
+			strContrib = "";
+			for(ItemInfoContrib contrib : item.getContribs()) {
+				if( strContrib.length()>0 )
+					strContrib += ", ";
+				strContrib += contrib.getName();
+			}
+			if( strContrib.length()>0 ) {
+				strContrib = "<img src=\"icos/autor.png\" title=\""+strContrib+"\"/>";
+				if(strTmwbr.length()==0)
+					strTmwbr = "<br/>";
+			}
+
 			out.println("		<tr>");
 			out.println("			<td><img src=\"itens/"+item1.getId()+".png\" width=\"32\" height=\"32\"/></td>");
-			out.println("			<td>"+item1.getId()+"</td>");
-			out.println("			<td>"+item2.get("name")+( Integer.valueOf(item1.getId()).compareTo(3000)>=0?" <img src=\"icos/tmwbr.png\" title=\"Item exclusido do TMW-BR\"/>":"" )+"</td>"); // <img src=\"icos/autor.png\" title=\"Fulano (09/10/2010), Beltrano (01/01/2011)\"/>
+			out.println("			<td>"+item2.get("name")+"</td>");
+			out.println("			<td>"+item1.getId()+strTmwbr+strContrib+"</td>");
 			out.println("			<td align=\"center\">"+item1.getAtaque()+"</td>");
 			out.println("			<td align=\"center\">"+item1.getAlcance()+"</td>");
 			out.println("			<td align=\"right\">"+item1.getCompra()+" GP<br/>"+item1.getVenda()+" GP</td>");
@@ -78,10 +139,43 @@ public class GeraItemsXML {
 			out.println("			<td>"+item2.get("description")+"<br/><font color=\"#8080A0\">"+item2.get("effect")+"</font></td>");
 			//out.println("			<td>quest</td>");
 			out.println("		</tr>");
+
+			String image = item2.get("image");
+			File img1;
+			File img2;
+			if(image!=null) {
+				image = image.split("\\|")[0];
+				img1 = new File("../../../tmwdata/graphics/items/"+image);
+				img2 = new File("wiki/itens/"+item.getId()+".png");
+				if(img2.exists()==false && img1.exists()) {
+					try {
+						copy(img1, img2);
+					} catch (IOException e) {
+						log.println("# Imagem '"+img1+"' não pôde ser copiada para '"+img2+"'!");
+						e.printStackTrace();
+					}
+				} else if(img2.exists()==false && img1.exists()==false) {
+					log.println("# Imagem '"+img1+"' para o item "+item.getId()+" '"+item.getName()+"' não pôde ser encontrada!");
+				}
+			}
+
 		}
 		out.println("	</table>");
 		out.println("</body>");
 		out.println("</html>");
+
+		out.flush();
+		out.close();
 	}
+
+	private static void copy(File origem, File destino) throws IOException{
+		FileInputStream fisOrigem = new FileInputStream(origem);
+		FileOutputStream fisDestino = new FileOutputStream(destino);
+		FileChannel fcOrigem = fisOrigem.getChannel();
+		FileChannel fcDestino = fisDestino.getChannel();
+		fcOrigem.transferTo(0, fcOrigem.size(), fcDestino);
+		fisOrigem.close();
+		fisDestino.close();
+	}	
 
 }

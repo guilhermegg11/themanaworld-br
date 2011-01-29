@@ -5,27 +5,39 @@ import java.util.List;
 
 public class ItemInfo {
 
-	private Integer id;
-	private String nome;
+	private String id;
+
+	private String name;
+
+	private String effect;
+
 	private Boolean tmwbr = null; //< O item é exclusivo do TMW-BR ?
 
 	//- Lista de contribuições.
 	List<ItemInfoContrib> contribs = new ArrayList<ItemInfoContrib>();
 
-	public Integer getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEffect() {
+		return effect;
+	}
+
+	public void setEffect(String effect) {
+		this.effect = effect;
 	}
 
 	public Boolean getTmwbr() {
