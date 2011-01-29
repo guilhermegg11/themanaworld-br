@@ -30,7 +30,7 @@ public class GeraItemsXML {
 		try {
 			txtItens.carregarItens("../../db/item_db.txt");
 			xmlItens.carregarXML("../../../tmwdata/items.xml");
-			xmlInfos.carregarXML("itemsInfo.xml");
+			xmlInfos.carregarXML("infoItens.xml");
 
 			gerarConteudoHTML(xmlInfos, txtItens, xmlItens);
 		} catch (Exception e) {
@@ -55,7 +55,7 @@ public class GeraItemsXML {
 			links += "\t\t\t<td><a href=\""+grupo.getId()+".html\">"+grupo.getName()+"</a></td>\n";
 		}
 		for( GrupoItemInfo grupo : xmlInfos.getGrupos() ) {
-			file = new File("wiki/"+grupo.getId()+".html");
+			file = new File("wiki/infoItens/"+grupo.getId()+".html");
 			try {
 				fileW = new FileWriter(file);
 			} catch (IOException e1) {
@@ -114,7 +114,7 @@ public class GeraItemsXML {
 
 			strTmwbr = "";
 			if( item.getTmwbr()!=null && item.getTmwbr()==Boolean.TRUE ) {
-				strTmwbr = "<br/><img src=\"icos/tmwbr.png\" title=\"Item exclusido do TMW-BR\"/>";
+				strTmwbr = "<br/><img src=\"../icos/tmwbr.png\" title=\"Item exclusido do TMW-BR\"/>";
 			}
 			strContrib = "";
 			for(ItemInfoContrib contrib : item.getContribs()) {
@@ -123,13 +123,13 @@ public class GeraItemsXML {
 				strContrib += contrib.getName();
 			}
 			if( strContrib.length()>0 ) {
-				strContrib = "<img src=\"icos/autor.png\" title=\""+strContrib+"\"/>";
+				strContrib = "<img src=\"../icos/autor.png\" title=\""+strContrib+"\"/>";
 				if(strTmwbr.length()==0)
 					strTmwbr = "<br/>";
 			}
 
 			out.println("		<tr>");
-			out.println("			<td><img src=\"itens/"+item1.getId()+".png\" width=\"32\" height=\"32\"/></td>");
+			out.println("			<td><img src=\"../itens/"+item1.getId()+".png\" width=\"32\" height=\"32\"/></td>");
 			out.println("			<td>"+item2.get("name")+"</td>");
 			out.println("			<td>"+item1.getId()+strTmwbr+strContrib+"</td>");
 			out.println("			<td align=\"center\">"+item1.getAtaque()+"</td>");
