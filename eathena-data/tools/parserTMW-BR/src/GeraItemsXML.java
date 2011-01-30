@@ -1,8 +1,11 @@
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.nio.channels.FileChannel;
@@ -140,19 +143,41 @@ public class GeraItemsXML {
 			//out.println("			<td>quest</td>");
 			out.println("		</tr>");
 
-			String image = item2.get("image");
 			File img1;
 			File img2;
+			File dyecmd = new File("./dyecmd");
+			String[] image = item2.get("image").split("\\|");
 			if(image!=null) {
-				image = image.split("\\|")[0];
-				img1 = new File("../../../tmwdata/graphics/items/"+image);
+				img1 = new File("../../../tmwdata/graphics/items/"+image[0]);
 				img2 = new File("wiki/itens/"+item.getId()+".png");
 				if(img2.exists()==false && img1.exists()) {
-					try {
-						copy(img1, img2);
-					} catch (IOException e) {
-						log.println("# Imagem '"+img1+"' não pôde ser copiada para '"+img2+"'!");
-						e.printStackTrace();
+					if(image.length>1 && dyecmd.exists()) {
+						//- Faz uma cópia colorizada da imagem.
+						try {
+							String line = "./dyecmd "+img1.getPath()+" "+img2.getPath()+" "+image[1];
+							//log.println("---\n"+line);
+							//Process exec =
+							Runtime.getRuntime().exec(line);
+							//BufferedReader input = new BufferedReader(new InputStreamReader(exec.getInputStream()));
+							//while ((line = input.readLine()) != null) {
+							//	log.println(line);
+							//}
+							//input.close();
+						} catch ( FileNotFoundException e ) {
+							System.out.println("Arquivo não encontrado.");
+						} catch ( IOException e ) {
+							System.out.println("Entrada inválida.");
+						} catch ( Exception e ) {
+							e.printStackTrace();
+						}
+					} else {
+						//- Apenas faz uma cópia da imagem.
+						try {
+							copy(img1, img2);
+						} catch (IOException e) {
+							log.println("# Imagem '"+img1+"' não pôde ser copiada para '"+img2+"'!");
+							e.printStackTrace();
+						}
 					}
 				} else if(img2.exists()==false && img1.exists()==false) {
 					log.println("# Imagem '"+img1+"' para o item "+item.getId()+" '"+item.getName()+"' não pôde ser encontrada!");
