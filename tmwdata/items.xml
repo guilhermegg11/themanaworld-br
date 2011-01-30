@@ -5615,5 +5615,15 @@
 		defense="20">
 		<sprite>equipment/head/head-elmo-taurus.xml</sprite>
 	</item>
+	<item id="3221"
+		image="armor-head-elmo-samurai.png"
+		name="Elmo Samurai"
+		description="..."
+		effect=""
+		type="equip-head"
+		weight="2000"
+		defense="20">
+		<sprite>equipment/head/head-elmo-samurai.xml</sprite>
+	</item>
 
 </items>
