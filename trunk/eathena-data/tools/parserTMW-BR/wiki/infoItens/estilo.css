@@ -1,0 +1,20 @@
+table.borda {
+	border-collapse: collapse;
+}
+
+table.borda caption{
+	font-family: Verdana, Sans-Serif;
+	font-weight: bold;
+}
+
+table.borda tr td {
+	font-family: Verdana, Sans-Serif;
+	font-size: 14px;
+	border: 1px solid #A0A0A0;
+	padding: 2px 4px;
+	max-width: 500px;
+}
+
+table.borda img {
+	vertical-align:text-bottom;
+}

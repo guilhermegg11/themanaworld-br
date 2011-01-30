@@ -567,6 +567,9 @@
 			<contrib type="art-spt" name="?" date="??/12/2010" desc="Autor do sprite-proposta."/>
 			<contrib type="art" name="Kamaitachi" date="??/01/2011" desc="Autor do ícone e sprite."/>
 		</item>
+		<item id="3221" name="elmoSamurai" tmwbr="true">
+			<contrib type="art" name="Kamaitachi" date="25/01/2011" desc="Autor do ícone e sprite."/>
+		</item>
 	</group>
 	<group type="5-512" id="armaduras" name="Armaduras" desc="Armaduras e Roupas">
 		<item id="523" name="Camisa de Couro"/>
