@@ -4525,7 +4525,7 @@
 		<sprite>head-pinkiehat.xml|#70003f,ffbfe3</sprite>
 	</item>
 	<item id="3071"
-		image="use-food-chocolatebar.png"
+		image="use-food-chocolatebar.png|W:#4f130c,ae5644"
 		name="Barra de Cupulate Especial"
 		description="Uma barra de um chocolate muito especial de cupuaçu."
 		effect=""
@@ -4533,7 +4533,7 @@
 		hp="20"
 		weight="25"/>
 	<item id="3072"
-		image="use-food-chocolatebar.png"
+		image="use-food-chocolatebar.png|W:#441e00,b36e36"
 		name="Barra de Chocolate Especial"
 		description="Uma barra de um chocolate muito especial."
 		effect=""
@@ -4541,7 +4541,7 @@
 		hp="20"
 		weight="25"/>
 	<item id="3073"
-		image="use-food-chocolatebar.png"
+		image="use-food-chocolatebar.png|W:#200e00,684020"
 		name="Barra de Chocolate Amargo Especial"
 		description="Uma barra de um chocolate amargo muito especial."
 		effect=""
@@ -4549,7 +4549,7 @@
 		hp="20"
 		weight="25"/>
 	<item id="3074"
-		image="use-food-chocolatebar.png"
+		image="use-food-chocolatebar.png|W:#ebc855,fff7dd"
 		name="Barra de Chocolate Branco Especial"
 		description="Uma barra de um chocolate branco muito especial."
 		effect=""
