@@ -61,6 +61,7 @@ public class ReadNpcScript {
 			Element tagNpc = (Element) nl.item(i);
 
 			npc = new Npc();
+			npc.setEnabled( getAtributo(tagNpc, "enabled", "") );
 			npc.setId( getAtributo(tagNpc, "id", null) );
 			if( npc.getId()==null ) continue;
 

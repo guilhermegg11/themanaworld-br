@@ -96,6 +96,9 @@ public class Process {
 		String npcId = getProp(props, "npc_id", null);
 		Npc npc = npcScript.getNpcs().get(npcId);
 
+		//- Script foi desativado e não deve ser gerado.
+		if( npc!=null && npc.getEnabled()==Boolean.FALSE ) return;
+
 		String nameScript = getProp(props, "name", npc!=null ? npc.getVar("%NAME%", null) : null );
 		String npcIdx = getProp(props, "npc", npc!=null ? npc.getVar("%NPC%", "0") : "0" );
 		String script = getProp(props, "script", null);

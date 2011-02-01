@@ -5628,7 +5628,7 @@
 	<item id="3222"
 		image="armor-head-veu-noiva.png"
 		name="Véu de Noiva ♀"
-		description="..."
+		description="Véu composto de um tecido muito leve e delicado, e uma coroa de belas rosas. Muito usado por noivas no dia do casamento."
 		effect=""
 		type="equip-head"
 		weight="200"
