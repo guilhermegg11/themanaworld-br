@@ -2,17 +2,3 @@
 // Scripts do mapa: org025 Floresta
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
-
-// Script: Pedra de Emanar Alma
-org025.gat,73,95,0	script	#org025_73x95	326, {
-	callfunc "getTime";
-	callfunc "pedraEmanarAlma", "org025.gat", 73, 95;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-org025.gat,33,44,0	script	#org025_33x44	326, {
-	callfunc "getTime";
-	callfunc "pedraEmanarAlma", "org025.gat", 33, 44;
-	close;
-}
