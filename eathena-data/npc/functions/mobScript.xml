@@ -17,8 +17,6 @@
 	<monstro id="0" nome="Todos os Monstros">
 		<script>
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 		</script>
 	</monstro>
 
@@ -79,8 +77,6 @@
 On1049_%GRUPO%:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 		</script>
 		<callsub label="_MOBS_abelha">
 			<gerar_label script="callfunc_mobContagem">

@@ -3,27 +3,6 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-// Script: Pedra de Emanar Alma
-007.gat,42,26,0	script	#007_42x26	326, {
-	callfunc "getTime";
-	callfunc "pedraEmanarAlma", "007.gat", 42, 26;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-007.gat,165,59,0	script	#007_165x59	326, {
-	callfunc "getTime";
-	callfunc "pedraEmanarAlma", "007.gat", 165, 59;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-007.gat,111,115,0	script	#007_111x115	326, {
-	callfunc "getTime";
-	callfunc "pedraEmanarAlma", "007.gat", 111, 115;
-	close;
-}
-
 // Script: Placa
 007.gat,83,75,0	script	[?]	300, {
 	mes "[Placa]";
