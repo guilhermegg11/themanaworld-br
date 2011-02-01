@@ -19,50 +19,36 @@
 On1026:
 	set @mobID, 1026;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1029:
 	set @mobID, 1029;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1030:
 	set @mobID, 1030;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1031:
 	set @mobID, 1031;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1032:
 	set @mobID, 1032;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1034:
 	set @mobID, 1034;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1306:
 	set @mobID, 1306;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 	end;
