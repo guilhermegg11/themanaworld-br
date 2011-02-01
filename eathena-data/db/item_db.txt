@@ -162,7 +162,7 @@
 629,chapeudecogumelomaligno,Chapéu de Cogumelo Maligno,5,2500,1250,30,,5,,0,0,2,256,,0,0,{},{}
 630,chapeucogumelo,Chapéu Cogumelo,5,3000,1500,30,,4,,0,0,2,256,,0,0,{},{}
 631,cristalescuro,Cristal Escuro,3,100,50,10,,,,,,,,,,,{},{}
-632,saiadealgodao,Saia de Algodão,5,1000,500,10,,4,,-8,0,2,1,,1,0,{},{}
+632,saiadealgodao,Saia de Algodão,5,1000,500,10,,4,,-8,0,0,1,,1,0,{},{}
 633,gorrodoselfosdonatal,Gorro dos Elfos do Natal,5,3000,1500,30,,3,,2,0,2,256,,0,0,{},{}
 634,mascarademadeira,Mascara de Madeira,5,2500,1250,50,,7,,0,0,2,256,,0,0,{},{}
 635,biscoitodenatal,Biscoito de Natal,3,1,1,1,,,,,,,,,,,{},{}
@@ -302,7 +302,7 @@
 768,calcadeterranite,Calça de Terranite,5,2000,1000,15,,4,,-8,0,2,1,,0,0,{},{}
 769,mascaraguyfawkes,Máscara Guy Fawkes,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 770,chapeudafloresta,Chapéu da Floresta,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-//(já add)771,minisaia,minisaia,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
+//(já add)771,minisaia,minisaia,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
 //772,WispPowder,Wisp Powder,3,700,350,40,,,,,,,,,,,{},{}
 //773,SpectrePowder,Spectre Powder,3,700,350,40,,,,,,,,,,,{},{}
 774,podefantasma,Pó de Fantasma,3,700,350,3,,,,,,,,,,,{},{}
@@ -314,7 +314,7 @@
 780,olhodezumbi,Olho de Zumbi,3,30,15,3,,,,,,,,,,,{},{}
 781,mascaravoodoo,Máscara Voodoo,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,-100,0,2,512,,0,0,{},{}
-783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,15,,3,0,2,512,,0,0,{},{}
+783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,15,,3,0,0,512,,0,0,{},{}
 // Daqui para cima há apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
 1198,almadejacko,Alma de JackO,3,100000,1,1,,,,,,,,,,,{},{}
 1199,flecha,Flecha,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
@@ -412,16 +412,16 @@
 2097,camisetalaranja,Camiseta Laranja,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
 2098,camisetaroxa,Camiseta Roxa,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
 2099,camisetaverdeescura,Camiseta Verde Escura,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2100,saiavermelhadealgodao,Saia Vermelha de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2101,saiaverdedealgodao,Saia Verde de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2102,saiaazulescuradealgodao,Saia Azul Escura de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2103,saiaamareladealgodao,Saia Amarela de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2104,saiaazulclaradealgodao,Saia Azul Clara de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2105,saiarosadealgodao,Saia Rosa de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2106,saiapretadealgodao,Saia Preta de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2107,saialaranjadealgodao,Saia Laranja de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2108,saiaroxadealgodao,Saia Roxa de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
-2109,saiaverdeescuradealgodao,Saia Verde Escura de Algodão,5,1000,500,20,,4,,-8,0,2,1,,1,0,{},{}
+2100,saiavermelhadealgodao,Saia Vermelha de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2101,saiaverdedealgodao,Saia Verde de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2102,saiaazulescuradealgodao,Saia Azul Escura de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2103,saiaamareladealgodao,Saia Amarela de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2104,saiaazulclaradealgodao,Saia Azul Clara de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2105,saiarosadealgodao,Saia Rosa de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2106,saiapretadealgodao,Saia Preta de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2107,saialaranjadealgodao,Saia Laranja de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2108,saiaroxadealgodao,Saia Roxa de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
+2109,saiaverdeescuradealgodao,Saia Verde Escura de Algodão,5,1000,500,20,,4,,-8,0,0,1,,1,0,{},{}
 2110,shortvermelhodealgodao,Short Vermelho de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
 2111,shortverdedealgodao,Short Verde de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
 2112,shortazulescurodealgodao,Short Azul Escuro de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
@@ -482,16 +482,16 @@
 2167,luvaslaranjasdealgodao,Luvas Laranjas de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
 2168,luvasroxasdealgodao,Luvas Roxas de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
 2169,luvasverdeescurasdealgodao,Luvas Verde Escuras de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-//2170,minisaiavermelha,Minisaia Vermelha,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2171,minisaiaverde,Minisaia Verde,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2172,minisaiaazulescura,Minisaia Azul Escura,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}//Reservado 3091 até 3110 por Lunovox
-//2173,minisaiaamarela,Minisaia Amarela,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2174,minisaiaazulclara,Minisaia Azul Clara,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2175,minisaiarosa,Minisaia Rosa,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2176,minisaiapreta,Minisaia Preta,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2177,minisaialaranja,Minisaia Laranja,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2178,minisaiaroxa,Minisaia Roxa,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
-//2179,minisaiaverdeescura,Minisaia Verde Escura,5,1000,500,8,,4,,-8,0,2,1,,1,0,{},{}
+//2170,minisaiavermelha,Minisaia Vermelha,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+//2171,minisaiaverde,Minisaia Verde,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+//2172,minisaiaazulescura,Minisaia Azul Escura,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}//Reservado 3091 até 3110 por Lunovox
+//2173,minisaiaamarela,Minisaia Amarela,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+//2174,minisaiaazulclara,Minisaia Azul Clara,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+//2175,minisaiarosa,Minisaia Rosa,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+//2176,minisaiapreta,Minisaia Preta,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+//2177,minisaialaranja,Minisaia Laranja,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+//2178,minisaiaroxa,Minisaia Roxa,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+//2179,minisaiaverdeescura,Minisaia Verde Escura,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
 //2180,paperhatvermelho,Paper Party Hat Vermelho,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
 //2181,paperhatverde,Paper Party Hat Verde,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
 //2182,paperhatazulescuro,Paper Party Hat Azul Escuro,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
@@ -554,7 +554,7 @@
 3045,presenteDourado,Presente Dourado,0,99,1,25,,,,,,2,,,0,,{callfunc "presenteSurpresa";},{}
 3046,verdadeiroTrevo,Terdadeiro Trevo,5,50000,25000,10,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 10; bonus bMdef, 25; }
 3047,machadinhaThomasHawk,Machadinha de Thomas Hawk,4,16000,8000,2000,150,,1,,0,2,2,1,1,1,{},{bonus bMdef, 5; }
-3048,MiniSaia,Mini Saia,5,1200,600,20,,3,,-8,0,2,1,,1,0,{},{}
+3048,MiniSaia,Mini Saia,5,1200,600,20,,3,,-8,0,0,1,,1,0,{},{}
 3049,MascaraNinja,Máscara Ninja,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
 3050,BoneDoador2010,Boné de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 3051,EspadaAprendiz,Espada Aprendiz,4,4000,2000,150,40,,1,,0,2,2,1,1,1,{},{}
@@ -613,14 +613,14 @@
 3097,BotasDragao,Botas do Dragão,5,150000,75000,50,0,4,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; }
 3098,LuvasDragao,Luvas do Dragão,5,100000,50000,25,0,4,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; }
 //3099 Está disponível
-3100,VestidoPreto,Vestido Preto,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
-3101,VestidoBranco,Vestido Branco,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
-3102,VestidoAzul,Vestido Azul,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
-3103,VestidoVermelho,Vestido Vermelho,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
-3104,VestidoVerde,Vestido Verde,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
-3105,VestidoAmarelo,Vestido Amarelo,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
-3106,VestidoRosaChoque,Vestido Rosa Choque,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
-3107,VestidoRosaClaro,Vestido Rosa Claro,5,8000,4000,10,0,2,0,0,0,2,512,0,0,0,{},{}
+3100,VestidoPreto,Vestido Preto,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
+3101,VestidoBranco,Vestido Branco,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
+3102,VestidoAzul,Vestido Azul,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
+3103,VestidoVermelho,Vestido Vermelho,5,8000,4000,10,0,0,0,0,0,2,512,0,0,0,{},{}
+3104,VestidoVerde,Vestido Verde,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
+3105,VestidoAmarelo,Vestido Amarelo,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
+3106,VestidoRosaChoque,Vestido Rosa Choque,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
+3107,VestidoRosaClaro,Vestido Rosa Claro,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3108,BoneDoador2011,Boné de Doador 2011,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 /////////////////////////////////////////////////////////////////////////////////////////
 //Esse escudo vai sai pq os blocos de andar (norte e sul) estão errados.
@@ -748,4 +748,4 @@
 3219,orelhaUrso,orelhaUrso,5,2000,1000,75,,1,,0,0,2,256,,0,0,{},{}
 3220,elmoTaurus,elmoTaurus,5,200000,20000,2000,,20,,-30,0,2,256,,0,0,{},{ bonus bStr, 1; }
 3221,elmoSamurai,elmoSamurai,5,200000,20000,2000,,20,,-30,0,2,256,,0,0,{},{}
-3222,veuNoiva,Veu de Noiva,5,50000,20000,200,,5,,5,0,2,256,,0,0,{},{}
+3222,veuNoiva,Veu de Noiva,5,50000,20000,200,,5,,5,0,0,256,,0,0,{},{}

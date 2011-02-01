@@ -1231,7 +1231,7 @@
 		weight="10"/>
 	<item id="632"
 		image="armor-legs-skirt.png|W:#A4B2B2,FFFFFF"
-		name="Saia de Algodão"
+		name="Saia de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -2407,7 +2407,7 @@
 	</item>
 	<item id="783"
 		image="armor-chest-valentine-dress.png|R:#BF0E08"
-		name="Vestido Vermelho"
+		name="Vestido Vermelho ♀"
 		description="Um luxuoso vestido de seda vermelho. Cuidado para não amassar!"
 		effect=""
 		type="equip-torso"
@@ -3178,7 +3178,7 @@
 	</item>
 	<item id="2100"
 		image="armor-legs-skirt.png|W:#580000,A40000,C02020,ff6060"
-		name="Saia Vermelha de Algodão"
+		name="Saia Vermelha de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3188,7 +3188,7 @@
 	</item>
 	<item id="2101"
 		image="armor-legs-skirt.png|W:#115511,22aa22,99dd99"
-		name="Saia Verde de Algodão"
+		name="Saia Verde de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3198,7 +3198,7 @@
 	</item>
 	<item id="2102"
 		image="armor-legs-skirt.png|W:#222255,6666ff"
-		name="Saia Azul Escura de Algodão"
+		name="Saia Azul Escura de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3208,7 +3208,7 @@
 	</item>
 	<item id="2103"
 		image="armor-legs-skirt.png|W:#846211,dab333,fffb93,ffffff"
-		name="Saia Amarela de Algodão"
+		name="Saia Amarela de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3218,7 +3218,7 @@
 	</item>
 	<item id="2104"
 		image="armor-legs-skirt.png|W:#16486e,498ec5,e4f2fc"
-		name="Saia Azul Clara de Algodão"
+		name="Saia Azul Clara de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3228,7 +3228,7 @@
 	</item>
 	<item id="2105"
 		image="armor-legs-skirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
-		name="Saia Rosa de Algodão"
+		name="Saia Rosa de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3238,7 +3238,7 @@
 	</item>
 	<item id="2106"
 		image="armor-legs-skirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
-		name="Saia Preta de Algodão"
+		name="Saia Preta de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3248,7 +3248,7 @@
 	</item>
 	<item id="2107"
 		image="armor-legs-skirt.png|W:#80280f,b04810,ef681f,ffb830"
-		name="Saia Laranja de Algodão"
+		name="Saia Laranja de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3258,7 +3258,7 @@
 	</item>
 	<item id="2108"
 		image="armor-legs-skirt.png|W:#4f0a76,8010c0,d699f7"
-		name="Saia Roxa de Algodão"
+		name="Saia Roxa de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -3268,7 +3268,7 @@
 	</item>
 	<item id="2109"
 		image="armor-legs-skirt.png|W:#104010,208020,30c030"
-		name="Saia Verde Escura de Algodão"
+		name="Saia Verde Escura de Algodão ♀"
 		description="Uma saia feita de algodão."
 		effect=""
 		type="equip-legs"
@@ -4325,7 +4325,7 @@
 		weight="2000"/>
 	<item id="3048"
 		image="armor-legs-skirt-mini.png|W:#A4B2B2,FFFFFF"
-		name="Cotton Skirt Mini"
+		name="Cotton Skirt Mini ♀"
 		description="Um mini saia feita de linhas de algodao."
 		effect=""
 		type="equip-legs"
@@ -4722,7 +4722,7 @@
 	<!-- 3099 está disponível! :) -->
 	<item id="3100"
 		image="armor-chest-dress-valentine.png|R:#000000,333333,555555;W:#444444"
-		name="Vestido Preto"
+		name="Vestido Preto ♀"
 		description="Vestido Preto muito usado em Funerais."
 		effect=""
 		type="equip-torso"
@@ -4733,7 +4733,7 @@
 	</item>
 	<item id="3101"
 		image="armor-chest-dress-valentine.png|R:#888888,aaaaaa,dddddd;W:#b96b3d,fbf5f1"
-		name="Vestido Branco"
+		name="Vestido Branco ♀"
 		description="Vestido Branco muito usado em Casamentos."
 		effect=""
 		type="equip-torso"
@@ -4744,7 +4744,7 @@
 	</item>
 	<item id="3102"
 		image="armor-chest-dress-valentine.png|R:#000044,000066,0000aa;W:#000000"
-		name="Vestido Azul"
+		name="Vestido Azul ♀"
 		description="Vestido Azul muito usado em festas."
 		effect=""
 		type="equip-torso"
@@ -4755,7 +4755,7 @@
 	</item>
 	<item id="3103"
 		image="armor-chest-dress-valentine.png"
-		name="Vestido Vermelho"
+		name="Vestido Vermelho ♀"
 		description="Vestido Vermelho muito usado em tabernas."
 		effect=""
 		type="equip-torso"
@@ -4766,7 +4766,7 @@
 	</item>
 	<item id="3104"
 		image="armor-chest-dress-valentine.png|R:#004400,006600,008800"
-		name="Vestido Verde"
+		name="Vestido Verde ♀"
 		description="Vestido Verde muito usado em festas."
 		effect=""
 		type="equip-torso"
@@ -4777,7 +4777,7 @@
 	</item>
 	<item id="3105"
 		image="armor-chest-dress-valentine.png|R:#888800,aaaa00,cccc00"
-		name="Vestido Amarelo"
+		name="Vestido Amarelo ♀"
 		description="Vestido Amarelo muito usado em festas."
 		effect=""
 		type="equip-torso"
@@ -4788,7 +4788,7 @@
 	</item>
 	<item id="3106"
 		image="armor-chest-dress-valentine.png|R:#880088,bb00bb,ff00ff"
-		name="Vestido Rosa Choque"
+		name="Vestido Rosa Choque ♀"
 		description="Vestido Rosa Choque muito usado em tabernas."
 		effect=""
 		type="equip-torso"
@@ -4799,7 +4799,7 @@
 	</item>
 	<item id="3107"
 		image="armor-chest-dress-valentine.png|R:#884488,bb55bb,ff88ff"
-		name="Vestido Rosa Claro"
+		name="Vestido Rosa Claro ♀"
 		description="Vestido Rosa Claro muito usado por princesas."
 		effect=""
 		type="equip-torso"
@@ -5627,7 +5627,7 @@
 	</item>
 	<item id="3222"
 		image="armor-head-veu-noiva.png"
-		name="Véu de Noiva"
+		name="Véu de Noiva ♀"
 		description="..."
 		effect=""
 		type="equip-head"
