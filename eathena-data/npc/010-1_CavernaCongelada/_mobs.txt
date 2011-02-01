@@ -10,8 +10,6 @@
 On1017:
 	set @mobID, 1017;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 	end;

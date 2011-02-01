@@ -5,37 +5,29 @@
 
 007-1.gat,87,39,39,38	monster	Morcego (35)	1017,35,0,0,Mob007-1::On1017
 007-1.gat,88,38,39,38	monster	Bicho-da-seda (15)	1035,15,0,0,Mob007-1::On1035
-007-1.gat,31,40,25,28	monster	Borboletas (10)	1055,10,0,0,Mob007-1::On1055
 007-1.gat,57,47,14,13	monster	Abelhas (10)	1049,10,240000,0,Mob007-1::On1049
+007-1.gat,31,40,25,28	monster	Borboletas (10)	1055,10,0,0,Mob007-1::On1055
 
 007-1.gat,0,0,0	script	Mob007-1	-1,{
 
 On1017:
 	set @mobID, 1017;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1035:
 	set @mobID, 1035;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1049:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1055:
 	set @mobID, 1055;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 	end;

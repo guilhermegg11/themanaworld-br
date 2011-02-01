@@ -38,16 +38,12 @@
 On1002:
 	set @mobID, 1002;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_verme;
 	break;
 
 On1002_guloso:
 	set @mobID, 1002;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callfunc "bilheteVermeGuloso";
 	callsub _MOBS_verme;
 	break;
@@ -55,164 +51,120 @@ On1002_guloso:
 On1003:
 	set @mobID, 1003;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_escorpiao;
 	break;
 
 On1008:
 	set @mobID, 1008;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1011:
 	set @mobID, 1011;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1013:
 	set @mobID, 1013;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_cogumelo;
 	break;
 
 On1014:
 	set @mobID, 1014;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1018:
 	set @mobID, 1018;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_trasgo;
 	break;
 
 On1019:
 	set @mobID, 1019;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1020:
 	set @mobID, 1020;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	break;
 
 On1337_1:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "007.gat", 163, 43, "Mob007::On1049_1";
 	break;
 On1049_1:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_abelha;
 	break;
 
 On1337_2:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "007.gat", 121, 25, "Mob007::On1049_2";
 	break;
 On1049_2:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_abelha;
 	break;
 
 On1337_3:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "007.gat", 175, 34, "Mob007::On1049_3";
 	break;
 On1049_3:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_abelha;
 	break;
 
 On1337_4:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "007.gat", 142, 26, "Mob007::On1049_4";
 	break;
 On1049_4:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_abelha;
 	break;
 
 On1337_5:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "007.gat", 143, 56, "Mob007::On1049_5";
 	break;
 On1049_5:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_abelha;
 	break;
 
 On1337_6:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "007.gat", 108, 45, "Mob007::On1049_6";
 	break;
 On1049_6:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_abelha;
 	break;
 
 On1337_7:
 	set @mobID, 1337;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "007.gat", 165, 77, "Mob007::On1049_7";
 	break;
 On1049_7:
 	set @mobID, 1049;
 	callfunc "MobPoints";
-	callfunc "getTime";
-	callfunc "emanarAlma";
 	callsub _MOBS_abelha;
 	break;
 
