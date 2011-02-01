@@ -616,7 +616,7 @@
 3100,VestidoPreto,Vestido Preto,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3101,VestidoBranco,Vestido Branco,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3102,VestidoAzul,Vestido Azul,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
-3103,VestidoVermelho,Vestido Vermelho,5,8000,4000,10,0,0,0,0,0,2,512,0,0,0,{},{}
+3103,VestidoVermelho,Vestido Vermelho,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3104,VestidoVerde,Vestido Verde,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3105,VestidoAmarelo,Vestido Amarelo,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3106,VestidoRosaChoque,Vestido Rosa Choque,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}

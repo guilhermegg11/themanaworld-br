@@ -1,17 +1,13 @@
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.nio.channels.FileChannel;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
 
 import parserTXT.Item;
 import parserTXT.Parser;
@@ -114,6 +110,7 @@ public class GeraItemsXML {
 				log.println("# Item "+item.getId()+" '"+item.getName()+"' não encontrado em items.xml!");
 				continue;
 			}
+			verificacoes(item, item1, item2);
 
 			strTmwbr = "";
 			if( item.getTmwbr()!=null && item.getTmwbr()==Boolean.TRUE ) {
@@ -191,6 +188,21 @@ public class GeraItemsXML {
 
 		out.flush();
 		out.close();
+	}
+
+	private static void verificacoes(ItemInfo item, Item item1, HashMap<String, String> item2) {
+		String name = item2.get("name");
+		if( name!=null && name.contains("♀") ){
+			if( item1.getGenero().equals("0")==false )
+				log.println("# Simbolo ♀ encontrado na descrição do item "+item.getId()+" '"+item.getName()+"'. Mas o item não é exclusivo do gênero feminino!");
+		} else if( name!=null && name.contains("♂") ){
+			if( item1.getGenero().equals("1")==false )
+				log.println("# Simbolo ♂ encontrado na descrição do item "+item.getId()+" '"+item.getName()+"'. Mas o item não é exclusivo do gênero masculino!");
+		} else if(item1.getGenero().equals("0") ) {
+			log.println("# O simbolo ♀ não foi informado no item "+item.getId()+" '"+item.getName()+"' de gênero feminino!");
+		} else if(item1.getGenero().equals("1") ) {
+			log.println("# O simbolo ♂ não foi informado no item "+item.getId()+" '"+item.getName()+"' de gênero masculino!");
+		}
 	}
 
 	private static void copy(File origem, File destino) throws IOException{
