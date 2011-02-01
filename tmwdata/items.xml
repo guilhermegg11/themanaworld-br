@@ -5476,7 +5476,7 @@
 	<item id="3201"
 		image="armor-ring-colar-olho-aguia.png"
 		name="Colar Olho de Águia"
-		description="(item em desenvolvimento)"
+		description="Colar que carrega consigo o espírito da visão acurada."
 		effect="+3 Destreza"
 		type="equip-charm"
 		weight="50"/>
@@ -5618,12 +5618,22 @@
 	<item id="3221"
 		image="armor-head-elmo-samurai.png"
 		name="Elmo Samurai"
-		description="..."
+		description="Elmo usado por quem segue pelo caminho do Bushidô."
 		effect=""
 		type="equip-head"
 		weight="2000"
 		defense="20">
 		<sprite>equipment/head/head-elmo-samurai.xml</sprite>
+	</item>
+	<item id="3222"
+		image="armor-head-veu-noiva.png"
+		name="Véu de Noiva"
+		description="..."
+		effect=""
+		type="equip-head"
+		weight="200"
+		defense="5">
+		<sprite>equipment/head/head-veu-noiva.xml</sprite>
 	</item>
 
 </items>
