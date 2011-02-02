@@ -2406,7 +2406,7 @@
 		<sprite gender="female">chest-forest-armor-female.xml</sprite>
 	</item>
 	<item id="783"
-		image="armor-chest-valentine-dress.png|R:#BF0E08"
+		image="armor-chest-dress-valentine.png|R:#BF0E08"
 		name="Vestido Vermelho ♀"
 		description="Um luxuoso vestido de seda vermelho. Cuidado para não amassar!"
 		effect=""
@@ -3920,6 +3920,116 @@
 		<sprite gender="male">hands-gloves-generic-male.xml|#104010,208020,30c030</sprite>
 		<sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
 	</item>
+	<item id="2170"
+		image="armor-legs-skirt-mini.png|W:#580000,a40000,c02020,ff6060"
+		name="Mini Saia Vermelha de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#580000,a40000,c02020,ff6060</sprite>
+	</item>
+	<item id="2171"
+		image="armor-legs-skirt-mini.png|W:#115511,22aa22,99dd99"
+		name="Mini Saia Verde de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2172"
+		image="armor-legs-skirt-mini.png|W:#222255,6666ff"
+		name="Mini Saia Azul Escura de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2173"
+		image="armor-legs-skirt-mini.png|W:#846211,dab333,fffb93,ffffff"
+		name="Mini Saia Amarela de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2174"
+		image="armor-legs-skirt-mini.png|W:#16486e,498ec5,e4f2fc"
+		name="Mini Saia Azul Clara de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2175"
+		image="armor-legs-skirt-mini.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+	   name="Mini Saia Rosa de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2176"
+		image="armor-legs-skirt-mini.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Mini Saia Preta de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+	   type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2177"
+		image="armor-legs-skirt-mini.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Mini Saia Laranja de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2178"
+		image="armor-legs-skirt-mini.png|W:#4f0a76,8010c0,d699f7"
+		name="Mini Saia Roxa de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2179"
+		image="armor-legs-skirt-mini.png|W:#104010,208020,30c030"
+		name="Mini Saia Verde Escura de Algodão ♀"
+		description="Uma saia curta para dias quentes de verão."
+		effect=""
+		defense="4"
+		type="equip-legs"
+		weight="8"
+		max-per-slot="1">
+		<sprite>leg-skirt-mini.xml|#104010,208020,30c030</sprite>
+	</item>
 
 	<!-- AQUI ESTAO OS ITENS CRIADOS PELA EQUIPE TMW-BR -->
 
@@ -4325,8 +4435,8 @@
 		weight="2000"/>
 	<item id="3048"
 		image="armor-legs-skirt-mini.png|W:#A4B2B2,FFFFFF"
-		name="Cotton Skirt Mini ♀"
-		description="Um mini saia feita de linhas de algodao."
+		name="Mini Saia de Algodão ♀"
+		description="Uma mini saia feita de linhas de algodao."
 		effect=""
 		type="equip-legs"
 		weight="20"
