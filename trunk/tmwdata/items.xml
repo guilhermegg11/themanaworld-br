@@ -1236,7 +1236,7 @@
 		effect=""
 		type="equip-legs"
 		weight="10"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#A4B2B2,FFFFFF</sprite>
 	</item>
 	<item id="633"
@@ -2406,7 +2406,7 @@
 		<sprite gender="female">chest-forest-armor-female.xml</sprite>
 	</item>
 	<item id="783"
-		image="armor-chest-dress-valentine.png|R:#BF0E08"
+		image="armor-chest-valentine-dress.png|R:#BF0E08"
 		name="Vestido Vermelho ♀"
 		description="Um luxuoso vestido de seda vermelho. Cuidado para não amassar!"
 		effect=""
@@ -3183,7 +3183,7 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#580000,A40000,C02020,ff6060</sprite>
 	</item>
 	<item id="2101"
@@ -3193,7 +3193,7 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 	  <sprite>leg-skirt.xml|#115511,22aa22,99dd99</sprite>
 	</item>
 	<item id="2102"
@@ -3203,7 +3203,7 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#222255,6666ff</sprite>
 	</item>
 	<item id="2103"
@@ -3213,7 +3213,7 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#846211,dab333,fffb93,ffffff</sprite>
 	</item>
 	<item id="2104"
@@ -3223,7 +3223,7 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#16486e,498ec5,e4f2fc</sprite>
 	</item>
 	<item id="2105"
@@ -3233,7 +3233,7 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
 	</item>
 	<item id="2106"
@@ -3243,7 +3243,7 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
 	</item>
 	<item id="2107"
@@ -3253,7 +3253,7 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#80280f,b04810,ef681f,ffb830</sprite>
 	</item>
 	<item id="2108"
@@ -3273,10 +3273,9 @@
 		effect=""
 		type="equip-legs"
 		weight="20"
-		defense="4">
+		defense="2">
 		<sprite>leg-skirt.xml|#104010,208020,30c030</sprite>
 	</item>
-
 	<item id="2110"
 		image="armor-legs-shorts.png|W:#580000,A40000,C02020,ff6060"
 		name="Short Vermelho de Algodão"
@@ -3925,7 +3924,7 @@
 		name="Mini Saia Vermelha de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -3936,7 +3935,7 @@
 		name="Mini Saia Verde de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -3947,7 +3946,7 @@
 		name="Mini Saia Azul Escura de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -3958,7 +3957,7 @@
 		name="Mini Saia Amarela de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -3969,7 +3968,7 @@
 		name="Mini Saia Azul Clara de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -3980,7 +3979,7 @@
 	   name="Mini Saia Rosa de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -3991,7 +3990,7 @@
 		name="Mini Saia Preta de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 	   type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -4002,7 +4001,7 @@
 		name="Mini Saia Laranja de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -4013,7 +4012,7 @@
 		name="Mini Saia Roxa de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -4024,7 +4023,7 @@
 		name="Mini Saia Verde Escura de Algodão ♀"
 		description="Uma saia curta para dias quentes de verão."
 		effect=""
-		defense="4"
+		defense="2"
 		type="equip-legs"
 		weight="8"
 		max-per-slot="1">
@@ -4831,92 +4830,84 @@
 	</item>
 	<!-- 3099 está disponível! :) -->
 	<item id="3100"
-		image="armor-chest-dress-valentine.png|R:#000000,333333,555555;W:#444444"
+		image="armor-chest-valentine-dress.png|R:#000000,333333,555555"
 		name="Vestido Preto ♀"
 		description="Vestido Preto muito usado em Funerais."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
+		<sprite>chest-dress-valentine.xml|#000000,333333,555555</sprite>
 	</item>
 	<item id="3101"
-		image="armor-chest-dress-valentine.png|R:#888888,aaaaaa,dddddd;W:#b96b3d,fbf5f1"
+		image="armor-chest-valentine-dress.png|R:#888888,aaaaaa,dddddd"
 		name="Vestido Branco ♀"
 		description="Vestido Branco muito usado em Casamentos."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#888888,aaaaaa,dddddd;#b96b3d,fbf5f1</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#888888,aaaaaa,dddddd;#b96b3d,fbf5f1</sprite>
+		<sprite>chest-dress-valentine.xml|#888888,aaaaaa,dddddd</sprite>
 	</item>
 	<item id="3102"
-		image="armor-chest-dress-valentine.png|R:#000044,000066,0000aa;W:#000000"
+		image="armor-chest-valentine-dress.png|R:#000044,000066,0000aa"
 		name="Vestido Azul ♀"
 		description="Vestido Azul muito usado em festas."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#000044,000066,0000aa;#000044,000066,0000aa</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#000044,000066,0000aa;#000044,000066,0000aa</sprite>
+		<sprite>chest-dress-valentine.xml|#000044,000066,0000aa</sprite>
 	</item>
 	<item id="3103"
-		image="armor-chest-dress-valentine.png"
+		image="armor-chest-valentine-dress.png|R:#580000,A40000,C02020,ff6060"
 		name="Vestido Vermelho ♀"
 		description="Vestido Vermelho muito usado em tabernas."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#580000,A40000,C02020,ff6060;#580000,A40000,C02020,ff6060</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#580000,A40000,C02020,ff6060;#580000,A40000,C02020,ff6060</sprite>
+		<sprite>chest-dress-valentine.xml|#580000,A40000,C02020,ff6060</sprite>
 	</item>
 	<item id="3104"
-		image="armor-chest-dress-valentine.png|R:#004400,006600,008800"
+		image="armor-chest-valentine-dress.png|R:#004400,006600,008800"
 		name="Vestido Verde ♀"
 		description="Vestido Verde muito usado em festas."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#004400,006600,008800;#004400,006600,008800</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#004400,006600,008800;#004400,006600,008800</sprite>
+		<sprite>chest-dress-valentine.xml|#004400,006600,008800</sprite>
 	</item>
 	<item id="3105"
-		image="armor-chest-dress-valentine.png|R:#888800,aaaa00,cccc00"
+		image="armor-chest-valentine-dress.png|R:#888800,aaaa00,cccc00"
 		name="Vestido Amarelo ♀"
 		description="Vestido Amarelo muito usado em festas."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#888800,aaaa00,cccc00;#888800,aaaa00,cccc00</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#888800,aaaa00,cccc00;#888800,aaaa00,cccc00</sprite>
+		<sprite>chest-dress-valentine.xml|#888800,aaaa00,cccc00</sprite>
 	</item>
 	<item id="3106"
-		image="armor-chest-dress-valentine.png|R:#880088,bb00bb,ff00ff"
+		image="armor-chest-valentine-dress.png|R:#880088,bb00bb,ff00ff"
 		name="Vestido Rosa Choque ♀"
 		description="Vestido Rosa Choque muito usado em tabernas."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#880088,bb00bb,ff00ff;#880088,bb00bb,ff00ff</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#880088,bb00bb,ff00ff;#880088,bb00bb,ff00ff</sprite>
+		<sprite>chest-dress-valentine.xml|#880088,bb00bb,ff00ff</sprite>
 	</item>
 	<item id="3107"
-		image="armor-chest-dress-valentine.png|R:#884488,bb55bb,ff88ff"
+		image="armor-chest-valentine-dress.png|R:#884488,bb55bb,ff88ff"
 		name="Vestido Rosa Claro ♀"
 		description="Vestido Rosa Claro muito usado por princesas."
 		effect=""
 		type="equip-torso"
 		weight="10"
 		defense="2">
-		<sprite gender="male">chest-dress-valentine.xml|#884488,bb55bb,ff88ff;#884488,bb55bb,ff88ff</sprite>
-		<sprite gender="female">chest-dress-valentine.xml|#884488,bb55bb,ff88ff;#884488,bb55bb,ff88ff</sprite>
+		<sprite>chest-dress-valentine.xml|#884488,bb55bb,ff88ff</sprite>
 	</item>
 	<item id="3108"
 		image="armor-head-donatecap2011.png"
