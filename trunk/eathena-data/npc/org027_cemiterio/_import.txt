@@ -2,4 +2,3 @@ map: org027.gat
 npc: npc/org027_cemiterio/_mobs.txt
 npc: npc/org027_cemiterio/_scripts.txt
 npc: npc/org027_cemiterio/_warps.txt
-npc: npc/org027_cemiterio/mapflags.conf
