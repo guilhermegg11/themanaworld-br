@@ -2,4 +2,3 @@ map: org026.gat
 npc: npc/org026_pantano/_mobs.txt
 npc: npc/org026_pantano/_scripts.txt
 npc: npc/org026_pantano/_warps.txt
-npc: npc/org026_pantano/mapflags.conf
