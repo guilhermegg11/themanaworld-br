@@ -68,6 +68,15 @@
 			</gerar_label>
 		</callsub>
 	</monstro>
+	<monstro id="1025" nome="Tronco Vivo">
+		<callsub label="_MOBS_tronco">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="QUEST_madeiraResist!=1"/>
+				<var id="%max%" valor="100"/>
+				<var id="%mobs%" valor="QUEST_madeiraResistMobs"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
 
 	<monstro id="1337" nome="Colmeia">
 		<spawn grupos="1,2,3,4,5,6,7,8,9" tempo_spawn="60" tempo_morte="0"/>

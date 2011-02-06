@@ -23,6 +23,7 @@ On1003:
 On1025:
 	set @mobID, 1025;
 	callfunc "MobPoints";
+	callsub _MOBS_tronco;
 	break;
 
 On1035:
@@ -63,6 +64,13 @@ _MOBS_escorpiao:
 	callfunc "mobContagem", 30, QUEST_contamobs, @QUEST_contamobs;
 	set QUEST_contamobs, @mobs;
 	set @QUEST_contamobs, @flag;
+	return;
+
+_MOBS_tronco:
+	if(QUEST_madeiraResist!=1) return;
+	callfunc "mobContagem", 100, QUEST_madeiraResistMobs, @QUEST_madeiraResistMobs;
+	set QUEST_madeiraResistMobs, @mobs;
+	set @QUEST_madeiraResistMobs, @flag;
 	return;
 
 	end;
