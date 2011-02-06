@@ -173,10 +173,6 @@ sfx_magic_transmute		5
 sfx_magic_nature		6
 sfx_magic_astral		7
 
-NIBBLE_0_SHIFT 0		// Alan, Jack
-NIBBLE_0_MASK 15
-NIBBLE_1_SHIFT 4		// Jack
-NIBBLE_1_MASK 240
 NIBBLE_2_SHIFT 8		// Kfahr
 NIBBLE_2_MASK 3840
 NIBBLE_3_SHIFT 12		// Carlos, Nicolas, Kfahr
