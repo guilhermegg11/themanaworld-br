@@ -76,6 +76,13 @@
 				<var id="%mobs%" valor="QUEST_madeiraResistMobs"/>
 			</gerar_label>
 		</callsub>
+		<callsub label="_MOBS_tronco2">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="QUEST_escudoMadeira!=1"/>
+				<var id="%max%" valor="130"/>
+				<var id="%mobs%" valor="QUEST_escudoMadeiraMobs"/>
+			</gerar_label>
+		</callsub>
 	</monstro>
 
 	<monstro id="1337" nome="Colmeia">
