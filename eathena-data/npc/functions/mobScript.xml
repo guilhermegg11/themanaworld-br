@@ -69,18 +69,18 @@
 		</callsub>
 	</monstro>
 	<monstro id="1025" nome="Tronco Vivo">
-		<callsub label="_MOBS_tronco">
+		<callsub label="_MOBS_madeiraResist">
 			<gerar_label script="callfunc_mobContagem">
 				<var id="%return%" valor="QUEST_madeiraResist!=1"/>
 				<var id="%max%" valor="100"/>
-				<var id="%mobs%" valor="QUEST_madeiraResistMobs"/>
+				<var id="%mobs%" valor="MOBS_madeiraResist"/>
 			</gerar_label>
 		</callsub>
-		<callsub label="_MOBS_tronco2">
+		<callsub label="_MOBS_escudoMadeira">
 			<gerar_label script="callfunc_mobContagem">
 				<var id="%return%" valor="QUEST_escudoMadeira!=1"/>
 				<var id="%max%" valor="130"/>
-				<var id="%mobs%" valor="QUEST_escudoMadeiraMobs"/>
+				<var id="%mobs%" valor="MOBS_escudoMadeira"/>
 			</gerar_label>
 		</callsub>
 	</monstro>

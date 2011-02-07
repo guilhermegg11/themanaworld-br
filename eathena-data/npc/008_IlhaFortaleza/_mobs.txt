@@ -64,8 +64,8 @@ On1017:
 On1025:
 	set @mobID, 1025;
 	callfunc "MobPoints";
-	callsub _MOBS_tronco;
-	callsub _MOBS_tronco2;
+	callsub _MOBS_madeiraResist;
+	callsub _MOBS_escudoMadeira;
 	break;
 
 On1029:
@@ -165,18 +165,18 @@ _MOBS_escorpiao:
 	set @QUEST_contamobs, @flag;
 	return;
 
-_MOBS_tronco:
-	if(QUEST_madeiraResist!=1) return;
-	callfunc "mobContagem", 100, QUEST_madeiraResistMobs, @QUEST_madeiraResistMobs;
-	set QUEST_madeiraResistMobs, @mobs;
-	set @QUEST_madeiraResistMobs, @flag;
+_MOBS_escudoMadeira:
+	if(QUEST_escudoMadeira!=1) return;
+	callfunc "mobContagem", 130, MOBS_escudoMadeira, @MOBS_escudoMadeira;
+	set MOBS_escudoMadeira, @mobs;
+	set @MOBS_escudoMadeira, @flag;
 	return;
 
-_MOBS_tronco2:
-	if(QUEST_escudoMadeira!=1) return;
-	callfunc "mobContagem", 130, QUEST_escudoMadeiraMobs, @QUEST_escudoMadeiraMobs;
-	set QUEST_escudoMadeiraMobs, @mobs;
-	set @QUEST_escudoMadeiraMobs, @flag;
+_MOBS_madeiraResist:
+	if(QUEST_madeiraResist!=1) return;
+	callfunc "mobContagem", 100, MOBS_madeiraResist, @MOBS_madeiraResist;
+	set MOBS_madeiraResist, @mobs;
+	set @MOBS_madeiraResist, @flag;
 	return;
 
 _MOBS_verme:
