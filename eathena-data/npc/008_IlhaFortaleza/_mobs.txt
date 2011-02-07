@@ -64,6 +64,7 @@ On1017:
 On1025:
 	set @mobID, 1025;
 	callfunc "MobPoints";
+	callsub _MOBS_cordaPescador;
 	callsub _MOBS_madeiraResist;
 	callsub _MOBS_escudoMadeira;
 	break;
@@ -156,6 +157,13 @@ _MOBS_abelha:
 	callfunc "mobContagem", 1125, QUEST_ursinhoAbelhas, @QUEST_ursinhoAbelhas;
 	set QUEST_ursinhoAbelhas, @mobs;
 	set @QUEST_ursinhoAbelhas, @flag;
+	return;
+
+_MOBS_cordaPescador:
+	if(QUEST_cordaPescador!=1) return;
+	callfunc "mobContagem", 30, MOBS_cordaPescador, @MOBS_cordaPescador;
+	set MOBS_cordaPescador, @mobs;
+	set @MOBS_cordaPescador, @flag;
 	return;
 
 _MOBS_escorpiao:

@@ -69,6 +69,13 @@
 		</callsub>
 	</monstro>
 	<monstro id="1025" nome="Tronco Vivo">
+		<callsub label="_MOBS_cordaPescador">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="QUEST_cordaPescador!=1"/>
+				<var id="%max%" valor="30"/>
+				<var id="%mobs%" valor="MOBS_cordaPescador"/>
+			</gerar_label>
+		</callsub>
 		<callsub label="_MOBS_madeiraResist">
 			<gerar_label script="callfunc_mobContagem">
 				<var id="%return%" valor="QUEST_madeiraResist!=1"/>
