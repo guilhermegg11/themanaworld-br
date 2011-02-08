@@ -15,9 +15,7 @@
 	</script>
 
 	<monstro id="0" nome="Todos os Monstros">
-		<script>
-	callfunc "MobPoints";
-		</script>
+		<script>callfunc "MobPoints";</script>
 	</monstro>
 
 	<!-- ===================== Scripts de QUESTS ===================== -->
@@ -90,6 +88,14 @@
 				<var id="%mobs%" valor="MOBS_escudoMadeira"/>
 			</gerar_label>
 		</callsub>
+		<callsub label="_MOBS_pedraAguia">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="QUEST_pedraAguia!=1"/>
+				<var id="%max%" valor="200"/>
+				<var id="%mobs%" valor="MOBS_pedraAguia"/>
+			</gerar_label>
+		</callsub>
+		<script>callfunc "drop_ambar_pedraAguia";</script>
 	</monstro>
 
 	<monstro id="1337" nome="Colmeia">
