@@ -15,7 +15,7 @@
 008.gat,162,103,28,12	monster	Escorpião (5)	1003,5,30000,15000,Mob008::On1003
 008.gat,137,90,39,15	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob008::On1011
 008.gat,46,64,40,17	monster	Trasgo de Fogo (5)	1011,5,0,0,Mob008::On1011
-008.gat,156,71,43,22	monster	Lenha Dura (5)	1025,5,0,0,Mob008::On1025
+008.gat,149,69,59,26	monster	Tronco Vivo (8)	1025,8,0,0,Mob008::On1025
 008.gat,116,68,34,25	monster	Flor (5)	1014,5,0,0,Mob008::On1014
 008.gat,84,93,22,20	monster	Flor (5)	1014,3,0,0,Mob008::On1014
 008.gat,158,97,1,4	monster	Escorpião Vermelho (1)	1004,1,90000,30000,Mob008::On1004
@@ -67,6 +67,8 @@ On1025:
 	callsub _MOBS_cordaPescador;
 	callsub _MOBS_madeiraResist;
 	callsub _MOBS_escudoMadeira;
+	callsub _MOBS_pedraAguia;
+	callfunc "drop_ambar_pedraAguia";
 	break;
 
 On1029:
@@ -185,6 +187,13 @@ _MOBS_madeiraResist:
 	callfunc "mobContagem", 100, MOBS_madeiraResist, @MOBS_madeiraResist;
 	set MOBS_madeiraResist, @mobs;
 	set @MOBS_madeiraResist, @flag;
+	return;
+
+_MOBS_pedraAguia:
+	if(QUEST_pedraAguia!=1) return;
+	callfunc "mobContagem", 200, MOBS_pedraAguia, @MOBS_pedraAguia;
+	set MOBS_pedraAguia, @mobs;
+	set @MOBS_pedraAguia, @flag;
 	return;
 
 _MOBS_verme:

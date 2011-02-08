@@ -43,6 +43,8 @@ On1025:
 	callsub _MOBS_cordaPescador;
 	callsub _MOBS_madeiraResist;
 	callsub _MOBS_escudoMadeira;
+	callsub _MOBS_pedraAguia;
+	callfunc "drop_ambar_pedraAguia";
 	break;
 
 On1032:
@@ -94,6 +96,13 @@ _MOBS_madeiraResist:
 	callfunc "mobContagem", 100, MOBS_madeiraResist, @MOBS_madeiraResist;
 	set MOBS_madeiraResist, @mobs;
 	set @MOBS_madeiraResist, @flag;
+	return;
+
+_MOBS_pedraAguia:
+	if(QUEST_pedraAguia!=1) return;
+	callfunc "mobContagem", 200, MOBS_pedraAguia, @MOBS_pedraAguia;
+	set MOBS_pedraAguia, @mobs;
+	set @MOBS_pedraAguia, @flag;
 	return;
 
 	end;

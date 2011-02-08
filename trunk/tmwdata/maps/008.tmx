@@ -254,9 +254,9 @@
     <property name="monster_id" value="9"/>
    </properties>
   </object>
-  <object name="Lenha Dura (5)" type="spawn" x="4320" y="1920" width="1408" height="736">
+  <object name="Tronco Vivo (8)" type="spawn" x="3840" y="1792" width="1920" height="864">
    <properties>
-    <property name="max_beings" value="5"/>
+    <property name="max_beings" value="8"/>
     <property name="monster_id" value="23"/>
    </properties>
   </object>
