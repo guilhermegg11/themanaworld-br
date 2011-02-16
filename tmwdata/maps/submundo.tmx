@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="140" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/submundo.png"/>
+  <property name="music" value="?.ogg"/>
+  <property name="name" value="Submundo"/>
+  <property name="overlay0image" value="graphics/images/ambient/calor.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollY" value="-0.1"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="lava_cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/lava_cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="131" name="lava_anim" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/lava_cave_anim.png" width="512" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="12"/>
+    <property name="animation-delay1" value="12"/>
+    <property name="animation-delay10" value="12"/>
+    <property name="animation-delay11" value="12"/>
+    <property name="animation-delay12" value="12"/>
+    <property name="animation-delay13" value="12"/>
+    <property name="animation-delay14" value="12"/>
+    <property name="animation-delay15" value="12"/>
+    <property name="animation-delay2" value="12"/>
+    <property name="animation-delay3" value="12"/>
+    <property name="animation-delay4" value="12"/>
+    <property name="animation-delay5" value="12"/>
+    <property name="animation-delay6" value="12"/>
+    <property name="animation-delay7" value="12"/>
+    <property name="animation-delay8" value="12"/>
+    <property name="animation-delay9" value="12"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame10" value="10"/>
+    <property name="animation-frame11" value="11"/>
+    <property name="animation-frame12" value="12"/>
+    <property name="animation-frame13" value="13"/>
+    <property name="animation-frame14" value="14"/>
+    <property name="animation-frame15" value="15"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="3"/>
+    <property name="animation-frame4" value="4"/>
+    <property name="animation-frame5" value="5"/>
+    <property name="animation-frame6" value="6"/>
+    <property name="animation-frame7" value="7"/>
+    <property name="animation-frame8" value="8"/>
+    <property name="animation-frame9" value="9"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="lava" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DAQ0AAAzDoHqf8Su4A0hYNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX0eHLY9zoC1AQA=
+  </data>
+ </layer>
+ <layer name="ground" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3azYoUMRQG0ICoKwdc+LPQhYqjrsVRwY3ORkFE3Qkiow8g+gIyj25CUZAOlZqkSdMDfQ7cRTczXAry0TephAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHKIbsY5i3Sw+59/twrWFgsvkXqz7sa7EehCmTMyf5+9GZ2TOwu2FkhO2cVTUCHk21ipl5OGgnnkujhcqzwm0KtdsmZfe3LRmI89IrWfPHJbn4mSh8pxAq3JOr63jtTWcV082RuRnfoY8F0vynPgNoVVtTm/NzYi6Wul5veF/52eo5aJ0EvyG0K42p7fmpnc9l/Uo1q1KzzuxPjX0PN7imaFFbU5vzU25np+Fvnw8j/W40vNJrB+NPXuf2YzFNpb2tmu5Kdfz69CXj9NYLyo9X8b63dizlxmLkWq5Kdfzh9Cejbex3l3Q919jz15mLPbhTZj2DBftRVI2vsT6OqDnt86/T7NV634eRvoYpj1D2hfcDctnVZ/DlI2fsX4N6Nk7K5mt2JfvYdozpH3B07B5/pRykc6qzsKUjb+Deva805jflcC+pD1D2he8CpvnT2dhOqv6E8ZlI5nfaazdscrvZpmtuAzeh83zp5SLdFZ1voNe5R2rsvK7WXBZ5OdP5zvsU96xKiu/mwWHaO1dzdrdLDgkS+9JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsV/Vanpj4C1AQA=
+  </data>
+ </layer>
+ <layer name="fringe" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BgQAAAADDoPlTn+AGVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3IiD9TYC1AQA=
+  </data>
+ </layer>
+ <layer name="top" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BgQAAAADDoPlTn+AGVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3IiD9TYC1AQA=
+  </data>
+ </layer>
+ <layer name="collision" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Ty3IiMRAAQYf//6P35ODAsrAGTemRFZFXRupG319fX98AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALC531SfGUYZUX0neMeV1XeFV5XVd4dHZqqeBfyYuXo2nGul6llxlhWrZ8YZVq6eHfvaqXqW7GXH6pmyh52rZ8vaTqieMes6oXrGrOmk6lmzlhOrZ84aTq6ePfM7uXr2zE39DpiX+h0wJ92qd8F8dKveBXPRffVOmIfuq3fCHPS4ejf09Lh6N/T0uHo3eBuzV+8I72Pm6h3hfcxcvSP2eh/1nT59z/rsrPef+Ve/PcvfzjbLXetdcb1RffocM9y13hXXG9WIM9R3rXfF9UZVfH/0t+pdcT29Xr0rvI9nlXepd8X1RjXi2/V9611xvVGN+H5953pXXG9UI75f37neFdcr+5/vf+q87/xGvSuuV/bqOT553nd+o94V1yt7dpYR533nN+pdcb2yE87L+qp2Pyt7qNr9rOxBz6t3hPcxc/WO8EZmrd4NPT2u3g09Pa7eDXPQffVOmIfuq3fCXHSr3gXz0a16F8xJ/Q6Yl/odMLeTq2fP/E6unj1rOLF65qzlpOpZs6YTqmfMuk6onjFr27l6tuxhx+qZspedqmfJvlaunh1nWLF6ZpxlpepZca6Zq2cDP2aqngU8UlbfHV51ZfVd4R0jqu8Eo/ym+swAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADc+wNFMk6ggLUBAA==
+  </data>
+ </layer>
+ <objectgroup name="objetos" width="200" height="140">
+  <object x="0" y="0" width="640" height="640"/>
+  <object x="0" y="3840" width="640" height="640"/>
+  <object x="5760" y="0" width="640" height="640"/>
+  <object x="5760" y="3840" width="640" height="640"/>
+ </objectgroup>
+</map>

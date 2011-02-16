@@ -1,0 +1,10 @@
+//
+// Monstros do mapa: submundo Submundo
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+
+submundo.gat,0,0,0	script	Mobsubmundo	-1,{
+
+	end;
+}
