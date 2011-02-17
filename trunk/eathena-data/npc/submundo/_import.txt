@@ -2,3 +2,4 @@ map: submundo.gat
 npc: npc/submundo/_mobs.txt
 npc: npc/submundo/_scripts.txt
 npc: npc/submundo/_warps.txt
+npc: npc/submundo/barqueiro.conf
