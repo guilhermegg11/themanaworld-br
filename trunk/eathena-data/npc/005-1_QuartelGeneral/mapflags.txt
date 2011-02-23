@@ -1,1 +1,1 @@
-005-1.gat mapflag nosave 005-1,38,42;
+005-1.gat mapflag nosave 005-1,30,74;
