@@ -109,7 +109,7 @@ On1049_%GRUPO%:
 		</script>
 		<callsub label="_MOBS_abelha">
 			<gerar_label script="callfunc_mobContagem">
-				<var id="%return%" valor="QUEST_ursinho!=1"/>
+				<var id="%return%" valor="QUEST_ursinho!=1 &amp;&amp; QUEST_ursinho!=2"/>
 				<var id="%max%" valor="1125"/>
 				<var id="%mobs%" valor="QUEST_ursinhoAbelhas"/>
 			</gerar_label>

@@ -172,7 +172,7 @@ On1049_7:
 //= Callsubs ==========================================================
 
 _MOBS_abelha:
-	if(QUEST_ursinho!=1) return;
+	if(QUEST_ursinho!=1 && QUEST_ursinho!=2) return;
 	callfunc "mobContagem", 1125, QUEST_ursinhoAbelhas, @QUEST_ursinhoAbelhas;
 	set QUEST_ursinhoAbelhas, @mobs;
 	set @QUEST_ursinhoAbelhas, @flag;
