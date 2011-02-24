@@ -455,4 +455,9 @@ Ou um comentário de alguem.
 <sprite>resource-presente.xml</sprite>
 <particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 </monster>
+
+<monster id="337" name="Nojô" summon="nojo">
+	<sprite>monsters/monster-jhon.xml</sprite>
+</monster>
+
 </monsters>
