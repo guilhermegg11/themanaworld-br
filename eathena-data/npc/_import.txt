@@ -44,11 +44,11 @@ import: npc/calabouco/_import.txt
 import: npc/navio/_import.txt
 import: npc/navio-1/_import.txt
 import: npc/navio-2/_import.txt
+import: npc/floresta/_import.txt
+import: npc/submundo/_import.txt
 
 import: npc/org016_terrasDesconhecidas/_import.txt
 import: npc/org025_pantano/_import.txt
 import: npc/org026_pantano/_import.txt
 import: npc/org027_cemiterio/_import.txt
 import: npc/org027-1_casaZelador/_import.txt
-
-import: npc/submundo/_import.txt

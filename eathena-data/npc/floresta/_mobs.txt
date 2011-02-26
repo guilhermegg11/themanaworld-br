@@ -1,0 +1,10 @@
+//
+// Monstros do mapa: floresta Floresta
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+
+floresta.gat,0,0,0	script	Mobfloresta	-1,{
+
+	end;
+}
