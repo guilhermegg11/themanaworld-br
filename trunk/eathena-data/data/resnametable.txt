@@ -42,4 +42,5 @@ org025.gat#org025.wlk#
 org026.gat#org026.wlk#
 org027.gat#org027.wlk#
 org027-1.gat#org027-1.wlk#
+floresta.gat#floresta.wlk#
 submundo.gat#submundo.wlk#

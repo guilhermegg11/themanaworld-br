@@ -1,0 +1,4 @@
+map: floresta.gat
+npc: npc/floresta/_mobs.txt
+npc: npc/floresta/_scripts.txt
+npc: npc/floresta/_warps.txt

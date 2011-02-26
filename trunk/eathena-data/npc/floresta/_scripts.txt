@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: floresta Floresta
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
