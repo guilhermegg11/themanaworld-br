@@ -3,8 +3,15 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
+floresta.gat,0,0,0,0	monster	Lebre (400)	1321,350,0,0,Mobfloresta::On1322
+floresta.gat,0,0,0,0	monster	Colho (400)	1322,350,0,0,Mobfloresta::On1322
 
 floresta.gat,0,0,0	script	Mobfloresta	-1,{
+
+On1322:
+	set @mobID, 1322;
+	callfunc "MobPoints";
+	break;
 
 	end;
 }

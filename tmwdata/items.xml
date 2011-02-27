@@ -2608,14 +2608,24 @@
 	</item>
 	<!--ID 1220 Livre-->
 	<item id="1221"
-	        image="armor-head-skullmask.png"
-	        name="Máscara de Esqueleto"
-	        description="Uma máscara feita a partir de um crânio."
-	        effect=""
-	        type="equip-head"
-	        weight="150"
-	        defense="2">
-	        <sprite>head-skullmask.xml</sprite>
+		image="armor-head-skullmask.png"
+		name="Máscara de Esqueleto"
+		description="Uma máscara feita a partir de um crânio."
+		effect=""
+		type="equip-head"
+		weight="150"
+		defense="2">
+		<sprite>head-skullmask.xml</sprite>
+	</item>
+	<item id="1255"
+		image="armor-head-rabbitears.png|W:#FFFFFF"
+		name="White rabbit ears"
+		description="A headband with rabbit ears, pure white."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="20">
+		<sprite>equipment/head/rabbit-ears.xml|#FFFFFF</sprite>
 	</item>
 	<!-- The 2XXY IDs are used for recolored items on eAthena.
 		XX = item
@@ -4028,6 +4038,117 @@
 		weight="8"
 		max-per-slot="1">
 		<sprite>leg-skirt-mini.xml|#104010,208020,30c030</sprite>
+	</item>
+	<!-- IDs 2180 to 2189 RESERVED -->
+	<item id="2190"
+		image="armor-head-rabbitears.png|W:#580000,a40000,c02020,ff6060"
+		name="Red rabbit ears"
+		description="A headband with rabbit ears, bright red."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#580000,a40000,c02020,ff6060</sprite>
+	</item>
+	<item id="2191"
+		image="armor-head-rabbitears.png|W:#115511,22aa22,99dd99"
+		name="Green rabbit ears"
+		description="A headband with rabbit ears, a warm green."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2192"
+		image="armor-head-rabbitears.png|W:#222255,6666ff"
+		name="Dark blue rabbit ears"
+		description="A headband with rabbit ears, iridescent dark blue."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2193"
+		image="armor-head-rabbitears.png|W:#846211,dab333,fffb93,ffffff"
+		name="Yellow rabbit ears"
+		description="A headband with rabbit ears, a soft yellow."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2194"
+		image="armor-head-rabbitears.png|W:#16486e,498ec5,e4f2fc"
+		name="Light blue rabbit ears"
+		description="A headband with rabbit ears, a light blue."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2195"
+		image="armor-head-rabbitears.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Pink rabbit ears"
+		description="A headband with rabbit ears, bright pink."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2196"
+		image="armor-head-rabbitears.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Black rabbit ears"
+		description="A headband with rabbit ears, a deep black."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2197"
+		image="armor-head-rabbitears.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Orange rabbit ears"
+		description="A headband with rabbit ears, bright orange."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2198"
+		image="armor-head-rabbitears.png|W:#4f0a76,8010c0,d699f7"
+		name="Purple rabbit ears"
+		description="A headband with rabbit ears, a strong purple."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#4f0a76,8010c0,d699f7</sprite>
+	</item>
+	<item id="2199"
+		image="armor-head-rabbitears.png|W:#104010,208020,30c030"
+		name="Dark green rabbit ears"
+		description="A headband with rabbit ears, dark green."
+		effect="+5% Defense"
+		defense="5"
+		type="equip-head"
+		weight="15"
+		max-per-slot="1">
+		<sprite>equipment/head/rabbit-ears.xml|#104010,208020,30c030</sprite>
 	</item>
 
 	<!-- AQUI ESTAO OS ITENS CRIADOS PELA EQUIPE TMW-BR -->
