@@ -362,7 +362,7 @@
 //1241,SnowmanSnowGlobe,Snowman Snow Globe,3,7500,5000,1,,,,,,2,,,0,,{},{}
 //1242,SnowGoggles,Snow Goggles,5,7500,5000,10,,5,,-2,0,2,256,,0,0,{},{}
 //1243,PaperHat,Paper Party Hat,5,10,5,1,,1,, 0,0,2,256,,0,0,{},{}
-1255,WhiteRabbitEars,White Rabbit Ears,5,7000,5000,20,,5,,4,0,2,256,,1,0,{},{}
+1255,OrelhasdeLebre,Orelhas de Lebre,5,7000,5000,20,,5,,4,0,2,256,,1,0,{},{}
 2050,camisavermelhadealgodao,Camisa Vermelha de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2051,camisaverdedealgodao,Camisa Verde de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2052,camisaazulescuradealgodao,Camisa Azul Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
@@ -503,16 +503,16 @@
 //2187,paperhatlaranja,Paper Party Hat Laranja,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
 //2188,paperhatroxo,Paper Party Hat Roxo,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
 //2189,paperhatverdeescuro,Paper Party Hat Verde Escuro,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
-2190,RedRabbitEars,Red Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2191,GreenRabbitEars,Green Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2192,DarkBlueRabbitEars,Dark Blue Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2193,YellowRabbitEars,Yellow Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2194,LightBlueRabbitEars,Light Blue Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2195,PinkRabbitEars,Pink Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2196,BlackRabbitEars,Black Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2197,OrangeRabbitEars,Orange Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2198,PurpleRabbitEars,Purple Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2199,DarkGreenRabbitEars,Dark Green Rabbit Ears,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2190,OrelhasVermelhasdeLebre,Orelhas Vermelhas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2191,OrelhasVerdesdeLebre,Orelhas Verdes de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2192,OrelhasAzulEscurasdeLebre,Orelhas Azul Escuras de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2193,OrelhasAmarelasdeLebre,Orelhas Amarelas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2194,OrelhasAzulClarasdeLebre,Orelhas Azul Claras de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2195,OrelhasRosasdeLebre,Orelhas Rosas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2196,OrelhasPretasdeLebre,Orelhas Pretas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2197,OrelhasLaranjasdeLebre,Orelhas Laranjas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2198,OrelhasRoxasdeLebre,Orelhas Roxas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2199,OrelhasVerdeEscurasdeLebre,Orelhas Verde Escuras de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
 // ,,,,,,,,,,,,,,,,,,,,
 // ITENS DA EQUIPE TMW-BR,,,,,,,,,,,,,,,,,,,,
 // ,,,,,,,,,,,,,,,,,,,,
