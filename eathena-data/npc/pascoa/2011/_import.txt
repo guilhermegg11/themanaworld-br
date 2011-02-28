@@ -1,0 +1,7 @@
+// Ativas todos os NPCs, warps e monstros da páscoa de 2010
+
+npc: npc/pascoa/2011/coelho.conf
+npc: npc/pascoa/2011/shops.conf
+npc: npc/pascoa/2011/funcoes.conf
+
+npc: npc/pascoa/2011/_warps.txt
