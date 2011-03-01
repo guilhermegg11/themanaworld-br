@@ -11,9 +11,7 @@
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="lava_cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/lava_cave.png" width="512" height="256"/>
- </tileset>
+ <tileset firstgid="3" source="C:/Users/Leandro £ Leonardo/Desktop/lava_cave.tsx"/>
  <tileset firstgid="131" name="lava_anim" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/lava_cave_anim.png" width="512" height="32"/>
   <tile id="0">
@@ -73,7 +71,7 @@
    H4sIAAAAAAAAC+3BgQAAAADDoPlTn+AGVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3IiD9TYC1AQA=
   </data>
  </layer>
- <layer name="collision" width="200" height="140">
+ <layer name="collision" width="200" height="140" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+3TS24jMQwFwCD3P/Qgu2DgT6st8klRPaA2BiyySen76+vrGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJqNJN0rdEok/c1wVSpdvaXny77S6eotPWf2s0q6ekvMNr1jPtvfKkn21zXT9M6Zt8vurNBfxzzTe8f7uHL+qzrVs0zvnr3fR+XZd+cxc47p3bPX2/hJVX8rzia9f/J3YDSrvI+OeaX3z15v4ycrv4+Z80zvn3m77ExVn6vNNX0HdnFCVpnNSrtM37sdnJAV55PeZ/re7eCErDqn5G7T924Hp2TVeSV2nL5zOzklV2fw199I+r7tZkZ2eW/eR/6+7ebTdNyf2UnPbGYv3se676PrDlXkxLfRWfOvuJvOe1SR9PtI7OzTuqeqmPEOSb2P7n3NrH2iihnvkh3vZ8WZ7PM+7pw7u5eK76vYV/runGQkFffnyrmPzp79bRVnVuwpfV9ONJJZd/Hdea/Or/iukXOTO0r3carfefb73VT2d/U/XX1W7yfdB893cycVPVT0np7x1e9I98G1PV1JZc30HGZ9z+h/0r2zlnfprjn7/NH/pPfBOq6mu2ZyFumdsIbRdNZMzyK9G7IqMrveCnNI74mMXbLCDNK7ot+dzD7vk3R/f3pfp0nPfjSJmndS1Uf6vpxmhdmPJFFzpaTvC/1Gkqg5Wr8y6V3R72oSNavq3+khvSeyXqWzVkf9O32k90Pe/+ms9Swr9FDdBzzyLun6XX3AI++yQh/pGcGjpHtIzwQAAAAAAAAAAAAAAAAAAACAtf0Dn7DT0IC1AQA=
   </data>
