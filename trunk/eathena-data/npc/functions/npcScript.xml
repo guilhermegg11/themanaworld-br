@@ -9,6 +9,15 @@
 		</script>
 	</npc>
 
+	<npc id="placa" nome="[?]">
+		<var name="%NPC%" value="300"/>
+	</npc>
+
+	<npc id="teleport" nome="#teleport">
+		<var name="%NPC%" value="339"/>
+		<script>warp "floresta.gat", 0, 0;</script>
+	</npc>
+
 	<!-- Exemplo de como seria um script genérico para a Menir da Alma -->
 	<npc id="menir" nome="Menir da Alma">
 		<var name="%NAME%" value="Menir da Alma"/>
