@@ -162,6 +162,10 @@
 		<particlefx>graphics/particles/aura-negra.xml</particlefx>
 		<sprite>npcs/npc-barqueiro.xml</sprite>
 	</npc>
+	<npc id="339"> <!-- pequeno círculo branco -->
+		<sprite variant="0">npcs-br-32.xml</sprite>
+		<particlefx>graphics/particles/circulos.particle.xml</particlefx>
+	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->

@@ -2,3 +2,26 @@
 // Scripts do mapa: floresta Floresta
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+floresta.gat,272,183,0	script	#a	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que cogumelo é esse.";
+	close;
+
+OnTouch:
+	percentheal -5, -5;
+	warp "floresta.gat", 0, 0;
+	if(@falaCogumelo==0) goto _falas;
+	set @tmp, rand(3);
+	if(@tmp==0) message strcharinfo(0), "Tô ligado!";
+	if(@tmp==1) message strcharinfo(0), "Só manow!";
+	if(@tmp==2) message strcharinfo(0), "Mó viagem!";
+	end;
+
+_falas:
+	set @falaCogumelo, 1;
+	mes "Você volta à sua consciência sem lembrar de nada... só se lembra que o mundo começou a girar no momento em que tocou aquele cogumelo.";
+	mes "";
+	mes "Talvez este seja um cogumelo venenoso.";
+	close;
+}
