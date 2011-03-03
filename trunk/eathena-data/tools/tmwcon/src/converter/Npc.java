@@ -9,6 +9,7 @@ public class Npc implements Comparable<Npc>{
 	private String id;
 	private String grupo; //< Uso individual
 	private Boolean enabled = null;
+	private Boolean trigger = null; //< Se coloca ou não as coordenadas no NPC.
 
 	private List<Object> scripts = new ArrayList<Object>();
 	private HashMap<String, String> vars = new HashMap<String, String>();
@@ -44,10 +45,33 @@ public class Npc implements Comparable<Npc>{
 	public void setEnabled(String enabled) {
 		if(enabled.equals("true"))
 			this.enabled = Boolean.TRUE;
-		if(enabled.equals("false"))
+		else if(enabled.equals("false"))
 			this.enabled = Boolean.FALSE;
 		else
 			this.enabled = null;
+	}
+
+	public boolean isTrigger() {
+		if( trigger!=null && trigger==Boolean.TRUE )
+			return true;
+		return false;
+	}
+
+	public Boolean getTrigger() {
+		return trigger;
+	}
+
+	public void setTrigger(Boolean trigger) {
+		this.trigger = trigger;
+	}
+
+	public void setTrigger(String trigger) {
+		if(trigger.equals("true"))
+			this.trigger = Boolean.TRUE;
+		else if(trigger.equals("false"))
+			this.trigger = Boolean.FALSE;
+		else
+			this.trigger = null;
 	}
 
 	public String getId() {
