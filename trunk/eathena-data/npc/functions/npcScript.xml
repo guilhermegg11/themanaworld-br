@@ -13,9 +13,16 @@
 		<var name="%NPC%" value="300"/>
 	</npc>
 
-	<npc id="teleport" nome="#teleport">
+	<!-- Cogumelo capaz de teletransportar o jogador para um outro local do mesmo mapa. -->
+	<npc id="cogumeloTeleporte" nome="Cogumelo de Tele-transporte" trigger="true">
 		<var name="%NPC%" value="339"/>
-		<script>warp "floresta.gat", 0, 0;</script>
+		<script>
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "%MAPA%.gat";
+		</script>
 	</npc>
 
 	<!-- Exemplo de como seria um script genérico para a Menir da Alma -->
