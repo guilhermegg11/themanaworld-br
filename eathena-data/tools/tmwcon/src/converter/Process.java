@@ -110,10 +110,10 @@ public class Process {
 			nameScript = "#"+map+"_"+shape[0]+"x"+shape[1];
 		System.out.printf("Script: %s\n", name);
 		out.printf("\n// Script: %s\n", name);
-		if(shape[2]==0 && shape[3]==0)
-			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s, {\n", map, shape[0], shape[1], nameScript, npcIdx);
-		else
+		if(shape[2]!=0 && shape[3]!=0 || npc!=null && npc.getTrigger()==Boolean.TRUE)
 			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s,%d,%d,{\n", map, shape[0], shape[1], nameScript, npcIdx, shape[2]/2, shape[3]/2);
+		else
+			out.printf("%s.gat,%d,%d,0\tscript\t%s\t%s, {\n", map, shape[0], shape[1], nameScript, npcIdx);
 		if(script!=null)
 			out.printf("\t%s\n", script);
 		if(script1!=null)

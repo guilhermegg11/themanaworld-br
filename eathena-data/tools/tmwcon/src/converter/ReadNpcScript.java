@@ -62,6 +62,7 @@ public class ReadNpcScript {
 
 			npc = new Npc();
 			npc.setEnabled( getAtributo(tagNpc, "enabled", "") );
+			npc.setTrigger( getAtributo(tagNpc, "trigger", "") );
 			npc.setId( getAtributo(tagNpc, "id", null) );
 			if( npc.getId()==null ) continue;
 
