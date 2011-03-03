@@ -3,25 +3,142 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-floresta.gat,272,183,0	script	#a	339,0,0,{
+// Script: Cogumelo de Tele-transporte
+floresta.gat,252,184,0	script	#floresta_252x184	339,0,0,{
 	mes "Um cogumelo brilhante e misterioso!!!";
-	mes "Só chegando bem perto para saber que cogumelo é esse.";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
 	close;
-
 OnTouch:
-	percentheal -5, -5;
-	warp "floresta.gat", 0, 0;
-	if(@falaCogumelo==0) goto _falas;
-	set @tmp, rand(3);
-	if(@tmp==0) message strcharinfo(0), "Tô ligado!";
-	if(@tmp==1) message strcharinfo(0), "Só manow!";
-	if(@tmp==2) message strcharinfo(0), "Mó viagem!";
-	end;
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
 
-_falas:
-	set @falaCogumelo, 1;
-	mes "Você volta à sua consciência sem lembrar de nada... só se lembra que o mundo começou a girar no momento em que tocou aquele cogumelo.";
-	mes "";
-	mes "Talvez este seja um cogumelo venenoso.";
+// Script: Cogumelo de Tele-transporte
+floresta.gat,259,128,0	script	#floresta_259x128	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,252,255,0	script	#floresta_252x255	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,180,270,0	script	#floresta_180x270	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,124,267,0	script	#floresta_124x267	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,44,243,0	script	#floresta_44x243	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,41,180,0	script	#floresta_41x180	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,58,127,0	script	#floresta_58x127	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,56,51,0	script	#floresta_56x51	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,114,39,0	script	#floresta_114x39	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,183,37,0	script	#floresta_183x37	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,244,57,0	script	#floresta_244x57	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,154,136,0	script	#floresta_154x136	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Cogumelo de Tele-transporte
+floresta.gat,142,173,0	script	#floresta_142x173	339,0,0,{
+	mes "Um cogumelo brilhante e misterioso!!!";
+	mes "Só chegando bem perto para saber que tipo de cogumelo é esse.";
+	close;
+OnTouch:
+	callfunc "cogumeloTeleporte", "floresta.gat";
 	close;
 }
