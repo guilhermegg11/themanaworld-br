@@ -129,6 +129,7 @@ public class Process {
 				if( (scpt=Npc.paraGrupoScript(obj))!=null ){
 					if( scpt.contemGrupo(npc.getGrupo()) || scpt.getGrupos().size()==0){
 						script = scpt.getScript().replace("%MAPA%", map);
+						script = script.replace("%NAME%", nameScript);
 						//script = script.replace("%GRUPO%", npc.getGrupo());
 						script = script.replaceAll("%X%", String.valueOf(shape[0]) );
 						script = script.replaceAll("%Y%", String.valueOf(shape[1]) );

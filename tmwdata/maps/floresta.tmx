@@ -164,7 +164,7 @@
   </object>
   <object name="Esconderijo" type="script" x="5568" y="2176" width="32" height="32">
    <properties>
-    <property name="name" value="árvore"/>
+    <property name="name" value="árvore      "/>
     <property name="npc_id" value="escondeOvos"/>
     <property name="script" value="set @num, 3;"/>
    </properties>
@@ -178,7 +178,7 @@
   </object>
   <object name="Esconderijo" type="script" x="992" y="1056" width="32" height="32">
    <properties>
-    <property name="name" value="árvore"/>
+    <property name="name" value="árvore      "/>
     <property name="npc_id" value="escondeOvos"/>
     <property name="script" value="set @num, 5;"/>
    </properties>
@@ -192,7 +192,7 @@
   </object>
   <object name="Esconderijo" type="script" x="2112" y="5600" width="32" height="32">
    <properties>
-    <property name="name" value="árvore"/>
+    <property name="name" value="árvore      "/>
     <property name="npc_id" value="escondeOvos"/>
     <property name="script" value="set @num, 7;"/>
    </properties>
@@ -227,7 +227,7 @@
   </object>
   <object name="Esconderijo" type="script" x="8448" y="4832" width="32" height="32">
    <properties>
-    <property name="name" value="árvore"/>
+    <property name="name" value="árvore      "/>
     <property name="npc_id" value="escondeOvos"/>
     <property name="script" value="set @num, 12;"/>
    </properties>
