@@ -9,10 +9,6 @@
 		</script>
 	</npc>
 
-	<npc id="placa" nome="[?]">
-		<var name="%NPC%" value="300"/>
-	</npc>
-
 	<!-- Cogumelo capaz de teletransportar o jogador para um outro local do mesmo mapa. -->
 	<npc id="cogumeloTeleporte" nome="Cogumelo de Tele-transporte" trigger="true">
 		<var name="%NPC%" value="339"/>
@@ -22,6 +18,13 @@
 	close;
 OnTouch:
 	callfunc "cogumeloTeleporte", "%MAPA%.gat";
+		</script>
+	</npc>
+
+	<npc id="escondeOvos" nome="Esconderijo de ovos de páscoa">
+		<var name="%NPC%" value="300"/>
+		<script>
+		callfunc "escondeOvos", "%MAPA%.gat", %X%, %Y%;
 		</script>
 	</npc>
 
