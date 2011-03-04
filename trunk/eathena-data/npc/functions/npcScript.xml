@@ -24,7 +24,7 @@ OnTouch:
 	<npc id="escondeOvos" nome="Esconderijo de ovos de páscoa">
 		<var name="%NPC%" value="300"/>
 		<script>
-		callfunc "escondeOvos", "%MAPA%.gat", %X%, %Y%;
+		callfunc "escondeOvos", "%MAPA%.gat", %X%, %Y%, "%NAME%";
 		</script>
 	</npc>
 
