@@ -3,20 +3,40 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-floresta.gat,174,30,0	script	#armadilha0	340,0,0,{
-	mes "em espera";
+floresta.gat,174,30,0	script	#a	340,0,0,{
+	if( isin("floresta.gat", 174, 30, 174, 30)==0 ) goto _longe;
+	if(getnpctimer(0)==0) goto _armar;
+	if(getnpctimer(0)<5000) goto _disparar;
+	end;
+
+_longe:
+	mes "Há algo errado com isto! " + getnpctimer(0);
 	close;
+
+_armar:
+	initnpctimer;
+	fakenpcname "#a", "#a", 341;
+	end;
+
+_disparar:
+	percentheal -51, 0;
+	specialeffect2 28;
+	setnpctimer 10000;
+	fakenpcname "#a", "#a", 342;
+	end;
+
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#a", "#a", 340;
+	end;
+
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#a", "#a", 340;
+	end;
 }
-floresta.gat,174,31,0	script	#armadilha1	341,0,0,{
-	mes "armado";
-	close;
-}
-floresta.gat,174,32,0	script	#armadilha2	342,0,0,{
-	mes "disparado";
-	close;
-}
-//disablenpc "#armadilha1";
-//enablenpc "Nº "+getarg(0)+"#puft";
 
 // Script: Cogumelo de Tele-transporte
 floresta.gat,252,184,0	script	#floresta_252x184	339,0,0,{
