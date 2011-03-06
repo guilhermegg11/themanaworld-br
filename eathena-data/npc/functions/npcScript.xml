@@ -21,6 +21,24 @@ OnTouch:
 		</script>
 	</npc>
 
+	<npc id="armadilhaAco" nome="Armadilha de Aço" trigger="true">
+		<var name="%NPC%" value="340"/>
+		<script>
+	callfunc "armadilhaAco", "%MAPA%.gat", %X%, %Y%, "%NAME%";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "%NAME%", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "%NAME%", "#camuflada", 340;
+	end;
+		</script>
+	</npc>
+
 	<npc id="escondeOvos" nome="Esconderijo de ovos de páscoa">
 		<var name="%NPC%" value="300"/>
 		<script>

@@ -3,41 +3,6 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-floresta.gat,174,30,0	script	#a	340,0,0,{
-	if( isin("floresta.gat", 174, 30, 174, 30)==0 ) goto _longe;
-	if(getnpctimer(0)==0) goto _armar;
-	if(getnpctimer(0)<5000) goto _disparar;
-	end;
-
-_longe:
-	mes "Há algo errado com isto! " + getnpctimer(0);
-	close;
-
-_armar:
-	initnpctimer;
-	fakenpcname "#a", "#a", 341;
-	end;
-
-_disparar:
-	percentheal -51, 0;
-	specialeffect2 28;
-	setnpctimer 10000;
-	fakenpcname "#a", "#a", 342;
-	end;
-
-OnTimer5000:
-	stopnpctimer;
-	setnpctimer 0;
-	fakenpcname "#a", "#a", 340;
-	end;
-
-OnTimer15000:
-	stopnpctimer;
-	setnpctimer 0;
-	fakenpcname "#a", "#a", 340;
-	end;
-}
-
 // Script: Cogumelo de Tele-transporte
 floresta.gat,252,184,0	script	#floresta_252x184	339,0,0,{
 	mes "Um cogumelo brilhante e misterioso!!!";
@@ -175,6 +140,550 @@ floresta.gat,142,173,0	script	#floresta_142x173	339,0,0,{
 	close;
 OnTouch:
 	callfunc "cogumeloTeleporte", "floresta.gat";
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,163,33,0	script	#floresta_163x33	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 163, 33, "#floresta_163x33";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_163x33", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_163x33", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,177,49,0	script	#floresta_177x49	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 177, 49, "#floresta_177x49";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_177x49", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_177x49", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,164,89,0	script	#floresta_164x89	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 164, 89, "#floresta_164x89";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_164x89", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_164x89", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,190,30,0	script	#floresta_190x30	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 190, 30, "#floresta_190x30";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_190x30", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_190x30", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,271,110,0	script	#floresta_271x110	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 271, 110, "#floresta_271x110";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_271x110", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_271x110", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,247,127,0	script	#floresta_247x127	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 247, 127, "#floresta_247x127";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_247x127", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_247x127", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,200,144,0	script	#floresta_200x144	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 200, 144, "#floresta_200x144";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_200x144", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_200x144", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,265,135,0	script	#floresta_265x135	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 265, 135, "#floresta_265x135";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_265x135", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_265x135", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,130,32,0	script	#floresta_130x32	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 130, 32, "#floresta_130x32";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_130x32", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_130x32", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,126,47,0	script	#floresta_126x47	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 126, 47, "#floresta_126x47";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_126x47", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_126x47", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,107,33,0	script	#floresta_107x33	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 107, 33, "#floresta_107x33";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_107x33", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_107x33", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,130,84,0	script	#floresta_130x84	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 130, 84, "#floresta_130x84";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_130x84", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_130x84", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,199,171,0	script	#floresta_199x171	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 199, 171, "#floresta_199x171";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_199x171", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_199x171", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,231,173,0	script	#floresta_231x173	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 231, 173, "#floresta_231x173";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_231x173", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_231x173", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,260,182,0	script	#floresta_260x182	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 260, 182, "#floresta_260x182";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_260x182", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_260x182", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,275,204,0	script	#floresta_275x204	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 275, 204, "#floresta_275x204";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_275x204", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_275x204", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,24,106,0	script	#floresta_24x106	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 24, 106, "#floresta_24x106";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_24x106", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_24x106", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,42,118,0	script	#floresta_42x118	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 42, 118, "#floresta_42x118";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_42x118", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_42x118", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,33,141,0	script	#floresta_33x141	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 33, 141, "#floresta_33x141";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_33x141", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_33x141", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,82,149,0	script	#floresta_82x149	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 82, 149, "#floresta_82x149";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_82x149", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_82x149", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,42,175,0	script	#floresta_42x175	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 42, 175, "#floresta_42x175";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_42x175", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_42x175", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,26,184,0	script	#floresta_26x184	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 26, 184, "#floresta_26x184";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_26x184", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_26x184", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,79,163,0	script	#floresta_79x163	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 79, 163, "#floresta_79x163";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_79x163", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_79x163", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,32,198,0	script	#floresta_32x198	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 32, 198, "#floresta_32x198";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_32x198", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_32x198", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,176,270,0	script	#floresta_176x270	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 176, 270, "#floresta_176x270";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_176x270", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_176x270", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,160,270,0	script	#floresta_160x270	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 160, 270, "#floresta_160x270";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_160x270", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_160x270", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,166,246,0	script	#floresta_166x246	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 166, 246, "#floresta_166x246";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_166x246", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_166x246", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,156,212,0	script	#floresta_156x212	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 156, 212, "#floresta_156x212";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_156x212", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_156x212", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,128,220,0	script	#floresta_128x220	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 128, 220, "#floresta_128x220";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_128x220", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_128x220", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,130,256,0	script	#floresta_130x256	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 130, 256, "#floresta_130x256";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_130x256", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_130x256", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,102,275,0	script	#floresta_102x275	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 102, 275, "#floresta_102x275";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_102x275", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_102x275", "#camuflada", 340;
+	end;
+	close;
+}
+
+// Script: Armadilha de Aço
+floresta.gat,128,274,0	script	#floresta_128x274	340,0,0,{
+	callfunc "armadilhaAco", "floresta.gat", 128, 274, "#floresta_128x274";
+	end;
+OnTimer5000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_128x274", "#camuflada", 340;
+	end;
+OnTimer15000:
+	stopnpctimer;
+	setnpctimer 0;
+	fakenpcname "#floresta_128x274", "#camuflada", 340;
+	end;
 	close;
 }
 
