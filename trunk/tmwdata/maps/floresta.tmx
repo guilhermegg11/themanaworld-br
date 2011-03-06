@@ -129,6 +129,166 @@
     <property name="npc_id" value="cogumeloTeleporte"/>
    </properties>
   </object>
+  <object name="Armadilha de Aço" type="script" x="5216" y="1056" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="5664" y="1568" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="5248" y="2848" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="6080" y="960" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="8672" y="3520" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="7904" y="4064" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="6400" y="4608" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="8480" y="4320" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="4160" y="1024" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="4032" y="1504" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="3424" y="1056" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="4160" y="2688" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="6368" y="5472" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="7392" y="5536" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="8320" y="5824" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="8800" y="6528" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="768" y="3392" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="1344" y="3776" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="1056" y="4512" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="2624" y="4768" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="1344" y="5600" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="832" y="5888" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="2528" y="5216" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="1024" y="6336" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="5632" y="8640" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="5120" y="8640" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="5312" y="7872" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="4992" y="6784" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="4096" y="7040" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="4160" y="8192" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="3264" y="8800" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
+  <object name="Armadilha de Aço" type="script" x="4096" y="8768" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="armadilhaAco"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="objects" width="308" height="314" visible="0">
   <object name="borda" x="0" y="640" width="640" height="8768"/>
@@ -140,7 +300,7 @@
   <object name="trevo" type="spawn" x="6432" y="6880" width="1536" height="1504"/>
   <object name="trevo" type="spawn" x="1568" y="6688" width="1536" height="1504"/>
  </objectgroup>
- <objectgroup name="escondeOvos" width="308" height="314">
+ <objectgroup name="scripts" width="308" height="314">
   <object name="Esconderijo" type="script" x="3328" y="3904" width="32" height="32">
    <properties>
     <property name="name" value="pedra"/>
