@@ -175,6 +175,9 @@
 	<npc id="342"> <!-- armadilha de aço (disparo) -->
 		<sprite>npcs/npc-armadilha-aco3.xml</sprite>
 	</npc>
+	<npc id="343"> <!-- coelho rosa -->
+		<sprite>npcs/npc-lilica.xml</sprite>
+	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->
