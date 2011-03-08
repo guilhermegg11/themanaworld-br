@@ -3,7 +3,7 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-002.gat,101,24,8,9	monster	Morcego (5)	1017,5,0,0,Mob002::On1017
+002.gat,101,24,8,9	monster	Morcego (5) [60s]	1017,5,60000,0,Mob002::On1017
 
 002.gat,0,0,0	script	Mob002	-1,{
 
