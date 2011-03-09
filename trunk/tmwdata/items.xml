@@ -2638,7 +2638,7 @@
 		<sprite>equipment/head/rabbit-ears.xml|#FFFFFF</sprite>
 	</item>
 	<item id="1256"
-		image="equipment/head/eggshell-hat.png"
+		image="armor-head-eggshell-hat.png"
 		name="Eggshell hat"
 		description="A novelty hat shaped like an eggshell half."
 		effect="+12% Defence, -1 Agility"
@@ -4279,6 +4279,17 @@
 		weight="30"
 		max-per-slot="1">
 		<sprite>equipment/head/bowler-hat.xml|#104010,208020,30c030</sprite>
+	</item>
+	<item id="2999"
+		image="armor-head-bowler-hat.png"
+		name="Bowler Hat"
+		description="A hat for those with a bit of class."
+		effect=""
+		type="equip-head"
+		weight="30"
+		defense="10"
+		max-per-slot="1">
+		<sprite>equipment/head/bowler-hat.xml</sprite>
 	</item>
 
 	<!-- AQUI ESTAO OS ITENS CRIADOS PELA EQUIPE TMW-BR -->
