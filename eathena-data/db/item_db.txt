@@ -525,6 +525,7 @@
 2217,OrangeBowlerHat,Orange Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 2218,PurpleBowlerHat,Purple Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 2219,DarkGreenBowlerHat,Dark Green Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2999,BowlerHat,Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 // ,,,,,,,,,,,,,,,,,,,,
 // ITENS DA EQUIPE TMW-BR,,,,,,,,,,,,,,,,,,,,
 // ,,,,,,,,,,,,,,,,,,,,
