@@ -362,7 +362,9 @@
 //1241,SnowmanSnowGlobe,Snowman Snow Globe,3,7500,5000,1,,,,,,2,,,0,,{},{}
 //1242,SnowGoggles,Snow Goggles,5,7500,5000,10,,5,,-2,0,2,256,,0,0,{},{}
 //1243,PaperHat,Paper Party Hat,5,10,5,1,,1,, 0,0,2,256,,0,0,{},{}
+1247,HeartGlasses,Heart Glasses,5,7500,5000,20,,4,,5,0,2,256,,0,0,{},{}
 1255,OrelhasdeLebre,Orelhas de Lebre,5,7000,5000,20,,5,,4,0,2,256,,1,0,{},{}
+1256,EggshellHat,Eggshell Hat,5,7000,5000,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
 2050,camisavermelhadealgodao,Camisa Vermelha de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2051,camisaverdedealgodao,Camisa Verde de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2052,camisaazulescuradealgodao,Camisa Azul Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
@@ -513,6 +515,16 @@
 2197,OrelhasLaranjasdeLebre,Orelhas Laranjas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
 2198,OrelhasRoxasdeLebre,Orelhas Roxas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
 2199,OrelhasVerdeEscurasdeLebre,Orelhas Verde Escuras de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2210,RedBowlerHat,Red Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2211,GreenBowlerHat,Green Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2212,DarkBlueBowlerHat,Dark Blue Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2213,YellowBowlerHat,Yellow Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2214,LightBlueBowlerHat,Light Blue Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2215,PinkBowlerHat,Pink Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2216,BlackBowlerHat,Black Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2217,OrangeBowlerHat,Orange Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2218,PurpleBowlerHat,Purple Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+2219,DarkGreenBowlerHat,Dark Green Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 // ,,,,,,,,,,,,,,,,,,,,
 // ITENS DA EQUIPE TMW-BR,,,,,,,,,,,,,,,,,,,,
 // ,,,,,,,,,,,,,,,,,,,,
