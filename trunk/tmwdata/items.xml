@@ -2535,9 +2535,9 @@
 		type="generic"
 		weight="10"/>
 	<item id="1212"
-		image="generic-easteregg-teal.png"
-		name="Ovo de Páscoa Azul Claro"
-		description="Um ovo de páscoa azul claro. Saiba como presentear seu amigo falando com o Guia de Páscoa."
+		image="generic-easteregg-orange.png"
+		name="Ovo de Páscoa Laranja"
+		description="Um ovo de páscoa Laranja. Saiba como presentear seu amigo falando com o Guia de Páscoa."
 		type="generic"
 		weight="10"/>
 	<item id="1213"
@@ -2639,7 +2639,7 @@
 	</item>
 	<item id="1256"
 		image="armor-head-eggshell-hat.png"
-		name="Eggshell hat"
+		name="Chapéu Casca de Ovo"
 		description="A novelty hat shaped like an eggshell half."
 		effect="+12% Defence, -1 Agility"
 		defense="12"
@@ -4972,15 +4972,15 @@
 		type="generic"
 		weight="100"/>
 	<item id="3081"
-		image="generic-guache.png|W:#00ff00,CCffCC"
+		image="generic-guache.png|W:#008000,99ff99"
 		name="Tinta Guache Verde"
 		description="Um pote de tinta guache verde."
 		type="generic"
 		weight="100"/>
 	<item id="3082"
 		image="generic-guache.png|W:#2b2bd5,aaeeee"
-		name="Tinta Guache Azul Escuro"
-		description="Um pote de tinta guache azul escuro."
+		name="Tinta Guache Azul"
+		description="Um pote de tinta guache azul."
 		type="generic"
 		weight="100"/>
 	<item id="3083"
@@ -4990,13 +4990,13 @@
 		type="generic"
 		weight="100"/>
 	<item id="3084"
-		image="generic-guache.png|W:#00ffff,CCffff"
-		name="Tinta Guache Azul Claro"
-		description="Um pote de tinta guache azul claro."
+		image="generic-guache.png|W:#ff6600,ffc299"
+		name="Tinta Guache Laranja"
+		description="Um pote de tinta guache laranja."
 		type="generic"
 		weight="100"/>
 	<item id="3085"
-		image="generic-guache.png|W:#ff00ff,CC99CC"
+		image="generic-guache.png|W:#ff00ff,ffCCff"
 		name="Tinta Guache Rosa"
 		description="Um pote de tinta guache rosa."
 		type="generic"
@@ -5997,6 +5997,67 @@
 		weight="200"
 		defense="5">
 		<sprite>equipment/head/head-veu-noiva.xml</sprite>
+	</item>
+	<!-- 3223 livre -->
+	<!-- 3224 livre -->
+	<!-- 3225 livre -->
+	<!-- 3226 livre -->
+	<!-- 3227 livre -->
+	<!-- 3228 livre -->
+	<!-- 3229 livre -->
+	<item id="3231"
+		image="armor-head-eggshell-hat.png"
+		name="Chapéu Casca de Ovo Bolas Verdes"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com bolas verdes."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-bolas.xml|#008000,ccffcc</sprite>
+	</item>
+
+	<item id="3237"
+		image="armor-head-eggshell-hat.png"
+		name="Chapéu Casca de Ovo Estrelas Verdes"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com estrelas verdes."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-estrelas.xml|#008000,ccffcc</sprite>
+	</item>
+
+	<item id="3243"
+		image="armor-head-eggshell-hat.png"
+		name="Chapéu Casca de Ovo Listras Verdes"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com listras verdes."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-listras.xml|#008000,ccffcc</sprite>
+	</item>
+
+	<item id="3249"
+		image="armor-head-eggshell-hat.png"
+		name="Chapéu Casca de Ovo Patas Verdes"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com patas verdes."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-patas.xml|#008000,ccffcc</sprite>
+	</item>
+
+	<item id="3255"
+		image="armor-head-eggshell-hat.png"
+		name="Chapéu Casca de Ovo Cérebro Verde"
+		description="Um chapéu surpresa em forma de casca de ovo pintado um cérebro verde."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-cerebro.xml|#008000,ccffcc</sprite>
 	</item>
 
 </items>
