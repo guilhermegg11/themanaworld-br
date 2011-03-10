@@ -6005,20 +6005,79 @@
 	<!-- 3227 livre -->
 	<!-- 3228 livre -->
 	<!-- 3229 livre -->
+	<item id="3230"
+		image="armor-head-eggshell-bolas.png|W:#ff0000,ffbbbb"
+		name="Chapéu Casca de Ovo Bola Vermelha"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com bolas vermelhas."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-bolas.xml|#ff0000,ffbbbb</sprite>
+	</item>
 	<item id="3231"
-		image="armor-head-eggshell-hat.png"
-		name="Chapéu Casca de Ovo Bolas Verdes"
+		image="armor-head-eggshell-bolas.png|W:#008000,99ff99"
+		name="Chapéu Casca de Ovo Bola Verde"
 		description="Um chapéu surpresa em forma de casca de ovo pintado com bolas verdes."
 		effect="+12% Defence, -1 Agility"
 		defense="12"
 		type="equip-head"
 		weight="15">
-		<sprite>equipment/head/eggshell-bolas.xml|#008000,ccffcc</sprite>
+		<sprite>equipment/head/eggshell-bolas.xml|#008000,99ff99</sprite>
 	</item>
-
+	<item id="3232"
+		image="armor-head-eggshell-bolas.png|W:#2b2bd5,aaeeee"
+		name="Chapéu Casca de Ovo Bola Azul"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com bolas azuis."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-bolas.xml|#2b2bd5,aaeeee</sprite>
+	</item>
+	<item id="3233"
+		image="armor-head-eggshell-bolas.png|W:#eecc00,ffffBB"
+		name="Chapéu Casca de Ovo Bola Amarela"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com bolas amarelas."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-bolas.xml|#eecc00,ffffBB</sprite>
+	</item>
+	<item id="3234"
+		image="armor-head-eggshell-bolas.png|W:#ff6600,ffc299"
+		name="Chapéu Casca de Ovo Bola Laranja"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com bolas laranjas."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-bolas.xml|#ff6600,ffc299</sprite>
+	</item>
+	<item id="3235"
+		image="armor-head-eggshell-bolas.png|W:#ff00ff,ffCCff"
+		name="Chapéu Casca de Ovo Bola Rosa"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com bolas rosas."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-bolas.xml|#ff00ff,ffCCff</sprite>
+	</item>
+	<item id="3236"
+		image="armor-head-eggshell-estrelas.png|W:#ff0000,ffBBBB"
+		name="Chapéu Casca de Ovo Estrela Vermelha"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com estrelas vermelhas."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-estrelas.xml|#ff0000,ffBBBB</sprite>
+	</item>
 	<item id="3237"
-		image="armor-head-eggshell-hat.png"
-		name="Chapéu Casca de Ovo Estrelas Verdes"
+		image="armor-head-eggshell-estrelas.png|W:#008000,ccffcc"
+		name="Chapéu Casca de Ovo Estrela Verde"
 		description="Um chapéu surpresa em forma de casca de ovo pintado com estrelas verdes."
 		effect="+12% Defence, -1 Agility"
 		defense="12"
@@ -6026,9 +6085,49 @@
 		weight="15">
 		<sprite>equipment/head/eggshell-estrelas.xml|#008000,ccffcc</sprite>
 	</item>
+	<item id="3238"
+		image="armor-head-eggshell-estrelas.png|W:#2b2bd5,aaeeee"
+		name="Chapéu Casca de Ovo Estrela Azul"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com estrelas azuis."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-estrelas.xml|#2b2bd5,aaeeee</sprite>
+	</item>
+	<item id="3239"
+		image="armor-head-eggshell-estrelas.png|W:#eecc00,ffffBB"
+		name="Chapéu Casca de Ovo Estrela Amarela"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com estrelas amarelas."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-estrelas.xml|#eecc00,ffffBB</sprite>
+	</item>
+	<item id="3240"
+		image="armor-head-eggshell-estrelas.png|W:#ff6600,ffc299"
+		name="Chapéu Casca de Ovo Estrela Laranja"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com estrelas laranjas."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-estrelas.xml|#ff6600,ffc299</sprite>
+	</item>
+	<item id="3241"
+		image="armor-head-eggshell-estrelas.png|W:#ff00ff,ffCCff"
+		name="Chapéu Casca de Ovo Estrela Rosa"
+		description="Um chapéu surpresa em forma de casca de ovo pintado com estrelas rosas."
+		effect="+12% Defence, -1 Agility"
+		defense="12"
+		type="equip-head"
+		weight="15">
+		<sprite>equipment/head/eggshell-estrelas.xml|#ff00ff,ffCCff</sprite>
+	</item>
 
 	<item id="3243"
-		image="armor-head-eggshell-hat.png"
+		image="armor-head-eggshell-listras.png|W:#008000,ccffcc"
 		name="Chapéu Casca de Ovo Listras Verdes"
 		description="Um chapéu surpresa em forma de casca de ovo pintado com listras verdes."
 		effect="+12% Defence, -1 Agility"
@@ -6039,7 +6138,7 @@
 	</item>
 
 	<item id="3249"
-		image="armor-head-eggshell-hat.png"
+		image="armor-head-eggshell-patas.png|W:#008000,ccffcc"
 		name="Chapéu Casca de Ovo Patas Verdes"
 		description="Um chapéu surpresa em forma de casca de ovo pintado com patas verdes."
 		effect="+12% Defence, -1 Agility"
@@ -6050,7 +6149,7 @@
 	</item>
 
 	<item id="3255"
-		image="armor-head-eggshell-hat.png"
+		image="armor-head-eggshell-cerebro.png|W:#008000,ccffcc"
 		name="Chapéu Casca de Ovo Cérebro Verde"
 		description="Um chapéu surpresa em forma de casca de ovo pintado um cérebro verde."
 		effect="+12% Defence, -1 Agility"
