@@ -5998,7 +5998,16 @@
 		defense="5">
 		<sprite>equipment/head/head-veu-noiva.xml</sprite>
 	</item>
-	<!-- 3223 livre -->
+	<item id="3223"
+		image="armor-head-funkyhat.png"
+		name="Gorro do Sono"
+		description="Um gorro que te faz dormir. Que sono!"
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>equipment/head/gorro-sono.xml</sprite>
+	</item>
 	<!-- 3224 livre -->
 	<!-- 3225 livre -->
 	<!-- 3226 livre -->
