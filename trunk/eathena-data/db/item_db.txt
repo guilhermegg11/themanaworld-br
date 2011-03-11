@@ -364,7 +364,7 @@
 //1243,PaperHat,Paper Party Hat,5,10,5,1,,1,, 0,0,2,256,,0,0,{},{}
 1247,HeartGlasses,Heart Glasses,5,7500,5000,20,,4,,5,0,2,256,,0,0,{},{}
 1255,OrelhasdeLebre,Orelhas de Lebre,5,7000,5000,20,,5,,4,0,2,256,,1,0,{},{}
-1256,hatCascaOvo,hatCascaOvo,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
+1256,hatCascaOvo,hatCascaOvo,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 2050,camisavermelhadealgodao,Camisa Vermelha de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2051,camisaverdedealgodao,Camisa Verde de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2052,camisaazulescuradealgodao,Camisa Azul Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
@@ -773,33 +773,33 @@
 //3229 livre
 
 //ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
-3230,hatCascaOvo1_1,hatCascaOvo1_1,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3231,hatCascaOvo1_2,hatCascaOvo1_2,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3232,hatCascaOvo1_3,hatCascaOvo1_3,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3233,hatCascaOvo1_4,hatCascaOvo1_4,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3234,hatCascaOvo1_5,hatCascaOvo1_5,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3235,hatCascaOvo1_6,hatCascaOvo1_6,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3236,hatCascaOvo2_1,hatCascaOvo2_1,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3237,hatCascaOvo2_2,hatCascaOvo2_2,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3238,hatCascaOvo2_3,hatCascaOvo2_3,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3239,hatCascaOvo2_4,hatCascaOvo2_4,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3240,hatCascaOvo2_5,hatCascaOvo2_5,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3241,hatCascaOvo2_6,hatCascaOvo2_6,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3242,hatCascaOvo3_1,hatCascaOvo3_1,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3243,hatCascaOvo3_2,hatCascaOvo3_2,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3244,hatCascaOvo3_3,hatCascaOvo3_3,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3245,hatCascaOvo3_4,hatCascaOvo3_4,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3246,hatCascaOvo3_5,hatCascaOvo3_5,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3247,hatCascaOvo3_6,hatCascaOvo3_6,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3248,hatCascaOvo4_1,hatCascaOvo4_1,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3249,hatCascaOvo4_2,hatCascaOvo4_2,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3250,hatCascaOvo4_3,hatCascaOvo4_3,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3251,hatCascaOvo4_4,hatCascaOvo4_4,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3252,hatCascaOvo4_5,hatCascaOvo4_5,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3253,hatCascaOvo4_6,hatCascaOvo4_6,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3254,hatCascaOvo5_1,hatCascaOvo5_1,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3255,hatCascaOvo5_2,hatCascaOvo5_2,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3256,hatCascaOvo5_3,hatCascaOvo5_3,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3257,hatCascaOvo5_4,hatCascaOvo5_4,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3258,hatCascaOvo5_5,hatCascaOvo5_5,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
-3259,hatCascaOvo5_6,hatCascaOvo5_6,5,7000,2500,15,,12,,0,0,2,256,,1,0,{},{ bonus bAgi,-1; }
+3230,hatCascaOvo1_1,hatCascaOvo1_1,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3231,hatCascaOvo1_2,hatCascaOvo1_2,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3232,hatCascaOvo1_3,hatCascaOvo1_3,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3233,hatCascaOvo1_4,hatCascaOvo1_4,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3234,hatCascaOvo1_5,hatCascaOvo1_5,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3235,hatCascaOvo1_6,hatCascaOvo1_6,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3236,hatCascaOvo2_1,hatCascaOvo2_1,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3237,hatCascaOvo2_2,hatCascaOvo2_2,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3238,hatCascaOvo2_3,hatCascaOvo2_3,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3239,hatCascaOvo2_4,hatCascaOvo2_4,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3240,hatCascaOvo2_5,hatCascaOvo2_5,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3241,hatCascaOvo2_6,hatCascaOvo2_6,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3242,hatCascaOvo3_1,hatCascaOvo3_1,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3243,hatCascaOvo3_2,hatCascaOvo3_2,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3244,hatCascaOvo3_3,hatCascaOvo3_3,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3245,hatCascaOvo3_4,hatCascaOvo3_4,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3246,hatCascaOvo3_5,hatCascaOvo3_5,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3247,hatCascaOvo3_6,hatCascaOvo3_6,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3248,hatCascaOvo4_1,hatCascaOvo4_1,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3249,hatCascaOvo4_2,hatCascaOvo4_2,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3250,hatCascaOvo4_3,hatCascaOvo4_3,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3251,hatCascaOvo4_4,hatCascaOvo4_4,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3252,hatCascaOvo4_5,hatCascaOvo4_5,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3253,hatCascaOvo4_6,hatCascaOvo4_6,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3254,hatCascaOvo5_1,hatCascaOvo5_1,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3255,hatCascaOvo5_2,hatCascaOvo5_2,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3256,hatCascaOvo5_3,hatCascaOvo5_3,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3257,hatCascaOvo5_4,hatCascaOvo5_4,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3258,hatCascaOvo5_5,hatCascaOvo5_5,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+3259,hatCascaOvo5_6,hatCascaOvo5_6,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
