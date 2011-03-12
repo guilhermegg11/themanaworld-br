@@ -120,23 +120,28 @@
 
 	<action name="sit" imageset="base">
 		<animation direction="down">
-		  <frame index="5" offsetX="0" offsetY ="-30" delay="300"/>
-		  <frame index="6" offsetX="0" offsetY ="-30" delay="300"/>
-		  <frame index="7" offsetX="0" offsetY ="-30" delay="300"/>
-		  <frame index="8" offsetX="0" offsetY ="-30" delay="300"/>
-		  <frame index="9" offsetX="0" offsetY ="-30" delay="300"/>
-		  <frame index="8" offsetX="0" offsetY ="-30" delay="300"/>
-		  <frame index="7" offsetX="0" offsetY ="-30" delay="300"/>
-		  <frame index="6" offsetX="0" offsetY ="-30" delay="300"/>
+		  <sequence start="5" end="9" offsetY="-30" delay="670"/>
+		  <frame index="8" offsetX="0" offsetY ="-30" delay="670"/>
+		  <frame index="7" offsetX="0" offsetY ="-30" delay="670"/>
+		  <frame index="6" offsetX="0" offsetY ="-30" delay="670"/>
 		</animation>
 		<animation direction="left">
-		  <frame index="1" offsetX="5" offsetY ="-31"/>
+		  <sequence start="15" end="19" offsetX="5" offsetY="-31" delay="670"/>
+		  <frame index="18" offsetX="5" offsetY ="-31" delay="670"/>
+		  <frame index="17" offsetX="5" offsetY ="-31" delay="670"/>
+		  <frame index="16" offsetX="5" offsetY ="-31" delay="670"/>
 		</animation>
 		<animation direction="up">
-		  <frame index="2" offsetX="1" offsetY ="-33"/>
+		  <sequence start="20" end="24" offsetX="1" offsetY="-33" delay="670"/>
+		  <frame index="23" offsetX="1" offsetY ="-33" delay="670"/>
+		  <frame index="22" offsetX="1" offsetY ="-33" delay="670"/>
+		  <frame index="21" offsetX="1" offsetY ="-33" delay="670"/>
 		</animation>
 		<animation direction="right">
-		  <frame index="3" offsetX="-7" offsetY ="-31"/>
+		  <sequence start="10" end="14" offsetX="-7" offsetY="-31" delay="670"/>
+		  <frame index="13" offsetX="-7" offsetY ="-31" delay="670"/>
+		  <frame index="12" offsetX="-7" offsetY ="-31" delay="670"/>
+		  <frame index="11" offsetX="-7" offsetY ="-31" delay="670"/>
 		</animation>
 	</action>
 
