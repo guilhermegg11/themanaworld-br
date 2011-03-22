@@ -3,10 +3,10 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-floresta.gat,0,0,0,0	monster	Lebre (400)	1321,400,0,0,Mobfloresta::On1321
-floresta.gat,0,0,0,0	monster	Colho (400)	1322,400,0,0,Mobfloresta::On1322
+012.gat,0,0,0,0	monster	Lebre (400)	1321,400,0,0,Mobfloresta::On1321
+012.gat,0,0,0,0	monster	Colho (400)	1322,400,0,0,Mobfloresta::On1322
 
-floresta.gat,0,0,0	script	Mobfloresta	-1,{
+012.gat,0,0,0	script	Mobfloresta	-1,{
 
 On1321:
 	set @mobID, 1321;

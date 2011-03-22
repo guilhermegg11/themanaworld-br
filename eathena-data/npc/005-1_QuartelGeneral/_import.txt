@@ -10,3 +10,4 @@ npc: npc/005-1_QuartelGeneral/menir_alma.conf
 npc: npc/005-1_QuartelGeneral/parua.conf
 // Boram é apenas uma proposta. Estou colocando no repositório para vocês testarem e avaliar se o NPC é útil.
 npc: npc/005-1_QuartelGeneral/boram.conf
+npc: npc/005-1_QuartelGeneral/onclock.conf

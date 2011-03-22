@@ -1,5 +1,5 @@
-map: submundo.gat
-npc: npc/submundo/_mobs.txt
-npc: npc/submundo/_scripts.txt
-npc: npc/submundo/_warps.txt
-npc: npc/submundo/barqueiro.conf
+map: 011.gat
+npc: npc/011_submundo/_mobs.txt
+npc: npc/011_submundo/_scripts.txt
+npc: npc/011_submundo/_warps.txt
+npc: npc/011_submundo/barqueiro.conf
