@@ -32,6 +32,8 @@
 010-1.gat#010-1.wlk#
 010-2.gat#010-2.wlk#
 010-3.gat#010-3.wlk#
+011.gat#011.wlk#
+012.gat#012.wlk#
 prisao.gat#prisao.wlk#
 calabouco.gat#calabouco.wlk#
 navio.gat#navio.wlk#
@@ -42,5 +44,3 @@ org025.gat#org025.wlk#
 org026.gat#org026.wlk#
 org027.gat#org027.wlk#
 org027-1.gat#org027-1.wlk#
-floresta.gat#floresta.wlk#
-submundo.gat#submundo.wlk#

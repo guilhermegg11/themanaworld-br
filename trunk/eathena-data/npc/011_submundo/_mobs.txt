@@ -4,7 +4,7 @@
 //
 
 
-submundo.gat,0,0,0	script	Mobsubmundo	-1,{
+011.gat,0,0,0	script	Mobsubmundo	-1,{
 
 	end;
 }
