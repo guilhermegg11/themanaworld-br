@@ -362,8 +362,8 @@
 //1241,SnowmanSnowGlobe,Snowman Snow Globe,3,7500,5000,1,,,,,,2,,,0,,{},{}
 //1242,SnowGoggles,Snow Goggles,5,7500,5000,10,,5,,-2,0,2,256,,0,0,{},{}
 //1243,PaperHat,Paper Party Hat,5,10,5,1,,1,, 0,0,2,256,,0,0,{},{}
-1247,HeartGlasses,Heart Glasses,5,7500,5000,20,,4,,5,0,2,256,,0,0,{},{}
-1255,orelhasdeLebre,Orelhas de Lebre,5,7000,5000,20,,5,,4,0,2,256,,1,0,{},{}
+1247,oculosCoracao,oculosCoracao,5,7500,5000,20,,1,,5,0,2,256,,0,0,{},{}
+1255,orelhasdeLebre,Orelhas de Lebre,5,7000,5000,20,,1,,4,0,2,256,,1,0,{},{}
 1256,hatCascaOvo,hatCascaOvo,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 2050,camisavermelhadealgodao,Camisa Vermelha de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2051,camisaverdedealgodao,Camisa Verde de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
@@ -505,16 +505,16 @@
 //2187,paperhatlaranja,Paper Party Hat Laranja,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
 //2188,paperhatroxo,Paper Party Hat Roxo,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
 //2189,paperhatverdeescuro,Paper Party Hat Verde Escuro,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
-2190,orelhasVermelhasdeLebre,Orelhas Vermelhas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2191,orelhasVerdesdeLebre,Orelhas Verdes de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2192,orelhasAzulEscurasdeLebre,Orelhas Azul Escuras de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2193,orelhasAmarelasdeLebre,Orelhas Amarelas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2194,orelhasAzulClarasdeLebre,Orelhas Azul Claras de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2195,orelhasRosasdeLebre,Orelhas Rosas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2196,orelhasPretasdeLebre,Orelhas Pretas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2197,orelhasLaranjasdeLebre,Orelhas Laranjas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2198,orelhasRoxasdeLebre,Orelhas Roxas de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
-2199,orelhasVerdeEscurasdeLebre,Orelhas Verde Escuras de Lebre,5,7000,5000,15,,5,,4,0,2,256,,1,0,{},{}
+2190,orelhasVermelhasdeLebre,Orelhas Vermelhas de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2191,orelhasVerdesdeLebre,Orelhas Verdes de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2192,orelhasAzulEscurasdeLebre,Orelhas Azul Escuras de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2193,orelhasAmarelasdeLebre,Orelhas Amarelas de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2194,orelhasAzulClarasdeLebre,Orelhas Azul Claras de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2195,orelhasRosasdeLebre,Orelhas Rosas de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2196,orelhasPretasdeLebre,Orelhas Pretas de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2197,orelhasLaranjasdeLebre,Orelhas Laranjas de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2198,orelhasRoxasdeLebre,Orelhas Roxas de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
+2199,orelhasVerdeEscurasdeLebre,Orelhas Verde Escuras de Lebre,5,7000,5000,15,,1,,4,0,2,256,,1,0,{},{}
 2210,RedBowlerHat,Red Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 2211,GreenBowlerHat,Green Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 2212,DarkBlueBowlerHat,Dark Blue Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}

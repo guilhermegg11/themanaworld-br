@@ -2619,11 +2619,10 @@
 	</item>
 	<item id="1247"
 		image="armor-head-heart-glasses.png"
-		name="Heart Glasses"
-		description="Heart Glasses from another universe. Decisions were different there."
-		effect="+8% Defense"
+		name="Óculos de Coração"
+		description="Óculos de coração de um tempo que era só paz e amor."
+		defense="1"
 		type="equip-head"
-		defense="8"
 		weight="20">
 		<sprite>equipment/head/heart-glasses.xml</sprite>
 	</item>
@@ -2631,8 +2630,7 @@
 		image="armor-head-rabbitears.png|W:#FFFFFF"
 		name="Orelhas de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="20">
 		<sprite>equipment/head/rabbit-ears.xml|#FFFFFF</sprite>
@@ -4064,8 +4062,7 @@
 		image="armor-head-rabbitears.png|W:#580000,a40000,c02020,ff6060"
 		name="Orelhas Vermelhas de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4075,8 +4072,7 @@
 		image="armor-head-rabbitears.png|W:#115511,22aa22,99dd99"
 		name="Orelhas Verdes de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4086,8 +4082,7 @@
 		image="armor-head-rabbitears.png|W:#222255,6666ff"
 		name="Orelhas Azul Escuras de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4097,8 +4092,7 @@
 		image="armor-head-rabbitears.png|W:#846211,dab333,fffb93,ffffff"
 		name="Orelhas Amarelas de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4108,8 +4102,7 @@
 		image="armor-head-rabbitears.png|W:#16486e,498ec5,e4f2fc"
 		name="Orelhas Azul Claras de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4119,8 +4112,7 @@
 		image="armor-head-rabbitears.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
 		name="Orelhas Rosas de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4130,8 +4122,7 @@
 		image="armor-head-rabbitears.png|W:#111111,222222,333333,444444,555555,aaaaaa"
 		name="Orelhas Pretas de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4141,8 +4132,7 @@
 		image="armor-head-rabbitears.png|W:#80280f,b04810,ef681f,ffb830"
 		name="Orelhas Laranjas de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4152,8 +4142,7 @@
 		image="armor-head-rabbitears.png|W:#4f0a76,8010c0,d699f7"
 		name="Orelhas Roxas de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
@@ -4163,8 +4152,7 @@
 		image="armor-head-rabbitears.png|W:#104010,208020,30c030"
 		name="Orelhas Verde Escuras de Lebre"
 		description="Um belo par de orelhas de lebre."
-		effect="+5% Defense"
-		defense="5"
+		defense="1"
 		type="equip-head"
 		weight="15"
 		max-per-slot="1">
