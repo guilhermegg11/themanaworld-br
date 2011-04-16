@@ -9,3 +9,38 @@
 	mes "* Centro Comercial da Vila dos Pescadores.";
 	close;
 }
+
+// Script: Esconderijo
+007.gat,135,113,0	script	barril	300, {
+	set @num, 34;
+	callfunc "escondeOvos", "007.gat", 135, 113, "barril";
+	close;
+}
+
+// Script: Esconderijo
+007.gat,109,75,0	script	palmeira	300, {
+	set @num, 35;
+	callfunc "escondeOvos", "007.gat", 109, 75, "palmeira";
+	close;
+}
+
+// Script: Esconderijo
+007.gat,175,27,0	script	árvore      	300, {
+	set @num, 36;
+	callfunc "escondeOvos", "007.gat", 175, 27, "árvore      ";
+	close;
+}
+
+// Script: Esconderijo
+007.gat,44,119,0	script	ninho	300, {
+	set @num, 37;
+	callfunc "escondeOvos", "007.gat", 44, 119, "ninho";
+	close;
+}
+
+// Script: Esconderijo
+007.gat,44,35,0	script	cactus	300, {
+	set @num, 38;
+	callfunc "escondeOvos", "007.gat", 44, 35, "cactus";
+	close;
+}

@@ -352,4 +352,41 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="Esconderijos" width="308" height="314">
+  <object name="Esconderijo" type="script" x="3360" y="3040" width="32" height="32">
+   <properties>
+    <property name="name" value="trigo"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 39;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="3744" y="832" width="32" height="32">
+   <properties>
+    <property name="name" value="planta"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 40;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="1600" y="3072" width="32" height="32">
+   <properties>
+    <property name="name" value="cerca"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 41;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="2304" y="1152" width="32" height="32">
+   <properties>
+    <property name="name" value="palmeira"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 42;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="1696" y="2048" width="32" height="32">
+   <properties>
+    <property name="name" value="cactus"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 43;"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

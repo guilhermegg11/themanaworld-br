@@ -2,3 +2,38 @@
 // Scripts do mapa: 008 Ilha Fortaleza
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Esconderijo
+008.gat,108,118,0	script	pedra	300, {
+	set @num, 29;
+	callfunc "escondeOvos", "008.gat", 108, 118, "pedra";
+	close;
+}
+
+// Script: Esconderijo
+008.gat,160,59,0	script	árvore      	300, {
+	set @num, 30;
+	callfunc "escondeOvos", "008.gat", 160, 59, "árvore      ";
+	close;
+}
+
+// Script: Esconderijo
+008.gat,104,34,0	script	pedra	300, {
+	set @num, 31;
+	callfunc "escondeOvos", "008.gat", 104, 34, "pedra";
+	close;
+}
+
+// Script: Esconderijo
+008.gat,26,43,0	script	placa	300, {
+	set @num, 32;
+	callfunc "escondeOvos", "008.gat", 26, 43, "placa";
+	close;
+}
+
+// Script: Esconderijo
+008.gat,35,81,0	script	árvore      	300, {
+	set @num, 33;
+	callfunc "escondeOvos", "008.gat", 35, 81, "árvore      ";
+	close;
+}

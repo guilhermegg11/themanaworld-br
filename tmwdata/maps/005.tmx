@@ -395,4 +395,41 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="Esconderijos" width="308" height="314">
+  <object name="Esconderijo" type="script" x="4960" y="3712" width="32" height="32">
+   <properties>
+    <property name="name" value="pedra"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 24;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="5056" y="1664" width="32" height="32">
+   <properties>
+    <property name="name" value="cerca"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 25;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="2368" y="1344" width="32" height="32">
+   <properties>
+    <property name="name" value="bueiro"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 26;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="800" y="1760" width="32" height="32">
+   <properties>
+    <property name="name" value="vaso"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 27;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="4576" y="672" width="32" height="32">
+   <properties>
+    <property name="name" value="monte de terra"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 28;"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
