@@ -291,4 +291,41 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="Esconderijos" width="308" height="314">
+  <object name="Esconderijo" type="script" x="4256" y="1856" width="32" height="32">
+   <properties>
+    <property name="name" value="poste de luz"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 49;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="5152" y="2496" width="32" height="32">
+   <properties>
+    <property name="name" value="barril"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 50;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="5440" y="3456" width="32" height="32">
+   <properties>
+    <property name="name" value="cerca"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 51;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="1856" y="3136" width="32" height="32">
+   <properties>
+    <property name="name" value="pedra"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 52;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="2144" y="1696" width="32" height="32">
+   <properties>
+    <property name="name" value="pilha de madeira"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 53;"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

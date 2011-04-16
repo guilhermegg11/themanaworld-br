@@ -337,7 +337,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="pedraEmanar" width="200" height="140">
+ <objectgroup name="pedraEmanar" width="200" height="140" visible="0">
   <object name="Pedra de Emanar Alma" type="script" x="5280" y="3296" width="32" height="32">
    <properties>
     <property name="npc_id" value="pedraEmanar"/>
@@ -351,6 +351,43 @@
   <object name="Pedra de Emanar Alma" type="script" x="2400" y="864" width="32" height="32">
    <properties>
     <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Esconderijos" width="308" height="314">
+  <object name="Esconderijo" type="script" x="3456" y="3776" width="32" height="32">
+   <properties>
+    <property name="name" value="pedra"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 29;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="5120" y="1888" width="32" height="32">
+   <properties>
+    <property name="name" value="árvore      "/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 30;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="3328" y="1088" width="32" height="32">
+   <properties>
+    <property name="name" value="pedra"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 31;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="832" y="1376" width="32" height="32">
+   <properties>
+    <property name="name" value="placa"/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 32;"/>
+   </properties>
+  </object>
+  <object name="Esconderijo" type="script" x="1120" y="2592" width="32" height="32">
+   <properties>
+    <property name="name" value="árvore      "/>
+    <property name="npc_id" value="escondeOvos"/>
+    <property name="script" value="set @num, 33;"/>
    </properties>
   </object>
  </objectgroup>

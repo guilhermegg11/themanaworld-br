@@ -2,3 +2,38 @@
 // Scripts do mapa: 005 Fortaleza
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Esconderijo
+005.gat,155,116,0	script	pedra	300, {
+	set @num, 24;
+	callfunc "escondeOvos", "005.gat", 155, 116, "pedra";
+	close;
+}
+
+// Script: Esconderijo
+005.gat,158,52,0	script	cerca	300, {
+	set @num, 25;
+	callfunc "escondeOvos", "005.gat", 158, 52, "cerca";
+	close;
+}
+
+// Script: Esconderijo
+005.gat,74,42,0	script	bueiro	300, {
+	set @num, 26;
+	callfunc "escondeOvos", "005.gat", 74, 42, "bueiro";
+	close;
+}
+
+// Script: Esconderijo
+005.gat,25,55,0	script	vaso	300, {
+	set @num, 27;
+	callfunc "escondeOvos", "005.gat", 25, 55, "vaso";
+	close;
+}
+
+// Script: Esconderijo
+005.gat,143,21,0	script	monte de terra	300, {
+	set @num, 28;
+	callfunc "escondeOvos", "005.gat", 143, 21, "monte de terra";
+	close;
+}
