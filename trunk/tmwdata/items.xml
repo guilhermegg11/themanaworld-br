@@ -6018,11 +6018,41 @@
 		defense="1">
 		<sprite>equipment/head/bone-pascoa.xml</sprite>
 	</item>
-	<!-- 3225 livre -->
-	<!-- 3226 livre -->
-	<!-- 3227 livre -->
-	<!-- 3228 livre -->
-	<!-- 3229 livre -->
+	<item id="3225"
+		image="generic-easteregg-silver.png"
+		name="Ovo de Páscoa Prateado"
+		description="Um ovo de páscoa prateado. Não se encontra um desses em qualquer lugar."
+		type="generic"
+		weight="340"/>
+	<item id="3226"
+		image="generic-easteregg-gold.png"
+		name="Ovo de Páscoa Dourado"
+		description="Um ovo de páscoa dourado. Um ovo mais que especial."
+		effect="Item de evento (Não venda)"
+		type="generic"
+		weight="1"/>
+	<item id="3227"
+		image="generic-medalha-ouro.png"
+		name="Halloween 2011 - Medalha de Ouro"
+		description="Medalha de ouro"
+		effect="+3 Sorte"
+		type="equip-charm"
+		weight="90"/>
+	<item id="3228"
+		image="generic-medalha-prata.png"
+		name="Halloween 2011 - Medalha de Prata"
+		description="Medalha de prata"
+		effect="+2 Sorte"
+		type="equip-charm"
+		weight="90"/>
+	<item id="3229"
+		image="generic-medalha-bronze.png"
+		name="Halloween 2011 - Medalha de Bronze"
+		description="Medalha de bronze"
+		effect="+1 Sorte"
+		type="equip-charm"
+		weight="90"/>
+
 	<item id="3230"
 		image="armor-head-eggshell-bolas.png|W:#ff0000,ffbbbb"
 		name="Chapéu Casca de Ovo Bola Vermelha"
