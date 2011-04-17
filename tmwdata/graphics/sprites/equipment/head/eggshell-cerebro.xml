@@ -135,7 +135,7 @@
 
 	<action name="dead" imageset="base">
 		<animation direction="default">
-			<frame index="4" offsetX="21" offsetY="-4"/>
+			<frame index="4" offsetX="26" offsetY="-14"/>
 		</animation>
 	</action>
 
