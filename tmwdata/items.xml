@@ -5990,7 +5990,7 @@
 		image="armor-head-funkyhat.png"
 		name="Gorro do Sono"
 		description="Um gorro que te faz dormir. Que sono!"
-		effect=""
+		effect="Fará você adormecer profundamente."
 		type="equip-head"
 		weight="20"
 		defense="3">
