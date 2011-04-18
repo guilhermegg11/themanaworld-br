@@ -5999,7 +5999,7 @@
 		effect="Fará você adormecer profundamente."
 		type="equip-head"
 		weight="20"
-		defense="3">
+		defense="1">
 		<sprite>equipment/head/gorro-sono.xml</sprite>
 	</item>
 	<item id="3224"
