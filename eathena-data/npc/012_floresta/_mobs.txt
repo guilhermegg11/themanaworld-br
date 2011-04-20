@@ -11,12 +11,14 @@
 On1321:
 	set @mobID, 1321;
 	callfunc "MobPoints";
+	callfunc "getEvento";
 	callfunc "dropOvoDourado";
 	break;
 
 On1322:
 	set @mobID, 1322;
 	callfunc "MobPoints";
+	callfunc "getEvento";
 	callfunc "dropOvoDourado";
 	break;
 
