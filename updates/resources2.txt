@@ -10,3 +10,4 @@ update_2011-02-08.zip ea4cdef3
 update_2011-04-12.zip cc0a5ced
 2011_pascoa1.zip 2a2d0cfb
 2011_pascoa2.zip ef061d16
+2011_pascoa3.zip f82e96ae
