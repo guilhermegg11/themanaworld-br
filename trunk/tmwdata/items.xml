@@ -4958,7 +4958,7 @@
 		name="Rolo de Papel de Embrulho"
 		description="Um pesado rolo de papel de embrulho."
 		type="generic"
-		weight="1000"/>
+		weight="100"/>
 	<item id="3080"
 		image="generic-guache.png|W:#ff0000,ffBBBB"
 		name="Tinta Guache Vermelha"
