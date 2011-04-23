@@ -6036,14 +6036,14 @@
 	<item id="3228"
 		image="generic-medalha-prata.png"
 		name="Top15 Páscoa 2011 - Medalha de Prata"
-		description="Medalha de ouro por estar entre os 10 melhores do Top15 da páscoa de 2011 do TMW-BR."
+		description="Medalha de prata por estar entre os 10 melhores do Top15 da páscoa de 2011 do TMW-BR."
 		effect="+2 Sorte"
 		type="equip-charm"
 		weight="90"/>
 	<item id="3229"
 		image="generic-medalha-bronze.png"
 		name="Top15 Páscoa 2011 - Medalha de Bronze"
-		description="Medalha de ouro por estar entre os 15 melhores do Top15 da páscoa de 2011 do TMW-BR."
+		description="Medalha de bronze por estar entre os 15 melhores do Top15 da páscoa de 2011 do TMW-BR."
 		effect="+1 Sorte"
 		type="equip-charm"
 		weight="90"/>
