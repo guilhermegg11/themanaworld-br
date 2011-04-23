@@ -4,6 +4,7 @@ npc: npc/pascoa/2011/coelho.conf
 npc: npc/pascoa/2011/shops.conf
 npc: npc/pascoa/2011/lilica.conf
 npc: npc/pascoa/2011/bauPremios.conf
+npc: npc/pascoa/2011/premiacao.conf
 npc: npc/pascoa/2011/funcoes.conf
 npc: npc/pascoa/2011/infoPascoa2.conf
 
