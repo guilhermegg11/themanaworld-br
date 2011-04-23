@@ -767,7 +767,7 @@
 3223,gorroSono,gorroSono,5,500,250,20,,1,,2,0,2,256,,0,0,{},{}
 3224,bonePascoa,bonePascoa,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3225,ovoPascoaPrata,ovoPascoaPrata,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; callfunc "buffOvo"; },{}
-3226,ovoPascoaDourado,ovoPascoaDourado,3,80,40,0,,,,,,2,,,0,,{},{}
+3226,ovoPascoaDourado,ovoPascoaDourado,3,80,1,0,,,,,,2,,,0,,{},{}
 3227,pascoa2011ouro,pascoa2011ouro,5,9000,3000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 3; }
 3228,pascoa2011prata,pascoa2011prata,5,6000,2000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 2; }
 3229,pascoa2011bonze,pascoa2011bonze,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
