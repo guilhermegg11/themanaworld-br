@@ -39,7 +39,8 @@ OnTimer15000:
 		</script>
 	</npc>
 
-	<npc id="escondeOvos" nome="Esconderijo de ovos de páscoa">
+	<!-- DESATIVADO - Usado na páscoa -->
+	<npc id="escondeOvos" nome="Esconderijo de ovos de páscoa" enabled="false">
 		<var name="%NPC%" value="300"/>
 		<script>
 		callfunc "escondeOvos", "%MAPA%.gat", %X%, %Y%, "%NAME%";
