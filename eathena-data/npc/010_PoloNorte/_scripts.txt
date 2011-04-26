@@ -2,38 +2,3 @@
 // Scripts do mapa: 010 Polo Norte
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
-
-// Script: Esconderijo
-010.gat,133,58,0	script	poste de luz	300, {
-	set @num, 49;
-	callfunc "escondeOvos", "010.gat", 133, 58, "poste de luz";
-	close;
-}
-
-// Script: Esconderijo
-010.gat,161,78,0	script	barril	300, {
-	set @num, 50;
-	callfunc "escondeOvos", "010.gat", 161, 78, "barril";
-	close;
-}
-
-// Script: Esconderijo
-010.gat,170,108,0	script	cerca	300, {
-	set @num, 51;
-	callfunc "escondeOvos", "010.gat", 170, 108, "cerca";
-	close;
-}
-
-// Script: Esconderijo
-010.gat,58,98,0	script	pedra	300, {
-	set @num, 52;
-	callfunc "escondeOvos", "010.gat", 58, 98, "pedra";
-	close;
-}
-
-// Script: Esconderijo
-010.gat,67,53,0	script	pilha de madeira	300, {
-	set @num, 53;
-	callfunc "escondeOvos", "010.gat", 67, 53, "pilha de madeira";
-	close;
-}
