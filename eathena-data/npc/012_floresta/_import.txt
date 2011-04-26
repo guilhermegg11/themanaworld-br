@@ -1,4 +1,5 @@
 map: 012.gat
+npc: npc/012_floresta/pedraEncantada.conf
 npc: npc/012_floresta/_mobs.txt
 npc: npc/012_floresta/_scripts.txt
 npc: npc/012_floresta/_warps.txt
