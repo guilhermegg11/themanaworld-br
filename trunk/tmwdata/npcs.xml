@@ -187,6 +187,7 @@
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->
 	<npc id="402"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/espada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Espada -->
+	<npc id="403"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada somente Partículas -->
 
 	<!-- npcs de premiação -->
 	<npc id="410"><sprite variant="0">npcs/npc-premios.xml</sprite></npc> <!-- vazio -->
