@@ -3,23 +3,19 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-012.gat,0,0,0,0	monster	Lebre (400)	1321,400,0,0,Mobfloresta::On1321
-012.gat,0,0,0,0	monster	Colho (400)	1322,400,0,0,Mobfloresta::On1322
+012.gat,0,0,0,0	monster	Lebre (400)	1321,100,0,0,Mobfloresta::On1321
+012.gat,0,0,0,0	monster	Colho (400)	1322,100,0,0,Mobfloresta::On1322
 
 012.gat,0,0,0	script	Mobfloresta	-1,{
 
 On1321:
 	set @mobID, 1321;
 	callfunc "MobPoints";
-	callfunc "getEvento";
-	callfunc "dropOvoDourado";
 	break;
 
 On1322:
 	set @mobID, 1322;
 	callfunc "MobPoints";
-	callfunc "getEvento";
-	callfunc "dropOvoDourado";
 	break;
 
 	end;

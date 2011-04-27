@@ -8,6 +8,7 @@
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
   <property name="overlay0scrollY" value="0.1"/>
+  <property name="pasta" value="floresta"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
@@ -47,15 +48,15 @@
  <objectgroup name="Cogumelos" width="308" height="314">
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="4640" y="4832"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="4768" y="5344"/>
-  <object name="Lebre (400)" type="spawn" x="0" y="0">
+  <object name="Lebre (100)" type="spawn" x="0" y="0">
    <properties>
-    <property name="max_beings" value="400"/>
+    <property name="max_beings" value="100"/>
     <property name="monster_id" value="319"/>
    </properties>
   </object>
-  <object name="Colho (400)" type="spawn" x="0" y="0">
+  <object name="Coelho (100)" type="spawn" x="0" y="0">
    <properties>
-    <property name="max_beings" value="400"/>
+    <property name="max_beings" value="100"/>
     <property name="monster_id" value="320"/>
    </properties>
   </object>

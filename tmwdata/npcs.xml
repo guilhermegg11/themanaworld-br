@@ -183,32 +183,14 @@
 		<particlefx>graphics/particles/emanar-alma-pedra.xml</particlefx>
 		<sprite>npcs/npc-pascoa2011-tmwbr.xml</sprite>
 	</npc>
+	<npc id="345"><sprite variant="0">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua -->
+	<npc id="346"><sprite variant="1">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua -->
+	<npc id="347"><sprite variant="2">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua quebrada -->
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->
 	<npc id="402"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/espada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Espada -->
 	<npc id="403"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada somente Partículas -->
-
-	<!-- npcs de premiação -->
-	<npc id="410"><sprite variant="0">npcs/npc-premios.xml</sprite></npc> <!-- vazio -->
-	<npc id="411"><sprite variant="1">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="412"><sprite variant="2">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="413"><sprite variant="3">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="414"><sprite variant="4">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="415"><sprite variant="5">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="416"><sprite variant="6">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="417"><sprite variant="7">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="418"><sprite variant="8">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="419"><sprite variant="9">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="420"><sprite variant="10">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="421"><sprite variant="11">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="422"><sprite variant="12">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="423"><sprite variant="13">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="424"><sprite variant="14">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="425"><sprite variant="15">npcs/npc-premios.xml</sprite><particlefx>graphics/particles/brilho-estrelas.xml</particlefx></npc> <!-- premio -->
-	<npc id="426"><sprite variant="0">npcs/npc-estatuas.xml</sprite></npc> <!-- estatua -->
-	<npc id="427"><sprite variant="1">npcs/npc-estatuas.xml</sprite></npc> <!-- estatua -->
-	<npc id="428"><sprite variant="2">npcs/npc-estatuas.xml</sprite></npc> <!-- estatua quebrada -->
 
 	<!-- ########## IDs 500~599 reservado para o sprite "npcs-br2.png"######################### -->
 	<!-- NPCs Mágicos -->
