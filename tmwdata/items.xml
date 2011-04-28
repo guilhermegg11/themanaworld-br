@@ -66,13 +66,13 @@
 	<item id="-18" type="hairsprite" name="Espetado3">
 		<sprite>hairstyle18.xml</sprite>
 	</item>
-	<item id="-19" type="hairsprite" name="Espetado4">
+	<item id="-19" type="hairsprite" name="Longas mechas estilizadas">
 		<sprite>hairstyle19.xml</sprite>
 	</item>
-	<item id="-20" type="hairsprite" name="Espetado5">
+	<item id="-20" type="hairsprite" name="Cabelo desarmado">
 		<sprite>hairstyle20.xml</sprite>
 	</item>
-	<item id="-21" type="hairsprite" name="Espetado6">
+	<item id="-21" type="hairsprite" name="Rabo de cavalo longo">
 		<sprite>hairstyle21.xml</sprite>
 	</item>
 
