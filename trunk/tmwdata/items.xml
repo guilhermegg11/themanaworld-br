@@ -60,6 +60,21 @@
 	<item id="-16" type="hairsprite" name="Espetado">
 		<sprite>hairstyle16.xml</sprite>
 	</item>
+	<item id="-17" type="hairsprite" name="Espetado2">
+		<sprite>hairstyle17.xml</sprite>
+	</item>
+	<item id="-18" type="hairsprite" name="Espetado3">
+		<sprite>hairstyle18.xml</sprite>
+	</item>
+	<item id="-19" type="hairsprite" name="Espetado4">
+		<sprite>hairstyle19.xml</sprite>
+	</item>
+	<item id="-20" type="hairsprite" name="Espetado5">
+		<sprite>hairstyle20.xml</sprite>
+	</item>
+	<item id="-21" type="hairsprite" name="Espetado6">
+		<sprite>hairstyle21.xml</sprite>
+	</item>
 
 	<!-- Treating the base sprite as equipment too will be useful when we
 		 implement other playable races -->
