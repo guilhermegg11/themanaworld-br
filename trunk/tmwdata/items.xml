@@ -60,10 +60,10 @@
 	<item id="-16" type="hairsprite" name="Espetado">
 		<sprite>hairstyle16.xml</sprite>
 	</item>
-	<item id="-17" type="hairsprite" name="Espetado2">
+	<item id="-17" type="hairsprite" name="Liso com franja">
 		<sprite>hairstyle17.xml</sprite>
 	</item>
-	<item id="-18" type="hairsprite" name="Espetado3">
+	<item id="-18" type="hairsprite" name="Curto com pontas">
 		<sprite>hairstyle18.xml</sprite>
 	</item>
 	<item id="-19" type="hairsprite" name="Longas mechas estilizadas">
