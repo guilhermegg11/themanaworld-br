@@ -111,7 +111,7 @@
 578,cortadoradeareia,Cortadora de Areia,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
 579,RockKnife,Rock Knife,4,15000,7500,3000,300,,1,,0,2,34,1,1,1,{},{}
 580,cajadodavida,Cajado da Vida,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
-581,varinhameialua,Varinha Meia Lua,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
+581,varinhameialua,Varinha Meia Lua,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{ bonus bMatk1, 100; }
 582,cajadodefogo,Cajado de Fogo,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
 583,cajadodegelo,Cajado de Gelo,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
 584,Jackal,Jackal,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}

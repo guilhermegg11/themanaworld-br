@@ -3,16 +3,16 @@
 // This constant is used to define whether unreleased items are equippable. This defaults to on, but should be disabled on the official server.
 debug		1
 
-mf_nomemo	0
-mf_noteleport	1
-mf_nosave	2
-mf_nobranch	3
-mf_nopenalty	4
-mf_pvp		5
-mf_pvp_noparty	6
-mf_pvp_noguild	7
-mf_gvg		8
-mf_gvg_noparty	9
+mf_nomemo			0
+mf_noteleport		1
+mf_nosave			2
+mf_nobranch			3
+mf_nopenalty		4
+mf_pvp				5
+mf_pvp_noparty		6
+mf_pvp_noguild		7
+mf_gvg				8
+mf_gvg_noparty		9
 mf_nozenypenalty	10
 
 StatusPoint	9	1
@@ -21,7 +21,7 @@ SkillPoint	12	1
 Class		19	1
 Upper		56	1
 Zeny		20	1
-Sex		21	1
+Sex			21	1
 Weight		24	1
 MaxWeight	25	1
 JobLevel	55	1
@@ -29,9 +29,9 @@ BaseExp		1	1
 JobExp		2	1
 NextBaseExp	22	1
 NextJobExp	23	1
-Hp		5	1
+Hp			5	1
 MaxHp		6	1
-Sp		7	1
+Sp			7	1
 MaxSp		8	1
 
 bMaxHP		6
@@ -199,7 +199,7 @@ MASK1_ARCO_FLORESTA		16384
 MASK1_ESCUDO_MADEIRA	32768
 MASK1_PEDRA_AGUIA		65536
 MASK1_COLAR_AGUIA		131072
-MASK1_CAMELIA_BAU			262144
+MASK1_CAMELIA_BAU		262144
 //MASK1_xyz				524288
 //MASK1_xyz				1048576
 //MASK1_xyz				2097152
