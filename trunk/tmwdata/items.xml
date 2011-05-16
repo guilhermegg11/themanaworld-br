@@ -795,10 +795,10 @@
 		image="weapon-staff-crescentrod.png"
 		name="Varinha Meia lua"
 		description="Uma varinha mágica com um formato em meia lua."
-		effect=""
+		effect="Nível 50, +100 Atq.Mág"
 		type="equip-1hand"
 		weapon-type="staff"
-		weight="1"/>
+		weight="95"/>
 	<item id="582"
 		image="weapon-staff-staffoffire.png"
 		name="Cajado de Fogo"
@@ -1956,8 +1956,8 @@
 	<item id="725"
 		image="armor-head-gmcap.png|R:#BF0E08"
 		name="Boné GM"
-		description="Um boné que te identifica como GM."
-		effect=""
+		description="Um boné que te identifica como GM. (proibido o uso para jogadores)"
+		effect="Magias de GM / Imunidade total."
 		type="equip-head"
 		defense="5"
 		weight="20">
