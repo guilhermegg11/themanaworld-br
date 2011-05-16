@@ -131,6 +131,9 @@ bAgiVit			1071
 bAgiDexStr		1072
 bPerfectHide		1073
 
+bNoMagicDamage		2003
+bNoWeaponDamage		2004
+
 equip_head 1
 equip_shield 2
 equip_hand2 3
