@@ -55,6 +55,7 @@ bFlee2		51
 bCritical	52
 bAspd		53
 bDeaf		70
+bGM			500
 
 bAtkRange	1000
 bAtkEle		1001
