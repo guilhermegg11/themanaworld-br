@@ -177,7 +177,7 @@
 644,chapeupretodevaqueiro,Chapéu Preto de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
 645,armaduradouradaleve,Armadura Dourada Leve,5,9999000,3000,1200,,25,,-100,0,2,512,,0,0,{},{}
 646,coroareal,Coroa Real,5,5000,1000,240,,4,,0,0,2,256,,0,0,{},{}
-647,bonededesenvolvedor,Boné de Desenvolvedor,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{ bonus bGM, 1; }
+647,bonededesenvolvedor,Boné de Desenvolvedor,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{}
 //648,RESERVED,Áspero Anel de Força,,,,,,,,,,,,,,,{},{}
 //649,RESERVED,Áspero Anel de Agilidade,,,,,,,,,,,,,,,{},{}
 //650,RESERVED,Áspero Anel de Destreza,,,,,,,,,,,,,,,{},{}
@@ -255,8 +255,8 @@
 722,capacetedefossil,Capacete de Fóssil,5,15000,3000,250,,7,,10,0,2,256,,0,0,{},{ bonus bMdef, 20; }
 723,chapeudodeserto,Chapéu do Deserto,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
 724,faixadealgodao,Faixa de Algodão,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
-725,bonegm,Boné GM,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{ bonus bGM, 1; bonus bNoWeaponDamage, 1; bonus bNoMagicDamage, 1; }
-726,tunicagm,Túnica GM,5,8000,4000,40,,5,,0,0,2,512,,0,0,{},{ bonus bGM, 1; }
+725,bonegm,Boné GM,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{ bonus bNoWeaponDamage, 1; bonus bNoMagicDamage, 1; }
+726,tunicagm,Túnica GM,5,8000,4000,40,,5,,0,0,2,512,,0,0,{},{}
 727,Iten,Iten,3,0,0,8000,,,,,,,,,,,{},{}
 //728,esculturademouboo,Escultura de Mouboo,3,0,0,9,,,,,,,,,,,{},{}
 //729,tocodistorcido,Toco Distorcido,3,0,0,8,,,,,,,,,,,{},{}
@@ -547,7 +547,7 @@
 3015,mantoEncantado,mantoEncantado,5,8000,4000,10,,5,,0,0,2,512,,0,0,{},{bonus bMdef, 10; }
 3016,colarHorcrux,colarHorcrux,3,1000,500,10,,,,,,,,,,,{},{}
 3017,colarHorcruxFada,colarHorcruxFada,5,8000,4000,10,0,,,0,0,2,128,,0,0,{},{ bonus bAtk, BaseLevel/2+1; bonus bMaxHP, BaseLevel*2; bonus bMaxSP, BaseLevel; }
-3018,AFKCap,AFKCap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{ bonus bGM, 1; }
+3018,AFKCap,AFKCap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{}
 3019,couroCobraGrama,couroCobraGrama,3,300,150,20,,,,,,,,,,,{},{}
 3020,poEncantado,poEncantado,3,500,250,3,,,,,,2,,,0,,{},{}
 3021,asasFada,asasFada,3,300,150,3,,,,,,2,,,0,,{},{}
