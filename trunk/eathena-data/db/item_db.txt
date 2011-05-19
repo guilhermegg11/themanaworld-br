@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // item_db.txt, Item Database
 //
-//ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
+//ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 //
 // Type: 0 Healing, 2: Usable, 3: Misc, 4: Weapon, 5: Armor, 6: Card, 7: Pet egg,
 //       8: petequip, 10: arrow, 11: Usable with delayed consumption (all items with
@@ -18,8 +18,7 @@
 // Refinamento(wLV): O nível de refinamento da arma. Pode ser 1, 2, 3 ou 4 por padrão.
 //                   Pode ir além dependendo do seu arquivo "refine_db.txt" (Não é usado no TMW. Padrão é "")
 //
-// Elements(eLV): 0 Nothing, 1 Water, 2 Earth ,3 Fire, 4 Wind, 5 Poison, 6 Saint, 7 Darkness, 8 Sense,
-//                9 Immortality (Não é usado no TMW. Padrão é "")
+// Level Mínimo(Lvl): Restringe o level para uso do item/equipamento.
 //
 // Aparencia(View): Número da imagem que irá aparecer no inventário. (Não é usado no TMW. Padrão é "")
 //
@@ -29,7 +28,7 @@
 //     * http://docs.google.com/Doc?docid=0AaRrmO-Uhm1tZGYyY2o1czJfMTk1Y2JudG5jZzM&hl=pt_BR
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
+#ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 0,DEFAULT,Default,0,20,10,10,,,,,,2,,,,,{},{}
 501,bebidadecactus,Bebida de Cactus,0,50,25,4,,,,,,2,,,0,,{ itemheal 15,0; },{}
 502,pocaodecactus,Poção de Cactus,0,70,35,7,,,,,,2,,,0,,{ itemheal 25,0; },{}
@@ -590,7 +589,7 @@
 3057,ZambacutouPedra,Zambacutou de Pedra,4,175000,97500,2500,160,,1,,0,2,34,1,2,1,{},{}
 3058,ZambacutouVelha,Zambacutou Velha,4,115000,57500,1200,115,,1,,0,2,34,1,2,1,{},{}
 
-//ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
+//ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 3059,MarcaCobre,Marca de Cobre,3,1000,990,3000,,,,,,,,,,,{},{}
 3060,MarcaPrata,Marca de Prata,3,10000,9900,3000,,,,,,,,,,,{},{}
 3061,MarcaOuro,Marca de Ouro,3,100000,99000,3000,,,,,,,,,,,{},{}
@@ -772,7 +771,7 @@
 3228,pascoa2011prata,pascoa2011prata,5,6000,2000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 2; }
 3229,pascoa2011bonze,pascoa2011bonze,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
 
-//ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,eLV,View,{UseScript},{EquipScript}
+//ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 3230,hatCascaOvo1_1,hatCascaOvo1_1,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 3231,hatCascaOvo1_2,hatCascaOvo1_2,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 3232,hatCascaOvo1_3,hatCascaOvo1_3,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
