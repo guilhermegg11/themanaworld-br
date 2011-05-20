@@ -795,7 +795,7 @@
 		image="weapon-staff-crescentrod.png"
 		name="Varinha Meia lua"
 		description="Uma varinha mágica com um formato em meia lua."
-		effect="Nível 50, +100 Atq.Mág"
+		effect="lvl 50, +100 Atq.Mág"
 		type="equip-1hand"
 		weapon-type="staff"
 		weight="95"/>
@@ -6371,7 +6371,7 @@
 		image="armor-chest-odalisca-top.png"
 		name="Top Odalisca ♀"
 		description="Um top à moda das areias de Sarab."
-		effect=""
+		effect=" lvl 60"
 		type="equip-torso"
 		weight="13"
 		defense="2">
@@ -6381,11 +6381,21 @@
 		image="armor-legs-odalisca-saia.png"
 		name="Saia Odalisca ♀"
 		description="Uma saia à moda das areias de Sarab."
-		effect=""
+		effect="lvl 60"
 		type="equip-legs"
 		weight="20"
 		defense="2">
 		<sprite>equipment/leg/leg-odalisca-saia.xml</sprite>
+	</item>
+	<item id="3262"
+		image="weapon-facao-sarabiano.png"
+		name="Facão Sarabiano"
+		description="Facão sarabiano muito leve e afiado."
+		effect="lvl 55, +115 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="900">
+		<sprite>equipment/weapon/weapon-facao-sarabiano.xml</sprite>
 	</item>
 
 </items>
