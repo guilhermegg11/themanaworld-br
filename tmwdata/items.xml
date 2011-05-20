@@ -309,7 +309,7 @@
 		image="armor-chest-leathershirt.png"
 		name="Camisa de Couro"
 		description="Uma camisa feita de couro endurecido."
-		effect=""
+		effect="lvl 20"
 		type="equip-torso"
 		weight="20"
 		defense="4">
@@ -512,7 +512,7 @@
 		image="armor-chest-desertshirt.png"
 		name="Camisa do deserto"
 		description="Uma camisa apropriada para viagens no deserto."
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="20"
 		defense="6">
@@ -644,10 +644,10 @@
 		image="armor-chest-tnecksweater.png|W:#A4B2B2,FFFFFF"
 		name="Suéter de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="30"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#A4B2B2,FFFFFF</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
 	</item>
@@ -1168,10 +1168,10 @@
 		image="armor-chest-vnecksweater.png|W:#A4B2B2,FFFFFF"
 		name="Suéter com Decote em V"
 		description="Um suéter quente e macio."
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#A4B2B2,FFFFFF</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
 	</item>
@@ -1179,7 +1179,7 @@
 		image="armor-chest-chainmail.png"
 		name="Camisa de correntes"
 		description="Uma camisa feita de correntes. Muito pesada, mas oferece boa proteção."
-		effect=""
+		effect="lvl 30"
 		type="equip-torso"
 		weight="800"
 		defense="20">
@@ -1190,10 +1190,10 @@
 		image="armor-chest-lightplatemail.png|W:#ddeeff"
 		name="Armadura Leve"
 		description="Uma couraça leve com um reforço de aço, geralmente usada por soldados rasos."
-		effect=""
+		effect="lvl 40"
 		type="equip-torso"
 		weight="1200"
-		defense="25">
+		defense="24">
 		<sprite gender="male">chest-lightplatemail-male.xml|#ddeeff</sprite>
 		<sprite gender="female">chest-lightplatemail-female.xml|#ddeeff</sprite>
 	</item>
@@ -1366,7 +1366,7 @@
 		image="armor-chest-lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
 		name="Armadura Dourada Leve"
 		description="Uma leve armadura dourada banhada a ouro."
-		effect=""
+		effect="lvl 60"
 		type="equip-torso"
 		weight="1200"
 		defense="25">
@@ -1478,10 +1478,10 @@
 		image="armor-chest-warlordplate.png"
 		name="Armadura do Lorde da Guerra"
 		description="Uma armadura brilhante e resistente."
-		effect=""
+		effect="lvl 50"
 		type="equip-torso"
 		weight="2600"
-		defense="27">
+		defense="26">
 		<sprite gender="male">chest-warlordplate-male.xml</sprite>
 		<sprite gender="female">chest-warlordplate-female.xml</sprite>
 	</item>
@@ -1489,7 +1489,7 @@
 		image="armor-chest-warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
 		name="Armadura do Lord da Guerra Dourada"
 		description="Uma forte armadura banhada a ouro."
-		effect=""
+		effect="lvl 90"
 		type="equip-torso"
 		weight="2600"
 		defense="27">
@@ -1894,18 +1894,18 @@
 		type="generic"
 		weight="1"/>
 	<item id="719"
-	        image="use-food-apple.png|R:#73E600;Y:#C1F102;G:#66CC33"
-	        name="Maçã Verde"
-	        description="Uma saudável maçã verde."
-	        effect=""
-	        type="usable"
-	        hp="45"
-	        weight="5"/>
+		image="use-food-apple.png|R:#73E600;Y:#C1F102;G:#66CC33"
+		name="Maçã Verde"
+		description="Uma saudável maçã verde."
+		effect=""
+		type="usable"
+		hp="45"
+		weight="5"/>
 	<item id="720"
 		image="armor-chest-robe.png|W:#ffffff"
 		name="Túnica de Seda"
 		description="Uma brilhante túnica de seda."
-		effect=""
+		effect="lvl 30"
 		type="equip-torso"
 		weight="5"
 		defense="5">
@@ -1968,7 +1968,7 @@
 		description="Uma túnica feita para o uso exclusivo dos GMs."
 		effect=""
 		type="equip-torso"
-		defense="5"
+		defense="2"
 		weight="40">
 		<sprite gender="male">chest-robe-male.xml|#E40A0A</sprite>
 		<sprite gender="female">chest-robe-female.xml|#E40A0A</sprite>
@@ -2198,10 +2198,10 @@
 		image="armor-chest-assassintop.png"
 		name="Camisa de Assassino"
 		description="Uma camisa feita para assassinos profissionais."
-		effect=""
+		effect="lvl 30"
 		type="equip-torso"
-		weight="1"
-		defense="1">
+		weight="150"
+		defense="10">
 		<sprite gender="male">chest-assassin-male.xml</sprite>
 		<sprite gender="female">chest-assassin-female.xml</sprite>
 	</item>
@@ -2315,7 +2315,7 @@
 		image="armor-chest-terranite.png"
 		name="Armadura de Terranite"
 		description="Uma ótima armadura feita de terranite."
-		effect=""
+		effect="lvl 40"
 		type="equip-torso"
 		weight="1"
 		defense="1">
@@ -2412,7 +2412,7 @@
 		image="armor-chest-forest-armor.png"
 		name="Armadura da Floresta"
 		description="Uma armadura resistente e confortável. Perfeita para caçadas e tocaias em florestas."
-		effect=""
+		effect="lvl 40"
 		type="equip-torso"
 		weight="1"
 		defense="1">
@@ -2423,10 +2423,10 @@
 		image="armor-chest-valentine-dress.png|R:#BF0E08"
 		name="Vestido Vermelho ♀"
 		description="Um luxuoso vestido de seda vermelho. Cuidado para não amassar!"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="1"
-		defense="1">
+		defense="2">
 		<sprite>chest-valentine-dress.xml|#BF0E08</sprite>
 	</item>
 
@@ -2788,10 +2788,10 @@
 		image="armor-chest-vnecksweater.png|W:#580000,A40000,C02020,ff6060"
 		name="Suéter Vermelho com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
 	</item>
@@ -2799,10 +2799,10 @@
 		image="armor-chest-vnecksweater.png|W:#115511,22aa22,99dd99"
 		name="Suéter Verde com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#115511,22aa22,99dd99</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#115511,22aa22,99dd99</sprite>
 	</item>
@@ -2810,10 +2810,10 @@
 		image="armor-chest-vnecksweater.png|W:#222255,6666ff"
 		name="Suéter Azul Escuro com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#222255,6666ff</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#222255,6666ff</sprite>
 	</item>
@@ -2821,10 +2821,10 @@
 		image="armor-chest-vnecksweater.png|W:#846211,dab333,fffb93,ffffff"
 		name="Suéter Amarelo com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#846211,dab333,fffb93,ffffff</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#846211,dab333,fffb93,ffffff</sprite>
 	</item>
@@ -2832,10 +2832,10 @@
 		image="armor-chest-vnecksweater.png|W:#16486e,498ec5,e4f2fc"
 		name="Suéter Azul Claro com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#16486e,498ec5,e4f2fc</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
 	</item>
@@ -2843,10 +2843,10 @@
 		image="armor-chest-vnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
 		name="Suéter Rosa com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
 	</item>
@@ -2854,10 +2854,10 @@
 		image="armor-chest-vnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
 		name="Suéter Preto com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
 	</item>
@@ -2865,10 +2865,10 @@
 		image="armor-chest-vnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
 		name="Suéter Laranja com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="1">
 		<sprite gender="male">chest-vnecksweater-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
 	</item>
@@ -2876,10 +2876,10 @@
 		image="armor-chest-vnecksweater.png|W:#4f0a76,8010c0,d699f7"
 		name="Suéter Roxo com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#4f0a76,8010c0,d699f7</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
 	</item>
@@ -2887,10 +2887,10 @@
 		image="armor-chest-vnecksweater.png|W:#104010,208020,30c030"
 		name="Suéter Verde Escuro com Decote em V"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="8">
+		defense="2">
 		<sprite gender="male">chest-vnecksweater-male.xml|#104010,208020,30c030</sprite>
 		<sprite gender="female">chest-vnecksweater-female.xml|#104010,208020,30c030</sprite>
 	</item>
@@ -2899,10 +2899,10 @@
 		image="armor-chest-tnecksweater.png|W:#580000,A40000,C02020,ff6060"
 		name="Suéter Vermelho de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
 	</item>
@@ -2910,10 +2910,10 @@
 		image="armor-chest-tnecksweater.png|W:#115511,22aa22,99dd99"
 		name="Suéter Verde de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#115511,22aa22,99dd99</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#115511,22aa22,99dd99</sprite>
 	</item>
@@ -2921,10 +2921,10 @@
 		image="armor-chest-tnecksweater.png|W:#222255,6666ff"
 		name="Suéter Azul Escuro de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#222255,6666ff</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#222255,6666ff</sprite>
 	</item>
@@ -2932,10 +2932,10 @@
 		image="armor-chest-tnecksweater.png|W:#846211,dab333,fffb93,ffffff"
 		name="Suéter Amarelo de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#846211,dab333,fffb93,ffffff</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#846211,dab333,fffb93,ffffff</sprite>
 	</item>
@@ -2943,10 +2943,10 @@
 		image="armor-chest-tnecksweater.png|W:#16486e,498ec5,e4f2fc"
 		name="Suéter Azul Claro de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#16486e,498ec5,e4f2fc</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
 	</item>
@@ -2954,10 +2954,10 @@
 		image="armor-chest-tnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
 		name="Suéter Rosa de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
 	</item>
@@ -2965,10 +2965,10 @@
 		image="armor-chest-tnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
 		name="Suéter Preto de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
 	</item>
@@ -2976,10 +2976,10 @@
 		image="armor-chest-tnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
 		name="Suéter Laranja de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
 	</item>
@@ -2987,10 +2987,10 @@
 		image="armor-chest-tnecksweater.png|W:#4f0a76,8010c0,d699f7"
 		name="Suéter Roxo de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#4f0a76,8010c0,d699f7</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
 	</item>
@@ -2998,10 +2998,10 @@
 		image="armor-chest-tnecksweater.png|W:#104010,208020,30c030"
 		name="Suéter Verde Escuro de Gola Alta"
 		description="Um suéter macio e confortável"
-		effect=""
+		effect="lvl 1"
 		type="equip-torso"
 		weight="35"
-		defense="6">
+		defense="2">
 		<sprite gender="male">chest-tnecksweater-male.xml|#104010,208020,30c030</sprite>
 		<sprite gender="female">chest-tnecksweater-female.xml|#104010,208020,30c030</sprite>
 	</item>
@@ -3009,8 +3009,8 @@
 	<item id="2080"
 		image="armor-chest-robe.png|W:#580000,A40000,C02020,ff6060"
 		name="Túnica Vermelha de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3020,8 +3020,8 @@
 	<item id="2081"
 		image="armor-chest-robe.png|W:#115511,22aa22,99dd99"
 		name="Túnica Verde de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3031,8 +3031,8 @@
 	<item id="2082"
 		image="armor-chest-robe.png|W:#222255,6666ff"
 		name="Túnica Azul Escura de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3042,8 +3042,8 @@
 	<item id="2083"
 		image="armor-chest-robe.png|W:#846211,dab333,fffb93,ffffff"
 		name="Túnica Amarela de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3053,8 +3053,8 @@
 	<item id="2084"
 		image="armor-chest-robe.png|W:#16486e,498ec5,e4f2fc"
 		name="Túnica Azul Clara de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3064,8 +3064,8 @@
 	<item id="2085"
 		image="armor-chest-robe.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
 		name="Túnica Rosa de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3075,8 +3075,8 @@
 	<item id="2086"
 		image="armor-chest-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa"
 		name="Túnica Preta de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3086,8 +3086,8 @@
 	<item id="2087"
 		image="armor-chest-robe.png|W:#80280f,b04810,ef681f,ffb830"
 		name="Túnica Laranja de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3097,8 +3097,8 @@
 	<item id="2088"
 		image="armor-chest-robe.png|W:#4f0a76,8010c0,d699f7"
 		name="Túnica Roxa de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -3108,8 +3108,8 @@
 	<item id="2089"
 		image="armor-chest-robe.png|W:#104010,208020,30c030"
 		name="Túnica Verde Escura de Seda"
-		description="Uma brilhante túnica de seda.."
-		effect=""
+		description="Uma brilhante túnica de seda."
+		effect="lvl 30"
 		type="equip-torso"
 		weight="30"
 		defense="5">
@@ -4316,7 +4316,7 @@
 		image="armor-chest-capa.png|W:#111111,222222,333333,444444,555555,aaaaaa"
 		name="Manto da Morte"
 		description="O mesmo manto vestido pela Morte."
-		effect=""
+		effect="lvl 30"
 		type="equip-torso"
 		weight="10"
 		defense="5">
@@ -4387,7 +4387,7 @@
 		image="armor-chest-saviorarmor.png"
 		name="Armadura Celestial"
 		description="A armadura dos deuses."
-		effect=""
+		effect="lvl 90"
 		type="equip-torso"
 		weight="2750"
 		defense="27">
@@ -4432,7 +4432,7 @@
 		image="armor-chest-robe.png|W:#115511,22aa22,99dd99"
 		name="Manto Encantado"
 		description="Manto encantado por fadas da floresta."
-		effect="Defesa Mágica +10"
+		effect="lvl 30, Defesa Mágica +10"
 		type="equip-torso"
 		weight="10"
 		defense="5">
@@ -5053,7 +5053,7 @@
 		image="armor-chest-greendragon.png"
 		name="Armadura do Dragão"
 		description="Armadura inquebrável feita de escamas e ossos de Dragão Ancestral."
-		effect="+15 Defesa Mágica"
+		effect="lvl 60, +15 Defesa Mágica"
 		type="equip-torso"
 		weight="150"
 		defense="20">
