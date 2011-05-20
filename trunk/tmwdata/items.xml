@@ -4801,7 +4801,9 @@
 		effect="lvl 75, +160 Dano, 1 Alcance, 2 Mãos"
 		type="equip-2hand"
 		weapon-type="sword"
-		weight="2500"/>
+		weight="2500">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3058"
 		image="espada-zambacutou-velha.png"
 		name="Zambacutou Velha"
