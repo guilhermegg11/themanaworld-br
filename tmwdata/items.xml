@@ -729,7 +729,7 @@
 		image="weapon-polearm-scorpion.png"
 		name="Lança Rei Escorpião"
 		description="Uma lança com uma lâmina longa, muito bem trabalhada."
-		effect="+150 Dano, 2 Alcance"
+		effect="lvl 70, +150 Dano, 2 Alcance"
 		type="equip-2hand"
 		weapon-type="polearm"
 		weight="200"/>
@@ -777,7 +777,7 @@
 		image="weapon-dagger-rockknive.png"
 		name="Rock Knife"
 		description="Uma faca forjada com uma resistente pedra."
-		effect="+300 Dano, 1 Alcance, Bidestra"
+		effect="lvl 90, +300 Dano, 1 Alcance, Bidestra"
 		type="equip-2hand"
 		weapon-type="knife"
 		weight="3000">
@@ -4344,7 +4344,7 @@
 		image="weapon-polearm-foice-morte.png"
 		name="Foice da Morte"
 		description="A mesma arma empunhada pelos mensageiros do submundo."
-		effect="+115 Dano, 1 Alcance"
+		effect="lvl 60, +130 Dano, 1 Alcance"
 		type="equip-2hand"
 		weapon-type="polearm"
 		weight="1600">
@@ -4760,9 +4760,9 @@
 		image="espada-michael-arcanjo.png"
 		name="Espada Miguel Arcanjo"
 		description="Espada do Arcanjo Miguel."
-		effect="+175 Dano, 1 Alcance"
+		effect="lvl 80, +175 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="sword"
+		weapon-type="sword"
 		weight="345">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
@@ -4770,9 +4770,9 @@
 		image="espada-demoniaca.png"
 		name="Espada Demoniaca"
 		description="Espada usada por Demônios."
-		effect="+175 Dano, 1 Alcance"
+		effect="lvl 80, +175 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="sword"
+		weapon-type="sword"
 		weight="345">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
@@ -4780,9 +4780,9 @@
 		image="espada-kurogane.png"
 		name="Espada de Kurogane"
 		description="Espada com lâmina negra do Guerreiro Kurogane."
-		effect="+200 Dano, 1 Alcance"
+		effect="lvl 90, +200 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="sword"
+		weapon-type="sword"
 		weight="320">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
@@ -4790,9 +4790,9 @@
 		image="espada-imortal.png"
 		name="Espada dos Imortais"
 		description="Espada usadas por Guerreiro Imortais."
-		effect="+225 Dano, 1 Alcance"
+		effect="lvl 90, +225 Dano, 1 Alcance"
 		type="equip-1hand"
-		weapon_type="sword"
+		weapon-type="sword"
 		weight="360">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
@@ -4800,9 +4800,9 @@
 		image="espada-zambacutou-pedra.png"
 		name="Zambacutou de Pedra"
 		description="Espada de pedra usada na antiguidade contra as montarias adversárias."
-		effect="+160 Dano, 1 Alcance, 2 Mãos"
+		effect="lvl 75, +160 Dano, 1 Alcance, 2 Mãos"
 		type="equip-2hand"
-		weapon_type="sword"
+		weapon-type="sword"
 		weight="2500"/>
 	<item id="3058"
 		image="espada-zambacutou-velha.png"
