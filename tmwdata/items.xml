@@ -6367,4 +6367,25 @@
 		<sprite>equipment/head/eggshell-cerebro.xml|#ff00ff,ffCCff</sprite>
 	</item>
 
+	<item id="3260"
+		image="armor-chest-odalisca-top.png"
+		name="Top Odalisca ♀"
+		description="Um top à moda das areias de Sarab."
+		effect=""
+		type="equip-torso"
+		weight="13"
+		defense="2">
+		<sprite gender="female">equipment/chest/chest-odalisca-top.xml</sprite>
+	</item>
+	<item id="3261"
+		image="armor-legs-odalisca-saia.png"
+		name="Saia Odalisca ♀"
+		description="Uma saia à moda das areias de Sarab."
+		effect=""
+		type="equip-legs"
+		weight="20"
+		defense="2">
+		<sprite>equipment/leg/leg-odalisca-saia.xml</sprite>
+	</item>
+
 </items>
