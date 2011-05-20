@@ -375,7 +375,7 @@
 2058,camisaroxadealgodao,Camisa Roxa de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2059,camisaverdeescuradealgodao,Camisa Verde Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2060,SueterVermelhocomDecoteemV,Suéter Vermelho com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,1,0,{},{}
-2061,SueterVerdecomDecoteemV,Suéter Verde com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
+2061,SueterVerdecomDecoteemV,Suéter Verde com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
 2062,SueterAzulEscurocomDecoteemV,Suéter Azul Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
 2063,SueterAmarelocomDecoteemV,Suéter Amarelo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
 2064,SueterAzulClarocomDecoteemV,Suéter Azul Claro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
@@ -395,7 +395,7 @@
 2078,SueterroxodeGolaAlta,Suéter Púrpura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
 2079,SueterVerdeEscurodeGolaAlta,Suéter Verde Escuro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
 2080,tunicavermelhadeseda,Túnica Vermelha de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2081,tunicaverdedeseda,Túnica Verde de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
+2081,tunicaverdedeseda,Túnica Verde de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2082,tunicaazulescuradeseda,Túnica Azul Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2083,tunicaamareladeseda,Túnica Amarela de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2084,tunicaazulclaradeseda,Túnica Azul Clara de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
