@@ -52,7 +52,7 @@
 520,ovodepascoa,Ovo de Pascoa,0,200,100,1,,,,,,2,,,0,,{ itemheal 100,0; },{}
 521,adaga,Adaga,4,1000,500,100,15,,1,,0,2,2,1,1,1,{},{}
 522,facaafiada,Faca Afiada,4,100,50,150,10,,1,,0,2,2,1,1,1,{},{}
-523,camisadecouro,Camisa de Couro,5,2000,1000,20,,4,,-12,0,2,512,,0,0,{},{}
+523,camisadecouro,Camisa de Couro,5,2000,1000,20,,4,,-12,0,2,512,,20,0,{},{}
 524,chapeufantasia,Chapeu Fantasia,5,1600,800,20,,5,,0,0,2,256,,0,0,{},{}
 525,capacetedemineiro,Capacete de Mineiro,5,800,400,40,,4,,-8,0,2,256,,0,0,{},{}
 526,bolsademoedas,Bolsa de Moedas,3,100,50,5,,,,,,,,,,,{},{}
@@ -75,7 +75,7 @@
 543,faixatradicional,Faixa Tradicional,5,800,400,10,,3,,-3,0,2,256,,0,0,{},{}
 544,faixadeseda,Faixa de Seda,5,5000,2000,10,,3,,-10,0,2,256,,0,0,{},{}
 545,arcodafloresta,Arco da Floresta,4,5000,2500,1200,70,,5,,0,2,34,1,30,11,{},{}
-546,camisadodeserto,Camisa do Deserto,5,2000,1000,20,,6,,-18,0,2,512,,0,0,{},{}
+546,camisadodeserto,Camisa do Deserto,5,2000,1000,20,,6,,-18,0,2,512,,30,0,{},{}
 547,bardiche,Bardiche,5,20,10,1,,100,,-200,0,2,2,,0,0,{},{}
 548,halberd,Halberd,4,20,10,1,100,,1,,0,2,2,1,50,0,{},{}
 549,machado,Machado,4,20,10,1,100,,1,,0,2,2,1,50,0,{},{}
@@ -93,7 +93,7 @@
 561,Sabre,Sabre,4,10000,5000,1,100,,1,,0,2,2,1,50,1,{},{}
 562,coxadefrango,Coxa de Frango,0,250,125,10,,,,,,2,,,0,,{ itemheal 500,0; },{}
 563,luvasdeinverno,Luvas de Inverno,5,6000,3000,20,,3,,-15,0,2,4,,0,0,{},{}
-564,SueterGolaAlta,Suéter de Gola Alta,5,2000,1000,30,,6,,-18,0,2,512,,0,0,{},{}
+564,SueterGolaAlta,Suéter de Gola Alta,5,2000,1000,30,,2,,-12,0,2,512,,1,0,{},{}
 565,petala,Pétala,0,50,25,10,,,,,,2,,,0,,{},{}
 566,cogumelopequeno,Cogumelo Pequeno,0,50,25,10,,,,,,2,,,0,,{},{}
 567,pocaoenergetica,Poção Energética,0,500,250,10,,,,,,2,,,0,,{ sc_start 185,90, 60; },{}
@@ -153,9 +153,9 @@
 621,tapaolho,Tapa Olho,5,1000,500,5,,2,,0,0,2,256,,0,0,{},{ bonus bDex, -1; }
 622,bandana,Bandana,5,1000,500,20,,3,,0,0,2,256,,0,0,{},{}
 623,foice,Foice,4,100,50,1200,75,,1,,0,2,2,1,35,3,{},{}
-624,sueterDecoteV,Suéter com Decote em V,5,6000,3000,35,,8,,-24,0,2,512,,0,0,{},{}
-625,camisadecorrentes,Camisa de Correntes,5,15000,1500,800,,20,,-120,0,2,512,,0,0,{},{}
-626,armaduraleve,Armadura Leve,5,50000,2500,1200,,25,,-150,0,2,512,,0,0,{},{}
+624,sueterDecoteV,Suéter com Decote em V,5,6000,3000,35,,2,,-24,0,2,512,,1,0,{},{}
+625,camisadecorrentes,Camisa de Correntes,5,15000,1500,800,,20,,-120,0,2,512,,30,0,{},{}
+626,armaduraleve,Armadura Leve,5,50000,2500,1200,,24,,-150,0,2,512,,40,0,{},{}
 627,cartola,Cartola,5,2500,1250,30,,4,,2,0,2,256,,0,0,{},{}
 628,gorrodedormir,Gorro de Dormir,5,3000,1500,20,,3,,2,0,2,256,,0,0,{},{}
 629,chapeudecogumelomaligno,Chapéu de Cogumelo Maligno,5,2500,1250,30,,5,,0,0,2,256,,0,0,{},{}
@@ -174,7 +174,7 @@
 642,calcadecourodecobra,Calça de Couro de Cobra,5,2000,1000,60,,6,,-12,0,2,1,,0,0,{},{}
 643,chapeubrancodevaqueiro,Chapéu Branco de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
 644,chapeupretodevaqueiro,Chapéu Preto de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
-645,armaduradouradaleve,Armadura Dourada Leve,5,9999000,3000,1200,,25,,-100,0,2,512,,0,0,{},{}
+645,armaduradouradaleve,Armadura Dourada Leve,5,9999000,3000,1200,,25,,-100,0,2,512,,60,0,{},{}
 646,coroareal,Coroa Real,5,5000,1000,240,,4,,0,0,2,256,,0,0,{},{}
 647,bonededesenvolvedor,Boné de Desenvolvedor,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{}
 //648,RESERVED,Áspero Anel de Força,,,,,,,,,,,,,,,{},{}
@@ -187,8 +187,8 @@
 655,botasdepelo,Botas de Pêlo,5,5000,600,50,,3,,-3,0,2,64,,0,0,{},{}
 656,chapeudeservo,Chapéu de Servo,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
 657,laranja,Laranja,0,12,6,7,,,,,,2,,,0,,{ itemheal 60,0; },{}
-658,armaduradolordedaguerra,Armadura do Lorde da Guerra,5,100000,3000,2600,,27,,-170,0,2,512,,0,0,{},{}
-659,armaduradolordedaguerradourada,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,27,,-110,0,2,512,,0,0,{},{}
+658,armaduradolordedaguerra,Armadura do Lorde da Guerra,5,100000,3000,2600,,26,,-170,0,2,512,,50,0,{},{}
+659,armaduradolordedaguerradourada,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,27,,-110,0,2,512,,90,0,{},{}
 660,tecidodealgodao,Tecido de Algodão,3,1000,500,10,,,,,,,,,,,{},{}
 661,rosavermelha,Rosa Vermelha,3,40,20,1,,,,,,,,,,,{},{}
 662,rosabranca,Rosa Branca,3,40,20,1,,,,,,,,,,,{},{}
@@ -249,13 +249,13 @@
 717,ovodecobradacaverna,Ovo de Cobra da Caverna,0,60,30,4,,,,,,2,,,0,,{ itemheal 20,0; },{}
 718,casulodeseda,Casulo de Seda,3,200,3,1,,,,,,,,,,,{},{}
 719,macaverde,Maçã Verde,0,10,4,5,,,,,,2,,,0,,{ itemheal 45,0; },{}
-720,tunicadeseda,Túnica de Seda,5,8000,4000,5,,5,,0,0,2,512,,0,0,{},{}
+720,tunicadeseda,Túnica de Seda,5,8000,4000,5,,5,,0,0,2,512,,30,0,{},{}
 721,coroadossacerdotes,Coroa dos Sacerdotes,5,20000,5000,400,,4,,20,0,2,256,,0,0,{},{ bonus bMaxSP, 20; }
 722,capacetedefossil,Capacete de Fóssil,5,15000,3000,250,,7,,10,0,2,256,,0,0,{},{ bonus bMdef, 20; }
 723,chapeudodeserto,Chapéu do Deserto,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
 724,faixadealgodao,Faixa de Algodão,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
 725,bonegm,Boné GM,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{ bonus bNoWeaponDamage, 1; bonus bNoMagicDamage, 1; }
-726,tunicagm,Túnica GM,5,8000,4000,40,,5,,0,0,2,512,,0,0,{},{}
+726,tunicagm,Túnica GM,5,8000,4000,40,,2,,0,0,2,512,,1,0,{},{}
 727,Iten,Iten,3,0,0,8000,,,,,,,,,,,{},{}
 //728,esculturademouboo,Escultura de Mouboo,3,0,0,9,,,,,,,,,,,{},{}
 //729,tocodistorcido,Toco Distorcido,3,0,0,8,,,,,,,,,,,{},{}
@@ -285,7 +285,7 @@
 753,asademorcego,Asa de Morcego,3,500,100,3,,,,,,,,,,,{},{}
 754,dentesdemorcego,Dentes de Morcego,3,600,150,2,,,,,,,,,,,{},{}
 // Daqui para baixo há apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
-755,camisadeassassino,Camisa de Assassino,5,10000,3000,15,,10,,-5,0,2,512,,0,0,{},{}
+755,camisadeassassino,Camisa de Assassino,5,10000,3000,150,,10,,-5,0,2,512,,30,0,{},{}
 756,luvasdeassassino,Luvas de Assassino,5,7000,2000,9,,5,,-3,0,2,4,,0,0,{},{}
 757,botasdeassassino,Botas de Assassino,5,7000,2000,10,,5,,-3,0,2,64,,0,0,{},{}
 758,cajadodemadeira,Cajado de Madeira,4,50,25,100,5,,1,,0,2,2,1,1,1,{},{}
@@ -297,7 +297,7 @@
 764,chapeudemarinheiro,Chapéu de Marinheiro,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 765,chapeudecapitao,Chapéu de Capitão,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 766,elmodeterranite,elmodeterranite,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-767,armaduradeterranite,Armadura de Terranite,5,9999000,3000,240,,25,,-100,0,2,512,,0,0,{},{}
+767,armaduradeterranite,Armadura de Terranite,5,9999000,3000,240,,25,,-100,0,2,512,,40,0,{},{}
 768,calcadeterranite,Calça de Terranite,5,2000,1000,15,,4,,-8,0,2,1,,0,0,{},{}
 769,mascaraguyfawkes,Máscara Guy Fawkes,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 770,chapeudafloresta,Chapéu da Floresta,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
@@ -312,8 +312,8 @@
 779,orelhadezumbi,Orelha de Zumbi,3,30,15,5,,,,,,,,,,,{},{}
 780,olhodezumbi,Olho de Zumbi,3,30,15,3,,,,,,,,,,,{},{}
 781,mascaravoodoo,Máscara Voodoo,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,-100,0,2,512,,0,0,{},{}
-783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,15,,3,0,0,512,,0,0,{},{}
+782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,-100,0,2,512,,40,0,{},{}
+783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,2,,3,0,0,512,,1,0,{},{}
 // Daqui para cima há apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
 1198,almadejacko,Alma de JackO,3,100000,1,1,,,,,,,,,,,{},{}
 1199,flecha,Flecha,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
@@ -374,36 +374,36 @@
 2057,camisalaranjadealgodao,Camisa Laranja de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2058,camisaroxadealgodao,Camisa Roxa de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2059,camisaverdeescuradealgodao,Camisa Verde Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2060,SueterVermelhocomDecoteemV,Suéter Vermelho com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
+2060,SueterVermelhocomDecoteemV,Suéter Vermelho com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,1,0,{},{}
 2061,SueterVerdecomDecoteemV,Suéter Verde com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2062,SueterAzulEscurocomDecoteemV,Suéter Azul Escuro com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2063,SueterAmarelocomDecoteemV,Suéter Amarelo com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2064,SueterAzulClarocomDecoteemV,Suéter Azul Claro com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2065,SueterRosacomDecoteemV,Suéter Rosa com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2066,SueterPretocomDecoteemV,Suéter Preto com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2067,SueterLaranjacomDecoteemV,Suéter Laranja com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2068,SueterroxocomDecoteemV,Suéter Roxo com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2069,SueterVerdeEscurocomDecoteemV,Suéter Verde Escuro com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,0,0,{},{}
-2070,SueterVermelhodeGolaAlta,Suéter Vermelho de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2071,SueterVerdedeGolaAlta,Suéter Verde de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2072,SueterAzulEscurodeGolaAlta,Suéter Azul Escura de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2073,SueterAmarelodeGolaAlta,Suéter Amarelo de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2074,SueterAzulClarodeGolaAlta,Suéter Azul Claro de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2075,SueterRosadeGolaAlta,Suéter Rosa de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2076,SueterPretodeGolaAlta,Suéter Preto de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2077,SueterLaranjadeGola Alta,Suéter Laranja de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2078,SueterroxodeGolaAlta,Suéter Púrpura de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2079,SueterVerdeEscurodeGolaAlta,Suéter Verde Escuro de Gola Alta,5,2000,1000,35,,6,,-12,0,2,512,,0,0,{},{}
-2080,tunicavermelhadeseda,Túnica Vermelha de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
+2062,SueterAzulEscurocomDecoteemV,Suéter Azul Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2063,SueterAmarelocomDecoteemV,Suéter Amarelo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2064,SueterAzulClarocomDecoteemV,Suéter Azul Claro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2065,SueterRosacomDecoteemV,Suéter Rosa com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2066,SueterPretocomDecoteemV,Suéter Preto com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2067,SueterLaranjacomDecoteemV,Suéter Laranja com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2068,SueterroxocomDecoteemV,Suéter Roxo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2069,SueterVerdeEscurocomDecoteemV,Suéter Verde Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2070,SueterVermelhodeGolaAlta,Suéter Vermelho de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2071,SueterVerdedeGolaAlta,Suéter Verde de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2072,SueterAzulEscurodeGolaAlta,Suéter Azul Escura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2073,SueterAmarelodeGolaAlta,Suéter Amarelo de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2074,SueterAzulClarodeGolaAlta,Suéter Azul Claro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2075,SueterRosadeGolaAlta,Suéter Rosa de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2076,SueterPretodeGolaAlta,Suéter Preto de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2077,SueterLaranjadeGola Alta,Suéter Laranja de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2078,SueterroxodeGolaAlta,Suéter Púrpura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2079,SueterVerdeEscurodeGolaAlta,Suéter Verde Escuro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2080,tunicavermelhadeseda,Túnica Vermelha de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2081,tunicaverdedeseda,Túnica Verde de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
-2082,tunicaazulescuradeseda,Túnica Azul Escura de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
-2083,tunicaamareladeseda,Túnica Amarela de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
-2084,tunicaazulclaradeseda,Túnica Azul Clara de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
-2085,tunicarosadeseda,Túnica Rosa de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
-2086,tunicapretadeseda,Túnica Preta de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
-2087,tunicalaranjadeseda,Túnica Laranja de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
-2088,tunicaroxadeseda,Túnica Roxa de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
-2089,tunicaverdeescuradeseda,Túnica Verde Escura de Seda,5,8000,4000,30,,5,,0,0,2,512,,0,0,{},{}
+2082,tunicaazulescuradeseda,Túnica Azul Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2083,tunicaamareladeseda,Túnica Amarela de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2084,tunicaazulclaradeseda,Túnica Azul Clara de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2085,tunicarosadeseda,Túnica Rosa de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2086,tunicapretadeseda,Túnica Preta de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2087,tunicalaranjadeseda,Túnica Laranja de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2088,tunicaroxadeseda,Túnica Roxa de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2089,tunicaverdeescuradeseda,Túnica Verde Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2090,camisetavermelha,Camiseta Vermelha,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
 2091,camisetaverde,Camiseta Verde,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
 2092,camisetaazulescura,Camiseta Azul Escura,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
@@ -529,7 +529,7 @@
 // ITENS DA EQUIPE TMW-BR,,,,,,,,,,,,,,,,,,,,
 // ,,,,,,,,,,,,,,,,,,,,
 3000,PirateHatBR,Pirate Hat BR,5,2000,1000,40,,4,,-8,0,2,256,,0,0,{},{}
-3001,mantoMorte,Manto da Morte,5,8000,4000,5,,5,,0,0,2,512,,0,0,{},{}
+3001,mantoMorte,Manto da Morte,5,8000,4000,5,,5,,0,0,2,512,,30,0,{},{}
 3002,capuzMorte,Capuz da Morte,5,2000,1000,25,,4,,-8,0,2,256,,0,0,{},{}
 3003,pocaoMorte,Poção da Morte,0,1000,500,25,,,,,,2,,,0,,{ sc_start 186,300, 60; },{}
 3004,foiceMorte,Foice da Morte,4,5000,2500,1600,130,,1,,0,2,2,1,60,3,{},{}
@@ -537,13 +537,13 @@
 3006,mapaTesouro,Mapa do Tesouro,3,300,150,18,,,,,,,,,,,{},{}
 3007,capaceteLord,Capacete de Lord,5,30000,3000,1500,,20,,-36,0,2,256,,0,0,{},{}
 3008,arcoReis,Arco dos Reis,4,10000,5000,1400,110,,6,,0,2,34,1,70,11,{},{}
-3009,armaduraCelestial,Armadura Celestial,5,100000,30000,2750,,27,,-170,0,2,512,,0,0,{},{}
+3009,armaduraCelestial,Armadura Celestial,5,100000,30000,2750,,27,,-170,0,2,512,,90,0,{},{}
 3010,05moedas,05 Moedas de Ouro,3,100,50,25,,,,,,,,,,,{},{}
 3011,10moedas,10 Moedas de Ouro,3,200,100,50,,,,,,,,,,,{},{}
 3012,15moedas,15 Moedas de Ouro,3,300,150,75,,,,,,,,,,,{},{}
 3013,escamasDragao,Escamas de Dragao,3,1000,500,10,,,,,,,,,,,{},{}
 3014,oculosOlhoDragao,oculosOlhoDragao,5,1000,500,15,,2,,-36,0,2,256,,0,0,{},{bonus bDex, 3; }
-3015,mantoEncantado,mantoEncantado,5,8000,4000,10,,5,,0,0,2,512,,0,0,{},{bonus bMdef, 10; }
+3015,mantoEncantado,mantoEncantado,5,8000,4000,10,,5,,0,0,2,512,,30,0,{},{bonus bMdef, 10; }
 3016,colarHorcrux,colarHorcrux,3,1000,500,10,,,,,,,,,,,{},{}
 3017,colarHorcruxFada,colarHorcruxFada,5,8000,4000,10,0,,,0,0,2,128,,0,0,{},{ bonus bAtk, BaseLevel/2+1; bonus bMaxHP, BaseLevel*2; bonus bMaxSP, BaseLevel; }
 3018,AFKCap,AFKCap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{}
@@ -627,7 +627,7 @@
 3091,BastaoMadeira,Bastão de Madeira,4,6000,3000,100,50,0,1,0,0,2,34,0,20,0,{},{}
 3092,GorroFloresta,Gorro da Floresta,5,2000,1000,25,0,6,0,0,0,2,256,0,0,0,{},{}
 3093,MascaraNecromante,Máscara Necromante,5,10000,5000,25,0,15,0,-15,0,2,256,0,0,0,{},{ bonus bMdef, 15; }
-3094,ArmaduraDragao,Armadura do Dragão,5,300000,150000,150,0,20,0,100,0,2,512,0,0,0,{},{ bonus bMdef, 15; }
+3094,ArmaduraDragao,Armadura do Dragão,5,300000,150000,150,0,20,0,100,0,2,512,0,60,0,{},{ bonus bMdef, 15; }
 3095,CalcaDragao,Calça do Dragão,5,250000,125000,100,0,7,0,75,0,2,1,0,0,0,{},{ bonus bMdef, 5; }
 3096,ElmoDragao,Elmo do Dragão,5,200000,100000,1000,0,20,0,50,0,2,256,0,0,0,{},{ bonus bMdef, 15; }
 3097,BotasDragao,Botas do Dragão,5,150000,75000,50,0,4,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; }
