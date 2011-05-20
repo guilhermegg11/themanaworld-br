@@ -971,7 +971,7 @@
 		image="armor-shield-steelshield.png"
 		name="Escudo de Aço"
 		description="Um escudo feito de aço."
-		effect=""
+		effect="lvl 50"
 		type="equip-shield"
 		weight="2500"
 		defense="20"/>
@@ -979,7 +979,7 @@
 		image="armor-shield-woodenshield.png"
 		name="Escudo de Madeira"
 		description="Um escudo feito de madeira."
-		effect=""
+		effect="lvl 40"
 		type="equip-shield"
 		weight="1500"
 		defense="14"/>
@@ -987,7 +987,7 @@
 		image="armor-shield-leathershield.png"
 		name="Escudo de Couro"
 		description="Um escudo feito de couro sobre uma armação de madeira."
-		effect=""
+		effect="lvl 30"
 		type="equip-shield"
 		weight="1300"
 		defense="7"/>
@@ -1283,7 +1283,7 @@
 		image="armor-head-warlordhelm.png"
 		name="Elmo do Lorde da Guerra"
 		description="Usado pelos mais poderosos comandantes de batalha!"
-		effect=""
+		effect="lvl 50"
 		type="equip-head"
 		weight="900"
 		defense="18">
@@ -1293,7 +1293,7 @@
 		image="armor-head-knighthelm.png"
 		name="Elmo do Cavaleiro Alado"
 		description="Elmo usado pelos poucos batedores que possuem o título de Cavaleiro Alado."
-		effect=""
+		effect="lvl 40"
 		type="equip-head"
 		weight="600"
 		defense="15">
@@ -1303,7 +1303,7 @@
 		image="armor-head-infantryhelm.png"
 		name="Capacete da Infantaria"
 		description="Proteção feita especialmente para as tropas de infantaria."
-		effect=""
+		effect="lvl 30"
 		type="equip-head"
 		weight="400"
 		defense="15">
@@ -1313,7 +1313,7 @@
 		image="armor-head-crusadehelm.png"
 		name="Elmo das Cruzadas"
 		description="Um elmo muito pesado, usado por guerreiros no tempo das cruzadas."
-		effect="-1 Agilidade"
+		effect="lvl 45, -1 Agilidade"
 		type="equip-head"
 		weight="1500"
 		defense="18">
@@ -2242,7 +2242,7 @@
 		image="armor-head-paladinhelm.png"
 		name="Elmo de Paladino"
 		description="Um excelente elmo, tipicamente usado por paladinos."
-		effect=""
+		effect="lvl 80"
 		type="equip-head"
 		weight="500"
 		defense="19">
@@ -2252,7 +2252,7 @@
 		image="armor-head-overlordhelm.png"
 		name="Elmo do Soberano"
 		description="Um elmo lendário, usado somente pelos guerreiros mais fortes."
-		effect=""
+		effect="lvl 90"
 		type="equip-head"
 		weight="500"
 		defense="20">
@@ -4365,7 +4365,7 @@
 		image="armor-head-capacete-lord.png"
 		name="Capacete de Lord"
 		description="Um capacete de Lord."
-		effect=""
+		effect="lvl 90"
 		type="equip-head"
 		weight="1500"
 		defense="20">
@@ -5043,7 +5043,7 @@
 		image="armor-head-mascara-flamejante.png"
 		name="Máscara Necromante"
 		description="Máscar em chamas usada por necromantes poderosos."
-		effect="+15 Defesa Mágica"
+		effect="lvl 30, +15 Defesa Mágica"
 		type="equip-head"
 		weight="25"
 		defense="15">
@@ -5073,7 +5073,7 @@
 		image="armor-head-greendradon.png"
 		name="Elmo do Dragão"
 		description="Elmo inquebrável feita de ossos de Dragão Ancestral."
-		effect="+15 Defesa Mágica"
+		effect="lvl 80, +15 Defesa Mágica"
 		type="equip-head"
 		weight="1000"
 		defense="20">
@@ -5745,8 +5745,8 @@
 	<item id="3188"
 		image="armor-head-elmo-arcanjo.png"
 		name="Elmo Arcanjo"
-		description="(item em desenvolvimento)"
-		effect=""
+		description="..."
+		effect="lvl 30"
 		type="equip-head"
 		weight="600"
 		defense="15">
@@ -5983,7 +5983,7 @@
 		image="armor-head-elmo-taurus.png"
 		name="Elmo Taurus"
 		description="Um elmo escuro para os que carregam consigo o espírito de fúria do touro."
-		effect="+1 Força"
+		effect="lvl 70, +1 Força"
 		type="equip-head"
 		weight="2000"
 		defense="20">
@@ -5993,7 +5993,7 @@
 		image="armor-head-elmo-samurai.png"
 		name="Elmo Samurai"
 		description="Elmo usado por quem segue pelo caminho do Bushidô."
-		effect=""
+		effect="lvl 70"
 		type="equip-head"
 		weight="2000"
 		defense="20">
