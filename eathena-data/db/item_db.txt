@@ -805,3 +805,4 @@
 
 3260,topOdalisca,topOdalisca,5,10000,5000,13,,2,,2,0,0,512,,60,0,{},{}
 3261,saiaOdalisca,saiaOdalisca,5,12000,6000,20,,2,,2,0,0,1,,60,0,{},{}
+3262,facaoSarabiano,facaoSarabiano,4,5000,2500,900,115,,1,,0,2,2,1,55,1,{},{}

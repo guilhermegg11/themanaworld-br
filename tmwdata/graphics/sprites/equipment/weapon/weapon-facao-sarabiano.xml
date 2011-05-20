@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+
+	<imageset name="base" src="graphics/sprites/equipment/weapon/weapon-facao-sarabiano.png" width="128" height="128"/>
+
+	<include file="weapon-base.xml"/>
+
+</sprite>
