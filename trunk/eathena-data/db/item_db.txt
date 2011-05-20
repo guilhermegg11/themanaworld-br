@@ -139,7 +139,7 @@
 //607,RESERVED,Tridente,,,,,,,,,,,,,,,{},{}
 //608,RESERVED,Escudo de Lâminas,,,,,,,,,,,,,,,{},{}
 //609,RESERVED,Porrete,,,,,,,,,,,,,,,{},{}
-610,shortjeans,Short Jeans,5,2000,1000,25,,4,,-8,0,2,1,,0,0,{},{}
+610,shortjeans,Short Jeans,5,2000,1000,25,,4,,-8,0,2,1,,30,0,{},{}
 611,pelobranco,Pelo Branco,3,8,4,8,,,,,,,,,,,{},{}
 612,antenaluminosa,Antena Luminosa,3,80,40,10,,,,,,,,,,,{},{}
 613,espinho,Espinho,3,8,4,10,,,,,,,,,,,{},{}
@@ -171,7 +171,7 @@
 639,elmodascruzadas,Elmo das Cruzadas,5,25000,2500,1500,,18,,-36,0,2,256,,45,0,{},{ bonus bAgi, -1; }
 640,mineriodeferro,Minério de Ferro,3,250,100,40,,,,,,,,,,,{},{}
 641,peledecobradamontanha,Pele de Cobra da Montanha,3,250,100,15,,,,,,,,,,,{},{}
-642,calcadecourodecobra,Calça de Couro de Cobra,5,2000,1000,60,,6,,-12,0,2,1,,0,0,{},{}
+642,calcadecourodecobra,Calça de Couro de Cobra,5,2000,1000,60,,6,,-12,0,2,1,,50,0,{},{}
 643,chapeubrancodevaqueiro,Chapéu Branco de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
 644,chapeupretodevaqueiro,Chapéu Preto de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
 645,armaduradouradaleve,Armadura Dourada Leve,5,9999000,3000,1200,,25,,-100,0,2,512,,60,0,{},{}
@@ -260,7 +260,7 @@
 //728,esculturademouboo,Escultura de Mouboo,3,0,0,9,,,,,,,,,,,{},{}
 //729,tocodistorcido,Toco Distorcido,3,0,0,8,,,,,,,,,,,{},{}
 //730,cristaldavida,Cristal da Vida,3,0,0,5,,,,,,,,,,,{},{}
-731,calcadeassassino,Calça de Assassino,5,10000,3000,20,,5,,-5,0,2,1,,0,0,{},{}
+731,calcadeassassino,Calça de Assassino,5,10000,3000,20,,5,,-5,0,2,1,,40,0,{},{}
 //732,galhodaarvoredruida,Galho da Árvore Druida,3,0,0,2,,,,,,,,,,,{},{}
 //733,pocaodepurificacao,Poção de Purificação,0,0,0,15,,,,,,2,,,,,{ callfunc "usePurificationPotion"; },{}
 734,botaspretas,Botas Pretas,5,20000,3000,35,,4,,-10,0,2,64,,0,0,{},{}
@@ -298,7 +298,7 @@
 765,chapeudecapitao,Chapéu de Capitão,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 766,elmodeterranite,elmodeterranite,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 767,armaduradeterranite,Armadura de Terranite,5,9999000,3000,240,,25,,-100,0,2,512,,40,0,{},{}
-768,calcadeterranite,Calça de Terranite,5,2000,1000,15,,4,,-8,0,2,1,,0,0,{},{}
+768,calcadeterranite,Calça de Terranite,5,2000,1000,15,,4,,-8,0,2,1,,30,0,{},{}
 769,mascaraguyfawkes,Máscara Guy Fawkes,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 770,chapeudafloresta,Chapéu da Floresta,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 //(já add)771,minisaia,minisaia,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
@@ -628,7 +628,7 @@
 3092,GorroFloresta,Gorro da Floresta,5,2000,1000,25,0,6,0,0,0,2,256,0,0,0,{},{}
 3093,MascaraNecromante,Máscara Necromante,5,10000,5000,25,0,15,0,-15,0,2,256,0,30,0,{},{ bonus bMdef, 15; }
 3094,ArmaduraDragao,Armadura do Dragão,5,300000,150000,150,0,20,0,100,0,2,512,0,60,0,{},{ bonus bMdef, 15; }
-3095,CalcaDragao,Calça do Dragão,5,250000,125000,100,0,7,0,75,0,2,1,0,0,0,{},{ bonus bMdef, 5; }
+3095,CalcaDragao,Calça do Dragão,5,250000,125000,100,0,7,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; }
 3096,ElmoDragao,Elmo do Dragão,5,200000,100000,1000,0,20,0,50,0,2,256,0,80,0,{},{ bonus bMdef, 15; }
 3097,BotasDragao,Botas do Dragão,5,150000,75000,50,0,4,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; }
 3098,LuvasDragao,Luvas do Dragão,5,100000,50000,25,0,4,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; }
@@ -803,6 +803,6 @@
 3258,hatCascaOvo5_5,hatCascaOvo5_5,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 3259,hatCascaOvo5_6,hatCascaOvo5_6,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 
-3260,topOdalisca,topOdalisca,5,10000,5000,13,,2,,2,0,0,512,,60,0,{},{}
-3261,saiaOdalisca,saiaOdalisca,5,12000,6000,20,,2,,2,0,0,1,,60,0,{},{}
-3262,facaoSarabiano,facaoSarabiano,4,5000,2500,900,115,,1,,0,2,2,1,55,1,{},{}
+//Sarab 3260,topOdalisca,topOdalisca,5,10000,5000,13,,2,,2,0,0,512,,60,0,{},{}
+//Sarab 3261,saiaOdalisca,saiaOdalisca,5,12000,6000,20,,2,,2,0,0,1,,60,0,{},{}
+//Sarab 3262,facaoSarabiano,facaoSarabiano,4,5000,2500,900,115,,1,,0,2,2,1,55,1,{},{}

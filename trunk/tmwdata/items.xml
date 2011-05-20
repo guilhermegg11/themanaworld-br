@@ -836,7 +836,7 @@
 		image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
 		name="Short de Algodão"
 		description="Um short feito de 100% algodão."
-		effect=""
+		effect="lvl 1"
 		type="equip-legs"
 		weight="15"
 		defense="2">
@@ -1043,7 +1043,7 @@
 		image="armor-legs-shorts.png|W:#255367,266c84,68b0c5,ffffff"
 		name="Short Jeans"
 		description="Um short feito de jeans."
-		effect=""
+		effect="lvl 30"
 		type="equip-legs"
 		weight="25"
 		defense="4">
@@ -1247,7 +1247,7 @@
 		image="armor-legs-skirt.png|W:#A4B2B2,FFFFFF"
 		name="Saia de Algodão ♀"
 		description="Uma saia feita de algodão."
-		effect=""
+		effect="lvl 1"
 		type="equip-legs"
 		weight="10"
 		defense="2">
@@ -1335,7 +1335,7 @@
 		image="armor-legs-chaps.png"
 		name="Calça de Couro de Cobra"
 		description="Uma calça jeans reforçada com couro de cobra."
-		effect=""
+		effect="lvl 50"
 		type="equip-legs"
 		weight="60"
 		defense="6">
@@ -2001,7 +2001,7 @@
 		image="armor-legs-assassinpants.png"
 		name="Calça de Assassino"
 		description="Um tipo de calça usada por assassinos profissionais."
-		effect=""
+		effect="lvl 40"
 		type="equip-torso"
 		weight="20"
 		defense="5">
@@ -2326,7 +2326,7 @@
 		image="armor-legs-terranite.png"
 		name="Calça de Terranite"
 		description="Uma calça feita de terranite."
-		effect=""
+		effect="lvl 30"
 		type="equip-legs"
 		weight="1"
 		defense="1">
@@ -5063,7 +5063,7 @@
 		image="armor-legs-greendragon.png"
 		name="Calça do Dragão"
 		description="Armadura feita de escamas de Dragão Ancestral."
-		effect="+5 Defesa Mágica"
+		effect="lvl 60, +5 Defesa Mágica"
 		type="equip-legs"
 		weight="100"
 		defense="7">
