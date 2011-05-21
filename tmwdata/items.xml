@@ -6399,5 +6399,15 @@
 		weight="900">
 		<sprite>equipment/weapon/weapon-facao-sarabiano.xml</sprite>
 	</item>
+	<item id="3263"
+		image="armor-head-coroa-farao.png"
+		name="Coroa do Faraó Completa"
+		description="Coroa do faraó completa, diz a lenda que seus olhos brilham como jade ao usa-lo."
+		effect="lvl 90, +15 Def.Mag"
+		type="equip-head"
+		weight="200"
+		defense="15">
+		<sprite>equipment/head/head-coroa-farao.xml</sprite>
+	</item>
 
 </items>
