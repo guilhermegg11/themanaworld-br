@@ -6410,4 +6410,15 @@
 		<sprite>equipment/head/head-coroa-farao.xml</sprite>
 	</item>
 
+	<item id="3266"
+		image="armor-head-mascara-morte.png"
+		name="Máscara da Morte"
+		description="Máscara da morte."
+		effect=""
+		type="equip-head"
+		weight="110"
+		defense="2">
+		<sprite>equipment/head/head-mascara-morte.xml</sprite>
+	</item>
+
 </items>

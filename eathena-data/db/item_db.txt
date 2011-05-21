@@ -806,4 +806,7 @@
 //Sarab 3260,topOdalisca,topOdalisca,5,10000,5000,13,,2,,2,0,0,512,,60,0,{},{}
 //Sarab 3261,saiaOdalisca,saiaOdalisca,5,12000,6000,20,,2,,2,0,0,1,,60,0,{},{}
 //Sarab 3262,facaoSarabiano,facaoSarabiano,4,5000,2500,900,115,,1,,0,2,2,1,55,1,{},{}
-3263,coroaFarao,coroaFarao,5,7500,3750,200,,1,,15,0,2,256,,90,0,{},{ bonus bMdef, 15; }
+//Sarab 3263,coroaFarao,coroaFarao,5,7500,3750,200,,15,,10,0,2,256,,90,0,{},{ bonus bMdef, 15; }
+//Sarab 3264,coroaFaraoNova,coroaFaraoNova,5,10,5,200,,1,,0,0,2,256,,1,0,{},{}
+//Sarab 3265,coroaFaraoVelha,coroaFaraoVelha,5,10,5,200,,1,,0,0,2,256,,1,0,{},{}
+3266,mascaraMorte,mascaraMorte,5,5000,2500,110,,2,,0,0,2,256,,60,0,{},{}
