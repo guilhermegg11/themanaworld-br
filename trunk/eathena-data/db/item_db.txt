@@ -771,7 +771,6 @@
 3228,pascoa2011prata,pascoa2011prata,5,6000,2000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 2; }
 3229,pascoa2011bonze,pascoa2011bonze,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
 
-//ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 3230,hatCascaOvo1_1,hatCascaOvo1_1,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 3231,hatCascaOvo1_2,hatCascaOvo1_2,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 3232,hatCascaOvo1_3,hatCascaOvo1_3,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
@@ -803,6 +802,8 @@
 3258,hatCascaOvo5_5,hatCascaOvo5_5,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 3259,hatCascaOvo5_6,hatCascaOvo5_6,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 
+//ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 //Sarab 3260,topOdalisca,topOdalisca,5,10000,5000,13,,2,,2,0,0,512,,60,0,{},{}
 //Sarab 3261,saiaOdalisca,saiaOdalisca,5,12000,6000,20,,2,,2,0,0,1,,60,0,{},{}
 //Sarab 3262,facaoSarabiano,facaoSarabiano,4,5000,2500,900,115,,1,,0,2,2,1,55,1,{},{}
+3263,coroaFarao,coroaFarao,5,7500,3750,200,,1,,15,0,2,256,,90,0,{},{ bonus bMdef, 15; }
