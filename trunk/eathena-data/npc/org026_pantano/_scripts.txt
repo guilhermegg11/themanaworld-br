@@ -2,3 +2,17 @@
 // Scripts do mapa: org026 Pântano
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Pedra de Emanar Alma
+org026.gat,103,39,0	script	#org026_103x39	326, {
+	callfunc "getTime";
+	callfunc "pedraEmanarAlma", "org026.gat", 103, 39;
+	close;
+}
+
+// Script: Pedra de Emanar Alma
+org026.gat,38,69,0	script	#org026_38x69	326, {
+	callfunc "getTime";
+	callfunc "pedraEmanarAlma", "org026.gat", 38, 69;
+	close;
+}
