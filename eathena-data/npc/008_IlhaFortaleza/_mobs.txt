@@ -32,38 +32,45 @@
 On1002:
 	set @mobID, 1002;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	callsub _MOBS_verme;
 	break;
 
 On1003:
 	set @mobID, 1003;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	callsub _MOBS_escorpiao;
 	break;
 
 On1004:
 	set @mobID, 1004;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1011:
 	set @mobID, 1011;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1014:
 	set @mobID, 1014;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1017:
 	set @mobID, 1017;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1025:
 	set @mobID, 1025;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	callsub _MOBS_cordaPescador;
 	callsub _MOBS_madeiraResist;
 	callsub _MOBS_escudoMadeira;
@@ -74,31 +81,37 @@ On1025:
 On1029:
 	set @mobID, 1029;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1030:
 	set @mobID, 1030;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1031:
 	set @mobID, 1031;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1032:
 	set @mobID, 1032;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1035:
 	set @mobID, 1035;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1337_1:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "008.gat", 37, 46, "Mob008::On1049_1";
 	break;
 On1049_1:
@@ -110,6 +123,7 @@ On1049_1:
 On1337_2:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "008.gat", 64, 25, "Mob008::On1049_2";
 	break;
 On1049_2:
@@ -121,6 +135,7 @@ On1049_2:
 On1337_3:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "008.gat", 148, 29, "Mob008::On1049_3";
 	break;
 On1049_3:
@@ -132,6 +147,7 @@ On1049_3:
 On1337_4:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "008.gat", 41, 31, "Mob008::On1049_4";
 	break;
 On1049_4:
@@ -143,6 +159,7 @@ On1049_4:
 On1337_5:
 	set @mobID, 1337;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	callfunc "sumonaAbelhas", "008.gat", 28, 69, "Mob008::On1049_5";
 	break;
 On1049_5:

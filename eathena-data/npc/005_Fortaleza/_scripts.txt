@@ -5,7 +5,6 @@
 
 // Script: Pedra de Emanar Alma
 005.gat,52,99,0	script	#005_52x99	326, {
-	callfunc "getTime";
 	callfunc "pedraEmanarAlma", "005.gat", 52, 99;
 	close;
 }

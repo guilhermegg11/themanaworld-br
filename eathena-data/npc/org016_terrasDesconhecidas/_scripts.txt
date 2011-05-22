@@ -5,7 +5,6 @@
 
 // Script: Pedra de Emanar Alma
 org016.gat,77,82,0	script	#org016_77x82	326, {
-	callfunc "getTime";
 	callfunc "pedraEmanarAlma", "org016.gat", 77, 82;
 	close;
 }
