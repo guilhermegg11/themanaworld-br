@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
 
-	<npc id="pedraEmanar" nome="Pedra de Emanar Alma" enabled="false">
+	<npc id="pedraEmanar" nome="Pedra de Emanar Alma" enabled="true">
 		<var name="%NPC%" value="326"/>
 		<script>
 	callfunc "getTime";
