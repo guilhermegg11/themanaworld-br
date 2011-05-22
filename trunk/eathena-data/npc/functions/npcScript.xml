@@ -4,7 +4,6 @@
 	<npc id="pedraEmanar" nome="Pedra de Emanar Alma" enabled="true">
 		<var name="%NPC%" value="326"/>
 		<script>
-	callfunc "getTime";
 	callfunc "pedraEmanarAlma", "%MAPA%.gat", %X%, %Y%;
 		</script>
 	</npc>

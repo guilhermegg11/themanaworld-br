@@ -10,6 +10,7 @@ navio-2.gat,0,0,0	script	Mobnavio-2	-1,{
 On1323:
 	set @mobID, 1323;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 	end;

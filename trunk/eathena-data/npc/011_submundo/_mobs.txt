@@ -1,10 +1,10 @@
 //
-// Monstros do mapa: submundo Submundo
+// Monstros do mapa: 011 Submundo
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
 
-011.gat,0,0,0	script	Mobsubmundo	-1,{
+011.gat,0,0,0	script	Mob011	-1,{
 
 	end;
 }

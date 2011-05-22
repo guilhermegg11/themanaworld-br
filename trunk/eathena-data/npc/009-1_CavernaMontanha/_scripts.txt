@@ -5,21 +5,18 @@
 
 // Script: Pedra de Emanar Alma
 009-1.gat,41,93,0	script	#009-1_41x93	326, {
-	callfunc "getTime";
 	callfunc "pedraEmanarAlma", "009-1.gat", 41, 93;
 	close;
 }
 
 // Script: Pedra de Emanar Alma
 009-1.gat,80,97,0	script	#009-1_80x97	326, {
-	callfunc "getTime";
 	callfunc "pedraEmanarAlma", "009-1.gat", 80, 97;
 	close;
 }
 
 // Script: Pedra de Emanar Alma
 009-1.gat,80,44,0	script	#009-1_80x44	326, {
-	callfunc "getTime";
 	callfunc "pedraEmanarAlma", "009-1.gat", 80, 44;
 	close;
 }
