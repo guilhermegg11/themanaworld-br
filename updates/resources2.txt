@@ -8,3 +8,4 @@ update_2010-12-20.zip fc5b6d9b
 update_2011-01-02.zip f4f1855b
 update_2011-02-08.zip ea4cdef3
 update_2011-04-12.zip cc0a5ced
+update_2011-05-22.zip 94942089
