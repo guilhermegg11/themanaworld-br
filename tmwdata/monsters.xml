@@ -246,8 +246,8 @@ Ou um comentário de alguem.
 </monster>
 <monster id="64" name="Morcego Vampiro">
 <sprite>monsters/monster-vampire-bat.xml</sprite>
-<sound event="die">bat/bat-dying1.ogg</sound>
-<sound event="hit">bat/bat-hit1.ogg</sound>
+<sound event="die">bat-dying1.ogg</sound>
+<sound event="hit">bat-hit1.ogg</sound>
 </monster>
 <monster id="300" name="Esqueleto" summon="esqueleto">
 <sprite>monster-skeleton.xml</sprite>
