@@ -2,8 +2,104 @@
 
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/equipment/chest/chest-odalisca-top.png" width="64" height="64"/>
+	<imageset name="base" src="graphics/sprites/equipment/chest/chest-odalisca-top.png" width="26" height="24"/>
 
-	<include file="player_female_base.xml"/>
+	<action name="stand" imageset="base">
+		<animation direction="down">
+			<frame index="0" offsetY="-20"/>
+		</animation>
+		<animation direction="left">
+			<frame index="18" offsetY="-20"/>
+		</animation>
+		<animation direction="up">
+			<frame index="36" offsetY="-20"/>
+		</animation>
+		<animation direction="right">
+			<frame index="54" offsetY="-20"/>
+		</animation>
+	</action>
+
+	<action name="walk" imageset="base">
+		<animation direction="down">
+			<sequence start="1" end="6" offsetY="-20" delay="75"/>
+		</animation>
+		<animation direction="left">
+			<sequence start="19" end="24" offsetY="-20" delay="75"/>
+		</animation>
+		<animation direction="up">
+			<sequence start="37" end="42" offsetY="-20" delay="75"/>
+		</animation>
+		<animation direction="right">
+			<sequence start="55" end="60" offsetY="-20" delay="75"/>
+		</animation>
+	</action>
+
+	<action name="sit" imageset="base">
+		<animation direction="down">
+		 <frame index="7" offsetY="-20"/>
+		</animation>
+		<animation direction="left">
+		 <frame index="25" offsetY="-20"/>
+		</animation>
+		<animation direction="up">
+		 <frame index="43" offsetY="-20"/>
+		</animation>
+		<animation direction="right">
+		 <frame index="61" offsetY="-20"/>
+		</animation>
+	</action>
+
+	<action name="dead" imageset="base">
+		<animation direction="down">
+			<frame index="8" offsetY="-20"/>
+		</animation>
+		<animation direction="left">
+			<frame index="26" offsetY="-20"/>
+		</animation>
+		<animation direction="up">
+			<frame index="44" offsetY="-20"/>
+		</animation>
+		<animation direction="right">
+			<frame index="62" offsetY="-20"/>
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+		<animation direction="down">
+			<sequence start="9" end="12" offsetY="-20" delay="75"/>
+			<end/>
+		</animation>
+		<animation direction="left">
+			<sequence start="27" end="30" offsetY="-20" delay="75"/>
+			<end/>
+		</animation>
+		<animation direction="up">
+			<sequence start="45" end="48" offsetY="-20" delay="75"/>
+			<end/>
+		</animation>
+		<animation direction="right">
+			<sequence start="63" end="66" offsetY="-20" delay="75"/>
+			<end/>
+		</animation>
+	</action>
+
+	<action name="attack_bow" imageset="base">
+		<animation direction="down">
+			<sequence start="13" end="17" offsetY="-20" delay="75"/>
+			<end/>
+		</animation>
+		<animation direction="left">
+			<sequence start="31" end="35" offsetY="-20" delay="75"/>
+			<end/>
+		</animation>
+		<animation direction="up">
+			<sequence start="49" end="53" offsetY="-20" delay="75"/>
+			<end/>
+		</animation>
+		<animation direction="right">
+			<sequence start="67" end="71" offsetY="-20" delay="75"/>
+			<end/>
+		</animation>
+	</action>
 
 </sprite>
