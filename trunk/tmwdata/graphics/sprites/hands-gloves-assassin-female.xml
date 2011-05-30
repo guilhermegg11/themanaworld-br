@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/hands-gloves-assassin-female.png" width="64" height="64" />
+	<imageset name="base" src="graphics/sprites/hands-gloves-assassin-female.png" width="32" height="32"/>
 
-	<include file="hands-gloves-generic-female.xml" />
+	<include file="hands-gloves-assassin-male.xml" />
 
 </sprite>
