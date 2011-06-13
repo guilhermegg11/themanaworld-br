@@ -186,6 +186,10 @@
 	<npc id="345"><sprite variant="0">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua -->
 	<npc id="346"><sprite variant="1">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua -->
 	<npc id="347"><sprite variant="2">npcs/npc-estatuas.xml</sprite></npc> <!-- estátua quebrada -->
+	<npc id="348">
+		<sprite>npcs/npc-portao-esq1a.xml</sprite>
+		<sprite>npcs/npc-portao-esq1b.xml</sprite>
+	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->

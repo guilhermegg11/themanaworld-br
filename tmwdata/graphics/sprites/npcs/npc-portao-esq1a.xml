@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/npcs/npc-portao.png" width="96" height="88" />
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0" offsetY="-8"/>
+		</animation>
+	</action>
+</sprite>
