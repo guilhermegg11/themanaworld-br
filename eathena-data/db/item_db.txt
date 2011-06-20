@@ -279,7 +279,7 @@
 //747,bolodechocolatecomglace,Bolo de Chocolate com Glacê,0,550,125,10,,,,,,2,,,0,,{ itemheal 11,0; },{}
 //748,bolodelaranjacomcreme,Bolo de Laranja com Creme,0,90,45,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
 749,toalha,Toalha,5,800,250,50,,,,5,0,2,8,,0,0,{},{}
-//750,SlowPoisonPotion,Slow Poison Potion,0,500,200,10,,,,,,2,,,0,,{ itemheal 5,0; sc_start sc_slowpoison,180000,180; },{}
+750,pocaoEnvenenamento,Pocao de Envenenamento,0,500,200,10,,,,,,2,,,0,,{ itemheal 5,0; sc_start sc_slowpoison,180000,180; },{}
 751,hasteRosa,Haste Rosa,5,5000,1000,5,,1,,1,0,2,256,,0,0,{},{}
 752,chapeufofinho,Chapeu Fofinho,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 753,asademorcego,Asa de Morcego,3,500,100,3,,,,,,,,,,,{},{}
@@ -337,6 +337,7 @@
 1217,orelhasdegato,Orelhas de Gato,5,5000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,3; }
 1218,sacodepapel,Saco de Papel,5,1000,5,10,,1,,-1,0,2,256,,0,0,{},{ bonus bAgi,-1; }
 1219,cabecademoubootauro,Cabeça de Moubootauro,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
+//1281,balaChoque,Bala de Choque,0,1000,500,5,,,,,,2,,,0,,{callfunc "useShockSweet";},{}
 //1220,BunchOfParsley,Bunch of Parsley,5,3,1,1,,1,,0,0,2,256,,0,0,{},{ bonus bDeaf,1; }
 1221,mascaradeesqueleto,Máscara de Esqueleto,5,10000,5000,150,,2,,5,0,2,256,,0,0,{},{}
 //1222,SmallPieceOfClay,Small Piece of Clay,,,,,,,,,,,,,,,{},{}
