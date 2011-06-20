@@ -2160,7 +2160,14 @@
 		effect=""
 		type="equip-charm"
 		weight="50"/>
-	<!-- ID 750 está livre -->
+	<item id="750"
+		image="use-potion-c.png|G:#f0f040,ffffff"
+		name="Poção de Envenenamento"
+		description="Uma poção amarela com um aroma fresco e cítrico."
+		effect="Retarda o envenenamento"
+		type="usable"
+		hp="5"
+		weight="10"/>
 	<item id="751"
 		image="armor-head-pinkiehat.png|W:#f737b8,ffffff"
 		name="Haste Rosa"
@@ -2665,6 +2672,12 @@
 		weight="15">
 		<sprite>equipment/head/eggshell.xml</sprite>
 	</item>
+	<item id="1281"
+		image="use-food-shock-candy.png"
+		name="Bala de Choque"
+		description="Ele vai deixar o seu cabelo branco!"
+		type="usable"
+		weight="5"/>
 	<!-- The 2XXY IDs are used for recolored items on eAthena.
 		XX = item
 		Y = color variant
