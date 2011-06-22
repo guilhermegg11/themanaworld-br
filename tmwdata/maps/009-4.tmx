@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="55" height="55" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Casa da Fada"/>
+  <property name="pasta" value="casaFada"/>
+ </properties>
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="Woodland (interno)" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="515" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="771" name="cabanainfada" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_fada.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="811" name="cabanainteto" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="851" name="cabana_in_fada2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_fada2.png" width="352" height="96"/>
+ </tileset>
+ <tileset firstgid="884" name="cabana_in_x3_fada" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3_fada.png" width="320" height="96"/>
+ </tileset>
+ <layer name="Ground" width="55" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PMQqDQBCG0ZEpgliEVCm0yB08Su5/l0RYULHaajV5xYNlp/m/uYuYAQAAgEvIjHhHxC1XWSzvPve31ntrDKXtnquhWN6P3N9a760xfvdOG888/m213lvjlXVa79WmTds5adN2Fb/SAQAAAADw7z7GDyeyRC8AAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="55" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TvQ3CMBiE4c9yR8lqELrw00GgTsQciA0YgRHYBJgA6LkoBZZJiURsvY90Uq77TorNAAAAAABASkbebKJM/b8v+b2xNs2VRbCtjHbGPQWFbp4pG6UK7l9HW+KegqVuXvXcfXJmxyBtT81Wu3Y9287aclVuyt11PRcXbXkoT+Xlup6Tg/sEw9Lore399zcwNDX/JgAAAAAAAABk4Q1zQ2OrRC8AAA==
+  </data>
+ </layer>
+ <layer name="Top" width="55" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VWwrCMBCF4WmzCXUPVkG81mdffHMhulh1Ce7DFCqNIfECQpnx/2BoM6EwBwYqAgAAAACAHWMnMo1qneiFVbm+p/7MJDFnHfRG7vnZWBnIdoruHmcL2XKsZDsXIhdf16LrWcl2K0WO/nwou56WbBs/5zaqnaGdHPh9G7Y7F77naMr2LbL1b+7nXGaqkeovlGTbu3y9utfAcjboNHvzL/v1dwAAAAAAAMA/uAPBDlZ7RC8AAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="55" height="55" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PQQqAMBAEwSX/f7RXkSQSFQelFgoJeJhuVdUAAAAAeFXtvnV4p7etdvQaRpfe+1Rb77/0Xm3nbb1L773aOOr9atvqpfdq+3/brDm9AQAAAACA+zZh1YfhRC8AAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="PersonagenNpc" type="NPC" x="704" y="683" width="48" height="27"/>
+  <object name="ParaFora...(CasaFora)" type="Warp" x="829" y="918" width="36" height="39"/>
+ </objectgroup>
+</map>
