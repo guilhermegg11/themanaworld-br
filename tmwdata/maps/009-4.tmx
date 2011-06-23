@@ -1,56 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="55" height="55" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="84" height="50" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
-  <property name="name" value="Casa da Fada"/>
+  <property name="name" value="Casa de Fada"/>
   <property name="pasta" value="casaFada"/>
  </properties>
  <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="Woodland_ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="259" name="Woodland (interno)" tilewidth="32" tileheight="32">
+ <tileset firstgid="3" name="Woodland (interno)" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="515" name="inn" tilewidth="32" tileheight="32">
+ <tileset firstgid="259" name="inn" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="771" name="cabanainfada" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cabana_in_fada.png" width="256" height="160"/>
+ <tileset firstgid="515" name="cabanainfada" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_fada.png" width="256" height="224"/>
  </tileset>
- <tileset firstgid="811" name="cabanainteto" tilewidth="32" tileheight="32">
+ <tileset firstgid="571" name="cabanainteto" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cabana_in_teto.png" width="256" height="160"/>
  </tileset>
- <tileset firstgid="851" name="cabana_in_fada2" tilewidth="32" tileheight="32">
+ <tileset firstgid="611" name="cabana_in_fada2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cabana_in_fada2.png" width="352" height="96"/>
  </tileset>
- <tileset firstgid="884" name="cabana_in_x3_fada" tilewidth="32" tileheight="96">
+ <tileset firstgid="644" name="cabana_in_x3_fada" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/cabana_in_x3_fada.png" width="320" height="96"/>
  </tileset>
- <layer name="Ground" width="55" height="55">
+ <tileset firstgid="654" name="woodland_indoor_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="686" name="woodland_indoor_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="702" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="84" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PMQqDQBCG0ZEpgliEVCm0yB08Su5/l0RYULHaajV5xYNlp/m/uYuYAQAAgEvIjHhHxC1XWSzvPve31ntrDKXtnquhWN6P3N9a760xfvdOG888/m213lvjlXVa79WmTds5adN2Fb/SAQAAAADw7z7GDyeyRC8AAA==
+   H4sIAAAAAAAAA+3TsQrCMBiF0fB3EBEUUaigg7tu9f2fzQoRqw5SSAnFMxwIDfSWD9qllDoAAAAAAGDWmkhp3aS0iJcme5yX8X43xf4i6u2Xtso9N/Gyyh7nbbzfTbG/iXr7pR37bzwNtPH9bKj0/q5/5z5rs+GzT7V7/XKOcUrvH2Kc2r301PPp0rvqWaxn17vpWayn/11PPfWcoynaje1cuwEAAAAAAAD/5w4ipAMRoEEAAA==
   </data>
  </layer>
- <layer name="Fringe" width="55" height="55">
+ <layer name="Fringe" width="84" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TvQ3CMBiE4c9yR8lqELrw00GgTsQciA0YgRHYBJgA6LkoBZZJiURsvY90Uq77TorNAAAAAABASkbebKJM/b8v+b2xNs2VRbCtjHbGPQWFbp4pG6UK7l9HW+KegqVuXvXcfXJmxyBtT81Wu3Y9287aclVuyt11PRcXbXkoT+Xlup6Tg/sEw9Lore399zcwNDX/JgAAAAAAAABk4Q1zQ2OrRC8AAA==
+   H4sIAAAAAAAAA+3VMU4CQRjF8dktKT0UCQeQC4B0gHaotAh2EEMPCUcwCtTGoNdQTqD0vE2mGIctKHZmA/5/ycvuVG++b0MwBgAAAAAAAAAAnINKakxDaabl3aHs/iJdaI6O0nXmaXuz+eeiHdNfTcLeoQhXumdLuVXunBl63jz+OWT/ZZLfXz+BfV7rnjc5u1ooUyeLyP215G9Oxb1m6efM86x8Kd/K1p5j9WddL8qrzTJQd0xvyo/yq+zsOZZsn+/KWHueKJuI3SE9OYkp+3afyky7nCsfel/puT6T/38cb6hv/pgevsfsHykD+4zdD8CYh5J/d2X3AwAAAAAAAAAA4H/aA5pqT6ygQQAA
   </data>
  </layer>
- <layer name="Top" width="55" height="55">
+ <layer name="Top" width="84" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VWwrCMBCF4WmzCXUPVkG81mdffHMhulh1Ce7DFCqNIfECQpnx/2BoM6EwBwYqAgAAAACAHWMnMo1qneiFVbm+p/7MJDFnHfRG7vnZWBnIdoruHmcL2XKsZDsXIhdf16LrWcl2K0WO/nwou56WbBs/5zaqnaGdHPh9G7Y7F77naMr2LbL1b+7nXGaqkeovlGTbu3y9utfAcjboNHvzL/v1dwAAAAAAAMA/uAPBDlZ7RC8AAA==
+   H4sIAAAAAAAAA+3Ty43CQAyA4ZATUAFsBxTB48JjgRMHLtsLVEIJSBRAF0AJ9IEjBWGimeTi9SD0f5I1r0geW5MsAwAAAAAAAADA1zDPskklfgN7Okb59+S3Ng7cbaX2fvL3sbAwrCeWvyNjV+JQ7h3Kdds4v7W6fu4rZ8+1Rz+nLZ/81preZ4hHP73yW2uq5yJxlbipc/oZ11TPXf67naw3rdeeVz/Pau+k5p/cz6XcbV2JreP7qMt/VN/p3n5yP4v30ZOxX671PMb6fQ7KKOi5R35rof+tyX//7575raWuJ3V+a1O52zwShdD+zLCe1Pmt/eXxqDv/lvzWUteTOj8AAAAAAAAAAABQ9QA9u/mQoEEAAA==
   </data>
  </layer>
- <layer name="Collision" width="55" height="55" visible="0">
+ <layer name="Collision" width="84" height="50" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PQQqAMBAEwSX/f7RXkSQSFQelFgoJeJhuVdUAAAAAeFXtvnV4p7etdvQaRpfe+1Rb77/0Xm3nbb1L773aOOr9atvqpfdq+3/brDm9AQAAAACA+zZh1YfhRC8AAA==
+   H4sIAAAAAAAAA+3SQQrAIAwEwOD/H92riG1PRowTGEqLsGZpi4gGAAAAAAAAiaJ7xvCefY8+/wTjzL6t3Gt3fuY+s3NZ+W/ndvdVpc9TfPU5m8w+V2Vm9fq247hvxfxV/8ffVMuvts/u/Gr77M7P7PnmfAAAAAAAAO70AMEZViWgQQAA
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
+ <objectgroup name="Objects" width="84" height="50">
   <object name="PersonagenNpc" type="NPC" x="704" y="683" width="48" height="27"/>
-  <object name="ParaFora...(CasaFora)" type="Warp" x="829" y="918" width="36" height="39"/>
+  <object name="ParaFora...(CasaFora)" type="Warp" x="832" y="928" width="32" height="32"/>
+  <object name="" x="0" y="0" width="640" height="640"/>
+  <object name="" x="1024" y="0" width="640" height="640"/>
+  <object name="" x="0" y="960" width="640" height="640"/>
+  <object name="" x="1024" y="960" width="640" height="640"/>
+  <object name="ParaFora...(CasaFora)" type="Warp" x="1856" y="928" width="32" height="32"/>
+  <object name="" x="2048" y="0" width="640" height="640"/>
+  <object name="" x="2048" y="960" width="640" height="640"/>
  </objectgroup>
 </map>
