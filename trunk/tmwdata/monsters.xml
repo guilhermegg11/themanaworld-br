@@ -294,12 +294,7 @@ Ou um comentário de alguem.
 <monster id="308" name="Caranguejeira" summon="Caranguejeira">
 <sprite>monstro-aranha.xml|#000000,444444,000000;#00CC00,00FF00</sprite>
 </monster>
-<monster id="309" name="Cachorro" summon="cachorro">
-<sprite>monstro-cachorro.xml</sprite>
-<sound event="hit">cachorro_ataque.ogg</sound>
-<sound event="miss">cachorro_ataque.ogg</sound>
-<sound event="die">cachorro_morte.ogg</sound>
-</monster>
+<!-- 309 - Aki jás Totó -->
 <monster id="310" name="Trasgo Roxo" summon="trasgoRoxo">
 <sprite>monster-pinkie.xml|#70003f,ffbfe3</sprite>
 <sound event="hit">pinkie-hit1.ogg</sound>
