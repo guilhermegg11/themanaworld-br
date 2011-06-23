@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="84" height="50" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="116" height="50" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Casa de Fada"/>
@@ -35,27 +35,27 @@
  <tileset firstgid="702" name="Woodland_ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
  </tileset>
- <layer name="Ground" width="84" height="50">
+ <layer name="Ground" width="116" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TsQrCMBiF0fB3EBEUUaigg7tu9f2fzQoRqw5SSAnFMxwIDfSWD9qllDoAAAAAAGDWmkhp3aS0iJcme5yX8X43xf4i6u2Xtso9N/Gyyh7nbbzfTbG/iXr7pR37bzwNtPH9bKj0/q5/5z5rs+GzT7V7/XKOcUrvH2Kc2r301PPp0rvqWaxn17vpWayn/11PPfWcoynaje1cuwEAAAAAAAD/5w4ipAMRoEEAAA==
+   H4sIAAAAAAAAA+3UwWrCQBRA0eFlIUWolBYstAt3Fdpd+jf+q9/WCBE1Oopt0mnsWRwYZiAvcDOpU0o1AAAAAAAAAMCIVJHSfZXSJHaq1mZ9F4dnQ8yfRLn5t2ba9pzFzrS1WT/E4dkQ82dRbn73W9paZ/ZL97rkpXnH1z3zON7b1/f8x+aZT615a3+vq+/53W9pa53ZL93rkkVcp+/5z3Gdvue/xWnLzH7pXnqet4xjq9aps9K9xtzzvfHxyz1XmbWeP+9ZNz4L3E89h+lZ6n+ba6nneHvmlO6l5/d6up+31XOs9/Nc55Lzh2j3n3sCAAAAAAAAAAB/zxelr4CIoFoAAA==
   </data>
  </layer>
- <layer name="Fringe" width="84" height="50">
+ <layer name="Fringe" width="116" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VMU4CQRjF8dktKT0UCQeQC4B0gHaotAh2EEMPCUcwCtTGoNdQTqD0vE2mGIctKHZmA/5/ycvuVG++b0MwBgAAAAAAAAAAnINKakxDaabl3aHs/iJdaI6O0nXmaXuz+eeiHdNfTcLeoQhXumdLuVXunBl63jz+OWT/ZZLfXz+BfV7rnjc5u1ooUyeLyP215G9Oxb1m6efM86x8Kd/K1p5j9WddL8qrzTJQd0xvyo/yq+zsOZZsn+/KWHueKJuI3SE9OYkp+3afyky7nCsfel/puT6T/38cb6hv/pgevsfsHykD+4zdD8CYh5J/d2X3AwAAAAAAAAAA4H/aA5pqT6ygQQAA
+   H4sIAAAAAAAAA+3WT07CQBzF8WmXLDkUCQeAC6jsQNj5b6uUnYS416RHMKKujVGuAZ5A3fsauhhLE4xhZtLy/SQv7aze5DfNpMYAAAAAAAAAAAAAAABUTyM25kA5jMPtIXR/nTQ1x4FybM2zX5htcb1rf+lvRW73UAdHmlNPOVXOrBmeFOZZXLvs70Tl/V3Oc6uh5jQqOatUubGSeu5vR7/j22VF7/5z7fuiZO/3ylJZKR/52ld/1vWgzPM8OureJy/Kp/KlfOdrX7LzfFWudc5T5c1jd53NrPiUfTsL5VZneae86/1Jz+eK3oHAf431zU/izXef/Um8/v9IAvQDQGhXge+90P0AAAAAAAAAAAAAAAAA4NoPiqffN6BaAAA=
   </data>
  </layer>
- <layer name="Top" width="84" height="50">
+ <layer name="Top" width="116" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Ty43CQAyA4ZATUAFsBxTB48JjgRMHLtsLVEIJSBRAF0AJ9IEjBWGimeTi9SD0f5I1r0geW5MsAwAAAAAAAADA1zDPskklfgN7Okb59+S3Ng7cbaX2fvL3sbAwrCeWvyNjV+JQ7h3Kdds4v7W6fu4rZ8+1Rz+nLZ/81preZ4hHP73yW2uq5yJxlbipc/oZ11TPXf67naw3rdeeVz/Pau+k5p/cz6XcbV2JreP7qMt/VN/p3n5yP4v30ZOxX671PMb6fQ7KKOi5R35rof+tyX//7575raWuJ3V+a1O52zwShdD+zLCe1Pmt/eXxqDv/lvzWUteTOj8AAAAAAAAAAABQ9QA9u/mQoEEAAA==
+   H4sIAAAAAAAAA+3U0W3CMBDG8SRPlAkKGzAEpS9AoTzx0JfuApMwQqUO0C2gI3SPXqQgrpEdK9LJDu7/J51iO0hf4nMoCgAAAAAAAAAAAAAA8javiuK5VRvHmq6nKp/83Cwce/Oq1qbV32vtxXA/ffkPch1LnZq1UzMfGee7zlOohnyeuvp5bN27zmP0c1mmyw+xzLcW+j5dYvQzZX7IPffzLHWR+lb36addvrXQfv7I/95B5vvytharn19q7VON6affVp5t16q3iN9HV/6H+p3uLf30q9/nUa6TZq7HPtb7OWuqpsex8vsaej/7ymk/U+dbS/0+/z3f2lKebe2pmmt9Zfg+qfNz6+d75a+u+7nkd50nX1meJ2up93PI+aFnw/DQTwAAAAAAAAAAAAAAANybX2wE+5KgWgAA
   </data>
  </layer>
- <layer name="Collision" width="84" height="50" visible="0">
+ <layer name="Collision" width="116" height="50" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SQQrAIAwEwOD/H92riG1PRowTGEqLsGZpi4gGAAAAAAAAiaJ7xvCefY8+/wTjzL6t3Gt3fuY+s3NZ+W/ndvdVpc9TfPU5m8w+V2Vm9fq247hvxfxV/8ffVMuvts/u/Gr77M7P7PnmfAAAAAAAAO70AMEZViWgQQAA
+   H4sIAAAAAAAAA+3SUQqEMAwFwOD9D72/RRRXpImmExhEEZ7pc4uIDQAAAAAAAAAAYJIYrrG7z/6OMb/iDL5mP0fPZp7r2/KvprqvJ+d59F5W/tl7+uzRZ9b+V1Pd15M+M/Y5y5/5D3Xuc9zrnx275d+d6p7evs/q+d32WT2/2z6r52f2vEL+3anuBQAAAAAAAAAA6OMH8qX4AaBaAAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="84" height="50">
+ <objectgroup name="Objects" width="116" height="50">
   <object name="PersonagenNpc" type="NPC" x="704" y="683" width="48" height="27"/>
   <object name="ParaFora...(CasaFora)" type="Warp" x="832" y="928" width="32" height="32"/>
   <object name="" x="0" y="0" width="640" height="640"/>
@@ -65,5 +65,8 @@
   <object name="ParaFora...(CasaFora)" type="Warp" x="1856" y="928" width="32" height="32"/>
   <object name="" x="2048" y="0" width="640" height="640"/>
   <object name="" x="2048" y="960" width="640" height="640"/>
+  <object name="" x="3072" y="0" width="640" height="640"/>
+  <object name="" x="3072" y="960" width="640" height="640"/>
+  <object name="ParaFora...(CasaFora)" type="Warp" x="2880" y="640" width="32" height="32"/>
  </objectgroup>
 </map>
