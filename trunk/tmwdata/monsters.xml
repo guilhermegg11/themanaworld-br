@@ -355,12 +355,7 @@ Ou um comentário de alguem.
 <sound event="miss">fluffy-miss1.ogg</sound>
 <sound event="hurt">fluffy-hurt1.ogg</sound>
 </monster>
-<monster id="321" name="Rato" summon="rato">
-<sprite>monstro-rato.xml|#333b4f,757a8f,99a1b3,ffffff</sprite>
-<sound event="hit">bat-hit1.ogg</sound>
-<sound event="miss">fluffy-miss1.ogg</sound>
-<sound event="die">bat-dying1.ogg</sound>
-</monster>
+<!-- 321 - Aki jás um rato -->
 <monster id="322" name="Guarda" summon="Guarda">
 <sprite>player_male_base.xml</sprite>
 <sprite gender="male">leg-assassin-male.xml</sprite>
