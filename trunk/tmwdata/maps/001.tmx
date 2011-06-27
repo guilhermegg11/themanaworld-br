@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="140" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/001.png"/>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Vila dos Pescadores"/>
+  <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
+  <property name="pasta" value="vilaPescadores"/>
+ </properties>
+ <tileset firstgid="1" name="Colision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="floresta" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="Block Walls" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="515" name="Block Walls X2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/blockWalls_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="531" name="Vila" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="787" name="Trans" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/trans_woodland-desert.png" width="512" height="352"/>
+ </tileset>
+ <tileset firstgid="963" name="Woodland X3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="995" name="Desert3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert3.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1251" name="Desert X5" tilewidth="32" tileheight="160">
+  <image source="../graphics/tiles/desert_x5.png" width="192" height="160"/>
+ </tileset>
+ <tileset firstgid="1257" name="Pots_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Pots_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="1273" name="Sombras" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/sombras.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="1297" name="Woodland (interno)" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cPW8cRRzH8cWblveAqIKgACoiKBBVghJqQhJEGR6CEC0FDx0SD0UwLRW0JEAU8gogeQUYWhASlCmQaGBWvhHDeH77cDc7/9nbb/GJY58v3vjm69mZW9/FpmkuAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUdqRrI8T2NXYsb4N6/8bMNWcPdAHlqhkE/SBJbBqgj5QO+su6AO1sW6BPlAb6/FPH6iZ9finD9Qs51h++IE0+sBSlehjF9bfH6wbfQAafQAafQCaZR+sz1G7nH2kGglvu+7eP5y4n2X9/cG60Qeg0Qeg0Qeg0QeglexjG9bfH6wbfQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQAafQBa7X2cbm196Zx3nliAt04dv337VPr23I+18q7zzmZ8fVLoaw45quAY2j3t44rzTGs//pfSxxebNj5yPq5gTLabPu5VcBz71sdXzmG7jEb6+ig5Bl50zjjfVDAeva6PuxUcx771saRGaurjpQrGYuioqeMcax/7iBt5uq2zE9VH6TFQWx/36aNYI5+19XZCH/1qWIPscx99ndTQSqoPizFQcx/Wa5A19BF3UsucUkMfZ7vHzHnE+aCCJkI1nGOtqY8xc8oYuXqK+7B4/Lu5wz+3Vtsc4vu4Qx/mnYw11NOUdqz78HOHVR9Dawvfx13DRtbeR86epq5vrPsI5w6L58771hbhHlbnZ+e2833hVuhjnnbGPP9i2Uc8d1g8Pzi0tggb+cP5wfmxOe6q1L4WfczXytAegFUfcRtWa48xa4tUH7n3tR51HqMPk0b65hKLPlJtWPYxtLZQfZTY14rbyNGI9ZiskZ9L4uuKS/bRdXFOtNHp9nefN+ijrxF1fmXdxy6sx2KtUtcVl+hjqIu4kXMFOwnX30ON0Md+S10zOWcfU7pQnby3eev//n7wfqqhsz23pRw1eo/qXvR5qT7m3seiD5tG/HnWXH2oNUZOYUO+m9PRbUOdxH3Ee1Td5/TNH3PvY9FHeeHvN8Z97PpY7zJnzNWQaiR+fiPVQPi53W2/R334Rqz6uO4cTly3W4+/2oXrkLiPbR/r2roI9e2LxY2oPjp/O385PyW6yt1FqG/vyvcx5d+zHn+1C8+x4j62eaxznEv9cnBS/PE5+mh7+vh2Qld36GOv+HOsXfvItc5I9aGasZo/+u475/VZ9LHcPj7N0MZQH79t2Uf3Wg83nNcmjPMpfbTNyXXIHGv1sX2M/RljPfaWIFcf/nVHdvVP4n3/eP46oo8zzqsbXRM3m2nXcqk9qqH7HSXk6sKjj7r6mPIz8KrzVM9YTYk/f0ozqo2hOWKM1B7V0H2s+wjRx7x9XGu326/8MBqvQ9eoX92ilb45I0cbXrxH1bemSO0PW/XxoPvjz4NxrMfeEqj5wzcy5fH7ujk+p+n4c5rzzoWEFzK1kmvOCPlj9sfYjf+hdXfcSM7j8XJem9ixHntLoPrYdo83dtm5kvB6z318K32dzDFneJc2x/hy8DE/n45pZNevr65xH9vHk+62V5ph1mNvCebu4w3nWsKbI+6rOpljzkgdc3iM4d5UXyND+n6/Ywh9lPW5c6udt48cuk5uNP/tSVm89mh47mT1O+j0Ub6NC87lVvdhMQ5qFK+9LRpJ9ZHal0r18VyiJ+sxWLPuvMq3kbo+MdzDopH0/lSp36v14j4eEvu2qg/2d8cJz6v6Xh8ubMT6tTWtpfooff4Z9/E4fczWRjh3qD78OVbun5VLZN1Gm+jjWfoo0saYPmpZq1tIPf9ncRy7rj+ODv7PejzWouviu1a3QR/TGrE6BvqYpw3fxaU23cbYPta+Tr9f+OvFa3b6KDtnDPXh1+fhGmTt63RL9JG/i745Y8z8kWrEepysVaqP1HWH9HGyB29qF0N9pBqxHidrlXv++BcBHCZJgLUBAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="Top1" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bO24TYRgF0LGR8ijooEGiCxJKSpYQB/IoeSdtBNhpAUFSwg6AFYCSDko2kG3Q0rEEJK4VRxkcm4xJJMeec6SrmfnlYuT/u7It20UBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwMWYaRbGeLDVO1hZzvpHMJ3NnHGFadDLPs6WZ7nZjJ9lMtkrrx9etCoFpsZt5Xi3N9FrO95LlZKW03n8NdbA/YOYP9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABq4W6zKO4lq81x38nlMdMoivVkqXGytpjzjWQ+mTvjyOR7kD48TB4lj5MnydNks2Y96WSeZ0sz3e3GTrKZbJXWj69bFcJkeZeZfz8g15Lrye1eP7rp1Kwfu5nn1dJMr+V8L1lOVkrr/ddMjw+Z+Y99+ZQs9L1+1LEf+wNm/kAPauVzZv5LX+4kt5JnyfPkRdKuYT9GcaNZLUy+l9nHV8nr3n6+yfFtsmt/h1poVguT77t9HMmPPF+timEyfc3efevtn36M5pfnC4b6rR8AAOfmtzdw2v/89kaXqIurxVE3jvvR/sd3p4O6BNPsZlG9H9vN04+FaTZo5vUDjugHDKcfcDH0A2A8fo77BuASO7wy7js4n+3S55O291fwF/2gbu4P+d/sVsXZ/wN419zegLUBAA==
+  </data>
+ </layer>
+ <layer name="Top2" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YywnCUBAF0GAZri1F1L1/t1qCHQg2INhAwNKsw3E/EcXgC+YcuLssZjEX5qWqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgKfToPQE0F0X/YBGtX4AAAAAAHTewb9caKQfAADtmsd9NUxydndBtY8ejJJck35kXYJ/9kk/sm+hLffSAySOsePjJDf94Mfq0gN8KesS9MEkdn0amb3Yee8P+mYRO76MrCLryCayjezevK8eL4qjloC1AQA=
+  </data>
+ </layer>
+ <layer name="Top3" width="200" height="140">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WMQ7CQAwAwVMU8v/38LYUKan2iiCRADOSezcrewwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4Dvt69QZwrVkD2+Nze8AdzRrQB/9OH9A0AE0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/QzvTxXF4Dv8z9gKYPaO/+VwdHlGUGgLUBAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="140" opacity="0.6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UWY7CMBAE0BH3P/T8IkRlbaed8J5UmgVIOraLvz8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBJXiFA7seZwFPoB2T6AZl+QKYfkOkHZPoBmX5Aph+wTD8g0w/I9AMy/YBMPyDTD8j0AzL9gEw/INMPyPQDMv2ATD8g0w/I9AMy/YBMPyDTD8j0AzL9gEw/INMPyPQDMv2ATD8g0w/I9AMy/YBMPyDTD8j0AzL9gEw/INMPyPQDMv2ATD8g0w/I9AMy/YBMPyDTD8j0AzL9gEw/INMPyPQDMv2ATD8g0w/I9AMy/YBMPyDTD8j0AzL9gEw/INMPyPQDsup+zJAneL39HP1MnevXtYdb79N9lp/Yj7Mz7Nm3CrN1I80y44x3zdLzzui18PvRmbd+tut7pep7buT83ee4oyMzW+v2iOeqvu6W691l/7rP8Mwd6dijkfdMa3LVeXy/z5X92HO9z/d2n9879OQqVXPufea1949Yw737tvb3KN3n9q49GbE3XT2uWps917nL91r3eX1CV7ZauufIeZaeN61JxRp9u8bse/Sp+4zOkBlsmWPEvHvXomqGu+xP99m8Y0aouu6eGTvP4pk1r5x17VrdZ+1pOWrkGVi651360THj2Tll3z4u7e0M+770vivuP2NHus/Q03NkH9JrVc7MWjVL5bqenWlt3aW/J0e6dMSZGSvnGr2eFfN2n5lfy5KqPV+6/lXnrnKezjm7z8uvZW0v3vekypEZrzh/+iF79jW9dvQ8nJnv6LNsee3sfFvW8tv9jug+K7+atBdVzs42+lkr7zFS9zn51aS9OKtqtiuet3LeUbrPya8m7cW3vdmierYrnrfqPkvXPfK/6vmkZl+Pfrb7OfbMm/6eJZ+65xERERERERERERERERERERERERERERERERERERERuXv+AQmM2MiAtQEA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraCima1" type="-warp" x="2368" y="3840" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima2" type="-warp" x="2528" y="3808" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima3" type="-warp" x="2688" y="3808" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima4" type="-warp" x="2848" y="3840" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima5" type="-warp" x="4256" y="3840" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima6" type="-warp" x="4384" y="3840" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima7" type="-warp" x="4992" y="3808" width="160" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima8" type="-warp" x="5216" y="3808" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima9" type="-warp" x="5376" y="3808" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCima10" type="-warp" x="5600" y="3840" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="" x="32" y="3840" width="6336" height="640"/>
+ </objectgroup>
+</map>
