@@ -11,43 +11,43 @@
   <property name="pasta" value="vilaPescadores"/>
  </properties>
  <tileset firstgid="1" name="Colision" tilewidth="32" tileheight="32">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/collision.png" width="64" height="32"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="floresta" tilewidth="32" tileheight="32">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="259" name="vila_pescadores" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/vila_pescadores.png" width="512" height="192"/>
  </tileset>
  <tileset firstgid="355" name="Block Walls" tilewidth="32" tileheight="32">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/blockWalls.png" width="512" height="512"/>
+  <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="611" name="Block Walls X2" tilewidth="32" tileheight="64">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/blockWalls_x2.png" width="512" height="64"/>
+  <image source="../graphics/tiles/blockWalls_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="627" name="Vila" tilewidth="32" tileheight="32">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/Woodland_village.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="883" name="Trans" tilewidth="32" tileheight="32">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/trans_woodland-desert.png" width="512" height="352"/>
+  <image source="../graphics/tiles/trans_woodland-desert.png" width="512" height="352"/>
  </tileset>
  <tileset firstgid="1059" name="Woodland X3" tilewidth="32" tileheight="96">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
  </tileset>
  <tileset firstgid="1091" name="Desert3" tilewidth="32" tileheight="32">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/desert3.png" width="512" height="512"/>
+  <image source="../graphics/tiles/desert3.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="1347" name="Desert X5" tilewidth="32" tileheight="160">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/desert_x5.png" width="192" height="160"/>
+  <image source="../graphics/tiles/desert_x5.png" width="192" height="160"/>
  </tileset>
  <tileset firstgid="1353" name="Pots_x2" tilewidth="32" tileheight="64">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/Pots_x2.png" width="512" height="64"/>
+  <image source="../graphics/tiles/Pots_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="1369" name="Sombras" tilewidth="32" tileheight="32">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/sombras.png" width="192" height="128"/>
+  <image source="../graphics/tiles/sombras.png" width="192" height="128"/>
  </tileset>
  <tileset firstgid="1393" name="Woodland (interno)" tilewidth="32" tileheight="32">
-  <image source="../../../../arquivos/ubuntu-8.10/tmw-br/trunk/tmwdata/graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="200" height="140">
   <data encoding="base64" compression="gzip">
