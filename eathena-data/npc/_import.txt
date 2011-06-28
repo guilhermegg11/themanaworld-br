@@ -1,3 +1,5 @@
+import: npc/001_vilaPescadores/_import.txt
+
 import: npc/002_fortaleza/_import.txt
 import: npc/002-01_salaPrincipal/_import.txt
 import: npc/002-02_quartoFeminino/_import.txt

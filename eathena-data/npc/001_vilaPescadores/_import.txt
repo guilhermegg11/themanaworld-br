@@ -1,0 +1,4 @@
+map: 001.gat
+npc: npc/001_vilaPescadores/_mobs.txt
+npc: npc/001_vilaPescadores/_scripts.txt
+npc: npc/001_vilaPescadores/_warps.txt
