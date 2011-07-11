@@ -455,4 +455,10 @@ Ou um comentário de alguem.
 	<sprite>monsters/monster-jhon.xml</sprite>
 </monster>
 
+<monster id="337" name="Rama de Batata" summon="nojo">
+	<sprite>monsters/batata-onda.xml</sprite>
+	<sprite>monsters/batata.xml|#C45E00</sprite>
+	<sprite>monsters/batata-folhas.xml</sprite>
+</monster>
+
 </monsters>
