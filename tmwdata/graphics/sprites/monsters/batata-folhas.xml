@@ -142,4 +142,15 @@
 		</animation>
 	</action>
 
+	<action name="dead" imageset="base">
+		<animation direction="default">
+			<frame index="40" delay="100"/>
+			<frame index="41" delay="100"/>
+			<frame index="42" delay="100"/>
+			<frame index="43" delay="100"/>
+			<frame index="44"/>
+			<end/>
+		</animation>
+	</action>
+
 </sprite>
