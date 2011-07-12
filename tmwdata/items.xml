@@ -6434,4 +6434,16 @@
 		<sprite>equipment/head/head-mascara-morte.xml</sprite>
 	</item>
 
+	<item id="3267"
+		image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
+		name="Calça de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+
 </items>
