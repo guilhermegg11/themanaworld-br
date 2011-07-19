@@ -1366,7 +1366,7 @@
 		image="armor-chest-lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
 		name="Armadura Dourada Leve"
 		description="Uma leve armadura dourada banhada a ouro."
-		effect="lvl 60"
+		effect="lvl 55"
 		type="equip-torso"
 		weight="1200"
 		defense="25">
@@ -5066,7 +5066,7 @@
 		image="armor-chest-greendragon.png"
 		name="Armadura do Dragão"
 		description="Armadura inquebrável feita de escamas e ossos de Dragão Ancestral."
-		effect="lvl 60, +15 Defesa Mágica"
+		effect="lvl 55, +15 Defesa Mágica"
 		type="equip-torso"
 		weight="150"
 		defense="20">
@@ -6444,6 +6444,37 @@
 		defense="2">
 		<sprite gender="male">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
 		<sprite gender="female">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+
+	<item id="3268"
+		image="weapon-dagger-rockknive.png"
+		name="Rock Knife ▾▾▿"
+		description="Uma faca forjada com uma resistente pedra."
+		effect="lvl 84(-6), +265(-35) Dano, 1 Alcance, Bidestra"
+		type="equip-2hand"
+		weapon-type="knife"
+		weight="3000">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3269"
+		image="weapon-dagger-rockknive.png"
+		name="Rock Knife ▾▿▿"
+		description="Uma faca forjada com uma resistente pedra."
+		effect="lvl 78(-12), +230(-70) Dano, 1 Alcance, Bidestra"
+		type="equip-2hand"
+		weapon-type="knife"
+		weight="3000">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3270"
+		image="weapon-dagger-rockknive.png"
+		name="Rock Knife ▿▿▿"
+		description="Uma faca forjada com uma resistente pedra."
+		effect="lvl 72(-18), +195(-105) Dano, 1 Alcance, Bidestra"
+		type="equip-2hand"
+		weapon-type="knife"
+		weight="3000">
+		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 
 </items>
