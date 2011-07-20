@@ -1489,7 +1489,7 @@
 		image="armor-chest-warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
 		name="Armadura do Lord da Guerra Dourada"
 		description="Uma forte armadura banhada a ouro."
-		effect="lvl 90"
+		effect="lvl 55"
 		type="equip-torso"
 		weight="2600"
 		defense="27">
@@ -2249,7 +2249,7 @@
 		image="armor-head-paladinhelm.png"
 		name="Elmo de Paladino"
 		description="Um excelente elmo, tipicamente usado por paladinos."
-		effect="lvl 80"
+		effect="lvl 70"
 		type="equip-head"
 		weight="500"
 		defense="19">
@@ -2259,7 +2259,7 @@
 		image="armor-head-overlordhelm.png"
 		name="Elmo do Soberano"
 		description="Um elmo lendário, usado somente pelos guerreiros mais fortes."
-		effect="lvl 90"
+		effect="lvl 70"
 		type="equip-head"
 		weight="500"
 		defense="20">
@@ -4378,7 +4378,7 @@
 		image="armor-head-capacete-lord.png"
 		name="Capacete de Lord"
 		description="Um capacete de Lord."
-		effect="lvl 90"
+		effect="lvl 70"
 		type="equip-head"
 		weight="1500"
 		defense="20">
@@ -4400,7 +4400,7 @@
 		image="armor-chest-saviorarmor.png"
 		name="Armadura Celestial"
 		description="A armadura dos deuses."
-		effect="lvl 90"
+		effect="lvl 55"
 		type="equip-torso"
 		weight="2750"
 		defense="27">
@@ -4769,7 +4769,7 @@
 	</item>
 	<item id="3053"
 		image="espada-michael-arcanjo.png"
-		name="Espada Miguel Arcanjo"
+		name="Espada Miguel Arcanjo ★"
 		description="Espada do Arcanjo Miguel."
 		effect="lvl 80, +175 Dano, 1 Alcance"
 		type="equip-1hand"
@@ -4779,7 +4779,7 @@
 	</item>
 	<item id="3054"
 		image="espada-demoniaca.png"
-		name="Espada Demoniaca"
+		name="Espada Demoníaca ★"
 		description="Espada usada por Demônios."
 		effect="lvl 80, +175 Dano, 1 Alcance"
 		type="equip-1hand"
@@ -4799,8 +4799,8 @@
 	</item>
 	<item id="3056"
 		image="espada-imortal.png"
-		name="Espada dos Imortais"
-		description="Espada usadas por Guerreiro Imortais."
+		name="Espada dos Imortais ★★★"
+		description="Espada usada por Guerreiros Imortais."
 		effect="lvl 90, +225 Dano, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="sword"
@@ -5086,7 +5086,7 @@
 		image="armor-head-greendradon.png"
 		name="Elmo do Dragão"
 		description="Elmo inquebrável feita de ossos de Dragão Ancestral."
-		effect="lvl 80, +15 Defesa Mágica"
+		effect="lvl 70, +15 Defesa Mágica"
 		type="equip-head"
 		weight="1000"
 		defense="20">
@@ -6422,7 +6422,6 @@
 		defense="15">
 		<sprite>equipment/head/head-coroa-farao.xml</sprite>
 	</item>
-
 	<item id="3266"
 		image="armor-head-mascara-morte.png"
 		name="Máscara da Morte"
@@ -6433,7 +6432,6 @@
 		defense="2">
 		<sprite>equipment/head/head-mascara-morte.xml</sprite>
 	</item>
-
 	<item id="3267"
 		image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
 		name="Calça de Algodão"
@@ -6445,7 +6443,6 @@
 		<sprite gender="male">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
 		<sprite gender="female">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
 	</item>
-
 	<item id="3268"
 		image="weapon-dagger-rockknive.png"
 		name="Rock Knife ▾▾▿"
@@ -6474,6 +6471,96 @@
 		type="equip-2hand"
 		weapon-type="knife"
 		weight="3000">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3271"
+		image="espada-imortal.png"
+		name="Espada dos Imortais ★★☆"
+		description="Espada usada por Guerreiros Imortais."
+		effect="lvl 84(-6), +205(-20) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="360">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3272"
+		image="espada-imortal.png"
+		name="Espada dos Imortais ★☆☆"
+		description="Espada usada por Guerreiros Imortais."
+		effect="lvl 78(-12), +185(-40) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="360">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3273"
+		image="espada-imortal.png"
+		name="Espada dos Imortais ☆☆☆"
+		description="Espada usada por Guerreiros Imortais."
+		effect="lvl 72(-18), +165(-60) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="360">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3274"
+		image="espada-michael-arcanjo.png"
+		name="Espada Miguel Arcanjo ★▾▿"
+		description="Espada do Arcanjo Miguel."
+		effect="lvl 75(-5), +165(-10) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3275"
+		image="espada-michael-arcanjo.png"
+		name="Espada Miguel Arcanjo ★▿▿"
+		description="Espada do Arcanjo Miguel."
+		effect="lvl 70(-10), +155(-20) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3276"
+		image="espada-michael-arcanjo.png"
+		name="Espada Miguel Arcanjo ☆▿▿"
+		description="Espada do Arcanjo Miguel."
+		effect="lvl 65(-15), +145(-30) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3277"
+		image="espada-demoniaca.png"
+		name="Espada Demoníaca ★▾▿"
+		description="Espada usada por Demônios."
+		effect="lvl 75(-5), +165(-10) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3278"
+		image="espada-demoniaca.png"
+		name="Espada Demoníaca ★▿▿"
+		description="Espada usada por Demônios."
+		effect="lvl 70(-10), +155(-20) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="345">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3279"
+		image="espada-demoniaca.png"
+		name="Espada Demoníaca ☆▿▿"
+		description="Espada usada por Demônios."
+		effect="lvl 65(-15), +145(-30) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="345">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 

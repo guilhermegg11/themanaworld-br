@@ -1,4 +1,8 @@
 map: 002.gat
+
 npc: npc/002_fortaleza/_mobs.txt
 npc: npc/002_fortaleza/_scripts.txt
 npc: npc/002_fortaleza/_warps.txt
+
+//npc: npc/002_fortaleza/quintus.conf
+//npc: npc/002_fortaleza/miguel_arcanjo.conf
