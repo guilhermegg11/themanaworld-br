@@ -6564,4 +6564,11 @@
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 
+	<item id="3283"
+		image="generic-crystal-alma.png"
+		name="Crystal de Energia da Alma"
+		description="Um cristal com uma grande carga de energia da alma."
+		type="generic"
+		weight="10"/>
+
 </items>
