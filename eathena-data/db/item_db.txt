@@ -583,10 +583,10 @@
 3050,BoneDoador2010,Boné de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 3051,EspadaAprendiz,Espada Aprendiz,4,4000,2000,150,40,,1,,0,2,2,1,10,1,{},{}
 3052,EspadaCavaleiroLider,Espada Cavaleiro Lider,4,7000,3500,350,65,,1,,0,2,2,1,25,1,{},{}
-3053,EspadaMiguelArcanjo,Espada Miguel Arcanjo,4,200000,100000,345,175,,1,,0,2,2,1,75,1,{},{}
-3054,EspadaDemoniaca,Espada Demoniaca,4,200000,100000,345,175,,1,,0,2,2,1,75,1,{},{}
+3053,EspadaMiguelArcanjo,Espada Miguel Arcanjo,4,200000,100000,345,175,,1,,0,2,2,1,80,1,{},{}
+3054,EspadaDemoniaca,Espada Demoniaca,4,200000,100000,345,175,,1,,0,2,2,1,80,1,{},{}
 3055,EspadaKurogane,Espada de Kurogane,4,250000,125000,320,200,,1,,0,2,2,1,75,1,{},{}
-3056,EspadaImortal,Espada dos Imortal,4,300000,150000,360,225,,1,,0,2,2,1,75,1,{},{}
+3056,EspadaImortal,Espada dos Imortal,4,300000,150000,360,225,,1,,0,2,2,1,90,1,{},{}
 3057,ZambacutouPedra,Zambacutou de Pedra,4,175000,97500,2500,160,,1,,0,2,34,1,75,1,{},{}
 3058,ZambacutouVelha,Zambacutou Velha,4,115000,57500,1200,115,,1,,0,2,34,1,55,1,{},{}
 
@@ -815,3 +815,12 @@
 3268,RockKnife_1,Rock Knife_1,4,15000,7500,3000,265,,1,,0,2,34,1,84,1,{},{}
 3269,RockKnife_2,Rock Knife_2,4,15000,7500,3000,230,,1,,0,2,34,1,78,1,{},{}
 3270,RockKnife_3,Rock Knife_3,4,15000,7500,3000,195,,1,,0,2,34,1,72,1,{},{}
+3271,EspadaImortal_1,Espada dos Imortal_1,4,300000,150000,360,205,,1,,0,2,2,1,84,1,{},{}
+3272,EspadaImortal_2,Espada dos Imortal_2,4,300000,150000,360,185,,1,,0,2,2,1,78,1,{},{}
+3273,EspadaImortal_3,Espada dos Imortal_3,4,300000,150000,360,165,,1,,0,2,2,1,72,1,{},{}
+3274,EspadaMiguelArcanjo_1,Espada Miguel Arcanjo_1,4,200000,100000,345,165,,1,,0,2,2,1,75,1,{},{}
+3275,EspadaMiguelArcanjo_1,Espada Miguel Arcanjo_2,4,200000,100000,345,155,,1,,0,2,2,1,70,1,{},{}
+3276,EspadaMiguelArcanjo_3,Espada Miguel Arcanjo_3,4,200000,100000,345,145,,1,,0,2,2,1,65,1,{},{}
+3277,EspadaDemoniaca_1,Espada Demoniaca_1,4,200000,100000,345,165,,1,,0,2,2,1,75,1,{},{}
+3278,EspadaDemoniaca_2,Espada Demoniaca_2,4,200000,100000,345,155,,1,,0,2,2,1,70,1,{},{}
+3279,EspadaDemoniaca_3,Espada Demoniaca_3,4,200000,100000,345,145,,1,,0,2,2,1,65,1,{},{}
