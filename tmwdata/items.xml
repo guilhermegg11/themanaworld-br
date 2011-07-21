@@ -1239,7 +1239,7 @@
 	</item>
 	<item id="631"
 		image="generic-darkcrystal.png"
-		name="Crystal Escuro"
+		name="Cristal Escuro"
 		description="Um cristal escuro que emite uma aura demoníaca."
 		type="generic"
 		weight="10"/>
@@ -6566,7 +6566,7 @@
 
 	<item id="3283"
 		image="generic-crystal-alma.png"
-		name="Crystal de Energia da Alma"
+		name="Cristal de Energia da Alma"
 		description="Um cristal com uma grande carga de energia da alma."
 		type="generic"
 		weight="10"/>
