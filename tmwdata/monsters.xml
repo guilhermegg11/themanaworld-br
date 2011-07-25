@@ -455,7 +455,16 @@ Ou um comentário de alguem.
 	<sprite>monsters/monster-jhon.xml</sprite>
 </monster>
 
-<monster id="337" name="Rama de Batata" summon="nojo">
+<monster id="338" name="Lagosta" summon="lagosta">
+<sprite>monsters/monster-lagosta.xml|#791d0a,cd5d27,f28d54,ffffff</sprite>
+<sound event="hit">scorpion-hit1.ogg</sound>
+<sound event="hit">scorpion-hit2.ogg</sound>
+<sound event="hit">scorpion-hit3.ogg</sound>
+<sound event="hit">scorpion-hit4.ogg</sound>
+<sound event="miss">scorpion-miss1.ogg</sound>
+</monster>
+
+<monster id="339" name="Rama de Batata" summon="nojo">
 	<sprite>monsters/batata-onda.xml</sprite>
 	<sprite>monsters/batata.xml|#C45E00</sprite>
 	<sprite>monsters/batata-folhas.xml</sprite>
