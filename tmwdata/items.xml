@@ -4789,9 +4789,9 @@
 	</item>
 	<item id="3055"
 		image="espada-kurogane.png"
-		name="Espada de Kurogane"
+		name="Espada de Kurogane ★★★"
 		description="Espada com lâmina negra do Guerreiro Kurogane."
-		effect="lvl 90, +200 Dano, 1 Alcance"
+		effect="lvl 85, +200 Dano, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="sword"
 		weight="320">
@@ -6563,7 +6563,36 @@
 		weight="345">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
-
+	<item id="3280"
+		image="espada-kurogane.png"
+		name="Espada de Kurogane ★★☆"
+		description="Espada com lâmina negra do Guerreiro Kurogane."
+		effect="lvl 80(-5), +188(-12) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="320">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3281"
+		image="espada-kurogane.png"
+		name="Espada de Kurogane ★☆☆"
+		description="Espada com lâmina negra do Guerreiro Kurogane."
+		effect="lvl 75(-10), +176(-24) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="320">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
+	<item id="3282"
+		image="espada-kurogane.png"
+		name="Espada de Kurogane ☆☆☆"
+		description="Espada com lâmina negra do Guerreiro Kurogane."
+		effect="lvl 70(-15), +164(-36) Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="320">
+		<sprite>weapon-dagger-attack.xml</sprite>
+	</item>
 	<item id="3283"
 		image="generic-crystal-alma.png"
 		name="Cristal de Energia da Alma"
