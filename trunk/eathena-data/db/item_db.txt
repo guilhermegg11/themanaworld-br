@@ -585,7 +585,7 @@
 3052,EspadaCavaleiroLider,Espada Cavaleiro Lider,4,7000,3500,350,65,,1,,0,2,2,1,25,1,{},{}
 3053,EspadaMiguelArcanjo,Espada Miguel Arcanjo,4,200000,100000,345,175,,1,,0,2,2,1,80,1,{},{}
 3054,EspadaDemoniaca,Espada Demoniaca,4,200000,100000,345,175,,1,,0,2,2,1,80,1,{},{}
-3055,EspadaKurogane,Espada de Kurogane,4,250000,125000,320,200,,1,,0,2,2,1,90,1,{},{}
+3055,EspadaKurogane,Espada de Kurogane,4,250000,125000,320,200,,1,,0,2,2,1,85,1,{},{}
 3056,EspadaImortal,Espada dos Imortal,4,300000,150000,360,225,,1,,0,2,2,1,90,1,{},{}
 3057,ZambacutouPedra,Zambacutou de Pedra,4,175000,97500,2500,160,,1,,0,2,34,1,75,1,{},{}
 3058,ZambacutouVelha,Zambacutou Velha,4,115000,57500,1200,115,,1,,0,2,34,1,55,1,{},{}
@@ -824,7 +824,7 @@
 3277,EspadaDemoniaca_1,Espada Demoniaca_1,4,200000,100000,345,165,,1,,0,2,2,1,75,1,{},{}
 3278,EspadaDemoniaca_2,Espada Demoniaca_2,4,200000,100000,345,155,,1,,0,2,2,1,70,1,{},{}
 3279,EspadaDemoniaca_3,Espada Demoniaca_3,4,200000,100000,345,145,,1,,0,2,2,1,65,1,{},{}
-3280,EspadaKurogane_1,Espada de Kurogane_1,4,250000,125000,320,200,,1,,0,2,2,1,75,1,{},{}
-3281,EspadaKurogane_2,Espada de Kurogane_2,4,250000,125000,320,200,,1,,0,2,2,1,75,1,{},{}
-3282,EspadaKurogane_3,Espada de Kurogane_4,4,250000,125000,320,200,,1,,0,2,2,1,75,1,{},{}
+3280,EspadaKurogane_1,Espada de Kurogane_1,4,250000,125000,320,188,,1,,0,2,2,1,80,1,{},{}
+3281,EspadaKurogane_2,Espada de Kurogane_2,4,250000,125000,320,176,,1,,0,2,2,1,75,1,{},{}
+3282,EspadaKurogane_3,Espada de Kurogane_4,4,250000,125000,320,164,,1,,0,2,2,1,70,1,{},{}
 3283,cristalAlma,cristalAlma,3,100,50,10,,,,,,,,,,,{},{}
