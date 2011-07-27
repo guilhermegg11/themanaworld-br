@@ -525,6 +525,20 @@
 2217,OrangeBowlerHat,Orange Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 2218,PurpleBowlerHat,Purple Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 2219,DarkGreenBowlerHat,Dark Green Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
+// ,,,,,,,,,,,,,,,,,,,,
+// ITENS COLORIDOS DA EQUIPE TMW-BR,,,,,,,,,,,,,,,,,,,,
+// ,,,,,,,,,,,,,,,,,,,,
+2500,calcaAlgodaoVermelho,calcaAlgodaoVermelho,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2501,calcaAlgodaoVerde,calcaAlgodaoVerde,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2502,calcaAlgodaoAzulescuro,calcaAlgodaoAzulescuro,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2503,calcaAlgodaoAmarelo,calcaAlgodaoAmarelo,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2504,calcaAlgodaoAzulClaro,calcaAlgodaoAzulClaro,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2505,calcaAlgodaoRosa,calcaAlgodaoRosa,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2506,calcaAlgodaoPreto,calcaAlgodaoPreto,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2507,calcaAlgodaoLaranja,calcaAlgodaoLaranja,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2508,calcaAlgodaoRoxo,calcaAlgodaoRoxo,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2509,calcaAlgodaoVerdeEscuro,calcaAlgodaoVerdeEscuro,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+// ,,,,,,,,,,,,,,,,,,,,
 2999,BowlerHat,Bowler Hat,5,2500,1250,30,,10,,2,0,2,256,,0,0,{},{}
 // ,,,,,,,,,,,,,,,,,,,,
 // ITENS DA EQUIPE TMW-BR,,,,,,,,,,,,,,,,,,,,
