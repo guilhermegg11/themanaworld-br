@@ -4301,6 +4301,116 @@
 		max-per-slot="1">
 		<sprite>equipment/head/bowler-hat.xml|#104010,208020,30c030</sprite>
 	</item>
+	<item id="2500"
+		image="armor-legs-long-pants.png|W:#580000,A40000,C02020,ff6060"
+		name="Calça Vermelha de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#580000,A40000,C02020,ff6060</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2501"
+		image="armor-legs-long-pants.png|W:#115511,22aa22,99dd99"
+		name="Calça Verde de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2502"
+		image="armor-legs-long-pants.png|W:#222255,6666ff"
+		name="Calça Azul Escura de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#222255,6666ff</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#222255,6666ff</sprite>
+	</item>
+	<item id="2503"
+		image="armor-legs-long-pants.png|W:#846211,dab333,fffb93,ffffff"
+		name="Calça Amarela de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2504"
+		image="armor-legs-long-pants.png|W:#16486e,498ec5,e4f2fc"
+		name="Calça Azul Clara de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#16486e,498ec5,e4f2fc</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2505"
+		image="armor-legs-long-pants.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Calça Rosa de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2506"
+		image="armor-legs-long-pants.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Calça Preta de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2507"
+		image="armor-legs-long-pants.png|W:#80280f,b04810,ef681f,ffb830"
+		name="Calça Laranja de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2508"
+		image="armor-legs-long-pants.png|W:#520a7b,8c23c7,ca87ef"
+		name="Calça Roxa de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#520a7b,8c23c7,ca87ef</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#520a7b,8c23c7,ca87ef</sprite>
+	</item>
+	<item id="2509"
+		image="armor-legs-long-pants.png|W:#104010,208020,30c030"
+		name="Calça Verde Escura de Algodão"
+		description="Uma calça comprida feita de 100% algodão."
+		effect="lvl 1"
+		type="equip-legs"
+		weight="15"
+		defense="2">
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#104010,208020,30c030</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#104010,208020,30c030</sprite>
+	</item>
 	<item id="2999"
 		image="armor-head-bowler-hat.png"
 		name="Bowler Hat"
@@ -6433,15 +6543,15 @@
 		<sprite>equipment/head/head-mascara-morte.xml</sprite>
 	</item>
 	<item id="3267"
-		image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
+		image="armor-legs-long-pants.png|W:#A4B2B2,FFFFFF"
 		name="Calça de Algodão"
 		description="Uma calça comprida feita de 100% algodão."
 		effect="lvl 1"
 		type="equip-legs"
 		weight="15"
 		defense="2">
-		<sprite gender="male">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
-		<sprite gender="female">equipment/leg/long-pants-male.xml|#115511,22aa22,99dd99</sprite>
+		<sprite gender="male">equipment/leg/long-pants-male.xml|#A4B2B2,FFFFFF</sprite>
+		<sprite gender="female">equipment/leg/long-pants-female.xml|#A4B2B2,FFFFFF</sprite>
 	</item>
 	<item id="3268"
 		image="weapon-dagger-rockknive.png"
