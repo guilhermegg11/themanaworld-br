@@ -12,6 +12,7 @@
 	<update type="data" file="update_2011-04-12.zip" hash="cc0a5ced"/>
 	<update type="data" file="update_2011-05-22.zip" hash="94942089"/>
 	<update type="data" file="correcao_2011-07-27.zip" hash="6fbac05"/>
+	<update type="data" file="correcao_2011-07-28.zip" hash="d71c6861"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 	<update type="music" required="no" file="musicas_2010-09-28.zip" hash="6db7aab8" desciption="Novas músicas"/>
 	<update type="music" required="no" file="musicas_2010-11-13.zip" hash="e108eee" desciption="Cemitério do Org"/>
