@@ -2,21 +2,3 @@
 // Scripts do mapa: 004 Ilha Fortaleza
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
-
-// Script: Pedra de Emanar Alma
-004.gat,62,62,0	script	#004_62x62	326, {
-	callfunc "pedraEmanarAlma", "004.gat", 62, 62;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-004.gat,120,100,0	script	#004_120x100	326, {
-	callfunc "pedraEmanarAlma", "004.gat", 120, 100;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-004.gat,144,61,0	script	#004_144x61	326, {
-	callfunc "pedraEmanarAlma", "004.gat", 144, 61;
-	close;
-}
