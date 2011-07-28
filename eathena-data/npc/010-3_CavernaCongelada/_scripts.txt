@@ -2,9 +2,3 @@
 // Scripts do mapa: 010-3 Caverna Congelada
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
-
-// Script: Pedra de Emanar Alma
-010-3.gat,57,28,0	script	#010-3_57x28	326, {
-	callfunc "pedraEmanarAlma", "010-3.gat", 57, 28;
-	close;
-}

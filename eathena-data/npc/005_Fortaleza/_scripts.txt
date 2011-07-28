@@ -2,9 +2,3 @@
 // Scripts do mapa: 005 Fortaleza
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
-
-// Script: Pedra de Emanar Alma
-005.gat,52,99,0	script	#005_52x99	326, {
-	callfunc "pedraEmanarAlma", "005.gat", 52, 99;
-	close;
-}
