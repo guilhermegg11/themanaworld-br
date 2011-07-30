@@ -26,28 +26,76 @@
   <image source="../graphics/tiles/salto_peixe.png" width="320" height="224"/>
   <tile id="0">
    <properties>
-    <property name="animation-delay0" value="8000"/>
-    <property name="animation-delay1" value="75"/>
-    <property name="animation-delay10" value="75"/>
-    <property name="animation-delay11" value="4000"/>
-    <property name="animation-delay12" value="75"/>
-    <property name="animation-delay13" value="75"/>
-    <property name="animation-delay14" value="75"/>
-    <property name="animation-delay15" value="75"/>
-    <property name="animation-delay16" value="75"/>
-    <property name="animation-delay17" value="75"/>
-    <property name="animation-delay18" value="75"/>
-    <property name="animation-delay19" value="75"/>
-    <property name="animation-delay2" value="75"/>
-    <property name="animation-delay20" value="75"/>
-    <property name="animation-delay21" value="75"/>
-    <property name="animation-delay3" value="75"/>
-    <property name="animation-delay4" value="75"/>
-    <property name="animation-delay5" value="75"/>
-    <property name="animation-delay6" value="75"/>
-    <property name="animation-delay7" value="75"/>
-    <property name="animation-delay8" value="75"/>
-    <property name="animation-delay9" value="75"/>
+    <property name="animation-delay0" value="500"/>
+    <property name="animation-delay1" value="8"/>
+    <property name="animation-delay10" value="8"/>
+    <property name="animation-delay11" value="300"/>
+    <property name="animation-delay12" value="8"/>
+    <property name="animation-delay13" value="8"/>
+    <property name="animation-delay14" value="8"/>
+    <property name="animation-delay15" value="8"/>
+    <property name="animation-delay16" value="8"/>
+    <property name="animation-delay17" value="8"/>
+    <property name="animation-delay18" value="8"/>
+    <property name="animation-delay19" value="8"/>
+    <property name="animation-delay2" value="8"/>
+    <property name="animation-delay20" value="8"/>
+    <property name="animation-delay21" value="8"/>
+    <property name="animation-delay3" value="8"/>
+    <property name="animation-delay4" value="8"/>
+    <property name="animation-delay5" value="8"/>
+    <property name="animation-delay6" value="8"/>
+    <property name="animation-delay7" value="8"/>
+    <property name="animation-delay8" value="8"/>
+    <property name="animation-delay9" value="8"/>
+    <property name="animation-frame0" value="9"/>
+    <property name="animation-frame1" value="30"/>
+    <property name="animation-frame10" value="19"/>
+    <property name="animation-frame11" value="9"/>
+    <property name="animation-frame12" value="20"/>
+    <property name="animation-frame13" value="21"/>
+    <property name="animation-frame14" value="22"/>
+    <property name="animation-frame15" value="23"/>
+    <property name="animation-frame16" value="24"/>
+    <property name="animation-frame17" value="25"/>
+    <property name="animation-frame18" value="26"/>
+    <property name="animation-frame19" value="27"/>
+    <property name="animation-frame2" value="31"/>
+    <property name="animation-frame20" value="28"/>
+    <property name="animation-frame21" value="29"/>
+    <property name="animation-frame3" value="32"/>
+    <property name="animation-frame4" value="33"/>
+    <property name="animation-frame5" value="34"/>
+    <property name="animation-frame6" value="35"/>
+    <property name="animation-frame7" value="36"/>
+    <property name="animation-frame8" value="37"/>
+    <property name="animation-frame9" value="38"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="animation-delay0" value="375"/>
+    <property name="animation-delay1" value="8"/>
+    <property name="animation-delay10" value="8"/>
+    <property name="animation-delay11" value="425"/>
+    <property name="animation-delay12" value="8"/>
+    <property name="animation-delay13" value="8"/>
+    <property name="animation-delay14" value="8"/>
+    <property name="animation-delay15" value="8"/>
+    <property name="animation-delay16" value="8"/>
+    <property name="animation-delay17" value="8"/>
+    <property name="animation-delay18" value="8"/>
+    <property name="animation-delay19" value="8"/>
+    <property name="animation-delay2" value="8"/>
+    <property name="animation-delay20" value="8"/>
+    <property name="animation-delay21" value="8"/>
+    <property name="animation-delay3" value="8"/>
+    <property name="animation-delay4" value="8"/>
+    <property name="animation-delay5" value="8"/>
+    <property name="animation-delay6" value="8"/>
+    <property name="animation-delay7" value="8"/>
+    <property name="animation-delay8" value="8"/>
+    <property name="animation-delay9" value="8"/>
     <property name="animation-frame0" value="9"/>
     <property name="animation-frame1" value="10"/>
     <property name="animation-frame10" value="19"/>
@@ -72,126 +120,78 @@
     <property name="animation-frame9" value="18"/>
    </properties>
   </tile>
-  <tile id="1">
-   <properties>
-    <property name="animation-delay0" value="6000"/>
-    <property name="animation-delay1" value="75"/>
-    <property name="animation-delay10" value="75"/>
-    <property name="animation-delay11" value="6000"/>
-    <property name="animation-delay12" value="75"/>
-    <property name="animation-delay13" value="75"/>
-    <property name="animation-delay14" value="75"/>
-    <property name="animation-delay15" value="75"/>
-    <property name="animation-delay16" value="75"/>
-    <property name="animation-delay17" value="75"/>
-    <property name="animation-delay18" value="75"/>
-    <property name="animation-delay19" value="75"/>
-    <property name="animation-delay2" value="75"/>
-    <property name="animation-delay20" value="75"/>
-    <property name="animation-delay21" value="75"/>
-    <property name="animation-delay3" value="75"/>
-    <property name="animation-delay4" value="75"/>
-    <property name="animation-delay5" value="75"/>
-    <property name="animation-delay6" value="75"/>
-    <property name="animation-delay7" value="75"/>
-    <property name="animation-delay8" value="75"/>
-    <property name="animation-delay9" value="75"/>
-    <property name="animation-frame0" value="9"/>
-    <property name="animation-frame1" value="50"/>
-    <property name="animation-frame10" value="19"/>
-    <property name="animation-frame11" value="9"/>
-    <property name="animation-frame12" value="40"/>
-    <property name="animation-frame13" value="41"/>
-    <property name="animation-frame14" value="42"/>
-    <property name="animation-frame15" value="43"/>
-    <property name="animation-frame16" value="44"/>
-    <property name="animation-frame17" value="45"/>
-    <property name="animation-frame18" value="46"/>
-    <property name="animation-frame19" value="47"/>
-    <property name="animation-frame2" value="51"/>
-    <property name="animation-frame20" value="48"/>
-    <property name="animation-frame21" value="29"/>
-    <property name="animation-frame3" value="52"/>
-    <property name="animation-frame4" value="53"/>
-    <property name="animation-frame5" value="54"/>
-    <property name="animation-frame6" value="55"/>
-    <property name="animation-frame7" value="56"/>
-    <property name="animation-frame8" value="57"/>
-    <property name="animation-frame9" value="58"/>
-   </properties>
-  </tile>
   <tile id="2">
    <properties>
-    <property name="animation-delay0" value="5000"/>
-    <property name="animation-delay1" value="75"/>
-    <property name="animation-delay10" value="75"/>
-    <property name="animation-delay11" value="7000"/>
-    <property name="animation-delay12" value="75"/>
-    <property name="animation-delay13" value="75"/>
-    <property name="animation-delay14" value="75"/>
-    <property name="animation-delay15" value="75"/>
-    <property name="animation-delay16" value="75"/>
-    <property name="animation-delay17" value="75"/>
-    <property name="animation-delay18" value="75"/>
-    <property name="animation-delay19" value="75"/>
-    <property name="animation-delay2" value="75"/>
-    <property name="animation-delay20" value="75"/>
-    <property name="animation-delay21" value="75"/>
-    <property name="animation-delay3" value="75"/>
-    <property name="animation-delay4" value="75"/>
-    <property name="animation-delay5" value="75"/>
-    <property name="animation-delay6" value="75"/>
-    <property name="animation-delay7" value="75"/>
-    <property name="animation-delay8" value="75"/>
-    <property name="animation-delay9" value="75"/>
+    <property name="animation-delay0" value="350"/>
+    <property name="animation-delay1" value="8"/>
+    <property name="animation-delay10" value="8"/>
+    <property name="animation-delay11" value="450"/>
+    <property name="animation-delay12" value="8"/>
+    <property name="animation-delay13" value="8"/>
+    <property name="animation-delay14" value="8"/>
+    <property name="animation-delay15" value="8"/>
+    <property name="animation-delay16" value="8"/>
+    <property name="animation-delay17" value="8"/>
+    <property name="animation-delay18" value="8"/>
+    <property name="animation-delay19" value="8"/>
+    <property name="animation-delay2" value="8"/>
+    <property name="animation-delay20" value="8"/>
+    <property name="animation-delay21" value="8"/>
+    <property name="animation-delay3" value="8"/>
+    <property name="animation-delay4" value="8"/>
+    <property name="animation-delay5" value="8"/>
+    <property name="animation-delay6" value="8"/>
+    <property name="animation-delay7" value="8"/>
+    <property name="animation-delay8" value="8"/>
+    <property name="animation-delay9" value="8"/>
     <property name="animation-frame0" value="9"/>
-    <property name="animation-frame1" value="40"/>
+    <property name="animation-frame1" value="60"/>
     <property name="animation-frame10" value="29"/>
     <property name="animation-frame11" value="9"/>
-    <property name="animation-frame12" value="10"/>
-    <property name="animation-frame13" value="11"/>
-    <property name="animation-frame14" value="12"/>
-    <property name="animation-frame15" value="13"/>
-    <property name="animation-frame16" value="14"/>
-    <property name="animation-frame17" value="15"/>
-    <property name="animation-frame18" value="16"/>
-    <property name="animation-frame19" value="17"/>
-    <property name="animation-frame2" value="41"/>
-    <property name="animation-frame20" value="18"/>
+    <property name="animation-frame12" value="30"/>
+    <property name="animation-frame13" value="31"/>
+    <property name="animation-frame14" value="32"/>
+    <property name="animation-frame15" value="33"/>
+    <property name="animation-frame16" value="34"/>
+    <property name="animation-frame17" value="35"/>
+    <property name="animation-frame18" value="36"/>
+    <property name="animation-frame19" value="37"/>
+    <property name="animation-frame2" value="61"/>
+    <property name="animation-frame20" value="38"/>
     <property name="animation-frame21" value="19"/>
-    <property name="animation-frame3" value="42"/>
-    <property name="animation-frame4" value="43"/>
-    <property name="animation-frame5" value="44"/>
-    <property name="animation-frame6" value="45"/>
-    <property name="animation-frame7" value="46"/>
-    <property name="animation-frame8" value="47"/>
-    <property name="animation-frame9" value="48"/>
+    <property name="animation-frame3" value="62"/>
+    <property name="animation-frame4" value="63"/>
+    <property name="animation-frame5" value="64"/>
+    <property name="animation-frame6" value="65"/>
+    <property name="animation-frame7" value="66"/>
+    <property name="animation-frame8" value="67"/>
+    <property name="animation-frame9" value="68"/>
    </properties>
   </tile>
   <tile id="3">
    <properties>
-    <property name="animation-delay0" value="5000"/>
-    <property name="animation-delay1" value="75"/>
-    <property name="animation-delay10" value="75"/>
-    <property name="animation-delay11" value="3000"/>
-    <property name="animation-delay12" value="75"/>
-    <property name="animation-delay13" value="75"/>
-    <property name="animation-delay14" value="75"/>
-    <property name="animation-delay15" value="75"/>
-    <property name="animation-delay16" value="75"/>
-    <property name="animation-delay17" value="75"/>
-    <property name="animation-delay18" value="75"/>
-    <property name="animation-delay19" value="75"/>
-    <property name="animation-delay2" value="75"/>
-    <property name="animation-delay20" value="75"/>
-    <property name="animation-delay21" value="75"/>
-    <property name="animation-delay3" value="75"/>
-    <property name="animation-delay4" value="75"/>
-    <property name="animation-delay5" value="75"/>
-    <property name="animation-delay6" value="75"/>
-    <property name="animation-delay7" value="75"/>
-    <property name="animation-delay8" value="75"/>
-    <property name="animation-delay9" value="75"/>
+    <property name="animation-delay0" value="500"/>
+    <property name="animation-delay1" value="8"/>
+    <property name="animation-delay10" value="8"/>
+    <property name="animation-delay11" value="300"/>
+    <property name="animation-delay12" value="8"/>
+    <property name="animation-delay13" value="8"/>
+    <property name="animation-delay14" value="8"/>
+    <property name="animation-delay15" value="8"/>
+    <property name="animation-delay16" value="8"/>
+    <property name="animation-delay17" value="8"/>
+    <property name="animation-delay18" value="8"/>
+    <property name="animation-delay19" value="8"/>
+    <property name="animation-delay2" value="8"/>
+    <property name="animation-delay20" value="8"/>
+    <property name="animation-delay21" value="8"/>
+    <property name="animation-delay3" value="8"/>
+    <property name="animation-delay4" value="8"/>
+    <property name="animation-delay5" value="8"/>
+    <property name="animation-delay6" value="8"/>
+    <property name="animation-delay7" value="8"/>
+    <property name="animation-delay8" value="8"/>
+    <property name="animation-delay9" value="8"/>
     <property name="animation-frame0" value="9"/>
     <property name="animation-frame1" value="30"/>
     <property name="animation-frame10" value="19"/>
@@ -218,28 +218,28 @@
   </tile>
   <tile id="4">
    <properties>
-    <property name="animation-delay0" value="4000"/>
-    <property name="animation-delay1" value="75"/>
-    <property name="animation-delay10" value="75"/>
-    <property name="animation-delay11" value="4000"/>
-    <property name="animation-delay12" value="75"/>
-    <property name="animation-delay13" value="75"/>
-    <property name="animation-delay14" value="75"/>
-    <property name="animation-delay15" value="75"/>
-    <property name="animation-delay16" value="75"/>
-    <property name="animation-delay17" value="75"/>
-    <property name="animation-delay18" value="75"/>
-    <property name="animation-delay19" value="75"/>
-    <property name="animation-delay2" value="75"/>
-    <property name="animation-delay20" value="75"/>
-    <property name="animation-delay21" value="75"/>
-    <property name="animation-delay3" value="75"/>
-    <property name="animation-delay4" value="75"/>
-    <property name="animation-delay5" value="75"/>
-    <property name="animation-delay6" value="75"/>
-    <property name="animation-delay7" value="75"/>
-    <property name="animation-delay8" value="75"/>
-    <property name="animation-delay9" value="75"/>
+    <property name="animation-delay0" value="375"/>
+    <property name="animation-delay1" value="8"/>
+    <property name="animation-delay10" value="8"/>
+    <property name="animation-delay11" value="425"/>
+    <property name="animation-delay12" value="8"/>
+    <property name="animation-delay13" value="8"/>
+    <property name="animation-delay14" value="8"/>
+    <property name="animation-delay15" value="8"/>
+    <property name="animation-delay16" value="8"/>
+    <property name="animation-delay17" value="8"/>
+    <property name="animation-delay18" value="8"/>
+    <property name="animation-delay19" value="8"/>
+    <property name="animation-delay2" value="8"/>
+    <property name="animation-delay20" value="8"/>
+    <property name="animation-delay21" value="8"/>
+    <property name="animation-delay3" value="8"/>
+    <property name="animation-delay4" value="8"/>
+    <property name="animation-delay5" value="8"/>
+    <property name="animation-delay6" value="8"/>
+    <property name="animation-delay7" value="8"/>
+    <property name="animation-delay8" value="8"/>
+    <property name="animation-delay9" value="8"/>
     <property name="animation-frame0" value="9"/>
     <property name="animation-frame1" value="10"/>
     <property name="animation-frame10" value="19"/>
@@ -266,28 +266,28 @@
   </tile>
   <tile id="5">
    <properties>
-    <property name="animation-delay0" value="3000"/>
-    <property name="animation-delay1" value="75"/>
-    <property name="animation-delay10" value="75"/>
-    <property name="animation-delay11" value="5000"/>
-    <property name="animation-delay12" value="75"/>
-    <property name="animation-delay13" value="75"/>
-    <property name="animation-delay14" value="75"/>
-    <property name="animation-delay15" value="75"/>
-    <property name="animation-delay16" value="75"/>
-    <property name="animation-delay17" value="75"/>
-    <property name="animation-delay18" value="75"/>
-    <property name="animation-delay19" value="75"/>
-    <property name="animation-delay2" value="75"/>
-    <property name="animation-delay20" value="75"/>
-    <property name="animation-delay21" value="75"/>
-    <property name="animation-delay3" value="75"/>
-    <property name="animation-delay4" value="75"/>
-    <property name="animation-delay5" value="75"/>
-    <property name="animation-delay6" value="75"/>
-    <property name="animation-delay7" value="75"/>
-    <property name="animation-delay8" value="75"/>
-    <property name="animation-delay9" value="75"/>
+    <property name="animation-delay0" value="350"/>
+    <property name="animation-delay1" value="8"/>
+    <property name="animation-delay10" value="8"/>
+    <property name="animation-delay11" value="450"/>
+    <property name="animation-delay12" value="8"/>
+    <property name="animation-delay13" value="8"/>
+    <property name="animation-delay14" value="8"/>
+    <property name="animation-delay15" value="8"/>
+    <property name="animation-delay16" value="8"/>
+    <property name="animation-delay17" value="8"/>
+    <property name="animation-delay18" value="8"/>
+    <property name="animation-delay19" value="8"/>
+    <property name="animation-delay2" value="8"/>
+    <property name="animation-delay20" value="8"/>
+    <property name="animation-delay21" value="8"/>
+    <property name="animation-delay3" value="8"/>
+    <property name="animation-delay4" value="8"/>
+    <property name="animation-delay5" value="8"/>
+    <property name="animation-delay6" value="8"/>
+    <property name="animation-delay7" value="8"/>
+    <property name="animation-delay8" value="8"/>
+    <property name="animation-delay9" value="8"/>
     <property name="animation-frame0" value="9"/>
     <property name="animation-frame1" value="60"/>
     <property name="animation-frame10" value="29"/>
@@ -444,8 +444,8 @@
     <property name="dest_y" value=""/>
    </properties>
   </object>
-  <object name="" x="32" y="3840" width="6336" height="640"/>
-  <object name="" x="32" y="0" width="6336" height="640"/>
-  <object name="" x="0" y="32" width="640" height="4416"/>
+  <object x="32" y="3840" width="6336" height="640"/>
+  <object x="32" y="0" width="6336" height="640"/>
+  <object x="0" y="32" width="640" height="4416"/>
  </objectgroup>
 </map>
