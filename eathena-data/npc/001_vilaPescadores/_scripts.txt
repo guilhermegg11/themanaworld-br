@@ -2,3 +2,10 @@
 // Scripts do mapa: 001 Vila dos Pescadores
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Placa
+001.gat,82,60,0	script	[?]	300, {
+	mes "[Aviso]";
+	mes "* Cuidado... deslisamento de pedras!";
+	close;
+}
