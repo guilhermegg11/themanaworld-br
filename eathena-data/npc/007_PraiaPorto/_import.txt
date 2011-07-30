@@ -26,4 +26,3 @@ npc: npc/007_PraiaPorto/placas.conf
 //npc: npc/007_PraiaPorto/rei_comerciantes.conf //< Não está pronto ainda
 npc: npc/007_PraiaPorto/selim.conf
 npc: npc/007_PraiaPorto/veronica.conf
-npc: npc/007_PraiaPorto/warp_controlado.conf
