@@ -12,4 +12,3 @@ npc: npc/010_PoloNorte/jornaleiro.conf
 npc: npc/010_PoloNorte/menir_alma.conf
 npc: npc/010_PoloNorte/raquel.conf
 npc: npc/010_PoloNorte/sinos.conf
-npc: npc/010_PoloNorte/warp_controlado.conf
