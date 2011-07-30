@@ -1,4 +1,2 @@
-// navio warps
+// navio Navio Intercontinental warps
 
-navio.gat,37,27	warp	paraDentro	-1,2,navio-1.gat,21,24
-navio.gat,25,26	warp	paraDentro	-1,-1,navio-2.gat,20,24

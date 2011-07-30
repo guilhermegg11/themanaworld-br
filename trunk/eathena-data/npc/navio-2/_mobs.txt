@@ -3,7 +3,7 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-navio-2.gat,25,24,9,3	monster	Rato(2)	1323,2,0,0,Mobnavio-2::On1323
+navio-2.gat,26,24,9,3	monster	Rato(2)	1323,2,0,0,Mobnavio-2::On1323
 
 navio-2.gat,0,0,0	script	Mobnavio-2	-1,{
 
