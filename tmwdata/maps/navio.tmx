@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="67" height="53" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="138" height="50" tilewidth="32" tileheight="32">
  <properties>
   <property name="-background0image" value="graphics/images/ambient/water.png"/>
   <property name="-background0parallax" value="1.0"/>
@@ -21,14 +21,6 @@
    <properties>
     <property name="animation-delay0" value="1"/>
     <property name="animation-delay1" value="1"/>
-    <property name="animation-delay2" value="1"/>
-    <property name="animation-delay3" value="1"/>
-    <property name="animation-delay4" value="1"/>
-    <property name="animation-delay5" value="1"/>
-    <property name="animation-delay6" value="1"/>
-    <property name="animation-delay7" value="1"/>
-    <property name="animation-delay8" value="1"/>
-    <property name="animation-delay9" value="1"/>
     <property name="animation-delay10" value="1"/>
     <property name="animation-delay11" value="1"/>
     <property name="animation-delay12" value="1"/>
@@ -39,6 +31,7 @@
     <property name="animation-delay17" value="1"/>
     <property name="animation-delay18" value="1"/>
     <property name="animation-delay19" value="1"/>
+    <property name="animation-delay2" value="1"/>
     <property name="animation-delay20" value="1"/>
     <property name="animation-delay21" value="1"/>
     <property name="animation-delay22" value="1"/>
@@ -49,18 +42,17 @@
     <property name="animation-delay27" value="1"/>
     <property name="animation-delay28" value="1"/>
     <property name="animation-delay29" value="1"/>
+    <property name="animation-delay3" value="1"/>
     <property name="animation-delay30" value="1"/>
     <property name="animation-delay31" value="1"/>
+    <property name="animation-delay4" value="1"/>
+    <property name="animation-delay5" value="1"/>
+    <property name="animation-delay6" value="1"/>
+    <property name="animation-delay7" value="1"/>
+    <property name="animation-delay8" value="1"/>
+    <property name="animation-delay9" value="1"/>
     <property name="animation-frame0" value="0"/>
     <property name="animation-frame1" value="1"/>
-    <property name="animation-frame2" value="2"/>
-    <property name="animation-frame3" value="3"/>
-    <property name="animation-frame4" value="4"/>
-    <property name="animation-frame5" value="5"/>
-    <property name="animation-frame6" value="6"/>
-    <property name="animation-frame7" value="7"/>
-    <property name="animation-frame8" value="8"/>
-    <property name="animation-frame9" value="9"/>
     <property name="animation-frame10" value="10"/>
     <property name="animation-frame11" value="11"/>
     <property name="animation-frame12" value="12"/>
@@ -71,6 +63,7 @@
     <property name="animation-frame17" value="17"/>
     <property name="animation-frame18" value="18"/>
     <property name="animation-frame19" value="19"/>
+    <property name="animation-frame2" value="2"/>
     <property name="animation-frame20" value="20"/>
     <property name="animation-frame21" value="21"/>
     <property name="animation-frame22" value="22"/>
@@ -81,90 +74,143 @@
     <property name="animation-frame27" value="27"/>
     <property name="animation-frame28" value="28"/>
     <property name="animation-frame29" value="29"/>
+    <property name="animation-frame3" value="3"/>
     <property name="animation-frame30" value="30"/>
     <property name="animation-frame31" value="31"/>
+    <property name="animation-frame4" value="4"/>
+    <property name="animation-frame5" value="5"/>
+    <property name="animation-frame6" value="6"/>
+    <property name="animation-frame7" value="7"/>
+    <property name="animation-frame8" value="8"/>
+    <property name="animation-frame9" value="9"/>
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="35" name="trans_woodland-desert" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/trans_woodland-desert.png" width="512" height="352"/>
+ <tileset firstgid="35" name="cabana_in_teto" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png" width="256" height="160"/>
  </tileset>
- <tileset firstgid="211" name="navio-br" tilewidth="32" tileheight="32">
+ <tileset firstgid="75" name="navio-br-interno" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/navio-br-interno.png" width="320" height="224"/>
+ </tileset>
+ <tileset firstgid="145" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="401" name="escada_madeira" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/escada_madeira.png" width="224" height="256"/>
+ </tileset>
+ <tileset firstgid="457" name="inn_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/inn_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="473" name="navio-br" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/navio-br.png" width="768" height="320"/>
  </tileset>
- <tileset firstgid="451" name="navio-br2" tilewidth="32" tileheight="32">
+ <tileset firstgid="713" name="navio-br2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/navio-br2.png" width="768" height="256"/>
  </tileset>
- <tileset firstgid="643" name="navio-br-mastro1" tilewidth="32" tileheight="32">
+ <tileset firstgid="905" name="navio-br-mastro1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/navio-br-mastro1.png" width="416" height="544"/>
  </tileset>
- <layer name="ground" width="67" height="53">
+ <layer name="ground" width="138" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3DwQkAAAwDoYPsv3N/nULBVVNVVVVVVVVVVVVVVVVV/wHo3iKhfDcAAA==
+   H4sIAAAAAAAAA+3SwWkDQRREQcGG5oicoiPz1SezAj/Kas1Cwd4G+v3r8Xhcoz6OP6NblvS2S3TLkt52iW5Z0tsu0S1LetslumVJb7tEtyzpbZfoliW97RLdsqS3XaJblvS2S3TLkt52iW5Z0tsu0S1LetslumVJb7tEtyzpbZfoliW97RLdsqS3XaJblvS2S3TLkt52iW5Z0tsu0S1LetslumWp2OvuV/VS7+uWr3Yn148Wv/1Xd6Le1y1f7U6+bqru5POmcyfuTu7eSHUnd2/k3Ml738kzt3LuxN3JM7dy7uR1nDs5d3Lu5NzJf76Td6VblvS2S3TLkt52iW5Z0tsu0S1LetslumVJb7tEtyzpbZfoliW97RLdsqS3XaJblvS2S3TLkt52iW5Z0tsu0S1LetslumVJb7tEtyzpbZfoliW97RLdsqS3XaJblvS2S3TLkt52iW5Z0tsu0S1Letsl3wqisoTQawAA
   </data>
  </layer>
- <layer name="ground2" width="67" height="53">
+ <layer name="ground2" width="138" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QRasWUBSG0St2d2F3d3d3d3d3F3Z3DOxuJ3b3rzDmxsjGANt1QcGpwlU+2A+s0eHAy05KiqIoiqIoiqIoiqIoiqIoiqLob7rHfR7w8A/+PeIxT3iaArv+dc94zgte8orXvPn5/pZ3vOfDb/8+8onPfOEr3/ie/JjqHwxPgVLbnYa0pCM9GchIJjKThaxkIzs5yEkucpOHvOQjPwUomID3KGRzYYpQlGIUpwQlKUVpylCWcpSnAhWpRGWqUJVqVKcGNRPsHrXsrU0d6lKP+jSgIY1oTBOa0ozmtKAlrWhNG9rSjvZ0oGOC3aKTvZ3pQle60Z0e9KQXvelDX/rRnwEMZBCDGcJQhjGcEYxMsFuMsnc0YxjLOMYzgYlMYjJTmMo0pjODmcxiNnOYyzzmsyDB7pDcQpsXsZglLGUZy1nBSlaxmjWsZR3r2cBGNrGZLWxlWwLe4Vfbbd/BTnaxmz3sZR/7OcBBDnGYIxzlGMc5wUlOJfAdkjtt/xnOco7zXOAil7jMFa5yjevc4Ca3uM0d7ib4HaIoiqIoiqIoiqIoiqIoiqL/1w/1R0gAfDcAAA==
+   H4sIAAAAAAAAA+3U109TYRjH8dM6EvfGrXHgwL33ABQEZ0UURZRScIC494ziVnAAXigow4l6A4J7+1c47h1X7jgS/Z54LpoGE0m0nNTfN/mkb970pG2eJzUMpZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUsq+eSyJXufK7uzeU4dhPMNzvHD8+XMvee8rvMabKjz3v5QMN1xIMH7thMu6T7HO5l28dbZzb5nvO7zHB3zEJ3y25v6F16/4hu9eu/DDPDsNwwEnaqAmaqG2s1p+ym8L5buG+Qj3w16b/xHmnqRbUr3Old3ZuTrMtC7qoT4aoCEaoTGaoCmaoTlaIAgt0Qqt0QZt0Q7t0QEdbbQrLnYi1keMH/bEnH3av/8Yv9SJeXZGF3RFMLqhO3qgJ0LQC73RB33RD/0xAAMxCIMxBEMxDMNtsivVtSeB1AhmORKjMBpjMBbjMB6hCEM4JmAiIhCJSYhCNCZjCqZiGqZjhvYkYHIxy5mIwSzEYjbmIA5zMQ/xmI8ELMBCJMKNJHiQjBQswmIs0Z4ETEuZZSrSsAzpWI4VWIlVWI01WIt1WI8N2IhN2Iwt2Ipt2I4dNtkRMzc7keTDoz2pUjuZ5y5kYDf2YC/2YT8O4CAO4TAykYUjOIpjOI5s5CAXJ2y0I+rvdZK5nkIe8nEaZ1CAQhShGGdxDudxARdxCSW4jCu4qh0J2EqZbRmuoRwVuI4buIlbuI07uIt7uI8HeIhHeIwn2hGllFJKKaWUUkoppZRSSimllFJKKaWUUkr59BPIDsry0GsAAA==
   </data>
  </layer>
- <layer name="ground3" width="67" height="53">
+ <layer name="ground3" width="138" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QwQkCMRRF0ZdMQdqFNuCoxQ/YhS79y4DrIcKcA5fAXz2SAAAAAAAAwD5OPTlX23BrLelt2qRpLvUP1+o1e8gfeFef4eXXbUnW6l49qucyexEAAAAAAMDxfAFC3DkLfDcAAA==
+   H4sIAAAAAAAAA+3XOwrCUBAF0BcN6IZ0Fwq2/kVtFFctuAvFCQaSIiJWEXMOXHIZUkwxzUsJAAAAAAAAAAAAAADe25fZ1nrTjO7aRWaRQ3rdRNHnkWXZi9mx7HRXcSeXMqdab5rRXee2F/gzo35K48g1q2aDXkrDXns78XsmcSPTyC37/C/ddY/7eGTVF76xyONtEFlF1pFN3vZGAAAAAAAAAAAAAADQ7Albf27t0GsAAA==
   </data>
  </layer>
- <layer name="fringe" width="67" height="53">
+ <layer name="fringe" width="138" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RMQqAMAwF0Nz/iOri5DVsB0FEqYJQie/BX0qG/iQCAAAAAACALxhKxpKl90dedrfP2dy8S0bbzVtvVbZdHHtc9X46k8FferbUPUxhFwAAAAAAQD8rPqyl3Xw3AAA=
+   H4sIAAAAAAAAA+3UsYrCQBAA0OT/u+u8yqv0VzwVDu3ORm0ExR/QxhEURS5EiTFZ7z0YGJZkd5kdJssAAAAAAAAAAAAAAADgNYZ5lo0ixvllbRL5NC/+p6qPm71/I2Yl+buaRy0WEdsa6/0sPy++YyfO+7w6cx2xKclTcO9b//XdKr9EKr5Pdx3UdOdu7Pt1tfcuYl+Sp+g8K8rWjtrcJ03N9V7Uot/CelR1+8ZFPfHoN00rmut1z5P/IoUeuEfqc73Njj2yfJM+AQAAAAAAAAAAAADSdwDD8vX10GsAAA==
   </data>
  </layer>
- <layer name="top" width="67" height="53">
+ <layer name="top" width="138" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QOUoEQRhA4aqJFI9g6A2MFB2N3RV3XMA9MRFB0MhA76K30Cu4RAamOq7gBXwwDfaIPbTMoLa8Dx7VXTMN9VcIkiRJkiRJkiTpJ13EEC7piq7jb5+mcTcNzFDh2wd6pCd6phd6Lei9vNU59z1V6nxbKn2938J+a8Zvf1nbN8989+m9vYAzZ+lIZrkNtWsenRn30MV+dwHvqIcz91KZ+qg/5wwD/G+QhmiYRmiUxmicJgp4F5OceYqmaYZmaY7mk1kWWBdpiZZT863wvEprtE4btElbBbyDtG3OfxI/OqSdZKZd1iPej2kvNec+zwd0Gqv9J2extrzOYzVJkiRJkiRJktQc7+9uIyl8NwAA
+   H4sIAAAAAAAAA+3Tyy7EYBiH8U5trIhLsMBYUEuxIGZYOxPnOCTOGxshEhZiwb1wF9yCw8rC1pnEzl/aiRnRTms6+co8v+RJq9PJK3m/sSwAAAAAAAAAAAAAAAAAAAAAlahBpUPW+A/nI5xMhHfbYp6dNjw/KS5sy7pUV+raNv3flM70nkzPD3JTwn4f9N1H9aSe1Yt6VW9/9MyY3pPp+UHeA3Z6n9JZSPl/Xl318/MaPa/1+SzJTO/J9PwgdRH3efft3NQn/Dx0RHg37j05hufHqdnb822q8BpGu88Z6dTzroScn6YI78a9p6zh+XHq1j4zKqt6VG/I/fbpvX41oAbVkBpWI2pUjSXknLSoHcv9bTtF7lvLNN+xis93yjQ/LuPa54SaVFNqWs2oWW/Pc7rOqwW1mLf7Jd0vqxW1qtbUutpIyPnI+fxNH3jXMPflmJ+f3/xcSbap3Z7YXx2qLW/f27oe6e9jtZt3BvZ0v69ObTdUhjO7sLDObTcAAAAAAAAAAAAAAAAAAADgtz4AdIp049BrAAA=
   </data>
  </layer>
- <layer name="top2" width="67" height="53">
+ <layer name="top2" width="138" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XtU4EYRiF4dldgmtwS3Co0BZpsQuDC4ALgIYKCdLgkODu7u7u9i5LARdAIDPnTZ5M+3+nG8NQSimllFJKKetWZjeMcvtfv+J/VMEOldrisyp2qNYWRi0b1KEeDV97NPJtQjNaLLRRK7e2oR0d6EQXutGDXgts0ceN/RjAIIYwjBGMYgzjmDDxFpPcNoVpzGAWc5jHAhaxhGWsYNXEW6xx2zo2sIktbGMHu9jDPg5wiCMTb3HMbSc4xRnOcYFLXOEaN7jFHe5NvMUDtz3iCc94wSve8O6822EYNtjhgJvjr1/8u7lznwc84QVv+MAXfvBHAAIRZPItgrkvBKEIQzgiEIkoRCMGsSbfwVkcN8YjAYlIQjJSkIo0C2zwvXTuzUAmspCNHItt8L1cbs9DPgosvEMhtxehGCUotfAW6mc1NhfF/6jNRSmllFJKKaWUUkoppZRSv98HZ85PvHw3AAA=
+   H4sIAAAAAAAAA+3Sx06VURhG4Z9zDlIiKtWoIJYEaTISlCnqFJALkwvAC5AJI0sUJ3RIAAEBGwJKL4oCohTRZWBIYGDIMfnXk6zs6U6+NwgkSZIkSZIkSZKko92PBkF9NN6/0P+ugY08cCc6wkM20uhOdIhH7OMxPaGn+1t5xvucmumF+xFa2EErtVE7dVAndVE39biTUOvl/n3UTy9pgAZpiF7RMI3QqDsJpdfc/Q29pXf0nsboA43TBE3SR/pEU+4klKa5+wzN0hzN0wIt0hIt02f6Qiv01Z2E0jfuvkprtE7faYN+0E/apC3aph365U5CaZe7//57+1gQJFCEohSjRDpBSZRMKZQai/ePFS8nuX0anaLTdIbSKYMyKYuyKYfOupPQOsftz9MFyqU8ukj5dIku0xW66kZCrYD7X6NCKqJiKqFSuk5l7kP7brCFcqqgm3SLKt2HDlDFLm7THbrrRnSAanZRQ7V0j+rciaR/0BTZSzpMZ2QvSZIkSZIkSZIkSZIkSZIk6Tj8AWuQTWrQawAA
   </data>
  </layer>
- <layer name="top3" width="67" height="53">
+ <layer name="top3" width="138" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QwRGCQBBE0RURg1AkCEFyI2HSoI9msBT7XtW/z3QpAAAA7bp3pfTpkYb07GpfVM8rv7/TmD5paniLb36f05J+aW14C/i33WpfAABczV77gBOyCQAAAAAAAJzHAVZOLhJ8NwAA
+   H4sIAAAAAAAAA+3Syw2CUABE0aesRCwChSLk05sN04NTgIkr8yCek9z9LKYUAAAAAAAA+O7SlNKma+rSram9iD3q84t7eqQhjX7CB8/8YkpzWtLqJwD8wOtcewEAAADAvm2n2gs4En8BAAAAAAAAAAAAAADgH7wBxMlFINBrAAA=
   </data>
  </layer>
- <layer name="top4" width="67" height="53">
+ <layer name="top4" width="138" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OIQEAAAgDsNPfkZgIODBbgiUAAAAAsOv6HgAAAAAAAAAAANwZQXsKK3w3AAA=
+   H4sIAAAAAAAAA+3OAQ0AAAgDoM/+AYxrDKeDBCQAAAAAAAAAAAC/dG0PAAAAAAAAAAAAAAAAAAAAAAC4ZACY/yrI0GsAAA==
   </data>
  </layer>
- <layer name="collision" width="67" height="53" visible="0">
+ <layer name="collision" width="138" height="50" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SMQoAIQwEwOD/H20rYoo7lIDOwhR2m8UWEQ0AAAAAAIAtVqnuVL1F9n7JmOyfzKnufHKLbJvXNvl6981b/Nmnuh8AAAAAAHC/DrVPx7t8NwAA
+   H4sIAAAAAAAAA+3SQQrEIAwF0JD7H3pWhVmodIYGG3mBh4qL+CUZEQkAAAAAAAAAAAAAAADFrvrex+S+un8u9m83qt1vqsw2q+rep8zJ7NzZqnKwVvY/ZU5icJ7V7jc/PTOVme7W7v+5k+OfXB2yrXLlYDUnz+XolO2XnG/5305OzAQAAAAAAAAAAAAA9PUB40CCRdBrAAA=
   </data>
  </layer>
- <objectgroup name="objects" width="67" height="53">
-  <object name="Margem" x="0" y="0" width="640" height="640"/>
-  <object name="Margem" x="1504" y="1056" width="640" height="640"/>
-  <object name="RatosDeConves(2)" type="spawn" x="832" y="768" width="352" height="192">
+ <objectgroup name="objects" width="0" height="0" visible="0">
+  <object name="RatosDeConves(2)" type="spawn" x="736" y="768" width="352" height="192">
    <properties>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="321"/>
    </properties>
   </object>
-  <object name="paraDentro" type="-warp-controlado" x="1184" y="864" width="32" height="64">
+  <object name="paraDentro" type="-warp-controlado" x="1088" y="864" width="32" height="64">
    <properties>
     <property name="dest_map" value="navio-1"/>
     <property name="dest_x" value="?"/>
     <property name="dest_y" value="?"/>
    </properties>
   </object>
-  <object name="paraDentro" type="-warp" x="800" y="832" width="32" height="32">
+  <object name="paraDentro" type="-warp" x="704" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="navio-2"/>
     <property name="dest_x" value="640"/>
     <property name="dest_y" value="768"/>
    </properties>
   </object>
+  <object name="paraFora" type="-warp" x="2400" y="768" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="navio"/>
+    <property name="dest_x" value="768"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="Rato(2) (desativado)" type="-spawn" x="2432" y="736" width="320" height="128">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="321"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="object" width="0" height="0" visible="0">
+  <object name="Margem" x="2752" y="0" width="640" height="640"/>
+  <object name="Margem" x="3776" y="928" width="640" height="640"/>
+  <object name="paraFora" type="-warp" x="3392" y="768" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="navio"/>
+    <property name="dest_x" value="768"/>
+    <property name="dest_y" value="832"/>
+   </properties>
+  </object>
+  <object name="Rato(2)" type="spawn" x="3456" y="736" width="320" height="128">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="321"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="margem" width="0" height="0" visible="0">
+  <object name="Margem" x="1760" y="0" width="640" height="640"/>
+  <object name="Margem" x="2752" y="928" width="640" height="640"/>
+  <object name="Margem" x="0" y="128" width="640" height="640"/>
+  <object name="Margem" x="1120" y="960" width="640" height="640"/>
  </objectgroup>
 </map>

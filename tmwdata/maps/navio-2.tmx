@@ -16,14 +16,6 @@
    <properties>
     <property name="animation-delay0" value="1"/>
     <property name="animation-delay1" value="1"/>
-    <property name="animation-delay2" value="1"/>
-    <property name="animation-delay3" value="1"/>
-    <property name="animation-delay4" value="1"/>
-    <property name="animation-delay5" value="1"/>
-    <property name="animation-delay6" value="1"/>
-    <property name="animation-delay7" value="1"/>
-    <property name="animation-delay8" value="1"/>
-    <property name="animation-delay9" value="1"/>
     <property name="animation-delay10" value="1"/>
     <property name="animation-delay11" value="1"/>
     <property name="animation-delay12" value="1"/>
@@ -34,6 +26,7 @@
     <property name="animation-delay17" value="1"/>
     <property name="animation-delay18" value="1"/>
     <property name="animation-delay19" value="1"/>
+    <property name="animation-delay2" value="1"/>
     <property name="animation-delay20" value="1"/>
     <property name="animation-delay21" value="1"/>
     <property name="animation-delay22" value="1"/>
@@ -44,18 +37,17 @@
     <property name="animation-delay27" value="1"/>
     <property name="animation-delay28" value="1"/>
     <property name="animation-delay29" value="1"/>
+    <property name="animation-delay3" value="1"/>
     <property name="animation-delay30" value="1"/>
     <property name="animation-delay31" value="1"/>
+    <property name="animation-delay4" value="1"/>
+    <property name="animation-delay5" value="1"/>
+    <property name="animation-delay6" value="1"/>
+    <property name="animation-delay7" value="1"/>
+    <property name="animation-delay8" value="1"/>
+    <property name="animation-delay9" value="1"/>
     <property name="animation-frame0" value="0"/>
     <property name="animation-frame1" value="1"/>
-    <property name="animation-frame2" value="2"/>
-    <property name="animation-frame3" value="3"/>
-    <property name="animation-frame4" value="4"/>
-    <property name="animation-frame5" value="5"/>
-    <property name="animation-frame6" value="6"/>
-    <property name="animation-frame7" value="7"/>
-    <property name="animation-frame8" value="8"/>
-    <property name="animation-frame9" value="9"/>
     <property name="animation-frame10" value="10"/>
     <property name="animation-frame11" value="11"/>
     <property name="animation-frame12" value="12"/>
@@ -66,6 +58,7 @@
     <property name="animation-frame17" value="17"/>
     <property name="animation-frame18" value="18"/>
     <property name="animation-frame19" value="19"/>
+    <property name="animation-frame2" value="2"/>
     <property name="animation-frame20" value="20"/>
     <property name="animation-frame21" value="21"/>
     <property name="animation-frame22" value="22"/>
@@ -76,8 +69,15 @@
     <property name="animation-frame27" value="27"/>
     <property name="animation-frame28" value="28"/>
     <property name="animation-frame29" value="29"/>
+    <property name="animation-frame3" value="3"/>
     <property name="animation-frame30" value="30"/>
     <property name="animation-frame31" value="31"/>
+    <property name="animation-frame4" value="4"/>
+    <property name="animation-frame5" value="5"/>
+    <property name="animation-frame6" value="6"/>
+    <property name="animation-frame7" value="7"/>
+    <property name="animation-frame8" value="8"/>
+    <property name="animation-frame9" value="9"/>
    </properties>
   </tile>
  </tileset>
@@ -95,40 +95,40 @@
  </tileset>
  <layer name="ground" width="52" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RMQoAIQxFwcAezRN5/8Z2qyWgkKyMMJDyPxwRMQAAAADYkn3VO7Oe1+avu3pn1kyq3nmy5S89t/2Pnv5u6wEAAADobAGhPeLXoCgAAA==
+   H4sIAAAAAAAAA+3RMQoAIQxFwcAezRN5/8Z2qyWgkKyMMJDyPxwRMQAAAADYln3VO7Oe1+avu3pn1kyq3nmy5S89t/2Pnv5u6wEAAADoagGGrG1NoCgAAA==
   </data>
  </layer>
  <layer name="ground2" width="52" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QMQqAMBAEwHzRWgRFbRT/35rgFSlSCBammIGFZatLUgIAAADgqzUyV7219W7LWXKGnCk9tw+x79HLNkbvXfnz8p4rclS9tfWu3Hj+fQQAAAAAwEs3Y2ErVaAoAAA=
+   H4sIAAAAAAAAA+3QMQqAMBAEwHzRWgRFbRT/35rgFSlSWAimmIGFZatLUgIAAADgC2tkrnpr692Ws+QMOVN6bh9i36OXbYzeu/Ln5T1X5Kh6a+tdufH8+wgAAAAAgBduvxr5pKAoAAA=
   </data>
  </layer>
  <layer name="fringe" width="52" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PIQ6AQAwEQO7/DgcKFLwJfgA/AEPloWovMJNssk1qtusAAAAA4Jv68r63yJ70lg2xZ6w2HZEz6S2bYstc7bkid9JbtsSWteR/AAAAAPAXDwccDqKgKAAA
+   H4sIAAAAAAAAA+3PIQ6AQAwEQO7/DgcKFLwJfgA/AEPloWovMJNssk1qtusAAAAA4Lv68r63yJ70lg2xZ6w2HZEz6S2bYstc7bkid9JbtsSWteR/AAAAAPAHD0z+CNugKAAA
   </data>
  </layer>
  <layer name="top" width="52" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3ROwqEMBQF0GzGT+OnttRdWc/CJ0FsBMEgM0lxDlxI8Yp7SQgAAAAA/9XE9A/TFur4VOq4ZtzPvypSiD11q33PFLNk3Ne+Z4vpMu5r35MM4finM/vNO2Us1DHHdsnn5n0GAAAAgHe+px8B26AoAAA=
+   H4sIAAAAAAAAA+3ROwqEMBQF0GzGT+OnttRdWc/CJ0FsBMEIM0lxDlxI8Yp7SQgAAAAA/9fE9A/TFur4VOq4ZtzPvypSiD11q33PFLNk3Ne+Z4vpMu5r35MM4finM/vNO2Us1DHHdsnn5n0GAAAAgPe+s2Zrz6AoAAA=
   </data>
  </layer>
- <layer name="collision" width="52" height="50" visible="0">
+ <layer name="collision" width="52" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RMQoAIAwEweD/H20lSIi1GuZgQDsXR0QMAAAAAGhsbb9X59fl/d6Tmzr0VP902u136unRAwAAAPCyCU+DeXqgKAAA
+   H4sIAAAAAAAAA+3RMQoAIAwEweD/H20lSIi1GuZgQDsXR0QMAAAAAGhubb9X59fl/d6Tmzr0VP902u136unRAwAAAPCqCY3Tv6mgKAAA
   </data>
  </layer>
  <objectgroup name="object" width="52" height="50">
   <object name="Margem" x="0" y="0" width="640" height="640"/>
-  <object name="Margem" x="1024" y="960" width="640" height="640"/>
-  <object name="paraFora" type="-warp" x="608" y="768" width="32" height="32">
+  <object name="Margem" x="1024" y="928" width="640" height="640"/>
+  <object name="paraFora" type="-warp" x="640" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="navio"/>
     <property name="dest_x" value="768"/>
     <property name="dest_y" value="832"/>
    </properties>
   </object>
-  <object name="Rato(2)" type="spawn" x="672" y="736" width="320" height="128">
+  <object name="Rato(2)" type="spawn" x="704" y="736" width="320" height="128">
    <properties>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="321"/>
