@@ -2,3 +2,4 @@ map: org016.gat
 npc: npc/org016_terrasDesconhecidas/_mobs.txt
 npc: npc/org016_terrasDesconhecidas/_scripts.txt
 npc: npc/org016_terrasDesconhecidas/_warps.txt
+npc: npc/org016_terrasDesconhecidas/guardadonavio.conf
