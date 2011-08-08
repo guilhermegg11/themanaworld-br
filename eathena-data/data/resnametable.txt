@@ -38,8 +38,7 @@
 prisao.gat#prisao.wlk#
 calabouco.gat#calabouco.wlk#
 navio.gat#navio.wlk#
-navio-1.gat#navio-1.wlk#
-navio-2.gat#navio-2.wlk#
+navio007.gat#navio007.wlk#
 org016.gat#org016.wlk#
 org025.gat#org025.wlk#
 org026.gat#org026.wlk#

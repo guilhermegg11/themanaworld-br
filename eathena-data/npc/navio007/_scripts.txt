@@ -1,4 +1,4 @@
 //
-// Scripts do mapa: navio-1 Navio - Quarto do Capitão
+// Scripts do mapa: navio007 Navio Intercontinental
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
