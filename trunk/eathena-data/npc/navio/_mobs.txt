@@ -3,16 +3,8 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-navio.gat,28,26,10,5	monster	RatosDeConves(2)	1323,2,0,0,Mobnavio::On1323
-navio.gat,112,24,9,3	monster	Rato(2)	1323,2,0,0,Mobnavio::On1323
 
 navio.gat,0,0,0	script	Mobnavio	-1,{
-
-On1323:
-	set @mobID, 1323;
-	callfunc "MobPoints";
-	callfunc "emanarAlma";
-	break;
 
 	end;
 }

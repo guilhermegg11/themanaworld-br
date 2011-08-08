@@ -1,2 +1,6 @@
 // navio Navio Intercontinental warps
 
+navio.gat,34,28	warp	paraCapitao	-1,0,navio.gat,75,24
+navio.gat,22,26	warp	paraConves	-1,-1,navio.gat,106,24
+navio.gat,106,24	warp	saiConves	-1,0,navio.gat,22,26
+navio.gat,75,25	warp	saiCapitao	-1,0,navio.gat,33,27

@@ -152,55 +152,51 @@
  </layer>
  <layer name="collision" width="138" height="50" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SQQrEIAwF0JD7H3pWhVmodIYGG3mBh4qL+CUZEQkAAAAAAAAAAAAAAADFrvrex+S+un8u9m83qt1vqsw2q+rep8zJ7NzZqnKwVvY/ZU5icJ7V7jc/PTOVme7W7v+5k+OfXB2yrXLlYDUnz+XolO2XnG/5305OzAQAAAAAAAAAAAAA9PUB40CCRdBrAAA=
+   H4sIAAAAAAAAA+3SQQrEIAwF0OD9Dz2rwiyS0hkMVnmBh0qh8UtGRAwAAAAAAAAAAAAAAABodtX3Porvs/tm/6/2b5fV6jt1Zququ/cpc1Kdd3ZXI1k7+58yJ5Gcq1p959kz05npaa1+nyc5/sm1Q7a7XCNZzcm8HDtl+yXnW953JydmAgAAAAAAAAAAAAD29QF3zhJe0GsAAA==
   </data>
  </layer>
- <objectgroup name="objects" width="0" height="0" visible="0">
-  <object name="RatosDeConves(2)" type="spawn" x="736" y="768" width="352" height="192">
+ <objectgroup name="objects" width="0" height="0">
+  <object name="RatosDeConves(2)" type="-spawn" x="736" y="768" width="352" height="192">
    <properties>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="321"/>
    </properties>
   </object>
-  <object name="paraDentro" type="-warp-controlado" x="1088" y="864" width="32" height="64">
+  <object name="paraCapitao" type="warp" x="1088" y="864" width="32" height="64">
    <properties>
-    <property name="dest_map" value="navio-1"/>
-    <property name="dest_x" value="?"/>
-    <property name="dest_y" value="?"/>
-   </properties>
-  </object>
-  <object name="paraDentro" type="-warp" x="704" y="832" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="navio-2"/>
-    <property name="dest_x" value="640"/>
+    <property name="dest_map" value="navio"/>
+    <property name="dest_x" value="2400"/>
     <property name="dest_y" value="768"/>
    </properties>
   </object>
-  <object name="paraFora" type="-warp" x="2400" y="768" width="32" height="64">
+  <object name="paraConves" type="warp" x="704" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="navio"/>
-    <property name="dest_x" value="768"/>
+    <property name="dest_x" value="3392"/>
+    <property name="dest_y" value="768"/>
+   </properties>
+  </object>
+  <object name="saiConves" type="warp" x="3392" y="736" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="navio"/>
+    <property name="dest_x" value="704"/>
     <property name="dest_y" value="832"/>
    </properties>
   </object>
-  <object name="Rato(2) (desativado)" type="-spawn" x="2432" y="736" width="320" height="128">
+  <object name="Rato(2) (desativado)" type="-spawn" x="2432" y="736" width="320" height="192">
    <properties>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="321"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="object" width="0" height="0" visible="0">
-  <object name="Margem" x="2752" y="0" width="640" height="640"/>
-  <object name="Margem" x="3776" y="928" width="640" height="640"/>
-  <object name="paraFora" type="-warp" x="3392" y="768" width="32" height="32">
+  <object name="saiCapitao" type="warp" x="2400" y="768" width="32" height="64">
    <properties>
     <property name="dest_map" value="navio"/>
-    <property name="dest_x" value="768"/>
-    <property name="dest_y" value="832"/>
+    <property name="dest_x" value="1056"/>
+    <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="Rato(2)" type="spawn" x="3456" y="736" width="320" height="128">
+  <object name="Rato(2) (desativado)" type="-spawn" x="3456" y="736" width="320" height="192">
    <properties>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="321"/>
@@ -212,5 +208,7 @@
   <object name="Margem" x="2752" y="928" width="640" height="640"/>
   <object name="Margem" x="0" y="128" width="640" height="640"/>
   <object name="Margem" x="1120" y="960" width="640" height="640"/>
+  <object name="Margem" x="3776" y="928" width="640" height="640"/>
+  <object name="Margem" x="2752" y="0" width="640" height="640"/>
  </objectgroup>
 </map>
