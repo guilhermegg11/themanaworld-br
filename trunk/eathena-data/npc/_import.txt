@@ -47,8 +47,7 @@ import: npc/012_floresta/_import.txt
 import: npc/prisao/_import.txt
 import: npc/calabouco/_import.txt
 import: npc/navio/_import.txt
-import: npc/navio-1/_import.txt
-import: npc/navio-2/_import.txt
+import: npc/navio007/_import.txt
 
 import: npc/org016_terrasDesconhecidas/_import.txt
 import: npc/org025_pantano/_import.txt

@@ -1,10 +1,10 @@
 //
-// Monstros do mapa: navio-1 Navio - Quarto do Capitão
+// Monstros do mapa: navio007 Navio Intercontinental
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
 
-navio-1.gat,0,0,0	script	Mobnavio-1	-1,{
+navio007.gat,0,0,0	script	Mobnavio007	-1,{
 
 	end;
 }

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="83" height="50" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="-background0image" value="graphics/images/ambient/water.png"/>
+  <property name="-background0parallax" value="1.0"/>
+  <property name="-background0scrollX" value="-1.5"/>
+  <property name="-background0scrollY" value="0.0"/>
+  <property name="music" value="butterfly_tea_-_forest_dance.ogg"/>
+  <property name="name" value="Navio Intercontinental"/>
+  <property name="overlay1image" value="graphics/images/ambient/clouds.png"/>
+  <property name="overlay1parallax" value="1.0"/>
+  <property name="overley1scrollX" value="1.0"/>
+  <property name="overley1scrollY" value="1.0"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="cabana_in_teto" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="43" name="navio-br-interno" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/navio-br-interno.png" width="320" height="224"/>
+ </tileset>
+ <tileset firstgid="113" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="369" name="escada_madeira" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/escada_madeira.png" width="224" height="256"/>
+ </tileset>
+ <tileset firstgid="425" name="inn_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/inn_x2.png" width="512" height="64"/>
+ </tileset>
+ <layer name="ground" width="83" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SwQkAIAwEwfRiRbZopbYQwSDqCPM+stgiogEAAAAAAAAlsu/V/ZduOb2/00iq2u9Jpzvt6ljVMttRy7/+5UpPLbXU8s6WAAAAAAAAcKMJlgFPhdhAAAA=
+  </data>
+ </layer>
+ <layer name="ground2" width="83" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SQQrCMBQE0PQo6gmCuBLBWrtRvP91TDCLEuqurbS+BwOf2QSGhAAAAAAAAABsVVdyHdxjHd/dU9qUmHIJn91i6fty5+5c7jXYNSHsqxya+d/Nfy1v+Sp5DO6xbg1i2u1U5bjAlnmf5/zPLOpXW26RLadjy+m0abdblc6WAAAAAAAA8Dfen13qANhAAAA=
+  </data>
+ </layer>
+ <layer name="ground3" width="83" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QMQqAMBAEwHzJViwUtVH8/3dM8IoUIZ2IMAMLy1bHpQQAAAAAAAC8ZY3MVW9t9C05Q86Wnr+VPuZM0cu2R6ev/PKKHFVvbfSdXx8AAAAAAAAAAPATNwZyUgPYQAAA
+  </data>
+ </layer>
+ <layer name="fringe" width="83" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TSwoCMQwA0M6V3elKV3oVfyDjTm+gN9DLmIXgIA5daNXqexAIhSY0NCkBAAAAAAAA8G+WTUqriHVzO2sj3zb9d541uKu9i9hn8lpsCs7tkWH0G3V6HiKOmbxWi+s754VmPI66k07tU8Q5k3+7T+3QNOY4e/MulNa3Q6X/5S+qaYcAAAAAAACA17sAlfwpx9hAAAA=
+  </data>
+ </layer>
+ <layer name="top" width="83" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SMQoCMRBA0TTqNpqtLfVW1t7/DK64oo1kAxMG5D0YkiLwGUgpAAAAAAAA8LFbZto4+z/sR7p0vJ2D21NyP1P2Ltn9SNm7ZPcjZe+S3W85d7yN3qUm96MdOt5G73JN7kc7LnMrrz9SG/fToH4t7X4d1I/0/Bv39dxyH9H/nl/99wAAAAAAAADxHlVM1tLYQAAA
+  </data>
+ </layer>
+ <layer name="top2" width="83" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQo/oAAAAAAAAAAAAAAAAAAAAAA+BsggEUjYQAAA
+  </data>
+ </layer>
+ <layer name="top3" width="83" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQo/oAAAAAAAAAAAAAAAAAAAAAA+BsggEUjYQAAA
+  </data>
+ </layer>
+ <layer name="top4" width="83" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQo/oAAAAAAAAAAAAAAAAAAAAAA+BsggEUjYQAAA
+  </data>
+ </layer>
+ <layer name="collision" width="83" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3S0QqAIAwF0LH//+iegggFI0dlZ3BwIDh2MSMiAQAAAAAAAPiNvY59dO5nz2293+vf7kpVz145y/PfqZ7/9SxHc63cabSezufOTtk4ZTlnJ1kCAAAAAADAmjax9V5O2EAAAA==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="83" height="50">
+  <object name="saiConves" type="warp" x="1632" y="736" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="320"/>
+    <property name="dest_y" value="2944"/>
+   </properties>
+  </object>
+  <object name="Rato(2) (desativado)" type="-spawn" x="672" y="736" width="320" height="192">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="321"/>
+   </properties>
+  </object>
+  <object name="saiCapitao" type="warp" x="640" y="768" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="704"/>
+    <property name="dest_y" value="2976"/>
+   </properties>
+  </object>
+  <object name="Rato(2) (desativado)" type="-spawn" x="1696" y="736" width="320" height="192">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="321"/>
+   </properties>
+  </object>
+  <object name="" x="3212" y="964"/>
+ </objectgroup>
+ <objectgroup name="margem" width="83" height="50">
+  <object name="Margem" x="0" y="0" width="640" height="640"/>
+  <object name="Margem" x="992" y="928" width="640" height="640"/>
+  <object name="Margem" x="2016" y="928" width="640" height="640"/>
+  <object name="Margem" x="992" y="0" width="640" height="640"/>
+ </objectgroup>
+</map>
