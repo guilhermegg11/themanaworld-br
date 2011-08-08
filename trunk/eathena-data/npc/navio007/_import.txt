@@ -1,4 +1,4 @@
-map: navio-1.gat
+map: navio007.gat
 
 npc: npc/navio007/_mobs.txt
 npc: npc/navio007/_scripts.txt
