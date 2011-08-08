@@ -32,7 +32,7 @@
  </tileset>
  <layer name="ground" width="83" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SwQkAIAwEwfRiRbZopbYQwSDqCPM+stgiogEAAAAAAAAlsu/V/ZduOb2/00iq2u9Jpzvt6ljVMttRy7/+5UpPLbXU8s6WAAAAAAAAcKMJlgFPhdhAAAA=
+   H4sIAAAAAAAAA+3SwQmAMAxA0ezSDdzEFZ3Uq6eSgqEGX+FBbgmfjogYAAAAAAAAQIns231nB8ej12yu3L8yf9mVVLX/TNrd6a2OVS2zHbX8179c6amlllr2bAkAAAAAAAAd3W0QueXYQAAA
   </data>
  </layer>
  <layer name="ground2" width="83" height="50">
