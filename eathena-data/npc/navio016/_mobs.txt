@@ -1,0 +1,10 @@
+//
+// Monstros do mapa: navio016 Navio Intercontinental
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+
+navio016.gat,0,0,0	script	Mobnavio016	-1,{
+
+	end;
+}

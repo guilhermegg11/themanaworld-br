@@ -1,4 +1,4 @@
 // navio007 Navio Intercontinental warps
 
-navio007.gat,51,24	warp	saiConves	-1,0,007.gat,10,92
-navio007.gat,20,25	warp	saiCapitao	-1,0,007.gat,22,93
+navio007.gat,20,25	warp	sairCapitao	-1,0,007.gat,22,93
+navio007.gat,51,24	warp	sairConves	-1,0,007.gat,11,92

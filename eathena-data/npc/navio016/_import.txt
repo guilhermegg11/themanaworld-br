@@ -1,0 +1,4 @@
+map: navio016.gat
+npc: npc/navio016/_mobs.txt
+npc: npc/navio016/_scripts.txt
+npc: npc/navio016/_warps.txt

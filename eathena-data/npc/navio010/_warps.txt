@@ -1,0 +1,4 @@
+// navio010 Navio Intercontinental warps
+
+navio010.gat,20,25	warp	sairCapitao	-1,0,010.gat,179,66
+navio010.gat,51,24	warp	sairConves	-1,0,010.gat,168,65
