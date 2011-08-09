@@ -74,12 +74,18 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="Trevos (2)" type="spawn" x="0" y="0">
+  <object name="paraCapitao" type="warp" x="1696" y="3232" width="32" height="64">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="35"/>
+    <property name="dest_map" value="navio016"/>
+    <property name="dest_x" value="640"/>
+    <property name="dest_y" value="768"/>
+   </properties>
+  </object>
+  <object name="paraConves" type="warp" x="1312" y="3200" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="navio016"/>
+    <property name="dest_x" value="1632"/>
+    <property name="dest_y" value="768"/>
    </properties>
   </object>
   <object name="toSwamp" type="warp" x="640" y="1664" width="32" height="96">
@@ -87,6 +93,14 @@
     <property name="dest_map" value="org025"/>
     <property name="dest_x" value="4128"/>
     <property name="dest_y" value="1856"/>
+   </properties>
+  </object>
+  <object name="Trevos (2)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="35"/>
    </properties>
   </object>
   <object name="Borboleta (10)" type="spawn" x="0" y="0">

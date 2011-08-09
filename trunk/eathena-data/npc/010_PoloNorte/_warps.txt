@@ -1,5 +1,7 @@
 // 010 Polo Norte warps
 
+010.gat,180,67	warp	paraCaptao	-1,0,navio010.gat,20,24
+010.gat,168,65	warp	paraConves	-1,-1,navio010.gat,51,24
 010.gat,70,52	warp	paraCasaNoel	-1,-1,010-2.gat,94,30
 010.gat,73,62	warp	paraCaverna	-1,-1,010-3.gat,47,59
 010.gat,80,65	warp	paraCaverna	-1,-1,010-3.gat,57,43

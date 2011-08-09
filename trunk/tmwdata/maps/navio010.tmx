@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="83" height="50" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="butterfly_tea_-_heart_of_medieval_01.ogg"/>
+  <property name="music" value="butterfly_tea_-_the_origins.ogg"/>
   <property name="name" value="Navio Intercontinental"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
@@ -70,16 +70,16 @@
  <objectgroup name="objects" width="83" height="50">
   <object name="sairCapitao" type="warp" x="640" y="768" width="32" height="64">
    <properties>
-    <property name="dest_map" value="007"/>
-    <property name="dest_x" value="704"/>
-    <property name="dest_y" value="2976"/>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="5728"/>
+    <property name="dest_y" value="2112"/>
    </properties>
   </object>
   <object name="sairConves" type="warp" x="1632" y="736" width="32" height="64">
    <properties>
-    <property name="dest_map" value="007"/>
-    <property name="dest_x" value="352"/>
-    <property name="dest_y" value="2944"/>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="5376"/>
+    <property name="dest_y" value="2080"/>
    </properties>
   </object>
   <object name="Rato(2) (desativado)" type="-spawn" x="672" y="736" width="320" height="192">
