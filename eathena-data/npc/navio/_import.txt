@@ -2,6 +2,6 @@ map: navio.gat
 npc: npc/navio/_mobs.txt
 npc: npc/navio/_scripts.txt
 npc: npc/navio/_warps.txt
-//npc: npc/navio/guardadonavio.conf
+npc: npc/navio/guardadonavio.conf
+npc: npc/navio/capitao_mirc.conf
 npc: npc/navio/function_mirc.conf
-npc: npc/navio/guardadonavio2.conf
