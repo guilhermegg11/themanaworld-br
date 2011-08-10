@@ -69,7 +69,135 @@
    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
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="spawns" width="200" height="140" visible="0">
+  <object name="Escorpião (5)" type="spawn" x="4736" y="3104" width="928" height="416">
+   <properties>
+    <property name="eA_death" value="15000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Verme (10)" type="spawn" x="4768" y="3072" width="928" height="416">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Trasgo de Fogo (5)" type="spawn" x="3776" y="2656" width="1280" height="512">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="9"/>
+   </properties>
+  </object>
+  <object name="Bixo-da-Seda (40)" type="spawn" x="704" y="640" width="5152" height="2080">
+   <properties>
+    <property name="max_beings" value="40"/>
+    <property name="monster_id" value="33"/>
+   </properties>
+  </object>
+  <object name="Tronco Vivo (8)" type="spawn" x="3840" y="1792" width="1920" height="864">
+   <properties>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="23"/>
+   </properties>
+  </object>
+  <object name="Planta Alizarina (1)" type="spawn" x="5248" y="1888" width="448" height="608">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="eA_spawn" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="30"/>
+   </properties>
+  </object>
+  <object name="Planta Gamboge (1)" type="spawn" x="5280" y="1856" width="448" height="608">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="eA_spawn" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="29"/>
+   </properties>
+  </object>
+  <object name="Lenha Dura (5)" type="spawn" x="4352" y="1152" width="1408" height="608">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="23"/>
+   </properties>
+  </object>
+  <object name="Planta Cobalto (1)" type="spawn" x="5280" y="1184" width="448" height="608">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="eA_spawn" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="28"/>
+   </properties>
+  </object>
+  <object name="Planta Malva (1)" type="spawn" x="5312" y="1152" width="448" height="608">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="eA_spawn" value="240000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="27"/>
+   </properties>
+  </object>
+  <object name="Bicho-da-ceda (10)" type="spawn" x="3392" y="1152" width="1824" height="448">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="33"/>
+   </properties>
+  </object>
+  <object name="Flor (5)" type="spawn" x="3168" y="1792" width="1120" height="832">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="12"/>
+   </properties>
+  </object>
+  <object name="Trasgo de Fogo (5)" type="spawn" x="832" y="1792" width="1312" height="576">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="9"/>
+   </properties>
+  </object>
+  <object name="Flor (5)" type="spawn" x="2336" y="2656" width="736" height="672">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="12"/>
+   </properties>
+  </object>
+  <object name="Morcego (5)" type="spawn" x="1568" y="2432" width="768" height="416">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Verme (5)" type="spawn" x="1408" y="2912" width="416" height="256">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Morcego (3)" type="spawn" x="1952" y="1120" width="768" height="416">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="mosnter_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Flor (5)" type="spawn" x="1472" y="1152" width="1536" height="608">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="12"/>
+   </properties>
+  </object>
+  <object name="Escorpião Vermelho (1)" type="spawn" x="5056" y="3040" width="64" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="90000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="objects" width="0" height="0">
   <object name="graphics/particles/waterfall-1x3.particle.xml" type="PARTICLE_EFFECT" x="844" y="746"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="669" y="1355"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="797" y="2507"/>
@@ -166,126 +294,6 @@
     <property name="dest_y" value="2496"/>
    </properties>
   </object>
-  <object name="Planta Malva (1)" type="spawn" x="5312" y="1152" width="448" height="608">
-   <properties>
-    <property name="eA_death" value="120000"/>
-    <property name="eA_spawn" value="240000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="27"/>
-   </properties>
-  </object>
-  <object name="Planta Cobalto (1)" type="spawn" x="5280" y="1184" width="448" height="608">
-   <properties>
-    <property name="eA_death" value="120000"/>
-    <property name="eA_spawn" value="240000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="28"/>
-   </properties>
-  </object>
-  <object name="Planta Gamboge (1)" type="spawn" x="5280" y="1856" width="448" height="608">
-   <properties>
-    <property name="eA_death" value="120000"/>
-    <property name="eA_spawn" value="240000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="29"/>
-   </properties>
-  </object>
-  <object name="Planta Alizarina (1)" type="spawn" x="5248" y="1888" width="448" height="608">
-   <properties>
-    <property name="eA_death" value="120000"/>
-    <property name="eA_spawn" value="240000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="30"/>
-   </properties>
-  </object>
-  <object name="Flor (5)" type="spawn" x="1472" y="1152" width="1536" height="608">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="12"/>
-   </properties>
-  </object>
-  <object name="Lenha Dura (5)" type="spawn" x="4352" y="1152" width="1408" height="608">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="23"/>
-   </properties>
-  </object>
-  <object name="Morcego (3)" type="spawn" x="1952" y="1120" width="768" height="416">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="mosnter_id" value="15"/>
-   </properties>
-  </object>
-  <object name="Morcego (5)" type="spawn" x="1568" y="2432" width="768" height="416">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="15"/>
-   </properties>
-  </object>
-  <object name="Verme (5)" type="spawn" x="1408" y="2912" width="416" height="256">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="0"/>
-   </properties>
-  </object>
-  <object name="Verme (10)" type="spawn" x="4768" y="3072" width="928" height="416">
-   <properties>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="0"/>
-   </properties>
-  </object>
-  <object name="Escorpião (5)" type="spawn" x="4736" y="3104" width="928" height="416">
-   <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="1"/>
-   </properties>
-  </object>
-  <object name="Trasgo de Fogo (5)" type="spawn" x="3776" y="2656" width="1280" height="512">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="9"/>
-   </properties>
-  </object>
-  <object name="Trasgo de Fogo (5)" type="spawn" x="832" y="1792" width="1312" height="576">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="9"/>
-   </properties>
-  </object>
-  <object name="Tronco Vivo (8)" type="spawn" x="3840" y="1792" width="1920" height="864">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="23"/>
-   </properties>
-  </object>
-  <object name="Flor (5)" type="spawn" x="3168" y="1792" width="1120" height="832">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="12"/>
-   </properties>
-  </object>
-  <object name="Flor (5)" type="spawn" x="2336" y="2656" width="736" height="672">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="12"/>
-   </properties>
-  </object>
-  <object name="Escorpião Vermelho (1)" type="spawn" x="5056" y="3040" width="64" height="160">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="90000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="2"/>
-   </properties>
-  </object>
-  <object name="Bicho-da-ceda (10)" type="spawn" x="3392" y="1152" width="1824" height="448">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="33"/>
-   </properties>
-  </object>
   <object name="paraCaverna" type="warp" x="1984" y="2400" width="32" height="32">
    <properties>
     <property name="dest_map" value="007-1"/>
@@ -293,14 +301,8 @@
     <property name="dest_y" value="1792"/>
    </properties>
   </object>
-  <object name="Bixo-da-Seda (40)" type="spawn" x="704" y="640" width="5152" height="2080">
-   <properties>
-    <property name="max_beings" value="40"/>
-    <property name="monster_id" value="33"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup name="Object2" width="0" height="0">
+ <objectgroup name="colmeias" width="0" height="0">
   <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="1216" y="1504" width="32" height="32"/>
   <object name="Colmeia 1" type="spawn" x="1184" y="1472" width="32" height="32">
    <properties>
@@ -354,7 +356,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Esconderijos" width="308" height="314">
+ <objectgroup name="esconderijos" width="308" height="314" visible="0">
   <object name="Esconderijo" type="script" x="3456" y="3776" width="32" height="32">
    <properties>
     <property name="name" value="pedra"/>

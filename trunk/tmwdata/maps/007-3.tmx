@@ -47,7 +47,57 @@
    H4sIAAAAAAAAA+2T227jMAwFjfz/Ry/6sEBg+CpRHEqZAwzatLF8OLQ/27Z9REREREREREREREREREREREREREREREREREREREREZAhbgQ6zcha61+iZ6Q5ZezwK3XUW9s5+wecq80WFnqMqv+ZxhXkzQs9Ygbe+ZvQWmZVmeRN67pl80jP1zN7q5LP7vco8maH3OdpnpGN6NvpZmnme3vPo3VZweXcePWPL/KM9Vd5ndOgdEy4/Xz/vzqXnfOJg3/tqprf+rlxV2unI0HumPD45n561yvNUaZ4VZ6/4XNydT89Z6f3YAvpWmmWfqw70nltc3jl94v/u/BnIzAoztITecaTPt9f90vux//6b66n+Fd4fesdZ78fRtfQs2e/IXbIdzRB6v1FOW66lZ4n2MeKZ+/X34y/0jnud9lxPz5P1nLW8SxV6v8mIM/+fOwtR/WecPeNZm7Hz6NC77XXacw49T5Vnb4aOGTnqRe+y12vrGfQcmb723io4mCX0/iK8tj4zv8BVKnerEtpRhFO6U2WuUrlbldCOIpzSnSqzff3cdp8rdNvn7O9UaEcR+15ltqxnsIqf6qH9ZDmlO1f1RXdr3WdWaDfZTunelKu9s++/01QO7YZ0Ss9QwRXdLWqXV2m9B+0l2mmLe3qOar6qdKsQ2kuk04gdzPyMvXFG93i6DzK0n2i/kXt5cx3tocVbhQ69iTrn7OwV6JkpKlWfwWrPfLT3UaE9jtjLqJ3uvZ39/exc2k3mDnoz+vzWe89OxHyjQrvJcJ/pKDq0v9mIDj1PdVfU/Wl3sxMVeg7Czxt/REfa3Spc5ekzQM+Q7aWajwodVqc1dO9qPggnFTqsztvQfav5OHNz93lUX9rfajwN3bOajytHT783oi/tb0WuQnejXdz5OXP19vuRu6Mdroqejz08TcuZo7vSLmU9WtNyblZX2qmsQ2tazs3uSruVNWjN23OzO9JeZR1a8vbMEd2u/k87lRp8J/q8o2T26gm9F2G5Ct1t3y96vqehHQjDXap1GzHjk9B7Eoa7VOo1cs670HsShu3r510yuoy6f2/oPQlDS0be7+o7WXMf/Z/ekzBEZdS5V/fInJ3ek+Qya97O9/251QG9K8nnKE++UylP5zq7puc+sjZHefPdGdMyF70nyecovddfJaJfT3ruQ+9K8jkK3emuX0t670d7EIaj0J1ae0fMMqMLGcNZ6F4iFTgK3UmkEt+hu4hUZCvQQURERERERERERERERERERERERERERERERERERERERETO+QdEtDCFgDgBAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="spawns" width="200" height="100" visible="0">
+  <object name="Esqueleto Pirata (3)" type="spawn" x="4608" y="736" width="864" height="704">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="303"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro (2)" type="spawn" x="5504" y="736" width="288" height="704">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro (2)" type="spawn" x="4288" y="736" width="288" height="704">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro (3)" type="spawn" x="5088" y="1824" width="448" height="608">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+  <object name="Esqueleto (retirado)" x="4288" y="1472" width="1280" height="256">
+   <properties>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="300"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Adaga (6)" type="spawn" x="4288" y="1760" width="768" height="672">
+   <properties>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="301"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro (3)" type="spawn" x="3712" y="1536" width="544" height="512">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="302"/>
+   </properties>
+  </object>
+  <object name="Esqueleto (4)" type="spawn" x="3456" y="2080" width="800" height="352">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="0" height="0">
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="1600" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="704" y="1344" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1152" y="896" width="32" height="32"/>
@@ -124,66 +174,6 @@
     <property name="dest_map" value="007-3"/>
     <property name="dest_x" value="5024"/>
     <property name="dest_y" value="2240"/>
-   </properties>
-  </object>
-  <object name="Limo Vermelho (5)" type="spawn" x="1440" y="1344" width="672" height="576">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="6"/>
-   </properties>
-  </object>
-  <object name="Escorpiao (8)" type="spawn" x="608" y="576" width="800" height="1088">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="1"/>
-   </properties>
-  </object>
-  <object name="Esqueleto Arqueiro (3)" type="spawn" x="3712" y="1536" width="544" height="512">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="302"/>
-   </properties>
-  </object>
-  <object name="Esqueleto Arqueiro (3)" type="spawn" x="5088" y="1824" width="448" height="608">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="302"/>
-   </properties>
-  </object>
-  <object name="Esqueleto Adaga (6)" type="spawn" x="4288" y="1760" width="768" height="672">
-   <properties>
-    <property name="max_beings" value="6"/>
-    <property name="monster_id" value="301"/>
-   </properties>
-  </object>
-  <object name="Esqueleto (4)" type="spawn" x="3456" y="2080" width="800" height="352">
-   <properties>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="300"/>
-   </properties>
-  </object>
-  <object name="Esqueleto Pirata (3)" type="spawn" x="4608" y="736" width="864" height="704">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="303"/>
-   </properties>
-  </object>
-  <object name="Esqueleto (retirado)" x="4288" y="1472" width="1280" height="256">
-   <properties>
-    <property name="max_beings" value="6"/>
-    <property name="monster_id" value="300"/>
-   </properties>
-  </object>
-  <object name="Esqueleto Arqueiro (2)" type="spawn" x="4288" y="736" width="288" height="704">
-   <properties>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="302"/>
-   </properties>
-  </object>
-  <object name="Esqueleto Arqueiro (2)" type="spawn" x="5504" y="736" width="288" height="704">
-   <properties>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="302"/>
    </properties>
   </object>
  </objectgroup>
