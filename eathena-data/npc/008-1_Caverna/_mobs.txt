@@ -3,9 +3,9 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-008-1.gat,45,46,44,9	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-1::On1008
-008-1.gat,33,27,25,10	monster	Aranha (3)	1012,3,90000,30000,Mob008-1::On1012
-008-1.gat,54,38,14,27	monster	Escorpião Preto (5)	1009,5,45000,15000,Mob008-1::On1009
+008-1.gat,164,79,14,27	monster	Escorpião Preto (5)	1009,5,45000,15000,Mob008-1::On1009
+008-1.gat,155,87,44,9	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-1::On1008
+008-1.gat,143,68,25,10	monster	Aranha (3)	1012,3,90000,30000,Mob008-1::On1012
 
 008-1.gat,0,0,0	script	Mob008-1	-1,{
 
