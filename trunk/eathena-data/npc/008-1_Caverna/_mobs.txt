@@ -4,10 +4,11 @@
 //
 
 008-1.gat,52,90,20,17	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-1::On1008
-008-1.gat,30,76,20,32	monster	Escorpiao (8)	1003,8,0,0,Mob008-1::On1003
+008-1.gat,49,62,58,36	monster	Escorpiao (8)	1003,8,0,0,Mob008-1::On1003
 008-1.gat,130,77,92,41	monster	Escorpião Preto (15)	1009,15,0,0,Mob008-1::On1009
 008-1.gat,132,58,92,75	monster	Limo Vermelho (15)	1008,15,0,0,Mob008-1::On1008
 008-1.gat,130,43,93,41	monster	Aranha (15)	1012,15,0,0,Mob008-1::On1012
+008-1.gat,48,30,56,17	monster	Limo Vermelho (5)	1008,5,0,0,Mob008-1::On1008
 
 008-1.gat,0,0,0	script	Mob008-1	-1,{
 
