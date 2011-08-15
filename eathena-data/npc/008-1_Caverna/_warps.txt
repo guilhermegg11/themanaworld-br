@@ -2,8 +2,14 @@
 
 008-1.gat,140,98	warp	paraFora1	-1,-1,008.gat,25,43
 008-1.gat,161,96	warp	paraFora2	-1,-1,008.gat,41,40
-008-1.gat,92,59	warp	paraFora3	-1,-1,008-1.gat,40,60
+008-1.gat,92,59	warp	paraFora3	-1,-1,008-1.gat,43,49
 008-1.gat,38,79	warp	paraFora	-1,-1,007.gat,142,33
 008-1.gat,44,72	warp	paraCima	-1,-1,007.gat,148,26
-008-1.gat,40,60	warp	paraDentro	-1,-1,008-1.gat,92,59
+008-1.gat,43,49	warp	paraDentro3	-1,-1,008-1.gat,92,59
 008-1.gat,24,91	warp	paraBaixo	-1,-1,007.gat,128,45
+008-1.gat,23,29	warp	atalho1	-1,-1,008-1.gat,123,26
+008-1.gat,74,32	warp	atalho2	-1,-1,008-1.gat,164,23
+008-1.gat,123,26	warp	atalho3	-1,-1,008-1.gat,23,29
+008-1.gat,164,23	warp	atalho4	-1,-1,008-1.gat,74,32
+008-1.gat,67,53	warp	paraDentro4	-1,-1,008-1.gat,102,37
+008-1.gat,102,37	warp	paraFora4	-1,-1,008-1.gat,67,53
