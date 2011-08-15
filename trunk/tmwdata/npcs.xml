@@ -132,7 +132,9 @@
 	</npc> <!-- Pedra de Emanar Alma -->
 	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
 	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
-	<npc id="329"><sprite variant="29">npcs-br.xml</sprite></npc>
+	<npc id="329"><sprite variant="29">npcs-br.xml</sprite>
+		<particlefx offsetY="10">graphics/particles/circulo-magico2.xml</particlefx>
+	</npc>
 
 	<npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
 	<npc id="333"><sprite variant="0">npc-cartola.xml</sprite></npc> <!-- cartola -->

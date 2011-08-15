@@ -20,5 +20,6 @@ npc: npc/005_Fortaleza/operarios.conf
 npc: npc/005_Fortaleza/placas.conf
 npc: npc/005_Fortaleza/portoes.conf
 npc: npc/005_Fortaleza/raul.conf
+npc: npc/005_Fortaleza/teleportador.conf
 npc: npc/005_Fortaleza/valdete.conf
 npc: npc/005_Fortaleza/warps_pensao.conf
