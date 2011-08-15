@@ -2,7 +2,6 @@
 
 008.gat,179,70	warp	para009	-1,0,009.gat,19,69
 008.gat,179,43	warp	para009 (de cima)	-1,0,009.gat,19,42
-008.gat,20,50	warp	paraEsq	-1,-1,007.gat,180,50
 008.gat,20,94	warp	paraEsq	-1,-1,007.gat,180,94
 008.gat,158,98	warp	paraCaverna	-1,-1,008-3.gat,86,103
 008.gat,171,36	warp	paraCaverna	-1,-1,008-2.gat,171,52

@@ -1,6 +1,5 @@
 // 007 Praia do Porto warps
 
-007.gat,180,50	warp	paraDir	-1,-1,008.gat,20,50
 007.gat,180,94	warp	paraDir	-1,-1,008.gat,20,94
 007.gat,79,19	warp	paraPraia	3,-1,004.gat,79,119
 007.gat,109,20	warp	paraFazenda	0,-1,004.gat,108,120
