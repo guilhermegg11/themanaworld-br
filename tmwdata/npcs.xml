@@ -133,7 +133,7 @@
 	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
 	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
 	<npc id="329"><sprite variant="29">npcs-br.xml</sprite>
-		<particlefx offsetY="10">graphics/particles/circulo-magico2.xml</particlefx>
+		<particlefx>graphics/particles/circulo-magico2.xml</particlefx>
 	</npc>
 
 	<npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
@@ -191,6 +191,16 @@
 	<npc id="348">
 		<sprite>npcs/npc-portao-esq1a.xml</sprite>
 		<sprite>npcs/npc-portao-esq1b.xml</sprite>
+	</npc>
+	<npc id="349">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<particlefx>graphics/particles/circulo-magico1.xml</particlefx>
+		<sprite>npcs/crozue.xml</sprite>
+	</npc>
+	<npc id="350">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<particlefx>graphics/particles/circulo-magico2.xml</particlefx>
+		<sprite>npcs/teleporte1.xml</sprite>
 	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
