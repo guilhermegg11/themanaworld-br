@@ -3,7 +3,7 @@
  <properties>
   <property name="minimap" value="/graphics/minimaps/009-2.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Caverna"/>
+  <property name="name" value="Caverna Luminosa"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="pasta" value="Caverna"/>
  </properties>
