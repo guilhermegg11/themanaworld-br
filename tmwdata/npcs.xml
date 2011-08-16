@@ -132,9 +132,7 @@
 	</npc> <!-- Pedra de Emanar Alma -->
 	<npc id="327"><sprite variant="27">npcs-br.xml</sprite></npc>
 	<npc id="328"><sprite variant="28">npcs-br.xml</sprite></npc>
-	<npc id="329"><sprite variant="29">npcs-br.xml</sprite>
-		<particlefx>graphics/particles/circulo-magico2.xml</particlefx>
-	</npc>
+	<npc id="329"><sprite variant="29">npcs-br.xml</sprite></npc>
 
 	<npc id="332"><sprite variant="0">npcs-br-32.xml</sprite></npc> <!-- 32x32 -->
 	<npc id="333"><sprite variant="0">npc-cartola.xml</sprite></npc> <!-- cartola -->
@@ -197,11 +195,17 @@
 		<particlefx>graphics/particles/circulo-magico1.xml</particlefx>
 		<sprite>npcs/crozue.xml</sprite>
 	</npc>
-	<npc id="350">
-		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
-		<particlefx>graphics/particles/circulo-magico2.xml</particlefx>
-		<sprite>npcs/teleporte1.xml</sprite>
-	</npc>
+
+	<npc id="350"><sprite variant="0">npcs/npcs01.xml</sprite></npc>
+	<npc id="351"><sprite variant="1">npcs/npcs01.xml</sprite></npc>
+	<npc id="352"><sprite variant="2">npcs/npcs01.xml</sprite></npc>
+	<npc id="353"><sprite variant="3">npcs/npcs01.xml</sprite></npc>
+	<npc id="354"><sprite variant="4">npcs/npcs01.xml</sprite></npc>
+	<npc id="355"><sprite variant="5">npcs/npcs01.xml</sprite></npc>
+	<npc id="356"><sprite variant="6">npcs/npcs01.xml</sprite></npc>
+	<npc id="357"><sprite variant="7">npcs/npcs01.xml</sprite></npc>
+	<npc id="358"><sprite variant="8">npcs/npcs01.xml</sprite></npc>
+	<npc id="359"><sprite variant="9">npcs/npcs01.xml</sprite></npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->
