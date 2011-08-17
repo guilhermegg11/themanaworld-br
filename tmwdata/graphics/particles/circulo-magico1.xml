@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "16"
+		position-y = "24"
+		position-z = "0"
+		>
+		<animation imageset="graphics/particles/circulo-magico1.png" width="70" height="49">
+			<sequence start="0" end="9" delay="80"/>
+		</animation>
+	</particle>
+</effect>
