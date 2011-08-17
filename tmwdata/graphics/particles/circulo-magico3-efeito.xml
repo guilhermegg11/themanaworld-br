@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "16"
+		position-y = "24"
+		position-z = "0"
+		lifetime = "1"
+		>
+
+		<emitter>
+			<property name="output" value="1"/>
+			<property name="lifetime" value="100"/>
+			<property name="fade-in" value="40"/>
+			<property name="fade-out" value="40"/>
+			<animation imageset="graphics/particles/circulo-magico3.png" width="42" height="29">
+				<sequence start="0" end="9" delay="80"/>
+			</animation>
+		</emitter>
+
+		<emitter>
+			<property name="output" value="1"/>
+			<property name="lifetime" value="100"/>
+			<emitter>
+				<property name="horizontal-angle" min="0" max="360"/>
+				<property name="vertical-angle" value="0"/>
+				<property name="lifetime" value="1"/>
+				<property name="output" value="1"/>
+				<property name="power" value="20"/>
+				<emitter>
+					<property name="vertical-angle" value="90"/>
+					<property name="output" value="1"/>
+					<property name="power" value="1"/>
+					<animation imageset="graphics/particles/estrela-rastro.png" width="6" height="17">
+						<sequence start="0" end="9" delay="60"/>
+						<end/>
+					</animation>
+				</emitter>
+			</emitter>
+		</emitter>
+
+	</particle>
+</effect>
