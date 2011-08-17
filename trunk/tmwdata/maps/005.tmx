@@ -384,6 +384,7 @@
   <object name="graphics/particles/geyser.particle.xml" type="PARTICLE_EFFECT" x="4240" y="2408"/>
   <object name="graphics/particles/geyser.particle.xml" type="PARTICLE_EFFECT" x="4271" y="2408"/>
   <object name="graphics/particles/circulo-magico2.xml" type="PARTICLE_EFFECT" x="3904" y="2368" width="32" height="32"/>
+  <object name="graphics/particles/circulo-magico1.xml" type="PARTICLE_EFFECT" x="4320" y="1888" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="pedraEmanar" width="200" height="140">
   <object name="Pedra de Emanar Alma" type="script" x="1664" y="3168" width="32" height="32">

@@ -191,9 +191,7 @@
 		<sprite>npcs/npc-portao-esq1b.xml</sprite>
 	</npc>
 	<npc id="349">
-		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
-		<particlefx>graphics/particles/circulo-magico1.xml</particlefx>
-		<sprite>npcs/crozue.xml</sprite>
+		<!-- Espaço livre -->
 	</npc>
 
 	<npc id="350"><sprite variant="0">npcs/npcs01.xml</sprite></npc>
