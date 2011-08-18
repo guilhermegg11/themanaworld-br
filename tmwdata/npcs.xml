@@ -191,7 +191,7 @@
 		<sprite>npcs/npc-portao-esq1b.xml</sprite>
 	</npc>
 	<npc id="349">
-		<!-- Espaço livre -->
+		<sprite>npcs/bruxa.xml</sprite>
 	</npc>
 
 	<npc id="350"><sprite variant="0">npcs/npcs01.xml</sprite></npc>
