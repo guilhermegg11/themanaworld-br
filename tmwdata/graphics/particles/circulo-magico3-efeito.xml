@@ -2,13 +2,14 @@
 
 <effect>
 	<particle
-		position-x = "16"
-		position-y = "24"
+		position-x = "0"
+		position-y = "0"
 		position-z = "0"
 		lifetime = "1"
 		>
 
 		<emitter>
+			<property name="position-y" value="-10"/>
 			<property name="output" value="1"/>
 			<property name="lifetime" value="100"/>
 			<property name="fade-in" value="40"/>
@@ -19,6 +20,7 @@
 		</emitter>
 
 		<emitter>
+			<property name="position-y" value="-10"/>
 			<property name="output" value="1"/>
 			<property name="lifetime" value="100"/>
 			<emitter>
