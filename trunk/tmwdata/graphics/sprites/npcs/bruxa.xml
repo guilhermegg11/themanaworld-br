@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/npcs/bruxa.png" width="47" height="58"/>
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0" delay="3000" offsetY="0"/>
+			<frame index="1" delay="75" offsetY="-1"/>
+			<frame index="2" delay="75" offsetY="-2"/>
+			<frame index="3" delay="75" offsetY="-3"/>
+			<frame index="4" delay="75" offsetY="-4"/>
+			<frame index="4" delay="150" offsetY="-5"/>
+			<frame index="4" delay="300" offsetY="-6"/>
+			<frame index="4" delay="150" offsetY="-5"/>
+			<frame index="4" delay="75" offsetY="-4"/>
+			<frame index="4" delay="150" offsetY="-3"/>
+			<frame index="4" delay="300" offsetY="-2"/>
+			<frame index="4" delay="150" offsetY="-3"/>
+			<frame index="4" delay="75" offsetY="-4"/>
+			<frame index="4" delay="150" offsetY="-5"/>
+			<frame index="4" delay="300" offsetY="-6"/>
+			<frame index="4" delay="150" offsetY="-5"/>
+			<frame index="4" delay="75" offsetY="-4"/>
+			<frame index="3" delay="75" offsetY="-3"/>
+			<frame index="2" delay="75" offsetY="-2"/>
+			<frame index="1" delay="75" offsetY="-1"/>
+		</animation>
+	</action>
+</sprite>
