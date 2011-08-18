@@ -198,6 +198,22 @@
   </object>
  </objectgroup>
  <objectgroup name="objects" width="0" height="0">
+  <object name="Atenção!" type="script" x="704" y="1568" width="32" height="32">
+   <properties>
+    <property name="name" value="Atenção!"/>
+    <property name="npc" value="155"/>
+    <property name="script" value="mes &quot;[Atenção]&quot;;"/>
+    <property name="script1" value="mes &quot;* Esta passagem foi bloqueada! Use o desvio logo acima.&quot;;"/>
+   </properties>
+  </object>
+  <object name="Desvio!" type="script" x="896" y="1344" width="32" height="32">
+   <properties>
+    <property name="name" value="Desvio!"/>
+    <property name="npc" value="155"/>
+    <property name="script" value="mes &quot;[Desvio]&quot;;"/>
+    <property name="script1" value="mes &quot;* Use esta nova passagem para contornar a passagem bloqueada.&quot;;"/>
+   </properties>
+  </object>
   <object name="graphics/particles/waterfall-1x3.particle.xml" type="PARTICLE_EFFECT" x="844" y="746"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="669" y="1355"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="797" y="2507"/>

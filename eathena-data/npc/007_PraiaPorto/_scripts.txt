@@ -3,6 +3,20 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
+// Script: Atenção!
+007.gat,178,49,0	script	Atenção!	155, {
+	mes "[Atenção]";
+	mes "* Esta passagem foi bloqueada! Use o desvio logo acima.";
+	close;
+}
+
+// Script: Desvio!
+007.gat,144,35,0	script	Desvio!	155, {
+	mes "[Desvio]";
+	mes "* Use esta nova passagem para contornar a passagem bloqueada.";
+	close;
+}
+
 // Script: Placa
 007.gat,83,75,0	script	[?]	300, {
 	mes "[Placa]";
