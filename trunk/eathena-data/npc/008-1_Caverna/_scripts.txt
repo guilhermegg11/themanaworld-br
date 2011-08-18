@@ -1,4 +1,11 @@
 //
-// Scripts do mapa: 008-1 Caverna
+// Scripts do mapa: 008-1 Cavernas Alagadas
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Desvio!
+008-1.gat,45,51,0	script	Desvio!	155, {
+	mes "[Desvio]";
+	mes "* Use esta nova passagem para contornar a passagem bloqueada.";
+	close;
+}

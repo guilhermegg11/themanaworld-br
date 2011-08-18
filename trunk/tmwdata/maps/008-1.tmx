@@ -305,6 +305,14 @@
   </object>
  </objectgroup>
  <objectgroup name="Objects" width="0" height="0">
+  <object name="Desvio!" type="script" x="1440" y="1632" width="32" height="32">
+   <properties>
+    <property name="name" value="Desvio!"/>
+    <property name="npc" value="155"/>
+    <property name="script" value="mes &quot;[Desvio]&quot;;"/>
+    <property name="script1" value="mes &quot;* Use esta nova passagem para contornar a passagem bloqueada.&quot;;"/>
+   </properties>
+  </object>
   <object name="paraFora1" type="warp" x="4480" y="3136" width="32" height="32">
    <properties>
     <property name="dest_map" value="008"/>

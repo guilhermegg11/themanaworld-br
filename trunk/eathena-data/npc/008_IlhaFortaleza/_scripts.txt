@@ -2,3 +2,17 @@
 // Scripts do mapa: 008 Ilha Fortaleza
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Atenção!
+008.gat,22,49,0	script	Atenção!	155, {
+	mes "[Atenção]";
+	mes "* Esta passagem foi bloqueada! Use o desvio logo acima.";
+	close;
+}
+
+// Script: Desvio!
+008.gat,28,42,0	script	Desvio!	155, {
+	mes "[Desvio]";
+	mes "* Use esta nova passagem para contornar a passagem bloqueada.";
+	close;
+}
