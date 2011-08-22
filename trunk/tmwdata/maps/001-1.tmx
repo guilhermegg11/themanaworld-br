@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="129" height="89" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Vila dos Pescadores"/>
+ </properties>
+ <tileset firstgid="1" name="colision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="cabana_in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png" width="512" height="160"/>
+ </tileset>
+ <tileset firstgid="83" name="canana_in X3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="99" name="in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="355" name="in X3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="371" name="pots" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Pots_x2.png" width="512" height="64"/>
+ </tileset>
+ <layer name="Ground" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cQW4TMRTGcVeUVOmWoipsW5Q7ZAsSB6m6aMUOcQIkuEG5AeQE0BO0PRa25CdZ5j2NqfDY4/wXP82MHSVP9jeJZxGfOudOAQAAAAAAAAAAAAAAAOA/eumdRHK+TtrydjmvVU9472OlBq1tHdtr1hNcGa7jcWf0t57bUq+980jON0lb3i7nteoJ732m1KC1bWJ7zXqCT4bP8bgz+lvPbam33jZKz7dGu5zXqie896VSg9aWttccoy+KH97PaG+8pvXclnrzTIdST7BT/PJ+R/fGa1rP7VLHvLd6yAAZkAx89b45OwPOkYE56zmesR7JwJ333Y2dgZPsKGMtz4bS9iJet8zAmdJWOwNTvwVOeU3ruf3XMT/PjjLW8mwoba/idcsMXCptrTMQ2j66ZWdgmx1lrOV5UNou4nXLDLRYD+QevMfoyXhN67ld6pj3Vo+VgRKt53apY95bPWSADJABMkAGyMAhZAAAAAAAAAAAAAAAAAAAAABI9/vR9iJaG/216sk/R65zeX/NMbL2opnSem5Lpfv9aHsRbYz+WvXknyPXubyfDDzf1H4/Vn+tet57HxJyHfb/2Wd9aX/NMbo5cu72aNz/F/T2nw5rPMN/va09X2qPt/Z56Z5Umn0HcztSBlauvwyk+w9o7juY25EykH4PrIz+uTOQ7j+geepgbkuFvWXyNXeYY23Pnx4y0Mv3wEhrgrC3TL7mDnOs7fnTMgPhvgv3VprZ9Lmxxwy0nttSYW+Z/BkgzLG250/LDIg0s+lz41wZKFkLLi0DS1kPiHfu7+fC2s+G+W/S1FpwtAysjPaa4z11r2n33VwZKFkLjpaBFt8DU/eadt/NlYER1wM9ZmDqXtPuOzIwVgZ6G+8eayIDZAAAAAAAAAAAAAAAAAAAABy2P6Tr+/1kswAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UsQ3AIAwEQBglReZjRcJkpHSXDqNwJ33j6ouXSwEAAAAAAAAAAHZ0ZRcAAAAAAAAAAAAAAAAAAAAAAAAAYLm7Zjcg29cGmo38nj+ADZytv3lCongfa2sBAAAAAAAAAAAAAAAAAAeZZUk4qmSzAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cy24TMRTG8bFKgSUSsOk2VKrEvSsk7gUEEndKSVXuC8plUQESCxYBiVfqOyFeIMCSY2KrjuVOJkM84zH/n3TkxFWnZ9zJ1F3MVxQAAAAAAAAAAAAAAABAHAfabgBAJxxVRXFM6riK9zNOyLFPqslzy+b9KRlPR+znf/FK1vCN1AOzlttSA/N6RcZF8/qsjOekzkdc8wty7Ivm+Laf0NyKGS/JeDnyNfBWjv9O6rVZpyVnTVzbcduIZsGM36WGUj+8rw+d1zflvG9J3Y645nfk2HfV5Dnrnszfb/g+sJTpfWdOzuuXjPMl5/dYvvZE6mnENXgmx36uJs9ZL2T+ZQvXQOg+cF2NV1csmNorPe+T2t+h3tuy232gr8YrF4OMzmVWdrsPdNm8936ulS7S5e/1zmT2+9f8a2DT7IG15cD5huZmpS+1Yeqh997OfVKj0c7147Xzl/93/kZm9wG7jgOzrnq0cz218z+YFZprQq/FNff/zq9n9PvXDtU4nzrfU5X9XNvP/IaZb/MaqOJRMd7zervtTOVIjbWt8z3TOCjHvyp1uOTn5HQvxr9ZLXbuFQBmb63tBjyp9aOl2BMAAAAAAAAAAAAAAAAAAAAATKssY8jN+mkr/6fsmdcm8pEmifn8bVP8jKGek0tks37sc6bDIn7+j85G2nR6sc+3fpHxq5dF1EQ+UoibQaF7eS/1QeqjGvXfNWUZQ6Gsn9j5P3tU+XvNZiQ1kY8UMimPaEuF+05VWcZQKOsndv6Pfqb5ZzHKRvpdlD/j3EQ+UkiVTKqYz2bnTj/T7GYjxX7GuY4qOSQp9o36QjkkucphjxtDKIfE7lE/e2tmM7y6lOXlZg/ZfbjO0vhmRs3N/bGvUa5Le8Kqe5crJhvkWuRzc7On7Gs318V+/uy16/7PmJIu7Qmr7l1W9X1Bai3Bc0sxl4Y9YbNSvAaQly7t74BZSjFnJ8WeAAAAAAAAAAAAAAAAAAAA2vAHwk7nA2SzAAA=
+  </data>
+ </layer>
+ <layer name="Top" width="129" height="89">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cT24TMRTHcWcL6R+6bUofbAsICVgCp+AKBcq/LSyAw3EEjoAE9ACsEBJ2O25d13ZM+jxxwvcjWUnHE/U31pvJZDHPGAAAAAAAAAAAAAAAAEDPhh3bwzDBez9uJbb5sdk4TylDaluLPLlMqTFmJk1bc+YPhtc3iTnRjXIileegcpvoRjkTZnpvxwc7/gTb/NqMmUlTbQ18TMyJbpQTvddAil8bl+mlHUfBnLQIpMwd35fCfGqtPdGNcmIVa8ALMx1OjHk+WZ0a+Dq8/27HDzt+BvPUwMXz5Nfw+jux3yp/F3wb3m/but2wY29yPk8NXDxPvO3J5f1cpqndvj+M6QpdB0rGroHbdtyJxv3KbTca5HHC86RkVa8DqTVPrfX14DMz027Na797U0QrRCSVaTdzHYiJcpYW3PFJdDwvzOn9bY7/fSQN8uRq8l7FZ1vkcWrr8rEZ79qkqbfzLqxJX4euJkvfSS3zOP+yRq+HV38eiXoafT3WQEquBu6ace4HFiVaIRrq7fh8ngf2WvDQjkfDNSFXA+H2FnnCTIsQrRAN9XZ8YZ7N4TeWQw20s2fHfmGYwtzNEfPsZPLsmLZ5SpmWtUbars0Z8/ZZ9zy9ZtLU2/H1lqfXTAAAAAAAAAAAAAAAAAAAAJpKvXZKvYjG7EcUZ8nlWnY/ojEzaQqfn4h7DsXPdcTzop6m/KyZf9Y1l6tFnjjTWzveRf+3RNTT6AuPL+45FK91PC/qaeqeN8zlEvU0p8JMn+z4HPzfec9ot8qkqfQc1bxnfUUxh7dIDXiiG+XMuj9r1msNxL2RpsE+PdTAVqIHRYpoBmmk1xqYJXojedPLm5rlCTMtQrRCNFTqReP70DzNzI/Zi2a34rOimCP0P1wHXM9Nf8/tuF4a7j7nlTnvAeLfux4hR6Zdj41cTT4J9pll9qEHxWJqjm/M79+4P5Lv+1m6926Zx6EGzmsg7g0iS8qTI1ohIvN6uZaIYo5Watbc34Mdm9PvwePhb2mUp7f1TvWorCWKOVrp7bzrcb1re1SmiGKOVmpqIHdPLoo5vB7Xu7fzRFup144xl3v+LKsf0TJ7//SYSdNVeqzQi2Y9etFQA1fP9GwJmQAAAAAAAAAAAAAAAAAAAP4Cr4Xy32SzAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="140" opacity="0.64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3S0YrEIAwF0OL/f/Q+LRQx2hnWRLYncOhoy3hJbNd1NQAAAAAAAAAAAAAAAAAAAPhj12L9u9fXzjz9GdG5GXk+zcr/MqvKOzA6c5TrlL5Vz5G9c472otqdZ5Yh2qvqXdX55M042otqd55Zhmivom8nZWL/nO81e5+V55O9yt6dkol9M+5r9j4rW7SXleFp36rnSM7MV/chI8OqRt9V9as/vyoLe2fcume/3+9lZetzRlXVt/78iizkzflpZeZ5kvNNPSLPt7Uzz2idmeH0HvHe2ff/fV1xzrf2iPfOPjorM8PpPeIMp834tDynZgIAAAAAAAAAAAAAAAAAAAAAADjZqEbvRuuMXE9zV/Wten7kz/x6uL87w/3M6PcJvYqqep7sm/PqDuzMM1qvcp3St8pM5M15dQd25pnli3Kd0rfKTOTNeXUHMvOssuzM82nm6nmSM+/7M/vsvlr3+5RMo/dVfSPnDrTg2VdGnihfVW8+reqZsn/27fZswTo7z2k9OikrubNvt2cL1pl5ZjnflIkc39Zb8pyaiRyrir6pyjPL+aZM5FhV9E1VnlnON2Wi1onzlQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAv/IDAyKDRYC1AQA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="sairHospital" type="warp" x="3200" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="2016"/>
+    <property name="dest_y" value="928"/>
+   </properties>
+  </object>
+  <object name="sair1" type="warp" x="864" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001"/>
+    <property name="dest_x" value="1184"/>
+    <property name="dest_y" value="1216"/>
+   </properties>
+  </object>
+  <object name="sair2" type="warp" x="2016" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="2144"/>
+   </properties>
+  </object>
+  <object name="sair3" type="warp" x="832" y="2176" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="4288"/>
+    <property name="dest_y" value="3456"/>
+   </properties>
+  </object>
+  <object name="sair4" type="warp" x="2016" y="2176" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007"/>
+    <property name="dest_x" value="2336"/>
+    <property name="dest_y" value="1504"/>
+   </properties>
+  </object>
+  <object name="20x20" x="1126" y="1048" width="640" height="640"/>
+  <object name="VendedorDeArmas" type="NPC" x="3040" y="672" width="32" height="32"/>
+  <object name="VendedorDeComidasEpoções" type="NPC" x="3360" y="672" width="32" height="32"/>
+  <object name="VendedorDeRoupas" type="NPC" x="3008" y="1856" width="32" height="32"/>
+  <object name="Sair..." type="warp" x="3200" y="2176" width="32" height="32"/>
+ </objectgroup>
+</map>
