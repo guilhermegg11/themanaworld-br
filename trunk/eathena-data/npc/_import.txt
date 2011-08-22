@@ -1,4 +1,5 @@
 import: npc/001_vilaPescadores/_import.txt
+import: npc/001-1_casas/_import.txt
 
 import: npc/002_fortaleza/_import.txt
 import: npc/002-01_salaPrincipal/_import.txt
