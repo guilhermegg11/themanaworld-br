@@ -15,7 +15,7 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="tmw" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/tmw_client.PNG" width="32" height="32"/>
+  <image source="../graphics/tiles/tmw_client.png" width="32" height="32"/>
  </tileset>
  <tileset firstgid="4" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_woodland.png" width="512" height="320"/>
