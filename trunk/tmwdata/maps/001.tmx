@@ -400,76 +400,76 @@
  </layer>
  <layer name="Collision" width="200" height="140" visible="0" opacity="0.6">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="paraCima1" type="-warp" x="2368" y="3840" width="128" height="32">
+  <object name="para004 1" type="warp" x="2368" y="3840" width="128" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
+    <property name="dest_map" value="004"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="para004 2" type="warp" x="2528" y="3808" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="004"/>
+    <property name="dest_x" value="2560"/>
+    <property name="dest_y" value="608"/>
+   </properties>
+  </object>
+  <object name="para004 3" type="warp" x="2688" y="3808" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="004"/>
+    <property name="dest_x" value="2720"/>
+    <property name="dest_y" value="608"/>
+   </properties>
+  </object>
+  <object name="para004 4" type="warp" x="2848" y="3840" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="004"/>
+    <property name="dest_x" value="2880"/>
+    <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="para004 5" type="warp" x="4256" y="3840" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="004"/>
+    <property name="dest_x" value="4256"/>
+    <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="para004 6" type="warp" x="4384" y="3840" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="004"/>
+    <property name="dest_x" value="4384"/>
+    <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="para004 7" type="-warp" x="4992" y="3808" width="160" height="32">
+   <properties>
+    <property name="dest_map" value="004"/>
     <property name="dest_x" value=""/>
     <property name="dest_y" value=""/>
    </properties>
   </object>
-  <object name="paraCima2" type="-warp" x="2528" y="3808" width="96" height="32">
+  <object name="para004 8" type="-warp" x="5216" y="3808" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
+    <property name="dest_map" value="004"/>
     <property name="dest_x" value=""/>
     <property name="dest_y" value=""/>
    </properties>
   </object>
-  <object name="paraCima3" type="-warp" x="2688" y="3808" width="96" height="32">
+  <object name="para004 9" type="-warp" x="5376" y="3808" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
+    <property name="dest_map" value="004"/>
     <property name="dest_x" value=""/>
     <property name="dest_y" value=""/>
    </properties>
   </object>
-  <object name="paraCima4" type="-warp" x="2848" y="3840" width="96" height="32">
+  <object name="para004 10" type="-warp" x="5600" y="3840" width="128" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="paraCima5" type="-warp" x="4256" y="3840" width="64" height="32">
-   <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="paraCima6" type="-warp" x="4384" y="3840" width="64" height="32">
-   <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="paraCima7" type="-warp" x="4992" y="3808" width="160" height="32">
-   <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="paraCima8" type="-warp" x="5216" y="3808" width="96" height="32">
-   <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="paraCima9" type="-warp" x="5376" y="3808" width="96" height="32">
-   <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="paraCima10" type="-warp" x="5600" y="3840" width="128" height="32">
-   <properties>
-    <property name="dest_map" value="001"/>
+    <property name="dest_map" value="004"/>
     <property name="dest_x" value=""/>
     <property name="dest_y" value=""/>
    </properties>
@@ -487,5 +487,33 @@
   <object x="32" y="3200" width="6336" height="640"/>
   <object name="graphics/particles/waterfall2.particle.xml" type="PARTICLE_EFFECT" x="4368" y="880" width="32" height="32"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="3967" y="1192"/>
+  <object name="paraVenda1" type="-warp" x="1856" y="1696" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraVenda3" type="-warp" x="1408" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraVenda2" type="-warp" x="1856" y="1600" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraCasaMontanha" type="-warp" x="4608" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
