@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/npcs/banhista.png" width="65" height="32" />
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0" offsetX="-16" offsetY="3"/>
+			<end/>
+		</animation>
+	</action>
+</sprite>
