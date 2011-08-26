@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/npcs/pescador1.png" width="68" height="57"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0" offsetY="-3" delay="10000"/>
+			<frame index="1" offsetY="-3" delay="200"/>
+			<frame index="2" offsetY="-3" delay="500"/>
+			<frame index="1" offsetY="-3" delay="200"/>
+		</animation>
+	</action>
+
+</sprite>
