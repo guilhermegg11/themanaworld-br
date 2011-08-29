@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<effect>
+
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "0"
+		>
+
+		<animation imageset="graphics/particles/peixe-salto.png" width="32" height="32">
+			<frame index="29" delay="7700"/>
+			<sequence start="30" end="38" delay="80"/>
+			<frame index="19" delay="80"/>
+			<frame index="29" delay="6300"/>
+		</animation>
+
+	</particle>
+
+</effect>
