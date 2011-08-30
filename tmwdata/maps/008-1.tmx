@@ -20,7 +20,7 @@
   <image source="../graphics/tiles/objetos_caverna.png" width="512" height="128"/>
  </tileset>
  <tileset firstgid="211" name="animated wetwall" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_ani_wetwall.png" width="512" height="512"/>
+  <image source="../graphics/tiles/cave_ani_wetwall.png" width="512" height="192"/>
   <tile id="0">
    <properties>
     <property name="animation-delay0" value="10"/>
