@@ -3,8 +3,9 @@ map: 002.gat
 npc: npc/002_fortaleza/_mobs.txt
 npc: npc/002_fortaleza/_scripts.txt
 npc: npc/002_fortaleza/_warps.txt
-npc: npc/002_fortaleza/danboudor.conf
-npc: npc/002_fortaleza/controlador.conf
 
+//npc: npc/002_fortaleza/danboudor.conf
+//npc: npc/002_fortaleza/controlador.conf
+//npc: npc/002_fortaleza/debug.conf
 //npc: npc/002_fortaleza/quintus.conf
 //npc: npc/002_fortaleza/miguel_arcanjo.conf
