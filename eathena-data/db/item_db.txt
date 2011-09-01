@@ -842,3 +842,15 @@
 3281,EspadaKurogane_2,Espada de Kurogane_2,4,250000,125000,320,176,,1,,0,2,2,1,75,1,{},{}
 3282,EspadaKurogane_3,Espada de Kurogane_4,4,250000,125000,320,164,,1,,0,2,2,1,70,1,{},{}
 3283,cristalAlma,cristalAlma,3,100,50,10,,,,,,,,,,,{},{}
+3284,aguaCoco,aguaCoco,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3285,bebidaTropicalAbacaxi,bebidaTropicalAbacaxi,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3286,bebidaTropicalAcerola,bebidaTropicalAcerola,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3287,bebidaTropicalBanana,bebidaTropicalBanana,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3288,bebidaTropicalCaju,bebidaTropicalCaju,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3289,bebidaTropicalCarambola,bebidaTropicalCarambola,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3290,bebidaTropicalKiwi,bebidaTropicalKiwi,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3291,bebidaTropicalManga,bebidaTropicalManga,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3292,bebidaTropicalMamao,bebidaTropicalMamao,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3293,peixeSardinha,peixeSardinha,0,50,20,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
+3294,peixeDourado,peixeDourado,0,50,20,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
+3295,peixeAzul,peixeAzul,0,50,20,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
