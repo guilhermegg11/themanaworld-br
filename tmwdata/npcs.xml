@@ -194,7 +194,7 @@
 	</npc>
 	<npc id="349"><sprite>npcs/banhista.xml</sprite></npc>
 
-	<npc id="350"><sprite variant="0">npcs/npcs01.xml</sprite></npc> <!-- bruxa -->
+	<npc id="350"><sprite variant="0">npcs/npcs01.xml</sprite></npc> <!-- menina da garça -->
 	<npc id="351"><sprite variant="1">npcs/npcs01.xml</sprite></npc> <!-- crozue -->
 	<npc id="352"><sprite variant="2">npcs/npcs01.xml</sprite></npc> <!-- maya -->
 	<npc id="353"><sprite variant="3">npcs/npcs01.xml</sprite></npc> <!-- vendedor peixes -->
@@ -206,6 +206,7 @@
 	<npc id="359"><sprite variant="9">npcs/npcs01.xml</sprite></npc>
 
 	<npc id="360"><sprite>npcs/pescador1.xml</sprite></npc>
+	<npc id="361"><sprite>npcs/garca.xml</sprite></npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->
