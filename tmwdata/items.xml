@@ -6712,9 +6712,9 @@
 	<item id="3284"
 		image="use-food-coco-verde.png"
 		name="Coco Verde"
-		description="Um refrencante coco verde."
+		description="Água de um refrencante coco verde."
 		type="usable"
-		hp="50"
+		hp="60"
 		weight="5"/>
 	<item id="3285"
 		image="use-food-bebida-tropical-abacaxi.png"

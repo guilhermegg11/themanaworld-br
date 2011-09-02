@@ -842,7 +842,7 @@
 3281,EspadaKurogane_2,Espada de Kurogane_2,4,250000,125000,320,176,,1,,0,2,2,1,75,1,{},{}
 3282,EspadaKurogane_3,Espada de Kurogane_4,4,250000,125000,320,164,,1,,0,2,2,1,70,1,{},{}
 3283,cristalAlma,cristalAlma,3,100,50,10,,,,,,,,,,,{},{}
-3284,aguaCoco,aguaCoco,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+3284,aguaCoco,aguaCoco,0,12,6,5,,,,,,2,,,0,,{ itemheal 60,0; },{}
 3285,bebidaTropicalAbacaxi,bebidaTropicalAbacaxi,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
 3286,bebidaTropicalAcerola,bebidaTropicalAcerola,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
 3287,bebidaTropicalBanana,bebidaTropicalBanana,0,50,10,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
