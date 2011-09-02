@@ -197,9 +197,9 @@
 	<npc id="350"><sprite variant="0">npcs/npcs01.xml</sprite></npc> <!-- menina da garça -->
 	<npc id="351"><sprite variant="1">npcs/npcs01.xml</sprite></npc> <!-- crozue -->
 	<npc id="352"><sprite variant="2">npcs/npcs01.xml</sprite></npc> <!-- maya -->
-	<npc id="353"><sprite variant="3">npcs/npcs01.xml</sprite></npc> <!-- vendedor peixes -->
-	<npc id="354"><sprite variant="4">npcs/npcs01.xml</sprite></npc>
-	<npc id="355"><sprite variant="5">npcs/npcs01.xml</sprite></npc>
+	<npc id="353"><sprite variant="3">npcs/npcs01.xml</sprite></npc> <!-- pescador -->
+	<npc id="354"><sprite variant="4">npcs/npcs01.xml</sprite></npc> <!-- peixeiro -->
+	<npc id="355"><sprite variant="5">npcs/npcs01.xml</sprite></npc> <!-- peixeiro -->
 	<npc id="356"><sprite variant="6">npcs/npcs01.xml</sprite></npc>
 	<npc id="357"><sprite variant="7">npcs/npcs01.xml</sprite></npc>
 	<npc id="358"><sprite variant="8">npcs/npcs01.xml</sprite></npc>
