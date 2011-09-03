@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="129" height="89" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="music" value="butterfly_tea_-_heart_of_medieval_01.ogg"/>
   <property name="name" value="Vila dos Pescadores"/>
   <property name="pasta" value="casas"/>
  </properties>
