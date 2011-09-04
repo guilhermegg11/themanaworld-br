@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 001b Ilha de Bhramir
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

@@ -1,0 +1,7 @@
+// 001b Ilha de Bhramir warps
+
+001b.gat,22,119	warp	para004 2	1,-1,004.gat,80,19
+001b.gat,27,119	warp	para004 3	1,-1,004.gat,85,19
+001b.gat,32,120	warp	para004 4	1,-1,004.gat,90,20
+001b.gat,76,120	warp	para004 5	0,-1,004.gat,133,20
+001b.gat,80,120	warp	para004 6	0,-1,004.gat,137,20

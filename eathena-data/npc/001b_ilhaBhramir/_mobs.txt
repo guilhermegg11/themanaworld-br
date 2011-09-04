@@ -1,0 +1,10 @@
+//
+// Monstros do mapa: 001b Ilha de Bhramir
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+
+001b.gat,0,0,0	script	Mob001b	-1,{
+
+	end;
+}
