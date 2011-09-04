@@ -1,0 +1,4 @@
+map: 001-1.gat
+npc: npc/001-1_ilhaBhramir/_mobs.txt
+npc: npc/001-1_ilhaBhramir/_scripts.txt
+npc: npc/001-1_ilhaBhramir/_warps.txt
