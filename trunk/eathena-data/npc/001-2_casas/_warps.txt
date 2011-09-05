@@ -1,9 +1,0 @@
-// 001-2 Vila dos Pescadores warps
-
-001-2.gat,100,32	warp	sairVendaPeixes1	-1,-1,001.gat,63,29
-001-2.gat,27,32	warp	sair1	-1,-1,001.gat,37,38
-001-2.gat,63,32	warp	sair2	-1,-1,001.gat,30,67
-001-2.gat,26,68	warp	sairCasaMontanha	-1,-1,001.gat,144,31
-001-2.gat,63,68	warp	sair5	-1,-1,001.gat,73,47
-001-2.gat,100,68	warp	sair6	-1,-1,001.gat,73,47
-001-2.gat,101,19	warp	sairVendaPeixes2	-1,-1,001.gat,63,29

@@ -1,4 +1,0 @@
-//
-// Scripts do mapa: 001-2 Vila dos Pescadores
-// Script gerado automaticamente pela ferramenta TMW Converter...
-//

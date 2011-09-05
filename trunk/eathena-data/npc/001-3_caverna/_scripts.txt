@@ -1,4 +1,0 @@
-//
-// Scripts do mapa: 001-3 Cavernas Alagadas
-// Script gerado automaticamente pela ferramenta TMW Converter...
-//

@@ -1,4 +1,0 @@
-map: 001-3.gat
-npc: npc/001-3_caverna/_mobs.txt
-npc: npc/001-3_caverna/_scripts.txt
-npc: npc/001-3_caverna/_warps.txt
