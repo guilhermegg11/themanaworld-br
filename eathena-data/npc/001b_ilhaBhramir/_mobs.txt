@@ -3,9 +3,10 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
-001b.gat,52,58,62,66	monster	Rama de Batata (10)	1341,10,0,0,Mob001b::On1341
-001b.gat,52,85,62,66	monster	Cogumelo (10)	1019,10,0,0,Mob001b::On1019
-001b.gat,52,71,62,66	monster	Trasgo Rosa (10)	1018,10,0,0,Mob001b::On1018
+001b.gat,66,42,39,34	monster	Rama de Batata (10)	1341,10,0,0,Mob001b::On1341
+001b.gat,51,103,65,34	monster	Cogumelo (10)	1019,10,0,0,Mob001b::On1019
+001b.gat,57,78,52,34	monster	Trasgo Rosa (10)	1018,10,0,0,Mob001b::On1018
+001b.gat,80,33,20,14	monster	Tartaruga (4)	1340,4,0,300000,Mob001b::On1340
 
 001b.gat,0,0,0	script	Mob001b	-1,{
 
@@ -17,6 +18,11 @@ On1018:
 
 On1019:
 	set @mobID, 1019;
+	callfunc "MobPoints";
+	break;
+
+On1340:
+	set @mobID, 1340;
 	callfunc "MobPoints";
 	break;
 
