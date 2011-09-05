@@ -104,7 +104,26 @@
    H4sIAAAAAAAAA+2U647cOgyDg33/hz7ojwJTH9vRhRblWRL4gG7HkRSR8c/zPD9CCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCGHgr9hziHv4FHsWgfO0osenPOfZ+xF7j6IZeHveczZyXnBzs/LJo2gOInXF9+RmVgMh9o5EPje7Gj/DGaTYexK+3MyyMfvNWjsj9q7E3tfdmVlWZs+dyM1qFtEjO1HvKzMz9hM98nJDbmZ9RX1uRg+8Wj1r/T9r/V1f0S831merxd7lb8LigUWfZ1G58dZh7/JbsO7ybf+z33ZC5cYr9r5vxLtTy5mo9xWZ2WVaYDIz22n23Fsvhtg+3Ma4N8s+LXt/q7tSJnNZsb24hcwun8W/M77vaiDz5PlGhM9bz7OIzCDroPoLf252u4yc2dVe1akW249biOwxcsbbw1vH+z5vf4u4L9ZnsrlZ1WGI7ccNrHa226Fl11GNNRj5YXtyA9EdPs97jYjnlmyeFtuT7mR2+Dz/1oj0mf1ekYs3Ve2Z7T/iXXbvOGZlzE02m599OujErlffyG3M5vfKs6O3XtWZscxYtfeb8GiWCUTdsUcXsb3pjGVv1l2Oz2SzyRbbm86g9jieQdRli+1NV1B7XJ1B1GeK7U9XELt8nv/Xi/ZAzrmqjZjnN+PZ6Swjq2c8nu/yhs6NVbt3/e1klcmgp24ke0ixfeoGQifroWtHxfapG9H9zf4P5fHbrIwcsX3qRHZ/u32O56M9UFnMiu1VJ07sMKuOmfkjtldd8Oxq9nekpuXciXwjzrP96gJCJ+pm6iHfbVX7N7Pbi+c3S32PlyeyjRLbsw4gNKuZqd85M3/E9owNSsi63loV2Rp7sH1jgxCq5ulsI8X27ea8PIdqZ2tW5I3t3w25WT1zKo+ns44Q27/umdlJufldoFSZR+WmZ2a83lhrRzxn5sbai+0jOzdRT056ysyNVWwfmZnJ6KSfmfmrMsb28ltzk+lZMX9WbC9vz8wJP5WbPmR287azjKw9lBtuZrIe7Oq/ZQDVp4PYnlbnJqsqL6vyn33+W7G8u0enM1ORfYTYvjLycoO6vw/b39tyU+Vlp9zMZmD7e1NmnoN9xprWd2Lliu1x58xEvUT1rfoWImL7XJEb1O6rfezci+1z9V2T9aIin4h6iFks7/oNIPRW68Qd8OZPR7G9rsoN8vur9FK56X/XvImVm91dFJ0l+x5svzvlZqz1+feqn6d/dNaqrEbe5WYqxLhrxt6ocwixPb8hM4+j54m5WHndie07Mjef/5fZ9a525/umUmzfq++a6LPKzb9ie38iM+g97/oieu1qIL4VhMb+bP8r75qoOtw1K99YYvvfPTNPYW/LN91F7Ax0yM2ubqQ3ak7lpndudupyzyk3mMxU7LFLXitnsPZh5wB91yD32+2uWc3SKdcdmc2deWfUObSy385Y54TYWUDcNaf2g67rzWs2NyfFzkI2MwitelT59NmncheeeuNZdh4qc+OtxbjnvPt4+/uU2Hlg3zU7ofpHvuuuO/krdiaYO9rVt37fqL5ddmIVOxOI/ZzYpXcO9N3UPTvsXFTtJpJDhkeZ/SBnfavFzoU3NxU+3pQb1v3DzkWnXTyOGU7Nd8u+2Lmw7KHq7sl4gZoFmZvsTG977wziPT3PnviGI/mr2Fd0XnYmqvawU5c5vPMw52RnwrMH9F4ic3TKsXIT20N0T5k5ojNbfsvOZ80OIl/sTGR3UPm+2ee930OnvZ2asXt2UDNUvVeHne3EzkNkB569oGe4PTfWfVbM14nb3m2ctevso9jzCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQoh7+A91tbLEoDYBAA==
   </data>
  </layer>
- <objectgroup name="spanws" width="142" height="140" visible="0"/>
+ <objectgroup name="spanws" width="142" height="140" visible="0">
+  <object name="Rama de Batata (10)" type="spawn" x="672" y="800" width="2016" height="2144">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="339"/>
+   </properties>
+  </object>
+  <object name="Cogumelo (10)" type="spawn" x="672" y="1664" width="2016" height="2144">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Trasgo Rosa (10)" type="spawn" x="672" y="1216" width="2016" height="2144">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="16"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="peixes" width="142" height="140">
   <object name="graphics/particles/peixe-salto5.xml" type="PARTICLE_EFFECT" x="2059" y="1722" width="32" height="32"/>
   <object name="graphics/particles/peixe-salto6.xml" type="PARTICLE_EFFECT" x="2119" y="1673" width="32" height="32"/>
@@ -177,9 +196,6 @@
     <property name="dest_y" value=""/>
    </properties>
   </object>
-  <object x="32" y="0" width="4480" height="640"/>
-  <object x="0" y="32" width="640" height="4416"/>
-  <object x="32" y="3840" width="4480" height="640"/>
   <object name="graphics/particles/waterfall2.particle.xml" type="PARTICLE_EFFECT" x="2512" y="880" width="32" height="32"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="2112" y="1192"/>
   <object name="paraCasaMontanha" type="-warp" x="2752" y="992" width="32" height="32">
@@ -190,5 +206,10 @@
    </properties>
   </object>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="2112" y="1032"/>
+ </objectgroup>
+ <objectgroup name="margem" width="142" height="140" visible="0">
+  <object x="32" y="0" width="4480" height="640"/>
+  <object x="0" y="32" width="640" height="4416"/>
+  <object x="32" y="3840" width="4480" height="640"/>
  </objectgroup>
 </map>
