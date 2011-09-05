@@ -465,4 +465,16 @@ Ou um comentário de alguem.
 	<sprite>monsters/batata-folhas.xml</sprite>
 </monster>
 
+<monster id="340" name="Tartaruga Espinhosa" summon="tartarugaEspinhosa">
+	<sprite>monsters/tartaruga-espinhosa.xml</sprite>
+</monster>
+
+<monster id="341" name="Tartaruga Negra" summon="tartarugaNegra">
+	<sprite>monsters/tartaruga-negra.xml</sprite>
+</monster>
+
+<monster id="342" name="Tartaruga Sangrentra" summon="tartarugaSangrenta">
+	<sprite>monsters/tartaruga-sangrenta.xml</sprite>
+</monster>
+
 </monsters>
