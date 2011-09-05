@@ -199,42 +199,42 @@
   </object>
   <object name="para001 2" type="warp" x="2528" y="608" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="2560"/>
+    <property name="dest_map" value="001b"/>
+    <property name="dest_x" value="704"/>
     <property name="dest_y" value="3808"/>
    </properties>
   </object>
   <object name="para001 3" type="warp" x="2688" y="608" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="2720"/>
+    <property name="dest_map" value="001b"/>
+    <property name="dest_x" value="864"/>
     <property name="dest_y" value="3808"/>
    </properties>
   </object>
   <object name="para001 4" type="warp" x="2848" y="640" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="2880"/>
+    <property name="dest_map" value="001b"/>
+    <property name="dest_x" value="1024"/>
     <property name="dest_y" value="3840"/>
    </properties>
   </object>
   <object name="para001 5" type="warp" x="4256" y="640" width="64" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="4256"/>
+    <property name="dest_map" value="001b"/>
+    <property name="dest_x" value="2400"/>
     <property name="dest_y" value="3840"/>
    </properties>
   </object>
   <object name="para001 6" type="warp" x="4384" y="640" width="64" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="4384"/>
+    <property name="dest_map" value="001b"/>
+    <property name="dest_x" value="2528"/>
     <property name="dest_y" value="3840"/>
    </properties>
   </object>
   <object name="para001 7" type="-warp" x="4992" y="608" width="160" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
+    <property name="dest_map" value="001b"/>
     <property name="dest_x" value=""/>
     <property name="dest_y" value=""/>
    </properties>
@@ -248,14 +248,14 @@
   </object>
   <object name="para001 9" type="-warp" x="5376" y="608" width="96" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
+    <property name="dest_map" value="001b"/>
     <property name="dest_x" value=""/>
     <property name="dest_y" value=""/>
    </properties>
   </object>
   <object name="para001 10" type="-warp" x="5600" y="640" width="128" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
+    <property name="dest_map" value="001b"/>
     <property name="dest_x" value=""/>
     <property name="dest_y" value=""/>
    </properties>

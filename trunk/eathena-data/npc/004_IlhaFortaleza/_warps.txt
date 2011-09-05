@@ -3,11 +3,11 @@
 004.gat,79,119	warp	paraPraia	3,-1,007.gat,79,19
 004.gat,109,120	warp	sairFazenda	0,-1,007.gat,108,20
 004.gat,76,20	warp	para001 1	2,-1,001.gat,76,120
-004.gat,80,19	warp	para001 2	1,-1,001.gat,80,119
-004.gat,85,19	warp	para001 3	1,-1,001.gat,85,119
-004.gat,90,20	warp	para001 4	1,-1,001.gat,90,120
-004.gat,134,20	warp	para001 5	0,-1,001.gat,133,120
-004.gat,138,20	warp	para001 6	0,-1,001.gat,137,120
+004.gat,80,19	warp	para001 2	1,-1,001b.gat,22,119
+004.gat,85,19	warp	para001 3	1,-1,001b.gat,27,119
+004.gat,90,20	warp	para001 4	1,-1,001b.gat,32,120
+004.gat,134,20	warp	para001 5	0,-1,001b.gat,75,120
+004.gat,138,20	warp	para001 6	0,-1,001b.gat,79,120
 004.gat,151,19	warp	caverna2	-1,-1,004.gat,144,25
 004.gat,136,83	warp	caverna3	-1,-1,004.gat,144,25
 004.gat,137,88	warp	caverna4	-1,-1,004.gat,144,25
