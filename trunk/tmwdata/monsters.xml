@@ -459,7 +459,7 @@ Ou um comentário de alguem.
 	<sprite>monsters/tartaruga.xml</sprite>
 </monster>
 
-<monster id="339" name="Rama de Batata" summon="nojo">
+<monster id="339" name="Rama de Batata" summon="ramaBatata">
 	<sprite>monsters/batata-onda.xml</sprite>
 	<sprite>monsters/batata.xml|#C45E00</sprite>
 	<sprite>monsters/batata-folhas.xml</sprite>

@@ -85,7 +85,28 @@
    H4sIAAAAAAAAA+2S0arEIAxES///o+/ThUWqRo2O0TNw2LK1MZnM+zzPCwAAAAAAAAAAAAAAAAAAAAAAAAAAAMuxSN0jrM9D6zs4k3+RB8jt/Cm8g7OxSN0jkAfQ5+L3F+7mSX7hDkoiD5DybNAD7MOzQQ+wD0/lnVXqOaBvb//qyUNrnkCXh9n5yd3RejfsmQfLu1TkIQatOymdf5LnX5XOKOeB8g57z9TyUJLnLJ71bqRHO+bBu96t9Kj2XS4jq+ZQe3oanp6u2E8qtX+n4enp7P3kdIJ3u+A502x/clLcaZF6tytmVGh1Hrz7jk5ulvR/y8yjvjw/vzntkoO0jnqPK3w5NQ9f9Wr/ze5pR0qzWeYe9cai2fV7pN7bznnw8MyrDlnw96glDyt62ikLvf1EoTRf7V3JI4tm5WGm1PuKnIfcc/pNTb15mJEP9b52ysOTPJd8ytX9+qamnixY6vWcVe9rhzy0+Gap27pH7zyMSL2vqHnoyUZv/dL33jlR72vG/q0zW+evnWvx0dLXyGwjUu9OjdWD2rlWL0sq1fRUWlO9C2UGVsqrj9m9q/cSgS+frN7VzrXqTZ7TOyzf586pfY7Cl1dW/2o7aJVXnVxtsO+rdM5ap/XOr+9nSO39CfT4OCKPGrk6ai9PoNVHD3nWSmuCzw5X5ODrrvQ/j5pQ32VtxytykLvLux7452GmrHdZe1H7G43Us+fnN+ev9V1PdmrZHK0F4/6muZmpkZ7Ts2qfI9Hq15ffo/qq5ZXhUq3b8fBrlVp6qP0Pc3KzUqP9qT08gVZZvvfIWk+vai8j06tVefiqU6ql9jMiHlLnIa2n9jQau6vWr3Uutc8RWKHRuyw91+ZT+xyFknq999ZIHmA8B1Gl9jQyJ0rtaVROltrbaHho93ypPY7EClnunN2X2ucIrJI6D2qfIzCi1u9Ld7+GM6NSex2BqBrNIoxlYfZ5D+XuVPschVuk9jkKN0jtcRRukdrnKHx5tpNa+8mdV/scgVuk9jkKt0jtcxRWSZk9tceROF1qfyOykzz7U/salZKfq0Ue9CiV3v/b00h/ak8j46lZ+Wqpq/bzBFo0a+deUnt5AidJ7eUppH5GldrHUzhBag9PQi2PHtQenkbJ5x31Js+wLhO7S+3byYzoTZ5XZEzt1y2MakUe1B7diJdmZEPtze2sVulOtRcwLxc9ddUewD75eTaYCfbKirpvWJ+NUl7UvYImEzmp+4S9cqHuD/bKhLo3IA+gJyd1X7BXJtQ9AXmAPfiSuifYKxPqfgAAAAAAAAAAAAAAAAAAAAAAAACgnz/fHimFwCABAA==
   </data>
  </layer>
- <objectgroup name="spanws" width="132" height="140" visible="0"/>
+ <objectgroup name="spanws" width="132" height="140" visible="0">
+  <object name="Tartaruga (10)" type="spawn" x="960" y="2464" width="2016" height="1344">
+   <properties>
+    <property name="eA_death" value="300000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="338"/>
+   </properties>
+  </object>
+  <object name="Rama de Batata (10)" type="spawn" x="2788" y="1344" width="768" height="992">
+   <properties>
+    <property name="eA_spawn" value="120000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="339"/>
+   </properties>
+  </object>
+  <object name="Limo Alga-Verde (10)" type="spawn" x="1024" y="2400" width="2016" height="1344">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="peixes" width="132" height="140">
   <object name="graphics/particles/peixe-salto2.xml" type="PARTICLE_EFFECT" x="1872" y="2016" width="32" height="32"/>
   <object name="graphics/particles/peixe-salto3.xml" type="PARTICLE_EFFECT" x="1393" y="1997" width="32" height="32"/>

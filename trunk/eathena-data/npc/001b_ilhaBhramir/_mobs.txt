@@ -3,8 +3,37 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
+001b.gat,52,58,62,66	monster	Rama de Batata (10)	1341,10,0,0,Mob001b::On1341
+001b.gat,52,85,62,66	monster	Cogumelo (10)	1019,10,0,0,Mob001b::On1019
+001b.gat,52,71,62,66	monster	Trasgo Rosa (10)	1018,10,0,0,Mob001b::On1018
 
 001b.gat,0,0,0	script	Mob001b	-1,{
+
+On1018:
+	set @mobID, 1018;
+	callfunc "MobPoints";
+	callsub _MOBS_trasgo;
+	break;
+
+On1019:
+	set @mobID, 1019;
+	callfunc "MobPoints";
+	break;
+
+On1341:
+	set @mobID, 1341;
+	callfunc "MobPoints";
+	break;
+
+
+//= Callsubs ==========================================================
+
+_MOBS_trasgo:
+	if(QUEST_trasgo!=8) return;
+	callfunc "mobContagem", 35, MOBS_trasgo, @MOBS_trasgo;
+	set MOBS_trasgo, @mobs;
+	set @MOBS_trasgo, @flag;
+	return;
 
 	end;
 }
