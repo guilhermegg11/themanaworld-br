@@ -105,22 +105,29 @@
   </data>
  </layer>
  <objectgroup name="spanws" width="142" height="140" visible="0">
-  <object name="Rama de Batata (10)" type="spawn" x="672" y="800" width="2016" height="2144">
+  <object name="Rama de Batata (10)" type="spawn" x="1504" y="800" width="1280" height="1120">
    <properties>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="339"/>
    </properties>
   </object>
-  <object name="Cogumelo (10)" type="spawn" x="672" y="1664" width="2016" height="2144">
+  <object name="Cogumelo (10)" type="spawn" x="608" y="2752" width="2112" height="1120">
    <properties>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="17"/>
    </properties>
   </object>
-  <object name="Trasgo Rosa (10)" type="spawn" x="672" y="1216" width="2016" height="2144">
+  <object name="Trasgo Rosa (10)" type="spawn" x="992" y="1952" width="1696" height="1120">
    <properties>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="16"/>
+   </properties>
+  </object>
+  <object name="Tartaruga (4)" type="spawn" x="2240" y="832" width="672" height="480">
+   <properties>
+    <property name="eA_death" value="300000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="338"/>
    </properties>
   </object>
  </objectgroup>
