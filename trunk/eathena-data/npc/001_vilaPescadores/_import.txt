@@ -6,8 +6,9 @@ npc: npc/001_vilaPescadores/_shops.txt
 npc: npc/001_vilaPescadores/_warps.txt
 
 npc: npc/001_vilaPescadores/angela.conf
-npc: npc/001_vilaPescadores/garca.conf
 npc: npc/001_vilaPescadores/banhista.conf
+npc: npc/001_vilaPescadores/garca.conf
+npc: npc/001_vilaPescadores/iris_ofelia.conf
 npc: npc/001_vilaPescadores/maya.conf
 npc: npc/001_vilaPescadores/menir_alma.conf
 npc: npc/001_vilaPescadores/pescador1.conf
