@@ -3,9 +3,9 @@
  <properties>
   <property name="minimap" value="/graphics/minimaps/001-2.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Caverna Alagada"/>
+  <property name="name" value="Gruta Escura"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
-  <property name="pasta" value="cavernaAlagada"/>
+  <property name="pasta" value="grutaEscura"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
@@ -26,7 +26,7 @@
  </layer>
  <layer name="Fringe" width="140" height="140">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3cy5LTMBCF4bw9sAbel2jhqmFgfJH6crr1f1Vep9U5sR1J9usFAAAAAAAAAAAAAAAAAAAAAAAA6Pr5Pn7dPH4n1Qh/T3Iwc5Cd+rwzQnbqy8oIualHKSvkRptqVsiMntmszH6H0Z+36qze3XI8891Z9Sjzsz3q2yE7CvMlat/LyrW5c2bu9iWqB9m5sbqH65gZtaxk1uZxr98tM3d6pHh/aVknc9b3KGfl4JWZ6HmD7D5auOqZwhgt7zm9rzcV+rmiwviU5w/P+vNV3Qo9nUVefLJyVbtCX2eQF7+sXNWu0NunyItvXs7qV+jtDOXfgGJWZvryv3Fk93aWal66ZOVsLGTGv57sw3JOsGpeBpXfwMocYkTOrOeQq2ZGYTwe883WGVrpxw7nGKU1aYX1odV+fK6lcl6GjMxErmNZZMfyHFM9L0NkZtTWPL3r6ZiXISIzall5UptVZjrnxWp8Cns/7/LoQ8e8DJa9Ut/TfcY6M7vlJeJQ66PXb0dtnCvIy98sMtP1fnfgOft/rWaGvOyVl2ElM+Rlv7wMs5npmhfvZ3/U1sRnPM1Mt/Wjj6L23lXv4eo5uNJYz0SuV1c+R5OX+L0NlfMy7P5cfvYadcUeVnuXjZWsfVPkpaas+8/jc6v2j7zEjqd6XobKa6ozFPZjdutf16wM5GUNeYm9d6new0r7wCxk/DfqkpVB+d1uHpinm7fbuWWIXAPslJVht3PLEJWXblkZyIvPeMlKHxl7Xqr3cNesHLzu27plZbe5lq9Yz2l32Ef30W5z/ndE7dut1Mfd97jc4Z2bCn3Mfp9DNZ6ZUe6j0jtjqlJ6V5OnXcYZxaqfin30OJ8qjjNax+u617VXbZxZOj1Lset9WrQO/zP5Hxir8hwWc03xquYl8n0CCuNVUm09JfrdE9njVVNpf9nKmtauzxlZq7Cub7XftOr1V0nVd+la7/9SHL8a1axE7bmpcG5VEvVuoZV6op+jUuiDIqUeZe/NUuqFIqXrUHZW1OpQQ1ae10Ne8vOilpWzmnbNC1m51u15iBlKcw3q95a750UpK1f1KHwvO+dFbS2xYlZUaovAueWZXfOiuK6mft8y7JgX1XV78qJHeU+uel4+1/d66dTmhbzMUb+v8qD+jAh50VHhGTSVueWntXXLS5VnXFXzonzes1bpXQSKe9lUM+ylUl6e1KtSS6esDNXyslLz3fqqXJ8zVMyLdd1eB3nR6o9yZjpmZaicl0ExM12zcqh+vVbKTPesHCrM192RmR2F8UdSXjt6gve6xFHc9zKr+r1ZJUrzYgB6+/Y+vr+PH9mFAAAAAAAAAAAAAAAAAAAAAM7+AGP194ZAMgEA
+   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
   </data>
  </layer>
  <layer name="Top" width="140" height="140">
@@ -40,17 +40,16 @@
   </data>
  </layer>
  <objectgroup name="spanws" width="132" height="140" visible="0">
-  <object name="Tartaruga Espinhosa (16)" type="spawn" x="0" y="0">
+  <object name="Tartaruga Espinhosa (30)" type="spawn" x="0" y="0">
    <properties>
-    <property name="max_beings" value="10"/>
+    <property name="max_beings" value="30"/>
     <property name="monster_id" value="340"/>
    </properties>
   </object>
-  <object name="Tartaruga (4)" type="spawn" x="672" y="1536" width="1248" height="2272">
+  <object name="Limo do Mar (16)" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="300000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="338"/>
+    <property name="max_beings" value="16"/>
+    <property name="monster_id" value="31"/>
    </properties>
   </object>
  </objectgroup>

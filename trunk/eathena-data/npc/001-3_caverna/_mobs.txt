@@ -1,10 +1,22 @@
 //
-// Monstros do mapa: 001-3 Cavernas Alagadas
+// Monstros do mapa: 001-3 Caverna
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
+001-3.gat,0,0,0,0	monster	Morcego (30)	1017,30,0,0,Mob001-3::On1017
+001-3.gat,0,0,0,0	monster	Cobra da Caverna (16)	1021,16,0,0,Mob001-3::On1021
 
 001-3.gat,0,0,0	script	Mob001-3	-1,{
+
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+	break;
+
+On1021:
+	set @mobID, 1021;
+	callfunc "MobPoints";
+	break;
 
 	end;
 }
