@@ -1,5 +1,5 @@
 // 001 Vila dos Pescadores warps
 
 001.gat,76,120	warp	para004 1	2,-1,004.gat,76,20
-001.gat,79,55	warp	paraCaverna-2 1	-1,-1,001-2.gat,76,20
-001.gat,104,41	warp	paraCaverna-2 2	-1,-1,001-2.gat,76,20
+001.gat,79,55	warp	paraGrutaEscura	-1,-1,001-2.gat,34,119
+001.gat,104,41	warp	paraCaverna-001-3	-1,-1,001-3.gat,30,115
