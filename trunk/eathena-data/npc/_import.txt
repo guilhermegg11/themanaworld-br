@@ -1,7 +1,8 @@
 import: npc/001_vilaPescadores/_import.txt
 import: npc/001b_ilhaBhramir/_import.txt
 import: npc/001-1_casas/_import.txt
-import: npc/001-2_caverna/_import.txt
+import: npc/001-2_cavernaAlagada/_import.txt
+import: npc/001-3_caverna/_import.txt
 
 import: npc/002_fortaleza/_import.txt
 import: npc/002-01_salaPrincipal/_import.txt
