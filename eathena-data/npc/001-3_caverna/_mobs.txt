@@ -1,10 +1,10 @@
 //
-// Monstros do mapa: 001-2 Cavernas Alagadas
+// Monstros do mapa: 001-3 Cavernas Alagadas
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
 
-001-2.gat,0,0,0	script	Mob001-2	-1,{
+001-3.gat,0,0,0	script	Mob001-3	-1,{
 
 	end;
 }
