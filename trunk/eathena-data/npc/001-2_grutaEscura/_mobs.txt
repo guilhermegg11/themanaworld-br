@@ -1,0 +1,22 @@
+//
+// Monstros do mapa: 001-2 Gruta Escura
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+001-2.gat,0,0,0,0	monster	Tartaruga Espinhosa (30)	1342,30,0,0,Mob001-2::On1342
+001-2.gat,0,0,0,0	monster	Limo do Mar (16)	1033,16,0,0,Mob001-2::On1033
+
+001-2.gat,0,0,0	script	Mob001-2	-1,{
+
+On1033:
+	set @mobID, 1033;
+	callfunc "MobPoints";
+	break;
+
+On1342:
+	set @mobID, 1342;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}
