@@ -185,18 +185,18 @@
   </object>
   <object name="menir" x="2112" y="2080" width="32" height="32"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="3968" y="1032"/>
-  <object name="paraCaverna-2 1" type="warp" x="2528" y="1760" width="32" height="32">
+  <object name="paraGrutaEscura" type="warp" x="2528" y="1760" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_x" value="2432"/>
-    <property name="dest_y" value="640"/>
+    <property name="dest_x" value="1088"/>
+    <property name="dest_y" value="3808"/>
    </properties>
   </object>
-  <object name="paraCaverna-2 2" type="warp" x="3328" y="1312" width="32" height="32">
+  <object name="paraCaverna-001-3" type="warp" x="3328" y="1312" width="32" height="32">
    <properties>
-    <property name="dest_map" value="001-2"/>
-    <property name="dest_x" value="2432"/>
-    <property name="dest_y" value="640"/>
+    <property name="dest_map" value="001-3"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="3680"/>
    </properties>
   </object>
  </objectgroup>
