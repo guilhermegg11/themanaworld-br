@@ -4,6 +4,7 @@
 	<update type="data" file="2010_graphics.zip" hash="c22d1269"/>
 	<update type="data" file="2010_sprites.zip" hash="d30c7a3e"/>
 	<update type="data" file="2010_tiles.zip" hash="99a055a0"/>
+	<update type="data" file="2011_mana.zip" hash="a22e4d89"/>
 	<update type="data" file="update_2010-11-02.zip" hash="f8bac20d"/>
 	<update type="data" file="update_2010-11-13.zip" hash="5d491b8b"/>
 	<update type="data" file="update_2010-12-20.zip" hash="fc5b6d9b"/>
@@ -11,8 +12,7 @@
 	<update type="data" file="update_2011-02-08.zip" hash="ea4cdef3"/>
 	<update type="data" file="update_2011-04-12.zip" hash="cc0a5ced"/>
 	<update type="data" file="update_2011-05-22.zip" hash="94942089"/>
-	<update type="data" file="correcao_2011-07-27.zip" hash="6fbac05"/>
-	<update type="data" file="correcao_2011-07-31.zip" hash="e5ecedbc"/>
+	<update type="data" file="update_2011-09-07.zip" hash="893f076a"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 	<update type="music" required="no" file="musicas_2010-09-28.zip" hash="6db7aab8" desciption="Novas músicas"/>
 	<update type="music" required="no" file="musicas_2010-11-13.zip" hash="e108eee" desciption="Cemitério do Org"/>

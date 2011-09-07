@@ -2,6 +2,7 @@
 2010_graphics.zip c22d1269
 2010_sprites.zip d30c7a3e
 2010_tiles.zip 99a055a0
+2011_tmw.zip 62cc9733
 update_2010-11-02.zip f8bac20d
 update_2010-11-13.zip 5d491b8b
 update_2010-12-20.zip fc5b6d9b
@@ -9,5 +10,4 @@ update_2011-01-02.zip f4f1855b
 update_2011-02-08.zip ea4cdef3
 update_2011-04-12.zip cc0a5ced
 update_2011-05-22.zip 94942089
-correcao_2011-07-27.zip 6fbac05
-correcao_2011-07-31.zip e5ecedbc
+update_2011-09-07.zip 893f076a

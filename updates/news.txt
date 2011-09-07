@@ -1,10 +1,17 @@
+##3 .:: Atualização 07/09/2011 ::.
+##0
+##0 A novidades são muitas. Principalmente em
+##0 relação a novos mapas. Existe muito a ser
+##0 explorado com certeza.
+##2 Infelizmente, vamos ficar devendo novas quests.
+##0
 ##3 .:: Atualização 22/05/2011 ::.
 ##0
 ##0 Como é de se esperar, nosso servidor esta cada
 ##0 dia melhor. Agora contamos com nova hospedagem
 ##0 e com isso nosso servidor suportá mais joga-
-##0 dores online. E para comemorar eferecemos um
-##0 mes de XP dobrado... é por conta da casa!!!
+##0 dores online. E para comemorar oferecemos um
+##0 mês de XP dobrado... é por conta da casa!!!
 ##0
 ##3 .:: Atualização Pós-Páscoa ::.
 ##0
@@ -12,7 +19,7 @@
 ##0 pode aproveitar o resto de seus ovos até o
 ##0 final do mês. E também pode vender seus ovos
 ##0 dourados por um bom preço.
-##3 A páscoa vai deixar saldades!!!
+##3 A páscoa vai deixar saudades!!!
 ##0
 ##3 .:: Atualização 08/02/2011 ::.
 ##0
@@ -38,7 +45,7 @@
 ##3 .:: Atualização 02/11/2010 ::.
 ##0
 ##0 Viaje em grande estilo no navio do capitão
-##0 Mirc. Por equanto ele não está cobrando por
+##0 Mirc. Por enquanto ele não está cobrando por
 ##0 seus serviços, mas a promoção é por tempo
 ##0 limitado.
 ##0
