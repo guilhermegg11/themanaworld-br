@@ -854,3 +854,6 @@
 3293,peixeSardinha,peixeSardinha,0,50,20,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
 3294,peixeDourado,peixeDourado,0,50,20,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
 3295,peixeAzul,peixeAzul,0,50,20,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
+3296,espinhoVerde,espinhoVerde,3,50,25,10,,,,,,,,,,,{},{}
+3297,espinhoNegro,espinhoNegro,3,50,25,10,,,,,,,,,,,{},{}
+3298,espinhoSangrento,espinhoSangrento,3,50,25,10,,,,,,,,,,,{},{}
