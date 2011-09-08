@@ -6794,4 +6794,22 @@
 		hp="100"
 		weight="5"/>
 
+	<item id="3296"
+		image="generic-espinho-verde.png"
+		name="Espinho Verde Musgo"
+		description="Espinho da Tartaruga Espinhosa."
+		type="generic"
+		weight="10"/>
+	<item id="3297"
+		image="generic-espinho-negro.png"
+		name="Espinho Negro"
+		description="Espinho da Tartaruga Negra."
+		type="generic"
+		weight="10"/>
+	<item id="3298"
+		image="generic-espinho-vermelho.png"
+		name="Espinho Sangrento"
+		description="Espinho da Tartaruga Sangrenta."
+		type="generic"
+		weight="10"/>
 </items>
