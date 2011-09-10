@@ -39,6 +39,7 @@ import: npc/009_IlhaFortaleza/_import.txt
 import: npc/009-1_CavernaMontanha/_import.txt
 import: npc/009-2_Caverna/_import.txt
 import: npc/009-3_ReinoLilit/_import.txt
+import: npc/009-4_casaFada/_import.txt
 
 import: npc/010_PoloNorte/_import.txt
 import: npc/010-1_CavernaCongelada/_import.txt

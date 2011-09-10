@@ -3,7 +3,6 @@ npc: npc/009-3_ReinoLilit/_mobs.txt
 npc: npc/009-3_ReinoLilit/_scripts.txt
 npc: npc/009-3_ReinoLilit/_warps.txt
 npc: npc/009-3_ReinoLilit/arvore_encantada.conf
-npc: npc/009-3_ReinoLilit/ninfa_ivanize.conf
 npc: npc/009-3_ReinoLilit/ninfa_leona.conf
 npc: npc/009-3_ReinoLilit/ninfa_sonia.conf
 npc: npc/009-3_ReinoLilit/pedra_encantada.conf

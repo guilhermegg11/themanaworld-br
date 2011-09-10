@@ -1,0 +1,4 @@
+// 009-4 Casa de Fada warps
+
+009-4.gat,26,29	warp	paraFora1	-1,-1,009-3.gat,138,48
+009-4.gat,60,19	warp	ParaFora2	-1,-1,009-3.gat,172,56

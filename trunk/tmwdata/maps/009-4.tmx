@@ -37,36 +37,47 @@
  </tileset>
  <layer name="Ground" width="116" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UwWrCQBRA0eFlIUWolBYstAt3Fdpd+jf+q9/WCBE1Oopt0mnsWRwYZiAvcDOpU0o1AAAAAAAAAMCIVJHSfZXSJHaq1mZ9F4dnQ8yfRLn5t2ba9pzFzrS1WT/E4dkQ82dRbn73W9paZ/ZL97rkpXnH1z3zON7b1/f8x+aZT615a3+vq+/53W9pa53ZL93rkkVcp+/5z3Gdvue/xWnLzH7pXnqet4xjq9aps9K9xtzzvfHxyz1XmbWeP+9ZNz4L3E89h+lZ6n+ba6nneHvmlO6l5/d6up+31XOs9/Nc55Lzh2j3n3sCAAAAAAAAAAB/zxelr4CIoFoAAA==
+   H4sIAAAAAAAAA+3UwWrCQBAG4GU8SBFaSgWF9uCtQntL38Z39dkaIeAaE8E2cU37HT4YdiAT8s+mSilVAAAAAAAAAAATMouUHmcpzeNo1jjUD3HaG2P+Pvrnt3ulv9e9WzR5PsXRonGon+O0N8b8ffTPb/eGnj+Pbu09mso+vdbv+JZZxflZbuj5L/Uzl41VIz9bZ/VyhPn5ruTaezTWPg1tE9cZev46rjP0/Pfotu05L52XPC/bxrldo6tXOq8p5/lR+7xxnrueWp6/z7OqfRW4n/IcJ89S/9u+LOU53Tz7lM5Lnj/L0/38W3lO9X5eyrn0O9zCf8kTAAAAAAAAAAC4P99xg/fmoFoAAA==
   </data>
  </layer>
  <layer name="Fringe" width="116" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WT07CQBzF8WmXLDkUCQeAC6jsQNj5b6uUnYS416RHMKKujVGuAZ5A3fsauhhLE4xhZtLy/SQv7aze5DfNpMYAAAAAAAAAAAAAAABUTyM25kA5jMPtIXR/nTQ1x4FybM2zX5htcb1rf+lvRW73UAdHmlNPOVXOrBmeFOZZXLvs70Tl/V3Oc6uh5jQqOatUubGSeu5vR7/j22VF7/5z7fuiZO/3ylJZKR/52ld/1vWgzPM8OureJy/Kp/KlfOdrX7LzfFWudc5T5c1jd53NrPiUfTsL5VZneae86/1Jz+eK3oHAf431zU/izXef/Um8/v9IAvQDQGhXge+90P0AAAAAAAAAAAAAAAAA4NoPiqffN6BaAAA=
+   H4sIAAAAAAAAA+3WT2rCQBzF8WSWXfZQBQ9gL6B2p7W7Vt2mpjuLuLeQI5T+WxfRXqP1BLZ7X2gg01EQCpmQ+P3AI5nVG34ThgQBAAAAAAAAAAAAAABA9ZyYIGgpbXOc/XVzqjn2lEtrnl1ntu66jP6zsLg91EVHc7pQbpSBNcNrZ57uusj+Zpj3RSbvP+c8D+prTld7zipRZlYSz/2N8G98iyp69w+179GevT8qn8qXss7WvvrTriflOctLQd3H5F3ZKN/KT7b2JT3PhTLROd8rS4/ddTa14lP67Xwoc53lg7LS+6uebxW9A4H/GuubvzO77z77Y/P7/xGX0A8AZbvl3gMAAAAAAAAAAAAAAACAQm0BWD5EF6BaAAA=
   </data>
  </layer>
  <layer name="Top" width="116" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3U0W3CMBDG8SRPlAkKGzAEpS9AoTzx0JfuApMwQqUO0C2gI3SPXqQgrpEdK9LJDu7/J51iO0hf4nMoCgAAAAAAAAAAAAAA8javiuK5VRvHmq6nKp/83Cwce/Oq1qbV32vtxXA/ffkPch1LnZq1UzMfGee7zlOohnyeuvp5bN27zmP0c1mmyw+xzLcW+j5dYvQzZX7IPffzLHWR+lb36addvrXQfv7I/95B5vvytharn19q7VON6affVp5t16q3iN9HV/6H+p3uLf30q9/nUa6TZq7HPtb7OWuqpsex8vsaej/7ymk/U+dbS/0+/z3f2lKebe2pmmt9Zfg+qfNz6+d75a+u+7nkd50nX1meJ2up93PI+aFnw/DQTwAAAAAAAAAAAAAAANybX2wE+5KgWgAA
+   H4sIAAAAAAAAA+3Uz23CMBTH8SSnlgmgG3SIUi6UP+2ph166C52EEZAYgC2gI7AHL1KqPiI7VqQnO5jvR3pK7CD9Yj+HogAAAAAAAAAAAAAAIG8vVVHMWrVyzOmaVvnk5+bVsTfvau6pur7Wlob76ct/lOtIatvMbZvxg3G+6zyFasjnqaufP61nf+MY/ZyX6fJDLPOthb5Plxj9TJkfcsv9PEqdpH7Vc/ppl28ttJ9n+d/byPiz/J+L1c+Dmture/rpt5Z3+2jVV8Tvoyt/p36ne0s//er1jOU6acb63sd6P5+bqun7WPl9Db2ffeW0n6nzraVez73nW5vLuy08VXPNvxmupyvfV5b5ufXzu/JX1/MY+aF3s5D6PFm7936mzoct+gkAAAAAAAAAAAAAAIBbcwETRnPToFoAAA==
   </data>
  </layer>
  <layer name="Collision" width="116" height="50" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SUQqEMAwFwOD9D72/RRRXpImmExhEEZ7pc4uIDQAAAAAAAAAAYJIYrrG7z/6OMb/iDL5mP0fPZp7r2/KvprqvJ+d59F5W/tl7+uzRZ9b+V1Pd15M+M/Y5y5/5D3Xuc9zrnx275d+d6p7evs/q+d32WT2/2z6r52f2vEL+3anuBQAAAAAAAAAA6OMH8qX4AaBaAAA=
+   H4sIAAAAAAAAA+3SUQqEMAwFwOD9D72/RSquiImmExhEKSSvcYuIDQAAAAAAAAAAmIoXzPB1MTxj9549x9i/4g6+Zl+zb0/e69v6n1X1vu7c5+xcVv+jc/bZY59Z+c+qel939pmR56j/k/9Q532Ouf7J2K3/1are09vzrN6/W57V+3fLs3r/zD1Xz5CV80pVzwsAAAAAAAAAAPTxA2zSnXSgWgAA
   </data>
  </layer>
  <objectgroup name="Objects" width="116" height="50">
   <object name="PersonagenNpc" type="NPC" x="704" y="683" width="48" height="27"/>
-  <object name="ParaFora...(CasaFora)" type="Warp" x="832" y="928" width="32" height="32"/>
-  <object name="" x="0" y="0" width="640" height="640"/>
-  <object name="" x="1024" y="0" width="640" height="640"/>
-  <object name="" x="0" y="960" width="640" height="640"/>
-  <object name="" x="1024" y="960" width="640" height="640"/>
-  <object name="ParaFora...(CasaFora)" type="Warp" x="1856" y="928" width="32" height="32"/>
-  <object name="" x="2048" y="0" width="640" height="640"/>
-  <object name="" x="2048" y="960" width="640" height="640"/>
-  <object name="" x="3072" y="0" width="640" height="640"/>
-  <object name="" x="3072" y="960" width="640" height="640"/>
-  <object name="ParaFora...(CasaFora)" type="Warp" x="2880" y="640" width="32" height="32"/>
+  <object name="paraFora1" type="warp" x="832" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="009-3"/>
+    <property name="dest_x" value="4416"/>
+    <property name="dest_y" value="1536"/>
+   </properties>
+  </object>
+  <object name="ParaFora2" type="warp" x="1920" y="608" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="009-3"/>
+    <property name="dest_x" value="5504"/>
+    <property name="dest_y" value="1792"/>
+   </properties>
+  </object>
+  <object x="0" y="0" width="640" height="640"/>
+  <object x="1024" y="0" width="640" height="640"/>
+  <object x="0" y="960" width="640" height="640"/>
+  <object x="1024" y="960" width="640" height="640"/>
+  <object x="2048" y="0" width="640" height="640"/>
+  <object x="2048" y="960" width="640" height="640"/>
+  <object x="3072" y="0" width="640" height="640"/>
+  <object x="3072" y="960" width="640" height="640"/>
  </objectgroup>
 </map>
