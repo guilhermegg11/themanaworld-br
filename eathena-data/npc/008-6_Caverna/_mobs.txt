@@ -7,32 +7,28 @@
 008-6.gat,91,137,55,72	monster	Limo Vermelho (8)	1008,8,0,0,Mob008-6::On1008
 008-6.gat,153,131,51,75	monster	Escorpião Preto (16)	1009,8,0,0,Mob008-6::On1009
 008-6.gat,157,127,51,75	monster	Cobra (16)	1010,5,0,0,Mob008-6::On1010
-008-6.gat,148,69,49,20	monster	Morcego (8) [30s]	1017,8,30000,0,Mob008-6::On1017
+008-6.gat,148,69,49,20	monster	Morcego (8) [2min]	1017,8,120000,0,Mob008-6::On1017
 
 008-6.gat,0,0,0	script	Mob008-6	-1,{
 
 On1008:
 	set @mobID, 1008;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1009:
 	set @mobID, 1009;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1010:
 	set @mobID, 1010;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1017:
 	set @mobID, 1017;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 	end;

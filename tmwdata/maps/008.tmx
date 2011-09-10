@@ -164,8 +164,9 @@
     <property name="monster_id" value="12"/>
    </properties>
   </object>
-  <object name="Morcego (5)" type="spawn" x="1568" y="2432" width="768" height="416">
+  <object name="Morcego (5) [2min]" type="spawn" x="1568" y="2432" width="768" height="416">
    <properties>
+    <property name="eA_spawn" value="120000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="15"/>
    </properties>
@@ -176,10 +177,11 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object name="Morcego (3)" type="spawn" x="1952" y="1120" width="768" height="416">
+  <object name="Morcego (5) [2min]" type="spawn" x="1952" y="1120" width="768" height="416">
    <properties>
+    <property name="eA_spawn" value="120000"/>
     <property name="max_beings" value="3"/>
-    <property name="mosnter_id" value="15"/>
+    <property name="monster_id" value="15"/>
    </properties>
   </object>
   <object name="Flor (5)" type="spawn" x="1472" y="1152" width="1536" height="608">
