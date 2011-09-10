@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 009-4 Casa de Fada
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//

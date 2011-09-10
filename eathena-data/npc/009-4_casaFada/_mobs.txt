@@ -1,0 +1,10 @@
+//
+// Monstros do mapa: 009-4 Casa de Fada
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+
+009-4.gat,0,0,0	script	Mob009-4	-1,{
+
+	end;
+}
