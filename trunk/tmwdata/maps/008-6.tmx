@@ -129,9 +129,9 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Morcego (8) [30s]" type="spawn" x="3968" y="1888" width="1600" height="672">
+  <object name="Morcego (8) [2min]" type="spawn" x="3968" y="1888" width="1600" height="672">
    <properties>
-    <property name="eA_spawn" value="30000"/>
+    <property name="eA_spawn" value="120000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="15"/>
    </properties>
