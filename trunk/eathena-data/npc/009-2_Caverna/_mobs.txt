@@ -1,5 +1,5 @@
 //
-// Monstros do mapa: 009-2 Caverna
+// Monstros do mapa: 009-2 Caverna Luminosa
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
@@ -11,13 +11,11 @@
 On1017:
 	set @mobID, 1017;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1021:
 	set @mobID, 1021;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 	end;

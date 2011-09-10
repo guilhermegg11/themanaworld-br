@@ -180,7 +180,7 @@
   <object name="Morcego (5) [2min]" type="spawn" x="1952" y="1120" width="768" height="416">
    <properties>
     <property name="eA_spawn" value="120000"/>
-    <property name="max_beings" value="3"/>
+    <property name="max_beings" value="5"/>
     <property name="monster_id" value="15"/>
    </properties>
   </object>
