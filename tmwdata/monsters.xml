@@ -258,9 +258,10 @@ Ou um comentário de alguem.
 <sprite>weapon-dagger-attack.xml</sprite>
 </monster>
 <monster id="302" name="Esqueleto Arqueiro" summon="esqueletoArqueiro">
-<sprite>monster-skeleton.xml</sprite>
-<sprite gender="male">chest-leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
-<sprite>weapon-bow-attack.xml</sprite>
+	<sprite>monster-skeleton.xml</sprite>
+	<sprite gender="male">chest-leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+	<sprite>weapon-bow-attack.xml</sprite>
+	<attack id="1" missile-particle="graphics/particles/arrow.particle.xml"/>
 </monster>
 <monster id="303" name="Esqueleto Pirata" summon="esqueletoPirata">
 <sprite>monster-skeleton.xml</sprite>
@@ -475,6 +476,12 @@ Ou um comentário de alguem.
 
 <monster id="342" name="Tartaruga Sangrentra" summon="tartarugaSangrenta">
 	<sprite>monsters/tartaruga-sangrenta.xml</sprite>
+</monster>
+
+<monster id="343" name="Olho" summon="olho">
+	<sprite>monsters/olho.xml|#4c8026,ffffff</sprite>
+	<sprite>monsters/olho-raio.xml|#c20000,ffb3b3</sprite>
+	<attack id="1" missile-particle="graphics/particles/golpe-eletrico.particle.xml"/>
 </monster>
 
 </monsters>
