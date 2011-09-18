@@ -48,6 +48,7 @@ import: npc/010-3_CavernaCongelada/_import.txt
 
 import: npc/011_submundo/_import.txt
 import: npc/012_floresta/_import.txt
+import: npc/013_pantano/_import.txt
 
 import: npc/prisao/_import.txt
 import: npc/calabouco/_import.txt

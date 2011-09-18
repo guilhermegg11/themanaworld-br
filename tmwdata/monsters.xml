@@ -484,9 +484,9 @@ Ou um comentário de alguem.
 	<attack id="1" missile-particle="graphics/particles/golpe-eletrico.particle.xml"/>
 </monster>
 
-<monster id="344" name="Trevas Ocultas" summon="trevasOcultas">
+<monster id="344" name="Trevas Ocultas" summon="trevasOcultas" targetCursor="small">
 	<sprite>monsters/trevas-ocultas.xml|#ff0000</sprite>
-	<attack id="1" missile-particle="graphics/particles/golpe-eletrico.particle.xml"/>
+	<attack id="1" missile-particle="graphics/particles/golpe-trevas.particle.xml"/>
 </monster>
 
 </monsters>
