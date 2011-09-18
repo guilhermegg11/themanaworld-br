@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 013 Pântano Sombrio
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
