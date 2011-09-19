@@ -489,4 +489,9 @@ Ou um comentário de alguem.
 	<attack id="1" missile-particle="graphics/particles/golpe-trevas.particle.xml"/>
 </monster>
 
+<monster id="345" name="Espectro Sombrio" summon="espectroSombrio">
+	<sprite>monsters/espectro-sombrio.xml</sprite>
+	<attack id="1" missile-particle="graphics/particles/golpe-trevas.particle.xml"/>
+</monster>
+
 </monsters>
