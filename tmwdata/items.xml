@@ -2436,6 +2436,55 @@
 		defense="2">
 		<sprite>chest-valentine-dress.xml|#BF0E08</sprite>
 	</item>
+	<item id="784"
+		image="use-food-zombie-nachos.png"
+		name="Zombie Nachos"
+		description="The flavor is in the brains."
+		type="usable"
+		hp="60"
+		weight="5"/>
+	<item id="785"
+		image="use-food-lady-fingers.png"
+		name="Lady Fingers"
+		description="Made with simulated lady fingers."
+		type="usable"
+		hp="40"
+		weight="5"/>
+	<item id="786"
+		image="use-food-jello.png"
+		name="Slime Jell-Ahh"
+		description="Finally, an edible form of slime!"
+		type="usable"
+		hp="50"
+		weight="5"/>
+	<item id="787"
+		image="use-food-snapple.png"
+		name="Snapple"
+		description="Bite it before it bites you!"
+		type="usable"
+		hp="70"
+		weight="5"/>
+	<item id="788"
+		image="use-food-juice.png"
+		name="Beetle Juice"
+		description="Thist quencing and nutritious!"
+		type="usable"
+		hp="50"
+		weight="5"/>
+	<item id="789"
+		image="use-food-skull-mug.png"
+		name="Gut Buster Ale"
+		description="If you can survive the first gulp, the rest goes down smooth."
+		type="usable"
+		hp="60"
+		weight="5"/>
+	<item id="790"
+		image="use-food-wine.png"
+		name="Vinho de Sangue"
+		description="Da melhor safra."
+		type="usable"
+		hp="100"
+		weight="5"/>
 
 	<!-- IDs 756 até 783 (exceto o pó de fantasma - 774) tem valores apenas provisórios. Mudar quando for introduzir no jogo definitivamente -->
 	<!-- IDS 784 até 1197 estão livres -->
@@ -2644,6 +2693,36 @@
 		defense="2">
 		<sprite>head-skullmask.xml</sprite>
 	</item>
+
+	<item id="1229"
+		image="use-food-caramelapple.png"
+		name="Maçã Caramelada"
+		description="Um maçã com cobertura de caramelo. Apodrece os dentes, mas é deliciosa."
+		type="usable"
+		hp="1000"
+		weight="5"/>
+	<item id="1230"
+		image="use-food-lollipop.png|W:#2502d6"
+		name="Pirulito Booberry Azul"
+		description="Um pirulito. Mmm."
+		type="usable"
+		hp="800"
+		weight="1"/>
+	<item id="1231"
+		image="use-food-lollipop.png|W:#00ba16"
+		name="Pirulito Medonho Verde"
+		description="Um pirulito. Saboroso."
+		type="usable"
+		hp="800"
+		weight="1"/>
+	<item id="1232"
+		image="use-food-lollipop.png|W:#e00418"
+		name="Pirulito Sangue Vermelho"
+		description="Um pirulito. Yum."
+		type="usable"
+		hp="800"
+		weight="1"/>
+
 	<item id="1247"
 		image="armor-head-heart-glasses.png"
 		name="Óculos de Coração"
@@ -2653,6 +2732,13 @@
 		weight="20">
 		<sprite>equipment/head/heart-glasses.xml</sprite>
 	</item>
+	<item id="1248"
+		image="use-food-blueberries.png"
+		name="Blueberries"
+		description="Uma fruta pequena e muito doce."
+		type="usable"
+		hp="200"
+		weight="6"/>
 	<item id="1255"
 		image="armor-head-rabbitears.png|W:#FFFFFF"
 		name="Orelhas de Lebre"
@@ -2678,6 +2764,39 @@
 		description="Ele vai deixar o seu cabelo branco!"
 		type="usable"
 		weight="5"/>
+
+	<!-- livre - numeração decrescente -->
+	<item id="1995"
+		image="generic-pumpkinseed.png"
+		name="Pumpkin Seeds"
+		description="The seeds from a seasonal pumpkin vine."
+		type="generic"
+		weight="1"/>
+	<item id="1996"
+		image="use-food-tonoridelight.png"
+		name="Tonori Delight"
+		description="De aroma suave e textura gelatinosa. Polvilhado com açúcar refinado."
+		type="generic"
+		weight="2"/>
+	<item id="1997"
+		image="use-food-marshmallow.png"
+		name="Marshmallow"
+		description="Flavoured with real marshmallow root."
+		type="generic"
+		weight="2"/>
+	<item id="1998"
+		image="use-food-jellyskull.png"
+		name="Jelly Skull"
+		description="Like a jelly bean, but in the shape of skull."
+		type="generic"
+		weight="2"/>
+	<item id="1999"
+		image="use-food-candypumpkin.png"
+		name="Candy Pumpkin"
+		description="With a squishy interior inside a hard, crunchy shell, this sweet has a warm and delcious pumpkin flavour."
+		type="generic"
+		weight="2"/>
+
 	<!-- The 2XXY IDs are used for recolored items on eAthena.
 		XX = item
 		Y = color variant
