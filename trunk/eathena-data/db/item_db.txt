@@ -314,6 +314,13 @@
 781,mascaravoodoo,Máscara Voodoo,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,-100,0,2,512,,40,0,{},{}
 783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,2,,3,0,0,512,,1,0,{},{}
+784,ZombieNachos,ZombieNachos,0,100,30,5,,,,,,2,,,0,,{ itemheal 60,0; },{}
+785,LadyFingers,LadyFingers,0,70,25,5,,,,,,2,,,0,,{ itemheal 40,0; },{}
+786,JellAhh,Jell-Ahh,0,80,30,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+787,Snapple,Snapple,0,110,55,5,,,,,,2,,,0,,{ itemheal 70,0; },{}
+788,BeetleJuice,BeetleJuice,0,80,30,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+789,GutBuster,GutBusterAle,0,100,30,5,,,,,,2,,,0,,{ itemheal 60,0; },{}
+790,BloodWine,BloodWine,0,150,50,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
 // Daqui para cima há apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
 1198,almadejacko,Alma de JackO,3,100000,1,1,,,,,,,,,,,{},{}
 1199,flecha,Flecha,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
@@ -347,10 +354,10 @@
 //1226,SilverBell,Silver Bell,,,,,,,,,,,,,,,{},{}
 //1227,EnchantersAmulet,Enchanter's Amulet,,,,,,,,,,,,,,,{},{}
 //1228,SilverFourLeafAmulet,Silver Four-Leaf Amulet,,,,,,,,,,,,,,,{},{}
-//1229,CaramelApple,Caramel Apple,0,500,75,5,,,,,,2,,,0,,{ itemheal 1000,0; },{}
-//1230,LollipopColor1,Booberry Blue Lollipop,0,20,50,1,,,,,,2,,,0,,{ itemheal 800,0; },{}
-//1231,LollipopColor2,Ghastly Green Lollipop,0,20,50,1,,,,,,2,,,0,,{ itemheal 800,0; },{}
-//1232,LollipopColor3,Blood Red Lollipop,0,20,50,1,,,,,,2,,,0,,{ itemheal 800,0; },{}
+1229,CaramelApple,CaramelApple,0,500,75,5,,,,,,2,,,0,,{ itemheal 1000,0; },{}
+1230,LollipopColor1,BooberryBlueLollipop,0,20,50,1,,,,,,2,,,0,,{ itemheal 800,0; },{}
+1231,LollipopColor2,GhastlyGreenLollipop,0,20,50,1,,,,,,2,,,0,,{ itemheal 800,0; },{}
+1232,LollipopColor3,BloodRedLollipop,0,20,50,1,,,,,,2,,,0,,{ itemheal 800,0; },{}
 //1233,FakeFangs,Cheap Plastic Fangs,3,20,10000,1,,,,,,2,,,0,,{},{}
 //1234,RedOrnament,Red Christmas Ornament,3,5000,1,1,,,,,,2,,,0,,{},{}
 //1235,YellowOrnament,Yellow Christmas Ornament,3,5000,1,1,,,,,,2,,,0,,{},{}
@@ -363,8 +370,14 @@
 //1242,SnowGoggles,Snow Goggles,5,7500,5000,10,,5,,-2,0,2,256,,0,0,{},{}
 //1243,PaperHat,Paper Party Hat,5,10,5,1,,1,, 0,0,2,256,,0,0,{},{}
 1247,oculosCoracao,oculosCoracao,5,7500,5000,20,,1,,5,0,2,256,,0,0,{},{}
+1248,blueberries,Blueberries,0,50,25,6,,,,,,2,,,0,,{ itemheal 200,0; },{}
 1255,orelhasdeLebre,Orelhas de Lebre,5,7000,5000,20,,1,,4,0,2,256,,1,0,{},{}
 1256,hatCascaOvo,hatCascaOvo,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
+1995,PumpkinSeeds,PumpkinSeeds,3,5,1,1,,,,,,,,,,,{},{}
+1996,TonoriDelight,TonoriDelight,0,5,1,2,,,,,,2,,,0,,{},{}
+1997,Marshmallow,Marshmallow,0,5,1,2,,,,,,2,,,0,,{},{}
+1998,JellySkull,JellySkull,0,5,1,2,,,,,,2,,,0,,{},{}
+1999,CandyPumpkin,CandyPumpkin,0,5,1,2,,,,,,2,,,0,,{},{}
 2050,camisavermelhadealgodao,Camisa Vermelha de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2051,camisaverdedealgodao,Camisa Verde de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2052,camisaazulescuradealgodao,Camisa Azul Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
