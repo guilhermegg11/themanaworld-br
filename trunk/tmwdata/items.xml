@@ -2485,6 +2485,12 @@
 		type="usable"
 		hp="100"
 		weight="5"/>
+	<item id="836"
+		image="generic-grub-slime.png"
+		name="Grub Slime"
+		description="The orifice secretions of a grub."
+		type="generic"
+		weight="2"/>
 
 	<!-- IDs 756 até 783 (exceto o pó de fantasma - 774) tem valores apenas provisórios. Mudar quando for introduzir no jogo definitivamente -->
 	<!-- IDS 784 até 1197 estão livres -->
@@ -2766,6 +2772,24 @@
 		weight="5"/>
 
 	<!-- livre - numeração decrescente -->
+	<item id="1991"
+		image="generic-jackolantern.png"
+		name="Jack O Lantern"
+		description="A pumpkin that has been carved into a super-scary face for Hallowe'en."
+		type="generic"
+		weight="1000"/>
+	<item id="1992"
+		image="generic-realisticbrain.png"
+		name="Realistic Brain"
+		description="This brain sure is realistic."
+		type="generic"
+		weight="50"/>
+	<item id="1993"
+		image="generic-jarofblood.png"
+		name="Jar of Blood"
+		description="Just the thing to scare the kids at Hallowe'en."
+		type="generic"
+		weight="375"/>
 	<item id="1994"
 		image="armor-head-wizard-hat.png"
 		name="Chapéu de Bruxo"
