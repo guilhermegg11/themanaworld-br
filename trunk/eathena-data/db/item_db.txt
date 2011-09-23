@@ -886,3 +886,4 @@
 3296,espinhoVerde,espinhoVerde,3,50,25,10,,,,,,,,,,,{},{}
 3297,espinhoNegro,espinhoNegro,3,50,25,10,,,,,,,,,,,{},{}
 3298,espinhoSangrento,espinhoSangrento,3,50,25,10,,,,,,,,,,,{},{}
+3299,pocaoFedorZumbi,pocaoFedorZumbi,0,1000,500,25,,,,,,2,,,0,,{ sc_start 200,30, 1; },{}
