@@ -7075,4 +7075,11 @@
 		description="Espinho da Tartaruga Sangrenta."
 		type="generic"
 		weight="10"/>
+	<item id="3099"
+		image="use-potion-f.png"
+		name="Poção de Fedor Zumbi"
+		description="Para te deixar fedorento como um zuimbi."
+		effect=""
+		type="usable"
+		weight="25"/>
 </items>
