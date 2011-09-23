@@ -6,6 +6,7 @@
 //npc: npc/pascoa/2011/bauPremios.conf
 //npc: npc/pascoa/2011/premiacao.conf
 //npc: npc/pascoa/2011/funcoes.conf
+//npc: npc/pascoa/2011/buff_ovo.conf
 //npc: npc/pascoa/2011/infoPascoa2.conf
 //npc: npc/pascoa/2011/_warps.txt
 
