@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<effect>
+
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "35"
+		lifetime = "1"
+		>
+
+		<rotation imageset="graphics/particles/golpe-fogo.png" width="28" height="28">
+			<sequence start="0" end="7"/>
+		</rotation>
+
+		<emitter>
+			<property name="output" value="1"/>
+			<property name="lifetime" min="60" max="80"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="vertical-angle" min="85" max="90"/>
+			<property name="gravity" value="-0.04" />
+			<animation imageset="graphics/particles/fumaca.png|W:#000000" width="32" height="32">
+				<sequence start="0" end="9" delay="60"/>
+				<end/>
+			</animation>
+			<property name="fade-in" value="0"/>
+			<property name="fade-out" value="50"/>
+		</emitter>
+
+	</particle>
+
+</effect>

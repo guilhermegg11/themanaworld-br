@@ -4960,7 +4960,7 @@
 	</item>
 	<item id="3033"
 		image="generic-sementes.png"
-		name="Sementes de Abóbora"
+		name="Sementes Velhas de Abóbora"
 		description="Item de Evento de Halloween (Não pode ser transferido)."
 		type="generic"
 		weight="35"/>
