@@ -9,6 +9,10 @@
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.3"/>
   <property name="overlay0scrollY" value="0.2"/>
+  <property name="overlay1image" value="graphics/images/ambient/noite-chuva2.png"/>
+  <property name="overlay1parallax" value="1.0"/>
+  <property name="overlay1scrollX" value="8"/>
+  <property name="overlay1scrollY" value="28"/>
   <property name="pasta" value="pantano"/>
  </properties>
  <tileset firstgid="1" name="tools" tilewidth="32" tileheight="32">
