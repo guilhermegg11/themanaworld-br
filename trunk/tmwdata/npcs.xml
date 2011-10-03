@@ -210,6 +210,7 @@
 	<npc id="362"><sprite>npcs/iris-ofelia.xml</sprite></npc>
 	<npc id="363"><sprite>npcs/corda.xml</sprite></npc>
 	<npc id="364"><sprite>npcs/bruxa-vassoura.xml</sprite></npc>
+	<npc id="365"><sprite>npcs/dracula.xml</sprite></npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->
