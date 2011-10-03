@@ -494,4 +494,10 @@ Ou um comentário de alguem.
 	<attack id="1" missile-particle="graphics/particles/golpe-trevas.particle.xml"/>
 </monster>
 
+<monster id="346" name="Morcego Negro" summon="morcegoNegro">
+	<sprite>monsters/morcego-negro.xml</sprite>
+	<sound event="die">bat-dying1.ogg</sound>
+	<sound event="hit">bat-hit1.ogg</sound>
+</monster>
+
 </monsters>
