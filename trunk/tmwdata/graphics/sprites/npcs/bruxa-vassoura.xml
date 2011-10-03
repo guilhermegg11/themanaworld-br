@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/npcs/bruxa-vassoura.png" width="56" height="65"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0" delay="75" offsetY="-8"/>
+
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="300" offsetY="-10"/>
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="300" offsetY="-6"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="300" offsetY="-10"/>
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="300" offsetY="-6"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="300" offsetY="-10"/>
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="300" offsetY="-6"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="300" offsetY="-10"/>
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="300" offsetY="-6"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="300" offsetY="-10"/>
+			<frame index="0" delay="150" offsetY="-9"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="300" offsetY="-6"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="75" offsetY="-8"/>
+
+			<frame index="1" delay="75" offsetY="-9"/>
+			<frame index="2" delay="75" offsetY="-9"/>
+			<frame index="3" delay="75" offsetY="-10"/>
+			<frame index="4" delay="75" offsetY="-10"/>
+			<frame index="5" delay="75" offsetY="-11"/>
+			<frame index="6" delay="75" offsetY="-11"/>
+
+			<frame index="5" delay="75" offsetY="-12"/>
+			<frame index="6" delay="75" offsetY="-12"/>
+			<frame index="5" delay="75" offsetY="-13"/>
+			<frame index="6" delay="75" offsetY="-13"/>
+			<frame index="5" delay="75" offsetY="-13"/>
+			<frame index="6" delay="75" offsetY="-13"/>
+			<frame index="5" delay="75" offsetY="-13"/>
+			<frame index="6" delay="75" offsetY="-13"/>
+			<frame index="5" delay="75" offsetY="-13"/>
+			<frame index="6" delay="75" offsetY="-13"/>
+			<frame index="5" delay="75" offsetY="-13"/>
+			<frame index="6" delay="75" offsetY="-13"/>
+			<frame index="5" delay="75" offsetY="-13"/>
+			<frame index="6" delay="75" offsetY="-13"/>
+			<frame index="5" delay="75" offsetY="-13"/>
+			<frame index="6" delay="75" offsetY="-13"/>
+			<frame index="5" delay="75" offsetY="-13"/>
+			<frame index="6" delay="75" offsetY="-12"/>
+			<frame index="5" delay="75" offsetY="-12"/>
+			<frame index="6" delay="75" offsetY="-11"/>
+
+			<frame index="5" delay="75" offsetY="-11"/>
+			<frame index="4" delay="75" offsetY="-10"/>
+			<frame index="3" delay="75" offsetY="-10"/>
+			<frame index="2" delay="75" offsetY="-9"/>
+			<frame index="1" delay="75" offsetY="-9"/>
+
+			<frame index="0" delay="75" offsetY="-8"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+			<frame index="0" delay="300" offsetY="-6"/>
+			<frame index="0" delay="150" offsetY="-7"/>
+
+		</animation>
+	</action>
+
+</sprite>
