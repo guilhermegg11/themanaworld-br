@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/npcs/dracula.png" width="100" height="100"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<!-- desaparecer -->
+			<frame index="21" delay="500"/>
+			<frame index="22" delay="100"/>
+			<frame index="23" delay="100"/>
+			<frame index="24" delay="100"/>
+			<frame index="25" delay="100"/>
+			<frame index="26" delay="100"/>
+			<frame index="27" delay="100"/>
+			<frame index="28"/>
+		</animation>
+	</action>
+
+</sprite>
