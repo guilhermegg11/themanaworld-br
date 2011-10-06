@@ -6,4 +6,5 @@ npc: npc/halloween/2011/funcoes.conf
 npc: npc/halloween/2011/infoHalloween1.conf
 //npc: npc/halloween/2011/lilica.conf
 //npc: npc/halloween/2011/premiacao.conf
+npc: npc/halloween/2011/mestreMagia.conf
 npc: npc/halloween/2011/shops.conf
