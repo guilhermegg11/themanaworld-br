@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/npcs/bruxa-livro.png" width="66" height="66"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0" delay="3000" offsetX="-20" offsetY="-2"/>
+			<frame index="1" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="0" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="2" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="0" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="3" delay="3000" offsetX="-20" offsetY="-2"/>
+			<frame index="0" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="3" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="0" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="3" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="0" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="3" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="0" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="3" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="0" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="3" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="0" delay="100" offsetX="-20" offsetY="-2"/>
+			<frame index="4" delay="3000" offsetX="-20" offsetY="-2"/>
+			<frame index="5" delay="3000" offsetX="-20" offsetY="-2"/>
+		</animation>
+	</action>
+
+</sprite>
