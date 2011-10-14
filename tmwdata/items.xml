@@ -7082,4 +7082,25 @@
 		effect=""
 		type="usable"
 		weight="25"/>
+	<item id="3300"
+		image="armor-head-bone-frank.png"
+		name="Boné Loja do Frank"
+		description="Loja do Frank. Juntos em todos os momentos da sua vida... e também da morte!"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/bone-frank.xml</sprite>
+	</item>
+	<item id="3301"
+		image="armor-chest-tanktop.png|W:#58b346,FFFFFF"
+		name="Camiseta Loja do Frank"
+		description="Loja do Frank. Juntos em todos os momentos da sua vida... e também da morte!"
+		effect="(Halloween 2011)"
+		type="equip-torso"
+		weight="13"
+		defense="2">
+		<sprite gender="male">equipment/chest/camiseta-fank-male.xml</sprite>
+		<sprite gender="female">equipment/chest/camiseta-fank-female.xml</sprite>
+	</item>
 </items>
