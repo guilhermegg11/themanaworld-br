@@ -5,12 +5,12 @@
   <skill id="2" name="Negociação (Trade)" fixed="1"/>
   <skill id="3" name="Grupo (Party)" fixed="1"/>
   <!-- HABILIDADES DO ORG -->
-  <!--skill id="340" name="Magic" fixed="1"/>
+  <skill id="340" name="Magia" fixed="1"/>
   <skill id="341" name="Life Magic" fixed="1"/>
   <skill id="342" name="War Magic" fixed="1"/>
   <skill id="343" name="Transmutation Magic" fixed="1"/>
   <skill id="344" name="Nature Magic" fixed="1"/>
-  <skill id="345" name="Astral Magic" fixed="1"/-->
+  <skill id="345" name="Astral Magic" fixed="1"/>
   <!-- CLASSES DO BRASIL -->
   <skill id="400" name="Cavaleiro / Amazona" fixed="1"/>
   <skill id="401" name="Druida / Druidesa" fixed="1"/>
