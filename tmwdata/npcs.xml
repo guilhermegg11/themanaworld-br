@@ -217,7 +217,15 @@
 	<npc id="369"><sprite>npcs/dracula5-desaparecer.xml</sprite></npc>
 	<npc id="370">
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
-		<sprite>npcs/bruxa-livro.xml</sprite>
+		<sprite>npcs/bruxa-livro.xml</sprite>jack-lanterna
+	</npc>
+	<npc id="371">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/jack-lanterna.xml</sprite>
+	</npc>
+	<npc id="372">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite>npcs/cesta-doces-abobora.xml</sprite>
 	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->

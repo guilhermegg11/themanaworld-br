@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/npcs/jack-lanterna.png" width="48" height="63"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<sequence start="0" end="19" delay="75"/>
+		</animation>
+	</action>
+
+</sprite>
