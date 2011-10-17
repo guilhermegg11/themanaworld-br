@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sprite variants="373" variant_offset="1">
 
-	<imageset name="base" src="graphics/sprites/npcs/mumias.png" width="24" height="55"/>
+	<imageset name="base" src="graphics/sprites/npcs/mumias.png" width="24" height="58"/>
 
 	<action name="stand" imageset="base">
 		<animation direction="default">
