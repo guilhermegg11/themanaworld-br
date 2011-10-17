@@ -227,6 +227,18 @@
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
 		<sprite>npcs/cesta-doces-abobora.xml</sprite>
 	</npc>
+	<npc id="373">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="0">npcs/mumias.xml</sprite>
+	</npc>
+	<npc id="374">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="1">npcs/mumias.xml</sprite>
+	</npc>
+	<npc id="375">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="2">npcs/mumias.xml</sprite>
+	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->

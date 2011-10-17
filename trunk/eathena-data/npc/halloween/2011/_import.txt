@@ -8,4 +8,5 @@ npc: npc/halloween/2011/jackMiseravel.conf
 //npc: npc/halloween/2011/lilica.conf
 //npc: npc/halloween/2011/premiacao.conf
 npc: npc/halloween/2011/mestreMagia.conf
+npc: npc/halloween/2011/mumia.conf
 npc: npc/halloween/2011/shops.conf
