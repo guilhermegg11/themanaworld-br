@@ -270,6 +270,10 @@ MASK1_MIRC				1048576
 //MASK1_xyz				1073741824
 //MASK1_xyz				2147483648
 
+//- Máscaras das quests do TMW-BR -----------------------------------
+BRUX1_APARATAR1			1
+BRUX1_APARATAR2			2
+
 // Skill pools
 SKILL_FOCUS				339
 SKILL_MALLARDS_EYE		45
@@ -286,6 +290,8 @@ SKILL_MAGIC_WAR			342
 SKILL_MAGIC_TRANSMUTE	343
 SKILL_MAGIC_NATURE		344
 SKILL_MAGIC_ASTRAL		345
+
+SKILL_BRUXARIA				397
 
 // Flags for the magic quests
 MFLAG_DRANK_POTION		1	// Character drank at least one magic potion as prerequisite for the mana seed quest
