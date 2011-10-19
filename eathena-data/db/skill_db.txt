@@ -50,7 +50,10 @@
 
 //id,	range,	hit,	inf,	pl,	nk,	maxrse,	max,	list_num,	castcancel,	cast_defence_rate,	inf2,	maxcount, skill_type,	blow_count,	pool,	stat,	name
 
-// Skills para uso no evento de páscoa. (Única forma de ter variáveis de controle nas SPELLs)
+// Bruxarias do HLW 2011
+397,	0,	0,	0,	0,	0,	0,	5,	0,		no,		0,			0,	0,		none,		0,		no,	none,	Bruxaria	//Bruxaria
+
+// Skills para uso no evento de páscoa. (Não existia funções getvar() e setvar())
 //398,	0,	0,	0,	0,	0,	0,	99,	0,		no,		0,			0,	0,		none,		0,		no,	none,	OvoTem
 //399,	0,	0,	0,	0,	0,	0,	1,	0,		no,		0,			0,	0,		none,		0,		no,	none,	OvoGanhou
 
