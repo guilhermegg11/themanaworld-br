@@ -886,10 +886,21 @@
 3296,espinhoVerde,espinhoVerde,3,50,25,10,,,,,,,,,,,{},{}
 3297,espinhoNegro,espinhoNegro,3,50,25,10,,,,,,,,,,,{},{}
 3298,espinhoSangrento,espinhoSangrento,3,50,25,10,,,,,,,,,,,{},{}
-3299,pocaoFedorZumbi,pocaoFedorZumbi,0,1000,500,25,,,,,,2,,,0,,{ sc_start 200,30, 1; },{}
+//3299,pocaoFedorZumbi,pocaoFedorZumbi,0,1000,500,25,,,,,,2,,,0,,{ sc_start 200,30, 1; },{}
 3300,boneFrank,boneFrank,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3301,camisetaFrank,camisetaFrank,5,10,5,13,,2,,-2,0,2,512,,0,0,{},{}
 3302,paginaBranca,paginaBranca,3,50,25,1,,,,,,,,,,,{},{}
 3303,paginaDourada,paginaDourada,3,50,25,1,,,,,,,,,,,{},{}
 3304,paginaVermelha,paginaVermelha,3,50,25,1,,,,,,,,,,,{},{}
 3305,paginaNegra,paginaNegra,3,50,25,1,,,,,,,,,,,{},{}
+
+3306,mascaraAlmaTriste,mascaraAlmaTriste,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3307,mascaraAranha,mascaraAranha,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3308,mascaraCiclope,mascaraiclope,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3309,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3310,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3311,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3312,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3313,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3314,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3315,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
