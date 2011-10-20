@@ -7075,7 +7075,7 @@
 		description="Espinho da Tartaruga Sangrenta."
 		type="generic"
 		weight="10"/>
-	<item id="3099"
+	<item id="3299"
 		image="use-potion-f.png"
 		name="Poção de Fedor Zumbi"
 		description="Para te deixar fedorento como um zuimbi."
@@ -7127,4 +7127,106 @@
 		description="Página negra, rasgada do livro de bruxarias."
 		type="generic"
 		weight="1"/>
+
+	<item id="3306"
+		image="armor-head-mascara-alma-triste.png"
+		name="Máscara Alma Triste"
+		description="Uma alma triste em sua solidão eterna. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-alma-triste.xml</sprite>
+	</item>
+	<item id="3307"
+		image="armor-head-mascara-aranha.png"
+		name="Máscara Aranha"
+		description="Máscara do seu herói aranha favorito. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-aranha.xml</sprite>
+	</item>
+	<item id="3308"
+		image="armor-head-mascara-ciclope.png"
+		name="Máscara Ciclope"
+		description="Um monstro de um olho só que habita em ilhas distantes. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-ciclope.xml</sprite>
+	</item>
+	<item id="3309"
+		image="armor-head-mascara-corey.png"
+		name="Máscara Corey"
+		description="Para você abalar neste Halloween. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-corey.xml</sprite>
+	</item>
+	<item id="3310"
+		image="armor-head-mascara-espantalho.png"
+		name="Máscara Espantalho"
+		description="Um espantalho que geralmente afasta corvos, mas que pode se tornar muito perigoso. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-espantalho.xml</sprite>
+	</item>
+	<item id="3311"
+		image="armor-head-mascara-frank.png"
+		name="Máscara Frank"
+		description="Ele é verde e assustador. Mas se você não está devendo na loja dele, não há o que temer! Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-frank.xml</sprite>
+	</item>
+	<item id="3312"
+		image="armor-head-mascara-garras.png"
+		name="Máscara Garras"
+		description="Máscara do seu herói de garras favorito. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-garras.xml</sprite>
+	</item>
+	<item id="3313"
+		image="armor-head-mascara-jason.png"
+		name="Máscara Jasoon"
+		description="Para você aterrorizar neste Halloween. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-jason.xml</sprite>
+	</item>
+	<item id="3314"
+		image="armor-head-mascara-joey.png"
+		name="Máscara Joey"
+		description="Para você abalar neste Halloween. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-joey.xml</sprite>
+	</item>
+	<item id="3315"
+		image="armor-head-mascara-monstro-pedra.png"
+		name="Máscara Monstro de Pedra"
+		description="Monstro de pedra, que vive em regiões montanhosas e que dificilmente é visto. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-monstro-pedra.xml</sprite>
+	</item>
+
 </items>

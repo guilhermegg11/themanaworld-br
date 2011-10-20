@@ -14,6 +14,7 @@
 		<skill id="405" name="Necromante" icon="graphics/items/generic-grimorium-necromante.png"/>
 	</set-->
 	<set name="Mágica">
+		<skill id="397" name="Bruxaria" icon="graphics/skills/magic/astral.png"/>
 		<skill id="340" name="Magia" icon="graphics/skills/magic/basic.png"/>
 		<!--skill id="341" name="Life Magic" icon="graphics/skills/magic/life.png"/>
 		<skill id="342" name="War Magic" icon="graphics/skills/magic/war.png"/>
