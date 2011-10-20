@@ -7103,4 +7103,28 @@
 		<sprite gender="male">equipment/chest/camiseta-fank-male.xml</sprite>
 		<sprite gender="female">equipment/chest/camiseta-fank-female.xml</sprite>
 	</item>
+	<item id="3302"
+		image="generic-pagina-branca.png"
+		name="Página Branca"
+		description="Página branca, rasgada do livro de bruxarias."
+		type="generic"
+		weight="1"/>
+	<item id="3303"
+		image="generic-pagina-dourada.png"
+		name="Página Dourada"
+		description="Página dourada, rasgada do livro de bruxarias."
+		type="generic"
+		weight="1"/>
+	<item id="3304"
+		image="generic-pagina-vermelha.png"
+		name="Página Vermelha"
+		description="Página vermelha, rasgada do livro de bruxarias."
+		type="generic"
+		weight="1"/>
+	<item id="3305"
+		image="generic-pagina-negra.png"
+		name="Página Negra"
+		description="Página negra, rasgada do livro de bruxarias."
+		type="generic"
+		weight="1"/>
 </items>
