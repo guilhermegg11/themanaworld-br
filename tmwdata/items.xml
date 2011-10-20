@@ -7229,4 +7229,55 @@
 		<sprite>equipment/head/mascara-monstro-pedra.xml</sprite>
 	</item>
 
+	<item id="3316"
+		image="armor-head-mascara-ninja.png"
+		name="Máscara Ninja"
+		description="Máscara Ninja. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-ninja.xml</sprite>
+	</item>
+	<item id="3317"
+		image="armor-head-mascara-ferro.png"
+		name="Máscara de Ferro"
+		description="Máscara de ferro com olhos de laser. Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-ferro.xml</sprite>
+	</item>
+	<item id="3318"
+		image="armor-head-mascara-.png"
+		name="Máscara "
+		description=". Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-.xml</sprite>
+	</item>
+	<item id="3319"
+		image="armor-head-mascara-.png"
+		name="Máscara "
+		description=". Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-.xml</sprite>
+	</item>
+	<item id="3320"
+		image="armor-head-mascara-.png"
+		name="Máscara "
+		description=". Loja do Frank®"
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-.xml</sprite>
+	</item>
+
 </items>
