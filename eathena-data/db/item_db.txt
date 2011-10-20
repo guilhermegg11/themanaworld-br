@@ -903,9 +903,9 @@
 3313,mascaraJasoon,mascaraJasoon,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3314,mascaraJoey,mascaraJoey,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3315,mascaraMonstroPedra,mascaraMonstroPedra,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3316,mascaraNinja,mascaraNinja,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3317,mascaraFerro,mascaraFerro,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 
-3316,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
-3317,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3318,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3319,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3320,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
