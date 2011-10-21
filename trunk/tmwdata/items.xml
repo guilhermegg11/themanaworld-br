@@ -7260,8 +7260,8 @@
 	</item>
 	<item id="3319"
 		image="armor-head-mascara-lobisomen.png"
-		name="Máscara Lobisomen"
-		description="Se transforme em lobisomen durante a noite de uma lua cheia. Loja do Frank®"
+		name="Máscara Lobisomem"
+		description="Se transforme em lobisomem durante a noite de uma lua cheia. Loja do Frank®"
 		effect="(Halloween 2011)"
 		type="equip-head"
 		weight="30"
@@ -7288,5 +7288,40 @@
 		defense="1">
 		<sprite>equipment/head/mascara-abobora.xml</sprite>
 	</item>
+	<item id="3322"
+		image="generic-boneca-pano.png"
+		name="Boneca de pano"
+		description="Uma boneca que pertence à filha do lobisomem."
+		type="generic"
+		weight="50"
+	/>
+	<item id="3323"
+		image="generic-colar-cruz.png"
+		name="Colar de Cruz"
+		description="Um colar antigo passado de geração em geração para a amada de Lican Silver."
+		type="generic"
+		weight="80"
+	/>
+	<item id="3324"
+		image="generic-escova-cabelo.png"
+		name="Escova de Cabelo"
+		description="Uma escova de cabelos com fios de cabelo XD."
+		type="generic"
+		weight="40"
+	/>
+	<item id="3325"
+		image="generic-porta-retrato.png"
+		name="Porta Retratos"
+		description="Um retrato da Familia de Lican Silver."
+		type="generic"
+		weight="40"
+	/>
+	<item id="3326"
+		image="generic-madeira-encantada.png"
+		name="Madeira Encantada"
+		description="Uma madeira encantada, capaz de enganar os olhos de quem a vê."
+		type="generic"
+		weight="50"
+	/>
 
 </items>
