@@ -914,3 +914,4 @@
 3324,bussola,bussola,3,500,10,60,,,,,,,,,,,{},{}
 3325,portaRetrato,portaRetrato,3,500,10,30,,,,,,,,,,,{},{}
 3326,madeiraEncantada,madeiraEncantada,3,500,10,50,,,,,,,,,,,{},{}
+3327,calcaCavaleiroNegro,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,60,0,{},{}
