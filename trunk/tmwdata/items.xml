@@ -6014,7 +6014,7 @@
 		type="equip-charm"
 		weight="90"/>
 	<item id="3172"
-		image="generic-bussola.png"
+		image="generic-bussola-ventos.png"
 		name="Bússola dos Ventos"
 		description="Bússola cuja seta aponta sempre para lugares onde há tempos de paz."
 		effect="+3 Sorte"
@@ -7303,11 +7303,11 @@
 		weight="80"
 	/>
 	<item id="3324"
-		image="generic-escova-cabelo.png"
-		name="Escova de Cabelo"
-		description="Uma escova de cabelos com fios de cabelo XD."
+		image="generic-bussola.png"
+		name="Bússola"
+		description="Uma bússola antiga, para que nunca perca seu caminho."
 		type="generic"
-		weight="40"
+		weight="60"
 	/>
 	<item id="3325"
 		image="generic-porta-retrato.png"
