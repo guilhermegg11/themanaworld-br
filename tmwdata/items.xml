@@ -7323,5 +7323,16 @@
 		type="generic"
 		weight="50"
 	/>
+	<item id="3327"
+		image="armor-legs-calca-cavaleiro-negro.png"
+		name="Calça Cavaleiro Negro"
+		description="Apesar de ser bastante resistente, continua sendo muito confortável, e foi feita para ser a calça mais forte, com requisios de Dragão e essências de todos os tipo. Feita pelos antigos Cavaleiros Selenestiais."
+		effect="lvl 60"
+		type="equip-legs"
+		weight="100"
+		defense="7">
+		<sprite gender="male">equipment/leg/calca-cavaleiro-negro-male.xml</sprite>
+		<sprite gender="female">equipment/leg/calca-cavaleiro-negro-female.xml</sprite>
+	</item>
 
 </items>
