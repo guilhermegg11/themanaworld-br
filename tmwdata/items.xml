@@ -7326,13 +7326,46 @@
 	<item id="3327"
 		image="armor-legs-calca-cavaleiro-negro.png"
 		name="Calça Cavaleiro Negro"
-		description="Apesar de ser bastante resistente, continua sendo muito confortável, e foi feita para ser a calça mais forte, com requisios de Dragão e essências de todos os tipo. Feita pelos antigos Cavaleiros Selenestiais."
+		description="Bastante resistente e confortavel, feita com essencias de todos os tipos, pelo cavaleiro selenestiais."
 		effect="lvl 60"
 		type="equip-legs"
 		weight="100"
 		defense="7">
 		<sprite gender="male">equipment/leg/calca-cavaleiro-negro-male.xml</sprite>
 		<sprite gender="female">equipment/leg/calca-cavaleiro-negro-female.xml</sprite>
+	</item>
+	<item id="3328"
+		image="armor-chest-.png"
+		name="Armadura "
+		description="."
+		effect="lvl 55"
+		type="equip-torso"
+		weight="150"
+		defense="20">
+		<sprite gender="male">equipment//-cavaleiro-negro-male.xml</sprite>
+		<sprite gender="female">equipment//-cavaleiro-negro-female.xml</sprite>
+	</item>
+	<item id="3329"
+		image="armor-feet-bota-cavaleiro-negro.png"
+		name="Bota Cavaleiro Negro"
+		description="."
+		effect=""
+		type="equip-feet"
+		weight="50"
+		defense="4">
+		<sprite gender="male">equipment/feet/bota-cavaleiro-negro-male.xml</sprite>
+		<sprite gender="female">equipment/feet/bota-cavaleiro-negro-female.xml</sprite>
+	</item>
+	<item id="3330"
+		image="armor-hands-.png"
+		name="Luva "
+		description="."
+		effect=""
+		type="equip-arms"
+		weight="25"
+		defense="4">
+		<sprite gender="male">equipment//-cavaleiro-negro-male.xml</sprite>
+		<sprite gender="female">equipment//-cavaleiro-negro-female.xml</sprite>
 	</item>
 
 </items>

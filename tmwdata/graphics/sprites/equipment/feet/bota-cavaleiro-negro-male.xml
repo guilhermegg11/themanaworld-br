@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<sprite name="player" action="stand">
+
+	<imageset name="base" src="graphics/sprites/equipment/feet/bota-cavaleiro-negro-male.png" width="58" height="33"/>
+
+	<include file="player_male_base.xml"/>
+
+</sprite>
