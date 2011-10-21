@@ -7127,7 +7127,6 @@
 		description="Página negra, rasgada do livro de bruxarias."
 		type="generic"
 		weight="1"/>
-
 	<item id="3306"
 		image="armor-head-mascara-alma-triste.png"
 		name="Máscara Alma Triste"
@@ -7260,24 +7259,34 @@
 		<sprite>equipment/head/mascara-espantalho.xml</sprite>
 	</item>
 	<item id="3319"
-		image="armor-head-mascara-.png"
-		name="Máscara "
-		description=". Loja do Frank®"
+		image="armor-head-mascara-lobisomen.png"
+		name="Máscara Lobisomen"
+		description="Se transforme em lobisomen durante a noite de uma lua cheia. Loja do Frank®"
 		effect="(Halloween 2011)"
 		type="equip-head"
 		weight="30"
 		defense="1">
-		<sprite>equipment/head/mascara-.xml</sprite>
+		<sprite>equipment/head/mascara-lobisomen.xml</sprite>
 	</item>
 	<item id="3320"
-		image="armor-head-mascara-.png"
-		name="Máscara "
-		description=". Loja do Frank®"
+		image="armor-head-mascara-faces.png"
+		name="Máscara das Faces"
+		description="Máscara que ganha forma baseada no estado emocional da pessoa. Loja do Frank®"
 		effect="(Halloween 2011)"
 		type="equip-head"
 		weight="30"
 		defense="1">
-		<sprite>equipment/head/mascara-.xml</sprite>
+		<sprite>equipment/head/mascara-faces.xml</sprite>
+	</item>
+	<item id="3321"
+		image="armor-head-mascara-abobora.png"
+		name="Máscara Abóbora Jack"
+		description="Máscara de abóbora feita pelo próprio Jack Miserável."
+		effect="(Halloween 2011)"
+		type="equip-head"
+		weight="30"
+		defense="1">
+		<sprite>equipment/head/mascara-abobora.xml</sprite>
 	</item>
 
 </items>
