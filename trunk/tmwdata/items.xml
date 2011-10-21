@@ -7169,14 +7169,14 @@
 		<sprite>equipment/head/mascara-corey.xml</sprite>
 	</item>
 	<item id="3310"
-		image="armor-head-mascara-espantalho.png"
-		name="Máscara Espantalho"
+		image="armor-head-mascara-espantalho-cabelo.png"
+		name="Máscara Espantalho Cabeludo"
 		description="Um espantalho que geralmente afasta corvos, mas que pode se tornar muito perigoso. Loja do Frank®"
 		effect="(Halloween 2011)"
 		type="equip-head"
 		weight="30"
 		defense="1">
-		<sprite>equipment/head/mascara-espantalho.xml</sprite>
+		<sprite>equipment/head/mascara-espantalho-cabelo.xml</sprite>
 	</item>
 	<item id="3311"
 		image="armor-head-mascara-frank.png"
@@ -7250,14 +7250,14 @@
 		<sprite>equipment/head/mascara-ferro.xml</sprite>
 	</item>
 	<item id="3318"
-		image="armor-head-mascara-.png"
-		name="Máscara "
-		description=". Loja do Frank®"
+		image="armor-head-mascara-espantalho.png"
+		name="Máscara Espantalho"
+		description="Um espantalho que geralmente afasta corvos, mas que pode se tornar muito perigoso. Loja do Frank®"
 		effect="(Halloween 2011)"
 		type="equip-head"
 		weight="30"
 		defense="1">
-		<sprite>equipment/head/mascara-.xml</sprite>
+		<sprite>equipment/head/mascara-espantalho.xml</sprite>
 	</item>
 	<item id="3319"
 		image="armor-head-mascara-.png"
