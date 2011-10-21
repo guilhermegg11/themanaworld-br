@@ -906,6 +906,6 @@
 3316,mascaraNinja,mascaraNinja,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3317,mascaraFerro,mascaraFerro,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3318,mascaraEspantalho,mascaraEspantalho,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
-
-3319,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
-3320,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3319,mascaraLobisomen,mascaraLobisomen,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3320,mascaraFaces,mascaraFaces,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3321,mascaraAboboraJack,mascaraAboboraJack,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
