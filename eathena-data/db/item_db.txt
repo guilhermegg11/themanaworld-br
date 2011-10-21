@@ -897,7 +897,7 @@
 3307,mascaraAranha,mascaraAranha,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3308,mascaraCiclope,mascaraiclope,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3309,mascaraCorey,mascaraCorey,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
-3310,mascaraEspantalho,mascaraEspantalho,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3310,mascaraEspantalhoCabelo,mascaraEspantalhoCabelo,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3311,mascaraFrank,mascaraFrank,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3312,mascaraGarras,mascaraGarras,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3313,mascaraJasoon,mascaraJasoon,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
@@ -905,7 +905,7 @@
 3315,mascaraMonstroPedra,mascaraMonstroPedra,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3316,mascaraNinja,mascaraNinja,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3317,mascaraFerro,mascaraFerro,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
+3318,mascaraEspantalho,mascaraEspantalho,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 
-3318,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3319,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
 3320,mascara,mascara,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
