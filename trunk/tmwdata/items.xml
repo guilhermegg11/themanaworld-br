@@ -7378,5 +7378,60 @@
 		<sprite gender="male">equipment/head/capacete-cavaleiro-negro-male.xml</sprite>
 		<sprite gender="female">equipment/head/capacete-cavaleiro-negro-female.xml</sprite>
 	</item>
+	<item id="3332"
+		image="armor-legs-calca-cavaleiro-demoniaco.png"
+		name="Calça Cavaleiro Demoniaco"
+		description="."
+		effect="lvl 60"
+		type="equip-legs"
+		weight="100"
+		defense="7">
+		<sprite gender="male">equipment/leg/calca-cavaleiro-demoniaco-male.xml</sprite>
+		<sprite gender="female">equipment/leg/calca-cavaleiro-demoniaco-female.xml</sprite>
+	</item>
+	<item id="3333"
+		image="armor-chest-armadura-cavaleiro-demoniaco.png"
+		name="Armadura Cavaleiro Demoniaco"
+		description="."
+		effect="lvl 55"
+		type="equip-torso"
+		weight="150"
+		defense="20">
+		<sprite gender="male">equipment/chest/armadura-cavaleiro-demoniaco-male.xml</sprite>
+		<sprite gender="female">equipment/chest/armadura-cavaleiro-demoniaco-female.xml</sprite>
+	</item>
+	<item id="3334"
+		image="armor-feet-bota-cavaleiro-demoniaco.png"
+		name="Bota Cavaleiro Demoniaco"
+		description="."
+		effect=""
+		type="equip-feet"
+		weight="50"
+		defense="4">
+		<sprite gender="male">equipment/feet/bota-cavaleiro-demoniaco-male.xml</sprite>
+		<sprite gender="female">equipment/feet/bota-cavaleiro-demoniaco-female.xml</sprite>
+	</item>
+	<item id="3335"
+		image="armor-hands-luva-cavaleiro-demoniaco.png"
+		name="Luva Cavaleiro Demoniaco"
+		description="."
+		effect=""
+		type="equip-arms"
+		weight="25"
+		defense="4">
+		<sprite gender="male">equipment/hands/luva-cavaleiro-demoniaco-male.xml</sprite>
+		<sprite gender="female">equipment/hands/luva-cavaleiro-demoniaco-female.xml</sprite>
+	</item>
+	<item id="3336"
+		image="armor-head-capacete-cavaleiro-demoniaco.png"
+		name="Capacete Cavaleiro Demoniaco"
+		description="."
+		effect="lvl 70"
+		type="equip-head"
+		weight="1000"
+		defense="20">
+		<sprite gender="male">equipment/head/capacete-cavaleiro-demoniaco-male.xml</sprite>
+		<sprite gender="female">equipment/head/capacete-cavaleiro-demoniaco-female.xml</sprite>
+	</item>
 
 </items>
