@@ -7335,15 +7335,15 @@
 		<sprite gender="female">equipment/leg/calca-cavaleiro-negro-female.xml</sprite>
 	</item>
 	<item id="3328"
-		image="armor-chest-.png"
-		name="Armadura "
+		image="armor-chest-armadura-cavaleiro-negro.png"
+		name="Armadura Cavaleiro Negro"
 		description="."
 		effect="lvl 55"
 		type="equip-torso"
 		weight="150"
 		defense="20">
-		<sprite gender="male">equipment//-cavaleiro-negro-male.xml</sprite>
-		<sprite gender="female">equipment//-cavaleiro-negro-female.xml</sprite>
+		<sprite gender="male">equipment/chest/armadura-cavaleiro-negro-male.xml</sprite>
+		<sprite gender="female">equipment/chest/armadura-cavaleiro-negro-female.xml</sprite>
 	</item>
 	<item id="3329"
 		image="armor-feet-bota-cavaleiro-negro.png"
@@ -7357,15 +7357,26 @@
 		<sprite gender="female">equipment/feet/bota-cavaleiro-negro-female.xml</sprite>
 	</item>
 	<item id="3330"
-		image="armor-hands-.png"
-		name="Luva "
+		image="armor-hands-luva-cavaleiro-negro.png"
+		name="Luva Cavaleiro Negro"
 		description="."
 		effect=""
 		type="equip-arms"
 		weight="25"
 		defense="4">
-		<sprite gender="male">equipment//-cavaleiro-negro-male.xml</sprite>
-		<sprite gender="female">equipment//-cavaleiro-negro-female.xml</sprite>
+		<sprite gender="male">equipment/hands/luva-cavaleiro-negro-male.xml</sprite>
+		<sprite gender="female">equipment/hands/luva-cavaleiro-negro-female.xml</sprite>
+	</item>
+	<item id="3331"
+		image="armor-head-capacete-cavaleiro-negro.png"
+		name="Capacete Cavaleiro Negro"
+		description="."
+		effect="lvl 70"
+		type="equip-head"
+		weight="1000"
+		defense="20">
+		<sprite gender="male">equipment/head/capacete-cavaleiro-negro-male.xml</sprite>
+		<sprite gender="female">equipment/head/capacete-cavaleiro-negro-female.xml</sprite>
 	</item>
 
 </items>
