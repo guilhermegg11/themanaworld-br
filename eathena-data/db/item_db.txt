@@ -915,6 +915,7 @@
 3325,portaRetrato,portaRetrato,3,500,10,30,,,,,,,,,,,{},{}
 3326,madeiraEncantada,madeiraEncantada,3,500,10,50,,,,,,,,,,,{},{}
 3327,calcaCavaleiroNegro,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,60,0,{},{}
-3328,armaduraCavaleiroNegro,armaduraCavaleiroNegro,5,300000,150000,150,0,20,0,100,0,2,512,0,55,0,{},{}
-3329,botaCavaleiroNegro,botaCavaleiroNegro,5,150000,75000,50,0,4,0,35,0,2,64,0,0,0,{},{}
-3330,luvaCavaleiroNegro,luvaCavaleiroNegro,5,100000,50000,25,0,4,0,15,0,2,4,0,0,0,{},{}
+3328,armaduraCavaleiroNegro,armaduraCavaleiroNegro,5,20000,10000,150,0,20,0,100,0,2,512,0,55,0,{},{}
+3329,botaCavaleiroNegro,botaCavaleiroNegro,5,20000,10000,50,0,4,0,35,0,2,64,0,0,0,{},{}
+3330,luvaCavaleiroNegro,luvaCavaleiroNegro,5,20000,10000,25,0,4,0,15,0,2,4,0,0,0,{},{}
+3331,capaceteCavaleiroNegro,capaceteCavaleiroNegro,5,20000,10000,1000,0,20,0,50,0,2,256,0,70,0,{},{}
