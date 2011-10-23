@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="8" height="3" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="7" name="set_hlw" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_hlw.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="39" name="arvores_x5" tilewidth="32" tileheight="160">
+  <image source="../../graphics/tiles/hlw_arvores_x5.png" width="480" height="480"/>
+ </tileset>
+ <layer name="RuleRegions" width="8" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAyYcWBiAABaDQ2wYAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="8" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB4IkqAWBgA2RkL5YAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="8" height="3" opacity="0.51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAwEoBiZLYBbOQoAAPvA/PVgAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="8" height="3" opacity="0.51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAwEoRiZLYhbOQoAAFobZ5pgAAAA
+  </data>
+ </layer>
+ <layer name="rule1_Collision" width="8" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA4wAjETFDMSqQcEALlvsyVgAAAA
+  </data>
+ </layer>
+ <layer name="rule1_Fringe" width="8" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA54ALEnEHsBsTeRekAAAMhxiTlgAAAA
+  </data>
+ </layer>
+</map>
