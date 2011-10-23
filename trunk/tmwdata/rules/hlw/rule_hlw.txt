@@ -1,0 +1,17 @@
+# lines starting with # or // are comments
+# all other lines will be parsed and treated as filenames.
+
+# regras básicas
+./rule_hlw_000.tmx
+
+# piso e outros objetos
+./rule_hlw_001.tmx
+./rule_hlw_002.tmx
+
+# Árvores secas
+./rule_hlw_050.tmx
+# Árvores verdes
+./rule_hlw_051.tmx
+./rule_hlw_052.tmx
+# Árvores coloridas
+./rule_hlw_053.tmx

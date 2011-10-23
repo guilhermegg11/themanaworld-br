@@ -3,6 +3,8 @@
 
 ../rules/cave/rule_cave.txt
 
+../rules/hlw/rule_hlw.txt
+
 ../rules/icecave/rule_icecave.txt
 
 ../rules/icemountain/rule_icemountain.txt
