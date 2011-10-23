@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="3" height="3" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="6" height="3" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
@@ -12,44 +12,34 @@
  <tileset firstgid="39" name="ground" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/hlw_ground.png" width="512" height="256"/>
  </tileset>
- <layer name="RuleRegions" width="3" height="3">
+ <layer name="RuleRegions" width="6" height="3">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXMDJgAAB//H8UkAAAA
+   H4sIAAAAAAAAA2NgwA2YcbCxAQBL+6W4SAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer name="ruleSet" width="6" height="3">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXsDJgAAEYU8oskAAAA
+   H4sIAAAAAAAAA2NgwA3YkdjieNSBAAAAbtZ8SAAAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="3" height="3">
+ <layer name="rule_Ground" width="6" height="3">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXqDJgAAE1EDpEkAAAA
+   H4sIAAAAAAAAA2NgwA3UkdhWeNSBAACBh3BgSAAAAA==
   </data>
  </layer>
- <layer name="rule1_Ground" width="3" height="3" visible="0">
+ <layer name="rule_Fringe" width="6" height="3">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAUaDJgAAGw0ke0kAAAA
+   H4sIAAAAAAAAA2NgwA0YcbCxAQCahjDUSAAAAA==
   </data>
  </layer>
- <layer name="rule2_Ground" width="3" height="3" visible="0">
+ <layer name="rule_Collision" width="6" height="3">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXmDJgAAGjvyHEkAAAA
+   H4sIAAAAAAAAA2NgwA0YcbCxAQCahjDUSAAAAA==
   </data>
  </layer>
- <layer name="rule3_Ground" width="3" height="3" visible="0">
+ <layer name="rule_Top" width="6" height="3" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAUWDJgAAEmfVw0kAAAA
-  </data>
- </layer>
- <layer name="rule4_Ground" width="3" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXuDJgAAFC0Cr4kAAAA
-  </data>
- </layer>
- <layer name="rule5_Ground" width="3" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAUeDJgAAHHElcIkAAAA
+   H4sIAAAAAAAAA2NgoA4AAFK7wg9IAAAA
   </data>
  </layer>
 </map>
