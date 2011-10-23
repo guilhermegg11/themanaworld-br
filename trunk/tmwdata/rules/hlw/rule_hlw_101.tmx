@@ -28,9 +28,9 @@
    H4sIAAAAAAAAA2NgoAyIo9G01ocNAADGCvDTxAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer name="ruleNotSet" width="7" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoAwwotG01ocNAADLXmoIxAAAAA==
+   H4sIAAAAAAAAA2NgwA/EoRidzYDGxsbHZyYuPj77cAEAzXvYqcQAAAA=
   </data>
  </layer>
  <layer name="rule_Ground" width="7" height="7">

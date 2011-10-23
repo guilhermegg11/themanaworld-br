@@ -6,6 +6,7 @@
 # piso e outros objetos
 ./rule_hlw_002.tmx
 ./rule_hlw_003.tmx
+./rule_hlw_004.tmx
 
 # Árvores secas
 ./rule_hlw_050.tmx
