@@ -2,11 +2,10 @@
 # all other lines will be parsed and treated as filenames.
 
 # regras básicas
-./rule_hlw_000.tmx
-
-# piso e outros objetos
 ./rule_hlw_001.tmx
+# piso e outros objetos
 ./rule_hlw_002.tmx
+./rule_hlw_003.tmx
 
 # Árvores secas
 ./rule_hlw_050.tmx
@@ -15,3 +14,8 @@
 ./rule_hlw_052.tmx
 # Árvores coloridas
 ./rule_hlw_053.tmx
+
+# Terreno claro
+./rule_hlw_100.tmx
+./rule_hlw_101.tmx
+./rule_hlw_102.tmx
