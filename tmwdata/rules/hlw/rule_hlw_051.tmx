@@ -7,9 +7,9 @@
   <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="7" name="set_hlw" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_hlw.png" width="256" height="128"/>
+  <image source="../../graphics/tiles/set_hlw.png" width="256" height="160"/>
  </tileset>
- <tileset firstgid="39" name="arvores_x5" tilewidth="32" tileheight="160">
+ <tileset firstgid="47" name="arvores_x5" tilewidth="32" tileheight="160">
   <image source="../../graphics/tiles/hlw_arvores_x5.png" width="480" height="480"/>
  </tileset>
  <layer name="RuleRegions" width="7" height="3">
@@ -22,22 +22,32 @@
    H4sIAAAAAAAAA2NgIA4IEKkOBACVZty7VAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="7" height="3" opacity="0.51">
+ <layer name="ruleSet" width="7" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA5oEqkOBADCCISRVAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="7" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA/4oRidjQ8AAKTy62BUAAAA
   </data>
  </layer>
- <layer name="ruleNotSet" width="7" height="3" opacity="0.51">
+ <layer name="ruleNotSet" width="7" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA8EoBidjQ8AAAOV7CZUAAAA
   </data>
  </layer>
- <layer name="ruleNotSet" width="7" height="3" opacity="0.51">
+ <layer name="ruleNotSet" width="7" height="3" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA80oRidjQ8AAAX+bXpUAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="7" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA8EoRidjQ8AAADDpUhUAAAA
   </data>
  </layer>
- <layer name="ruleNotSet" width="7" height="3" opacity="0.51">
+ <layer name="ruleNotSet" width="7" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA+EoBidjQ8AAAU5fvpUAAAA
   </data>
@@ -64,22 +74,22 @@
  </layer>
  <layer name="rule1_Fringe" width="7" height="3">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAxcgdgNiN2JUAsCAPzoKzpUAAAA
+   H4sIAAAAAAAAA2NgIAx8gdgPiP2JUAsCAPPMlvxUAAAA
   </data>
  </layer>
  <layer name="rule2_Fringe" width="7" height="3" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAz8gTgAiAOJUAsCAKQuyOVUAAAA
+   H4sIAAAAAAAAA2NgIAzCgTgCiCOJUAsCAOnLiU5UAAAA
   </data>
  </layer>
  <layer name="rule3_Fringe" width="7" height="3" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAwMgNgQiI2IUAsCADoiASFUAAAA
+   H4sIAAAAAAAAA2NgIAwsgNgSiK2IUAsCADUGvOdUAAAA
   </data>
  </layer>
  <layer name="rule4_Fringe" width="7" height="3" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAx8gNgXiP2IUAsCAM76GxBUAAAA
+   H4sIAAAAAAAAA2NgIAxCgDgUiMOIUAsCAJ6QrYBUAAAA
   </data>
  </layer>
 </map>

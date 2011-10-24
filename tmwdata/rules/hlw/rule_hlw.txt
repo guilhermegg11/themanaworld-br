@@ -22,3 +22,6 @@
 # rio terreno escuro
 ./rule_hlw_102.tmx
 ./rule_hlw_103.tmx
+# folhas terreno escuro
+./rule_hlw_104.tmx
+./rule_hlw_105.tmx
