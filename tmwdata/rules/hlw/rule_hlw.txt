@@ -19,4 +19,6 @@
 # Terreno claro
 ./rule_hlw_100.tmx
 ./rule_hlw_101.tmx
+# rio terreno escuro
 ./rule_hlw_102.tmx
+./rule_hlw_103.tmx

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="7" height="7" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="13" height="7" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
@@ -12,30 +12,24 @@
  <tileset firstgid="39" name="hlw_ground" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/hlw_ground.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="167" name="set_woodland" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
- </tileset>
- <tileset firstgid="327" name="Woodland" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
- </tileset>
- <layer name="RuleRegions" width="7" height="7">
+ <layer name="RuleRegions" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+YoRidTUiOnmYCAMBaQMrEAAAA
+   H4sIAAAAAAAAA2NgIA8wQzGxbHL1DCe3AQDcDSKtbAEAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer name="ruleSet" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoAyIo9G01ocNAADGCvDTxAAAAA==
+   H4sIAAAAAAAAA2NgoC4Qh2J0NrI8A5o4LjWUuoMa9hDyDykAAC9zuDFsAQAA
   </data>
  </layer>
- <layer name="ruleNotSet" width="7" height="7" visible="0">
+ <layer name="ruleNotSet" width="13" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA/EoRidzYDGxsbHZyYuPj77cAEAzXvYqcQAAAA=
+   H4sIAAAAAAAAA2NgIB+Io9HEqsfGJ9UsWthDTTdgAwDZs8YMbAEAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="7" height="7">
+ <layer name="rule_Ground" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoAxoQmltEvV5QmlvCu0HAQDpUafKxAAAAA==
+   H4sIAAAAAAAAA2NgoC6IQuNHo/E1obQ2le1FB55Q2ptCc7LQ+NkUmAUAK6jGXmwBAAA=
   </data>
  </layer>
 </map>
