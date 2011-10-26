@@ -27,7 +27,7 @@
    H4sIAAAAAAAAA2NgIA5oE6kOBAAGeNTFVAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="7" height="3" visible="0">
+ <layer name="ruleNotSet" width="7" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA/4oRidjQ8AAKTy62BUAAAA
   </data>
@@ -45,6 +45,21 @@
  <layer name="ruleNotSet" width="7" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA+EoBidjQ8AAAU5fvpUAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="7" height="3" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA80oBidjQ8AAAaoJBRUAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="7" height="3" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA80oRidjQ8AAAX+bXpUAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="7" height="3" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA+0oBidjQ8AAAAEtshUAAAA
   </data>
  </layer>
  <layer name="ruleNotSet" width="7" height="3" visible="0">

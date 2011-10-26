@@ -27,6 +27,11 @@
    H4sIAAAAAAAAA2NgIB5okaAWBgB0zh3FYAAAAA==
   </data>
  </layer>
+ <layer name="ruleNotSet" width="8" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAz4oRiZzY9bOQoAAAKweqVgAAAA
+  </data>
+ </layer>
  <layer name="ruleNotSet" width="8" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIAwEoBiZLYBbOQoAAPvA/PVgAAAA
@@ -39,7 +44,27 @@
  </layer>
  <layer name="ruleNotSet" width="8" height="3" visible="0">
   <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAyEoBiZLYRbOQoAALl3yypgAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="8" height="3" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAw0oBiZrYFbOQoAAI7+2e5gAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="8" height="3" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAw0oRiZrYlbOQoAAC8lQoFgAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="8" height="3" visible="0">
+  <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIAy0oBiZrYVbOQoAAMxJ7jFgAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="8" height="3" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAy0oRiZrY1bOQoAAG2SdV5gAAAA
   </data>
  </layer>
  <layer name="rule1_Collision" width="8" height="3">
