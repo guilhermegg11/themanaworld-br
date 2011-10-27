@@ -1,5 +1,5 @@
 //
-// Monstros do mapa: 013 Pântano Sombrio
+// Monstros do mapa: 013 Floresta Negra
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
