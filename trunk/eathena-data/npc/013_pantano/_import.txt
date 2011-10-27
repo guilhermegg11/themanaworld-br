@@ -1,8 +1,0 @@
-map: 013.gat
-
-npc: npc/013_pantano/_mobs.txt
-npc: npc/013_pantano/_scripts.txt
-npc: npc/013_pantano/_warps.txt
-
-npc: npc/013_pantano/campoProtecao.conf
-npc: npc/013_pantano/mapflags.conf
