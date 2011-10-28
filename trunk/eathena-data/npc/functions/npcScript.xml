@@ -46,6 +46,24 @@ OnTimer15000:
 		</script>
 	</npc>
 
+	<!-- Pentagrama capaz de dar proteção ao jogador -->
+	<npc id="pentagrama" nome="Pentagrama" trigger="true">
+		<var name="%NPC%" value="0"/>
+		<script>
+	mes "...";
+	close;
+OnTouch:
+	addtimer2 3000, "%NAME%::OnEvento";
+	sc_start 200,3, 1;
+	specialeffect2 5;
+	end;
+OnEvento:
+	addtimer2 3000, "%NAME%::OnEvento";
+	sc_start 200,3, 1;
+	end;
+		</script>
+	</npc>
+
 	<!-- Exemplo de como seria um script genérico para a Menir da Alma -->
 	<npc id="menir" nome="Menir da Alma">
 		<var name="%NAME%" value="Menir da Alma"/>
