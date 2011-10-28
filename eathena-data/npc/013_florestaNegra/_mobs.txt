@@ -7,11 +7,24 @@
 013.gat,24,44,0,0	monster	Trevas Ocultas	1346,1,30000,15000,Mob013::On1346
 013.gat,27,84,0,0	monster	Trevas Ocultas	1346,1,0,60000,Mob013::On1346
 013.gat,61,24,0,0	monster	Trevas Ocultas	1346,1,30000,15000,Mob013::On1346
+013.gat,268,74,21,22	monster	Aranha Escura (20)	1349,20,30000,15000,Mob013::On1349
+013.gat,239,94,35,43	monster	Aranha Escura (30)	1349,30,30000,15000,Mob013::On1349
+013.gat,272,61,9,2	monster	Aranha-Rainha Escura	1350,1,30000,15000,Mob013::On1350
 
 013.gat,0,0,0	script	Mob013	-1,{
 
 On1346:
 	set @mobID, 1346;
+	callfunc "MobPoints";
+	break;
+
+On1349:
+	set @mobID, 1349;
+	callfunc "MobPoints";
+	break;
+
+On1350:
+	set @mobID, 1350;
 	callfunc "MobPoints";
 	break;
 
