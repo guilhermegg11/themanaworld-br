@@ -2,3 +2,83 @@
 // Scripts do mapa: 013 Floresta Negra
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Pentagrama
+013.gat,113,148,0	script	#013_113x148	0,4,3,{
+	mes "...";
+	close;
+OnTouch:
+	addtimer2 3000, "#013_113x148::OnEvento";
+	sc_start 200,3, 1;
+	specialeffect2 5;
+	end;
+OnEvento:
+	addtimer2 3000, "#013_113x148::OnEvento";
+	sc_start 200,3, 1;
+	end;
+	close;
+}
+
+// Script: Pentagrama
+013.gat,35,32,0	script	#013_35x32	0,4,3,{
+	mes "...";
+	close;
+OnTouch:
+	addtimer2 3000, "#013_35x32::OnEvento";
+	sc_start 200,3, 1;
+	specialeffect2 5;
+	end;
+OnEvento:
+	addtimer2 3000, "#013_35x32::OnEvento";
+	sc_start 200,3, 1;
+	end;
+	close;
+}
+
+// Script: Pentagrama
+013.gat,258,39,0	script	#013_258x39	0,4,3,{
+	mes "...";
+	close;
+OnTouch:
+	addtimer2 3000, "#013_258x39::OnEvento";
+	sc_start 200,3, 1;
+	specialeffect2 5;
+	end;
+OnEvento:
+	addtimer2 3000, "#013_258x39::OnEvento";
+	sc_start 200,3, 1;
+	end;
+	close;
+}
+
+// Script: Pentagrama
+013.gat,38,257,0	script	#013_38x257	0,4,3,{
+	mes "...";
+	close;
+OnTouch:
+	addtimer2 3000, "#013_38x257::OnEvento";
+	sc_start 200,3, 1;
+	specialeffect2 5;
+	end;
+OnEvento:
+	addtimer2 3000, "#013_38x257::OnEvento";
+	sc_start 200,3, 1;
+	end;
+	close;
+}
+
+// Script: Pentagrama
+013.gat,229,188,0	script	#013_229x188	0,4,3,{
+	mes "...";
+	close;
+OnTouch:
+	addtimer2 3000, "#013_229x188::OnEvento";
+	sc_start 200,3, 1;
+	specialeffect2 5;
+	end;
+OnEvento:
+	addtimer2 3000, "#013_229x188::OnEvento";
+	sc_start 200,3, 1;
+	end;
+	close;
+}
