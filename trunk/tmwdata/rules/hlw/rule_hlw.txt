@@ -3,9 +3,11 @@
 
 # regras básicas
 ./rule_hlw_001.tmx
-# piso e outros objetos
+# variações do piso escuro
 ./rule_hlw_002.tmx
+# variações das folhas em terreno escuro
 ./rule_hlw_003.tmx
+# variações do piso claro
 ./rule_hlw_004.tmx
 
 # Árvores secas
