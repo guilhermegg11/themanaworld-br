@@ -500,4 +500,12 @@ Ou um comentário de alguem.
 	<sound event="hit">bat-hit1.ogg</sound>
 </monster>
 
+<monster id="347" name="Aranha Marrom" summon="aranhaMarrom">
+	<sprite>monstro-aranha.xml|#312317,ffffff;#ff0000</sprite>
+</monster>
+
+<monster id="348" name="Aranha-Rainha Marrom" summon="aranhaRainhaMarrom">
+	<sprite>monstro-aranha-rainha2.xml|#312317,ffffff;#ff0000</sprite>
+</monster>
+
 </monsters>
