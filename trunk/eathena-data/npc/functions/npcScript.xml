@@ -54,12 +54,11 @@ OnTimer15000:
 	close;
 OnTouch:
 	addtimer2 3000, "%NAME%::OnEvento";
-	sc_start 200,3, 1;
-	specialeffect2 5;
+	sc_start 200,4, 1;
 	end;
 OnEvento:
 	addtimer2 3000, "%NAME%::OnEvento";
-	sc_start 200,3, 1;
+	sc_start 200,4, 1;
 	end;
 		</script>
 	</npc>
