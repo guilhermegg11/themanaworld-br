@@ -1,0 +1,52 @@
+//
+// Monstros do mapa: 013-1 Caverna Halloween
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+013-1.gat,0,0,0,0	monster	Jack Maligno	1351,1,0,0,Mob013-1::On1351
+013-1.gat,0,0,0,0	monster	zumbi (40)	1036,30,0,0,Mob013-1::On1036
+013-1.gat,0,0,0,0	monster	Caveira de Fogo (10)	1023,10,0,0,Mob013-1::On1023
+013-1.gat,0,0,0,0	monster	Caveira Envenenada (10)	1024,10,0,0,Mob013-1::On1024
+013-1.gat,0,0,0,0	monster	Esqueleto Arqueiro (10)	1304,10,0,0,Mob013-1::On1304
+013-1.gat,0,0,0,0	monster	Esqueleto Guerreiro (10)	1043,10,0,0,Mob013-1::On1043
+013-1.gat,0,0,0,0	monster	Lady Esqueleto (10)	1044,10,0,0,Mob013-1::On1044
+
+013-1.gat,0,0,0	script	Mob013-1	-1,{
+
+On1023:
+	set @mobID, 1023;
+	callfunc "MobPoints";
+	break;
+
+On1024:
+	set @mobID, 1024;
+	callfunc "MobPoints";
+	break;
+
+On1036:
+	set @mobID, 1036;
+	callfunc "MobPoints";
+	break;
+
+On1043:
+	set @mobID, 1043;
+	callfunc "MobPoints";
+	break;
+
+On1044:
+	set @mobID, 1044;
+	callfunc "MobPoints";
+	break;
+
+On1304:
+	set @mobID, 1304;
+	callfunc "MobPoints";
+	break;
+
+On1351:
+	set @mobID, 1351;
+	callfunc "MobPoints";
+	break;
+
+	end;
+}
