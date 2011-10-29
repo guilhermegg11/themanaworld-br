@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: 013-1 Caverna Halloween
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
