@@ -508,4 +508,8 @@ Ou um comentário de alguem.
 	<sprite>monstro-aranha-rainha2.xml|#312317,ffffff;#ff0000</sprite>
 </monster>
 
+<monster id="349" name="Jack Maligno" summon="jackMaligno">
+	<sprite>monsters/jack-maligno.xml</sprite>
+</monster>
+
 </monsters>
