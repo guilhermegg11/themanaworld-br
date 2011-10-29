@@ -7433,5 +7433,11 @@
 		<sprite gender="male">equipment/head/capacete-cavaleiro-demoniaco-male.xml</sprite>
 		<sprite gender="female">equipment/head/capacete-cavaleiro-demoniaco-female.xml</sprite>
 	</item>
+	<item id="3337"
+		image="generic-spectral-orb.png|R:#633313"
+		name="Alma de Jack Maligno"
+		description="A alma maligna de uma abóbora fantasma."
+		type="generic"
+		weight="1"/>
 
 </items>

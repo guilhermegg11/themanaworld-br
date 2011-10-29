@@ -10,11 +10,19 @@
 013.gat,268,74,21,22	monster	Aranha Escura (20)	1349,20,30000,15000,Mob013::On1349
 013.gat,239,94,35,43	monster	Aranha Escura (30)	1349,30,30000,15000,Mob013::On1349
 013.gat,272,61,9,2	monster	Aranha-Rainha Escura	1350,1,30000,15000,Mob013::On1350
+013.gat,34,194,26,39	monster	Espectro Sombrio (10)	1347,10,30000,15000,Mob013::On1347
+013.gat,35,219,6,6	monster	Jack Maligno	1351,1,30000,15000,Mob013::On1351
+013.gat,120,55,61,13	monster	Espectro Sombrio (5)	1347,5,30000,15000,Mob013::On1347
 
 013.gat,0,0,0	script	Mob013	-1,{
 
 On1346:
 	set @mobID, 1346;
+	callfunc "MobPoints";
+	break;
+
+On1347:
+	set @mobID, 1347;
 	callfunc "MobPoints";
 	break;
 
@@ -25,6 +33,11 @@ On1349:
 
 On1350:
 	set @mobID, 1350;
+	callfunc "MobPoints";
+	break;
+
+On1351:
+	set @mobID, 1351;
 	callfunc "MobPoints";
 	break;
 
