@@ -71,4 +71,9 @@
 		start-particle="graphics/particles/aura-negra.xml"
 	/>
 
+	<status-effect name="Oculto" id="200"
+		icon="icon-hidden.xml"
+		start-particle="graphics/particles/magic.white.xml"
+	/>
+
 </status-effects>
