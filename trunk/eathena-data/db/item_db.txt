@@ -924,3 +924,4 @@
 3334,botaCavaleiroDemon,botaCavaleiroDemon,5,20000,10000,50,0,4,0,35,0,2,64,0,0,0,{},{}
 3335,luvaCavaleiroDemon,luvaCavaleiroDemon,5,20000,10000,25,0,4,0,15,0,2,4,0,0,0,{},{}
 3336,capaceteCavaleiroDemon,capaceteCavaleiroDemon,5,20000,10000,1000,0,20,0,50,0,2,256,0,70,0,{},{}
+3337,almaJackMaligno,almaJackMaligno,3,100000,1,1,,,,,,,,,,,{},{}
