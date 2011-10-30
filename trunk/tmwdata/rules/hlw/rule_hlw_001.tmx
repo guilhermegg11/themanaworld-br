@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="12" height="7" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="11" height="7" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
@@ -12,34 +12,34 @@
  <tileset firstgid="47" name="ground" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/hlw_ground.png" width="512" height="256"/>
  </tileset>
- <layer name="RuleRegions" width="12" height="7">
+ <layer name="RuleRegions" width="11" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB0wE6ApBYTMp5c95AAA4f4vzVABAAA=
+   H4sIAAAAAAAAA2NgIA0wE0mTCmhlLrHmkwIA4FV6EzQBAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="12" height="7">
+ <layer name="ruleSet" width="11" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB2wQ2lxKM0BpeXJMAsbUIfSGlBaE0prQWltKtnDD6UFoLQglBaiwEwA9J389FABAAA=
+   H4sIAAAAAAAAA2NgIA2wQ2lxKM0BpeWhNB+J5sGAOpTWgNKaUFoLSmuTaS4M8ENpASgtCKWFyDALAFrhP4I0AQAA
   </data>
  </layer>
- <layer name="rule_Ground" width="12" height="7" visible="0">
+ <layer name="rule_Ground" width="11" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB3oQ2knNH4DGWZhA25E0pQCfQI0OQAAAgJ+wlABAAA=
+   H4sIAAAAAAAAA2NgIA3oQ2knNH4DieagAzciaXKBPgGaFAAABBNAwjQBAAA=
   </data>
  </layer>
- <layer name="rule_Fringe" width="12" height="7" visible="0">
+ <layer name="rule_Fringe" width="11" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB0wEqApBdQyZyAAAA7ASZVQAQAA
+   H4sIAAAAAAAAA2NgIA0wEqDJBZTqpycAAOFjJ3Q0AQAA
   </data>
  </layer>
- <layer name="rule_Collision" width="12" height="7" visible="0">
+ <layer name="rule_Collision" width="11" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB0wotFMaPRIBgCkQeE5UAEAAA==
+   H4sIAAAAAAAAA2NgIA0wotFMaDQjw/AHALfFsvU0AQAA
   </data>
  </layer>
- <layer name="rule_Top" width="12" height="7" visible="0">
+ <layer name="rule_Top" width="11" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAXUBACRqCgtUAEAAA==
+   H4sIAAAAAAAAA2NgGAWkAgDM9ogYNAEAAA==
   </data>
  </layer>
 </map>
