@@ -7516,5 +7516,17 @@
 		type="usable"
 		hp="100"
 		weight="10"/>
+	<item id="3350"
+		image="generic-palha.png"
+		name="Palha"
+		description="Um pouco de palha."
+		type="generic"
+		weight="5"/>
+	<item id="3351"
+		image="generic-monte-palha.png"
+		name="Monte de Palha"
+		description="Um monte de palha."
+		type="generic"
+		weight="8"/>
 
 </items>
