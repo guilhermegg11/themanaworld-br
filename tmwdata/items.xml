@@ -7528,5 +7528,11 @@
 		description="Um monte de palha."
 		type="generic"
 		weight="8"/>
+	<item id="3352"
+		image="generic-naftalina.png"
+		name="Naftalina"
+		description="Uma pedra de naftalina usada para dar cheiro agradável a roupas velhas."
+		type="generic"
+		weight="2"/>
 
 </items>
