@@ -531,11 +531,11 @@ Ou um comentário de alguem.
 	<sprite>hairstyle8.xml</sprite>
 	<sprite>chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
 </monster>
-<monster id="353" name="Guerreiro Caído" summon="guerreirocaido2">
+<monster id="353" name="Cavaleiro Demoníaco" summon="guerreirocaido2">
 	<sprite>monster-skeleton.xml</sprite>
-	<sprite>leg-chaps-male.xml</sprite>
-	<sprite>chest-warlordplate-male.xml</sprite>
-	<sprite>head-warlordhelm.xml</sprite>
+	<sprite>equipment/leg/calca-cavaleiro-demoniaco-male.xml</sprite>
+	<sprite>equipment/chest/armadura-cavaleiro-demoniaco-male.xml</sprite>
+	<sprite>equipment/head/capacete-cavaleiro-demoniaco-male.xml</sprite>
 </monster>
 <monster id="354" name="Esqueleto Arqueiro" summon="esqueletoArqueiro2">
 	<sprite>monster-skeleton.xml</sprite>
@@ -561,6 +561,9 @@ Ou um comentário de alguem.
 	<sound event="hit">flower-hit2.ogg</sound>
 	<sound event="miss">flower-miss1.ogg</sound>
 	<sprite>monsters/flor-carnivora.xml</sprite>
+</monster>
+<monster id="360" name="Espantalho" summon="espantalho">
+	<sprite>monsters/espantalho.xml</sprite>
 </monster>
 
 </monsters>
