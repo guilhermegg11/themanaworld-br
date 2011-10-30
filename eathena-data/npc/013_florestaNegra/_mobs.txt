@@ -15,23 +15,21 @@
 013.gat,120,55,61,13	monster	Espectro Sombrio (5) [1min]	1347,5,60000,0,Mob013::On1347
 013.gat,147,153,24,13	monster	Zumbi (7) [1min]	1036,7,60000,0,Mob013::On1036
 013.gat,140,143,3,6	monster	Morte (1) [5min]	1313,1,300000,0,Mob013::On1313
-013.gat,146,259,168,39	monster	Lesma (30) [1min]	1041,30,60000,0,Mob013::On1041
+013.gat,146,259,168,39	monster	Lesma Carnívora (30) [1min]	1360,30,60000,0,Mob013::On1360
 013.gat,147,143,6,6	monster	Morte (1) [5min]	1313,1,300000,0,Mob013::On1313
 013.gat,153,143,3,6	monster	Morte (1) [5min]	1313,1,300000,0,Mob013::On1313
 013.gat,49,85,64,136	monster	Morcego Vampiro (50) [1min]	1066,50,60000,0,Mob013::On1066
 013.gat,243,216,73,137	monster	Morcego Negro (50) [1min]	1348,50,60000,0,Mob013::On1348
 013.gat,116,86,209,46	monster	Flor Carnívora (20) [1min]	1361,20,60000,0,Mob013::On1361
 013.gat,169,220,237,108	monster	Flor Carnívora (50) [1min]	1361,50,60000,0,Mob013::On1361
+013.gat,221,45,69,50	monster	Morcego Negro (10) [1min]	1348,50,60000,0,Mob013::On1348
+013.gat,269,126,27,73	monster	Morcego Negro (10) [1min]	1348,50,60000,0,Mob013::On1348
+013.gat,121,36,143,49	monster	Piron (20) [1min]	1359,50,60000,0,Mob013::On1359
 
 013.gat,0,0,0	script	Mob013	-1,{
 
 On1036:
 	set @mobID, 1036;
-	callfunc "MobPoints";
-	break;
-
-On1041:
-	set @mobID, 1041;
 	callfunc "MobPoints";
 	break;
 
@@ -72,6 +70,16 @@ On1350:
 
 On1351:
 	set @mobID, 1351;
+	callfunc "MobPoints";
+	break;
+
+On1359:
+	set @mobID, 1359;
+	callfunc "MobPoints";
+	break;
+
+On1360:
+	set @mobID, 1360;
 	callfunc "MobPoints";
 	break;
 

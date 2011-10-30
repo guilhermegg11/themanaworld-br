@@ -926,3 +926,14 @@
 3336,capaceteCavaleiroDemon,capaceteCavaleiroDemon,5,20000,10000,1000,0,20,0,50,0,2,256,0,70,0,{},{}
 3337,almaJackMaligno,almaJackMaligno,3,100000,1,1,,,,,,,,,,,{},{}
 3338,petalaFlorCarnivora,petalaFlorCarnivora,0,600,300,10,,,,,,2,,,0,,{},{}
+3339,asasMorcegoNegro,asasMorcegoNegro,3,500,100,3,,,,,,,,,,,{},{}
+3340,asasMorcegoVampiro,asasMorcegoVampiro,3,500,100,3,,,,,,,,,,,{},{}
+3341,dentesQuebrados,dentesQuebrados,3,600,150,2,,,,,,,,,,,{},{}
+3342,fezesNojo,fezesNojo,3,10,1,5,,,,,,,,,,,{},{}
+3343,olhosLesma,olhosLesma,0,100,50,3,,,,,,2,,,0,,{ itemheal 30,0; },{}
+3344,olhosNojo,olhosNojo,0,100,50,3,,,,,,2,,,0,,{ itemheal 30,0; },{}
+3345,olhosTrevasOcultas,olhosTrevasOcultas,0,100,50,3,,,,,,2,,,0,,{ itemheal 30,0; },{}
+3346,ossosNojo,ossosNojo,3,200,100,10,,,,,,,,,,,{},{}
+3347,peleMorcegoNegro,peleMorcegoNegro,3,250,100,5,,,,,,,,,,,{},{}
+3348,peleMorcegoVampiro,peleMorcegoVampiro,3,250,100,5,,,,,,,,,,,{},{}
+3349,carneLesma,carneLesma,0,200,100,10,,,,,,2,,,0,,{ itemheal 100,0; },{}
