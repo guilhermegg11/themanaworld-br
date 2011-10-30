@@ -942,3 +942,4 @@
 3349,carneLesma,carneLesma,0,200,100,10,,,,,,2,,,0,,{ itemheal 100,0; },{}
 3350,palha,palha,3,1000,500,5,,,,,,,,,,,{},{}
 3351,montePalha,montePalha,3,1600,800,8,,,,,,,,,,,{},{}
+3352,naftalina,naftalina,3,200,100,2,,,,,,,,,,,{},{}
