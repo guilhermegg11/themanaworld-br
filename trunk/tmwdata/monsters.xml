@@ -549,6 +549,13 @@ Ou um comentário de alguem.
 <monster id="356" name="Caveira Envenenada" summon="caveiraenvenenada2">
 	<sprite>monster-skull-poison.xml</sprite>
 </monster>
+<monster id="357" name="Piron" summon="piron2">
+	<sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+	<attack id="1" particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"/>
+</monster>
+<monster id="358" name="Lesma Carnívora" summon="lesmaCarnivora">
+	<sprite>monster-snail.xml</sprite>
+</monster>
 <monster id="359" name="Flor Carnívora" summon="florCarnivora">
 	<sound event="hit">flower-hit1.ogg</sound>
 	<sound event="hit">flower-hit2.ogg</sound>
