@@ -7439,5 +7439,11 @@
 		description="A alma maligna de uma abóbora fantasma."
 		type="generic"
 		weight="1"/>
+	<item id="3338"
+		image="generic-petala-flor-carnivora.png"
+		name="Pétala de Flor Carnívora"
+		description="Uma pétala de uma flor sanguinária."
+		type="generic"
+		weight="10"/>
 
 </items>

@@ -549,5 +549,11 @@ Ou um comentário de alguem.
 <monster id="356" name="Caveira Envenenada" summon="caveiraenvenenada2">
 	<sprite>monster-skull-poison.xml</sprite>
 </monster>
+<monster id="359" name="Flor Carnívora" summon="florCarnivora">
+	<sound event="hit">flower-hit1.ogg</sound>
+	<sound event="hit">flower-hit2.ogg</sound>
+	<sound event="miss">flower-miss1.ogg</sound>
+	<sprite>monsters/flor-carnivora.xml</sprite>
+</monster>
 
 </monsters>
