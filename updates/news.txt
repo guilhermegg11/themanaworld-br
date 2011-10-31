@@ -1,13 +1,11 @@
-##3 .:: Prévia Halloween 2011 ::.
+##3 .:: Evento de Halloween ::.
 ##0
-##0 O Halloween no TMW-BR se inicia a partir do dia
-##0 24 de outubro, mas já é possível encontrar vá-
-##0 rios anúncios do evento por todos os lugares.
-##0 O Halloween sempre foi um evento bem disputado
-##0 e bem premiado. Mas este ano ele será bem pre-
-##0 miado de verdade. Prêmios exclusivos de hlw!
-##2 Não perca a magia do Halloween...
-##2 Eu disse magia Oo ?!!
+##0 Você esperou por este evento o ano todo ?!
+##0 Então o aproveite ao máximo. Pois ele veio
+##0 com tudo. Um dos melhores do TMW-BR!!!
+##2 Para não adiar o evento outras vez, o update
+##2 será atualizado durante a semana. Nenhum NPC
+##2 especial de HLW foi ativado no momento.
 ##0
 ##3 .:: Atualização 07/09/2011 ::.
 ##0
