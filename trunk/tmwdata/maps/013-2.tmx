@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/013-1.png"/>
+  <property name="music" value="Greendjohn - 3 minutes to midnight.ogg"/>
+  <property name="name" value="Caverna Halloween"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="pasta" value="cavernaHalloween"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="teto" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="43" name="interno1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/hlw_interno1.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="203" name="objetos_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/hlw_objetos_x2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="211" name="interno_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/hlw_interno_x3.png" width="512" height="96"/>
+ </tileset>
+ <layer name="Ground" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZQY6DMAwAQP7SY7f7/+eVy0oIhcRJszVS5jAHQ1EVy1ZieGzb9gAAAAAAAAAAAAAAAAAAAAAAuIHn7mf32v024tK1nudbcfS32TljHef6b8W1mu6NW714FWfnjHX01netxkf6I7pn2D/IUKr/s57+OKvdHz2LZeeMdUT2i1pdzzpf9cTZOWMd+gOulWqwdb46Xms9X7s/crbTH3zT6Pwwe/6I9svrBjljHaWabL3fPV6P9kdp1tYf3N3I+91P546/eORs53zFN/V+o/vP/oj+R3bOoGaktq9m7+y1wGyR2SG6D2WvBWbTH3AtMltHZ+/stcBsM+YPszYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB39AbnF4TkgDgBAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XMU7DMBQGYN8PGJihAxJlAQaktiM3oDeAS7nteXgID1leitPFEt8n/Ypl5TlZfikpBQAAAAAAAAAAAAAAAAAAAABgDDVyihzb9SeHdq1tv7a9OrnvmMycO2O6Pi18PgBjuYpcJ7lZMNNzDoxoH3lv67vIfZJVMj8303MOjGjfclvG7sdjZB15WjgPS3yU3348lL/3o07Wl/Tj0PGem8g2suuYgUt9Rr5KXz+mfF/xH7wV/YA5+gE5/YDcc+QlyWsyox+Q0w/I6Qfk9ANy+gG5uX/6nv98AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGME35b1x14A4AQA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Ouy4EURzA4X0mhN6dksKlmlC4VBuKRSOiokNF5VJReRO8kX9xislk98wmZrJr833JL+cy5+yeTgcAAAAAAAAAAAAAAAAAAADadVmab0SbNeevS/Ob6La0vhpwZy9VVr37mcadaDfNt6LtmvdAG2ajucz3uzQ+ZM48Rk999qei6Wimsn8/xN2j6DjND6LDzP9DW5ajlcz3lzS+lfaeK2feo48+d+ejhWixsv86xN3z6CLNe9FZ5o3QliIFAJOiO+oHwD9wEp1G+6N+CACtWY3WovUGfqs7YA7AZClq1jk/zT0DxtrSH+5+Rd9NPQTGSFGzBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICcXw6bkgiAOAEA
+  </data>
+ </layer>
+ <layer name="Top" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aQU7DMBAF0Cy6Y9lCV1AkzoAEnKP0OJy9ZosULwbbEyvvSbO0vxXNSE6UZQEAAAAAAAAAAAAAAAAAACIeS50CdQmua7XPU4+HAX8cB6/bWj7UZPdndj7UZPdndj7UZPdndj7U/PbZT2DdoVF+dB/zwQgz9dm11Hep2zLXuZnXrH0267mZS68++yj1Weqr0/7mgxGiffbQKD+6j/lghOzvR9n5UJPdn9n5UNOzP9+T8+G/npfY/4HnRvmvwfyXRvlQ8xaslver6BmgN/MB68wHtJf9/Qq2LPpe7z2bPYjeidyT2APzAevMBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMB23AFfUKoDgDgBAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Wy4oCURBEQfH/P3pWsxETH6iZ3URA4abpexd11OvlcrmamWFLex+MPpa198HoY1l7H4w+lrX3wehjWXsfjD6WtffB6GNZex+MPpa198HoY1l7H4w+lrX3wehjWXsfjD6WtffB6GNZex+MPpa198HoY1l7H4w+lrX3wehjWXsfjD6WtffB6GNZex+MPpa192Fp4FZ7J1cG7vnGnj3aueudz9vn0zvSTj9zfnpGHyRn+h5+9/z2vdmlj/692XWm//P64NPO0MW/V85fuje7zvLb8aoj3pnfO8L/q2/vsT5Ilrv4laPem+87Ux+35z97n/a92XWUPp55d3rm0d30QXKUPp7x7vnte7NLH/17s+vTfTS7ap/P+bS70AfL2l3og2XtLvTBsnYX+mBZu4uVgXvsGWT6gEwfkOkDMn1Apg/I9AGZPiDTB2T6gEwfkOkDMn1Apg/I9AGZPiDTB2T6gEwfkOkDMn1Apg/I9AGZPiDTB2T6gEwfkOkDMn1Apg/I9AGZPiDTB2T6gEwfkOkDMn1Apg/I9AGZPiDTB2T6gEwfkOkDMn1Apg/I9AGZPiDTB2T6gEwfkOkDMn1Apg/I9AGZPiDTB2T6gEwfkOkDsj9JrG4jgDgBAA==
+  </data>
+ </layer>
+ <objectgroup name="margem" width="200" height="100">
+  <object x="0" y="640" width="640" height="1920"/>
+  <object x="0" y="0" width="6400" height="640"/>
+ </objectgroup>
+</map>
