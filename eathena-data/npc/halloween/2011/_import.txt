@@ -6,7 +6,7 @@ npc: npc/halloween/2011/infoHalloween1.conf
 
 npc: npc/halloween/2011/bauPremios.conf
 npc: npc/halloween/2011/cavaleiroAmaldicoado.conf
-npc: npc/halloween/2011/chapeuzinho.conf
+//npc: npc/halloween/2011/chapeuzinho.conf
 npc: npc/halloween/2011/dracula.conf
 npc: npc/halloween/2011/funcoes.conf
 npc: npc/halloween/2011/jackMiseravel.conf
