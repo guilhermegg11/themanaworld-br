@@ -2774,20 +2774,20 @@
 	<!-- livre - numeração decrescente -->
 	<item id="1991"
 		image="generic-jackolantern.png"
-		name="Jack O Lantern"
-		description="A pumpkin that has been carved into a super-scary face for Hallowe'en."
+		name="Lanterna do Jack O"
+		description="Uma Abobora com uma cara super assustada, feita especialmente para o Halloween."
 		type="generic"
 		weight="1000"/>
 	<item id="1992"
 		image="generic-realisticbrain.png"
-		name="Realistic Brain"
-		description="This brain sure is realistic."
+		name="Cérebro de Verdade"
+		description="Dizem ser realmente um cérebro, mas parece ser apenas uma piada."
 		type="generic"
 		weight="50"/>
 	<item id="1993"
 		image="generic-jarofblood.png"
-		name="Jar of Blood"
-		description="Just the thing to scare the kids at Hallowe'en."
+		name="Jarro de Sangue"
+		description="As crianças acham que é de verdade."
 		type="generic"
 		weight="375"/>
 	<item id="1994"
@@ -7535,4 +7535,22 @@
 		type="generic"
 		weight="2"/>
 
+	<item id="3353"
+		image="generic-chifres-espectro-sombrio.png"
+		name="Chifres de Espectro Sombrio"
+		description="Chifres curvos e ásperos."
+		type="generic"
+		weight="10"/>
+	<item id="3354"
+		image="generic-par-olhos.png"
+		name="Par de Olhos"
+		description="Par de olhos de um zumbi."
+		type="generic"
+		weight="10"/>
+	<item id="3355"
+		image="generic-pocao-despetrificacao.png"
+		name="Poção de Despetrificação"
+		description="Poção capaz de curar uma pessoa patrificada."
+		type="generic"
+		weight="10"/>
 </items>

@@ -4,47 +4,48 @@
 //
 
 013-1.gat,0,0,0,0	monster	Jack Maligno	1351,1,0,0,Mob013-1::On1351
-013-1.gat,0,0,0,0	monster	zumbi (40)	1036,30,0,0,Mob013-1::On1036
-013-1.gat,0,0,0,0	monster	Caveira de Fogo (10)	1023,10,0,0,Mob013-1::On1023
-013-1.gat,0,0,0,0	monster	Caveira Envenenada (10)	1024,10,0,0,Mob013-1::On1024
-013-1.gat,0,0,0,0	monster	Esqueleto Arqueiro (10)	1304,10,0,0,Mob013-1::On1304
-013-1.gat,0,0,0,0	monster	Esqueleto Guerreiro (10)	1043,10,0,0,Mob013-1::On1043
-013-1.gat,0,0,0,0	monster	Lady Esqueleto (10)	1044,10,0,0,Mob013-1::On1044
+013-1.gat,0,0,0,0	monster	zumbi2 (30)	1352,30,0,0,Mob013-1::On1352
+013-1.gat,0,0,0,0	monster	Cavaleiro Demoníaco (20)	1355,20,0,0,Mob013-1::On1355
+013-1.gat,0,0,0,0	monster	Esqueleto Guerreiro2 (10)	1353,10,0,0,Mob013-1::On1353
+013-1.gat,0,0,0,0	monster	Lady Esqueleto2 (10)	1353,10,0,0,Mob013-1::On1353
+013-1.gat,0,0,0,0	monster	Caveira de Fogo2 (10)	1357,10,0,0,Mob013-1::On1357
+013-1.gat,0,0,0,0	monster	Caveira Envenenada2 (10)	1358,10,0,0,Mob013-1::On1358
+013-1.gat,0,0,0,0	monster	Esqueleto Arqueiro2 (10)	1356,10,0,0,Mob013-1::On1356
 
 013-1.gat,0,0,0	script	Mob013-1	-1,{
 
-On1023:
-	set @mobID, 1023;
-	callfunc "MobPoints";
-	break;
-
-On1024:
-	set @mobID, 1024;
-	callfunc "MobPoints";
-	break;
-
-On1036:
-	set @mobID, 1036;
-	callfunc "MobPoints";
-	break;
-
-On1043:
-	set @mobID, 1043;
-	callfunc "MobPoints";
-	break;
-
-On1044:
-	set @mobID, 1044;
-	callfunc "MobPoints";
-	break;
-
-On1304:
-	set @mobID, 1304;
-	callfunc "MobPoints";
-	break;
-
 On1351:
 	set @mobID, 1351;
+	callfunc "MobPoints";
+	break;
+
+On1352:
+	set @mobID, 1352;
+	callfunc "MobPoints";
+	break;
+
+On1353:
+	set @mobID, 1353;
+	callfunc "MobPoints";
+	break;
+
+On1355:
+	set @mobID, 1355;
+	callfunc "MobPoints";
+	break;
+
+On1356:
+	set @mobID, 1356;
+	callfunc "MobPoints";
+	break;
+
+On1357:
+	set @mobID, 1357;
+	callfunc "MobPoints";
+	break;
+
+On1358:
+	set @mobID, 1358;
 	callfunc "MobPoints";
 	break;
 

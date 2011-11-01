@@ -375,7 +375,7 @@
 1256,hatCascaOvo,hatCascaOvo,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 1281,balaChoque,Bala de Choque,0,1000,500,5,,,,,,2,,,0,,{ callfunc "useShockSweet"; },{}
 //-- livre - numeração decrescente --//
-1991,JackOLantern,Jack-o-Lantern,3,200,100,1000,,,,,,,,,,,{},{}
+1991,lanternaJack,lanternaJack,3,200,100,1000,,,,,,,,,,,{},{}
 1992,RealisticBrain,RealisticBrain,3,200,100,50,,,,,,,,,,,{},{}
 1993,jaraSangue,jaraSangue,3,200,100,375,,,,,,,,,,,{},{}
 1994,chapeuBruxo,chapeuBruxo,5,5000,2500,20,,5,,5,0,2,256,,1,0,{},{ bonus bInt,3; }
@@ -943,3 +943,6 @@
 3350,palha,palha,3,1000,500,5,,,,,,,,,,,{},{}
 3351,montePalha,montePalha,3,1600,800,8,,,,,,,,,,,{},{}
 3352,naftalina,naftalina,3,200,100,2,,,,,,,,,,,{},{}
+3353,chifreEspectroSombrio,chifreEspectroSombrio,3,400,200,10,,,,,,,,,,,{},{}
+3354,parOlhos,parOlhos,3,400,200,10,,,,,,,,,,,{},{}
+3355,pocaoDespetrificacao,pocaoDespetrificacao,3,1000,500,10,,,,,,,,,,,{},{}

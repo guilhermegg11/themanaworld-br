@@ -512,7 +512,7 @@ Ou um comentário de alguem.
 	<sprite>monsters/jack-maligno.xml</sprite>
 </monster>
 
-<monster id="350" name="Zumbi" summon="zumbi">
+<monster id="350" name="Zumbi" summon="zumbi2">
 	<sound event="move">monsters/zombie/zombie-move1.ogg</sound>
 	<sound event="move">monsters/zombie/zombie-move2.ogg</sound>
 	<sound event="hit">monsters/zombie/zombie-hit1.ogg</sound>
