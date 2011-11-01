@@ -1,2 +1,4 @@
 // 013-1 Caverna Halloween warps
 
+013-1.gat,178,89	warp	paraLob	-1,-1,013.gat,273,91
+013-1.gat,147,67	warp	paraAra	-1,-1,013.gat,273,59

@@ -1,0 +1,5 @@
+// 013-2 Casa Morgana warps
+
+013-2.gat,87,29	warp	paraBaixo	-1,-1,013-2.gat,20,26
+013-2.gat,20,26	warp	paraCima	-1,-1,013-2.gat,87,29
+013-2.gat,42,39	warp	paraFora	1,-1,013.gat,164,32
