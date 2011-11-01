@@ -568,5 +568,9 @@ Ou um comentário de alguem.
 <monster id="361" name="Lençol Fantasma" summon="lencolFantasma">
 	<sprite>monsters/lencol-fantasma.xml</sprite>
 </monster>
+<monster id="362" name="Lanterna Jack" summon="lanternaJack">
+	<sprite>monstro-cabeca-abobora-sombra.xml</sprite>
+	<sprite>monsters/lanterna-jack.xml</sprite>
+</monster>
 
 </monsters>
