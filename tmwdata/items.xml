@@ -7534,7 +7534,6 @@
 		description="Uma pedra de naftalina usada para dar cheiro agradável a roupas velhas."
 		type="generic"
 		weight="2"/>
-
 	<item id="3353"
 		image="generic-chifres-espectro-sombrio.png"
 		name="Chifres de Espectro Sombrio"
@@ -7553,4 +7552,13 @@
 		description="Poção capaz de curar uma pessoa patrificada."
 		type="generic"
 		weight="10"/>
+	<item id="3356"
+		image="espada-petrificada.png"
+		name="Espada Petrificada"
+		description="Uma espada de pedra que no ardor da batalha se torna tão forte quanto uma recem forjada."
+		effect="lvl 60, +140 Dano, 1 Range"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="1800">
+	</item>
 </items>

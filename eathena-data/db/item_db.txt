@@ -946,3 +946,4 @@
 3353,chifreEspectroSombrio,chifreEspectroSombrio,3,400,200,10,,,,,,,,,,,{},{}
 3354,parOlhos,parOlhos,3,400,200,10,,,,,,,,,,,{},{}
 3355,pocaoDespetrificacao,pocaoDespetrificacao,3,1000,500,10,,,,,,,,,,,{},{}
+3356,espadaPetrificada,espadaPetrificada,4,10000,5000,1800,140,,1,,0,2,2,1,60,3,{},{}
