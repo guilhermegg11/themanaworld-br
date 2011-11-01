@@ -1,2 +1,5 @@
 // 013 Floresta Negra warps
 
+013.gat,164,32	warp	paraBruxa1	-1,-1,013-2.gat,42,39
+013.gat,273,91	warp	paraCavHLW1	-1,-1,013-1.gat,178,89
+013.gat,273,59	warp	paraCavHLW2	-1,-1,013-1.gat,147,67

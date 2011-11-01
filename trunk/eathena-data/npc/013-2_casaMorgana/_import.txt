@@ -1,0 +1,4 @@
+map: 013-2.gat
+npc: npc/013-2_casaMorgana/_mobs.txt
+npc: npc/013-2_casaMorgana/_scripts.txt
+npc: npc/013-2_casaMorgana/_warps.txt

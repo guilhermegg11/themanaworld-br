@@ -50,6 +50,7 @@ import: npc/011_submundo/_import.txt
 import: npc/012_floresta/_import.txt
 import: npc/013_florestaNegra/_import.txt
 import: npc/013-1_cavernaHalloween/_import.txt
+import: npc/013-2_casaMorgana/_import.txt
 
 import: npc/prisao/_import.txt
 import: npc/calabouco/_import.txt

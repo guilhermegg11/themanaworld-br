@@ -1,0 +1,10 @@
+//
+// Monstros do mapa: 013-2 Casa Morgana
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+
+013-2.gat,0,0,0	script	Mob013-2	-1,{
+
+	end;
+}
