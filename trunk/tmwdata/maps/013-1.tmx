@@ -2,7 +2,7 @@
 <map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="/graphics/minimaps/013-1.png"/>
-  <property name="music" value="Greendjohn - 3 minutes to midnight.ogg"/>
+  <property name="music" value="Greendjohn - Factory Tale.ogg"/>
   <property name="name" value="Caverna Halloween"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="pasta" value="cavernaHalloween"/>
@@ -55,40 +55,46 @@
     <property name="monster_id" value="349"/>
    </properties>
   </object>
-  <object name="zumbi (40)" type="spawn" x="0" y="0">
+  <object name="zumbi2 (30)" type="spawn" x="0" y="0">
    <properties>
     <property name="max_beings" value="30"/>
-    <property name="monster_id" value="34"/>
+    <property name="monster_id" value="350"/>
    </properties>
   </object>
-  <object name="Caveira de Fogo (10)" type="spawn" x="0" y="0">
+  <object name="Cavaleiro Demoníaco (20)" type="spawn" x="0" y="0">
    <properties>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="21"/>
+    <property name="max_beings" value="20"/>
+    <property name="monster_id" value="353"/>
    </properties>
   </object>
-  <object name="Caveira Envenenada (10)" type="spawn" x="0" y="0">
+  <object name="Esqueleto Guerreiro2 (10)" type="spawn" x="0" y="0">
    <properties>
     <property name="max_beings" value="10"/>
-    <property name="monster_id" value="22"/>
+    <property name="monster_id" value="351"/>
    </properties>
   </object>
-  <object name="Esqueleto Arqueiro (10)" type="spawn" x="0" y="0">
+  <object name="Lady Esqueleto2 (10)" type="spawn" x="0" y="0">
    <properties>
     <property name="max_beings" value="10"/>
-    <property name="monster_id" value="302"/>
+    <property name="monster_id" value="351"/>
    </properties>
   </object>
-  <object name="Esqueleto Guerreiro (10)" type="spawn" x="0" y="0">
+  <object name="Caveira de Fogo2 (10)" type="spawn" x="0" y="0">
    <properties>
     <property name="max_beings" value="10"/>
-    <property name="monster_id" value="41"/>
+    <property name="monster_id" value="355"/>
    </properties>
   </object>
-  <object name="Lady Esqueleto (10)" type="spawn" x="0" y="0">
+  <object name="Caveira Envenenada2 (10)" type="spawn" x="0" y="0">
    <properties>
     <property name="max_beings" value="10"/>
-    <property name="monster_id" value="42"/>
+    <property name="monster_id" value="356"/>
+   </properties>
+  </object>
+  <object name="Esqueleto Arqueiro2 (10)" type="spawn" x="0" y="0">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="354"/>
    </properties>
   </object>
  </objectgroup>
