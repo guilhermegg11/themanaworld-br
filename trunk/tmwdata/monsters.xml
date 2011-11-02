@@ -569,7 +569,7 @@ Ou um comentário de alguem.
 	<sprite>monsters/lencol-fantasma.xml</sprite>
 </monster>
 <monster id="362" name="Lanterna Jack" summon="lanternaJack">
-	<sprite>monstro-cabeca-abobora-sombra.xml</sprite>
+	<sprite>monsters/sombra-26.xml</sprite>
 	<sprite>monsters/lanterna-jack.xml</sprite>
 </monster>
 

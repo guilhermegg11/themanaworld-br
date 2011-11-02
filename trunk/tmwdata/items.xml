@@ -2811,25 +2811,33 @@
 		image="use-food-tonoridelight.png"
 		name="Delicia de Tonori"
 		description="De aroma suave e textura gelatinosa. Polvilhado com açúcar refinado."
-		type="generic"
+		effect="Exala cheiro adocicado."
+		type="usable"
+		hp="40"
 		weight="2"/>
 	<item id="1997"
 		image="use-food-marshmallow.png"
 		name="Marshmallow"
 		description="O verdadeiro sabor do marshmallow."
-		type="generic"
+		effect="Exala cheiro adocicado."
+		type="usable"
+		hp="30"
 		weight="2"/>
 	<item id="1998"
 		image="use-food-jellyskull.png"
 		name="Jujuba de crânio"
 		description="Como uma jujuba, mas no formato de um crânio."
-		type="generic"
+		effect="Exala cheiro adocicado."
+		type="usable"
+		hp="20"
 		weight="2"/>
 	<item id="1999"
 		image="use-food-candypumpkin.png"
 		name="Doce de Abóbora"
 		description="Com um interior macio, coberto por uma casca crocante, este doce tem um delicioso cheirinho de abóbora."
-		type="generic"
+		effect="Exala cheiro adocicado."
+		type="usable"
+		hp="50"
 		weight="2"/>
 
 	<!-- The 2XXY IDs are used for recolored items on eAthena.
