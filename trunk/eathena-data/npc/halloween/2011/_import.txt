@@ -14,7 +14,7 @@ npc: npc/halloween/2011/infoHalloween2.conf
 //npc: npc/halloween/2011/mestreMagia.conf
 npc: npc/halloween/2011/morgana.conf
 //npc: npc/halloween/2011/mumia.conf
-//npc: npc/halloween/2011/shops.conf
+npc: npc/halloween/2011/shops.conf
 npc: npc/halloween/2011/timerHalloween.conf
 
 // Pós Halloween
