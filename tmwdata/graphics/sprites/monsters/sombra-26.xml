@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/monsters/sombra-26.png" width="26" height="64"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0"/>
+		</animation>
+	</action>
+
+</sprite>
