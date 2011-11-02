@@ -2764,6 +2764,24 @@
 		weight="15">
 		<sprite>equipment/head/eggshell.xml</sprite>
 	</item>
+	 <item id="1277"
+		image="armor-head-jestermask.png"
+		name="Máscara Bobo da Corte ★★"
+		description="Máscara com um humor malígno."
+		type="equip-head"
+		defense="2"
+		weight="15">
+		<sprite>head-jestermask.xml</sprite>
+	 </item>
+	<item id="1278"
+		image="armor-head-witch-hat.png"
+		name="Chapéu de Bruxa"
+		description="Grande, escuro e pontudo."
+		type="equip-head"
+		defense="2"
+		weight="15">
+		<sprite>equipment/head/witch-hat.xml</sprite>
+	 </item>
 	<item id="1281"
 		image="use-food-shock-candy.png"
 		name="Bala de Choque"
@@ -7345,7 +7363,7 @@
 	<item id="3328"
 		image="armor-chest-armadura-cavaleiro-negro.png"
 		name="Armadura Cavaleiro Negro"
-		description="."
+		description="Set inteiro como prêmio (capacete, armadura, calça, botas e luvas)."
 		effect="lvl 55"
 		type="equip-torso"
 		weight="150"
@@ -7356,7 +7374,7 @@
 	<item id="3329"
 		image="armor-feet-bota-cavaleiro-negro.png"
 		name="Bota Cavaleiro Negro"
-		description="."
+		description="Botas do Cavaleiro Negro"
 		effect=""
 		type="equip-feet"
 		weight="50"
@@ -7367,7 +7385,7 @@
 	<item id="3330"
 		image="armor-hands-luva-cavaleiro-negro.png"
 		name="Luva Cavaleiro Negro"
-		description="."
+		description="Luvas do Cavaleiro Negro"
 		effect=""
 		type="equip-arms"
 		weight="25"
@@ -7378,7 +7396,7 @@
 	<item id="3331"
 		image="armor-head-capacete-cavaleiro-negro.png"
 		name="Capacete Cavaleiro Negro"
-		description="."
+		description="Capacete do Cavaleiro Negro"
 		effect="lvl 70"
 		type="equip-head"
 		weight="1000"
@@ -7569,4 +7587,5 @@
 		weapon-type="sword"
 		weight="1800">
 	</item>
+
 </items>
