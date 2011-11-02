@@ -14,3 +14,4 @@ update_2011-09-07.zip 893f076a
 2011_halloween1.zip cd1ded6e
 2011_halloween2.zip 590e3720
 2011_halloween3.zip 192bd9a8
+2011_halloween4.zip f0755790
