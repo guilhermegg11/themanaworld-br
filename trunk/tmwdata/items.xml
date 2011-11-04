@@ -7592,7 +7592,7 @@
 		image="generic-pumpkinseed-old.png"
 		name="Sementes Velhas de Abóbora"
 		description="Sementes velhas das abóboras fantasma."
-		effect="(Não conta no top15... mas valerá um bom dinheiro do final do evento)"
+		effect="(Não conta no top15... mas valerá um bom dinheiro ao final do evento)"
 		type="generic"
 		weight="1"/>
 
