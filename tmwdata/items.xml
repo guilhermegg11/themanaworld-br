@@ -2822,7 +2822,8 @@
 	<item id="1995"
 		image="generic-pumpkinseed.png"
 		name="Sementes de abóbora"
-		description="Sementes de uma abóbora."
+		description="Sementes das abóboras fantasma."
+		effect="(Item do Top15 de Halloween)"
 		type="generic"
 		weight="1"/>
 	<item id="1996"
@@ -7587,5 +7588,12 @@
 		weapon-type="sword"
 		weight="1800">
 	</item>
+	<item id="3357"
+		image="generic-pumpkinseed-old.png"
+		name="Sementes Velhas de Abóbora"
+		description="Sementes velhas das abóboras fantasma."
+		effect="(Não conta no top15... mas valerá um bom dinheiro do final do evento)"
+		type="generic"
+		weight="1"/>
 
 </items>
