@@ -143,14 +143,7 @@
    <properties>
     <property name="eA_spawn" value="60000"/>
     <property name="max_beings" value="7"/>
-    <property name="monster_id" value="34"/>
-   </properties>
-  </object>
-  <object name="Morte (1) [5min]" type="spawn" x="4448" y="4480" width="128" height="224">
-   <properties>
-    <property name="eA_spawn" value="300000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="311"/>
+    <property name="monster_id" value="350"/>
    </properties>
   </object>
   <object name="Lesma Carnívora (30) [1min]" type="spawn" x="1984" y="7680" width="5408" height="1280">
@@ -158,20 +151,6 @@
     <property name="eA_spawn" value="60000"/>
     <property name="max_beings" value="30"/>
     <property name="monster_id" value="358"/>
-   </properties>
-  </object>
-  <object name="Morte (1) [5min]" type="spawn" x="4608" y="4480" width="224" height="224">
-   <properties>
-    <property name="eA_spawn" value="300000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="311"/>
-   </properties>
-  </object>
-  <object name="Morte (1) [5min]" type="spawn" x="4864" y="4480" width="128" height="224">
-   <properties>
-    <property name="eA_spawn" value="300000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="311"/>
    </properties>
   </object>
   <object name="Morcego Vampiro (50) [1min]" type="spawn" x="544" y="560" width="2096" height="4400">
