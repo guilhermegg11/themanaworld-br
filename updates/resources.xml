@@ -19,6 +19,7 @@
 	<update type="data" file="2011_halloween4.zip" hash="f0755790"/>
 	<update type="data" file="2011_halloween5.zip" hash="62f39e05"/>
 	<update type="data" file="2011_halloween6.zip" hash="ef3b6279"/>
+	<update type="data" file="2011_halloween7.zip" hash="e08494ef"/>
 	<update type="music" required="yes" file="musicas_hlw2011.zip" hash="853ee41c"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 	<update type="music" required="no" file="musicas_2010-09-28.zip" hash="6db7aab8" desciption="Novas músicas"/>
