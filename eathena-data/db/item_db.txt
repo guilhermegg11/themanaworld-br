@@ -382,10 +382,10 @@
 1993,jaraSangue,jaraSangue,3,200,100,375,,,,,,,,,,,{},{}
 1994,chapeuBruxo,chapeuBruxo,5,5000,2500,20,,5,,5,0,2,256,,1,0,{},{ bonus bInt,3; }
 1995,PumpkinSeeds,PumpkinSeeds,3,2000,1000,0,,,,,,,,,,,{},{}
-1996,deliciaTonori,deliciaTonori,0,5,1,2,,,,,,2,,,0,,{ lurarmob 1364,9; itemheal 40,0; },{}
-1997,Marshmallow,Marshmallow,0,5,1,2,,,,,,2,,,0,,{ lurarmob 1364,8; itemheal 30,0; },{}
-1998,JellySkull,JellySkull,0,5,1,2,,,,,,2,,,0,,{ lurarmob 1364,7; itemheal 20,0; },{}
-1999,doceAbobora,doceAbobora,0,5,1,2,,,,,,2,,,0,,{ lurarmob 1364,10; itemheal 50,0; },{}
+1996,deliciaTonori,deliciaTonori,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,9; itemheal 40,0; },{}
+1997,Marshmallow,Marshmallow,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,8; itemheal 30,0; },{}
+1998,JellySkull,JellySkull,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,7; itemheal 20,0; },{}
+1999,doceAbobora,doceAbobora,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,10; itemheal 50,0; },{}
 2050,camisavermelhadealgodao,Camisa Vermelha de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2051,camisaverdedealgodao,Camisa Verde de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
 2052,camisaazulescuradealgodao,Camisa Azul Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
@@ -950,3 +950,5 @@
 3355,pocaoDespetrificacao,pocaoDespetrificacao,3,1000,500,10,,,,,,,,,,,{},{}
 3356,espadaPetrificada,espadaPetrificada,4,10000,5000,1800,140,,1,,0,2,2,1,60,3,{},{}
 3357,PumpkinSeedOld,PumpkinSeedOld,3,2000,1000,0,,,,,,,,,,,{},{}
+3358,gemaTeleporte,gemaTeleporte,0,500,10,5,,,,,,2,,,0,,{ callfunc "useGemaTeleporte"; },{}
+3359,gemaBuff,gemaBuff,0,500,10,5,,,,,,2,,,0,,{ callfunc "useGemaBuff"; },{}

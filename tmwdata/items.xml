@@ -7595,5 +7595,19 @@
 		effect="(Não conta no top15) (1KGP)"
 		type="generic"
 		weight="1"/>
+	<item id="3358"
+		image="use-gema.png|W:#7248b8,ffffff"
+		name="Gema de Teleporte"
+		description="Pedra capaz de abrir um portal dimencional."
+		effect="teleporte (apenas na floresta negra)"
+		type="usable"
+		weight="5"/>
+	<item id="3359"
+		image="use-gema.png|W:#f86208,ffffff"
+		name="Gema de Energia"
+		description="Pedra dotada de energia."
+		effect="aumenta força e velocidade de ataque (apenas na floresta negra, temporário)"
+		type="usable"
+		weight="5"/>
 
 </items>
