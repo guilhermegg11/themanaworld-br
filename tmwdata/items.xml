@@ -1487,7 +1487,7 @@
 	</item>
 	<item id="659"
 		image="armor-chest-warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
-		name="Armadura do Lord da Guerra Dourada"
+		name="Armadura do Lord da Guerra Dourada ★★★"
 		description="Uma forte armadura banhada a ouro."
 		effect="lvl 55"
 		type="equip-torso"
@@ -2247,7 +2247,7 @@
 	</item>
 	<item id="759"
 		image="armor-head-paladinhelm.png"
-		name="Elmo de Paladino"
+		name="Elmo de Paladino ★★★"
 		description="Um excelente elmo, tipicamente usado por paladinos."
 		effect="lvl 70"
 		type="equip-head"
@@ -2257,7 +2257,7 @@
 	</item>
 	<item id="760"
 		image="armor-head-overlordhelm.png"
-		name="Elmo do Soberano"
+		name="Elmo do Soberano ★★★"
 		description="Um elmo lendário, usado somente pelos guerreiros mais fortes."
 		effect="lvl 70"
 		type="equip-head"
@@ -2823,7 +2823,7 @@
 		image="generic-pumpkinseed.png"
 		name="Sementes de abóbora"
 		description="Sementes das abóboras fantasma."
-		effect="(Item do Top15 de Halloween)"
+		effect="(Item do Top15 de Halloween) (1KGP)"
 		type="generic"
 		weight="1"/>
 	<item id="1996"
@@ -4799,7 +4799,7 @@
 	</item>
 	<item id="3009"
 		image="armor-chest-saviorarmor.png"
-		name="Armadura Celestial"
+		name="Armadura Celestial ★★★"
 		description="A armadura dos deuses."
 		effect="lvl 55"
 		type="equip-torso"
@@ -6394,7 +6394,7 @@
 	</item>
 	<item id="3220"
 		image="armor-head-elmo-taurus.png"
-		name="Elmo Taurus"
+		name="Elmo Taurus ★★★"
 		description="Um elmo escuro para os que carregam consigo o espírito de fúria do touro."
 		effect="lvl 70, +1 Força"
 		type="equip-head"
@@ -7352,31 +7352,31 @@
 	/>
 	<item id="3327"
 		image="armor-legs-calca-cavaleiro-negro.png"
-		name="Calça Cavaleiro Negro"
+		name="Calça Cavaleiro Negro ★★★"
 		description="Bastante resistente e confortavel, feita com essencias de todos os tipos, pelo cavaleiro selenestiais."
-		effect="lvl 60"
+		effect="lvl 50 (Halloween 2011)"
 		type="equip-legs"
 		weight="100"
-		defense="7">
+		defense="6">
 		<sprite gender="male">equipment/leg/calca-cavaleiro-negro-male.xml</sprite>
 		<sprite gender="female">equipment/leg/calca-cavaleiro-negro-female.xml</sprite>
 	</item>
 	<item id="3328"
 		image="armor-chest-armadura-cavaleiro-negro.png"
-		name="Armadura Cavaleiro Negro"
+		name="Armadura Cavaleiro Negro ★★★"
 		description="Set inteiro como prêmio (capacete, armadura, calça, botas e luvas)."
-		effect="lvl 55"
+		effect="lvl 70 (Halloween 2011)"
 		type="equip-torso"
 		weight="150"
-		defense="20">
+		defense="27">
 		<sprite gender="male">equipment/chest/armadura-cavaleiro-negro-male.xml</sprite>
 		<sprite gender="female">equipment/chest/armadura-cavaleiro-negro-female.xml</sprite>
 	</item>
 	<item id="3329"
 		image="armor-feet-bota-cavaleiro-negro.png"
-		name="Bota Cavaleiro Negro"
+		name="Bota Cavaleiro Negro ★★★"
 		description="Botas do Cavaleiro Negro"
-		effect=""
+		effect="(Halloween 2011)"
 		type="equip-feet"
 		weight="50"
 		defense="4">
@@ -7385,9 +7385,9 @@
 	</item>
 	<item id="3330"
 		image="armor-hands-luva-cavaleiro-negro.png"
-		name="Luva Cavaleiro Negro"
+		name="Luva Cavaleiro Negro ★★★"
 		description="Luvas do Cavaleiro Negro"
-		effect=""
+		effect="(Halloween 2011)"
 		type="equip-arms"
 		weight="25"
 		defense="4">
@@ -7396,9 +7396,9 @@
 	</item>
 	<item id="3331"
 		image="armor-head-capacete-cavaleiro-negro.png"
-		name="Capacete Cavaleiro Negro"
+		name="Capacete Cavaleiro Negro ★★★"
 		description="Capacete do Cavaleiro Negro"
-		effect="lvl 70"
+		effect="lvl 70 (Halloween 2011)"
 		type="equip-head"
 		weight="1000"
 		defense="20">
@@ -7592,7 +7592,7 @@
 		image="generic-pumpkinseed-old.png"
 		name="Sementes Velhas de Abóbora"
 		description="Sementes velhas das abóboras fantasma."
-		effect="(Não conta no top15... mas valerá um bom dinheiro ao final do evento)"
+		effect="(Não conta no top15) (1KGP)"
 		type="generic"
 		weight="1"/>
 
