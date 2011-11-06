@@ -18,4 +18,4 @@ npc: npc/halloween/2011/shops.conf
 npc: npc/halloween/2011/timerHalloween.conf
 
 // Pós Halloween
-//npc: npc/halloween/2011/premiacao.conf
+npc: npc/halloween/2011/premiacao.conf
