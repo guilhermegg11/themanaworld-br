@@ -1,11 +1,13 @@
 map: 005-1.gat
+
 npc: npc/005-1_QuartelGeneral/_mobs.txt
 npc: npc/005-1_QuartelGeneral/_scripts.txt
 npc: npc/005-1_QuartelGeneral/_warps.txt
+
 //npc: npc/005-1_QuartelGeneral/dropitem.conf //< Em testes
 npc: npc/005-1_QuartelGeneral/halloween2010.conf
 npc: npc/005-1_QuartelGeneral/pascoa2011.conf
-npc: npc/005-1_QuartelGeneral/estatuas.conf
+//npc: npc/005-1_QuartelGeneral/estatuas.conf
 npc: npc/005-1_QuartelGeneral/guarda_entrada.conf
 npc: npc/005-1_QuartelGeneral/juiz_miguel.conf
 npc: npc/005-1_QuartelGeneral/mapflags.txt
