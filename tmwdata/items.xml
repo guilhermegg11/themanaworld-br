@@ -139,6 +139,11 @@
 		<sound event="hit">short-sword-hit2.ogg</sound>
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</item>
+	<item id="39" type="weaponsprite" weapon_type="17">
+		<sprite>weapon-setzer.xml</sprite>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="miss">short-sword-miss1.ogg</sound>
+	</item>
 
 	<item id="501"
 		image="use-potion-a.png|G:#22ff22"
@@ -703,7 +708,8 @@
 		type="equip-1hand"
 		weapon-type="knife"
 		weight="900">
-		<sprite>weapon-dagger-attack.xml</sprite>
+		<!-- <sprite>weapon-dagger-attack.xml</sprite> -->
+		<sprite>weapon-setzer.xml</sprite>
 	</item>
 	<item id="572"
 		image="weapon-sword-scimitar.png"
