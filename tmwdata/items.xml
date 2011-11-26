@@ -144,6 +144,11 @@
 		<sound event="hit">short-sword-hit2.ogg</sound>
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</item>
+	<item id="40" type="weaponsprite" weapon_type="18">
+		<sprite>weapon-tomahawk.xml</sprite>
+		<sound event="hit">short-sword-hit2.ogg</sound>
+		<sound event="miss">short-sword-miss1.ogg</sound>
+	</item>
 
 	<item id="501"
 		image="use-potion-a.png|G:#22ff22"
@@ -5121,7 +5126,9 @@
 		effect="lvl 70, +150 Dano, +5 Defesa Mágica, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="axe"
-		weight="2000"/>
+		weight="2000">
+		<sprite>weapon-tomahawk.xml</sprite>
+	</item>
 	<item id="3048"
 		image="armor-legs-skirt-mini.png|W:#A4B2B2,FFFFFF"
 		name="Mini Saia de Algodão ♀"
