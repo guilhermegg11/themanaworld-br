@@ -12,5 +12,6 @@ npc: npc/010_PoloNorte/duende_tunico.conf
 npc: npc/010_PoloNorte/guardadonavio.conf
 npc: npc/010_PoloNorte/jornaleiro.conf
 npc: npc/010_PoloNorte/menir_alma.conf
+npc: npc/010_PoloNorte/presente.conf
 npc: npc/010_PoloNorte/raquel.conf
 npc: npc/010_PoloNorte/sinos.conf
