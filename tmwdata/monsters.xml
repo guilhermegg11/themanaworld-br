@@ -447,9 +447,10 @@ Ou um comentário de alguem.
 <monster id="335" name="Colméia" summon="colmeia" targetCursor="small">
 <sprite>monsters/monstro-colmeia.xml</sprite>
 </monster>
+
 <monster id="336" name="Presente" summon="presente">
-<sprite>resource-presente.xml</sprite>
-<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+	<sprite>monsters/presente-surpresa.xml</sprite>
+	<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 </monster>
 
 <monster id="337" name="Nojô" summon="nojo">
