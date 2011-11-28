@@ -7623,4 +7623,14 @@
 		type="usable"
 		weight="5"/>
 
+	<item id="3360"
+		image="armor-head-cabeca-rena.png"
+		name="Cabeça de Rena"
+		description="..."
+		type="equip-head"
+		weight="80"
+		defense="2">
+		<sprite>equipment/head/cabeca-rena.xml</sprite>
+	</item>
+
 </items>
