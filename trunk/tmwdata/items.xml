@@ -2801,6 +2801,24 @@
 		weight="5"/>
 
 	<!-- livre - numeração decrescente -->
+	<item id="1988"
+		image="generic-coal.png"
+		name="Carvão"
+		description="Um pedaço de carvão."
+		type="generic"
+		weight="20"/>
+	<item id="1989"
+		image="generic-gemstone-b.png"
+		name="Diamante"
+		description="Uma pedra de diamante bruto."
+		type="generic"
+		weight="20"/>
+	<item id="1990"
+		image="generic-ice-cube.png"
+		name="Cubo de Gelo"
+		description="Um cubo de gelo muito frio que nunca parece derreter completamente."
+		type="generic"
+		weight="1"/>
 	<item id="1991"
 		image="generic-jackolantern.png"
 		name="Lanterna do Jack O"

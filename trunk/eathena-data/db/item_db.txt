@@ -376,7 +376,12 @@
 1277,mascaBoboCorte,mascaBoboCorte,5,4000,2000,15,,2,,0,0,2,256,,1,0,{},{}
 1278,chapeuBruxa,chapeuBruxa,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 1281,balaChoque,Bala de Choque,0,1000,500,5,,,,,,2,,,0,,{ callfunc "useShockSweet"; },{}
-//-- livre - numeração decrescente --//
+//----------------------------------------------------------------------
+//-- LIVRE - Numeração Decrescente -------------------------------------
+//----------------------------------------------------------------------
+1988,carvao,carvao,3,250,100,20,,,,,,,,,,,{},{}
+1989,diamante,diamante,3,5000,2500,20,,,,,,,,,,,{},{}
+1990,cuboGelo,cuboGelo,3,200,100,1,,,,,,,,,,,{},{}
 1991,lanternaJack,lanternaJack,3,200,100,1000,,,,,,,,,,,{},{}
 1992,RealisticBrain,RealisticBrain,3,200,100,50,,,,,,,,,,,{},{}
 1993,jaraSangue,jaraSangue,3,200,100,375,,,,,,,,,,,{},{}
