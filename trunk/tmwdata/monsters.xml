@@ -238,8 +238,14 @@ Ou um comentário de alguem.
 <sprite>monster-butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
 <sprite>generic-shadow-small-circle.xml</sprite>
 </monster>
+<monster id="56" name="Trasgo de Gelo" summon="trasgoGelo">
+	<sprite>monsters/goblin-ice.xml</sprite>
+	<sound event="hit">fire-goblin-hit1.ogg</sound>
+	<sound event="hit">fire-goblin-hit2.ogg</sound>
+	<sound event="miss">fire-goblin-miss1.ogg</sound>
+</monster>
 <monster id="59" name="Moggun" summon="moggun">
-<sprite>monster-moggun.xml</sprite>
+	<sprite>monsters/moggun.xml</sprite>
 </monster>
 <monster id="60" name="Terranite" summon="terranite">
 <sprite>monster-terranite.xml</sprite>
@@ -248,6 +254,12 @@ Ou um comentário de alguem.
 <sprite>monsters/monster-vampire-bat.xml</sprite>
 <sound event="die">bat-dying1.ogg</sound>
 <sound event="hit">bat-hit1.ogg</sound>
+</monster>
+<monster id="69" name="Elemento Gelo" summon="elementoGelo">
+	<sprite>monsters/element-ball.xml|#5e929d,a2d8e3,ffffff</sprite>
+</monster>
+<monster id="83" name="Caveira de Gelo" summon="caveiraGelo">
+	<sprite>monsters/skull-ice.xml</sprite>
 </monster>
 <monster id="300" name="Esqueleto" summon="esqueleto">
 <sprite>monster-skeleton.xml</sprite>
