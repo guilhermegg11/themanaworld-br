@@ -50,7 +50,7 @@
   <image source="../graphics/tiles/placas_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="1369" name="outdoor" tilewidth="32" tileheight="192">
-  <image source="../graphics/tiles/outdoor_hlw2011_x6.png" width="1088" height="192"/>
+  <image source="../graphics/tiles/outdoor_natal2011_x6.png" width="1088" height="192"/>
  </tileset>
  <layer name="Ground" width="200" height="140">
   <data encoding="base64" compression="gzip">
@@ -315,7 +315,6 @@
     <property name="dest_y" value="1792"/>
    </properties>
   </object>
-  <object name="graphics/particles/circulo-magico2.xml" type="PARTICLE_EFFECT" x="3008" y="1312" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="colmeias" width="0" height="0">
   <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="1216" y="1504" width="32" height="32"/>

@@ -5,3 +5,4 @@ npc: npc/013_florestaNegra/_scripts.txt
 npc: npc/013_florestaNegra/_warps.txt
 
 npc: npc/013_florestaNegra/mapflags.conf
+npc: npc/013_florestaNegra/teleportador.conf
