@@ -533,10 +533,10 @@
 		image="weapon-polearm-bardiche.png"
 		name="Bardiche"
 		description="Arma de cabo longo e Lãmina grande e afiada."
-		effect=""
+		effect="lvl 55, +120 Dano, +5 Agilidade, +2 Destreza"
 		type="equip-2hand"
 		weapon-type="polearm"
-		weight="1"/>
+		weight="1300"/>
 	<item id="548"
 		image="weapon-polearm-halberd.png"
 		name="Halberd"
@@ -702,7 +702,7 @@
 		effect="lvl 40, +90 Dano, +10 Agilidade, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="knife"
-		weight="450">
+		weight="800">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 	<item id="571"
@@ -720,20 +720,20 @@
 		image="weapon-sword-scimitar.png"
 		name="Scimitar"
 		description="Uma espada com uma pesada lâmina curvada e de um só fio."
-		effect=""
+		effect="lvl 60, +135 Dano, +3 Agilidade, +2 Destreza"
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1">
+		weight="2000">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 	<item id="573"
 		image="weapon-sword-falchion.png"
 		name="Falchion"
 		description="Uma pesada espada de um fio, feita para ser usada com uma mão."
-		effect=""
+		effect="lvl 60, +145 Dano, +2 Agilidade, +3 Destreza"
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1">
+		weight="2000">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 	<item id="574"
@@ -743,7 +743,7 @@
 		effect="lvl 70, +150 Dano, 2 Alcance"
 		type="equip-2hand"
 		weapon-type="polearm"
-		weight="200"/>
+		weight="1500"/>
 	<item id="575"
 		image="weapon-bow-desertbow.png"
 		name="Arco do deserto"
@@ -760,28 +760,28 @@
 		image="weapon-sword-beheader.png"
 		name="Beheader"
 		description="Uma espada com uma forma bastante peculiar, designada para decapitar o inimigo."
-		effect=""
+		effect="lvl 60, +130 Dano, +5 Agilidade, +5 Destreza"
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1">
+		weight="1000">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 	<item id="577"
 		image="weapon-thrown-bonedarts.png"
 		name="Dardos de osso"
 		description="Dardos feitos de osso."
-		effect=""
+		effect="lvl 55, +130 Dano, +10 Agilidade, +5 Destreza"
 		type="equip-1hand"
 		weapon-type="thrown"
 		weight="1"/>
-	<item id="578"
+	<item id="500"
 		image="weapon-sword-sandcutter.png"
 		name="Cortadora de Areia"
 		description="Uma espada longa com ponta em forma de lua, muito usada por guerreiros noturnos do deserto."
-		effect=""
+		effect="lvl 55, +120 Dano, +5 Agilidade, +1 Destreza"
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1">
+		weight="1000">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 	<item id="579"
@@ -814,26 +814,26 @@
 		image="weapon-staff-staffoffire.png"
 		name="Cajado de Fogo"
 		description="Um cajado que aumenta o poder de magias de fogo."
-		effect=""
+		effect="lvl 50, +110 Dano, +7 Agilidade, +6 Destreza, +5 Sorte"
 		type="equip-1hand"
 		weapon-type="staff"
-		weight="1"/>
+		weight="700"/>
 	<item id="583"
 		image="weapon-staff-staffofice.png"
 		name="Cajado de Gelo"
 		description="Um cajado que aumenta o poder de magias de gelo."
-		effect=""
+		effect="lvl 50, +110 Dano, +8 Agilidade, +7 Destreza, +6 Sorte"
 		type="equip-1hand"
 		weapon-type="staff"
-		weight="1"/>
+		weight="700"/>
 	<item id="584"
 		image="weapon-sword-jackal.png"
 		name="Jackal"
 		description="Uma pequena e pesada espada chamada Jackal."
-		effect=""
+		effect="lvl 60, +140 Dano, +3 Agilidade, +2 Destreza"
 		type="equip-1hand"
 		weapon-type="sword"
-		weight="1">
+		weight="2000">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 	<item id="585"
@@ -5144,7 +5144,7 @@
 		effect="lvl 70, +150 Dano, +5 Defesa Mágica, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="axe"
-		weight="2000">
+		weight="1500">
 		<sprite>weapon-tomahawk.xml</sprite>
 	</item>
 	<item id="3048"

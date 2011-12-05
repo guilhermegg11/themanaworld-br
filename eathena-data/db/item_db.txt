@@ -76,7 +76,7 @@
 544,faixadeseda,Faixa de Seda,5,5000,2000,10,,3,,-10,0,2,256,,0,0,{},{}
 545,arcodafloresta,Arco da Floresta,4,5000,2500,1200,70,,5,,0,2,34,1,30,11,{},{}
 546,camisadodeserto,Camisa do Deserto,5,2000,1000,20,,6,,-18,0,2,512,,30,0,{},{}
-547,bardiche,Bardiche,5,20,10,1,100,,1,,0,2,2,1,50,0,{},{}
+547,bardiche,Bardiche,5,20,10,1300,120,,1,,0,2,2,1,55,0,{},{ bonus bAgi, 5; bonus bDex, 2; }
 548,halberd,Halberd,4,20,10,1,100,,1,,0,2,2,1,50,0,{},{}
 549,machado,Machado,4,20,10,1,100,,1,,0,2,2,1,50,0,{},{}
 550,machadodeferreiro,Machado de Ferreiro,4,20,10,1,100,,1,,0,2,2,1,50,0,{},{}
@@ -99,21 +99,21 @@
 567,pocaoenergetica,Poção Energética,0,500,250,10,,,,,,2,,,0,,{ sc_start 185,90, 60; },{}
 568,pocaodeconcentracao,Poção de Concentração,0,500,250,10,,,,,,2,,,0,,{ sc_start 37,90, 30; },{}
 569,tocodemadeira,Toco de Madeira,3,20,10,10,,,,,,,,,,,{},{}
-570,AdagaBoniClaide,Adaga de Boni e Claide,4,10000,6000,450,90,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+570,AdagaBoniClaide,Adaga de Boni e Claide,4,10000,6000,800,90,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
 571,Setzer,Setzer,4,20000,8000,900,110,,1,,0,2,2,1,50,3,{},{}
-572,Scimitar,Scimitar,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
-573,Falchion,Falchion,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
-574,lancaReiEscorpiao,lancaReiEscorpiao,4,8000,4000,200,150,,2,,0,2,34,1,70,1,{},{}
+572,Scimitar,Scimitar,4,8000,4000,2000,135,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+573,Falchion,Falchion,4,8000,4000,2000,145,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+574,lancaReiEscorpiao,lancaReiEscorpiao,4,8000,4000,1500,150,,2,,0,2,34,1,70,1,{},{}
 575,arcododeserto,Arco do Deserto,4,8000,4000,1150,100,,7,,0,2,34,1,45,11,{},{}
-576,Beheader,Beheader,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
-577,dardosdeosso,Dardos de Osso,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
-578,cortadoradeareia,Cortadora de Areia,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
+576,Beheader,Beheader,4,8000,4000,1000,130,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+577,dardosdeosso,Dardos de Osso,4,8000,4000,500,115,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+578,cortadoradeareia,Cortadora de Areia,4,8000,4000,1000,120,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
 579,RockKnife,Rock Knife,4,15000,7500,3000,300,,1,,0,2,34,1,90,1,{},{}
 580,cajadodavida,Cajado da Vida,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
 581,varinhameialua,Varinha Meia Lua,4,8000,4000,95,1,,1,,0,2,2,1,50,1,{},{ bonus bMatk1, 100; }
-582,cajadodefogo,Cajado de Fogo,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
-583,cajadodegelo,Cajado de Gelo,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
-584,Jackal,Jackal,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
+582,cajadodefogo,Cajado de Fogo,4,8000,4000,700,110,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+583,cajadodegelo,Cajado de Gelo,4,8000,4000,700,110,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+584,Jackal,Jackal,4,8000,4000,2000,140,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
 585,pulseiraescaravelho,Pulseira Escaravelho,5,8000,4000,200,,0,,5,0,2,32,,1,1,{},{}
 586,shortdealgodao,Short de Algodão,5,1000,500,15,,2,,-4,0,2,1,,1,0,{},{}
 //587,RESERVED,Espada,,,,,,,,,,,,,,,{},{}
@@ -627,7 +627,7 @@
 3044,presentePrateado,Presente Prateado,3,99,400,25,,,,,,,,,,,{},{}
 3045,presenteDourado,Presente Dourado,0,99,1,25,,,,,,2,,,0,,{callfunc "usePresenteSurpresa";},{}
 3046,verdadeiroTrevo,Terdadeiro Trevo,5,50000,25000,10,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 10; bonus bMdef, 25; }
-3047,machadinhaThomasHawk,Machadinha de Thomas Hawk,4,16000,8000,2000,150,,1,,0,2,2,1,70,1,{},{bonus bMdef, 5; }
+3047,machadinhaThomasHawk,Machadinha de Thomas Hawk,4,16000,8000,1500,150,,1,,0,2,2,1,70,1,{},{ bonus bMdef, 5; }
 3048,MiniSaia,Mini Saia,5,1200,600,20,,2,,-8,0,0,1,,1,0,{},{}
 3049,MascaraNinja,Máscara Ninja,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
 3050,BoneDoador2010,Boné de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
