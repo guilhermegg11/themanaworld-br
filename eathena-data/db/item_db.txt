@@ -106,7 +106,7 @@
 574,lancaReiEscorpiao,lancaReiEscorpiao,4,8000,4000,1500,150,,2,,0,2,34,1,70,1,{},{}
 575,arcododeserto,Arco do Deserto,4,8000,4000,1150,100,,7,,0,2,34,1,45,11,{},{}
 576,Beheader,Beheader,4,8000,4000,1000,130,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
-577,dardosdeosso,Dardos de Osso,4,8000,4000,500,115,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+577,dardosdeosso,Dardos de Osso,4,8000,4000,500,115,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
 578,cortadoradeareia,Cortadora de Areia,4,8000,4000,1000,120,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
 579,RockKnife,Rock Knife,4,15000,7500,3000,300,,1,,0,2,34,1,90,1,{},{}
 580,cajadodavida,Cajado da Vida,4,8000,4000,1,1,,1,,0,2,2,1,1,1,{},{}
