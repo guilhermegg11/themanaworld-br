@@ -1,4 +1,5 @@
 // Ativa todos os NPCs, warps e monstros do natal de 2011
 
+npc: npc/natal/2011/bauPremios.conf
 npc: npc/natal/2011/infoNatal.conf
 npc: npc/natal/2011/shops.conf
