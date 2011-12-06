@@ -7645,8 +7645,8 @@
 
 	<item id="3360"
 		image="armor-head-cabeca-rena.png"
-		name="Cabeça de Rena"
-		description="..."
+		name="Chapéu Cabeça de Rena"
+		description="Um chapéu fantasia de cabeça de rena."
 		type="equip-head"
 		weight="80"
 		defense="2">
