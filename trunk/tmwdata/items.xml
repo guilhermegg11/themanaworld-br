@@ -7397,7 +7397,7 @@
 	<item id="3328"
 		image="armor-chest-armadura-cavaleiro-negro.png"
 		name="Armadura Cavaleiro Negro ★★★"
-		description="Set inteiro como prêmio (capacete, armadura, calça, botas e luvas)."
+		description="Armadura do Cavaleiro Negro."
 		effect="lvl 70 (Halloween 2011)"
 		type="equip-torso"
 		weight="150"
@@ -7452,7 +7452,7 @@
 	<item id="3333"
 		image="armor-chest-armadura-cavaleiro-demoniaco.png"
 		name="Armadura Cavaleiro Demoniaco"
-		description="Calça de um cavaleiro demoníaco."
+		description="Armadura de um cavaleiro demoníaco."
 		effect="lvl 50"
 		type="equip-torso"
 		weight="2000"
@@ -7651,6 +7651,16 @@
 		weight="80"
 		defense="2">
 		<sprite>equipment/head/cabeca-rena.xml</sprite>
+	</item>
+	<item id="3362"
+		image="armor-legs-calca-cavaleiro-negro.png"
+		name="Calça Natalina"
+		description="..."
+		effect="(Natal 2011)"
+		type="equip-legs"
+		weight="100"
+		defense="2">
+		<sprite>equipment/leg/calca-natalina-male.xml</sprite>
 	</item>
 
 </items>
