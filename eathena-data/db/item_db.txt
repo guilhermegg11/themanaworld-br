@@ -947,6 +947,7 @@
 3358,gemaTeleporte,gemaTeleporte,0,500,10,5,,,,,,2,,,0,,{ callfunc "useGemaTeleporte"; },{}
 3359,gemaBuff,gemaBuff,0,500,10,5,,,,,,2,,,0,,{ callfunc "useGemaBuff"; },{}
 
-3360,cabecaRena,cabecaRena,5,10,1,80,,2,,0,0,2,256,,0,0,{},{}
-3361,camisetaNatalina,camisetaNatalina,5,2000,1000,2000,0,20,0,0,0,2,512,0,1,0,{},{}
-3362,calcaNatalina,calcaNatalina,5,2000,1000,400,0,2,0,0,0,2,1,0,1,0,{},{}
+3360,cabecaRena,cabecaRena,5,1000,500,80,,2,,0,0,2,256,,0,0,{},{}
+3361,cabecaUrso,cabecaUrso,5,1000,500,80,,2,,0,0,2,256,,0,0,{},{}
+3362,camisetaNatalina,camisetaNatalina,5,2000,1000,2000,0,20,0,0,0,2,512,0,1,0,{},{}
+3363,calcaNatalina,calcaNatalina,5,2000,1000,400,0,2,0,0,0,2,1,0,1,0,{},{}
