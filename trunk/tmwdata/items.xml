@@ -7646,7 +7646,7 @@
 	<item id="3360"
 		image="armor-head-cabeca-rena.png"
 		name="Chapéu Cabeça de Rena"
-		description="Um chapéu fantasia de cabeça de rena."
+		description="Parece bastante com uma rena de verdade, mas é só um chapéu de pelúcia e madeira."
 		effect="(Natal 2011)"
 		type="equip-head"
 		weight="80"
@@ -7656,7 +7656,7 @@
 	<item id="3361"
 		image="armor-head-cabeca-urso.png"
 		name="Chapéu Cabeça de Urso"
-		description="Um chapéu fantasia de cabeça de urso."
+		description="Ursinho de Pelúcia que serve para por na cabeça... Que fofinho."
 		effect="(Natal 2011)"
 		type="equip-head"
 		weight="80"
@@ -7664,24 +7664,34 @@
 		<sprite>equipment/head/cabeca-urso.xml</sprite>
 	</item>
 	<item id="3362"
-		image="armor-chest-calca-cavaleiro-negro.png"
-		name="Camiseta Natalina"
-		description="..."
+		image="armor-chest-camisa-natalina.png"
+		name="Camisa Natalina ♂"
+		description="Feita por doendes, com algodão do Polo Norte. Bem fofinha e quentinha."
 		effect="(Natal 2011)"
-		type="equip-legs"
-		weight="100"
+		type="equip-torso"
+		weight="90"
 		defense="2">
-		<sprite>equipment/chest/camiseta-natalina-male.xml</sprite>
+		<sprite>equipment/chest/camisa-natalina-male.xml</sprite>
 	</item>
 	<item id="3363"
-		image="armor-legs-calca-cavaleiro-negro.png"
-		name="Calça Natalina"
-		description="..."
+		image="armor-leg-calca-natalina.png"
+		name="Calça Natalina ♂"
+		description="Uma calça igual ao do Papai Noel."
 		effect="(Natal 2011)"
 		type="equip-legs"
-		weight="100"
+		weight="160"
 		defense="2">
 		<sprite>equipment/leg/calca-natalina-male.xml</sprite>
+	</item>
+	<item id="3364"
+		image="armor-chest-vestido-natalino.png"
+		name="Vestido Natalino ♀"
+		description="..."
+		effect="(Natal 2011)"
+		type="equip-torso"
+		weight="180"
+		defense="2">
+		<sprite>equipment/chest/vestido-natalino-female.xml</sprite>
 	</item>
 
 </items>
