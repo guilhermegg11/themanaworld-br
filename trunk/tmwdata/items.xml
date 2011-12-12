@@ -7663,6 +7663,16 @@
 		defense="2">
 		<sprite>equipment/head/cabeca-urso.xml</sprite>
 	</item>
+	<item id="3362"
+		image="armor-chest-calca-cavaleiro-negro.png"
+		name="Camiseta Natalina"
+		description="..."
+		effect="(Natal 2011)"
+		type="equip-legs"
+		weight="100"
+		defense="2">
+		<sprite>equipment/chest/camiseta-natalina-male.xml</sprite>
+	</item>
 	<item id="3363"
 		image="armor-legs-calca-cavaleiro-negro.png"
 		name="Calça Natalina"
