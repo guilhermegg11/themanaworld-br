@@ -2,7 +2,7 @@
 
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/equipment/chest/camiseta-natalina-male.png" width="26" height="44"/>
+	<imageset name="base" src="graphics/sprites/equipment/chest/camisa-natalina-male.png" width="26" height="44"/>
 
 	<include file="player_male_base.xml"/>
 
