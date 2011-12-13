@@ -681,4 +681,48 @@
 		<item id="762" name="Flecha de Terranite"/>
 		<item id="1199" name="Flecha"/>
 	</group>
+	<group type="000" id="novos" name="Novos" desc="Novos itens adicionados">
+		<item id="3323" name="Colar de Cruz" tmwbr="true"/>
+		<item id="3324" name="Bússola" tmwbr="true"/>
+		<item id="3325" name="Porta Retratos" tmwbr="true"/>
+		<item id="3326" name="Madeira Encantada" tmwbr="true"/>
+		<item id="3327" name="Calça Cavaleiro Negro ★★★" tmwbr="true"/>
+		<item id="3328" name="Armadura Cavaleiro Negro ★★★" tmwbr="true"/>
+		<item id="3329" name="Bota Cavaleiro Negro ★★★" tmwbr="true"/>
+		<item id="3330" name="Luva Cavaleiro Negro ★★★" tmwbr="true"/>
+		<item id="3331" name="Capacete Cavaleiro Negro ★★★" tmwbr="true"/>
+		<item id="3332" name="Calça Cavaleiro Demoniaco" tmwbr="true"/>
+		<item id="3333" name="Armadura Cavaleiro Demoniaco" tmwbr="true"/>
+		<item id="3334" name="Bota Cavaleiro Demoniaco" tmwbr="true"/>
+		<item id="3335" name="Luva Cavaleiro Demoniaco" tmwbr="true"/>
+		<item id="3336" name="Capacete Cavaleiro Demoniaco" tmwbr="true"/>
+		<item id="3337" name="Alma de Jack Maligno" tmwbr="true"/>
+		<item id="3338" name="Pétala de Flor Carnívora" tmwbr="true"/>
+		<item id="3339" name="Asas de Morcego Negro" tmwbr="true"/>
+		<item id="3340" name="Asas de Morcego Vampiro" tmwbr="true"/>
+		<item id="3341" name="Dentes Quebrados" tmwbr="true"/>
+		<item id="3342" name="Fezes de Nojo" tmwbr="true"/>
+		<item id="3343" name="Olhos de Lesma" tmwbr="true"/>
+		<item id="3344" name="Olhos de Nojo" tmwbr="true"/>
+		<item id="3345" name="Olhos de Trevas Ocultas" tmwbr="true"/>
+		<item id="3346" name="Ossos de Nojo" tmwbr="true"/>
+		<item id="3347" name="Pele de Morcego Negro" tmwbr="true"/>
+		<item id="3348" name="Pele de Morcego Vampiro" tmwbr="true"/>
+		<item id="3349" name="Carne de Lesma" tmwbr="true"/>
+		<item id="3350" name="Palha" tmwbr="true"/>
+		<item id="3351" name="Monte de Palha" tmwbr="true"/>
+		<item id="3352" name="Naftalina" tmwbr="true"/>
+		<item id="3353" name="Chifres de Espectro Sombrio" tmwbr="true"/>
+		<item id="3354" name="Par de Olhos" tmwbr="true"/>
+		<item id="3355" name="Poção de Despetrificação" tmwbr="true"/>
+		<item id="3356" name="Espada Petrificada" tmwbr="true"/>
+		<item id="3357" name="Sementes Velhas de Abóbora" tmwbr="true"/>
+		<item id="3358" name="Gema de Teleporte" tmwbr="true"/>
+		<item id="3359" name="Gema de Energia" tmwbr="true"/>
+		<item id="3360" name="Chapéu Cabeça de Rena" tmwbr="true"/>
+		<item id="3361" name="Chapéu Cabeça de Urso" tmwbr="true"/>
+		<item id="3362" name="Camisa Natalina ♂" tmwbr="true"/>
+		<item id="3363" name="Calça Natalina ♂" tmwbr="true"/>
+		<item id="3364" name="Vestido Natalino ♀" tmwbr="true"/>
+	</group>
 </items>
