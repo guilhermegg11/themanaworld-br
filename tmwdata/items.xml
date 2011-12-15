@@ -7665,7 +7665,7 @@
 	</item>
 	<item id="3362"
 		image="armor-chest-camisa-natalina.png"
-		name="Camisa Natalina ♂"
+		name="Camisa Natalina Vermelha ♂"
 		description="Feita por doendes, com algodão do Polo Norte. Bem fofinha e quentinha."
 		effect="(Natal 2011)"
 		type="equip-torso"
@@ -7675,7 +7675,7 @@
 	</item>
 	<item id="3363"
 		image="armor-leg-calca-natalina.png"
-		name="Calça Natalina ♂"
+		name="Calça Natalina Vermelha ♂"
 		description="Uma calça igual ao do Papai Noel."
 		effect="(Natal 2011)"
 		type="equip-legs"
@@ -7685,7 +7685,7 @@
 	</item>
 	<item id="3364"
 		image="armor-chest-vestido-natalino.png"
-		name="Vestido Natalino ♀"
+		name="Vestido Natalino Vermelho ♀"
 		description="..."
 		effect="(Natal 2011)"
 		type="equip-torso"
