@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+
+	<imageset name="base" src="graphics/sprites/equipment/feet/bota-natalina-verde-male.png" width="38" height="32"/>
+
+	<include file="feet-boots-male.xml"/>
+
+</sprite>
