@@ -952,3 +952,10 @@
 3362,camisaNatalina,camisaNatalina,5,2000,1000,90,,2,0,0,0,1,512,0,1,0,{},{}
 3363,calcaNatalina,calcaNatalina,5,2000,1000,160,,2,0,0,0,1,1,0,1,0,{},{}
 3364,vestidoNatalino,vestidoNatalino,5,2000,1000,180,,2,,3,0,0,512,0,1,0,{},{}
+3365,botaNatalinaVermelha,botaNatalinaVerde,5,4000,2000,80,,2,,-2,0,2,64,,0,0,{},{}
+3366,gorroNatalinoVermelho,gorroNatalinoVermelho,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
+3367,camisaNatalinaVerde,camisaNatalinaVerde,5,2000,1000,90,,2,0,0,0,1,512,0,1,0,{},{}
+3368,calcaNatalinaVerde,calcaNatalinaVerde,5,2000,1000,160,,2,0,0,0,1,1,0,1,0,{},{}
+3369,vestidoNatalinoVerde,vestidoNatalinoVerde,5,2000,1000,180,,2,,3,0,0,512,0,1,0,{},{}
+3370,botaNatalinaVerde,botaNatalinaVerde,5,4000,500,80,,2,,-2,0,2,64,,0,0,{},{}
+3371,gorroNatalinoVerde,gorroNatalinoVerde,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
