@@ -7693,5 +7693,73 @@
 		defense="2">
 		<sprite>equipment/chest/vestido-natalino-female.xml</sprite>
 	</item>
+	<item id="3365"
+		image="armor-feet-bota-natalina-vermelha.png"
+		name="Bota Natalina Vermelha"
+		description="..."
+		type="equip-feet"
+		weight="80"
+		defense="2">
+		<sprite gender="male">equipment/feet/bota-natalina-vermelha-male.xml</sprite>
+		<sprite gender="female">equipment/feet/bota-natalina-vermelha-female.xml</sprite>
+	</item>
+	<item id="3366"
+		image="armor-head-gorro-natalino-vermelho.png"
+		name="Gorro Natalino Vermelho"
+		description="..."
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>equipment/head/gorro-natalino-vermelho.xml</sprite>
+	</item>
+	<item id="3367"
+		image="armor-chest-camisa-natalina-verde.png"
+		name="Camisa Natalina Verde ♂"
+		description="Feita por doendes, com algodão do Polo Norte. Bem fofinha e quentinha."
+		effect="(Natal 2011)"
+		type="equip-torso"
+		weight="90"
+		defense="2">
+		<sprite>equipment/chest/camisa-natalina-verde-male.xml</sprite>
+	</item>
+	<item id="3368"
+		image="armor-leg-calca-natalina-verde.png"
+		name="Calça Natalina Verde ♂"
+		description="Uma calça igual ao do Papai Noel."
+		effect="(Natal 2011)"
+		type="equip-legs"
+		weight="160"
+		defense="2">
+		<sprite>equipment/leg/calca-natalina-verde-male.xml</sprite>
+	</item>
+	<item id="3369"
+		image="armor-chest-vestido-natalino-verde.png"
+		name="Vestido Natalino Verde ♀"
+		description="..."
+		effect="(Natal 2011)"
+		type="equip-torso"
+		weight="180"
+		defense="2">
+		<sprite>equipment/chest/vestido-natalino-verde-female.xml</sprite>
+	</item>
+	<item id="3370"
+		image="armor-feet-bota-natalina-verde.png"
+		name="Bota Natalina Verde"
+		description="..."
+		type="equip-feet"
+		weight="80"
+		defense="2">
+		<sprite gender="male">equipment/feet/bota-natalina-verde-male.xml</sprite>
+		<sprite gender="female">equipment/feet/bota-natalina-verde-female.xml</sprite>
+	</item>
+	<item id="3371"
+		image="armor-head-gorro-natalino-verde.png"
+		name="Gorro Natalino Verde"
+		description="..."
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>equipment/head/gorro-natalino-verde.xml</sprite>
+	</item>
 
 </items>
