@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<sprite variants="379" variant_offset="1">
+
+	<imageset name="base" src="graphics/sprites/npcs/natal-duendes.png" width="28" height="66"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0"/>
+		</animation>
+	</action>
+
+</sprite>
