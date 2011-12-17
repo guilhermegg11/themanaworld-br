@@ -7762,4 +7762,19 @@
 		<sprite>equipment/head/gorro-natalino-verde.xml</sprite>
 	</item>
 
+	<item id="3374"
+		image="use-food-biscoito-canela.png"
+		name="Biscoitos de Canela"
+		description="Um biscoito crocante coberto com chocolate, açúcar e canela."
+		type="usable"
+		hp="10"
+		weight="1"/>
+	<item id="3375"
+		image="use-food-balinha-caramelo.png"
+		name="Balinhas de Caramelo"
+		description="Uma deliciosa balinha de caramelo."
+		type="usable"
+		hp="10"
+		weight="1"/>
+
 </items>

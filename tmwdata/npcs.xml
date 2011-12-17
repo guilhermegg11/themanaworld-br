@@ -251,6 +251,22 @@
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
 		<sprite>npcs/cavaleiro-amaldicoado.xml</sprite>
 	</npc>
+	<npc id="379">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="0">npcs/natal-duendes.xml</sprite>
+	</npc>
+	<npc id="380">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="1">npcs/natal-duendes.xml</sprite>
+	</npc>
+	<npc id="381">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="2">npcs/natal-duendes.xml</sprite>
+	</npc>
+	<npc id="382">
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<sprite variant="3">npcs/natal-duendes.xml</sprite>
+	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->
 	<npc id="401"><sprite variant="0">npcs-br.xml</sprite><particlefx>graphics/particles/arvore-encantada.particle.xml</particlefx></npc> <!-- NPC Invisivel com Partícula de Arvore Encantada -->

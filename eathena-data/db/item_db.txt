@@ -959,3 +959,7 @@
 3369,vestidoNatalinoVerde,vestidoNatalinoVerde,5,2000,1000,180,,2,,3,0,0,512,0,1,0,{},{}
 3370,botaNatalinaVerde,botaNatalinaVerde,5,4000,500,80,,2,,-2,0,2,64,,0,0,{},{}
 3371,gorroNatalinoVerde,gorroNatalinoVerde,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
+//3372,luvaNatalinaVermelha
+//3373,luvaNatalinaVerde
+3374,biscoitoCanela,Biscoitos de Canela,0,100,40,0,,,,,,2,,,0,,{ itemheal 10,0; },{}
+3375,balinhaCaramelo,Balinhas de Caramelo,0,100,40,0,,,,,,2,,,0,,{ itemheal 10,0; },{}
