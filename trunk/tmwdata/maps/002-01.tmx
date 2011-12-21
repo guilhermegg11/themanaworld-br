@@ -12,42 +12,45 @@
  <tileset firstgid="3" name="blockWalls" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="259" name="blockWalls_in_x3" tilewidth="32" tileheight="32">
+ <tileset firstgid="259" name="blockWalls_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/blockWalls_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="275" name="blockWalls_in_x3" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/blockWalls_in_x3.png" width="512" height="96"/>
  </tileset>
- <tileset firstgid="307" name="inn" tilewidth="32" tileheight="32">
+ <tileset firstgid="323" name="inn" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="563" name="sombras" tilewidth="32" tileheight="32">
+ <tileset firstgid="579" name="sombras" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/sombras.png" width="192" height="128"/>
  </tileset>
- <tileset firstgid="587" name="numeros" tilewidth="32" tileheight="32">
+ <tileset firstgid="603" name="numeros" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
  </tileset>
- <tileset firstgid="697" name="mesa" tilewidth="32" tileheight="32">
+ <tileset firstgid="713" name="mesa" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/natal_mesa.png" width="320" height="128"/>
  </tileset>
- <tileset firstgid="737" name="inn_x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="753" name="inn_x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/inn_x2.png" width="512" height="64"/>
  </tileset>
  <layer name="Ground" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3ZUUoCURSA4ZkyWphlvVfkAqRanS+1AzdUO+hCCjJeYQahc/V8Dx8jzAHn/AzXBzdd120AAAAAAAAAAAAAgO66mE2cjXAz8hmnzJ6Tuz5W9P6ttL+vtHkp3or3rY/ioTL3WplbVOaG3xG9f6Tnsv9j/3f9T8vtNXr/SKs+VvT+2ue032FeOZ+/i5+B/fuLCbM72h+2f6qcy7V39dgZPnZW+8P2a2dOWPuaz+Kr8vnU2ezto39nM/ePbp65fQv9o/fXPqcpnW6vxtFe+9Zpfx7tnffaXwrtc3bP3D+6eeb2LfSP3l/7nLTXPiPt2zbsNeb/qehnvhTeZwAAAAAAAACA0/0CtxOO4cB2AAA=
+   H4sIAAAAAAAAA+3ZQUoDQRBA0e6oZ/BganSvogcQ9XRu4sFsMELItDhDwOqk3uIxgSnI1GfoLLIppWwAAAAAAAAAAAAAgHLWnC+cjXAx8xmXzB6T6xorev9R2t902jw2r83b1ntz25l76sytO3P73xG9f6SHtv9d/b7+p+ftNXr/SC81VvT+2ue02+Gqcz6XVSl1z+799YLZH9pP2993zuXeu/rbGT53Vvtp+w9nTlj7bpvms/P50Nns7aN/ZzP3j26euf0I/aP31z6nJZ0uV/Nor/3otD+O9s577U+F9jm7Z+4f3Txz+xH6R++vfU7aa5+R9mOb9Kp//z8V/cynwvsMAAAAAAAAAHC4L5sVnv7AdgAA
   </data>
  </layer>
  <layer name="Ground2" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3ZSS8DcRjH8X+HxpXgFQiOLi7OHIqjSCxvwPICvAQvSpzsO7Xv+1Uscfdr2mamk2mLzML8v5/km6pMpvp4MgzGAAAAAAAAAIBdGlRjysqGOqHoTKmBlDUd6oSiw+yTE8bse34Qs3dFtfdJfg9sn32S/ZfZt6q2lNUe6oQAAAAAAGm1qw5UXu3HeByMuVH36kHdxXgcjHlRb+pdvcZ4HAD75NRgxpghNaw6qxzXUXqcy7ifq3Ws95yDoX21/1uv6vM8H1Pjms+EmizP3qks47izn/fPvsqx3nOO13h9m/Sb4v+Eygp7P635zKhZ1aXnzU5lLao74Fy1jvWe07v3/te3if+9j8Xwmt69t3n2frnS46P28ynknkvXJ673wQp7v6AZfagmJ9w+dc5F3/XedqOejwt7H/XsvXs/EvN7/cvY++TU2/sltaxW1KpaU+tqQ22qLbX9g72Hq97e76hdtaf21YHKq0N1pI7VCXv/K/X2/lSdqXN1oS7VlbpWN+pW3bH33xJ0Xxvn9Z77Wlfcv+fYfG8VdF8b597bPHu/8t8Uopp9AT9rgzH75JRn36BZNYZc1imem9kDAAAAAAAAAAAAAAAAAACkyxcH/QArwHYAAA==
+   H4sIAAAAAAAAA+3Zyy4DYRiH8a/FniC2RLC0sbFmwVokLTfgcAW4AJcgrshCiPNZnc/n095/0jYdk9Eic9D5nl/yhMaY6uvNMBgDAAAAAAAAAHapUbUJqy7QCYVnTPUnrPFAJxQeZh+fIGbf/YuYfUlYex/n98D22cdZtcy+UTUlrOZAJwQAAAAASKpltarW1EqEx8GYnDpRp+o4wuNgzKN6Ua/qOcLjANhnQGVTxoyoUdXxzXHtakEfn03lH89XONZ9zsHAv+rq1KN6XY8zalzzmVCThXnWp7/WkM7P0zGXKn1uuWPd58yWeX6b9Jn8/4SKnL2f0nym1Yzq1OPW9NfaVJfPucod6z6ne++9z28T72vPRPCc7r23efZeA4W3b9rP94D7KFyfuN77c/Z+UTOq0bWiJeDq1JLnem+7Ydf7zt6HPXv33g9F/Fr/M/Y+PpX2fl1tqE21pbbVjtpVe2pfHfxi71FSae8PVU4dqWN1ok7VmTpXF+qSvf+TSnt/pa7VjbpVd+pePahH9aSe2fsf8buvjfJ6z31tSdS/59h8b+V3Xxvl3ts8e6/i3xTCmr2Dn7X+mH18irNv1JyaAq6Z2QMAAAAAAAAAAAAAAAAAACTSJ+smmIvAdgAA
   </data>
  </layer>
  <layer name="Fringe" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XzW3CMBiAYZLJuJeyDSNw6Agdoap67giMwAb8bFFxiAoutuqA+AA/j2QpCpYcXlkOTCYAAAAAAAAAAAAAAI9j2seOlmkfR/s42scZ20v7y43t8N39Xr91+XnXXPMZjemwOur9PrJ962aFPbjIND3cXx999tGV56aG9V71z7ZfZnqeu18z174//977rDw/anx1p+sO1y1Kf7McaH9bke1bVnvmbPryKEnbt94/8rzX/n/ttxWd9pm52p+q3fe7vjxKtP/LuzbGS+B5P9ffvg9wD9//Hp4hQvq/9hYd0rVabT+IbA8AAAAAAAAAAADAY/sBWJQ1csB2AAA=
+   H4sIAAAAAAAAA+3YwW3CMBiA0SQbtJP1Xso2HaFDdISqYg5GYANKbxUHlJAmFnal/KF+T7JAwZLhk+UATQMAAAAAAAAAAAAAcD+euthRM+3jaB9H+zilvbT/u9IOD23TPLb94xJr/kclHfaD3u+F7Wu3SezB15mm5+uHwWsfbXru2GW9F/1n27/N9Jy6njPXvp++731mnh85du31upfnNRp/ZznTflmR7WuWe+Ycu/RIGbevvX/kea/9be2/Mjp9z8zV/lruvj916ZGi/W/utTGeA8/7rf72fYA1fP41vIcIU//FL7Gm37W9yPYAAAAAAAAAAAAA3LcfHkwB7MB2AAA=
   </data>
  </layer>
  <layer name="Top " width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WXU7CQBiF4daC6LV/C0B0AS7AC11yvfAPFXQHuh+/pjQZG2Y6DTRHmPdJTiyhzJTjdGiWAQAAAAAAAAAAAACATUzVFzCAmfoCItG9Dt3r0L0O3evQvQ7d69C9zo36ArastDyoL2IAyntkV9byUOheh+516F7H7b6wjJyMPZ+pzju2HDl/Q+f6xqT7sNuD+LFiz23OS737LkN2jzC63y90XysEczbd+36fU3EvmLPp/k4w93+ieL7nOafWp/tH6+zJ8mx5sbxa5pY3y7vlw7KI2Mvpvsa616F7HbpPC8/3OnSvQ/e1MiI/Pcf8jhy33Pzyd9rSUuRZNrKM8/r1uvQd05f2XCmrvv/Ueri2zDzdf2bx67jK15oxlp65UhZalzH3Q8zaDo2TstC6dI+7/g/u++21HbqvUha7lrv2pa73t/E7sm/69NSs70PLZLXOm+O++xLdx3G7OrGOzy0XllPn+Cyn0yG095ar1f5y6Ry39xoAAAAAAAAAAAAAAAD89QsPb2UBwHYAAA==
+   H4sIAAAAAAAAA+3W603DMBiF4YTCBNwGKIUBymUA+M+yYYLCD64tCPbhq9JIJoodR611aP0+0pECTR1zcJwUBQAAAAAAAAAAAAAAWMdYPYEEJuoJRKJ7HbrXoXsdutehex2616F7nal6AhtWWR7Uk0hAeY9sy1pOhe516F6H7nXc7keWfScHnu+MOn4XOtc3Jt2H3e/FjxV7bnNe7t33Sdk9wuh+t9B9reu5mVrTve/5nIs7wTWb7m8F1/5PFO/3vOfUhnT/bJ29WF4tb5Z3y4dlbllYPi1fEXs53ddY9zp0r0P3eeH9Xofudei+VkXkZ+CY35HjVutPf6vNLIdlURxZjsv6564MHdOX9rVytvz7p9bDjeXK0/1jEb+Ol3nqGGPmuVbOQusy5n6IWduhcXIWWpfucd//wf28vbZD91XOYtdy377U9/kmniO7ZkhPzfo+sZyu1nlzPHRfovs4bldj6/jccmE5c44nJZ2m0N5brlf7y6Vz3N5rAAAAAAAAAAAAAAAA8NcvO8CtKcB2AAA=
   </data>
  </layer>
  <layer name="Top2" width="95" height="80" visible="0">
@@ -107,5 +110,7 @@
     <property name="dest_y" value="1600"/>
    </properties>
   </object>
+  <object name="graphics/particles/natal-decoracao1.xml" type="PARTICLE_EFFECT" x="1440" y="1216" width="32" height="32"/>
+  <object name="graphics/particles/natal-decoracao1.xml" type="PARTICLE_EFFECT" x="1536" y="1216" width="32" height="32"/>
  </objectgroup>
 </map>
