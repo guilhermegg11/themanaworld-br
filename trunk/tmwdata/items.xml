@@ -7746,6 +7746,7 @@
 		image="armor-feet-bota-natalina-verde.png"
 		name="Bota Natalina Verde"
 		description="..."
+		effect="(Natal 2011)"
 		type="equip-feet"
 		weight="80"
 		defense="2">
@@ -7756,12 +7757,34 @@
 		image="armor-head-gorro-natalino-verde.png"
 		name="Gorro Natalino Verde"
 		description="..."
+		effect="(Natal 2011)"
 		type="equip-head"
 		weight="20"
 		defense="2">
 		<sprite>equipment/head/gorro-natalino-verde.xml</sprite>
 	</item>
-
+	<item id="3372"
+		image="armor-hands-luva-natalina-vermelha.png"
+		name="Luva Natalina Vermelha"
+		description="..."
+		effect="(Natal 2011)"
+		type="equip-arms"
+		weight="30"
+		defense="1">
+		<sprite gender="male">equipment/hands/luva-natalina-vermelha-male.xml</sprite>
+		<sprite gender="female">equipment/hands/luva-natalina-vermelha-female.xml</sprite>
+	</item>
+	<item id="3373"
+		image="armor-hands-luva-natalina-verde.png"
+		name="Luva Natalina Verde"
+		description="..."
+		effect="(Natal 2011)"
+		type="equip-arms"
+		weight="30"
+		defense="1">
+		<sprite gender="male">equipment/hands/luva-natalina-verde-male.xml</sprite>
+		<sprite gender="female">equipment/hands/luva-natalina-verde-female.xml</sprite>
+	</item>
 	<item id="3374"
 		image="use-food-biscoito-canela.png"
 		name="Biscoitos de Canela"
