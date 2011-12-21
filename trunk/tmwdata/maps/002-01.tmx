@@ -24,27 +24,30 @@
  <tileset firstgid="587" name="numeros" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
  </tileset>
- <tileset firstgid="697" name="tapete-mapa-mundial" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/tapete-mapa-mundial.png" width="640" height="352"/>
+ <tileset firstgid="697" name="mesa" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/natal_mesa.png" width="320" height="128"/>
+ </tileset>
+ <tileset firstgid="737" name="inn_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/inn_x2.png" width="512" height="64"/>
  </tileset>
  <layer name="Ground" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3ZQUrDUBCA4QTtydTWvYo9gLSezk29QS9Ub+ADK5R0hISCE51v8ZFCBpr5Ca+L7ruu2wMAAAAAAAAAAAAA3VVzPXE2w2LkM06Z/Utu+1zZ+8+l/V3Q5qnZNNuj12YVzD0Hc8tgbvgd2ftnemz73/df19+0Pl6z98/00ufK3l/7mk473ATn86H5GDi9v5ww+0378/YPwbkcvas/neFjZ7U/b//mzElrH9k178HnS2ert8/+na3cP7t55fZz6J+9v/Y1aa99RdprX5H22leT3b1y/+zmldvPoX/2/trXpL32FWk/b8NeY/6fyn7m/8L7DAAAAAAAAABwuU/BnoaJwHYAAA==
+   H4sIAAAAAAAAA+3ZUUoCURSA4ZkyWphlvVfkAqRanS+1AzdUO+hCCjJeYQahc/V8Dx8jzAHn/AzXBzdd120AAAAAAAAAAAAAgO66mE2cjXAz8hmnzJ6Tuz5W9P6ttL+vtHkp3or3rY/ioTL3WplbVOaG3xG9f6Tnsv9j/3f9T8vtNXr/SKs+VvT+2ue032FeOZ+/i5+B/fuLCbM72h+2f6qcy7V39dgZPnZW+8P2a2dOWPuaz+Kr8vnU2ezto39nM/ePbp65fQv9o/fXPqcpnW6vxtFe+9Zpfx7tnffaXwrtc3bP3D+6eeb2LfSP3l/7nLTXPiPt2zbsNeb/qehnvhTeZwAAAAAAAACA0/0CtxOO4cB2AAA=
   </data>
  </layer>
  <layer name="Ground2" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3ZTUrDQBjG8Una4lZRTyDq0o0b17podSlCqxewegCP4KHEK4h6APFzK37g3ic0IdOQBoTJxGb+P3joB8OkffqSktYYAAAAAAAAAAhLR+m2LD2nDdXnVNlrWcZOG6oP3TfHRfdbfwjd5+qa+yY/g9C7bzLz0v2ystKyrDptCAAAAADQVjfKnXKv3HpcB2MelCflWXn0uA7GvCufypfy4XEdgPD0lUFkzL5yoKzPWLeW3l5E+XNVa+09B85e7XzbVnasx0NlpH6OlZOs+3g6UZx3f1nsfsZae89RxfFDsmsm/wllkrkfq58z5VzZ0OPFeDpLymbJXlVr7T3tuS8ePyTF9z70cEx77kPuvqif3r5oPl8d5y09P3G+L5fM/ZU6+lYWYrf50Z7XhfN96I6s+8nc1929PfeHnt/rf8bcN8f33CPH3DeHufen7LrW59xzXZvzPfchX1uVXdf6nPuQuy/KflOoq/sE37Xl6L45WfcdddV1nF482ZvuAQAAAAAAAAAAAAAAAAAA2uUXS+zP18B2AAA=
+   H4sIAAAAAAAAA+3ZSS8DcRjH8X+HxpXgFQiOLi7OHIqjSCxvwPICvAQvSpzsO7Xv+1Uscfdr2mamk2mLzML8v5/km6pMpvp4MgzGAAAAAAAAAIBdGlRjysqGOqHoTKmBlDUd6oSiw+yTE8bse34Qs3dFtfdJfg9sn32S/ZfZt6q2lNUe6oQAAAAAAGm1qw5UXu3HeByMuVH36kHdxXgcjHlRb+pdvcZ4HAD75NRgxpghNaw6qxzXUXqcy7ifq3Ws95yDoX21/1uv6vM8H1Pjms+EmizP3qks47izn/fPvsqx3nOO13h9m/Sb4v+Eygp7P635zKhZ1aXnzU5lLao74Fy1jvWe07v3/te3if+9j8Xwmt69t3n2frnS46P28ynknkvXJ673wQp7v6AZfagmJ9w+dc5F3/XedqOejwt7H/XsvXs/EvN7/cvY++TU2/sltaxW1KpaU+tqQ22qLbX9g72Hq97e76hdtaf21YHKq0N1pI7VCXv/K/X2/lSdqXN1oS7VlbpWN+pW3bH33xJ0Xxvn9Z77Wlfcv+fYfG8VdF8b597bPHu/8t8Uopp9AT9rgzH75JRn36BZNYZc1imem9kDAAAAAAAAAAAAAAAAAACkyxcH/QArwHYAAA==
   </data>
  </layer>
- <layer name="Fringe" width="95" height="80" visible="0">
+ <layer name="Fringe" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XWwqCQBiAUaeV9d5lNy2hh5bQEiJ6bgktoe2ED5KJClr4a3MOCKIDox+Dl6IAAAAAAAAAAAAAAFiO9Sp2y5n2cbSPo32csb20/97YDvf03j+l7nG/nPMfjenwqPU+j2yfu23PGjx0NC2PP2vnLql/bFM1307/zvbHjp5tx4eMte7b33vXgc+PIW7pc95qP0fNb5aS9tOKbJ+zyGdO7v21j6N9HO1jedfG2ASu+73+1n2AOdz/HK4hQvO/dooOzblybV+JbA8AAAAAAAAAAADAsr0Au3aXJsB2AAA=
+   H4sIAAAAAAAAA+3XzW3CMBiAYZLJuJeyDSNw6Agdoap67giMwAb8bFFxiAoutuqA+AA/j2QpCpYcXlkOTCYAAAAAAAAAAAAAAI9j2seOlmkfR/s42scZ20v7y43t8N39Xr91+XnXXPMZjemwOur9PrJ962aFPbjIND3cXx999tGV56aG9V71z7ZfZnqeu18z174//977rDw/anx1p+sO1y1Kf7McaH9bke1bVnvmbPryKEnbt94/8rzX/n/ttxWd9pm52p+q3fe7vjxKtP/LuzbGS+B5P9ffvg9wD9//Hp4hQvq/9hYd0rVabT+IbA8AAAAAAAAAAADAY/sBWJQ1csB2AAA=
   </data>
  </layer>
- <layer name="Top " width="95" height="80" visible="0">
+ <layer name="Top " width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WW27CMBCFYaeBXp57WwClXUAX0Id2yekKaHfQ7oeJgiU3wo4jsE7B/yeNCCLY5jBx4hwAAAAAAAAAAAAAADjESr2AAtbqBWQiex2y1yF7HbLXIXsdstche51X9QKOrLP6VC+iAOU1ciq9XArZ65C9DtnrhNm3VouglpHv9OfdWF0Hr6lzY2OSfdrbRf5Yuef682rPfkrJ7JFG9ueF7AetYE6ffez+XIsPwZw++3fB3P+J4vme55wB2euQvQ7Z65B9XXi+1yF7HbIfdBn1O3PMn8xxu8OXf9I2Vm3j3MJq2Qzv99XcMWM1nqtm/e9fWQ4vVutI9l8uv4/7+t4zxiYyV81SfZlzPeT0dmqcmqX6Mjye+h/Cz8e9nbquapbby1P70tTnx7iPnJs5Ofn+vrS62vW5P567L5F9njCrW8v4werR6i44vm/ItITx3vK821+eguPxXgMAAAAAAAAAAAAAAIC/tvLWcTzAdgAA
+   H4sIAAAAAAAAA+3WXU7CQBiF4daC6LV/C0B0AS7AC11yvfAPFXQHuh+/pjQZG2Y6DTRHmPdJTiyhzJTjdGiWAQAAAAAAAAAAAACATUzVFzCAmfoCItG9Dt3r0L0O3evQvQ7d69C9zo36ArastDyoL2IAyntkV9byUOheh+516F7H7b6wjJyMPZ+pzju2HDl/Q+f6xqT7sNuD+LFiz23OS737LkN2jzC63y90XysEczbd+36fU3EvmLPp/k4w93+ieL7nOafWp/tH6+zJ8mx5sbxa5pY3y7vlw7KI2Mvpvsa616F7HbpPC8/3OnSvQ/e1MiI/Pcf8jhy33Pzyd9rSUuRZNrKM8/r1uvQd05f2XCmrvv/Ueri2zDzdf2bx67jK15oxlp65UhZalzH3Q8zaDo2TstC6dI+7/g/u++21HbqvUha7lrv2pa73t/E7sm/69NSs70PLZLXOm+O++xLdx3G7OrGOzy0XllPn+Cyn0yG095ar1f5y6Ry39xoAAAAAAAAAAAAAAAD89QsPb2UBwHYAAA==
   </data>
  </layer>
  <layer name="Top2" width="95" height="80" visible="0">
@@ -52,12 +55,12 @@
    H4sIAAAAAAAAA+3XMREAQAgEMbww798iGmj+ChIDW28VAAAAAAAAAAAAAAAAAADwQwfbL9gGAADgju1/Jl8ZAAAAAAAAAAAAAK4Ym5qgF8B2AAA=
   </data>
  </layer>
- <layer name="Collision" width="95" height="80" visible="0" opacity="0.52">
+ <layer name="Collision" width="95" height="80" visible="0" opacity="0.5">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VwQpAUBCG0cv7P7SNlRJX8o/mLM6CRPNNuesYYwUAAAAAAAAAAAAAAH5l2X39XEdLSHruCrTPt7+7l5kdzn6vG+3/1/7sWvtn7Y/dznreuXf1zvTcFZpf9Xv7fHXmal9Bqn167gq0174j7bXvSHvtO9I+1zzVvvMOtM/zz6nhi/ZoX4329eirfXd6AwAAAAAAAADM2wALTU5uwHYAAA==
+   H4sIAAAAAAAAA+3VwQqEIBiFUev9H7rNrAYibYbub57gLJIw/ATdW2s7AAAAAAAAAAAAAAAwle3j6e9WtIWk112B9vn2vfsysoej/1uN9vO1P3vX/l77725nPXvGruZMr7tC86t+/75f3bnaV5Bqn153BdrXbz86n/baV9bb/u6j/e/tnffav4n2ueap9ivvgfZ5zpwanmiP9tVoX4++2q9ObwAAAAAAAACAcQfTydjXwHYAAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="Margem" x="0" y="0" width="640" height="640"/>
   <object name="Margem" x="2368" y="1888" width="672" height="672"/>
   <object name="VarandaReunião" x="1152" y="1024" width="64" height="32"/>
