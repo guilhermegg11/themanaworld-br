@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<sprite name="player" action="stand">
+
+	<imageset name="base" src="graphics/sprites/equipment/hands/luva-natalina-vermelha-female.png" width="32" height="49"/>
+
+	<include file="player_female_base.xml"/>
+
+</sprite>
