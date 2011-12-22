@@ -7799,5 +7799,15 @@
 		type="usable"
 		hp="10"
 		weight="1"/>
+	<item id="3376"
+		image="armor-head-chapeu-boneco-neve.png"
+		name="Chapéu Boneco de Neve"
+		description="Cabeção grande e redondo feito de neve. Pra você ficar de cabeça fria :)"
+		effect="(Natal 2011)"
+		type="equip-head"
+		weight="80"
+		defense="2">
+		<sprite>equipment/head/chapeu-boneco-neve-cartola.xml</sprite>
+	</item>
 
 </items>
