@@ -33,6 +33,9 @@
  <tileset firstgid="753" name="inn_x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/inn_x2.png" width="512" height="64"/>
  </tileset>
+ <tileset firstgid="769" name="natal_x4" tilewidth="32" tileheight="128">
+  <image source="../graphics/tiles/natal_decoracao2_x4.png" width="160" height="128"/>
+ </tileset>
  <layer name="Ground" width="95" height="80">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3ZQUoDQRBA0e6oZ/BganSvogcQ9XRu4sFsMELItDhDwOqk3uIxgSnI1GfoLLIppWwAAAAAAAAAAAAAgHLWnC+cjXAx8xmXzB6T6xorev9R2t902jw2r83b1ntz25l76sytO3P73xG9f6SHtv9d/b7+p+ftNXr/SC81VvT+2ue02+Gqcz6XVSl1z+799YLZH9pP2993zuXeu/rbGT53Vvtp+w9nTlj7bpvms/P50Nns7aN/ZzP3j26euf0I/aP31z6nJZ0uV/Nor/3otD+O9s577U+F9jm7Z+4f3Txz+xH6R++vfU7aa5+R9mOb9Kp//z8V/cynwvsMAAAAAAAAAHC4L5sVnv7AdgAA
@@ -45,7 +48,7 @@
  </layer>
  <layer name="Fringe" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YwW3CMBiA0SQbtJP1Xso2HaFDdISqYg5GYANKbxUHlJAmFnal/KF+T7JAwZLhk+UATQMAAAAAAAAAAAAAcD+euthRM+3jaB9H+zilvbT/u9IOD23TPLb94xJr/kclHfaD3u+F7Wu3SezB15mm5+uHwWsfbXru2GW9F/1n27/N9Jy6njPXvp++731mnh85du31upfnNRp/ZznTflmR7WuWe+Ycu/RIGbevvX/kea/9be2/Mjp9z8zV/lruvj916ZGi/W/utTGeA8/7rf72fYA1fP41vIcIU//FL7Gm37W9yPYAAAAAAAAAAAAA3LcfHkwB7MB2AAA=
+   H4sIAAAAAAAAA+3Y223CMBiAUTuZoJ2s771s0xE6REeoqs7BCN2gl7eWBwQJsVUHKT8050gWKFgyfLIcICUAAAAAAAAAAAAAgMtx08WONdM+jvZxtI8zt5f2p5vb4SqndJ33j0us+R/N6bA56P08s/3a3VX24GOh6fb6+8FrL7k+d2y33r3+xfZPhZ5T11vm2vfT973XxvOjxVserrt7vkbj7yxb2i8rsv2alc6c3KfU/Y6+H87/6OqjZtx+7f0jz3vt/9b+s6HTd2Gu9kOt+/6rq48a7Y+518a4DTzvH/S37wOcw+c/h/cQYeq/+CXW9Lt2L7I9AAAAAAAAAAAAAJftBwG3BfzAdgAA
   </data>
  </layer>
  <layer name="Top " width="95" height="80">
@@ -60,7 +63,7 @@
  </layer>
  <layer name="Collision" width="95" height="80" visible="0" opacity="0.5">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VwQqEIBiFUev9H7rNrAYibYbub57gLJIw/ATdW2s7AAAAAAAAAAAAAAAwle3j6e9WtIWk112B9vn2vfsysoej/1uN9vO1P3vX/l77725nPXvGruZMr7tC86t+/75f3bnaV5Bqn153BdrXbz86n/baV9bb/u6j/e/tnffav4n2ueap9ivvgfZ5zpwanmiP9tVoX4++2q9ObwAAAAAAAACAcQfTydjXwHYAAA==
+   H4sIAAAAAAAAA+3VwQqAIBBAQev/P7pLp0DUCnfLCeaQhOETdC+l7AAAAAAAAAAAAAAAwKdsp9nfrWgLEr3uDLSPb9+7LyN7OPq/1Wj/vfa1d+3vtb92q/XsGWvNGb3uDM1b/d6+X9252mcQ1T563Rm0umg/t32t28h82mufWW/7u4/2z9s777X/E+3jmke1X3kPtI/nzMlhRnu0z0b7fPTVfnV6AwAAAAAAAACMOwBrOQPuwHYAAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
@@ -112,5 +115,6 @@
   </object>
   <object name="graphics/particles/natal-decoracao1.xml" type="PARTICLE_EFFECT" x="1440" y="1216" width="32" height="32"/>
   <object name="graphics/particles/natal-decoracao1.xml" type="PARTICLE_EFFECT" x="1536" y="1216" width="32" height="32"/>
+  <object name="graphics/particles/natal-decoracao3.xml" type="PARTICLE_EFFECT" x="1232" y="1376" width="32" height="32"/>
  </objectgroup>
 </map>
