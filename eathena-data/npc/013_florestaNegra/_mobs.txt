@@ -45,56 +45,67 @@
 On1066:
 	set @mobID, 1066;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1346:
 	set @mobID, 1346;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1347:
 	set @mobID, 1347;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1348:
 	set @mobID, 1348;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1349:
 	set @mobID, 1349;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1350:
 	set @mobID, 1350;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1351:
 	set @mobID, 1351;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1352:
 	set @mobID, 1352;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1360:
 	set @mobID, 1360;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1361:
 	set @mobID, 1361;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1362:
 	set @mobID, 1362;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 	end;
