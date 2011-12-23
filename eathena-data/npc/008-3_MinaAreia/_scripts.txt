@@ -2,3 +2,15 @@
 // Scripts do mapa: 008-3 Mina da Areia
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Pedra de Emanar Alma
+008-3.gat,89,65,0	script	#008-3_89x65	326, {
+	callfunc "pedraEmanarAlma", "008-3.gat", 89, 65;
+	close;
+}
+
+// Script: Pedra de Emanar Alma
+008-3.gat,33,44,0	script	#008-3_33x44	326, {
+	callfunc "pedraEmanarAlma", "008-3.gat", 33, 44;
+	close;
+}
