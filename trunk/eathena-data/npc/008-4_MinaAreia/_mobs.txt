@@ -11,11 +11,13 @@
 On1007:
 	set @mobID, 1007;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 On1012:
 	set @mobID, 1012;
 	callfunc "MobPoints";
+	callfunc "emanarAlma";
 	break;
 
 	end;
