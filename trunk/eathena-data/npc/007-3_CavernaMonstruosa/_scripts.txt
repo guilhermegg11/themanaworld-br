@@ -2,3 +2,15 @@
 // Scripts do mapa: 007-3 Caverna Monstruosa
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
+
+// Script: Pedra de Emanar Alma
+007-3.gat,138,70,0	script	#007-3_138x70	326, {
+	callfunc "pedraEmanarAlma", "007-3.gat", 138, 70;
+	close;
+}
+
+// Script: Pedra de Emanar Alma
+007-3.gat,24,28,0	script	#007-3_24x28	326, {
+	callfunc "pedraEmanarAlma", "007-3.gat", 24, 28;
+	close;
+}
