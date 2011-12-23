@@ -7642,7 +7642,6 @@
 		effect="aumenta força e velocidade de ataque (apenas na floresta negra, temporário)"
 		type="usable"
 		weight="5"/>
-
 	<item id="3360"
 		image="armor-head-cabeca-rena.png"
 		name="Chapéu Cabeça de Rena"
@@ -7800,14 +7799,24 @@
 		hp="10"
 		weight="1"/>
 	<item id="3376"
-		image="armor-head-chapeu-boneco-neve.png"
-		name="Chapéu Boneco de Neve"
+		image="armor-head-cabecao-neve.png"
+		name="Cabeção de Neve"
 		description="Cabeção grande e redondo feito de neve. Pra você ficar de cabeça fria :)"
 		effect="(Natal 2011)"
 		type="equip-head"
 		weight="80"
 		defense="2">
-		<sprite>equipment/head/chapeu-boneco-neve-cartola.xml</sprite>
+		<sprite>equipment/head/cabecao-neve.xml</sprite>
+	</item>
+	<item id="3377"
+		image="armor-head-mascara-rena-rodolf.png"
+		name="Máscara Rena Rodolf"
+		description="Máscara da rena Rodolf. Conhecida por seu nariz vermelho."
+		effect="(Natal 2011)"
+		type="equip-head"
+		weight="80"
+		defense="2">
+		<sprite>equipment/head/mascara-rena-rodolf.xml</sprite>
 	</item>
 
 </items>
