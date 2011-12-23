@@ -3,28 +3,28 @@
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
 
+org027.gat,105,40,32,21	monster	Lady Esqueleto (3)	1044,3,33000,25000,Moborg027::On1044
+org027.gat,105,40,32,21	monster	Esqueleto Guerreiro (2)	1043,2,35000,20000,Moborg027::On1043
+org027.gat,105,40,32,21	monster	Caveira Envenenada (1)	1024,1,30000,20000,Moborg027::On1024
+org027.gat,105,40,32,21	monster	Caveira de Fogo (1)	1023,1,28000,25000,Moborg027::On1023
+org027.gat,71,41,31,22	monster	Lady Esqueleto (2)	1044,2,175000,20000,Moborg027::On1044
+org027.gat,71,41,31,22	monster	Esqueleto Guerreiro (2)	1043,2,175000,20000,Moborg027::On1043
+org027.gat,71,41,31,22	monster	Zumbi (2)	1036,2,300000,120000,Moborg027::On1036
+org027.gat,54,53,66,46	monster	Lady Esqueleto (2)	1044,2,60000,8000,Moborg027::On1044
+org027.gat,54,53,66,46	monster	Esqueleto Guerreiro (2)	1043,2,60000,8000,Moborg027::On1043
+org027.gat,54,53,66,46	monster	Caveira Envenenada (1)	1024,1,60000,20000,Moborg027::On1024
+org027.gat,54,53,66,46	monster	Caveira de Fogo (2)	1023,2,60000,20000,Moborg027::On1023
+org027.gat,37,41,33,22	monster	Lady Esqueleto (4)	1044,4,180000,20000,Moborg027::On1044
+org027.gat,37,41,33,22	monster	Esqueleto Guerreiro (4)	1043,4,180000,20000,Moborg027::On1043
+org027.gat,37,41,33,22	monster	Zumbi (2)	1036,2,200000,10000,Moborg027::On1036
+org027.gat,37,41,33,22	monster	Caveira Envenenada (2)	1024,2,200000,10000,Moborg027::On1024
+org027.gat,37,41,33,22	monster	Caveira de Fogo (2)	1023,2,200000,10000,Moborg027::On1023
+org027.gat,37,65,33,22	monster	Guerreiro Caído (3)	1045,3,120000,30000,Moborg027::On1045
+org027.gat,37,65,33,22	monster	Zumbi (3)	1036,3,140000,30000,Moborg027::On1036
+org027.gat,28,67,2,1	monster	Jack O (1)	1022,1,265000,200000,Moborg027::On1022
+org027.gat,81,91,99,23	monster	Wisp (4)	1040,4,900000,60000,Moborg027::On1040
 org027.gat,81,91,95,27	monster	Espectro Calafrio (4)	1047,4,900000,60000,Moborg027::On1047
 org027.gat,81,91,97,25	monster	Espectro (4)	1042,4,900000,60000,Moborg027::On1042
-org027.gat,81,91,99,23	monster	Wisp (4)	1040,4,900000,60000,Moborg027::On1040
-org027.gat,54,53,66,46	monster	Caveira de Fogo (2)	1023,2,60000,20000,Moborg027::On1023
-org027.gat,54,53,66,46	monster	Caveira Envenenada (1)	1024,1,60000,20000,Moborg027::On1024
-org027.gat,54,53,66,46	monster	Esqueleto Guerreiro (2)	1043,2,60000,8000,Moborg027::On1043
-org027.gat,54,53,66,46	monster	Lady Esqueleto (2)	1044,2,60000,8000,Moborg027::On1044
-org027.gat,71,41,31,22	monster	Zumbi (2)	1036,2,300000,120000,Moborg027::On1036
-org027.gat,71,41,31,22	monster	Esqueleto Guerreiro (2)	1043,2,175000,20000,Moborg027::On1043
-org027.gat,71,41,31,22	monster	Lady Esqueleto (2)	1044,2,175000,20000,Moborg027::On1044
-org027.gat,37,41,33,22	monster	Caveira de Fogo (2)	1023,2,200000,10000,Moborg027::On1023
-org027.gat,37,41,33,22	monster	Caveira Envenenada (2)	1024,2,200000,10000,Moborg027::On1024
-org027.gat,37,41,33,22	monster	Zumbi (2)	1036,2,200000,10000,Moborg027::On1036
-org027.gat,37,41,33,22	monster	Esqueleto Guerreiro (4)	1043,4,180000,20000,Moborg027::On1043
-org027.gat,37,41,33,22	monster	Lady Esqueleto (4)	1044,4,180000,20000,Moborg027::On1044
-org027.gat,105,40,32,21	monster	Caveira de Fogo (1)	1023,1,28000,25000,Moborg027::On1023
-org027.gat,105,40,32,21	monster	Caveira Envenenada (1)	1024,1,30000,20000,Moborg027::On1024
-org027.gat,105,40,32,21	monster	Esqueleto Guerreiro (2)	1043,2,35000,20000,Moborg027::On1043
-org027.gat,105,40,32,21	monster	Lady Esqueleto (3)	1044,3,33000,25000,Moborg027::On1044
-org027.gat,37,65,33,22	monster	Zumbi (3)	1036,3,140000,30000,Moborg027::On1036
-org027.gat,37,65,33,22	monster	Guerreiro Caído (3)	1045,3,120000,30000,Moborg027::On1045
-org027.gat,28,67,2,1	monster	Jack O (1)	1022,1,265000,200000,Moborg027::On1022
 
 org027.gat,0,0,0	script	Moborg027	-1,{
 
