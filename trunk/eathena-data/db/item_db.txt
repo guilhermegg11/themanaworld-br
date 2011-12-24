@@ -37,7 +37,7 @@
 505,gosmadeverme,Gosma de Verme,3,8,4,1,,,,,,,,,,,{},{}
 506,docebengala,Doce Bengala,0,20,10,1,,,,,,2,,,0,,{ itemheal 5,0; },{}
 507,ferraodeescorpiao,Ferrão de Escorpião,3,50,25,1,,,,,,,,,,,{},{}
-508,bolodenatal,Bolo de Natal,0,70,10,1,,,,,,2,,,0,,{ itemheal 10,0; },{}
+508,bolodenatal,Bolo de Natal,0,110,10,1,,,,,,2,,,0,,{ itemheal 10,0; },{}
 509,barradechocolate,Barra de Chocolate,0,60,20,1,,,,,,2,,,0,,{ itemheal 20,0; },{}
 510,balinha,Balinha,0,20,10,1,,,,,,2,,,0,,{ itemheal 5,0; },{}
 511,gorrodenatal,Gorro de Natal,5,400,200,20,,2,,-2,0,2,256,,0,0,{},{}
