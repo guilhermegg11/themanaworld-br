@@ -7818,5 +7818,15 @@
 		defense="2">
 		<sprite>equipment/head/mascara-rena-rodolf.xml</sprite>
 	</item>
+	<item id="3378"
+		image="armor-head-bone-lvl99.png"
+		name="Boné lvl 99"
+		description="Boné que pode ser usado apenas por guerreiros experientes."
+		effect="lvl 99"
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>equipment/head/bone-lvl99.xml</sprite>
+	</item>
 
 </items>
