@@ -1,6 +1,8 @@
 // This is the main script import file
 
+npc: npc/functions/events/onDie.conf
 npc: npc/functions/events/onGainExp.conf
+npc: npc/functions/events/onLogin.conf
 npc: npc/functions/events/onPCKill.conf
 npc: npc/functions/events/onPCKilled.conf
 npc: npc/functions/events/onRestart.conf
