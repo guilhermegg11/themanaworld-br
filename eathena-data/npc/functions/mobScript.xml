@@ -16,7 +16,7 @@
 
 	<monstro id="0" nome="Todos os Monstros">
 		<script>callfunc "MobPoints";</script>
-		<script>callfunc "emanarAlma";</script>
+		<!--script>callfunc "emanarAlma";</script-->
 	</monstro>
 
 	<!-- ===================== Scripts de QUESTS ===================== -->
