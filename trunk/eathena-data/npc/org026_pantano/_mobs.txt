@@ -17,14 +17,12 @@ org026.gat,0,0,0	script	Moborg026	-1,{
 On1003:
 	set @mobID, 1003;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	callsub _MOBS_escorpiao;
 	break;
 
 On1025:
 	set @mobID, 1025;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	callsub _MOBS_cordaPescador;
 	callsub _MOBS_madeiraResist;
 	callsub _MOBS_escudoMadeira;
@@ -35,37 +33,31 @@ On1025:
 On1035:
 	set @mobID, 1035;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1040:
 	set @mobID, 1040;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1042:
 	set @mobID, 1042;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1043:
 	set @mobID, 1043;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1044:
 	set @mobID, 1044;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 On1047:
 	set @mobID, 1047;
 	callfunc "MobPoints";
-	callfunc "emanarAlma";
 	break;
 
 

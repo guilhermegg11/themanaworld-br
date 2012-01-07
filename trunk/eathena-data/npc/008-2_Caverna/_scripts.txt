@@ -2,15 +2,3 @@
 // Scripts do mapa: 008-2 Caverna
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
-
-// Script: Pedra de Emanar Alma
-008-2.gat,169,36,0	script	#008-2_169x36	326, {
-	callfunc "pedraEmanarAlma", "008-2.gat", 169, 36;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-008-2.gat,38,30,0	script	#008-2_38x30	326, {
-	callfunc "pedraEmanarAlma", "008-2.gat", 38, 30;
-	close;
-}
