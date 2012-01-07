@@ -2,33 +2,3 @@
 // Scripts do mapa: 007-2 Caverna Assombrada
 // Script gerado automaticamente pela ferramenta TMW Converter...
 //
-
-// Script: Pedra de Emanar Alma
-007-2.gat,154,108,0	script	#007-2_154x108	326, {
-	callfunc "pedraEmanarAlma", "007-2.gat", 154, 108;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-007-2.gat,170,30,0	script	#007-2_170x30	326, {
-	callfunc "pedraEmanarAlma", "007-2.gat", 170, 30;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-007-2.gat,29,32,0	script	#007-2_29x32	326, {
-	callfunc "pedraEmanarAlma", "007-2.gat", 29, 32;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-007-2.gat,74,66,0	script	#007-2_74x66	326, {
-	callfunc "pedraEmanarAlma", "007-2.gat", 74, 66;
-	close;
-}
-
-// Script: Pedra de Emanar Alma
-007-2.gat,90,94,0	script	#007-2_90x94	326, {
-	callfunc "pedraEmanarAlma", "007-2.gat", 90, 94;
-	close;
-}

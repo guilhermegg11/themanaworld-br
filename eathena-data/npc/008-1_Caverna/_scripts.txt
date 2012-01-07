@@ -9,9 +9,3 @@
 	mes "* Use esta nova passagem para contornar a passagem bloqueada.";
 	close;
 }
-
-// Script: Pedra de Emanar Alma
-008-1.gat,164,75,0	script	#008-1_164x75	326, {
-	callfunc "pedraEmanarAlma", "008-1.gat", 164, 75;
-	close;
-}
