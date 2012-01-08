@@ -5029,14 +5029,14 @@
 		type="generic"
 		weight="100"/>
 	<item id="3035"
-		image="armor-head-lamafia-hat.png"
-		name="Cartola La Mafia"
-		description="Chapéu exclusivo dos membros do clan La Mafia."
+		image="armor-head-cartola-cetim.png"
+		name="Cartola de Cetim"
+		description="Cartola de cetim para ocasiões especiais."
 		effect=""
 		type="equip-head"
 		weight="20"
 		defense="1">
-		<sprite>head-lamafia-hat.xml</sprite>
+		<sprite>equipment/head/cartola-cetim.xml</sprite>
 	</item>
 	<item id="3036"
 		image="armor-head-bordado-f.png"
