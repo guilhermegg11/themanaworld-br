@@ -615,7 +615,7 @@
 3032,cuteloAfiado,Cutelo Afiado,4,150,75,500,65,,1,,0,2,2,1,25,1,{},{}
 3033,sementesAbobora,sementesAbobora,3,100,4000,10,,,,,,,,,,,{},{}
 3034,cachecolJoana,cachecolJoana,3,200,100,100,,,,,,,,,,,{},{}
-3035,lamafiaHat,lamafiaHat,5,2500,1250,10,,1,,2,0,2,256,,0,0,{},{}
+3035,cartolaCetim,cartolaCetim,5,2500,1250,10,,1,,2,0,2,256,,0,0,{},{}
 3036,bordadof,bordadof,5,500,250,30,,5,,2,0,2,256,,0,0,{},{}
 3037,bordadol,bordadof,5,500,250,30,,5,,2,0,2,256,,0,0,{},{}
 3038,bordadom,bordadof,5,500,250,30,,5,,2,0,2,256,,0,0,{},{}
@@ -965,4 +965,4 @@
 3375,balinhaCaramelo,Balinhas de Caramelo,0,100,40,0,,,,,,2,,,0,,{ itemheal 10,0; },{}
 3376,cabecaoNeve,cabecaoNeve,5,800,400,80,,2,,-2,0,2,256,,1,0,{},{}
 3377,mascaraRenaRodolf,mascaraRenaRodolf,5,1000,500,80,,2,,0,0,2,256,,1,0,{},{}
-//reservado 3378,boneLvl99,boneLvl99,5,2000,1000,20,,2,,0,0,2,256,,99,0,{},{}
+3378,boneLvl99,boneLvl99,5,2000,1000,20,,2,,0,0,2,256,,99,0,{},{}
