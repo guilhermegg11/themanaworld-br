@@ -66,4 +66,3 @@ import: npc/org027_cemiterio/_import.txt
 import: npc/org027-1_casaZelador/_import.txt
 
 import: npc/evento/2010-12/_import.txt
-import: npc/natal/2011/_import.txt
