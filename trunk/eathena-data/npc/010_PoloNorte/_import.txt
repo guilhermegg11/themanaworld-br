@@ -5,7 +5,7 @@ npc: npc/010_PoloNorte/_scripts.txt
 npc: npc/010_PoloNorte/_warps.txt
 
 npc: npc/010_PoloNorte/boneco_neve.conf
-//npc: npc/010_PoloNorte/duende_faisca.conf //- natal 2011
+npc: npc/010_PoloNorte/duende_faisca.conf
 npc: npc/010_PoloNorte/duende_lulu.conf
 npc: npc/010_PoloNorte/duende_tampinha.conf
 npc: npc/010_PoloNorte/duende_tunico.conf
