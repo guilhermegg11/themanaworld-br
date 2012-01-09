@@ -2175,7 +2175,7 @@
 		weight="50"/>
 	<item id="750"
 		image="use-potion-c.png|G:#f0f040,ffffff"
-		name="Poção de Envenenamento"
+		name="Poção Antiveneno"
 		description="Uma poção amarela com um aroma fresco e cítrico."
 		effect="Retarda o envenenamento"
 		type="usable"
