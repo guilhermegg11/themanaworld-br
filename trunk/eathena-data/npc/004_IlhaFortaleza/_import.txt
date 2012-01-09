@@ -5,6 +5,7 @@ npc: npc/004_IlhaFortaleza/_scripts.txt
 npc: npc/004_IlhaFortaleza/_shops.txt
 npc: npc/004_IlhaFortaleza/_warps.txt
 
+npc: npc/004_IlhaFortaleza/bernardo.conf
 npc: npc/004_IlhaFortaleza/chico.conf
 npc: npc/004_IlhaFortaleza/joana.conf
 npc: npc/004_IlhaFortaleza/joao.conf
