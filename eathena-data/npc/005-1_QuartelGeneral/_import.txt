@@ -5,6 +5,7 @@ npc: npc/005-1_QuartelGeneral/_scripts.txt
 npc: npc/005-1_QuartelGeneral/_warps.txt
 
 npc: npc/005-1_QuartelGeneral/halloween2010.conf
+npc: npc/005-1_QuartelGeneral/halloween2011.conf
 npc: npc/005-1_QuartelGeneral/pascoa2011.conf
 //npc: npc/005-1_QuartelGeneral/estatuas.conf
 npc: npc/005-1_QuartelGeneral/guarda_entrada.conf

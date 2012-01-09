@@ -156,7 +156,6 @@
 	</npc>
 	<npc id="337"> <!-- Homenagem do Halloween 2010 -->
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
-		<particlefx>graphics/particles/aura-negra.xml</particlefx>
 		<sprite>npcs/npc-halloween2010-tmwbr.xml</sprite>
 	</npc>
 	<npc id="338"> <!-- Barqueiro do Submundo -->
@@ -266,6 +265,11 @@
 	<npc id="382">
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
 		<sprite variant="3">npcs/natal-duendes.xml</sprite>
+	</npc>
+	<npc id="383"> <!-- Homenagem do Halloween 2011 -->
+		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
+		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+		<sprite>npcs/npc-halloween2011-tmwbr.xml</sprite>
 	</npc>
 
 	<npc id="400"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/pedra-encantada.particle.xml</particlefx></npc> <!-- Pedra Encantada com Partícula -->

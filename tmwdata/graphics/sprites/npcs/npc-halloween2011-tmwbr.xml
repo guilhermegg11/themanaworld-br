@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/npcs/npc-halloween2011-tmwbr.png" width="44" height="76" />
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<frame index="0"/>
+			<end/>
+		</animation>
+	</action>
+
+</sprite>
