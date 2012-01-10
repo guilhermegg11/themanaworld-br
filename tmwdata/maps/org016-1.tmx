@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="63" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Cabana"/>
+  <property name="pasta" value="cabana"/>
+ </properties>
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Woodland indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="Woodland indoor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="275" name="Woodland indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="291" name="Inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="547" name="Woodland village" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="803" name="teto" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in_teto.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="843" name="cabana_in_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png" width="512" height="96"/>
+ </tileset>
+ <layer name="Ground" width="60" height="63">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WYQqCMBiAYUE6gXSCWh3AqBukJyhPUN7/BC1Q0LH5bSDMzffHgzL84Ys6v7ooihoAAAAAAADYiVI7DMc1xO6RVNpxOK4hdo/k5Kn0vC52j+Q8UJNzm9Lzutg9vr1/F+3q6KiEzhR779pD6HlqjUO7gZ6QXh8v7e3QbaCH3jlp/8mtN/T5frSvQ7+BHt7nOXMeVJa13ObJKWVZCxG7R2LOg8qyFiJ2j8T8Ps39emm+yGHeMHuX9qcU9yvp/5tb7/i+tjvpHXs6esV5KsX5auzpHb2hYvf4cN1nKvcf6raz3tDnDgAAAAAAALj8APmACxIQOwAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="60" height="63">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WS0rDUBQG4JuUauujhWIrCrYTXY6jrEBcgktwGXXYqSNnDpxopxZcgAUfUwUfU/E/nBsaQjuIeVyT/B/8XJLewH9GPcYQERERERERERHVx8zXcxvZQjaQTaSNdJCufb9M0/52Y89V9/6Tua99D5CW0TllZuk+REZG51+mbxYz3iOzfKtmIkA6HmZraMZ4vojd+bBnF/d2kYGN6Hn6+yMyL6p0CkHC+4ex5yN7viHv6euUxg+y7rlukUwTfdeQ6R+/v8y0TT5uU3w7yaxFOdwhn8i36yIJXPuuGxDl68HX/bKKTmxEuBvK/hjul2GqYg//t/veYmfcsTvDU+ROELkX3SclfZu6GWLmUQ3nroor5AV5Nbpvyl72HHtXFTKb7FFfRnep6Yp3ZXDqukDBzlwXKNi56wJEBTluuG5ARERERERERERl8wtnlbr4EDsAAA==
+  </data>
+ </layer>
+ <layer name="Top" width="60" height="63">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WSwrCMBSF4UCnLkDnPhGfdeDc1SnuwCXoanzsxwQ7iCWNCSpek/+DCzY9hRxaIUoBAAAAAAAgV71CqWHgLAJz/eLXrZoNIvZWVtm2no4nN0+sb8txb2f9TqHvSU83MJtC3xj0lSOm7ziz77lsyF703Kzr1PvW0VeO3Pou9d5WgbMOzI0E9zXv15yNdi+T4TnJ79f+nutdzrVr1znS5V/6fgp95Yjpa84VV/V8tnCtpdL3oB7/8a21dqzW9tZaKn1D0VcO+r5Pct+J3tvMM4bvvmumgvtuCv+EZJqekyi3vgAAAAAAAPi+O+SIOgIQOwAA
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="63" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQrDIBBAUfH+h+6qmzBQbaadqG/gQRQJ/qS31joAAAAAwEZasG7B/g5G5tO56obM1pHeVZqj+96Z6p6s/3tab3Q2ek91T1bzzLknGx29a/ZG/dV30Pu71vf0y/Musqa649+9q3R/0zG690Sn9c40j0x1i96ze7Onukfv3LeovgMAAAAAa3kBaciNpRA7AAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="60" height="63">
+  <object name="graphics/particles/cookingfire.hoveringpot.particle.xml" type="PARTICLE_EFFECT" x="752" y="824" width="32" height="32"/>
+  <object name="paraFora" type="warp" x="864" y="1376" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="org016"/>
+    <property name="dest_x" value="2688"/>
+    <property name="dest_y" value="1696"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/circulo-magico2.xml" type="PARTICLE_EFFECT" x="832" y="864" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="margem" width="60" height="63" visible="0">
+  <object x="1280" y="1376" width="640" height="640"/>
+  <object x="0" y="0" width="640" height="640"/>
+ </objectgroup>
+</map>
