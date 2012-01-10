@@ -1,0 +1,7 @@
+map: org016-1.gat
+
+npc: npc/org016-1_cabana/_mobs.txt
+npc: npc/org016-1_cabana/_scripts.txt
+npc: npc/org016-1_cabana/_warps.txt
+
+npc: npc/org016-1_cabana/teleportador.conf
