@@ -966,3 +966,5 @@
 3376,cabecaoNeve,cabecaoNeve,5,800,400,80,,2,,-2,0,2,256,,1,0,{},{}
 3377,mascaraRenaRodolf,mascaraRenaRodolf,5,1000,500,80,,2,,0,0,2,256,,1,0,{},{}
 3378,boneLvl99,boneLvl99,5,2000,1000,20,,2,,0,0,2,256,,99,0,{},{}
+3379,lascaMenir,lascaMenir,0,500,10,5,,,,,,2,,,0,,{ callfunc "useLascaMenir"; },{}
+3380,lascaEnergizada,lascaEnergizada,0,500,10,5,,,,,,2,,,0,,{ callfunc "useLascaMenir"; },{}

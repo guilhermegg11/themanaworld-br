@@ -7828,5 +7828,19 @@
 		defense="2">
 		<sprite>equipment/head/bone-lvl99.xml</sprite>
 	</item>
+	<item id="3379"
+		image="generic-darkcrystal.png"
+		name="Lasca de Menir da Alma"
+		description="..."
+		effect="nenhum efeito"
+		type="usable"
+		weight="5"/>
+	<item id="3380"
+		image="generic-crystal-alma.png"
+		name="Lasca Energizada da Menir da Alma"
+		description="..."
+		effect="Pode te teleportar"
+		type="usable"
+		weight="5"/>
 
 </items>
