@@ -7830,16 +7830,16 @@
 	</item>
 	<item id="3379"
 		image="generic-darkcrystal.png"
-		name="Lasca de Menir da Alma"
-		description="..."
-		effect="nenhum efeito"
+		name="Lasca da Menir da Alma"
+		description="Uma pequena lasca da menir da alma. Ela pode levar até 72hs para se energizar."
+		effect="Existe uma chance de estar energizada."
 		type="usable"
 		weight="5"/>
 	<item id="3380"
 		image="generic-crystal-alma.png"
 		name="Lasca Energizada da Menir da Alma"
-		description="..."
-		effect="Pode te teleportar"
+		description="Uma lasca energizada da menir da alma."
+		effect="Pode teleportar para a menir da alma."
 		type="usable"
 		weight="5"/>
 	<item id="3381"
