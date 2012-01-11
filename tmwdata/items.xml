@@ -7843,19 +7843,19 @@
 		type="usable"
 		weight="5"/>
 	<item id="3381"
-		image="armor-chest-capa-imperial.png"
-		name="Capa Imperial"
-		description="..."
+		image="armor-chest-manta-imperial.png"
+		name="Manta Imperial"
+		description="A manta do grande imperador do Mundo de Mana."
 		type="equip-torso"
 		weight="90"
 		defense="2">
-		<sprite gender="male">equipment/chest/capa-imperial-male.xml</sprite>
-		<sprite gender="female">equipment/chest/capa-imperial-female.xml</sprite>
+		<sprite gender="male">equipment/charm/manta-imperial-male.xml</sprite>
+		<sprite gender="female">equipment/charm/manta-imperial-female.xml</sprite>
 	</item>
 	<item id="3382"
 		image="armor-head-coroa-imperial.png"
 		name="Coroa Imperial"
-		description="A coroa do grande Imperador do mundo de Mana."
+		description="A coroa do grande imperador do Mundo de Mana."
 		type="equip-head"
 		weight="20"
 		defense="2">

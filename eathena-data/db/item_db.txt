@@ -968,5 +968,5 @@
 3378,boneLvl99,boneLvl99,5,2000,1000,20,,2,,0,0,2,256,,99,0,{},{}
 3379,lascaMenir,lascaMenir,0,500,10,5,,,,,,2,,,0,,{ callfunc "useLascaMenir"; },{}
 3380,lascaEnergizada,lascaEnergizada,0,500,10,5,,,,,,2,,,0,,{ callfunc "useLascaMenir"; },{}
-3381,capaImperial,capaImperial,5,2000,1000,90,,2,0,0,0,2,16,0,0,0,{},{}
+3381,mantaImperial,mantaImperial,5,2000,1000,90,,2,0,0,0,2,16,0,0,0,{},{}
 3382,coroaImperial,coroaImperial,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
