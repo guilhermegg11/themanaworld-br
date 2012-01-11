@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-	<imageset name="base" src="graphics/sprites/npcs/banhista.png" width="65" height="32" />
+	<imageset name="base" src="graphics/sprites/npcs/banhista.png" width="65" height="31" />
 	<action name="stand" imageset="base">
 		<animation direction="default">
 			<frame index="0" offsetX="-16" offsetY="3"/>
