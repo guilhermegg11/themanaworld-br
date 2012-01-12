@@ -75,6 +75,12 @@
 	<item id="-21" type="hairsprite" name="Rabo de cavalo longo">
 		<sprite>hairstyle21.xml</sprite>
 	</item>
+	<item id="-22" type="hairsprite" name="Ondulado Curto">
+		<sprite>hairstyle21.xml</sprite>
+	</item>
+	<item id="-23" type="hairsprite" name="Ondulado">
+		<sprite>hairstyle21.xml</sprite>
+	</item>
 
 	<!-- Treating the base sprite as equipment too will be useful when we
 		 implement other playable races -->
@@ -7843,6 +7849,16 @@
 		type="usable"
 		weight="5"/>
 	<item id="3381"
+		image="armor-head-coroa-imperial.png"
+		name="Coroa Imperial"
+		description="A coroa do grande imperador do Mundo de Mana."
+		type="equip-head"
+		weight="20"
+		defense="2">
+		<sprite>equipment/head/coroa-imperial.xml</sprite>
+	</item>
+	<!-- reservado 3382..3389 -->
+	<item id="3390"
 		image="armor-chest-manta-imperial.png"
 		name="Manta Imperial"
 		description="A manta do grande imperador do Mundo de Mana."
@@ -7852,14 +7868,33 @@
 		<sprite gender="male">equipment/charm/manta-imperial-male.xml</sprite>
 		<sprite gender="female">equipment/charm/manta-imperial-female.xml</sprite>
 	</item>
-	<item id="3382"
-		image="armor-head-coroa-imperial.png"
-		name="Coroa Imperial"
-		description="A coroa do grande imperador do Mundo de Mana."
-		type="equip-head"
-		weight="20"
+	<!-- reservado 3391..3394 -->
+	<item id="3395"
+		image="armor-chest-manta-imperial.png"
+		name="Boia Patinho"
+		description="..."
+		type="equip-torso"
+		weight="45"
 		defense="2">
-		<sprite>equipment/head/coroa-imperial.xml</sprite>
+		<sprite>equipment/charm/boia-patinho.xml</sprite>
+	</item>
+	<item id="3396"
+		image="armor-chest-manta-imperial.png"
+		name="Boia Elefantinho"
+		description="..."
+		type="equip-torso"
+		weight="45"
+		defense="2">
+		<sprite>equipment/charm/boia-elefantinho.xml</sprite>
+	</item>
+	<item id="3397"
+		image="armor-chest-manta-imperial.png"
+		name="Boia Jibóia"
+		description="..."
+		type="equip-torso"
+		weight="45"
+		defense="2">
+		<sprite>equipment/charm/boia-jiboia.xml</sprite>
 	</item>
 
 </items>
