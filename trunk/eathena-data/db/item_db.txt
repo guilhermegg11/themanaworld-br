@@ -279,7 +279,7 @@
 //747,bolodechocolatecomglace,Bolo de Chocolate com Glacê,0,550,125,10,,,,,,2,,,0,,{ itemheal 11,0; },{}
 //748,bolodelaranjacomcreme,Bolo de Laranja com Creme,0,90,45,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
 749,toalha,Toalha,5,800,250,50,,,,5,0,2,8,,0,0,{},{}
-750,pocaoAntiveneno,pocaoAntiveneno,0,500,200,10,,,,,,2,,,0,,{ itemheal 5,0; sc_start sc_slowpoison,180000,180; },{}
+750,pocaoAntiveneno,pocaoAntiveneno,0,1000,450,10,,,,,,2,,,0,,{ itemheal 5,0; sc_start sc_slowpoison,180000,180; },{}
 751,hasteRosa,Haste Rosa,5,5000,1000,5,,1,,1,0,2,256,,0,0,{},{}
 752,chapeufofinho,Chapeu Fofinho,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 753,asademorcego,Asa de Morcego,3,500,100,3,,,,,,,,,,,{},{}
@@ -784,7 +784,7 @@
 3196,chapeuPresenteAzul,chapeuPresenteAzul,5,2000,1000,60,,1,,0,0,2,256,,0,0,{},{}
 3197,chapeuPresenteAmarelo,chapeuPresenteAmarelo,5,2000,1000,60,,1,,0,0,2,256,,0,0,{},{}
 3198,chapeuPresenteRosa,chapeuPresenteRosa,5,2000,1000,60,,1,,0,0,2,256,,0,0,{},{}
-3199,fragPedraEmanarAlma,fragPedraEmanarAlma,3,10,5,56,,,,,,,,,,,{},{}
+3199,fragPedraEmanarAlma,fragPedraEmanarAlma,3,2,1,56,,,,,,,,,,,{},{}
 3200,anelEmanarAlma,anelEmanarAlma,5,2000,1000,50,0,0,0,1,0,2,8,0,0,0,{},{ bonus bInt, 3; }
 3201,colarOlhoAguia,colarOlhoAguia,5,4000,2000,50,0,0,0,1,0,2,8,0,0,0,{},{ bonus bDex, 3; }
 3202,amostraVazia,amostraVazia,3,100,50,10,,,,,,,,,,,{},{}
@@ -966,7 +966,7 @@
 3376,cabecaoNeve,cabecaoNeve,5,800,400,80,,2,,-2,0,2,256,,1,0,{},{}
 3377,mascaraRenaRodolf,mascaraRenaRodolf,5,1000,500,80,,2,,0,0,2,256,,1,0,{},{}
 3378,boneLvl99,boneLvl99,5,2000,1000,20,,2,,0,0,2,256,,99,0,{},{}
-3379,fragmentoMenir,fragmentoMenir,0,500,10,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
-3380,fragmentoEnergizado,fragmentoEnergizado,0,500,10,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
+3379,fragmentoMenir,fragmentoMenir,0,2,1,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
+3380,fragmentoEnergizado,fragmentoEnergizado,0,2,1,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
 3381,mantaImperial,mantaImperial,5,2000,1000,90,,2,0,0,0,2,16,0,0,0,{},{}
 3382,coroaImperial,coroaImperial,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
