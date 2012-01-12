@@ -946,7 +946,6 @@
 3357,PumpkinSeedOld,PumpkinSeedOld,3,2000,1000,0,,,,,,,,,,,{},{}
 3358,gemaTeleporte,gemaTeleporte,0,500,10,5,,,,,,2,,,0,,{ callfunc "useGemaTeleporte"; },{}
 3359,gemaBuff,gemaBuff,0,500,10,5,,,,,,2,,,0,,{ callfunc "useGemaBuff"; },{}
-
 3360,cabecaRena,cabecaRena,5,1000,500,80,,2,,0,0,2,256,,1,0,{},{}
 3361,cabecaUrso,cabecaUrso,5,1000,500,80,,2,,0,0,2,256,,1,0,{},{}
 3362,camisaNatalina,camisaNatalina,5,2000,1000,90,,2,0,0,0,1,512,0,1,0,{},{}
@@ -968,5 +967,22 @@
 3378,boneLvl99,boneLvl99,5,2000,1000,20,,2,,0,0,2,256,,99,0,{},{}
 3379,fragmentoMenir,fragmentoMenir,0,2,1,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
 3380,fragmentoEnergizado,fragmentoEnergizado,0,2,1,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
-3381,mantaImperial,mantaImperial,5,2000,1000,90,,2,0,0,0,2,16,0,0,0,{},{}
-3382,coroaImperial,coroaImperial,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
+3381,coroaImperial,coroaImperial,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
+//reservado 3382,coroa2
+//reservado 3383,coroa3
+//reservado 3384,coroa4
+//reservado 3385,coroa5
+//reservado 3386,coroa6
+//reservado 3387,coroa7
+//reservado 3388,coroa8
+//reservado 3389,coroa9
+3390,mantaImperial,mantaImperial,5,2000,1000,90,,2,0,0,0,2,16,0,0,0,{},{}
+//reservado 3391,cetroImperial
+//reservado 3392,setImperial
+//reservado 3393,setImperial
+//reservado 3394,setImperial
+3395,boiaPatinho,boiaPatinho,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
+3396,boiaElefantinho,boiaElefantinho,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
+3397,boiaJiboia,boiaJiboia,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
+3398,boiaRinoceronte,boiaRinoceronte,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
+//reservado 3399,boia

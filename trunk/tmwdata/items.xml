@@ -7896,5 +7896,14 @@
 		defense="2">
 		<sprite>equipment/charm/boia-jiboia.xml</sprite>
 	</item>
+	<item id="3398"
+		image="armor-chest-manta-imperial.png"
+		name="Boia Rinoceronte"
+		description="..."
+		type="equip-torso"
+		weight="45"
+		defense="2">
+		<sprite>equipment/charm/boia-rinoceronte.xml</sprite>
+	</item>
 
 </items>
