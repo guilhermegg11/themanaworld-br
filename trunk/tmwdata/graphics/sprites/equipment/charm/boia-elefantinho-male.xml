@@ -2,7 +2,7 @@
 
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/equipment/charm/boia-patinho.png" width="64" height="64"/>
+	<imageset name="base" src="graphics/sprites/equipment/charm/boia-elefantinho-male.png" width="64" height="64"/>
 
 	<include file="player_male_base.xml"/>
 

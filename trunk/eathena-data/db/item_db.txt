@@ -985,4 +985,4 @@
 3396,boiaElefantinho,boiaElefantinho,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
 3397,boiaJiboia,boiaJiboia,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
 3398,boiaRinoceronte,boiaRinoceronte,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
-//reservado 3399,boia
+3399,boiaAzul,boiaAzul,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}

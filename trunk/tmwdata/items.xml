@@ -7876,7 +7876,8 @@
 		type="equip-torso"
 		weight="45"
 		defense="2">
-		<sprite>equipment/charm/boia-patinho.xml</sprite>
+		<sprite gender="male">equipment/charm/boia-patinho-male.xml</sprite>
+		<sprite gender="female">equipment/charm/boia-patinho-female.xml</sprite>
 	</item>
 	<item id="3396"
 		image="armor-chest-boia-elefantinho.png"
@@ -7885,7 +7886,8 @@
 		type="equip-torso"
 		weight="45"
 		defense="2">
-		<sprite>equipment/charm/boia-elefantinho.xml</sprite>
+		<sprite gender="male">equipment/charm/boia-elefantinho-male.xml</sprite>
+		<sprite gender="female">equipment/charm/boia-elefantinho-female.xml</sprite>
 	</item>
 	<item id="3397"
 		image="armor-chest-boia-jiboia.png"
@@ -7894,7 +7896,8 @@
 		type="equip-torso"
 		weight="45"
 		defense="2">
-		<sprite>equipment/charm/boia-jiboia.xml</sprite>
+		<sprite gender="male">equipment/charm/boia-jiboia-male.xml</sprite>
+		<sprite gender="female">equipment/charm/boia-jiboia-female.xml</sprite>
 	</item>
 	<item id="3398"
 		image="armor-chest-boia-rinoceronte.png"
@@ -7903,7 +7906,18 @@
 		type="equip-torso"
 		weight="45"
 		defense="2">
-		<sprite>equipment/charm/boia-rinoceronte.xml</sprite>
+		<sprite gender="male">equipment/charm/boia-rinoceronte-male.xml</sprite>
+		<sprite gender="female">equipment/charm/boia-rinoceronte-female.xml</sprite>
+	</item>
+	<item id="3399"
+		image="armor-chest-boia-rinoceronte.png"
+		name="Boia Azul Listrada"
+		description="..."
+		type="equip-torso"
+		weight="45"
+		defense="2">
+		<sprite gender="male">equipment/charm/boia-azul-male.xml</sprite>
+		<sprite gender="female">equipment/charm/boia-azul-female.xml</sprite>
 	</item>
 
 </items>
