@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/hairstyle22.png|W.png" width="34" height="45"/>
+	<imageset name="base" src="graphics/sprites/hairstyle23.png|W" width="34" height="45"/>
 
 	<include file="hairstyle22.xml"/>
 
