@@ -76,10 +76,10 @@
 		<sprite>hairstyle21.xml</sprite>
 	</item>
 	<item id="-22" type="hairsprite" name="Ondulado Curto">
-		<sprite>hairstyle21.xml</sprite>
+		<sprite>hairstyle22.xml</sprite>
 	</item>
 	<item id="-23" type="hairsprite" name="Ondulado">
-		<sprite>hairstyle21.xml</sprite>
+		<sprite>hairstyle23.xml</sprite>
 	</item>
 
 	<!-- Treating the base sprite as equipment too will be useful when we
@@ -7870,7 +7870,7 @@
 	</item>
 	<!-- reservado 3391..3394 -->
 	<item id="3395"
-		image="armor-chest-manta-imperial.png"
+		image="armor-chest-boia-patinho.png"
 		name="Boia Patinho"
 		description="..."
 		type="equip-torso"
@@ -7879,7 +7879,7 @@
 		<sprite>equipment/charm/boia-patinho.xml</sprite>
 	</item>
 	<item id="3396"
-		image="armor-chest-manta-imperial.png"
+		image="armor-chest-boia-elefantinho.png"
 		name="Boia Elefantinho"
 		description="..."
 		type="equip-torso"
@@ -7888,7 +7888,7 @@
 		<sprite>equipment/charm/boia-elefantinho.xml</sprite>
 	</item>
 	<item id="3397"
-		image="armor-chest-manta-imperial.png"
+		image="armor-chest-boia-jiboia.png"
 		name="Boia Jibóia"
 		description="..."
 		type="equip-torso"
@@ -7897,7 +7897,7 @@
 		<sprite>equipment/charm/boia-jiboia.xml</sprite>
 	</item>
 	<item id="3398"
-		image="armor-chest-manta-imperial.png"
+		image="armor-chest-boia-rinoceronte.png"
 		name="Boia Rinoceronte"
 		description="..."
 		type="equip-torso"

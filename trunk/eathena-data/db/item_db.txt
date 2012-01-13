@@ -185,7 +185,7 @@
 //653,RESERVED,Áspero Anel de Sorte,,,,,,,,,,,,,,,{},{}
 654,bone,Boné,5,2000,500,20,,5,,0,0,2,256,,0,0,{},{}
 655,botasdepelo,Botas de Pêlo,5,5000,600,50,,3,,-3,0,2,64,,0,0,{},{}
-656,chapeudeservo,Chapéu de Servo,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
+656,chapeuservo,Chapéu de Servo,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
 657,laranja,Laranja,0,12,6,7,,,,,,2,,,0,,{ itemheal 60,0; },{}
 658,armaduradolordedaguerra,Armadura do Lorde da Guerra,5,100000,3000,2600,,26,,-170,0,2,512,,50,0,{},{}
 659,armaduradolordedaguerradourada,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,27,,-110,0,2,512,,55,0,{},{}
