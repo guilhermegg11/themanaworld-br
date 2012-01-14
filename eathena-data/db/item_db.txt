@@ -988,3 +988,5 @@
 3399,boiaAzul,boiaAzul,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
 3400,boiaVermelha,boiaVermelha,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
 3401,boiaAmarela,boiaAmarela,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
+3402,peleTartaruga,peleTartaruga,3,50,25,1,,,,,,,,,,,{},{}
+3403,cascoTartaruga,cascoTartaruga,3,70,35,25,,,,,,,,,,,{},{}

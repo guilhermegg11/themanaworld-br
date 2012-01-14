@@ -7931,5 +7931,17 @@
 		<sprite gender="male">equipment/charm/boia-3-male.xml</sprite>
 		<sprite gender="female">equipment/charm/boia-3-female.xml</sprite>
 	</item>
+	<item id="3402"
+		image="generic-pele-tartaruga.png"
+		name="Pele de Tartagura"
+		description="Algumas tiras de pele de tartaruga."
+		type="generic"
+		weight="1"/>
+	<item id="3403"
+		image="generic-casco-tartaruga.png"
+		name="Casco de Tartagura"
+		description="Um casco de tartaruga com uma rachadura."
+		type="generic"
+		weight="25"/>
 
 </items>
