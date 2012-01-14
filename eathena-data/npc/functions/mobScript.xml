@@ -39,6 +39,13 @@
 				<var id="%mobs%" valor="QUEST_contamobs"/>
 			</gerar_label>
 		</callsub>
+		<callsub label="_MOBS_pocaoQueimadura">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="QUEST_pocaoQueimadura!=2"/>
+				<var id="%max%" valor="20"/>
+				<var id="%mobs%" valor="MOBS_QueimaduraEscorpiao"/>
+			</gerar_label>
+		</callsub>
 	</monstro>
 	<monstro id="1018" nome="Trasgo Rosa">
 		<callsub label="_MOBS_trasgo">
@@ -113,6 +120,16 @@ On1049_%GRUPO%:
 				<var id="%return%" valor="QUEST_ursinho!=1 &amp;&amp; QUEST_ursinho!=2"/>
 				<var id="%max%" valor="1125"/>
 				<var id="%mobs%" valor="QUEST_ursinhoAbelhas"/>
+			</gerar_label>
+		</callsub>
+	</monstro>
+
+	<monstro id="1340" nome="Tartaruga">
+		<callsub label="_MOBS_pocaoQueimadura">
+			<gerar_label script="callfunc_mobContagem">
+				<var id="%return%" valor="QUEST_pocaoQueimadura!=2"/>
+				<var id="%max%" valor="20"/>
+				<var id="%mobs%" valor="MOBS_QueimaduraTartaruga"/>
 			</gerar_label>
 		</callsub>
 	</monstro>
