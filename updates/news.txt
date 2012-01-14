@@ -1,11 +1,8 @@
-##3 .:: Evento de Natal - 24/12/2011 ::.
-##3 Eis a grande surpresa de Natal! XP
-##3 TRIPLICADO!!! Válidos a partir das 0hs do
-##3 dia 25/12 até o ultimo segundo do dia 05/01.
-##3 Passado o período de XP triplicado o XP
-##3 continua dobrado por período indeterminado.
-##0 Não deixe de visitar nossa loja natalina.
-##0 Feliz Natal !!!
+##3 .:: Atualização 14/01/2012 ::.
+##0
+##0 Primeiro update do ano de 2012 e com muitas
+##0 novidades.
+##2 Mais informações com o jornaleiro.
 ##0
 ##3 .:: Atualização 07/09/2011 ::.
 ##0

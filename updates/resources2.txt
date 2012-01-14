@@ -11,15 +11,4 @@ update_2011-02-08.zip ea4cdef3
 update_2011-04-12.zip cc0a5ced
 update_2011-05-22.zip 94942089
 update_2011-09-07.zip 893f076a
-2011_halloween1.zip cd1ded6e
-2011_halloween2.zip 590e3720
-2011_halloween3.zip 192bd9a8
-2011_halloween4.zip f0755790
-2011_halloween5.zip 62f39e05
-2011_halloween6.zip ef3b6279
-2011_halloween7.zip e08494ef
-2011_halloween8.zip 330e3357
-2011_natal1.zip bfd61e8
-2011_natal2.zip ad62c972
-2011_natal3.zip f086eddb
-2011_natal4.zip 5cf11202
+update_2012-01-14.zip 4fc0a906

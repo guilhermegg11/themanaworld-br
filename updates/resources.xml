@@ -13,18 +13,7 @@
 	<update type="data" file="update_2011-04-12.zip" hash="cc0a5ced"/>
 	<update type="data" file="update_2011-05-22.zip" hash="94942089"/>
 	<update type="data" file="update_2011-09-07.zip" hash="893f076a"/>
-	<update type="data" file="2011_halloween1.zip" hash="cd1ded6e"/>
-	<update type="data" file="2011_halloween2.zip" hash="590e3720"/>
-	<update type="data" file="2011_halloween3.zip" hash="192bd9a8"/>
-	<update type="data" file="2011_halloween4.zip" hash="f0755790"/>
-	<update type="data" file="2011_halloween5.zip" hash="62f39e05"/>
-	<update type="data" file="2011_halloween6.zip" hash="ef3b6279"/>
-	<update type="data" file="2011_halloween7.zip" hash="e08494ef"/>
-	<update type="data" file="2011_halloween8.zip" hash="330e3357"/>
-	<update type="data" file="2011_natal1.zip" hash="bfd61e8"/>
-	<update type="data" file="2011_natal2.zip" hash="ad62c972"/>
-	<update type="data" file="2011_natal3.zip" hash="f086eddb"/>
-	<update type="data" file="2011_natal4.zip" hash="5cf11202"/>
+	<update type="data" file="update_2012-01-14.zip" hash="4fc0a906"/>
 	<update type="music" required="no" file="musicas.zip" hash="973888bb" desciption="Music data v01"/>
 	<update type="music" required="no" file="musicas_2010-09-28.zip" hash="6db7aab8" desciption="Novas músicas"/>
 	<update type="music" required="no" file="musicas_2010-11-13.zip" hash="e108eee" desciption="Cemitério do Org"/>
