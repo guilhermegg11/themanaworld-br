@@ -86,10 +86,10 @@
   </data>
  </layer>
  <objectgroup name="spanws" width="132" height="140" visible="0">
-  <object name="Tartaruga (8)" type="spawn" x="960" y="2464" width="2016" height="1344">
+  <object name="Tartaruga (16)" type="spawn" x="960" y="2464" width="2016" height="1344">
    <properties>
-    <property name="eA_death" value="300000"/>
-    <property name="max_beings" value="8"/>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="16"/>
     <property name="monster_id" value="338"/>
    </properties>
   </object>
