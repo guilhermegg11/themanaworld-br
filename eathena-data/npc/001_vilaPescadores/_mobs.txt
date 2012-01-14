@@ -17,12 +17,23 @@ On1005:
 On1340:
 	set @mobID, 1340;
 	callfunc "MobPoints";
+	callsub _MOBS_pocaoQueimadura;
 	break;
 
 On1341:
 	set @mobID, 1341;
 	callfunc "MobPoints";
 	break;
+
+
+//= Callsubs ==========================================================
+
+_MOBS_pocaoQueimadura:
+	if(QUEST_pocaoQueimadura!=2) return;
+	callfunc "mobContagem", 20, MOBS_QueimaduraEscorpiao, @MOBS_QueimaduraEscorpiao;
+	set MOBS_QueimaduraEscorpiao, @mobs;
+	set @MOBS_QueimaduraEscorpiao, @flag;
+	return;
 
 	end;
 }
