@@ -7943,5 +7943,11 @@
 		description="Um casco de tartaruga com uma rachadura."
 		type="generic"
 		weight="25"/>
+	<item id="3404"
+		image="use-potion-c.png|G:#22ff22"
+		name="Poção para Queimaduras"
+		description="Leve esta poção direto para a Júlia. Ela precisa muito dela."
+		type="generic"
+		weight="5"/>
 
 </items>
