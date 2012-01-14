@@ -981,8 +981,10 @@
 //reservado 3392,setImperial
 //reservado 3393,setImperial
 //reservado 3394,setImperial
-3395,boiaPatinho,boiaPatinho,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
-3396,boiaElefantinho,boiaElefantinho,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
-3397,boiaJiboia,boiaJiboia,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
-3398,boiaRinoceronte,boiaRinoceronte,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
-3399,boiaAzul,boiaAzul,5,2000,1000,45,,2,0,0,0,2,16,0,0,0,{},{}
+3395,boiaPatinho,boiaPatinho,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
+3396,boiaElefantinho,boiaElefantinho,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
+3397,boiaJiboia,boiaJiboia,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
+3398,boiaRinoceronte,boiaRinoceronte,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
+3399,boiaAzul,boiaAzul,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
+3400,boiaVermelha,boiaVermelha,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}
+3401,boiaAmarela,boiaAmarela,5,200,100,45,,0,0,0,0,2,16,0,0,0,{},{}

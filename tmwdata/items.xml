@@ -7863,8 +7863,7 @@
 		name="Manta Imperial"
 		description="A manta do grande imperador do Mundo de Mana."
 		type="equip-torso"
-		weight="90"
-		defense="2">
+		weight="90">
 		<sprite gender="male">equipment/charm/manta-imperial-male.xml</sprite>
 		<sprite gender="female">equipment/charm/manta-imperial-female.xml</sprite>
 	</item>
@@ -7874,8 +7873,7 @@
 		name="Boia Patinho"
 		description="..."
 		type="equip-torso"
-		weight="45"
-		defense="2">
+		weight="45">
 		<sprite gender="male">equipment/charm/boia-patinho-male.xml</sprite>
 		<sprite gender="female">equipment/charm/boia-patinho-female.xml</sprite>
 	</item>
@@ -7884,8 +7882,7 @@
 		name="Boia Elefantinho"
 		description="..."
 		type="equip-torso"
-		weight="45"
-		defense="2">
+		weight="45">
 		<sprite gender="male">equipment/charm/boia-elefantinho-male.xml</sprite>
 		<sprite gender="female">equipment/charm/boia-elefantinho-female.xml</sprite>
 	</item>
@@ -7894,8 +7891,7 @@
 		name="Boia Jibóia"
 		description="..."
 		type="equip-torso"
-		weight="45"
-		defense="2">
+		weight="45">
 		<sprite gender="male">equipment/charm/boia-jiboia-male.xml</sprite>
 		<sprite gender="female">equipment/charm/boia-jiboia-female.xml</sprite>
 	</item>
@@ -7904,20 +7900,36 @@
 		name="Boia Rinoceronte"
 		description="..."
 		type="equip-torso"
-		weight="45"
-		defense="2">
+		weight="45">
 		<sprite gender="male">equipment/charm/boia-rinoceronte-male.xml</sprite>
 		<sprite gender="female">equipment/charm/boia-rinoceronte-female.xml</sprite>
 	</item>
 	<item id="3399"
-		image="armor-chest-boia-rinoceronte.png"
-		name="Boia Azul Listrada"
+		image="armor-chest-boia-1.png"
+		name="Boia Azul e Vermelha"
 		description="..."
 		type="equip-torso"
-		weight="45"
-		defense="2">
-		<sprite gender="male">equipment/charm/boia-azul-male.xml</sprite>
-		<sprite gender="female">equipment/charm/boia-azul-female.xml</sprite>
+		weight="45">
+		<sprite gender="male">equipment/charm/boia-1-male.xml</sprite>
+		<sprite gender="female">equipment/charm/boia-1-female.xml</sprite>
+	</item>
+	<item id="3400"
+		image="armor-chest-boia-2.png"
+		name="Boia Vermelha e Amarela"
+		description="..."
+		type="equip-torso"
+		weight="45">
+		<sprite gender="male">equipment/charm/boia-2-male.xml</sprite>
+		<sprite gender="female">equipment/charm/boia-2-female.xml</sprite>
+	</item>
+	<item id="3401"
+		image="armor-chest-boia-3.png"
+		name="Boia Amarela e Verde"
+		description="..."
+		type="equip-torso"
+		weight="45">
+		<sprite gender="male">equipment/charm/boia-3-male.xml</sprite>
+		<sprite gender="female">equipment/charm/boia-3-female.xml</sprite>
 	</item>
 
 </items>
