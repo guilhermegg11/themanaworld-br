@@ -31,6 +31,7 @@ On1003:
 	set @mobID, 1003;
 	callfunc "MobPoints";
 	callsub _MOBS_escorpiao;
+	callsub _MOBS_pocaoQueimadura;
 	break;
 
 On1004:
@@ -142,6 +143,13 @@ _MOBS_escorpiao:
 	callfunc "mobContagem", 30, QUEST_contamobs, @QUEST_contamobs;
 	set QUEST_contamobs, @mobs;
 	set @QUEST_contamobs, @flag;
+	return;
+
+_MOBS_pocaoQueimadura:
+	if(QUEST_pocaoQueimadura!=2) return;
+	callfunc "mobContagem", 20, MOBS_QueimaduraEscorpiao, @MOBS_QueimaduraEscorpiao;
+	set MOBS_QueimaduraEscorpiao, @mobs;
+	set @MOBS_QueimaduraEscorpiao, @flag;
 	return;
 
 _MOBS_trasgo:
