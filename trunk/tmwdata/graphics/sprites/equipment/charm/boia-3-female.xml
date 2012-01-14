@@ -2,7 +2,7 @@
 
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/equipment/charm/boia-azul-female.png" width="64" height="64"/>
+	<imageset name="base" src="graphics/sprites/equipment/charm/boia-3-female.png" width="64" height="64"/>
 
 	<include file="player_female_base.xml"/>
 
