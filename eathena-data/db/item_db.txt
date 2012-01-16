@@ -991,3 +991,4 @@
 3402,peleTartaruga,peleTartaruga,3,50,25,1,,,,,,,,,,,{},{}
 3403,cascoTartaruga,cascoTartaruga,3,70,35,25,,,,,,,,,,,{},{}
 3404,pocaoQueimadura,pocaoQueimadura,3,50,25,5,,,,,,,,,,,{},{}
+3405,gosmaAreia,gosmaAreia,3,10,5,1,,,,,,,,,,,{},{}
