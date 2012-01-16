@@ -7949,5 +7949,11 @@
 		description="Leve esta poção direto para a Júlia. Ela precisa muito dela."
 		type="generic"
 		weight="5"/>
+	<item id="3405"
+		image="generic-gosma-areia.png"
+		name="Gosma de Areia"
+		description="Gosma retirada dos limos de areia."
+		type="generic"
+		weight="1"/>
 
 </items>

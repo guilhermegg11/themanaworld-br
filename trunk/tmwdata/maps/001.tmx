@@ -85,7 +85,7 @@
    H4sIAAAAAAAAA+2S4crsIAxEy77/Q99fFz6katToJPYMHLZsbRIn83ue5wcAAAAAAAAAAAAAAAAAAAAAAAAAAADHsUg9I5zPw+g7uJP/Ig9Q2/nTeAd3Y5F6RiAPoM/F31/4Nk/xC9+gJfIAJU+AGSAOT4AZIA5P551V6nvA3N7+ayYPo3kCXR5256fWY7Q3xMyD5V0p8pCD0Z20zj/F81+1zijvA+0dzp7p5aElz7t41vsiM4qYB+96X2VGve9qGTl1D7Wnt+Hp6Yn9lFL7dxuenu7eT003eBcFzzvt9qcmRU+L1Ls9cUeFTufBe+7s1O5S/m+586ovz5/fmqLkoKyj3uMJX27Nw1u93n89qfe4Kxsru171xaLd9Wel3l3UPHj45VXnVBZW5orEyD1P3dk6T6QszM4Vnda9eu9a3li0Kw8npN5bxjzUnstveprNw858qPcWIQ9P8dzyp1b37ZueZrJgqTd7Vr0zdR5GfLPUHd2jdx5WpN5X1jzMZGO2fut775yo97Vj/9Y7W+/fOzfio2WulbutSr0/dXZO58GaibeanqrVVO9EkYGT8prj1Ozq/UTmzR+rZ71zo/oVz2UPy/e9c2q/o/PmkdU36w6s8qrT6wF2n3oeWmrMZmR3HtQ7yMyMfyvyqNGqo/YzO6MeesizVq02rO3wRA7eepX/edaG+i57Oz6Rg1qvXXXBLw87Ze01Oova5yyUXj1/fmu+Wt/NZKeXzRmpPY7OjJ9/fd2plZlrZ9V+Z2DUp5bfsxrZ3UoPsHnpUcNbIzNYZlN7n5kI8pxP7WdWVn2ePTPaZ7SO2tdszOpUHt7qWGqpfc2Eh9R5KOuV/6k9jk509eYduZfa6+ic0GqvlT1bz0F/R6vee2klDz/jma9zo9SeZuZGqT3Nys1Se5sND0XPl9rjTJyQpefuudQ+Z+CUIuThrQf4+D36fav3z3DGU2rfo5JVK7OrPY/KqIc7z3uo11Ptd3S+JrXf0fmS1F5H50tSe52BN78iaXSe1nm119H5ktReZ+BLUnudgVOKkD211xn4itQ+ZyKSds2n9jgTLQ9Pa0ce1P5mQ6my/9+ZPOZTe5sRT+3K12xdtbdZGfU4g9SeZuY2qf28gdLLzFJ7eQO3SO3jLajlNYPax5toeRxRb3OpPbyNzFJ7dysr+hXPJzOm9u12VnUyD2qvvoSXdmZD7dFXOS1LT7Un4K+VumovQJ+f/1LfC2JlRT07nM1GKy/qWUGTiZrUc0KsXKjng1iZUM8G5AH01KSeC2JlQj0TkAeIwZvUM0GsTKjnAQAAAAAAAAAAAAAAAAAAAAAAAIB5/gHCPx8vwCABAA==
   </data>
  </layer>
- <objectgroup name="spanws" width="132" height="140" visible="0">
+ <objectgroup name="spanws" width="132" height="140">
   <object name="Tartaruga (16)" type="spawn" x="960" y="2464" width="2016" height="1344">
    <properties>
     <property name="eA_death" value="30000"/>
@@ -100,10 +100,16 @@
     <property name="monster_id" value="339"/>
    </properties>
   </object>
-  <object name="Limo Alga-Verde (10)" type="spawn" x="1024" y="2400" width="2016" height="1344">
+  <object name="Limo de Areia (20)" type="spawn" x="1024" y="2400" width="2016" height="1344">
+   <properties>
+    <property name="max_beings" value="20"/>
+    <property name="monster_id" value="350"/>
+   </properties>
+  </object>
+  <object name="Lesma (10)" type="-spawn" x="1824" y="1152" width="832" height="2528">
    <properties>
     <property name="max_beings" value="10"/>
-    <property name="monster_id" value="3"/>
+    <property name="monster_id" value="39"/>
    </properties>
   </object>
  </objectgroup>

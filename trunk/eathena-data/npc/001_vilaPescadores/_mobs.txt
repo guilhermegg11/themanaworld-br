@@ -5,14 +5,9 @@
 
 001.gat,61,97,62,41	monster	Tartaruga (16)	1340,16,0,30000,Mob001::On1340
 001.gat,99,57,24,30	monster	Rama de Batata (8)	1341,8,120000,0,Mob001::On1341
-001.gat,63,95,62,41	monster	Limo Alga-Verde (10)	1005,10,0,0,Mob001::On1005
+001.gat,63,95,62,41	monster	Limo de Areia (20)	1352,20,0,0,Mob001::On1352
 
 001.gat,0,0,0	script	Mob001	-1,{
-
-On1005:
-	set @mobID, 1005;
-	callfunc "MobPoints";
-	break;
 
 On1340:
 	set @mobID, 1340;
@@ -22,6 +17,11 @@ On1340:
 
 On1341:
 	set @mobID, 1341;
+	callfunc "MobPoints";
+	break;
+
+On1352:
+	set @mobID, 1352;
 	callfunc "MobPoints";
 	break;
 

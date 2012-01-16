@@ -200,9 +200,12 @@ Ou um comentário de alguem.
 <sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
 <particlefx>graphics/particles/wisp.particle.xml</particlefx>
 </monster>
-<monster id="39" name="Lesma" summon="lesma">
-<sprite>monster-snail.xml</sprite>
-</monster>
+
+	<monster id="39" name="Lesma" summon="lesma">
+		<sprite>monster-snail.xml</sprite>
+		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+	</monster>
+
 <monster id="40" name="Espectro Radiante" summon="espectroRadiante">
 <sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
 <particlefx>graphics/particles/wisp.particle.xml</particlefx>
@@ -525,47 +528,17 @@ Ou um comentário de alguem.
 	<sprite>monsters/jack-maligno.xml</sprite>
 </monster>
 
-<monster id="350" name="Zumbi" summon="zumbi2">
-	<sound event="move">monsters/zombie/zombie-move1.ogg</sound>
-	<sound event="move">monsters/zombie/zombie-move2.ogg</sound>
-	<sound event="hit">monsters/zombie/zombie-hit1.ogg</sound>
-	<sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
-	<sound event="miss">monsters/zombie/zombie-miss1.ogg</sound>
-	<sound event="die">monsters/zombie/zombie-dying1.ogg</sound>
-	<sprite>monster-zombie.xml</sprite>
+<monster id="350" name="Limo de Areia" summon="limoAreia">
+	<sprite>monsters/limo-areia.xml</sprite>
 </monster>
-<monster id="351" name="Esqueleto Guerreiro" summon="esqueletoguerreiro2">
-	<sprite>monster-skeleton.xml</sprite>
-	<sprite>chest-warlordplate-male.xml</sprite>
-	<sprite>head-axehat.xml</sprite>
-</monster>
-<monster id="352" name="Lady Esqueleto" summon="ladyesqueleto2">
-	<sprite>monster-skeleton.xml</sprite>
-	<sprite>hairstyle8.xml</sprite>
-	<sprite>chest-dress-valentine.xml|#000000,333333,555555;#444444</sprite>
-</monster>
-<monster id="353" name="Cavaleiro Demoníaco" summon="guerreirocaido2">
+
+<monster id="353" name="Cavaleiro Demoníaco" summon="cavaleiroDemoniaco">
 	<sprite>monster-skeleton.xml</sprite>
 	<sprite>equipment/leg/calca-cavaleiro-demoniaco-male.xml</sprite>
 	<sprite>equipment/chest/armadura-cavaleiro-demoniaco-male.xml</sprite>
 	<sprite>equipment/head/capacete-cavaleiro-demoniaco-male.xml</sprite>
 </monster>
-<monster id="354" name="Esqueleto Arqueiro" summon="esqueletoArqueiro2">
-	<sprite>monster-skeleton.xml</sprite>
-	<sprite>chest-leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
-	<sprite>weapon-bow-attack.xml</sprite>
-	<attack id="1" missile-particle="graphics/particles/arrow.particle.xml"/>
-</monster>
-<monster id="355" name="Caveira de Fogo" summon="caveiradefogo2">
-	<sprite>monster-skull-fire.xml</sprite>
-</monster>
-<monster id="356" name="Caveira Envenenada" summon="caveiraenvenenada2">
-	<sprite>monster-skull-poison.xml</sprite>
-</monster>
-<monster id="357" name="Piron" summon="piron2">
-	<sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
-	<attack id="1" particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"/>
-</monster>
+
 <monster id="358" name="Lesma Carnívora" summon="lesmaCarnivora">
 	<sprite>monster-snail.xml</sprite>
 </monster>
