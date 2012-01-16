@@ -1,0 +1,40 @@
+//
+// Monstros do mapa: org025-1 Caverna do Gato
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
+
+org025-1.gat,22,25,2,4	monster	Morcego (2)	1017,2,100000,30000,Moborg025-1::On1017
+org025-1.gat,29,31,2,2	monster	Verme (2)	1002,2,100000,30000,Moborg025-1::On1002
+org025-1.gat,23,19,1,1	monster	Verme (1)	1002,1,100000,30000,Moborg025-1::On1002
+org025-1.gat,40,19,1,1	monster	Aranha (1)	1012,1,100000,30000,Moborg025-1::On1012
+
+org025-1.gat,0,0,0	script	Moborg025-1	-1,{
+
+On1002:
+	set @mobID, 1002;
+	callfunc "MobPoints";
+	callsub _MOBS_verme;
+	break;
+
+On1012:
+	set @mobID, 1012;
+	callfunc "MobPoints";
+	break;
+
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+	break;
+
+
+//= Callsubs ==========================================================
+
+_MOBS_verme:
+	if(QUEST_praia!=7) return;
+	callfunc "mobContagem", 15, QUEST_contamobs, @QUEST_contamobs;
+	set QUEST_contamobs, @mobs;
+	set @QUEST_contamobs, @flag;
+	return;
+
+	end;
+}

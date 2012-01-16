@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: org025-1 Caverna do Gato
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
