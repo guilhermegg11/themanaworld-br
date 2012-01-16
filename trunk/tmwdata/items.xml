@@ -7906,7 +7906,7 @@
 	</item>
 	<item id="3399"
 		image="armor-chest-boia-1.png"
-		name="Boia Azul e Vermelha"
+		name="Boia Azul"
 		description="..."
 		type="equip-torso"
 		weight="45">
@@ -7915,7 +7915,7 @@
 	</item>
 	<item id="3400"
 		image="armor-chest-boia-2.png"
-		name="Boia Vermelha e Amarela"
+		name="Boia Vermelha"
 		description="..."
 		type="equip-torso"
 		weight="45">
@@ -7924,7 +7924,7 @@
 	</item>
 	<item id="3401"
 		image="armor-chest-boia-3.png"
-		name="Boia Amarela e Verde"
+		name="Boia Amarela"
 		description="..."
 		type="equip-torso"
 		weight="45">
@@ -7933,13 +7933,13 @@
 	</item>
 	<item id="3402"
 		image="generic-pele-tartaruga.png"
-		name="Pele de Tartagura"
+		name="Pele de Tartaruga"
 		description="Algumas tiras de pele de tartaruga."
 		type="generic"
 		weight="1"/>
 	<item id="3403"
 		image="generic-casco-tartaruga.png"
-		name="Casco de Tartagura"
+		name="Casco de Tartaruga"
 		description="Um casco de tartaruga com uma rachadura."
 		type="generic"
 		weight="25"/>
