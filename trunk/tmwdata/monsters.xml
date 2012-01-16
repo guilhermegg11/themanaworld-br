@@ -202,7 +202,7 @@ Ou um comentário de alguem.
 </monster>
 
 	<monster id="39" name="Lesma" summon="lesma">
-		<sprite>monster-snail.xml</sprite>
+		<sprite>monsters/lesma.xml</sprite>
 		<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
 	</monster>
 
