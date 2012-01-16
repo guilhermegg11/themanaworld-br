@@ -1,4 +1,5 @@
 // org025 Floresta warps
 
-org025.gat,19,66	warp	toSwamp	-1,-1,org026.gat,128,66
 org025.gat,130,58	warp	toWoodland	-1,1,org016.gat,20,53
+org025.gat,19,66	warp	toSwamp	-1,-1,org026.gat,128,66
+org025.gat,42,80	warp	paraCaverna	-1,-1,org025-1.gat,31,43

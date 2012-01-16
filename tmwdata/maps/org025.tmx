@@ -64,21 +64,7 @@
    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
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
-  <object name="toSwamp" type="warp" x="608" y="2112" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="org026"/>
-    <property name="dest_x" value="4096"/>
-    <property name="dest_y" value="2112"/>
-   </properties>
-  </object>
-  <object name="toWoodland" type="warp" x="4160" y="1824" width="32" height="96">
-   <properties>
-    <property name="dest_map" value="org016"/>
-    <property name="dest_x" value="640"/>
-    <property name="dest_y" value="1696"/>
-   </properties>
-  </object>
+ <objectgroup name="spawns" width="0" height="0" visible="0">
   <object name="trevos (3)" type="spawn" x="2304" y="672" width="1824" height="2560">
    <properties>
     <property name="eA_death" value="10000"/>
@@ -160,7 +146,30 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="pedraEmanar" width="150" height="120">
+ <objectgroup name="warps" width="150" height="120">
+  <object name="toWoodland" type="warp" x="4160" y="1824" width="32" height="96">
+   <properties>
+    <property name="dest_map" value="org016"/>
+    <property name="dest_x" value="640"/>
+    <property name="dest_y" value="1696"/>
+   </properties>
+  </object>
+  <object name="toSwamp" type="warp" x="608" y="2112" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="org026"/>
+    <property name="dest_x" value="4096"/>
+    <property name="dest_y" value="2112"/>
+   </properties>
+  </object>
+  <object name="paraCaverna" type="warp" x="1344" y="2560" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="org025-1"/>
+    <property name="dest_x" value="993"/>
+    <property name="dest_y" value="1376"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="150" height="120" visible="0">
   <object name="Pedra de Emanar Alma" type="script" x="2336" y="3040" width="32" height="32">
    <properties>
     <property name="npc_id" value="pedraEmanar"/>

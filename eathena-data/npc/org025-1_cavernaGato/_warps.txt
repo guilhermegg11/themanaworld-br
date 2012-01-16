@@ -1,0 +1,3 @@
+// org025-1 Caverna do Gato warps
+
+org025-1.gat,31,43	warp	paraFora	-1,-1,org025.gat,42,80
