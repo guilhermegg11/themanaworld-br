@@ -2679,9 +2679,9 @@
 	</item>
 	<item id="1217"
 		image="armor-head-catears.png|M:#774444;W:#777777"
-		name="Orelhas de Gato"
-		description="Um par de orelhas de gato de pelúcia. Meow!"
-		effect="+3 Agilidade"
+		name="Orelhas do Gato Lendário"
+		description="Um par de orelhas concedido pelo Lendário gato Katzeur."
+		effect="+3 Agilidade, +1 Destreza, Concede o poder 'Visão de Katzeur'"
 		type="equip-head"
 		weight="20"
 		defense="1">
