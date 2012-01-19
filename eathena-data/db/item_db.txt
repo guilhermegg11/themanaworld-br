@@ -991,4 +991,5 @@
 3402,peleTartaruga,peleTartaruga,3,50,25,1,,,,,,,,,,,{},{}
 3403,cascoTartaruga,cascoTartaruga,3,70,35,25,,,,,,,,,,,{},{}
 3404,pocaoQueimadura,pocaoQueimadura,3,50,25,5,,,,,,,,,,,{},{}
-3405,gosmaAreia,gosmaAreia,3,10,5,1,,,,,,,,,,,{},{}
+3405,orelhasGato,Orelhas de Gato,5,4000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,1; }
+3406,gosmaAreia,gosmaAreia,3,10,5,1,,,,,,,,,,,{},{}

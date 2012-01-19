@@ -7950,6 +7950,16 @@
 		type="generic"
 		weight="5"/>
 	<item id="3405"
+		image="armor-head-catears.png|M:#774444;W:#777777"
+		name="Orelhas de Gato"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>head-catears.xml|#774444;#777777</sprite>
+	</item>
+	<item id="3406"
 		image="generic-gosma-areia.png"
 		name="Gosma de Areia"
 		description="Gosma retirada dos limos de areia."
