@@ -2679,13 +2679,13 @@
 	</item>
 	<item id="1217"
 		image="armor-head-catears.png|M:#774444;W:#777777"
-		name="Orelhas do Gato Lendário"
+		name="Orelhas de Katzeur"
 		description="Um par de orelhas concedido pelo Lendário gato Katzeur."
 		effect="+3 Agilidade, +1 Destreza, Concede o poder 'Visão de Katzeur'"
 		type="equip-head"
 		weight="20"
 		defense="1">
-		<sprite>head-catears.xml|#774444;#777777</sprite>
+		<sprite gender="male">equipment/head/orelhas-katzeur.xml</sprite>
 	</item>
 	<item id="1218"
 		image="armor-head-paperbag.png"
