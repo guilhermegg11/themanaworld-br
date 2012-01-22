@@ -342,7 +342,7 @@
 1214,orelhasdecoelho,Orelhas de Coelho,5,5000,2000,20,,1,,1,0,2,256,,0,0,{},{}
 1215,sabredebrinquedo,Sabre de Brinquedo,4,50,25,1,1,,1,,0,2,2,1,1,1,{},{}
 1216,cabecademouboo,Cabeça de Mouboo,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
-1217,orelhasGatoLendario,Orelhas de Gato Lendário,5,5000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,3; bonus bDex,1; }
+1217,orelhasKatzeur,Orelhas de Gato Lendário,5,5000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,3; bonus bDex,1; }
 1218,sacodepapel,Saco de Papel,5,1000,5,10,,1,,-1,0,2,256,,0,0,{},{ bonus bAgi,-1; }
 1219,cabecademoubootauro,Cabeça de Moubootauro,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
 //1220,BunchOfParsley,Bunch of Parsley,5,3,1,1,,1,,0,0,2,256,,0,0,{},{ bonus bDeaf,1; }
