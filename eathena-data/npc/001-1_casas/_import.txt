@@ -2,4 +2,4 @@ map: 001-1.gat
 npc: npc/001-1_casas/_mobs.txt
 npc: npc/001-1_casas/_scripts.txt
 npc: npc/001-1_casas/_warps.txt
-npc: npc/001-1_casas/teste.conf
+//npc: npc/001-1_casas/teste.conf
