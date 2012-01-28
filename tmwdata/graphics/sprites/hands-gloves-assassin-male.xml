@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/hands-gloves-generic-male.png|W" width="32" height="34"/>
+	<imageset name="base" src="graphics/sprites/hands-gloves-assassin-male.png" width="32" height="32"/>
 
 	<action name="stand" imageset="base">
 		<animation direction="down">
