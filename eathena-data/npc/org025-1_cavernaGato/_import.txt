@@ -5,5 +5,5 @@ npc: npc/org025-1_cavernaGato/_scripts.txt
 npc: npc/org025-1_cavernaGato/_warps.txt
 
 npc: npc/org025-1_cavernaGato/barrier.conf
-//npc: npc/org025-1_cavernaGato/katze.conf
-//npc: npc/org025-1_cavernaGato/pot.conf
+npc: npc/org025-1_cavernaGato/katze.conf
+npc: npc/org025-1_cavernaGato/pot.conf
