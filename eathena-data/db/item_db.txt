@@ -34,7 +34,7 @@
 502,pocaodecactus,Poção de Cactus,0,70,35,7,,,,,,2,,,0,,{ itemheal 25,0; },{}
 503,moedasdecassino,Moedas de Cassino,3,20,10,1,,,,,,,,,,,{},{}
 504,baladecorativa,Bala Decorativa,3,25,10,1,,,,,,,,,,,{},{}
-505,gosmadeverme,Gosma de Verme,3,8,4,1,,,,,,,,,,,{},{}
+505,gosmaVerme,Gosma de Verme,3,8,4,1,,,,,,,,,,,{},{}
 506,docebengala,Doce Bengala,0,20,10,1,,,,,,2,,,0,,{ itemheal 5,0; },{}
 507,ferraoEscorpiao,Ferrão de Escorpião,3,50,25,1,,,,,,,,,,,{},{}
 508,bolodenatal,Bolo de Natal,0,110,10,1,,,,,,2,,,0,,{ itemheal 10,0; },{}
@@ -91,14 +91,14 @@
 559,pistalaranja,Pista Laranja,3,20,0,10,,,,,,,,,,,{},{}
 560,pistacinza,Pista Cinza,3,20,0,10,,,,,,,,,,,{},{}
 561,Sabre,Sabre,4,10000,5000,1,100,,1,,0,2,2,1,50,1,{},{}
-562,coxadefrango,Coxa de Frango,0,250,125,10,,,,,,2,,,0,,{ itemheal 500,0; },{}
+562,coxaFrango,Coxa de Frango,0,250,125,10,,,,,,2,,,0,,{ itemheal 500,0; },{}
 563,luvasdeinverno,Luvas de Inverno,5,6000,3000,20,,3,,-15,0,2,4,,0,0,{},{}
 564,SueterGolaAlta,Suéter de Gola Alta,5,2000,1000,30,,2,,-12,0,2,512,,1,0,{},{}
 565,petala,Pétala,0,50,25,10,,,,,,2,,,0,,{},{}
 566,cogumelopequeno,Cogumelo Pequeno,0,50,25,10,,,,,,2,,,0,,{},{}
 567,pocaoenergetica,Poção Energética,0,500,250,10,,,,,,2,,,0,,{ sc_start 185,90, 60; },{}
 568,pocaodeconcentracao,Poção de Concentração,0,500,250,10,,,,,,2,,,0,,{ sc_start 37,90, 30; },{}
-569,tocodemadeira,Toco de Madeira,3,20,10,10,,,,,,,,,,,{},{}
+569,tocoMadeira,Toco de Madeira,3,20,10,10,,,,,,,,,,,{},{}
 570,AdagaBoniClaide,Adaga de Boni e Claide,4,10000,6000,800,90,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
 571,Setzer,Setzer,4,20000,8000,900,110,,1,,0,2,2,1,50,3,{},{}
 572,Scimitar,Scimitar,4,8000,4000,2000,135,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
@@ -140,7 +140,7 @@
 //608,RESERVED,Escudo de Lâminas,,,,,,,,,,,,,,,{},{}
 //609,RESERVED,Porrete,,,,,,,,,,,,,,,{},{}
 610,shortjeans,Short Jeans,5,2000,1000,25,,4,,-8,0,2,1,,30,0,{},{}
-611,pelobranco,Pelo Branco,3,8,4,8,,,,,,,,,,,{},{}
+611,peloBranco,Pelo Branco,3,8,4,8,,,,,,,,,,,{},{}
 612,antenaluminosa,Antena Luminosa,3,80,40,10,,,,,,,,,,,{},{}
 613,espinho,Espinho,3,8,4,10,,,,,,,,,,,{},{}
 614,antenaRosa,Antena Rosa,3,10,5,10,,,,,,,,,,,{},{}
@@ -170,7 +170,7 @@
 638,capacetedainfantaria,Capacete da Infantaria,5,15000,1500,400,,15,,-30,0,2,256,,30,0,{},{}
 639,elmodascruzadas,Elmo das Cruzadas,5,25000,2500,1500,,18,,-36,0,2,256,,45,0,{},{ bonus bAgi, -1; }
 640,mineriodeferro,Minério de Ferro,3,250,100,40,,,,,,,,,,,{},{}
-641,peledecobradamontanha,Pele de Cobra da Montanha,3,250,100,15,,,,,,,,,,,{},{}
+641,peleCobraMontanha,Pele de Cobra da Montanha,3,250,100,15,,,,,,,,,,,{},{}
 642,calcadecourodecobra,Calça de Couro de Cobra,5,2000,1000,60,,6,,-12,0,2,1,,50,0,{},{}
 643,chapeubrancodevaqueiro,Chapéu Branco de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
 644,chapeupretodevaqueiro,Chapéu Preto de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
@@ -214,7 +214,7 @@
 682,ervagamboge,Erva Gamboge,3,2,1,1,,,,,,,,,,,{},{}
 683,ervaalizarina,Erva Alizarina,3,2,1,1,,,,,,,,,,,{},{}
 684,pocaominimadecura,Poção Mínima de Cura,0,25,12,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
-685,pocaopequenadecura,Poção Pequena de Cura,0,50,25,10,,,,,,2,,,0,,{ itemheal 200,0; },{}
+685,pocaoPequenaCura,Poção Pequena de Cura,0,50,25,10,,,,,,2,,,0,,{ itemheal 200,0; },{}
 686,pocaomediadecura,Poção Média de Cura,0,100,50,15,,,,,,2,,,0,,{ itemheal 400,0; },{}
 687,pocaograndedecura,Poção Grande de Cura,0,200,100,25,,,,,,2,,,0,,{ itemheal 800,0; },{}
 688,camiseta,Camiseta,5,10,5,10,,2,,-4,0,2,512,,0,0,{},{}
@@ -239,7 +239,7 @@
 707,pocaodeoleodemonstro,Poção de Óleo de Monstro,3,10000,2000,50,,,,,,,,,,,{},{}
 708,retalhodecouro,Retalho de Couro,3,300,150,18,,,,,,,,,,,{},{}
 709,ferraodeescorpiaopreto,Ferrão de Escorpião Preto,3,250,100,1,,,,,,,,,,,{},{}
-710,linguadecobra,Língua de Cobra,3,60,30,1,,,,,,,,,,,{},{}
+710,linguaCobra,Língua de Cobra,3,60,30,1,,,,,,,,,,,{},{}
 711,linguadecobradamontanha,Língua de Cobra da Montanha,3,80,40,1,,,,,,,,,,,{},{}
 712,linguadecobradagrama,Língua de Cobra da Grama,3,160,80,1,,,,,,,,,,,{},{}
 713,linguadecobradacaverna,Língua de Cobra da Caverna,3,120,60,1,,,,,,,,,,,{},{}
