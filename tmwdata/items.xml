@@ -4739,6 +4739,107 @@
 		<sprite gender="male">equipment/leg/long-pants-male.xml|#104010,208020,30c030</sprite>
 		<sprite gender="female">equipment/leg/long-pants-female.xml|#104010,208020,30c030</sprite>
 	</item>
+	<item id="2510"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#580000,A40000,C02020,ff6060"
+		name="Orelhas de Gato Vermelha"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#580000,A40000,C02020,ff6060</sprite>
+	</item>
+	<item id="2511"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#115511,22aa22,99dd99"
+		name="Orelhas de Gato Verde"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#115511,22aa22,99dd99</sprite>
+	</item>
+	<item id="2512"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#222255,6666ff"
+		name="Orelhas de Gato Azul Escura"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#222255,6666ff</sprite>
+	</item>
+	<item id="2513"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#846211,dab333,fffb93,ffffff"
+		name="Orelhas de Gato Amarela"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#846211,dab333,fffb93,ffffff</sprite>
+	</item>
+	<item id="2514"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#16486e,498ec5,e4f2fc"
+		name="Orelhas de Gato Azul Clara"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#16486e,498ec5,e4f2fc</sprite>
+	</item>
+	<item id="2515"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#56002f,930050,fe70bd,feb7de,ffffff"
+		name="Orelhas de Gato Rosa"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+	</item>
+	<item id="2516"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#111111,222222,333333,444444,555555,aaaaaa"
+		name="Orelhas de Gato Preta"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#111111,222222,333333,444444,555555,aaaaaa</sprite>
+	</item>
+	<item id="2517"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#80280f,b04810,ef681f,ffb830"
+		name="Orelhas de Gato Laranja"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#80280f,b04810,ef681f,ffb830</sprite>
+	</item>
+	<item id="2518"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#520a7b,8c23c7,ca87ef"
+		name="Orelhas de Gato Roxa"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#520a7b,8c23c7,ca87ef</sprite>
+	</item>
+	<item id="2519"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#104010,208020,30c030"
+		name="Orelhas de Gato Verde Escura"
+		description="Um par de orelhas de gato de pelúcia. Meow!"
+		effect="+1 Agilidade"
+		type="equip-head"
+		weight="20"
+		defense="1">
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#104010,208020,30c030</sprite>
+	</item>
+
 	<item id="2999"
 		image="armor-head-bowler-hat.png"
 		name="Bowler Hat"
@@ -7950,14 +8051,14 @@
 		type="generic"
 		weight="5"/>
 	<item id="3405"
-		image="armor-head-catears.png|M:#774444;W:#777777"
+		image="armor-head-orelhas-gato.png|M:#774444;W:#FFFFFF"
 		name="Orelhas de Gato"
 		description="Um par de orelhas de gato de pelúcia. Meow!"
 		effect="+1 Agilidade"
 		type="equip-head"
 		weight="20"
 		defense="1">
-		<sprite>head-catears.xml|#774444;#777777</sprite>
+		<sprite>equipment/head/orelhas-gato.xml|#774444;#FFFFFF</sprite>
 	</item>
 	<item id="3406"
 		image="generic-gosma-areia.png"
