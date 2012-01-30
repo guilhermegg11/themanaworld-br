@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
  <properties>
-  <property name="name" value="Cave"/>
+  <property name="name" value="Caverna do Gato"/>
+  <property name="pasta" value="cavernaGato"/>
  </properties>
- <tileset name="cave" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png"/>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset name="cave_bilevel" firstgid="129" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_bilevel.png"/>
+ <tileset firstgid="129" name="cave_bilevel" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png" width="512" height="512"/>
  </tileset>
- <tileset name="cave_x2" firstgid="385" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/cave_x2.png"/>
+ <tileset firstgid="385" name="cave_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
- <tileset name="Woodland_ground" firstgid="401" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png"/>
+ <tileset firstgid="401" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
  </tileset>
- <tileset name="Collision" firstgid="657" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+ <tileset firstgid="657" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset name="Unbenannt" firstgid="659" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+ <tileset firstgid="659" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
- <tileset name="Unbenannt1" firstgid="915" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ <tileset firstgid="915" name="Unbenannt1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
- <tileset name="Unbenannt2" firstgid="947" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ <tileset firstgid="947" name="Unbenannt2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
  </tileset>
- <layer name="Bottom" width="64" height="64">
+ <layer name="Ground" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3YSU7DMBgF4H9BOQHiBoVygEI5QKEcoKfgABSpS6YF0wIEC6ZFGSTGBZNEGRZMEkhciRclVgwySU0rEZu3+OTEiiK/2v7ltCoiVSIiIiIiIiKiX+iHAuQNbV67LyT069cDGchkYwhKUDS0Re2+lNCvXw9nIJONUahA2dCWtftKQr9+PZaBTDZ6YRwmodam4B09Gchkmz8Yex1ykQ3Ys7AJW9F7XM2/DTtwCEdwaeEYThzLr+p+XzTuUziDG2jCs4VbuBO31r+q+4NR/nt4gDd4t3zXCqyKW/Ov6v5INO41ODA8NwXTMAOzMOdJ/mDfq3qn8q+nZEt7ZsLD/A3YlbDO74t5jbg4//rvkJT/HC4krPNXcP3P8j/Ck4R1/gVeJa4Jqh74ll+veSYLsCjxfvAtv17PTGdcdVZQ+8G3/I0oj/5doNrgnKzOCmo/+JZf5VGZ9XUQ9H3AvMRnAR/yL8GyfN3fSd96Pz3vav5OcTF/vY283/83cDF/rgW1Fp9zLX+abgnXR1cGxvJX68PFdd3J/C5913H+mb/T+V36X4/zT0RERERERERERK75BFqDQ/EAQAAA
+   H4sIAAAAAAAAA+3YSU7DMBgF4H9BOQHlBoVygEI5QKGciIK6ZFowLUCwYFqUQWJcMEmUYcEkgcSVeFFixSCT1LQSsXmLT06sKPKr7V9O8yKSJyIiIiIiIiL6hX4oQsHQFrT7YkK/fj2QgUw2hqAMJUNb0u7LCf369XAGMtkYhSpUDG1Fu68m9OvXYxnIZKMXJmECam0K3tGTgUy2+YOx1yEX2YA9C5uwFb3H1fzbsAOHcASXFo7hxLH8qu73ReM+hTO4gSY8W7iFO3Fr/au6Pxjlv4cHeIN3y3etwKq4Nf+q7o9E416DA8NzUzANMzALc57kD/a9qncq/3pKtrRnxj3M34BdCev8vpjXiIvzr/8OSfnP4ULCOn8F1/8s/yM8SVjnX+BV4pqg6oFv+fWaZ7IAixLvB9/y6/XMdMZVZwW1H3zL34jy6N8Fqg3OyeqsoPaDb/lVHpVZXwdB3wfMS3wW8CH/EizL1/2d9K330/Ou5u8UF/PX28j7/X8DF/PnWlBr8TnX8qfplnB9dGVgLH+1Plxc153M79J3Heef+Tud36X/9Tj/RERERERERERE5JpPQkklugBAAAA=
   </data>
  </layer>
  <layer name="Fringe" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3VwQqDMAwA0M591z5seJIe/G0PIgNRPAwNbd67tIUekqZNSwEAAAAA/jXu1tMrJIzm7M+tJWoM13p7Jy33LCDW5x0dwTP0yVVv/x9sxpN5dnX4jfNwvKf3vnCWNznU5PXPnv83OoBg2ftf9vsPAAAAAHCnBa/NsikAQAAA
+   H4sIAAAAAAAAA+3VwQqDMAwA0M591z5seJIe/G0PIgNRPAwNbd67tIUekqZNSwEAAAAA/jXu1tMrJIzm7M+tJWoM13p7Jy33LCDW5x0dwTP0yVVv/x9sxpN5dnX4jfNwvKf3vnCWNznU5PXPnv83OoBg2ftf9vsPAAAAAHCnBa/NsikAQAAA
   </data>
  </layer>
- <layer name="Top" width="64" height="64">
+ <layer name="Over" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3WIQ4AIAwDQCx8APj/R5mZJCjA3CV1E3VdKQAAAAAAALBXIyMyfxcBAOCp/AN3yf+wH+4y7WF3ALgl99GuAQAAAAC3LKMm80MAQAAA
+   H4sIAAAAAAAAA+3WIQ4AIAwDQCx8APj/R5mZJCjA3CV1E3VdKQAAAAAAALBXIyMyfxcBAOCp/AN3yf+wH+4y7WF3ALgl99GuAQAAAAC3LKMm80MAQAAA
   </data>
  </layer>
  <layer name="Collision" width="64" height="64" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3TQQqDMBBAUen9V564K6GEomkyZcjkDTxQUMmPer6O4wQAAAAAhlzzefzt/GmyO2baZ+Z6TnZLxB7Mfj+riVi7/rr9PW2r9vf8979ck90z2r5jf+Tad+tv76nW3zOV33/beddetf9uH3bof5pq/RGT3TLa377D3fpnpt271UROdsu/9id7Dfr169evXz8AAAAAUMsb4VptiABAAAA=
+   H4sIAAAAAAAAA+3TQQqDMBBAUen9V564K6GEomkyZcjkDTxQUMmPer6O4wQAAAAAhlzzefzt/GmyO2baZ+Z6TnZLxB7Mfj+riVi7/rr9PW2r9vf8979ck90z2r5jf+Tad+tv76nW3zOV33/beddetf9uH3bof5pq/RGT3TLa377D3fpnpt271UROdsu/9id7Dfr169evXz8AAAAAUMsb4VptiABAAAA=
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="0" height="0">
-  <object name="to 015-1" type="warp" x="993" y="1376" width="32" height="32">
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="paraFora" type="warp" x="993" y="1376" width="32" height="32">
    <properties>
-    <property name="dest_map" value="015-1"/>
-    <property name="dest_x" value="1888"/>
-    <property name="dest_y" value="1024"/>
+    <property name="dest_map" value="org025"/>
+    <property name="dest_x" value="1344"/>
+    <property name="dest_y" value="2560"/>
    </properties>
   </object>
-  <object name="Bats" type="spawn" x="640" y="736" width="128" height="160">
+  <object name="Morcego (2)" type="spawn" x="672" y="736" width="96" height="160">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -64,7 +64,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="Maggots" type="spawn" x="896" y="960" width="96" height="96">
+  <object name="Verme (2)" type="spawn" x="896" y="960" width="96" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -72,7 +72,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object name="Maggots" type="spawn" x="736" y="608" width="64" height="64">
+  <object name="Verme (1)" type="spawn" x="736" y="608" width="64" height="64">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -80,7 +80,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object name="Spider" type="spawn" x="1280" y="608" width="64" height="64">
+  <object name="Aranha (1)" type="spawn" x="1280" y="608" width="64" height="64">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
