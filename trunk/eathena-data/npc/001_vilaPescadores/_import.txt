@@ -13,3 +13,4 @@ npc: npc/001_vilaPescadores/maya.conf
 npc: npc/001_vilaPescadores/menir_alma.conf
 npc: npc/001_vilaPescadores/pescador1.conf
 npc: npc/001_vilaPescadores/pescador2.conf
+npc: npc/001_vilaPescadores/rosilda.conf
