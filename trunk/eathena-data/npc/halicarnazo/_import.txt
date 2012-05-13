@@ -1,5 +1,5 @@
-map: org016-2.gat
+map: halicarnazo.gat
 
-//npc: npc/org016-1_cabana/_mobs.txt
-//npc: npc/org016-1_cabana/_scripts.txt
-//npc: npc/org016-1_cabana/_warps.txt
+//npc: npc/halicarnazo/_mobs.txt
+//npc: npc/halicarnazo/_scripts.txt
+//npc: npc/halicarnazo/_warps.txt
