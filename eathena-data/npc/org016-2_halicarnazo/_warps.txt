@@ -1,3 +1,0 @@
-// org016-1 Cabana warps
-
-org016-1.gat,27,43	warp	paraFora	-1,-1,org016.gat,84,53
