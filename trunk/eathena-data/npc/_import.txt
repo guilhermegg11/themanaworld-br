@@ -61,6 +61,7 @@ import: npc/navio016/_import.txt
 
 import: npc/org016_terrasDesconhecidas/_import.txt
 import: npc/org016-1_cabana/_import.txt
+import: npc/org016-2_halicarnazo/_import.txt
 import: npc/org025_pantano/_import.txt
 //import: npc/org025-1_cavernaGato/_import.txt
 import: npc/org026_pantano/_import.txt
