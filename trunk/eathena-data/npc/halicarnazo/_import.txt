@@ -2,4 +2,4 @@ map: halicarnazo.gat
 
 //npc: npc/halicarnazo/_mobs.txt
 //npc: npc/halicarnazo/_scripts.txt
-//npc: npc/halicarnazo/_warps.txt
+npc: npc/halicarnazo/_warps.txt
