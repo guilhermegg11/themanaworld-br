@@ -4,3 +4,4 @@ org016.gat,53,102	warp	paraCapitao	-1,0,navio016.gat,20,24
 org016.gat,41,100	warp	paraConves	-1,-1,navio016.gat,51,24
 org016.gat,20,53	warp	toSwamp	-1,1,org025.gat,129,58
 org016.gat,84,53	warp	paraCabana	-1,-1,org016-1.gat,27,43
+org016.gat,55,20	warp	Halicarnazo	3,0,halicarnazo.gat,56,108
