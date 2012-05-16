@@ -1,3 +1,4 @@
 // Halicarnazo Warps
 
 halicarnazo.gat,55,109	warp	toOrg016	3,0,org016.gat,56,21
+halicarnazo.gat,56,71	warp	toOrg016	3,0,halicarnazo.gat,56,73
