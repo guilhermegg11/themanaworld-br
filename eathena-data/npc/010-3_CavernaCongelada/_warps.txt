@@ -6,6 +6,8 @@
 010-3.gat,45,70	warp	paraFora	-1,-1,010.gat,68,90
 010-3.gat,52,62	warp	paraFora	-1,-1,010.gat,70,81
 010-3.gat,37,28	warp	paraFora	-1,-1,010.gat,58,52
+010-3.gat,42,33	warp	paraFora	-1,-1,010.gat,75,35
+
 010-3.gat,50,55	warp	A(paraB)	-1,-1,010-3.gat,62,32
 010-3.gat,62,32	warp	B(paraA)	-1,-1,010-3.gat,50,55
 010-3.gat,36,47	warp	C(paraD)	-1,-1,010-3.gat,59,20
@@ -14,3 +16,5 @@
 010-3.gat,35,33	warp	F(paraE)	-1,-1,010-3.gat,31,62
 010-3.gat,50,48	warp	G(paraH)	-1,-1,010-3.gat,50,43
 010-3.gat,50,43	warp	H(paraG)	-1,-1,010-3.gat,50,48
+010-3.gat,39,20	warp	I(paraJ)	-1,-1,010-3.gat,46,32
+010-3.gat,46,33	warp	J(paraI)	-1,-1,010-3.gat,39,21

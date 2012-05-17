@@ -15,12 +15,12 @@
  </tileset>
  <layer name="Ground" width="86" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2aXW7CMBAGI1CPwPVaTkB7/6eGh0iRZZv172c7E2lUBI2THXbXJvJj27YHAAAAAAAAAAAAAADA4nwFUN+XMvZUUsdUxz2yy5rfxcyoPc7uVu1qNbc9Xdwv4rWmq1Rnt8T3Z/GqruPSnFb7UzqtdU1fDqsd5ni15sz3zs/O0xj3p+tZe8CoXreE+4/F89r53fmr+J1e0WuvepnVa0nt14ppJZ+WnL13cJzi8dzD1c5KvPbII9/5oTkrp4crsbg6z9MHNdyuUvOWvI3VvsVpiovVnfpijK1Ja+WZpf7VXmq79fWz2n6v0AdSvZd6qZ37K5HrpEVPWQ28juvVnbNmeW7V06tvnVaar+oYR/BqzdfYOs79TB2j2us98Np3nruOO48z22/W1l6pY7yOjq8X4rQceiHMTs7vqRDHoY5JTU2nZ7fquEb3mXu+Or4RXVrdXNXrluHS9VJ6/mocR0+nN88Yq1HqtCRXV5671F5XzdmY19vpr/tM+jjwavdq2UuA1zixeC37uNwxQmPGrqV20Nurdd5xj9j/+epB7aAV7p6+WK+1enWfM8acq+NvhXUPTMo+9vOYV+yvn2jZG67s1eI2tAazeFXHpqZ0fsNnntuU3ovXNLdW5+oYRobab+v2vU594rK61/c6NbTuVd8fAAAAAAAAAAAAAAAAtOUfy3wQp/B4AAA=
+   H4sIAAAAAAAAA+2aW27DIBAArVg9Qq7X5gRp7/9V58MSQoAXWLw8xtIoLxt7J8uCLZ7btj0BAAAAAAAAAAAAAAAm5yuC9XVZxp5yUfL7Cm6lLmu8reRWy4GW19Hcasbd2usIblv4jHndF/GqEd/uvUrz9RFpL/b9KF5b5mlNHZDmtLU/K6elXqU5bO2wxKs0Z74Pfg5ewrivzietAb163TKuPxXP++D34E/xP13R6139ZVSvNX1fK6aZfEpydq90LNk3x6Nbw62d1XhtTcxrbMwqqeGWSBy44/RJjrPQ55x8tXakkbepvi9xmuNidqehGFNzUq08k/R/ay/abkP1TNvvCnUg13utF+3cn4lSJy1qymzgtV+v/pg1ynOrO71ePdcuyVfrGHvwKs3X1DzO/806Rmuve+R96Dh/Hue2M9o9a2uv9GO89k6oFuK0HmohjE7J/VSMc7OOyRpNp65b67h691l6vHV8PbqUulnV61bg0vdSe/xsnNudTh+BNmaj1mlNrs48dll7nTVnU14fzqv/TPrc8Cr3KllLgNc0qXgl67j8NmJtps5l7eBur9Jxx99S+4X6g7WDVvhr+lK1VurVf86Ycm4dfyuka2By1rG7ba5YX69oWRtW9ipxG5uDSbxax2ZN7fiGzzK3ObUXr3lupc6tY+gZ+n5bt5956guX6l4/89TYvNf6+gAAAAAAAAAAAAAAAKAt/2B2cWbweAAA
   </data>
  </layer>
  <layer name="Ground2" width="86" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2bSXMTMRBG54i5JhByZj9DWC5AFQnLBfj/vwZ1ka40HbWWtuSZkb5X1VWOY489z9KoJfUsC2jFo7W/wKDAax/gtQ/w2gd47QO89gFe+wCvfYDXPsArAAAAAAAA2+VliOcqXq/6jU4HnfurI0O74mM+DfEpxOcQX0JchXgWef0oSJd07h+ODHLF7VEe802IXyF+h/gT4ibE22U8t7IdsRM69x9HBrm6ug15zG+R73C97Net1bdlO2InsXOvhVzdiMgdc29ueZyw+naqHZ0advtx7S+S4Wz555P6otW3t+BTQm5/rv0lErBT8lnSD2u5CPFExGXDY583PFZLqO+z01Y+yeOlePxQ/f+wtHO7Va/vF59Tqw2yx8Pt89op08rtVr1+X3xOLV81tHC7Va+PHe9peS5et9xfWvy+PfCcF+WNsfmnl9rftlV/6U3teVHeyPPP1Dy/BBo3XxS87sJx7LWp9Up5I88/5bqIZ/5D4+a7zGv20j41PHbXXg/Ir1wX8cwt6TdNjZt7dSrxjGESz7w99ZkjOCXkGKZz+9K5Uq1b+swHxv/2sq5SgsznuS3JvIqfY9cxz9JtbjyjObQ1bu1pzepY9DzK6sfslvIGK9/ldQlr3NrbemBLUvkv5w0xr3KtJzVusdutzqt6khvvYk7oPeT0a8Hxr41jjI7Xa4lTYpS8oBav11JmbKuEx+tB/a3XGiUztlXC4zVGbs12Nlp5Bf8jver5wqxjTgvkHIwdyj5dW1c0Ux1WCtleKd8vrS+Sa4zyea7Dgt/7Pkvqi+Qao3ye67BGr3NLcbbczUmlz9Kc34Jri2ZbH7DaZ86n3h/P1WvMtD7AtRy17TOXG1hrODOsD/A+X21/L823rD2h0b3yPl/N9VM7zdV407VUzzVG9spttaY+JuaUryFWnkW1lzN5LdmT1mgfXA+WyrOo9lJ7HTknyO1Jx9BeS9Zdz5f7XkfOCTz74HreVHKMmNeRcwKPV543sZPcfi5fj2OfBa938LxJe+W/dc1Cap93VK/aQU3tkbxHS98/KF1zDharKRjVK5FqbynkPVoy5LWUHlO+QLlWLO+YyStRUjen79Hi0F7psXXvzcheU3hrlOV1waopmn3fodatvj7o/r/1evdTUuM2dw/nrH3fosW9LrP3fQtvHTj6fhklbVfuI8BnOXr+ihqDNsTmpagbAgAAAAAAAAAAAAAAAAAAmIe/TuLfPPB4AAA=
+   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
   </data>
  </layer>
  <layer name="Fringe" width="86" height="90">
@@ -30,48 +30,34 @@
  </layer>
  <layer name="Top" width="86" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YsQqAIBQF0LfWHtn//2gODRERNTzKPAceIi4uXi5GAAAAAAAAAAAA0IOhTqkzvn0R4NdKyJoM024AWqaTAgDZlm2dT/bHM+676nE6HoAsBAAAAJ7xlwDty3jHsgEAgK/RUQEAAAAAAPq2AtV6oc7weAAA
+   H4sIAAAAAAAAA+3YwQqAIAwAUK91j+z/fzSDDiIRVEiZ78FAb3rY3AwBAAAAAAAAAACAHgwpYorx7YMAvxaDWrPdf9nX88H+jimLnpVvmbcN2iNvAYDayvkr3z+dzXp21sfp8QDUQgAAAOAafwnQvhp5rDYAAPA1elQAAAAAAIC+rZhmR5rweAAA
   </data>
  </layer>
- <layer name="Collision" width="86" height="90" visible="0">
+ <layer name="Collision" width="86" height="90" opacity="0.45">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YSRKCMBBAUa6uJ3dvlZihSWd4i79xgPQTJeX7uq63JEmSJEmSJEmSpOl6TbCG3Xp9lb2e7PlLazle9qwzOkaVPf9unjvYPjn/aa4j5z3FNuIaHP05Zps9bdrqenfui+vQ86/guaJrttVKc5Wek2vc+b9fl201yjdi1h2+81GukQY7m/6at8aea7vrPxOusf49Jly5ZrrW+oze161Sq0vWfnmVWlxG7N9Wr+d6bXnulLjO5aoy1+x17BZTrifk82gzay177TPW48W3zrPGiG286a9jZs83k2WvyYmuI+4/p7lG3tdL/+/KnnkV15LXn+QasQ8tfQ/XeteS6/Ik11rbEte7x06yjbhmuZYZ/PPm2u56Z8s1xr3394FpvC3Pfluuz9n27CNOj2eObfbaVo4fV0mSJEmSJEmSJMX2AYr3/BjweAAA
+   H4sIAAAAAAAAA+3Y0Q6DIAxGYV59e/LdGjOBlsIP9picm82J/Wam2beU8iUiIiIiIiIiIiIiIiKi4Urw8T4bzKTuvkWYXlPPt7r7/C2LlpP1eG+pNrfF1Zt6fqXnTNeTbSNmx3X9vFlsI67B1d+j2my2qde1tnbBden6J3ie6Kq2Us9V26zrX/dTWyldW5tl/ft+aqtVvrVZ74b/TGvrqj0UrpEGbzZ9mtdij6vftWWCa6z/iAmuuCpdrT6z7oen53WZ/Zxxeh6XFc9vpzdyvXreyxKue7lSn6v6PN4WprhmiO/DZ+ZNfe47NuKFr83TYoRtvOnTMdXz7WQ5apLRdcX9J5tr5H299/8u9cynuPbsn8k14jm09zO42l17rstMrlbbHtfaa5lsI65ZXPsMWt64+l1rtrjGuI/+PmAab4vnuC2u82xHniOyh6fGVn1uJ4cfrkRERERERERERERERBTbD0rrmK7weAAA
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
-  <object name="paraFora" type="warp" x="832" y="1152" width="32" height="32">
+ <objectgroup name="pedraEmanar" width="86" height="90" visible="0">
+  <object name="Pedra de Emanar Alma" type="script" x="1824" y="896" width="32" height="32">
    <properties>
-    <property name="dest_map" value="010"/>
-    <property name="dest_x" value="1568"/>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="warps" width="86" height="90">
+  <object name="D(paraC)" type="warp" x="1888" y="640" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="1504"/>
+   </properties>
+  </object>
+  <object name="B(paraA)" type="warp" x="1984" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="1600"/>
     <property name="dest_y" value="1760"/>
-   </properties>
-  </object>
-  <object name="paraFora" type="warp" x="1824" y="1376" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010"/>
-    <property name="dest_x" value="2560"/>
-    <property name="dest_y" value="2080"/>
-   </properties>
-  </object>
-  <object name="paraFora" type="warp" x="1504" y="1888" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010"/>
-    <property name="dest_x" value="2336"/>
-    <property name="dest_y" value="1984"/>
-   </properties>
-  </object>
-  <object name="paraFora" type="warp" x="1440" y="2240" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010"/>
-    <property name="dest_x" value="2176"/>
-    <property name="dest_y" value="2880"/>
-   </properties>
-  </object>
-  <object name="paraFora" type="warp" x="1664" y="1984" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010"/>
-    <property name="dest_x" value="2240"/>
-    <property name="dest_y" value="2592"/>
    </properties>
   </object>
   <object name="paraFora" type="warp" x="1184" y="896" width="32" height="32">
@@ -81,17 +67,31 @@
     <property name="dest_y" value="1664"/>
    </properties>
   </object>
-  <object name="A(paraB)" type="warp" x="1600" y="1760" width="32" height="32">
+  <object name="F(paraE)" type="warp" x="1120" y="1056" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1984"/>
-    <property name="dest_y" value="1024"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="1984"/>
    </properties>
   </object>
-  <object name="B(paraA)" type="warp" x="1984" y="1024" width="32" height="32">
+  <object name="paraFora" type="warp" x="1824" y="1376" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="2560"/>
+    <property name="dest_y" value="2080"/>
+   </properties>
+  </object>
+  <object name="H(paraG)" type="warp" x="1600" y="1376" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
     <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="1536"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="832" y="1152" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="1568"/>
     <property name="dest_y" value="1760"/>
    </properties>
   </object>
@@ -102,11 +102,32 @@
     <property name="dest_y" value="640"/>
    </properties>
   </object>
-  <object name="D(paraC)" type="warp" x="1888" y="640" width="32" height="32">
+  <object name="G(paraH)" type="warp" x="1600" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1152"/>
-    <property name="dest_y" value="1504"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="1376"/>
+   </properties>
+  </object>
+  <object name="A(paraB)" type="warp" x="1600" y="1760" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-3"/>
+    <property name="dest_x" value="1984"/>
+    <property name="dest_y" value="1024"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1504" y="1888" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="2336"/>
+    <property name="dest_y" value="1984"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="1664" y="1984" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="2240"/>
+    <property name="dest_y" value="2592"/>
    </properties>
   </object>
   <object name="E(paraF)" type="warp" x="992" y="1984" width="32" height="32">
@@ -116,44 +137,47 @@
     <property name="dest_y" value="1056"/>
    </properties>
   </object>
-  <object name="F(paraE)" type="warp" x="1120" y="1056" width="32" height="32">
+  <object name="paraFora" type="warp" x="1440" y="2240" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="2176"/>
+    <property name="dest_y" value="2880"/>
+   </properties>
+  </object>
+  <object name="I(paraJ)" type="warp" x="1248" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="992"/>
-    <property name="dest_y" value="1984"/>
+    <property name="dest_x" value="1472"/>
+    <property name="dest_y" value="1024"/>
    </properties>
   </object>
-  <object name="G(paraH)" type="warp" x="1600" y="1536" width="32" height="32">
+  <object name="J(paraI)" type="warp" x="1472" y="1056" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="1376"/>
+    <property name="dest_x" value="1472"/>
+    <property name="dest_y" value="1024"/>
    </properties>
   </object>
-  <object name="H(paraG)" type="warp" x="1600" y="1376" width="32" height="32">
+  <object name="I(paraJ)" type="warp" x="1248" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="1536"/>
+    <property name="dest_x" value="1472"/>
+    <property name="dest_y" value="1024"/>
    </properties>
   </object>
-  <object name="Limo Rodolfo (15)" type="spawn" x="0" y="0">
+  <object name="paraFora" type="warp" x="1344" y="1056" width="32" height="32">
    <properties>
-    <property name="max_beings" value="15"/>
-    <property name="monster_id" value="14"/>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="2400"/>
+    <property name="dest_y" value="1120"/>
    </properties>
   </object>
+ </objectgroup>
+ <objectgroup name="spawns" width="86" height="90" visible="0">
   <object name="Limos Noel (4)" type="spawn" x="608" y="640" width="1536" height="896">
    <properties>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="13"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="pedraEmanar" width="86" height="90">
-  <object name="Pedra de Emanar Alma" type="script" x="1824" y="896" width="32" height="32">
-   <properties>
-    <property name="npc_id" value="pedraEmanar"/>
    </properties>
   </object>
  </objectgroup>
