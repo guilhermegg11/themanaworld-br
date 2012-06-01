@@ -3,6 +3,7 @@ npc: npc/007-4_VilaPescadores/_mobs.txt
 npc: npc/007-4_VilaPescadores/_scripts.txt
 npc: npc/007-4_VilaPescadores/_shops.txt
 npc: npc/007-4_VilaPescadores/_warps.txt
+npc: npc/007-4_VilaPescadores/ArautoPremiador.conf
 npc: npc/007-4_VilaPescadores/banco.conf
 npc: npc/007-4_VilaPescadores/bau.conf
 npc: npc/007-4_VilaPescadores/camelia.conf
