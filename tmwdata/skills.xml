@@ -13,6 +13,7 @@
   <skill id="345" name="Astral Magic" fixed="1"/>
   <!-- CLASSES DO BRASIL -->
   <skill id="397" name="Bruxaria" fixed="1"/>
+
   <skill id="400" name="Cavaleiro / Amazona" fixed="1"/>
   <skill id="401" name="Druida / Druidesa" fixed="1"/>
   <skill id="402" name="Mago / Feiticeira" fixed="1"/>

@@ -5,21 +5,21 @@
 		<skill id="2" name="Negociação (Trade)" icon="graphics/skills/basic/trade.png"/>
 		<skill id="3" name="Grupo (Party)" icon="graphics/skills/basic/party.png"/>
 	</set>
-	<!--set name="Classes">
+	<set name="Classes">
 		<skill id="400" name="Cavaleiro / Amazona" icon="graphics/items/generic-grimorium-cavaleiro.png"/>
 		<skill id="401" name="Druida / Druidesa" icon="graphics/items/generic-grimorium-druida.png"/>
 		<skill id="402" name="Mago / Feiticeira" icon="graphics/items/generic-grimorium-mago.png"/>
 		<skill id="403" name="Ninja / Kunoichi" icon="graphics/items/generic-grimorium-ninja.png"/>
 		<skill id="404" name="Clérigo / Sacerdotisa" icon="graphics/items/generic-grimorium-clerigo.png"/>
 		<skill id="405" name="Necromante" icon="graphics/items/generic-grimorium-necromante.png"/>
-	</set-->
-	<set name="Mágica">
+	</set>
+	<!--set name="Mágica">
 		<skill id="397" name="Bruxaria" icon="graphics/skills/magic/astral.png"/>
 		<skill id="340" name="Magia" icon="graphics/skills/magic/basic.png"/>
-		<!--skill id="341" name="Life Magic" icon="graphics/skills/magic/life.png"/>
+		<skill id="341" name="Life Magic" icon="graphics/skills/magic/life.png"/>
 		<skill id="342" name="War Magic" icon="graphics/skills/magic/war.png"/>
 		<skill id="343" name="Transmutation Magic" icon="graphics/skills/magic/transmutation.png"/>
 		<skill id="344" name="Nature Magic" icon="graphics/skills/magic/nature.png"/>
-		<skill id="345" name="Astral Magic" icon="graphics/skills/magic/astral.png"/-->
-	</set>
+		<skill id="345" name="Astral Magic" icon="graphics/skills/magic/astral.png"/>
+	</set-->
 </skills>
