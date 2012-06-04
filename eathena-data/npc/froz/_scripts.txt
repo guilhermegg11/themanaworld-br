@@ -1,0 +1,4 @@
+//
+// Scripts do mapa: org016-1 Cabana
+// Script gerado automaticamente pela ferramenta TMW Converter...
+//
