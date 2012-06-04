@@ -10,6 +10,9 @@
 010.gat,58,52	warp	paraCaverna	-1,-1,010-3.gat,37,28
 010.gat,49,55	warp	paraCaverna	-1,-1,010-3.gat,26,36
 010.gat,75,34	warp	paraCaverna	-1,-1,010-3.gat,42,32
+
+010.gat,92,20	warp	paraFroz	3,0,froz.gat,93,118
+
 010.gat,145,72	warp	paraCaverna	-1,-1,010-1.gat,51,58
 010.gat,142,63	warp	paraCaverna	-1,-1,010-1.gat,46,28
 010.gat,142,47	warp	paraCaverna	-1,-1,010-1.gat,45,19
