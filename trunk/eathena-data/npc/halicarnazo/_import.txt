@@ -1,9 +1,9 @@
 map: halicarnazo.gat
-npc: npc/halicarnazo/guardas.conf
 
 //npc: npc/halicarnazo/_mobs.txt
 //npc: npc/halicarnazo/_scripts.txt
 npc: npc/halicarnazo/_warps.txt
 npc: npc/halicarnazo/_shops.txt
 
-npc: npc/halicarnazo/pedro.txt
+npc: npc/halicarnazo/guardas.conf
+npc: npc/halicarnazo/pedro.conf
