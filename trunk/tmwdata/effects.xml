@@ -15,9 +15,9 @@
 	<effect id="14" particle="graphics/particles/magic.hit.evil.xml"/>
 	<effect id="15" particle="graphics/particles/fire-burst.xml"/>
 	<effect id="16" particle="graphics/particles/fire-explosion.xml"/>
-	<effect id="17" audio="sfx/nature-thunder.ogg" particle="graphics/particles/lightning1.xml"/>
-	<effect id="18" audio="sfx/nature-thunder.ogg" particle="graphics/particles/lightning2.xml"/>
-	<effect id="19" audio="sfx/nature-thunder.ogg" particle="graphics/particles/lightning3.xml"/>
+	<effect id="17" particle="graphics/particles/lightning1.xml"/>
+	<effect id="18" particle="graphics/particles/lightning2.xml"/>
+	<effect id="19" particle="graphics/particles/lightning3.xml"/>
 	<effect id="20" particle="graphics/particles/magic.teleport.xml"/>
 	<effect id="21" particle="graphics/particles/pentagram-buildup-short.xml"/>
 	<effect id="22" particle="graphics/particles/pentagram-burst.xml"/>
@@ -47,5 +47,5 @@
 	<effect id="309" particle="graphics/particles/emanar-alma.xml"/>
 	<effect id="310" particle="graphics/particles/circulo-magico2-efeito.xml"/>
 	<effect id="311" particle="graphics/particles/circulo-magico3-efeito.xml"/>
-
+	<effect id="312" audio="sfx/nature-thunder.ogg" particle="graphics/particles/lightning-lunovox.xml"/> <!-- Um raio que incendeia o chão! -->
 </being-effects>
