@@ -45,7 +45,7 @@
  </layer>
  <layer name="ground3" width="200" height="140">
   <data encoding="base64" compression="gzip">
-   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
+   H4sIAAAAAAAAA+3dy24cRRTG8fEoEkhsEW+AeATvkNhlh8QWISHCCwBRLsv4mmSZ4PiSpRPIjgUxkHUwlzwDPAJs2LHilEJpKuU6fa3qnlP5/6QjT8CuKXfXN1Xd0+NeLMo5kHp7ufr3O0v1W4FBLI8v8oHSLI8v8oHSLI8v8oHSLI8v8oHSLI8v8oHSLI8v8oHSLI8v8oHSLI8v8oHSLI+vOB9vGOs/1t+bFeXjD2P9x/r7s6J8/GWs/1h/f1eUD6Aki/l4V/r878Zi8c/Gy69ATn5cua/vGczHpvT5reXqK5BTOL42jY0vn49No/3H+rM8vlL56FLXpK5L3ZC6OeDnrbRzS2pLaltqR2pXas9Av+dup6ksIR/N7dyTui/1tdSB1AOpQwP9nrudGrLhkI/mdk6lHkk9lvpG6lupJwb6PXc7ljPh7Uk9XtSxP0q181TqTOoHqR+lfpJ6ZqDfc7VTEzd3nEldXvavfanbUnek7g74eSvtnEv9IvWr1G9Sv0u9MNDvOdqpjcvH+cCfPZLtcSx1IvVwxLax2o7Vfpdq5/7wp1xbB3N3AFXYljqcuxMFkA/kUOPc4ZAP5EA+AB35ANJqPfbw730AY9Q8d5zN3QmYV3M+hr73ATi1rq0cjj0wVq1zh0M+MBb5AHSnUo+k9ufuSGacu0IO30s9XdQ3j3DuCjk8l/p58XIeqWkO4dwVcnLzSE1zCMceyMnNIzXNIQ+kdufuBKri5hAyAqS5OcRnpJZzWmQEOfmMuHNaPifWs0JGkJM/p+Vz4rNCRoAVnxOfFevntzinhVJcVsgHkGb9Ol+uN0FJNcwdXG+CEqzPHQ7Xm6CEGrLhcOyBEqyvqxyOPVBKDfng2AOl1JIPjj2QWw3HHqytUEotcwdrK5RQSz5YW6GEWvIBlEA+AJ31fHBsjpKsf+aDY3OUZP0zHxyboyTLf9OEtRWmYHUOYW2FKVidQ1hbYSoW5xDO62IqFj97Tj4wJfIB6MgHoCMfgI58AGkWPyfl/p7ozuLVvym6uWyua1LXpW5I3Wz5Xsvt3JLaWq62y6483jPQ77nbiWv7/zFmLRuh8O/uWtsfpdq5J/X+crWNPpDHhwb6PXc7NeUi5DNibX+UaudU6sPlavt8JI+fGOj33O34bNSSi5A7HrG2P0q181Tq0+Vq21yRx88M9HvudmrNhuPycXnZXPtSt6XuSN1t+V7L7ZxLfbFcbZur8viFgX7P2U7N2eh6Le+RbIdjqROph8v276+tHav9HtKOGxNd7/20DtkoeY+q8FrePtsFdQn3vXu97HLvp9zZCPvQp8L7ueUct37uOAseh9tl6pz47UM2p+O3ebjv3Xhou/dTzmyk+tC3wvse5hg/YTbOgsfhdonvs1h6bjlY1HG/OgviMRnu+/CzD9pnOHK8J57qw9h85LrPtF9XhRVvl/g+i/Hckqox/ToInrOm+wSvEy0XTZ8HSo25MfnQcpErH2MzEs8dcTZC4X0W47klVWPu6+uve4nvE0xGxhuSC8/vjzATQ/ZLWy5y5mNoRlLZ6PtZ21RmUtnp27/wurBw/jrt2T9c5NeufXIRitdZ4Rzf5bUwPL7VcpE7H0PWIW3rqrHi+/r26V/qusnUaxf682vXMfs63A9+/LWdzwnnjLZcDM1H+Loc56PPOiTH3NFH33WSdl2xxc9orpsc12yH+yHOR3w+x+3reM7okg9tXdJUvm8+J6l8NK234gyXmjtS4nVS03nspvcpycc4uT7T4Pehlo8wJ/Gc0ZaLHGPRvyan8hFnJHU8NGU2Uv1umieb5rKx+Yjfe9LWAbW+P5orH/F40/LhvsaZKJmLUJyR1HG7dp5ginWVpum4vm079clH6n3Y+L2nuL2D6P/Xdt4sVz7idczQfJTIRdxPLR/+v6XyOsfckUPbeNWujwjnpjCLqXzE5+FKZqTvtRRj+lHi72XG64Gu+SidC62PffJhLRuONl7bro9IzU2XFul8XAr+7bdtrvcp4zz0vZZiSD/i487c4nOVbfmYY9xpx+1N+bAoPs/b9fqIlC75CJ9z7PhM5aHvuZqu/Ug959TnYeJ8TDlnaFLHJKl8zN3PMfx7VKlc9Pm9uubDP2dqfHY5xm+a04a8P9eUk6Z5dOrzML6f6zbe4mOSKY+HphL+blOvZcPxGWelbY7I1U8tJ0Pm0ZKez/z8mnBNUFMuPD8+5vqdUmvuXHPEkH7UvK9LmXsMvS7i89VzHn+yrwEAAAAAAF4fn20sFlekPt+YuyfA+vlScvGV1FXyAVywJbnYltohH8AFrK8AHesrQMf6CtCxvgJ0rK8AHesrQMf6CtCxvgJ0rK8AHesrQMf6CtCxvgJ0rK8AHesrQMf6CtCxvgJ0rK8AHesrQMf6CtCxvgJ0rK8A3ZHk4ljqhHwAr/g4ysQnZARQfUc+AAAAAAAAAAAAAAAAAAAAAAAAgFH+A6KJlhGAtQEA
   </data>
  </layer>
  <layer name="fringe" width="200" height="140">
@@ -58,7 +58,7 @@
    H4sIAAAAAAAAA+3cYUrDMBgG4HY3FbyAPzzA6LyC++3FvIJX0ILFENskZEqz5nmgP76VpOm6l4/CyDAAAAAAAAAAAAAAAADAMDye0vV7VJfOE4+Lz2+Jx9XOk1tP6X2VaG3NuWdaup6audbmnsov15znU7r+KPwuc+Pi81vicbXz5NZTel8lWltz7pmWrqdmrqWeM3H5Pq7ll4PDCbMgE/BjzoYswG/3/F4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC04WFM19CzpzFdQ8/OY7qGnr2N6RoAAAAAAAAAAAAAAAAAAPY2fR2X4HjZdznQjGnjcxnhyOKesNYXtrKxqMmI/a9oXep3H+blP9j/ipas9Yk92f8KAAAAAAAAAAAA+Esl/6mH3iy5uK6cex1khP6EvWItFyEZoRepXpEiIxxZbS5CMgJpc0a8v3Mkt/SMHD1lf5/SezicgLUBAA==
   </data>
  </layer>
- <layer name="top2" width="200" height="140" visible="0">
+ <layer name="top2" width="200" height="140">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3YMQrAIAxAUT2n9CTVKxV6ww5CB6XgpBbeg+xZ/pCEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDfXHH1BgAAAAAwzj8LAAAAgJ34VwEAALPc7g/4dMZ+gCo3PRR9wCs1PRz6AAAAAAAAAAAAAAAAAACY7gG81+60gLUBAA==
   </data>
@@ -70,129 +70,29 @@
  </layer>
  <layer name="top4" width="200" height="140">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
- <layer name="collision" width="200" height="140">
+ <layer name="collision" width="200" height="140" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3U227CMBREUdT//+g+IVkVl4TYmQldW9pSG8A+2DP83G63H5IkSZIkSZIkSZIkSZIkSZIkSZIkSZIkScb8hBlrXHmdq869ap10hpu6AYykM6wfaCadYf1AM+kM6weaSWdYP9BKOr/6gWbS+dUPNJPOr36glXR2dQPNpPOrH2gmnV/9QDPp/OoHmknnVz/QTDq/+oErkM6xbqCZdJZ1BO2ks6wjaCadYx1BO+kc6wjaSedYR3AF0lnWD1yFdK71A82kc60faCada/1AK+lM6wdaSedZN9BMOtP6gWbSmdYPNJPOtH6glXSedQPNpDOtH2gmnWn9QDPpTOsGmknnWj/QTDrX+oFm0rnWDzSTzrV+oJl0rnUD7aTzrR9oJp1v3UA76ZzrB5pJ51w/0E466/qBZtJZ1w80k866fqCZdNb1A82ks851vx/pOchG76TnIBu9k56DJHkt76TnYIfv2Pv+b1vnqnPvXYev+3H0vHFd0hls9tn5HGHvGrP23cPM/a7425LO3Tc6k1f9bKZ1xj1zbbnjdNbaPHouR/h0zVfvm5nj1k7sZe85pzPZ4uyzud1er/1or2d7/p3niuydfUW3j/z+/Gf3MKtzj56/2uPbWfk9z7zzb3QWR/Z41pkZM/63rv1l7z28u4v/5Cq27rX19a2vpTrQ3L0Zc6Vz2tiPo3c+a5Zk7lpzv2eunz9/f/p90llt6sZMGvrxbp/EuZzFrO+Uzus3duPOmf34ZJ89szx6vblb+tHfjyNsmffodz/7jM68q61rbN0/nd1EN5q79Oncj77Dq3WerTmDVfe2dc8z5vsGV5zJLJ6tt3f2d3tseT47n6vucOueqVl5LENbmbXvs/c+er53v1XntGWNI3ulM/PfXMWZe73bd/aZbHnfqj15vitYvf6e/VNn8G6Oo5/ntTuykqMZOxu9uLboIJ0Dzu3I3s/r5WPSd8+5Hdn7+RXd3DpjK+m75tyOfPrZT/beM9fZfHqe6XvlPEea8rCC9FmTKxz5+/870rOTqx159OwR6ZnJsxx59vzZe8hvdyQ9C9nmSHoWss2R9CxkmyPpWcg2R9KzkG2OpGch2xxJz0K2OZKehWxzJD0L2eZIehayzZH0LGSbI+lZyDZH0rOQbY6kZyHbHEnPQrY5kp6FbHMkPQvZ5kh6FrLNkfQsZJsj6VlIkiRJkiRJkiRJkiRJkiRJkiRJkiRJkuQ2fwGShVy9gLUBAA==
   </data>
  </layer>
- <objectgroup name="NPCs" width="200" height="140">
+ <objectgroup name="npcs" width="200" height="140">
   <object name="Guarda do Navio" x="5186" y="2499" width="27" height="26"/>
   <object name="Ohniralc" type="npc" x="2976" y="2400" width="32" height="32"/>
   <object name="Gélido" type="shop" x="2912" y="2336" width="32" height="32"/>
   <object name="Escrivão#Froz" type="npc" x="3072" y="2336" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="spawn" width="200" height="140" visible="0">
-  <object name="Limo de Neve (15)" type="spawn" x="3488" y="1024" width="1693" height="1791">
-   <properties>
-    <property name="max_beings" value="15"/>
-    <property name="monster_id" value="317"/>
-   </properties>
-  </object>
-  <object name="Mouboo (5)" type="spawn" x="4064" y="1664" width="928" height="448">
-   <properties>
-    <property name="max_beings" value="6"/>
-    <property name="monster_id" value="26"/>
-   </properties>
-  </object>
-  <object name="Limo Noel (3)" type="spawn" x="1504" y="2880" width="2016" height="1024">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="13"/>
-   </properties>
-  </object>
-  <object name="Limo Rodolfo (8)" type="spawn" x="1472" y="2848" width="2016" height="1024">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="14"/>
-   </properties>
-  </object>
-  <object name="Limo de Gelo (8)" type="spawn" x="2848" y="640" width="512" height="1440">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="316"/>
-   </properties>
-  </object>
-  <object name="Limo Rodolfo (8)" type="spawn" x="640" y="672" width="2208" height="576">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="14"/>
-   </properties>
-  </object>
-  <object name="Mouboo Rena (6)" type="spawn" x="1856" y="1280" width="704" height="1408">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="315"/>
-   </properties>
-  </object>
-  <object name="Limo Noel (3)" type="spawn" x="608" y="640" width="2208" height="576">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="13"/>
-   </properties>
-  </object>
-  <object name="Limo Rodolfo (8)" type="spawn" x="640" y="1248" width="704" height="2240">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="14"/>
-   </properties>
-  </object>
-  <object name="Limo Noel (3)" type="spawn" x="608" y="1216" width="704" height="2240">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="13"/>
-   </properties>
-  </object>
-  <object name="Limo Rodolfo (8)" type="spawn" x="1792" y="2208" width="896" height="448">
-   <properties>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="14"/>
-   </properties>
-  </object>
-  <object name="Limo Noel (3)" type="spawn" x="1344" y="1248" width="1504" height="960">
-   <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="13"/>
-   </properties>
-  </object>
-  <object name="Limo de Neve (15)" type="spawn" x="736" y="672" width="1280" height="1280">
+  <object name="Limo de Neve (15)" type="spawn" x="864" y="736" width="960" height="960">
    <properties>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="317"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="warps" width="200" height="140">
-  <object name="paraCaverna" type="warp" x="2560" y="2080" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1824"/>
-    <property name="dest_y" value="1376"/>
-   </properties>
-  </object>
-  <object name="paraCaverna" type="warp" x="2336" y="1984" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-3"/>
-    <property name="dest_x" value="1504"/>
-    <property name="dest_y" value="1888"/>
-   </properties>
-  </object>
-  <object name="paraCaverna" type="warp" x="4544" y="2016" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-1"/>
-    <property name="dest_x" value="1472"/>
-    <property name="dest_y" value="896"/>
-   </properties>
-  </object>
-  <object name="paraCaverna" type="warp" x="4640" y="2304" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="010-1"/>
-    <property name="dest_x" value="1632"/>
-    <property name="dest_y" value="1856"/>
-   </properties>
-  </object>
+ <objectgroup name="warps" width="200" height="140" visible="0">
   <object name="ParaFora" type="warp" x="2976" y="2240" width="64" height="32">
    <properties>
     <property name="dest_map" value="froz"/>
@@ -208,74 +108,9 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="objects" width="0" height="0">
-  <object name="graphics/particles/snow2.particle.xml" type="PARTICLE_EFFECT" x="0" y="0"/>
-  <object name="paraConves" type="warp" x="5376" y="2080" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="navio010"/>
-    <property name="dest_x" value="1632"/>
-    <property name="dest_y" value="768"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="pedraEmanar" width="200" height="140" visible="0">
-  <object name="Pedra de Emanar Alma" type="script" x="3232" y="2304" width="32" height="32">
-   <properties>
-    <property name="npc_id" value="pedraEmanar"/>
-   </properties>
-  </object>
-  <object name="Pedra de Emanar Alma" type="script" x="1728" y="2816" width="32" height="32">
-   <properties>
-    <property name="npc_id" value="pedraEmanar"/>
-   </properties>
-  </object>
-  <object name="Pedra de Emanar Alma" type="script" x="1376" y="1088" width="32" height="32">
-   <properties>
-    <property name="npc_id" value="pedraEmanar"/>
-   </properties>
-  </object>
-  <object name="Pedra de Emanar Alma" type="script" x="2560" y="1408" width="32" height="32">
-   <properties>
-    <property name="npc_id" value="pedraEmanar"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="esconderijos" width="308" height="314" visible="0">
-  <object name="Esconderijo" type="script" x="4256" y="1856" width="32" height="32">
-   <properties>
-    <property name="name" value="poste de luz"/>
-    <property name="npc_id" value="escondeOvos"/>
-    <property name="script" value="set @num, 49;"/>
-   </properties>
-  </object>
-  <object name="Esconderijo" type="script" x="5152" y="2496" width="32" height="32">
-   <properties>
-    <property name="name" value="barril"/>
-    <property name="npc_id" value="escondeOvos"/>
-    <property name="script" value="set @num, 50;"/>
-   </properties>
-  </object>
-  <object name="Esconderijo" type="script" x="5440" y="3456" width="32" height="32">
-   <properties>
-    <property name="name" value="cerca"/>
-    <property name="npc_id" value="escondeOvos"/>
-    <property name="script" value="set @num, 51;"/>
-   </properties>
-  </object>
-  <object name="Esconderijo" type="script" x="1856" y="3136" width="32" height="32">
-   <properties>
-    <property name="name" value="pedra"/>
-    <property name="npc_id" value="escondeOvos"/>
-    <property name="script" value="set @num, 52;"/>
-   </properties>
-  </object>
-  <object name="Esconderijo" type="script" x="2144" y="1696" width="32" height="32">
-   <properties>
-    <property name="name" value="pilha de madeira"/>
-    <property name="npc_id" value="escondeOvos"/>
-    <property name="script" value="set @num, 53;"/>
-   </properties>
-  </object>
+ <objectgroup name="particle" width="0" height="0">
+  <object name="graphics/particles/snow2.particle.xml" type="PARTICLE_EFFECT" x="0" y="0" width="32" height="32"/>
+  <object name="graphics/particles/small-green-bubbles.particle.xml" type="PARTICLE_EFFECT-off" x="3008" y="1632" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="magin" width="200" height="140" visible="0">
   <object x="0" y="3840" width="6400" height="640"/>
