@@ -1003,3 +1003,4 @@
 3404,pocaoQueimadura,pocaoQueimadura,3,50,25,5,,,,,,,,,,,{},{}
 3405,orelhasGato,Orelhas de Gato,5,4000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,1; }
 3406,gosmaAreia,gosmaAreia,3,10,5,1,,,,,,,,,,,{},{}
+3407,gorroRoxoDormir,Gorro Roxo de Dormir,5,3000,1500,20,,3,,2,0,2,256,,0,0,{},{}

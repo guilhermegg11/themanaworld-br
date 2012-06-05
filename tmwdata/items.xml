@@ -8066,5 +8066,15 @@
 		description="Gosma retirada dos limos de areia."
 		type="generic"
 		weight="1"/>
+	<item id="3407"
+		image="armor-head-funkyhat.png|W:#a44dc3,FFFFFF"
+		name="Gorro Roxo de Dormir"
+		description="Gogo de dormir na cor roxa"
+		effect=""
+		type="equip-head"
+		weight="20"
+		defense="3">
+		<sprite>head-funkywinter.xml|#a44dc3,FFFFFF</sprite>
+	</item>
 
 </items>
