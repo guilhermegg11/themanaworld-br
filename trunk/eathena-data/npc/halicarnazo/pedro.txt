@@ -2,107 +2,126 @@
 
 
 
-009-2.gat,40,64,0	script	Pedro	AAA, {
+halicarnazo.gat,47,48,0	script	Pedro	501, {
+	//Observação: Variáveis começadas com "@" são apagadas da memória quando o script terminar com comando "close" ou "end".
+	set @ErvaCobaltoID, 680;
+	set @ErvaAlizarinaID, 681;
+	set @ErvaMauvaID, 682;
+	set @ErvaGambogeID, 683;
+	set @CasuloDeSedaID, 718;
+	set @RaizID, 740;
+	set @GorroRoxoDeDormir, 3407; //← Adicionei esse ID3407 de item ao banco de itens. Veja como: https://code.google.com/p/themanaworld-br/source/detail?r=2091
 
-	if (QUEST_funkyroxo == 0 && BaseLevel >= 50) goto L_iniciaQuest;
-	if (QUEST_funkyroxo == 0) goto L_semLevel;
+	if (QUEST_funkyroxo == 0 && BaseLevel < 50) goto L_semLevel;
 	if (QUEST_funkyroxo == 1) goto L_Retorno;
-	if (QUEST_funkyroxo == 2) goto L_Verificar;
-	if (QUEST_funkyroxo == 3) goto L_Fim;
+	if (QUEST_funkyroxo == 2) goto L_Fim; //Bom! Se ja entregou os itens então era o fim. (Não é necessário setar QUEST_funkyroxo = 3).
+goto L_iniciaQuest;
 
 L_semLevel:
 	mes "[Pedro]";
-	mes "\"Saia daqui jovem! N�o tenho tempo para iniciantes. Volte aqui quando ficar mais forte.\"";
-	close;
+	mes "\"Saia daqui jovem! Não tenho tempo para iniciantes. Volte aqui quando ficar mais forte.\"";
+close;
 
 L_iniciaQuest:
 	mes "[Pedro]";
-	mes "Ei voc�!";
+	mes "\"Ei você!\"";
 	next;
 	mes "[Pedro]";
 	mes "\"Tem tempo para me ajudar?\"";
 	next;
 	menu
-		"O que voc� quer?", L_Sim,
-		"N�o =S Estou ocupado.", L_Nao;
-	goto L_Nao;
+		"O que você quer?", L_Sim,
+		"Não =S Estou ocupado.", L_Nao;
+goto L_Nao;
 
 L_Sim:
 	mes "[Pedro]";
-	mes "\"Bem, como voc� deve ter percebido eu sou um mago. Magos precisam de alguns itens para poder fazer suas magias, e eu n�o estou nem um pouco com vontade de peg�-los ^^ Voc� pegaria eles para mim? Posso te dar uma boa recompensa.\"";
+	mes "\"Bem, como você deve ter percebido eu sou um mago. Magos precisam de alguns itens para poder fazer suas magias, e eu não estou nem um pouco com vontade de pegá-los ^^ Você pegaria eles para mim? Posso te dar uma boa recompensa.\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Pagando bem que mal tem? XD", L_Aceitou,
-		"Nunca, seu folgado!", L_Recusou;
+	"Pagando bem que mal tem?!?!", L_Aceitou,
+	"Nunca, seu folgado!", L_Recusou;
+goto L_Nao;
+
 L_Nao:
 	mes "[Pedro]";
-	mes "\"Tudo bem =S\"";
-	close;
+	mes "=S \"Desculpe incomodar!\"";
+close;
 
 L_Aceitou:
 	mes "[Pedro]";
-	mes "\"Beleza! Aqui est� o que vou precisar: 100 ervas de cada tipo, s�o elas Cobalto, Alizarina, Mauva, Gamboge... 200 casulos de seda, e 70 ra�zes. F�cil n�o? XD\"";
+	mes "\"Beleza! Aqui está o que vou precisar deste itens.\"";
+	mes " * 100 ervas Cobalto";
+	mes " * 100 ervas Alizarina";
+	mes " * 100 ervas Mauva";
+	mes " * 100 ervas Gamboge";
+	mes " * 200 casulos de seda";
+	mes " *  70 raízes";
 	next;
-	menu
-		"OK! J� vou buscar.", -;
+	mes "[Pedro]";
+	mes "XD \"Fácil não?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "XD \"OK! Já vou buscar.\"";
 	set QUEST_funkyroxo, 1;
-	close;
-
+close;
 
 L_Retorno:
 	mes "[Pedro]";
 	mes "\"Trouxe os itens que eu te pedi?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu 
-		"Sim, aqui estão.", L_Verificar,
-		"Não, ainda não consegui =(", L_naotenho;
-	goto L_naotem;
-
-L_Verificar:
-	if (countitem(680) < 100) || (countitem(681) < 100) || (countitem(682) < 100) || (countitem(683) < 100) || (countitem(740) < 70) || (countitem(718) < 200)  goto L_naotem;
-	goto L_entregaItens;
-	close;
+		"Sim, aqui estão.", L_entregaItens,
+		"NÃ£o, ainda não consegui =(", L_naotenho;
+goto L_naotenho;
 
 L_entregaItens:
-	set QUEST_funkyroxo, 2;
-	mes "[Pedro]";
-	mes "WOW! Muito obrigado! Agora, como trato � trato, aqui est� sua recompensa.";
-	next;
-	delitem 680, 100;
-	delitem 681, 100;
-	delitem 682, 100;
-	delitem 683, 100;
-	delitem 740, 70;
-	delitem 718, 200;
 	getinventorylist;
-	if (@inventorylist_count >= 100) goto L_semlugar;
+	//Abaixo coloquei "<=" ao inves de "<" pq o NPC esta exigindo "pelo menos" e não "acima" da quantia exigida para cada item!
+	if(countitem(@ErvaCobaltoID)<=100 || countitem(@ErvaAlizarinaID)<=100 || countitem(@ErvaMauvaID)<=100 || countitem(@ErvaGambogeID)<=100 || countitem(@RaizID)<=70 || countitem(@CasuloDeSedaID)<=200) goto L_naotem;
+	if(@inventorylist_count >= 100) goto L_semlugar; //← Essa parte não ta errada, mas o lote máximo é apenas 100? =(
+
+	delitem @ErvaCobaltoID, 100;
+	delitem @ErvaAlizarinaID, 100;
+	delitem @ErvaMauvaID, 100;
+	delitem @ErvaGambogeID, 100;
+	delitem @RaizID, 70;
+	delitem @CasuloDeSedaID, 200;
+	getitem @GorroRoxoDeDormir, 1;
+	//getexp 30000, 0; //← Sem dar experiencia! Normalmente ou damos experiencia ou damos itens.
+	set QUEST_funkyroxo, 2;
+	//set QUEST_funkyroxo, 3; // ← Bom! Se ja entregou os itens então era o fim. (Não é necessário setar QUEST_funkyroxo = 3).
+
 	mes "[Pedro]";
-	mes "\"Este chap�u � muito importante para mim. Cuide bem dele.\"";
-	getexp 30000, 0;
-	getitem IDFUNKYROXO, 1;
-	set QUEST_funkyroxo, 3;
-	close;
-
-
+	mes "=O WOW! \"Muito obrigado! Agora, como trato é trato, aqui está sua recompensa.\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "XD \"OK! Já vou buscar.\"";
+	next;
+	mes "[Pedro]";
+	mes "=) \"Este chapéu é muito importante para mim. Cuide bem dele.\"";
+close;
 
 L_naotem:
 	mes "[Pedro]";
-	mes "\"Voc� n�o tem o que eu te pedi. Volte quando tiver tudo.\"";
-	close;
+	mes "=) \"Você não tem tudo o que eu te pedi. Volte quando tiver tudo.\"";
+close;
 
 L_naotenho:
 	mes "[Pedro]";
-	mes "\"Que pena =( V� buscar, pois a recompensa � boa!\"";
-	close;
-
+	mes "=( \"Que pena! Vá buscar, pois a recompensa é boa!\"";
+close;
 
 L_semlugar:
 	mes "[Pedro]";
-	mes "\" Sua mochila est� cheia =S Libere espa�o e depois venha pegar sua recompensa comigo.\"";
-	close;
+	mes "=S \"Sua mochila está cheia. Libere espaço e depois venha pegar sua recompensa comigo.\"";
+close;
 
 L_Fim:
 	mes "[Pedro]";
-	mes "\"Aproveitando bastante o chap�u? XD\"";
-	close;
-	}
+	mes "XD \"Aproveitando bastante o chapéu?\"";
+close;
+
+}
