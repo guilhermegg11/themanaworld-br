@@ -217,7 +217,7 @@
  <objectgroup name="particles" width="132" height="140">
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="3968" y="1192"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="3968" y="1032"/>
-  <object name="graphics/particles/lightning-lunovox.xml" type="PARTICLE_EFFECT" x="3008" y="1920" width="32" height="32"/>
+  <object name="graphics/particles/lightning-lunovox.xml" type="PARTICLE_EFFECT-off" x="3008" y="1920" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="margem" width="132" height="140" visible="0">
   <object x="32" y="-8" width="4160" height="640"/>
