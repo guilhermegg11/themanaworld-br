@@ -88,12 +88,67 @@
    H4sIAAAAAAAAA+3SMREAMAgAMVBcCVhnxUG5I1Hww0cAAAAAAAAAAAAAAAAAAAAAcMHL3wVs4gem8gMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALBEAxQ6BRbAIAEA
   </data>
  </layer>
- <layer name="Collision" width="132" height="140" opacity="0.6">
+ <layer name="Collision" width="132" height="140" visible="0" opacity="0.6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+2T247DIAxEo/7/R+/TShHiYsAwhpyRjlo1xDbj6e95nh8AAAAAAAAAAAAAAAAAAAAAAAAAAABsxyL1jLA/D73P4E7+RR6gtPOn8gzuxiL1jEAeQJ+L9yd8myf5hG9QE3mAlCfADBCHJ8AMEIen8cwq9T1gbG//GslDb55Al4fV+Sn16O0NMfNgeZaKPJxB705q55/k+1u1M8r7QH2Ho2daeajJ8y6e9b7IiCLmwbveVxlR671SRnbdQ+3pbXh6umM/qdT+3Yanp6v3U9IN3kXB806r/SlJ0dMi9W533FGh3XmwzmSd+3RKd0l/t9x51pfn9VlSlP9JWke9xx2+3JqHXL3Wb7n+3nNFo3Yvy51nfbFodf2e/l5zRaV2L8udrT7uqpOrOZuhm/NgUU8edsw0W9N679LZm/OQ8230Wc0bi1blIfe+t9R7OzEPpe/pOy2N5qE3n//vWM/dSO1u6bMn+V7zp1Q3905LI1kYfd8yo3pn6jxY1FPXusdS7dE6ab3eZ72znEjtjs/rs6XRHp6ZqL3nJfW+Vuzfemfr/Vvneny0zDVzt1mp96fOzu48WDORq+mpUk31ThQZ2CmPOXbOrt5PZHL+WD1rnevVL/me9rC83zqn9js6OY+svll3YJVXnVYPsPvU8tBSYzQjq/Og3sHJjPg3I48atTpqP0+n10MPedYq1Ya5He7IQa5X+ptnbSjvsrXjHTko9VpVF/zysFLWXr2zqH0+hdSr5/VZ8tX6bCQ7rWyOSO1xdEb8fPu6UjMzl86q/T6BXp9qfo+qZ3czPcDmpUcNb/XMYJlN7f3JRJDnfGo/T2XW59EzvX1666h9PY1R7cpDro6lltrXk/CQOg9pvfQ3tcfRia7WvD33UnsdnR2a7TWzZ+s5aO9o1nsvzeThZzzzdW6U2tOTuVFqT0/lZqm9PQ0PRc+X2uOT2CFLz9VzqX0+gV2KkIdcD/Dxu/f9Wu+f4Yyn1L5H5VTNzK72PCq9Hq4876FWT7Xf0fma1H5H50tSex2dL0nt9Qnk/Iqk3nlq59VeR+dLUnt9Al+S2usT2KUI2VN7fQJfkdrnk4ikVfOpPT6Jmoe7tSIPan9PQ6m0/3smj/nU3p6Ip1bla7Su2ttT6fX4BKk9PZnbpPbzBlIvT5bayxu4RWofb0EtrxnUPt5EzeOIys2l9vA2Tpbau1uZ0S/5vjNjat9uZ1Y786D26kt4aWU21B59ld2y9FR7Av6aqav2AvT5+Zf6XhArK+rZYW82anlRzwqaTJSknhNi5UI9H8TKhHo2IA+gpyT1XBArE+qZgDxADHJSzwSxMqGeBwAAAAAAAAAAAAAAAAAAAAAAAADG+QPBJocYwCABAA==
   </data>
  </layer>
- <objectgroup name="spanws" width="132" height="140">
+ <objectgroup name="npcs" width="132" height="140" visible="0">
+  <object name="Placa" type="script" x="2624" y="1920" width="32" height="32">
+   <properties>
+    <property name="name" value="[?]"/>
+    <property name="npc" value="300"/>
+    <property name="script" value="mes &quot;[Aviso]&quot;;"/>
+    <property name="script1" value="mes &quot;* Cuidado... deslisamento de pedras!&quot;;"/>
+   </properties>
+  </object>
+  <object name="menir" x="2112" y="2080" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="warp" width="132" height="140" visible="0">
+  <object name="para004 1" type="warp" x="2368" y="3840" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="004"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="paraGrutaEscura" type="warp" x="2528" y="1760" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="1088"/>
+    <property name="dest_y" value="3808"/>
+   </properties>
+  </object>
+  <object name="paraCaverna-001-3" type="warp" x="3328" y="1312" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-3"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="3680"/>
+   </properties>
+  </object>
+  <object name="paraVenda2" type="-warp" x="1856" y="1600" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraVenda1" type="-warp" x="1856" y="1696" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="paraVenda3" type="-warp" x="1408" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="spanws" width="132" height="140" visible="0">
   <object name="Tartaruga (16)" type="spawn" x="960" y="2464" width="2016" height="1344">
    <properties>
     <property name="eA_death" value="30000"/>
@@ -121,7 +176,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="peixes" width="132" height="140">
+ <objectgroup name="peixes" width="132" height="140" visible="0">
   <object name="graphics/particles/peixe-salto2.xml" type="PARTICLE_EFFECT" x="1872" y="2016" width="32" height="32"/>
   <object name="graphics/particles/peixe-salto3.xml" type="PARTICLE_EFFECT" x="1393" y="1997" width="32" height="32"/>
   <object name="graphics/particles/peixe-salto1.xml" type="PARTICLE_EFFECT" x="1952" y="2000" width="32" height="32"/>
@@ -159,60 +214,10 @@
   <object name="graphics/particles/peixe-salto11.xml" type="PARTICLE_EFFECT" x="1375" y="802" width="32" height="32"/>
   <object name="graphics/particles/peixe-salto12.xml" type="PARTICLE_EFFECT" x="1503" y="896" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="objetos" width="132" height="140">
-  <object name="para004 1" type="warp" x="2368" y="3840" width="128" height="32">
-   <properties>
-    <property name="dest_map" value="004"/>
-    <property name="dest_x" value="2432"/>
-    <property name="dest_y" value="640"/>
-   </properties>
-  </object>
-  <object name="Placa" type="script" x="2624" y="1920" width="32" height="32">
-   <properties>
-    <property name="name" value="[?]"/>
-    <property name="npc" value="300"/>
-    <property name="script" value="mes &quot;[Aviso]&quot;;"/>
-    <property name="script1" value="mes &quot;* Cuidado... deslisamento de pedras!&quot;;"/>
-   </properties>
-  </object>
+ <objectgroup name="particles" width="132" height="140">
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="3968" y="1192"/>
-  <object name="paraVenda1" type="-warp" x="1856" y="1696" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="paraVenda3" type="-warp" x="1408" y="1632" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="paraVenda2" type="-warp" x="1856" y="1600" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
-   </properties>
-  </object>
-  <object name="menir" x="2112" y="2080" width="32" height="32"/>
   <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="3968" y="1032"/>
-  <object name="paraGrutaEscura" type="warp" x="2528" y="1760" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-2"/>
-    <property name="dest_x" value="1088"/>
-    <property name="dest_y" value="3808"/>
-   </properties>
-  </object>
-  <object name="paraCaverna-001-3" type="warp" x="3328" y="1312" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001-3"/>
-    <property name="dest_x" value="960"/>
-    <property name="dest_y" value="3680"/>
-   </properties>
-  </object>
+  <object name="graphics/particles/lightning-lunovox.xml" type="PARTICLE_EFFECT" x="3008" y="1920" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="margem" width="132" height="140" visible="0">
   <object x="32" y="-8" width="4160" height="640"/>
