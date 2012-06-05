@@ -79,8 +79,7 @@ goto L_naotenho;
 
 L_entregaItens:
 	getinventorylist;
-	//Abaixo coloquei "<=" ao inves de "<" pq o NPC esta exigindo "pelo menos" e não "acima" da quantia exigida para cada item!
-	if(countitem(@ErvaCobaltoID)<=100 || countitem(@ErvaAlizarinaID)<=100 || countitem(@ErvaMauvaID)<=100 || countitem(@ErvaGambogeID)<=100 || countitem(@RaizID)<=70 || countitem(@CasuloDeSedaID)<=200) goto L_naotem;
+  if(countitem(@ErvaCobaltoID)<100 || countitem(@ErvaAlizarinaID)<100 || countitem(@ErvaMauvaID)<100 || countitem(@ErvaGambogeID)<100 || countitem(@RaizID)<70 || countitem(@CasuloDeSedaID)<200) goto L_naotem;
 	if(@inventorylist_count >= 100) goto L_semlugar; //← Essa parte não ta errada, mas o lote máximo é apenas 100? =(
 
 	delitem @ErvaCobaltoID, 100;
