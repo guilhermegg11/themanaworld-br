@@ -1,0 +1,108 @@
+//Quest Funky Roxo por: Sky
+
+
+
+009-2.gat,40,64,0	script	Pedro	AAA, {
+
+	if (QUEST_funkyroxo == 0 && BaseLevel >= 50) goto L_iniciaQuest;
+	if (QUEST_funkyroxo == 0) goto L_semLevel;
+	if (QUEST_funkyroxo == 1) goto L_Retorno;
+	if (QUEST_funkyroxo == 2) goto L_Verificar;
+	if (QUEST_funkyroxo == 3) goto L_Fim;
+
+L_semLevel:
+	mes "[Pedro]";
+	mes "\"Saia daqui jovem! Não tenho tempo para iniciantes. Volte aqui quando ficar mais forte.\"";
+	close;
+
+L_iniciaQuest:
+	mes "[Pedro]";
+	mes "Ei você!";
+	next;
+	mes "[Pedro]";
+	mes "\"Tem tempo para me ajudar?\"";
+	next;
+	menu
+		"O que você quer?", L_Sim,
+		"Não =S Estou ocupado.", L_Nao;
+	goto L_Nao;
+
+L_Sim:
+	mes "[Pedro]";
+	mes "\"Bem, como você deve ter percebido eu sou um mago. Magos precisam de alguns itens para poder fazer suas magias, e eu não estou nem um pouco com vontade de pegá-los ^^ Você pegaria eles para mim? Posso te dar uma boa recompensa.\"";
+	next;
+	menu
+		"Pagando bem que mal tem? XD", L_Aceitou,
+		"Nunca, seu folgado!", L_Recusou;
+L_Nao:
+	mes "[Pedro]";
+	mes "\"Tudo bem =S\"";
+	close;
+
+L_Aceitou:
+	mes "[Pedro]";
+	mes "\"Beleza! Aqui está o que vou precisar: 100 ervas de cada tipo, são elas Cobalto, Alizarina, Mauva, Gamboge... 200 casulos de seda, e 70 raízes. Fácil não? XD\"";
+	next;
+	menu
+		"OK! Já vou buscar.", -;
+	set QUEST_funkyroxo, 1;
+	close;
+
+
+L_Retorno:
+	mes "[Pedro]";
+	mes "\"Trouxe os itens que eu te pedi?\"";
+	next;
+	menu 
+		"Sim, aqui estÃ£o.", L_Verificar,
+		"NÃ£o, ainda nÃ£o consegui =(", L_naotenho;
+	goto L_naotem;
+
+L_Verificar:
+	if (countitem(680) < 100) || (countitem(681) < 100) || (countitem(682) < 100) || (countitem(683) < 100) || (countitem(740) < 70) || (countitem(718) < 200)  goto L_naotem;
+	goto L_entregaItens;
+	close;
+
+L_entregaItens:
+	set QUEST_funkyroxo, 2;
+	mes "[Pedro]";
+	mes "WOW! Muito obrigado! Agora, como trato é trato, aqui está sua recompensa.";
+	next;
+	delitem 680, 100;
+	delitem 681, 100;
+	delitem 682, 100;
+	delitem 683, 100;
+	delitem 740, 70;
+	delitem 718, 200;
+	getinventorylist;
+	if (@inventorylist_count >= 100) goto L_semlugar;
+	mes "[Pedro]";
+	mes "\"Este chapéu é muito importante para mim. Cuide bem dele.\"";
+	getexp 30000, 0;
+	getitem IDFUNKYROXO, 1;
+	set QUEST_funkyroxo, 3;
+	close;
+
+
+
+L_naotem:
+	mes "[Pedro]";
+	mes "\"Você não tem o que eu te pedi. Volte quando tiver tudo.\"";
+	close;
+
+L_naotenho:
+	mes "[Pedro]";
+	mes "\"Que pena =( Vá buscar, pois a recompensa é boa!\"";
+	close;
+
+
+L_semlugar:
+	mes "[Pedro]";
+	mes "\" Sua mochila está cheia =S Libere espaço e depois venha pegar sua recompensa comigo.\"";
+	close;
+
+L_Fim:
+	mes "[Pedro]";
+	mes "\"Aproveitando bastante o chapéu? XD\"";
+	close;
+	}
