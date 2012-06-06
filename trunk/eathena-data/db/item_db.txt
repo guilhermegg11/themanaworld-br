@@ -32,7 +32,7 @@
 0,DEFAULT,Default,0,20,10,10,,,,,,2,,,,,{},{}
 501,bebidadecactus,Bebida de Cactus,0,50,25,4,,,,,,2,,,0,,{ itemheal 15,0; },{}
 502,pocaodecactus,Poção de Cactus,0,70,35,7,,,,,,2,,,0,,{ itemheal 25,0; },{}
-503,moedasdecassino,Moedas de Cassino,3,20,10,1,,,,,,,,,,,{},{}
+503,moedasdecassino,Moedas de Cassino,3,150,75,1,,,,,,,,,,,{},{}
 504,baladecorativa,Bala Decorativa,3,25,10,1,,,,,,,,,,,{},{}
 505,gosmaVerme,Gosma de Verme,3,8,4,1,,,,,,,,,,,{},{}
 506,docebengala,Doce Bengala,0,20,10,1,,,,,,2,,,0,,{ itemheal 5,0; },{}
