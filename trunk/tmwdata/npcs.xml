@@ -318,9 +318,9 @@
 	<npc id="513"><sprite variant="13">npcs-br2.xml</sprite></npc> <!-- Cavaleiro de Armadura -->
 	<npc id="514"><sprite variant="14">npcs-br2.xml</sprite></npc> <!-- Arqueiro -->
 	<npc id="515"><sprite variant="15">npcs-br2.xml</sprite></npc> <!-- Policial do Grupo de Operações Especiais -->
-	<npc id="516"><sprite variant="16">npcs-br2.xml</sprite></npc> <!-- Assassino (by Sky) -->
-	<npc id="517"><sprite variant="17">npcs-br2.xml</sprite></npc>
-	<npc id="518"><sprite variant="18">npcs-br2.xml</sprite></npc>
+	<npc id="516"><sprite variant="16">npcs-br2.xml</sprite></npc> <!-- Assassino Raivoso Careca(by Sky) -->
+	<npc id="517"><sprite variant="17">npcs-br2.xml</sprite></npc> <!-- Assassino Feliz Penteado(by Sky) -->
+	<npc id="518"><sprite variant="18">npcs-br2.xml</sprite></npc> <!-- Assassino Raivoso Arrupiado(by Sky) -->
 	<npc id="519"><sprite variant="19">npcs-br2.xml</sprite></npc>
 	<!-- NPCs Trabalhadores -->
 	<npc id="520"><sprite variant="20">npcs-br2.xml</sprite></npc> <!-- Mineiro c/ picareta tipo 1 -->
