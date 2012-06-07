@@ -5,3 +5,4 @@ npc: npc/001-2_grutaEscura/_scripts.txt
 npc: npc/001-2_grutaEscura/_warps.txt
 
 npc: npc/001-2_grutaEscura/corda.conf
+npc: npc/001-2_grutaEscura/nefesto.conf
