@@ -1,7 +1,10 @@
 map: froz.gat
-npc: npc/froz/guardas.conf
 
 //npc: npc/froz/_mobs.txt
 //npc: npc/froz/_scripts.txt
 npc: npc/froz/_warps.txt
 npc: npc/froz/_shops.txt
+
+npc: npc/froz/guardas.conf
+npc: npc/froz/ares.conf
+
