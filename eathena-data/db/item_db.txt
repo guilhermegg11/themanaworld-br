@@ -260,7 +260,7 @@
 //728,esculturademouboo,Escultura de Mouboo,3,0,0,9,,,,,,,,,,,{},{}
 //729,tocodistorcido,Toco Distorcido,3,0,0,8,,,,,,,,,,,{},{}
 //730,cristaldavida,Cristal da Vida,3,0,0,5,,,,,,,,,,,{},{}
-731,calcadeassassino,Calça de Assassino,5,10000,3000,20,,6,,-5,0,2,1,,95,0,{ bonus bAgi, 1; },{}
+731,calcadeassassino,Calça de Assassino,5,10000,3000,20,,6,,-5,0,2,1,,95,0,{},{ bonus bAgi,1; }
 //732,galhodaarvoredruida,Galho da Árvore Druida,3,0,0,2,,,,,,,,,,,{},{}
 //733,pocaodepurificacao,Poção de Purificação,0,0,0,15,,,,,,2,,,,,{ callfunc "usePurificationPotion"; },{}
 734,botaspretas,Botas Pretas,5,20000,3000,35,,4,,-10,0,2,64,,0,0,{},{}
@@ -285,9 +285,9 @@
 753,asademorcego,Asa de Morcego,3,500,100,3,,,,,,,,,,,{},{}
 754,dentesdemorcego,Dentes de Morcego,3,600,150,2,,,,,,,,,,,{},{}
 // Daqui para baixo há apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
-755,camisadeassassino,Camisa de Assassino,5,10000,3000,150,,15,,-5,0,2,512,,95,0,{ bonus bAgi, 1; },{}
-756,luvasdeassassino,Luvas de Assassino,5,7000,2000,9,,4,,-3,0,2,4,,95,0,{ bonus bAgi, 1; },{}
-757,botasdeassassino,Botas de Assassino,5,7000,2000,10,,4,,-3,0,2,64,,95,0,{ bonus bAgi, 1; },{}
+755,camisadeassassino,Camisa de Assassino,5,10000,3000,150,,15,,-5,0,2,512,,95,0,{},{ bonus bAgi,1; }
+756,luvasdeassassino,Luvas de Assassino,5,7000,2000,9,,4,,-3,0,2,4,,95,0,{},{ bonus bAgi,1; }
+757,botasdeassassino,Botas de Assassino,5,7000,2000,10,,4,,-3,0,2,64,,95,0,{},{ bonus bAgi,1; }
 758,cajadodemadeira,Cajado de Madeira,4,50,25,100,5,,1,,0,2,2,1,1,1,{},{}
 759,elmodepaladino,Elmo de Paladino,5,7000,2000,500,,19,,-5,0,2,256,,70,0,{},{}
 760,elmodosoberano,Elmo do Soberano,5,7000,2000,500,,20,,-5,0,2,256,,70,0,{},{}
