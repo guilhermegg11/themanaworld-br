@@ -2020,10 +2020,10 @@
 		image="armor-legs-assassinpants.png"
 		name="Calça de Assassino"
 		description="Um tipo de calça usada por assassinos profissionais."
-		effect="lvl 40"
+		effect="lvl 95"
 		type="equip-torso"
 		weight="20"
-		defense="5">
+		defense="6">
 		<sprite gender="male">leg-assassin-male.xml</sprite>
 		<sprite gender="female">leg-assassin-female.xml</sprite>
 	</item>
@@ -2224,10 +2224,10 @@
 		image="armor-chest-assassintop.png"
 		name="Camisa de Assassino"
 		description="Uma camisa feita para assassinos profissionais."
-		effect="lvl 30"
+		effect="lvl 95"
 		type="equip-torso"
 		weight="150"
-		defense="10">
+		defense="15">
 		<sprite gender="male">chest-assassin-male.xml</sprite>
 		<sprite gender="female">chest-assassin-female.xml</sprite>
 	</item>
@@ -2235,10 +2235,10 @@
 		image="armor-hands-assassingloves.png"
 		name="Luvas de Assassino"
 		description="Luvas feitas para assassinos profissionais."
-		effect=""
+		effect="lvl 95"
 		type="equip-arms"
 		weight="1"
-		defense="1">
+		defense="4">
 		<sprite gender="male">hands-gloves-assassin-male.xml</sprite>
 		<sprite gender="female">hands-gloves-assassin-female.xml</sprite>
 	</item>
@@ -2246,10 +2246,10 @@
 		image="armor-feet-assassinboots.png"
 		name="Botas de Assassino"
 		description="Botas feitas para assassinos profissionais."
-		effect=""
+		effect="lvl 95"
 		type="equip-feet"
 		weight="1"
-		defense="1">
+		defense="4">
 		<sprite gender="male">feet-assassin-boots-male.xml</sprite>
 		<sprite gender="female">feet-assassin-boots-female.xml</sprite>
 	</item>
