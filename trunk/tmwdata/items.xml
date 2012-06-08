@@ -2020,7 +2020,7 @@
 		image="armor-legs-assassinpants.png"
 		name="Calça de Assassino"
 		description="Um tipo de calça usada por assassinos profissionais."
-		effect="lvl 95"
+		effect="+1 Agilidade, lvl 95"
 		type="equip-torso"
 		weight="20"
 		defense="6">
@@ -2224,7 +2224,7 @@
 		image="armor-chest-assassintop.png"
 		name="Camisa de Assassino"
 		description="Uma camisa feita para assassinos profissionais."
-		effect="lvl 95"
+		effect="+1 Agilidade, lvl 95"
 		type="equip-torso"
 		weight="150"
 		defense="15">
@@ -2235,7 +2235,7 @@
 		image="armor-hands-assassingloves.png"
 		name="Luvas de Assassino"
 		description="Luvas feitas para assassinos profissionais."
-		effect="lvl 95"
+		effect="+1 Agilidade, lvl 95"
 		type="equip-arms"
 		weight="1"
 		defense="4">
@@ -2246,7 +2246,7 @@
 		image="armor-feet-assassinboots.png"
 		name="Botas de Assassino"
 		description="Botas feitas para assassinos profissionais."
-		effect="lvl 95"
+		effect="+1 Agilidade, lvl 95"
 		type="equip-feet"
 		weight="1"
 		defense="4">
