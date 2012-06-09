@@ -558,5 +558,12 @@ Ou um comentário de alguem.
 	<sprite>monsters/sombra-26.xml</sprite>
 	<sprite>monsters/lanterna-jack.xml</sprite>
 </monster>
+<monster id="364" name="Batholder" summon="batholder">
+	<sprite>monsters/batholder.xml|#880088,000000,FFFFFF;#FFFFFF,0000FF</sprite>
+	<sound event="hit">flower-hit1.ogg</sound>
+	<sound event="hit">flower-hit2.ogg</sound>
+	<sound event="miss">bat-hit1.ogg</sound>
+	<sound event="die">bat-dying1.ogg</sound>
+</monster>
 
 </monsters>
