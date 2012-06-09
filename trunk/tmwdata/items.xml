@@ -1661,6 +1661,7 @@
 		description="Um ingrediente muito usado para fazer poções."
 		type="generic"
 		weight="1"/>
+
 	<item id="682"
 		image="generic-herb.png|W:#ef9b0f"
 		name="Erva Gamboge"
@@ -5368,42 +5369,44 @@
 		weight="1200">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
+<!-- ####### Usado como tesouro ################################################# -->
 	<item id="3059"
 		image="generic-barra.png|W:#334422,556644,778866"
 		name="Marca de Cobre"
-		description="Usada como Tesouro"
+		description="Usada como tesouro de 1kGP"
 		type="generic"
 		weight="3000"/>
 	<item id="3060"
 		image="generic-barra.png"
 		name="Marca de Prata"
-		description="Usada como Tesouro"
+		description="Usada como tesouro de 10kGP"
 		type="generic"
 		weight="3000"/>
 	<item id="3061"
 		image="generic-barra.png|W:#888844,CCCC66,FFFF88"
 		name="Marca de Ouro"
-		description="Usada como Tesouro"
+		description="Usada como tesouro de 100kGP"
 		type="generic"
 		weight="3000"/>
 	<item id="3062"
 		image="generic-gema-safira.png"
 		name="Gema de Safira"
-		description="Usada como Tesouro."
+		description="Usada como tesouro de 1KKGP"
 		type="generic"
 		weight="300"/>
 	<item id="3063"
 		image="generic-gema-esmeralda.png"
 		name="Gema de Esmeralda"
-		description="Usada como Tesouro."
+		description="Usada como tesouro de 10KKGP"
 		type="generic"
 		weight="300"/>
 	<item id="3064"
 		image="generic-gema-diamante.png"
 		name="Gema de Diamante"
-		description="Usada como Tesouro."
+		description="Usada como tesouro de 100KKGP"
 		type="generic"
 		weight="300"/>
+<!-- ######################################################## -->
 	<item id="3065"
 		image="armor-head-bruxa.png"
 		name="Chapéu Mágico"
