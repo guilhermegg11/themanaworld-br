@@ -1662,6 +1662,7 @@
 		type="generic"
 		weight="1"/>
 
+
 	<item id="682"
 		image="generic-herb.png|W:#ef9b0f"
 		name="Erva Gamboge"
@@ -3683,6 +3684,7 @@
 		name="Camiseta Curta Verde"
 		description="Uma camisa sem manga e bem curta para os dias MUITO quentes do verão."
 		effect=""
+
 		type="equip-torso"
 		weight="8"
 		defense="2">
@@ -4606,6 +4608,7 @@
 		type="equip-head"
 		weight="30"
 		max-per-slot="1">
+
 		<sprite>equipment/head/bowler-hat.xml|#80280f,b04810,ef681f,ffb830</sprite>
 	</item>
 	<item id="2218"
@@ -8079,5 +8082,33 @@
 		defense="3">
 		<sprite>head-funkywinter.xml|#a44dc3,FFFFFF</sprite>
 	</item>
+	<item id="3408"
+		image="generic-batholder-asas.png|W:#880088,FFFFFF"
+		name="Asas de Batholder"
+		description="Asas arrancadas do um Batholder."
+		type="generic"
+		weight="10"
+	/>
+	<item id="3409"
+		image="generic-batholder-garras.png"
+		name="Garras de Batholder"
+		description="Garras arrancadas do um Batholder."
+		type="generic"
+		weight="10"
+	/>
+	<item id="3410"
+		image="generic-batholder-olho.png"
+		name="Olho de Batholder"
+		description="Olho arrancado do um Batholder."
+		type="generic"
+		weight="10"
+	/>
+	<item id="3411"
+		image="generic-batholder-pele.png|W:#880088,FFFFFF"
+		name="Pele de Batholder"
+		description="Pele arrancada do um Batholder."
+		type="generic"
+		weight="10"
+	/>
 
 </items>

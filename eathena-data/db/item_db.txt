@@ -741,6 +741,7 @@
 3143,bilhetemagico,bilheteMagico,3,500,10,1,,,,,,,,,,,{},{}
 3144,AnelDemonio,Anel do Demônio,5,16000,8000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
 3145,AnelDragaoVerde,Anel do Dragão Verde,5,32000,16000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 40; }
+
 3146,TeiaDeAranha,Teia de Aranha,3,300,100,5,,,,,,,,,,,{},{}
 3147,chave1009,Chave nº1009,3,10000,5000,30,,,,,,,,,,,{},{}
 3148,asasdeanjo,Asas de Anjo,5,16000,8000,100,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
@@ -1004,3 +1005,9 @@
 3405,orelhasGato,Orelhas de Gato,5,4000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,1; }
 3406,gosmaAreia,gosmaAreia,3,10,5,1,,,,,,,,,,,{},{}
 3407,gorroRoxoDormir,Gorro Roxo de Dormir,5,3000,1500,20,,3,,2,0,2,256,,0,0,{},{}
+3408,asasdebatholder,Asas de Batholder,3,3000,1500,10,,,,,,,,,,,{},{}
+3409,garrasdebatholder,Garras de Batholder,3,3000,1500,10,,,,,,,,,,,{},{}
+3410,olhodebatholder,Olho de Batholder,3,3000,1500,10,,,,,,,,,,,{},{}
+3411,peledebatholder,Pele de Batholder,3,3000,1500,10,,,,,,,,,,,{},{}
+
+
