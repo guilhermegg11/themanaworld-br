@@ -239,6 +239,7 @@
 		<sprite variant="2">npcs/mumias.xml</sprite>
 	</npc>
 
+
 	<npc id="376">
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
 		<sprite>npcs/lobisomem.xml</sprite>
@@ -326,7 +327,7 @@
 	<!-- NPCs Trabalhadores -->
 	<npc id="520"><sprite variant="20">npcs-br2.xml</sprite></npc> <!-- Mineiro c/ picareta tipo 1 -->
 	<npc id="521"><sprite variant="21">npcs-br2.xml</sprite></npc> <!-- Mineiro c/ picareta tipo 2 -->
-	<npc id="522"><sprite variant="22">npcs-br2.xml</sprite></npc>
+	<npc id="522"><sprite variant="22">npcs-br2.xml</sprite></npc> <!-- Aventureiro Demoníaco -->
 	<npc id="523"><sprite variant="23">npcs-br2.xml</sprite></npc>
 	<npc id="524"><sprite variant="24">npcs-br2.xml</sprite></npc>
 	<npc id="525"><sprite variant="25">npcs-br2.xml</sprite></npc>
@@ -441,7 +442,7 @@
 		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
 	</npc>
-	<npc id="603"> <!-- Aventureiro Demoníaco -->
+	<npc id="603">
 		<sprite>rings-wings-demon.xml</sprite>
 		<sprite>monster-terranite.xml</sprite>
 		<sprite>equipment/leg/calca-cavaleiro-demoniaco-male.xml</sprite>
