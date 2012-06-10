@@ -8,7 +8,7 @@ npc: npc/halicarnazo/_shops.txt
 npc: npc/halicarnazo/EvilAdventury.conf
 npc: npc/halicarnazo/guardas.conf
 npc: npc/halicarnazo/pedro.conf
-npc: npc/halicarnazo/marshall.conf//
+npc: npc/halicarnazo/marshall.conf
 //npc: npc/halicarnazo/MestresDosCavaleiros.conf
 //npc: npc/halicarnazo/MestreDosDruidas.conf
 //npc: npc/halicarnazo/MestreDosMagos.conf
