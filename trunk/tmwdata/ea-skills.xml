@@ -10,7 +10,7 @@
 		<skill id="401" name="Druida / Druidesa" icon="graphics/items/generic-grimorium-druida.png"/>
 		<skill id="402" name="Mago / Feiticeira" icon="graphics/items/generic-grimorium-mago.png"/>
 		<skill id="403" name="Ninja / Kunoichi" icon="graphics/items/generic-grimorium-ninja.png"/>
-		<skill id="404" name="Clérigo / Sacerdotisa" icon="graphics/items/generic-grimorium-clerigo.png"/>
+		<skill id="404" name="Paladino / Sacerdotisa" icon="graphics/items/generic-grimorium-clerigo.png"/>
 		<skill id="405" name="Necromante" icon="graphics/items/generic-grimorium-necromante.png"/>
 	</set>
 	<!--set name="Mágica">
