@@ -240,6 +240,7 @@
 	</npc>
 
 
+
 	<npc id="376">
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
 		<sprite>npcs/lobisomem.xml</sprite>
@@ -378,10 +379,10 @@
 	<npc id="567"><sprite variant="67">npcs-br2.xml</sprite></npc>
 	<npc id="568"><sprite variant="68">npcs-br2.xml</sprite></npc>
 	<npc id="569"><sprite variant="69">npcs-br2.xml</sprite></npc>
-	<!-- Espaço disponívels no sprite "npcs-br2.png" -->
-	<npc id="570"><sprite variant="70">npcs-br2.xml</sprite></npc>
-	<npc id="571"><sprite variant="71">npcs-br2.xml</sprite></npc>
-	<npc id="572"><sprite variant="72">npcs-br2.xml</sprite></npc>
+	<!-- Mestres de Classe "npcs-br2.png" -->
+	<npc id="570"><sprite variant="70">npcs-br2.xml</sprite></npc> <!-- Mestre dos Cavaleiros e Amazonas -->
+	<npc id="571"><sprite variant="71">npcs-br2.xml</sprite></npc> <!-- Mestre dos Ninjas e Kunoichis -->
+	<npc id="572"><sprite variant="72">npcs-br2.xml</sprite></npc> <!-- Mestra dos Mogos e Feiticeiras -->
 	<npc id="573"><sprite variant="73">npcs-br2.xml</sprite></npc>
 	<npc id="574"><sprite variant="74">npcs-br2.xml</sprite></npc>
 	<npc id="575"><sprite variant="77">npcs-br2.xml</sprite></npc>
@@ -389,6 +390,7 @@
 	<npc id="577"><sprite variant="77">npcs-br2.xml</sprite></npc>
 	<npc id="578"><sprite variant="78">npcs-br2.xml</sprite></npc>
 	<npc id="579"><sprite variant="79">npcs-br2.xml</sprite></npc>
+	<!-- Espaço disponívels no sprite "npcs-br2.png" -->
 	<npc id="580"><sprite variant="80">npcs-br2.xml</sprite></npc>
 	<npc id="581"><sprite variant="81">npcs-br2.xml</sprite></npc>
 	<npc id="582"><sprite variant="82">npcs-br2.xml</sprite></npc>
