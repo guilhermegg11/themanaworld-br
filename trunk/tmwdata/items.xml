@@ -4943,10 +4943,10 @@
 		image="armor-chest-saviorarmor.png"
 		name="Armadura Celestial ★★★"
 		description="A armadura dos deuses."
-		effect="lvl 55"
+		effect="lvl 60"
 		type="equip-torso"
 		weight="2750"
-		defense="27">
+		defense="28">
 		<sprite gender="male">chest-saviorarmor-male.xml</sprite>
 		<sprite gender="female">chest-saviorarmor-female.xml</sprite>
 	</item>
