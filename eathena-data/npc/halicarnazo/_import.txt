@@ -11,8 +11,8 @@ npc: npc/halicarnazo/pedro.conf
 npc: npc/halicarnazo/marshall.conf
 
 npc: npc/halicarnazo/AssistenteClasses.conf
-npc: npc/halicarnazo/MestresDosCavaleiros.conf
-//npc: npc/halicarnazo/MestreDosDruidas.conf
+npc: npc/halicarnazo/MestreDosCavaleiros.conf
+npc: npc/halicarnazo/MestreDosDruidas.conf
 //npc: npc/halicarnazo/MestreDosMagos.conf
 //npc: npc/halicarnazo/MestreDosNinjas.conf
 //npc: npc/halicarnazo/MestreDosPaladinos.conf
