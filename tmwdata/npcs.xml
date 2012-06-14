@@ -241,6 +241,7 @@
 
 
 
+
 	<npc id="376">
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
 		<sprite>npcs/lobisomem.xml</sprite>
@@ -382,8 +383,8 @@
 	<!-- Mestres de Classe "npcs-br2.png" -->
 	<npc id="570"><sprite variant="70">npcs-br2.xml</sprite></npc> <!-- Mestre dos Cavaleiros e Amazonas -->
 	<npc id="571"><sprite variant="71">npcs-br2.xml</sprite></npc> <!-- Mestre dos Ninjas e Kunoichis -->
-	<npc id="572"><sprite variant="72">npcs-br2.xml</sprite></npc> <!-- Mestra dos Mogos e Feiticeiras -->
-	<npc id="573"><sprite variant="73">npcs-br2.xml</sprite></npc>
+	<npc id="572"><sprite variant="72">npcs-br2.xml</sprite></npc> <!-- Mestra dos Magos e Feiticeiras -->
+	<npc id="573"><sprite variant="73">npcs-br2.xml</sprite></npc> <!-- Mestra dos Paladinos e Sacerdotizas -->
 	<npc id="574"><sprite variant="74">npcs-br2.xml</sprite></npc>
 	<npc id="575"><sprite variant="77">npcs-br2.xml</sprite></npc>
 	<npc id="576"><sprite variant="76">npcs-br2.xml</sprite></npc>
