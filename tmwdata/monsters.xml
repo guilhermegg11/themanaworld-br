@@ -558,12 +558,26 @@ Ou um comentário de alguem.
 	<sprite>monsters/sombra-26.xml</sprite>
 	<sprite>monsters/lanterna-jack.xml</sprite>
 </monster>
+<monster id="363" name="Lobo Branco" summon="lobobranco">
+	<sprite>monsters/wolf.xml</sprite>
+	<sound event="hit">wolf-hit1.ogg</sound>
+	<sound event="hit">wolf-hit2.ogg</sound>
+	<sound event="miss">wolf-miss1.ogg</sound>
+	<sound event="die">wolf-die1.ogg</sound>
+</monster>
 <monster id="364" name="Batholder" summon="batholder">
 	<sprite>monsters/batholder.xml|#880088,000000,FFFFFF;#FFFFFF,0000FF</sprite>
 	<sound event="hit">flower-hit1.ogg</sound>
 	<sound event="hit">flower-hit2.ogg</sound>
 	<sound event="miss">bat-hit1.ogg</sound>
 	<sound event="die">bat-dying1.ogg</sound>
+</monster>
+<monster id="365" name="Lobo Negro" summon="lobonegro">
+	<sprite>monsters/wolf.xml|#444444,111111,888888</sprite>
+	<sound event="hit">wolf-hit1.ogg</sound>
+	<sound event="hit">wolf-hit2.ogg</sound>
+	<sound event="miss">wolf-miss1.ogg</sound>
+	<sound event="die">wolf-die1.ogg</sound>
 </monster>
 
 </monsters>
