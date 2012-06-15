@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-	<imageset name="base" src="graphics/sprites/monsters/monster-wolf.png" width="92" height="64" />
+	<imageset name="base" src="graphics/sprites/monsters/wolf.png|W" width="92" height="64" />
 
 	<action name="stand" imageset="base">
 		<animation direction="down">
