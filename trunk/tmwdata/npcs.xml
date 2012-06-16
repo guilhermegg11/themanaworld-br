@@ -243,6 +243,7 @@
 
 
 
+
 	<npc id="376">
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
 		<sprite>npcs/lobisomem.xml</sprite>
@@ -402,7 +403,11 @@
 		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
 	</npc>
-	<npc id="574"><sprite variant="74">npcs-br2.xml</sprite></npc>
+	<npc id="574"> <!-- Mestre dos Druida -->
+		<sprite variant="74">npcs-br2.xml</sprite>
+		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
+		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+	</npc>
 	<npc id="575"><sprite variant="77">npcs-br2.xml</sprite></npc>
 	<npc id="576"><sprite variant="76">npcs-br2.xml</sprite></npc>
 	<npc id="577"><sprite variant="77">npcs-br2.xml</sprite></npc>
