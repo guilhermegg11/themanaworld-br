@@ -1,3 +1,5 @@
+import: npc/000_Inicio/_import.txt
+
 import: npc/001_vilaPescadores/_import.txt
 import: npc/001b_ilhaBhramir/_import.txt
 import: npc/001-1_casas/_import.txt
