@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="45" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Vila dos Pescadores"/>
+  <property name="pasta" value="VilaPescadores"/>
+ </properties>
+ <tileset firstgid="1" name="colision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="cabana_in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabana_in.png" width="512" height="160"/>
+ </tileset>
+ <tileset firstgid="83" name="canana_in X3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/cabana_in_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="99" name="in" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="45" height="45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OMQ3AMAwAsNyBNDqDUAglPgKRck2pKh/+nRGRAAAAF3sL06fOKkyfOrswfeo8hemT8xmcAQAA+MsHSGaIRqQfAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="45" height="45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QOQqAQBBE0e4LuVzA5QIugemo97+EBU4gCGIgjAP/JdXhp80AAAAAAH9TuFnp511pa0/b80ajxjZ2dto+g+ZBjWPsnLRzBs1Bjavfb3zr+ttNu2f05yV1AAAAAADg0QGDvST/pB8AAA==
+  </data>
+ </layer>
+ <layer name="Top" width="45" height="45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OOQ6AIBRFUWoThw047H+VUlhQQNAGNJ6TvIRPdUMAAAC4Z4xbMpt6RlXMhf+jZcRDmtvQ3MYat18LyXvrVlQ3JMvdb/TFZgAAgL86AUBrFOykHwAA
+  </data>
+ </layer>
+ <layer name="Collision" width="45" height="45" opacity="0.27">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OwQkAIAwEwSP9F20DPgUTnYX5byUpAAAAOCQNHl5+3nX7yXMvk14BAAB+tADe5dizpB8AAA==
+  </data>
+ </layer>
+ <objectgroup name="magins" width="45" height="45">
+  <object name="20x20" x="0" y="0" width="640" height="640"/>
+  <object name="20x20" x="800" y="800" width="640" height="640"/>
+ </objectgroup>
+ <objectgroup name="scripts" width="45" height="45">
+  <object name="Enfermeira" x="768" y="704" width="32" height="32">
+   <properties>
+    <property name="Comentário" value="Questiona qual cidade o jogador veio para setar qual cidade o jogador nascerá!"/>
+   </properties>
+  </object>
+  <object name="Warp Controlado" x="704" y="800" width="32" height="32">
+   <properties>
+    <property name="Comentário" value="Só vai sair de falar com a infermeira e pegar as coisas no baú."/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

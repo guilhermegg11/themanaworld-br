@@ -1,0 +1,5 @@
+map: 000.gat
+
+npc: npc/000_Inicio/enfermeira.conf
+npc: npc/000_Inicio/warp_controlado.conf
+
