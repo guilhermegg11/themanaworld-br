@@ -244,6 +244,7 @@
 
 
 
+
 	<npc id="376">
 		<sprite variant="0">npcs-br.xml</sprite> <!-- Parte clicável 50x80 -->
 		<sprite>npcs/lobisomem.xml</sprite>
@@ -446,8 +447,7 @@
 		<!--<sprite>weapon-lidersword.xml</sprite>-->
 		<sprite>chest-warlordplate-male.xml</sprite>
 	</npc>
-	<npc id="601"> <!-- Identico ao Monstro Tenente -->
-		<!--<sprite>player_male_base.xml</sprite>-->
+	<npc id="601"> <!-- Guarda de Deserto -->
 		<sprite>monster-terranite.xml</sprite>
 		<sprite>leg-assassin-male.xml</sprite>
 		<sprite>feet-furboots-male.xml</sprite>
@@ -456,14 +456,15 @@
 		<sprite>weapon-lidersword.xml</sprite>
 		<sprite>chest-warlordplate-male.xml</sprite>
 	</npc>
-	<npc id="602"> <!-- Identico ao Capitão da Guarda(ID:332) -->
-		<sprite>player_male_base.xml</sprite>
+	<npc id="602"> <!-- Guarda de Gelo -->
+		<sprite>player_male_base.xml</sprite>>
 		<sprite>leg-assassin-male.xml</sprite>
 		<sprite>feet-furboots-male.xml</sprite>
 		<sprite>hands-gloves-generic-male.xml</sprite>
-		<sprite>head-captain_hat.xml</sprite>
+		<!--sprite>head-capacete-lord.xml</sprite-->
+		<sprite>equipment/head/cabecao-neve.xml</sprite>
 		<sprite>weapon-lidersword.xml</sprite>
-		<sprite>chest-saviorarmor-male.xml</sprite>
+		<sprite>chest-warlordplate-male.xml</sprite>
 	</npc>
 	<npc id="603">
 		<sprite>rings-wings-demon.xml</sprite>

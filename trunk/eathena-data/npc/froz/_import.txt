@@ -5,6 +5,8 @@ map: froz.gat
 npc: npc/froz/_warps.txt
 npc: npc/froz/_shops.txt
 
-npc: npc/froz/guardas.conf
+//NPCs em Ordem Alfabética
 npc: npc/froz/ares.conf
+npc: npc/froz/guardas.conf
+npc: npc/froz/oshiro.conf
 
