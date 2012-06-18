@@ -1,9 +1,12 @@
-// 001-1 Vila dos Pescadores warps
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 → Arquivo compilado apartir de 001-1.tmx
+//  MODIFICADO: 18/06/2012 6:01 PM
+///////////////////////////////////////////////////////////////////
 
-001-1.gat,100,32	warp	sairVendaPeixes1	-1,-1,001.gat,63,29
-001-1.gat,27,32	warp	sair1	-1,-1,001.gat,37,38
-001-1.gat,63,32	warp	sair2	-1,-1,001.gat,30,67
-001-1.gat,26,68	warp	sairCasaMontanha	-1,-1,001.gat,144,31
-001-1.gat,63,68	warp	sair5	-1,-1,001.gat,73,47
-001-1.gat,100,68	warp	sair6	-1,-1,001.gat,73,47
-001-1.gat,101,19	warp	sairVendaPeixes2	-1,-1,001.gat,63,29
+001-1.gat,27,32	warp	paraCasa5(001)	-1,-1,001.gat,36,25
+001-1.gat,63,32	warp	paraCasa1(001)	-1,-1,001.gat,51,66
+001-1.gat,26,68	warp	paraCasa6(001-1)	-1,-1,001.gat,107,49
+001-1.gat,100,68	warp	paraCasa3(001)	-1,-1,001.gat,44,52
+001-1.gat,101,19	warp	paraCasa2b(001)	0,0,001.gat,58,49
+001-1.gat,100,32	warp	paraCasa2a(001)	-1,-1,001.gat,58,54
+001-1.gat,63,68	warp	paraCasa4(001-1)	-1,-1,001.gat,26,38

@@ -1,4 +1,7 @@
-// Halicarnazo Warps
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz.tmx
+//  MODIFICADO: 18/06/2012 6:04 PM
+///////////////////////////////////////////////////////////////////
 
-froz.gat,93,70	warp	ParaFora	3,0,froz.gat,94,73
-froz.gat,92,119	warp	to010	3,0,010.gat,93,21
+froz.gat,94,70	warp	ParaFora	1,0,froz.gat,93,73
+froz.gat,93,119	warp	to010	2,0,010.gat,93,21
