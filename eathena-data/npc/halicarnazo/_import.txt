@@ -12,7 +12,6 @@ npc: npc/halicarnazo/marshall.conf
 
 npc: npc/halicarnazo/Mackey.conf
 npc: npc/halicarnazo/MestreDosCavaleiros.conf
-npc: npc/halicarnazo/MestreDosDruidas.conf
 npc: npc/halicarnazo/MestreDosMagos.conf
 
 
