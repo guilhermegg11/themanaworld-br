@@ -2,8 +2,8 @@
 <map version="1.0" orientation="orthogonal" width="45" height="45" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="The Mana World - The Forest.ogg"/>
-  <property name="name" value="Vila dos Pescadores"/>
-  <property name="pasta" value="VilaPescadores"/>
+  <property name="name" value="Quarto Escuro"/>
+  <property name="pasta" value="000_Inicio"/>
  </properties>
  <tileset firstgid="1" name="colision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
@@ -42,14 +42,16 @@
   <object name="20x20" x="800" y="800" width="640" height="640"/>
  </objectgroup>
  <objectgroup name="scripts" width="45" height="45">
-  <object name="Enfermeira" x="768" y="704" width="32" height="32">
+  <object name="Enfermeira" type="script" x="768" y="704" width="32" height="32">
    <properties>
     <property name="Comentário" value="Questiona qual cidade o jogador veio para setar qual cidade o jogador nascerá!"/>
+    <property name="path" value="enfermeira.conf"/>
    </properties>
   </object>
-  <object name="Warp Controlado" x="704" y="800" width="32" height="32">
+  <object name="Warp Controlado" type="script" x="704" y="800" width="32" height="32">
    <properties>
     <property name="Comentário" value="Só vai sair de falar com a infermeira e pegar as coisas no baú."/>
+    <property name="path" value="warp_controlado.conf"/>
    </properties>
   </object>
  </objectgroup>
