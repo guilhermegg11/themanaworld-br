@@ -110,12 +110,25 @@
    H4sIAAAAAAAAA+2YYc5dKwhF+6vzn0Mn2jRfbnpyIgoKgt61k5XXnquCwLbJ+/P7168/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwNP/0+a9FrXNmtPucU/OOOid7/qLnemX/s0aopnrz7u2pm1i937tOq72w9sqrBlGaiaHNcfddJGXPcKY/tPf/rJNqN6rtSm+s60c5R0tbkyx/ZLxRVbHUebRudc5netzLpefXFU+vrtee1+tTb11Uzpqa3oalzlX9oT27FcdzrqWYrb9r9s76w8PzWmXP7wn+mJltaX6kb9L5vRnU5LSyX3ojrJ6Vfpv1R+tuGvVqbMn1Jt7319RCWqc5wyKrP2ZjVFBEP7TxVpQ9vzv84aWI8zL8EVEbqzTxK+R4MxH1kmo4e95nr8YfM3f38JclZob3vHog/XYro7r0/q7ZM6qlh7z8MZtTxHv0rfNYDQ89zzrZH9KdNPFXYlpjRaqVpxQze3Z3+sNrXp8+eZ/n5Y/Wub0YM/6w5mONuRLLI1cPZc/uTn9Yayit6e177vHuUy/G+75R/pBiRvjDs34rudxORM1m963s1XzXrFutS/TMat8f7Vled82e4yr+WfVchn9u0sz8a3ozMxO3+2NGt83oyn1mavlZO3p/en+fyS/aH9YzTiFSO2JUVsT9pZnsxccfPh45cZ41Oe+61643x7K21etWnivzIn27CUu9Z3Wi/6JlrUlvbe+9G8VprR35Sjove5YzPbJbvZ57nbmyTlPHU2r90Tu/ng9G5/Q8dyLve2nvb/nNS60YnrNo2d+Le5o/tLLcI3uuPf0xW6sKfc+axV68Sv7wjI0/zpPmHc/Kqfdny1nPvZG9G52JP86Tdf5av1u/7azdyB87crG+Pdkz7eWLG/xRVSu1bfVo59smxdDEzJ5rT3+07hV1xyjd7nFvf2j244/9d8xSdvxVvf3x/vPMed7+iH5b8YefMv0QEVtzniWu1h+t2JZcTibjjkivZ80q1e6ZUyuv7LmOmtX3d8sebZ3QnKTaRb13o71ecSrzvIv2npb+9PZrvYOvfuRRgxV/WHLJnmtPf1jv2Vtj2b+a27epuj9ab+7paOr5vu9sP951xR8/svbCI1aEP2bjVMZa29E3zZp3DaV6zijq7hkx33s8/SHl3Yor7dXEOR1NHStIm89N/mjF8dTobRvNx+jsG7hNJ/rD4v0qannp+S17rm/0iUcuJ/pDOm8lTvbMZOd2iye89bybdOcof+yMeYKy5xt/9PW+4847f0N9R8qeb09/VPRMxZyQTdkzzr8dqLqyZx1/oMrKnnX8gSore9bxB6qs7FnHH6iysmcdYt+O7HwAqoE3AGTwB4AM/gCQwR8AMvgDnlj/H92sTj3n1Lyt54DsD6+ao/OUPX8ns1rzqPUe8ox54ruSPVu34t2fd6+qq2qe2ry0/c2es2p41GW1t9bzeus857iqJyya6Vv2TFYhsjba3rVitvI5UdbcI7y98v58M1611pzd+96Lcbsi77m757cR2QdtjJ6XVnP8Nq+9Ze3DqBffRJS0sbS/a3/L8kBl73nklT2nFf2x2nOvXDLnrurcW/J6rlu5T/asVvKGp7L9MYqVWZsd8rpP9rze6A1LbXt7PeNo/CHFlH6r7CtNXtnzWA1LfbIV0V/t3qj7rPbLGi8ip1vxrkm0ZuZ65IdWjN65XvnvqrVlX/Y8fgurks55x1jJoxdDiukxnztqvVoTyOmbh7ziSuulb9qYkXUanTMbK3tWvpUo7Yw1iutdE806r5jZ8wG2+dMq+nxL/KwajPLwvgOc5ZFIWfKucF9t7Ow5AF+PnDanVZXde/D3h2V/hDdPV3a/wdcns3tn4lvyGuXrqdV6ZvcWfFjpaeQsRCi71gCe4AuAMe9ZxxcA/2nNPN4A+IG5B5DBHwAy+ANABn8AyOAPABn8ASCDPwBk8AeADP4AkMEfADL4A0AGfwDI4A8AGfwBIIM/AGTwB4AM/gCQwR8AMvgDQAZ/AMjgDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDz+As+Y5PBgLUBAA==
   </data>
  </layer>
- <objectgroup name="npcs" width="200" height="140" visible="0">
+ <objectgroup name="scripts" width="200" height="140">
   <object name="Guarda do Navio" x="5186" y="2499" width="27" height="26"/>
-  <object name="Ohniralc" type="npc" x="2976" y="2400" width="32" height="32"/>
+  <object name="Ohniralc" type="script" x="2976" y="2400" width="32" height="32">
+   <properties>
+    <property name="file" value="guardas.conf"/>
+   </properties>
+  </object>
   <object name="Gélido" type="shop" x="2912" y="2336" width="32" height="32"/>
-  <object name="Escrivão#Froz" type="npc" x="3072" y="2336" width="32" height="32"/>
   <object name="chafariz" x="2982" y="1320" width="20" height="19"/>
+  <object name="Guarda Oshiro" type="script" x="3040" y="672" width="32" height="32">
+   <properties>
+    <property name="file" value="oshiro.conf"/>
+   </properties>
+  </object>
+  <object name="Ares" type="script" x="5248" y="1664" width="32" height="32">
+   <properties>
+    <property name="file" value="ares.conf"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="spawn" width="200" height="140" visible="0">
   <object name="Limo de Neve (15)" type="spawn" x="864" y="736" width="960" height="960">
