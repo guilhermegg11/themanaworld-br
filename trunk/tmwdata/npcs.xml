@@ -408,8 +408,11 @@
 		<sprite variant="74">npcs-br2.xml</sprite>
 		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 		<particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
-	</npc>
-	<npc id="575"><sprite variant="77">npcs-br2.xml</sprite></npc>
+	</npc> 
+	<npc id="575"> <!-- Mestre dos Necromantes -->
+<sprite variant="75">npcs-br2.xml</sprite>
+<particlefx>graphics/particles/aura-negra.xml</particlefx>
+</npc> 
 	<npc id="576"><sprite variant="76">npcs-br2.xml</sprite></npc>
 	<npc id="577"><sprite variant="77">npcs-br2.xml</sprite></npc>
 	<npc id="578"><sprite variant="78">npcs-br2.xml</sprite></npc>
