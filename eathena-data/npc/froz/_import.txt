@@ -9,4 +9,4 @@ npc: npc/froz/_shops.txt
 npc: npc/froz/ares.conf
 npc: npc/froz/guardas.conf
 npc: npc/froz/oshiro.conf
-
+npc: npc/froz/MestreDosNinjas.conf
