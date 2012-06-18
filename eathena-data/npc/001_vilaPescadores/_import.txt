@@ -1,9 +1,14 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 → Arquivo compilado apartir de 001.tmx
+//  MODIFICADO: 18/06/2012 6:05 PM
+///////////////////////////////////////////////////////////////////
+
 map: 001.gat
 
 npc: npc/001_vilaPescadores/_mobs.txt
 npc: npc/001_vilaPescadores/_scripts.txt
-npc: npc/001_vilaPescadores/_shops.txt
 npc: npc/001_vilaPescadores/_warps.txt
+npc: npc/001_vilaPescadores/_shops.txt
 
 npc: npc/001_vilaPescadores/angela.conf
 npc: npc/001_vilaPescadores/garca.conf
@@ -11,7 +16,7 @@ npc: npc/001_vilaPescadores/iris_ofelia.conf
 npc: npc/001_vilaPescadores/julia.conf
 npc: npc/001_vilaPescadores/maya.conf
 npc: npc/001_vilaPescadores/menir_alma.conf
+npc: npc/001_vilaPescadores/MestreDosMagos.conf
 npc: npc/001_vilaPescadores/pescador1.conf
 npc: npc/001_vilaPescadores/pescador2.conf
 npc: npc/001_vilaPescadores/rosilda.conf
-npc: npc/001_vilaPescadores/MestreDosMagos.conf

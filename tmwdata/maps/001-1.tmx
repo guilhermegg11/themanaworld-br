@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="129" height="89" tilewidth="32" tileheight="32">
  <properties>
+  <property name="folder" value="001-1_casas"/>
   <property name="music" value="butterfly_tea_-_heart_of_medieval_01.ogg"/>
   <property name="name" value="Vila dos Pescadores"/>
-  <property name="pasta" value="casas"/>
  </properties>
  <tileset firstgid="1" name="colision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
@@ -43,64 +43,68 @@
    H4sIAAAAAAAAA+3cy27UMBTGcY8EQoJehm47pYYtFyEBS8pT8ArAlNsWFsDD8Qg8AhLQB2CFkLDVuONmbCednpN4hv9PsjJNMuoX9+TSRY4xAAAAAAAAAAAAAAAAgJxtN6aFcbuwbWegPKkMqXUaeXKZ+s6VViZJux3b7xa2WcEcQSpPKkNqnZWNcibO9MGNj278Tew3ZCZJ1EC3rjkKfKa5G8fROiueRp4/vq+F7dTAxWogeDEx5uVkfWrgW/P5hxs/3fgVbacGzp8nv5vln8R+63wv+N58nrq63XbjYLLYTg2cP0+C6WR5v3WugZKha+COG/da42HPdTcV8njxeVKyrjWQmvPUXN+IvjMzenPe996bYqVCtKQy7W/YdcA2x3PNLJbzZnmlWV6NvhP+P7IKeXI1+aDHdzXyeH3r8qkZ7tokqbbzLq7JebPulSnfkzTzeBeZozfN0mf2+a14Gnk11kBKrgbum2GeB1ZlpUIoqu34Qp5H7lrw2I0nzTUhVwPxeo08caZVWKkQimo7vjjPjvv7H1ID6g7cOCwMU9h2a8A8e5k8e0Y3TynTWHMk7XrH6Npn0/PUmklSbcdXW55aMwEAAAAAAAAAAAAAAAAAAEgq9dop9SIash9RO0su19j9iIbMJKn0/kTXO35WMEdQetcsvOvazvVWMU870zs33rd+b4kVTyNvnWog9dn71CyteJpTcabPbnyJfm94tzRHK5OkTaiBwMpGObPp75rVWgPt3khb0T411MBuogdFipUMoqTWGpgleiMFW8ur1PLEmVZhpUIoKvWiCX1onmW2D9mLZr/Hd61gjtj/cB3wPTfDM7fne2n455zXZtEDJHz2PUKOjV6PjVxNHkX7zDL70INiNX2Ob8j7b9yLxgt9P0vP3pp5PGpgUQPt3iB2pDw5VipES1cv1xIrmENLnzkPz2An5vQ+eNL8bJXy1DbfqR6VfVnBHFpqO+9qnO++PSpTrGAOLX1qIPdMbgVzBDXOd23nibRSrx1jlnv+jNWPaMzePzVmknSZHiv0otmMXjTUwOUzPR8hEwAAAAAAAAAAAAAAAAAAwD8h19pxZLMAAA==
   </data>
  </layer>
- <layer name="collision" width="200" height="140" visible="0" opacity="0.62">
+ <layer name="collision" width="200" height="140" opacity="0.48">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3S0YrtIAwF0OL/f/R9GijSaGe4JoGuwKJHW46bxHFd1wAAAAAAAAAAAAAAAAAAAChyNchAzmzn9c/eXCfzzGdE52bkeZOz4nxq5nyv+X1FrmivItOqb9Vz5Oyco72oTudZZYj2KvpWdT65c472ojqdZ5Uh2qvoW6dMnJ/zvVbfZOX5zV5l3zpk4vyc71U986fzrsW7yr5V94qcme/uQ0aGXT19V9Grbpk4N+cxPef9eS8r25wzqqq+zedXZCFvzm8rM8+bnF/qEXn+WifzPK0zM3TvEd+d/fzf1xXn/GqP+O7so7MyM3TvET10m3G3PF0zAQAAAAAAAAAAAAAAAAAAAAAAdPZUT++e1hm53uau6lv1/Mif+fVy/3SG+5nR7w69iqp6npyb8+4OnMzztN7l6tK3ykzkzXl3B07mWeWLcnXpW2Um8ma/uwMnz346a1fV/eqQg7x535/ZZ881pt9dMj29r+obOXdgBM+5MvJE+ap689uqninnZz9uzxGss/N061GnrOTOftyeI1hn5lnl/FImcvy1vpKnayZy7Cr6pirPKueXMpFjV9E3VXlWOb+UiVod5ysTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/LP1pyHOmAtQEA
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
-  <object name="sairVendaPeixes1" type="warp" x="3200" y="1024" width="32" height="32">
+ <objectgroup name="warps" width="0" height="0">
+  <object name="paraCasa5(001)" type="warp" x="864" y="1024">
    <properties>
     <property name="dest_map" value="001"/>
-    <property name="dest_x" value="2088"/>
-    <property name="dest_y" value="1696"/>
+    <property name="x" value="36"/>
+    <property name="y" value="25"/>
    </properties>
   </object>
-  <object name="sair1" type="warp" x="864" y="1024" width="32" height="32">
+  <object name="paraCasa1(001)" type="warp" x="2016" y="1024">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="1152"/>
-    <property name="dest_y" value="768"/>
+    <property name="map" value="001"/>
+    <property name="x" value="51"/>
+    <property name="y" value="66"/>
    </properties>
   </object>
-  <object name="sair2" type="warp" x="2016" y="1024" width="32" height="32">
+  <object name="paraCasa6(001-1)" type="warp" x="832" y="2176">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="1632"/>
-    <property name="dest_y" value="2080"/>
+    <property name="map" value="001"/>
+    <property name="x" value="107"/>
+    <property name="y" value="49"/>
    </properties>
   </object>
-  <object name="sairCasaMontanha" type="warp" x="832" y="2176" width="32" height="32">
+  <object name="paraCasa3(001)" type="warp" x="3200" y="2176">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="4608"/>
-    <property name="dest_y" value="992"/>
+    <property name="map" value="001"/>
+    <property name="x" value="44"/>
+    <property name="y" value="52"/>
    </properties>
   </object>
-  <object name="sair5" type="warp" x="2016" y="2176" width="32" height="32">
+  <object name="paraCasa2b(001)" type="warp" x="3232" y="608" width="32" height="32">
    <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="2336"/>
-    <property name="dest_y" value="1504"/>
+    <property name="map" value="001"/>
+    <property name="x" value="58"/>
+    <property name="y" value="49"/>
    </properties>
   </object>
+  <object name="paraCasa2a(001)" type="warp" x="3200" y="1024">
+   <properties>
+    <property name="map" value="001"/>
+    <property name="x" value="58"/>
+    <property name="y" value="54"/>
+   </properties>
+  </object>
+  <object name="paraCasa4(001-1)" type="warp" x="2016" y="2176">
+   <properties>
+    <property name="map" value="001"/>
+    <property name="x" value="26"/>
+    <property name="y" value="38"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="magins" width="129" height="89" visible="0">
   <object name="20x20" x="1126" y="1048" width="640" height="640"/>
-  <object name="VendedorDeArmas" type="NPC" x="3040" y="672" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="NPCs" width="129" height="89" visible="0">
   <object name="VendedorDeComidasEpoções" type="NPC" x="3360" y="672" width="32" height="32"/>
+  <object name="VendedorDeArmas" type="NPC" x="3040" y="672" width="32" height="32"/>
   <object name="VendedorDeRoupas" type="NPC" x="3008" y="1856" width="32" height="32"/>
-  <object name="sair6" type="warp" x="3200" y="2176" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="1408"/>
-    <property name="dest_y" value="1632"/>
-   </properties>
-  </object>
-  <object name="sairVendaPeixes2" type="warp" x="3232" y="608" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="001"/>
-    <property name="dest_x" value="1856"/>
-    <property name="dest_y" value="1500"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>

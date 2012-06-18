@@ -1,12 +1,14 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz.tmx
+//  MODIFICADO: 18/06/2012 6:04 PM
+///////////////////////////////////////////////////////////////////
+
 map: froz.gat
 
-//npc: npc/froz/_mobs.txt
-//npc: npc/froz/_scripts.txt
 npc: npc/froz/_warps.txt
 npc: npc/froz/_shops.txt
 
-//NPCs em Ordem Alfabética
 npc: npc/froz/ares.conf
 npc: npc/froz/guardas.conf
-npc: npc/froz/oshiro.conf
 npc: npc/froz/MestreDosNinjas.conf
+npc: npc/froz/oshiro.conf
