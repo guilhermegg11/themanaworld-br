@@ -24,4 +24,4 @@ npc: npc/005_Fortaleza/raul.conf
 npc: npc/005_Fortaleza/teleportador.conf
 npc: npc/005_Fortaleza/valdete.conf
 npc: npc/005_Fortaleza/warps_pensao.conf
-
+npc: npc/005_Fortaleza/MestreDosPaladinos.conf
