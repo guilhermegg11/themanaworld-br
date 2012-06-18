@@ -1,4 +1,4 @@
 // Halicarnazo Warps
 
-froz.gat,92,119	warp	to010	3,0,010.gat,93,21
 froz.gat,93,70	warp	ParaFora	3,0,froz.gat,94,73
+froz.gat,92,119	warp	to010	3,0,010.gat,93,21
