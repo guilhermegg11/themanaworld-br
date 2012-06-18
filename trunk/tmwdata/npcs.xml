@@ -126,7 +126,8 @@
 	<npc id="322"><sprite variant="22">npcs-br.xml</sprite></npc> <!-- Eremita sentado e encapusado de verde -->
 	<npc id="323"><sprite variant="23">npcs-br.xml</sprite></npc> <!-- Mágico com Capa Longa -->
 	<npc id="324"><sprite variant="24">npcs-br.xml</sprite></npc> <!-- Bella: Ciagana -->
-	<npc id="325"><sprite variant="25">npcs-br.xml</sprite></npc> <!-- Vitalina: Bruxa vermelha -->
+	<npc id="325"><sprite variant="25">npcs-br.xml</sprite><particlefx>graphics/particles/emanar-alma-pedra.xml</particlefx>
+</npc> <!-- Vitalina: Bruxa vermelha -->
 	<npc id="326"><sprite variant="26">npcs-br.xml</sprite>
 		<particlefx>graphics/particles/emanar-alma-pedra.xml</particlefx>
 	</npc>
