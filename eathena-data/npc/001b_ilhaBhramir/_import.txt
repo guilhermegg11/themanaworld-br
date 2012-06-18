@@ -4,5 +4,5 @@ npc: npc/001b_ilhaBhramir/_mobs.txt
 npc: npc/001b_ilhaBhramir/_scripts.txt
 npc: npc/001b_ilhaBhramir/_warps.txt
 
-npc: npc/001b_ilhaBhramir/epitafio.conf
+npc: npc/001b_ilhaBhramir/benedito.conf
 npc: npc/001b_ilhaBhramir/flora.conf
