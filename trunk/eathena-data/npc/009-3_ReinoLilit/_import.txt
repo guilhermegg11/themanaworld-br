@@ -10,3 +10,4 @@ npc: npc/009-3_ReinoLilit/ninfa_leona.conf
 npc: npc/009-3_ReinoLilit/ninfa_sonia.conf
 npc: npc/009-3_ReinoLilit/pedra_encantada.conf
 npc: npc/009-3_ReinoLilit/placas.conf
+npc: npc/009-3_ReinoLilit/MestreDosDruidas.conf
