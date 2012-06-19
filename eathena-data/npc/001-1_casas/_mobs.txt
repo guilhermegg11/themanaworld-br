@@ -1,10 +1,5 @@
-//
-// Monstros do mapa: 001-1 Vila dos Pescadores
-// Script gerado automaticamente pela ferramenta TMW Converter...
-//
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 → Arquivo compilado apartir de 001-1.tmx
+//  MODIFICADO: 19/06/2012 1:04 PM
+///////////////////////////////////////////////////////////////////
 
-
-001-1.gat,0,0,0	script	Mob001-1	-1,{
-
-	end;
-}
