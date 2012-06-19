@@ -109,8 +109,8 @@
  </objectgroup>
  <objectgroup color="#ff55ff" name="scripts" width="129" height="89">
   <properties>
+   <property name="file-carol" value="carolina.conf"/>
    <property name="file-mestre" value="MestreDosMagos.conf"/>
-   <property name="filx-carol" value="carolina.conf"/>
   </properties>
  </objectgroup>
 </map>
