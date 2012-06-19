@@ -1,11 +1,11 @@
 ///////////////////////////////////////////////////////////////////
 //  IDE: TMW-Maker 2 → Arquivo compilado apartir de 001-1.tmx
-//  MODIFICADO: 19/06/2012 1:04 PM
+//  MODIFICADO: 19/06/2012 3:38 PM
 ///////////////////////////////////////////////////////////////////
 
 001-1.gat,27,32	warp	paraCasa5(001)	-1,-1,001.gat,36,25
 001-1.gat,63,32	warp	paraCasa1(001)	-1,-1,001.gat,51,66
-001-1.gat,26,68	warp	paraCasa6(001-1)	-1,-1,001.gat,107,49
+001-1.gat,26,68	warp	paraCasa6(001-1)	-1,-1,001.gat,48,37
 001-1.gat,100,68	warp	paraCasa3(001)	-1,-1,001.gat,44,52
 001-1.gat,101,19	warp	paraCasa2b(001)	0,0,001.gat,58,49
 001-1.gat,100,32	warp	paraCasa2a(001)	-1,-1,001.gat,58,54
