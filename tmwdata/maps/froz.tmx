@@ -110,19 +110,46 @@
    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
   </data>
  </layer>
- <objectgroup color="#0000ff" name="scripts" width="200" height="140">
+ <objectgroup color="#0000ff" name="scripts" width="200" height="140" visible="0">
   <properties>
    <property name="file-ares" value="ares.conf"/>
    <property name="file-guardas" value="guardas.conf"/>
+   <property name="file-jeremias" value="jeremias.conf"/>
    <property name="file-mestreninja" value="MestreDosNinjas.conf"/>
    <property name="file-oshiro" value="oshiro.conf"/>
   </properties>
  </objectgroup>
- <objectgroup name="spawn" width="200" height="140" visible="0">
-  <object name="Limo de Neve (15)" type="spawn" x="864" y="736" width="960" height="960">
+ <objectgroup name="spawns" width="200" height="140">
+  <object name="Trasgo de Gelo(10)" type="spawn" x="800" y="2336" width="2144" height="736">
    <properties>
-    <property name="max_beings" value="15"/>
-    <property name="monster_id" value="317"/>
+    <property name="amount" value="10"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1058"/>
+   </properties>
+  </object>
+  <object name="Lobo Branco(15)" type="spawn" x="672" y="672" width="2464" height="736">
+   <properties>
+    <property name="amount" value="15"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1365"/>
+   </properties>
+  </object>
+  <object name="Limo de Gelo(10)" type="spawn" x="3072" y="2336" width="2144" height="768">
+   <properties>
+    <property name="amount" value="10"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1318"/>
+   </properties>
+  </object>
+  <object name="Morcego(30)" type="spawn" x="3328" y="672" width="2080" height="1408">
+   <properties>
+    <property name="amount" value="30"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1017"/>
    </properties>
   </object>
  </objectgroup>
