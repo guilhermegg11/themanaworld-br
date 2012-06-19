@@ -8118,7 +8118,7 @@
 		weight="3"
 	/>
 	<item id="3413"
-		image="generic-scorpionstinger.png|W:#5e929d,a2d8e3"
+		image="generic-scorpionstinger.png|W:#a2d8e3,ffffff"
 		name="Ferrão de Escorpião de Gelo"
 		description="Um ferrão de Escorpião de Gelo envenenado."
 		type="generic"
