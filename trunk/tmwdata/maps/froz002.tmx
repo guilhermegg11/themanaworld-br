@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/010-1.png"/>
+  <property name="music" value="butterfly_tea_-_the_origins.ogg"/>
+  <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Caverna Congelada"/>
+  <property name="pasta" value="CavernaCongelada"/>
+ </properties>
+ <tileset firstgid="1" name="Colisão" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Caverna Gelo" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Ground" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3du27UQBgG0CkgpAQKQgkUCYgGKBIQfSDiIQg8AAKegEdnRsRaY3yZ2bXXs+EUp9lc7JX8z/eNvUpOQggnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjHoRnbW8rOCcoBbvovvRg+hh9L6Cc4KldXNhyPPoSfQ0ehZ9quDcYWkpFy4yvI1eRa+jN9Fp0LW4fbp5kXLhQ4aP0XX0JfoanYfN7Oha3BbdvEi5cC/T9+hH9DO6DJvZ0bU4RH17i25epFxI1/7dUDYf7ddPg3tbHJ6+vUVJXgzNx7fwp2M1r593jqFvUat2ZvTtLZq8yM2Mtl/R5/Bvhlx2jqFvUat2ZuySFaUda6xv6VzU4ir0Z8U+56PbtxKdi7WlbpU61dwzkRzdHKM9H8c3X7vT+d5u39K5qEHqVkt0quRRz/EeF/y8zsXaUreau1MdjRyvZD50Lta0VLfqy40+xxO/R+diTVPdqvRe7lR2dJVkic7Fvi3RrXKzozGVIToXa9lm/c5Z30vW89Jz0LnYlyXmI63vuet589x+aA+U2+9KOh3kmms+2tdxWt9z1/Pmuf2u95dLOx3kaHf/3LW6+1xvqGOdheH9czs3Uj/adQ9kPljCEv2q6VgXYXj/PFdutOfRPSz2YY7rdeqzuc3nvea6d1ay54G5zbG+t/tW6TPJqe5XsueBpczVt+boVd2ZcQ+LGszRt1Kvytnnl7BHpxZzXtfb9CnzQe2WnhHzwW2w9lyYD2q39myYD2pX+jlc88H/ZKln8UO6e3jzQe1yMmSbe1NTPPvgEOw7Q2QHh2bba7zveWFu1qz9nqHEPrNj7fcK2zAbMM5cwDizAeP6rvPrsPm/a+YC/r7ex/6m+9rnCWtrz8fa5wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOzmN22oGHAAcQIA
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3awQnAIBAEQAtKCfZfV175SFQCijlupgIfLusdlgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHV0wcAILzr9AEA+DUzBwAzZgoARswUEIOsEo07C+ZxiEJWAQCAx4r5wF4MvnnLjBwBAOzjrUU07iwAu8w6RgeRwcp/U/5gkZW+AKBVi36AEfmAPWSLTHp7KPspAGbartAdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPncBVJfMABxAgA=
+  </data>
+ </layer>
+ <layer name="Top" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ay2rDMBBAUe+yyAcU2v//z+JdMFKsx2icxzlgyMI2BHQ7lpttAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6/DQc8K30AWUtbeiDT3JrOB5phE/X0sRsH1d00vM94JmsPrIauVU+186Bkt7ZUVpTr9hIy9o3RzjT00RkHytaebxX67rXCDWj8+Joto+oRkb66D2X7xG1f43oI6KRx/vog1lnz1ItZlqIbkQfRIl659k7G46fIxs5Xnv2new9qLmqjdL6j+qkdk3t+2mDkuzZ0bLWR/toPX/0+ZHvk9nHto2t9Z5rIFLk7y0i3031XOfvP6tk9zF7nxJ9sEpkH7uZPp6969UHV4j4n2DJaB8jfemDVWZ+i3gmq4+ze8Gonj5+D8ffyb2j3u3OXgujZmbHfXveSWYfETMHjiKeq/ZOns2SjBmgD1aI2necNdJDH7yC6H35qkZ6ztUHUVa8tzrbk7TqWdv6INrK97q7iFkSMTv0wYjVfewin7dq9MEKGX2s1tKGPhiR1ceKGdLahT4Y9Y7zo7cLjTAqs4+ovbo2yJI9O2Yb0QWZrni2Gm3E3CDbVfuOjEYgwlX78vvgdbog0zu8syrRBpnepQsAqBndmwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK/nHwsT5ycAcQIA
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="200" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3V20okQRBFUfH/P3rwoWGQmb7U7eSpWAsClNaqTNmBX18AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQLtvc8nQKd3NlKFTupspQ6d0N1OGTulupgyd0t1MGTqlu5kydEp3M2XolO5mytAp3c2UoVO6mylDp3Q3U4ZO6W6mDJ3S3UwZOqW7mTJ0SnczZeiU7mbK0CndzZShU7qbKUOndDdbW0ufwX7MkO5mT2fps9iP+0t3Yz9YWbqbPf2kz2w/7i/dzVH9pM9vP+5p1V4+bSrdv/24p7v0ku7fftxTQxtbnpHeB/txD3dtI70PK/wN2G+lHl793u/nP3tXeh/sxz009bD3XfaDT6V6OLLro55jP/itoYWj3m0/+NTZLext4+wO7QfPrN7Cke//12f2g2fSHbz6nbPPYD945qoOtjaS6NF+8LB6B2ec453PV/+7cI2GDvz/IKWhg6vfbz94OKOFo9uwH6RcsR+f9vLO56+et6dJ+8FDaj/2dLP1OZ/s0Qr3JC+9H1vauaK/9B1ZQ3o3Vu3n7vfjPem9WKmh719f3+lubJPeiVctpdqyH/xI78KqPd3tPmyT3oMjmnr1s1v6tB/8SO/AJ00d2dk7O2U/SO/AGV3t7XGVe5CX7n/Fru5yD/ZL9/9pW2f3dqc9Z790+1t35AxXnZ8e6e6vbux/z2k4O9dLN7+3s2e9r3R/OqV7T7bWeGaulW79iN5efb/CnemU7vzs7tLnsx/d0t0c3WD6DPbjXtLdTBk6pbuZMnRKdzNl6JTuZsrQKd3NlKFTupspQ6d0N1OGTulupgyd0t1MGTqlu5kydEp3M2XolO5mytAp3c2UoVO6mylDp3Q3U4ZO6W6mDJ3S3UwZOqW7mTJ0SnczZeiU7mbK0CndzZQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgL/9AYyrT7wAcQIA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="200" height="200">
+  <object name="paraFora" type="warp" x="5152" y="3776" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4640"/>
+    <property name="dest_y" value="2304"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="4992" y="2816" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4544"/>
+    <property name="dest_y" value="2016"/>
+   </properties>
+  </object>
+  <object name="paraFora" type="warp" x="4960" y="2528" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010"/>
+    <property name="dest_x" value="4544"/>
+    <property name="dest_y" value="1504"/>
+   </properties>
+  </object>
+  <object name="Morcego (15)" type="spawn" x="3520" y="1920">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pedraEmanar" width="200" height="200">
+  <object name="Pedra de Emanar Alma" type="script" x="5600" y="3392" width="32" height="32">
+   <properties>
+    <property name="npc_id" value="pedraEmanar"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
