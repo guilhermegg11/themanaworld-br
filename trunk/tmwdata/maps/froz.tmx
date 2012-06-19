@@ -128,7 +128,7 @@
     <property name="id" value="1058"/>
    </properties>
   </object>
-  <object name="Lobo Branco(15)" type="spawn" x="672" y="672" width="2464" height="736">
+  <object name="Lobo Branco(15)" type="spawn" x="672" y="672" width="4736" height="512">
    <properties>
     <property name="amount" value="15"/>
     <property name="delay1" value="0"/>
@@ -144,7 +144,7 @@
     <property name="id" value="1318"/>
    </properties>
   </object>
-  <object name="Morcego(30)" type="spawn" x="3328" y="672" width="2080" height="1408">
+  <object name="Morcego(30)" type="spawn" x="3328" y="928" width="2080" height="768">
    <properties>
     <property name="amount" value="30"/>
     <property name="delay1" value="0"/>
@@ -152,8 +152,16 @@
     <property name="id" value="1017"/>
    </properties>
   </object>
+  <object name="Escorpião de Gelo(30)" type="spawn" x="672" y="1440" width="4832" height="672">
+   <properties>
+    <property name="amount" value="30"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1368"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="warps" width="200" height="140">
+ <objectgroup name="warps" width="200" height="140" visible="0">
   <object name="ParaFora" type="warp" x="2976" y="2240" width="64" height="32">
    <properties>
     <property name="map" value="froz"/>
