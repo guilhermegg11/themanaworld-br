@@ -580,6 +580,6 @@ Ou um comentário de alguem.
 	<sound event="die">wolf-die1.ogg</sound>
 </monster>
 <monster id="366" name="Escorpião de Gelo" summon="escorpiaogelo">
-	<sprite>monster-scorpion-gelo.xml</sprite>
+	<sprite>monster-scorpion.xml|#5e929d,a2d8e3,ffffff</sprite>
 </monster>
 </monsters>
