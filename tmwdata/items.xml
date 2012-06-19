@@ -6552,7 +6552,7 @@
 		image="armor-head-elmo-samurai.png"
 		name="Elmo Samurai"
 		description="Elmo usado por quem segue pelo caminho do Bushidô."
-		effect="lvl 90"
+		effect="lvl 90, +1 Destreza"
 		type="equip-head"
 		weight="2000"
 		defense="20">
