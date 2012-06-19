@@ -1008,3 +1008,4 @@
 3409,garrasdebatholder,Garras de Batholder,3,1000,500,10,,,,,,,,,,,{},{}
 3410,olhodebatholder,Olho de Batholder,3,3000,1500,10,,,,,,,,,,,{},{}
 3411,peledebatholder,Pele de Batholder,3,2000,1000,10,,,,,,,,,,,{},{}
+3412,turmalinarosa,Turmalina Rosa,3,2000,1000,10,,,,,,,,,,,{},{}

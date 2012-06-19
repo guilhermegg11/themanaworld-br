@@ -8110,5 +8110,11 @@
 		type="generic"
 		weight="10"
 	/>
-
+	<item id="3412"
+		image="generic-turmalina.png"
+		name="Turmalina Rosa"
+		description="Uma Turmalina Rosa. é uma pedra extremamente rara."
+		type="generic"
+		weight="3"
+	/>
 </items>
