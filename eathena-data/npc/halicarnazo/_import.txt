@@ -1,17 +1,18 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 → Arquivo compilado apartir de halicarnazo.tmx
+//  MODIFICADO: 19/06/2012 6:13 PM
+///////////////////////////////////////////////////////////////////
+
 map: halicarnazo.gat
 
-//npc: npc/halicarnazo/_mobs.txt
-//npc: npc/halicarnazo/_scripts.txt
+npc: npc/halicarnazo/_mobs.txt
+npc: npc/halicarnazo/_scripts.txt
 npc: npc/halicarnazo/_warps.txt
 npc: npc/halicarnazo/_shops.txt
 
 npc: npc/halicarnazo/EvilAdventury.conf
-npc: npc/halicarnazo/guardas.conf
-npc: npc/halicarnazo/pedro.conf
-npc: npc/halicarnazo/marshall.conf
-
 npc: npc/halicarnazo/Mackey.conf
+npc: npc/halicarnazo/guardas.conf
+npc: npc/halicarnazo/marshall.conf
 npc: npc/halicarnazo/MestreDosCavaleiros.conf
-
-
-
+npc: npc/halicarnazo/pedro.conf
