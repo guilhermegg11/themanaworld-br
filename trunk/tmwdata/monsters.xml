@@ -579,5 +579,7 @@ Ou um comentário de alguem.
 	<sound event="miss">wolf-miss1.ogg</sound>
 	<sound event="die">wolf-die1.ogg</sound>
 </monster>
-
+<monster id="366" name="Escorpião de Gelo" summon="escorpiaogelo">
+	<sprite>monster-scorpion-gelo.xml</sprite>
+</monster>
 </monsters>
