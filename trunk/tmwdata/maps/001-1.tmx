@@ -48,7 +48,7 @@
    H4sIAAAAAAAAA+3S0YrtIAwF0OL/f/R9GijSaGe4JoGuwKJHW46bxHFd1wAAAAAAAAAAAAAAAAAAAChyNchAzmzn9c/eXCfzzGdE52bkeZOz4nxq5nyv+X1FrmivItOqb9Vz5Oyco72oTudZZYj2KvpWdT65c472ojqdZ5Uh2qvoW6dMnJ/zvVbfZOX5zV5l3zpk4vyc71U986fzrsW7yr5V94qcme/uQ0aGXT19V9Grbpk4N+cxPef9eS8r25wzqqq+zedXZCFvzm8rM8+bnF/qEXn+WifzPK0zM3TvEd+d/fzf1xXn/GqP+O7so7MyM3TvET10m3G3PF0zAQAAAAAAAAAAAAAAAAAAAAAAdPZUT++e1hm53uau6lv1/Mif+fVy/3SG+5nR7w69iqp6npyb8+4OnMzztN7l6tK3ykzkzXl3B07mWeWLcnXpW2Um8ma/uwMnz346a1fV/eqQg7x535/ZZ881pt9dMj29r+obOXdgBM+5MvJE+ap689uqninnZz9uzxGss/N061GnrOTOftyeI1hn5lnl/FImcvy1vpKnayZy7Cr6pirPKueXMpFjV9E3VXlWOb+UiVod5ysTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/LP1pyHOmAtQEA
   </data>
  </layer>
- <objectgroup name="warps" width="0" height="0" visible="0">
+ <objectgroup name="warps" width="0" height="0">
   <object name="paraCasa5(001)" type="warp" x="864" y="1024">
    <properties>
     <property name="dest_map" value="001"/>
@@ -66,8 +66,8 @@
   <object name="paraCasa6(001-1)" type="warp" x="832" y="2176">
    <properties>
     <property name="map" value="001"/>
-    <property name="x" value="107"/>
-    <property name="y" value="49"/>
+    <property name="x" value="48"/>
+    <property name="y" value="37"/>
    </properties>
   </object>
   <object name="paraCasa3(001)" type="warp" x="3200" y="2176">
@@ -108,10 +108,9 @@
   <object name="VendedorDeRoupas" type="NPC" x="3008" y="1856" width="32" height="32"/>
  </objectgroup>
  <objectgroup color="#ff55ff" name="scripts" width="129" height="89">
-  <object name="Mestre dos Magos" type="script" x="3232" y="1856" width="32" height="32">
-   <properties>
-    <property name="file1" value="MestreDosMagos.conf"/>
-   </properties>
-  </object>
+  <properties>
+   <property name="fil--carol" value="carolina.conf"/>
+   <property name="file-mestre" value="MestreDosMagos.conf"/>
+  </properties>
  </objectgroup>
 </map>
