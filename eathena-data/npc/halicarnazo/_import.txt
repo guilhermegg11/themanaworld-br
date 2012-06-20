@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de halicarnazo.tmx
-//  MODIFICADO: 19/06/2012 6:13 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de halicarnazo.tmx
 ///////////////////////////////////////////////////////////////////
 
 map: halicarnazo.gat
@@ -16,4 +16,3 @@ npc: npc/halicarnazo/guardas.conf
 npc: npc/halicarnazo/marshall.conf
 npc: npc/halicarnazo/MestreDosCavaleiros.conf
 npc: npc/halicarnazo/pedro.conf
-npc: npc/halicarnazo/malet.conf
