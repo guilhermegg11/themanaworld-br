@@ -110,6 +110,7 @@
  <objectgroup color="#ff55ff" name="scripts" width="129" height="89">
   <properties>
    <property name="file-carol" value="carolina.conf"/>
+   <property name="file-dubri" value="dubri.conf"/>
    <property name="file-mestre" value="MestreDosMagos.conf"/>
   </properties>
  </objectgroup>
