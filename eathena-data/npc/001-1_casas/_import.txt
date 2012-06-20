@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
 //  IDE: TMW-Maker 2 → Arquivo compilado apartir de 001-1.tmx
-//  MODIFICADO: 19/06/2012 5:08 PM
+//  MODIFICADO: 20/06/2012 1:55 PM
 ///////////////////////////////////////////////////////////////////
 
 map: 001-1.gat
@@ -10,5 +10,5 @@ npc: npc/001-1_casas/_scripts.txt
 npc: npc/001-1_casas/_warps.txt
 
 npc: npc/001-1_casas/carolina.conf
-npc: npc/001-1_casas/MestreDosMagos.conf
 npc: npc/001-1_casas/dubri.conf
+npc: npc/001-1_casas/MestreDosMagos.conf
