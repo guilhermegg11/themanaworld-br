@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de halicarnazo.tmx
-//  MODIFICADO: 19/06/2012 6:13 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de halicarnazo.tmx
 ///////////////////////////////////////////////////////////////////
 
 halicarnazo.gat,53,192	warp	paraCapitao	0,1,navio016.gat,20,24

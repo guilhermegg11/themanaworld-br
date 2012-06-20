@@ -86,9 +86,9 @@
    H4sIAAAAAAAAA+3SsQ0AIAwEsZeyFSX7D8UMVCjBnuCKSwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGC+Xa8L6GTFM9zzDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPzm1UfBGYBwBAA==
   </data>
  </layer>
- <layer name="collision" width="140" height="130" visible="0" opacity="0.45">
+ <layer name="collision" width="140" height="130" opacity="0.45">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0" visible="0">
@@ -166,7 +166,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" name="spawns" width="140" height="130">
+ <objectgroup color="#ffff00" name="spawns" width="140" height="130" visible="0">
   <object name="vermeGigante(5)" type="spawn" x="1219" y="850" width="1836" height="720">
    <properties>
     <property name="amount" value="5"/>
@@ -215,27 +215,12 @@
     <property name="id" value="1011"/>
    </properties>
   </object>
-  <object name="morcego(3)" type="spawn" x="383" y="3002" width="3193" height="702">
+  <object name="morcego(7)" type="spawn" x="672" y="2944" width="2272" height="480">
    <properties>
-    <property name="amount" value="3"/>
+    <property name="amount" value="7"/>
     <property name="delay1" value="60000"/>
     <property name="delay2" value="60000"/>
-    <property name="id" value="1337"/>
-   </properties>
-  </object>
-  <object name="Esquilo(10)" type="spawn" x="1607" y="2268" width="1600" height="542">
-   <properties>
-    <property name="amount" value="10"/>
-    <property name="delay1" value="0"/>
-    <property name="delay2" value="0"/>
-    <property name="id" value="1038"/>
-   </properties>
-  </object>
-  <object name="graphics/particles/beehive.particle.xml" type="PARTICLE_EFFECT" x="2304" y="2911" width="32" height="32"/>
-  <object name="colmeia" type="spawn" x="2272" y="2880" width="32" height="32">
-   <properties>
-    <property name="grupo" value="1"/>
-    <property name="id" value="335"/>
+    <property name="id" value="1017"/>
    </properties>
   </object>
   <object name="verme(30)" type="spawn" x="635" y="210" width="3208" height="1412">
@@ -247,11 +232,12 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Scripts" width="140" height="130" visible="0">
+ <objectgroup name="scripts" width="140" height="130" visible="0">
   <properties>
    <property name="file-Evil" value="EvilAdventury.conf"/>
    <property name="file-Mackey" value="Mackey.conf"/>
    <property name="file-guarda" value="guardas.conf"/>
+   <property name="file-malet" value="malet.conf"/>
    <property name="file-mars" value="marshall.conf"/>
    <property name="file-mest" value="MestreDosCavaleiros.conf"/>
    <property name="file-pedro" value="pedro.conf"/>

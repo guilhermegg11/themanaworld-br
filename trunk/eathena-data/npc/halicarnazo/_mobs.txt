@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de halicarnazo.tmx
-//  MODIFICADO: 19/06/2012 6:13 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de halicarnazo.tmx
 ///////////////////////////////////////////////////////////////////
 
 halicarnazo.gat,66,37,57,22	monster	vermeGigante(5)	1006,5,0,0,Mobhalicarnazo::On1006
@@ -9,8 +9,7 @@ halicarnazo.gat,56,60,15,13	monster	Limodeareia(5)	1352,5,0,0,Mobhalicarnazo::On
 halicarnazo.gat,76,46,42,18	monster	escorpiao(10)	1003,10,0,0,Mobhalicarnazo::On1003
 halicarnazo.gat,28,29,16,17	monster	morcego(3)	1017,3,60000,60000,Mobhalicarnazo::On1017
 halicarnazo.gat,65,51,47,28	monster	trasgodefogo(9)	1011,9,0,0,Mobhalicarnazo::On1011
-halicarnazo.gat,60,103,99,21	monster	morcego(3)	1337,3,60000,60000,Mobhalicarnazo::On1337
-halicarnazo.gat,75,78,50,16	monster	Esquilo(10)	1038,10,0,0,Mobhalicarnazo::On1038
+halicarnazo.gat,56,99,71,15	monster	morcego(7)	1017,7,60000,60000,Mobhalicarnazo::On1017
 halicarnazo.gat,69,28,100,44	monster	verme(30)	1002,30,0,0,Mobhalicarnazo::On1002
 
 halicarnazo.gat,0,0,0	script	Mobhalicarnazo	-1,{
@@ -42,16 +41,6 @@ break;
 
 On1011:
 	set @mobID, 1011;
-	callfunc "MobPoints";
-break;
-
-On1337:
-	set @mobID, 1337;
-	callfunc "MobPoints";
-break;
-
-On1038:
-	set @mobID, 1038;
 	callfunc "MobPoints";
 break;
 
