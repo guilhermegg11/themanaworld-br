@@ -120,7 +120,7 @@
    <property name="file-oshiro" value="oshiro.conf"/>
   </properties>
  </objectgroup>
- <objectgroup name="spawns" width="200" height="140">
+ <objectgroup name="spawns" width="200" height="140" visible="0">
   <object name="Trasgo de Gelo(10)" type="spawn" x="800" y="2336" width="2144" height="736">
    <properties>
     <property name="amount" value="10"/>
@@ -168,7 +168,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="warps" width="200" height="140" visible="0">
+ <objectgroup name="warps" width="200" height="140">
   <object name="ParaFora" type="warp" x="2976" y="2240" width="64" height="32">
    <properties>
     <property name="map" value="froz"/>
@@ -181,6 +181,13 @@
     <property name="map" value="010"/>
     <property name="x" value="93"/>
     <property name="y" value="21"/>
+   </properties>
+  </object>
+  <object name="toCavernaOeste" type="warp" x="768" y="1472">
+   <properties>
+    <property name="map" value="froz002"/>
+    <property name="x" value="121"/>
+    <property name="y" value="79"/>
    </properties>
   </object>
  </objectgroup>

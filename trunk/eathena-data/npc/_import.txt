@@ -72,6 +72,7 @@ import: npc/org027-1_casaZelador/_import.txt
 //######## Reinos em guerra ########################
 import: npc/halicarnazo/_import.txt
 import: npc/froz/_import.txt
+import: npc/froz002/_import.txt
 //##################################################
 
 import: npc/evento/2010-12/_import.txt

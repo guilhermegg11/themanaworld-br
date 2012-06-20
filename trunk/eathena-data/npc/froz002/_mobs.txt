@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de froz002.tmx
+///////////////////////////////////////////////////////////////////
+
+froz002.gat,96,93,35,55	monster	Moggun (15)	1061,15,0,0,Mobfroz002::On1061
+froz002.gat,38,118,23,55	monster	caveira de Gelo (4)	1085,4,0,0,Mobfroz002::On1085
+froz002.gat,55,86,44,14	monster	Elemento Gelo (5)	1071,5,0,0,Mobfroz002::On1071
+
+froz002.gat,0,0,0	script	Mobfroz002	-1,{
+
+On1061:
+	set @mobID, 1061;
+	callfunc "MobPoints";
+break;
+
+On1085:
+	set @mobID, 1085;
+	callfunc "MobPoints";
+break;
+
+On1071:
+	set @mobID, 1071;
+	callfunc "MobPoints";
+break;
+
+end;
+}

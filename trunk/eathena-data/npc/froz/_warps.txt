@@ -1,7 +1,8 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz.tmx
-//  MODIFICADO: 20/06/2012 1:25 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de froz.tmx
 ///////////////////////////////////////////////////////////////////
 
 froz.gat,94,70	warp	ParaFora	1,0,froz.gat,93,73
 froz.gat,93,119	warp	to010	2,0,010.gat,93,21
+froz.gat,24,46	warp	toCavernaOeste	-1,-1,froz002.gat,121,79
