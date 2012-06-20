@@ -1554,7 +1554,7 @@
 	<item id="666"
 		image="generic-rose.png|W:#111111,444444,555555,ffffff"
 		name="Rosa Preta"
-		description="Uma rosa de cor preta. Um símbolo do amor que se transformou em ódio."
+		description="Uma rosa de cor preta. Um símbolo do amor que se transformou em ódio. É um espécime extremamente raro."
 		type="generic"
 		weight="1"/>
 	<item id="667"
@@ -8127,8 +8127,29 @@
 	<item id="3414"
 		image="generic-turmalina-ativada.png"
 		name="Turmalina Rosa Ativada"
-		description="Uma Turmalina rosa ativada. É uma pedra extremamente rara, com propriedades especiais."
+		description="Uma Turmalina rosa ativada. É uma pedra extremamente rara, com propriedades mágicas especiais."
 		type="generic"
 		weight="3"
+	/>
+	<item id="3415"
+		image="generic-topazio.png"
+		name="Topázio"
+		description="Um Topázio amarelo. É uma pedra extremamente rara."
+		type="generic"
+		weight="3"
+	/>
+	<item id="3416"
+		image="generic-topazio-ativado.png"
+		name="Topázio Ativado"
+		description="Um Topázio amarelo. É uma pedra extremamente rara, com propriedades mágicas especiais."
+		type="generic"
+		weight="3"
+	/>
+	<item id="3417"
+		image="generic-strangecoin.png"
+		name="Moeda do Rei"
+		description="Uma Moeda do Rei. É uma moeda extremamente rara."
+		type="generic"
+		weight="10"
 	/>
 	</items>
