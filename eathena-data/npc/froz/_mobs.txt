@@ -1,13 +1,14 @@
 ///////////////////////////////////////////////////////////////////
 //  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz.tmx
-//  MODIFICADO: 20/06/2012 12:08 AM
+//  MODIFICADO: 20/06/2012 1:25 PM
 ///////////////////////////////////////////////////////////////////
 
 froz.gat,58,84,67,23	monster	Trasgo de Gelo(10)	1058,10,0,0,Mobfroz::On1058
 froz.gat,95,29,148,16	monster	Lobo Branco(15)	1365,15,0,0,Mobfroz::On1365
 froz.gat,129,85,67,24	monster	Limo de Gelo(10)	1318,10,0,0,Mobfroz::On1318
-froz.gat,136,41,65,24	monster	Morcego(30)	1017,30,0,0,Mobfroz::On1017
+froz.gat,31,28,21,16	monster	Morcego(30)	1017,30,0,0,Mobfroz::On1017
 froz.gat,96,55,151,21	monster	Escorpião de Gelo(30)	1368,30,0,0,Mobfroz::On1368
+froz.gat,108,41,130,40	monster	Rato do Gelo(60)	1369,60,0,0,Mobfroz::On1369
 
 froz.gat,0,0,0	script	Mobfroz	-1,{
 
@@ -33,6 +34,11 @@ break;
 
 On1368:
 	set @mobID, 1368;
+	callfunc "MobPoints";
+break;
+
+On1369:
+	set @mobID, 1369;
 	callfunc "MobPoints";
 break;
 

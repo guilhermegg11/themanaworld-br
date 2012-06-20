@@ -120,7 +120,7 @@
    <property name="file-oshiro" value="oshiro.conf"/>
   </properties>
  </objectgroup>
- <objectgroup name="spawns" width="200" height="140" visible="0">
+ <objectgroup name="spawns" width="200" height="140">
   <object name="Trasgo de Gelo(10)" type="spawn" x="800" y="2336" width="2144" height="736">
    <properties>
     <property name="amount" value="10"/>
@@ -145,7 +145,7 @@
     <property name="id" value="1318"/>
    </properties>
   </object>
-  <object name="Morcego(30)" type="spawn" x="3328" y="928" width="2080" height="768">
+  <object name="Morcego(30)" type="spawn" x="672" y="640" width="672" height="512">
    <properties>
     <property name="amount" value="30"/>
     <property name="delay1" value="0"/>
@@ -159,6 +159,12 @@
     <property name="delay1" value="0"/>
     <property name="delay2" value="0"/>
     <property name="id" value="1368"/>
+   </properties>
+  </object>
+  <object name="Rato do Gelo(60)" type="spawn" x="1376" y="672" width="4160" height="1280">
+   <properties>
+    <property name="amount" value="60"/>
+    <property name="id" value="1369"/>
    </properties>
   </object>
  </objectgroup>
