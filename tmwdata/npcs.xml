@@ -333,8 +333,8 @@
 	<!-- NPCs Trabalhadores -->
 	<npc id="520"><sprite variant="20">npcs-br2.xml</sprite></npc> <!-- Mineiro c/ picareta tipo 1 -->
 	<npc id="521"><sprite variant="21">npcs-br2.xml</sprite></npc> <!-- Mineiro c/ picareta tipo 2 -->
-	<npc id="522"><sprite variant="22">npcs-br2.xml</sprite></npc> <!-- Aventureiro Demoníaco -->
-	<npc id="523"><sprite variant="23">npcs-br2.xml</sprite></npc>
+	<npc id="522"><sprite variant="22">npcs-br2.xml</sprite></npc> <!-- Aventureiro Demoníaco (Por Luke)-->
+	<npc id="523"><sprite variant="23">npcs-br2.xml</sprite></npc> <!-- Homem com Boné AFK (Por Sky) -->
 	<npc id="524"><sprite variant="24">npcs-br2.xml</sprite></npc>
 	<npc id="525"><sprite variant="25">npcs-br2.xml</sprite></npc>
 	<npc id="526"><sprite variant="26">npcs-br2.xml</sprite></npc>
