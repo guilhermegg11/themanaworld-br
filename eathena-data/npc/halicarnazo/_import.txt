@@ -16,3 +16,4 @@ npc: npc/halicarnazo/guardas.conf
 npc: npc/halicarnazo/marshall.conf
 npc: npc/halicarnazo/MestreDosCavaleiros.conf
 npc: npc/halicarnazo/pedro.conf
+npc: npc/halicarnazo/malet.conf

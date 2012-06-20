@@ -15,3 +15,4 @@ npc: npc/froz/jeremias.conf
 npc: npc/froz/joseph.conf
 npc: npc/froz/MestreDosNinjas.conf
 npc: npc/froz/oshiro.conf
+npc: npc/froz/okuro.conf
