@@ -4920,7 +4920,7 @@
 	<item id="3007"
 		image="armor-head-capacete-lord.png"
 		name="Capacete de Lord"
-		description="Um capacete de Lord."
+		description="Um capacete de aço com uma turmalina ativada acoplada."
 		effect="lvl 70"
 		type="equip-head"
 		weight="1500"
@@ -8113,7 +8113,7 @@
 	<item id="3412"
 		image="generic-turmalina.png"
 		name="Turmalina Rosa"
-		description="Uma Turmalina Rosa. é uma pedra extremamente rara."
+		description="Uma Turmalina Rosa. É uma pedra extremamente rara."
 		type="generic"
 		weight="3"
 	/>
@@ -8122,5 +8122,13 @@
 		name="Ferrão de Escorpião de Gelo"
 		description="Um ferrão de Escorpião de Gelo envenenado."
 		type="generic"
-		weight="1"/>
-</items>
+		weight="1"
+	/>
+	<item id="3414"
+		image="generic-turmalina-ativada.png"
+		name="Turmalina Rosa Ativada"
+		description="Uma Turmalina rosa ativada. É uma pedra extremamente rara, com propriedades especiais."
+		type="generic"
+		weight="3"
+	/>
+	</items>
