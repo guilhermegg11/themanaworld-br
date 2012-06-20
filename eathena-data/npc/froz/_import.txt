@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz.tmx
-//  MODIFICADO: 20/06/2012 1:25 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de froz.tmx
 ///////////////////////////////////////////////////////////////////
 
 map: froz.gat
@@ -15,4 +15,3 @@ npc: npc/froz/jeremias.conf
 npc: npc/froz/joseph.conf
 npc: npc/froz/MestreDosNinjas.conf
 npc: npc/froz/oshiro.conf
-npc: npc/froz/okuro.conf

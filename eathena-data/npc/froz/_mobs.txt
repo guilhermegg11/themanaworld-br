@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz.tmx
-//  MODIFICADO: 20/06/2012 1:25 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de froz.tmx
 ///////////////////////////////////////////////////////////////////
 
 froz.gat,58,84,67,23	monster	Trasgo de Gelo(10)	1058,10,0,0,Mobfroz::On1058
