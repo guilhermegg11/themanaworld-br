@@ -7,20 +7,20 @@
 //       8: petequip, 10: arrow, 11: Usable with delayed consumption (all items with
 //       script "pet" or "itemskill": Lures, Scrolls, Magnifier, Yggdrasil Leaf)
 //
-// Gender(Generos Sexual): 0: Feminino, 1: Masculino, 2: Comum p/ 2 GÍneros (No TMW sÛ  usado o padr„o 2)
+// Gender(Generos Sexual): 0: Feminino, 1: Masculino, 2: Comum p/ 2 G√™neros (No TMW s√≥  usado o padr√£o 2)
 //
-// Location(Loc): 1: Pernas(CalÁas), 2: M„oDireita(Arma), 4: M„os(Luvas), 16: Torso1(Limalhas),
-//                32: M„oEsqueda(Escudo), 64: PÈs(Sapatos), 128: AcessÛrios, 256: CabeÁa(ChapÈus),
-//                512: Torso2(Armaduras), 32768: MuniÁ„o(Arrows)
-//        OBS:  Se quise ocupar as 2 m„os(M„oDireita[2] + M„oEsqueda[32] ponha 2+32="34")
-//        D⁄VIDA: Pq o n∫8 e o n∫16 n„o est„o sendo usados em nada?
+// Location(Loc): 1: Pernas(Cal√ßas), 2: M√£oDireita(Arma), 4: M√£os(Luvas), 16: Torso1(Limalhas),
+//                32: M√£oEsqueda(Escudo), 64: P√©s(Sapatos), 128: Acess√≥rios, 256: Cabe√ßa(Chap√©us),
+//                512: Torso2(Armaduras), 32768: Muni√ß√£o(Arrows)
+//        OBS:  Se quise ocupar as 2 m√£os(M√£oDireita[2] + M√£oEsqueda[32] ponha 2+32="34")
+//        D√öVIDA: Pq o n¬∫8 e o n¬∫16 n√£o est√£o sendo usados em nada?
 //
-// Refinamento(wLV): O nÌvel de refinamento da arma. Pode ser 1, 2, 3 ou 4 por padr„o.
-//                   Pode ir alÈm dependendo do seu arquivo "refine_db.txt" (N„o È usado no TMW. Padr„o È "")
+// Refinamento(wLV): O n√≠vel de refinamento da arma. Pode ser 1, 2, 3 ou 4 por padr√£o.
+//                   Pode ir al√©m dependendo do seu arquivo "refine_db.txt" (N√£o √© usado no TMW. Padr√£o √© "")
 //
-// Level MÌnimo(Lvl): Restringe o level para uso do item/equipamento.
+// Level M√≠nimo(Lvl): Restringe o level para uso do item/equipamento.
 //
-// Aparencia(View): N˙mero da imagem que ir· aparecer no invent·rio. (N„o È usado no TMW. Padr„o È "")
+// Aparencia(View): N√∫mero da imagem que ir√° aparecer no invent√°rio. (N√£o √© usado no TMW. Padr√£o √© "")
 //
 // 0,DEFAULT,Default,0,20,,10,,,,,0,2,0,0,,,{},{}
 //
@@ -31,12 +31,12 @@
 #ID,Name,Label,Type,Price,Sell,Weight,ATK,DEF,Range,Mbonus,Slot,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 0,DEFAULT,Default,0,20,10,10,,,,,,2,,,,,{},{}
 501,bebidadecactus,Bebida de Cactus,0,50,25,4,,,,,,2,,,0,,{ itemheal 15,0; },{}
-502,pocaodecactus,PoÁ„o de Cactus,0,70,35,7,,,,,,2,,,0,,{ itemheal 25,0; },{}
+502,pocaodecactus,Po√ß√£o de Cactus,0,70,35,7,,,,,,2,,,0,,{ itemheal 25,0; },{}
 503,moedasdecassino,Moedas de Cassino,3,150,75,1,,,,,,,,,,,{},{}
 504,baladecorativa,Bala Decorativa,3,25,10,1,,,,,,,,,,,{},{}
 505,gosmadeverme,Gosma de Verme,3,8,4,1,,,,,,,,,,,{},{}
 506,docebengala,Doce Bengala,0,20,10,1,,,,,,2,,,0,,{ itemheal 5,0; },{}
-507,ferraodeescorpiao,Ferr„o de Escorpi„o,3,50,25,1,,,,,,,,,,,{},{}
+507,ferraodeescorpiao,Ferr√£o de Escorpi√£o,3,50,25,1,,,,,,,,,,,{},{}
 508,bolodenatal,Bolo de Natal,0,110,10,1,,,,,,2,,,0,,{ itemheal 10,0; },{}
 509,barradechocolate,Barra de Chocolate,0,60,20,1,,,,,,2,,,0,,{ itemheal 20,0; },{}
 510,balinha,Balinha,0,20,10,1,,,,,,2,,,0,,{ itemheal 5,0; },{}
@@ -46,7 +46,7 @@
 514,docebengalanatalino,Doce Bengala Natalino,0,30,15,1,,,,,,2,,,0,,{ itemheal 10,0; },{}
 515,presenterosa,Presente Rosa,3,50,25,10,,,,,,,,,,,{},{}
 516,presenteazul,Presente Azul,3,60,30,10,,,,,,,,,,,{},{}
-517,ferraodeescorpiaovermelho,Ferr„o de Escorpi„o Vermelho,3,170,85,1,,,,,,,,,,,{},{}
+517,ferraodeescorpiaovermelho,Ferr√£o de Escorpi√£o Vermelho,3,170,85,1,,,,,,,,,,,{},{}
 518,patadeinseto,Pata de Inseto,3,60,20,1,,,,,,,,,,,{},{}
 519,bolodecereja,Bolo de Cereja,0,100,50,1,,,,,,2,,,0,,{ itemheal 35,0; },{}
 520,ovodepascoa,Ovo de Pascoa,0,200,100,1,,,,,,2,,,0,,{ itemheal 100,0; },{}
@@ -59,18 +59,18 @@
 527,leite,Leite,0,300,150,5,,,,,,2,,,0,,{ itemheal 150,0; },{}
 528,botas,Botas,5,8000,500,80,,2,,-2,0,2,64,,0,0,{},{}
 529,flechadeferro,Flecha de Ferro,10,5,2,1,50,,,,,2,32768,,,,{},{}
-530,arcodecurtoalcance,Arco de Curto AlcanÁe,4,3000,1500,600,50,,4,,0,2,34,1,20,11,{},{}
+530,arcodecurtoalcance,Arco de Curto Alcan√ße,4,3000,1500,600,50,,4,,0,2,34,1,20,11,{},{}
 531,luvasdemineiro,Luvas de Mineiro,5,3000,1000,30,,2,,-10,0,2,4,,0,0,{},{}
 532,luvasdecouro,Luvas de Couro,5,6000,2000,20,,4,,-20,0,2,4,,0,0,{},{}
 533,vermetorrado,Verme Torrado,0,110,55,5,,,,,,2,,,0,,{ itemheal 150,0; },{}
 534,bolodelaranja,Bolo de Laranja,0,90,45,5,,,,,,2,,,0,,{ itemheal 100,10; },{}
-535,maca,MaÁ„,0,10,5,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
+535,maca,Ma√ß√£,0,10,5,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
 536,espadacurta,Espada Curta,4,8000,4000,2000,100,,1,,0,2,2,1,45,1,{},{}
 537,chavedotesouro,Chave do Tesouro,3,100,50,2,,,,,,,,,,,{},{}
 538,presenteverde,Presente Verde,3,20,10,10,,,,,,2,,,0,,{},{}
 539,cerveja,Cerveja,0,175,87,10,,,,,,2,,,0,,{ itemheal 200,5; },{}
 540,garrafavazia,Garrafa Vazia,3,20,10,1,,,,,,,,,,,{},{}
-541,garrafadagua,Garrafa d'·gua,0,200,100,10,,,,,,2,,,0,,{ itemheal 250,0; getitem 540,1; },{}
+541,garrafadagua,Garrafa d'√°gua,0,200,100,10,,,,,,2,,,0,,{ itemheal 250,0; getitem 540,1; },{}
 542,garrafacomareia,Garrafa com Areia,3,70,35,10,,,,,,,,,,,{},{}
 543,faixatradicional,Faixa Tradicional,5,800,400,10,,3,,-3,0,2,256,,0,0,{},{}
 544,faixadeseda,Faixa de Seda,5,5000,2000,10,,3,,-10,0,2,256,,0,0,{},{}
@@ -93,11 +93,11 @@
 561,Sabre,Sabre,4,10000,5000,1,100,,1,,0,2,2,1,50,1,{},{}
 562,coxadefrango,Coxa de Frango,0,250,125,10,,,,,,2,,,0,,{ itemheal 500,0; },{}
 563,luvasdeinverno,Luvas de Inverno,5,6000,3000,20,,3,,-15,0,2,4,,0,0,{},{}
-564,SueterGolaAlta,SuÈter de Gola Alta,5,2000,1000,30,,2,,-12,0,2,512,,1,0,{},{}
-565,petala,PÈtala,0,50,25,10,,,,,,2,,,0,,{},{}
+564,SueterGolaAlta,Su√©ter de Gola Alta,5,2000,1000,30,,2,,-12,0,2,512,,1,0,{},{}
+565,petala,P√©tala,0,50,25,10,,,,,,2,,,0,,{},{}
 566,cogumelopequeno,Cogumelo Pequeno,0,50,25,10,,,,,,2,,,0,,{},{}
-567,pocaoenergetica,PoÁ„o EnergÈtica,0,500,250,10,,,,,,2,,,0,,{ sc_start 185,90, 60; },{}
-568,pocaodeconcentracao,PoÁ„o de ConcentraÁ„o,0,500,250,10,,,,,,2,,,0,,{ sc_start 37,90, 30; },{}
+567,pocaoenergetica,Po√ß√£o Energ√©tica,0,500,250,10,,,,,,2,,,0,,{ sc_start 185,90, 60; },{}
+568,pocaodeconcentracao,Po√ß√£o de Concentra√ß√£o,0,500,250,10,,,,,,2,,,0,,{ sc_start 37,90, 30; },{}
 569,tocodemadeira,Toco de Madeira,3,20,10,10,,,,,,,,,,,{},{}
 570,AdagaBoniClaide,Adaga de Boni e Claide,4,10000,6000,800,90,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
 571,Setzer,Setzer,4,20000,8000,900,110,,1,,0,2,2,1,50,3,{},{}
@@ -115,7 +115,7 @@
 583,cajadodegelo,Cajado de Gelo,4,8000,4000,700,110,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
 584,Jackal,Jackal,4,8000,4000,2000,140,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
 585,pulseiraescaravelho,Pulseira Escaravelho,5,8000,4000,200,,0,,5,0,2,32,,1,1,{},{}
-586,shortdealgodao,Short de Algod„o,5,1000,500,15,,2,,-4,0,2,1,,1,0,{},{}
+586,shortdealgodao,Short de Algod√£o,5,1000,500,15,,2,,-4,0,2,1,,1,0,{},{}
 //587,RESERVED,Espada,,,,,,,,,,,,,,,{},{}
 //588,RESERVED,Espada Bastarda,,,,,,,,,,,,,,,{},{}
 //589,RESERVED,Espada Ampla,,,,,,,,,,,,,,,{},{}
@@ -123,45 +123,45 @@
 //591,RESERVED,Espada Longa,,,,,,,,,,,,,,,{},{}
 //592,RESERVED,Stiletto,,,,,,,,,,,,,,,{},{}
 //593,RESERVED,Rapier,,,,,,,,,,,,,,,{},{}
-//594,RESERVED,LanÁa,,,,,,,,,,,,,,,{},{}
-//595,RESERVED,LanÁa Pesada,,,,,,,,,,,,,,,{},{}
-//596,RESERVED,LanÁa de Ferro,,,,,,,,,,,,,,,{},{}
-//597,RESERVED,LanÁa Pesada de Ferro,,,,,,,,,,,,,,,{},{}
-//598,RESERVED,LanÁa Dupla,,,,,,,,,,,,,,,{},{}
+//594,RESERVED,Lan√ßa,,,,,,,,,,,,,,,{},{}
+//595,RESERVED,Lan√ßa Pesada,,,,,,,,,,,,,,,{},{}
+//596,RESERVED,Lan√ßa de Ferro,,,,,,,,,,,,,,,{},{}
+//597,RESERVED,Lan√ßa Pesada de Ferro,,,,,,,,,,,,,,,{},{}
+//598,RESERVED,Lan√ßa Dupla,,,,,,,,,,,,,,,{},{}
 //599,RESERVED,Espada Incandescente,,,,,,,,,,,,,,,{},{}
-//600,RESERVED,Escudo Bret„o,,,,,,,,,,,,,,,{},{}
-601,escudodeaco,Escudo de AÁo,5,40000,3000,2500,,20,,-200,0,2,32,,50,0,{},{}
+//600,RESERVED,Escudo Bret√£o,,,,,,,,,,,,,,,{},{}
+601,escudodeaco,Escudo de A√ßo,5,40000,3000,2500,,20,,-200,0,2,32,,50,0,{},{}
 602,escudodemadeira,Escudo de Madeira,5,10000,2000,1500,,14,,-70,0,2,32,,40,0,{},{}
 603,escudodecouro,Escudo de Couro,5,2000,1000,1300,,7,,-35,0,2,32,,30,0,{},{}
 //604,RESERVED,Escudo dos Cavaleiros,,,,,,,,,,,,,,,{},{}
-//605,RESERVED,Cutelo de AÁougueiro,,,,,,,,,,,,,,,{},{}
+//605,RESERVED,Cutelo de A√ßougueiro,,,,,,,,,,,,,,,{},{}
 //606,RESERVED,Machadinha,,,,,,,,,,,,,,,{},{}
 //607,RESERVED,Tridente,,,,,,,,,,,,,,,{},{}
-//608,RESERVED,Escudo de L‚minas,,,,,,,,,,,,,,,{},{}
+//608,RESERVED,Escudo de L√¢minas,,,,,,,,,,,,,,,{},{}
 //609,RESERVED,Porrete,,,,,,,,,,,,,,,{},{}
 610,shortjeans,Short Jeans,5,2000,1000,25,,4,,-8,0,2,1,,30,0,{},{}
 611,pelobranco,Pelo Branco,3,8,4,8,,,,,,,,,,,{},{}
 612,antenaluminosa,Antena Luminosa,3,80,40,10,,,,,,,,,,,{},{}
 613,espinho,Espinho,3,8,4,10,,,,,,,,,,,{},{}
 614,antenaRosa,Antena Rosa,3,10,5,10,,,,,,,,,,,{},{}
-615,capacetedeabobora,Capacete de AbÛbora,5,2000,1000,60,,4,,-4,0,2,256,,0,0,{},{}
-616,chapeudemachado,ChapÈu de Machado,5,2000,1000,50,,4,,-4,0,2,256,,0,0,{},{}
-617,chapeudepirata,ChapÈu de Pirata,5,2000,1000,40,,4,,-8,0,2,256,,0,0,{},{}
-618,oculos,”culos,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
-619,oculosdecouro,”culos de Couro,5,1000,500,20,,3,,0,0,2,256,,0,0,{},{}
+615,capacetedeabobora,Capacete de Ab√≥bora,5,2000,1000,60,,4,,-4,0,2,256,,0,0,{},{}
+616,chapeudemachado,Chap√©u de Machado,5,2000,1000,50,,4,,-4,0,2,256,,0,0,{},{}
+617,chapeudepirata,Chap√©u de Pirata,5,2000,1000,40,,4,,-8,0,2,256,,0,0,{},{}
+618,oculos,√ìculos,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
+619,oculosdecouro,√ìculos de Couro,5,1000,500,20,,3,,0,0,2,256,,0,0,{},{}
 620,coroa,Coroa,5,2000,1000,25,,4,,5,0,2,256,,0,0,{},{}
 621,tapaolho,Tapa Olho,5,1000,500,5,,2,,0,0,2,256,,0,0,{},{ bonus bDex, -1; }
 622,bandana,Bandana,5,1000,500,20,,3,,0,0,2,256,,0,0,{},{}
 623,foice,Foice,4,100,50,1200,75,,1,,0,2,2,1,35,3,{},{}
-624,sueterDecoteV,SuÈter com Decote em V,5,6000,3000,35,,2,,-24,0,2,512,,1,0,{},{}
+624,sueterDecoteV,Su√©ter com Decote em V,5,6000,3000,35,,2,,-24,0,2,512,,1,0,{},{}
 625,camisadecorrentes,Camisa de Correntes,5,15000,1500,800,,20,,-120,0,2,512,,30,0,{},{}
 626,armaduraleve,Armadura Leve,5,50000,2500,1200,,24,,-150,0,2,512,,40,0,{},{}
 627,cartola,Cartola,5,2500,1250,30,,4,,2,0,2,256,,0,0,{},{}
 628,gorrodedormir,Gorro de Dormir,5,3000,1500,20,,3,,2,0,2,256,,0,0,{},{}
-629,chapeudecogumelomaligno,ChapÈu de Cogumelo Maligno,5,2500,1250,30,,5,,0,0,2,256,,0,0,{},{}
-630,chapeucogumelo,ChapÈu Cogumelo,5,3000,1500,30,,4,,0,0,2,256,,0,0,{},{}
+629,chapeudecogumelomaligno,Chap√©u de Cogumelo Maligno,5,2500,1250,30,,5,,0,0,2,256,,0,0,{},{}
+630,chapeucogumelo,Chap√©u Cogumelo,5,3000,1500,30,,4,,0,0,2,256,,0,0,{},{}
 631,cristalescuro,Cristal Escuro,3,100,50,10,,,,,,,,,,,{},{}
-632,saiadealgodao,Saia de Algod„o,5,1000,500,10,,2,,-8,0,0,1,,1,0,{},{}
+632,saiadealgodao,Saia de Algod√£o,5,1000,500,10,,2,,-8,0,0,1,,1,0,{},{}
 633,gorrodoselfosdonatal,Gorro dos Elfos do Natal,5,3000,1500,30,,3,,2,0,2,256,,0,0,{},{}
 634,mascarademadeira,Mascara de Madeira,5,2500,1250,50,,7,,0,0,2,256,,0,0,{},{}
 635,biscoitodenatal,Biscoito de Natal,3,1,1,1,,,,,,,,,,,{},{}
@@ -169,27 +169,27 @@
 637,elmodocavaleiroalado,Elmo do Cavaleiro Alado,5,20000,2000,600,,15,,-30,0,2,256,,40,0,{},{}
 638,capacetedainfantaria,Capacete da Infantaria,5,15000,1500,400,,15,,-30,0,2,256,,30,0,{},{}
 639,elmodascruzadas,Elmo das Cruzadas,5,25000,2500,1500,,18,,-36,0,2,256,,45,0,{},{ bonus bAgi, -1; }
-640,mineriodeferro,MinÈrio de Ferro,3,250,100,40,,,,,,,,,,,{},{}
+640,mineriodeferro,Min√©rio de Ferro,3,250,100,40,,,,,,,,,,,{},{}
 641,peledecobradamontanha,Pele de Cobra da Montanha,3,250,100,15,,,,,,,,,,,{},{}
-642,calcadecourodecobra,CalÁa de Couro de Cobra,5,2000,1000,60,,6,,-12,0,2,1,,50,0,{},{}
-643,chapeubrancodevaqueiro,ChapÈu Branco de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
-644,chapeupretodevaqueiro,ChapÈu Preto de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
+642,calcadecourodecobra,Cal√ßa de Couro de Cobra,5,2000,1000,60,,6,,-12,0,2,1,,50,0,{},{}
+643,chapeubrancodevaqueiro,Chap√©u Branco de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
+644,chapeupretodevaqueiro,Chap√©u Preto de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
 645,armaduradouradaleve,Armadura Dourada Leve,5,9999000,3000,1200,,25,,-100,0,2,512,,55,0,{},{}
 646,coroareal,Coroa Real,5,5000,1000,240,,4,,0,0,2,256,,0,0,{},{}
-647,bonededesenvolvedor,BonÈ de Desenvolvedor,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{}
-//648,RESERVED,¡spero Anel de ForÁa,,,,,,,,,,,,,,,{},{}
-//649,RESERVED,¡spero Anel de Agilidade,,,,,,,,,,,,,,,{},{}
-//650,RESERVED,¡spero Anel de Destreza,,,,,,,,,,,,,,,{},{}
-//651,RESERVED,¡spero Anel de Vitalidade,,,,,,,,,,,,,,,{},{}
-//652,RESERVED,¡spero Anel de InteligÍncia,,,,,,,,,,,,,,,{},{}
-//653,RESERVED,¡spero Anel de Sorte,,,,,,,,,,,,,,,{},{}
-654,bone,BonÈ,5,2000,500,20,,5,,0,0,2,256,,0,0,{},{}
-655,botasdepelo,Botas de PÍlo,5,5000,600,50,,3,,-3,0,2,64,,0,0,{},{}
-656,chapeuservo,ChapÈu de Servo,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
+647,bonededesenvolvedor,Bon√© de Desenvolvedor,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{}
+//648,RESERVED,√Åspero Anel de For√ßa,,,,,,,,,,,,,,,{},{}
+//649,RESERVED,√Åspero Anel de Agilidade,,,,,,,,,,,,,,,{},{}
+//650,RESERVED,√Åspero Anel de Destreza,,,,,,,,,,,,,,,{},{}
+//651,RESERVED,√Åspero Anel de Vitalidade,,,,,,,,,,,,,,,{},{}
+//652,RESERVED,√Åspero Anel de Intelig√™ncia,,,,,,,,,,,,,,,{},{}
+//653,RESERVED,√Åspero Anel de Sorte,,,,,,,,,,,,,,,{},{}
+654,bone,Bon√©,5,2000,500,20,,5,,0,0,2,256,,0,0,{},{}
+655,botasdepelo,Botas de P√™lo,5,5000,600,50,,3,,-3,0,2,64,,0,0,{},{}
+656,chapeuservo,Chap√©u de Servo,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
 657,laranja,Laranja,0,12,6,7,,,,,,2,,,0,,{ itemheal 60,0; },{}
 658,armaduradolordedaguerra,Armadura do Lorde da Guerra,5,100000,3000,2600,,26,,-170,0,2,512,,50,0,{},{}
 659,armaduradolordedaguerradourada,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,27,,-110,0,2,512,,55,0,{},{}
-660,tecidodealgodao,Tecido de Algod„o,3,1000,500,10,,,,,,,,,,,{},{}
+660,tecidodealgodao,Tecido de Algod√£o,3,1000,500,10,,,,,,,,,,,{},{}
 661,rosavermelha,Rosa Vermelha,3,40,20,1,,,,,,,,,,,{},{}
 662,rosabranca,Rosa Branca,3,40,20,1,,,,,,,,,,,{},{}
 663,rosavermelhaescura,Rosa Vermelha Escura,3,40,20,1,,,,,,,,,,,{},{}
@@ -204,19 +204,19 @@
 672,tulipabranca,Tulipa Branca,3,40,20,1,,,,,,,,,,,{},{}
 673,tuliparosa,Tulipa Rosa,3,40,20,1,,,,,,,,,,,{},{}
 674,tulipalaranja,Tulipa Laranja,3,40,20,1,,,,,,,,,,,{},{}
-675,chapeudegraduacao,ChapÈu de GraduaÁ„o,5,1000,250,20,,2,,0,0,2,256,,0,0,{},{}
-676,file,FilÈ,0,275,100,10,,,,,,2,,,0,,{ itemheal 250,0; },{}
-677,colardecoracao,Colar de CoraÁ„o,3,2500,1000,10,,,,,,,,,0,,{},{}
-678,mascaranoh,M·scara Noh,5,7000,1000,18,,3,,1,0,2,256,,0,0,{},{}
-679,mascarademoniaca,M·scara DemonÌaca,5,10000,5000,23,,3,,5,0,2,256,,0,0,{},{}
+675,chapeudegraduacao,Chap√©u de Gradua√ß√£o,5,1000,250,20,,2,,0,0,2,256,,0,0,{},{}
+676,file,Fil√©,0,275,100,10,,,,,,2,,,0,,{ itemheal 250,0; },{}
+677,colardecoracao,Colar de Cora√ß√£o,3,2500,1000,10,,,,,,,,,0,,{},{}
+678,mascaranoh,M√°scara Noh,5,7000,1000,18,,3,,1,0,2,256,,0,0,{},{}
+679,mascarademoniaca,M√°scara Demon√≠aca,5,10000,5000,23,,3,,5,0,2,256,,0,0,{},{}
 680,ervamauva,Erva Mauva,3,2,1,1,,,,,,,,,,,{},{}
 681,ervacobalto,Erva Cobalto,3,2,1,1,,,,,,,,,,,{},{}
 682,ervagamboge,Erva Gamboge,3,2,1,1,,,,,,,,,,,{},{}
 683,ervaalizarina,Erva Alizarina,3,2,1,1,,,,,,,,,,,{},{}
-684,pocaominimadecura,PoÁ„o MÌnima de Cura,0,25,12,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
-685,pocaopequenadecura,PoÁ„o Pequena de Cura,0,50,25,10,,,,,,2,,,0,,{ itemheal 200,0; },{}
-686,pocaomediadecura,PoÁ„o MÈdia de Cura,0,100,50,15,,,,,,2,,,0,,{ itemheal 400,0; },{}
-687,pocaograndedecura,PoÁ„o Grande de Cura,0,200,100,25,,,,,,2,,,0,,{ itemheal 800,0; },{}
+684,pocaominimadecura,Po√ß√£o M√≠nima de Cura,0,25,12,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
+685,pocaopequenadecura,Po√ß√£o Pequena de Cura,0,50,25,10,,,,,,2,,,0,,{ itemheal 200,0; },{}
+686,pocaomediadecura,Po√ß√£o M√©dia de Cura,0,100,50,15,,,,,,2,,,0,,{ itemheal 400,0; },{}
+687,pocaograndedecura,Po√ß√£o Grande de Cura,0,200,100,25,,,,,,2,,,0,,{ itemheal 800,0; },{}
 688,camiseta,Camiseta,5,10,5,10,,2,,-4,0,2,512,,0,0,{},{}
 689,camisetacurta,Camiseta Curta,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
 690,tintavermelha,Tinta Vermelha,3,100,20,10,,,,,,2,,,0,,{},{}
@@ -229,54 +229,54 @@
 697,tintalaranja,Tinta Laranja,3,2500,1000,10,,,,,,2,,,0,,{},{}
 698,tintaroxa,Tinta Roxa,3,70000,50000,10,,,,,,2,,,0,,{},{}
 699,tintaverdeescura,Tinta Verde Escura,3,2000,1000,10,,,,,,2,,,0,,{},{}
-700,perola,PÈrola,3,5000,3000,5,,,,,,2,,,0,,{},{}
+700,perola,P√©rola,3,5000,3000,5,,,,,,2,,,0,,{},{}
 701,pilhadecinzas,Pilha de Cinzas,3,3000,100,5,,,,,,2,,,0,,{},{}
-702,aneldecasamento,AnÈl de Casamento,5,1000,1,1,,0,,1,0,2,128,,0,0,{},{}
-703,podeenxofre,PÛ de Enxofre,3,1000,100,2,,,,,,2,,,0,,{},{}
-704,podeferro,PÛ de Ferro,3,800,80,3,,,,,,2,,,0,,{},{}
-//705,pocaodemana,PoÁ„o de Mana,0,2000,300,50,,,,,,2,,,0,,{ itemheal 0,10; callfunc "MagicGainBasic"; },{}
-706,ferraodeescorpiaodourado,Ferr„o de Escorpi„o Dourado,3,2000,500,2,,,,,,,,,,,{},{}
-707,pocaodeoleodemonstro,PoÁ„o de ”leo de Monstro,3,10000,2000,50,,,,,,,,,,,{},{}
+702,aneldecasamento,An√©l de Casamento,5,1000,1,1,,0,,1,0,2,128,,0,0,{},{}
+703,podeenxofre,P√≥ de Enxofre,3,1000,100,2,,,,,,2,,,0,,{},{}
+704,podeferro,P√≥ de Ferro,3,800,80,3,,,,,,2,,,0,,{},{}
+//705,pocaodemana,Po√ß√£o de Mana,0,2000,300,50,,,,,,2,,,0,,{ itemheal 0,10; callfunc "MagicGainBasic"; },{}
+706,ferraodeescorpiaodourado,Ferr√£o de Escorpi√£o Dourado,3,2000,500,2,,,,,,,,,,,{},{}
+707,pocaodeoleodemonstro,Po√ß√£o de √ìleo de Monstro,3,10000,2000,50,,,,,,,,,,,{},{}
 708,retalhodecouro,Retalho de Couro,3,300,150,18,,,,,,,,,,,{},{}
-709,ferraodeescorpiaopreto,Ferr„o de Escorpi„o Preto,3,250,100,1,,,,,,,,,,,{},{}
-710,linguadecobra,LÌngua de Cobra,3,60,30,1,,,,,,,,,,,{},{}
-711,linguadecobradamontanha,LÌngua de Cobra da Montanha,3,80,40,1,,,,,,,,,,,{},{}
-712,linguadecobradagrama,LÌngua de Cobra da Grama,3,160,80,1,,,,,,,,,,,{},{}
-713,linguadecobradacaverna,LÌngua de Cobra da Caverna,3,120,60,1,,,,,,,,,,,{},{}
+709,ferraodeescorpiaopreto,Ferr√£o de Escorpi√£o Preto,3,250,100,1,,,,,,,,,,,{},{}
+710,linguadecobra,L√≠ngua de Cobra,3,60,30,1,,,,,,,,,,,{},{}
+711,linguadecobradamontanha,L√≠ngua de Cobra da Montanha,3,80,40,1,,,,,,,,,,,{},{}
+712,linguadecobradagrama,L√≠ngua de Cobra da Grama,3,160,80,1,,,,,,,,,,,{},{}
+713,linguadecobradacaverna,L√≠ngua de Cobra da Caverna,3,120,60,1,,,,,,,,,,,{},{}
 714,ovodecobra,Ovo de Cobra,0,50,25,4,,,,,,2,,,0,,{ itemheal 30,0; },{}
 715,ovodecobradamontanha,Ovo de Cobra da Montanha,0,80,40,4,,,,,,2,,,0,,{ itemheal 40,0; },{}
 716,ovodecobradagrama,Ovo de Cobra da Grama,0,100,50,4,,,,,,2,,,0,,{ itemheal 50,0; },{}
 717,ovodecobradacaverna,Ovo de Cobra da Caverna,0,60,30,4,,,,,,2,,,0,,{ itemheal 20,0; },{}
 718,casulodeseda,Casulo de Seda,3,200,3,1,,,,,,,,,,,{},{}
-719,macaverde,MaÁ„ Verde,0,10,4,5,,,,,,2,,,0,,{ itemheal 45,0; },{}
-720,tunicadeseda,T˙nica de Seda,5,8000,4000,5,,5,,0,0,2,512,,30,0,{},{}
+719,macaverde,Ma√ß√£ Verde,0,10,4,5,,,,,,2,,,0,,{ itemheal 45,0; },{}
+720,tunicadeseda,T√∫nica de Seda,5,8000,4000,5,,5,,0,0,2,512,,30,0,{},{}
 721,coroadossacerdotes,Coroa dos Sacerdotes,5,20000,5000,400,,4,,20,0,2,256,,0,0,{},{ bonus bMaxSP, 20; }
-722,capacetedefossil,Capacete de FÛssil,5,15000,3000,250,,7,,10,0,2,256,,0,0,{},{ bonus bMdef, 20; }
-723,chapeudodeserto,ChapÈu do Deserto,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-724,faixadealgodao,Faixa de Algod„o,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
-725,bonegm,BonÈ GM,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{ bonus bNoWeaponDamage, 1; bonus bNoMagicDamage, 1; }
-726,tunicagm,T˙nica GM,5,8000,4000,40,,2,,0,0,2,512,,1,0,{},{}
+722,capacetedefossil,Capacete de F√≥ssil,5,15000,3000,250,,7,,10,0,2,256,,0,0,{},{ bonus bMdef, 20; }
+723,chapeudodeserto,Chap√©u do Deserto,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+724,faixadealgodao,Faixa de Algod√£o,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
+725,bonegm,Bon√© GM,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{ bonus bNoWeaponDamage, 1; bonus bNoMagicDamage, 1; }
+726,tunicagm,T√∫nica GM,5,8000,4000,40,,2,,0,0,2,512,,1,0,{},{}
 727,Iten,Iten,3,0,0,8000,,,,,,,,,,,{},{}
 //728,esculturademouboo,Escultura de Mouboo,3,0,0,9,,,,,,,,,,,{},{}
 //729,tocodistorcido,Toco Distorcido,3,0,0,8,,,,,,,,,,,{},{}
 //730,cristaldavida,Cristal da Vida,3,0,0,5,,,,,,,,,,,{},{}
-731,calcadeassassino,CalÁa de Assassino,5,10000,3000,20,,6,,-5,0,2,1,,95,0,{},{ bonus bAgi,1; }
-//732,galhodaarvoredruida,Galho da ¡rvore Druida,3,0,0,2,,,,,,,,,,,{},{}
-//733,pocaodepurificacao,PoÁ„o de PurificaÁ„o,0,0,0,15,,,,,,2,,,,,{ callfunc "usePurificationPotion"; },{}
+731,calcadeassassino,Cal√ßa de Assassino,5,10000,3000,20,,6,,-5,0,2,1,,95,0,{},{ bonus bAgi,1; }
+//732,galhodaarvoredruida,Galho da √Årvore Druida,3,0,0,2,,,,,,,,,,,{},{}
+//733,pocaodepurificacao,Po√ß√£o de Purifica√ß√£o,0,0,0,15,,,,,,2,,,,,{ callfunc "usePurificationPotion"; },{}
 734,botaspretas,Botas Pretas,5,20000,3000,35,,4,,-10,0,2,64,,0,0,{},{}
-735,botasdealgodao,Botas de Algod„o,5,2000,500,10,,1,,1,0,2,64,,0,0,{},{}
+735,botasdealgodao,Botas de Algod√£o,5,2000,500,10,,1,,1,0,2,64,,0,0,{},{}
 736,bolobranco,Bolo Branco,0,500,100,10,,,,,,2,,,0,,{ itemheal 10,0; },{}
 737,bolodechocolate,Bolo de Chocolate,0,550,125,10,,,,,,2,,,0,,{ itemheal 11,0; },{}
 738,bololaranja,Bolo Laranja,0,600,150,10,,,,,,2,,,0,,{ itemheal 12,0; },{}
-739,bolodemaca,Bolo de MaÁ„,0,600,150,10,,,,,,2,,,0,,{ itemheal 12,0; },{}
+739,bolodemaca,Bolo de Ma√ß√£,0,600,150,10,,,,,,2,,,0,,{ itemheal 12,0; },{}
 740,raiz,Raiz,3,500,250,5,,,,,,,,,,,{},{}
-741,luvasdealgodao,Luvas de Algod„o,5,2000,500,10,,1,,-10,0,2,4,,0,0,{},{}
+741,luvasdealgodao,Luvas de Algod√£o,5,2000,500,10,,1,,-10,0,2,4,,0,0,{},{}
 742,trevodequatrofolhas,Trevo de Quatro Folhas,5,10000,5000,1,,,,5,0,2,8,,0,0,{},{ bonus bLuk,1; }
 743,bolota,Bolota,0,50,10,1,,,,,,2,,,0,,{ itemheal 3,0; },{}
-//744,pocaodeconcentracaodiluida,PoÁ„o de ConcentraÁ„o DiluÌda,0,250,100,10,,,,,,2,,,0,,{ sc_start sc_raiseattackspeed0,30,20; },{}
-//745,pocaodeconcentracaoescura,PoÁ„o de ConcentraÁ„o Escura,0,50,25,10,,,,,,2,,,0,,{ sc_start sc_raiseattackspeed0,10,40; sc_start sc_poison,1,50;},{}
-//746,pocaodecuramopox,PoÁ„o de Cura Mopox,3,0,0,5,,,,,,2,,,,,{},{}
-//747,bolodechocolatecomglace,Bolo de Chocolate com GlacÍ,0,550,125,10,,,,,,2,,,0,,{ itemheal 11,0; },{}
+//744,pocaodeconcentracaodiluida,Po√ß√£o de Concentra√ß√£o Dilu√≠da,0,250,100,10,,,,,,2,,,0,,{ sc_start sc_raiseattackspeed0,30,20; },{}
+//745,pocaodeconcentracaoescura,Po√ß√£o de Concentra√ß√£o Escura,0,50,25,10,,,,,,2,,,0,,{ sc_start sc_raiseattackspeed0,10,40; sc_start sc_poison,1,50;},{}
+//746,pocaodecuramopox,Po√ß√£o de Cura Mopox,3,0,0,5,,,,,,2,,,,,{},{}
+//747,bolodechocolatecomglace,Bolo de Chocolate com Glac√™,0,550,125,10,,,,,,2,,,0,,{ itemheal 11,0; },{}
 //748,bolodelaranjacomcreme,Bolo de Laranja com Creme,0,90,45,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
 749,toalha,Toalha,5,800,250,50,,,,5,0,2,8,,0,0,{},{}
 750,pocaoAntiveneno,pocaoAntiveneno,0,1000,450,10,,,,,,2,,,0,,{ itemheal 5,0; sc_start sc_slowpoison,180000,180; },{}
@@ -284,7 +284,7 @@
 752,chapeufofinho,Chapeu Fofinho,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 753,asademorcego,Asa de Morcego,3,500,100,3,,,,,,,,,,,{},{}
 754,dentesdemorcego,Dentes de Morcego,3,600,150,2,,,,,,,,,,,{},{}
-// Daqui para baixo h· apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
+// Daqui para baixo h√° apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
 755,camisadeassassino,Camisa de Assassino,5,10000,3000,150,,15,,-5,0,2,512,,95,0,{},{ bonus bAgi,1; }
 756,luvasdeassassino,Luvas de Assassino,5,7000,2000,9,,4,,-3,0,2,4,,95,0,{},{ bonus bAgi,1; }
 757,botasdeassassino,Botas de Assassino,5,7000,2000,10,,4,,-3,0,2,64,,95,0,{},{ bonus bAgi,1; }
@@ -293,25 +293,25 @@
 760,elmodosoberano,Elmo do Soberano,5,7000,2000,500,,20,,-5,0,2,256,,70,0,{},{}
 761,elmododeserto,Elmo do Deserto,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 762,flechadeterranite,Flecha de Terranite,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
-763,mineriodeterranite,MinÈrio de Terranite,3,250,100,40,,,,,,,,,,,{},{}
-764,chapeudemarinheiro,ChapÈu de Marinheiro,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-765,chapeudecapitao,ChapÈu de Capit„o,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+763,mineriodeterranite,Min√©rio de Terranite,3,250,100,40,,,,,,,,,,,{},{}
+764,chapeudemarinheiro,Chap√©u de Marinheiro,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+765,chapeudecapitao,Chap√©u de Capit√£o,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 766,elmodeterranite,elmodeterranite,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 767,armaduradeterranite,Armadura de Terranite,5,9999000,3000,240,,25,,-100,0,2,512,,40,0,{},{}
-768,calcadeterranite,CalÁa de Terranite,5,2000,1000,15,,4,,-8,0,2,1,,30,0,{},{}
-769,mascaraguyfawkes,M·scara Guy Fawkes,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-770,chapeudafloresta,ChapÈu da Floresta,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-//(j· add)771,minisaia,minisaia,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+768,calcadeterranite,Cal√ßa de Terranite,5,2000,1000,15,,4,,-8,0,2,1,,30,0,{},{}
+769,mascaraguyfawkes,M√°scara Guy Fawkes,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+770,chapeudafloresta,Chap√©u da Floresta,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+//(j√° add)771,minisaia,minisaia,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
 //772,WispPowder,Wisp Powder,3,700,350,40,,,,,,,,,,,{},{}
 //773,SpectrePowder,Spectre Powder,3,700,350,40,,,,,,,,,,,{},{}
-774,podefantasma,PÛ de Fantasma,3,700,350,3,,,,,,,,,,,{},{}
+774,podefantasma,P√≥ de Fantasma,3,700,350,3,,,,,,,,,,,{},{}
 775,osso,Osso,3,140,70,10,,,,,,,,,,,{},{}
 776,caveira,Caveira,3,900,450,30,,,,,,,,,,,{},{}
 777,farrapos,Farrapos,3,100,50,15,,,,,,,,,,,{},{}
-778,coracaodezumbi,CoraÁ„o de Zumbi,3,180,90,10,,,,,,,,,,,{},{}
+778,coracaodezumbi,Cora√ß√£o de Zumbi,3,180,90,10,,,,,,,,,,,{},{}
 779,orelhadezumbi,Orelha de Zumbi,3,30,15,5,,,,,,,,,,,{},{}
 780,olhodezumbi,Olho de Zumbi,3,30,15,3,,,,,,,,,,,{},{}
-781,mascaravoodoo,M·scara Voodoo,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+781,mascaravoodoo,M√°scara Voodoo,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
 782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,-100,0,2,512,,40,0,{},{}
 783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,2,,3,0,0,512,,1,0,{},{}
 784,NachosZumbis,NachosZumbis,0,100,30,5,,,,,,2,,,0,,{ itemheal 60,0; },{}
@@ -322,31 +322,31 @@
 789,cervejaEspocaBucho,cervejaEspocaBucho,0,100,30,5,,,,,,2,,,0,,{ itemheal 60,0; },{}
 790,vinhoSangue,vinhoSangue,0,150,50,5,,,,,,2,,,0,,{ itemheal 100,0; },{}
 836,GrubSlime,GrubSlime,3,40,10,2,,,,0,0,2,8,,0,0,{},{}
-// Daqui para cima h· apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
+// Daqui para cima h√° apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
 1198,almadejacko,Alma de JackO,3,100000,1,1,,,,,,,,,,,{},{}
 1199,flecha,Flecha,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
 1200,arco,Arco,4,1000,500,20,20,,5,,0,2,34,1,1,11,{},{}
 1201,faca,Faca,4,50,25,120,5,,1,,0,2,2,1,1,1,{},{}
-1202,camisadealgodao,Camisa de Algod„o,5,10,5,13,,2,,-2,0,2,512,,0,0,{},{}
-1203,chapeudepatrulheiro,ChapÈu de Patrulheiro,5,1000,500,20,,4,,-1,0,2,256,,0,0,{},{}
-1204,chapeuchifresderena,ChapÈu Chifres de Rena,5,1000,500,15,,4,,2,0,2,256,,0,0,{},{}
-1205,chapeuarvoredenatal,ChapÈu ¡rvore de Natal,5,2000,1000,20,,2,,4,0,2,256,,0,0,{},{}
+1202,camisadealgodao,Camisa de Algod√£o,5,10,5,13,,2,,-2,0,2,512,,0,0,{},{}
+1203,chapeudepatrulheiro,Chap√©u de Patrulheiro,5,1000,500,20,,4,,-1,0,2,256,,0,0,{},{}
+1204,chapeuchifresderena,Chap√©u Chifres de Rena,5,1000,500,15,,4,,2,0,2,256,,0,0,{},{}
+1205,chapeuarvoredenatal,Chap√©u √Årvore de Natal,5,2000,1000,20,,2,,4,0,2,256,,0,0,{},{}
 1206,gorrodepapainoel,Gorro de Papai Noel,5,1000,500,20,,5,,2,0,2,256,,0,0,{},{}
 1207,meianatalinavermelha,Meia Natalina Vermelha,3,80,40,20,,,,,,,,,,,{},{}
-1208,ovodePascoaVermelho,Ovo de P·scoa Vermelho,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
-1209,ovodePascoaVerde,Ovo de P·scoa Verde,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
-1210,ovodePascoaAzul,Ovo de P·scoa Azul,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
-1211,ovodePascoaAmarelo,Ovo de P·scoa Amarelo,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
-1212,ovodePascoaLaranja,Ovo de P·scoa Laranja,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
-1213,ovodePascoaRosa,Ovo de P·scoa Rosa,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
+1208,ovodePascoaVermelho,Ovo de P√°scoa Vermelho,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
+1209,ovodePascoaVerde,Ovo de P√°scoa Verde,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
+1210,ovodePascoaAzul,Ovo de P√°scoa Azul,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
+1211,ovodePascoaAmarelo,Ovo de P√°scoa Amarelo,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
+1212,ovodePascoaLaranja,Ovo de P√°scoa Laranja,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
+1213,ovodePascoaRosa,Ovo de P√°scoa Rosa,0,80,40,10,,,,,,2,,,0,,{ itemheal 50,5; },{}
 1214,orelhasdecoelho,Orelhas de Coelho,5,5000,2000,20,,1,,1,0,2,256,,0,0,{},{}
 1215,sabredebrinquedo,Sabre de Brinquedo,4,50,25,1,1,,1,,0,2,2,1,1,1,{},{}
-1216,cabecademouboo,CabeÁa de Mouboo,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
-1217,orelhasKatzeur,Orelhas de Gato Lend·rio,5,5000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,3; bonus bDex,1; }
+1216,cabecademouboo,Cabe√ßa de Mouboo,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
+1217,orelhasKatzeur,Orelhas de Gato Lend√°rio,5,5000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,3; bonus bDex,1; }
 1218,sacodepapel,Saco de Papel,5,1000,5,10,,1,,-1,0,2,256,,0,0,{},{ bonus bAgi,-1; }
-1219,cabecademoubootauro,CabeÁa de Moubootauro,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
+1219,cabecademoubootauro,Cabe√ßa de Moubootauro,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
 //1220,BunchOfParsley,Bunch of Parsley,5,3,1,1,,1,,0,0,2,256,,0,0,{},{ bonus bDeaf,1; }
-1221,mascaradeesqueleto,M·scara de Esqueleto,5,10000,5000,150,,2,,5,0,2,256,,0,0,{},{}
+1221,mascaradeesqueleto,M√°scara de Esqueleto,5,10000,5000,150,,2,,5,0,2,256,,0,0,{},{}
 //1222,SmallPieceOfClay,Small Piece of Clay,,,,,,,,,,,,,,,{},{}
 //1223,BigPieceOfWhiteClay,Big Piece of White Clay,,,,,,,,,,,,,,,{},{}
 //1224,ScrollOfPaper,Scroll of Paper,,,,,,,,,,,,,,,{},{}
@@ -377,7 +377,7 @@
 1278,chapeuBruxa,chapeuBruxa,5,7000,2500,15,,2,,0,0,2,256,,1,0,{},{}
 1281,balaChoque,Bala de Choque,0,1000,500,5,,,,,,2,,,0,,{ callfunc "useShockSweet"; },{}
 //----------------------------------------------------------------------
-//-- LIVRE - NumeraÁ„o Decrescente -------------------------------------
+//-- LIVRE - Numera√ß√£o Decrescente -------------------------------------
 //----------------------------------------------------------------------
 1988,carvao,carvao,3,250,100,20,,,,,,,,,,,{},{}
 1989,diamante,diamante,3,5000,2500,20,,,,,,,,,,,{},{}
@@ -391,46 +391,46 @@
 1997,Marshmallow,Marshmallow,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,8; itemheal 30,0; },{}
 1998,JellySkull,JellySkull,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,7; itemheal 20,0; },{}
 1999,doceAbobora,doceAbobora,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,10; itemheal 50,0; },{}
-2050,camisavermelhadealgodao,Camisa Vermelha de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2051,camisaverdedealgodao,Camisa Verde de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2052,camisaazulescuradealgodao,Camisa Azul Escura de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2053,camisaamareladealgodao,Camisa Amarela de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2054,camisaazulclaradealgodao,Camisa Azul Clara de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2055,camisarosadealgodao,Camisa Rosa de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2056,camisapretadealgodao,Camisa Preta de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2057,camisalaranjadealgodao,Camisa Laranja de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2058,camisaroxadealgodao,Camisa Roxa de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2059,camisaverdeescuradealgodao,Camisa Verde Escura de Algod„o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2060,SueterVermelhocomDecoteemV,SuÈter Vermelho com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,1,0,{},{}
-2061,SueterVerdecomDecoteemV,SuÈter Verde com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2062,SueterAzulEscurocomDecoteemV,SuÈter Azul Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2063,SueterAmarelocomDecoteemV,SuÈter Amarelo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2064,SueterAzulClarocomDecoteemV,SuÈter Azul Claro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2065,SueterRosacomDecoteemV,SuÈter Rosa com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2066,SueterPretocomDecoteemV,SuÈter Preto com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2067,SueterLaranjacomDecoteemV,SuÈter Laranja com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2068,SueterroxocomDecoteemV,SuÈter Roxo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2069,SueterVerdeEscurocomDecoteemV,SuÈter Verde Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2070,SueterVermelhodeGolaAlta,SuÈter Vermelho de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2071,SueterVerdedeGolaAlta,SuÈter Verde de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2072,SueterAzulEscurodeGolaAlta,SuÈter Azul Escura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2073,SueterAmarelodeGolaAlta,SuÈter Amarelo de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2074,SueterAzulClarodeGolaAlta,SuÈter Azul Claro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2075,SueterRosadeGolaAlta,SuÈter Rosa de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2076,SueterPretodeGolaAlta,SuÈter Preto de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2077,SueterLaranjadeGola Alta,SuÈter Laranja de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2078,SueterroxodeGolaAlta,SuÈter P˙rpura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2079,SueterVerdeEscurodeGolaAlta,SuÈter Verde Escuro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2080,tunicavermelhadeseda,T˙nica Vermelha de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2081,tunicaverdedeseda,T˙nica Verde de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2082,tunicaazulescuradeseda,T˙nica Azul Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2083,tunicaamareladeseda,T˙nica Amarela de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2084,tunicaazulclaradeseda,T˙nica Azul Clara de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2085,tunicarosadeseda,T˙nica Rosa de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2086,tunicapretadeseda,T˙nica Preta de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2087,tunicalaranjadeseda,T˙nica Laranja de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2088,tunicaroxadeseda,T˙nica Roxa de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2089,tunicaverdeescuradeseda,T˙nica Verde Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2050,camisavermelhadealgodao,Camisa Vermelha de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2051,camisaverdedealgodao,Camisa Verde de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2052,camisaazulescuradealgodao,Camisa Azul Escura de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2053,camisaamareladealgodao,Camisa Amarela de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2054,camisaazulclaradealgodao,Camisa Azul Clara de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2055,camisarosadealgodao,Camisa Rosa de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2056,camisapretadealgodao,Camisa Preta de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2057,camisalaranjadealgodao,Camisa Laranja de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2058,camisaroxadealgodao,Camisa Roxa de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2059,camisaverdeescuradealgodao,Camisa Verde Escura de Algod√£o,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
+2060,SueterVermelhocomDecoteemV,Su√©ter Vermelho com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,1,0,{},{}
+2061,SueterVerdecomDecoteemV,Su√©ter Verde com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2062,SueterAzulEscurocomDecoteemV,Su√©ter Azul Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2063,SueterAmarelocomDecoteemV,Su√©ter Amarelo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2064,SueterAzulClarocomDecoteemV,Su√©ter Azul Claro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2065,SueterRosacomDecoteemV,Su√©ter Rosa com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2066,SueterPretocomDecoteemV,Su√©ter Preto com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2067,SueterLaranjacomDecoteemV,Su√©ter Laranja com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2068,SueterroxocomDecoteemV,Su√©ter Roxo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2069,SueterVerdeEscurocomDecoteemV,Su√©ter Verde Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
+2070,SueterVermelhodeGolaAlta,Su√©ter Vermelho de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2071,SueterVerdedeGolaAlta,Su√©ter Verde de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2072,SueterAzulEscurodeGolaAlta,Su√©ter Azul Escura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2073,SueterAmarelodeGolaAlta,Su√©ter Amarelo de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2074,SueterAzulClarodeGolaAlta,Su√©ter Azul Claro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2075,SueterRosadeGolaAlta,Su√©ter Rosa de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2076,SueterPretodeGolaAlta,Su√©ter Preto de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2077,SueterLaranjadeGola Alta,Su√©ter Laranja de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2078,SueterroxodeGolaAlta,Su√©ter P√∫rpura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2079,SueterVerdeEscurodeGolaAlta,Su√©ter Verde Escuro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2080,tunicavermelhadeseda,T√∫nica Vermelha de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2081,tunicaverdedeseda,T√∫nica Verde de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2082,tunicaazulescuradeseda,T√∫nica Azul Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2083,tunicaamareladeseda,T√∫nica Amarela de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2084,tunicaazulclaradeseda,T√∫nica Azul Clara de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2085,tunicarosadeseda,T√∫nica Rosa de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2086,tunicapretadeseda,T√∫nica Preta de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2087,tunicalaranjadeseda,T√∫nica Laranja de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2088,tunicaroxadeseda,T√∫nica Roxa de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
+2089,tunicaverdeescuradeseda,T√∫nica Verde Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2090,camisetavermelha,Camiseta Vermelha,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
 2091,camisetaverde,Camiseta Verde,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
 2092,camisetaazulescura,Camiseta Azul Escura,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
@@ -441,26 +441,26 @@
 2097,camisetalaranja,Camiseta Laranja,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
 2098,camisetaroxa,Camiseta Roxa,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
 2099,camisetaverdeescura,Camiseta Verde Escura,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2100,saiavermelhadealgodao,Saia Vermelha de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2101,saiaverdedealgodao,Saia Verde de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2102,saiaazulescuradealgodao,Saia Azul Escura de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2103,saiaamareladealgodao,Saia Amarela de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2104,saiaazulclaradealgodao,Saia Azul Clara de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2105,saiarosadealgodao,Saia Rosa de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2106,saiapretadealgodao,Saia Preta de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2107,saialaranjadealgodao,Saia Laranja de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2108,saiaroxadealgodao,Saia Roxa de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2109,saiaverdeescuradealgodao,Saia Verde Escura de Algod„o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2110,shortvermelhodealgodao,Short Vermelho de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2111,shortverdedealgodao,Short Verde de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2112,shortazulescurodealgodao,Short Azul Escuro de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2113,shortamarelodealgodao,Short Amarelo de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2114,shortazulclarodealgodao,Short Azul Claro de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2115,shortrosadealgodao,Short Rosa de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2116,shortpretodealgodao,Short Preto de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2117,shortlaranjadealgodao,Short Laranja de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2118,shortroxodealgodao,Short Roxo de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2119,shortverdeescurodealgodao,Short Verde Escuro de Algod„o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2100,saiavermelhadealgodao,Saia Vermelha de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2101,saiaverdedealgodao,Saia Verde de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2102,saiaazulescuradealgodao,Saia Azul Escura de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2103,saiaamareladealgodao,Saia Amarela de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2104,saiaazulclaradealgodao,Saia Azul Clara de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2105,saiarosadealgodao,Saia Rosa de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2106,saiapretadealgodao,Saia Preta de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2107,saialaranjadealgodao,Saia Laranja de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2108,saiaroxadealgodao,Saia Roxa de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2109,saiaverdeescuradealgodao,Saia Verde Escura de Algod√£o,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
+2110,shortvermelhodealgodao,Short Vermelho de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2111,shortverdedealgodao,Short Verde de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2112,shortazulescurodealgodao,Short Azul Escuro de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2113,shortamarelodealgodao,Short Amarelo de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2114,shortazulclarodealgodao,Short Azul Claro de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2115,shortrosadealgodao,Short Rosa de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2116,shortpretodealgodao,Short Preto de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2117,shortlaranjadealgodao,Short Laranja de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2118,shortroxodealgodao,Short Roxo de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2119,shortverdeescurodealgodao,Short Verde Escuro de Algod√£o,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
 2120,camisetacurtavermelha,Camiseta Curta Vermelha,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
 2121,camisetacurtaverde,Camiseta Curta Verde,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
 2122,camisetacurtaazulescura,Camiseta Curta Azul Escura,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
@@ -471,16 +471,16 @@
 2127,camisetacurtalaranja,Camiseta Curta Laranja,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
 2128,camisetacurtaroxa,Camiseta Curta Roxa,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
 2129,camisetacurtaverdeescura,Camiseta Curta Verde Escura,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2130,chapeudodesertovermelho,ChapÈu do Deserto Vermelho,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2131,chapeudodesertoverde,ChapÈu do Deserto Verde,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2132,chapeudodesertoazulescuro,ChapÈu do Deserto Azul Escuro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2133,chapeudodesertoamarelo,ChapÈu do Deserto Amarelo,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2134,chapeudodesertoazulclaro,ChapÈu do Deserto Azul Claro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2135,chapeudodesertorosa,ChapÈu do Deserto Rosa,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2136,chapeudodesertopreto,ChapÈu do Deserto Preto,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2137,chapeudodesertolaranja,ChapÈu do Deserto Laranja,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2138,chapeudodesertoroxo,ChapÈu do Deserto Roxo,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2139,chapeudodesertoverdeescuro,ChapÈu do Deserto Verde Escuro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2130,chapeudodesertovermelho,Chap√©u do Deserto Vermelho,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2131,chapeudodesertoverde,Chap√©u do Deserto Verde,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2132,chapeudodesertoazulescuro,Chap√©u do Deserto Azul Escuro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2133,chapeudodesertoamarelo,Chap√©u do Deserto Amarelo,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2134,chapeudodesertoazulclaro,Chap√©u do Deserto Azul Claro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2135,chapeudodesertorosa,Chap√©u do Deserto Rosa,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2136,chapeudodesertopreto,Chap√©u do Deserto Preto,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2137,chapeudodesertolaranja,Chap√©u do Deserto Laranja,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2138,chapeudodesertoroxo,Chap√©u do Deserto Roxo,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2139,chapeudodesertoverdeescuro,Chap√©u do Deserto Verde Escuro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
 2140,faixatradicionalvermelha,Faixa Tradicional Vermelha,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
 2141,faixatradicionalverde,Faixa Tradicional Verde,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
 2142,faixatradicionalazulescura,Faixa Tradicional Azul escura,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
@@ -491,29 +491,29 @@
 2147,faixatradicionallaranja,Faixa Tradicional Laranja,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
 2148,faixatradicionalroxa,Faixa Tradicional Roxa,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
 2149,faixatradicionalverdeescura,Faixa Tradicional Verde Escura,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
-2150,botasvermelhasdealgodao,Botas Vermelhas de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2151,botasverdesdealgodao,Botas Verdes de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2152,botasazulescurasdealgodao,Botas Azul Escuras de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2153,botasamarelasdealgodao,Botas Amarelas de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2154,botasazulclarasdealgodao,Botas Azul Claras de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2155,botasrosasdealgodao,Botas Rosas de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2156,botaspretasdealgodao,Botas Pretas de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2157,botaslaranjasdealgodao,Botas Laranjas de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2158,botasroxasdealgodao,Botas Roxas de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2159,botasverdeescurasdealgodao,Botas Verde Escuras de Algod„o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2160,luvasvermelhasdealgodao,Luvas Vermelhas de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2161,luvasverdesdealgodao,Luvas Verdes de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2162,luvasazulescurasdealgodao,Luvas Azul Escuras de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2163,luvasamarelasdealgodao,Luvas Amarelas de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2164,luvasazulclarasdealgodao,Luvas Azul Claras de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2165,luvasrosasdealgodao,Luvas Rosas de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2166,luvaspretasdealgodao,Luvas Pretas de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2167,luvaslaranjasdealgodao,Luvas Laranjas de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2168,luvasroxasdealgodao,Luvas Roxas de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2169,luvasverdeescurasdealgodao,Luvas Verde Escuras de Algod„o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2150,botasvermelhasdealgodao,Botas Vermelhas de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2151,botasverdesdealgodao,Botas Verdes de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2152,botasazulescurasdealgodao,Botas Azul Escuras de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2153,botasamarelasdealgodao,Botas Amarelas de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2154,botasazulclarasdealgodao,Botas Azul Claras de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2155,botasrosasdealgodao,Botas Rosas de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2156,botaspretasdealgodao,Botas Pretas de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2157,botaslaranjasdealgodao,Botas Laranjas de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2158,botasroxasdealgodao,Botas Roxas de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2159,botasverdeescurasdealgodao,Botas Verde Escuras de Algod√£o,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
+2160,luvasvermelhasdealgodao,Luvas Vermelhas de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2161,luvasverdesdealgodao,Luvas Verdes de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2162,luvasazulescurasdealgodao,Luvas Azul Escuras de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2163,luvasamarelasdealgodao,Luvas Amarelas de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2164,luvasazulclarasdealgodao,Luvas Azul Claras de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2165,luvasrosasdealgodao,Luvas Rosas de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2166,luvaspretasdealgodao,Luvas Pretas de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2167,luvaslaranjasdealgodao,Luvas Laranjas de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2168,luvasroxasdealgodao,Luvas Roxas de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
+2169,luvasverdeescurasdealgodao,Luvas Verde Escuras de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
 2170,minisaiavermelha,Minisaia Vermelha,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
 2171,minisaiaverde,Minisaia Verde,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2172,minisaiaazulescura,Minisaia Azul Escura,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}//Reservado 3091 atÈ 3110 por Lunovox
+2172,minisaiaazulescura,Minisaia Azul Escura,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}//Reservado 3091 at√© 3110 por Lunovox
 2173,minisaiaamarela,Minisaia Amarela,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
 2174,minisaiaazulclara,Minisaia Azul Clara,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
 2175,minisaiarosa,Minisaia Rosa,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
@@ -592,7 +592,7 @@
 3000,PirateHatBR,Pirate Hat BR,5,2000,1000,40,,4,,-8,0,2,256,,0,0,{},{}
 3001,mantoMorte,Manto da Morte,5,8000,4000,5,,5,,0,0,2,512,,30,0,{},{}
 3002,capuzMorte,Capuz da Morte,5,2000,1000,25,,4,,-8,0,2,256,,0,0,{},{}
-3003,pocaoMorte,PoÁ„o da Morte,0,1000,500,25,,,,,,2,,,0,,{ sc_start 186,300, 60; },{}
+3003,pocaoMorte,Po√ß√£o da Morte,0,1000,500,25,,,,,,2,,,0,,{ sc_start 186,300, 60; },{}
 3004,foiceMorte,Foice da Morte,4,5000,2500,1600,130,,1,,0,2,2,1,60,3,{},{}
 3005,perolaNegra,Perola Negra,3,1500,750,5,,,,,,2,,,0,,{},{}
 3006,mapaTesouro,Mapa do Tesouro,3,300,150,18,,,,,,,,,,,{},{}
@@ -615,12 +615,12 @@
 3023,FrascoVazio,Frasco Vazio,3,20,10,10,,,,,,,,,,,{},{}
 3024,VenenoDeNinfas,Veneno de Ninfas,0,1000,500,20,,,,,,2,,,0,,{ itemheal -9999,-9999; getitem 3023,1;},{},
 3025,ElixirDeFadas,Elixir de Fadas,0,1500,750,20,,,,,,2,,,0,,{ itemheal 750,750; getitem 3023,1;},{}
-//3026,CouracaDeCobraDaMontanha,CouraÁa de Cobra da Montanha,5,4000,2000,200,,8,,-12,0,2,512,,0,0,{},{}
-3026,CouracaDeCobraDaMontanha,CouraÁa de Cobra da Montanha,3,4000,2000,200,,,,,,,,,,,{},{}
-3027,cestaMacas,Cesta de MaÁ„s,3,20,10,100,,,,,,,,,,,{},{}
-3028,tortaMaca,Torta de MaÁ„,0,50,10,10,,,,,,2,,,0,,{ itemheal 75,0; },{}
-3029,roloMacarrao,Rolo de Macarr„o,4,50,25,300,30,,1,,0,2,2,1,1,1,{},{}
-3030,facao,Fac„o,4,100,50,400,50,,1,,0,2,2,1,20,1,{},{}
+//3026,CouracaDeCobraDaMontanha,Coura√ßa de Cobra da Montanha,5,4000,2000,200,,8,,-12,0,2,512,,0,0,{},{}
+3026,CouracaDeCobraDaMontanha,Coura√ßa de Cobra da Montanha,3,4000,2000,200,,,,,,,,,,,{},{}
+3027,cestaMacas,Cesta de Ma√ß√£s,3,20,10,100,,,,,,,,,,,{},{}
+3028,tortaMaca,Torta de Ma√ß√£,0,50,10,10,,,,,,2,,,0,,{ itemheal 75,0; },{}
+3029,roloMacarrao,Rolo de Macarr√£o,4,50,25,300,30,,1,,0,2,2,1,1,1,{},{}
+3030,facao,Fac√£o,4,100,50,400,50,,1,,0,2,2,1,20,1,{},{}
 3031,cuteloCego,Cutelo Cego,4,150,75,500,40,,1,,0,2,2,1,10,1,{},{}
 3032,cuteloAfiado,Cutelo Afiado,4,150,75,500,65,,1,,0,2,2,1,25,1,{},{}
 3033,sementesAbobora,sementesAbobora,3,100,4000,10,,,,,,,,,,,{},{}
@@ -639,8 +639,8 @@
 3046,verdadeiroTrevo,Terdadeiro Trevo,5,50000,25000,10,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 10; bonus bMdef, 25; }
 3047,machadinhaThomasHawk,Machadinha de Thomas Hawk,4,16000,8000,1500,150,,1,,0,2,2,1,70,1,{},{ bonus bMdef, 5; }
 3048,MiniSaia,Mini Saia,5,1200,600,20,,2,,-8,0,0,1,,1,0,{},{}
-3049,MascaraNinja,M·scara Ninja,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
-3050,BoneDoador2010,BonÈ de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
+3049,MascaraNinja,M√°scara Ninja,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
+3050,BoneDoador2010,Bon√© de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 3051,EspadaAprendiz,Espada Aprendiz,4,4000,2000,150,40,,1,,0,2,2,1,10,1,{},{}
 3052,EspadaCavaleiroLider,Espada Cavaleiro Lider,4,7000,3500,350,65,,1,,0,2,2,1,25,1,{},{}
 3053,EspadaMiguelArcanjo,Espada Miguel Arcanjo,4,200000,100000,345,175,,1,,0,2,2,1,80,1,{},{}
@@ -657,10 +657,10 @@
 3063,GemaEsmeralda,Gema Esmeralda,3,10000000,9900000,300,,,,,,,,,,,{},{}
 3064,GemaDiamante,Gema Diamante,3,100000000,99000000,300,,,,,,,,,,,{},{}
 //2010-03-08: Lunovox
-3065,ChapeuMagico,Chapeu M·gico,5,3000,1500,300,,5,,2,0,2,256,,0,0,{},{}
-3066,MascaraNinjaEstilizada,M·scara Ninja Estilizada,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
+3065,ChapeuMagico,Chapeu M√°gico,5,3000,1500,300,,5,,2,0,2,256,,0,0,{},{}
+3066,MascaraNinjaEstilizada,M√°scara Ninja Estilizada,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
 3067,ADMcap,ADM Cap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{}
-3068,BarbaAureola,Barba com AurÈola,5,400,200,200,,2,,-2,0,2,256,,0,0,{},{}
+3068,BarbaAureola,Barba com Aur√©ola,5,400,200,200,,2,,-2,0,2,256,,0,0,{},{}
 3069,antenaRoxa,antenaRoxa,3,100,50,10,,,,,,,,,,,{},{}
 3070,hasteRoxa,hasteRoxa,5,5000,1000,5,,1,,1,0,2,256,,0,0,{},{}
 3071,cupulateEsp,cupulateEsp,0,80,40,1,,,,,,2,,,0,,{ itemheal 20,0; },{}
@@ -683,15 +683,15 @@
 //3088,guacheRoxo,guacheRoxo,3,100,50,100,,,,,,2,,,0,,{},{}
 //3089,guacheVerde2,guacheVerde2,3,100,50,100,,,,,,2,,,0,,{},{}
 3090,lascaderocha,Lasca de Rocha,3,1,1,100,,,,,,2,,,0,,{},{}
-3091,BastaoMadeira,Bast„o de Madeira,4,6000,3000,100,50,0,1,0,0,2,34,0,20,0,{},{}
+3091,BastaoMadeira,Bast√£o de Madeira,4,6000,3000,100,50,0,1,0,0,2,34,0,20,0,{},{}
 3092,GorroFloresta,Gorro da Floresta,5,2000,1000,25,0,6,0,0,0,2,256,0,0,0,{},{}
-3093,MascaraNecromante,M·scara Necromante,5,10000,5000,25,0,15,0,-15,0,2,256,0,30,0,{},{ bonus bMdef, 15; }
-3094,ArmaduraDragao,Armadura do Drag„o,5,300000,150000,150,0,20,0,100,0,2,512,0,55,0,{},{ bonus bMdef, 15; }
-3095,CalcaDragao,CalÁa do Drag„o,5,250000,125000,100,0,7,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; }
-3096,ElmoDragao,Elmo do Drag„o,5,200000,100000,1000,0,20,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; }
-3097,BotasDragao,Botas do Drag„o,5,150000,75000,50,0,4,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; }
-3098,LuvasDragao,Luvas do Drag„o,5,100000,50000,25,0,4,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; }
-//3099 Est· disponÌvel
+3093,MascaraNecromante,M√°scara Necromante,5,10000,5000,25,0,15,0,-15,0,2,256,0,30,0,{},{ bonus bMdef, 15; }
+3094,ArmaduraDragao,Armadura do Drag√£o,5,300000,150000,150,0,20,0,100,0,2,512,0,55,0,{},{ bonus bMdef, 15; }
+3095,CalcaDragao,Cal√ßa do Drag√£o,5,250000,125000,100,0,7,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; }
+3096,ElmoDragao,Elmo do Drag√£o,5,200000,100000,1000,0,20,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; }
+3097,BotasDragao,Botas do Drag√£o,5,150000,75000,50,0,4,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; }
+3098,LuvasDragao,Luvas do Drag√£o,5,100000,50000,25,0,4,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; }
+//3099 Est√° dispon√≠vel
 3100,VestidoPreto,Vestido Preto,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3101,VestidoBranco,Vestido Branco,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3102,VestidoAzul,Vestido Azul,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
@@ -700,9 +700,9 @@
 3105,VestidoAmarelo,Vestido Amarelo,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3106,VestidoRosaChoque,Vestido Rosa Choque,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
 3107,VestidoRosaClaro,Vestido Rosa Claro,5,8000,4000,10,0,2,0,0,0,0,512,0,0,0,{},{}
-3108,BoneDoador2011,BonÈ de Doador 2011,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
+3108,BoneDoador2011,Bon√© de Doador 2011,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 /////////////////////////////////////////////////////////////////////////////////////////
-//Esse escudo vai sai pq os blocos de andar (norte e sul) est„o errados.
+//Esse escudo vai sai pq os blocos de andar (norte e sul) est√£o errados.
 //3109,escudotupiguarani,Escudo Tupiguarani,5,7000,1700,300,,14,,-50,0,2,32,,,0,{},{}
 ////////////////////////////////////////////////////////////////////////////////////////
 3110,colardemonge,Colar de Monge,5,15000,7500,200,,,,,,2,128,,,,{},{ bonus bInt, 1; }
@@ -714,8 +714,8 @@
 3116,barraprata,Barra de Prata,3,10000,9900,3000,,,,,,,,,,,{},{}
 3117,barraouro,Barra de Ouro,3,10000,9900,3000,,,,,,,,,,,{},{}
 3118,barraplatina,Barra de Platina,3,10000,9900,3000,,,,,,,,,,,{},{}
-3119,barrairidio,Barra de IrÌdio,3,10000,9900,3000,,,,,,,,,,,{},{}
-3120,barratitanio,Barra de Tit‚nio,3,10000,9900,3000,,,,,,,,,,,{},{}
+3119,barrairidio,Barra de Ir√≠dio,3,10000,9900,3000,,,,,,,,,,,{},{}
+3120,barratitanio,Barra de Tit√¢nio,3,10000,9900,3000,,,,,,,,,,,{},{}
 //3121,barraferrodiamante,Barra de Ferro com Diamantes,3,10000,9900,3000,,,,,,,,,,,{},{}
 //3122,barraferro,Barra de Ferro,3,10000,9900,3000,,,,,,,,,,,{},{}
 //3123,anel sem a gema
@@ -729,23 +729,23 @@
 //3131,gema safira
 //3132,gema topazio
 //3133,gema ametista
-3134,MinerioCobre,MinÈrio de Cobre,3,5000,2500,3000,,,,,,,,,,,{},{}
-3135,MinerioEstanho,MinÈrio de Estanho,3,5000,2500,3000,,,,,,,,,,,{},{}
-3136,MinerioChumbo,MinÈrio de Chumbo,3,5000,2500,3000,,,,,,,,,,,{},{}
-3137,MinerioPrata,MinÈrio de Prata,3,5000,2500,3000,,,,,,,,,,,{},{}
-3138,MinerioOuro,MinÈrio de Ouro,3,5000,2500,3000,,,,,,,,,,,{},{}
-3139,MinerioPlatina,MinÈrio de Platina,3,5000,2500,3000,,,,,,,,,,,{},{}
-3140,MinerioIridio,MinÈrio de IrÌdio,3,5000,2500,3000,,,,,,,,,,,{},{}
-3141,MinerioTitanio,MinÈrio de Titanio,3,5000,2500,3000,,,,,,,,,,,{},{}
-//3142,MinerioDiamante,MinÈrio de Diamante,3,5000,2500,3000,,,,,,,,,,,{},{}
+3134,MinerioCobre,Min√©rio de Cobre,3,5000,2500,3000,,,,,,,,,,,{},{}
+3135,MinerioEstanho,Min√©rio de Estanho,3,5000,2500,3000,,,,,,,,,,,{},{}
+3136,MinerioChumbo,Min√©rio de Chumbo,3,5000,2500,3000,,,,,,,,,,,{},{}
+3137,MinerioPrata,Min√©rio de Prata,3,5000,2500,3000,,,,,,,,,,,{},{}
+3138,MinerioOuro,Min√©rio de Ouro,3,5000,2500,3000,,,,,,,,,,,{},{}
+3139,MinerioPlatina,Min√©rio de Platina,3,5000,2500,3000,,,,,,,,,,,{},{}
+3140,MinerioIridio,Min√©rio de Ir√≠dio,3,5000,2500,3000,,,,,,,,,,,{},{}
+3141,MinerioTitanio,Min√©rio de Titanio,3,5000,2500,3000,,,,,,,,,,,{},{}
+//3142,MinerioDiamante,Min√©rio de Diamante,3,5000,2500,3000,,,,,,,,,,,{},{}
 3143,bilhetemagico,bilheteMagico,3,500,10,1,,,,,,,,,,,{},{}
-3144,AnelDemonio,Anel do DemÙnio,5,16000,8000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
-3145,AnelDragaoVerde,Anel do Drag„o Verde,5,32000,16000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 40; }
+3144,AnelDemonio,Anel do Dem√¥nio,5,16000,8000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
+3145,AnelDragaoVerde,Anel do Drag√£o Verde,5,32000,16000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 40; }
 3146,TeiaDeAranha,Teia de Aranha,3,300,100,5,,,,,,,,,,,{},{}
-3147,chave1009,Chave n∫1009,3,10000,5000,30,,,,,,,,,,,{},{}
+3147,chave1009,Chave n¬∫1009,3,10000,5000,30,,,,,,,,,,,{},{}
 3148,asasdeanjo,Asas de Anjo,5,16000,8000,100,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
 3149,favodemel,Favo de Mel,0,100,50,1,,,,,,2,,,0,,{ itemheal 75,0; },{}
-3150,ferraodeabelha,Ferr„o de Abelha,3,75,50,1,,,,,,,,,,,{},{}
+3150,ferraodeabelha,Ferr√£o de Abelha,3,75,50,1,,,,,,,,,,,{},{}
 3151,hitodamaVerde,hitodamaVerde,3,100,50,1,,,,,,,,,,,{},{}
 3152,hitodamaAzul,hitodamaAzul,3,200,100,1,,,,,,,,,,,{},{}
 3153,hitodamaAmarela,hitodamaAmarela,3,1000,500,1,,,,,,,,,,,{},{}
@@ -803,7 +803,7 @@
 3205,amostraCasulo,amostraCasulo,3,100,50,12,,,,,,,,,,,{},{}
 3206,amostraBorboleta,amostraBorboleta,3,100,50,11,,,,,,,,,,,{},{}
 3207,grimoriumAzul,Grimorium Azul,0,50000,10,1,,,,,,2,,,0,,{ getitem 3207,1; callfunc "openGrimorium",400; },{}
-3208,grimoriumPurtura,Grimorium P˙rpura,0,50000,10,1,,,,,,2,,,0,,{ getitem 3208,1; callfunc "openGrimorium",402; },{}
+3208,grimoriumPurtura,Grimorium P√∫rpura,0,50000,10,1,,,,,,2,,,0,,{ getitem 3208,1; callfunc "openGrimorium",402; },{}
 3209,grimoriumNegro,Grimorium Negro,0,50000,10,1,,,,,,2,,,0,,{ getitem 3209,1; callfunc "openGrimorium",405; },{}
 3210,grimoriumVerde,Grimorium Verde,0,50000,10,1,,,,,,2,,,0,,{ getitem 3210,1; callfunc "openGrimorium",401; },{}
 3211,grimoriumRubro,Grimorium Rubro,0,50000,10,1,,,,,,2,,,0,,{ getitem 3211,1; callfunc "openGrimorium",403; },{}
@@ -1009,5 +1009,5 @@
 3410,olhodebatholder,Olho de Batholder,3,3000,1500,10,,,,,,,,,,,{},{}
 3411,peledebatholder,Pele de Batholder,3,2000,1000,10,,,,,,,,,,,{},{}
 3412,turmalinarosa,Turmalina Rosa,3,2000,1000,10,,,,,,,,,,,{},{}
-3413,ferraodeescorpiaodegelo,Ferr„o de Escorpi„o de Gelo,3,50,25,1,,,,,,,,,,,{},{}
+3413,ferraodeescorpiaodegelo,Ferr√£o de Escorpi√£o de Gelo,3,50,25,1,,,,,,,,,,,{},{}
 3414,turmalinarosaativada,Turmalina Rosa Ativada,3,2000,1000,10,,,,,,,,,,,{},{}
