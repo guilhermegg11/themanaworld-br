@@ -371,7 +371,14 @@ Ou um comentário de alguem.
 <sound event="miss">fluffy-miss1.ogg</sound>
 <sound event="hurt">fluffy-hurt1.ogg</sound>
 </monster>
-<!-- 321 - Aki jás um rato -->
+<monster id="321" name="Rato" summon="rato">
+<sprite>monsters/rato.xml</sprite>
+<sound event="hit">fluffy-hit1.ogg</sound>
+<sound event="hit">fluffy-hit2.ogg</sound>
+<sound event="hit">fluffy-hit3.ogg</sound>
+<sound event="miss">fluffy-miss1.ogg</sound>
+<sound event="hurt">fluffy-hurt1.ogg</sound>
+</monster>
 <monster id="322" name="Guarda" summon="Guarda">
 <sprite>player_male_base.xml</sprite>
 <sprite gender="male">leg-assassin-male.xml</sprite>
@@ -582,4 +589,13 @@ Ou um comentário de alguem.
 <monster id="366" name="Escorpião de Gelo" summon="escorpiaogelo">
 	<sprite>monster-scorpion.xml|#5e929d,a2d8e3,ffffff</sprite>
 </monster>
+<monster id="367" name="Rato do Gelo" summon="ratogelo">
+	<sprite>monsters/rato.xml|#448888,88CCCC,CCFFFF</sprite>
+	<sound event="hit">fluffy-hit1.ogg</sound>
+	<sound event="hit">fluffy-hit2.ogg</sound>
+	<sound event="hit">fluffy-hit3.ogg</sound>
+	<sound event="miss">fluffy-miss1.ogg</sound>
+	<sound event="hurt">fluffy-hurt1.ogg</sound>
+</monster>
+
 </monsters>
