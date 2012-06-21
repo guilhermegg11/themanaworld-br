@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de hali001.tmx
-//  MODIFICADO: 21/06/2012 5:34 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de hali001.tmx
 ///////////////////////////////////////////////////////////////////
 
 hali001.gat,176,81	warp	Parafora1	-1,-1,halicarnazo.gat,117,47

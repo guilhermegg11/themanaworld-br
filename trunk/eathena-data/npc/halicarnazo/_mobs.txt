@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de halicarnazo.tmx
-//  MODIFICADO: 21/06/2012 5:34 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de halicarnazo.tmx
 ///////////////////////////////////////////////////////////////////
 
 halicarnazo.gat,66,37,57,22	monster	vermeGigante(5)	1006,5,0,0,Mobhalicarnazo::On1006
