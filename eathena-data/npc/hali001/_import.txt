@@ -1,10 +1,10 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 Java
-//   → Arquivo compilado apartir de hali001.tmx
+//  IDE: TMW-Maker 2 → Arquivo compilado apartir de hali001.tmx
+//  MODIFICADO: 21/06/2012 5:34 PM
 ///////////////////////////////////////////////////////////////////
 
 map: hali001.gat
 
-npc: npc/hali001/_mobs.txt
-npc: npc/hali001/_warps.txt
+npc: npc\hali001\_mobs.txt
+npc: npc\hali001\_warps.txt
 
