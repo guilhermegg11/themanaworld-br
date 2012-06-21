@@ -1014,4 +1014,7 @@
 3415,topazio,Topázio,3,2000,1000,10,,,,,,,,,,,{},{}
 3416,topazioativado,Topázio Ativado,3,2000,1000,10,,,,,,,,,,,{},{}
 3417,moedadorei,Moeda do Rei,3,2000,1000,10,,,,,,,,,,,{},{}
+//ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
+3418,flechaEnvenenada,Flecha (Envenenada),10,10,3,1,75,0,0,,0,2,32768,,,,{},{}
+3419,flechaDeFerroEnvenenada,Flecha de Ferro (Envenenada),10,15,5,1,100,0,0,,0,2,32768,,,,{},{}
 
