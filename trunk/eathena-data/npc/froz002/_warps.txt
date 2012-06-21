@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 Java
-//   → Arquivo compilado apartir de froz002.tmx
+//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz002.tmx
+//  MODIFICADO: 20/06/2012 9:38 PM
 ///////////////////////////////////////////////////////////////////
 
 froz002.gat,121,79	warp	toFroz	-1,-1,froz.gat,24,47
