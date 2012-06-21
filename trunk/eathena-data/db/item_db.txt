@@ -513,7 +513,7 @@
 2169,luvasverdeescurasdealgodao,Luvas Verde Escuras de Algod√£o,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
 2170,minisaiavermelha,Minisaia Vermelha,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
 2171,minisaiaverde,Minisaia Verde,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2172,minisaiaazulescura,Minisaia Azul Escura,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}//Reservado 3091 at√© 3110 por Lunovox
+2172,minisaiaazulescura,Minisaia Azul Escura,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
 2173,minisaiaamarela,Minisaia Amarela,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
 2174,minisaiaazulclara,Minisaia Azul Clara,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
 2175,minisaiarosa,Minisaia Rosa,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
@@ -1009,9 +1009,9 @@
 3410,olhodebatholder,Olho de Batholder,3,3000,1500,10,,,,,,,,,,,{},{}
 3411,peledebatholder,Pele de Batholder,3,2000,1000,10,,,,,,,,,,,{},{}
 3412,turmalinarosa,Turmalina Rosa,3,2000,1000,10,,,,,,,,,,,{},{}
-3413,ferraodeescorpiaodegelo,Ferr„o de Escorpi„o de Gelo,3,50,25,1,,,,,,,,,,,{},{}
+3413,ferraodeescorpiaodegelo,Ferr√£o de Escorpi√£o de Gelo,3,50,25,1,,,,,,,,,,,{},{}
 3414,turmalinarosaativada,Turmalina Rosa Ativada,3,2000,1000,10,,,,,,,,,,,{},{}
-3415,topazio,Top·zio,3,2000,1000,10,,,,,,,,,,,{},{}
-3416,topazioativado,Top·zio Ativado,3,2000,1000,10,,,,,,,,,,,{},{}
+3415,topazio,Top√°zio,3,2000,1000,10,,,,,,,,,,,{},{}
+3416,topazioativado,Top√°zio Ativado,3,2000,1000,10,,,,,,,,,,,{},{}
 3417,moedadorei,Moeda do Rei,3,2000,1000,10,,,,,,,,,,,{},{}
 
