@@ -8152,4 +8152,21 @@
 		type="generic"
 		weight="10"
 	/>
+	<item id="3418"
+		image="weapon-arrow-poison.png"
+		name="Flecha (Envenenada)"
+		description="Uma flecha simples que foi envenenada."
+		effect="Dano +75"
+		type="equip-ammo"
+		weight="1"
+	/>
+	<item id="3419"
+		image="weapon-arrow-poison.png"
+		name="Flecha de Ferro (Envenenada)"
+		description="Uma resistente flecha feita de ferro que foi envenenada."
+		effect="Dano +100"
+		type="equip-ammo"
+		weight="1"
+	/>
+
 	</items>
