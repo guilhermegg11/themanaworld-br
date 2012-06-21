@@ -8168,5 +8168,47 @@
 		type="equip-ammo"
 		weight="1"
 	/>
-
+<item id="3420"
+		image="generic-peledelobo.png"
+		name="Pele de Lobo Branco"
+		description="Uma pele arrancada de um lobo branco."
+		type="generic"
+		weight="20"
+	/>
+	<item id="3421"
+		image="generic-garradelobo.png"
+		name="Garra de Lobo Branco"
+		description="Uma garra afiada arrancada de um lobo branco."
+		type="generic"
+		weight="5"
+	/>
+	<item id="3422"
+		image="generic-peledelobopreto.png"
+		name="Pele de Lobo Negro"
+		description="Uma pele arrancada de um lobo negro."
+		type="generic"
+		weight="20"
+	/>
+	<item id="3423"
+		image="generic-garradelobo.png"
+		name="Garra de Lobo Negro"
+		description="Uma garra arrancada de um lobo negro."
+		type="generic"
+		weight="5"
+	/>
+	/>
+	<item id="3424"
+		image="generic-peledelobodemoniaco.png"
+		name="Pele de Lobo Demoníaco"
+		description="Uma pele arrancada de um lobo demoníaco. É muito quente."
+		type="generic"
+		weight="20"
+	/>
+	<item id="3425"
+		image="generic-garradelobo.png"
+		name="Garra de Lobo Demoníaco"
+		description="Uma garra arrancada de um lobo demoníaco. É muito quente."
+		type="generic"
+		weight="5"
+	/>
 	</items>

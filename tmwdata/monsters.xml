@@ -597,5 +597,11 @@ Ou um comentário de alguem.
 	<sound event="miss">fluffy-miss1.ogg</sound>
 	<sound event="hurt">fluffy-hurt1.ogg</sound>
 </monster>
-
+<monster id="368" name="Lobo Demoníaco" summon="lobodemoniaco">
+	<sprite>monsters/demonwolf.xml</sprite>
+	<sound event="hit">wolf-hit1.ogg</sound>
+	<sound event="hit">wolf-hit2.ogg</sound>
+	<sound event="miss">wolf-miss1.ogg</sound>
+	<sound event="die">wolf-die1.ogg</sound>
+</monster>
 </monsters>

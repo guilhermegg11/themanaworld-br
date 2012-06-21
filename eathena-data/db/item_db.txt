@@ -1017,4 +1017,9 @@
 //ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 3418,flechaEnvenenada,Flecha (Envenenada),10,10,3,1,75,0,0,,0,2,32768,,,,{},{}
 3419,flechaDeFerroEnvenenada,Flecha de Ferro (Envenenada),10,15,5,1,100,0,0,,0,2,32768,,,,{},{}
-
+3420,peledelobobranco,Pele de Lobo Branco,3,8,20,20,,,,,,,,,,,{},{}
+3421,garradelobobranco,Garra de Lobo Branco,3,8,20,5,,,,,,,,,,,{},{}
+3422,peledelobonegro,Pele de Lobo Negro,3,8,200,20,,,,,,,,,,,{},{}
+3423,garradelobonegro,Garra de Lobo Negro,3,8,70,5,,,,,,,,,,,{},{}
+3424,peledelobodemoniaco,Pele de Lobo Demoníaco,3,8,300,20,,,,,,,,,,,{},{}
+3425,garradelobodemoniaco,Garra de Lobo Demoniaco,3,8,100,5,,,,,,,,,,,{},{}
