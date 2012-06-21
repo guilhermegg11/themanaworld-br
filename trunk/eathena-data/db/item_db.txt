@@ -613,7 +613,7 @@
 3021,asasFada,asasFada,3,300,150,3,,,,,,2,,,0,,{},{}
 3022,chaveBau,chaveBau,3,100,50,5,,,,,,,,,,,{},{}
 3023,FrascoVazio,Frasco Vazio,3,20,10,10,,,,,,,,,,,{},{}
-3024,VenenoDeNinfas,Veneno de Ninfas,0,1000,500,20,,,,,,2,,,0,,{ itemheal -9999,-9999; getitem 3023,1;},{},
+3024,VenenoDeNinfas,Veneno de Ninfas,0,1000,500,20,,,,,,2,,,0,,{ callfunc "usePoison";},{},
 3025,ElixirDeFadas,Elixir de Fadas,0,1500,750,20,,,,,,2,,,0,,{ itemheal 750,750; getitem 3023,1;},{}
 //3026,CouracaDeCobraDaMontanha,Couraça de Cobra da Montanha,5,4000,2000,200,,8,,-12,0,2,512,,0,0,{},{}
 3026,CouracaDeCobraDaMontanha,Couraça de Cobra da Montanha,3,4000,2000,200,,,,,,,,,,,{},{}
