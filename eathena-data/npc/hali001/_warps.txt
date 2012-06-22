@@ -3,20 +3,21 @@
 //   → Arquivo compilado apartir de hali001.tmx
 ///////////////////////////////////////////////////////////////////
 
-hali001.gat,176,81	warp	Parafora1	-1,-1,halicarnazo.gat,117,47
-hali001.gat,159,20	warp	parafora2	-1,-1,halicarnazo.gat,116,53
-hali001.gat,128,21	warp	parafora3	-1,-1,halicarnazo.gat,99,53
+hali001.gat,175,80	warp	Parafora1	0,0,halicarnazo.gat,117,47
+hali001.gat,159,19	warp	parafora2	0,0,halicarnazo.gat,116,53
+hali001.gat,128,20	warp	parafora3	0,0,halicarnazo.gat,99,53
 hali001.gat,86,29	warp	Parafora03	-1,-1,halicarnazo.gat,109,46
 hali001.gat,34,32	warp	paraforaloja1	-1,-1,halicarnazo.gat,95,64
 hali001.gat,52,32	warp	paraforaloja2	-1,-1,halicarnazo.gat,109,64
 hali001.gat,53,18	warp	para2ºandar	1,0,hali001.gat,49,62
 hali001.gat,49,63	warp	Para1ºandar	1,-1,hali001.gat,53,19
 hali001.gat,42,64	warp	paravaranda	-1,-1,halicarnazo.gat,110,55
-hali001.gat,175,59	warp	paraforacasa	-1,-1,halicarnazo.gat,93,56
+hali001.gat,175,58	warp	paraforacasa	-1,-1,halicarnazo.gat,93,56
 hali001.gat,135,99	warp	parainfermaria	-1,-1,hali001.gat,138,57
-hali001.gat,144,68	warp	paraforadainfermaria	-1,-1,halicarnazo.gat,84,64
+hali001.gat,144,69	warp	paraforadainfermaria	-1,-1,halicarnazo.gat,84,64
 hali001.gat,138,56	warp	paraquarto	0,0,hali001.gat,135,98
 hali001.gat,141,99	warp	parainfermaria	-1,-1,hali001.gat,140,57
 hali001.gat,147,99	warp	parainfermaria	-1,-1,hali001.gat,142,57
 hali001.gat,140,56	warp	paraquarto	0,0,hali001.gat,141,98
 hali001.gat,142,56	warp	paraquarto	0,0,hali001.gat,147,98
+hali001.gat,111,58	warp	paraforacasa2	-1,-1,.gat,73,64
