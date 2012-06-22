@@ -984,7 +984,7 @@
 		description="Um escudo lendário, do qual se diz que é capaz de salvar rainhas e controlar as ondas do mar."
 		effect="lvl 90"
 		type="equip-shield"
-		weight="1"
+		weight=""
 		defense="22"/>
 	<item id="601"
 		image="armor-shield-steelshield.png"
@@ -8211,4 +8211,64 @@
 		type="generic"
 		weight="5"
 	/>
+	<item id="3426"
+		image="weapon-staff-white.png"
+		name="Bastão de Luz Branca"
+		description="Um bastão feito com luz branca."
+		effect="lvl 40, +73 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="50">
+		<sprite>weapon-staff-white.xml</sprite>
+	</item>
+	<item id="3427"
+		image="weapon-staff-yellow.png"
+		name="Bastão de Luz Amarela"
+		description="Um bastão feito com luz amarela."
+		effect="lvl 50, +91 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="50">
+		<sprite>weapon-staff-yellow.xml</sprite>
+	</item>
+	<item id="3428"
+		image="weapon-staff-green.png"
+		name="Bastão de Luz Verde"
+		description="Um bastão feito com luz verde."
+		effect="lvl 60, +109 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="50">
+		<sprite>weapon-staff-green.xml</sprite>
+	</item>
+	<item id="3429"
+		image="weapon-staff-blue.png"
+		name="Bastão de Luz Azul"
+		description="Um bastão feito com luz Azul."
+		effect="lvl 70, +127 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="50">
+		<sprite>weapon-staff-blue.xml</sprite>
+	</item>
+	<item id="3430"
+		image="weapon-staff-red.png"
+		name="Bastão de Luz Vermelha"
+		description="Um bastão feito com luz vermelha."
+		effect="lvl 80, +145 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="50">
+		<sprite>weapon-staff-red.xml</sprite>
+	</item>
+	<item id="3431"
+		image="weapon-staff-purple.png"
+		name="Bastão de Luz Roxa"
+		description="Um bastão feito com luz roxa."
+		effect="lvl 90, +163 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="50">
+		<sprite>weapon-staff-purple.xml</sprite>
+	</item>
 	</items>
