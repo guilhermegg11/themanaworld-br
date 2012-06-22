@@ -980,12 +980,12 @@
 	</item>
 	<item id="600"
 		image="armor-shield-britshield.png"
-		name="Escudo Bretão"
+		name="Escudo Britânico"
 		description="Um escudo lendário, do qual se diz que é capaz de salvar rainhas e controlar as ondas do mar."
-		effect=""
+		effect="lvl 90"
 		type="equip-shield"
 		weight="1"
-		defense=""/>
+		defense="22"/>
 	<item id="601"
 		image="armor-shield-steelshield.png"
 		name="Escudo de Aço"
