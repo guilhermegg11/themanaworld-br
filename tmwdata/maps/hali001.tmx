@@ -176,7 +176,7 @@
   </object>
   <object name="paraforacasa2" type="warp" x="3552" y="1856">
    <properties>
-    <property name=" map" value="halicarnazo"/>
+    <property name="map" value="halicarnazo"/>
     <property name="x" value="73"/>
     <property name="y" value="64"/>
    </properties>
