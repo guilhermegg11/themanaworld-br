@@ -59,6 +59,7 @@ org027.gat#org027.wlk#
 org027-1.gat#org027-1.wlk#
 aeros.gat#aeros.wlk#
 froz.gat#froz.wlk#
-froz002.gat#froz002.wlk#halicarnazo.gat#halicarnazo.wlk#
+froz002.gat#froz002.wlk#
+halicarnazo.gat#halicarnazo.wlk#
 hali001.gat#hali001.wlk#
 
