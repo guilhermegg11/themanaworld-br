@@ -8271,4 +8271,14 @@
 		weight="50">
 		<sprite>weapon-staff-purple.xml</sprite>
 	</item>
+	<item id="3432"
+		image="weapon-staff-black.png"
+		name="Bastão de Luz Negra"
+		description="Um bastão feito com luz negra."
+		effect="lvl 99, +180 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="50">
+		<sprite>weapon-staff-black.xml</sprite>
+	</item>
 	</items>

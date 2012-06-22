@@ -1029,3 +1029,4 @@
 3429,bastaoazul,Bastão de Luz Azul,4,1600,800,50,127,,1,,0,2,2,1,70,1,{},{}
 3430,bastaovermelho,Bastão de Luz Vermelha,4,1800,900,50,145,,1,,0,2,2,1,80,1,{},{}
 3431,bastaoroxo,Bastão de Luz Roxa,4,2000,1000,50,163,,1,,0,2,2,1,90,1,{},{}
+3432,bastaonegro,Bastão de Luz Negro,4,2200,1100,50,180,,1,,0,2,2,1,99,1,{},{}
