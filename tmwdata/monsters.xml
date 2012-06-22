@@ -604,4 +604,16 @@ Ou um comentário de alguem.
 	<sound event="miss">wolf-miss1.ogg</sound>
 	<sound event="die">wolf-die1.ogg</sound>
 </monster>
+<monster id="369" name="Limo de Fogo" summon="limodefogo">
+	<sprite>monster-slime.xml|#ff6600,ffaa55</sprite>
+	<particlefx>graphics/particles/fireslime.xml</particlefx>
+	<sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+</monster>
+<monster id="370" name="Flor de Fogo" summon="flordefogo">
+		<sprite>monster-ironflower.xml</sprite>
+		<particlefx>graphics/particles/iron-flower.xml</particlefx>
+		<sound event="hit">monsters/flower/flower-hit1.ogg</sound>
+		<sound event="hit">monsters/flower/flower-hit2.ogg</sound>
+		<sound event="miss">monsters/flower/flower-miss1.ogg</sound>
+</monster>
 </monsters>

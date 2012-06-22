@@ -668,7 +668,7 @@
 		<sprite gender="female">chest-tnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
 	</item>
 	<item id="565"
-		image="generic-petal.png"
+		image="generic-petal.png|W:#EE748D,FFD8CE"
 		name="Pétala"
 		description="Uma pétala de uma flor agressiva."
 		type="generic"
@@ -6167,8 +6167,8 @@
 	/>
 	<item id="3169"
 		image="generic-mouse-tail.png"
-		name="Calda de Rato"
-		description="Calda arrancada de um rato."
+		name="Cauda de Rato"
+		description="Cauda arrancada de um rato."
 		type="generic"
 		weight="2"
 	/>
@@ -8281,4 +8281,22 @@
 		weight="50">
 		<sprite>weapon-staff-black.xml</sprite>
 	</item>
+		<item id="3433"
+		image="generic-colar-cruz.png"
+		name="Talismã Malígno"
+		description="Um talismã malígno obtido somente pelos necromantes mais poderosos."
+		effect="Se equipado te transformará em um esqueleto."
+		type="equip-ring"
+		weight="5"
+		defense="1">
+		<sprite>equipment/override/skeleton.xml</sprite>
+		<particlefx>graphics/particles/aura-negra.xml</particlefx>
+	</item>
+		<item id="3434"
+		image="generic-petal.png|W:#FF6600,FF8A00"
+		name="Pétala de Fogo"
+		description="Uma pétala de uma flor de fogo agressiva."
+		type="generic"
+		weight="10"
+		/>
 	</items>
