@@ -27,46 +27,39 @@
  </tileset>
  <layer name="ground" width="200" height="200">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3dy1HjQBAGYIsMCIHNYG8OAIiAJYKF/G9cMTejUosZvabxfIfvIlcxj+7fGJXRfJxOpw8AAAAAAAAAAAAAAKjwd1iv9RpgL/IBMfnIYRiWaz33W9Z7Pkr678+VveZxPyzXeg8z1W382tpxes9Hll58GJa79R6tqdv4tbXj9J6PLL14/TuqVqu9O6pHa+p2vtu2Xr3nI0sv/sZ8HNWja/Zr7TjykaMXf2M+Ws7v6+c+XjyNPMvHrNp7P1l6UT7qx365+DfyKh+zav/eztKL0XhT75Hj90n5kI9StX9vZ8/HVA+M+0A+5GPrmmX7LBON9//ibcK7fEzuzfvGY8tH7ny0nFPmfBxFPnL0YsY5IR96kTnyIR/0Qz4AAAAAAAAAAAAAAAAA+tD72Qm9r595Pz0/r/X8rJ+Wsp6dYP1k0Pv/2/e+fvSH9aM/rB/9Yf37qj0fpPV8b7U/stRBPr4rPRekl/t7rfojSx3k47ss53Fm0ao/stRBPur2w/4cN07J2VhH16HHmo/XLx/tfe1tydlY6nB8XeSjPfnIST5ykI+c5rIwde5z6/neKvnIaS4f1/cT1WX/OpScPaoObWvUeg698jkXYvIBMfmAmHxATD5gGXkAAAAAAAAAgOPMPWurp2egwZS5Z2319Aw0mBI9a+t819cz0GCK7w5DTD4gJh8Qkw+IyQfE5AMAWCLD2XEl3+EouQ5by3B2XMl3OEquw9YynB0XjV17HbaW4b5MNHbtddiafEBMPiAmHxCTD4jJB8Qy5GM8ny2uwx70GwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0ifB+7bRAHECAA==
+   H4sIAAAAAAAAA+3dQW7bMBAFUMs36BGaG6Sb5gBtT9DkBGnuv8u2NtACjiAqpCRrxuZbvI0MhKRmvuMYjPh+OBzeAQAAAAAAAAAAAACgweOwXvQa4FrkA8p6z8cw1Mkyj4i59Uw+6jz8c615fBmWi76Hmeo2fm3tOL3nI0svfh2Wu/cebanb+LW14/Sejyy9+P/30xJR926vHm2p29Nx23r1no8svXiL+dirR9fcr7XjyEeOXrzFfETO7/xzf5z8HPklH7Nav/vJ0ovy0T7275PnkRf5mNX693aWXiyNN/UeOX6flA/5qNX693b2fEz1wLgP5EM+tq5Zts8ypfFeT/5MeJOPyXvztvHY8pE7H5FzypyPvchHjl7MOCfkQy8yRz7kg37IBwAAAAAAAAAAAAAAAEAfej87off1M++z5+dFz8/6iZT17ATrJ4Pe/9++9/WjP6wf/WH96A/rv67W80Gi53uv/ZGlDvLxUe25IL18vxfVH1nqIB8fZTmPM4uo/shSB/loux/uz37j1JyNtXcdeqz5eP3yEe98b2vOxlKH/esiH/HkIyf5yEE+cprLwtS5z9HzvVfykdNcPi6/T1SX69eh5uxRdYitUfQceuVzbn7f3Pcw8gFl8gFl8gFl8gHLyAMAAAAAAAAA7GfuWVs9PQMNpsw9a6unZ6DBlNKztp6OfT0DDabYOwxl8gFl8gFl8gFl8gFl8gEALHG5T+L7MWbfRM0ejprrsLXLfRLnfETsm6jZw1FzHbZ2uU/iYYjZN1E6L631Omwtw/cypbFbr8PW5APK5APK5APK5APK5ANuR6nXW68DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMC9+QsodQ4fAHECAA==
   </data>
  </layer>
  <layer name="ground2" width="200" height="200">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="fringe" width="200" height="200">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3dTW4TMRQAYE8WtLR02yIV7kSP0B1bjlAJUIXCzw7SlH2KxBpaqXfoEfi5ALBmwRuYtHQ006qgxIn8fdJTEmcxlsfPtkYjOyUAAAAAAAAAAAAAAAAA6HanSmmjyl0LSrAZ/Wyr6v89D7eb661WF9+7rDX/3YvP+/KDQuy0+vpwkNKLiOcR4548OIjyZ3KEwr3pyYGjKH8nP377ph2KMI754nCQuxawPE6NjcA/+hrxwRgCnerc+Jm7EktitxlHJrGGf9uKiXX9XIziHrw2ni+kR+4L9NqTHwAAAAAAAAAAAAAAAAAAAADMyHrhe1u09+0vvT3441b0g5WI7YL7Q90Gq007TM+XKLk9oNY+V+JvI/kB5x5HPjyJeCov6FDv83wcfeNB7opkUu+Juh8xkR8AXONzxJfclVgCD+3tXqTvET9yV2KBTJ9lTp/nXXVWLMAiqs+UGzbn9w7N7XDJvnkdeh3ID+hl/oB+J/IDruXsdwAAAAAAAAAAAAAAAADgpup90M6aPdHa7I0GKX2SBwAAM/Ex1lnvrbUAAAAAslivUtqM2Iq46xkNXLLdnCc3fY/iLEOO9F3zpuUwazneqaiv+XKQ0qvB/5UDMF/jGI9H1iwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ6ReyjiMQAHECAA==
+   H4sIAAAAAAAAA+3dTW4TMRQAYE8WpVC6bReld4IjdMeWIyAVVFUBuitpYB8qseZH4g49ArQXANYseAOT/gwzVAUlTuTvk56SOIuxPH62NRrZKQEAAAAAAAAAAAAAAABAt7tVSutV7lpQgo3oZ5tV/+95uN1cb7W6+N7lTvPfvfjclh8U4kGrrw8HKT2PeBYx7smDoyjflyMU7mVPDryJ8mP58ctX7VCEccwXrwa5awHL45OxEfhHZxHvjCHQqc6NH7krsSR2mnFkEmv4162YWNfPxSjuwaHxfCE9cl+g12P5AQAAAAAAAAAAAAAAAAAAAMCMrBW+t0V73/7S24PfVqIf3IrYKrg/1G2w2rTD9HyJktsDau1zJS4byQ84txv58CTiqbygQ73P84foG/dzVySTek/UvYiJ/ADgGl8iTnNXYgk8tLd7kb5FfM9diQUyfZY5fZ73t7NiARZRfabcsDm/d2huhyv2zOvQ60h+QC/zB/T7KD/gWs5+BwAAAAAAAAAAAAAAAABuqt4H7aTZE63N3miQ0md5AAAwE+9jnfXWWgsAAAAgq7UqpY2ITc9p4A9bzblyXe9TzNpJzzVvWg6zsH/pnLIc71TU13wRdTgY/F85APM1jvF4ZM0CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnX4CcwVJRABxAgA=
   </data>
  </layer>
  <layer name="top" width="200" height="200">
   <data encoding="base64" compression="gzip">
-   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
+   H4sIAAAAAAAAA+3dy26bQBQGYOxVpV7UfW/rdtc36MNVfbpelPZhsq2txA1FDDAYhoPn+6RRJBLZTOb82Bg80zQAAAAAAAAAAAAAAABwvefHpnmV2V4cY+zH2vsEL2fU1fsVanHOfrStsU+R5RxPHDvmk4/5tqzRnP9XbceOJcnHfFvWqHyUIR/zycftk4/55GN/cj8H+iIfs0XJx92haX4/tj+H9Z97z66tsynk40GUfJR+7j2Tj3LO+/zzdLz+9XjM/n76+aPn+H0mHzHIRzlb1uib0+O9m9jeysc/e83H1PH+FKgGtq7R+4mNJ3vNx9nYOF/6dn7+KDWwZY3KRz75KEuN7kv3NT/1fiS3tR9nrfcynw/jLfV3MNWU421O6z4O7Jl8AAAAAAAAAAAAAAAAcCumzKd3y/Of195/hk35vv4tzx9Ve/8ZVnt91N5/htVeH7X3n2GpeZ7bcz3fcn3IB0Nqr4/a+8+w2uuj9v53RVmvNoqt6iPKOMjH/6KsFxVF3xzT3Tkn15gvMso4bNX/qKKMSyTPjk+tPRfeZdsaIo3D2BzHNYk0LlHIh3xcRBqXmhmHmIxLDMYhJuMSg3GIybjEYBximrN+Tk2f75UiHzG111xqf1YxtmYTy5KPmMbyQRnyAWnyAWlja6f3nRc6D6QW7Wv27dZ3Dbv9e6iBfEBaKh9967zLBwAAAAAAAHCtnDm4bnkONOiTcw+xe4epjXxAmnxAmnxAWl8+7jprn1zIB7Xx+gFp8gFpY9+B9913anc/sUGN5KNuY/dQlLhvIrUPHzK3u8eDpY2dg5Y470ztw8fM7c6RWZp8QJp8QFq3Nr8emuZb69qwfFAzrx+QJh+QFiEfqTW7Xmdudw2bpY3dQ1Gq5vrWF5+zHZaWmgu65HzP8gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA1/gKQDLrWAHECAA==
   </data>
  </layer>
  <layer name="collision" width="200" height="200" opacity="0.5">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3b0UrDQBAFUPH/v8Sv9EnQmkmTNpu5yZ6FgyVKMzs7FyqkX58fH18AAAAAAAAAAAAAAAAAAOF+VncdkKg7H0uruyeJ9KWv72n56K5prdaO+6X2YwbdvU/Ox+8azqotuR8z6u598jys5WNUfVtXd2+ubmuPR/f7nZXQw7V9jOzXsz529+bqUmbxnZXWu8ffj7z3s5q65+uKEmcxsaY9tVevR9VXvXdab64ocRYTa9pTe/V6VH1X6c0VJc5iYk1H1dx93ow51zPPOrEm7mf06t5bd3+5tjvnA94lH7DNUfMsFwAAAAAAAAAAAAAAAADA1fgOMSyb/fv2s++fbfNR/a67vrP2/7hX+eDZHMwwH/LBGp8v1vvQXReZczHbfMy+f/bNxRnz8fP+jz9n2X+ivau73u5+3O2+qXWk2Lu66+3oT8I53H3/qeQjg75nko8M+p5p65k4p75z0PfMc1n6u+5670o+MslHhr2ru94Z6Xtv7+UDlskH1OQDavIBNfmA18gDAAAAAAAAAADJPN8Cf3k2EpZ5dhj+82w91NZyIB/MTj6g5vMV1OQDavIBAABj+EwNtYT/O6t7770OR1masbNnrsrm3utwNPmA2trqrOGV63A0+YCafEAtIR+P9RxxHUYwbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAp28/L8p6AHECAA==
+   H4sIAAAAAAAAA+3bW2rDMBAF0ND9r6Sr7FegTS3Hih9zZR3BocEt8Wg0F1xIvr8ej28AAAAAAAAAAAAAAAAAgHDPVV0HJKrOx9Kq7kkifanre1o+qmtaq7Xifqn9mEF175Pz8buGq2pL7seMqnufPA9r+Tirvq2rujej29rjs/u9ZyX0cG0fZ/brXR+rezO6lFncs9J69/r7M+/9rqbq+RpR4iwm1tRTe+v1WfW13jutNyNKnMXEmnpqb70+q75RejOixFlMrOmomqvPm3PO9cqzTqyJ+zl7Ve+tur+M7c75gL3kA7Y5ap7lAgAAAAAAAAAAAAAAAAAYje8Qw7LZv28/+/7ZNh+t31XXd9X+X/cqH7ybgxnmQz5Y4/livQ/VdZE5F7PNx+z7p28urpiP5/u//pxl/4l6V3W91f24231T60jRu6rrrehPwjncff+p5CODvmeSjwz6nmnrmTinunPQ98xzWfq76nrvSj4yyUeG3lVd7yycQQb5yKfvtb2XD1gmH9AmH9AmH/AZeQAAAAAAAAAAIJnPt8BfPhsJy3x2GP7z2XpoW8uBfDA7+YA2z1fQJh/QJh8AwF6eFWCZZ2poS/i/s3Xv3utwlKUZu3rmWtnsvQ5Hkw9oW1uVNXxyHY4mH9AmHzCO1qz3XgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgLv5AQdRiIkAcQIA
   </data>
  </layer>
- <objectgroup name="margin" width="200" height="200">
+ <objectgroup name="margin" width="200" height="200" visible="0">
   <object x="-206" y="2215" width="6400" height="640"/>
   <object x="3556" y="-255" width="640" height="6400"/>
  </objectgroup>
  <objectgroup color="#00aa00" name="warps" width="200" height="200">
-  <object name="Parafora1" type="warp" x="5632" y="2560" width="32" height="32">
-   <properties>
-    <property name="map" value="halicarnazo"/>
-    <property name="x" value="117"/>
-    <property name="y" value="47"/>
-   </properties>
-  </object>
   <object name="parafora2" type="warp" x="5088" y="608" width="32" height="32">
    <properties>
     <property name="map" value="halicarnazo"/>
     <property name="x" value="116"/>
-    <property name="y" value="53"/>
+    <property name="y" value="52"/>
    </properties>
   </object>
   <object name="parafora3" type="warp" x="4096" y="640" width="32" height="32">
@@ -76,21 +69,21 @@
     <property name="y" value="53"/>
    </properties>
   </object>
-  <object name="Parafora03" type="warp" x="2767" y="943">
+  <object name="Parafora03" type="warp" x="2752" y="928">
    <properties>
     <property name="map" value="halicarnazo"/>
     <property name="x" value="109"/>
     <property name="y" value="46"/>
    </properties>
   </object>
-  <object name="paraforaloja1" type="warp" x="1103" y="1039">
+  <object name="paraforaloja1" type="warp" x="1088" y="1024">
    <properties>
     <property name="map" value="halicarnazo"/>
     <property name="x" value="95"/>
     <property name="y" value="64"/>
    </properties>
   </object>
-  <object name="paraforaloja2" type="warp" x="1678" y="1041">
+  <object name="paraforaloja2" type="warp" x="1664" y="1024">
    <properties>
     <property name="map" value="halicarnazo"/>
     <property name="x" value="109"/>
@@ -104,14 +97,14 @@
     <property name="y" value="62"/>
    </properties>
   </object>
-  <object name="Para1ºandar" type="warp" x="1565" y="2026" width="64" height="20">
+  <object name="Para1ºandar" type="warp" x="1568" y="2032" width="64" height="16">
    <properties>
     <property name="map" value="hali001"/>
     <property name="x" value="53"/>
     <property name="y" value="19"/>
    </properties>
   </object>
-  <object name="paravaranda" type="warp" x="1359" y="2069">
+  <object name="paraVaranda" type="warp" x="1344" y="2080">
    <properties>
     <property name="map" value="halicarnazo"/>
     <property name="x" value="110"/>
@@ -181,11 +174,18 @@
     <property name="y" value="64"/>
    </properties>
   </object>
-  <object name="parafora4" type="warp" x="3296" y="3200">
+  <object name="parafora4" type="warp" x="3264" y="2912" width="32" height="32">
    <properties>
     <property name="map" value="halicarnazo"/>
     <property name="x" value="58"/>
     <property name="y" value="57"/>
+   </properties>
+  </object>
+  <object name="Parafora1" type="warp" x="5632" y="2560" width="32" height="32">
+   <properties>
+    <property name="map" value="halicarnazo"/>
+    <property name="x" value="117"/>
+    <property name="y" value="46"/>
    </properties>
   </object>
  </objectgroup>
