@@ -22,3 +22,4 @@ hali001.gat,142,56	warp	paraquarto	0,0,hali001.gat,147,98
 hali001.gat,111,58	warp	paraforacasa2	-1,-1,halicarnazo.gat,73,64
 hali001.gat,102,91	warp	parafora4	0,0,halicarnazo.gat,58,57
 hali001.gat,176,80	warp	Parafora1	0,0,halicarnazo.gat,117,46
+hali001.gat,69,105	warp	ParaForadaLivraria	-1,-1,halicarnazo.gat,47,64
