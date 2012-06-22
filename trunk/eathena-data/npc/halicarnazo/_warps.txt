@@ -18,3 +18,4 @@ halicarnazo.gat,99,54	warp	Paracasinha3	-1,-1,hali001.gat,128,22
 halicarnazo.gat,95,63	warp	Paraloja1	-1,-1,hali001.gat,34,31
 halicarnazo.gat,109,63	warp	Paraloja2	-1,-1,hali001.gat,52,31
 halicarnazo.gat,84,63	warp	parainfermaria	-1,-1,hali001.gat,144,67
+halicarnazo.gat,73,63	warp	paradentrocasa2	-1,-1,hali001.gat,111,56
