@@ -10,7 +10,7 @@ hali001.gat,52,32	warp	paraforaloja2	-1,-1,halicarnazo.gat,109,64
 hali001.gat,53,18	warp	para2ºandar	1,0,hali001.gat,49,62
 hali001.gat,50,63	warp	Para1ºandar	1,-1,hali001.gat,53,19
 hali001.gat,42,65	warp	paraVaranda	-1,-1,halicarnazo.gat,110,55
-hali001.gat,175,58	warp	paraforacasa	-1,-1,halicarnazo.gat,93,56
+hali001.gat,175,58	warp	paraforacasa	-1,-1,halicarnazo.gat,93,57
 hali001.gat,135,99	warp	parainfermaria	-1,-1,hali001.gat,138,57
 hali001.gat,144,69	warp	paraforadainfermaria	-1,-1,halicarnazo.gat,84,64
 hali001.gat,138,56	warp	paraquarto	0,0,hali001.gat,135,98
