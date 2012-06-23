@@ -1032,3 +1032,4 @@
 3432,bastaonegro,Bastão de Luz Negro,4,2200,1100,50,180,,1,,0,2,2,1,99,1,{},{}
 3433,talismamaligno,Talismã Malígno,5,2000,1000,50,0,,1,,0,2,2,1,0,0,{},{}
 3434,petaladefogo,Pétala de Fogo,0,50,25,10,,,,,,2,,,0,,{},{}
+3435,kunai,kunai,4,1000,500,50,73,,1,,0,2,2,1,40,1,{},{}
