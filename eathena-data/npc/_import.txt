@@ -74,6 +74,7 @@ import: npc/aeros/_import.txt
 import: npc/halicarnazo/_import.txt
 import: npc/hali001/_import.txt
 import: npc/froz/_import.txt
+import: npc/froz001/_import.txt
 import: npc/froz002/_import.txt
 //##################################################
 
