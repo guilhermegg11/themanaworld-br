@@ -7,4 +7,6 @@ map: froz002.gat
 
 npc: npc/froz002/_mobs.txt
 npc: npc/froz002/_warps.txt
+
+npc: npc/froz002/okuro.conf
 npc: npc/froz002/oshiro.conf
