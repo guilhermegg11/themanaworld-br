@@ -8307,4 +8307,10 @@
 		weapon-type="sword"
 		weight="50"
 	/>
+	<item id="3436"
+		image="generic-penadeanjo.png"
+		name="Pena de Anjo"
+		description="Pena da asa de um anjo."
+		type="generic"
+		weight="1"/>
 </items>

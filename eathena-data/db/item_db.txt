@@ -1033,3 +1033,4 @@
 3433,talismamaligno,Talismã Malígno,5,2000,1000,50,0,,1,,0,2,2,1,0,0,{},{}
 3434,petaladefogo,Pétala de Fogo,0,50,25,10,,,,,,2,,,0,,{},{}
 3435,kunai,kunai,4,1000,500,50,73,,1,,0,2,2,1,40,1,{},{}
+3436,penadeanjo,Pena de Anjo,3,20,10,1,,,,,,,,,,,{},{}
