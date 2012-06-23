@@ -93,14 +93,14 @@
    <properties>
     <property name="map" value="froz002"/>
     <property name="x" value="86"/>
-    <property name="y" value="123"/>
+    <property name="y" value="120"/>
    </properties>
   </object>
   <object name="toZonaSegura" type="warp" x="2764" y="3863">
    <properties>
     <property name="map" value="froz002"/>
     <property name="x" value="86"/>
-    <property name="y" value="120"/>
+    <property name="y" value="123"/>
    </properties>
   </object>
  </objectgroup>
