@@ -10,12 +10,12 @@ halicarnazo.gat,84,143	warp	paraCabana	0,0,org016-1.gat,27,43
 halicarnazo.gat,56,109	warp	warp	2,0,org016.gat,56,20
 halicarnazo.gat,55,70	warp	parafora	3,-1,halicarnazo.gat,56,72
 halicarnazo.gat,110,54	warp	para2ºandar	-1,-1,hali001.gat,42,64
-halicarnazo.gat,93,56	warp	paracasa	0,0,hali001.gat,175,56
+halicarnazo.gat,93,56	warp	paracasa	0,0,hali001.gat,175,57
 halicarnazo.gat,117,47	warp	Paracasinha1	-1,-1,hali001.gat,176,81
 halicarnazo.gat,116,53	warp	Paracasinha2	-1,-1,hali001.gat,159,20
 halicarnazo.gat,109,45	warp	Paralojapot	0,0,hali001.gat,86,28
 halicarnazo.gat,99,54	warp	Paracasinha3	-1,-1,hali001.gat,128,21
-halicarnazo.gat,95,63	warp	Paraloja1	0,0,hali001.gat,34,31
+halicarnazo.gat,95,63	warp	Paraloja1	0,0,hali001.gat,35,133
 halicarnazo.gat,109,63	warp	Paraloja2	0,0,hali001.gat,52,31
 halicarnazo.gat,84,63	warp	parainfermaria	0,0,hali001.gat,144,67
 halicarnazo.gat,73,63	warp	paradentrocasa2	0,0,hali001.gat,111,57
