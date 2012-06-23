@@ -12,31 +12,31 @@
 //     ** Drop1id,Drop1per,Drop2id,Drop2per,Drop3id,Drop3per,Drop4id,Drop4per,Drop5id,Drop5per,Drop6id,Drop6per,Drop7id,Drop7per,Drop8id,Drop8per,
 //     ** Item1,Item2,MEXP,ExpPer,MVP1id,MVP1per,MVP2id,MVP2per,MVP3id,MVP3per,mutiation count,mutation strength
 //
-//		 * NomeSumonico: Sem espaço e nem caracteres especiais. Exemplo: "CapitaoDaGuarda"
-//		 * NomeTítulo: Pode haver espaço e caracteres especiais no formato UTF-8. Exemplo: "Capitão da Guarda"
-//		 * LVL: Qual o nível do monstros. Exemplo: É preferivel que Jogadores LVL30 enfrente Monstros LVL30.
-//				  Monstros acima de nível maximo (LVL99) são BOSS.
-//		 * HP: São os pontos de saúde do monstro.
-//		 * SP: São os pontos de magia do monstro, que definem quantas vezes o monstro pode usar uma determinada magia.
-//		 * EXP: Quanto de Experiencia o Monstro dará ao jogador quando for vencido.
-//				  Se for 0 a experiencia oferecida é calculada automaticamente.
-//		 * Escala: 0 se a sua pequena, 1 se a sua média, 2 se o seu grande
-//		 * Raça:  0 = sem forma, 1 = mortos-vivos, 2 = animais, 3 = planta, 4 = inseto, 5 = peixe, 6 = demônio, 7 Demihuman = 8 = anjo, 9 = dragão.
-//		 * Elemento: Esta é a parte complicada. O número de elementos tem 2 partes, vamos chamá-los:
-//				 XY: X = nível do elemento, e Y = número do elemento
-//				     X: 2 = LVL1, 4 = LVL2, 6 = LVL3, 8 = LVL4.
-//					  Y: 0 = Neutro, 1 = Água, 2 = Terra, 3 = Fogo, 4 = Vento, 5 = Venenoso, 6 = Sagrado, 7 = Sombra, 8 = Fantasma, 9 = Imortal
-//					  * E agora, para tornar o elemento, basta pegar o número do lvl que você quer ser, e
-//						 o número do elemento que você quer que seja. Vamos dizer que queremos um Monstros de fogo lvl 3.
-//						 Capturamos o 6 para o primeiro número e os 3 para o segundo, sendo 6=lvl3, e 3=fogo.
-//						 Será algo como = 63
-//		 * Modo: Define o comportamento do Monstro. Os números são estes:
-//				1=SeMovimeta, 2=ColetaNoChão, 4=Agressivo, 8=AuxiliaEspecie, 16=MultiAdversario, 32=Boss, 64=Planta, 128=PodeRevidar, 256=Detector, 512=EscolheAlvo
-//				Exemplos:
-//					* 133(A Morte)=128(PodeRevidar)+4(Agressivo)+1(SeMovimeta).
-//					* 135(LimoVermelho)=128(PodeRevidar)+4(Agressivo)+2(ColetaNoChão)+1(SeMovimeta)
-//					* 137(FadaGuardia)=128(PodeRevidar)+8(AuxiliaEspecie)+1(SeMovimeta)
-//		 * Velocidade: Velocidade de caminhada da mob. 1 é o mais rápido, 3000 é o menor. 1000 é o caminhar normal de velocidade.
+// * NomeSumonico: Sem espaço e nem caracteres especiais. Exemplo: "CapitaoDaGuarda"
+// * NomeTítulo: Pode haver espaço e caracteres especiais no formato UTF-8. Exemplo: "Capitão da Guarda"
+// * LVL: Qual o nível do monstros. Exemplo: É preferivel que Jogadores LVL30 enfrente Monstros LVL30.
+//  Monstros acima de nível maximo (LVL99) são BOSS.
+// * HP: São os pontos de saúde do monstro.
+// * SP: São os pontos de magia do monstro, que definem quantas vezes o monstro pode usar uma determinada magia.
+// * EXP: Quanto de Experiencia o Monstro dará ao jogador quando for vencido.
+//  Se for 0 a experiencia oferecida é calculada automaticamente.
+// * Escala: 0 se a sua pequena, 1 se a sua média, 2 se o seu grande
+// * Raça:  0 = sem forma, 1 = mortos-vivos, 2 = animais, 3 = planta, 4 = inseto, 5 = peixe, 6 = demônio, 7 Demihuman = 8 = anjo, 9 = dragão.
+// * Elemento: Esta é a parte complicada. O número de elementos tem 2 partes, vamos chamá-los:
+// XY: X = nível do elemento, e Y = número do elemento
+//     X: 2 = LVL1, 4 = LVL2, 6 = LVL3, 8 = LVL4.
+//  Y: 0 = Neutro, 1 = Água, 2 = Terra, 3 = Fogo, 4 = Vento, 5 = Venenoso, 6 = Sagrado, 7 = Sombra, 8 = Fantasma, 9 = Imortal
+//  * E agora, para tornar o elemento, basta pegar o número do lvl que você quer ser, e
+// o número do elemento que você quer que seja. Vamos dizer que queremos um Monstros de fogo lvl 3.
+// Capturamos o 6 para o primeiro número e os 3 para o segundo, sendo 6=lvl3, e 3=fogo.
+// Será algo como = 63
+// * Modo: Define o comportamento do Monstro. Os números são estes:
+//1=SeMovimeta, 2=ColetaNoChão, 4=Agressivo, 8=AuxiliaEspecie, 16=MultiAdversario, 32=Boss, 64=Planta, 128=PodeRevidar, 256=Detector, 512=EscolheAlvo
+//Exemplos:
+//* 133(A Morte)=128(PodeRevidar)+4(Agressivo)+1(SeMovimeta).
+//* 135(LimoVermelho)=128(PodeRevidar)+4(Agressivo)+2(ColetaNoChão)+1(SeMovimeta)
+//* 137(FadaGuardia)=128(PodeRevidar)+8(AuxiliaEspecie)+1(SeMovimeta)
+// * Velocidade: Velocidade de caminhada da mob. 1 é o mais rápido, 3000 é o menor. 1000 é o caminhar normal de velocidade.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 1002,verme,Verme,5,50,0,0,2,2,5,10,0,5,1,1,1,1,6,5,1,1,1,3,21,129,2000,1872,672,480,505,800,501,150,518,400,533,150,502,70,522,10,0,0,0,0,,,,,,,,,,,0,0
@@ -163,3 +163,7 @@
 1370,lobodemoniaco,Lobo Demoníaco,250,10000,0,0,5000,2,100,500,40,20,35,40,25,25,35,50,1,1,1,0,20,951,250,1500,672,480,3425,600,3424,450,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,2,30
 1371,limodefogo,Limo de Fogo,70,700,0,0,76,1,60,65,2,7,12,8,10,1,40,20,1,1,1,0,21,135,500,1500,672,480,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2,20
 1372,Flordefogo,Flor de Fogo,120,2700,0,0,160,3,210,230,10,5,16,12,20,20,20,50,2,20,1,3,22,128,800,800,672,480,534,100,567,100,3434,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2,50
+1373,anjo,Anjo,250,10000,0,0,5000,2,100,500,40,20,35,40,25,25,35,50,1,1,1,0,20,133,250,1500,672,480,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,2,30
+1374,anjo2,Anjo,250,12000,0,0,5000,2,100,500,40,20,35,40,25,25,35,50,1,1,1,0,20,133,250,1500,672,480,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,2,30
+1375,dodo,Dodô,30,300,0,0,4,1,30,60,0,5,8,8,12,0,15,8,1,1,1,3,25,129,1000,1872,672,480,3420,500,3421,700,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,0,0
+
