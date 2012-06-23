@@ -21,3 +21,7 @@ halicarnazo.gat,84,63	warp	parainfermaria	0,0,hali001.gat,144,67
 halicarnazo.gat,73,63	warp	paradentrocasa2	0,0,hali001.gat,111,57
 halicarnazo.gat,58,58	warp	paradentrocasinha4	-1,-1,hali001.gat,102,92
 halicarnazo.gat,47,63	warp	paralivraria	0,0,hali001.gat,69,104
+halicarnazo.gat,33,62	warp	paralojadepresentes	0,0,hali001.gat,171,127
+halicarnazo.gat,59,27	warp	paradentrodessacasa--'	0,0,hali001.gat,133,131
+halicarnazo.gat,43,47	warp	parabar	1,0,hali001.gat,101,141
+halicarnazo.gat,63,37	warp	paradentrodocasino	1,0,hali001.gat,67,138
