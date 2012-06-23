@@ -28,3 +28,10 @@ hali001.gat,133,132	warp	paraforadessacasa	-1,-1,halicarnazo.gat,59,28
 hali001.gat,102,142	warp	paraforadobar	1,-1,halicarnazo.gat,42,48
 hali001.gat,68,139	warp	paraforadocasino	1,-1,halicarnazo.gat,62,38
 hali001.gat,174,162	warp	paraforadalojadearmo	1,-1,halicarnazo.gat,79,48
+hali001.gat,133,164	warp	paraforadobanco	-1,-1,halicarnazo.gat,42,34
+hali001.gat,145,157	warp	para2ºandarbanco	1,0,hali001.gat,83,55
+hali001.gat,84,56	warp	para1ºandarbanco	1,-1,hali001.gat,144,158
+hali001.gat,76,57	warp	paravarandabanco	-1,-1,halicarnazo.gat,43,28
+hali001.gat,98,175	warp	paraforadohotel	-1,-1,halicarnazo.gat,86,35
+hali001.gat,60,169	warp	pararebaixo	-1,-1,hali001.gat,99,166
+hali001.gat,99,165	warp	paracima	0,0,hali001.gat,60,168
