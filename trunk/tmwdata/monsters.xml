@@ -622,7 +622,7 @@ Ou um comentário de alguem.
 	<sprite>hairstyle8.xml|#000000,202020,404040,dddddd</sprite>
 	<sprite>angel-wings.xml</sprite>
 	<!--sprite>equipment/head/head-aureole.xml</sprite--> <!-- esta faltando a aureola!-->
-	<!--particlefx>graphics/particles/angel.xml</particlefx--> <!-- esta faltando esta particula!-->
+	<particlefx>graphics/particles/angel.particle.xml</particlefx> <!-- esta faltando esta particula!-->
 </monster>
 <monster id="372" name="Anjo">
 	<sprite>player_male_base.xml</sprite><!-- angel male-->
@@ -630,7 +630,7 @@ Ou um comentário de alguem.
 	<sprite>hairstyle8.xml|#8c6625,dab425,ffffff</sprite>
 	<sprite>angel-wings.xml</sprite>
 	<!--sprite>equipment/head/head-aureole.xml</sprite--> <!-- esta faltando a aureola!-->
-	<!--particlefx>graphics/particles/angel.xml</particlefx--> <!-- esta faltando esta particula!-->
+	<particlefx>graphics/particles/angel.particle.xml</particlefx> <!-- esta faltando esta particula!-->
 </monster>
 <monster id="373" name="Dodô" targetCursor="small">
 	<sprite>monsters/dodo.xml</sprite>
