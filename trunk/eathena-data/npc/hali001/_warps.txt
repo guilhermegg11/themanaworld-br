@@ -27,3 +27,4 @@ hali001.gat,171,128	warp	paraforadalojadepresentes	-1,-1,halicarnazo.gat,33,63
 hali001.gat,133,132	warp	paraforadessacasa	-1,-1,halicarnazo.gat,59,28
 hali001.gat,102,142	warp	paraforadobar	1,-1,halicarnazo.gat,42,48
 hali001.gat,68,139	warp	paraforadocasino	1,-1,halicarnazo.gat,62,38
+hali001.gat,174,162	warp	paraforadalojadearmo	1,-1,halicarnazo.gat,79,48

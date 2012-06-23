@@ -25,3 +25,4 @@ halicarnazo.gat,33,62	warp	paralojadepresentes	0,0,hali001.gat,171,127
 halicarnazo.gat,59,27	warp	paradentrodessacasa--'	0,0,hali001.gat,133,131
 halicarnazo.gat,43,47	warp	parabar	1,0,hali001.gat,101,141
 halicarnazo.gat,63,37	warp	paradentrodocasino	1,0,hali001.gat,67,138
+halicarnazo.gat,80,47	warp	paradentrodalojadearmo	1,0,hali001.gat,173,161
