@@ -14,4 +14,3 @@ npc: npc/froz/guardas.conf
 npc: npc/froz/jeremias.conf
 npc: npc/froz/joseph.conf
 npc: npc/froz/MestreDosNinjas.conf
-

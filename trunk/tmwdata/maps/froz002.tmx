@@ -84,7 +84,8 @@
  </objectgroup>
  <objectgroup color="#ff5500" name="scripts" width="200" height="200">
   <properties>
-   <property name="okuro-file" value="okuro.conf"/>
+   <property name="file-okuro" value="okuro.conf"/>
+   <property name="file-oshiro" value="oshiro.conf"/>
   </properties>
  </objectgroup>
  <objectgroup name="Camada de Objetos 4" width="200" height="200"/>
