@@ -1,11 +1,10 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz002.tmx
-//  MODIFICADO: 20/06/2012 9:38 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de froz002.tmx
 ///////////////////////////////////////////////////////////////////
 
 map: froz002.gat
 
 npc: npc/froz002/_mobs.txt
 npc: npc/froz002/_warps.txt
-npc: npc/froz002/okuro.conf
 

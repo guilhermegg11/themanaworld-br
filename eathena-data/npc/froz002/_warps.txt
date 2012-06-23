@@ -1,8 +1,10 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz002.tmx
-//  MODIFICADO: 20/06/2012 9:38 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de froz002.tmx
 ///////////////////////////////////////////////////////////////////
 
 froz002.gat,121,79	warp	toFroz	-1,-1,froz.gat,24,47
 froz002.gat,30,147	warp	toZonaSegura	-1,-1,froz002.gat,30,150
 froz002.gat,30,149	warp	toZonaPerigosa	-1,-1,froz002.gat,30,147
+froz002.gat,86,123	warp	toZonaPerigosa	-1,-1,froz002.gat,86,123
+froz002.gat,86,120	warp	toZonaSegura	-1,-1,froz002.gat,86,120

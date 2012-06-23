@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 → Arquivo compilado apartir de froz002.tmx
-//  MODIFICADO: 20/06/2012 9:38 PM
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de froz002.tmx
 ///////////////////////////////////////////////////////////////////
 
 froz002.gat,96,93,35,55	monster	Moggun (15)	1061,15,0,0,Mobfroz002::On1061
