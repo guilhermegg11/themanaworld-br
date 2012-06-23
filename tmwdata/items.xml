@@ -8312,5 +8312,16 @@
 		name="Pena de Anjo"
 		description="Pena da asa de um anjo."
 		type="generic"
-		weight="1"/>
+		weight="1"
+		/>
+		<item id="3437"
+		image="armor-head-aureola.png"
+		name="Auréola de Anjo"
+		description="Para você se disfarçar de anjo."
+		effect=""
+		type="equip-head"
+		weight="10"
+		defense="5">
+		<sprite>head-aureola.xml</sprite>
+	</item>
 </items>

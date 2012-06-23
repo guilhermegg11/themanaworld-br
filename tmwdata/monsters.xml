@@ -617,20 +617,20 @@ Ou um comentário de alguem.
 	<sound event="miss">monsters/flower/flower-miss1.ogg</sound>
 </monster>
 <monster id="371" name="Anjo">
-	<sprite>player_male_base.xml</sprite><!-- angel male-->
+	<sprite>player_male_base.xml</sprite>
 	<sprite>chest-robe-male.xml|#ffffff</sprite>
 	<sprite>hairstyle8.xml|#000000,202020,404040,dddddd</sprite>
 	<sprite>angel-wings.xml</sprite>
-	<!--sprite>equipment/head/head-aureole.xml</sprite--> <!-- esta faltando a aureola!-->
-	<particlefx>graphics/particles/angel.particle.xml</particlefx> <!-- esta faltando esta particula!-->
+	<sprite>head-aureola.xml</sprite>
+	<particlefx>graphics/particles/angel.particle.xml</particlefx>
 </monster>
 <monster id="372" name="Anjo">
-	<sprite>player_male_base.xml</sprite><!-- angel male-->
+	<sprite>player_male_base.xml</sprite>
 	<sprite>chest-robe-male.xml|#ffffff</sprite>
 	<sprite>hairstyle8.xml|#8c6625,dab425,ffffff</sprite>
 	<sprite>angel-wings.xml</sprite>
-	<!--sprite>equipment/head/head-aureole.xml</sprite--> <!-- esta faltando a aureola!-->
-	<particlefx>graphics/particles/angel.particle.xml</particlefx> <!-- esta faltando esta particula!-->
+	<sprite>head-aureola.xml</sprite>
+	<particlefx>graphics/particles/angel.particle.xml</particlefx>
 </monster>
 <monster id="373" name="Dodô" targetCursor="small">
 	<sprite>monsters/dodo.xml</sprite>
