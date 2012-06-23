@@ -26,3 +26,6 @@ halicarnazo.gat,59,27	warp	paradentrodessacasa--'	0,0,hali001.gat,133,131
 halicarnazo.gat,43,47	warp	parabar	1,0,hali001.gat,101,141
 halicarnazo.gat,63,37	warp	paradentrodocasino	1,0,hali001.gat,67,138
 halicarnazo.gat,80,47	warp	paradentrodalojadearmo	1,0,hali001.gat,173,161
+halicarnazo.gat,42,33	warp	parabanco	0,0,hali001.gat,133,163
+halicarnazo.gat,43,27	warp	para2ºandardobanco	0,0,hali001.gat,76,56
+halicarnazo.gat,86,34	warp	parahotel	0,0,hali001.gat,98,174
