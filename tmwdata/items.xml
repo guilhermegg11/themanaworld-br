@@ -8196,7 +8196,6 @@
 		type="generic"
 		weight="5"
 	/>
-	/>
 	<item id="3424"
 		image="generic-peledelobodemoniaco.png"
 		name="Pele de Lobo Demoníaco"
@@ -8298,5 +8297,14 @@
 		description="Uma pétala de uma flor de fogo agressiva."
 		type="generic"
 		weight="10"
-		/>
-	</items>
+	/>
+	<item id="3435"
+		image="armor-sword-kunai.png"
+		name="Kunai"
+		description="Kunai usado por ninjas."
+		effect="lvl 40, +73 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="sword"
+		weight="50"
+	/>
+</items>
