@@ -60,7 +60,7 @@
   <object x="-2" y="3842" width="4480" height="640"/>
  </objectgroup>
  <objectgroup name="warps" width="140" height="140">
-  <object name="ParaHalicarnazo" type="warp" x="737" y="2147" width="32" height="32">
+  <object name="ParaHalicarnazo" type="warp" x="736" y="2144">
    <properties>
     <property name="map" value="halicarnazo"/>
     <property name="x" value="119"/>

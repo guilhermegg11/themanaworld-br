@@ -3,4 +3,4 @@
 //   → Arquivo compilado apartir de hali002.tmx
 ///////////////////////////////////////////////////////////////////
 
-hali002.gat,23,67	warp	ParaHalicarnazo	0,0,halicarnazo.gat,119,40
+hali002.gat,23,67	warp	ParaHalicarnazo	-1,-1,halicarnazo.gat,119,40

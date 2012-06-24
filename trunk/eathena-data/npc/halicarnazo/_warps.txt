@@ -29,3 +29,4 @@ halicarnazo.gat,80,47	warp	paradentrodalojadearmo	1,0,hali001.gat,173,161
 halicarnazo.gat,42,33	warp	parabanco	0,0,hali001.gat,133,163
 halicarnazo.gat,43,27	warp	para2ºandardobanco	0,0,hali001.gat,76,56
 halicarnazo.gat,86,34	warp	parahotel	0,0,hali001.gat,98,174
+halicarnazo.gat,119,40	warp	ParaCavernaLeste	0,0,hali002.gat,23,66
