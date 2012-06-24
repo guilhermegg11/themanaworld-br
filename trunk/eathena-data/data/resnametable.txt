@@ -63,4 +63,5 @@ froz002.gat#froz002.wlk#
 froz001.gat#froz001.wlk#
 halicarnazo.gat#halicarnazo.wlk#
 hali001.gat#hali001.wlk#
+hali002.gat#hali002.wlk#
 
