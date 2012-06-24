@@ -3,3 +3,9 @@
 //   → Arquivo compilado apartir de froz001.tmx
 ///////////////////////////////////////////////////////////////////
 
+froz001.gat,175,29	warp	paraforacasinha1	-1,-1,froz.gat,160,50
+froz001.gat,147,28	warp	paraforacasinha2	-1,-1,froz.gat,143,41
+froz001.gat,116,29	warp	paraforadalojadearmor	-1,-1,froz.gat,155,56
+froz001.gat,82,29	warp	paraforadaloja1	-1,-1,froz.gat,160,41
+froz001.gat,71,29	warp	paraforadaloja1-1	-1,-1,froz.gat,154,41
+froz001.gat,41,30	warp	paraforadocacino	-1,-1,froz.gat,134,49
