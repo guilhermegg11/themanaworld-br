@@ -617,19 +617,21 @@ Ou um comentário de alguem.
 	<sound event="miss">monsters/flower/flower-miss1.ogg</sound>
 </monster>
 <monster id="371" name="Anjo">
-	<sprite>player_male_base.xml</sprite>
-	<sprite>chest-robe-male.xml|#ffffff</sprite>
+	<sprite>player_female_base.xml</sprite>
+	<sprite>chest-robe-female.xml|#ffffff</sprite>
 	<sprite>hairstyle8.xml|#000000,202020,404040,dddddd</sprite>
 	<sprite>angel-wings.xml</sprite>
 	<sprite>head-aureola.xml</sprite>
 	<particlefx>graphics/particles/angel.particle.xml</particlefx>
 </monster>
-<monster id="372" name="Anjo">
+<monster id="372" name="Arcanjo">
 	<sprite>player_male_base.xml</sprite>
-	<sprite>chest-robe-male.xml|#ffffff</sprite>
-	<sprite>hairstyle8.xml|#8c6625,dab425,ffffff</sprite>
-	<sprite>angel-wings.xml</sprite>
+	<sprite>chest-saviorarmor-male.xml</sprite>
 	<sprite>head-aureola.xml</sprite>
+	<sprite>hairstyle8.xml|#8c6625,dab425,ffffff</sprite>
+	<sprite>long-pants-male.xml</sprite>
+	<sprite>weapon-staff-white.xml</sprite>
+	<sprite>angel-wings.xml</sprite>
 	<particlefx>graphics/particles/angel.particle.xml</particlefx>
 </monster>
 <monster id="373" name="Dodô" targetCursor="small">
