@@ -294,7 +294,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ff0000" name="Comentarios" width="200" height="200" visible="0">
+ <objectgroup color="#ff0000" name="Comentarios" width="200" height="200">
   <object name="INFERMARIA" x="4447" y="1894" width="131" height="112"/>
   <object name="LOJADEPORÇAO" x="2736" y="650" width="164" height="136"/>
   <object name="LOJADEARCO/ESPADA" x="1426" y="768" width="178" height="134"/>
@@ -309,6 +309,7 @@
  </objectgroup>
  <objectgroup name="scripts" width="200" height="200">
   <properties>
+   <property name="file-fernando" value="fernando.conf"/>
    <property name="file-malet" value="malet.conf"/>
   </properties>
  </objectgroup>
