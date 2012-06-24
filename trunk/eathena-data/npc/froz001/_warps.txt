@@ -8,4 +8,13 @@ froz001.gat,147,28	warp	paraforacasinha2	-1,-1,froz.gat,143,41
 froz001.gat,116,29	warp	paraforadalojadearmor	-1,-1,froz.gat,155,56
 froz001.gat,82,29	warp	paraforadaloja1	-1,-1,froz.gat,160,41
 froz001.gat,71,29	warp	paraforadaloja1-1	-1,-1,froz.gat,154,41
-froz001.gat,41,30	warp	paraforadocacino	-1,-1,froz.gat,134,49
+froz001.gat,41,30	warp	paraforadocacino	-1,-1,froz.gat,32,55
+froz001.gat,176,61	warp	paraforadobar	-1,-1,froz.gat,134,49
+froz001.gat,138,58	warp	paraforainfermaria	-1,-1,froz.gat,136,29
+froz001.gat,136,50	warp	paraquarto1	0,0,.gat,0,0
+froz001.gat,134,50	warp	paraquarto2	0,0,.gat,0,0
+froz001.gat,132,50	warp	paraquarto3	0,0,.gat,0,0
+froz001.gat,104,59	warp	paraforaquarto1	-1,-1,froz001.gat,136,51
+froz001.gat,97,59	warp	paraforaquarto2	-1,-1,froz001.gat,134,51
+froz001.gat,90,59	warp	paraforaquarto3	-1,-1,froz001.gat,132,51
+froz001.gat,62,60	warp	paraforadobanco	-1,-1,froz.gat,126,29
