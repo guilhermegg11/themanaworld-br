@@ -7,5 +7,7 @@ map: hali001.gat
 
 npc: npc/hali001/_mobs.txt
 npc: npc/hali001/_warps.txt
+npc: npc/hali001/_shops.txt
 
+npc: npc/hali001/fernando.conf
 npc: npc/hali001/malet.conf
