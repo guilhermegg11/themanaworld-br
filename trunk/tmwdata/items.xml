@@ -8313,8 +8313,8 @@
 		description="Pena da asa de um anjo."
 		type="generic"
 		weight="1"
-		/>
-		<item id="3437"
+	/>
+	<item id="3437"
 		image="armor-head-aureola.png"
 		name="Auréola de Anjo"
 		description="Para você se disfarçar de anjo."
