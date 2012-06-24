@@ -15,3 +15,7 @@ froz.gat,32,54	warp	paracasino	0,0,froz001.gat,41,29
 froz.gat,134,48	warp	parabar	0,0,froz001.gat,176,60
 froz.gat,136,28	warp	parainfermaria	0,0,froz001.gat,138,57
 froz.gat,126,28	warp	parabanco	0,0,froz001.gat,62,59
+froz.gat,113,44	warp	paradentrolojap	0,0,froz001.gat,173,90
+froz.gat,105,34	warp	paralivraira	0,0,froz001.gat,134,89
+froz.gat,76,45	warp	paralojapot	0,0,froz001.gat,107,89
+froz.gat,64,30	warp	paracasinha.	0,0,froz001.gat,76,90
