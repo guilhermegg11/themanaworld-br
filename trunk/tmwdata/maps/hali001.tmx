@@ -309,7 +309,10 @@
  </objectgroup>
  <objectgroup name="scripts" width="200" height="200">
   <properties>
+   <property name="file-MaquinaCacaNiqueis" value="MaquinaCacaNiqueis.conf"/>
+   <property name="file-enfermeira" value="enfermeira.conf"/>
    <property name="file-fernando" value="fernando.conf"/>
+   <property name="file-mackey" value="mackey.conf"/>
    <property name="file-malet" value="malet.conf"/>
   </properties>
  </objectgroup>
