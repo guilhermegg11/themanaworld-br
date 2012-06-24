@@ -974,7 +974,7 @@
 3375,balinhaCaramelo,Balinhas de Caramelo,0,100,40,0,,,,,,2,,,0,,{ itemheal 10,0; },{}
 3376,cabecaoNeve,cabecaoNeve,5,800,400,80,,2,,-2,0,2,256,,1,0,{},{}
 3377,mascaraRenaRodolf,mascaraRenaRodolf,5,1000,500,80,,2,,0,0,2,256,,1,0,{},{}
-3378,boneLvl99,boneLvl99,5,2000,1000,20,,2,,0,0,2,256,,99,0,{},{}
+3378,boneLvl99,boneLvl99,5,1000000,1000,20,,2,,0,0,2,256,,99,0,{},{}
 3379,fragmentoMenir,fragmentoMenir,0,2,1,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
 3380,fragmentoEnergizado,fragmentoEnergizado,0,2,1,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
 3381,coroaImperial,coroaImperial,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}

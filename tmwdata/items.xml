@@ -6304,7 +6304,7 @@
 	<item id="3188"
 		image="armor-head-elmo-arcanjo.png"
 		name="Elmo Arcanjo"
-		description="..."
+		description="Um elmo usado por arcanjos."
 		effect="lvl 30"
 		type="equip-head"
 		weight="600"
