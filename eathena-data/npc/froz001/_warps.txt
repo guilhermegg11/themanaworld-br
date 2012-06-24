@@ -18,3 +18,7 @@ froz001.gat,104,59	warp	paraforaquarto1	-1,-1,froz001.gat,136,51
 froz001.gat,97,59	warp	paraforaquarto2	-1,-1,froz001.gat,134,51
 froz001.gat,90,59	warp	paraforaquarto3	-1,-1,froz001.gat,132,51
 froz001.gat,62,60	warp	paraforadobanco	-1,-1,froz.gat,126,29
+froz001.gat,173,91	warp	paraforadalojap	-1,-1,froz.gat,113,45
+froz001.gat,134,90	warp	paraforalivraria	-1,-1,froz.gat,105,35
+froz001.gat,107,90	warp	paraforalojapot	-1,-1,froz.gat,76,46
+froz001.gat,76,91	warp	paraforadacasiinha.	-1,-1,froz.gat,64,31
