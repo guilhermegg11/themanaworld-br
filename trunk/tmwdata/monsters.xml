@@ -625,12 +625,13 @@ Ou um comentário de alguem.
 	<particlefx>graphics/particles/angel.particle.xml</particlefx>
 </monster>
 <monster id="372" name="Arcanjo">
+	<sprite>head-aureola.xml</sprite>
 	<sprite>player_male_base.xml</sprite>
 	<sprite>chest-saviorarmor-male.xml</sprite>
-	<sprite>head-aureola.xml</sprite>
 	<sprite>hairstyle8.xml|#8c6625,dab425,ffffff</sprite>
-	<sprite>long-pants-male.xml</sprite>
+	<sprite>equipment/leg/long-pants-male.xml</sprite>
 	<sprite>weapon-staff-white.xml</sprite>
+	<sprite>feet-boots-male.xml|#846211,dab333,fffb93,ffffff</sprite>
 	<sprite>angel-wings.xml</sprite>
 	<particlefx>graphics/particles/angel.particle.xml</particlefx>
 </monster>
