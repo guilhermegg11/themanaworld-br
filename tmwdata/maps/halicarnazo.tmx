@@ -382,7 +382,6 @@
  <objectgroup name="scripts" width="140" height="130" visible="0">
   <properties>
    <property name="file-Evil" value="EvilAdventury.conf"/>
-   <property name="file-Mackey" value="Mackey.conf"/>
    <property name="file-guarda" value="guardas.conf"/>
    <property name="file-mars" value="marshall.conf"/>
    <property name="file-mest" value="MestreDosCavaleiros.conf"/>

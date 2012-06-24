@@ -8,7 +8,9 @@ map: hali001.gat
 npc: npc/hali001/_mobs.txt
 npc: npc/hali001/_warps.txt
 npc: npc/hali001/_shops.txt
+
+npc: npc/hali001/MaquinaCacaNiqueis.conf
 npc: npc/hali001/enfermeira.conf
 npc: npc/hali001/fernando.conf
+npc: npc/hali001/mackey.conf
 npc: npc/hali001/malet.conf
-npc: npc/hali001/MaquinaCacaNiqueis.conf

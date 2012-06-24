@@ -11,7 +11,6 @@ npc: npc/halicarnazo/_warps.txt
 npc: npc/halicarnazo/_shops.txt
 
 npc: npc/halicarnazo/EvilAdventury.conf
-npc: npc/halicarnazo/Mackey.conf
 npc: npc/halicarnazo/guardas.conf
 npc: npc/halicarnazo/marshall.conf
 npc: npc/halicarnazo/MestreDosCavaleiros.conf
