@@ -3,3 +3,38 @@
 //   → Arquivo compilado apartir de hali002.tmx
 ///////////////////////////////////////////////////////////////////
 
+hali002.gat,64,71,82,89	monster	Terranite(30)	1062,30,0,0,Mobhali002::On1062
+hali002.gat,108,40,26,30	monster	Lobo Negro(2)	1367,2,300000,0,Mobhali002::On1367
+hali002.gat,32,111,26,19	monster	Lobo Demoníaco(2)	1370,2,300000,0,Mobhali002::On1370
+hali002.gat,45,40,21,30	monster	Limo de Fogo(6)	1371,6,180000,0,Mobhali002::On1371
+hali002.gat,46,41,18,35	monster	Flor de Fogo(1)	1372,1,30000,0,Mobhali002::On1372
+
+hali002.gat,0,0,0	script	Mobhali002	-1,{
+
+On1062:
+	set @mobID, 1062;
+	callfunc "MobPoints";
+break;
+
+On1367:
+	set @mobID, 1367;
+	callfunc "MobPoints";
+break;
+
+On1370:
+	set @mobID, 1370;
+	callfunc "MobPoints";
+break;
+
+On1371:
+	set @mobID, 1371;
+	callfunc "MobPoints";
+break;
+
+On1372:
+	set @mobID, 1372;
+	callfunc "MobPoints";
+break;
+
+end;
+}

@@ -295,7 +295,7 @@
    <properties>
     <property name="map" value="hali001"/>
     <property name="x" value="76"/>
-    <property name="y" value="56"/>
+    <property name="y" value="57"/>
    </properties>
   </object>
   <object name="parahotel" type="warp" x="2752" y="1088" width="32" height="32">
@@ -383,7 +383,6 @@
   <properties>
    <property name="file-Evil" value="EvilAdventury.conf"/>
    <property name="file-guarda" value="guardas.conf"/>
-   <property name="file-mars" value="marshall.conf"/>
    <property name="file-mest" value="MestreDosCavaleiros.conf"/>
    <property name="file-pedro" value="pedro.conf"/>
   </properties>
