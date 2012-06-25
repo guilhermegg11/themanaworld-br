@@ -639,8 +639,34 @@ Ou um comentário de alguem.
 	<sprite>monsters/dodo.xml</sprite>
 </monster>
 
-<monster id="374" name="#PortaDeFroz" targetCursor="large">
+<monster id="374" name="Reino de Froz" summon="reinodefroz" targetCursor="large">
 	<sprite>npcs/npc-PortaDeCastelo.xml</sprite>
+</monster>
+
+<monster id="375" name="Guarda de Froz" summon="guardadefroz1">
+	<sprite>player_male_base.xml</sprite>
+	<sprite gender="male">leg-assassin-male.xml</sprite>
+	<sprite gender="male">feet-furboots-male.xml</sprite>
+	<sprite gender="male">hands-gloves-generic-male.xml</sprite>
+	<sprite>hairstyle15.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+	<sprite>weapon-lidersword.xml</sprite>
+	<sprite gender="male">chest-warlordplate-male.xml</sprite>
+	<sound event="hit">short-sword-hit2.ogg</sound>
+	<sound event="miss">knife-miss1.ogg</sound>
+	<sound event="die">short-sword-die1.ogg</sound>
+</monster>
+
+<monster id="376" name="Guarda de Froz" summon="guardadefroz2">
+	<sprite>player_male_base.xml</sprite>
+	<sprite gender="male">leg-assassin-male.xml</sprite>
+	<sprite gender="male">feet-furboots-male.xml</sprite>
+	<sprite gender="male">hands-gloves-generic-male.xml</sprite>
+	<sprite>hairstyle15.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+	<sprite>weapon-lidersword.xml</sprite>
+	<sprite gender="male">chest-warlordplate-male.xml</sprite>
+	<sound event="hit">short-sword-hit2.ogg</sound>
+	<sound event="miss">knife-miss1.ogg</sound>
+	<sound event="die">short-sword-die1.ogg</sound>
 </monster>
 
 </monsters>
