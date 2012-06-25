@@ -669,4 +669,8 @@ Ou um comentário de alguem.
 	<sound event="die">short-sword-die1.ogg</sound>
 </monster>
 
+<monster id="377" name="Idolo de Froz" summon="idolodefroz">
+	<sprite>npcs/npc-estatuas.xml</sprite>
+</monster>
+
 </monsters>

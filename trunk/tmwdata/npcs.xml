@@ -485,5 +485,7 @@
 	<npc id="604">
 		<sprite>npcs/npc-PortaDeCastelo.xml</sprite>
 	</npc>
-
+	<npc id="605">
+		<sprite variant="0">npcs/npc-estatuas.xml</sprite>
+	</npc>
 </npcs>
