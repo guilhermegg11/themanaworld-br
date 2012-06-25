@@ -261,7 +261,7 @@
    <properties>
     <property name="map" value="froz001"/>
     <property name="x" value="175"/>
-    <property name="y" value="148"/>
+    <property name="y" value="150"/>
    </properties>
   </object>
  </objectgroup>
