@@ -22,3 +22,12 @@ froz001.gat,173,91	warp	paraforadalojap	-1,-1,froz.gat,113,45
 froz001.gat,134,90	warp	paraforalivraria	-1,-1,froz.gat,105,35
 froz001.gat,107,90	warp	paraforalojapot	-1,-1,froz.gat,76,46
 froz001.gat,76,91	warp	paraforadacasiinha.	-1,-1,froz.gat,64,31
+froz001.gat,45,91	warp	parafora	-1,-1,froz.gat,51,35
+froz001.gat,175,123	warp	parafora2	-1,-1,froz.gat,56,56
+froz001.gat,144,120	warp	parafora3	-1,-1,froz.gat,112,60
+froz001.gat,113,121	warp	paraforacasa4	-1,-1,froz.gat,106,60
+froz001.gat,86,122	warp	paraforadaloja1-2	-1,-1,froz.gat,83,60
+froz001.gat,76,122	warp	paraforadaloja1	-1,-1,froz.gat,77,60
+froz001.gat,47,122	warp	paraforadohotel	-1,-1,froz.gat,50,55
+froz001.gat,175,149	warp	pararecepção	-1,-1,froz001.gat,46,114
+froz001.gat,46,113	warp	paraquartos	0,0,froz001.gat,175,148
