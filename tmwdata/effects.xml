@@ -48,4 +48,10 @@
 	<effect id="310" particle="graphics/particles/circulo-magico2-efeito.xml"/>
 	<effect id="311" particle="graphics/particles/circulo-magico3-efeito.xml"/>
 	<effect id="312" audio="sfx/nature-thunder.ogg" particle="graphics/particles/lightning-lunovox.xml"/> <!-- Um raio que incendeia o chão! -->
+	
+<!-- Arrebentar o Portão de Fortaleza! -->
+	<effect id="313" 
+		audio="sfx/bmx/epic_soul_factory_-_02_titan.ogg" 
+		particle="graphics/particles/fire-explosion.xml"
+	/>
 </being-effects>

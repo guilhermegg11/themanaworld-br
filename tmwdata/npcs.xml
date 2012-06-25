@@ -482,4 +482,8 @@
 		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 		<particlefx>graphics/particles/pink-violent-glow.particle.xml</particlefx>
 	</npc>
+	<npc id="604">
+		<sprite>npcs/npc-PortaDeCastelo.xml</sprite>
+	</npc>
+
 </npcs>
