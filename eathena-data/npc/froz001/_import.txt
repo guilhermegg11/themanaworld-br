@@ -8,4 +8,4 @@ map: froz001.gat
 npc: npc/froz001/_mobs.txt
 npc: npc/froz001/_warps.txt
 npc: npc/froz001/_shops.txt
-npc: npc/froz001/enfermeira.conf
+

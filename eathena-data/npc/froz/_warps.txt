@@ -19,3 +19,10 @@ froz.gat,113,44	warp	paradentrolojap	0,0,froz001.gat,173,90
 froz.gat,105,34	warp	paralivraira	0,0,froz001.gat,134,89
 froz.gat,76,45	warp	paralojapot	0,0,froz001.gat,107,89
 froz.gat,64,30	warp	paracasinha.	0,0,froz001.gat,76,90
+froz.gat,51,34	warp	paradentro	0,0,froz001.gat,45,90
+froz.gat,56,55	warp	paradentro2	0,0,froz001.gat,175,122
+froz.gat,112,59	warp	paradentro3	0,0,froz001.gat,144,119
+froz.gat,106,59	warp	paracasa4	0,0,froz001.gat,113,120
+froz.gat,83,59	warp	paraloja1	0,0,froz001.gat,86,121
+froz.gat,77,59	warp	paraloja1	0,0,froz001.gat,76,121
+froz.gat,50,54	warp	parahotel	0,0,froz001.gat,47,121
