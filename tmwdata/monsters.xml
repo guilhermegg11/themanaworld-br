@@ -639,4 +639,8 @@ Ou um comentário de alguem.
 	<sprite>monsters/dodo.xml</sprite>
 </monster>
 
+<monster id="374" name="#PortaDeFroz" targetCursor="large">
+	<sprite>npcs/npc-PortaDeCastelo.xml</sprite>
+</monster>
+
 </monsters>
