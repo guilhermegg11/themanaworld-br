@@ -2,6 +2,7 @@
 <map version="1.0" orientation="orthogonal" width="140" height="140" tilewidth="32" tileheight="32">
  <properties>
   <property name="folder" value="hali002"/>
+  <property name="minimap" value="/graphics/minimaps/hali002.png"/>
   <property name="name" value="Caverna Leste"/>
  </properties>
  <tileset firstgid="1" name="set_cave" tilewidth="32" tileheight="32">
@@ -44,12 +45,12 @@
    H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBur0hI1kAyAQA=
   </data>
  </layer>
- <layer name="Collision" width="140" height="140" opacity="0.35">
+ <layer name="Collision" width="140" height="140" visible="0" opacity="0.35">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+2TW24cQQwD9/7H2pMF/gsGnn5KTapdBApO4F01RdHfz+fzBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgDK8Se0L/BjV7Bz1XjB3/+i+9OaOfg58eFNUV1akzgTO33xH6nygVl9+pM4ItH2ZfV+1u/o2jkQq63317uobORGpLB/qndU3ciFSmV7c9lXfTd2XnXxP3NKlJ1F+qtLb/2R2mW9ES303x65k33D0LbeuRPmqxsjeJ/PKeidL6vs59qWVOX35W8zunZ3Zm9x6suurIit7Z2bWEn3Rs7J3ZmYtOXZl1VdVVnbPzKslt56s+LqB2d2z8urJqSOjnm5lZv/ozHqK6klkr9T3UjOTQ3R2LUX07TkrQup7qZnJIjq7liK6stqvHV+3M5pFRl4tZX53pz/qezkwkkVGXj1l9WSlM+obOdHKJjO3nk70BeLvlnWLmTdPewP6Anf3ReUL9m9HX6BqX9RZQf+mDl1RZ3ED2Tm+6VRX1Pnewql8W8rqijrbGxkVfYFntiPKeHt27gl/MJf78wbP/6v6MuIVtH15U/Tbu57Vef4FdnW6M1leYO5uEb2iL7DSm8/GrN8+0/qOOg+I6U7krJ7UOcDZvuxInQHE3pm+QEZvVqXeHXJ6Q1/uI/IGb6Iv9xB5izdFduU5b/bzsH/jt9yju/jp/C5L6oxvIjNnF6kzvonMvJ2kzvkWMrOuJPUdqvCWXVSWVaW+iyvZ+UXr9Jvq+ziSnduuvo9/n/w7+c0L9LNUdWX3/Wif6ts4s5JVlhT7qnxUZyavDCn2dPBTldHMouWwp4u3aoxkFiWnHd08ViNa6n1291L7dmc2w9HPqel5q7KHGyMa/U6lHRz3qMCIXHNe8e64RxV6iv6eW196M9T3cWMnp5Yq9MRhj2rs5NSTsisz7yt2qEpERqfzHpWr/8pEZHQy7xlFzFXfx4mojHqq3JeMHaoSlU1P9OUOovLpib7cQWQ+kbMi+hI9X30rB1qiL3k7VKUl17703szKRH0rB1qqkHXWWyd3qMCo3PtyOh+1L7c8djOKmOHALXtkd2M3o6g5bty0S2ZXVrKJmuPETbtkdmUlm+h5Dtyww4m+ZLytzoW+5HRlJ5fM2Q45qn059iXbQ+WM1N6dsojK5ORbJ3NR+K6Qi8rPyqyTHZnxWoXPfz8dc9jxkqFVn+o7q26izOK0Ir2pb+x0kyo+T+2RNdedkxnf7BEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGCUf6VTuzZAMgEA
   </data>
  </layer>
- <objectgroup name="margin" width="140" height="140">
+ <objectgroup name="margin" width="140" height="140" visible="0">
   <object x="0" y="0" width="640" height="4480"/>
   <object x="0" y="0" width="640" height="4480"/>
   <object x="0" y="0" width="4480" height="640"/>
@@ -59,7 +60,7 @@
   <object x="3844" y="0" width="640" height="4480"/>
   <object x="-2" y="3842" width="4480" height="640"/>
  </objectgroup>
- <objectgroup name="warps" width="140" height="140">
+ <objectgroup name="warps" width="140" height="140" visible="0">
   <object name="ParaHalicarnazo" type="warp" x="736" y="2144">
    <properties>
     <property name="map" value="halicarnazo"/>
@@ -68,5 +69,46 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="spawns" width="140" height="140" visible="0"/>
+ <objectgroup name="spawns" width="140" height="140" visible="0">
+  <object name="Terranite(30)" type="spawn" x="736" y="864" width="2624" height="2848">
+   <properties>
+    <property name="amount" value="30"/>
+    <property name="delay" value="30000"/>
+    <property name="id" value="1062"/>
+   </properties>
+  </object>
+  <object name="Lobo Negro(2)" type="spawn" x="3040" y="800" width="832" height="960">
+   <properties>
+    <property name="amount" value="2"/>
+    <property name="delay1" value="300000"/>
+    <property name="id" value="1367"/>
+   </properties>
+  </object>
+  <object name="Lobo Demoníaco(2)" type="spawn" x="608" y="3264" width="832" height="608">
+   <properties>
+    <property name="amount" value="2"/>
+    <property name="delay1" value="300000"/>
+    <property name="id" value="1370"/>
+   </properties>
+  </object>
+  <object name="Limo de Fogo(6)" type="spawn" x="1120" y="800" width="672" height="960">
+   <properties>
+    <property name="amount" value="6"/>
+    <property name="delay1" value="180000"/>
+    <property name="id" value="1371"/>
+   </properties>
+  </object>
+  <object name="Flor de Fogo(1)" type="spawn" x="1184" y="768" width="576" height="1120">
+   <properties>
+    <property name="amount" value="1"/>
+    <property name="delay1" value="30000"/>
+    <property name="id" value="1372"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="scripts" width="140" height="140" visible="0">
+  <properties>
+   <property name="file-marshall" value="marshall.conf"/>
+  </properties>
+ </objectgroup>
 </map>

@@ -3,3 +3,26 @@
 //   → Arquivo compilado apartir de aeros.tmx
 ///////////////////////////////////////////////////////////////////
 
+aeros.gat,77,71,129,119	monster	Anjo(40)	1373,40,300000,0,Mobaeros::On1373
+aeros.gat,87,84,129,119	monster	Arcanjo(20)	1374,20,300000,0,Mobaeros::On1374
+aeros.gat,83,78,129,119	monster	dodo(7)	1375,7,300000,0,Mobaeros::On1375
+
+aeros.gat,0,0,0	script	Mobaeros	-1,{
+
+On1373:
+	set @mobID, 1373;
+	callfunc "MobPoints";
+break;
+
+On1374:
+	set @mobID, 1374;
+	callfunc "MobPoints";
+break;
+
+On1375:
+	set @mobID, 1375;
+	callfunc "MobPoints";
+break;
+
+end;
+}

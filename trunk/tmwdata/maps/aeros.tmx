@@ -5,7 +5,7 @@
   <property name="background0scrollX" value="0.2"/>
   <property name="background1parallax" value="1.0"/>
   <property name="folder" value="aeros"/>
-  <property name="music" value="baal_anamelech_-_pantalamo.ogg"/>
+  <property name="music" value="butterfly_tea_-_a_simple_life.ogg"/>
   <property name="name" value="Reino de Aeros"/>
   <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
   <property name="overlay0parallax" value="1.0"/>
@@ -77,12 +77,35 @@
    H4sIAAAAAAAAA+3cN04DURiF0ZFtbBMqMkgIiWwqRIYNEFYArABYPhkqbklBMYhgeJwjfXL7iqspXPxVBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/66ZZVbfpLt2nh/SYntJzemn2+4VQX6NVVc3USgOpnTqpmwbTUKvfL4T6RrPXsTSeJtJkmkrTaSbN2jN/yEL2upiW0nJaSatpLfXSuj3zh2xmr1tpO+2k3bSX9tNBOrRnCnCcHZ+kU3umAGfZ8Xm6qLnnx8b3vgc+4zI7vkrXvs/8Q3P+p6YgG/YMAAAAAAAAAAAAAAAAAPCl3NWkJO5qUhJ3NSmJu5qUxF1N/gN3NSnJR+9qwm/mriYAAAAAAAAAAAAAAAAAAACUbaBRVe3USd03v4NpKA2nkUa/Xwn1TNfY6rw988v1stH1D+z0ve82lMR3m9Js2TSFObJpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKMIrBQ8BD+ClAQA=
   </data>
  </layer>
- <layer name="collision" width="180" height="150">
+ <layer name="collision" width="180" height="150" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+2VwW7cMAwF2/7/Rxc9FCjSrC1blIak5gFzSHZjiU9j5dfPHz9+iYiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhIGSJCzyDyh8jQs8jZrAg9k5zHjtAzyjnos3RhV+g5pT87Q88qfSFCzyw9oULPLf1466A+Szbo0PNLTbKG7kVqMevZjtAdSQ1WOLcqdFcz3dF77c5bl+jQvUX2QM/QhSr5tN/u3dF+VIJO1D46d0c7UoWonp9+tirZu4v4W1nn86fOyVTs7c18u2atQuec1BvtUQaednX3u6yhuovqaPQ5tE8VXI7OyvVHnh3d3ac1n/QdeT60Vye5nDFkd989V6dj+488t0rvD3EPfHrukzVHntGFndm5ZqX35CpXM8w6TbtXxeMuLmXIXY8zXdMOZvV4l78nviejd+/M8yvzdt6oZHQyw56oPdA+ZryfM+Vuzp09VOmcdlKH86RDx7SfGX3+bq0OZx2dkU5290b7udplPTwrtKNZ7uQOedLX1Xff/H/Kcla0q6f7nG3Gkf2M7vnT91bOTLt6us+Z86Z/8sxoTyN81vlnWdFXhjOgHV15L2fol8qO2UfX+Pq9u58j9pSZ1TnV+U+pfA/Qrmbw+W0q7JEI+X+VdrWyz6fl3/N4cjY7z5F2VW9NRGh3P/n89f3XczZ3Z5DlTqLdPe2ezjpb1n09De3sqV5Xz8jZ7Dw/2tEVPnf3n5jvzZor90m72O1uzrqvFYmcNeJZtItRDu9w6CRPo/K2s9m/q8bs3KZnaC+j72lzne790T7Outz1XKKT5V74tF7UPmgnT72bd85wQp9/QzsZ4XO183ji0cxsO+8H+gxoF6OdNr27pD2r6PObZ2ZyIVOXkaEdq+x01XTskfZKl7l07JF2i3C5ytmsTjeX/4T2i/A5e3bttWN/tF+Ez5XOZ0dW+7yza9ovwmdzn6rd0X6d4HP0upX82h3arxN8NvtC+9XJ59Pel4x3BO1XN6e/dnv18471V61JdXoX2q3uTr9JhT1mDe1VJ591cE1GeqV9ojG9QvtEc0pG5o3s5O2zZtenfaIZ6aZ6Tn+HTyJDMu2lW2i/TvTZrA3tmD4/S6dZVoX2rILPOz2inO3yrtCeZfe54z3/NbMzZuqG9iy7z9Wzev5sPdOe6fN4qs6yc8+0Z12djt5Lx/dzRWjHOjqdaS8nhnasi8/Z93dSaM/0WacjQ3vWwekse/S94B3L6PRTL6q8dyeE9iujz3SH2ZJxT1ehHdPn3D7PJnqukWfRnlX2ObrDFfua+bxiaM86eT3Tq5kL7VV3n0d7fvMs839oryr5rEf5Q3tVzWmTO7RTNOa6h7efEaFdyoAZS8auaHcyYuqFdiY7plZoXypg6oR2pQLVcrfvijPdhXakEqs7zZS7/WTcr+TE3Ic+I9H1yNDnIGd5vXqPdP9ypteRobuWHl5neG/ofqWPzyOu7VhDzqF67uah+xV9vsuT/dP9ij5f5en+6X6FIdKx2eeNrnG1Ft2n5OStYyN/P/NcERLdFRERERERERERERERERERERERERERERERERERERE5j99aUgNq4KUBAA==
   </data>
  </layer>
  <objectgroup color="#ffff00" name="magin" width="180" height="150" visible="0">
   <object x="3264" y="416" width="640" height="640"/>
+ </objectgroup>
+ <objectgroup color="#ff55ff" name="spawns" width="180" height="150">
+  <object name="Anjo(40)" type="spawn" x="416" y="384" width="4128" height="3808">
+   <properties>
+    <property name="amount" value="40"/>
+    <property name="delay1" value="300000"/>
+    <property name="id" value="1373"/>
+   </properties>
+  </object>
+  <object name="Arcanjo(20)" type="spawn" x="736" y="800" width="4128" height="3808">
+   <properties>
+    <property name="amount" value="20"/>
+    <property name="delay1" value="300000"/>
+    <property name="id" value="1374"/>
+   </properties>
+  </object>
+  <object name="dodo(7)" type="spawn" x="608" y="608" width="4128" height="3808">
+   <properties>
+    <property name="amount" value="7"/>
+    <property name="delay1" value="300000"/>
+    <property name="id" value="1375"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

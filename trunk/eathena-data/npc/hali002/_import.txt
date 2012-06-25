@@ -8,3 +8,4 @@ map: hali002.gat
 npc: npc/hali002/_mobs.txt
 npc: npc/hali002/_warps.txt
 
+npc: npc/hali002/marshall.conf
