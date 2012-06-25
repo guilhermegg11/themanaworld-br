@@ -9,4 +9,9 @@
 		</animation>
 	</action>
 
+	<action name="dead" imageset="base">
+		<animation direction="default">
+			<frame index="2" delay="1500"/>
+		</animation>
+	</action>
 </sprite>
