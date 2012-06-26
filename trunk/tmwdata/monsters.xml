@@ -658,12 +658,12 @@ Ou um comentário de alguem.
 
 <monster id="376" name="Guarda de Froz" summon="guardadefroz2">
 	<sprite>player_male_base.xml</sprite>
-	<sprite gender="male">leg-assassin-male.xml</sprite>
-	<sprite gender="male">feet-furboots-male.xml</sprite>
-	<sprite gender="male">hands-gloves-generic-male.xml</sprite>
+	<sprite>leg-assassin-male.xml</sprite>
+	<sprite>feet-furboots-male.xml</sprite>
+	<sprite>hands-gloves-generic-male.xml</sprite>
 	<sprite>hairstyle15.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
 	<sprite>weapon-lidersword.xml</sprite>
-	<sprite gender="male">chest-warlordplate-male.xml</sprite>
+	<sprite>chest-warlordplate-male.xml</sprite>
 	<sound event="hit">short-sword-hit2.ogg</sound>
 	<sound event="miss">knife-miss1.ogg</sound>
 	<sound event="die">short-sword-die1.ogg</sound>
@@ -671,6 +671,21 @@ Ou um comentário de alguem.
 
 <monster id="377" name="Idolo de Froz" summon="idolodefroz">
 	<sprite>npcs/npc-estatuas.xml</sprite>
+</monster>
+
+<monster id="378" name="Rei Gélido" summon="reigelido">
+	<sprite>player_male_base.xml</sprite>
+	<sprite>leg-assassin-male.xml</sprite>
+	<sprite>feet-furboots-male.xml</sprite>
+	<sprite>hands-gloves-generic-male.xml</sprite>
+	<sprite>hairstyle15.xml|#585858,A4A4A4,C0C0C0,ffffff</sprite>
+	<sprite>equipment/head/coroa-imperial.xml</sprite>
+	<sprite>weapon-lidersword.xml</sprite>
+	<sprite>chest-warlordplate-male.xml</sprite>
+	<sprite>equipment/charm/manta-imperial-male.xml</sprite>
+	<sound event="hit">short-sword-hit2.ogg</sound>
+	<sound event="miss">knife-miss1.ogg</sound>
+	<sound event="die">short-sword-die1.ogg</sound>
 </monster>
 
 </monsters>
