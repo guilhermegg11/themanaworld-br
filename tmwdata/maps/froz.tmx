@@ -159,21 +159,14 @@
     <property name="id" value="1368"/>
    </properties>
   </object>
-  <object name="Rato do Gelo(60)" type="spawn" x="1408" y="672" width="4160" height="1280">
+  <object name="Rato do Gelo(60)" type="spawn" x="1376" y="672" width="4160" height="1280">
    <properties>
     <property name="amount" value="60"/>
     <property name="id" value="1369"/>
    </properties>
   </object>
-  <object name="Guardas de Froz(40)" type="spawn" x="1376" y="704" width="4160" height="1280">
-   <properties>
-    <property name="amount" value="40"/>
-    <property name="delay1" value="60000"/>
-    <property name="id" value="1377"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup color="#00aa00" name="warps" width="200" height="140">
+ <objectgroup color="#00aa00" name="warps" width="200" height="140" visible="0">
   <object name="ParaFora" type="warp" x="2976" y="2240" width="64" height="32">
    <properties>
     <property name="map" value="froz"/>
@@ -336,7 +329,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="particle" width="0" height="0">
+ <objectgroup name="particle" width="0" height="0" visible="0">
   <object name="graphics/particles/snow2.particle.xml" type="PARTICLE_EFFECT" x="0" y="0" width="32" height="32"/>
   <object name="graphics/particles/small-green-bubbles.particle.xml" type="PARTICLE_EFFECT-off" x="3008" y="1632" width="32" height="32"/>
   <object name="graphics/particles/aura-negra.xml" type="PARTICLE_EFFECT" x="1141" y="1349"/>
@@ -359,7 +352,7 @@
   <object name="graphics/particles/aura-negra.xml" type="PARTICLE_EFFECT" x="4789" y="1509"/>
   <object name="graphics/particles/aura-negra.xml" type="PARTICLE_EFFECT" x="3669" y="1637"/>
  </objectgroup>
- <objectgroup name="magin" width="200" height="140">
+ <objectgroup name="magin" width="200" height="140" visible="0">
   <object x="0" y="3840" width="6400" height="640"/>
   <object x="0" y="3840" width="6400" height="640"/>
   <object x="0" y="0" width="640" height="4480"/>
