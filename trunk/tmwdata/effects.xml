@@ -57,4 +57,5 @@
 		audio="sfx/bmx/epic_soul_factory_-_02_titan.ogg" 
 		particle="graphics/particles/fire-explosion.xml"
 	/> <!-- Ao iniciar o ataque a uma Fortaleza! -->
+
 </being-effects>
