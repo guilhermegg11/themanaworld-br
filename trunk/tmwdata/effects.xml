@@ -50,11 +50,11 @@
 	<effect id="312" audio="sfx/nature-thunder.ogg" particle="graphics/particles/lightning-lunovox.xml"/> <!-- Um raio que incendeia o chão! -->
 	
 	<effect id="313" 
-		audio="sfx/bmx/epic_soul_factory_-_02_titan.ogg" 
-		particle="graphics/particles/fire-explosion.xml"
-	/> <!-- Arrebentar o Portão de Fortaleza! -->
-	<effect id="314" 
 		audio="sfx/door-close.ogg" 
 		particle="graphics/particles/fire-explosion.xml"
 	/> <!-- Fechar Portão de Fortaleza! -->
+	<effect id="314" 
+		audio="sfx/bmx/epic_soul_factory_-_02_titan.ogg" 
+		particle="graphics/particles/fire-explosion.xml"
+	/> <!-- Ao iniciar o ataque a uma Fortaleza! -->
 </being-effects>
