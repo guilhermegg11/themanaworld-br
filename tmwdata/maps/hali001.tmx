@@ -312,9 +312,11 @@
    <property name="file-MaquinaCacaNiqueis" value="MaquinaCacaNiqueis.conf"/>
    <property name="file-banco" value="banco.conf"/>
    <property name="file-enfermeira" value="enfermeira.conf"/>
+   <property name="file-evil" value="EvilAdventury.conf"/>
    <property name="file-fernando" value="fernando.conf"/>
    <property name="file-mackey" value="mackey.conf"/>
    <property name="file-malet" value="malet.conf"/>
+   <property name="file-pedro" value="pedro.conf"/>
   </properties>
  </objectgroup>
 </map>
