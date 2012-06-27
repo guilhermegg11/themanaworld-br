@@ -460,7 +460,7 @@
 		<sprite>weapon-lidersword.xml</sprite>
 		<sprite>chest-warlordplate-male.xml</sprite>
 	</npc>
-	<npc id="602"> <!-- Guarda de Gelo -->
+	<npc id="602"> <!-- Guarda de Froz -->
 		<sprite>player_male_base.xml</sprite>>
 		<sprite>leg-assassin-male.xml</sprite>
 		<sprite>feet-furboots-male.xml</sprite>
@@ -470,7 +470,7 @@
 		<sprite>weapon-lidersword.xml</sprite>
 		<sprite>chest-warlordplate-male.xml</sprite>
 	</npc>
-	<npc id="603">
+	<npc id="603"> <!-- Guarda de Halicarnazo -->
 		<sprite>rings-wings-demon.xml</sprite>
 		<sprite>monster-terranite.xml</sprite>
 		<sprite>equipment/leg/calca-cavaleiro-demoniaco-male.xml</sprite>
@@ -482,10 +482,22 @@
 		<particlefx>graphics/particles/magica-cartola.particle.xml</particlefx>
 		<particlefx>graphics/particles/pink-violent-glow.particle.xml</particlefx>
 	</npc>
-	<npc id="604">
+	<npc id="604"> <!-- Porta de Froz -->
 		<sprite>npcs/npc-PortaDeCastelo.xml</sprite>
 	</npc>
-	<npc id="605">
+	<npc id="605"> <!-- Estatua de Froz -->
 		<sprite variant="0">npcs/npc-estatuas.xml</sprite>
 	</npc>
+
+
+	<npc id="606"> <!-- Porta de Halicarnazo -->
+		<sprite>npcs/npc-PortaDeCastelo2.xml</sprite>
+	</npc>
+	<npc id="607"> <!-- Estatua de Halicarnazo -->
+		<sprite variant="0">npcs/npc-estatuas.xml</sprite>
+	</npc>
+
+
+
+
 </npcs>

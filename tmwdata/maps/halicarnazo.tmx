@@ -144,13 +144,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Limite" width="140" height="130" visible="0">
+ <objectgroup name="Limite" width="140" height="130">
   <object x="0" y="3520" width="4480" height="640"/>
   <object x="0" y="0" width="4480" height="640"/>
-  <object x="-16" y="616" width="640" height="2880"/>
+  <object x="0" y="640" width="640" height="2880"/>
   <object x="3840" y="640" width="640" height="2880"/>
  </objectgroup>
- <objectgroup color="#00ff00" name="warps" width="140" height="130">
+ <objectgroup color="#00ff00" name="warps" width="140" height="130" visible="0">
   <object name="warp" type="warp" x="1760" y="3488" width="96" height="32">
    <properties>
     <property name="map" value="org016"/>
