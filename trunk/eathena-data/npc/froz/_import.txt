@@ -9,9 +9,5 @@ npc: npc/froz/_mobs.txt
 npc: npc/froz/_warps.txt
 npc: npc/froz/_shops.txt
 
-npc: npc/froz/ares.conf
 npc: npc/froz/guardas.conf
 npc: npc/froz/idolos.conf
-npc: npc/froz/jeremias.conf
-npc: npc/froz/joseph.conf
-npc: npc/froz/MestreDosNinjas.conf

@@ -111,12 +111,8 @@
  </layer>
  <objectgroup color="#0000ff" name="scripts" width="200" height="140" visible="0">
   <properties>
-   <property name="file-ares" value="ares.conf"/>
    <property name="file-guardas" value="guardas.conf"/>
    <property name="file-idolos" value="idolos.conf"/>
-   <property name="file-jeremias" value="jeremias.conf"/>
-   <property name="file-joseph" value="joseph.conf"/>
-   <property name="file-mestreninja" value="MestreDosNinjas.conf"/>
   </properties>
  </objectgroup>
  <objectgroup color="#ffff00" name="spawns" width="200" height="140" visible="0">

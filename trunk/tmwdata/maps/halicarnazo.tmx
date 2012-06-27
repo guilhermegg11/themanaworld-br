@@ -381,10 +381,9 @@
  </objectgroup>
  <objectgroup name="scripts" width="140" height="130" visible="0">
   <properties>
-   <property name="file-Evil" value="EvilAdventury.conf"/>
    <property name="file-guarda" value="guardas.conf"/>
-   <property name="file-mest" value="MestreDosCavaleiros.conf"/>
-   <property name="file-pedro" value="pedro.conf"/>
+   <property name="file-idolos" value="idolos.conf"/>
+   <property name="file-mestre" value="MestreDosCavaleiros.conf"/>
   </properties>
  </objectgroup>
 </map>
