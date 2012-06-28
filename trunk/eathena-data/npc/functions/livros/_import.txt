@@ -1,0 +1,5 @@
+// This is the main script import file
+
+npc: npc/functions/livros/book_Cronica6Mestres.conf
+npc: npc/functions/livros/book_Grimoriums.conf
+
