@@ -1,82 +1,10 @@
-import: npc/000_Inicio/_import.txt
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de hali003.tmx
+///////////////////////////////////////////////////////////////////
 
-import: npc/001_vilaPescadores/_import.txt
-import: npc/001b_ilhaBhramir/_import.txt
-import: npc/001-1_casas/_import.txt
-import: npc/001-2_grutaEscura/_import.txt
-import: npc/001-3_caverna/_import.txt
+map: hali003.gat
 
-import: npc/002_fortaleza/_import.txt
-import: npc/002-01_salaPrincipal/_import.txt
-import: npc/002-02_quartoFeminino/_import.txt
-import: npc/002-03_quartoMasculino/_import.txt
-import: npc/002-04_escadaTerrea/_import.txt
-import: npc/002-05_escadaAndar1/_import.txt
-import: npc/002-06_escadaAndar2/_import.txt
-import: npc/002-07_cozinhaTrono/_import.txt
+npc: npc//_mobs.txt
+npc: npc//_warps.txt
 
-import: npc/004_IlhaFortaleza/_import.txt
-
-import: npc/005_Fortaleza/_import.txt
-import: npc/005-1_QuartelGeneral/_import.txt
-import: npc/005-2_PensaoBhramir/_import.txt
-import: npc/005-3_Estabelecimento/_import.txt
-import: npc/005-4_Igreja/_import.txt
-
-import: npc/007_PraiaPorto/_import.txt
-import: npc/007-1_CavernaEremita/_import.txt
-import: npc/007-2_CavernaAssombrada/_import.txt
-import: npc/007-3_CavernaMonstruosa/_import.txt
-import: npc/007-4_VilaPescadores/_import.txt
-
-import: npc/008_IlhaFortaleza/_import.txt
-import: npc/008-1_Caverna/_import.txt
-import: npc/008-2_Caverna/_import.txt
-import: npc/008-3_MinaAreia/_import.txt
-import: npc/008-4_MinaAreia/_import.txt
-import: npc/008-5_ArenaCombate/_import.txt
-import: npc/008-6_Caverna/_import.txt
-
-import: npc/009_IlhaFortaleza/_import.txt
-import: npc/009-1_CavernaMontanha/_import.txt
-import: npc/009-2_Caverna/_import.txt
-import: npc/009-3_ReinoLilit/_import.txt
-import: npc/009-4_casaFada/_import.txt
-
-import: npc/010_PoloNorte/_import.txt
-import: npc/010-1_CavernaCongelada/_import.txt
-import: npc/010-2_Estabelecimento/_import.txt
-import: npc/010-3_CavernaCongelada/_import.txt
-
-import: npc/011_submundo/_import.txt
-import: npc/012_floresta/_import.txt
-import: npc/013_florestaNegra/_import.txt
-import: npc/013-1_cavernaHalloween/_import.txt
-import: npc/013-2_casaMorgana/_import.txt
-
-import: npc/prisao/_import.txt
-import: npc/calabouco/_import.txt
-import: npc/navio/_import.txt
-import: npc/navio007/_import.txt
-import: npc/navio010/_import.txt
-import: npc/navio016/_import.txt
-
-import: npc/org016_terrasDesconhecidas/_import.txt
-import: npc/org016-1_cabana/_import.txt
-import: npc/org025_pantano/_import.txt
-//import: npc/org025-1_cavernaGato/_import.txt
-import: npc/org026_pantano/_import.txt
-import: npc/org027_cemiterio/_import.txt
-import: npc/org027-1_casaZelador/_import.txt
-
-//######## Reinos em guerra ########################
-import: npc/aeros/_import.txt
-import: npc/halicarnazo/_import.txt
-import: npc/hali001/_import.txt
-import: npc/hali002/_import.txt
-import: npc/froz/_import.txt
-import: npc/froz001/_import.txt
-import: npc/froz002/_import.txt
-//##################################################
-
-import: npc/evento/2010-12/_import.txt
