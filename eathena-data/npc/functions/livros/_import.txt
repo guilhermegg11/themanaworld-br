@@ -2,4 +2,5 @@
 
 npc: npc/functions/livros/book_Cronica6Mestres.conf
 npc: npc/functions/livros/book_Grimoriums.conf
+npc: npc/functions/livros/book_Halicarnazo.conf
 
