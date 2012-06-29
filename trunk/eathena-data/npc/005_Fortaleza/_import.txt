@@ -7,7 +7,6 @@ npc: npc/005_Fortaleza/_shops.txt
 npc: npc/005_Fortaleza/_warps.txt
 npc: npc/005_Fortaleza/alan.conf
 npc: npc/005_Fortaleza/anselmo.conf
-npc: npc/005_Fortaleza/ArautoPremiador.conf
 npc: npc/005_Fortaleza/elric.conf
 npc: npc/005_Fortaleza/crozue.conf
 npc: npc/005_Fortaleza/guardas.conf
