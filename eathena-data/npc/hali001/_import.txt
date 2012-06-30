@@ -14,6 +14,7 @@ npc: npc/hali001/banco.conf
 npc: npc/hali001/biblioteca.conf
 npc: npc/hali001/enfermeira.conf
 npc: npc/hali001/EvilAdventury.conf
+npc: npc/hali001/fernando.conf
 npc: npc/hali001/mackey.conf
 npc: npc/hali001/malet.conf
 npc: npc/hali001/pedro.conf
