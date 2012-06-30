@@ -5252,7 +5252,7 @@
 		weight="10"/>
 	<item id="3047"
 		image="weapon-axe-tomahawk.png"
-		name="Machadinha de Thomas Hawk"
+		name="Machadinha de Thomas Hawk ★☆☆"
 		description="Machadinha monodestra do Cacique Thomas Hawk"
 		effect="lvl 70, +150 Dano, +5 Defesa Mágica, 1 Alcance"
 		type="equip-1hand"
@@ -8323,5 +8323,15 @@
 		weight="10"
 		defense="5">
 		<sprite>head-aureola.xml</sprite>
+	</item>
+	<item id="3438"
+		image="weapon-axe-tomahawk.png"
+		name="Machadinha de Thomas Hawk"
+		description="Machadinha monodestra do Cacique Thomas Hawk"
+		effect="lvl 50, +91 Dano, 1 Alcance"
+		type="equip-1hand"
+		weapon-type="axe"
+		weight="1500">
+		<sprite>weapon-tomahawk.xml</sprite>
 	</item>
 </items>
