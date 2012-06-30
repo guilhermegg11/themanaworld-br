@@ -4,4 +4,4 @@ npc: npc/org016-1_cabana/_mobs.txt
 npc: npc/org016-1_cabana/_scripts.txt
 npc: npc/org016-1_cabana/_warps.txt
 
-npc: npc/org016-1_cabana/teleportador.conf
+//npc: npc/org016-1_cabana/teleportador.conf // ← NPC é conveniente d+ para o servidor. (O pessoal ta indo por $$$ e voltando por suicidio.)
