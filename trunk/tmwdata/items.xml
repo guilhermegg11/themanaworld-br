@@ -6482,7 +6482,7 @@
 	<item id="3212"
 		image="generic-grimorium-clerigo.png"
 		name="Grimorium Branco"
-		description="Contem Magias dos Deuses usado por Clérigos e Sacerdotizas."
+		description="Contem Magias dos Deuses usado por Paladinos e Sacerdotisas."
 		type="usable"
 		weight="1"
 	/>
