@@ -5,3 +5,4 @@ npc: npc/org016_terrasDesconhecidas/_scripts.txt
 npc: npc/org016_terrasDesconhecidas/_warps.txt
 
 npc: npc/org016_terrasDesconhecidas/guardadonavio.conf
+npc: npc/org016_terrasDesconhecidas/menir_alma.conf
