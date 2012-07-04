@@ -17,4 +17,4 @@ npc: npc/froz001/jeremias.conf
 npc: npc/froz001/joseph.conf
 npc: npc/froz001/MaquinaCacaNiqueis.conf
 npc: npc/froz001/MestreDosNinjas.conf
-
+npc: npc/froz001/saber.conf

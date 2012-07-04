@@ -18,3 +18,4 @@ npc: npc/hali001/fernando.conf
 npc: npc/hali001/mackey.conf
 npc: npc/hali001/malet.conf
 npc: npc/hali001/pedro.conf
+npc: npc/hali001/vadre.conf
