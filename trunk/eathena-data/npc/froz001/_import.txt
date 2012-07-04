@@ -9,6 +9,7 @@ npc: npc/froz001/_mobs.txt
 npc: npc/froz001/_warps.txt
 npc: npc/froz001/_shops.txt
 
+npc: npc/froz001/alicia.conf
 npc: npc/froz001/ares.conf
 npc: npc/froz001/banco.conf
 npc: npc/froz001/biblioteca.conf
@@ -17,4 +18,3 @@ npc: npc/froz001/jeremias.conf
 npc: npc/froz001/joseph.conf
 npc: npc/froz001/MaquinaCacaNiqueis.conf
 npc: npc/froz001/MestreDosNinjas.conf
-npc: npc/froz001/saber.conf

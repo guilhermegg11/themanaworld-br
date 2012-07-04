@@ -288,6 +288,7 @@
  </objectgroup>
  <objectgroup name="scripts" width="200" height="200">
   <properties>
+   <property name="file-alicia" value="alicia.conf"/>
    <property name="file-ares" value="ares.conf"/>
    <property name="file-banco" value="banco.conf"/>
    <property name="file-biblioteca" value="biblioteca.conf"/>
