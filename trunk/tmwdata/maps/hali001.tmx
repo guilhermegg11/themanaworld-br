@@ -319,6 +319,7 @@
    <property name="file-mackey" value="mackey.conf"/>
    <property name="file-malet" value="malet.conf"/>
    <property name="file-pedro" value="pedro.conf"/>
+   <property name="file-vadre" value="vadre.conf"/>
   </properties>
  </objectgroup>
 </map>

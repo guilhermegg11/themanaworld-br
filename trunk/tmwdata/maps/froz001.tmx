@@ -297,6 +297,7 @@
    <property name="file-joseph" value="joseph.conf"/>
    <property name="file-maq_c_niqueis" value="MaquinaCacaNiqueis.conf"/>
    <property name="file-mestreninja" value="MestreDosNinjas.conf"/>
+   <property name="file-saber" value="saber.conf"/>
   </properties>
  </objectgroup>
 </map>
