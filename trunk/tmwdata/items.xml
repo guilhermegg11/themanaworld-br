@@ -8334,4 +8334,12 @@
 		weight="1500">
 		<sprite>weapon-tomahawk.xml</sprite>
 	</item>
+	<item id="3439"
+		image="generic-gemstone-a.png|W:#10a0a0,ffffa0"
+		name="Cristal Boanerges"
+		description="Um pequeno e brilhante pedaço de cristal."
+		type="generic"
+		weight="5"
+	/>
+
 </items>
