@@ -995,9 +995,7 @@
 		effect="lvl 50"
 		type="equip-shield"
 		weight="2500"
-		defense="20">
-		<sprite>steel.xml</sprite>
-		</item>
+		defense="20"/>
 	<item id="602"
 		image="armor-shield-woodenshield.png"
 		name="Escudo de Madeira"
