@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="180" height="150" tilewidth="32" tileheight="32">
  <properties>
-  <property name="background0image" value="graphics/images/panorams/blue-sky.png"/>
+  <property name="background0image" value="graphics/images/panorams/seaofclouds.png"/>
   <property name="background0scrollX" value="0.2"/>
   <property name="background1parallax" value="1.0"/>
   <property name="folder" value="aeros"/>
