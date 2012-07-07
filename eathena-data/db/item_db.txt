@@ -1043,3 +1043,4 @@
 3443,CristalBoanergesMadeira,Cristal Boanerges de Madeira,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "bhramir"; },{}
 3444,CristalBoanergesAreia,Cristal Boanerges de Areia,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "halicarnazo"; },{}
 3445,CristalBoanergesGelo,Cristal Boanerges de Gelo,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "froz"; },{}
+3446,CoroadeThomasHawk,Coroa de Thomas Hawk,5,2000,1000,25,,5,,5,0,2,256,,0,0,{},{}

@@ -450,7 +450,7 @@
 		type="equip-1hand"
 		weapon-type="sword"
 		weight="2000">
-		<sprite>weapon-dagger-attack.xml</sprite>
+		<sprite>short.xml</sprite>
 	</item>
 	<item id="537"
 		image="generic-treasurekey.png"
@@ -749,7 +749,9 @@
 		effect="lvl 70, +150 Dano, 2 Alcance"
 		type="equip-2hand"
 		weapon-type="polearm"
-		weight="1500"/>
+		weight="1500">
+		<sprite>scorpion.xml</sprite>
+	</item>
 	<item id="575"
 		image="weapon-bow-desertbow.png"
 		name="Arco do deserto"
@@ -790,7 +792,7 @@
 		type="equip-1hand"
 		weapon-type="sword"
 		weight="1000">
-		<sprite>weapon-dagger-attack.xml</sprite>
+		<sprite>sandcutter.xml</sprite>
 	</item>
 	<item id="579"
 		image="weapon-dagger-rockknive.png"
@@ -842,7 +844,7 @@
 		type="equip-1hand"
 		weapon-type="sword"
 		weight="2000">
-		<sprite>weapon-dagger-attack.xml</sprite>
+		<sprite>jackal.xml</sprite>
 	</item>
 	<item id="585"
 		image="armor-hands-scarabarmlet.png"
@@ -993,7 +995,9 @@
 		effect="lvl 50"
 		type="equip-shield"
 		weight="2500"
-		defense="20"/>
+		defense="20">
+		<sprite>steel.xml</sprite>
+		</item>
 	<item id="602"
 		image="armor-shield-woodenshield.png"
 		name="Escudo de Madeira"
@@ -8383,5 +8387,15 @@
 		type="generic"
 		weight="5"
 	/>
+		<item id="3446"
+		image="armor-head-coroathomashawk.png"
+		name="Coroa de Thomas Hawk"
+		description="Uma coroa antes usada pelo cacique Thomas Hawk."
+		effect=""
+		type="equip-head"
+		weight="25"
+		defense="5">
+		<sprite>coroathomashawk.xml</sprite>
+	</item>
 
 </items>
