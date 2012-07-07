@@ -1,10 +1,58 @@
-//
-// Monstros do mapa: 011 Submundo
-// Script gerado automaticamente pela ferramenta TMW Converter...
-//
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 011.tmx
+///////////////////////////////////////////////////////////////////
 
+011.gat,110,36,48,22	monster	EspectroSombrio(10)	1347,10,60000,0,Mob011::On1347
+011.gat,59,88,71,29	monster	Lobo Negro(15)	1367,15,60000,0,Mob011::On1367
+011.gat,162,107,31,14	monster	Lobo Demoníaco(10)	1370,10,60000,0,Mob011::On1370
+011.gat,110,88,23,24	monster	Morte(10)	1313,10,60000,0,Mob011::On1313
+011.gat,33,31,22,15	monster	batholder(10)	1366,10,60000,0,Mob011::On1366
+011.gat,52,69,63,93	monster	Esqueleto Guerreiro(50)	1043,50,0,0,Mob011::On1043
+011.gat,147,69,63,99	monster	Guerreiro Caído(50)	1045,50,0,0,Mob011::On1045
+011.gat,100,59,162,34	monster	Lady Esqueleto(30)	1044,30,0,0,Mob011::On1044
 
 011.gat,0,0,0	script	Mob011	-1,{
 
-	end;
+On1347:
+	set @mobID, 1347;
+	callfunc "MobPoints";
+break;
+
+On1367:
+	set @mobID, 1367;
+	callfunc "MobPoints";
+break;
+
+On1370:
+	set @mobID, 1370;
+	callfunc "MobPoints";
+break;
+
+On1313:
+	set @mobID, 1313;
+	callfunc "MobPoints";
+break;
+
+On1366:
+	set @mobID, 1366;
+	callfunc "MobPoints";
+break;
+
+On1043:
+	set @mobID, 1043;
+	callfunc "MobPoints";
+break;
+
+On1045:
+	set @mobID, 1045;
+	callfunc "MobPoints";
+break;
+
+On1044:
+	set @mobID, 1044;
+	callfunc "MobPoints";
+break;
+
+end;
 }

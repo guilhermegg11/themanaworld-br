@@ -1,2 +1,9 @@
-// submundo Submundo warps
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 011.tmx
+///////////////////////////////////////////////////////////////////
 
+011.gat,115,111	warp	#Barreira2out	0,1,011.gat,112,110
+011.gat,113,111	warp	#Barreira2in	0,1,011.gat,116,110
+011.gat,90,109	warp	#Barreira1out	0,1,011.gat,93,108
+011.gat,92,109	warp	#Barreira1in	0,1,011.gat,89,108
