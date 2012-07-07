@@ -1036,4 +1036,10 @@
 3436,penadeanjo,Pena de Anjo,3,20,10,1,,,,,,,,,,,{},{}
 3437,aureola,Auréola,5,400,200,200,,2,,-2,0,2,256,,0,0,{},{}
 3438,machadinhaThomasHawk,Machadinha de Thomas Hawk,4,450000,4500,1500,91,,1,,0,2,2,1,50,1,{},{}
-3439,CristalBoanerges,Cristal Boanerges,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges"; },{}
+3439,CristalBoanergesDesenergizado,Cristal Boanerges Desenergizado,3,50000,10,1,,,,,,2,,,0,,{},{}
+3440,CristalBoanergesNuvem,Cristal Boanerges de Nuvem,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "aeros"; },{}
+3441,CristalBoanergesSangue,Cristal Boanerges de Sangue,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "hades"; },{}
+3442,CristalBoanergesFolha,Cristal Boanerges de Folha,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "lilit"; },{}
+3443,CristalBoanergesMadeira,Cristal Boanerges de Madeira,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "bhramir"; },{}
+3444,CristalBoanergesAreia,Cristal Boanerges de Areia,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "halicarnazo"; },{}
+3445,CristalBoanergesGelo,Cristal Boanerges de Gelo,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "froz"; },{}

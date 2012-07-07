@@ -425,7 +425,7 @@
   <object name="graphics/particles/geyser.particle.xml" type="PARTICLE_EFFECT" x="3602" y="1514"/>
   <object name="graphics/particles/geyser.particle.xml" type="PARTICLE_EFFECT" x="3410" y="1513"/>
   <object name="graphics/particles/aura-negra.xml" type="PARTICLE_EFFECT" x="1144" y="2263"/>
-  <object name="graphics/particles/hellblaze.particle.xml" type="PARTICLE_EFFECT" x="1804" y="1623"/>
+  <object name="graphics/particles/hellblaze.particle.xml" type="PARTICLE_EFFECT" x="1809" y="1618"/>
   <object name="graphics/particles/circulo-magico2.xml" type="PARTICLE_EFFECT" x="5264" y="1056" width="32" height="32"/>
   <object name="graphics/particles/wispdance.particle.xml" type="PARTICLE_EFFECT" x="5276" y="1148"/>
   <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT off" x="4574" y="1119"/>

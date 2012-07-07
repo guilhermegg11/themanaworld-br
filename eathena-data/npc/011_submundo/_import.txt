@@ -1,5 +1,11 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 011.tmx
+///////////////////////////////////////////////////////////////////
+
 map: 011.gat
+
 npc: npc/011_submundo/_mobs.txt
 npc: npc/011_submundo/_scripts.txt
 npc: npc/011_submundo/_warps.txt
-npc: npc/011_submundo/barqueiro.conf
+
