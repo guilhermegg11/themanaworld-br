@@ -155,6 +155,10 @@
 		<sound event="hit">short-sword-hit2.ogg</sound>
 		<sound event="miss">short-sword-miss1.ogg</sound>
 	</item>
+	<item id="41" type="weaponsprite" weapon_type="19">
+		<!--sprite>weapon-shield-tupiguarani.xml</sprite-->
+		<sprite>steel.xml</sprite>
+	</item>
 
 	<item id="501"
 		image="use-potion-a.png|G:#22ff22"
@@ -995,7 +999,10 @@
 		effect="lvl 50"
 		type="equip-shield"
 		weight="2500"
-		defense="20"/>
+		defense="20"
+	>
+		<sprite>steel.xml</sprite>
+	</item>
 	<item id="602"
 		image="armor-shield-woodenshield.png"
 		name="Escudo de Madeira"
