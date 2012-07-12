@@ -1,0 +1,8 @@
+// Item Functions
+npc: npc/functions/items/cristalBoanerges.conf
+npc: npc/functions/items/fragmento_menir.conf
+npc: npc/functions/items/presente_surpresa.conf
+npc: npc/functions/items/shock_sweet.conf
+npc: npc/functions/items/gema_teleporte.conf
+npc: npc/functions/items/gema_buff.conf
+
