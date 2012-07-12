@@ -94,26 +94,11 @@ follow: 40
 // Sets the speed you can walk/attack at. Default is 150.
 speed: 40
 
-// Enables you to view other characters stats.
-charstats: 40
-
-// Shows Stats Of All Characters Online
-charstatsall: 40
-
-// Display all items of a player (disabled due to reformed GM guidelines)
-charitemlist: 40
-
-// Display all items of a player's storage (disabled due to reformed GM guidelines)
-charstoragelist: 40
-
 // make yourself invisible to everyone
 invisible: 40
 
 // make yourself visible to everyone
 visible: 40
-
-// Sets another persons base level.
-charblvl: 40
 
 // Warps a character to you
 recall: 40
@@ -124,11 +109,8 @@ block: 40
 // To ban a player for a limited time
 ban: 40
 
-// Check which characters are online from a characters IP address
-ipcheck: 40
-
 //=====================================================================
-// GM 60 - ANIMADOR
+// GM 60 - GM em fase de teste
 //=====================================================================
 
 // Kills everyone on the map you are on.
@@ -163,7 +145,7 @@ kamib: 60
 local_broadcast: 60
 
 //=====================================================================
-// GM 80 - PRIME
+// GM 80 - GM Oficial
 //=====================================================================
 
 // Returns list of logged in characters with their party/guild.
@@ -196,12 +178,27 @@ partyrecall: 80
 // ??
 itemcheck: 80
 
+// Enables you to view other characters stats.
+charstats: 80
+
+// Shows Stats Of All Characters Online
+charstatsall: 80
+
+// Display all items of a player (disabled due to reformed GM guidelines)
+charitemlist: 80
+
+// Display all items of a player's storage (disabled due to reformed GM guidelines)
+charstoragelist: 80
+
+// Check which characters are online from a characters IP address
+ipcheck: 80
+
 //=====================================================================
 // GM 99 - ADMINISTRADOR
 //=====================================================================
 
-//-------------------------
-// 40: "Dev"
+// Sets another persons base level.
+charblvl: 99
 
 // Suicide your character.
 die: 99
