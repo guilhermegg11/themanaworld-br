@@ -68,12 +68,12 @@
    H4sIAAAAAAAAA+3YyQ3CQBBE0fawBcOSBIg0CJotCLYUKIkIfMGy/J70763SnKYKoOrcVV3SNd3SvRv6onF5ZK9neqV3+tivl1mrmqdFWqZVG/oiAABgik5DHzAy9uLfvLn+1q1qk7Zp57+lt302O7Tf2zvaDwAAAAAAAAAAmJAvzFkmjYA+AAA=
   </data>
  </layer>
- <layer name="Collision" width="140" height="130" visible="0">
+ <layer name="collision" width="140" height="130" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+2TWarsMAxEw93/ot9XQ/CTrMGDnOQUHEg61mCp+u+6rj8AAAAAAAAAAAAAAAAAAAAAAAAAAACAQe6q7gXORlJ1T3Aukqp7grORVN0TnIuk6p7gTCRV9wTnoam6L62/6n6+jKXq/n49Ss9QT6vqfk7t6etIqu5J6626H5BV3ZPWW3U/cM5upPrab9Wz+iJX8yxJ26l371Gv9Hrr9Vo9yy8wS5Gdr1L1LL+AdwcnydNT9VzfhqX7OSlu1EeRnXvzafGwxzPt3L3fJK9ZeSKKeAjmeqW3715sJs6qO0vVs30bM2btydE+S+8zJNWDvd7xnF+x+56yPcNaz8zIc/8t4iuPlz2xsNc3lXWv5pvln+q5fZGedtbTvlnx1fP7KppW1Wh/k75rvazq7y3sms/KvUi5pWfLW/jF75VWT6jhlTdW89/X6WlXvZk5s/e6rn6u6j2dgkdP8Ey71/bZU6c9c13/5/oqXu2sH4kZuVe0J29/bySrin7uZ6LnM3fQYiI53sSIdvQV3bcnJnIHKd9X/TJDK/uxdhbZcbZf7c6rZnAqHllnK/qadacZfqne4Wl+iWhFP9q3kfvN9Es25xPxzjOilb5tz4/eMZun99vX6c1I02g9T62ZPsz0PRr/Nq7mWXqfNTNvrpF6Hs2az9fwzNJSdubab9EaEc2aU/XeTiMjyxujsSO9SXksT0f+U2DPbKY0v1rv3jPeetl+YWyed/X26c3v8UlWWp5e/up9PAHP3CxF6kT2mNm51aPnDOQ9o71r8/Xk8n6L9GN5S+pTegb/XjV59h3Zg5ZXy9GrZeXpxWnfwe8Za9dRr7U5Z8Z6PGXVrd7B6XgUydXm1er1dqvVz/ST6QnyXunNMnK+l0fzzY673r9X7+NkvBr1mZUr6quRO0a/Q073WO1Zem9/r7hn7137Bn7vSPPMeM2KqdqV1Q/Edy6d1eIjvrBy7Lp7737g80rEI974yPkT7g7yTnozs8615zM+q5xDr1/w7X5UEe9ou6uaQ/VeTscjz1nvHqLa6adVed/KLGl5o3W857N79+SCPZ7JapV3vbmr5/8UVkuqU+XVXr3qPZzOyGxnSerJqpvtC6+s88oKtbV77zu9en8G3SujO8nEz+6hl8Obu3ofJ2PNUjpvzT27c0+tGX7y1AOfb6zZrpZUZ0ft6vk/lehcre+9vD1v9HqZ7Z/qmT8Ra4a9OXtn3sZYas/O8km0b+jvUtrLqhl7ZHk6o+p5Px1pljvn3FPGY1qO1ff4Er25avL6IOOTbGzve/WM34Q2796eMvuXanjORmto8TDfM555t9+1d+23rLI+h3Wesfbr2b+UL1JDi7NUPb+v0+5B2s2sPUm5rT5m9wDzdmf91n6b6Rd4Lq1W5K2+I5zPXdW9wPncVd0LnM9d1b3A+dxV3QvM3+lPK3JX3xPm7lTa8dWJi+QezQPn0O7UI/zyXdpdRoRfvodXGQ9EzsJzsZTJU30n2M9P0fORGHgPP0XPR2LgPUSEX2BE1b0DfoF3cVd1LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS/wDk7nCTYBwBAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
+ <objectgroup name="Objects" width="0" height="0" visible="0">
   <object name="Trevos (2)" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
