@@ -2,7 +2,7 @@
 <map version="1.0" orientation="orthogonal" width="140" height="130" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="/graphics/minimaps/halicarnazo.png"/>
-  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="music-off" value="The Mana World - The Forest.ogg"/>
   <property name="name" value="Halicarnazo"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
@@ -86,7 +86,7 @@
    H4sIAAAAAAAAA+3UoQ2AQBBE0QtYSrgqkMjriP4N4JCgNgPvVbDJ/kxrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECyZa6+gBRXK6teeKifrexT9RUkSNqWEXLnl/WgH2xNM5WStuVOMzWStoVaqdtCDdvCG3oBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgrw4RZMEuYBwBAA==
   </data>
  </layer>
- <layer name="collision" width="140" height="130" opacity="0.45">
+ <layer name="collision" width="140" height="130" visible="0" opacity="0.45">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+2UWa7jMAwEjdz/0PP1AEOjhZtEKqkGCjFimWvbn+d5PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB3gK1PBXx6gWjyJjefJ+C1V6m83Zo8ja3jFP5K1Ipd5GtVgVWZcmZ2Tuaqx68/Qufbadd/v807mW6rRfIvNWZNSbdgZSRe/Fksc6o6z8lRj1pp1BhCI9Ez2jzPyVGPWmnUGEbvPL6t438kyuRzOImMcofpRO+OVU/kp4FZn/01x74mXPKHuvGX75NL+auWhn1ubBLzWZ9br67xn8t9LOfVufnz2z6tXqqTbGDVj6lsxQGuekXyoqe/8ev1j79dz/O/OLfsnefUW/eOJafBSVW3M2YgfZPjjtl1Pvb5XvRPT8s31g8Yt0F22fvyTJDK2zvwHJfDz3T+jkt201O++7mu0Hr19WitzVLJbk3i7faGZmmX17XRmvvO9FRP5RnKiaVvesOSNrxi+y3Kf8YqnpG/2imdns7G6/SGN8hM/gl737Wik6f0T93po+zW8vviTn6v+Imm/zTGTuqDojaoqckUTZXrDuTbuv0VlPXq1Gu7bWFP1O9er9vK4ltVWi7UOz59lMNGd37qfN5alFW6Pknez9V5m23llv0XvVxtzpKWt/lvM3+0U6p5N5d3nSM4NTXr2FrN48qlSLR9m7v2VOVlXsz1NL9v6jfXTCm6u9RseLlnYGvevbsczC6peRouJE9dHGmcWW5IyqqwLvWUTOW6oIj8zi7ZiRNv+uujL9ItUuv2jOe+vT7lGae3Yme89R87Ao2i/efLveDWuto/+r4611NhPtcz0PS7XLKzs898t+2b2b972ZdtYUrVv9kl2rZF5S4Rf8MjrTk9YD3rMneq+Gpd6o3qTz6p3r6Wa/ZPvAszeJJM+vfGbVym+SPBFnNfP9Jr/0atdK+kyUX75J2buP8Exl3VRrq9l38UZu0MmaT8S/GU2fWVrVXsn3q1qy913l+3JqZ6teTntH+87dzq26sZ/sXd8M8wSAXfSUXRPY9tZKcxaNlb3rE16xzAP1lb3vbI+c8Mcox43ezN59Fd/MdONedyl759W9gv5X9u7xy33K3r/HNzf751b/Z++92vfFk2f27K3+aJW9f69XKu2gUi07le2DSt8XJFO2D/DMfcr2gcUzeChP2R6I+r7gn/3K9kCkX9AZZftA6pWRb/CTXqt5je5n+8D6XcEf55XtA49f0F7d/H1paz/lozaPJq+1/ve90fUOrWJn73/Ht2Z0dhXL4wtJPZp6Z/9F55c834t3A6sZrP7f7dWVejGi852o/yYs/UX024vnqUVSkzanpRdtT9n73+Gf0bxXMXoxPR4Z1SXxsTd29Ex35cr0ibbPTM08Y411ar7Zuz/tm4rSvtvv6xPzzd7zt/mlt0ftc9Kz4PNLpHdmcUd5es/s9HT2zL+Bp7m2SJJDGyta2XO+ndVcJfcjPBLp21Fs2OeXR3lmFn+Vs/e/1Xfa+kDvl9G1ZO7ancwkfTYiFsT5ZzXz2W56z0kV4TlLPIj1TYRWXntfe2rNntuv05P0OY0Hs/uEXJ7FvVbZ9UJd3squBerzVnYtUJ+3smsBAAAAAAAAAAAAAAAAAAAAAAAAAAAA0PIPYXofAWAcAQA=
   </data>
@@ -144,7 +144,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Limite" width="140" height="130">
+ <objectgroup name="Limite" width="140" height="130" visible="0">
   <object x="0" y="3520" width="4480" height="640"/>
   <object x="0" y="0" width="4480" height="640"/>
   <object x="0" y="640" width="640" height="2880"/>
