@@ -3,6 +3,7 @@
 //   → Arquivo compilado apartir de halicarnazo.tmx
 ///////////////////////////////////////////////////////////////////
 
+halicarnazo.gat,113,89,9,8	monster	Borboleta (10)	1055,10,30,20,Mobhalicarnazo::On1055
 halicarnazo.gat,66,37,57,22	monster	vermeGigante(5)	1006,5,0,0,Mobhalicarnazo::On1006
 halicarnazo.gat,69,28,100,44	monster	verme(15)	1002,15,0,0,Mobhalicarnazo::On1002
 halicarnazo.gat,56,60,15,13	monster	Limodeareia(5)	1352,5,0,0,Mobhalicarnazo::On1352
@@ -11,8 +12,14 @@ halicarnazo.gat,28,29,16,17	monster	morcego(3)	1017,3,60000,60000,Mobhalicarnazo
 halicarnazo.gat,65,51,47,28	monster	trasgodefogo(9)	1011,9,0,0,Mobhalicarnazo::On1011
 halicarnazo.gat,56,99,71,15	monster	morcego(7)	1017,7,60000,60000,Mobhalicarnazo::On1017
 halicarnazo.gat,69,28,100,44	monster	verme(30)	1002,30,0,0,Mobhalicarnazo::On1002
+halicarnazo.gat,57,101,8,11	monster	Trevos (2)	1037,2,100000,30000,Mobhalicarnazo::On1037
 
 halicarnazo.gat,0,0,0	script	Mobhalicarnazo	-1,{
+
+On1055:
+	set @mobID, 1055;
+	callfunc "MobPoints";
+break;
 
 On1006:
 	set @mobID, 1006;
@@ -41,6 +48,11 @@ break;
 
 On1011:
 	set @mobID, 1011;
+	callfunc "MobPoints";
+break;
+
+On1037:
+	set @mobID, 1037;
 	callfunc "MobPoints";
 break;
 
