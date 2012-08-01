@@ -1,3 +1,8 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de navio016.tmx
+///////////////////////////////////////////////////////////////////
+
 map: navio016.gat
 
 npc: npc/navio016/_mobs.txt
@@ -5,3 +10,4 @@ npc: npc/navio016/_scripts.txt
 npc: npc/navio016/_warps.txt
 
 npc: npc/navio016/capitao_mirc.conf
+npc: npc/navio016/object_saver.conf

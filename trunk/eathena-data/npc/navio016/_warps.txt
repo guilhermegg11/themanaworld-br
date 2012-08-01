@@ -1,4 +1,7 @@
-// navio016 Navio Intercontinental warps
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de navio016.tmx
+///////////////////////////////////////////////////////////////////
 
-navio016.gat,20,25	warp	sairCapitao	-1,0,org016.gat,52,101
-navio016.gat,51,24	warp	sairConves	-1,0,org016.gat,41,100
+navio016.gat,51,24	warp	sairConves	0,1,org016.gat,41,100
+navio016.gat,20,25	warp	sairCapitao	0,1,org016.gat,52,101
