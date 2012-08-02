@@ -12,7 +12,7 @@ npc: npc/hali001/_shops.txt
 npc: npc/hali001/MaquinaCacaNiqueis.conf
 npc: npc/hali001/banco.conf
 npc: npc/hali001/biblioteca.conf
-npc: npc/hali001/enfermeira.conf
+npc: npc/hali001/enfermeiras.conf
 npc: npc/hali001/EvilAdventury.conf
 npc: npc/hali001/fernando.conf
 npc: npc/hali001/josefina.conf

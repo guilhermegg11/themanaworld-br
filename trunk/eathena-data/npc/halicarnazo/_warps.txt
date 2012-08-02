@@ -4,7 +4,6 @@
 ///////////////////////////////////////////////////////////////////
 
 halicarnazo.gat,56,109	warp	warp	2,0,org016.gat,56,20
-halicarnazo.gat,55,70	warp	parafora	3,-1,halicarnazo.gat,56,72
 halicarnazo.gat,110,54	warp	para2ºandar	-1,-1,hali001.gat,42,64
 halicarnazo.gat,93,56	warp	paracasa	0,0,hali001.gat,175,57
 halicarnazo.gat,117,47	warp	Paracasinha1	-1,-1,hali001.gat,176,81

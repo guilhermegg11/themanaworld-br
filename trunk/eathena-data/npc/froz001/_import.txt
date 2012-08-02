@@ -13,7 +13,7 @@ npc: npc/froz001/alicia.conf
 npc: npc/froz001/ares.conf
 npc: npc/froz001/banco.conf
 npc: npc/froz001/biblioteca.conf
-npc: npc/froz001/enfermeira.conf
+npc: npc/froz001/enfermeiras.conf
 npc: npc/froz001/jeremias.conf
 npc: npc/froz001/joseph.conf
 npc: npc/froz001/MaquinaCacaNiqueis.conf

@@ -97,7 +97,7 @@
   <object x="0" y="640" width="640" height="2880"/>
   <object x="3840" y="640" width="640" height="2880"/>
  </objectgroup>
- <objectgroup color="#00ff00" name="warps" width="140" height="130" visible="0">
+ <objectgroup color="#00ff00" name="warps" width="140" height="130">
   <object name="warp" type="warp" x="1760" y="3488" width="96" height="32">
    <properties>
     <property name="map" value="org016"/>
@@ -105,7 +105,7 @@
     <property name="y" value="20"/>
    </properties>
   </object>
-  <object name="parafora" type="warp" x="1727" y="2248" width="156" height="25">
+  <object name="parafora" type="-warp" x="1727" y="2248" width="156" height="25">
    <properties>
     <property name="map" value="halicarnazo"/>
     <property name="x" value="56"/>

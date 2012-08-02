@@ -3,7 +3,6 @@
 //   → Arquivo compilado apartir de froz.tmx
 ///////////////////////////////////////////////////////////////////
 
-froz.gat,94,70	warp	ParaFora	1,0,froz.gat,93,73
 froz.gat,93,119	warp	to010	2,0,010.gat,93,21
 froz.gat,24,46	warp	toCavernaOeste	0,0,froz002.gat,121,79
 froz.gat,160,49	warp	paracasinha1	0,0,froz001.gat,175,28
