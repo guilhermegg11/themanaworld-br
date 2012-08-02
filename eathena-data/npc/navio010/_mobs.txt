@@ -1,10 +1,16 @@
-//
-// Monstros do mapa: navio010 Navio Intercontinental
-// Script gerado automaticamente pela ferramenta TMW Converter...
-//
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de navio010.tmx
+///////////////////////////////////////////////////////////////////
 
+navio010.gat,58,26,10,6	monster	Rato(2)	1323,2,10000,0,Mobnavio010::On1323
 
 navio010.gat,0,0,0	script	Mobnavio010	-1,{
 
-	end;
+On1323:
+	set @mobID, 1323;
+	callfunc "MobPoints";
+break;
+
+end;
 }
