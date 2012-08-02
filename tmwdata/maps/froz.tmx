@@ -197,8 +197,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#00aa00" name="warps" width="200" height="140" visible="0">
-  <object name="ParaFora" type="warp" x="2976" y="2240" width="64" height="32">
+ <objectgroup color="#00aa00" name="warps" width="200" height="140">
+  <object name="ParaFora" type="warp-off" x="2976" y="2240" width="64" height="32">
    <properties>
     <property name="map" value="froz"/>
     <property name="x" value="93"/>
