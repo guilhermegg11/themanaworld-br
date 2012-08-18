@@ -1044,30 +1044,3 @@
 3444,CristalBoanergesAreia,Cristal Boanerges de Areia,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "halicarnazo"; },{}
 3445,CristalBoanergesGelo,Cristal Boanerges de Gelo,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "froz"; },{}
 3446,CoroadeThomasHawk,Coroa de Thomas Hawk,5,2000,1000,25,,5,,5,0,2,256,,0,0,{},{}
-3447,EspadaImortal1,Espada dos Imortal,4,300000,150000,360,235,,1,,0,2,2,1,90,1,{},{}
-3448,EspadaImortal2,Espada dos Imortal,4,300000,150000,360,245,,1,,0,2,2,1,90,1,{},{}
-3449,EspadaImortal3,Espada dos Imortal,4,300000,150000,360,255,,1,,0,2,2,1,90,1,{},{}
-3450,EspadaImortal4,Espada dos Imortal,4,300000,150000,360,265,,1,,0,2,2,1,90,1,{},{}
-3451,EspadaImortal5,Espada dos Imortal,4,300000,150000,360,275,,1,,0,2,2,1,90,1,{},{}
-3452,EspadaImortal6,Espada dos Imortal,4,300000,150000,360,285,,1,,0,2,2,1,90,1,{},{}
-3453,EspadaImortal7,Espada dos Imortal,4,300000,150000,360,295,,1,,0,2,2,1,90,1,{},{}
-3454,EspadaImortal8,Espada dos Imortal,4,300000,150000,360,305,,1,,0,2,2,1,90,1,{},{}
-3455,EspadaImortal9,Espada dos Imortal,4,300000,150000,360,315,,1,,0,2,2,1,90,1,{},{}
-3456,EspadaKurogane1,Espada de Kurogane,4,250000,125000,320,210,,1,,0,2,2,1,85,1,{},{}
-3457,EspadaKurogane2,Espada de Kurogane,4,250000,125000,320,220,,1,,0,2,2,1,85,1,{},{}
-3458,EspadaKurogane3,Espada de Kurogane,4,250000,125000,320,230,,1,,0,2,2,1,85,1,{},{}
-3459,EspadaKurogane4,Espada de Kurogane,4,250000,125000,320,240,,1,,0,2,2,1,85,1,{},{}
-3460,EspadaKurogane5,Espada de Kurogane,4,250000,125000,320,250,,1,,0,2,2,1,85,1,{},{}
-3461,EspadaKurogane6,Espada de Kurogane,4,250000,125000,320,260,,1,,0,2,2,1,85,1,{},{}
-3462,EspadaKurogane7,Espada de Kurogane,4,250000,125000,320,270,,1,,0,2,2,1,85,1,{},{}
-3463,EspadaKurogane8,Espada de Kurogane,4,250000,125000,320,280,,1,,0,2,2,1,85,1,{},{}
-3464,EspadaKurogane9,Espada de Kurogane,4,250000,125000,320,290,,1,,0,2,2,1,85,1,{},{}
-3465,EspadaMiguelArcanjo1,Espada Miguel Arcanjo,4,200000,100000,345,185,,1,,0,2,2,1,80,1,{},{}
-3466,EspadaMiguelArcanjo2,Espada Miguel Arcanjo,4,200000,100000,345,195,,1,,0,2,2,1,80,1,{},{}
-3467,EspadaMiguelArcanjo3,Espada Miguel Arcanjo,4,200000,100000,345,205,,1,,0,2,2,1,80,1,{},{}
-3468,EspadaMiguelArcanjo4,Espada Miguel Arcanjo,4,200000,100000,345,215,,1,,0,2,2,1,80,1,{},{}
-3469,EspadaMiguelArcanjo5,Espada Miguel Arcanjo,4,200000,100000,345,225,,1,,0,2,2,1,80,1,{},{}
-3470,EspadaMiguelArcanjo6,Espada Miguel Arcanjo,4,200000,100000,345,235,,1,,0,2,2,1,80,1,{},{}
-3471,EspadaMiguelArcanjo7,Espada Miguel Arcanjo,4,200000,100000,345,245,,1,,0,2,2,1,80,1,{},{}
-3472,EspadaMiguelArcanjo8,Espada Miguel Arcanjo,4,200000,100000,345,255,,1,,0,2,2,1,80,1,{},{}
-3473,EspadaMiguelArcanjo9,Espada Miguel Arcanjo,4,200000,100000,345,265,,1,,0,2,2,1,80,1,{},{}
