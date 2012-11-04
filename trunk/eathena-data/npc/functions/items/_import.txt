@@ -1,5 +1,5 @@
 // Item Functions
-npc: npc/functions/items/cristalBoanerges.conf
+npc: npc/functions/items/cristalWarp.conf
 npc: npc/functions/items/fragmento_menir.conf
 npc: npc/functions/items/presente_surpresa.conf
 npc: npc/functions/items/shock_sweet.conf
