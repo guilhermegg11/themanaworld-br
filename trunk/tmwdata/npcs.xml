@@ -497,7 +497,9 @@
 		<sprite variant="0">npcs/npc-estatuas.xml</sprite>
 	</npc>
 
-
+	<npc id="608"> <!-- Brilho Escondido -->
+		<particlefx>graphics/particles/material-oculto.xml</particlefx>
+	</npc>
 
 
 </npcs>
