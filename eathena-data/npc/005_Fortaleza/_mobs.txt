@@ -1,36 +1,36 @@
-//
-// Monstros do mapa: 005 Fortaleza
-// Script gerado automaticamente pela ferramenta TMW Converter...
-//
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 005.tmx
+///////////////////////////////////////////////////////////////////
 
-005.gat,45,116,40,6	monster	Bicho-da-seda (5)	1035,5,0,0,Mob005::On1035
-005.gat,42,115,31,8	monster	Morcego (3)	1017,3,0,0,Mob005::On1017
-005.gat,154,116,40,6	monster	Bicho-da-seda (5)	1035,5,0,0,Mob005::On1035
-005.gat,78,33,24,22	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
-005.gat,120,30,24,17	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
-005.gat,161,86,23,31	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
-005.gat,79,97,24,13	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
-005.gat,39,96,30,13	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
-005.gat,35,41,20,31	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
-005.gat,136,30,3,17	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
-005.gat,142,77,14,23	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+005.gat,39,97,31,14	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+005.gat,35,42,21,32	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+005.gat,78,33,25,23	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,120,31,25,18	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,137,31,4,18	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+005.gat,142,78,15,24	monster	Esquilo (10)	1038,10,0,0,Mob005::On1038
+005.gat,162,87,24,32	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,79,98,25,14	monster	Bixo-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,43,115,32,9	monster	Morcego (3)	1017,3,0,0,Mob005::On1017
+005.gat,45,116,41,7	monster	Bicho-da-seda (5)	1035,5,0,0,Mob005::On1035
+005.gat,154,116,41,7	monster	Bicho-da-seda (5)	1035,5,0,0,Mob005::On1035
 
 005.gat,0,0,0	script	Mob005	-1,{
-
-On1017:
-	set @mobID, 1017;
-	callfunc "MobPoints";
-	break;
-
-On1035:
-	set @mobID, 1035;
-	callfunc "MobPoints";
-	break;
 
 On1038:
 	set @mobID, 1038;
 	callfunc "MobPoints";
-	break;
+break;
 
-	end;
+On1035:
+	set @mobID, 1035;
+	callfunc "MobPoints";
+break;
+
+On1017:
+	set @mobID, 1017;
+	callfunc "MobPoints";
+break;
+
+end;
 }

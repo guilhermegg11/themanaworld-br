@@ -22,6 +22,6 @@ npc: npc/005_Fortaleza/portoes.conf
 npc: npc/005_Fortaleza/raul.conf
 //npc: npc/005_Fortaleza/teleportador.conf // ← NPC é conveniente d+ para o servidor. (O pessoal ta indo por $$$ e voltando por suicidio.)
 npc: npc/005_Fortaleza/valdete.conf
-npc: npc/005_Fortaleza/warps_pensao.conf
+//npc: npc/005_Fortaleza/warps_pensao.conf
 npc: npc/005_Fortaleza/MestreDosPaladinos.conf
 npc: npc/005_Fortaleza/controleentrada.conf

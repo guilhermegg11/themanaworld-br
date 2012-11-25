@@ -1,8 +1,18 @@
-// 005-3 Estabelecimento warps
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 005-3.tmx
+///////////////////////////////////////////////////////////////////
 
-005-3.gat,24,155	warp	sairBar1	-1,-1,005.gat,25,94
-005-3.gat,35,145	warp	sairBar2	-1,-1,005.gat,31,88
-005-3.gat,46,155	warp	sairBar3	-1,-1,005.gat,38,94
-005-3.gat,50,143	warp	sairBar4	-1,-1,005.gat,40,87
-005-3.gat,72,22	warp	sairBanco1	0,-1,005.gat,61,25
-005-3.gat,86,22	warp	sairBanco2	0,-1,005.gat,70,25
+005-3.gat,38,48	warp	HB_Corredor1	1,0,005-3.gat,82,53
+005-3.gat,82,54	warp	HB_Saguão	1,-1,005-3.gat,37,49
+005-3.gat,29,55	warp	HB_Saida	1,-1,005.gat,48,25
+005-3.gat,35,145	warp	sairBar2	0,-1,005.gat,31,88
+005-3.gat,50,143	warp	sairBar4	-1,0,005.gat,39,87
+005-3.gat,46,155	warp	sairBar3	0,-1,005.gat,38,94
+005-3.gat,24,155	warp	sairBar1	0,-1,005.gat,25,94
+005-3.gat,86,22	warp	BancoSaida2	1,-1,005.gat,70,26
+005-3.gat,72,22	warp	BancoSaida1	1,-1,005.gat,61,26
+005-3.gat,82,49	warp	HB_Corredor2	1,0,005-3.gat,82,83
+005-3.gat,82,84	warp	HB_Corredor1	1,-1,005-3.gat,82,50
+005-3.gat,82,79	warp	HB_Corredor3	1,0,005-3.gat,33,85
+005-3.gat,33,86	warp	HB_Corredor2	1,-1,005-3.gat,82,80
