@@ -1,10 +1,5 @@
-//
-// Monstros do mapa: 005-3 Estabelecimento
-// Script gerado automaticamente pela ferramenta TMW Converter...
-//
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 005-3.tmx
+///////////////////////////////////////////////////////////////////
 
-
-005-3.gat,0,0,0	script	Mob005-3	-1,{
-
-	end;
-}
