@@ -10,8 +10,8 @@ npc: npc/005-3_Estabelecimento/_scripts.txt
 npc: npc/005-3_Estabelecimento/_warps.txt
 npc: npc/005-3_Estabelecimento/_shops.txt
 
-npc: npc/005-3_Estabelecimento/agirrab.conf
 npc: npc/005-3_Estabelecimento/banco.conf
 npc: npc/005-3_Estabelecimento/hotel.conf
+npc: npc/005-3_Estabelecimento/hoteleiro.conf
 npc: npc/005-3_Estabelecimento/ibegye.conf
 npc: npc/005-3_Estabelecimento/MaquinaCacaNiqueis.conf
