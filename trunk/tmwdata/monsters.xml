@@ -749,4 +749,16 @@ Ou um comentário de alguem.
 	<sound event="die">short-sword-die1.ogg</sound>
 </monster>
 
+<monster id="384" name="Trasgo de Fogo Mutante (M.Boss)" summon="trasgodefogo">
+<sprite>monster-goblin-fire2.xml</sprite>
+<sound event="hit">fire-goblin-hit1.ogg</sound>
+<sound event="hit">fire-goblin-hit2.ogg</sound>
+<sound event="miss">fire-goblin-miss1.ogg</sound>
+</monster>
+
+<monster id="385" name="Cogumelo Mutante (M.Boss)" summon="cogumelo">
+<sprite>monster-mushroom-spiky2.xml</sprite>
+<sound event="hit">shroom-hit1.ogg</sound>
+</monster>
+
 </monsters>
