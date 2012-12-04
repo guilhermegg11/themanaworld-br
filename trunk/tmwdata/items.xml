@@ -5093,6 +5093,7 @@
 	<item id="3028"
 		image="use-food-xmascake.png"
 		name="Torta de Maçã"
+
 		description="Uma fatia de uma deliciosa torta de maçã."
 		effect=""
 		type="usable"
@@ -5929,6 +5930,7 @@
 		type="generic"
 		weight="1"/>
 -->
+
 	<item id="3134"
 		image="generic-ore.png|W:#334422,556644,778866"
 		name="Minério de Cobre"
@@ -8401,6 +8403,16 @@
 		weight="25"
 		defense="5">
 		<sprite>coroathomashawk.xml</sprite>
+	</item>
+	<item id="3447"
+		image="weapon-dagger-twinblade.png"
+		name="Twin Blade"
+		description="Espada dupla para bidestros."
+		effect="lvl 50, +183 Dano, 1 Alcance, 2 Mãos"
+		type="equip-2hand"
+		weapon-type="sword"
+		weight="1200">
+		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
 
 </items>
