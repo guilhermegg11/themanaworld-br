@@ -741,6 +741,7 @@
 3143,bilhetemagico,bilheteMagico,3,500,10,1,,,,,,,,,,,{},{}
 3144,AnelDemonio,Anel do Demônio,5,16000,8000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
 3145,AnelDragaoVerde,Anel do Dragão Verde,5,32000,16000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 40; }
+
 3146,TeiaDeAranha,Teia de Aranha,3,300,100,5,,,,,,,,,,,{},{}
 3147,chave1009,Chave nº1009,3,10000,5000,30,,,,,,,,,,,{},{}
 3148,asasdeanjo,Asas de Anjo,5,16000,8000,100,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
@@ -1044,3 +1045,5 @@
 3444,CristalWarpAreia,Cristal Warp de Areia,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalWarp", "halicarnazo"; },{}
 3445,CristalWarpGelo,Cristal Warp de Gelo,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalWarp", "froz"; },{}
 3446,CoroadeThomasHawk,Coroa de Thomas Hawk,5,2000,1000,25,,5,,5,0,2,256,,0,0,{},{}
+//ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
+3447,twinblade,Twin Blade,4,115000,57500,1200,183,,1,,0,2,34,1,50,1,{},{}
