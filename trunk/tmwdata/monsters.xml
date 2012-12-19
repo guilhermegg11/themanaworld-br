@@ -749,16 +749,29 @@ Ou um comentário de alguem.
 	<sound event="die">short-sword-die1.ogg</sound>
 </monster>
 
-<monster id="384" name="Trasgo de Fogo Mutante (M.Boss)" summon="trasgodefogo">
+<monster id="384" name="Trasgo de Fogo Mutante (M.Boss)" summon="trasgodefogo2">
 <sprite>monster-goblin-fire2.xml</sprite>
 <sound event="hit">fire-goblin-hit1.ogg</sound>
 <sound event="hit">fire-goblin-hit2.ogg</sound>
 <sound event="miss">fire-goblin-miss1.ogg</sound>
 </monster>
 
-<monster id="385" name="Cogumelo Mutante (M.Boss)" summon="cogumelo">
+<monster id="385" name="Cogumelo Mutante (M.Boss)" summon="cogumelo2">
 <sprite>monster-mushroom-spiky2.xml</sprite>
 <sound event="hit">shroom-hit1.ogg</sound>
+</monster>
+
+
+<monster id="386" name="Yeti (Boss)" summon="yeti">
+<sprite>yeti.xml</sprite>
+</monster>
+
+<monster id="387" name="Foice Possuida" summon="foice">
+<sprite>spinning-scythe.xml</sprite>
+</monster>
+
+<monster id="388" name="Sasquatch (Boss)" summon="sasquatch">
+<sprite>sasquatch.xml</sprite>
 </monster>
 
 </monsters>
