@@ -36,6 +36,7 @@ import: npc/008-3_MinaAreia/_import.txt
 import: npc/008-4_MinaAreia/_import.txt
 import: npc/008-5_ArenaCombate/_import.txt
 import: npc/008-6_Caverna/_import.txt
+import: npc/008-7_CalaboucoDeBhramir/_import.txt
 
 import: npc/009_IlhaFortaleza/_import.txt
 import: npc/009-1_CavernaMontanha/_import.txt

@@ -1047,3 +1047,4 @@
 3446,CoroadeThomasHawk,Coroa de Thomas Hawk,5,2000,1000,25,,5,,5,0,2,256,,0,0,{},{}
 //ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 3447,twinblade,Twin Blade,4,115000,57500,1200,183,,1,,0,2,34,1,50,1,{},{}
+3448,chave3448,Chave de Cobre nº3448,3,100,50,2,,,,,,,,,,,{},{}

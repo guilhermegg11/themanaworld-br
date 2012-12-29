@@ -1,0 +1,11 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 008-7.tmx
+///////////////////////////////////////////////////////////////////
+
+map: 008-7.gat
+
+npc: npc/008-7_CalaboucoDeBhramir/_mobs.txt
+npc: npc/008-7_CalaboucoDeBhramir/_warps.txt
+
+npc: npc/008-7_CalaboucoDeBhramir/Portas.conf

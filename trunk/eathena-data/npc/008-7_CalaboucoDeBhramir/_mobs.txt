@@ -1,0 +1,22 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 008-7.tmx
+///////////////////////////////////////////////////////////////////
+
+008-7.gat,60,23,7,4	monster	Calab01_LimoMasmorra	1391,5,600000,300000,Mob008-7::On1391
+008-7.gat,24,23,7,4	monster	Calab01_EsqueletoAdaga	1303,1,60000,60000,Mob008-7::On1303
+
+008-7.gat,0,0,0	script	Mob008-7	-1,{
+
+On1391:
+	set @mobID, 1391;
+	callfunc "MobPoints";
+break;
+
+On1303:
+	set @mobID, 1303;
+	callfunc "MobPoints";
+break;
+
+end;
+}
