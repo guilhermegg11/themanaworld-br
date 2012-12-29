@@ -1,3 +1,8 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 010.tmx
+///////////////////////////////////////////////////////////////////
+
 map: 010.gat
 
 npc: npc/010_PoloNorte/_mobs.txt
@@ -11,7 +16,6 @@ npc: npc/010_PoloNorte/duende_tampinha.conf
 npc: npc/010_PoloNorte/duende_tunico.conf
 npc: npc/010_PoloNorte/guardadonavio.conf
 npc: npc/010_PoloNorte/jornaleiro.conf
-//npc: npc/010_PoloNorte/menir_alma.conf // ← Passou para dentro do Navio
 npc: npc/010_PoloNorte/presente.conf
 npc: npc/010_PoloNorte/raquel.conf
 npc: npc/010_PoloNorte/sinos.conf

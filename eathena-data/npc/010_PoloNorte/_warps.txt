@@ -1,21 +1,24 @@
-// 010 Polo Norte warps
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 010.tmx
+///////////////////////////////////////////////////////////////////
 
-010.gat,180,67	warp	paraCaptao	-1,0,navio010.gat,20,24
-010.gat,168,65	warp	paraConves	-1,-1,navio010.gat,51,24
-010.gat,70,52	warp	paraCasaNoel	-1,-1,010-2.gat,94,30
-010.gat,73,62	warp	paraCaverna	-1,-1,010-3.gat,47,59
-010.gat,80,65	warp	paraCaverna	-1,-1,010-3.gat,57,43
-010.gat,70,81	warp	paraCaverna	-1,-1,010-3.gat,52,62
-010.gat,68,90	warp	paraCaverna	-1,-1,010-3.gat,45,70
-010.gat,58,52	warp	paraCaverna	-1,-1,010-3.gat,37,28
-010.gat,49,55	warp	paraCaverna	-1,-1,010-3.gat,26,36
-010.gat,75,34	warp	paraCaverna	-1,-1,010-3.gat,42,32
-
-010.gat,92,20	warp	paraFroz	3,0,froz.gat,93,118
-
-010.gat,145,72	warp	paraCaverna	-1,-1,010-1.gat,51,58
-010.gat,142,63	warp	paraCaverna	-1,-1,010-1.gat,46,28
-010.gat,142,47	warp	paraCaverna	-1,-1,010-1.gat,45,19
-010.gat,148,106	warp	paraDentro1	-1,-1,010-2.gat,23,31
-010.gat,152,106	warp	paraDentro2	-1,-1,010-2.gat,29,31
-010.gat,156,93	warp	paraDentro3	-1,-1,010-2.gat,59,30
+010.gat,80,65	warp	paraCaverna	0,0,010-3.gat,57,43
+010.gat,73,62	warp	paraCaverna	0,0,010-3.gat,47,59
+010.gat,70,52	warp	paraCasaNoel	0,0,010-2.gat,94,30
+010.gat,58,52	warp	paraCaverna	0,0,010-3.gat,37,28
+010.gat,58,52	warp	paraCaverna	0,0,010-3.gat,37,28
+010.gat,70,81	warp	paraCaverna	0,0,010-3.gat,52,62
+010.gat,68,90	warp	paraCaverna	0,0,010-3.gat,45,70
+010.gat,156,93	warp	paraDentro3	0,0,010-2.gat,59,30
+010.gat,152,106	warp	paraDentro2	0,0,010-2.gat,29,31
+010.gat,148,106	warp	paraDentro1	0,0,010-2.gat,23,31
+010.gat,180,67	warp	paraCaptao	0,1,navio010.gat,20,24
+010.gat,142,63	warp	paraCaverna	0,0,010-1.gat,46,28
+010.gat,145,72	warp	paraCaverna	0,0,010-1.gat,51,58
+010.gat,75,34	warp	paraCaverna	0,0,010-3.gat,42,32
+010.gat,93,20	warp	Froz	2,0,froz.gat,93,118
+010.gat,20,66	warp	010-4	0,30,010-4.gat,178,48
+010.gat,168,65	warp	paraConves	0,0,navio010.gat,51,24
+010.gat,49,55	warp	paraCaverna	0,0,010-3.gat,26,36
+010.gat,142,47	warp	paraCaverna	0,0,010-1.gat,45,19
