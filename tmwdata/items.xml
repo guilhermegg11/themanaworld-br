@@ -5094,6 +5094,7 @@
 		image="use-food-xmascake.png"
 		name="Torta de Maçã"
 
+
 		description="Uma fatia de uma deliciosa torta de maçã."
 		effect=""
 		type="usable"
@@ -7740,6 +7741,7 @@
 		image="espada-petrificada.png"
 		name="Espada Petrificada"
 		description="Uma espada de pedra que no ardor da batalha se torna tão forte quanto uma recem forjada."
+
 		effect="lvl 60, +140 Dano, 1 Range"
 		type="equip-1hand"
 		weapon-type="sword"
@@ -8414,5 +8416,12 @@
 		weight="1200">
 		<sprite>weapon-dagger-attack.xml</sprite>
 	</item>
+	<item id="3448"
+		image="generic-treasurekey.png"
+		name="Chave de Cobre nº3448"
+		description="Usada para abrir a porta do Calabouço de Bhramir."
+		type="generic"
+		weight="2"
+	/>
 
 </items>

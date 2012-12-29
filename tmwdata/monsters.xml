@@ -774,4 +774,11 @@ Ou um comentário de alguem.
 <sprite>sasquatch.xml</sprite>
 </monster>
 
+<monster id="389" name="Limo Masmorra" summon="limomasmorra">
+<sprite>monster-slime.xml|#72982c,ffffff</sprite>
+<sprite>acessorios/slime-seajelly.xml|#72982c,ffffff</sprite>
+<sound event="hit">slime-hit1.ogg</sound>
+</monster>
+
+
 </monsters>

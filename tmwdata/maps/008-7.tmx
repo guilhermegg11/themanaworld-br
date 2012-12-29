@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="/graphics/minimaps/008-7.png"/>
+  <property name="music" value="alexandre_guiraud_wizart_-_epica_-_08_ black_heart.ogg"/>
+  <property name="name" value="Calabouço de Bhramir"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="pasta" value="008-7_CalaboucoDeBhramir"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="131" name="Cave X2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="403" name="blockWalls" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="659" name="arena" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="915" name="Snow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Snow.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1171" name="numeros" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
+ </tileset>
+ <layer name="ground" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WMQqAMAxA0eIlvLn0uC5OQrVTEsgbHuJkkH6ac4xxAgAAAAAAAAAAAAAAAAAAABBmHv+u51llnhk4D73tdBF5Hlfffr/rgwirJrLO406n+iBKtX3mq4uM+4zeKvdhvyJb1T5WO5U+iFS1j50dK/vf0UOVNqrOAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPRwA5uSXYYAcQIA
+  </data>
+ </layer>
+ <layer name="ground2" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TuU3EUBiF0TfgDqAANkHKVgDQIyFbAcBQAFsBbAWAIIUmuEhGoJHwRNiWfI70RXbwB/eVAgAAAAAAAAAAAAAAAMCXg1Eph+mooeN0MhrmPQzbaXZ2ls4bGqeLlvbYt3sYtsvs7CpdN3STblva47R79md+gv92l83dp4eGHtNTS+9j2j3eB216zuZe0upsKWvpPbv7mNjea76/tfQ+vu/5y3JuW6mDrs1lh/N1feB90Cdd7nGhKmUxLVX9uAcmdbnH9byLjbT5631s5Y7tOuhal+9jJ+9iN+1V0/8FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgXz4BT+vnbwBxAgA=
+  </data>
+ </layer>
+ <layer name="ground3" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WsQ3CQBBE0cWiOejABJgKwBUYeqAURE8ug5GcOLkYsN6TfnDZJiNdFQAAAAAAAAAAAAAAAADAf3ruqw5d1TkN6ZKO6bX79mXwG/rs4ZpuaUyn1T7edgI1ZRP39OiWt31Am/8VtNkHtM32AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACb9QELMDLTAHECAA==
+  </data>
+ </layer>
+ <layer name="fringe" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TMREAIAwEwQw68K8ICUhAAApSQBNm2C2/+uYiAAAAAAAAAAAAAAAAAAAAAPhdP9yhymjVD+BdUx+Q0gfklj4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4sAFs5PqrAHECAA==
+  </data>
+ </layer>
+ <layer name="top" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XO25CMRQEUD+elFQB0oQqHxYAJGtHbCasIVGyAD53BQYJyVzJ50hT2cUU48KlAAAAAAAAAAAAAAAAAAAAt3oYS3kc790CcnqJt7GIfE9K2U/u3QZy2A7X3dtdee9W2frQt2x7zNaHvmXbY7Y+9O0ndvZ7YWt/cf7faI/Z+tC3Q+zsGDlVUuK/PjT6s2frQ9+eYmfTyKySeeS50R6z9aFvr7Gzt8h7JR+RZaM9ZutD31axs3VkU8ln5KvRHrP1AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPpxBsEOmjsAcQIA
+  </data>
+ </layer>
+ <layer name="top2" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YMQ5AQBCG0cnejhtQ4AQ4AY5uWlahFe8lf7HJtF+zEQAAAAAAAAAAAAAAAAAA7zXl+m7L8x38UXfrodcHAAAAAMBnDCVizE3+dqEyZxdLbtUHVLbsYs8d+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+5gSamMPeAHECAA==
+  </data>
+ </layer>
+ <layer name="collision" width="200" height="200" opacity="0.37">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QMQrEMAxFQaH7H3pbNdZWkQ2aD4OIq0cyIhIAAAAAAAAAAAAAAAAAAAAWij/f8KU4vNXdaDo13Ohhr25Z7tYeduuW5U73nN6me9itW5Y73dM13v5n7NEty53u6Rpv/zP26JblvtBTu2BCtyz3hZ7aBTfEAw0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA036byVeSAHECAA==
+  </data>
+ </layer>
+ <objectgroup name="magin" width="200" height="200">
+  <object x="0" y="0" width="640" height="6400"/>
+  <object x="5760" y="0" width="640" height="6400"/>
+  <object x="0" y="0" width="6400" height="640"/>
+  <object x="0" y="5760" width="6400" height="640"/>
+  <object x="992" y="640" width="800" height="800"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" name="warps" width="200" height="200">
+  <object name="Saida" type="warp" x="800" y="912" width="32" height="16">
+   <properties>
+    <property name="map" value="008"/>
+    <property name="x" value="108"/>
+    <property name="y" value="32"/>
+   </properties>
+  </object>
+  <object name="Descida" type="warp" x="928" y="880" width="32" height="16">
+   <properties>
+    <property name="map" value="008-7"/>
+    <property name="x" value="65"/>
+    <property name="y" value="21"/>
+   </properties>
+  </object>
+  <object name="Subida" type="warp" x="2080" y="640" width="32" height="32">
+   <properties>
+    <property name="map" value="008-7"/>
+    <property name="x" value="29"/>
+    <property name="y" value="26"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#00aa7f" name="spawns" width="200" height="200">
+  <object name="Calab01_LimoMasmorra" type="spawn" x="1824" y="672" width="224" height="128">
+   <properties>
+    <property name="amount" value="5"/>
+    <property name="delay1" value="600000"/>
+    <property name="delay2" value="300000"/>
+    <property name="id" value="1391"/>
+   </properties>
+  </object>
+  <object name="Calab01_EsqueletoAdaga" type="spawn" x="672" y="672" width="224" height="128">
+   <properties>
+    <property name="amount" value="1"/>
+    <property name="delay1" value="60000"/>
+    <property name="delay2" value="60000"/>
+    <property name="id" value="1303"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff00ff" name="scripts" width="200" height="200">
+  <properties>
+   <property name="file-Portas" value="Portas.conf"/>
+  </properties>
+ </objectgroup>
+</map>
