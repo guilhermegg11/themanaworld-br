@@ -14,7 +14,6 @@ npc: npc/005_Fortaleza/ismael.conf
 npc: npc/005_Fortaleza/jornaleiro.conf
 npc: npc/005_Fortaleza/jose_guloso.conf
 npc: npc/005_Fortaleza/marina.conf
-npc: npc/005_Fortaleza/menir_alma.conf
 npc: npc/005_Fortaleza/nicolas.conf
 npc: npc/005_Fortaleza/operarios.conf
 npc: npc/005_Fortaleza/placas.conf
