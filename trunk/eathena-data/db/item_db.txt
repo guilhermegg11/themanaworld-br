@@ -40,7 +40,7 @@
 508,bolodenatal,Bolo de Natal,0,110,10,1,,,,,,2,,,0,,{ itemheal 10,0; },{}
 509,barradechocolate,Barra de Chocolate,0,60,20,1,,,,,,2,,,0,,{ itemheal 20,0; },{}
 510,balinha,Balinha,0,20,10,1,,,,,,2,,,0,,{ itemheal 5,0; },{}
-511,gorrodenatal,Gorro de Natal,5,400,200,20,,2,,-2,0,2,256,,0,0,{},{}
+511,gorrodenatal,Gorro de Natal,5,400,200,20,,2,,,0,2,256,,0,0,{},{}
 512,biscoitodegengibre,Biscoito de Gengibre,0,50,25,1,,,,,,2,,,0,,{ itemheal 25,0; },{}
 513,bolo,Bolo,0,30,15,1,,,,,,2,,,0,,{ itemheal 15,0; },{}
 514,docebengalanatalino,Doce Bengala Natalino,0,30,15,1,,,,,,2,,,0,,{ itemheal 10,0; },{}
@@ -52,16 +52,16 @@
 520,ovodepascoa,Ovo de Pascoa,0,200,100,1,,,,,,2,,,0,,{ itemheal 100,0; },{}
 521,adaga,Adaga,4,1000,500,100,15,,1,,0,2,2,1,1,1,{},{}
 522,facaafiada,Faca Afiada,4,100,50,150,10,,1,,0,2,2,1,1,1,{},{}
-523,camisadecouro,Camisa de Couro,5,2000,1000,20,,4,,-12,0,2,512,,20,0,{},{}
+523,camisadecouro,Camisa de Couro,5,2000,1000,20,,4,,,0,2,512,,20,0,{},{}
 524,chapeufantasia,Chapeu Fantasia,5,1600,800,20,,5,,0,0,2,256,,0,0,{},{}
-525,capacetedemineiro,Capacete de Mineiro,5,800,400,40,,4,,-8,0,2,256,,0,0,{},{}
+525,capacetedemineiro,Capacete de Mineiro,5,800,400,40,,4,,,0,2,256,,0,0,{},{}
 526,bolsademoedas,Bolsa de Moedas,3,100,50,5,,,,,,,,,,,{},{}
 527,leite,Leite,0,300,150,5,,,,,,2,,,0,,{ itemheal 150,0; },{}
-528,botas,Botas,5,8000,500,80,,2,,-2,0,2,64,,0,0,{},{}
+528,botas,Botas,5,8000,500,80,,2,,,0,2,64,,0,0,{},{}
 529,flechadeferro,Flecha de Ferro,10,5,2,1,50,,,,,2,32768,,,,{},{}
 530,arcodecurtoalcance,Arco de Curto Alcançe,4,3000,1500,600,50,,4,,0,2,34,1,20,11,{},{}
-531,luvasdemineiro,Luvas de Mineiro,5,3000,1000,30,,2,,-10,0,2,4,,0,0,{},{}
-532,luvasdecouro,Luvas de Couro,5,6000,2000,20,,4,,-20,0,2,4,,0,0,{},{}
+531,luvasdemineiro,Luvas de Mineiro,5,3000,1000,30,,2,,,0,2,4,,0,0,{},{}
+532,luvasdecouro,Luvas de Couro,5,6000,2000,20,,4,,,0,2,4,,0,0,{},{}
 533,vermetorrado,Verme Torrado,0,110,55,5,,,,,,2,,,0,,{ itemheal 150,0; },{}
 534,bolodelaranja,Bolo de Laranja,0,90,45,5,,,,,,2,,,0,,{ itemheal 100,10; },{}
 535,maca,Maçã,0,10,5,5,,,,,,2,,,0,,{ itemheal 50,0; },{}
@@ -72,10 +72,10 @@
 540,garrafavazia,Garrafa Vazia,3,20,10,1,,,,,,,,,,,{},{}
 541,garrafadagua,Garrafa d'água,0,200,100,10,,,,,,2,,,0,,{ itemheal 250,0; getitem 540,1; },{}
 542,garrafacomareia,Garrafa com Areia,3,70,35,10,,,,,,,,,,,{},{}
-543,faixatradicional,Faixa Tradicional,5,800,400,10,,3,,-3,0,2,256,,0,0,{},{}
-544,faixadeseda,Faixa de Seda,5,5000,2000,10,,3,,-10,0,2,256,,0,0,{},{}
+543,faixatradicional,Faixa Tradicional,5,800,400,10,,3,,,0,2,256,,0,0,{},{}
+544,faixadeseda,Faixa de Seda,5,5000,2000,10,,3,,,0,2,256,,0,0,{},{}
 545,arcodafloresta,Arco da Floresta,4,5000,2500,1200,70,,5,,0,2,34,1,30,11,{},{}
-546,camisadodeserto,Camisa do Deserto,5,2000,1000,20,,6,,-18,0,2,512,,30,0,{},{}
+546,camisadodeserto,Camisa do Deserto,5,2000,1000,20,,6,,,0,2,512,,30,0,{},{}
 547,bardiche,Bardiche,4,2000,1000,1300,120,,1,,0,2,2,1,55,0,{},{ bonus bAgi, 5; bonus bDex, 2; }
 548,halberd,Halberd,4,20,10,1,100,,1,,0,2,2,1,50,0,{},{}
 549,machado,Machado,4,20,10,1,100,,1,,0,2,2,1,50,0,{},{}
@@ -92,8 +92,8 @@
 560,pistacinza,Pista Cinza,3,20,0,10,,,,,,,,,,,{},{}
 561,Sabre,Sabre,4,10000,5000,1,100,,1,,0,2,2,1,50,1,{},{}
 562,coxadefrango,Coxa de Frango,0,250,125,10,,,,,,2,,,0,,{ itemheal 500,0; },{}
-563,luvasdeinverno,Luvas de Inverno,5,6000,3000,20,,3,,-15,0,2,4,,0,0,{},{}
-564,SueterGolaAlta,Suéter de Gola Alta,5,2000,1000,30,,2,,-12,0,2,512,,1,0,{},{}
+563,luvasdeinverno,Luvas de Inverno,5,6000,3000,20,,3,,,0,2,4,,0,0,{},{}
+564,SueterGolaAlta,Suéter de Gola Alta,5,2000,1000,30,,2,,,0,2,512,,1,0,{},{}
 565,petala,Pétala,0,50,25,10,,,,,,2,,,0,,{},{}
 566,cogumelopequeno,Cogumelo Pequeno,0,50,25,10,,,,,,2,,,0,,{},{}
 567,pocaoenergetica,Poção Energética,0,500,250,10,,,,,,2,,,0,,{ sc_start 185,90, 60; },{}
@@ -115,7 +115,7 @@
 583,cajadodegelo,Cajado de Gelo,4,8000,4000,700,110,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
 584,Jackal,Jackal,4,8000,4000,2000,140,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
 585,pulseiraescaravelho,Pulseira Escaravelho,5,8000,4000,200,,0,,5,0,2,32,,1,1,{},{}
-586,shortdealgodao,Short de Algodão,5,1000,500,15,,2,,-4,0,2,1,,1,0,{},{}
+586,shortdealgodao,Short de Algodão,5,1000,500,15,,2,,,0,2,1,,1,0,{},{}
 //587,RESERVED,Espada,,,,,,,,,,,,,,,{},{}
 //588,RESERVED,Espada Bastarda,,,,,,,,,,,,,,,{},{}
 //589,RESERVED,Espada Ampla,,,,,,,,,,,,,,,{},{}
@@ -129,52 +129,52 @@
 //597,RESERVED,Lança Pesada de Ferro,,,,,,,,,,,,,,,{},{}
 //598,RESERVED,Lança Dupla,,,,,,,,,,,,,,,{},{}
 //599,RESERVED,Espada Incandescente,,,,,,,,,,,,,,,{},{}
-600,escudobritanico,Escudo Britânico,5,40000,3000,2500,,22,,-200,0,2,32,,90,0,{},{}
-601,escudodeaco,Escudo de Aço,5,40000,3000,2500,,20,,-200,0,2,32,,50,0,{},{}
-602,escudodemadeira,Escudo de Madeira,5,10000,2000,1500,,14,,-70,0,2,32,,40,0,{},{}
-603,escudodecouro,Escudo de Couro,5,2000,1000,1300,,7,,-35,0,2,32,,30,0,{},{}
+600,escudobritanico,Escudo Britânico,5,40000,3000,2500,,22,,,0,2,32,,90,0,{},{}
+601,escudodeaco,Escudo de Aço,5,40000,3000,2500,,20,,,0,2,32,,50,0,{},{}
+602,escudodemadeira,Escudo de Madeira,5,10000,2000,1500,,14,,,0,2,32,,40,0,{},{}
+603,escudodecouro,Escudo de Couro,5,2000,1000,1300,,7,,,0,2,32,,30,0,{},{}
 //604,RESERVED,Escudo dos Cavaleiros,,,,,,,,,,,,,,,{},{}
 //605,RESERVED,Cutelo de Açougueiro,,,,,,,,,,,,,,,{},{}
 //606,RESERVED,Machadinha,,,,,,,,,,,,,,,{},{}
 //607,RESERVED,Tridente,,,,,,,,,,,,,,,{},{}
 //608,RESERVED,Escudo de Lâminas,,,,,,,,,,,,,,,{},{}
 //609,RESERVED,Porrete,,,,,,,,,,,,,,,{},{}
-610,shortjeans,Short Jeans,5,2000,1000,25,,4,,-8,0,2,1,,30,0,{},{}
+610,shortjeans,Short Jeans,5,2000,1000,25,,4,,,0,2,1,,30,0,{},{}
 611,pelobranco,Pelo Branco,3,8,4,8,,,,,,,,,,,{},{}
 612,antenaluminosa,Antena Luminosa,3,80,40,10,,,,,,,,,,,{},{}
 613,espinho,Espinho,3,8,4,10,,,,,,,,,,,{},{}
 614,antenaRosa,Antena Rosa,3,10,5,10,,,,,,,,,,,{},{}
-615,capacetedeabobora,Capacete de Abóbora,5,2000,1000,60,,4,,-4,0,2,256,,0,0,{},{}
-616,chapeudemachado,Chapéu de Machado,5,2000,1000,50,,4,,-4,0,2,256,,0,0,{},{}
-617,chapeudepirata,Chapéu de Pirata,5,2000,1000,40,,4,,-8,0,2,256,,0,0,{},{}
+615,capacetedeabobora,Capacete de Abóbora,5,2000,1000,60,,4,,,0,2,256,,0,0,{},{}
+616,chapeudemachado,Chapéu de Machado,5,2000,1000,50,,4,,,0,2,256,,0,0,{},{}
+617,chapeudepirata,Chapéu de Pirata,5,2000,1000,40,,4,,,0,2,256,,0,0,{},{}
 618,oculos,Óculos,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
 619,oculosdecouro,Óculos de Couro,5,1000,500,20,,3,,0,0,2,256,,0,0,{},{}
 620,coroa,Coroa,5,2000,1000,25,,4,,5,0,2,256,,0,0,{},{}
 621,tapaolho,Tapa Olho,5,1000,500,5,,2,,0,0,2,256,,0,0,{},{ bonus bDex, -1; }
 622,bandana,Bandana,5,1000,500,20,,3,,0,0,2,256,,0,0,{},{}
 623,foice,Foice,4,100,50,1200,75,,1,,0,2,2,1,35,3,{},{}
-624,sueterDecoteV,Suéter com Decote em V,5,6000,3000,35,,2,,-24,0,2,512,,1,0,{},{}
-625,camisadecorrentes,Camisa de Correntes,5,15000,1500,800,,20,,-120,0,2,512,,30,0,{},{}
-626,armaduraleve,Armadura Leve,5,50000,2500,1200,,24,,-150,0,2,512,,40,0,{},{}
+624,sueterDecoteV,Suéter com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+625,camisadecorrentes,Camisa de Correntes,5,15000,1500,800,,20,,,0,2,512,,30,0,{},{}
+626,armaduraleve,Armadura Leve,5,50000,2500,1200,,24,,,0,2,512,,40,0,{},{}
 627,cartola,Cartola,5,2500,1250,30,,4,,2,0,2,256,,0,0,{},{}
 628,gorrodedormir,Gorro de Dormir,5,3000,1500,20,,3,,2,0,2,256,,0,0,{},{}
 629,chapeudecogumelomaligno,Chapéu de Cogumelo Maligno,5,2500,1250,30,,5,,0,0,2,256,,0,0,{},{}
 630,chapeucogumelo,Chapéu Cogumelo,5,3000,1500,30,,4,,0,0,2,256,,0,0,{},{}
 631,cristalescuro,Cristal Escuro,3,100,50,10,,,,,,,,,,,{},{}
-632,saiadealgodao,Saia de Algodão,5,1000,500,10,,2,,-8,0,0,1,,1,0,{},{}
+632,saiadealgodao,Saia de Algodão,5,1000,500,10,,2,,,0,0,1,,1,0,{},{}
 633,gorrodoselfosdonatal,Gorro dos Elfos do Natal,5,3000,1500,30,,3,,2,0,2,256,,0,0,{},{}
 634,mascarademadeira,Mascara de Madeira,5,2500,1250,50,,7,,0,0,2,256,,0,0,{},{}
 635,biscoitodenatal,Biscoito de Natal,3,1,1,1,,,,,,,,,,,{},{}
-636,elmodolordedaguerra,Elmo do Lorde da Guerra,5,30000,3000,900,,18,,-36,0,2,256,,50,0,{},{}
-637,elmodocavaleiroalado,Elmo do Cavaleiro Alado,5,20000,2000,600,,15,,-30,0,2,256,,40,0,{},{}
-638,capacetedainfantaria,Capacete da Infantaria,5,15000,1500,400,,15,,-30,0,2,256,,30,0,{},{}
-639,elmodascruzadas,Elmo das Cruzadas,5,25000,2500,1500,,18,,-36,0,2,256,,45,0,{},{ bonus bAgi, -1; }
+636,elmodolordedaguerra,Elmo do Lorde da Guerra,5,30000,3000,900,,18,,,0,2,256,,50,0,{},{}
+637,elmodocavaleiroalado,Elmo do Cavaleiro Alado,5,20000,2000,600,,15,,,0,2,256,,40,0,{},{}
+638,capacetedainfantaria,Capacete da Infantaria,5,15000,1500,400,,15,,,0,2,256,,30,0,{},{}
+639,elmodascruzadas,Elmo das Cruzadas,5,25000,2500,1500,,18,,,0,2,256,,45,0,{},{ bonus bAgi, -1; }
 640,mineriodeferro,Minério de Ferro,3,250,100,40,,,,,,,,,,,{},{}
 641,peledecobradamontanha,Pele de Cobra da Montanha,3,250,100,15,,,,,,,,,,,{},{}
-642,calcadecourodecobra,Calça de Couro de Cobra,5,2000,1000,60,,6,,-12,0,2,1,,50,0,{},{}
-643,chapeubrancodevaqueiro,Chapéu Branco de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
-644,chapeupretodevaqueiro,Chapéu Preto de Vaqueiro,5,1800,900,30,,6,,-12,0,2,256,,0,0,{},{}
-645,armaduradouradaleve,Armadura Dourada Leve,5,9999000,3000,1200,,25,,-100,0,2,512,,55,0,{},{}
+642,calcadecourodecobra,Calça de Couro de Cobra,5,2000,1000,60,,6,,,0,2,1,,50,0,{},{}
+643,chapeubrancodevaqueiro,Chapéu Branco de Vaqueiro,5,1800,900,30,,6,,,0,2,256,,0,0,{},{}
+644,chapeupretodevaqueiro,Chapéu Preto de Vaqueiro,5,1800,900,30,,6,,,0,2,256,,0,0,{},{}
+645,armaduradouradaleve,Armadura Dourada Leve,5,9999000,3000,1200,,25,,,0,2,512,,55,0,{},{}
 646,coroareal,Coroa Real,5,5000,1000,240,,4,,0,0,2,256,,0,0,{},{}
 647,bonededesenvolvedor,Boné de Desenvolvedor,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{}
 //648,RESERVED,Áspero Anel de Força,,,,,,,,,,,,,,,{},{}
@@ -184,11 +184,11 @@
 //652,RESERVED,Áspero Anel de Inteligência,,,,,,,,,,,,,,,{},{}
 //653,RESERVED,Áspero Anel de Sorte,,,,,,,,,,,,,,,{},{}
 654,bone,Boné,5,2000,500,20,,5,,0,0,2,256,,0,0,{},{}
-655,botasdepelo,Botas de Pêlo,5,5000,600,50,,3,,-3,0,2,64,,0,0,{},{}
+655,botasdepelo,Botas de Pêlo,5,5000,600,50,,3,,,0,2,64,,0,0,{},{}
 656,chapeuservo,Chapéu de Servo,5,500,100,20,,2,,0,0,2,256,,0,0,{},{}
 657,laranja,Laranja,0,12,6,7,,,,,,2,,,0,,{ itemheal 60,0; },{}
-658,armaduradolordedaguerra,Armadura do Lorde da Guerra,5,100000,3000,2600,,26,,-170,0,2,512,,50,0,{},{}
-659,armaduradolordedaguerradourada,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,27,,-110,0,2,512,,55,0,{},{}
+658,armaduradolordedaguerra,Armadura do Lorde da Guerra,5,100000,3000,2600,,26,,,0,2,512,,50,0,{},{}
+659,armaduradolordedaguerradourada,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,27,,,0,2,512,,55,0,{},{}
 660,tecidodealgodao,Tecido de Algodão,3,1000,500,10,,,,,,,,,,,{},{}
 661,rosavermelha,Rosa Vermelha,3,40,20,1,,,,,,,,,,,{},{}
 662,rosabranca,Rosa Branca,3,40,20,1,,,,,,,,,,,{},{}
@@ -217,8 +217,8 @@
 685,pocaopequenadecura,Poção Pequena de Cura,0,50,25,10,,,,,,2,,,0,,{ itemheal 200,0; },{}
 686,pocaomediadecura,Poção Média de Cura,0,100,50,15,,,,,,2,,,0,,{ itemheal 400,0; },{}
 687,pocaograndedecura,Poção Grande de Cura,0,200,100,25,,,,,,2,,,0,,{ itemheal 800,0; },{}
-688,camiseta,Camiseta,5,10,5,10,,2,,-4,0,2,512,,0,0,{},{}
-689,camisetacurta,Camiseta Curta,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
+688,camiseta,Camiseta,5,10,5,10,,2,,,0,2,512,,0,0,{},{}
+689,camisetacurta,Camiseta Curta,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
 690,tintavermelha,Tinta Vermelha,3,100,20,10,,,,,,2,,,0,,{},{}
 691,tintaverde,Tinta Verde,3,2500,1000,10,,,,,,2,,,0,,{},{}
 692,tintaazulescura,Tinta Azul Escura,3,40000,15000,10,,,,,,2,,,0,,{},{}
@@ -252,7 +252,7 @@
 720,tunicadeseda,Túnica de Seda,5,8000,4000,5,,5,,0,0,2,512,,30,0,{},{}
 721,coroadossacerdotes,Coroa dos Sacerdotes,5,20000,5000,400,,4,,20,0,2,256,,0,0,{},{ bonus bMaxSP, 20; }
 722,capacetedefossil,Capacete de Fóssil,5,15000,3000,250,,7,,10,0,2,256,,0,0,{},{ bonus bMdef, 20; }
-723,chapeudodeserto,Chapéu do Deserto,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+723,chapeudodeserto,Chapéu do Deserto,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
 724,faixadealgodao,Faixa de Algodão,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
 725,bonegm,Boné GM,5,2000,500,20,,5,,5,0,2,256,,0,0,{},{ bonus bNoWeaponDamage, 1; bonus bNoMagicDamage, 1; }
 726,tunicagm,Túnica GM,5,8000,4000,40,,2,,0,0,2,512,,1,0,{},{}
@@ -260,17 +260,17 @@
 //728,esculturademouboo,Escultura de Mouboo,3,0,0,9,,,,,,,,,,,{},{}
 //729,tocodistorcido,Toco Distorcido,3,0,0,8,,,,,,,,,,,{},{}
 //730,cristaldavida,Cristal da Vida,3,0,0,5,,,,,,,,,,,{},{}
-731,calcadeassassino,Calça de Assassino,5,10000,3000,20,,6,,-5,0,2,1,,95,0,{},{ bonus bAgi,1; }
+731,calcadeassassino,Calça de Assassino,5,10000,3000,20,,6,,,0,2,1,,95,0,{},{ bonus bAgi,1; }
 //732,galhodaarvoredruida,Galho da Árvore Druida,3,0,0,2,,,,,,,,,,,{},{}
 //733,pocaodepurificacao,Poção de Purificação,0,0,0,15,,,,,,2,,,,,{ callfunc "usePurificationPotion"; },{}
-734,botaspretas,Botas Pretas,5,20000,3000,35,,4,,-10,0,2,64,,0,0,{},{}
+734,botaspretas,Botas Pretas,5,20000,3000,35,,4,,,0,2,64,,0,0,{},{}
 735,botasdealgodao,Botas de Algodão,5,2000,500,10,,1,,1,0,2,64,,0,0,{},{}
 736,bolobranco,Bolo Branco,0,500,100,10,,,,,,2,,,0,,{ itemheal 10,0; },{}
 737,bolodechocolate,Bolo de Chocolate,0,550,125,10,,,,,,2,,,0,,{ itemheal 11,0; },{}
 738,bololaranja,Bolo Laranja,0,600,150,10,,,,,,2,,,0,,{ itemheal 12,0; },{}
 739,bolodemaca,Bolo de Maçã,0,600,150,10,,,,,,2,,,0,,{ itemheal 12,0; },{}
 740,raiz,Raiz,3,500,250,5,,,,,,,,,,,{},{}
-741,luvasdealgodao,Luvas de Algodão,5,2000,500,10,,1,,-10,0,2,4,,0,0,{},{}
+741,luvasdealgodao,Luvas de Algodão,5,2000,500,10,,1,,,0,2,4,,0,0,{},{}
 742,trevodequatrofolhas,Trevo de Quatro Folhas,5,10000,5000,1,,,,5,0,2,8,,0,0,{},{ bonus bLuk,1; }
 743,bolota,Bolota,0,50,10,1,,,,,,2,,,0,,{ itemheal 3,0; },{}
 //744,pocaodeconcentracaodiluida,Poção de Concentração Diluída,0,250,100,10,,,,,,2,,,0,,{ sc_start sc_raiseattackspeed0,30,20; },{}
@@ -281,27 +281,27 @@
 749,toalha,Toalha,5,800,250,50,,,,5,0,2,8,,0,0,{},{}
 750,pocaoAntiveneno,pocaoAntiveneno,0,1000,450,10,,,,,,2,,,0,,{ itemheal 5,0; sc_start sc_slowpoison,180000,180; },{}
 751,hasteRosa,Haste Rosa,5,5000,1000,5,,1,,1,0,2,256,,0,0,{},{}
-752,chapeufofinho,Chapeu Fofinho,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+752,chapeufofinho,Chapeu Fofinho,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
 753,asademorcego,Asa de Morcego,3,500,100,3,,,,,,,,,,,{},{}
 754,dentesdemorcego,Dentes de Morcego,3,600,150,2,,,,,,,,,,,{},{}
 // Daqui para baixo há apenas valores de teste(exceto o ID 774). Depois devem ser mudados antes de ir definitivamente para o jogo
-755,camisadeassassino,Camisa de Assassino,5,10000,3000,150,,15,,-5,0,2,512,,95,0,{},{ bonus bAgi,1; }
-756,luvasdeassassino,Luvas de Assassino,5,7000,2000,9,,4,,-3,0,2,4,,95,0,{},{ bonus bAgi,1; }
-757,botasdeassassino,Botas de Assassino,5,7000,2000,10,,4,,-3,0,2,64,,95,0,{},{ bonus bAgi,1; }
+755,camisadeassassino,Camisa de Assassino,5,10000,3000,150,,15,,,0,2,512,,95,0,{},{ bonus bAgi,1; }
+756,luvasdeassassino,Luvas de Assassino,5,7000,2000,9,,4,,,0,2,4,,95,0,{},{ bonus bAgi,1; }
+757,botasdeassassino,Botas de Assassino,5,7000,2000,10,,4,,,0,2,64,,95,0,{},{ bonus bAgi,1; }
 758,cajadodemadeira,Cajado de Madeira,4,50,25,100,5,,1,,0,2,2,1,1,1,{},{}
-759,elmodepaladino,Elmo de Paladino,5,7000,2000,500,,19,,-5,0,2,256,,70,0,{},{}
-760,elmodosoberano,Elmo do Soberano,5,7000,2000,500,,20,,-5,0,2,256,,70,0,{},{}
-761,elmododeserto,Elmo do Deserto,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
+759,elmodepaladino,Elmo de Paladino,5,7000,2000,500,,19,,,0,2,256,,70,0,{},{}
+760,elmodosoberano,Elmo do Soberano,5,7000,2000,500,,20,,,0,2,256,,70,0,{},{bonus bLuk,1; }
+761,elmododeserto,Elmo do Deserto,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bAgi, 1; }
 762,flechadeterranite,Flecha de Terranite,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
 763,mineriodeterranite,Minério de Terranite,3,250,100,40,,,,,,,,,,,{},{}
-764,chapeudemarinheiro,Chapéu de Marinheiro,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-765,chapeudecapitao,Chapéu de Capitão,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-766,elmodeterranite,elmodeterranite,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-767,armaduradeterranite,Armadura de Terranite,5,9999000,3000,240,,25,,-100,0,2,512,,40,0,{},{}
-768,calcadeterranite,Calça de Terranite,5,2000,1000,15,,4,,-8,0,2,1,,30,0,{},{}
-769,mascaraguyfawkes,Máscara Guy Fawkes,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-770,chapeudafloresta,Chapéu da Floresta,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-//(já add)771,minisaia,minisaia,5,1000,500,8,,4,,-8,0,0,1,,1,0,{},{}
+764,chapeudemarinheiro,Chapéu de Marinheiro,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
+765,chapeudecapitao,Chapéu de Capitão,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
+766,elmodeterranite,elmodeterranite,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
+767,armaduradeterranite,Armadura de Terranite,5,9999000,3000,240,,25,,,0,2,512,,40,0,{},{}
+768,calcadeterranite,Calça de Terranite,5,2000,1000,15,,4,,,0,2,1,,30,0,{},{}
+769,mascaraguyfawkes,Máscara Guy Fawkes,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
+770,chapeudafloresta,Chapéu da Floresta,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
+//(já add)771,minisaia,minisaia,5,1000,500,8,,4,,,0,0,1,,1,0,{},{}
 //772,WispPowder,Wisp Powder,3,700,350,40,,,,,,,,,,,{},{}
 //773,SpectrePowder,Spectre Powder,3,700,350,40,,,,,,,,,,,{},{}
 774,podefantasma,Pó de Fantasma,3,700,350,3,,,,,,,,,,,{},{}
@@ -311,8 +311,8 @@
 778,coracaodezumbi,Coração de Zumbi,3,180,90,10,,,,,,,,,,,{},{}
 779,orelhadezumbi,Orelha de Zumbi,3,30,15,5,,,,,,,,,,,{},{}
 780,olhodezumbi,Olho de Zumbi,3,30,15,3,,,,,,,,,,,{},{}
-781,mascaravoodoo,Máscara Voodoo,5,7000,2000,10,,2,,-5,0,2,256,,0,0,{},{}
-782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,-100,0,2,512,,40,0,{},{}
+781,mascaravoodoo,Máscara Voodoo,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
+782,armaduradafloresta,Armadura da Floresta,5,9999000,3000,240,,25,,,0,2,512,,40,0,{},{}
 783,vestidovermelho,Vestido Vermelho,5,100000,50000,25,,2,,3,0,0,512,,1,0,{},{}
 784,NachosZumbis,NachosZumbis,0,100,30,5,,,,,,2,,,0,,{ itemheal 60,0; },{}
 785,dedosMoca,dedosMoca,0,70,25,5,,,,,,2,,,0,,{ itemheal 40,0; },{}
@@ -327,8 +327,8 @@
 1199,flecha,Flecha,10,3,1,1,25,0,0,,0,2,32768,,,,{},{}
 1200,arco,Arco,4,1000,500,20,20,,5,,0,2,34,1,1,11,{},{}
 1201,faca,Faca,4,50,25,120,5,,1,,0,2,2,1,1,1,{},{}
-1202,camisadealgodao,Camisa de Algodão,5,10,5,13,,2,,-2,0,2,512,,0,0,{},{}
-1203,chapeudepatrulheiro,Chapéu de Patrulheiro,5,1000,500,20,,4,,-1,0,2,256,,0,0,{},{}
+1202,camisadealgodao,Camisa de Algodão,5,10,5,13,,2,,,0,2,512,,0,0,{},{}
+1203,chapeudepatrulheiro,Chapéu de Patrulheiro,5,1000,500,20,,4,,,0,2,256,,0,0,{},{}
 1204,chapeuchifresderena,Chapéu Chifres de Rena,5,1000,500,15,,4,,2,0,2,256,,0,0,{},{}
 1205,chapeuarvoredenatal,Chapéu Árvore de Natal,5,2000,1000,20,,2,,4,0,2,256,,0,0,{},{}
 1206,gorrodepapainoel,Gorro de Papai Noel,5,1000,500,20,,5,,2,0,2,256,,0,0,{},{}
@@ -343,7 +343,7 @@
 1215,sabredebrinquedo,Sabre de Brinquedo,4,50,25,1,1,,1,,0,2,2,1,1,1,{},{}
 1216,cabecademouboo,Cabeça de Mouboo,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
 1217,orelhasKatzeur,Orelhas de Gato Lendário,5,5000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,3; bonus bDex,1; }
-1218,sacodepapel,Saco de Papel,5,1000,5,10,,1,,-1,0,2,256,,0,0,{},{ bonus bAgi,-1; }
+1218,sacodepapel,Saco de Papel,5,1000,5,10,,1,,,0,2,256,,0,0,{},{ bonus bAgi,-1; }
 1219,cabecademoubootauro,Cabeça de Moubootauro,5,10,1,80,,6,,0,0,2,256,,0,0,{},{}
 //1220,BunchOfParsley,Bunch of Parsley,5,3,1,1,,1,,0,0,2,256,,0,0,{},{ bonus bDeaf,1; }
 1221,mascaradeesqueleto,Máscara de Esqueleto,5,10000,5000,150,,2,,5,0,2,256,,0,0,{},{}
@@ -367,7 +367,7 @@
 //1239,MagentaOrnament,Magenta Christmas Ornament,3,5000,1,1,,,,,,2,,,0,,{},{}
 //1240,SantaSnowGlobe,Santa Snow Globe,3,7500,5000,1,,,,,,2,,,0,,{},{}
 //1241,SnowmanSnowGlobe,Snowman Snow Globe,3,7500,5000,1,,,,,,2,,,0,,{},{}
-//1242,SnowGoggles,Snow Goggles,5,7500,5000,10,,5,,-2,0,2,256,,0,0,{},{}
+//1242,SnowGoggles,Snow Goggles,5,7500,5000,10,,5,,,0,2,256,,0,0,{},{}
 //1243,PaperHat,Paper Party Hat,5,10,5,1,,1,, 0,0,2,256,,0,0,{},{}
 1247,oculosCoracao,oculosCoracao,5,7500,5000,20,,1,,5,0,2,256,,0,0,{},{}
 1248,blueberries,Blueberries,0,50,25,6,,,,,,2,,,0,,{ itemheal 200,0; },{}
@@ -391,36 +391,36 @@
 1997,Marshmallow,Marshmallow,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,8; itemheal 30,0; },{}
 1998,JellySkull,JellySkull,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,7; itemheal 20,0; },{}
 1999,doceAbobora,doceAbobora,0,5,20,10,,,,,,2,,,0,,{ lurarmob 1364,10; itemheal 50,0; },{}
-2050,camisavermelhadealgodao,Camisa Vermelha de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2051,camisaverdedealgodao,Camisa Verde de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2052,camisaazulescuradealgodao,Camisa Azul Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2053,camisaamareladealgodao,Camisa Amarela de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2054,camisaazulclaradealgodao,Camisa Azul Clara de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2055,camisarosadealgodao,Camisa Rosa de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2056,camisapretadealgodao,Camisa Preta de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2057,camisalaranjadealgodao,Camisa Laranja de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2058,camisaroxadealgodao,Camisa Roxa de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2059,camisaverdeescuradealgodao,Camisa Verde Escura de Algodão,5,10,5,20,,2,,-4,0,2,512,,0,0,{},{}
-2060,SueterVermelhocomDecoteemV,Suéter Vermelho com Decote em V,5,6000,3000,35,,8,,-16,0,2,512,,1,0,{},{}
-2061,SueterVerdecomDecoteemV,Suéter Verde com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2062,SueterAzulEscurocomDecoteemV,Suéter Azul Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2063,SueterAmarelocomDecoteemV,Suéter Amarelo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2064,SueterAzulClarocomDecoteemV,Suéter Azul Claro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2065,SueterRosacomDecoteemV,Suéter Rosa com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2066,SueterPretocomDecoteemV,Suéter Preto com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2067,SueterLaranjacomDecoteemV,Suéter Laranja com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2068,SueterroxocomDecoteemV,Suéter Roxo com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2069,SueterVerdeEscurocomDecoteemV,Suéter Verde Escuro com Decote em V,5,6000,3000,35,,2,,-16,0,2,512,,1,0,{},{}
-2070,SueterVermelhodeGolaAlta,Suéter Vermelho de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2071,SueterVerdedeGolaAlta,Suéter Verde de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2072,SueterAzulEscurodeGolaAlta,Suéter Azul Escura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2073,SueterAmarelodeGolaAlta,Suéter Amarelo de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2074,SueterAzulClarodeGolaAlta,Suéter Azul Claro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2075,SueterRosadeGolaAlta,Suéter Rosa de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2076,SueterPretodeGolaAlta,Suéter Preto de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2077,SueterLaranjadeGola Alta,Suéter Laranja de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2078,SueterroxodeGolaAlta,Suéter Púrpura de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
-2079,SueterVerdeEscurodeGolaAlta,Suéter Verde Escuro de Gola Alta,5,2000,1000,35,,2,,-12,0,2,512,,1,0,{},{}
+2050,camisavermelhadealgodao,Camisa Vermelha de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2051,camisaverdedealgodao,Camisa Verde de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2052,camisaazulescuradealgodao,Camisa Azul Escura de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2053,camisaamareladealgodao,Camisa Amarela de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2054,camisaazulclaradealgodao,Camisa Azul Clara de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2055,camisarosadealgodao,Camisa Rosa de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2056,camisapretadealgodao,Camisa Preta de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2057,camisalaranjadealgodao,Camisa Laranja de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2058,camisaroxadealgodao,Camisa Roxa de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2059,camisaverdeescuradealgodao,Camisa Verde Escura de Algodão,5,10,5,20,,2,,,0,2,512,,0,0,{},{}
+2060,SueterVermelhocomDecoteemV,Suéter Vermelho com Decote em V,5,6000,3000,35,,8,,,0,2,512,,1,0,{},{}
+2061,SueterVerdecomDecoteemV,Suéter Verde com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2062,SueterAzulEscurocomDecoteemV,Suéter Azul Escuro com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2063,SueterAmarelocomDecoteemV,Suéter Amarelo com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2064,SueterAzulClarocomDecoteemV,Suéter Azul Claro com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2065,SueterRosacomDecoteemV,Suéter Rosa com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2066,SueterPretocomDecoteemV,Suéter Preto com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2067,SueterLaranjacomDecoteemV,Suéter Laranja com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2068,SueterroxocomDecoteemV,Suéter Roxo com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2069,SueterVerdeEscurocomDecoteemV,Suéter Verde Escuro com Decote em V,5,6000,3000,35,,2,,,0,2,512,,1,0,{},{}
+2070,SueterVermelhodeGolaAlta,Suéter Vermelho de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2071,SueterVerdedeGolaAlta,Suéter Verde de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2072,SueterAzulEscurodeGolaAlta,Suéter Azul Escura de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2073,SueterAmarelodeGolaAlta,Suéter Amarelo de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2074,SueterAzulClarodeGolaAlta,Suéter Azul Claro de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2075,SueterRosadeGolaAlta,Suéter Rosa de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2076,SueterPretodeGolaAlta,Suéter Preto de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2077,SueterLaranjadeGola Alta,Suéter Laranja de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2078,SueterroxodeGolaAlta,Suéter Púrpura de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
+2079,SueterVerdeEscurodeGolaAlta,Suéter Verde Escuro de Gola Alta,5,2000,1000,35,,2,,,0,2,512,,1,0,{},{}
 2080,tunicavermelhadeseda,Túnica Vermelha de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2081,tunicaverdedeseda,Túnica Verde de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2082,tunicaazulescuradeseda,Túnica Azul Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
@@ -431,56 +431,56 @@
 2087,tunicalaranjadeseda,Túnica Laranja de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2088,tunicaroxadeseda,Túnica Roxa de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
 2089,tunicaverdeescuradeseda,Túnica Verde Escura de Seda,5,8000,4000,30,,2,,0,0,2,512,,30,0,{},{}
-2090,camisetavermelha,Camiseta Vermelha,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2091,camisetaverde,Camiseta Verde,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2092,camisetaazulescura,Camiseta Azul Escura,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2093,camisetaamarela,Camiseta Amarela,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2094,camisetaazulclara,Camiseta Azul Clara,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2095,camisetarosa,Camiseta Rosa,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2096,camisetapreta,Camiseta Preta,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2097,camisetalaranja,Camiseta Laranja,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2098,camisetaroxa,Camiseta Roxa,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2099,camisetaverdeescura,Camiseta Verde Escura,5,10,5,12,,2,,-4,0,2,512,,0,0,{},{}
-2100,saiavermelhadealgodao,Saia Vermelha de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2101,saiaverdedealgodao,Saia Verde de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2102,saiaazulescuradealgodao,Saia Azul Escura de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2103,saiaamareladealgodao,Saia Amarela de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2104,saiaazulclaradealgodao,Saia Azul Clara de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2105,saiarosadealgodao,Saia Rosa de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2106,saiapretadealgodao,Saia Preta de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2107,saialaranjadealgodao,Saia Laranja de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2108,saiaroxadealgodao,Saia Roxa de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2109,saiaverdeescuradealgodao,Saia Verde Escura de Algodão,5,1000,500,20,,2,,-8,0,0,1,,1,0,{},{}
-2110,shortvermelhodealgodao,Short Vermelho de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2111,shortverdedealgodao,Short Verde de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2112,shortazulescurodealgodao,Short Azul Escuro de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2113,shortamarelodealgodao,Short Amarelo de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2114,shortazulclarodealgodao,Short Azul Claro de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2115,shortrosadealgodao,Short Rosa de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2116,shortpretodealgodao,Short Preto de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2117,shortlaranjadealgodao,Short Laranja de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2118,shortroxodealgodao,Short Roxo de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2119,shortverdeescurodealgodao,Short Verde Escuro de Algodão,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2120,camisetacurtavermelha,Camiseta Curta Vermelha,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2121,camisetacurtaverde,Camiseta Curta Verde,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2122,camisetacurtaazulescura,Camiseta Curta Azul Escura,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2123,camisetacurtaamarela,Camiseta Curta Amarela,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2124,camisetacurtaazulclara,Camiseta Curta Azul Clara,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2125,camisetacurtarosa,Camiseta Curta Rosa,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2126,camisetacurtapreta,Camiseta Curta Preta,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2127,camisetacurtalaranja,Camiseta Curta Laranja,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2128,camisetacurtaroxa,Camiseta Curta Roxa,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2129,camisetacurtaverdeescura,Camiseta Curta Verde Escura,5,10,5,8,,2,,-4,0,2,512,,0,0,{},{}
-2130,chapeudodesertovermelho,Chapéu do Deserto Vermelho,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2131,chapeudodesertoverde,Chapéu do Deserto Verde,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2132,chapeudodesertoazulescuro,Chapéu do Deserto Azul Escuro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2133,chapeudodesertoamarelo,Chapéu do Deserto Amarelo,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2134,chapeudodesertoazulclaro,Chapéu do Deserto Azul Claro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2135,chapeudodesertorosa,Chapéu do Deserto Rosa,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2136,chapeudodesertopreto,Chapéu do Deserto Preto,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2137,chapeudodesertolaranja,Chapéu do Deserto Laranja,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2138,chapeudodesertoroxo,Chapéu do Deserto Roxo,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
-2139,chapeudodesertoverdeescuro,Chapéu do Deserto Verde Escuro,5,5000,1000,20,,3,,-1,0,2,256,,0,0,{},{}
+2090,camisetavermelha,Camiseta Vermelha,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2091,camisetaverde,Camiseta Verde,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2092,camisetaazulescura,Camiseta Azul Escura,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2093,camisetaamarela,Camiseta Amarela,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2094,camisetaazulclara,Camiseta Azul Clara,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2095,camisetarosa,Camiseta Rosa,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2096,camisetapreta,Camiseta Preta,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2097,camisetalaranja,Camiseta Laranja,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2098,camisetaroxa,Camiseta Roxa,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2099,camisetaverdeescura,Camiseta Verde Escura,5,10,5,12,,2,,,0,2,512,,0,0,{},{}
+2100,saiavermelhadealgodao,Saia Vermelha de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2101,saiaverdedealgodao,Saia Verde de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2102,saiaazulescuradealgodao,Saia Azul Escura de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2103,saiaamareladealgodao,Saia Amarela de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2104,saiaazulclaradealgodao,Saia Azul Clara de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2105,saiarosadealgodao,Saia Rosa de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2106,saiapretadealgodao,Saia Preta de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2107,saialaranjadealgodao,Saia Laranja de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2108,saiaroxadealgodao,Saia Roxa de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2109,saiaverdeescuradealgodao,Saia Verde Escura de Algodão,5,1000,500,20,,2,,,0,0,1,,1,0,{},{}
+2110,shortvermelhodealgodao,Short Vermelho de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2111,shortverdedealgodao,Short Verde de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2112,shortazulescurodealgodao,Short Azul Escuro de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2113,shortamarelodealgodao,Short Amarelo de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2114,shortazulclarodealgodao,Short Azul Claro de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2115,shortrosadealgodao,Short Rosa de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2116,shortpretodealgodao,Short Preto de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2117,shortlaranjadealgodao,Short Laranja de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2118,shortroxodealgodao,Short Roxo de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2119,shortverdeescurodealgodao,Short Verde Escuro de Algodão,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2120,camisetacurtavermelha,Camiseta Curta Vermelha,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2121,camisetacurtaverde,Camiseta Curta Verde,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2122,camisetacurtaazulescura,Camiseta Curta Azul Escura,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2123,camisetacurtaamarela,Camiseta Curta Amarela,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2124,camisetacurtaazulclara,Camiseta Curta Azul Clara,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2125,camisetacurtarosa,Camiseta Curta Rosa,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2126,camisetacurtapreta,Camiseta Curta Preta,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2127,camisetacurtalaranja,Camiseta Curta Laranja,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2128,camisetacurtaroxa,Camiseta Curta Roxa,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2129,camisetacurtaverdeescura,Camiseta Curta Verde Escura,5,10,5,8,,2,,,0,2,512,,0,0,{},{}
+2130,chapeudodesertovermelho,Chapéu do Deserto Vermelho,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2131,chapeudodesertoverde,Chapéu do Deserto Verde,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2132,chapeudodesertoazulescuro,Chapéu do Deserto Azul Escuro,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2133,chapeudodesertoamarelo,Chapéu do Deserto Amarelo,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2134,chapeudodesertoazulclaro,Chapéu do Deserto Azul Claro,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2135,chapeudodesertorosa,Chapéu do Deserto Rosa,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2136,chapeudodesertopreto,Chapéu do Deserto Preto,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2137,chapeudodesertolaranja,Chapéu do Deserto Laranja,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2138,chapeudodesertoroxo,Chapéu do Deserto Roxo,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
+2139,chapeudodesertoverdeescuro,Chapéu do Deserto Verde Escuro,5,5000,1000,20,,3,,,0,2,256,,0,0,{},{}
 2140,faixatradicionalvermelha,Faixa Tradicional Vermelha,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
 2141,faixatradicionalverde,Faixa Tradicional Verde,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
 2142,faixatradicionalazulescura,Faixa Tradicional Azul escura,5,3000,500,5,,2,,0,0,2,256,,0,0,{},{}
@@ -501,26 +501,26 @@
 2157,botaslaranjasdealgodao,Botas Laranjas de Algodão,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
 2158,botasroxasdealgodao,Botas Roxas de Algodão,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
 2159,botasverdeescurasdealgodao,Botas Verde Escuras de Algodão,5,2000,500,30,,1,,1,0,2,64,,0,0,{},{}
-2160,luvasvermelhasdealgodao,Luvas Vermelhas de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2161,luvasverdesdealgodao,Luvas Verdes de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2162,luvasazulescurasdealgodao,Luvas Azul Escuras de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2163,luvasamarelasdealgodao,Luvas Amarelas de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2164,luvasazulclarasdealgodao,Luvas Azul Claras de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2165,luvasrosasdealgodao,Luvas Rosas de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2166,luvaspretasdealgodao,Luvas Pretas de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2167,luvaslaranjasdealgodao,Luvas Laranjas de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2168,luvasroxasdealgodao,Luvas Roxas de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2169,luvasverdeescurasdealgodao,Luvas Verde Escuras de Algodão,5,2000,500,20,,1,,-10,0,2,4,,0,0,{},{}
-2170,minisaiavermelha,Minisaia Vermelha,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2171,minisaiaverde,Minisaia Verde,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2172,minisaiaazulescura,Minisaia Azul Escura,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2173,minisaiaamarela,Minisaia Amarela,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2174,minisaiaazulclara,Minisaia Azul Clara,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2175,minisaiarosa,Minisaia Rosa,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2176,minisaiapreta,Minisaia Preta,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2177,minisaialaranja,Minisaia Laranja,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2178,minisaiaroxa,Minisaia Roxa,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
-2179,minisaiaverdeescura,Minisaia Verde Escura,5,1000,500,8,,2,,-8,0,0,1,,1,0,{},{}
+2160,luvasvermelhasdealgodao,Luvas Vermelhas de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2161,luvasverdesdealgodao,Luvas Verdes de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2162,luvasazulescurasdealgodao,Luvas Azul Escuras de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2163,luvasamarelasdealgodao,Luvas Amarelas de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2164,luvasazulclarasdealgodao,Luvas Azul Claras de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2165,luvasrosasdealgodao,Luvas Rosas de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2166,luvaspretasdealgodao,Luvas Pretas de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2167,luvaslaranjasdealgodao,Luvas Laranjas de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2168,luvasroxasdealgodao,Luvas Roxas de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2169,luvasverdeescurasdealgodao,Luvas Verde Escuras de Algodão,5,2000,500,20,,1,,,0,2,4,,0,0,{},{}
+2170,minisaiavermelha,Minisaia Vermelha,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2171,minisaiaverde,Minisaia Verde,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2172,minisaiaazulescura,Minisaia Azul Escura,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2173,minisaiaamarela,Minisaia Amarela,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2174,minisaiaazulclara,Minisaia Azul Clara,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2175,minisaiarosa,Minisaia Rosa,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2176,minisaiapreta,Minisaia Preta,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2177,minisaialaranja,Minisaia Laranja,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2178,minisaiaroxa,Minisaia Roxa,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
+2179,minisaiaverdeescura,Minisaia Verde Escura,5,1000,500,8,,2,,,0,0,1,,1,0,{},{}
 //2180,paperhatvermelho,Paper Party Hat Vermelho,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
 //2181,paperhatverde,Paper Party Hat Verde,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
 //2182,paperhatazulescuro,Paper Party Hat Azul Escuro,5,10,5,1,,1,, 0,0,2,1,,1,0,{},{}
@@ -564,16 +564,16 @@
 // ,,,,,,,,,,,,,,,,,,,,
 // ITENS COLORIDOS DA EQUIPE TMW-BR,,,,,,,,,,,,,,,,,,,,
 // ,,,,,,,,,,,,,,,,,,,,
-2500,calcaAlgodaoVermelho,calcaAlgodaoVermelho,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2501,calcaAlgodaoVerde,calcaAlgodaoVerde,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2502,calcaAlgodaoAzulescuro,calcaAlgodaoAzulescuro,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2503,calcaAlgodaoAmarelo,calcaAlgodaoAmarelo,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2504,calcaAlgodaoAzulClaro,calcaAlgodaoAzulClaro,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2505,calcaAlgodaoRosa,calcaAlgodaoRosa,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2506,calcaAlgodaoPreto,calcaAlgodaoPreto,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2507,calcaAlgodaoLaranja,calcaAlgodaoLaranja,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2508,calcaAlgodaoRoxo,calcaAlgodaoRoxo,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
-2509,calcaAlgodaoVerdeEscuro,calcaAlgodaoVerdeEscuro,5,1000,500,20,,2,,-4,0,2,1,,1,0,{},{}
+2500,calcaAlgodaoVermelho,calcaAlgodaoVermelho,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2501,calcaAlgodaoVerde,calcaAlgodaoVerde,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2502,calcaAlgodaoAzulescuro,calcaAlgodaoAzulescuro,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2503,calcaAlgodaoAmarelo,calcaAlgodaoAmarelo,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2504,calcaAlgodaoAzulClaro,calcaAlgodaoAzulClaro,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2505,calcaAlgodaoRosa,calcaAlgodaoRosa,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2506,calcaAlgodaoPreto,calcaAlgodaoPreto,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2507,calcaAlgodaoLaranja,calcaAlgodaoLaranja,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2508,calcaAlgodaoRoxo,calcaAlgodaoRoxo,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
+2509,calcaAlgodaoVerdeEscuro,calcaAlgodaoVerdeEscuro,5,1000,500,20,,2,,,0,2,1,,1,0,{},{}
 2510,orelhasGatoVermelha,Orelhas de Gato Vermelha,5,4000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,1; }
 2511,orelhasGatoVerde,Orelhas de Gato Verde,5,4000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,1; }
 2512,orelhasGatoAzulEscura,Orelhas de Gato Azul Escura,5,4000,2000,20,,1,,1,0,2,256,,0,0,{},{ bonus bAgi,1; }
@@ -589,21 +589,21 @@
 // ,,,,,,,,,,,,,,,,,,,,
 // ITENS DA EQUIPE TMW-BR,,,,,,,,,,,,,,,,,,,,
 // ,,,,,,,,,,,,,,,,,,,,
-3000,PirateHatBR,Pirate Hat BR,5,2000,1000,40,,4,,-8,0,2,256,,0,0,{},{}
+3000,PirateHatBR,Pirate Hat BR,5,2000,1000,40,,4,,,0,2,256,,0,0,{},{}
 3001,mantoMorte,Manto da Morte,5,8000,4000,5,,5,,0,0,2,512,,30,0,{},{}
-3002,capuzMorte,Capuz da Morte,5,2000,1000,25,,4,,-8,0,2,256,,0,0,{},{}
+3002,capuzMorte,Capuz da Morte,5,2000,1000,25,,4,,,0,2,256,,0,0,{},{}
 3003,pocaoMorte,Poção da Morte,0,1000,500,25,,,,,,2,,,0,,{ sc_start 186,300, 60; },{}
 3004,foiceMorte,Foice da Morte,4,5000,2500,1600,130,,1,,0,2,2,1,60,3,{},{}
 3005,perolaNegra,Perola Negra,3,1500,750,5,,,,,,2,,,0,,{},{}
 3006,mapaTesouro,Mapa do Tesouro,3,300,150,18,,,,,,,,,,,{},{}
-3007,capaceteLord,Capacete de Lord,5,30000,3000,1500,,20,,-36,0,2,256,,70,0,{},{}
+3007,capaceteLord,Capacete de Lord,5,30000,3000,1500,,20,,,0,2,256,,70,0,{},{}
 3008,arcoReis,Arco dos Reis,4,10000,5000,1400,110,,6,,0,2,34,1,70,11,{},{}
-3009,armaduraCelestial,Armadura Celestial,5,100000,30000,2750,,28,,-170,0,2,512,,60,0,{},{}
+3009,armaduraCelestial,Armadura Celestial,5,100000,30000,2750,,28,,,0,2,512,,60,0,{},{}
 3010,05moedas,05 Moedas de Ouro,3,100,50,25,,,,,,,,,,,{},{}
 3011,10moedas,10 Moedas de Ouro,3,200,100,50,,,,,,,,,,,{},{}
 3012,15moedas,15 Moedas de Ouro,3,300,150,75,,,,,,,,,,,{},{}
 3013,escamasDragao,Escamas de Dragao,3,1000,500,10,,,,,,,,,,,{},{}
-3014,oculosOlhoDragao,oculosOlhoDragao,5,1000,500,15,,2,,-36,0,2,256,,0,0,{},{bonus bDex, 3; }
+3014,oculosOlhoDragao,oculosOlhoDragao,5,1000,500,15,,2,,,0,2,256,,0,0,{},{bonus bDex, 3; }
 3015,mantoEncantado,mantoEncantado,5,8000,4000,10,,5,,0,0,2,512,,30,0,{},{bonus bMdef, 10; }
 3016,colarHorcrux,colarHorcrux,3,1000,500,10,,,,,,,,,,,{},{}
 3017,colarHorcruxFada,colarHorcruxFada,5,8000,4000,10,0,,,0,0,2,128,,0,0,{},{ bonus bAtk, BaseLevel/2+1; bonus bMaxHP, BaseLevel*2; bonus bMaxSP, BaseLevel; }
@@ -615,7 +615,7 @@
 3023,FrascoVazio,Frasco Vazio,3,20,10,10,,,,,,,,,,,{},{}
 3024,VenenoDeNinfas,Veneno de Ninfas,0,1000,500,20,,,,,,2,,,0,,{ getitem 3023,1; itemheal -9999,-9999; },{},
 3025,ElixirDeFadas,Elixir de Fadas,0,1500,750,20,,,,,,2,,,0,,{ itemheal 750,750; getitem 3023,1;},{}
-//3026,CouracaDeCobraDaMontanha,Couraça de Cobra da Montanha,5,4000,2000,200,,8,,-12,0,2,512,,0,0,{},{}
+//3026,CouracaDeCobraDaMontanha,Couraça de Cobra da Montanha,5,4000,2000,200,,8,,,0,2,512,,0,0,{},{}
 3026,CouracaDeCobraDaMontanha,Couraça de Cobra da Montanha,3,4000,2000,200,,,,,,,,,,,{},{}
 3027,cestaMacas,Cesta de Maçãs,3,20,10,100,,,,,,,,,,,{},{}
 3028,tortaMaca,Torta de Maçã,0,50,10,10,,,,,,2,,,0,,{ itemheal 75,0; },{}
@@ -633,12 +633,12 @@
 3040,gorroCouro1,Gorro 1 de Couro,5,1500,750,75,,6,,2,0,2,256,,0,0,{},{}
 3041,gorroCouro2,Gorro 2 de Couro,5,1500,750,75,,6,,2,0,2,256,,0,0,{},{}
 3042,gorroCerebro,Gorro de Cerebro,5,1500,750,35,,2,,2,0,2,256,,0,0,{},{}
-3043,gorroDuende,Gorro de Duende,5,400,200,200,,2,,-2,0,2,256,,0,0,{},{}
+3043,gorroDuende,Gorro de Duende,5,400,200,200,,2,,,0,2,256,,0,0,{},{}
 3044,presentePrateado,Presente Prateado,3,99,400,25,,,,,,,,,,,{},{}
 3045,presenteDourado,Presente Dourado,0,99,1,25,,,,,,2,,,0,,{callfunc "usePresenteSurpresa";},{}
 3046,verdadeiroTrevo,Terdadeiro Trevo,5,50000,25000,10,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 10; bonus bMdef, 25; }
 3047,machadinhaThomasHawk_1,Machadinha de Thomas Hawk_1,4,16000,8000,1500,150,,1,,0,2,2,1,70,1,{},{ bonus bMdef, 5; }
-3048,MiniSaia,Mini Saia,5,1200,600,20,,2,,-8,0,0,1,,1,0,{},{}
+3048,MiniSaia,Mini Saia,5,1200,600,20,,2,,,0,0,1,,1,0,{},{}
 3049,MascaraNinja,Máscara Ninja,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
 3050,BoneDoador2010,Boné de Doador 2010,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 3051,EspadaAprendiz,Espada Aprendiz,4,4000,2000,150,40,,1,,0,2,2,1,10,1,{},{}
@@ -660,7 +660,7 @@
 3065,ChapeuMagico,Chapeu Mágico,5,3000,1500,300,,5,,2,0,2,256,,0,0,{},{}
 3066,MascaraNinjaEstilizada,Máscara Ninja Estilizada,5,30000,15000,15,,3,,1,0,2,256,,0,0,{},{}
 3067,ADMcap,ADM Cap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{}
-3068,BarbaAureola,Barba com Auréola,5,400,200,200,,2,,-2,0,2,256,,0,0,{},{}
+3068,BarbaAureola,Barba com Auréola,5,400,200,200,,2,,,0,2,256,,0,0,{},{}
 3069,antenaRoxa,antenaRoxa,3,100,50,10,,,,,,,,,,,{},{}
 3070,hasteRoxa,hasteRoxa,5,5000,1000,5,,1,,1,0,2,256,,0,0,{},{}
 3071,cupulateEsp,cupulateEsp,0,80,40,1,,,,,,2,,,0,,{ itemheal 20,0; },{}
@@ -685,7 +685,7 @@
 3090,lascaderocha,Lasca de Rocha,3,1,1,100,,,,,,2,,,0,,{},{}
 3091,BastaoMadeira,Bastão de Madeira,4,6000,3000,100,50,0,1,0,0,2,34,0,20,0,{},{}
 3092,GorroFloresta,Gorro da Floresta,5,2000,1000,25,0,6,0,0,0,2,256,0,0,0,{},{}
-3093,MascaraNecromante,Máscara Necromante,5,10000,5000,25,0,15,0,-15,0,2,256,0,30,0,{},{ bonus bMdef, 15; }
+3093,MascaraNecromante,Máscara Necromante,5,10000,5000,25,0,15,0,,0,2,256,0,30,0,{},{ bonus bMdef, 15; }
 3094,ArmaduraDragao,Armadura do Dragão,5,300000,150000,150,0,20,0,100,0,2,512,0,55,0,{},{ bonus bMdef, 15; }
 3095,CalcaDragao,Calça do Dragão,5,250000,125000,100,0,7,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; }
 3096,ElmoDragao,Elmo do Dragão,5,200000,100000,1000,0,20,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; }
@@ -703,7 +703,7 @@
 3108,BoneDoador2011,Boné de Doador 2011,5,100000,50000,15,,3,,1,0,2,256,,0,0,{},{}
 /////////////////////////////////////////////////////////////////////////////////////////
 //Esse escudo vai sai pq os blocos de andar (norte e sul) estão errados.
-3109,escudotupiguarani,Escudo Tupiguarani,5,7000,1700,300,,14,,-50,0,2,32,,,0,{},{}
+3109,escudotupiguarani,Escudo Tupiguarani,5,7000,1700,300,,14,,,0,2,32,,,0,{},{}
 ////////////////////////////////////////////////////////////////////////////////////////
 3110,colardemonge,Colar de Monge,5,15000,7500,200,,,,,,2,128,,,,{},{ bonus bInt, 1; }
 3111,picareta,Picareta,4,100,50,2000,10,,1,,0,2,2,1,30,3,{},{}
@@ -741,7 +741,6 @@
 3143,bilhetemagico,bilheteMagico,3,500,10,1,,,,,,,,,,,{},{}
 3144,AnelDemonio,Anel do Demônio,5,16000,8000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
 3145,AnelDragaoVerde,Anel do Dragão Verde,5,32000,16000,10,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 40; }
-
 3146,TeiaDeAranha,Teia de Aranha,3,300,100,5,,,,,,,,,,,{},{}
 3147,chave1009,Chave nº1009,3,10000,5000,30,,,,,,,,,,,{},{}
 3148,asasdeanjo,Asas de Anjo,5,16000,8000,100,0,0,0,0,0,2,16,0,0,0,{},{ bonus bMdef, 20; }
@@ -784,7 +783,7 @@
 3185,halloween2010bronze3,halloween2010bronze augustinho,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
 3186,halloween2010bronze4,halloween2010bronze ELLENBR,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
 3187,halloween2010bronze5,halloween2010bronze BRUNO Paz,5,3000,1000,90,,,,5,0,2,8,,0,0,{},{ bonus bLuk, 1; }
-3188,elmodoarcanjo,elmodoarcanjo,5,20000,2000,600,,15,,-30,0,2,256,,30,0,{},{}
+3188,elmodoarcanjo,elmodoarcanjo,5,20000,2000,600,,15,,,0,2,256,,30,0,{},{}
 3189,asasDeBorboleta,asasDeBorboleta,5,14000,7000,100,0,0,0,0,0,2,128,0,0,0,{},{}
 3190,pergaminhoVelho,pergaminhoVelho,3,600,300,10,,,,,,,,,,,{},{}
 3191,redeCaptura,redeCaptura,4,1500,750,100,10,,1,,0,2,2,1,30,3,{},{}
@@ -816,8 +815,8 @@
 3217,corda,Corda,3,500,250,20,,,,,,,,,,,{},{}
 3218,pelucia,pelucia,3,500,250,50,,,,,,,,,,,{},{}
 3219,orelhaUrso,orelhaUrso,5,2000,1000,75,,1,,0,0,2,256,,0,0,{},{}
-3220,elmoTaurus,elmoTaurus,5,200000,20000,2000,,20,,-30,0,2,256,,70,0,{},{ bonus bStr, 1; }
-3221,elmoSamurai,elmoSamurai,5,200000,20000,2000,,20,,-30,0,2,256,,90,0,{},{ bonus bDex, 1; }
+3220,elmoTaurus,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; }
+3221,elmoSamurai,elmoSamurai,5,200000,20000,2000,,20,,,0,2,256,,90,0,{},{ bonus bDex, 1; }
 3222,veuNoiva,Veu de Noiva,5,50000,20000,200,,5,,5,0,0,256,,0,0,{},{}
 3223,gorroSono,gorroSono,5,500,250,20,,1,,2,0,2,256,,0,0,{},{}
 3224,bonePascoa,bonePascoa,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
@@ -864,7 +863,7 @@
 //Sarab 3264,coroaFaraoNova,coroaFaraoNova,5,10,5,200,,1,,0,0,2,256,,1,0,{},{}
 //Sarab 3265,coroaFaraoVelha,coroaFaraoVelha,5,10,5,200,,1,,0,0,2,256,,1,0,{},{}
 3266,mascaraMorte,mascaraMorte,5,5000,2500,110,,2,,0,0,2,256,,60,0,{},{}
-3267,calcaAlgodao,calcaAlgodao,5,1000,500,15,,2,,-4,0,2,1,,1,0,{},{}
+3267,calcaAlgodao,calcaAlgodao,5,1000,500,15,,2,,,0,2,1,,1,0,{},{}
 3268,RockKnife_1,Rock Knife_1,4,15000,7500,3000,265,,1,,0,2,34,1,84,1,{},{}
 3269,RockKnife_2,Rock Knife_2,4,15000,7500,3000,230,,1,,0,2,34,1,78,1,{},{}
 3270,RockKnife_3,Rock Knife_3,4,15000,7500,3000,195,,1,,0,2,34,1,72,1,{},{}
@@ -898,7 +897,7 @@
 3298,espinhoSangrento,espinhoSangrento,3,50,25,10,,,,,,,,,,,{},{}
 //3299,pocaoFedorZumbi,pocaoFedorZumbi,0,1000,500,25,,,,,,2,,,0,,{ sc_start 200,30, 1; },{}
 3300,boneFrank,boneFrank,5,2000,500,30,,1,,5,0,2,256,,0,0,{},{}
-3301,camisetaFrank,camisetaFrank,5,10,5,13,,2,,-2,0,2,512,,0,0,{},{}
+3301,camisetaFrank,camisetaFrank,5,10,5,13,,2,,,0,2,512,,0,0,{},{}
 3302,paginaBranca,paginaBranca,3,1000,500,1,,,,,,,,,,,{},{}
 3303,paginaDourada,paginaDourada,3,2000,1000,1,,,,,,,,,,,{},{}
 3304,paginaVermelha,paginaVermelha,3,4000,2000,1,,,,,,,,,,,{},{}
@@ -929,10 +928,10 @@
 3329,botaCavaleiroNegro,botaCavaleiroNegro,5,20000,10000,50,0,4,0,35,0,2,64,0,0,0,{},{}
 3330,luvaCavaleiroNegro,luvaCavaleiroNegro,5,20000,10000,25,0,4,0,15,0,2,4,0,0,0,{},{}
 3331,capaceteCavaleiroNegro,capaceteCavaleiroNegro,5,20000,10000,1000,0,20,0,50,0,2,256,0,70,0,{},{}
-3332,calcaCavaleiroDemon,calcaCavaleiroDemon,5,2000,1000,400,0,6,0,-20,0,2,1,0,50,0,{},{}
-3333,armaduraCavaleiroDemon,armaduraCavaleiroDemon,5,2000,1000,2000,0,20,0,-80,0,2,512,0,50,0,{},{}
-3334,botaCavaleiroDemon,botaCavaleiroDemon,5,2000,1000,100,0,4,0,-10,0,2,64,0,0,0,{},{}
-3335,luvaCavaleiroDemon,luvaCavaleiroDemon,5,2000,1000,100,0,4,0,-10,0,2,4,0,0,0,{},{}
+3332,calcaCavaleiroDemon,calcaCavaleiroDemon,5,2000,1000,400,0,6,0,,0,2,1,0,50,0,{},{}
+3333,armaduraCavaleiroDemon,armaduraCavaleiroDemon,5,2000,1000,2000,0,20,0,,0,2,512,0,50,0,{},{}
+3334,botaCavaleiroDemon,botaCavaleiroDemon,5,2000,1000,100,0,4,0,,0,2,64,0,0,0,{},{}
+3335,luvaCavaleiroDemon,luvaCavaleiroDemon,5,2000,1000,100,0,4,0,,0,2,4,0,0,0,{},{}
 3336,capaceteCavaleiroDemon,capaceteCavaleiroDemon,5,2000,1000,1000,0,18,0,50,0,2,256,0,50,0,{},{}
 3337,almaJackMaligno,almaJackMaligno,3,100000,1,1,,,,,,,,,,,{},{}
 3338,petalaFlorCarnivora,petalaFlorCarnivora,0,600,300,10,,,,,,2,,,0,,{},{}
@@ -962,23 +961,23 @@
 3362,camisaNatalina,camisaNatalina,5,2000,1000,90,,2,0,0,0,1,512,0,1,0,{},{}
 3363,calcaNatalina,calcaNatalina,5,2000,1000,160,,2,0,0,0,1,1,0,1,0,{},{}
 3364,vestidoNatalino,vestidoNatalino,5,2000,1000,180,,2,,3,0,0,512,0,1,0,{},{}
-3365,botaNatalinaVermelha,botaNatalinaVerde,5,1000,500,80,,2,,-2,0,2,64,,0,0,{},{}
-3366,gorroNatalinoVermelho,gorroNatalinoVermelho,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
+3365,botaNatalinaVermelha,botaNatalinaVerde,5,1000,500,80,,2,,,0,2,64,,0,0,{},{}
+3366,gorroNatalinoVermelho,gorroNatalinoVermelho,5,800,400,20,,2,,,0,2,256,,0,0,{},{}
 3367,camisaNatalinaVerde,camisaNatalinaVerde,5,2000,1000,90,,2,0,0,0,1,512,0,1,0,{},{}
 3368,calcaNatalinaVerde,calcaNatalinaVerde,5,2000,1000,160,,2,0,0,0,1,1,0,1,0,{},{}
 3369,vestidoNatalinoVerde,vestidoNatalinoVerde,5,2000,1000,180,,2,,3,0,0,512,0,1,0,{},{}
-3370,botaNatalinaVerde,botaNatalinaVerde,5,1000,500,80,,2,,-2,0,2,64,,0,0,{},{}
-3371,gorroNatalinoVerde,gorroNatalinoVerde,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
-3372,luvaNatalinaVermelha,luvaNatalinaVermelha,5,1000,500,30,,1,,-10,0,2,4,,0,0,{},{}
-3373,luvaNatalinaVerde,luvaNatalinaVerde,5,1000,500,30,,1,,-10,0,2,4,,0,0,{},{}
+3370,botaNatalinaVerde,botaNatalinaVerde,5,1000,500,80,,2,,,0,2,64,,0,0,{},{}
+3371,gorroNatalinoVerde,gorroNatalinoVerde,5,800,400,20,,2,,,0,2,256,,0,0,{},{}
+3372,luvaNatalinaVermelha,luvaNatalinaVermelha,5,1000,500,30,,1,,,0,2,4,,0,0,{},{}
+3373,luvaNatalinaVerde,luvaNatalinaVerde,5,1000,500,30,,1,,,0,2,4,,0,0,{},{}
 3374,biscoitoCanela,Biscoitos de Canela,0,100,40,0,,,,,,2,,,0,,{ itemheal 10,0; },{}
 3375,balinhaCaramelo,Balinhas de Caramelo,0,100,40,0,,,,,,2,,,0,,{ itemheal 10,0; },{}
-3376,cabecaoNeve,cabecaoNeve,5,800,400,80,,2,,-2,0,2,256,,1,0,{},{}
+3376,cabecaoNeve,cabecaoNeve,5,800,400,80,,2,,,0,2,256,,1,0,{},{}
 3377,mascaraRenaRodolf,mascaraRenaRodolf,5,1000,500,80,,2,,0,0,2,256,,1,0,{},{}
 3378,boneLvl99,boneLvl99,5,1000000,1000,20,,2,,0,0,2,256,,99,0,{},{}
 3379,fragmentoMenir,fragmentoMenir,0,2,1,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
 3380,fragmentoEnergizado,fragmentoEnergizado,0,2,1,5,,,,,,2,,,0,,{ callfunc "useFragmentoMenir"; },{}
-3381,coroaImperial,coroaImperial,5,800,400,20,,2,,-2,0,2,256,,0,0,{},{}
+3381,coroaImperial,coroaImperial,5,800,400,20,,2,,,0,2,256,,0,0,{},{}
 //reservado 3382,coroa2
 //reservado 3383,coroa3
 //reservado 3384,coroa4
@@ -1035,16 +1034,613 @@
 3434,petaladefogo,Pétala de Fogo,0,50,25,10,,,,,,2,,,0,,{},{}
 3435,kunai,kunai,4,1000,500,50,73,,1,,0,2,2,1,40,1,{},{}
 3436,penadeanjo,Pena de Anjo,3,20,10,1,,,,,,,,,,,{},{}
-3437,aureola,Auréola,5,400,200,200,,2,,-2,0,2,256,,0,0,{},{}
+3437,aureola,Auréola,5,400,200,200,,2,,,0,2,256,,0,0,{},{}
 3438,machadinhaThomasHawk,Machadinha de Thomas Hawk,4,450000,4500,1500,91,,1,,0,2,2,1,50,1,{},{}
-3439,CristalWarpDesenergizado,Cristal Warp Desenergizado,3,50000,10,1,,,,,,2,,,0,,{},{}
-3440,CristalWarpNuvem,Cristal Warp de Nuvem,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalWarp", "aeros"; },{}
-3441,CristalWarpSangue,Cristal Warp de Sangue,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalWarp", "hades"; },{}
-3442,CristalWarpFolha,Cristal Warp de Folha,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalWarp", "lilit"; },{}
-3443,CristalWarpMadeira,Cristal Warp de Madeira,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalWarp", "bhramir"; },{}
-3444,CristalWarpAreia,Cristal Warp de Areia,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalWarp", "halicarnazo"; },{}
-3445,CristalWarpGelo,Cristal Warp de Gelo,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalWarp", "froz"; },{}
+3439,CristalBoanergesDesenergizado,Cristal Boanerges Desenergizado,3,50000,10,1,,,,,,2,,,0,,{},{}
+3440,CristalBoanergesNuvem,Cristal Boanerges de Nuvem,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "aeros"; },{}
+3441,CristalBoanergesSangue,Cristal Boanerges de Sangue,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "hades"; },{}
+3442,CristalBoanergesFolha,Cristal Boanerges de Folha,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "lilit"; },{}
+3443,CristalBoanergesMadeira,Cristal Boanerges de Madeira,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "bhramir"; },{}
+3444,CristalBoanergesAreia,Cristal Boanerges de Areia,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "halicarnazo"; },{}
+3445,CristalBoanergesGelo,Cristal Boanerges de Gelo,0,150000,10,1,,,,,,2,,,0,,{ callfunc "useCristalBoanerges", "froz"; },{}
 3446,CoroadeThomasHawk,Coroa de Thomas Hawk,5,2000,1000,25,,5,,5,0,2,256,,0,0,{},{}
+3447,EspadaImortal1,Espada dos Imortal,4,300000,150000,360,235,,1,,0,2,2,1,90,1,{},{}
+3448,EspadaImortal2,Espada dos Imortal,4,300000,150000,360,245,,1,,0,2,2,1,90,1,{},{}
+3449,EspadaImortal3,Espada dos Imortal,4,300000,150000,360,255,,1,,0,2,2,1,90,1,{},{}
+3450,EspadaImortal4,Espada dos Imortal,4,300000,150000,360,265,,1,,0,2,2,1,90,1,{},{}
+3451,EspadaImortal5,Espada dos Imortal,4,300000,150000,360,275,,1,,0,2,2,1,90,1,{},{}
+3452,EspadaImortal6,Espada dos Imortal,4,300000,150000,360,285,,1,,0,2,2,1,90,1,{},{}
+3453,EspadaImortal7,Espada dos Imortal,4,300000,150000,360,295,,1,,0,2,2,1,90,1,{},{}
+3454,EspadaImortal8,Espada dos Imortal,4,300000,150000,360,305,,1,,0,2,2,1,90,1,{},{}
+3455,EspadaImortal9,Espada dos Imortal,4,300000,150000,360,315,,1,,0,2,2,1,90,1,{},{}
+3456,EspadaKurogane1,Espada de Kurogane,4,250000,125000,320,210,,1,,0,2,2,1,85,1,{},{}
+3457,EspadaKurogane2,Espada de Kurogane,4,250000,125000,320,220,,1,,0,2,2,1,85,1,{},{}
+3458,EspadaKurogane3,Espada de Kurogane,4,250000,125000,320,230,,1,,0,2,2,1,85,1,{},{}
+3459,EspadaKurogane4,Espada de Kurogane,4,250000,125000,320,240,,1,,0,2,2,1,85,1,{},{}
+3460,EspadaKurogane5,Espada de Kurogane,4,250000,125000,320,250,,1,,0,2,2,1,85,1,{},{}
+3461,EspadaKurogane6,Espada de Kurogane,4,250000,125000,320,260,,1,,0,2,2,1,85,1,{},{}
+3462,EspadaKurogane7,Espada de Kurogane,4,250000,125000,320,270,,1,,0,2,2,1,85,1,{},{}
+3463,EspadaKurogane8,Espada de Kurogane,4,250000,125000,320,280,,1,,0,2,2,1,85,1,{},{}
+3464,EspadaKurogane9,Espada de Kurogane,4,250000,125000,320,290,,1,,0,2,2,1,85,1,{},{}
+3465,EspadaMiguelArcanjo1,Espada Miguel Arcanjo,4,200000,100000,345,185,,1,,0,2,2,1,80,1,{},{}
+3466,EspadaMiguelArcanjo2,Espada Miguel Arcanjo,4,200000,100000,345,195,,1,,0,2,2,1,80,1,{},{}
+3467,EspadaMiguelArcanjo3,Espada Miguel Arcanjo,4,200000,100000,345,205,,1,,0,2,2,1,80,1,{},{}
+3468,EspadaMiguelArcanjo4,Espada Miguel Arcanjo,4,200000,100000,345,215,,1,,0,2,2,1,80,1,{},{}
+3469,EspadaMiguelArcanjo5,Espada Miguel Arcanjo,4,200000,100000,345,225,,1,,0,2,2,1,80,1,{},{}
+3470,EspadaMiguelArcanjo6,Espada Miguel Arcanjo,4,200000,100000,345,235,,1,,0,2,2,1,80,1,{},{}
+3471,EspadaMiguelArcanjo7,Espada Miguel Arcanjo,4,200000,100000,345,245,,1,,0,2,2,1,80,1,{},{}
+3472,EspadaMiguelArcanjo8,Espada Miguel Arcanjo,4,200000,100000,345,255,,1,,0,2,2,1,80,1,{},{}
+3473,EspadaMiguelArcanjo9,Espada Miguel Arcanjo,4,200000,100000,345,265,,1,,0,2,2,1,80,1,{},{}
+3474,faca1,Faca,4,50,25,120,15,,1,,0,2,2,1,1,1,{},{}
+3475,faca2,Faca,4,50,25,120,25,,1,,0,2,2,1,1,1,{},{}
+3476,faca3,Faca,4,50,25,120,35,,1,,0,2,2,1,1,1,{},{}
+3477,faca4,Faca,4,50,25,120,45,,1,,0,2,2,1,1,1,{},{}
+3478,faca5,Faca,4,50,25,120,55,,1,,0,2,2,1,1,1,{},{}
+3479,faca6,Faca,4,50,25,120,65,,1,,0,2,2,1,1,1,{},{}
+3480,faca7,Faca,4,50,25,120,75,,1,,0,2,2,1,1,1,{},{}
+3481,faca8,Faca,4,50,25,120,85,,1,,0,2,2,1,1,1,{},{}
+3482,faca9,Faca,4,50,25,120,95,,1,,0,2,2,1,1,1,{},{}
+3483,facaafiada1,Faca Afiada,4,100,50,150,20,,1,,0,2,2,1,1,1,{},{}
+3484,facaafiada2,Faca Afiada,4,100,50,150,30,,1,,0,2,2,1,1,1,{},{}
+3485,facaafiada3,Faca Afiada,4,100,50,150,40,,1,,0,2,2,1,1,1,{},{}
+3486,facaafiada4,Faca Afiada,4,100,50,150,50,,1,,0,2,2,1,1,1,{},{}
+3487,facaafiada5,Faca Afiada,4,100,50,150,60,,1,,0,2,2,1,1,1,{},{}
+3488,facaafiada6,Faca Afiada,4,100,50,150,70,,1,,0,2,2,1,1,1,{},{}
+3489,facaafiada7,Faca Afiada,4,100,50,150,80,,1,,0,2,2,1,1,1,{},{}
+3490,facaafiada8,Faca Afiada,4,100,50,150,90,,1,,0,2,2,1,1,1,{},{}
+3491,facaafiada9,Faca Afiada,4,100,50,150,100,,1,,0,2,2,1,1,1,{},{}
+3492,adaga1,Adaga,4,1000,500,100,25,,1,,0,2,2,1,1,1,{},{}
+3493,adaga2,Adaga,4,1000,500,100,35,,1,,0,2,2,1,1,1,{},{}
+3494,adaga3,Adaga,4,1000,500,100,45,,1,,0,2,2,1,1,1,{},{}
+3495,adaga4,Adaga,4,1000,500,100,55,,1,,0,2,2,1,1,1,{},{}
+3496,adaga5,Adaga,4,1000,500,100,65,,1,,0,2,2,1,1,1,{},{}
+3497,adaga6,Adaga,4,1000,500,100,75,,1,,0,2,2,1,1,1,{},{}
+3498,adaga7,Adaga,4,1000,500,100,85,,1,,0,2,2,1,1,1,{},{}
+3499,adaga8,Adaga,4,1000,500,100,95,,1,,0,2,2,1,1,1,{},{}
+3500,adaga9,Adaga,4,1000,500,100,105,,1,,0,2,2,1,1,1,{},{}
+3501,roloMacarrao1,Rolo de Macarrão,4,50,25,300,40,,1,,0,2,2,1,1,1,{},{}
+3502,roloMacarrao2,Rolo de Macarrão,4,50,25,300,50,,1,,0,2,2,1,1,1,{},{}
+3503,roloMacarrao3,Rolo de Macarrão,4,50,25,300,60,,1,,0,2,2,1,1,1,{},{}
+3504,roloMacarrao4,Rolo de Macarrão,4,50,25,300,70,,1,,0,2,2,1,1,1,{},{}
+3505,roloMacarrao5,Rolo de Macarrão,4,50,25,300,80,,1,,0,2,2,1,1,1,{},{}
+3506,roloMacarrao6,Rolo de Macarrão,4,50,25,300,90,,1,,0,2,2,1,1,1,{},{}
+3507,roloMacarrao7,Rolo de Macarrão,4,50,25,300,100,,1,,0,2,2,1,1,1,{},{}
+3508,roloMacarrao8,Rolo de Macarrão,4,50,25,300,110,,1,,0,2,2,1,1,1,{},{}
+3509,roloMacarrao9,Rolo de Macarrão,4,50,25,300,120,,1,,0,2,2,1,1,1,{},{}
+3510,facao1,Facão,4,100,50,400,60,,1,,0,2,2,1,20,1,{},{}
+3511,facao2,Facão,4,100,50,400,70,,1,,0,2,2,1,20,1,{},{}
+3512,facao3,Facão,4,100,50,400,80,,1,,0,2,2,1,20,1,{},{}
+3513,facao4,Facão,4,100,50,400,90,,1,,0,2,2,1,20,1,{},{}
+3514,facao5,Facão,4,100,50,400,100,,1,,0,2,2,1,20,1,{},{}
+3515,facao6,Facão,4,100,50,400,110,,1,,0,2,2,1,20,1,{},{}
+3516,facao7,Facão,4,100,50,400,120,,1,,0,2,2,1,20,1,{},{}
+3517,facao8,Facão,4,100,50,400,130,,1,,0,2,2,1,20,1,{},{}
+3518,facao9,Facão,4,100,50,400,140,,1,,0,2,2,1,20,1,{},{}
+3519,cuteloAfiado1,Cutelo Afiado,4,150,75,500,75,,1,,0,2,2,1,25,1,{},{}
+3520,cuteloAfiado2,Cutelo Afiado,4,150,75,500,85,,1,,0,2,2,1,25,1,{},{}
+3521,cuteloAfiado3,Cutelo Afiado,4,150,75,500,95,,1,,0,2,2,1,25,1,{},{}
+3522,cuteloAfiado4,Cutelo Afiado,4,150,75,500,105,,1,,0,2,2,1,25,1,{},{}
+3523,cuteloAfiado5,Cutelo Afiado,4,150,75,500,115,,1,,0,2,2,1,25,1,{},{}
+3524,cuteloAfiado6,Cutelo Afiado,4,150,75,500,125,,1,,0,2,2,1,25,1,{},{}
+3525,cuteloAfiado7,Cutelo Afiado,4,150,75,500,135,,1,,0,2,2,1,25,1,{},{}
+3526,cuteloAfiado8,Cutelo Afiado,4,150,75,500,145,,1,,0,2,2,1,25,1,{},{}
+3527,cuteloAfiado9,Cutelo Afiado,4,150,75,500,155,,1,,0,2,2,1,25,1,{},{}
+3528,EspadaAprendiz1,Espada Aprendiz,4,4000,2000,150,50,,1,,0,2,2,1,10,1,{},{}
+3529,EspadaAprendiz2,Espada Aprendiz,4,4000,2000,150,60,,1,,0,2,2,1,10,1,{},{}
+3530,EspadaAprendiz3,Espada Aprendiz,4,4000,2000,150,70,,1,,0,2,2,1,10,1,{},{}
+3531,EspadaAprendiz4,Espada Aprendiz,4,4000,2000,150,80,,1,,0,2,2,1,10,1,{},{}
+3532,EspadaAprendiz5,Espada Aprendiz,4,4000,2000,150,90,,1,,0,2,2,1,10,1,{},{}
+3533,EspadaAprendiz6,Espada Aprendiz,4,4000,2000,150,100,,1,,0,2,2,1,10,1,{},{}
+3534,EspadaAprendiz7,Espada Aprendiz,4,4000,2000,150,110,,1,,0,2,2,1,10,1,{},{}
+3535,EspadaAprendiz8,Espada Aprendiz,4,4000,2000,150,120,,1,,0,2,2,1,10,1,{},{}
+3536,EspadaAprendiz9,Espada Aprendiz,4,4000,2000,150,130,,1,,0,2,2,1,10,1,{},{}
+3537,EspadaCavaleiroLider1,Espada Cavaleiro Lider,4,7000,3500,350,75,,1,,0,2,2,1,25,1,{},{}
+3538,EspadaCavaleiroLider2,Espada Cavaleiro Lider,4,7000,3500,350,85,,1,,0,2,2,1,25,1,{},{}
+3539,EspadaCavaleiroLider3,Espada Cavaleiro Lider,4,7000,3500,350,95,,1,,0,2,2,1,25,1,{},{}
+3540,EspadaCavaleiroLider4,Espada Cavaleiro Lider,4,7000,3500,350,105,,1,,0,2,2,1,25,1,{},{}
+3541,EspadaCavaleiroLider5,Espada Cavaleiro Lider,4,7000,3500,350,115,,1,,0,2,2,1,25,1,{},{}
+3542,EspadaCavaleiroLider6,Espada Cavaleiro Lider,4,7000,3500,350,125,,1,,0,2,2,1,25,1,{},{}
+3543,EspadaCavaleiroLider7,Espada Cavaleiro Lider,4,7000,3500,350,135,,1,,0,2,2,1,25,1,{},{}
+3544,EspadaCavaleiroLider8,Espada Cavaleiro Lider,4,7000,3500,350,145,,1,,0,2,2,1,25,1,{},{}
+3545,EspadaCavaleiroLider9,Espada Cavaleiro Lider,4,7000,3500,350,155,,1,,0,2,2,1,25,1,{},{}
+3546,foice1,Foice,4,100,50,1200,85,,1,,0,2,2,1,35,3,{},{}
+3547,foice2,Foice,4,100,50,1200,95,,1,,0,2,2,1,35,3,{},{}
+3548,foice3,Foice,4,100,50,1200,105,,1,,0,2,2,1,35,3,{},{}
+3549,foice4,Foice,4,100,50,1200,115,,1,,0,2,2,1,35,3,{},{}
+3550,foice5,Foice,4,100,50,1200,125,,1,,0,2,2,1,35,3,{},{}
+3551,foice6,Foice,4,100,50,1200,135,,1,,0,2,2,1,35,3,{},{}
+3552,foice7,Foice,4,100,50,1200,145,,1,,0,2,2,1,35,3,{},{}
+3553,foice8,Foice,4,100,50,1200,155,,1,,0,2,2,1,35,3,{},{}
+3554,foice9,Foice,4,100,50,1200,165,,1,,0,2,2,1,35,3,{},{}
+3555,AdagaBoniClaide1,Adaga de Boni e Claide,4,10000,6000,800,100,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3556,AdagaBoniClaide2,Adaga de Boni e Claide,4,10000,6000,800,110,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3557,AdagaBoniClaide3,Adaga de Boni e Claide,4,10000,6000,800,120,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3558,AdagaBoniClaide4,Adaga de Boni e Claide,4,10000,6000,800,130,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3559,AdagaBoniClaide5,Adaga de Boni e Claide,4,10000,6000,800,140,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3560,AdagaBoniClaide6,Adaga de Boni e Claide,4,10000,6000,800,150,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3561,AdagaBoniClaide7,Adaga de Boni e Claide,4,10000,6000,800,160,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3562,AdagaBoniClaide8,Adaga de Boni e Claide,4,10000,6000,800,170,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3563,AdagaBoniClaide9,Adaga de Boni e Claide,4,10000,6000,800,180,,1,,0,2,2,1,40,1,{},{ bonus bAgi, 10; }
+3564,espadacurta1,Espada Curta,4,8000,4000,2000,110,,1,,0,2,2,1,45,1,{},{}
+3565,espadacurta2,Espada Curta,4,8000,4000,2000,120,,1,,0,2,2,1,45,1,{},{}
+3566,espadacurta3,Espada Curta,4,8000,4000,2000,130,,1,,0,2,2,1,45,1,{},{}
+3567,espadacurta4,Espada Curta,4,8000,4000,2000,140,,1,,0,2,2,1,45,1,{},{}
+3568,espadacurta5,Espada Curta,4,8000,4000,2000,150,,1,,0,2,2,1,45,1,{},{}
+3569,espadacurta6,Espada Curta,4,8000,4000,2000,160,,1,,0,2,2,1,45,1,{},{}
+3570,espadacurta7,Espada Curta,4,8000,4000,2000,170,,1,,0,2,2,1,45,1,{},{}
+3571,espadacurta8,Espada Curta,4,8000,4000,2000,180,,1,,0,2,2,1,45,1,{},{}
+3572,espadacurta9,Espada Curta,4,8000,4000,2000,190,,1,,0,2,2,1,45,1,{},{}
+3573,Setzer1,Setzer,4,20000,8000,900,120,,1,,0,2,2,1,50,3,{},{}
+3574,Setzer2,Setzer,4,20000,8000,900,130,,1,,0,2,2,1,50,3,{},{}
+3575,Setzer3,Setzer,4,20000,8000,900,140,,1,,0,2,2,1,50,3,{},{}
+3576,Setzer4,Setzer,4,20000,8000,900,150,,1,,0,2,2,1,50,3,{},{}
+3577,Setzer5,Setzer,4,20000,8000,900,160,,1,,0,2,2,1,50,3,{},{}
+3578,Setzer6,Setzer,4,20000,8000,900,170,,1,,0,2,2,1,50,3,{},{}
+3579,Setzer7,Setzer,4,20000,8000,900,180,,1,,0,2,2,1,50,3,{},{}
+3580,Setzer8,Setzer,4,20000,8000,900,190,,1,,0,2,2,1,50,3,{},{}
+3581,Setzer9,Setzer,4,20000,8000,900,200,,1,,0,2,2,1,50,3,{},{}
+3582,dardosdeosso1,Dardos de Osso,4,8000,4000,500,140,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3583,dardosdeosso2,Dardos de Osso,4,8000,4000,500,150,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3584,dardosdeosso3,Dardos de Osso,4,8000,4000,500,160,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3585,dardosdeosso4,Dardos de Osso,4,8000,4000,500,170,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3586,dardosdeosso5,Dardos de Osso,4,8000,4000,500,180,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3587,dardosdeosso6,Dardos de Osso,4,8000,4000,500,190,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3588,dardosdeosso7,Dardos de Osso,4,8000,4000,500,200,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3589,dardosdeosso8,Dardos de Osso,4,8000,4000,500,210,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3590,dardosdeosso9,Dardos de Osso,4,8000,4000,500,220,,2,,0,2,2,1,55,1,{},{ bonus bAgi, 10; bonus bDex, 5; }
+3591,cortadoradeareia1,Cortadora de Areia,4,8000,4000,1000,130,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3592,cortadoradeareia2,Cortadora de Areia,4,8000,4000,1000,140,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3593,cortadoradeareia3,Cortadora de Areia,4,8000,4000,1000,150,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3594,cortadoradeareia4,Cortadora de Areia,4,8000,4000,1000,160,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3595,cortadoradeareia5,Cortadora de Areia,4,8000,4000,1000,170,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3596,cortadoradeareia6,Cortadora de Areia,4,8000,4000,1000,180,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3597,cortadoradeareia7,Cortadora de Areia,4,8000,4000,1000,190,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3598,cortadoradeareia8,Cortadora de Areia,4,8000,4000,1000,200,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3599,cortadoradeareia9,Cortadora de Areia,4,8000,4000,1000,210,,1,,0,2,2,1,55,1,{},{ bonus bAgi, 5; bonus bDex, 1; }
+3600,Scimitar1,Scimitar,4,8000,4000,2000,145,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3601,Scimitar2,Scimitar,4,8000,4000,2000,155,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3602,Scimitar3,Scimitar,4,8000,4000,2000,165,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3603,Scimitar4,Scimitar,4,8000,4000,2000,175,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3604,Scimitar5,Scimitar,4,8000,4000,2000,185,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3605,Scimitar6,Scimitar,4,8000,4000,2000,195,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3606,Scimitar7,Scimitar,4,8000,4000,2000,205,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3607,Scimitar8,Scimitar,4,8000,4000,2000,215,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3608,Scimitar9,Scimitar,4,8000,4000,2000,225,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3609,Falchion1,Falchion,4,8000,4000,2000,155,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3610,Falchion2,Falchion,4,8000,4000,2000,165,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3611,Falchion3,Falchion,4,8000,4000,2000,175,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3612,Falchion4,Falchion,4,8000,4000,2000,185,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3613,Falchion5,Falchion,4,8000,4000,2000,195,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3614,Falchion6,Falchion,4,8000,4000,2000,205,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3615,Falchion7,Falchion,4,8000,4000,2000,215,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3616,Falchion8,Falchion,4,8000,4000,2000,225,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3617,Falchion9,Falchion,4,8000,4000,2000,235,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 2; bonus bDex, 3; }
+3618,Jackal1,Jackal,4,8000,4000,2000,150,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3619,Jackal2,Jackal,4,8000,4000,2000,160,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3620,Jackal3,Jackal,4,8000,4000,2000,170,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3621,Jackal4,Jackal,4,8000,4000,2000,180,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3622,Jackal5,Jackal,4,8000,4000,2000,190,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3623,Jackal6,Jackal,4,8000,4000,2000,200,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3624,Jackal7,Jackal,4,8000,4000,2000,210,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3625,Jackal8,Jackal,4,8000,4000,2000,220,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3626,Jackal9,Jackal,4,8000,4000,2000,230,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 3; bonus bDex, 2; }
+3627,Beheader1,Beheader,4,8000,4000,1000,140,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3628,Beheader2,Beheader,4,8000,4000,1000,150,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3629,Beheader3,Beheader,4,8000,4000,1000,160,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3630,Beheader4,Beheader,4,8000,4000,1000,170,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3631,Beheader5,Beheader,4,8000,4000,1000,180,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3632,Beheader6,Beheader,4,8000,4000,1000,190,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3633,Beheader7,Beheader,4,8000,4000,1000,200,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3634,Beheader8,Beheader,4,8000,4000,1000,210,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3635,Beheader9,Beheader,4,8000,4000,1000,220,,1,,0,2,2,1,60,1,{},{ bonus bAgi, 5; bonus bDex, 5; }
+3636,cajadodefogo1,Cajado de Fogo,4,8000,4000,700,120,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3637,cajadodefogo2,Cajado de Fogo,4,8000,4000,700,130,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3638,cajadodefogo3,Cajado de Fogo,4,8000,4000,700,140,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3639,cajadodefogo4,Cajado de Fogo,4,8000,4000,700,150,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3640,cajadodefogo5,Cajado de Fogo,4,8000,4000,700,160,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3641,cajadodefogo6,Cajado de Fogo,4,8000,4000,700,170,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3642,cajadodefogo7,Cajado de Fogo,4,8000,4000,700,180,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3643,cajadodefogo8,Cajado de Fogo,4,8000,4000,700,190,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3644,cajadodefogo9,Cajado de Fogo,4,8000,4000,700,200,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 7; bonus bDex, 6; bonus bLuk, 5; }
+3645,pedrarefine1,Pedra de Refinamento +1,3,10000,5000,10,,,,,,,,,,,{},{}
+3646,pedrarefine2,Pedra de Refinamento +2,3,20000,10000,10,,,,,,,,,,,{},{}
+3647,pedrarefine3,Pedra de Refinamento +3,3,30000,15000,10,,,,,,,,,,,{},{}
+3648,pedrarefine4,Pedra de Refinamento +4,3,300000,150000,10,,,,,,,,,,,{},{}
+3649,pedrarefine5,Pedra de Refinamento +5,3,400000,200000,10,,,,,,,,,,,{},{}
+3650,pedrarefine6,Pedra de Refinamento +6,3,500000,250000,10,,,,,,,,,,,{},{}
+3651,pedrarefine7,Pedra de Refinamento +7,3,1600000,800000,10,,,,,,,,,,,{},{}
+3652,pedrarefine8,Pedra de Refinamento +8,3,1800000,900000,10,,,,,,,,,,,{},{}
+3653,pedrarefine9,Pedra de Refinamento +9,3,2000000,1000000,10,,,,,,,,,,,{},{}
+3654,cajadodegelo1,Cajado de Gelo,4,8000,4000,700,120,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3655,cajadodegelo2,Cajado de Gelo,4,8000,4000,700,130,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3656,cajadodegelo3,Cajado de Gelo,4,8000,4000,700,140,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3657,cajadodegelo4,Cajado de Gelo,4,8000,4000,700,150,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3658,cajadodegelo5,Cajado de Gelo,4,8000,4000,700,160,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3659,cajadodegelo6,Cajado de Gelo,4,8000,4000,700,170,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3660,cajadodegelo7,Cajado de Gelo,4,8000,4000,700,180,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3661,cajadodegelo8,Cajado de Gelo,4,8000,4000,700,190,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3662,cajadodegelo9,Cajado de Gelo,4,8000,4000,700,200,,1,,0,2,2,1,50,1,{},{ bonus bAgi, 8; bonus bDex, 7; bonus bLuk, 6; }
+3663,EspadaDemoniaca1,Espada Demoniaca,4,200000,100000,345,185,,1,,0,2,2,1,80,1,{},{}
+3664,EspadaDemoniaca2,Espada Demoniaca,4,200000,100000,345,195,,1,,0,2,2,1,80,1,{},{}
+3665,EspadaDemoniaca3,Espada Demoniaca,4,200000,100000,345,205,,1,,0,2,2,1,80,1,{},{}
+3666,EspadaDemoniaca4,Espada Demoniaca,4,200000,100000,345,215,,1,,0,2,2,1,80,1,{},{}
+3667,EspadaDemoniaca5,Espada Demoniaca,4,200000,100000,345,225,,1,,0,2,2,1,80,1,{},{}
+3668,EspadaDemoniaca6,Espada Demoniaca,4,200000,100000,345,235,,1,,0,2,2,1,80,1,{},{}
+3669,EspadaDemoniaca7,Espada Demoniaca,4,200000,100000,345,245,,1,,0,2,2,1,80,1,{},{}
+3670,EspadaDemoniaca8,Espada Demoniaca,4,200000,100000,345,255,,1,,0,2,2,1,80,1,{},{}
+3671,EspadaDemoniaca9,Espada Demoniaca,4,200000,100000,345,265,,1,,0,2,2,1,80,1,{},{}
+3672,foiceMorte1,Foice da Morte,4,5000,2500,1600,140,,1,,0,2,2,1,60,3,{},{}
+3673,foiceMorte2,Foice da Morte,4,5000,2500,1600,150,,1,,0,2,2,1,60,3,{},{}
+3674,foiceMorte3,Foice da Morte,4,5000,2500,1600,160,,1,,0,2,2,1,60,3,{},{}
+3675,foiceMorte4,Foice da Morte,4,5000,2500,1600,170,,1,,0,2,2,1,60,3,{},{}
+3676,foiceMorte5,Foice da Morte,4,5000,2500,1600,180,,1,,0,2,2,1,60,3,{},{}
+3677,foiceMorte6,Foice da Morte,4,5000,2500,1600,190,,1,,0,2,2,1,60,3,{},{}
+3678,foiceMorte7,Foice da Morte,4,5000,2500,1600,200,,1,,0,2,2,1,60,3,{},{}
+3679,foiceMorte8,Foice da Morte,4,5000,2500,1600,210,,1,,0,2,2,1,60,3,{},{}
+3680,foiceMorte9,Foice da Morte,4,5000,2500,1600,220,,1,,0,2,2,1,60,3,{},{}
+3681,RockKnife1,Rock Knife,4,15000,7500,3000,310,,1,,0,2,34,1,90,1,{},{}
+3682,RockKnife2,Rock Knife,4,15000,7500,3000,320,,1,,0,2,34,1,90,1,{},{}
+3683,RockKnife3,Rock Knife,4,15000,7500,3000,330,,1,,0,2,34,1,90,1,{},{}
+3684,RockKnife4,Rock Knife,4,15000,7500,3000,340,,1,,0,2,34,1,90,1,{},{}
+3685,RockKnife5,Rock Knife,4,15000,7500,3000,350,,1,,0,2,34,1,90,1,{},{}
+3686,RockKnife6,Rock Knife,4,15000,7500,3000,360,,1,,0,2,34,1,90,1,{},{}
+3687,RockKnife7,Rock Knife,4,15000,7500,3000,370,,1,,0,2,34,1,90,1,{},{}
+3688,RockKnife8,Rock Knife,4,15000,7500,3000,380,,1,,0,2,34,1,90,1,{},{}
+3689,RockKnife9,Rock Knife,4,15000,7500,3000,390,,1,,0,2,34,1,90,1,{},{}
+3690,espadaPetrificada1,espadaPetrificada,4,10000,5000,1800,150,,1,,0,2,2,1,60,3,{},{}
+3691,espadaPetrificada2,espadaPetrificada,4,10000,5000,1800,160,,1,,0,2,2,1,60,3,{},{}
+3692,espadaPetrificada3,espadaPetrificada,4,10000,5000,1800,170,,1,,0,2,2,1,60,3,{},{}
+3693,espadaPetrificada4,espadaPetrificada,4,10000,5000,1800,180,,1,,0,2,2,1,60,3,{},{}
+3694,espadaPetrificada5,espadaPetrificada,4,10000,5000,1800,190,,1,,0,2,2,1,60,3,{},{}
+3695,espadaPetrificada6,espadaPetrificada,4,10000,5000,1800,200,,1,,0,2,2,1,60,3,{},{}
+3696,espadaPetrificada7,espadaPetrificada,4,10000,5000,1800,210,,1,,0,2,2,1,60,3,{},{}
+3697,espadaPetrificada8,espadaPetrificada,4,10000,5000,1800,220,,1,,0,2,2,1,60,3,{},{}
+3698,espadaPetrificada9,espadaPetrificada,4,10000,5000,1800,230,,1,,0,2,2,1,60,3,{},{}
+3699,ZambacutouPedra1,Zambacutou de Pedra,4,175000,97500,2500,170,,1,,0,2,34,1,75,1,{},{}
+3700,ZambacutouPedra2,Zambacutou de Pedra,4,175000,97500,2500,180,,1,,0,2,34,1,75,1,{},{}
+3701,ZambacutouPedra3,Zambacutou de Pedra,4,175000,97500,2500,190,,1,,0,2,34,1,75,1,{},{}
+3702,ZambacutouPedra4,Zambacutou de Pedra,4,175000,97500,2500,200,,1,,0,2,34,1,75,1,{},{}
+3703,ZambacutouPedra5,Zambacutou de Pedra,4,175000,97500,2500,210,,1,,0,2,34,1,75,1,{},{}
+3704,ZambacutouPedra6,Zambacutou de Pedra,4,175000,97500,2500,220,,1,,0,2,34,1,75,1,{},{}
+3705,ZambacutouPedra7,Zambacutou de Pedra,4,175000,97500,2500,230,,1,,0,2,34,1,75,1,{},{}
+3706,ZambacutouPedra8,Zambacutou de Pedra,4,175000,97500,2500,240,,1,,0,2,34,1,75,1,{},{}
+3707,ZambacutouPedra9,Zambacutou de Pedra,4,175000,97500,2500,250,,1,,0,2,34,1,75,1,{},{}
+3708,arco1,Arco,4,1000,500,20,25,,5,,0,2,34,1,1,11,{},{}
+3709,arco2,Arco,4,1000,500,20,30,,5,,0,2,34,1,1,11,{},{}
+3710,arco3,Arco,4,1000,500,20,35,,5,,0,2,34,1,1,11,{},{}
+3711,arco4,Arco,4,1000,500,20,40,,5,,0,2,34,1,1,11,{},{}
+3712,arco5,Arco,4,1000,500,20,45,,5,,0,2,34,1,1,11,{},{}
+3713,arco6,Arco,4,1000,500,20,50,,5,,0,2,34,1,1,11,{},{}
+3714,arco7,Arco,4,1000,500,20,55,,5,,0,2,34,1,1,11,{},{}
+3715,arco8,Arco,4,1000,500,20,60,,5,,0,2,34,1,1,11,{},{}
+3716,arco9,Arco,4,1000,500,20,65,,5,,0,2,34,1,1,11,{},{}
+3717,arcodecurtoalcance1,Arco de Curto Alcançe,4,3000,1500,600,55,,4,,0,2,34,1,20,11,{},{}
+3718,arcodecurtoalcance2,Arco de Curto Alcançe,4,3000,1500,600,60,,4,,0,2,34,1,20,11,{},{}
+3719,arcodecurtoalcance3,Arco de Curto Alcançe,4,3000,1500,600,65,,4,,0,2,34,1,20,11,{},{}
+3720,arcodecurtoalcance4,Arco de Curto Alcançe,4,3000,1500,600,70,,4,,0,2,34,1,20,11,{},{}
+3721,arcodecurtoalcance5,Arco de Curto Alcançe,4,3000,1500,600,75,,4,,0,2,34,1,20,11,{},{}
+3722,arcodecurtoalcance6,Arco de Curto Alcançe,4,3000,1500,600,80,,4,,0,2,34,1,20,11,{},{}
+3723,arcodecurtoalcance7,Arco de Curto Alcançe,4,3000,1500,600,85,,4,,0,2,34,1,20,11,{},{}
+3724,arcodecurtoalcance8,Arco de Curto Alcançe,4,3000,1500,600,90,,4,,0,2,34,1,20,11,{},{}
+3725,arcodecurtoalcance9,Arco de Curto Alcançe,4,3000,1500,600,95,,4,,0,2,34,1,20,11,{},{}
+3726,arcodafloresta1,Arco da Floresta,4,5000,2500,1200,75,,5,,0,2,34,1,30,11,{},{}
+3727,arcodafloresta2,Arco da Floresta,4,5000,2500,1200,80,,5,,0,2,34,1,30,11,{},{}
+3728,arcodafloresta3,Arco da Floresta,4,5000,2500,1200,85,,5,,0,2,34,1,30,11,{},{}
+3729,arcodafloresta4,Arco da Floresta,4,5000,2500,1200,90,,5,,0,2,34,1,30,11,{},{}
+3730,arcodafloresta5,Arco da Floresta,4,5000,2500,1200,95,,5,,0,2,34,1,30,11,{},{}
+3731,arcodafloresta6,Arco da Floresta,4,5000,2500,1200,100,,5,,0,2,34,1,30,11,{},{}
+3732,arcodafloresta7,Arco da Floresta,4,5000,2500,1200,105,,5,,0,2,34,1,30,11,{},{}
+3733,arcodafloresta8,Arco da Floresta,4,5000,2500,1200,110,,5,,0,2,34,1,30,11,{},{}
+3734,arcodafloresta9,Arco da Floresta,4,5000,2500,1200,115,,5,,0,2,34,1,30,11,{},{}
+3735,arcododeserto1,Arco do Deserto,4,8000,4000,1150,105,,7,,0,2,34,1,45,11,{},{}
+3736,arcododeserto2,Arco do Deserto,4,8000,4000,1150,110,,7,,0,2,34,1,45,11,{},{}
+3737,arcododeserto3,Arco do Deserto,4,8000,4000,1150,115,,7,,0,2,34,1,45,11,{},{}
+3738,arcododeserto4,Arco do Deserto,4,8000,4000,1150,120,,7,,0,2,34,1,45,11,{},{}
+3739,arcododeserto5,Arco do Deserto,4,8000,4000,1150,125,,7,,0,2,34,1,45,11,{},{}
+3740,arcododeserto6,Arco do Deserto,4,8000,4000,1150,130,,7,,0,2,34,1,45,11,{},{}
+3741,arcododeserto7,Arco do Deserto,4,8000,4000,1150,135,,7,,0,2,34,1,45,11,{},{}
+3742,arcododeserto8,Arco do Deserto,4,8000,4000,1150,140,,7,,0,2,34,1,45,11,{},{}
+3743,arcododeserto9,Arco do Deserto,4,8000,4000,1150,145,,7,,0,2,34,1,45,11,{},{}
+3744,arcoReis1,Arco dos Reis,4,10000,5000,1400,115,,6,,0,2,34,1,70,11,{},{}
+3745,arcoReis2,Arco dos Reis,4,10000,5000,1400,120,,6,,0,2,34,1,70,11,{},{}
+3746,arcoReis3,Arco dos Reis,4,10000,5000,1400,125,,6,,0,2,34,1,70,11,{},{}
+3747,arcoReis4,Arco dos Reis,4,10000,5000,1400,130,,6,,0,2,34,1,70,11,{},{}
+3748,arcoReis5,Arco dos Reis,4,10000,5000,1400,135,,6,,0,2,34,1,70,11,{},{}
+3749,arcoReis6,Arco dos Reis,4,10000,5000,1400,140,,6,,0,2,34,1,70,11,{},{}
+3750,arcoReis7,Arco dos Reis,4,10000,5000,1400,145,,6,,0,2,34,1,70,11,{},{}
+3751,arcoReis8,Arco dos Reis,4,10000,5000,1400,150,,6,,0,2,34,1,70,11,{},{}
+3752,arcoReis9,Arco dos Reis,4,10000,5000,1400,155,,6,,0,2,34,1,70,11,{},{}
+3753,pedradafusao1, Pedra da Fusão Lv 1,3,20000,10000,10,,,,,,,,,,,{},{}
+3754,pedradafusao2, Pedra da Fusão Lv 2,3,60000,30000,10,,,,,,,,,,,{},{}
+3755,pedradafusao3, Pedra da Fusão Lv 3,3,200000,100000,10,,,,,,,,,,,{},{}
+3756,botas1,Botas,5,8000,500,80,,3,,,0,2,64,,0,0,{},{}
+3757,botas2,Botas,5,8000,500,80,,3,,,0,2,64,,0,0,{},{ bonus bMaxHP,2; }
+3758,botas3,Botas,5,8000,500,80,,3,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,5; }
+3759,botas4,Botas,5,8000,500,80,,3,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,7; }
+3760,botas5,Botas,5,8000,500,80,,3,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,9; }
+3761,botas6,Botas,5,8000,500,80,,4,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,9; }
+3762,botas7,Botas,5,8000,500,80,,4,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,12; }
+3763,botas8,Botas,5,8000,500,80,,4,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,15; }
+3764,botas9,Botas,5,8000,500,80,,5,,,0,2,64,,0,0,{},{ bonus bAgi,2; bonus bMaxHP,15; }
+3765,botasdepelo1,Botas de Pêlo,5,5000,600,50,,4,,,0,2,64,,0,0,{},{}
+3766,botasdepelo2,Botas de Pêlo,5,5000,600,50,,4,,,0,2,64,,0,0,{},{ bonus bMaxHP,2; }
+3767,botasdepelo3,Botas de Pêlo,5,5000,600,50,,4,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,5; }
+3768,botasdepelo4,Botas de Pêlo,5,5000,600,50,,4,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,7; }
+3769,botasdepelo5,Botas de Pêlo,5,5000,600,50,,4,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,9; }
+3770,botasdepelo6,Botas de Pêlo,5,5000,600,50,,5,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,9; }
+3771,botasdepelo7,Botas de Pêlo,5,5000,600,50,,5,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,12; }
+3772,botasdepelo8,Botas de Pêlo,5,5000,600,50,,5,,,0,2,64,,0,0,{},{ bonus bAgi,1; bonus bMaxHP,15; }
+3773,botasdepelo9,Botas de Pêlo,5,5000,600,50,,6,,,0,2,64,,0,0,{},{ bonus bAgi,2; bonus bMaxHP,15; }
+3774,botasdeassassino1,Botas de Assassino,5,7000,2000,10,,5,,,0,2,64,,95,0,{},{ bonus bAgi,1; }
+3775,botasdeassassino2,Botas de Assassino,5,7000,2000,10,,5,,,0,2,64,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,2; }
+3776,botasdeassassino3,Botas de Assassino,5,7000,2000,10,,5,,,0,2,64,,95,0,{},{ bonus bAgi,2; bonus bMaxHP,5; }
+3777,botasdeassassino4,Botas de Assassino,5,7000,2000,10,,5,,,0,2,64,,95,0,{},{ bonus bAgi,2; bonus bMaxHP,7; }
+3778,botasdeassassino5,Botas de Assassino,5,7000,2000,10,,5,,,0,2,64,,95,0,{},{ bonus bAgi,2; bonus bMaxHP,9; }
+3779,botasdeassassino6,Botas de Assassino,5,7000,2000,10,,6,,,0,2,64,,95,0,{},{ bonus bAgi,2; bonus bMaxHP,9; }
+3780,botasdeassassino7,Botas de Assassino,5,7000,2000,10,,6,,,0,2,64,,95,0,{},{ bonus bAgi,2; bonus bMaxHP,12; }
+3781,botasdeassassino8,Botas de Assassino,5,7000,2000,10,,6,,,0,2,64,,95,0,{},{ bonus bAgi,2; bonus bMaxHP,15; }
+3782,botasdeassassino9,Botas de Assassino,5,7000,2000,10,,7,,,0,2,64,,95,0,{},{ bonus bAgi,3; bonus bMaxHP,15; }
+3783,BotasDragao1,Botas do Dragão,5,150000,75000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; }
+3784,BotasDragao2,Botas do Dragão,5,150000,75000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,2; }
+3785,BotasDragao3,Botas do Dragão,5,150000,75000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,5; bonus bAgi,1; }
+3786,BotasDragao4,Botas do Dragão,5,150000,75000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,7; bonus bAgi,1; }
+3787,BotasDragao5,Botas do Dragão,5,150000,75000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,9; bonus bAgi,1; }
+3788,BotasDragao6,Botas do Dragão,5,150000,75000,50,0,6,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,9; bonus bAgi,1; }
+3789,BotasDragao7,Botas do Dragão,5,150000,75000,50,0,6,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,12; bonus bAgi,1; }
+3790,BotasDragao8,Botas do Dragão,5,150000,75000,50,0,6,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,15; bonus bAgi,1; }
+3791,BotasDragao9,Botas do Dragão,5,150000,75000,50,0,7,0,35,0,2,64,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,15; bonus bAgi,2; }
+3792,botaCavaleiroNegro1,botaCavaleiroNegro,5,20000,10000,50,0,5,0,35,0,2,64,0,0,0,{},{}
+3793,botaCavaleiroNegro2,botaCavaleiroNegro,5,20000,10000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMaxHP,2; }
+3794,botaCavaleiroNegro3,botaCavaleiroNegro,5,20000,10000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMaxHP,5; bonus bAgi,1; }
+3795,botaCavaleiroNegro4,botaCavaleiroNegro,5,20000,10000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMaxHP,7; bonus bAgi,1; }
+3796,botaCavaleiroNegro5,botaCavaleiroNegro,5,20000,10000,50,0,5,0,35,0,2,64,0,0,0,{},{ bonus bMaxHP,9; bonus bAgi,1; }
+3797,botaCavaleiroNegro6,botaCavaleiroNegro,5,20000,10000,50,0,6,0,35,0,2,64,0,0,0,{},{ bonus bMaxHP,9; bonus bAgi,1; }
+3798,botaCavaleiroNegro7,botaCavaleiroNegro,5,20000,10000,50,0,6,0,35,0,2,64,0,0,0,{},{ bonus bMaxHP,12; bonus bAgi,1; }
+3799,botaCavaleiroNegro8,botaCavaleiroNegro,5,20000,10000,50,0,6,0,35,0,2,64,0,0,0,{},{ bonus bMaxHP,15; bonus bAgi,1; }
+3800,botaCavaleiroNegro9,botaCavaleiroNegro,5,20000,10000,50,0,7,0,35,0,2,64,0,0,0,{},{ bonus bMaxHP,15; bonus bAgi,2; }
+3801,botaCavaleiroDemon1,botaCavaleiroDemon,5,2000,1000,100,0,5,0,,0,2,64,0,0,0,{},{}
+3802,botaCavaleiroDemon2,botaCavaleiroDemon,5,2000,1000,100,0,5,0,,0,2,64,0,0,0,{},{ bonus bMaxHP,2; }
+3803,botaCavaleiroDemon3,botaCavaleiroDemon,5,2000,1000,100,0,5,0,,0,2,64,0,0,0,{},{ bonus bMaxHP,5; bonus bAgi,1; }
+3804,botaCavaleiroDemon4,botaCavaleiroDemon,5,2000,1000,100,0,5,0,,0,2,64,0,0,0,{},{ bonus bMaxHP,7; bonus bAgi,1; }
+3805,botaCavaleiroDemon5,botaCavaleiroDemon,5,2000,1000,100,0,5,0,,0,2,64,0,0,0,{},{ bonus bMaxHP,9; bonus bAgi,1; }
+3806,botaCavaleiroDemon6,botaCavaleiroDemon,5,2000,1000,100,0,6,0,,0,2,64,0,0,0,{},{ bonus bMaxHP,9; bonus bAgi,1; }
+3807,botaCavaleiroDemon7,botaCavaleiroDemon,5,2000,1000,100,0,6,0,,0,2,64,0,0,0,{},{ bonus bMaxHP,12; bonus bAgi,1; }
+3808,botaCavaleiroDemon8,botaCavaleiroDemon,5,2000,1000,100,0,6,0,,0,2,64,0,0,0,{},{ bonus bMaxHP,15; bonus bAgi,1; }
+3809,botaCavaleiroDemon9,botaCavaleiroDemon,5,2000,1000,100,0,7,0,,0,2,64,0,0,0,{},{ bonus bMaxHP,15; bonus bAgi,2; }
+3810,luvasdemineiro1,Luvas de Mineiro,5,3000,1000,30,,3,,,0,2,4,,0,0,{},{}
+3811,luvasdemineiro2,Luvas de Mineiro,5,3000,1000,30,,3,,,0,2,4,,0,0,{},{ bonus bMaxHP,2; }
+3812,luvasdemineiro3,Luvas de Mineiro,5,3000,1000,30,,3,,,0,2,4,,0,0,{},{ bonus bMaxHP,5; bonus bDex,1; }
+3813,luvasdemineiro4,Luvas de Mineiro,5,3000,1000,30,,3,,,0,2,4,,0,0,{},{ bonus bMaxHP,7; bonus bDex,1; }
+3814,luvasdemineiro5,Luvas de Mineiro,5,3000,1000,30,,3,,,0,2,4,,0,0,{},{ bonus bMaxHP,9; bonus bDex,1; }
+3815,luvasdemineiro6,Luvas de Mineiro,5,3000,1000,30,,4,,,0,2,4,,0,0,{},{ bonus bMaxHP,9; bonus bDex,1; }
+3816,luvasdemineiro7,Luvas de Mineiro,5,3000,1000,30,,4,,,0,2,4,,0,0,{},{ bonus bMaxHP,12; bonus bDex,1; }
+3817,luvasdemineiro8,Luvas de Mineiro,5,3000,1000,30,,4,,,0,2,4,,0,0,{},{ bonus bMaxHP,15; bonus bDex,1; }
+3818,luvasdemineiro9,Luvas de Mineiro,5,3000,1000,30,,5,,,0,2,4,,0,0,{},{ bonus bMaxHP,15; bonus Dex,2; }
+3819,luvasdecouro1,Luvas de Couro,5,6000,2000,20,,5,,,0,2,4,,0,0,{},{}
+3820,luvasdecouro2,Luvas de Couro,5,6000,2000,20,,5,,,0,2,4,,0,0,{},{ bonus bMaxHP,2; }
+3821,luvasdecouro3,Luvas de Couro,5,6000,2000,20,,5,,,0,2,4,,0,0,{},{ bonus bMaxHP,5; bonus bDex,1; }
+3822,luvasdecouro4,Luvas de Couro,5,6000,2000,20,,5,,,0,2,4,,0,0,{},{ bonus bMaxHP,7; bonus bDex,1; }
+3823,luvasdecouro5,Luvas de Couro,5,6000,2000,20,,5,,,0,2,4,,0,0,{},{ bonus bMaxHP,9; bonus bDex,1; }
+3824,luvasdecouro6,Luvas de Couro,5,6000,2000,20,,6,,,0,2,4,,0,0,{},{ bonus bMaxHP,9; bonus bDex,1; }
+3825,luvasdecouro7,Luvas de Couro,5,6000,2000,20,,6,,,0,2,4,,0,0,{},{ bonus bMaxHP,12; bonus bDex,1; }
+3826,luvasdecouro8,Luvas de Couro,5,6000,2000,20,,6,,,0,2,4,,0,0,{},{ bonus bMaxHP,15; bonus bDex,1; }
+3827,luvasdecouro9,Luvas de Couro,5,6000,2000,20,,7,,,0,2,4,,0,0,{},{ bonus bMaxHP,15; bonus bDex,2; }
+3828,luvasdeinverno1,Luvas de Inverno,5,6000,3000,20,,4,,,0,2,4,,0,0,{},{}
+3829,luvasdeinverno2,Luvas de Inverno,5,6000,3000,20,,4,,,0,2,4,,0,0,{},{ bonus bMaxHP,2; }
+3830,luvasdeinverno3,Luvas de Inverno,5,6000,3000,20,,4,,,0,2,4,,0,0,{},{ bonus bMaxHP,5; bonus bDex,1; }
+3831,luvasdeinverno4,Luvas de Inverno,5,6000,3000,20,,4,,,0,2,4,,0,0,{},{ bonus bMaxHP,7; bonus bDex,1; }
+3832,luvasdeinverno5,Luvas de Inverno,5,6000,3000,20,,4,,,0,2,4,,0,0,{},{ bonus bMaxHP,9; bonus bDex,1; }
+3833,luvasdeinverno6,Luvas de Inverno,5,6000,3000,20,,5,,,0,2,4,,0,0,{},{ bonus bMaxHP,9; bonus bDex,1; }
+3834,luvasdeinverno7,Luvas de Inverno,5,6000,3000,20,,5,,,0,2,4,,0,0,{},{ bonus bMaxHP,12; bonus bDex,1; }
+3835,luvasdeinverno8,Luvas de Inverno,5,6000,3000,20,,5,,,0,2,4,,0,0,{},{ bonus bMaxHP,15; bonus bDex,1; }
+3836,luvasdeinverno9,Luvas de Inverno,5,6000,3000,20,,6,,,0,2,4,,0,0,{},{ bonus bMaxHP,15; bonus bDex,2; }
+3837,luvasdeassassino1,Luvas de Assassino,5,7000,2000,9,,5,,,0,2,4,,95,0,{},{ bonus bAgi,1; }
+3838,luvasdeassassino2,Luvas de Assassino,5,7000,2000,9,,5,,,0,2,4,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,2; }
+3839,luvasdeassassino3,Luvas de Assassino,5,7000,2000,9,,5,,,0,2,4,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,5; bonus bDex,1; }
+3840,luvasdeassassino4,Luvas de Assassino,5,7000,2000,9,,5,,,0,2,4,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,7; bonus bDex,1; }
+3841,luvasdeassassino5,Luvas de Assassino,5,7000,2000,9,,5,,,0,2,4,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,9; bonus bDex,1; }
+3842,luvasdeassassino6,Luvas de Assassino,5,7000,2000,9,,6,,,0,2,4,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,9; bonus bDex,1; }
+3843,luvasdeassassino7,Luvas de Assassino,5,7000,2000,9,,6,,,0,2,4,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,12; bonus bDex,1; }
+3844,luvasdeassassino8,Luvas de Assassino,5,7000,2000,9,,6,,,0,2,4,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,15; bonus bDex,1; }
+3845,luvasdeassassino9,Luvas de Assassino,5,7000,2000,9,,7,,,0,2,4,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,15; bonus bDex,2; }
+3846,LuvasDragao1,Luvas do Dragão,5,100000,50000,25,0,5,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; }
+3847,LuvasDragao2,Luvas do Dragão,5,100000,50000,25,0,5,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,2; }
+3848,LuvasDragao3,Luvas do Dragão,5,100000,50000,25,0,5,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,5; bonus bDex,1; }
+3849,LuvasDragao4,Luvas do Dragão,5,100000,50000,25,0,5,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,7; bonus bDex,1; }
+3850,LuvasDragao5,Luvas do Dragão,5,100000,50000,25,0,5,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,9; bonus bDex,1; }
+3851,LuvasDragao6,Luvas do Dragão,5,100000,50000,25,0,6,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,9; bonus bDex,1; }
+3852,LuvasDragao7,Luvas do Dragão,5,100000,50000,25,0,6,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,12; bonus bDex,1; }
+3853,LuvasDragao8,Luvas do Dragão,5,100000,50000,25,0,6,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,15; bonus bDex,1; }
+3854,LuvasDragao9,Luvas do Dragão,5,100000,50000,25,0,7,0,15,0,2,4,0,0,0,{},{ bonus bMdef, 5; bonus bMaxHP,15; bonus bDex,2; }
+3855,shortjeans1,Short Jeans,5,2000,1000,25,,5,,,0,2,1,,30,0,{},{}
+3856,shortjeans2,Short Jeans,5,2000,1000,25,,5,,,0,2,1,,30,0,{},{ bonus bMaxHP,10;}
+3857,shortjeans3,Short Jeans,5,2000,1000,25,,5,,,0,2,1,,30,0,{},{ bonus bMaxHP,20;}
+3858,shortjeans4,Short Jeans,5,2000,1000,25,,5,,,0,2,1,,30,0,{},{ bonus bMaxHP,30;}
+3859,shortjeans5,Short Jeans,5,2000,1000,25,,5,,,0,2,1,,30,0,{},{ bonus bMaxHP,30; bonus bVit,1; }
+3860,shortjeans6,Short Jeans,5,2000,1000,25,,5,,,0,2,1,,30,0,{},{ bonus bMaxHP,35; bonus bVit,1; }
+3861,shortjeans7,Short Jeans,5,2000,1000,25,,5,,,0,2,1,,30,0,{},{ bonus bMaxHP,40; bonus bVit,1; }
+3862,shortjeans8,Short Jeans,5,2000,1000,25,,6,,,0,2,1,,30,0,{},{ bonus bMaxHP,40; bonus bVit,1; }
+3863,shortjeans9,Short Jeans,5,2000,1000,25,,6,,,0,2,1,,30,0,{},{ bonus bMaxHP,50; bonus bVit,2; }
+3864,calcadecourodecobra1,Calça de Couro de Cobra,5,2000,1000,60,,7,,,0,2,1,,50,0,{},{}
+3865,calcadecourodecobra2,Calça de Couro de Cobra,5,2000,1000,60,,7,,,0,2,1,,50,0,{},{ bonus bMaxHP,10; }
+3866,calcadecourodecobra3,Calça de Couro de Cobra,5,2000,1000,60,,7,,,0,2,1,,50,0,{},{ bonus bMaxHP,20; }
+3867,calcadecourodecobra4,Calça de Couro de Cobra,5,2000,1000,60,,7,,,0,2,1,,50,0,{},{ bonus bMaxHP,30; }
+3868,calcadecourodecobra5,Calça de Couro de Cobra,5,2000,1000,60,,7,,,0,2,1,,50,0,{},{ bonus bMaxHP,30; bonus bVit,1; }
+3869,calcadecourodecobra6,Calça de Couro de Cobra,5,2000,1000,60,,7,,,0,2,1,,50,0,{},{ bonus bMaxHP,35; bonus bVit,1; }
+3870,calcadecourodecobra7,Calça de Couro de Cobra,5,2000,1000,60,,7,,,0,2,1,,50,0,{},{ bonus bMaxHP,40; bonus bVit,1; }
+3871,calcadecourodecobra8,Calça de Couro de Cobra,5,2000,1000,60,,8,,,0,2,1,,50,0,{},{ bonus bMaxHP,40; bonus bVit,1; }
+3872,calcadecourodecobra9,Calça de Couro de Cobra,5,2000,1000,60,,8,,,0,2,1,,50,0,{},{ bonus bMaxHP,50; bonus bVit,2; }
+3873,CalcaDragao1,Calça do Dragão,5,250000,125000,100,0,8,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; }
+3874,CalcaDragao2,Calça do Dragão,5,250000,125000,100,0,8,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; bonus bMaxHP,10; }
+3875,CalcaDragao3,Calça do Dragão,5,250000,125000,100,0,8,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; bonus bMaxHP,20; }
+3876,CalcaDragao4,Calça do Dragão,5,250000,125000,100,0,8,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; bonus bMaxHP,30; }
+3877,CalcaDragao5,Calça do Dragão,5,250000,125000,100,0,8,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; bonus bMaxHP,30; bonus bVit,1; }
+3878,CalcaDragao6,Calça do Dragão,5,250000,125000,100,0,8,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; bonus bMaxHP,35; bonus bVit,1; }
+3879,CalcaDragao7,Calça do Dragão,5,250000,125000,100,0,8,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; bonus bMaxHP,40; bonus bVit,1; }
+3880,CalcaDragao8,Calça do Dragão,5,250000,125000,100,0,9,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; bonus bMaxHP,40; bonus bVit,1; }
+3881,CalcaDragao9,Calça do Dragão,5,250000,125000,100,0,9,0,75,0,2,1,0,60,0,{},{ bonus bMdef, 5; bonus bMaxHP,50; bonus bVit,2; }
+3882,calcaCavaleiroNegro1,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,50,0,{},{}
+3883,calcaCavaleiroNegro2,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,50,0,{},{ bonus bMaxHP,10; }
+3884,calcaCavaleiroNegro3,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,50,0,{},{ bonus bMaxHP,20; }
+3885,calcaCavaleiroNegro4,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,50,0,{},{ bonus bMaxHP,30; }
+3886,calcaCavaleiroNegro5,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,50,0,{},{ bonus bMaxHP,30; bonus bVit,1; }
+3887,calcaCavaleiroNegro6,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,50,0,{},{ bonus bMaxHP,35; bonus bVit,1; }
+3888,calcaCavaleiroNegro7,calcaCavaleiroNegro,5,20000,10000,100,0,7,0,75,0,2,1,0,50,0,{},{ bonus bMaxHP,40; bonus bVit,1; }
+3889,calcaCavaleiroNegro8,calcaCavaleiroNegro,5,20000,10000,100,0,8,0,75,0,2,1,0,50,0,{},{ bonus bMaxHP,40; bonus bVit,1; }
+3890,calcaCavaleiroNegro9,calcaCavaleiroNegro,5,20000,10000,100,0,8,0,75,0,2,1,0,50,0,{},{ bonus bMaxHP,50; bonus bVit,2; }
+3891,calcaCavaleiroDemon1,calcaCavaleiroDemon,5,2000,1000,400,0,7,0,,0,2,1,0,50,0,{},{}
+3892,calcaCavaleiroDemon2,calcaCavaleiroDemon,5,2000,1000,400,0,7,0,,0,2,1,0,50,0,{},{ bonus bMaxHP,10; }
+3893,calcaCavaleiroDemon3,calcaCavaleiroDemon,5,2000,1000,400,0,7,0,,0,2,1,0,50,0,{},{ bonus bMaxHP,20; }
+3894,calcaCavaleiroDemon4,calcaCavaleiroDemon,5,2000,1000,400,0,7,0,,0,2,1,0,50,0,{},{ bonus bMaxHP,30; }
+3895,calcaCavaleiroDemon5,calcaCavaleiroDemon,5,2000,1000,400,0,7,0,,0,2,1,0,50,0,{},{ bonus bMaxHP,30; bonus bVit,1; }
+3896,calcaCavaleiroDemon6,calcaCavaleiroDemon,5,2000,1000,400,0,7,0,,0,2,1,0,50,0,{},{ bonus bMaxHP,35; bonus bVit,1; }
+3897,calcaCavaleiroDemon7,calcaCavaleiroDemon,5,2000,1000,400,0,7,0,,0,2,1,0,50,0,{},{ bonus bMaxHP,40; bonus bVit,1; }
+3898,calcaCavaleiroDemon8,calcaCavaleiroDemon,5,2000,1000,400,0,8,0,,0,2,1,0,50,0,{},{ bonus bMaxHP,40; bonus bVit,1; }
+3899,calcaCavaleiroDemon9,calcaCavaleiroDemon,5,2000,1000,400,0,8,0,,0,2,1,0,50,0,{},{ bonus bMaxHP,50; bonus bVit,2; }
+3900,calcadeassassino1,Calça de Assassino,5,10000,3000,20,,7,,,0,2,1,,95,0,{},{ bonus bAgi,1; }
+3901,calcadeassassino2,Calça de Assassino,5,10000,3000,20,,7,,,0,2,1,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,10; }
+3902,calcadeassassino3,Calça de Assassino,5,10000,3000,20,,7,,,0,2,1,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,20; }
+3903,calcadeassassino4,Calça de Assassino,5,10000,3000,20,,7,,,0,2,1,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,30; }
+3904,calcadeassassino5,Calça de Assassino,5,10000,3000,20,,7,,,0,2,1,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,30; bonus bVit,1; }
+3905,calcadeassassino6,Calça de Assassino,5,10000,3000,20,,7,,,0,2,1,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,35; bonus bVit,1; }
+3906,calcadeassassino7,Calça de Assassino,5,10000,3000,20,,7,,,0,2,1,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,40; bonus bVit,1; }
+3907,calcadeassassino8,Calça de Assassino,5,10000,3000,20,,8,,,0,2,1,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,40; bonus bVit,1; }
+3908,calcadeassassino9,Calça de Assassino,5,10000,3000,20,,8,,,0,2,1,,95,0,{},{ bonus bAgi,1; bonus bMaxHP,50; bonus bVit,2; }
+3909,camisadecouro1,Camisa de Couro,5,2000,1000,20,,5,,,0,2,512,,20,0,{},{}
+3910,camisadecouro2,Camisa de Couro,5,2000,1000,20,,5,,,0,2,512,,20,0,{},{ bonus bMaxHP,10; }
+3911,camisadecouro3,Camisa de Couro,5,2000,1000,20,,6,,,0,2,512,,20,0,{},{ bonus bMaxHP,10; }
+3912,camisadecouro4,Camisa de Couro,5,2000,1000,20,,6,,,0,2,512,,20,0,{},{ bonus bMaxHP,20; }
+3913,camisadecouro5,Camisa de Couro,5,2000,1000,20,,6,,,0,2,512,,20,0,{},{ bonus bMaxHP,40; }
+3914,camisadecouro6,Camisa de Couro,5,2000,1000,20,,6,,,0,2,512,,20,0,{},{ bonus bMaxHP,60; }
+3915,camisadecouro7,Camisa de Couro,5,2000,1000,20,,6,,,0,2,512,,20,0,{},{ bonus bMaxHP,80; }
+3916,camisadecouro8,Camisa de Couro,5,2000,1000,20,,6,,,0,2,512,,20,0,{},{ bonus bMaxHP,90; }
+3917,camisadecouro9,Camisa de Couro,5,2000,1000,20,,6,,,0,2,512,,20,0,{},{ bonus bMaxHP,100; }
+3918,camisadecorrentes1,Camisa de Correntes,5,15000,1500,800,,21,,,0,2,512,,30,0,{},{}
+3919,camisadecorrentes2,Camisa de Correntes,5,15000,1500,800,,21,,,0,2,512,,30,0,{},{ bonus bMaxHP,10; }
+3920,camisadecorrentes3,Camisa de Correntes,5,15000,1500,800,,22,,,0,2,512,,30,0,{},{ bonus bMaxHP,10; }
+3921,camisadecorrentes4,Camisa de Correntes,5,15000,1500,800,,22,,,0,2,512,,30,0,{},{ bonus bMaxHP,20; }
+3922,camisadecorrentes5,Camisa de Correntes,5,15000,1500,800,,22,,,0,2,512,,30,0,{},{ bonus bMaxHP,40; }
+3923,camisadecorrentes6,Camisa de Correntes,5,15000,1500,800,,22,,,0,2,512,,30,0,{},{ bonus bMaxHP,60; }
+3924,camisadecorrentes7,Camisa de Correntes,5,15000,1500,800,,22,,,0,2,512,,30,0,{},{ bonus bMaxHP,80; }
+3925,camisadecorrentes8,Camisa de Correntes,5,15000,1500,800,,22,,,0,2,512,,30,0,{},{ bonus bMaxHP,90; }
+3926,camisadecorrentes9,Camisa de Correntes,5,15000,1500,800,,22,,,0,2,512,,30,0,{},{ bonus bMaxHP,100; }
+3927,armaduraleve1,Armadura Leve,5,50000,2500,1200,,25,,,0,2,512,,40,0,{},{}
+3928,armaduraleve2,Armadura Leve,5,50000,2500,1200,,25,,,0,2,512,,40,0,{},{ bonus bMaxHP,10; }
+3929,armaduraleve3,Armadura Leve,5,50000,2500,1200,,26,,,0,2,512,,40,0,{},{ bonus bMaxHP,10; }
+3930,armaduraleve4,Armadura Leve,5,50000,2500,1200,,26,,,0,2,512,,40,0,{},{ bonus bMaxHP,20; }
+3931,armaduraleve5,Armadura Leve,5,50000,2500,1200,,26,,,0,2,512,,40,0,{},{ bonus bMaxHP,40; }
+3932,armaduraleve6,Armadura Leve,5,50000,2500,1200,,26,,,0,2,512,,40,0,{},{ bonus bMaxHP,60; }
+3933,armaduraleve7,Armadura Leve,5,50000,2500,1200,,26,,,0,2,512,,40,0,{},{ bonus bMaxHP,80; }
+3934,armaduraleve8,Armadura Leve,5,50000,2500,1200,,26,,,0,2,512,,40,0,{},{ bonus bMaxHP,90; }
+3935,armaduraleve9,Armadura Leve,5,50000,2500,1200,,26,,,0,2,512,,40,0,{},{ bonus bMaxHP,100; }
+3936,armaduradouradaleve1,Armadura Dourada Leve,5,9999000,3000,1200,,26,,,0,2,512,,55,0,{},{}
+3937,armaduradouradaleve2,Armadura Dourada Leve,5,9999000,3000,1200,,26,,,0,2,512,,55,0,{},{ bonus bMaxHP,10; }
+3938,armaduradouradaleve3,Armadura Dourada Leve,5,9999000,3000,1200,,27,,,0,2,512,,55,0,{},{ bonus bMaxHP,10; }
+3939,armaduradouradaleve4,Armadura Dourada Leve,5,9999000,3000,1200,,27,,,0,2,512,,55,0,{},{ bonus bMaxHP,20; }
+3940,armaduradouradaleve5,Armadura Dourada Leve,5,9999000,3000,1200,,27,,,0,2,512,,55,0,{},{ bonus bMaxHP,40; }
+3941,armaduradouradaleve6,Armadura Dourada Leve,5,9999000,3000,1200,,27,,,0,2,512,,55,0,{},{ bonus bMaxHP,60; }
+3942,armaduradouradaleve7,Armadura Dourada Leve,5,9999000,3000,1200,,27,,,0,2,512,,55,0,{},{ bonus bMaxHP,80; }
+3943,armaduradouradaleve8,Armadura Dourada Leve,5,9999000,3000,1200,,27,,,0,2,512,,55,0,{},{ bonus bMaxHP,90; }
+3944,armaduradouradaleve9,Armadura Dourada Leve,5,9999000,3000,1200,,27,,,0,2,512,,55,0,{},{ bonus bMaxHP,100; }
+3945,armaduradolordedaguerra1,Armadura do Lorde da Guerra,5,100000,3000,2600,,27,,,0,2,512,,50,0,{},{}
+3946,armaduradolordedaguerra2,Armadura do Lorde da Guerra,5,100000,3000,2600,,27,,,0,2,512,,50,0,{},{ bonus bMaxHP,10; }
+3947,armaduradolordedaguerra3,Armadura do Lorde da Guerra,5,100000,3000,2600,,28,,,0,2,512,,50,0,{},{ bonus bMaxHP,10; }
+3948,armaduradolordedaguerra4,Armadura do Lorde da Guerra,5,100000,3000,2600,,28,,,0,2,512,,50,0,{},{ bonus bMaxHP,20; }
+3949,armaduradolordedaguerra5,Armadura do Lorde da Guerra,5,100000,3000,2600,,28,,,0,2,512,,50,0,{},{ bonus bMaxHP,40; }
+3950,armaduradolordedaguerra6,Armadura do Lorde da Guerra,5,100000,3000,2600,,28,,,0,2,512,,50,0,{},{ bonus bMaxHP,60; }
+3951,armaduradolordedaguerra7,Armadura do Lorde da Guerra,5,100000,3000,2600,,28,,,0,2,512,,50,0,{},{ bonus bMaxHP,80; }
+3952,armaduradolordedaguerra8,Armadura do Lorde da Guerra,5,100000,3000,2600,,28,,,0,2,512,,50,0,{},{ bonus bMaxHP,90; }
+3953,armaduradolordedaguerra9,Armadura do Lorde da Guerra,5,100000,3000,2600,,28,,,0,2,512,,50,0,{},{ bonus bMaxHP,100; }
+3954,armaduradolordedaguerradourad1,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,28,,,0,2,512,,55,0,{},{}
+3955,armaduradolordedaguerradourad2,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,28,,,0,2,512,,55,0,{},{ bonus bMaxHP,10; }
+3956,armaduradolordedaguerradourad3,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,29,,,0,2,512,,55,0,{},{ bonus bMaxHP,10; }
+3957,armaduradolordedaguerradourad4,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,29,,,0,2,512,,55,0,{},{ bonus bMaxHP,20; }
+3958,armaduradolordedaguerradourad5,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,29,,,0,2,512,,55,0,{},{ bonus bMaxHP,40; }
+3959,armaduradolordedaguerradourad6,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,29,,,0,2,512,,55,0,{},{ bonus bMaxHP,60; }
+3960,armaduradolordedaguerradourad7,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,29,,,0,2,512,,55,0,{},{ bonus bMaxHP,80; }
+3961,armaduradolordedaguerradourad8,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,29,,,0,2,512,,55,0,{},{ bonus bMaxHP,90; }
+3962,armaduradolordedaguerradourad9,Armadura do Lorde da Guerra Dourada,5,500000,4000,2600,,29,,,0,2,512,,55,0,{},{ bonus bMaxHP,100; }
+3963,armaduraCelestial1,Armadura Celestial,5,100000,30000,2750,,29,,,0,2,512,,60,0,{},{}
+3964,armaduraCelestial2,Armadura Celestial,5,100000,30000,2750,,29,,,0,2,512,,60,0,{},{ bonus bMaxHP,10; }
+3965,armaduraCelestial3,Armadura Celestial,5,100000,30000,2750,,30,,,0,2,512,,60,0,{},{ bonus bMaxHP,10; }
+3966,armaduraCelestial4,Armadura Celestial,5,100000,30000,2750,,30,,,0,2,512,,60,0,{},{ bonus bMaxHP,20; }
+3967,armaduraCelestial5,Armadura Celestial,5,100000,30000,2750,,30,,,0,2,512,,60,0,{},{ bonus bMaxHP,40; }
+3968,armaduraCelestial6,Armadura Celestial,5,100000,30000,2750,,30,,,0,2,512,,60,0,{},{ bonus bMaxHP,60; }
+3969,armaduraCelestial7,Armadura Celestial,5,100000,30000,2750,,30,,,0,2,512,,60,0,{},{ bonus bMaxHP,80; }
+3970,armaduraCelestial8,Armadura Celestial,5,100000,30000,2750,,30,,,0,2,512,,60,0,{},{ bonus bMaxHP,90; }
+3971,armaduraCelestial9,Armadura Celestial,5,100000,30000,2750,,30,,,0,2,512,,60,0,{},{ bonus bMaxHP,100; }
+3972,elmodolordedaguerra1,Elmo do Lorde da Guerra,5,30000,3000,900,,19,,,0,2,256,,50,0,{},{}
+3973,elmodolordedaguerra2,Elmo do Lorde da Guerra,5,30000,3000,900,,19,,,0,2,256,,50,0,{},{ bonus bMaxHP,20; }
+3974,elmodolordedaguerra3,Elmo do Lorde da Guerra,5,30000,3000,900,,19,,,0,2,256,,50,0,{},{ bonus bMaxHP,30; }
+3975,elmodolordedaguerra4,Elmo do Lorde da Guerra,5,30000,3000,900,,19,,,0,2,256,,50,0,{},{ bonus bMaxHP,40; }
+3976,elmodolordedaguerra5,Elmo do Lorde da Guerra,5,30000,3000,900,,19,,,0,2,256,,50,0,{},{ bonus bMaxHP,50; }
+3977,elmodolordedaguerra6,Elmo do Lorde da Guerra,5,30000,3000,900,,19,,,0,2,256,,50,0,{},{ bonus bMaxHP,60; }
+3978,elmodolordedaguerra7,Elmo do Lorde da Guerra,5,30000,3000,900,,20,,,0,2,256,,50,0,{},{ bonus bMaxHP,100; }
+3979,elmodolordedaguerra8,Elmo do Lorde da Guerra,5,30000,3000,900,,20,,,0,2,256,,50,0,{},{ bonus bMaxHP,150; }
+3980,elmodolordedaguerra9,Elmo do Lorde da Guerra,5,30000,3000,900,,20,,,0,2,256,,50,0,{},{ bonus bMaxHP,200; }
+3981,elmodocavaleiroalado1,Elmo do Cavaleiro Alado,5,20000,2000,600,,16,,,0,2,256,,40,0,{},{}
+3982,elmodocavaleiroalado2,Elmo do Cavaleiro Alado,5,20000,2000,600,,16,,,0,2,256,,40,0,{},{ bonus bMaxHP,20; }
+3983,elmodocavaleiroalado3,Elmo do Cavaleiro Alado,5,20000,2000,600,,16,,,0,2,256,,40,0,{},{ bonus bMaxHP,30; }
+3984,elmodocavaleiroalado4,Elmo do Cavaleiro Alado,5,20000,2000,600,,16,,,0,2,256,,40,0,{},{ bonus bMaxHP,40; }
+3985,elmodocavaleiroalado5,Elmo do Cavaleiro Alado,5,20000,2000,600,,16,,,0,2,256,,40,0,{},{ bonus bMaxHP,50; }
+3986,elmodocavaleiroalado6,Elmo do Cavaleiro Alado,5,20000,2000,600,,16,,,0,2,256,,40,0,{},{ bonus bMaxHP,60; }
+3987,elmodocavaleiroalado7,Elmo do Cavaleiro Alado,5,20000,2000,600,,17,,,0,2,256,,40,0,{},{ bonus bMaxHP,100; }
+3988,elmodocavaleiroalado8,Elmo do Cavaleiro Alado,5,20000,2000,600,,17,,,0,2,256,,40,0,{},{ bonus bMaxHP,150; }
+3989,elmodocavaleiroalado9,Elmo do Cavaleiro Alado,5,20000,2000,600,,17,,,0,2,256,,40,0,{},{ bonus bMaxHP,200; }
+3990,elmodascruzadas1,Elmo das Cruzadas,5,25000,2500,1500,,19,,,0,2,256,,45,0,{},{ bonus bAgi, -1; }
+3991,elmodascruzadas2,Elmo das Cruzadas,5,25000,2500,1500,,19,,,0,2,256,,45,0,{},{ bonus bAgi, -1; bonus bMaxHP,20; }
+3992,elmodascruzadas3,Elmo das Cruzadas,5,25000,2500,1500,,19,,,0,2,256,,45,0,{},{ bonus bAgi, -1; bonus bMaxHP,30; }
+3993,elmodascruzadas4,Elmo das Cruzadas,5,25000,2500,1500,,19,,,0,2,256,,45,0,{},{ bonus bAgi, -1; bonus bMaxHP,40; }
+3994,elmodascruzadas5,Elmo das Cruzadas,5,25000,2500,1500,,19,,,0,2,256,,45,0,{},{ bonus bAgi, -1; bonus bMaxHP,50; }
+3995,elmodascruzadas6,Elmo das Cruzadas,5,25000,2500,1500,,19,,,0,2,256,,45,0,{},{ bonus bAgi, -1; bonus bMaxHP,60; }
+3996,elmodascruzadas7,Elmo das Cruzadas,5,25000,2500,1500,,20,,,0,2,256,,45,0,{},{ bonus bAgi, -1; bonus bMaxHP,100; }
+3997,elmodascruzadas8,Elmo das Cruzadas,5,25000,2500,1500,,20,,,0,2,256,,45,0,{},{ bonus bAgi, -1; bonus bMaxHP,150; }
+3998,elmodascruzadas9,Elmo das Cruzadas,5,25000,2500,1500,,20,,,0,2,256,,45,0,{},{ bonus bAgi, -1; bonus bMaxHP,200; }
+3999,elmodepaladino1,Elmo de Paladino,5,7000,2000,500,,19,,,0,2,256,,70,0,{},{}
+4000,elmodepaladino2,Elmo de Paladino,5,7000,2000,500,,19,,,0,2,256,,70,0,{},{ bonus bMaxHP,20; }
+4001,elmodepaladino3,Elmo de Paladino,5,7000,2000,500,,19,,,0,2,256,,70,0,{},{ bonus bMaxHP,30; }
+4002,elmodepaladino4,Elmo de Paladino,5,7000,2000,500,,19,,,0,2,256,,70,0,{},{ bonus bMaxHP,40; }
+4003,elmodepaladino5,Elmo de Paladino,5,7000,2000,500,,19,,,0,2,256,,70,0,{},{ bonus bMaxHP,50; }
+4004,elmodepaladino6,Elmo de Paladino,5,7000,2000,500,,19,,,0,2,256,,70,0,{},{ bonus bMaxHP,60; }
+4005,elmodepaladino7,Elmo de Paladino,5,7000,2000,500,,20,,,0,2,256,,70,0,{},{ bonus bMaxHP,100; }
+4006,elmodepaladino8,Elmo de Paladino,5,7000,2000,500,,20,,,0,2,256,,70,0,{},{ bonus bMaxHP,150; }
+4007,elmodepaladino9,Elmo de Paladino,5,7000,2000,500,,20,,,0,2,256,,70,0,{},{ bonus bMaxHP,200; }
+4008,elmodosoberano1,Elmo do Soberano,5,7000,2000,500,,21,,,0,2,256,,70,0,{},{bonus bLuk,1; }
+4009,elmodosoberano2,Elmo do Soberano,5,7000,2000,500,,21,,,0,2,256,,70,0,{},{bonus bLuk,1; bonus bMaxHP,20; }
+4010,elmodosoberano3,Elmo do Soberano,5,7000,2000,500,,21,,,0,2,256,,70,0,{},{bonus bLuk,1; bonus bMaxHP,30; }
+4011,elmodosoberano4,Elmo do Soberano,5,7000,2000,500,,21,,,0,2,256,,70,0,{},{bonus bLuk,1; bonus bMaxHP,40; }
+4012,elmodosoberano5,Elmo do Soberano,5,7000,2000,500,,21,,,0,2,256,,70,0,{},{bonus bLuk,1; bonus bMaxHP,50; }
+4013,elmodosoberano6,Elmo do Soberano,5,7000,2000,500,,21,,,0,2,256,,70,0,{},{bonus bLuk,1; bonus bMaxHP,60; }
+4014,elmodosoberano7,Elmo do Soberano,5,7000,2000,500,,22,,,0,2,256,,70,0,{},{bonus bLuk,1; bonus bMaxHP,100; }
+4015,elmodosoberano8,Elmo do Soberano,5,7000,2000,500,,22,,,0,2,256,,70,0,{},{bonus bLuk,1; bonus bMaxHP,150; }
+4016,elmodosoberano9,Elmo do Soberano,5,7000,2000,500,,22,,,0,2,256,,70,0,{},{bonus bLuk,1; bonus bMaxHP,200; }
+4017,elmododeserto1,Elmo do Deserto,5,200000,20000,2000,,21,,,0,2,256,,70,0,{},{ bonus bAgi, 1; }
+4018,elmododeserto2,Elmo do Deserto,5,200000,20000,2000,,21,,,0,2,256,,70,0,{},{ bonus bAgi, 1; bonus bMaxHP,20; }
+4019,elmododeserto3,Elmo do Deserto,5,200000,20000,2000,,21,,,0,2,256,,70,0,{},{ bonus bAgi, 1; bonus bMaxHP,30; }
+4020,elmododeserto4,Elmo do Deserto,5,200000,20000,2000,,21,,,0,2,256,,70,0,{},{ bonus bAgi, 1; bonus bMaxHP,40; }
+4021,elmododeserto5,Elmo do Deserto,5,200000,20000,2000,,21,,,0,2,256,,70,0,{},{ bonus bAgi, 1; bonus bMaxHP,50; }
+4022,elmododeserto6,Elmo do Deserto,5,200000,20000,2000,,21,,,0,2,256,,70,0,{},{ bonus bAgi, 1; bonus bMaxHP,60; }
+4023,elmododeserto7,Elmo do Deserto,5,200000,20000,2000,,22,,,0,2,256,,70,0,{},{ bonus bAgi, 1; bonus bMaxHP,100; }
+4024,elmododeserto8,Elmo do Deserto,5,200000,20000,2000,,22,,,0,2,256,,70,0,{},{ bonus bAgi, 1; bonus bMaxHP,150; }
+4025,elmododeserto9,Elmo do Deserto,5,200000,20000,2000,,22,,,0,2,256,,70,0,{},{ bonus bAgi, 1; bonus bMaxHP,200; }
+4026,ElmoDragao1,Elmo do Dragão,5,200000,100000,1000,0,21,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; }
+4027,ElmoDragao2,Elmo do Dragão,5,200000,100000,1000,0,21,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; bonus bMaxHP,20; }
+4028,ElmoDragao3,Elmo do Dragão,5,200000,100000,1000,0,21,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; bonus bMaxHP,30; }
+4029,ElmoDragao4,Elmo do Dragão,5,200000,100000,1000,0,21,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; bonus bMaxHP,40; }
+4030,ElmoDragao5,Elmo do Dragão,5,200000,100000,1000,0,21,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; bonus bMaxHP,50; }
+4031,ElmoDragao6,Elmo do Dragão,5,200000,100000,1000,0,21,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; bonus bMaxHP,60; }
+4032,ElmoDragao7,Elmo do Dragão,5,200000,100000,1000,0,22,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; bonus bMaxHP,100; }
+4033,ElmoDragao8,Elmo do Dragão,5,200000,100000,1000,0,22,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; bonus bMaxHP,150; }
+4034,ElmoDragao9,Elmo do Dragão,5,200000,100000,1000,0,22,0,50,0,2,256,0,70,0,{},{ bonus bMdef, 15; bonus bMaxHP,200; }
+4035,elmoTaurus1,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; }
+4036,elmoTaurus2,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; bonus bMaxHP,20; }
+4037,elmoTaurus3,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; bonus bMaxHP,30; }
+4038,elmoTaurus4,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; bonus bMaxHP,40; }
+4039,elmoTaurus5,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; bonus bMaxHP,50; }
+4040,elmoTaurus6,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; bonus bMaxHP,60; }
+4041,elmoTaurus7,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; bonus bMaxHP,100; }
+4042,elmoTaurus8,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; bonus bMaxHP,150; }
+4043,elmoTaurus9,elmoTaurus,5,200000,20000,2000,,20,,,0,2,256,,70,0,{},{ bonus bStr, 1; bonus bMaxHP,200; }
+4044,twinblade,Twin Blade,4,115000,57500,1200,183,,1,,0,2,34,1,50,1,{},{}
 //ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
-3447,twinblade,Twin Blade,4,115000,57500,1200,183,,1,,0,2,34,1,50,1,{},{}
-3448,chave3448,Chave de Cobre nº3448,3,100,50,2,,,,,,,,,,,{},{}
+4045,chave4045,Chave de Cobre nº4045,3,100,50,2,,,,,,,,,,,{},{}
