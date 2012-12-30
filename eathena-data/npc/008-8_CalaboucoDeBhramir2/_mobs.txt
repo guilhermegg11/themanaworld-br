@@ -1,0 +1,22 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de 008-8.tmx
+///////////////////////////////////////////////////////////////////
+
+008-8.gat,131,158,97,43	monster	LimoDeFogo(15)	1371,15,0,0,Mob008-8::On1371
+008-8.gat,130,159,97,43	monster	FlorDeFogo(5)	1372,5,0,0,Mob008-8::On1372
+
+008-8.gat,0,0,0	script	Mob008-8	-1,{
+
+On1371:
+	set @mobID, 1371;
+	callfunc "MobPoints";
+break;
+
+On1372:
+	set @mobID, 1372;
+	callfunc "MobPoints";
+break;
+
+end;
+}
