@@ -6600,15 +6600,15 @@
 	<item id="3225"
 		image="generic-easteregg-silver.png"
 		name="Ovo de Páscoa Prateado"
-		description="Um ovo de páscoa prateado. Não se encontra um desses em qualquer lugar."
-		hp="50"
+		description="Um ovo especial. Obtido somente na pascoa"
+		effect="aumenta força e velocidade de ataque (apenas na floresta, temporário)"
 		type="generic"
 		weight="340"/>
 	<item id="3226"
 		image="generic-easteregg-gold.png"
 		name="Ovo de Páscoa Dourado"
-		description="Um ovo de páscoa dourado. Um ovo mais que especial."
-		effect="Item de evento (800gp cada)"
+		description="É um ovo muito especial. So pode ser obtido na pascoa"
+		effect="(Item do Top15 de Halloween)"
 		type="generic"
 		weight="1"/>
 	<item id="3227"
@@ -14659,5 +14659,13 @@
 		type="generic"
 		weight="2"
 	/>
+
+	<item id="4046"
+		image="use-food-easteregg.png|G:#22ff22;"
+		name="Ovo velho da pascoa"
+		description="Um ovo velho de pascoa. Muito mal feito!"
+		effect="(Não conta no top15)"
+		type="generic"
+		weight="4"/>		
 	
 </items>   

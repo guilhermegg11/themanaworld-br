@@ -5,4 +5,5 @@ npc: npc/functions/items/presente_surpresa.conf
 npc: npc/functions/items/shock_sweet.conf
 npc: npc/functions/items/gema_teleporte.conf
 npc: npc/functions/items/gema_buff.conf
+npc: npc/functions/items/ovo_buff.conf
 
