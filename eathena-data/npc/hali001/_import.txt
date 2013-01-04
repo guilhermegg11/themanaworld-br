@@ -10,6 +10,7 @@ npc: npc/hali001/_warps.txt
 npc: npc/hali001/_shops.txt
 
 npc: npc/hali001/MaquinaCacaNiqueis.conf
+npc: npc/hali001/auron.conf
 npc: npc/hali001/banco.conf
 npc: npc/hali001/biblioteca.conf
 npc: npc/hali001/enfermeiras.conf

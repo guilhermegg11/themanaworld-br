@@ -310,6 +310,7 @@
  <objectgroup name="scripts" width="200" height="200">
   <properties>
    <property name="file-MaquinaCacaNiqueis" value="MaquinaCacaNiqueis.conf"/>
+   <property name="file-auron" value="auron.conf"/>
    <property name="file-banco" value="banco.conf"/>
    <property name="file-biblioteca" value="biblioteca.conf"/>
    <property name="file-enfermeiras" value="enfermeiras.conf"/>

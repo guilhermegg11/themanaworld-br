@@ -297,7 +297,7 @@
 764,chapeudemarinheiro,Chapéu de Marinheiro,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
 765,chapeudecapitao,Chapéu de Capitão,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
 766,elmodeterranite,elmodeterranite,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
-767,armaduradeterranite,Armadura de Terranite,5,9999000,3000,240,,25,,,0,2,512,,40,0,{},{}
+767,armaduradeterranite,Armadura de Terranite,5,999900,3000,240,,12,,,0,2,512,,40,0,{},{}
 768,calcadeterranite,Calça de Terranite,5,2000,1000,15,,4,,,0,2,1,,30,0,{},{}
 769,mascaraguyfawkes,Máscara Guy Fawkes,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
 770,chapeudafloresta,Chapéu da Floresta,5,7000,2000,10,,2,,,0,2,256,,0,0,{},{}
