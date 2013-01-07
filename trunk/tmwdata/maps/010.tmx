@@ -99,6 +99,7 @@
    <property name="file-fusus" value="fusus.conf"/>
    <property name="file-guardadonavio" value="guardadonavio.conf"/>
    <property name="file-jornaleiro" value="jornaleiro.conf"/>
+   <property name="file-placavelha" value="placavelha.conf"/>
    <property name="file-presente" value="presente.conf"/>
    <property name="file-raquel" value="raquel.conf"/>
    <property name="file-sinos" value="sinos.conf"/>

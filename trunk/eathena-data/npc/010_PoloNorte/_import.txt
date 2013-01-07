@@ -18,6 +18,7 @@ npc: npc/010_PoloNorte/fortiun.conf
 npc: npc/010_PoloNorte/fusus.conf
 npc: npc/010_PoloNorte/guardadonavio.conf
 npc: npc/010_PoloNorte/jornaleiro.conf
+npc: npc/010_PoloNorte/placavelha.conf
 npc: npc/010_PoloNorte/presente.conf
 npc: npc/010_PoloNorte/raquel.conf
 npc: npc/010_PoloNorte/sinos.conf

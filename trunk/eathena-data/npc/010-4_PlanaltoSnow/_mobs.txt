@@ -3,3 +3,70 @@
 //   → Arquivo compilado apartir de 010-4.tmx
 ///////////////////////////////////////////////////////////////////
 
+010-4.gat,49,96,50,24	monster	tufos(8)	1020,8,0,0,Mob010-4::On1020
+010-4.gat,53,33,22,19	monster	lobobrando(10)	1392,8,0,0,Mob010-4::On1392
+010-4.gat,30,42,14,5	monster	lobobrando(10)	1392,5,0,0,Mob010-4::On1392
+010-4.gat,50,45,18,5	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,41,49,33,5	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,28,53,18,5	monster	lobobrando(2)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,40,56,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,93,38,17,16	monster	mogun(10)	1061,5,0,0,Mob010-4::On1061
+010-4.gat,109,54,17,18	monster	mogun(10)	1061,10,0,0,Mob010-4::On1061
+010-4.gat,153,33,11,20	monster	elementogelo(2)	1071,2,0,0,Mob010-4::On1071
+010-4.gat,153,33,11,20	monster	caveiragelo(2)	1085,2,0,0,Mob010-4::On1085
+010-4.gat,67,138,51,15	monster	tufos(8)	1020,8,0,0,Mob010-4::On1020
+010-4.gat,70,120,3,2	monster	elementogelo(2)	1071,2,0,0,Mob010-4::On1071
+010-4.gat,93,109,3,9	monster	caveiragelo(2)	1085,2,0,0,Mob010-4::On1085
+010-4.gat,103,87,3,9	monster	elemento gelo(2)	1071,2,0,0,Mob010-4::On1071
+010-4.gat,111,87,4,3	monster	caveiragelo(2)	1085,2,0,0,Mob010-4::On1085
+010-4.gat,80,115,4,2	monster	caveiragelo(2)	1085,2,0,0,Mob010-4::On1085
+010-4.gat,101,100,3,5	monster	caveiragelo(2)	1085,2,0,0,Mob010-4::On1085
+010-4.gat,100,108,3,9	monster	elemento gelo(2)	1071,2,0,0,Mob010-4::On1071
+010-4.gat,74,42,19,12	monster	mogun(10)	1061,5,0,0,Mob010-4::On1061
+010-4.gat,39,79,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,65,71,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,54,74,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,26,77,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,82,73,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,93,70,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,79,79,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,33,137,21,15	monster	tufos(8)	1020,3,0,0,Mob010-4::On1020
+010-4.gat,32,65,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,53,60,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,48,67,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,39,68,4,4	monster	lobobrando(15)	1392,2,0,0,Mob010-4::On1392
+010-4.gat,25,116,4,4	monster	lobobrando	1392,1,100000,0,Mob010-4::On1392
+010-4.gat,84,96,5,4	monster	tufos(8)	1020,2,0,0,Mob010-4::On1020
+010-4.gat,89,91,5,4	monster	tufos(8)	1020,2,0,0,Mob010-4::On1020
+010-4.gat,77,98,5,4	monster	tufos(8)	1020,2,0,0,Mob010-4::On1020
+010-4.gat,161,71,34,19	monster	tufos(4)	1020,4,0,0,Mob010-4::On1020
+
+010-4.gat,0,0,0	script	Mob010-4	-1,{
+
+On1020:
+	set @mobID, 1020;
+	callfunc "MobPoints";
+break;
+
+On1392:
+	set @mobID, 1392;
+	callfunc "MobPoints";
+break;
+
+On1061:
+	set @mobID, 1061;
+	callfunc "MobPoints";
+break;
+
+On1071:
+	set @mobID, 1071;
+	callfunc "MobPoints";
+break;
+
+On1085:
+	set @mobID, 1085;
+	callfunc "MobPoints";
+break;
+
+end;
+}
