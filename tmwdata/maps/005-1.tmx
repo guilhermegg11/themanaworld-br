@@ -4,7 +4,8 @@
   <property name="--downlay0image" value="/graphics/images/ambient/paraiso.png"/>
   <property name="--overlay0image" value="/graphics/images/ambient/paraiso.png"/>
   <property name="minimap" value="/graphics/minimaps/005-1.png"/>
-  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="music" value="syntharmony_-_fusion.ogg"/>
+  <property name="music-old" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Quartel General"/>
   <property name="pasta" value="QuartelGeneral"/>
  </properties>
