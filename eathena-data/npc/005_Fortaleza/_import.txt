@@ -10,6 +10,8 @@ npc: npc/005_Fortaleza/anselmo.conf
 npc: npc/005_Fortaleza/elric.conf
 npc: npc/005_Fortaleza/crozue.conf
 npc: npc/005_Fortaleza/guardas.conf
+npc: npc/005_Fortaleza/guardasDoCastelo.conf
+//npc: npc/005_Fortaleza/idolos.conf
 npc: npc/005_Fortaleza/ismael.conf
 npc: npc/005_Fortaleza/jornaleiro.conf
 npc: npc/005_Fortaleza/jose_guloso.conf
