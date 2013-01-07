@@ -781,4 +781,12 @@ Ou um comentário de alguem.
 </monster>
 
 
+<monster id="390" name="Lobo do Planalto Nevado" summon="lobodoplanaltonevado">
+	<sprite>monsters/wolf.xml</sprite>
+	<sound event="hit">wolf-hit1.ogg</sound>
+	<sound event="hit">wolf-hit2.ogg</sound>
+	<sound event="miss">wolf-miss1.ogg</sound>
+	<sound event="die">wolf-die1.ogg</sound>
+</monster>
+
 </monsters>
