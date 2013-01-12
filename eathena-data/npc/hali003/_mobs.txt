@@ -3,3 +3,38 @@
 //   → Arquivo compilado apartir de hali003.tmx
 ///////////////////////////////////////////////////////////////////
 
+hali003.gat,94,96,180,174	monster	terranite(200)	1062,200,0,0,Mobhali003::On1062
+hali003.gat,96,99,180,174	monster	caranguejeira(200)	1310,200,0,0,Mobhali003::On1310
+hali003.gat,97,97,180,174	monster	esqueletoguerreiro(150)	1043,150,0,0,Mobhali003::On1043
+hali003.gat,98,94,180,174	monster	limofogo(300)	1371,300,0,0,Mobhali003::On1371
+hali003.gat,102,97,180,174	monster	limofogo(500)	1009,500,0,0,Mobhali003::On1009
+
+hali003.gat,0,0,0	script	Mobhali003	-1,{
+
+On1062:
+	set @mobID, 1062;
+	callfunc "MobPoints";
+break;
+
+On1310:
+	set @mobID, 1310;
+	callfunc "MobPoints";
+break;
+
+On1043:
+	set @mobID, 1043;
+	callfunc "MobPoints";
+break;
+
+On1371:
+	set @mobID, 1371;
+	callfunc "MobPoints";
+break;
+
+On1009:
+	set @mobID, 1009;
+	callfunc "MobPoints";
+break;
+
+end;
+}
