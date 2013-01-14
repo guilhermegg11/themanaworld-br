@@ -5037,8 +5037,8 @@
 		weight="20"/>
 	<item id="3020"
 		image="generic-po-encantado.png"
-		name="Pó Encantado"
-		description="Um pó encantado usado pelas fadas."
+		name="Bocado de Pó Encantado"
+		description="Usado pelas fadas para diversos feitiços."
 		type="generic"
 		weight="3"/>
 	<item id="3021"
