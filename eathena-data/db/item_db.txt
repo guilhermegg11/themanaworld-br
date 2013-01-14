@@ -609,8 +609,8 @@
 3017,colarHorcruxFada,colarHorcruxFada,5,8000,4000,10,0,,,0,0,2,128,,0,0,{},{ bonus bAtk, BaseLevel/2+1; bonus bMaxHP, BaseLevel*2; bonus bMaxSP, BaseLevel; }
 3018,AFKCap,AFKCap,5,2000,500,10,,5,,5,0,2,256,,0,0,{},{}
 3019,couroCobraGrama,couroCobraGrama,3,300,150,20,,,,,,,,,,,{},{}
-3020,poEncantado,poEncantado,3,500,250,3,,,,,,2,,,0,,{},{}
-3021,asasFada,asasFada,3,300,150,3,,,,,,2,,,0,,{},{}
+3020,BocadoDePoEncantado,Bocado de Pó Encantado,3,500,250,3,,,,,,2,,,0,,{},{}
+3021,AsasDeFada,Asas de Fada,3,300,150,3,,,,,,2,,,0,,{},{}
 3022,chaveBau,chaveBau,3,100,50,5,,,,,,,,,,,{},{}
 3023,FrascoVazio,Frasco Vazio,3,20,10,10,,,,,,,,,,,{},{}
 3024,VenenoDeNinfas,Veneno de Ninfas,0,1000,500,20,,,,,,2,,,0,,{ getitem 3023,1; itemheal -9999,-9999; },{},
