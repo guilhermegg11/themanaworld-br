@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="135" height="165" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="desert2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="desert1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="desert-utilit" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert-utilit.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="769" name="desert3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert3.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="Woodland_village" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1281" name="tulimshar1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/tulimshar1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1537" name="column1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/column1.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="1546" name="desert-piramide" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert-piramide.png" width="320" height="256"/>
+ </tileset>
+ <tileset firstgid="1626" name="ruinas" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/ruinas.png" width="320" height="266"/>
+ </tileset>
+ <tileset firstgid="1706" name="thermin-town" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/thermin-town.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1962" name="shed" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/shed.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="1968" name="desert_x3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="2016" name="praia_vila" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/praia_vila.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2144" name="desert_x5" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert_x5.png" width="192" height="160"/>
+ </tileset>
+ <tileset firstgid="2174" name="Tulimshar_Docks" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Tulimshar_Docks.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="2334" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="2336" name="desert4" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert4.png" width="539" height="522"/>
+ </tileset>
+ <tileset firstgid="2592" name="Woodland_ground2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2848" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3104" name="trans-woodland-desert" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/trans_woodland-desert.png" width="512" height="352"/>
+ </tileset>
+ <tileset firstgid="3280" name="pescadores_vila" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/pescadores_vila.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="3472" name="desert-piramide2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert-piramide2.png" width="228" height="209"/>
+ </tileset>
+ <layer name="Ground" width="135" height="165">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cvY8UdQDG8dlbNPE8C8Wr1ELFP0DFRkuxVQu1FIzEWAkatLOy0sRSLMSSRoWSwpd/wPfWF9TGBkVt5TjwmYSN63C/W9yXmV3m80meEJKFDNkvc78pdqsKrjYYdH0FLCttUKINSrRBiTYo0QYl2qBEG5Rog5K6jXdmGN1a5HugDUq0sdo2p3wPruW9/D/njebfU/+6b5cdvvK6Fye8zqbfvP5/ltqY5b6xf5eNt7Hb62z6LereXXcxy3PKo/mzB6zTPZadXMDeXVBzwPVvlvPGaA+vd/2vYFk9og0AAAAAgNa9N6yqE8Our4Jl80Ga+DD7SBs0fJwmPsk+1QYNn6eJL7IvtQEAwJw9njPmE9mTzpo0PJsmDmaHtEHDS2niSHZUGwAAAAAAALD0Rt+V53u9AXgqe7qwZzq8Lrp3ODt0U1W90dhz2QtdXxydqts4lg6+z37IfszOZq9oo/dGbZzLfst+z85rY+XN4zPxozYuZFvZxWxbGyttXp+JH7Wxvl5VN2cb2S3r2lhl8/pM/KiNE9kdaeLO7C5trLR5fSa+buNoOni+sZe10XvHslcLe63D6wIAAAAAAGjLV8Oq+jr7JvvW94Ax5mx6+Cn7OftFG4w5nx7+yP7M/tIGY7bTw6Xsct3Fnq6vBqazNaiqi9l2dmlw9e8v+1wlwH+s5ef+0JmQgk1tUHCjMxUAAAAAAAAAAAAAAAAAAAAAAABwDQZrVXU8ezN7K7thresrYlncmhbOZN9ln2Wb2uCKu9PCPdm92b7svrqR4b+jv+5PCw9kD2b7s4ca941T+uit+ryxlg2zPTucN7TRX/V547Zsb3b7DucNbfTXqtw3Dm50fQX9syr3jfc39NG2SfeN8WeWndamt7XRqknPsLu9/6dabkYb7Zr0DHt6ivd5UT+HtNGuSecNbfSXNiiZdBbVRn+N2tirDRpmfYb1nHL9mnTeWBav66J1k+4by8I9o32rct/QRvvcNyjRBiWjNs4tcRvOod2ozxu/Zn9nF7KtJWtDF5Qc0QYAAAAAAAAAAAAAsCD/AErXBXMMXAEA
+  </data>
+ </layer>
+ <layer name="Ground2" width="135" height="165">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SwQnAMAwDQPdbyCJZz31khIydCQKFQoPhDvQXSBEAAAAAAADAn/I63YBhAzambwBQRL+/BwAAAAAAAAAqyxbxtNMtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3lt3lfmMDFwBAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="135" height="165">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="Top" width="135" height="165">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aOwoCMRSG0dtMM+AS3IBWjhvwtQ/XpqOu07+0shAlGM6Br79FICFJFQAAAAAAAAAAAAC8dx6rVmk9tp4EgJ7YV6C95aL1BABAbzY5X0xp65zBi13Wwz4d0jGdrA8AAAD4GX98AAAAAOiVuy8A+L7LUHVNc7qle3oMracCAAAA4FPeUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgPzwBOW6RbwxcAQA=
+  </data>
+ </layer>
+ <layer name="Collision" width="135" height="165" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2US47cMBBDs80pcv9bBo1sHI/U1q9ElvUIEEjGtlxFvvaf379+/cEYY4wxxhhjjDHGGGP8aOQhNQew4Ss1B7DhKzUHs+yoZ8Fehg1cYgHtk7p3+PCWunfY8JO6b6z7TannwnrDBq55lI1sDKE+PbHRekYGoz7BBqrpJDbgo0+wgWqCDVQTbKCaRtm4XlP3PcMGzNTFdwM+aoINVFMrG99yVvetYsOFuagZYOPnHq3XXdiI0klsRGQHG/9n8AY23tzpKrWy8XRGBvdkouDGjVfY+L7TyYKNOGXn64mNlt3UnbszklVPubXkqe5awcYJjLVk95SpumuX70br2dEz7M7vW67qrnt2evvvXfX7evq7u2dyziJlnqW/qzsf2aWl8/uzGThR/97uf1d3PrpHbZ/SXk/3tnY2er33PQ65quaJ2iGTajs6ZavufAUbsx19+/+u9zpK3bkLI7tVYtJpP3XPCjZcOnCY4ZvUPfPd6Lu/lkdERuqeV7Ixm8tu7nax0fqe0nPZ3JJfBo2ycX32zsb137PfEXXPq9lYrZb3Xe/pmdGdYXXPDmzcz4zsTLHb6LvUPbt+L6KUhQ1115Fs3J9Zmf3MnM5slPLK4vvcKkWysZqXnXM6sLFKI2fOzjm7d+87n86tPavuejUbEfzU3vMmNkrnqLuOYmRWs/3OPNt6Xs/vZdecDt6t3t9Uy1m79oWN+m6j12dym3nWgQ11v9FsXHccvT6a3cyzsLE/o5Xawcb13h26vkfdc2Y2ZtS7Y42Xldmoe4WNf5rdETb69s/Ez+zOkWyMzOfilrxXKoI1RzZmZ3Rwyy7u6tlVtY+655Vs1PZbeV/t2d7ZVu4YJXXP0Wy4KsOO6p5hw3dHdc+w4bmjumPY8N1R3XFGNkZnKO2wYrfR7ErvK13P5pa8erLdoaj3zGZXu0fdcRQbK7KOODdCsLGPjWsuq8+M0Eo2rnOqO3ZlI0L37FeeW8tnJjt1xyeykUHqfk9jI5PU/Uaw0cMNjJWl7pbvhrfU/cKGr9T9woav1P3uZkfNZSam1f1l+G6snCUDG+pe38ZG61ywcTYb3+aDDS0bLfn3dLRyTtjQsnFCVs6zOTgzG85S95op3wzzr3yPule3bNVZRc7ouO/OPCNZycD76JnqDpU5rmDIdb/rPffnSueo+3LKrqf7p+su7tnpZO+Ses+nndUzOXqn1LvW9lbP4urdUu8LGzFsrGJJvTNsjGe0qntnPpxmcfVIryP3uvHhMoezZ5WZDxzPxwqpM8C+bHykzgH7svGROgvsy8ZH6jxwOxuj/Mxwp84E/+xPwcHTudiDDVepMzrVWaTO6TTP9NTS42qp8zrJkYp4hzqvk+yoltnUuZ3gFT1FqOe96gzf6lrWLT2NMhPJmjrPN/ltUuf5Jr9J153Uub7Bb9J9J3W22T2Sv6tKe6nzzewMap3z217qnDP6NKnzzuQVWff8PVKte6kzz+LWzHdphlnY2M+Gg3o7b70P52fjo6eZM+yl7lvNRuncHX1lYOMjdedZvxszMznvdZW686xslJRlzlapO1/FRqZesjCv7vxN341W1fZ62nV3FurOYaN87enZHVJ3Dhteus6k7vxEPiJ2msnw29+z2EWzs7ixMXumg9+iDGyou4YN9SR1qbvezcfT87Xrkb9xV6l7PvXbUdvnacedGah7Xs1GFna+7ePCh7pnvhvqScpSd3wyH847qLt1cGseEbnRx3tMfxhjjDHGGGOMMcYYY4wxxhhjjDHGGGOMMcYYt/svOHd2zQxcAQA=
+  </data>
+ </layer>
+ <objectgroup name="Margin" width="135" height="165">
+  <object x="0" y="0" width="640" height="5280"/>
+  <object x="3680" y="0" width="640" height="5280"/>
+  <object x="4816" y="6352"/>
+  <object x="0" y="5264" width="1960"/>
+  <object x="0" y="4640" width="4320" height="640"/>
+  <object x="5664" y="4016"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" name="Spawn" width="135" height="165">
+  <object name="Limodeareia(15)" type="spawn" x="676" y="696" width="1384" height="1912">
+   <properties>
+    <property name="amount" value="15"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1352"/>
+   </properties>
+  </object>
+  <object name="verme(20)" type="spawn" x="672" y="2784" width="712" height="1344">
+   <properties>
+    <property name="amount" value="20"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1002"/>
+   </properties>
+  </object>
+  <object name="vermeGigante(5)" type="spawn" x="1048" y="3224" width="528" height="1304">
+   <properties>
+    <property name="amount" value="5"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1006"/>
+   </properties>
+  </object>
+  <object name="escorpiao(10)" type="spawn" x="760" y="3880" width="1032" height="616">
+   <properties>
+    <property name="amount" value="10"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1003"/>
+   </properties>
+  </object>
+  <object name="trasgodefogo(13)" x="1424" y="3560" width="576" height="904">
+   <properties>
+    <property name="amount" value="13"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1011"/>
+   </properties>
+  </object>
+  <object name="Limo Alga Verde (7)" x="3352" y="4064" width="176" height="464">
+   <properties>
+    <property name="amount" value="7"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="3"/>
+   </properties>
+  </object>
+  <object name="verme(13)" type="spawn" x="2795" y="1762" width="640" height="551">
+   <properties>
+    <property name="amount" value="13"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1002"/>
+   </properties>
+  </object>
+  <object name="trasgodefogo(7)" x="1424" y="1608" width="576" height="904">
+   <properties>
+    <property name="amount" value="7"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1011"/>
+   </properties>
+  </object>
+  <object x="773" y="4615" width="6"/>
+  <object name="escorpiao(8)" type="spawn" x="760" y="1512" width="1032" height="616">
+   <properties>
+    <property name="amount" value="8"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1003"/>
+   </properties>
+  </object>
+  <object name="Tartaruga (4)" x="3512" y="720" width="88" height="592">
+   <properties>
+    <property name="amount" value="4"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="338"/>
+   </properties>
+  </object>
+  <object name="escorpiao(10)" type="spawn" x="2568" y="1832" width="840" height="616">
+   <properties>
+    <property name="amount" value="10"/>
+    <property name="delay1" value="0"/>
+    <property name="delay2" value="0"/>
+    <property name="id" value="1003"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Warp" width="135" height="165">
+  <object name="Paradentro3" type="warp" x="3392" y="2464" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro2" type="warp" x="2944" y="2496" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro4" type="warp" x="2528" y="2176" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro5" type="warp" x="2528" y="2016" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro9" type="warp" x="3456" y="2112" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro8" type="warp" x="2976" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro6" type="warp" x="2752" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro7" type="warp" x="2816" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro10" type="warp" x="3456" y="1056" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+  <object name="Paradentro" type="warp" x="2880" y="3040" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="sarab001"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="peixes" width="135" height="165">
+  <object name="graphics/particles/peixe-salto12.xml" type="PARTICLE_EFFECT" x="2848" y="3164" width="32" height="32"/>
+  <object name="graphics/particles/peixe-salto3.xml" type="PARTICLE_EFFECT" x="2400" y="3164" width="32" height="32"/>
+  <object name="graphics/particles/peixe-salto6.xml" type="PARTICLE_EFECT" x="3636" y="992" width="32" height="32"/>
+ </objectgroup>
+</map>
