@@ -10,7 +10,6 @@ npc: npc/halicarnazo/_scripts.txt
 npc: npc/halicarnazo/_warps.txt
 npc: npc/halicarnazo/_shops.txt
 
-//npc: npc/halicarnazo/antonio.conf
 npc: npc/halicarnazo/guardas.conf
 npc: npc/halicarnazo/idolos.conf
 npc: npc/halicarnazo/MestreDosCavaleiros.conf
