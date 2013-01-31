@@ -8,5 +8,6 @@ map: 010-4.gat
 npc: npc/010-4_PlanaltoSnow/_mobs.txt
 npc: npc/010-4_PlanaltoSnow/_warps.txt
 
+npc: npc/010-4_PlanaltoSnow/gerci.conf
 npc: npc/010-4_PlanaltoSnow/placafonte.conf
 npc: npc/010-4_PlanaltoSnow/tunico.conf

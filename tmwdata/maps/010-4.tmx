@@ -79,6 +79,7 @@
  </layer>
  <objectgroup name="scripts" width="200" height="200" visible="0">
   <properties>
+   <property name="file-gerci" value="gerci.conf"/>
    <property name="file-placafonte" value="placafonte.conf"/>
    <property name="file-tunico" value="tunico.conf"/>
   </properties>
