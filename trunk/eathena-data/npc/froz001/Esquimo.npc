@@ -1,0 +1,513 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Criado por: 	Ernando <ernando.quirino@hotmail.com>
+// Revisado por:	Lunovox <rui.gravata@gmail.com>
+// Pré-Requisito:	LVL1~LVL9 (Isso mesmo! É uma quest só para novatos!)
+// Pós-Requisito:	CaudaDeRato, DenteDeRato, FerraoDeEscorpiaoDeGelo, PataDeInseto, AsaDeMorcego, DentesDeMorcego, GosmaDeVerme
+// Objetivo: 		Treinar o jogador para sair da muralha.
+// Prémio: 			LuvasDeMineiro, Botas, CamisaDeCouro, CapaceteDeMineiro, ShortDeAlgodao, ArcoDeCurtoAlcace, FlechaDeFerro, Flecha
+// Fórum: 			http://forums.themanaworld.com.br/viewtopic.php?f=44&t=5612
+// Screenshot:		http://ompldr.org/vaGM4cA/Esquimo.png
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+froz001.gat,130,53,0	script	Treinador Esquimó	116,{
+// Pós-requisitos
+	set @CaudaDeRato, 3169;			// ← Dropado do Rato de Gelo
+	set @DenteDeRato, 3168;			// ← Dropado do Rato de Gelo
+	set @FerraoEscorpGelo, 3416;	// ← Dropado do Escorpião de Gelo
+	set @PataDeInseto, 518;			// ← Dropado do Morcego
+	set @AsaDeMorcego, 753;			// ← Dropado do Morcego
+	set @DentesDeMorcego, 754;		// ← Dropado do Morcego
+	set @GosmaDeVerme, 505;			// ← Dropado do Morcego
+// Premios
+	set @LuvasDeMineiro, 531;
+	set @Botas, 528;
+	set @CamisaDeCouro, 523;
+	set @CapaceteDeMineiro, 525;
+	set @ShortDeAlgodao, 586;
+	set @ArcoDeCurtoAlcace, 530;
+	set @FlechaDeFerro, 529;
+	set @Flecha, 1199;
+// Identificação
+	if (Sex == 0) set @AmigX$, "minha amiga";
+	if (Sex == 1) set @AmigX$, "meu amigo";
+	if (Sex == 0) set @ArqueirX$, "Arqueira";
+	if (Sex == 1) set @ArqueirX$, "Arqueiro";
+	if (Sex == 0) set @SenhorX$, "A Senhora";
+	if (Sex == 1) set @SenhorX$, "O Senhor";
+	if (Sex == 0) set @ObrigadX$, "obrigada";
+	if (Sex == 1) set @ObrigadX$, "obrigado";
+// Testes
+	if(Reino!=$PosseDeFroz) goto _SugestaoAoInvasor;
+	if(BaseLevel >=10) goto _ForteDemais;
+goto _Inicio;
+
+_SugestaoAoInvasor:
+	heal -(MaxHp/10),0;
+	set @tmp,rand(4);
+	if(@tmp == 0) npctalk "Saia daqui seu invasor de "+ @NomeDoReino$+"! (Chute!)";
+	if(@tmp == 1) npctalk "Você não pode entrar em "+ @NomeDoReino$+"! (Pontapé!)";
+	if(@tmp == 2) npctalk "Como você se atreve a tentar machucar as pessoas do Reino de "+ @NomeDoReino$+"? (Soco!)";
+	if(@tmp == 3) npctalk "Vou dar-lhe uma bengalada! (Soco!)";
+end;
+
+_ForteDemais:	
+	mes "[Treinador Esquimó]";
+	mes "\""+@SenhorX$+" já é forte demais. O rei me mandou ajudar no treinamento apenas dos novatos. Já tem poder suficiente para sair das muralhas.\"";
+close;	
+
+_Inicio:
+	mes "[Treinador Esquimó]";
+	mes "\"Olá "+@AmigX$+"\"!";
+	next;
+_Menu:
+	mes "[Treinador Esquimó]";
+	mes "\"Precisa de minha ajuda?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Como você pode me ajudar?", _ExplicaSiProprio,
+	"Como consigo dinheiro?", _ExplicaGrama,
+	"Como vejo minha bagagem?", _ExplicaBagagem,
+	"Como negociar com outros cidadãos?", _ExplicaTrade,
+	"Como caçar criaturas?", _ExplicaBatalha,
+	"Como dialogar com alguem?", _ExplicaDialogo,
+	"Sim, quero equipamentos.", _EscolheEquipamentos,
+	"Não, "+@ObrigadX$+"!", -;
+goto _SeDespede;
+
+_ExplicaSiProprio:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"O rei me mandou fortalecer aos jovens, para que eles tenham poder suficiente para atravesar e sobreviver fora das muralhas.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Posso te dar um treinamento e também alguns equipamentos que vão te fortalecer. Mais vou logo avisando, não são equipamentos raros.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Vejo que você tem braços longos o suficiente para ser "+@ArqueirX$+".\"";
+	next;
+goto _Menu;
+
+_ExplicaGrama:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Os mercadores nesta cidade gostam de comprar os miudos. Miudos são as partes dos corpos dos bichos abatidos. Você pode fazer uma boa grana matando animais e vendendo os miudos.\"";
+	next;
+goto _Menu;
+
+_ExplicaBagagem:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Você poder ver todo o seu equipamento pressionando a tecla F3.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para equipar ou desequipar um item, selecione-o e pressione o botão 'Equipar' ou 'Desequipar'. Você não pode 'Equipar' ou 'Desequipar' quanto estiver falando com alguem.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Vista-se! Não ande sem roupas! Equipe sempre os seus itens! Eles te deixa menos vunerável a ataques e mais forte derrotar seus adversários.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para descartar um item que não queira mais, selecione-o e pressione o botão 'Descartar'. Ítens genéricos podem ser descartados ou vendidos. Mas equipamentos só podem ser vendidos.\"";
+	next;
+goto _Menu;
+
+_ExplicaTrade:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Pressione a tecla R para ignorar ou aceitar proposta de negócios. Você e o outro cidadão que querem negociar precisam estar com a configuração que aceita negociações. Se sua configuração estiver como 'ignorar proposta de negócios', então não receberá o aviso de algum cidadão querendo negociar contigo, e nem você poderá iniciar negociações.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para negociar como outros cidadãos, você deve clicar com o segundo botão do mouse sobre os pés de algum outro cidadão que está aceitando negociações, e selecionar a opção 'Negócios'.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Aparecerá uma janela com uma divisão vertical. O lado esquerdo estão os items que você pretende oferecer na negociação. O lado direito estão os items que o outro cidadão pretende oferecer na negociação.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Abra a janela de seu inventário[tecla F3] junto da janela de negociação. Selecione um item que deseja oferecer, e pressione o botão Adicionar. Para adicionar grana a negociação digite o valor que vai oferecer e pressione o botão Mudar.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Quando tiver adicionado todos os itens e grana que desejar pressione o botão 'Propor Negócio'. O outro cidadão também deve precionar o botão 'Propor Negócio'.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Se a proposta não for conveniente para você, basta apenas fechar a janela de negociação para cancelar a troca de itens e dinheiro. Mas se os dois deve pressione o botão 'Aceitar Negociação', então a comercialização estará finalizada.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Lembre-se! Nunca empreste dinheiro ou itens para ninguem. Pois neste mundo não existem emprestimos e nem alugueis. Existem apenas doações, vendas, ou trocas permanentes. Você é o único responsável por tudo aquilo que você possui.\"";
+	next;
+goto _Menu;
+
+_ExplicaBatalha:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para caçar um alvo você deve clicar com o botão primário do mouse sobre ele. Evite lutar contra monstros ou cidadão fortes demais. Pois perderá atributos se você for derrotado.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Dentro das cidades é um local seguro o suficiente para não ser atacado por outra pessoa (Exceto em caso de derrubada dos portões da muralha). Mas fora delas há alguns locais em que o cidadão podem ser atacados por inimigos de outros reinos, ou até por alguem do mesmo reino.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Existem algumas pedra espalhadas pelo mundo que marcão o seu ponto de retorno em caso de derrotas. Alguns baús de navios também podem servir de ponto de retorno. Você pode adotar um plano de saúde da enfermeira para retornar a enfermaria em caso de derrotas.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Quase todas as criaturas derrubam ítens úteis ao serem derrotadas. Para pegar o item derrubado pressione a tecla 'Z' próximo ao item ou clique com o botão primário sobre o ítem.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para focalizar uma criatura, pressione a tecla 'A'. Para focalizar outro cidadão, pressione a tecla 'Q'. Para atacar o alvo focalizado pressione a tecla 'X' ou clique com o botão primário sobre a criatura.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para focalizar um NPC, pressione a tecla 'N'. Para falar com ele pressione a tecla 'T'.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para desfocalizar ou parar de atacar, pressione as teclas 'Shift+A'.\"";
+	next;
+goto _Menu;
+
+_ExplicaDialogo:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Exibir a janela de dialogo com outros cidadãos, pressione a tecla F7.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para falar em público selecione a aba 'Geral'. Ela serve para falar com as pessoas que estão aparecendo em sua tela.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para falar em particura com alguem, clique com o segundo botão do mouse sobre o cidadão e selecione a opção 'Sussurrar'.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para digitar uma mensagem pressione a tecla 'Enter' para exibir a caixa branca de digitação. Digite sua mensagem e pressione 'Enter' novamente para enviar a sua fala.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Para falar em particular com um amigo ou amiga que não está aparecendo em sua tela, digite o comando → /q 'Nome do Cidadão' ← e pressione 'Enter'. Este comando abrirá uma aba de dialogo a longa distância que tem o nome de quem você está querendo falar. Selecione esta nova aba e envie sua mensagem por ela.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Mas atenção: Não fique gritando ao usar muita letras maiusculas, e nem fique repetindo as falas, ou você poderá ser penalizado severamente.\"";
+	next;
+goto _Menu;
+
+_SeDespede:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Ok, já que você não quer... Mas já vou te avisando que só estou disposto a te ajudar enquanto você não tiver forças suficientes para passar pelo portão da muralha. Depois disto nem adianta reclamar por minha ajuda.\"";
+close;	
+	
+_EscolheEquipamentos:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Mas qual tipo de equipamento você quer?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	" * Quero um par de luvas", _Luva,
+	" * Quero um par de botas", _Bota,
+	" * Quero uma camisa", _Camisa,
+	" * Quero um capacete", _Capacete,
+	" * Quero um Short", _Short,
+	" * Quero um arco", _Arco,
+	" * Quero flechas", _Flechas,
+	"Não quero nenhum destes.", -;
+goto _SeDespede;
+
+
+//################### Luva ######################################################################
+_Luva:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para que eu te faça uma [Luvas De Mineiro], preciso que você me traga alguns itens\"";
+	mes " * 5 [Cauda de Rato]";
+	mes " * 3 [Pata de Inseto]";
+	mes " * 100GP";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você aceita?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não", _SeDespede;
+	if (countitem(@CaudaDeRato)<5 || countitem(@PataDeInseto)<3) goto _Naotem;
+	if (Zeny < 100) goto _Semgrana;
+	if (@inventorylist_count >=100) goto _Semespaco;
+	getinventorylist;
+	delitem @CaudaDeRato, 5;
+	delitem @PataDeInseto, 3;
+	getitem @LuvasDeMineiro, 1;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Já que você tem o que pedi, tome seu par de luvas.\"";
+close;
+
+_Naotem:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Você não está com estes Itens que eu falei.\"";
+close;
+
+_Semgrana:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Você não está com o dinheiro que pedi.\"";
+close;	
+
+_Semespaço:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Você não tem espaço na sua bagagem suficiente.\"";
+close;	
+
+//################### Bota ######################################################################
+
+_Bota:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para que eu te faça uma [Botas], preciso que você me traga este itens:\"";
+	mes " * 6 [Cauda de Rato]";
+	mes " * 4 [Pata de Inseto]";
+	mes " * 200GP";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você aceita?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não", _SeDespede;
+	if (countitem(@CaudaDeRato)<6 || countitem(@PataDeInseto)<4) goto _Naotem;	
+	if (Zeny < 200) goto _Semgrana;
+	if (@inventorylist_count >=100) goto _Semespaco;
+	getinventorylist;
+	delitem @CaudaDeRato, 6;
+	delitem @PataDeInseto, 4;
+	getitem @Botas, 1;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Já que você tem o que pedi, tome seu par de botas.\"";	
+close;
+
+//################### Camisa ######################################################################
+
+_Camisa:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para que eu te faça uma [Camisa De Couro], preciso que você me traga este itens:\"";
+	mes " * 7 [Cauda de Rato]";
+	mes " * 5 [Pata de Inseto]";
+	mes " * 300GP";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você aceita?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não", _SeDespede;
+	if (countitem(@CaudaDeRato)<7 || countitem(@PataDeInseto)<5) goto _Naotem;	
+	if (Zeny < 300) goto _Semgrana;
+	if (@inventorylist_count >=100) goto _Semespaco;
+	getinventorylist;
+	delitem @CaudaDeRato, 7;
+	delitem @PataDeInseto, 5;
+	getitem @CamisaDeCouro, 1;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Já que você tem o que pedi, tome sua Camisa\"";	
+close;
+
+//################### Capacte ######################################################################
+
+_Capacete:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para que eu te faça um [Capacete De Mineiro], preciso que você me traga estes itens:\"";
+	mes " * 8 [Cauda de Rato]";
+	mes " * 5 [Pata de Inseto]";
+	mes " * 400GP";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você aceita?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não", _SeDespede;
+	if (countitem(@CaudaDeRato)<8 || countitem(@PataDeInseto)<5) goto _Naotem;
+	if (Zeny < 400) goto _Semgrana;
+	if (@inventorylist_count >=100) goto _Semespaco;
+	getinventorylist;
+	delitem @CaudaDeRato, 8;
+	delitem @PataDeInseto, 5;
+	getitem @CapaceteDeMineiro, 1;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Já que você tem o que pedi, tome seu Capacete\"";
+close;	
+
+//################### Short ######################################################################
+
+_Short:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para que eu te faça um [Short De Algodão], preciso que você me traga estes itens:\"";
+	mes " * 5 [Cauda de Rato]";
+	mes " * 5 [Pata de Inseto]";
+	mes " * 400GP";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você aceita?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não", _SeDespede;
+	if (countitem(@CaudaDeRato)<5 || countitem(@PataDeInseto)<5) goto _Naotem;
+	if (Zeny < 400) goto _Semgrana;
+	if (@inventorylist_count >=100) goto _Semespaco;
+	getinventorylist;
+	delitem @CaudaDeRato, 5;
+	delitem @PataDeInseto, 5;
+	getitem @ShortDeAlgodao, 1;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Já que você tem o que pedi, tome seu Short\"";
+close;
+
+//################### Arco ######################################################################
+
+_Arco:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Nesta cidade existe uma loja que vende Arcos também. Ele fica do lado leste(→) de Froz, perto da estatua. Mesmo assim, posso te dar um arco.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você quer o meu [Arco De Curto Alcançe]?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não, eu compro na loja.", _EscolheLoja;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para que eu te faça um [Arco De Curto Alcançe], preciso que você me traga este itens:\"";
+	mes " * 9 [Cauda de Rato]";
+	mes " * 7 [Pata de Inseto]";
+	mes " * 5 [Dentes De Morcego]";
+	mes " * 5 [Asa De Morcego]";
+	mes " * 1 [Gosma De Verme]";
+	mes " * 500GP";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você aceita?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não", _SeDespede;		
+	if (countitem(@CaudaDeRato)<9 || countitem(@DentesDeMorcego)<5 || countitem(@AsaDeMorcego)<5 || countitem(@GosmaDeVerme)<1 || countitem(@PataDeInseto)<7) goto _Naotem;		
+	if (Zeny < 500) goto _Semgrana;
+	if (@inventorylist_count >=100) goto _Semespaco;	
+	getinventorylist;
+	delitem @CaudaDeRato, 9;
+	delitem @PataDeInseto, 7;
+	delitem @DentesDeMorcego, 5;
+	delitem @AsaDeMorcego, 5;
+	delitem @GosmaDeVerme, 1;
+	getitem @ArcoDeCurtoAlcance, 1;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Já que você tem o que pedi, tome seu Arco\"";
+close;	
+
+_EscolheLoja:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Tá ok!\"";
+close;	
+
+//################### Flechas ######################################################################
+
+_Flechas:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Nesta cidade existe uma loja que vende Flechas. Ele fica do lado leste(→) de Froz, perto da estatua. Mas posso te dar 100 Flechas.\"";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você quer?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não, eu compro na loja.", _EscolheLoja;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Você quer de qual tipo?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Flecha De Ferro", -,
+	"Flecha normal", _FlechaNormal;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para que eu te faça 100 [Flecha De Ferro], preciso que você me traga estes itens:\"";
+	mes " * 10 [Cauda de Rato]";
+	mes " * 08 [Pata de Inseto]";
+	mes " * 07 [Dentes De Morcego]";
+	mes " * 07 [Asa De Morcego]";
+	mes " * 01 [Gosma De Verme]";
+	mes " * 100GP";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você aceita?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não", _SeDespede;
+	if (countitem(@CaudaDeRato)<10 || countitem(@DentesDeMorcego)<7 || countitem(@AsaDeMorcego)<7 || countitem(@GosmaDeVerme)<1 || countitem(@PataDeInseto)<8) goto _Naotem;
+	if (Zeny < 100) goto _Semgrana;
+	if (@inventorylist_count >=100) goto L_Semespaco;
+	getinventorylist;
+	delitem @CaudaDeRato, 10;
+	delitem @PataDeInseto, 8;
+	delitem @DentesDeMorcego, 7;
+	delitem @AsaDeMorcego, 7;
+	delitem @GosmaDeVerme, 1;
+	getitem @FlechaDeFerro, 100;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Já que você tem o que pedi, tome suas [Flechas de Ferro].\"";
+close;	
+
+//################### Flechas2 ######################################################################
+
+_FlechaNormal:
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Para que eu te faça 100 [Flecha], preciso que você me traga este itens:\"";
+	mes " * 7 [Cauda de Rato]";
+	mes " * 7 [Pata de Inseto]";
+	mes " * 5 [Dentes De Morcego]";
+	mes " * 5 [Asa De Morcego]";
+	mes " * 1 [Ferrão De Escorpião De Gelo]";
+	mes " * 100GP";
+	next;
+	mes "[Treinador Esquimó]";
+	mes "\"Você aceita?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	menu
+	"Sim", -,
+	"Não", _SeDespede;
+	if (countitem(@CaudaDeRato)<7 || countitem(@DentesDeMorcego)<5 || countitem(@AsaDeMorcego)<5 || countitem(@FerraoEscorpGelo)<1 || countitem(@PataDeInseto)<7) goto _Naotem6;
+	if (Zeny < 100) goto _Semgrana6;
+	if (@inventorylist_count >=100) goto L_Semespaco6;
+	getinventorylist;
+	delitem @CaudaDeRato, 7;
+	delitem @PataDeInseto, 7;
+	delitem @DentesDeMorcego, 5;
+	delitem @AsaDeMorcego, 5;
+	delitem @FerraoEscorpGelo, 1;
+	getitem @Flecha, 100;
+	mes "";
+	mes "[Treinador Esquimó]";
+	mes "\"Já que você tem o que pedi, tome suas Flechas.\"";
+close;
+
+}
