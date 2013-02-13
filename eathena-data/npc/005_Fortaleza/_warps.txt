@@ -15,4 +15,4 @@
 005.gat,22,19	warp	MuralhaCasteloOeste	1,0,002.gat,21,118
 005.gat,178,19	warp	MuralhaCasteloLeste	1,0,002.gat,177,118
 005.gat,48,24	warp	HotelBhramir	0,0,005-3.gat,29,54
-005.gat,100,120	warp	paraBaixo	7,0,008.gat,99,21
+005.gat,100,124	warp	paraBaixo	7,0,008.gat,99,25

@@ -6,63 +6,99 @@
   <property name="pasta" value="cozinhaTrono"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="blockWalls" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/blockWalls.png"/>
+  <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="259" name="blockWalls_in_x3" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/blockWalls_in_x3.png"/>
+  <image source="../graphics/tiles/blockWalls_in_x3.png" width="512" height="96"/>
  </tileset>
  <tileset firstgid="307" name="inn" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/inn.png"/>
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="563" name="sombras" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/sombras.png"/>
+  <image source="../graphics/tiles/sombras.png" width="192" height="128"/>
  </tileset>
  <tileset firstgid="587" name="numeros" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/numeros.png"/>
+  <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
  </tileset>
  <tileset firstgid="697" name="escada_madeira" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/escada_madeira.png"/>
+  <image source="../graphics/tiles/escada_madeira.png" width="224" height="256"/>
  </tileset>
  <tileset firstgid="753" name="cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png"/>
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="881" name="woodland_indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
- <layer name="Ground" width="95" height="80">
+ <tileset firstgid="1137" name="Trono_x2" tilewidth="96" tileheight="64">
+  <image source="../graphics/tiles/Trono_x2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="1138" name="Bandeira01_x3" tilewidth="64" tileheight="96">
+  <image source="../graphics/tiles/Bandeira01_x3.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="1139" name="Relogio_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Relogio_x2.png" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="25"/>
+    <property name="animation-delay1" value="25"/>
+    <property name="animation-delay2" value="25"/>
+    <property name="animation-delay3" value="25"/>
+    <property name="animation-delay4" value="25"/>
+    <property name="animation-delay5" value="25"/>
+    <property name="animation-delay6" value="25"/>
+    <property name="animation-delay7" value="25"/>
+    <property name="animation-delay8" value="25"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="3"/>
+    <property name="animation-frame4" value="4"/>
+    <property name="animation-frame5" value="5"/>
+    <property name="animation-frame6" value="4"/>
+    <property name="animation-frame7" value="3"/>
+    <property name="animation-frame8" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Vuw3CQBBFUa9EBdRECZRAiXTgGqjFKQkB2FiYlezZzwlO/nQnmHEYhhEAAAAAAIBdnDJF7rz/8Cig6xaXTIduTJ+im/XSft69pfbnTEftu6al6Ga9tL+lpehmvbWfXtZ+f403qaX9u297tN+nfWmbemq/VXTLVttPK2q+Q0vto1v23L62O2ivvfbaa699Se3/Fd0VAAAAAAAAAAAAAAAAAAAAACjTE+OzPeXAdgAA
+   H4sIAAAAAAAAA+3WsQ2AMAxFwSAxATMxCptmKFpqJKCIBA7OFdd/PadILaVUAAAAAAAAXjE3it6dwdooencG2sdZGkXvzkB77UekvfZ3tuksutfI7Z9Et8zefr/w1ztkah/dcuT23r322vdPe+2177991r8+AAAAAAAAAAAAAAAAAAAAAPCNA9JPoR7AdgAA
   </data>
  </layer>
- <layer name="Ground2" width="95" height="80">
+ <layer name="ground2" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WOU7DQBiGYdtJKCKxSYECie0AbAUlm8IRuAbbAdgOwHIBlpoOSpYCTgICBB0FoucbKZJRsLEhyUxiv4/0Shk5xZ9f0SSeBwAAAAAAgCTdqkf1qj7V73acXBlWI2pUjalxp9Pky4SaVFNqWs24HSdX5tS8WlCLasnpNPmyqtbUutpQm27HyZUtta121K7aczpNvmR99xfqMuJ10jMbsr77O3Uf8TrpmQ1Z3n3ln9mS5d0b5YLnnfthxvezee5K1ndvXPlhUecuR3PV777oaI5WudZ+i/pQJdVV/Hm+1bmq9z0GYbbsqwN1qI7UckxVeyM1ldl1RTseUIO1XdefzWd7C8JsOVYn6lSdqZWYOnX3xo0fFnU2v6/vQZhNT5rhOaYXNVSw+/vfbEn3/aznbvcffvyzzzaYrxFp7/vXIMymNLvv1Dsn7X3/EITZlLR7c+e4nK8R5v/7b3dOuXaftvP33uV8WZZm92gNdu8Ou3enoPu7GFOJux0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAH3wBijon3sB2AAA=
+   H4sIAAAAAAAAA+3WSUoDQRSH8epO4kJwgujO6QBOC5dOxCN4DacDOB1APYG6d6dLh4WeRFHRnQtx779AqKBtOoTYL+n+fvBBF53F4xEqcQ4AAAAAAABp+lS/GlCDash2nEIZVWNqXE2oSdNpimVKTasZNavmbMcplAW1qJbUsloxnaZY1tWG2lRbatt2nELZUbtqT+2rA9NpiiXvu79QlwnPae+ykPfd36n7hOe0d1nI8+6rLZaV+t2vptSNekvOnUchr/7s31vJ++69qyiUdO4xmivvu7/Wfstl5yqqp/z7fKtzTZ97jENZOVRH6tjld/dV7XhYjXzv+ufZ7/4tDmXlRJ2qM7WWUre6iUJJZ//7+h6HLDxplueEXiKbedol7b6fd/a7//hjx59RZ8zXimbv+9c4ZKHR7mvZjtI2zd73D3HIQtruredrhf//3ujO8e/9fd/J3/tOmC/PGu0e/4vd22H3dkq6x8sJVbjfAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADTpCxsO5iLAdgAA
   </data>
  </layer>
- <layer name="Fringe" width="95" height="80">
+ <layer name="ground3" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UTS4EYRQF0Gp6wgpMzLACwdAUK8AKsBCxArEC8bcVzMywAgwNPT+dLlJVElWV70s7J7lJvR506t1UXlEAAAAAAAD8bn2q2/wX5V0PS78fVcxN/6H7do5LzycVcx3dt3daej6rmOvoPh3dt3M+GKdqbqL7v7sYNM9Xv/Tfd/fXkZvIbZslM/Xe9fywKF6nP+dR17PD73Odvru/jzxEHjvaNzeXg3Gq5iZ9d/8UeY68dLlwRtz7NHK/95Ns1PXMj/s+l8m934j32IxsRRYii5GlYTe75yDnm7MdPe9EdiPLkbt4p5UJ6r6Nvrvfi573IweRta/vflX3H/runnq6T0f36eg+Hd2no/t0dA8AAAAAAAAAAAAAAAAAAAC08QarfaJtwHYAAA==
+   H4sIAAAAAAAAA+3OsQ0AIAwDwSAyBWuyAoNTUGSESOiueblzBAAAAAAAAAAAAL9Z8/WM2jv7/gAAAAAAAAAAAAAAAAAAAAAAAAAAPS5YIYeNwHYAAA==
   </data>
  </layer>
- <layer name="Top " width="95" height="80">
+ <layer name="fringe" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3W3U3DMBiF4aRp6QD8DVBaVuBHQlxwxQ4gGIACswFiAC5YCLjmRK2FC44UN5bt0PeRjuQojXL8KUpaFAAAAAAAAACAnFwp18v1jXKbrsrGuVPmyr3yoDymrYN/olrjmlHwFptpssY10+Atwsq9n8Hs02H26TD7dMzsP/TR/VS+Kvex/X2Nube2z0Yfv/9t91bP+2jws47Fp59rnTOfvZ0x+6B89nY+WDz7zD6Mtu/72tBKzH7HuuGJcrq88Wvp/m2Kfl34/M/ZsRKLq997w+xT9OvCZ/YXGb/vayn6deGzt8vMZ5+iXxdPyrNnXugXRKV351AZlavrt2KRpvOx2D22lLHVz9XXpA8m6n2gTMvVtdlD0/lYTI9t3XNP2Vd2y7/d+jj7353bJna/es4z5bBh1n2cPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID4vgEbZkugwHYAAA==
+   H4sIAAAAAAAAA+3UvU3DQBiAYRvcQElFQ8MITMAKiAlQJmAKxASICRB/qwATABMESkouQpEdsB2Js3WHeR7pU+5zEene4ooCAAAAAABgvcONYee/aN71rPH9vGXv+w/t41w0zpctexft4101ztctexft09E+zk1ZT9veR/vfuy379/s1/cdu/xDmMcxTzCUztWi9VxXFx+bXvmy9Xa3uXcZu/xzmJczrQPfNzV1ZT9veZ+z28zBvYd6HvHBGcn7vd6r6fFqt/v51ub/3+6HzUZjjifRuWrbe+va+72by3k+5/ULOb87U28cYu/1BaH4SZqb9D2O3p5v26WifjvbpaJ+O9uloDwAAAAAAAAAAAAAAAAAAAMT4BNOwVcfAdgAA
   </data>
  </layer>
- <layer name="Top2" width="95" height="80">
+ <layer name="top " width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UsQ3AIAxFQZRVUMYh+49DQUUVCQnxo9w1bp9duBQAAAAAAAAA2K+eDvgxt5/dpwNepPcBfEX6P03vW9GuMVN3e8L7AAAAAAAAAAAAAAAAAAAAAAAAAHbpEUi+ccB2AAA=
+   H4sIAAAAAAAAA+3WTU6DQBjGcShUD1A/DlCrV+jKaHTlHTR6AD9v4RE8guvWhW5d6XnUte+kEAdk0lLIfMD/lzwJ0JI+84ZpG0UAAAAAAAAAAJ+cSy6y40vJlbsqvXMtuZHcSu4k927roCOSNe4Ztt6in8Zr3DNpvUU/+T778r5MDQlxL/o++3K/x4r3qGsh7sXQZv8kedXO37JrIc/+Szb3t+QnqT7X97TL2T9LPrTzz+xayLNfRq1tOvg7tsXU7yEtnnd99ocezb6s67M/GiyefRezP5bn/CQ1vy/k2S/7vlf0/3S2+63CRb8m6qxtS4stvvdros7aTj3+vldc9GuiztrOPJ+9i35NzCTzmnmhXyuSWH6bJMO4ePweLWJ63Ra9x4ZkU+tX1TdPCMbSe08yiYvH+RpMr9uS9xjJZ+5IdiXb8f9uIc6+3HnV2O6n5rwvOTDMOsTZAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALDvF+gNq1rAdgAA
   </data>
  </layer>
- <layer name="Collision" width="95" height="80">
+ <layer name="top2" width="95" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WMQ6AMAgF0Or9D+1uIprYpEDf8IbWBT4p8RxjnAAAAAAAAADAb0fg/n11rZ1EuT/NgnnZfznLfs/su878655ZlX3nHVg9+8r5V9g5bzPJWN/M7LOpmHXUR/SeM+yc6L7iLLL/32evr3Nv2evr3Fv2+nYgWwAAAAAAAAAAAAAAAAAAAADgrwvGDRe6wHYAAA==
+   H4sIAAAAAAAAA+3UsQkAIBAEQbEXy9H+yzGwA0E9cCb5dC/5UgAAAAAAAAAA/tFeBwBwRfq/T+/b0eu6qdtGeB8AAAAAAAAAAAAAAAAAAAAAAADAKRPIGFg1wHYAAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
+ <layer name="collision" width="95" height="80" visible="0" opacity="0.49">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3W0QrDIAwF0Kz//9F7GohsTmhZsvQ8HKoIJbmKeETEAQAAAAAAAACc9liY17Nr7WSV+6e94Lrsd+ayv2f2Xfd8957Jyv5dHeM3CmTYOfvXOIY6YphnZ3hFb6t5VvYxjcfMK5yNX2Sf5Vv2sfGPynbelFXunDn7fz/3ld/31evr3Fv1+jr3Vr2+O5AtAAAAAAAAAAAAAAAAAAAAAHDWE7cjbJzAdgAA
+  </data>
+ </layer>
+ <objectgroup color="#ff55ff" name="particles" width="0" height="0" visible="0">
   <object name="Margem" x="0" y="0" width="640" height="640"/>
   <object name="Margem" x="2368" y="1888" width="672" height="672"/>
   <object name="paraBaixo" type="warp" x="992" y="928" width="64" height="32">
@@ -79,6 +115,14 @@
     <property name="dest_y" value="960"/>
    </properties>
   </object>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="672" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="704" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="672" y="704" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2176" y="832" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2048" y="832" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" name="warps" width="95" height="80" visible="0">
   <object name="paraBaixo" type="warp" x="2272" y="928" width="64" height="32">
    <properties>
     <property name="dest_map" value="002-07"/>
@@ -93,12 +137,6 @@
     <property name="dest_y" value="1120"/>
    </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="672" y="960" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="704" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="672" y="704" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2208" y="832" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2208" y="928" width="32" height="32"/>
   <object name="paraCima" type="warp" x="1984" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="002"/>

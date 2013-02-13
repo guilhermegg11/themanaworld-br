@@ -10,6 +10,6 @@
 008.gat,35,24	warp	paraCaverna	-1,-1,008-2.gat,35,40
 008.gat,25,42	warp	paraCaverna1	-1,-1,008-1.gat,140,98
 008.gat,41,39	warp	paraCaverna2	-1,-1,008-1.gat,161,96
-008.gat,100,20	warp	paraCima	6,-1,005.gat,99,119
+008.gat,100,24	warp	paraCima	6,-1,005.gat,99,122
 008.gat,148,85	warp	para009-2	-1,-1,009-2.gat,33,78
 008.gat,62,75	warp	paraCaverna	-1,-1,007-1.gat,97,56
