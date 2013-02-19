@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Criado por: 	Ernando <ernando.quirino@hotmail.com>
-// Revisado por:	Lunovox <rui.gravata@gmail.com>
+// Criado por: 		Ernando <ernando.quirino@hotmail.com>
+// Revisado por:	Lunovox <rui.gravata@gmail.com>; Ernando <ernando.quirino@hotmail.com>
 // Pré-Requisito:	LVL1~LVL9 (Isso mesmo! É uma quest só para novatos!)
 // Pós-Requisito:	CaudaDeRato, DenteDeRato, FerraoDeEscorpiaoDeGelo, PataDeInseto, AsaDeMorcego, DentesDeMorcego, GosmaDeVerme
 // Objetivo: 		Treinar o jogador para sair da muralha.
@@ -11,31 +11,31 @@
 
 froz001.gat,130,53,0	script	Treinador Esquimó	116,{
 // Pós-requisitos
-	set @CaudaDeRato, 3169;			// ← Dropado do Rato de Gelo
-	set @DenteDeRato, 3168;			// ← Dropado do Rato de Gelo
-	set @FerraoEscorpGelo, 3416;	// ← Dropado do Escorpião de Gelo
-	set @PataDeInseto, 518;			// ← Dropado do Morcego
-	set @AsaDeMorcego, 753;			// ← Dropado do Morcego
-	set @DentesDeMorcego, 754;		// ← Dropado do Morcego
-	set @GosmaDeVerme, 505;			// ← Dropado do Morcego
+	set @CaudaDeRato, 3169;				// ← Dropado do Rato de Gelo
+	set @DenteDeRato, 3168;				// ← Dropado do Rato de Gelo
+	set @FerraoDeEscorpDeGelo, 3413;	// ← Dropado do Escorpião de Gelo
+	set @PataDeInseto, 518;				// ← Dropado do Morcego
+	set @AsaDeMorcego, 753;				// ← Dropado do Morcego
+	set @DentesDeMorcego, 754;			// ← Dropado do Morcego
+	set @GosmaDeVerme, 505;				// ← Dropado do Morcego
 // Premios
 	set @LuvasDeMineiro, 531;
 	set @Botas, 528;
 	set @CamisaDeCouro, 523;
 	set @CapaceteDeMineiro, 525;
 	set @ShortDeAlgodao, 586;
-	set @ArcoDeCurtoAlcace, 530;
+	set @ArcoDeCurtoAlcance, 530;
 	set @FlechaDeFerro, 529;
 	set @Flecha, 1199;
 // Identificação
-	if (Sex == 0) set @AmigX$, "minha amiga";
-	if (Sex == 1) set @AmigX$, "meu amigo";
-	if (Sex == 0) set @ArqueirX$, "Arqueira";
-	if (Sex == 1) set @ArqueirX$, "Arqueiro";
-	if (Sex == 0) set @SenhorX$, "A Senhora";
-	if (Sex == 1) set @SenhorX$, "O Senhor";
-	if (Sex == 0) set @ObrigadX$, "obrigada";
-	if (Sex == 1) set @ObrigadX$, "obrigado";
+	if(Sex == 0) set @AmigX$, "minha amiga";
+	if(Sex == 1) set @AmigX$, "meu amigo";
+	if(Sex == 0) set @ArqueirX$, "Arqueira";
+	if(Sex == 1) set @ArqueirX$, "Arqueiro";
+	if(Sex == 0) set @SenhorX$, "A Senhora";
+	if(Sex == 1) set @SenhorX$, "O Senhor";
+	if(Sex == 0) set @ObrigadX$, "obrigada";
+	if(Sex == 1) set @ObrigadX$, "obrigado";
 // Testes
 	if(Reino!=$PosseDeFroz) goto _SugestaoAoInvasor;
 	if(BaseLevel >=10) goto _ForteDemais;
@@ -151,6 +151,7 @@ _ExplicaBatalha:
 	mes "\"Quase todas as criaturas derrubam ítens úteis ao serem derrotadas. Para pegar o item derrubado pressione a tecla 'Z' próximo ao item ou clique com o botão primário sobre o ítem.\"";
 	next;
 	mes "[Treinador Esquimó]";
+
 	mes "\"Para focalizar uma criatura, pressione a tecla 'A'. Para focalizar outro cidadão, pressione a tecla 'Q'. Para atacar o alvo focalizado pressione a tecla 'X' ou clique com o botão primário sobre a criatura.\"";
 	next;
 	mes "[Treinador Esquimó]";
@@ -223,31 +224,32 @@ _Luva:
 	menu
 	"Sim", -,
 	"Não", _SeDespede;
-	if (countitem(@CaudaDeRato)<5 || countitem(@PataDeInseto)<3) goto _Naotem;
-	if (Zeny < 100) goto _Semgrana;
-	if (@inventorylist_count >=100) goto _Semespaco;
+	if(countitem(@CaudaDeRato)<5 || countitem(@PataDeInseto)<3) goto _SemItens;
+	if(Zeny<100) goto _SemGrana;
 	getinventorylist;
+	if(@inventorylist_count>=100) goto _SemEspaco;
 	delitem @CaudaDeRato, 5;
 	delitem @PataDeInseto, 3;
 	getitem @LuvasDeMineiro, 1;
+	set Zeny, Zeny - 100;
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Já que você tem o que pedi, tome seu par de luvas.\"";
 close;
 
-_Naotem:
+_SemItens:
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Você não está com estes Itens que eu falei.\"";
 close;
 
-_Semgrana:
+_SemGrana:
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Você não está com o dinheiro que pedi.\"";
 close;	
 
-_Semespaço:
+_SemEspaco:
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Você não tem espaço na sua bagagem suficiente.\"";
@@ -270,13 +272,14 @@ _Bota:
 	menu
 	"Sim", -,
 	"Não", _SeDespede;
-	if (countitem(@CaudaDeRato)<6 || countitem(@PataDeInseto)<4) goto _Naotem;	
-	if (Zeny < 200) goto _Semgrana;
-	if (@inventorylist_count >=100) goto _Semespaco;
+	if(countitem(@CaudaDeRato)<6 || countitem(@PataDeInseto)<4) goto _SemItens;	
+	if(Zeny<200) goto _SemGrana;
 	getinventorylist;
+	if(@inventorylist_count>=100) goto _SemEspaco;
 	delitem @CaudaDeRato, 6;
 	delitem @PataDeInseto, 4;
 	getitem @Botas, 1;
+	set Zeny, Zeny - 200;
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Já que você tem o que pedi, tome seu par de botas.\"";	
@@ -299,13 +302,14 @@ _Camisa:
 	menu
 	"Sim", -,
 	"Não", _SeDespede;
-	if (countitem(@CaudaDeRato)<7 || countitem(@PataDeInseto)<5) goto _Naotem;	
-	if (Zeny < 300) goto _Semgrana;
-	if (@inventorylist_count >=100) goto _Semespaco;
+	if(countitem(@CaudaDeRato)<7 || countitem(@PataDeInseto)<5) goto _SemItens;	
+	if(Zeny<300) goto _SemGrana;
 	getinventorylist;
+	if(@inventorylist_count>=100) goto _SemEspaco;
 	delitem @CaudaDeRato, 7;
 	delitem @PataDeInseto, 5;
 	getitem @CamisaDeCouro, 1;
+	set Zeny, Zeny - 300;
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Já que você tem o que pedi, tome sua Camisa\"";	
@@ -328,13 +332,14 @@ _Capacete:
 	menu
 	"Sim", -,
 	"Não", _SeDespede;
-	if (countitem(@CaudaDeRato)<8 || countitem(@PataDeInseto)<5) goto _Naotem;
-	if (Zeny < 400) goto _Semgrana;
-	if (@inventorylist_count >=100) goto _Semespaco;
+	if(countitem(@CaudaDeRato)<8 || countitem(@PataDeInseto)<5) goto _SemItens;
+	if(Zeny<400) goto _SemGrana;
 	getinventorylist;
+	if(@inventorylist_count>=100) goto _SemEspaco;
 	delitem @CaudaDeRato, 8;
 	delitem @PataDeInseto, 5;
 	getitem @CapaceteDeMineiro, 1;
+	set Zeny, Zeny - 400;
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Já que você tem o que pedi, tome seu Capacete\"";
@@ -357,13 +362,14 @@ _Short:
 	menu
 	"Sim", -,
 	"Não", _SeDespede;
-	if (countitem(@CaudaDeRato)<5 || countitem(@PataDeInseto)<5) goto _Naotem;
-	if (Zeny < 400) goto _Semgrana;
-	if (@inventorylist_count >=100) goto _Semespaco;
+	if(countitem(@CaudaDeRato)<5 || countitem(@PataDeInseto)<5) goto _SemItens;
+	if(Zeny<400) goto _SemGrana;
 	getinventorylist;
+	if(@inventorylist_count>=100) goto _SemEspaco;
 	delitem @CaudaDeRato, 5;
 	delitem @PataDeInseto, 5;
 	getitem @ShortDeAlgodao, 1;
+	set Zeny, Zeny - 400;
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Já que você tem o que pedi, tome seu Short\"";
@@ -400,16 +406,17 @@ _Arco:
 	menu
 	"Sim", -,
 	"Não", _SeDespede;		
-	if (countitem(@CaudaDeRato)<9 || countitem(@DentesDeMorcego)<5 || countitem(@AsaDeMorcego)<5 || countitem(@GosmaDeVerme)<1 || countitem(@PataDeInseto)<7) goto _Naotem;		
-	if (Zeny < 500) goto _Semgrana;
-	if (@inventorylist_count >=100) goto _Semespaco;	
+	if(countitem(@CaudaDeRato)<9 || countitem(@DentesDeMorcego)<5 || countitem(@AsaDeMorcego)<5 || countitem(@GosmaDeVerme)<1 || countitem(@PataDeInseto)<7) goto _SemItens;		
+	if(Zeny<500) goto _SemGrana;
 	getinventorylist;
+	if(@inventorylist_count>=100) goto _SemEspaco;	
 	delitem @CaudaDeRato, 9;
 	delitem @PataDeInseto, 7;
 	delitem @DentesDeMorcego, 5;
 	delitem @AsaDeMorcego, 5;
 	delitem @GosmaDeVerme, 1;
 	getitem @ArcoDeCurtoAlcance, 1;
+	set Zeny, Zeny - 500;
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Já que você tem o que pedi, tome seu Arco\"";
@@ -460,16 +467,17 @@ _Flechas:
 	menu
 	"Sim", -,
 	"Não", _SeDespede;
-	if (countitem(@CaudaDeRato)<10 || countitem(@DentesDeMorcego)<7 || countitem(@AsaDeMorcego)<7 || countitem(@GosmaDeVerme)<1 || countitem(@PataDeInseto)<8) goto _Naotem;
-	if (Zeny < 100) goto _Semgrana;
-	if (@inventorylist_count >=100) goto L_Semespaco;
+	if(countitem(@CaudaDeRato)<10 || countitem(@DentesDeMorcego)<7 || countitem(@AsaDeMorcego)<7 || countitem(@GosmaDeVerme)<1 || countitem(@PataDeInseto)<8) goto _SemItens;
+	if(Zeny<100) goto _SemGrana;
 	getinventorylist;
+	if(@inventorylist_count>=100) goto _SemEspaco;
 	delitem @CaudaDeRato, 10;
 	delitem @PataDeInseto, 8;
 	delitem @DentesDeMorcego, 7;
 	delitem @AsaDeMorcego, 7;
 	delitem @GosmaDeVerme, 1;
 	getitem @FlechaDeFerro, 100;
+	set Zeny, Zeny - 100;
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Já que você tem o que pedi, tome suas [Flechas de Ferro].\"";
@@ -495,16 +503,17 @@ _FlechaNormal:
 	menu
 	"Sim", -,
 	"Não", _SeDespede;
-	if (countitem(@CaudaDeRato)<7 || countitem(@DentesDeMorcego)<5 || countitem(@AsaDeMorcego)<5 || countitem(@FerraoEscorpGelo)<1 || countitem(@PataDeInseto)<7) goto _Naotem6;
-	if (Zeny < 100) goto _Semgrana6;
-	if (@inventorylist_count >=100) goto L_Semespaco6;
+	if(countitem(@CaudaDeRato)<7 || countitem(@DentesDeMorcego)<5 || countitem(@AsaDeMorcego)<5 || countitem(@FerraoDeEscorpDeGelo)<1 || countitem(@PataDeInseto)<7) goto _SemItens;
+	if(Zeny<100) goto _SemGrana;
 	getinventorylist;
+	if(@inventorylist_count>=100) goto _SemEspaco;
 	delitem @CaudaDeRato, 7;
 	delitem @PataDeInseto, 7;
 	delitem @DentesDeMorcego, 5;
 	delitem @AsaDeMorcego, 5;
-	delitem @FerraoEscorpGelo, 1;
+	delitem @FerraoDeEscorpDeGelo, 1;
 	getitem @Flecha, 100;
+	set Zeny, Zeny - 100;
 	mes "";
 	mes "[Treinador Esquimó]";
 	mes "\"Já que você tem o que pedi, tome suas Flechas.\"";
