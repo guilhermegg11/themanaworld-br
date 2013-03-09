@@ -14659,13 +14659,59 @@
 		type="generic"
 		weight="2"
 	/>
-
 	<item id="4046"
 		image="use-food-easteregg.png|G:#22ff22;"
 		name="Ovo velho da pascoa"
 		description="Um ovo velho de pascoa. Muito mal feito!"
 		effect="(Não conta no top15)"
 		type="generic"
-		weight="4"/>		
+		weight="4"
+	/>
+	
+	<item id="4047"
+		image="armor-head-boina.png|W:#ff4b4b,ffcccc"
+		name="Boina Branca"
+		description="lvl:10 def:+3"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-boina.sas</sprite>
+	</item>
+	<item id="4048"
+		image="armor-head-boina.png|W:#ff4b4b,ff0000"
+		name="Boina Vermelha"
+		description="lvl:10 def:+3"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-boina.sas|#ff4444,ff0000</sprite>
+	</item>
+	<item id="4049"
+		image="armor-head-boina.png|W:#ff4b4b,008800"
+		name="Boina Verde"
+		description="lvl:10 def:+3"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-boina.sas|#448844,008800</sprite>
+	</item>
+	<item id="4050"
+		image="armor-head-boina.png|W:#4b4bff,0000ff"
+		name="Boina Azul"
+		description="lvl:10 def:+3"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-boina.sas|#4444ff,0000ff</sprite>
+	</item>
+	<item id="4051"
+		image="armor-head-boina.png|W:#ffff4b,ffff00"
+		name="Boina Amarela"
+		description="lvl:10 def:+3"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-boina.sas|#ffff44,ffff00</sprite>
+	</item>
 	
 </items>   

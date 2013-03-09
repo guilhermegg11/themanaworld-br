@@ -1645,3 +1645,8 @@
 //ID,DatabaseName,DisplayName,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,Lvl,View,{UseScript},{EquipScript}
 4045,chave4045,Chave de Cobre nº4045,3,100,50,2,,,,,,,,,,,{},{}
 4046,ovovelhodapascoa,Ovo Velho da Pascoa,3,100,1000,0,,,,,,2,,,0,,{},{}
+4047,boinabranca,Boina Branca,5,2000,1000,60,,3,,0,0,2,256,,10,0,{},{}
+4048,boinavermelha,Boina Vermelha,5,2000,1000,60,,3,,0,0,2,256,,10,0,{},{}
+4049,boinaverde,Boina Verde,5,2000,1000,60,,3,,0,0,2,256,,10,0,{},{}
+4050,boinaazul,Boina Azul,5,2000,1000,60,,3,,0,0,2,256,,10,0,{},{}
+4051,boinaamarela,Boina Amarela,5,2000,1000,60,,3,,0,0,2,256,,10,0,{},{}
