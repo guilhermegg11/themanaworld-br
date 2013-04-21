@@ -14713,5 +14713,15 @@
 		defense="1">
 		<sprite>equipment/head/head-boina.sas|#ffff44,ffff00</sprite>
 	</item>
+
+	<!--item id="4057"
+		image="armor-head-mask-aguia.png"
+		name="Máscara de Águia"
+		description="lvl:30 def:+7"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-mask-aguia.sas</sprite>
+	</item-->
 	
 </items>   
