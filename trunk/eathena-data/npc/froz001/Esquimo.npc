@@ -53,6 +53,9 @@ end;
 _ForteDemais:	
 	mes "[Treinador Esquimó]";
 	mes "\""+@SenhorX$+" já é forte demais. O rei me mandou ajudar no treinamento apenas dos novatos. Já tem poder suficiente para sair das muralhas.\"";
+	if(QUEST_Groth==0) next; //Isso serve para indicar ao jogador onde está a próxima quest q ele deve procurar
+	if(QUEST_Groth==0) mes "[Treinador Esquimó]";
+	if(QUEST_Groth==0) mes "\"Ja falou como Groth? Ele está perto da ponte do lado de fora da muralha de Froz. Talvés ele possa te ajudar!\"";
 close;	
 
 _Inicio:
