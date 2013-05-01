@@ -5130,7 +5130,7 @@
 		image="weapon-dagger-cutelo.png"
 		name="Cutelo Afiado"
 		description="Cutelo de cortar osso. Após afiado se tornou uma arma perigosa."
-		effect="lvl 25, Dano +65, 1 Alcance"
+		effect="lvl:25, Dano:+46, 1 Alcance"
 		type="equip-1hand"
 		weapon-type="knife"
 		weight="500">
@@ -5303,7 +5303,7 @@
 		image="espada-aprendiz.png"
 		name="Espada de Aprendizes"
 		description="Espada de madeira usada para treinos."
-		effect="lvl 10, +40 Dano, 1 Alcance"
+		effect="lvl:5, Dano:+20, Alcance:1"
 		type="equip-1hand"
 		weapon-type="sword"
 		weight="350">
@@ -5313,7 +5313,7 @@
 		image="espada-lider.png"
 		name="Espada Cavaleiro Lider"
 		description="Espada para Cavaleiros Lideres de Recrutas."
-		effect="lvl 25, +65 Dano, 1 Alcance"
+		effect="lvl:30, Dano:+55 , Alcance:1"
 		type="equip-1hand"
 		weapon-type="sword"
 		weight="350">
@@ -5591,7 +5591,7 @@
 		image="weapon-staff-woodstaff.png"
 		name="Bastão de Madeira"
 		description="Bastão usado por ninjas."
-		effect="lvl 20, +50 Dano, 1 Alcance, Bidestra"
+		effect="lvl:20(Bidestra), Dano:+37, Alcance:1"
 		type="equip-2hand"
 		weapon-type="staff"
 		weight="100">
