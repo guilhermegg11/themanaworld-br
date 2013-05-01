@@ -10,4 +10,5 @@ npc: npc/froz/_warps.txt
 npc: npc/froz/_shops.txt
 
 npc: npc/froz/guardas.conf
+npc: npc/froz/groth.npc
 npc: npc/froz/idolos.conf

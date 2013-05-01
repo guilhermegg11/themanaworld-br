@@ -1,0 +1,182 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Criado por: 		Faith <Lks-781@hotmail.com>
+// Revisado por:	Lunovox <rui.gravata@gmail.com>; Ernando <ernando.quirino@hotmail.com>
+// Pré-Requisito:	LVL15
+// Pós-Requisito:	CaudaDeRato, DenteDeRato, FerraoDeEscorpiaoDeGelo, PataDeInseto, AsaDeMorcego, DentesDeMorcego, GosmaDeVerme
+// Objetivo: 		Um "bom" amigo que quer "ajuda-lo" a retomar a consciencia. (NPC incompleto)
+// Prémio: 			CuteloCego, XP+850
+// Fórum: 			
+// Screenshot:		http://ompldr.org/vaWE3aQ/Groth.png
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+froz.gat,98,98,0	script	Groth	156,{
+// Pós-requisitos
+	set @DenteDeRato, 3168;
+	set @CaudaDeRato,	3169;
+	set @FerraoEscorpGelo, 3413;
+// Premios
+	set @CuteloCego, 3031;
+	set @camisa, 3909;
+// Identificação
+	if(Sex == 0) set @FracX$, "fraca";
+	if(Sex == 1) set @FracX$, "fraca";
+// Testes
+	if(Reino!=$PosseDeFroz) goto _SugestaoAoInvasor;
+	if(BaseLevel <15) goto _FracoDemais;
+	if(QUEST_Groth == 1) goto _retorno1;
+	if(QUEST_Groth == 2) goto _inicio2;
+	if(QUEST_Groth == 3) goto _retorno2;
+	if(QUEST_Groth == 4) goto _Final2;
+goto _inicio;
+
+_SugestaoAoInvasor:
+	heal -(MaxHp/10),0;
+	set @tmp,rand(4);
+	if(@tmp == 0) npctalk "Saia daqui seu invasor de Froz! (Chute!)";
+	if(@tmp == 1) npctalk "Você não pode entrar em Froz! (Pontapé!)";
+	if(@tmp == 2) npctalk "Como você se atreve a tentar machucar as pessoas do Reino de Froz? (Soco!)";
+	if(@tmp == 3) npctalk "Vou dar-lhe uma bengalada! (Soco!)";
+end;
+
+_FracoDemais:	
+	mes "[Groth]";
+	mes "\"Finalmente você acordou, "+strcharinfo(0)+"!\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Quem é você?\"";
+	next;
+	mes "[Groth]";
+	mes "\"Como assim? Sou eu, o Groth!\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Me desculpe, mas Não consigo lembrar de você, e nem de quem sou.\"";
+	next;
+	mes "[Groth]";
+	mes "\"Você não se lembra de nada mesmo?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"A enfermeira me disse que tive amnésia por que levei uma pancada na cabeça.\"";
+	next;
+	mes "[Groth]";
+	mes ">=] \"Sim, você saido para resolver algo fora das muralhas.\"";
+	next;
+	mes "[Groth]";
+	mes "\"De repente escultamos um grito e fomos verificar.\"";
+	next;
+	mes "[Groth]";
+	mes "\"Ao chegar vimos você caido desacordado no chão.\"";
+	next;
+	mes "[Groth]";
+	mes "Entao te levamos imediatamente para a infermaria.";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Entao voce era um dos moradores que me ajudou.\"";
+	next;
+	mes "[Groth]";
+	mes "\"Sim! mas nao sou um morador qualquer, tambem sou um guerreiro.\"";
+	next;	
+	mes "[Groth]";
+	mes "\"Estou precisando de ajuda. Mas vejo que vc ainda está "+@FracX$+" demais. Volte quanto tiver maios forte!\"";
+close;	
+
+//-----------------------------------------------------------------------------------------
+
+_inicio:
+	mes "["+strcharinfo(0)+"]";
+	mes "=þ \"Eu me lembro vagamente de ter equipamentos, onde estão eles?\"";
+	next;
+	mes "[Groth]";
+	mes "(¬.¬) \"Ah! Quando te encomtramos vc estava quase sem nada. O que sobrou está em minha mochila.\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes ">=[ \"Então me devolva, por favor!\"";
+	next;
+	mes "[Groth]";
+	mes "=þ \"Sim, posso te devolver. Mas só lhe devolverei se trusser 15 [Dentes de Rato] e 5 [Caudas de Rato]!\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes ">=[ \"Vc só vai me devolver se eu fizer o que você manda, não é? Ok!! Logo voltarei com o que me mandou.\"";
+	set QUEST_Groth, 1;
+close;
+
+//-----------------------------------------------------------------------------------------
+
+_retorno1:
+	mes "";
+	mes "[Groth]";
+	mes "\"Já está com todo os itens?\"";
+	next;
+	menu
+	"Sim! Já tenho tudo.", _sim1,
+	"Nao! Eu esqueci o que era para eu trazer para você. =S", _Lembrar1;
+close; // <- Esse close é apenas por segurança
+
+_Lembrar1:
+	mes "";
+	mes "Objetivo:";
+	mes "* 15 [Dentes de Rato]";
+	mes "* 05 [Caudas de Rato]";
+close;
+
+_sim1:
+	if(countitem(@DenteDeRato)<15) goto _enganou;
+	if(countitem(@CaudaDeRato)<5) goto _enganou;
+	delitem @DenteDeRato, 20;
+	delitem @calda, 10;
+	getitem @CuteloCego, 1;
+	set QUEST_Groth, 2;
+	mes "[Groth]";
+	mes "Muito bem! Aqui está o que sobrou de sua coisas...";
+close;
+
+//-----------------------------------------------------------------------------------------
+
+_inicio2:
+	mes "";
+	mes "[Groth]";
+	mes "\"O que andou fazendo com o cutelo que eu te devolvi?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Estou matando alguns monstros.\"";
+	next;
+	mes "[Groth]";
+	mes "\"Ja que vc ainda é fraco. O que acha de aceitar o meu treinamento e me trazer 30 [Ferrões de Escorpião de Gelo]?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Claro! Vou ir pegar tudo agora mesmo.\"";
+	set QUEST_Groth, 3;
+close;
+
+_retorno2:
+	if (countitem(@FerraoEscorpGelo)<30) goto _enganou;
+	mes "[Groth]";
+	mes "\"Já conseguiu todos os 30 [Ferrões de Escorpião de Gelo]?\"";
+	next;
+	menu
+	"Sim! Já está tudo Aqui.", _sim2,
+	"Não! Me desculpe vou voltar e trazer tudo para você.", -;
+close;
+
+_sim2:
+	delitem @FerraoEscorpGelo, 30;
+	set BaseExp, BaseExp+150; // A diferença entre o lvl15 e o lvl16 é 140xp que é mais do que o suficiente para upar +1lvl a partir do LVL15.
+	set QUEST_Groth, 4;
+	mes "[Groth]";
+	mes "\"Muito Bem! Completou seu treinamento. Você ganhou bastante experiência com meu treinamente.";
+close;
+//-----------------------------------------------------------------------------------------
+
+_enganou:
+	mes "";
+	mes "[Groth]";
+	mes "\"Não tente me enganar, volte a caçar, e me traga tudo!\"";
+close;
+
+_Final2:
+	mes "[Groth]";
+	mes ">=[ \"Que bom que gostou do meu treinamento.\"";
+	next;
+	mes "* Groth fez uma cara de quem está decepcionado por eu ainda ter vida.";
+close;
+
+}
