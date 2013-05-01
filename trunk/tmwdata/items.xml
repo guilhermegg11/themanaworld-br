@@ -5110,7 +5110,7 @@
 		image="weapon-dagger-facao.png"
 		name="Facão"
 		description="Um baita de um facão. Esta sim é uma boa arma."
-		effect="lvl 20, Dano +50, 1 Alcance"
+		effect="Lvl:15, Dano:+28, Alcance:1"
 		type="equip-1hand"
 		weapon-type="knife"
 		weight="400">
@@ -5120,7 +5120,7 @@
 		image="weapon-dagger-cutelo.png"
 		name="Cutelo Cego"
 		description="Cutelo de cortar osso. Não oferece muito risco, pois está cego."
-		effect="lvl 10, Dano +40, 1 Alcance"
+		effect="Lvl:20, Dano:+37, Alcance:1"
 		type="equip-1hand"
 		weapon-type="knife"
 		weight="500">
@@ -13228,7 +13228,7 @@
 		<sprite gender="male">leg-assassin-male.xml</sprite>
 		<sprite gender="female">leg-assassin-female.xml</sprite>
 	</item>  
-              <item id="3909"
+	<item id="3909"
 		image="armor-chest-leathershirt.png"
 		name="Camisa de Couro +1"
 		description="Uma camisa feita de couro endurecido."
