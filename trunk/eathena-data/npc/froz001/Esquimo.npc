@@ -44,9 +44,9 @@ goto _Inicio;
 _SugestaoAoInvasor:
 	heal -(MaxHp/10),0;
 	set @tmp,rand(4);
-	if(@tmp == 0) npctalk "Saia daqui seu invasor de "+ @NomeDoReino$+"! (Chute!)";
-	if(@tmp == 1) npctalk "Você não pode entrar em "+ @NomeDoReino$+"! (Pontapé!)";
-	if(@tmp == 2) npctalk "Como você se atreve a tentar machucar as pessoas do Reino de "+ @NomeDoReino$+"? (Soco!)";
+	if(@tmp == 0) npctalk "Saia daqui seu invasor de Froz! (Chute!)";
+	if(@tmp == 1) npctalk "Você não pode entrar em Froz! (Pontapé!)";
+	if(@tmp == 2) npctalk "Como você se atreve a tentar machucar as pessoas do Reino de Froz? (Soco!)";
 	if(@tmp == 3) npctalk "Vou dar-lhe uma bengalada! (Soco!)";
 end;
 
