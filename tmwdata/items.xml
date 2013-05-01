@@ -14669,7 +14669,7 @@
 	/>
 	
 	<item id="4047"
-		image="armor-head-boina.png|W:#ff4b4b,ffcccc"
+		image="armor-head-boina.png"
 		name="Boina Branca"
 		description="lvl:10 def:+3"
 		type="equip-head"
@@ -14678,22 +14678,22 @@
 		<sprite>equipment/head/head-boina.sas</sprite>
 	</item>
 	<item id="4048"
-		image="armor-head-boina.png|W:#ff4b4b,ff0000"
+		image="armor-head-boina.png|W:#ff0000,880000"
 		name="Boina Vermelha"
 		description="lvl:10 def:+3"
 		type="equip-head"
 		weight="60"
 		defense="1">
-		<sprite>equipment/head/head-boina.sas|#ff4444,ff0000</sprite>
+		<sprite>equipment/head/head-boina.sas|#ff0000,880000</sprite>
 	</item>
 	<item id="4049"
-		image="armor-head-boina.png|W:#ff4b4b,008800"
+		image="armor-head-boina.png|W:#00ff00,008800"
 		name="Boina Verde"
 		description="lvl:10 def:+3"
 		type="equip-head"
 		weight="60"
 		defense="1">
-		<sprite>equipment/head/head-boina.sas|#448844,008800</sprite>
+		<sprite>equipment/head/head-boina.sas|#00FF00,008800</sprite>
 	</item>
 	<item id="4050"
 		image="armor-head-boina.png|W:#4b4bff,0000ff"
@@ -14712,6 +14712,15 @@
 		weight="60"
 		defense="1">
 		<sprite>equipment/head/head-boina.sas|#ffff44,ffff00</sprite>
+	</item>
+	<item id="4052"
+		image="armor-head-boina.png|W:#ff4b4b,ffcccc"
+		name="Boina Rosa"
+		description="lvl:10 def:+3"
+		type="equip-head"
+		weight="60"
+		defense="1">
+		<sprite>equipment/head/head-boina.sas|#ff4b4b,ffcccc</sprite>
 	</item>
 
 	<!--item id="4057"
