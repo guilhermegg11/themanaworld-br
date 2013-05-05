@@ -14,7 +14,6 @@ npc: npc/010_PoloNorte/duende_faisca.conf
 npc: npc/010_PoloNorte/duende_lulu.conf
 npc: npc/010_PoloNorte/duende_tampinha.conf
 npc: npc/010_PoloNorte/duende_tunico.conf
-//npc: npc/010_PoloNorte/fortiun.conf
 npc: npc/010_PoloNorte/fusus.conf
 npc: npc/010_PoloNorte/guardadonavio.conf
 npc: npc/010_PoloNorte/jornaleiro.conf
