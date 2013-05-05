@@ -20,5 +20,5 @@
 010.gat,93,20	warp	Froz	2,0,froz.gat,93,118
 010.gat,20,69	warp	010-4	0,2,010-4.gat,178,69
 010.gat,168,65	warp	paraConves	-1,-1,navio010.gat,51,24
-010.gat,142,47	warp	paraCaverna	0,0,010-1.gat,45,19
+010.gat,142,47	warp	paraCaverna	0,-1,010-1.gat,45,19
 010.gat,49,55	warp	paraCaverna	0,0,010-3.gat,26,36
