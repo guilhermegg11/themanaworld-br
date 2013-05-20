@@ -1,0 +1,463 @@
+//@autor : Faith
+//@skype : Lucas.henrique972
+//@email : Lks-781@hotmail.com
+//@descrição : NPC de trabalho.
+//@Observação: Apenas dinheiro
+
+
+005_fortaleza.gat,96,73,0	script	Lucas	510,{
+
+	if(QUEST_Lucas == 0) goto T_inicio;
+	if(QUEST_Lucas == 1) goto J_voltando;
+	if(QUEST_Lucas == 2) goto F_inicio;
+	if(QUEST_Lucas == 3) goto F_voltando;
+	if(QUEST_Lucas == 4) goto L_inicio;
+	if(QUEST_Lucas == 5) goto L_voltando;
+	if(QUEST_Lucas == 6) goto A_inicio;
+	if(QUEST_Lucas == 7) goto A_voltando;
+	if(QUEST_Lucas == 8) goto P_inicio;
+	if(QUEST_Lucas == 9) goto P_voltando;
+	if(QUEST_Lucas == 10) goto M_inicio;
+	if(QUEST_Lucas == 11) goto M_voltando;
+	if(QUEST_Lucas == 12) goto PS_inicio;
+	if(QUEST_Lucas == 13) goto PS_voltando;
+	if(QUEST_Lucas == 14) goto C_inicio;
+	if(QUEST_Lucas == 15) goto C_voltando;
+	if(QUEST_Lucas == 16) goto _fim;
+
+
+T_inicio:
+	mes "[Lucas]";
+	mes "\"Gostaria de ajudar alguns cidadões do mundo de mana?\"";
+	menu
+		"Claro!", _trabalho,
+		"Agora não!", -;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Volte quando quiser ajudar!\"";
+	close;
+
+_trabalho:
+	mes "[Lucas]";
+	mes "\"Nosso trabalho e ajudar o povo do mundo de mana em troca de GP!\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Aqui está a lista de profissões que está precisando de ajuda!\"";
+	next;
+	mes "[Lucas]";
+	mes "Temos 8 tipos de profissão";
+	mes "*Segurança da praia (LVL 10+)";
+	mes "*Fazendeiro (LVL 15+)";
+	mes "*Lenhador (LVL 25+)";
+	mes "*Alfaiate (LVL 40+)";
+	mes "*Jardineiro (LVL 45+)";
+	mes "*Mineiro (LVL 55+)";
+	mes "*Pesquisador (LVL 70+)";
+	mes "*Caçador Mestre (LVL 85+)";
+	next;
+	mes "[Lucas]";
+	mes "\"Está preparado para começar a ajuda-los?\"";
+	next;
+	menu
+		"Sim estou pronto", J_inicio,
+		"Não vou pensar melhor, depois eu volto aqui", -;
+	close;
+
+//-------------------------------------------------------------------------
+
+J_inicio:
+	mes "[Lucas]";
+	mes "*Segurança da praia";
+	mes "A praia está cheia de vermes e escorpiões e os moradores está começando a ficar irritados!"+
+	"Temos que dar um jeito nisso! vamos pegar 70 gosma de vermes e 50 ferrão de escorpião";
+	mes "Assim poderemos provar aos moradores que os caçador junior existe para mante-los despreocupados!";
+	next;
+	mes "*Segurança da praia";
+	mes "*70 Gosma de vermes";
+	mes "*50 Ferrão de escorpião";
+	mes "*Recompensa: 20.000GP";
+	set QUEST_Lucas, 1;
+	close;
+
+J_voltando:
+	mes "";
+	mes "[Lucas]";
+	mes "\"Já terminou o serviço?\"";
+	next;
+	menu
+		"Sim já está tudo aqui!", J_completo,
+		"Esqueci o que era para fazer!", J_inicio,
+		"Só passei para dizer um Oi!", -;
+	mes "[Lucas]";
+	mes "(-.-) \"É hora de trabalhar! e não de conversar!!\"";
+	close;
+
+J_completo:
+	if (countitem(505) <70) goto _semItem;
+	if (countitem(507) <50) goto _semItem;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Bom trabalho aqui está sua recompensa\"";
+	set Zeny,Zeny +20000;
+	delitem 505, 30;
+	delitem 507, 30;
+	set QUEST_Lucas, 2;
+	mes "*Você recebeu 20.000 GP";
+	mes "Proximo emprego será > Fazendeiro";
+	close;
+
+//---------------------------------------------------------------------------
+
+F_inicio:
+	mes "[Lucas]";
+	mes "*Fazendeiro:";
+	mes "A fazendo do zeca está Cheia de trasgos, roxos e rosas, e isso está o deixando muito nervoso, "+
+	"pois está perdendo muitas coisas de suas plantação!";
+	mes "Nosso objetivo é Pegar 40 antenas rosas e 30 antenas roxas, Assim iremos amedrontar os trasgos e salvar, "+
+	"A fazendo do nosso amigo Zeca!";
+	next;
+	mes "*Fazendeiro";
+	mes "40 antenas rosas";
+	mes "30 antenas roxas";
+	mes "Recompensa 40.000GP";
+	set QUEST_Lucas, 3;
+	close;
+
+F_voltando:
+	mes "";
+	mes "[Lucas]";
+	mes "\"Já terminou o serviço?\"";
+	next;
+	menu
+		"Sim já está tudo aqui!", F_completo,
+		"Esqueci o que era para fazer!", F_inicio,
+		"Só passei para dizer um Oi!", -;
+	mes "[Lucas]";
+	mes "(O.O) \"Como assim??? DENOVO!!! AAARRGHH VOLTE AO TRABALHO!!\"";
+	close;
+
+F_completo:
+	if (countitem(614) <40) goto _semItem;
+	if (countitem(3069) <30) goto _semItem;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Bom trabalho aqui está sua recompensa\"";
+	set Zeny,Zeny +40000;
+	delitem 614, 40;
+	delitem 3069, 30;
+	set QUEST_Lucas, 4;
+	mes "*Você recebeu 40.000 GP";
+	mes "Proximo emprego será > Lenhador";
+	close;
+
+//-------------------------------------------------------------------------
+
+L_inicio:
+	mes "[Lucas]";
+	mes "*Lenhador:";
+	mes "Jack precisa de nossa ajuda para recolher alguns tocos e raizes!";
+	next;
+	mes "[Lucas]";
+	mes "\"Nossa missão é Recolher 40 tocos de madeira e 30 raizes, assim Jack irá ficar muito feliz!\"";
+	next;
+	mes "*Lenhador";
+	mes "*40 Tocos de madeira";
+	mes "*30 Raizes";
+	mes "*Recompensa:60.000GP";
+	set QUEST_Lucas, 5;
+	close;
+
+L_voltando:
+	mes "";
+	mes "[Lucas]";
+	mes "\"Já terminou o serviço?\"";
+	next;
+	menu
+		"Sim já está tudo aqui!", L_completo,
+		"Esqueci o que era para fazer!", L_inicio,
+		"Só passei para dizer um Oi!", -;
+	mes "[Lucas]";
+	mes "(O.O) \"Você está testando minha paciencia? VOLTE AO TRABALHO!\"";
+	close;
+
+L_completo:
+	if (countitem(569) <40) goto _semItem;
+	if (countitem(740) <30) goto _semItem;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Bom trabalho aqui está sua recompensa\"";
+	set Zeny,Zeny +60000;
+	delitem 569, 40;
+	delitem 740, 30;
+	set QUEST_Lucas, 6;
+	mes "*Você recebeu 60.000 GP";
+	mes "Proximo emprego será > Alfaiate";
+	close;
+
+//--------------------------------------------------------------
+
+A_inicio:
+	mes "[Lucas]";
+	mes "*Alfaiate:";
+	mes "Algostine me disse que está ficando sem materiais para suas roupas, e chamou nós para ajudar.";
+	next;
+	mes "[Lucas]";
+	mes "\"Ele me disse que precisará de 50 pelo branco e 20 Tecidos de algodão,e 30 ervas alizarinas, "+
+	"30 ervas cobalto e 30 ervas mauva assim ele pode fazer as roupas e colorir com as tintas das ervas\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Nossa missão é recolher tudo que ele precisa ,para faze-lo feliz!\"";
+	next;
+	mes "*Alfaiate";
+	mes "*50 Pelos Branco";
+	mes "*20 Tecidos de Algodão";
+	mes "*30 Ervas Alizarina";
+	mes "*30 Ervas Cobalto";
+	mes "*30 Ervas Mauva";
+	mes "*Recompensa: 95.000GP";
+	set QUEST_Lucas, 7;
+	close;
+
+A_voltando:
+	mes "";
+	mes "[Lucas]";
+	mes "\"Já terminou o serviço?\"";
+	next;
+	menu
+		"Sim já está tudo aqui!", A_completo,
+		"Esqueci o que era para fazer!", A_inicio,
+		"Só passei para dizer um Oi!", -;
+	mes "[Lucas]";
+	mes "(¬.¬) \"Toda vez você vem me dizer um oi!! VOLTA PARA O TRABALHO!! AAAAARGH!!\"";
+	close;
+
+A_completo:
+	if (countitem(611) <40) goto _semItem;
+	if (countitem(660) <20) goto _semItem;
+	if (countitem(680) <30) goto _semItem;
+	if (countitem(681) <30) goto _semItem;
+	if (countitem(682) <30) goto _semItem;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Bom trabalho aqui está sua recompensa\"";
+	set Zeny,Zeny +95000;
+	delitem 611, 40;
+	delitem 660, 20;
+	delitem 680, 30;
+	delitem 681, 30;
+	delitem 682, 30;
+	set QUEST_Lucas, 8;
+	mes "*Você recebeu 95.000 GP";
+	mes "*Proximo emprego será > Jardineiro";
+	close;
+	
+//---------------------------------------------------------------------------
+
+P_inicio:
+	mes "";
+	mes "[Lucas]";
+	mes "Jardineiro:";
+	mes "\"Todos sabem que na ilha fortaleza, existem flores violentas, muitos tem medo dessas flores, "+
+	"pois elas estão ficando malucas e começaram a comer as bolsas de moedas dos moradores, "+
+	"E nós temos que dar uma lição nessas Flores!\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Pegue 30 bolsas de moedas para devolver os moradores e 60 petálas para dar uma lição nessas flores!\"";
+	next;
+	mes "*Jardineiro:";
+	mes "*60 Petálas";
+	mes "*30 Bolsa de moedas";
+	mes "*Recompensa : 100.000 GP";
+	set QUEST_Lucas, 9;
+	close;
+
+P_voltando:
+	mes "";
+	mes "[Lucas]";
+	mes "\"Já terminou o serviço?\"";
+	next;
+	menu
+		"Sim já está tudo aqui!", P_completo,
+		"Não só passei para dizer um oi!", -;
+	mes "[Lucas]";
+	mes ":@ \"Mas porque toda vez é isso? Estou ficando muito irritado!! volte ao trabalho!\"";
+	close;
+
+P_completo:
+	if (countitem(565) <60) goto _semItem;
+	if (countitem(526) <30) goto _semItem;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Bom trabalho aqui está sua recompensa\"";
+	set Zeny,Zeny +100000;
+	delitem 565, 60;
+	delitem 526, 30;
+	set QUEST_Lucas, 10;
+	mes "*Você recebeu 100.000 GP";
+	mes "Proximo emprego será > Mineiro";
+	close;
+	
+//-----------------------------------------------------------------------
+_semItem:
+	mes "[Lucas]";
+	mes "\"Você não tem os itens suficientes,volte quando tiver tudo\"";
+	close;
+//------------------------------------------------------------------------
+
+
+M_inicio:
+	mes "[Lucas]";
+	mes "*Mineiro:";
+	mes "Ferreiros estão nervosos por falta de materiais! Se eles não tiver minério,adagas e capacete, "+
+	"os ferreiros não vão conseguir produzir armas ,capacetes e escudos!";
+	mes "Nosso objetivo é tentar conseguir 25 Minérios,200 pilhas de cinzas e 1 capacete da infantaria";
+	next;
+	mes "*Mineiro";
+	mes "*50 Minérios";
+	mes "*200 piilhas de cinzas";
+	mes "*1 capacete da infantaria";
+	mes "*Recompensa : 190.000GP";
+	set QUEST_Lucas, 11;
+	close;
+
+M_voltando:
+	mes "";
+	mes "[Lucas]";
+	mes "\"Já terminou o serviço?\"";
+	next;
+	menu
+		"Sim já está tudo aqui!", M_completo,
+		"Não só passei para dizer um oi!", -;
+	mes "[Lucas]";
+	mes "(X_X)\" Por favor!! Volte ao trabalho!\"";
+	close;
+	
+
+M_completo:
+	if (countitem(640) <50) goto _semItem;
+	if (countitem(701) <200) goto _semItem;
+	if (countitem(638) <1) goto _semItem;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Bom trabalho aqui está sua recompensa\"";
+	set Zeny,Zeny +190000;
+	delitem 640, 25;
+	delitem 701, 200;
+	delitem 638, 1;
+	set QUEST_Lucas, 12;
+	mes "*Você recebeu 190.000 GP";
+	mes "Proximo emprego será >Pesquisador";
+	close;
+
+//-------------------------------------------------------------------------------
+
+PS_inicio:
+	mes "[Lucas]";
+	mes "*Pesquisador";
+	mes "Lara está pesquisando novas formulas, ela quer fazer uma experiencia e precisa da nossa ajuda!";
+	mes "Ela deseja que nós peguemos 1 óleo de monstro , 1 veneno de ninfa , 1 poção da morte!,1 garrafa vazia!";
+	next;
+	mes "*Pesquisador";
+	mes "*1 óleo de monstro";
+	mes "*1 Veneno de ninfa";
+	mes "*1 Poção da morte";
+	mes "*1 Garrafa vazia";
+	mes "*Recompensa: 450.000GP";
+	set QUEST_Lucas, 13;
+	close;
+
+PS_voltando:	
+	mes "";
+	mes "[Lucas]";
+	mes "\"Já terminou o serviço?\"";
+	next;
+	menu
+		"Sim já está tudo aqui!", PS_completo,
+		"Não só passei para dizer um oi!", -;
+	mes "[Lucas]";
+	mes "\" "+strcharinfo+" Porque você faz isso comigo? =( Volte ao trabalho =(\"";
+	close;
+
+PS_completo:
+	if (countitem(707) <1) goto _semItem;
+	if (countitem(3024) <1) goto _semItem;
+	if (countitem(3003) <1) goto _semItem;
+	if (countitem(540) <1) goto _semItem;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Bom trabalho aqui está sua recompensa\"";
+	set Zeny,Zeny +450000;
+	delitem 707, 1;
+	delitem 3024, 1;
+	delitem 3003, 1;
+	delitem 540, 1;
+	set QUEST_Lucas, 14;
+	mes "*Você recebeu 450.000 GP";
+	mes "Proximo emprego será > Caçador mestre";
+	close;
+
+//-------------------------------------------------------------------------
+
+C_inicio:
+	mes "[Lucas]";
+	mes "*Caçador mestre";
+	mes "\"Agora a situação complicou! Em um cemitério na terras desconhecidas está cheio "+
+	"de Esqueletos ,zombies ,e espectros, e o temido Jack O! e o Rei Brhamir precisa de uma quantidade de item "+
+	"que somente esses monstros tem! Assim ele poderá trabalhar em uma magia nova\"";
+	mes "\"Nossa missão é pegar 60 pó fantasma , 5 alma jack O , 60 cristais escuros, 30 orelha de zombie e 50 pó de enxofre\"";
+	next;
+	mes "Caçador mestre";
+	mes "*60 pó fantasma";
+	mes "*50 pó de enxofre";
+	mes "*5 Alma Jack O";
+	mes "*60 cristais escuros";
+	mes "*30 orelha de zombie";
+	mes "*Recompensa: 750.000GP";
+	set QUEST_Lucas, 15;
+	close;
+
+C_voltando:
+	mes "";
+	mes "[Lucas]";
+	mes "\"Já terminou o serviço?\"";
+	next;
+	menu
+		"Sim já está tudo aqui!", C_completo,
+		"Não só passei para dizer um oi!", -;
+	mes "[Lucas]";
+	mes "(T_T) \" "+strcharinfo+" Você já me irritou de mais , ainda bem que é o ultimo trabalho!\"";
+	close;
+
+C_completo:
+	if (countitem(774) <60) goto _semItem;
+	if (countitem(703) <50) goto _semItem;
+	if (countitem(1198) <5) goto _semItem;
+	if (countitem(631) <60) goto _semItem;
+	if (countitem(779) <30) goto _semItem;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Bom trabalho aqui está sua recompensa\"";
+	set Zeny,Zeny +750000;
+	delitem 774, 60;
+	delitem 703, 50;
+	delitem 1198, 5;
+	delitem 631, 60;
+	delitem 779, 30;
+	set QUEST_Lucas, 16;
+	mes "*Você recebeu 750.000 GP";
+	close;
+
+//----------------------------------------------------------------------
+
+_fim:
+	mes "[Lucas]";
+	mes "\"você fez um otimo trabalho, o mundo de mana te agradece\"";
+	close;
+	
+	
+}
+
+	
+
+	
+
