@@ -1,463 +1,616 @@
-//@autor : Faith
-//@skype : Lucas.henrique972
-//@email : Lks-781@hotmail.com
-//@descrição : NPC de trabalho.
-//@Observação: Apenas dinheiro
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// @autor: Faith (skype:Lucas.henrique972) <Lks-781@hotmail.com>
+// @revisor: Lunovox (skype:Lunovox) <rui.gravata@gmail.com>
+// @descrição : NPC de trabalho.
+// @Pré-requisistos:	Lvl(10-99), ErvaAlizarina, GosmaDeVerme, FerraoDeEscorpião, AntenaRosa, AntenaRoxa, 
+//						TocoDeMadeira, Raíz, PeloBranco, TecidoDeAlgodão, ErvaAlizarina, ErvaCobalto, ErvaMauva, 
+//						Pétala, BolsaDeMoedas, MinerioDeFerro, PilhaDeCinzas, CapaceteDaInfantaria, OleoDeMonstro, 
+//						VenenoDeNinfa ,PoçãoDaMorte, GarrafaVazia, PóFantasma, PóDeEnxofre, AlmaDeJackO, 
+//						CristalEscuro, Orelha de zombie!
+// @Premio: LVL10:20kGP + LVL20:40kGP + LVL30:60kGP + LVL40:95kGP + LVL50:100kGP + LVL60:190kGP + LVL70:450kGP + 
+//			LVL80:750kGP + LVL90:0GP(zero) 
+// @ Screenshot: http://www.netupload.org/files/zdcawnbejtfo6rekufcz.png
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+008.gat,120,37,0	script	Lucas	510,{
 
-005_fortaleza.gat,96,73,0	script	Lucas	510,{
+//Configuração
+	set @ErvaAlizarina, 683;
+	set @Gosma, 505;
+	set @FerraoDeEscorpiao, 507;
+	set @AntenaRosa, 614;
+	set @AntenaRoxa, 3069;
+	set @TocoDeMadeira, 569;
+	set @Raiz, 740;
+	set @PeloBranco, 611;
+	set @TecidoDeAlgodao, 660;
+	set @ErvaAlizarina, 680;
+	set @ErvaCobalto, 681;
+	set @ErvaMauva, 682;
+	set @Petalas, 565;
+	set @BolsaDeMoedas, 526;
+	set @MinerioDeFerro, 640;
+	set @PilhaDeCinzas, 701;
+	set @CapaceteInfantaria, 638;
+	set @OleoDeMonstro, 707;
+	set @VenenoDeNinfa, 3024;
+	set @PocaoDaMorte, 3003;
+	set @GarrafaVazia, 540;
+	set @PoFantasma, 774;
+	set @PoEnxofre, 703;
+	set @AlmaJackO, 1198;
+	set @CristalEscuro, 631;
+	set @OrelhaDeZombie, 779;
 
-	if(QUEST_Lucas == 0) goto T_inicio;
-	if(QUEST_Lucas == 1) goto J_voltando;
-	if(QUEST_Lucas == 2) goto F_inicio;
-	if(QUEST_Lucas == 3) goto F_voltando;
-	if(QUEST_Lucas == 4) goto L_inicio;
-	if(QUEST_Lucas == 5) goto L_voltando;
-	if(QUEST_Lucas == 6) goto A_inicio;
-	if(QUEST_Lucas == 7) goto A_voltando;
-	if(QUEST_Lucas == 8) goto P_inicio;
-	if(QUEST_Lucas == 9) goto P_voltando;
-	if(QUEST_Lucas == 10) goto M_inicio;
-	if(QUEST_Lucas == 11) goto M_voltando;
-	if(QUEST_Lucas == 12) goto PS_inicio;
-	if(QUEST_Lucas == 13) goto PS_voltando;
-	if(QUEST_Lucas == 14) goto C_inicio;
-	if(QUEST_Lucas == 15) goto C_voltando;
-	if(QUEST_Lucas == 16) goto _fim;
+//Testes	
+	if(QUEST_Lucas == 0 && BaseLevel >10) goto T_inicio;
+	if(QUEST_Lucas == 1 && BaseLevel >10) goto J_voltando;
+	if(QUEST_Lucas == 2 && BaseLevel >20) goto F_inicio;
+	if(QUEST_Lucas == 3 && BaseLevel >20) goto F_voltando;
+	if(QUEST_Lucas == 4 && BaseLevel >30) goto L_inicio;
+	if(QUEST_Lucas == 5 && BaseLevel >30) goto L_voltando;
+	if(QUEST_Lucas == 6 && BaseLevel >40) goto A_inicio;
+	if(QUEST_Lucas == 7 && BaseLevel >40) goto A_voltando;
+	if(QUEST_Lucas == 8 && BaseLevel >50) goto P_inicio;
+	if(QUEST_Lucas == 9 && BaseLevel >50) goto P_voltando;
+	if(QUEST_Lucas == 10 && BaseLevel >60) goto M_inicio;
+	if(QUEST_Lucas == 11 && BaseLevel >60) goto M_voltando;
+	if(QUEST_Lucas == 12 && BaseLevel >70) goto PS_inicio;
+	if(QUEST_Lucas == 13 && BaseLevel >70) goto PS_voltando;
+	if(QUEST_Lucas == 14 && BaseLevel >80) goto C_inicio;
+	if(QUEST_Lucas == 15 && BaseLevel >80) goto C_voltando;
+	if(QUEST_Lucas == 16 && BaseLevel >80) goto _fim;
+goto _SemLvl;
 
+//------------------------------------------------------------------------------------------------------------
 
 T_inicio:
 	mes "[Lucas]";
-	mes "\"Gostaria de ajudar alguns cidadões do mundo de mana?\"";
+	mes "\"Gostaria de me ajudar com algumas tarefas?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Claro!", _trabalho,
-		"Agora não!", -;
+	"Claro!", _trabalho,
+	"Agora não!", -;
 	mes "";
 	mes "[Lucas]";
 	mes "\"Volte quando quiser ajudar!\"";
-	close;
+close;
+
+//------------------------------------------------------------------------------------------------------------
 
 _trabalho:
+	mes "";
 	mes "[Lucas]";
-	mes "\"Nosso trabalho e ajudar o povo do mundo de mana em troca de GP!\"";
+	mes "\"Eu ajudo a população do Mundo de Mana!\"";
 	next;
 	mes "[Lucas]";
-	mes "\"Aqui está a lista de profissões que está precisando de ajuda!\"";
+	mes "\"Aqui está a lista de tarefas que estou precisando de ajuda!\"";
+	next;
+	mes strcharinfo(0)+" Pega a lista e lá tem as seguintes informação!";
+	next;
+	mes "* Tarefas para ajudar o Mundo de Mana:";
+	mes "* Segurança da praia (LVL 10+)";
+	mes "* Fazendeiro (LVL 20+)";
+	mes "* Lenhador (LVL 30+)";
+	mes "* Alfaiate (LVL 40+)";
+	mes "* Jardineiro (LVL 50+)";
+	mes "* Mineiro (LVL 60+)";
+	mes "* Pesquisador (LVL 70+)";
+	mes "* ----------- (LVL 80+)";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Espere, não consigo ver a ultima tarefa!\"";
 	next;
 	mes "[Lucas]";
-	mes "Temos 8 tipos de profissão";
-	mes "*Segurança da praia (LVL 10+)";
-	mes "*Fazendeiro (LVL 15+)";
-	mes "*Lenhador (LVL 25+)";
-	mes "*Alfaiate (LVL 40+)";
-	mes "*Jardineiro (LVL 45+)";
-	mes "*Mineiro (LVL 55+)";
-	mes "*Pesquisador (LVL 70+)";
-	mes "*Caçador Mestre (LVL 85+)";
+	mes "\"Se você chegar até ela você irá descobrir\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Um desafio então.. Gostei, manda ver!\"";
 	next;
 	mes "[Lucas]";
-	mes "\"Está preparado para começar a ajuda-los?\"";
+	mes "\"Otimo, então vamos começar! Está preparado?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim estou pronto", J_inicio,
-		"Não vou pensar melhor, depois eu volto aqui", -;
-	close;
+	"Sim, estou pronto", J_inicio,
+	"Não, estou pronto", -;
+close;
 
-//-------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------
 
 J_inicio:
-	mes "[Lucas]";
-	mes "*Segurança da praia";
-	mes "A praia está cheia de vermes e escorpiões e os moradores está começando a ficar irritados!"+
-	"Temos que dar um jeito nisso! vamos pegar 70 gosma de vermes e 50 ferrão de escorpião";
-	mes "Assim poderemos provar aos moradores que os caçador junior existe para mante-los despreocupados!";
+	mes "Lucas olhá para o "+strcharinfo(0)+" e lhe passa a seguinte informação...";
 	next;
-	mes "*Segurança da praia";
-	mes "*70 Gosma de vermes";
-	mes "*50 Ferrão de escorpião";
-	mes "*Recompensa: 20.000GP";
+	mes "[Lucas]";
+	mes "\"A praia está cheia de vermes e escorpiões e os moradores está começando a ficar irritados! "+
+		"Temos que dar um jeito nisso! vamos pegar 70 gosma de vermes e 30 ferrão de escorpião!\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Assim poderemos mostrar que a praia está segura!\"";
+	next;
+	mes "* Segurança da praia:";
+	mes "* 70 Gosma de vermes";
+	mes "* 50 Ferrão de escorpião";
+	mes "* Recompensa: 20.000GP";
 	set QUEST_Lucas, 1;
-	close;
+close;
 
 J_voltando:
-	mes "";
 	mes "[Lucas]";
 	mes "\"Já terminou o serviço?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim já está tudo aqui!", J_completo,
-		"Esqueci o que era para fazer!", J_inicio,
-		"Só passei para dizer um Oi!", -;
+	"Sim já está tudo aqui!", J_completo,
+	"Esqueci o que era para fazer!", J_inicio,
+	"Só passei para dizer um Oi!", -;
+	mes "";
 	mes "[Lucas]";
-	mes "(-.-) \"É hora de trabalhar! e não de conversar!!\"";
-	close;
+	mes "(-.-) \"É hora de trabalhar! e não de conversar!\"";
+close;
 
 J_completo:
-	if (countitem(505) <70) goto _semItem;
-	if (countitem(507) <50) goto _semItem;
+	if (countitem(@Gosma)<70) goto _semItem;
+	if (countitem(@FerraoDeEscorpiao)<30) goto _semItem;
+	set Zeny,Zeny +20000;
+	delitem @gosma, 30;
+	delitem @FerraoDeEscorpiao, 30;
+	set QUEST_Lucas, 2;
 	mes "";
 	mes "[Lucas]";
-	mes "\"Bom trabalho aqui está sua recompensa\"";
-	set Zeny,Zeny +20000;
-	delitem 505, 30;
-	delitem 507, 30;
-	set QUEST_Lucas, 2;
-	mes "*Você recebeu 20.000 GP";
-	mes "Proximo emprego será > Fazendeiro";
-	close;
+	mes "\"Cidadões da praia do porto te agradece!\"";
+	mes "* Você recebeu 20.000 GP";
+	mes "* Proximo trabalho > Fazendeiro (LVL 20+)";
+close;
 
-//---------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------
 
 F_inicio:
+	mes "Lucas pega uma carta da fazenda e começa a ler em voz alta...";
 	mes "[Lucas]";
-	mes "*Fazendeiro:";
-	mes "A fazendo do zeca está Cheia de trasgos, roxos e rosas, e isso está o deixando muito nervoso, "+
-	"pois está perdendo muitas coisas de suas plantação!";
-	mes "Nosso objetivo é Pegar 40 antenas rosas e 30 antenas roxas, Assim iremos amedrontar os trasgos e salvar, "+
-	"A fazendo do nosso amigo Zeca!";
+	mes "\"Ei povo da cidadi gostaria qui o cês me ajuda-si porque os rosinha e os devorador de beterraba, "+
+	"tá acabando com a minha roça, ieu e meu cumpade nao consegui acaba com a raça dessas mardita!"+
+	"se ocês puderem ajudar , peguem 40 anteninha dessas rosinha e 30 das devoradora de beterraba"+
+	"assim elas vai ficar com medo e vai parar de destroir a nossa rocinha.\"";
 	next;
-	mes "*Fazendeiro";
-	mes "40 antenas rosas";
-	mes "30 antenas roxas";
+	mes "[Lucas]";
+	mes "\"Quem são essas rosinhas? o.O Devoradora de beterraba?\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Não faço a menor ideia\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Bom não tem problema, sei que você pode concluir esta missão!\"";	
+	next;
+	mes "* Fazendeiro";
+	mes "* 40 Anteninha das rosinha";
+	mes "* 30 Das devoradora de beterraba";
 	mes "Recompensa 40.000GP";
 	set QUEST_Lucas, 3;
-	close;
+close;
 
 F_voltando:
-	mes "";
 	mes "[Lucas]";
 	mes "\"Já terminou o serviço?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim já está tudo aqui!", F_completo,
-		"Esqueci o que era para fazer!", F_inicio,
-		"Só passei para dizer um Oi!", -;
+	"Sim já está tudo aqui!", F_completo,
+	"Esqueci o que era para fazer!", F_inicio,
+	"Só passei para dizer um Oi!", -;
+	mes "";
 	mes "[Lucas]";
-	mes "(O.O) \"Como assim??? DENOVO!!! AAARRGHH VOLTE AO TRABALHO!!\"";
-	close;
+	mes "(O.O) \"Como assim??? DE NOVO!!! AAARRGHH VOLTE AO TRABALHO!!\"";
+close;
 
 F_completo:
-	if (countitem(614) <40) goto _semItem;
-	if (countitem(3069) <30) goto _semItem;
+	if (countitem(@AntenaRosa)<40) goto _semItem;
+	if (countitem(@AntenaRoxa)<30) goto _semItem;
+	set Zeny,Zeny +40000;
+	delitem @AntenaRosa, 40;
+	delitem @AntenaRoxa, 30;
+	set QUEST_Lucas, 4;
 	mes "";
 	mes "[Lucas]";
-	mes "\"Bom trabalho aqui está sua recompensa\"";
-	set Zeny,Zeny +40000;
-	delitem 614, 40;
-	delitem 3069, 30;
-	set QUEST_Lucas, 4;
-	mes "*Você recebeu 40.000 GP";
-	mes "Proximo emprego será > Lenhador";
-	close;
+	mes "\"Muito bem! Aqui está sua recompensa!\"";
+	mes "* Você recebeu 40.000 GP";
+	mes "* Próximo emprego será > Lenhador (LVL 30+)";
+close;
 
-//-------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------
 
 L_inicio:
+	mes "Lucas vem falar com o "+strcharinfo(0)+" sobre uma coisa importante...";
 	mes "[Lucas]";
-	mes "*Lenhador:";
-	mes "Jack precisa de nossa ajuda para recolher alguns tocos e raizes!";
+	mes "\"Jack precisa de nossa ajuda para recolher algumas coisas para a reforma de sua casa!\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Do que ele precisa?\"";
 	next;
 	mes "[Lucas]";
-	mes "\"Nossa missão é Recolher 40 tocos de madeira e 30 raizes, assim Jack irá ficar muito feliz!\"";
+	mes "\"Ele quer 40 madeiras resistente! e 30 Raízes!\"";
 	next;
-	mes "*Lenhador";
-	mes "*40 Tocos de madeira";
-	mes "*30 Raizes";
-	mes "*Recompensa:60.000GP";
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Madeira resistente? onde encontro isso?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Descubra você mesmo.\"";
+	next;
+	mes "# Lenhador";
+	mes "* 40 Madeiras Resistentes!";
+	mes "* 30 Raízes";
+	mes "* Recompensa:60.000GP";
 	set QUEST_Lucas, 5;
-	close;
+close;
 
 L_voltando:
-	mes "";
 	mes "[Lucas]";
 	mes "\"Já terminou o serviço?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim já está tudo aqui!", L_completo,
-		"Esqueci o que era para fazer!", L_inicio,
-		"Só passei para dizer um Oi!", -;
+	"Sim já está tudo aqui!", L_completo,
+	"Esqueci o que era para fazer!", L_inicio,
+	"Só passei para dizer um Oi!", -;
+	mes "";
 	mes "[Lucas]";
-	mes "(O.O) \"Você está testando minha paciencia? VOLTE AO TRABALHO!\"";
-	close;
+	mes "(O.O) \"Você está testando minha paciência? VOLTE AO TRABALHO!\"";
+close;
 
 L_completo:
-	if (countitem(569) <40) goto _semItem;
-	if (countitem(740) <30) goto _semItem;
+	if (countitem(@TocoDeMadeira) <40) goto _semItem;
+	if (countitem(@Raiz) <30) goto _semItem;
+	set Zeny,Zeny +60000;
+	delitem @TocoDeMadeira, 40;
+	delitem @Raiz, 30;
+	set QUEST_Lucas, 6;
 	mes "";
 	mes "[Lucas]";
-	mes "\"Bom trabalho aqui está sua recompensa\"";
-	set Zeny,Zeny +60000;
-	delitem 569, 40;
-	delitem 740, 30;
-	set QUEST_Lucas, 6;
-	mes "*Você recebeu 60.000 GP";
-	mes "Proximo emprego será > Alfaiate";
-	close;
+	mes "\"Jack está ficará muito agradecido!\"";
+	mes "* Você recebeu 60.000 GP";
+	mes "* Próximo emprego será > Alfaiate (LVL 40+)";
+close;
 
-//--------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------
 
 A_inicio:
-	mes "[Lucas]";
-	mes "*Alfaiate:";
-	mes "Algostine me disse que está ficando sem materiais para suas roupas, e chamou nós para ajudar.";
+	mes "Você caminha até Lucas e ele te diz...";
 	next;
 	mes "[Lucas]";
-	mes "\"Ele me disse que precisará de 50 pelo branco e 20 Tecidos de algodão,e 30 ervas alizarinas, "+
-	"30 ervas cobalto e 30 ervas mauva assim ele pode fazer as roupas e colorir com as tintas das ervas\"";
+	mes "\"Algostine me disse que está ficando sem materiais para suas roupas, e chamou nós para ajudar.\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"E quais materiais ele está precisando?\"";
 	next;
 	mes "[Lucas]";
-	mes "\"Nossa missão é recolher tudo que ele precisa ,para faze-lo feliz!\"";
+	mes "\"Ele está precisando de 50 pelo branco e 20 Tecidos de algodão,e 30 ervas alizarinas, 30 ervas cobalto e 30 ervas mauva assim ele pode fazer as roupas e colorir com as tintas das ervas.\"";
 	next;
-	mes "*Alfaiate";
-	mes "*50 Pelos Branco";
-	mes "*20 Tecidos de Algodão";
-	mes "*30 Ervas Alizarina";
-	mes "*30 Ervas Cobalto";
-	mes "*30 Ervas Mauva";
-	mes "*Recompensa: 95.000GP";
+	mes "["+strcharinfo(0)+"]";
+	mes "\"É muitos materiais mas posso conseguir tudo!\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Otimo então vá pegar, venha falar comigo quando terminar assim vou mandar tudo para ele.\"";
+	next;
+	mes "# O Alfaiate";
+	mes "* 50 Pelos Branco";
+	mes "* 20 Tecidos de Algodão";
+	mes "* 30 Ervas Alizarina";
+	mes "* 30 Ervas Cobalto";
+	mes "* 30 Ervas Mauva";
+	mes "* Recompensa: 95.000GP";
 	set QUEST_Lucas, 7;
-	close;
+close;
 
 A_voltando:
-	mes "";
 	mes "[Lucas]";
 	mes "\"Já terminou o serviço?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim já está tudo aqui!", A_completo,
-		"Esqueci o que era para fazer!", A_inicio,
-		"Só passei para dizer um Oi!", -;
+	"Sim já está tudo aqui!", A_completo,
+	"Esqueci o que era para fazer!", A_inicio,
+	"Só passei para dizer um Oi!", -;
+	mes "";
 	mes "[Lucas]";
 	mes "(¬.¬) \"Toda vez você vem me dizer um oi!! VOLTA PARA O TRABALHO!! AAAAARGH!!\"";
-	close;
+close;
 
 A_completo:
-	if (countitem(611) <40) goto _semItem;
-	if (countitem(660) <20) goto _semItem;
-	if (countitem(680) <30) goto _semItem;
-	if (countitem(681) <30) goto _semItem;
-	if (countitem(682) <30) goto _semItem;
+	if (countitem(@PeloBranco) <40) goto _semItem;
+	if (countitem(@TecidoDeAlgodao) <20) goto _semItem;
+	if (countitem(@ErvaAlizarina) <30) goto _semItem;
+	if (countitem(@ErvaCobalto) <30) goto _semItem;
+	if (countitem(@ErvaMauva) <30) goto _semItem;
+	set Zeny,Zeny +95000;
+	delitem @PeloBranco, 40;
+	delitem @TecidoDeAlgodao, 20;
+	delitem @ErvaAlizarina, 30;
+	delitem @ErvaCobalto, 30;
+	delitem @ErvaMauva, 30;
+	set QUEST_Lucas, 8;
 	mes "";
 	mes "[Lucas]";
-	mes "\"Bom trabalho aqui está sua recompensa\"";
-	set Zeny,Zeny +95000;
-	delitem 611, 40;
-	delitem 660, 20;
-	delitem 680, 30;
-	delitem 681, 30;
-	delitem 682, 30;
-	set QUEST_Lucas, 8;
-	mes "*Você recebeu 95.000 GP";
-	mes "*Proximo emprego será > Jardineiro";
-	close;
-	
-//---------------------------------------------------------------------------
+	mes "\"Bom trabalho aqui está sua recompensa!\"";
+	mes "* Você recebeu 95.000 GP";
+	mes "* Próximo emprego será > Jardineiro (LVL 50+)";
+close;
+
+//------------------------------------------------------------------------------------------------------------
 
 P_inicio:
-	mes "";
-	mes "[Lucas]";
-	mes "Jardineiro:";
-	mes "\"Todos sabem que na ilha fortaleza, existem flores violentas, muitos tem medo dessas flores, "+
-	"pois elas estão ficando malucas e começaram a comer as bolsas de moedas dos moradores, "+
-	"E nós temos que dar uma lição nessas Flores!\"";
+	mes "Preocupado Lucas tem algo importante a tratar com você";
 	next;
 	mes "[Lucas]";
-	mes "\"Pegue 30 bolsas de moedas para devolver os moradores e 60 petálas para dar uma lição nessas flores!\"";
+	mes "\"Precisamos conter essas flores! Elás estão comendo bolsa de moedas dos moradores de brhamir, todos estão enfurecidos com isso, 30 moradores reclamarão dessas flores, temos que fazer algo a respeito!\"";
 	next;
-	mes "*Jardineiro:";
-	mes "*60 Petálas";
-	mes "*30 Bolsa de moedas";
-	mes "*Recompensa : 100.000 GP";
+	mes "[Lucas]";
+	mes "\"Acabe com algumas flores e pegue 60 pétalas e tente pegar as bolsa dos moradores.\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Pétalas? para que você quer pétalas?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Quero pétalas porque diz lendas que se você recolher 60 pétalas, as flores não atacam mais as pessoas.\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Hmm! Entendi, melhor eu já ir adiantando serviço, quando eu estiver com tudo eu volto a falar com você.\"";
+	next;
+	mes "# O Jardineiro:";
+	mes "* 60 Pétalas";
+	mes "* 30 Bolsa de moedas";
+	mes "* Recompensa: 100.000 GP";
 	set QUEST_Lucas, 9;
-	close;
+close;
 
 P_voltando:
-	mes "";
 	mes "[Lucas]";
 	mes "\"Já terminou o serviço?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim já está tudo aqui!", P_completo,
-		"Não só passei para dizer um oi!", -;
+	"Sim já está tudo aqui!", P_completo,
+	"Não só passei para dizer um oi!", -;
+	mes "";
 	mes "[Lucas]";
-	mes ":@ \"Mas porque toda vez é isso? Estou ficando muito irritado!! volte ao trabalho!\"";
-	close;
+	mes "=O \"Mas porque toda vez é isso? Estou ficando muito irritado!! volte ao trabalho!\"";
+close;
 
 P_completo:
-	if (countitem(565) <60) goto _semItem;
-	if (countitem(526) <30) goto _semItem;
+	if (countitem(@Petalas) <60) goto _semItem;
+	if (countitem(@BolsaDeMoedas) <30) goto _semItem;
+	set Zeny,Zeny +100000;
+	delitem @Petalas, 60;
+	delitem @BolsaDeMoedas, 30;
+	set QUEST_Lucas, 10;
 	mes "";
 	mes "[Lucas]";
-	mes "\"Bom trabalho aqui está sua recompensa\"";
-	set Zeny,Zeny +100000;
-	delitem 565, 60;
-	delitem 526, 30;
-	set QUEST_Lucas, 10;
-	mes "*Você recebeu 100.000 GP";
-	mes "Proximo emprego será > Mineiro";
-	close;
-	
-//-----------------------------------------------------------------------
-_semItem:
-	mes "[Lucas]";
-	mes "\"Você não tem os itens suficientes,volte quando tiver tudo\"";
-	close;
-//------------------------------------------------------------------------
+	mes "\"Os cidadões do reino de brhamir está super felizes!\"";
+	mes "* Você recebeu 100.000 GP";
+	mes "Proximo emprego será > Mineiro (LVL 60+)";
+close;
 
+//------------------------------------------------------------------------------------------------------------
 
 M_inicio:
-	mes "[Lucas]";
-	mes "*Mineiro:";
-	mes "Ferreiros estão nervosos por falta de materiais! Se eles não tiver minério,adagas e capacete, "+
-	"os ferreiros não vão conseguir produzir armas ,capacetes e escudos!";
-	mes "Nosso objetivo é tentar conseguir 25 Minérios,200 pilhas de cinzas e 1 capacete da infantaria";
+	mes ""+strcharinfo(0)+" olha para Lucas impaciente e pergunta para ele...";
 	next;
-	mes "*Mineiro";
-	mes "*50 Minérios";
-	mes "*200 piilhas de cinzas";
-	mes "*1 capacete da infantaria";
-	mes "*Recompensa : 190.000GP";
+	mes "["+strcharinfo(0)+"]";
+	mes "\"O que aconteceu?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Piratas roubaram os materiais dos ferreiros, e precisamos ajuda-los imediatamente, Pois sem esses materiais, ficaremos sem escudos e armaduras.\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Temos que ajudá-los, quais materiais eles precisam?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Pegue 50 Minério de ferro , 1 capacete da infantaria e 200 pilha de cinzas.\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Para que as pilha de cinza? o.O\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Menos perguntas e mais trabalho! agora pegue tudo que eu pedi.\"";
+	next;
+	mes "# O Mineiro:";
+	mes "* 50 Minérios";
+	mes "* 200 pilhas de cinzas";
+	mes "* 1 capacete da infantaria";
+	mes "* Recompensa : 190.000GP";
 	set QUEST_Lucas, 11;
-	close;
+close;
 
 M_voltando:
-	mes "";
 	mes "[Lucas]";
 	mes "\"Já terminou o serviço?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim já está tudo aqui!", M_completo,
-		"Não só passei para dizer um oi!", -;
-	mes "[Lucas]";
-	mes "(X_X)\" Por favor!! Volte ao trabalho!\"";
-	close;
-	
-
-M_completo:
-	if (countitem(640) <50) goto _semItem;
-	if (countitem(701) <200) goto _semItem;
-	if (countitem(638) <1) goto _semItem;
+	"Sim já está tudo aqui!", M_completo,
+	"Não só passei para dizer um oi!", -;
 	mes "";
 	mes "[Lucas]";
-	mes "\"Bom trabalho aqui está sua recompensa\"";
+	mes "(X_X)\" Por favor!! Volte ao trabalho!\"";
+close;
+
+M_completo:
+	if (countitem(@MinerioDeFerro) <50) goto _semItem;
+	if (countitem(@PilhaDeCinzas) <200) goto _semItem;
+	if (countitem(@CapaceteInfantaria) <1) goto _semItem;
 	set Zeny,Zeny +190000;
-	delitem 640, 25;
-	delitem 701, 200;
-	delitem 638, 1;
+	delitem @MinerioDeFerro, 50;
+	delitem @PilhaDeCinzas, 200;
+	delitem @CapaceteInfantaria, 1;
 	set QUEST_Lucas, 12;
-	mes "*Você recebeu 190.000 GP";
-	mes "Proximo emprego será >Pesquisador";
-	close;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Os ferreiros agora podem voltar a produzir seus equipamentos.\"";
+	mes "* Você recebeu 190.000 GP";
+	mes "Próximo emprego será >Pesquisador (LVL 70+)";
+close;
 
 //-------------------------------------------------------------------------------
 
 PS_inicio:
-	mes "[Lucas]";
-	mes "*Pesquisador";
-	mes "Lara está pesquisando novas formulas, ela quer fazer uma experiencia e precisa da nossa ajuda!";
-	mes "Ela deseja que nós peguemos 1 óleo de monstro , 1 veneno de ninfa , 1 poção da morte!,1 garrafa vazia!";
+	mes ""+strcharinfo(0)+" olhá curioso para Lucas e pergunta...";
 	next;
-	mes "*Pesquisador";
-	mes "*1 óleo de monstro";
-	mes "*1 Veneno de ninfa";
-	mes "*1 Poção da morte";
-	mes "*1 Garrafa vazia";
-	mes "*Recompensa: 450.000GP";
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Olá Lucas! Teremos algum serviço hoje?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Sim.. Teremos sim...\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"É algo sério?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Não... é uma pesquisa!\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Que tipo de pesquisa? fiquei curioso.\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Estou trabalhando em uma experiencia e vou precisar de alguns item\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Que tipo de experiencia?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Você irá saber em breve, agora quero que me traga 1 óleo de monstro, 1 veneno de ninfa, "+
+		"1 poção da morte e 1 garrafa vazia.\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Nossa itens complicado de se conseguir\"";
+	next;
+	mes "[Lucas]";
+	mes "\"ha ha ha! Não se preocupe jovem ,sei que você é capaz de pegar todos eles, agora vá!\"";
+	next;
+	mes "# Pesquisador:";
+	mes "* 1 óleo de monstro";
+	mes "* 1 Veneno de ninfa";
+	mes "* 1 Poção da morte";
+	mes "* 1 Garrafa vazia";
+	mes "* Recompensa: 450.000GP";
 	set QUEST_Lucas, 13;
-	close;
+close;
 
 PS_voltando:	
-	mes "";
 	mes "[Lucas]";
 	mes "\"Já terminou o serviço?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim já está tudo aqui!", PS_completo,
-		"Não só passei para dizer um oi!", -;
-	mes "[Lucas]";
-	mes "\" "+strcharinfo+" Porque você faz isso comigo? =( Volte ao trabalho =(\"";
-	close;
-
-PS_completo:
-	if (countitem(707) <1) goto _semItem;
-	if (countitem(3024) <1) goto _semItem;
-	if (countitem(3003) <1) goto _semItem;
-	if (countitem(540) <1) goto _semItem;
+	"Sim já está tudo aqui!", PS_completo,
+	"Não só passei para dizer um oi!", -;
 	mes "";
 	mes "[Lucas]";
-	mes "\"Bom trabalho aqui está sua recompensa\"";
+	mes "\" "+strcharinfo+" Porque você faz isso comigo? =( Volte ao trabalho!\"";
+close;
+
+PS_completo:
+	if (countitem(@OleoDeMonstro) <1) goto _semItem;
+	if (countitem(@VenenoDeNinfa) <1) goto _semItem;
+	if (countitem(@PocaoDaMorte) <1) goto _semItem;
+	if (countitem(@GarrafaVazia) <1) goto _semItem;
 	set Zeny,Zeny +450000;
-	delitem 707, 1;
-	delitem 3024, 1;
-	delitem 3003, 1;
-	delitem 540, 1;
+	delitem @OleoDeMonstro, 1;
+	delitem @VenenoDeNinfa, 1;
+	delitem @PocaoDaMorte, 1;
+	delitem @GarrafaVazia, 1;
 	set QUEST_Lucas, 14;
-	mes "*Você recebeu 450.000 GP";
-	mes "Proximo emprego será > Caçador mestre";
-	close;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Obrigado! Agora eu posso concluir minha experiencia!\"";
+	mes "* Você recebeu 450.000 GP";
+	mes "Proximo emprego será > Caçador mestre (LVL 80+)";
+close;
 
 //-------------------------------------------------------------------------
 
 C_inicio:
-	mes "[Lucas]";
-	mes "*Caçador mestre";
-	mes "\"Agora a situação complicou! Em um cemitério na terras desconhecidas está cheio "+
-	"de Esqueletos ,zombies ,e espectros, e o temido Jack O! e o Rei Brhamir precisa de uma quantidade de item "+
-	"que somente esses monstros tem! Assim ele poderá trabalhar em uma magia nova\"";
-	mes "\"Nossa missão é pegar 60 pó fantasma , 5 alma jack O , 60 cristais escuros, 30 orelha de zombie e 50 pó de enxofre\"";
+	mes "Lucas olha orgulhoso para "+strcharinfo(0)+" e diz...";
 	next;
-	mes "Caçador mestre";
-	mes "*60 pó fantasma";
-	mes "*50 pó de enxofre";
-	mes "*5 Alma Jack O";
-	mes "*60 cristais escuros";
-	mes "*30 orelha de zombie";
-	mes "*Recompensa: 750.000GP";
+	mes "[Lucas]";
+	mes "\"Você chegou ao estagio final! Agora quero ver suas habilidades de caça!\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Não entendi... meu trabalho agora vai ser... uma caçada?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Exatamente!\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Então me diga o que tenho que fazer.\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Você vai fazer uma viagem para o cemitério da terra desconhecidas, e vai tentar me trazer, 60 pó fantasma, 50 pó de enxofre, 5 alma jack O, 60 cristais escuros, 30 orelhas de zombie\"";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Nossa!! Você é maluco! Como vou conseguir tudo isso?\"";
+	next;
+	mes "[Lucas]";
+	mes "\"Fica frio jovem! Eu acredito em você! Sei que você consegue! Agora vá pegar tudo!\"";
+	next;
+	mes "# Caçador mestre";
+	mes "* 60 pó fantasma";
+	mes "* 50 pó de enxofre";
+	mes "* 5 Alma Jack O";
+	mes "* 60 cristais escuros";
+	mes "* 30 orelha de zombie";
+	mes "* Recompensa: 750.000GP";
 	set QUEST_Lucas, 15;
-	close;
+close;
 
 C_voltando:
-	mes "";
 	mes "[Lucas]";
 	mes "\"Já terminou o serviço?\"";
 	next;
+	mes "["+strcharinfo(0)+"]";
 	menu
-		"Sim já está tudo aqui!", C_completo,
-		"Não só passei para dizer um oi!", -;
-	mes "[Lucas]";
-	mes "(T_T) \" "+strcharinfo+" Você já me irritou de mais , ainda bem que é o ultimo trabalho!\"";
-	close;
-
-C_completo:
-	if (countitem(774) <60) goto _semItem;
-	if (countitem(703) <50) goto _semItem;
-	if (countitem(1198) <5) goto _semItem;
-	if (countitem(631) <60) goto _semItem;
-	if (countitem(779) <30) goto _semItem;
+	"Sim já está tudo aqui!", C_completo,
+	"Não só passei para dizer um oi!", -;
 	mes "";
 	mes "[Lucas]";
-	mes "\"Bom trabalho aqui está sua recompensa\"";
-	set Zeny,Zeny +750000;
-	delitem 774, 60;
-	delitem 703, 50;
-	delitem 1198, 5;
-	delitem 631, 60;
-	delitem 779, 30;
-	set QUEST_Lucas, 16;
-	mes "*Você recebeu 750.000 GP";
-	close;
+	mes "(T_T) \" "+strcharinfo+" Você já me irritou de mais , ainda bem que é o ultimo trabalho!\"";
+close;
 
-//----------------------------------------------------------------------
+C_completo:
+	if (countitem(@PoFantasma) <60) goto _semItem;
+	if (countitem(@PoEnxofre) <50) goto _semItem;
+	if (countitem(@AlmaJackO) <5) goto _semItem;
+	if (countitem(@CristalEscuro) <60) goto _semItem;
+	if (countitem(@OrelhaDeZombie) <30) goto _semItem;
+	set Zeny,Zeny +750000;
+	delitem @PoFantasma, 60;
+	delitem @PoEnxofre, 50;
+	delitem @AlmaJackO, 5;
+	delitem @CristalEscuro, 60;
+	delitem @OrelhaDeZombie, 30;
+	set QUEST_Lucas, 16;
+	mes "";
+	mes "[Lucas]";
+	mes "\"Eu disse que você conseguiria!\"";
+	mes "*Você recebeu 750.000 GP";
+close;
+
+//------------------------------------------------------------------------------------------------------------
+
+_semItem:
+	mes "[Lucas]";
+	mes "\"Você não tem os itens suficientes. Volte quando tiver tudo!\"";
+close;
+
+_SemLvl:
+	mes "[Lucas]";
+	mes "\"Estou precisando de cidadões fortes para me ajudar com alguns trabalhos. Volte quando estiver mais treinado!\"";
+close;
+
+//------------------------------------------------------------------------------------------------------------
 
 _fim:
 	mes "[Lucas]";
-	mes "\"você fez um otimo trabalho, o mundo de mana te agradece\"";
-	close;
-	
-	
+	mes "\"Sempre acreditei em você, Meus parabéns!\"";
+close;
+
 }
-
-	
-
-	
-
