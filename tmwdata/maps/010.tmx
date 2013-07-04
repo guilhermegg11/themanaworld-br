@@ -113,7 +113,7 @@
    <property name="off-file-fortiun" value="fortiun.conf"/>
   </properties>
  </objectgroup>
- <objectgroup color="#ff5500" name="spawns" width="200" height="140">
+ <objectgroup color="#ff5500" name="spawns" width="200" height="140" visible="0">
   <object name="Limo Rodolfo (8)" type="spawn" x="640" y="1248" width="704" height="2240">
    <properties>
     <property name="amount" value="8"/>
@@ -179,7 +179,7 @@
   <object name="Capitão Real" x="5665" y="2113" width="26" height="27"/>
   <object name="Guarda do Navio" x="5186" y="2499" width="27" height="26"/>
  </objectgroup>
- <objectgroup color="#ffff00" name="warps" width="200" height="140">
+ <objectgroup color="#ffff00" name="warps" width="200" height="140" visible="0">
   <object name="paraCaverna" type="warp" x="2560" y="2080" width="32" height="32">
    <properties>
     <property name="dest_map" value="010-3"/>
