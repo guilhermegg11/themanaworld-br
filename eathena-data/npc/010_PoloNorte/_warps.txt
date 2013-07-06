@@ -23,3 +23,6 @@
 010.gat,142,47	warp	paraCaverna	0,-1,010-1.gat,45,19
 010.gat,49,55	warp	paraCaverna	0,0,010-3.gat,26,36
 010.gat,40,40	warp	Colisel	1,0,colisel001.gat,124,222
+010.gat,42,25	warp	Para Dentro do Colisel	-1,0,colisel001.gat,130,41
+010.gat,37,25	warp	Para Dentro do Colisel	0,0,colisel001.gat,121,41
+010.gat,40,24	warp	Para Dentro do Colisel	3,-1,colisel001.gat,125,39
