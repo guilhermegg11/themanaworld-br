@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset name="Water" tilewidth="32" tileheight="32">
- <image source="water.png" width="480" height="352"/>
+ <image source="water-anime.png" width="480" height="352"/>
  <tile id="120">
   <properties>
    <property name="animation-delay0" value="18"/>
