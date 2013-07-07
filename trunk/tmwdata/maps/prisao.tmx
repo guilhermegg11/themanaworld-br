@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="60" height="51" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="/graphics/minimaps/prisao.png"/>
@@ -7,61 +6,50 @@
   <property name="name" value="Prisão"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
  </properties>
- <tileset name="collision" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset name="blockWalls" firstgid="3" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/blockWalls.png"/>
+ <tileset firstgid="3" name="blockWalls" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/blockWalls.png" width="512" height="512"/>
  </tileset>
- <tileset name="cave" firstgid="259" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png"/>
+ <tileset firstgid="259" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset name="Inn" firstgid="387" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/inn.png"/>
+ <tileset firstgid="387" name="Inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
- <tileset name="numeros x32" firstgid="643" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/numeros.png"/>
+ <tileset firstgid="643" name="numeros x32" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/numeros.png" width="320" height="352"/>
  </tileset>
- <tileset name="Grade" firstgid="753" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/grade_x3.png"/>
+ <tileset firstgid="753" name="Grade" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/grade_x3.png" width="96" height="96"/>
  </tileset>
  <layer name="Ground" width="60" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3PQQqCUBSG0VvRBlyM8MYN3EDkBoLWYKsvwYHxNCEFDc/g8Hg/3MHXHCMaAAAAgC9OEZEWco71e6aUkUsztrV7ptwjl7r39lZ32u3R7VVvq3r/+g96r5FLP26XP+gtItd2PA+fxrb+3d56C72bM9RbDrSNbXq3Te88a/fo1bunXgAAAABY0gst5ym00C8AAA==
+   H4sIAAAAAAAAA+3PQQqCUBSG0VvRBlyM8MYN3EDkBoLWYKsvwYHxNCEFDc/g8Hg/3MHXHCMaAAAAgC9OEZEWco71e6aUkUsztrV7ptwjl7r39lZ32u3R7VVvq3r/+g96r5FLP26XP+gtItd2PA+fxrb+3d56C72bM9RbDrSNbXq3Te88a/fo1bunXgAAAABY0gst5ym00C8AAA==
   </data>
  </layer>
  <layer name="piso" width="60" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3PsQ2AMAxFQYuVgAmACYBpGYklSJkyBVEgupN+48ovAgAAAADIXYU3+IO78Mb3jEPElG0eWn9U15L61myb3q7obf1RXXvqO7KdnfcCAAAAwJsezOzUydAvAAA=
+   H4sIAAAAAAAAA+3PsQ2AMAxFQYuVgAmACYBpGYklSJkyBVEgupN+48ovAgAAAADIXYU3+IO78Mb3jEPElG0eWn9U15L61myb3q7obf1RXXvqO7KdnfcCAAAAwJsezOzUydAvAAA=
   </data>
  </layer>
  <layer name="Fringe" width="60" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3UPQrCQBAF4N2AClZaqI2t5ASewCN4FG28iOIFFI8iegMrxcpKgzaxcSAbskYT/MlkiL4PBsLuBt4jP0rBN0bO4/wy9JVOxAt9pRPxQl/pRLzQVzoRL/SVTsQLfaUT8UJf6US8/q0vfK4jHSAHFev978rFeIuvgylR9rLJf7D21yp5rWXOb+n+nebNmZWqE0yDpmny+zRXs79SyWsunT9SzxONV4C++xcybqzrJZ3XsTVFnTWNU4B/+1lHc0no3rbWtRl7rUY96zQ9zqAZaqc8Yx27tsfmFqhv3FhFncL3d6KijuHeNHZfP7eE2ZrReM79zJ+sLaSDQmbSvvEBPethAf7NAAAAAAAAAAAAAO+4AXYEJdfQLwAA
+   H4sIAAAAAAAAA+3UPQrCQBAF4N2AClZaqI2t5ASewCN4FG28iOIFFI8iegMrxcpKgzaxcSAbskYT/MlkiL4PBsLuBt4jP0rBN0bO4/wy9JVOxAt9pRPxQl/pRLzQVzoRL/SVTsQLfaUT8UJf6US8/q0vfK4jHSAHFev978rFeIuvgylR9rLJf7D21yp5rWXOb+n+nebNmZWqE0yDpmny+zRXs79SyWsunT9SzxONV4C++xcybqzrJZ3XsTVFnTWNU4B/+1lHc0no3rbWtRl7rUY96zQ9zqAZaqc8Yx27tsfmFqhv3FhFncL3d6KijuHeNHZfP7eE2ZrReM79zJ+sLaSDQmbSvvEBPethAf7NAAAAAAAAAAAAAO+4AXYEJdfQLwAA
   </data>
  </layer>
  <layer name="Top" width="60" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3TwQnCMBQG4JeCOIIDiJPpEp51I+0WzqEbeDYHDwV7kJJWYr4P/sujhPeTJgIAAACAoe2vF1iYvv+txb73FPHMeaTxb25fzNZdxKrwbnModb+b3HdX6Kw5lfyfa+576j5n55HZUM19p2il7z7f+6Gh95veqaHvJedaKP3Cu09x7MoGAAAAAFryAiJDyBvQLwAA
+   H4sIAAAAAAAAA+3TwQnCMBQG4JeCOIIDiJPpEp51I+0WzqEbeDYHDwV7kJJWYr4P/sujhPeTJgIAAACAoe2vF1iYvv+txb73FPHMeaTxb25fzNZdxKrwbnModb+b3HdX6Kw5lfyfa+576j5n55HZUM19p2il7z7f+6Gh95veqaHvJedaKP3Cu09x7MoGAAAAAFryAiJDyBvQLwAA
   </data>
  </layer>
- <layer name="Collision" width="60" height="51" visible="0" opacity="0.65">
+ <layer name="Collision" width="60" height="51" opacity="0.65">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3SQQrAIAwAQfH/j+5dqtbUkgojzCX0kCWtpZQKAAAAACwrP9jh6Z7tru3rzdp5dstK76xtNsvuiLb3Okaz7L3f3Dhy3+z9o63R3pOa7zqi/8UJdr3sjp29o++y93dfAAAAAOALF2OLFSXQLwAA
+   H4sIAAAAAAAAA+3SQQrAIAwAQfH/j+5dqtbUkgojzCX0kCWtpZQKAAAAACwrP9jh6Z7tru3rzdp5dstK76xtNsvuiLb3Okaz7L3f3Dhy3+z9o63R3pOa7zqi/8UJdr3sjp29o++y93dfAAAAAOALF2OLFSXQLwAA
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
-  <object name="[passagem desativada]" type="-warp" x="1248" y="640" width="32" height="64">
-   <properties>
-    <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="640"/>
-    <property name="dest_y" value="1600"/>
-   </properties>
-  </object>
-  <object name="Moscego (1) [15min]" type="-spawn" x="672" y="832" width="576" height="128">
-   <properties>
-    <property name="a" value=""/>
-   </properties>
-  </object>
+ <objectgroup color="#0055ff" name="Comentário" width="60" height="51">
+  <object name="Lunovox: Esse Warp é feito por um arquivo em &quot;npc/prisao/warp_prisao.conf&quot;" x="1248" y="640" width="32" height="64"/>
  </objectgroup>
 </map>

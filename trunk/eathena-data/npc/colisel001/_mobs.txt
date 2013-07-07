@@ -3,3 +3,14 @@
 //   → Arquivo compilado apartir de colisel001.tmx
 ///////////////////////////////////////////////////////////////////
 
+colisel001.gat,123,127,183,188	monster	Rato (30)	1323,30,0,0,Mobcolisel001::On1323
+
+colisel001.gat,0,0,0	script	Mobcolisel001	-1,{
+
+On1323:
+	set @mobID, 1323;
+	callfunc "MobPoints";
+break;
+
+end;
+}
