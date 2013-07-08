@@ -52,11 +52,11 @@ save: 20
 // Warps you to your last save point.
 return: 20
 
-// Send text to the GM log
+// Envia um texto para o log de comandos
 log: 20
 l: 20
 
-// Send text to the GM log and local chat
+// Envia um texto para o log de comandos e para o chat local
 tee: 20
 t: 20
 
@@ -64,9 +64,9 @@ t: 20
 goto: 20
 
 // iterate over players
-// forward
+// Transporta o GM de Jogador para Jogador
 hugo: 20
-// backward
+// Transporta o GM de Jogador para Jogador na ordem inversa do comando @hugo
 linus: 20
 
 // Enables a NPC.
@@ -88,8 +88,8 @@ mapinfo: 20
 // Locate someone on a map, returns your coordinates if the person isn't on.
 where: 40
 
-// follow a player (including warping to them)
-follow: 40
+// follow a player (including warping to them) - Comando indisponivel.
+//follow: 40 
 
 // Sets the speed you can walk/attack at. Default is 150.
 speed: 40
@@ -203,8 +203,8 @@ charblvl: 99
 // Suicide your character.
 die: 99
 
-// Spawns you to set points in major cities.
-go: 99
+// Spawns you to set points in major cities. Indisponivel no momento
+//go: 99
 
 // Returns list of logged in characters with their position in a specifical map.
 whomap: 99
@@ -267,8 +267,11 @@ blvl: 99
 // Raises your job level (3 same commands).
 jlvl: 99
 
-// Unmute a player
-unmute: 99
+// mute a player - Comando inexistente no tmw-br
+//mute: 99 
+
+//Unmute a player
+unmute: 99 
 
 // Changes the sex of an online player (all characters on the account)
 charchangesex: 99
@@ -330,11 +333,11 @@ stpoint: 99
 // Gives you skill points of desired amount.
 skpoint: 99
 
-// To send specified character in jails
-jail: 99
+// To send specified character in jails - Sem suporte no tmw-br
+//jail: 99
 
-// To discharge a prisoner
-unjail: 99
+// To discharge a prisoner - Sem suporte no tmw-br
+//unjail: 99
 
 //----------------------
 // 80: "eA Dev"
@@ -368,12 +371,6 @@ doom: 99
 
 // Set the map you are currently on to night.
 night: 99
-
-// Revives all players on the map.
-raisemap: 99
-
-// Revives all players on the server.
-raise: 99
 
 // Move a NPC
 npcmove: 99
@@ -436,14 +433,14 @@ agitstart: 99
 agitend: 99
 
 // Levels your guild to specified level
-guildlvl: 99
+guildlvl: 80
 
 // craete a party/guild
-guild: 99
-party: 99
+guild: 80
+party: 80
 
 // Warps all online character of a guild to you. (at least one member of that guild must be on.)
-guildrecall: 99
+guildrecall: 80
 
 // Allows you to spy on any Guilds Guild chat. (at least one member of that guild must be on.)
 guildspy: 99
@@ -508,3 +505,9 @@ reloadgmdb: 99
 
 // Brings up your personal storage wherever you are.
 storage: 99
+
+//Ressuscita todos os jogadores do servidor.
+raise: 99
+
+//Ressuscita todos os jogadores do mapa.
+raisemap: 99
