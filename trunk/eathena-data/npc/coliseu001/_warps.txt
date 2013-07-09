@@ -1,0 +1,8 @@
+///////////////////////////////////////////////////////////////////
+//  IDE: TMW-Maker 2 Java
+//   → Arquivo compilado apartir de coliseu001.tmx
+///////////////////////////////////////////////////////////////////
+
+coliseu001.gat,125,223	warp	Para Fora	1,0,010.gat,39,41
+coliseu001.gat,128,50	warp	Para Portão	3,0,010.gat,41,25
+coliseu001.gat,124,50	warp	Para Portão	3,0,010.gat,38,25

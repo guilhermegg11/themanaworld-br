@@ -85,4 +85,4 @@ import: npc/froz002/_import.txt
 
 import: npc/evento/2010-12/_import.txt
 
-import: npc/colisel001/_import.txt
+import: npc/coliseu001/_import.txt

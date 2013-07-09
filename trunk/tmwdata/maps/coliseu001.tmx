@@ -2,9 +2,9 @@
 <map version="1.0" orientation="orthogonal" width="250" height="250" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Clouds Calling.ogg"/>
-  <property name="name" value="Colisel"/>
+  <property name="name" value="Coliseu"/>
   <property name="overlay0image" value="graphics/images/ambient/night2.png"/>
-  <property name="pasta" value="colisel001"/>
+  <property name="pasta" value="coliseu001"/>
  </properties>
  <tileset firstgid="1" name="collisions" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collisions.png" width="96" height="64"/>
