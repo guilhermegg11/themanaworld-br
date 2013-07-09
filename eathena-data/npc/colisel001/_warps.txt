@@ -1,8 +1,0 @@
-///////////////////////////////////////////////////////////////////
-//  IDE: TMW-Maker 2 Java
-//   → Arquivo compilado apartir de colisel001.tmx
-///////////////////////////////////////////////////////////////////
-
-colisel001.gat,125,223	warp	Para Fora	1,0,010.gat,39,41
-colisel001.gat,128,50	warp	Para Portão	3,0,010.gat,41,25
-colisel001.gat,124,50	warp	Para Portão	3,0,010.gat,38,25
