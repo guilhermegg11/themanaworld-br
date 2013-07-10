@@ -1,0 +1,14 @@
+coliseu001.gat,142,205,0	script	#Prisioneiro01	313,0,0,{
+	mes "[Prisioneiro]";
+	mes "\"Me tire daquiiii! Eu sou inoceeeente.\"";
+	close;
+}
+
+coliseu001.gat,142,206,0	script	#Prisioneiro	300,2,15,{
+	set @tmp, rand(4);
+	if(@tmp==0) npctalk "Socorro! Socorro!!";
+	if(@tmp==1) npctalk "Oh! E agora quem poderá me defender?";
+	if(@tmp==2) npctalk "Eu sou inocente eu juro!";
+	if(@tmp==3) npctalk "Hei! Me liberte que eu te dou um tesouro raro!";
+	end;
+}

@@ -8,3 +8,4 @@ map: coliseu001.gat
 npc: npc/coliseu001/_mobs.txt
 npc: npc/coliseu001/_warps.txt
 
+npc: npc/coliseu001/prisioneiros.npc
