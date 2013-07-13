@@ -1,19 +1,36 @@
 coliseu001.gat,142,205,0	script	#Prisioneiro01	313,0,0,{
+
+if(baselevel<40) goto _semLVL;
 	mes "[Prisioneiro]";
 	mes "\"Me tire daquiiii! Eu sou inoceeeente.\"";
-	close;
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "\"Qual foi o seu crime?\"";
+	next;
+	mes "início da quest...";
+close;
+	
+_semLVL:
+	mes "[Prisioneiro]";
+	mes "\"Será possivel q não tem ninguem aqui forte o suficiente para me ajudar? Cho! Cho! Cho! Sai! Vaza!\"";
+close;
 }
 
 coliseu001.gat,142,206,0	script	#Prisioneiro	300,2,15,{
-	set @tmp, rand(9);
-	if(@tmp==0) npctalk "Socorro! Socorro!!";
-	if(@tmp==1) npctalk "Oh! E agora quem poderá me defender?";
-	if(@tmp==2) npctalk "Eu sou inocente eu juro!";
-	if(@tmp==3) npctalk "Mãe do Céu, não quero morrer aqui!";
-	if(@tmp==4) npctalk "Por tudo quanto é mais sagrado me liberte!";
-	if(@tmp==5) npctalk "Eu juro que serei bonzinho!";
-	if(@tmp==6) npctalk "Não quero morrer aqui dentro!";
-	if(@tmp==7) npctalk "Não quero morrer me degladiando no coliseu!";
-	if(@tmp==8) npctalk "Hei! Me liberte que eu te dou um tesouro raro!";
-	end;
+
+if(baselevel<40) goto _semLVL;
+	emotion 13; // Emote de quest!!! XD 
+end;
+
+_semLVL:
+	set @tmp, rand(8);
+	if(@tmp==0 && baselevel<40 ) npctalk "Socorro! Socorro!!";
+	if(@tmp==1 && baselevel<40 ) npctalk "Oh! E agora quem poderá me defender?";
+	if(@tmp==2 && baselevel<40 ) npctalk "Eu sou inocente eu juro!";
+	if(@tmp==3 && baselevel<40 ) npctalk "Mãe do Céu, não quero morrer aqui!";
+	if(@tmp==4 && baselevel<40 ) npctalk "Por tudo quanto é mais sagrado me liberte!";
+	if(@tmp==5 && baselevel<40 ) npctalk "Eu juro que serei bonzinho!";
+	if(@tmp==6 && baselevel<40 ) npctalk "Não quero morrer aqui dentro!";
+	if(@tmp==7 && baselevel<40 ) npctalk "Não quero morrer me degladiando no coliseu!";
+end;
 }

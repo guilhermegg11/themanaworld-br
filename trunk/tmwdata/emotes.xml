@@ -11,6 +11,7 @@
 	<emote id="9"><sprite name="Sorriso" variant="9">emote.xml</sprite></emote>
 	<emote id="10"><sprite name="Raiva" variant="10">emote.xml</sprite></emote>
 	<emote id="11"><sprite name="Perturbado" variant="11">emote.xml</sprite></emote>
-	<emote id="12"><sprite name="Fala" variant="14">emote.xml</sprite></emote>
+	<emote id="12"><sprite name="Quest Disponível" variant="12">emote.xml</sprite></emote>
 	<emote id="13"><sprite name="Blah Blah Blah" variant="13">emote.xml</sprite></emote>
+	<emote id="14"><sprite name="Fala" variant="14">emote.xml</sprite></emote>
 </emotes>
