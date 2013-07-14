@@ -95,7 +95,7 @@
    H4sIAAAAAAAAA+3UvQkCQRCA0UGjA0u4KgwN7cia/GnA0wYU63IFgws80MRx5D0Y2HBgPyYCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKhsMc/egCoerSz1wpv61spmlr0FFVS6Lesie/6zvtAfrEIzmSrdljHN5Kh0W8hV9baQw23hE3oBAAAAAAAAAACAiG0XsWtzfc6+zaHL3opfdWxtDKM+Tu191gsTLi/auOmFCXoBAAAAAAAAAAAAAAAAAAAAAAAAAAAA+L47s8pErGAcAQA=
   </data>
  </layer>
- <layer name="collision" width="140" height="130" visible="0" opacity="0.45">
+ <layer name="collision" width="140" height="130" opacity="0.45">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+2UWa7jMAwEjdz/0PP1AEOjhZtEKqkGCjFimWvbn+d5PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB3gK1PBXx6gWjyJjefJ+C1V6m83Zo8ja3jFP5K1Ipd5GtVgVWZcmZ2Tuaqx68/Qufbadd/v807mW6rRfIvNWZNSbdgZSRe/Fksc6o6z8lRj1pp1BhCI9Ez2jzPyVGPWmnUGEbvPL6t438kyuRzOImMcofpRO+OVU/kp4FZn/01x74mXPKHuvGX75NL+auWhn1ubBLzWZ9br67xn8t9LOfVufnz2z6tXqqTbGDVj6lsxQGuekXyoqe/8ev1j79dz/O/OLfsnefUW/eOJafBSVW3M2YgfZPjjtl1Pvb5XvRPT8s31g8Yt0F22fvyTJDK2zvwHJfDz3T+jkt201O++7mu0Hr19WitzVLJbk3i7faGZmmX17XRmvvO9FRP5RnKiaVvesOSNrxi+y3Kf8YqnpG/2imdns7G6/SGN8hM/gl737Wik6f0T93po+zW8vviTn6v+Imm/zTFT+yDoj6zmlbC9YPaPd1+isJ69WK+9pa4p+p3r1fl7Xktoq0fah2fNsJpqzO/fT5vLUoq1R8k72/qtMW++st+i9amPu9JS1P8v5m/0indPJvLs86ZnBKa/eQlZvHlWqxaPs3d8yJ6sq9uepJXv/0T464c3VXqPjRUs7g9717VhmYfXLSFFxovpo48xiS3JG1VWB9ywi5y1VhEdm8XbMSJt/V12ZfpFql1805731afcozT07k73nqHlYFO0Xb75d74a11tH/1fHWOpuJ9rmeh6Xa5ZUdnvtlv+zezfveTDtritatfsmuVTIvqfALfhmd6UnrAe/ZE71Xw1JvVG/SefXO9XSzX7J94NmbRJLnVz6zauU3SZ6Is5r5fpNferVrJX0myi/fpOzdR3imsm6qtdXsu3gjN+hkzSfi34ymzyytaq/k+1Ut2fuu8n05tbNVL6e9o33nbudW3dhP9q5vhnkCwC56yq4JbHtrpTmLxsre9QmvWOaB+sred7ZHTvhjlONGb2bvvopvZrpxr7uUvfPqXkH/K3v3+OU+Ze/f45ub/XOr/7P3Xu374skze/ZWf7TK3r/XK5V2UKmWncr2QaXvC5Ip2wd45g59mutbaGtG55XtgajvC/7Zr2wPRPoF2dXOdzbvbB9IvTLyDX7SyzqvbB9Yvyv447yyfeDxC9qj0ff7fX0Dbf0nfNTm0eS11v++N7reoVXs7P3v+NaMzq5ieXwhqUdT7+y/6PzWeDewmsHq/91eXakXIzrfjnjS2BXR9hrVby+epxZJTdqcll60PWXvf4d/RvNexejF9HhkVJfEx97Y0TPdlSvTJ9o+MzXzjDXWqflm7/60bypK+26/r0/MN3vP3+aX3h61z0nPgs8vkd6ZxR3l6T2z09PZM/8GnubaIkkObaxoZc/5dlZzldyP8Eikb0exYZ9fHuWZWfxVzt7/Vt9p6wO9X0bXkrlrdzKT9NmIWBDnn9XMZ7vpPSdVhOcs8SDWNxFaee197ak1e26/Tk/S5zQezO4TcnkW91pl1wt1eSu7FqjPW9m1QH3eyq4FAAAAAAAAAAAAAAAAAAAAAAAAAAAAQMs/fm+Y22AcAQA=
   </data>
@@ -362,6 +362,7 @@
   <properties>
    <property name="file-guarda" value="guardas.conf"/>
    <property name="file-idolos" value="idolos.conf"/>
+   <property name="file-mackey" value="mackey.conf"/>
    <property name="file-mestre" value="MestreDosCavaleiros.conf"/>
   </properties>
  </objectgroup>
