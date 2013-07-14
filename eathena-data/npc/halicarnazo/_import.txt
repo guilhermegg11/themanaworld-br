@@ -12,4 +12,5 @@ npc: npc/halicarnazo/_shops.txt
 
 npc: npc/halicarnazo/guardas.conf
 npc: npc/halicarnazo/idolos.conf
+npc: npc/halicarnazo/mackey.conf
 npc: npc/halicarnazo/MestreDosCavaleiros.conf

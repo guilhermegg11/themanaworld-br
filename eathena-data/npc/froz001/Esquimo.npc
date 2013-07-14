@@ -9,7 +9,24 @@
 // Screenshot:		http://ompldr.org/vaGM4cA/Esquimo.png
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-froz001.gat,130,53,0	script	Treinador Esquimó	116,{
+
+froz001.gat,130,52,0	script	#TreinadorEsquimó	300,10,10,{ 
+//npctalk Reino+"←=→"+$PosseDeFroz;
+if(Reino!=$PosseDeFroz) goto _Raiva;
+if(BaseLevel>=10) end;
+	emotion 13; // Emote de quest!!! XD 
+end;
+
+_Raiva:
+	emotion 11; // Emote de Raiva pelo invasor!!! XD 
+	heal -(MaxHp/10),0; // NPC Ataca o invasor tirando 10% de HP!!
+end;
+
+}
+
+//############################################################################
+
+froz001.gat,130,53,0	script	Treinador Esquimó	116,1,1,{
 // Pós-requisitos
 	set @CaudaDeRato, 3169;				// ← Dropado do Rato de Gelo
 	set @DenteDeRato, 3168;				// ← Dropado do Rato de Gelo
