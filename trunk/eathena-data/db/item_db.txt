@@ -1652,4 +1652,11 @@
 4050,boinaazul,Boina Azul,5,2000,1000,60,,3,,0,0,2,256,,10,0,{},{}
 4051,boinaamarela,Boina Amarela,5,2000,1000,60,,3,,0,0,2,256,,10,0,{},{}
 4052,boinarosa,Boina Rosa,5,2000,1000,60,,3,,0,0,2,256,,10,0,{},{}
+//########## LIVROS COM DEFEITO (Pois não pode usar comandos: mes, menu ) ###################################
+//4053,LivroDos6Mestres,Livro dos 6 Mestres,0,15000,10,1,,,,,,2,,,0,,{ getitem 4053,1; callfunc "lerCronica6Mestres"; },{}
+//4054,LivroDeBhramir,Livro de Bhrami,0,10000,10,1,,,,,,2,,,0,,{ getitem 4054,1; callfunc "lerBhramir"; },{}
+//4055,LivroDeHalicarnazo,Livro de Halicarnazo,0,10000,10,1,,,,,,2,,,0,,{ getitem 4055,1; callfunc "lerHalicarnazo"; },{}
+//4056,LivroDeFroz,Livro de Froz,0,10000,10,1,,,,,,2,,,0,,{ getitem 4056,1; callfunc "lerFroz"; },{}
 4057,mascaradeaguia,Máscara de Aguia,5,140000,75000,60,,7,,0,0,2,256,,30,0,{},{}
+4058,LivroDeArtesanato,Livro de Artesanato,0,25000,10,1,,,,,,2,,,0,,{ getitem 4058,1; callfunc "openCraftingBook"; },{}
+

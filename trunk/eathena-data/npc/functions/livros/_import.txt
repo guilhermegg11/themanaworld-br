@@ -1,9 +1,10 @@
 // This is the main script import file
 
+npc: npc/functions/livros/book_Bhramir.conf
+npc: npc/functions/livros/book_Crafting.conf
 npc: npc/functions/livros/book_Cronica6Mestres.conf
+npc: npc/functions/livros/book_Froz.conf
 npc: npc/functions/livros/book_Grimoriums.conf
 npc: npc/functions/livros/book_Halicarnazo.conf
-npc: npc/functions/livros/book_Froz.conf
-npc: npc/functions/livros/book_Bhramir.conf
 npc: npc/functions/livros/book_Lilit.conf
 
