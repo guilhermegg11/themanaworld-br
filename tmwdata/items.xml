@@ -6456,49 +6456,49 @@
 	<item id="3207"
 		image="generic-grimorium-cavaleiro.png"
 		name="Grimorium Azul"
-		description="Contem Magias de Poder usado por Cavaleiros e Amazonas."
+		description="Contem habilidades exclusivas para Cavaleiros e Amazonas."
 		type="generic"
 		weight="1"
 	/>
 	<item id="3208"
 		image="generic-grimorium-mago.png"
 		name="Grimorium Púrpura"
-		description="Contem Magias Elementares usado por Magos e Feiticeiras."
+		description="Contem habilidades exclusivas para Magos e Feiticeiras."
 		type="generic"
 		weight="1"
 	/>
 	<item id="3209"
 		image="generic-grimorium-necromante.png"
 		name="Grimorium Negro"
-		description="Contem Magias dos Mortos usado por Necromantes."
+		description="Contem habilidades exclusivas para Necromantes."
 		type="generic"
 		weight="1"
 	/>
 	<item id="3210"
 		image="generic-grimorium-druida.png"
 		name="Grimorium Verde"
-		description="Contem Magias da Natureza usado por Druidas e Druidezas."
+		description="Contem habilidades exclusivas para Druidas e Druidezas."
 		type="generic"
 		weight="1"
 	/>
 	<item id="3211"
 		image="generic-grimorium-ninja.png"
 		name="Grimorium Rubro"
-		description="Contem Magias da Furtividade usado por Ninjas e Kunoichis."
+		description="Contem habilidades exclusivas para Ninjas e Kunoichis."
 		type="usable"
 		weight="1"
 	/>
 	<item id="3212"
 		image="generic-grimorium-clerigo.png"
 		name="Grimorium Branco"
-		description="Contem Magias dos Deuses usado por Paladinos e Sacerdotisas."
+		description="Contem habilidades exclusivas para Paladinos e Sacerdotisas."
 		type="usable"
 		weight="1"
 	/>
 	<item id="3213"
 		image="generic-grimorium-prisma.png"
 		name="Grimorium Prisma"
-		description="Contem magias ancestrais esquecidas por guerreiros lendários."
+		description="Contem todas as habilidades do mundo usada apenas por guerreiros lendários."
 		type="generic"
 		weight="1"
 	/>
@@ -14723,6 +14723,39 @@
 		<sprite>equipment/head/head-boina.sas|#ff4b4b,ffcccc</sprite>
 	</item>
 
+	<!--	
+	########## LIVROS COM DEFEITO (Pois não pode usar comandos: mes, menu ) ###################################
+	
+	<item id="4053"
+		image="book-generic.png"
+		name="Crônica dos 6 Mestres"
+		description="Livro que conta como nasceu as 6 classes."
+		type="book"
+		weight="1"
+	/>
+	<item id="4054"
+		image="book-generic2.png"
+		name="Crônica de Bhramir"
+		description="Livro que conta tudo sobre a história da Ilha de Bhramir."
+		type="book"
+		weight="1"
+	/>
+	<item id="4055"
+		image="book-generic2.png"
+		name="Crônica de Halicarnazo"
+		description="Livro que conta tudo sobre a história de Cidade de Halicarnazo."
+		type="book"
+		weight="1"
+	/>
+	<item id="4065"
+		image="book-generic2.png"
+		name="Crônica de Froz"
+		description="Livro que conta tudo sobre a história de Cidade de Froz."
+		type="book"
+		weight="1"
+	/> 
+	########################################################################################### -->
+
 	<!--item id="4057"
 		image="armor-head-mask-aguia.png"
 		name="Máscara de Águia"
@@ -14732,5 +14765,13 @@
 		defense="1">
 		<sprite>equipment/head/head-mask-aguia.sas</sprite>
 	</item-->
-	
+	<item id="4058"
+		image="book-generic.png"
+		name="Livro de Artesanato"
+		description="Ensina como fazer artesanato para todos."
+		type="book"
+		weight="1"
+	/>
+
+
 </items>   
